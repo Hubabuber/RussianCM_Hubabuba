@@ -9,6 +9,7 @@ using Content.Shared._RMC14.Marines.Squads;
 using Content.Shared._RMC14.Rules;
 using Content.Shared._RMC14.Survivor;
 using Content.Shared.Chat;
+using Content.Shared.Corvax.TTS;
 using Content.Shared.Database;
 using Content.Shared.Ghost;
 using Content.Shared.Radio;
@@ -149,6 +150,7 @@ public sealed class MarineAnnounceSystem : SharedMarineAnnounceSystem
         string? author = null,
         SoundSpecifier? sound = null)
     {
+        RaiseLocalEvent(new RMCAnnouncementMadeEvent(null, message)); // RuMC Announce TTS
         var wrappedMessage = FormatHighCommand(author, message);
         AnnounceToMarines(wrappedMessage);
     }
@@ -191,6 +193,8 @@ public sealed class MarineAnnounceSystem : SharedMarineAnnounceSystem
                 return false;
             });
         }
+
+        RaiseLocalEvent(new RMCAnnouncementMadeEvent(source, message, filter)); // RuMC Announce TTS
 
         AnnounceToMarines(message, sound, filter);
         _adminLogs.Add(LogType.RMCMarineAnnounce, $"{ToPrettyString(source):player} ARES announced message: {message}");

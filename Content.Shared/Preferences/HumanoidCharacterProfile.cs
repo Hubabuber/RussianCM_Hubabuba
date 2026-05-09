@@ -6,6 +6,7 @@ using Content.Shared._RMC14.Xenonids.Name;
 using Content.Shared.AU14.Allegiance;
 using Content.Shared.AU14.Origin;
 using Content.Shared.CCVar;
+using Content.Shared.Corvax.TTS;
 using Content.Shared.GameTicking;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
@@ -78,6 +79,10 @@ namespace Content.Shared.Preferences
         /// </summary>
         [DataField]
         public ProtoId<SpeciesPrototype> Species { get; set; } = SharedHumanoidAppearanceSystem.DefaultSpecies;
+
+        // RUMC TTS
+        [DataField]
+        public string Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice;
 
         [DataField]
         public int Age { get; set; } = 18;
@@ -167,6 +172,7 @@ namespace Content.Shared.Preferences
             string name,
             string flavortext,
             string species,
+            string voice,
             int age,
             Sex sex,
             Gender gender,
@@ -189,6 +195,7 @@ namespace Content.Shared.Preferences
             Name = name;
             FlavorText = flavortext;
             Species = species;
+            Voice = voice;
             Age = age;
             Sex = sex;
             Gender = gender;
@@ -229,6 +236,7 @@ namespace Content.Shared.Preferences
             : this(other.Name,
                 other.FlavorText,
                 other.Species,
+                other.Voice,
                 other.Age,
                 other.Sex,
                 other.Gender,
@@ -289,6 +297,14 @@ namespace Content.Shared.Preferences
             return RandomWithSpecies(species);
         }
 
+        // Corvax-TTS-Start
+        public static bool CanHaveVoice(TTSVoicePrototype voice, Sex sex)
+        {
+            return voice.RoundStart &&
+                   (sex == Sex.Unsexed || voice.Sex == sex || voice.Sex == Sex.Unsexed);
+        }
+        // Corvax-TTS-End
+
         public static HumanoidCharacterProfile RandomWithSpecies(string? species = null)
         {
             species ??= SharedHumanoidAppearanceSystem.DefaultSpecies;
@@ -303,6 +319,13 @@ namespace Content.Shared.Preferences
                 sex = random.Pick(speciesPrototype.Sexes);
                 age = random.Next(speciesPrototype.MinAge, speciesPrototype.OldAge); // people don't look and keep making 119 year old characters with zero rp, cap it at middle aged
             }
+
+            // Corvax-TTS-Start
+            var voiceId = random.Pick(prototypeManager
+                .EnumeratePrototypes<TTSVoicePrototype>()
+                .Where(o => CanHaveVoice(o, sex))
+                .ToArray()).ID;
+            // Corvax-TTS-End
 
             var gender = Gender.Epicene;
 
@@ -325,6 +348,7 @@ namespace Content.Shared.Preferences
                 Age = age,
                 Gender = gender,
                 Species = species,
+                Voice = voiceId,
                 Appearance = HumanoidCharacterAppearance.Random(species, sex),
             };
         }
@@ -358,6 +382,13 @@ namespace Content.Shared.Preferences
         {
             return new(this) { Species = species };
         }
+
+        // Corvax-TTS-Start
+        public HumanoidCharacterProfile WithVoice(string voice)
+        {
+            return new(this) { Voice = voice };
+        }
+        // Corvax-TTS-End
 
 
         public HumanoidCharacterProfile WithCharacterAppearance(HumanoidCharacterAppearance appearance)
@@ -564,6 +595,7 @@ namespace Content.Shared.Preferences
             if (Sex != other.Sex) return false;
             if (Gender != other.Gender) return false;
             if (Species != other.Species) return false;
+            if (Voice != other.Voice) return false;
             if (PreferenceUnavailable != other.PreferenceUnavailable) return false;
             if (SpawnPriority != other.SpawnPriority) return false;
             if (SquadPreference != other.SquadPreference) return false;
@@ -763,6 +795,14 @@ namespace Content.Shared.Preferences
             _traitPreferences.Clear();
             _traitPreferences.UnionWith(GetValidTraits(traits, prototypeManager));
 
+            // Corvax-TTS-Start
+            prototypeManager.TryIndex<TTSVoicePrototype>(Voice, out var voice);
+            if (voice is null || !CanHaveVoice(voice, sex))
+            {
+                Voice = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
+            }
+            // Corvax-TTS-End
+
             // Checks prototypes exist for all loadouts and dump / set to default if not.
             var toRemove = new ValueList<string>();
 
@@ -905,6 +945,7 @@ namespace Content.Shared.Preferences
             hashCode.Add(Name);
             hashCode.Add(FlavorText);
             hashCode.Add(Species);
+            hashCode.Add(Voice);
             hashCode.Add(Age);
             hashCode.Add((int)Sex);
             hashCode.Add((int)Gender);

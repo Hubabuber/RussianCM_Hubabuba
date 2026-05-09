@@ -2,6 +2,7 @@ using System.IO;
 using System.Linq;
 using System.Numerics;
 using Content.Client._RMC14.NamedItems;
+using Content.Client.Corvax.TTS;
 using Content.Client.Humanoid;
 using Content.Client.Lobby.UI.Loadouts;
 using Content.Client.Lobby.UI.Roles;
@@ -18,6 +19,7 @@ using Content.Shared._RMC14.Prototypes;
 using Content.Shared.AU14.Allegiance;
 using Content.Shared.AU14.Origin;
 using Content.Shared.CCVar;
+using Content.Shared.Corvax.CCCVars;
 using Content.Shared.Clothing;
 using Content.Shared.GameTicking;
 using Content.Shared.Guidebook;
@@ -70,6 +72,8 @@ namespace Content.Client.Lobby.UI
 
         // One at a time.
         private LoadoutWindow? _loadoutWindow;
+
+        private TTSTab? _ttsTab; // Corvax-TTS
 
         private bool _exporting;
         private bool _imaging;
@@ -545,6 +549,7 @@ namespace Content.Client.Lobby.UI
             #endregion Markings
 
             RefreshFlavorText();
+            RefreshVoiceTab(); // Corvax-TTS
 
             #region Dummy
 
@@ -627,6 +632,42 @@ namespace Content.Client.Lobby.UI
                 _flavorText = null;
             }
         }
+
+        // Corvax-TTS-Start
+        #region Voice
+
+        private void RefreshVoiceTab()
+        {
+            if (!_cfgManager.GetCVar(CCCVars.TTSEnabled))
+                return;
+
+            _ttsTab = new TTSTab();
+            TabContainer.AddChild(_ttsTab);
+            TabContainer.SetTabTitle(TabContainer.ChildCount - 1, Loc.GetString("humanoid-profile-editor-voice-tab"));
+
+            _ttsTab.OnVoiceSelected += voiceId =>
+            {
+                SetVoice(voiceId);
+                _ttsTab.SetSelectedVoice(voiceId);
+            };
+
+            _ttsTab.OnPreviewRequested += voiceId =>
+            {
+                _entManager.System<TTSSystem>().RequestPreviewTTS(voiceId);
+            };
+        }
+
+        private void UpdateTTSVoicesControls()
+        {
+            if (Profile is null || _ttsTab is null)
+                return;
+
+            _ttsTab.UpdateControls(Profile, Profile.Sex);
+            _ttsTab.SetSelectedVoice(Profile.Voice);
+        }
+
+        #endregion
+        // Corvax-TTS-End
 
         /// <summary>
         /// Refreshes traits selector
@@ -933,6 +974,7 @@ namespace Content.Client.Lobby.UI
             UpdateEyePickers();
             UpdateSaveButton();
             UpdateMarkings();
+            UpdateTTSVoicesControls(); // Corvax-TTS
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
@@ -1400,6 +1442,7 @@ namespace Content.Client.Lobby.UI
             }
 
             UpdateGenderControls();
+            UpdateTTSVoicesControls(); // Corvax-TTS
             Markings.SetSex(newSex);
             ReloadPreview();
         }
@@ -1409,6 +1452,14 @@ namespace Content.Client.Lobby.UI
             Profile = Profile?.WithGender(newGender);
             ReloadPreview();
         }
+
+        // Corvax-TTS-Start
+        private void SetVoice(string newVoice)
+        {
+            Profile = Profile?.WithVoice(newVoice);
+            IsDirty = true;
+        }
+        // Corvax-TTS-End
 
         private void SetSpecies(string newSpecies)
         {

@@ -1,5 +1,6 @@
 using Content.Shared._RMC14.Humanoid;
 using Content.Shared.DisplacementMap;
+using Content.Shared.Corvax.TTS;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Inventory;
@@ -48,6 +49,14 @@ public sealed partial class HumanoidAppearanceComponent : Component, IRMCHumanoi
     /// </summary>
     [DataField(required: true), AutoNetworkedField]
     public ProtoId<SpeciesPrototype> Species { get; set; }
+
+    // Corvax-TTS-Start
+    /// <summary>
+    ///     Current voice. Used for correct cloning.
+    /// </summary>
+    [DataField("voice")]
+    public ProtoId<TTSVoicePrototype> Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice;
+    // Corvax-TTS-End
 
     /// <summary>
     ///     The initial profile and base layers to apply to this humanoid.

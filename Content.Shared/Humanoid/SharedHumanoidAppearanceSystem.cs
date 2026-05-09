@@ -1,6 +1,7 @@
 using System.IO;
 using System.Linq;
 using System.Numerics;
+using Content.Shared.Corvax.TTS;
 using Content.Shared.CCVar;
 using Content.Shared.Decals;
 using Content.Shared.Examine;
@@ -43,6 +44,16 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     [Dependency] private readonly SharedIdentitySystem _identity = default!;
 
     public static readonly ProtoId<SpeciesPrototype> DefaultSpecies = "Human";
+
+    // Corvax-TTS-Start
+    public const string DefaultVoice = "STRELOK";
+    public static readonly Dictionary<Sex, string> DefaultSexVoice = new()
+    {
+        { Sex.Male, "STRELOK" },
+        { Sex.Female, "CAITLYN" },
+        { Sex.Unsexed, "SENTRYBOT" },
+    };
+    // Corvax-TTS-End
 
     public override void Initialize()
     {
@@ -447,6 +458,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         EnsureDefaultMarkings(uid, humanoid);
+        SetTTSVoice(uid, profile.Voice, humanoid); // Corvax-TTS
 
         humanoid.Gender = profile.Gender;
         if (TryComp<GrammarComponent>(uid, out var grammar))
@@ -525,6 +537,17 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         if (sync)
             Dirty(uid, humanoid);
     }
+
+    // Corvax-TTS-Start
+    public void SetTTSVoice(EntityUid uid, string voiceId, HumanoidAppearanceComponent humanoid)
+    {
+        if (!TryComp<TTSComponent>(uid, out var comp))
+            return;
+
+        humanoid.Voice = voiceId;
+        comp.VoicePrototypeId = voiceId;
+    }
+    // Corvax-TTS-End
 
     /// <summary>
     /// Takes ID of the species prototype, returns UI-friendly name of the species.

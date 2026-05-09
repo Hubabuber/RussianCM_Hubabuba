@@ -27,6 +27,7 @@ using Content.Server.Players.PlayTimeTracking;
 using Content.Server.Players.RateLimiting;
 using Content.Server.Preferences.Managers;
 using Content.Server.API;
+using Content.Server.Corvax.TTS;
 using Content.Server.ServerInfo;
 using Content.Server.ServerUpdates;
 using Content.Server.Voting.Managers;
@@ -65,6 +66,7 @@ namespace Content.Server.IoC
             IoCManager.Register<ContentNetworkResourceManager>();
             IoCManager.Register<IAdminNotesManager, AdminNotesManager>();
             IoCManager.Register<GhostKickManager>();
+            IoCManager.Register<TTSManager>(); // Corvax-TTS
             IoCManager.Register<ISharedAdminLogManager, AdminLogManager>();
             IoCManager.Register<IAdminLogManager, AdminLogManager>();
             IoCManager.Register<PlayTimeTrackingManager>();
