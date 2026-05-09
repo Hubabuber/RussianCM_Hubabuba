@@ -897,7 +897,7 @@ public abstract class SharedCMUSurgeryFlowSystem : EntitySystem
         return true;
     }
 
-    private static string ResolveMaybeLoc(string value)
+    private string ResolveMaybeLoc(string value)
     {
         return Loc.TryGetString(value, out var localized) ? localized : value;
     }
