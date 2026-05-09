@@ -192,6 +192,37 @@ public sealed class PlayTimeTrackingManager : ISharedPlaytimeManager, IPostInjec
         FlushSingleTracker(data, time);
     }
 
+    // RuCM: API/offline tracker helpers.
+    public async Task AddTimeToTrackerById(NetUserId userId, string tracker, TimeSpan time)
+    {
+        foreach (var (session, _) in _playTimeData)
+        {
+            if (session.UserId == userId)
+            {
+                AddTimeToTracker(session, tracker, time);
+                return;
+            }
+        }
+
+        var playTimes = await _db.GetPlayTimes(userId, CancellationToken.None);
+        foreach (var timer in playTimes)
+        {
+            if (timer.Tracker != tracker)
+                continue;
+
+            await _db.UpdatePlayTimes(new List<PlayTimeUpdate>
+            {
+                new(userId, tracker, timer.TimeSpent + time)
+            });
+            return;
+        }
+
+        await _db.UpdatePlayTimes(new List<PlayTimeUpdate>
+        {
+            new(userId, tracker, time)
+        });
+    }
+
     private static void FlushSingleTracker(PlayTimeData data, TimeSpan time)
     {
         var delta = time - data.LastUpdate;

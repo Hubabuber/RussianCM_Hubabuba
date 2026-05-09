@@ -26,6 +26,7 @@ using Content.Server.Players.JobWhitelist;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Server.Players.RateLimiting;
 using Content.Server.Preferences.Managers;
+using Content.Server.API;
 using Content.Server.ServerInfo;
 using Content.Server.ServerUpdates;
 using Content.Server.Voting.Managers;
@@ -95,6 +96,9 @@ namespace Content.Server.IoC
             IoCManager.Register<CommendationManager>();
             IoCManager.Register<RMCActionsManager>();
             IoCManager.Register<RMCChatBansManager>();
+
+            // RuCM
+            IoCManager.Register<PlaytimeApi>();
         }
     }
 }
