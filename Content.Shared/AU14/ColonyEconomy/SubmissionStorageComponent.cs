@@ -9,5 +9,9 @@ namespace Content.Shared.AU14.ColonyEconomy;
 public sealed partial class SubmissionStorageComponent : Component
 {
     [DataField, ViewVariables]
-    public Dictionary<ProtoId<TagPrototype>, float>? Rewards;
+    public Dictionary<ProtoId<TagPrototype>, float?> Rewards;
+
+    [DataField("isCorporate")]
+    public bool IsCorporate = false;
+
 }

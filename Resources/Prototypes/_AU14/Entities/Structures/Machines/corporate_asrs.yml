@@ -6,8 +6,8 @@
 - type: entity
   parent: CMASRSConsole
   id: AU14CorporateASRSConsole
-  name: corporate supply console
-  description: A Weyland-Yutani corporate supply management terminal. Orders placed here are subject to the current sales tax rate.
+  name: корпоративная консоль поставок
+  description: Корпоративный терминал управления поставками Вестон-Ямада. На заказы, размещенные здесь, распространяется действующая ставка налога с продаж.
   suffix: Corporate, ASRS
   components:
   - type: RequisitionsComputer
@@ -35,7 +35,32 @@
         crate: RMCCrateInflatableBarriers
       - cost: 1500
         crate: RMCCrateEmptySandbags
-
+          - name: Weaponry
+      entries:
+      - cost: 3000
+        crate: AU14CrateM41AMK2
+      - cost: 2750
+        crate: AU14CrateM240A1
+      - cost: 2500
+        crate: AU14CrateFP9000
+      - cost: 4000
+        crate: AU14CrateSSG45
+      - cost: 6000
+        crate: AU14CrateM5A1SLAW_We-Yu
+      - cost: 3250
+        crate: AU14CrateM39B2
+    - name: Ammunition
+      entries:
+      - cost: 1000
+        crate: AU14CrateM41AMK2Ammo
+      - cost: 1400
+        crate: AU14CrateM240A1Ammo
+      - cost: 800
+        crate: AU14CrateFP9000Ammo
+      - cost: 1200
+        crate: AU14CrateSSG45Ammo
+      - cost: 1500
+        crate: AU14CrateM39B2Ammo
 
 # Corporate ASRS Elevator
 - type: entity
