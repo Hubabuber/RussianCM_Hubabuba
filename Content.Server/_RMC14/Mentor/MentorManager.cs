@@ -51,12 +51,12 @@ public sealed class MentorManager : IPostInjectInit
             var flags = AdminFlags.None;
             if (dbData?.AdminRank?.Flags != null)
             {
-                flags |= AdminFlagsHelper.NamesToFlags(dbData.AdminRank.Flags.Select(p => p.Flag));
+                flags |= ReadAdminFlags(player, dbData.AdminRank.Flags.Select(p => p.Flag));
             }
 
             if (dbData?.Flags != null)
             {
-                flags |= AdminFlagsHelper.NamesToFlags(dbData.Flags.Select(p => p.Flag));
+                flags |= ReadAdminFlags(player, dbData.Flags.Select(p => p.Flag));
             }
 
             isMentor = flags.HasFlag(AdminFlags.MentorHelp);
@@ -66,6 +66,26 @@ public sealed class MentorManager : IPostInjectInit
 
         if (isMentor)
             _activeMentors.Add(player);
+    }
+
+    private AdminFlags ReadAdminFlags(ICommonSession player, IEnumerable<string> flagNames)
+    {
+        var flags = AdminFlags.None;
+        foreach (var flagName in flagNames)
+        {
+            if (AdminFlagsHelper.TryNameToFlag(flagName, out var flag))
+            {
+                flags |= flag;
+                continue;
+            }
+
+            _log.RootSawmill.Warning(
+                "Ignoring unknown admin flag {Flag} while loading mentor status for {Player}",
+                flagName,
+                player.UserId);
+        }
+
+        return flags;
     }
 
     private void FinishLoad(ICommonSession player)

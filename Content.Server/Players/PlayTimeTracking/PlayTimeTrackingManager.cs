@@ -205,21 +205,18 @@ public sealed class PlayTimeTrackingManager : ISharedPlaytimeManager, IPostInjec
         }
 
         var playTimes = await _db.GetPlayTimes(userId, CancellationToken.None);
+        TimeSpan? existing = null;
         foreach (var timer in playTimes)
         {
             if (timer.Tracker != tracker)
                 continue;
 
-            await _db.UpdatePlayTimes(new List<PlayTimeUpdate>
-            {
-                new(userId, tracker, timer.TimeSpent + time)
-            });
-            return;
+            existing = (existing ?? TimeSpan.Zero) + timer.TimeSpent;
         }
 
         await _db.UpdatePlayTimes(new List<PlayTimeUpdate>
         {
-            new(userId, tracker, time)
+            new(userId, tracker, (existing ?? TimeSpan.Zero) + time)
         });
     }
 
@@ -349,6 +346,17 @@ public sealed class PlayTimeTrackingManager : ISharedPlaytimeManager, IPostInjec
 
         foreach (var timer in playTimes)
         {
+            if (data.TrackerTimes.TryGetValue(timer.Tracker, out var trackedTime))
+            {
+                data.TrackerTimes[timer.Tracker] = trackedTime + timer.TimeSpent;
+                data.DbTrackersDirty.Add(timer.Tracker);
+                _sawmill.Warning(
+                    "Merged duplicate playtime tracker {Tracker} while loading {Player}",
+                    timer.Tracker,
+                    session.UserId);
+                continue;
+            }
+
             data.TrackerTimes.Add(timer.Tracker, timer.TimeSpent);
         }
 

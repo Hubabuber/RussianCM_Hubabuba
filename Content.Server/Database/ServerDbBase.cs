@@ -644,11 +644,25 @@ namespace Content.Server.Database
             // Then we can update & insert without further round-trips to the DB.
 
             var players = updates.Select(u => u.User.UserId).Distinct().ToArray();
-            var dbTimes = (await db.DbContext.PlayTime
-                    .Where(p => players.Contains(p.PlayerId))
-                    .ToArrayAsync())
-                .GroupBy(p => p.PlayerId)
-                .ToDictionary(g => g.Key, g => g.ToDictionary(p => p.Tracker, p => p));
+            var dbTimes = new Dictionary<Guid, Dictionary<string, PlayTime>>();
+            var loadedTimes = await db.DbContext.PlayTime
+                .Where(p => players.Contains(p.PlayerId))
+                .ToArrayAsync();
+
+            foreach (var playerTimes in loadedTimes.GroupBy(p => p.PlayerId))
+            {
+                var trackers = new Dictionary<string, PlayTime>();
+                foreach (var trackerTimes in playerTimes.GroupBy(p => p.Tracker))
+                {
+                    var first = trackerTimes.First();
+                    trackers[trackerTimes.Key] = first;
+
+                    foreach (var duplicate in trackerTimes.Skip(1))
+                        db.DbContext.PlayTime.Remove(duplicate);
+                }
+
+                dbTimes[playerTimes.Key] = trackers;
+            }
 
             foreach (var (user, tracker, time) in updates)
             {

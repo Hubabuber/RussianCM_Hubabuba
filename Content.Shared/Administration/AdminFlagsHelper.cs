@@ -89,6 +89,11 @@ namespace Content.Shared.Administration
             return NameFlagsMap[name];
         }
 
+        public static bool TryNameToFlag(string name, out AdminFlags flag)
+        {
+            return NameFlagsMap.TryGetValue(name, out flag);
+        }
+
         /// <summary>
         ///     Converts a bitfield of admin flags to an array of all the flag names set.
         /// </summary>

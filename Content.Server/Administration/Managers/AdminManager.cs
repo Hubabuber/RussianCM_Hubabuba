@@ -465,12 +465,20 @@ namespace Content.Server.Administration.Managers
 
                 if (dbData.AdminRank != null)
                 {
-                    flags = AdminFlagsHelper.NamesToFlags(dbData.AdminRank.Flags.Select(p => p.Flag));
+                    flags = ReadAdminFlags(dbData.AdminRank.Flags.Select(p => p.Flag), session);
                 }
 
                 foreach (var dbFlag in dbData.Flags)
                 {
-                    var flag = AdminFlagsHelper.NameToFlag(dbFlag.Flag);
+                    if (!AdminFlagsHelper.TryNameToFlag(dbFlag.Flag, out var flag))
+                    {
+                        _sawmill.Warning(
+                            "Ignoring unknown admin flag {Flag} while loading admin data for {Player}",
+                            dbFlag.Flag,
+                            session.UserId);
+                        continue;
+                    }
+
                     if (dbFlag.Negative)
                     {
                         flags &= ~flag;
@@ -498,6 +506,26 @@ namespace Content.Server.Administration.Managers
 
                 return (data, dbData.AdminRankId, false);
             }
+        }
+
+        private AdminFlags ReadAdminFlags(IEnumerable<string> flagNames, ICommonSession session)
+        {
+            var flags = AdminFlags.None;
+            foreach (var flagName in flagNames)
+            {
+                if (AdminFlagsHelper.TryNameToFlag(flagName, out var flag))
+                {
+                    flags |= flag;
+                    continue;
+                }
+
+                _sawmill.Warning(
+                    "Ignoring unknown admin flag {Flag} while loading admin data for {Player}",
+                    flagName,
+                    session.UserId);
+            }
+
+            return flags;
         }
 
         private static bool IsLocal(ICommonSession player)
