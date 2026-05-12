@@ -13,11 +13,11 @@ jobs:
     if: github.actor != 'PJBot' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: read
+      pull-requests: write
       issues: write
     steps:
       - name: Check for Merge Conflicts
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         with:
           script: |
             const label = 'S: Merge Conflict';

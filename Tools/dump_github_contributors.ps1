@@ -112,11 +112,8 @@ function load_contribs([string] $repo)
     return $r
 }
 
-$engineRepo = if ([string]::IsNullOrWhiteSpace($env:ENGINE_REPOSITORY)) { "space-wizards/RobustToolbox" } else { $env:ENGINE_REPOSITORY }
-$contentRepo = if ([string]::IsNullOrWhiteSpace($env:CONTENT_REPOSITORY)) { "space-wizards/space-station-14" } else { $env:CONTENT_REPOSITORY }
-
-$engineJson = load_contribs($engineRepo)
-$contentJson = load_contribs($contentRepo)
+$engineJson = load_contribs("space-wizards/RobustToolbox")
+$contentJson = load_contribs("space-wizards/space-station-14")
 
 ($engineJson).login + ($contentJson).login + ($add) `
     | select -unique `

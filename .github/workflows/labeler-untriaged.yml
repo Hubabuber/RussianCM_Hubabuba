@@ -10,24 +10,11 @@ jobs:
   add_label:
     permissions:
       issues: write
-      pull-requests: read
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/github-script@v8
+    - uses: actions-ecosystem/action-add-labels@v1
+      if: join(github.event.issue.labels) == ''
       with:
-        script: |
-          const item = context.payload.issue ?? context.payload.pull_request;
-          const issue_number = item.number;
-          const labels = item.labels ?? [];
-
-          if (labels.length > 0) {
-            core.info("Issue or PR already has labels; skipping.");
-            return;
-          }
-
-          await github.rest.issues.addLabels({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number,
-            labels: ["S: Untriaged"],
-          });
+        github_token: ${{ github.token }}
+        labels: "S: Untriaged"

@@ -3,37 +3,23 @@ on:
   pull_request_review:
     types: [submitted]
 jobs:
-  update_review_labels:
-    if: ${{ github.event.review.state == 'approved' || github.event.review.state == 'changes_requested' }}
+  add_label:
+    # Change the repository name after you've made sure the team name is correct for your fork!
+    if: ${{ (github.repository == 'RMC-14/RMC-14') && (github.event.review.state == 'APPROVED') }}
     permissions:
-      pull-requests: read
-      issues: write
+      contents: read
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/github-script@v8
+    - uses: tspascoal/get-user-teams-membership@v3
+      id: checkUserMember
       with:
-        script: |
-          const issue_number = context.payload.pull_request.number;
-          const owner = context.repo.owner;
-          const repo = context.repo.repo;
-          const state = context.payload.review.state;
-
-          const add = state === "approved" ? "S: Approved" : "S: Awaiting Changes";
-          const remove = state === "approved"
-            ? ["S: Awaiting Changes", "S: Needs Review"]
-            : ["S: Approved", "S: Needs Review"];
-
-          await github.rest.issues.addLabels({
-            owner,
-            repo,
-            issue_number,
-            labels: [add],
-          });
-
-          for (const name of remove) {
-            try {
-              await github.rest.issues.removeLabel({ owner, repo, issue_number, name });
-            } catch (error) {
-              if (error.status !== 404) throw error;
-            }
-          }
+        username: ${{ github.actor }}
+        GITHUB_TOKEN: ${{ secrets.LABELER_PAT }}
+        team: "maintainers"
+        GITHUB_TOKEN: ${{ secrets.PAT }}
+    - if: ${{ steps.checkUserMember.outputs.isTeamMember == 'true' }}
+      uses: actions-ecosystem/action-add-labels@v1
+      with:
+        github_token: ${{ github.token }}
+        labels: "S: Approved"

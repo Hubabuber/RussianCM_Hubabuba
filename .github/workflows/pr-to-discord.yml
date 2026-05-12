@@ -4,66 +4,46 @@ on:
   pull_request:
     types: [opened, reopened, ready_for_review]
 
-permissions:
-  contents: read
-  pull-requests: read
-
 jobs:
   notify:
     runs-on: ubuntu-latest
 
     steps:
       - name: Send Discord Embed
-        uses: actions/github-script@v8
-        env:
-          DISCORD_WEBHOOK_PR: ${{ secrets.DISCORD_WEBHOOK_PR }}
-        with:
-          script: |
-            const webhook = process.env.DISCORD_WEBHOOK_PR;
-            if (!webhook) {
-              core.info("DISCORD_WEBHOOK_PR is not configured; skipping Discord notification.");
-              return;
-            }
-
-            const pr = context.payload.pull_request;
-            const payload = {
-              embeds: [{
-                title: "📢 Новый Pull Request",
-                description: `**${pr.title}**`,
-                url: pr.html_url,
-                color: 5814783,
-                author: {
-                  name: pr.user.login,
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d '{
+            "embeds": [
+              {
+                "title": "📢 Новый Pull Request",
+                "description": "**${{ github.event.pull_request.title }}**",
+                "url": "${{ github.event.pull_request.html_url }}",
+                "color": 5814783,
+                "author": {
+                  "name": "${{ github.actor }}"
                 },
-                fields: [
+                "fields": [
                   {
-                    name: "📦 Бранч",
-                    value: `${pr.head.ref} → ${pr.base.ref}`,
-                    inline: true,
+                    "name": "📦 Бранч",
+                    "value": "${{ github.event.pull_request.head.ref }} → ${{ github.event.pull_request.base.ref }}",
+                    "inline": true
                   },
                   {
-                    name: "🔢 Номер PR",
-                    value: `#${pr.number}`,
-                    inline: true,
+                    "name": "🔢 Номер PR",
+                    "value": "#${{ github.event.pull_request.number }}",
+                    "inline": true
                   },
                   {
-                    name: "🕒 Статус",
-                    value: pr.draft ? "Draft" : "Ready",
-                    inline: true,
-                  },
+                    "name": "🕒 Статус",
+                    "value": "${{ github.event.pull_request.draft == true && 'Draft' || 'Ready' }}",
+                    "inline": true
+                  }
                 ],
-                footer: {
-                  text: "GitHub Actions",
-                },
-              }],
-            };
-
-            const response = await fetch(webhook, {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify(payload),
-            });
-
-            if (!response.ok) {
-              throw new Error(`Discord webhook failed: ${response.status} ${await response.text()}`);
-            }
+                "footer": {
+                  "text": "GitHub Actions"
+                }
+              }
+            ]
+          }' \
+          ${{ secrets.DISCORD_WEBHOOK_PR }}

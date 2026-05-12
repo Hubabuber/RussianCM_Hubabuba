@@ -5,13 +5,9 @@ on:
     paths:
       - 'RobustToolbox'
 
-permissions:
-  contents: read
-
 jobs:
   this_aint_right:
     name: Submodule update in pr found
-    if: ${{ github.event.pull_request.draft == false }}
     runs-on: ubuntu-latest
     steps:
       - name: Fail

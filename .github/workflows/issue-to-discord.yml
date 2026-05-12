@@ -4,42 +4,22 @@ on:
   issues:
     types: [opened]
 
-permissions:
-  contents: read
-  issues: read
-
 jobs:
   new_issue_send_discord:
     runs-on: ubuntu-latest
 
     steps:
       - name: Send New Issue
-        uses: actions/github-script@v8
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        if: always()
+        uses: sarisia/actions-status-discord@v1
         with:
-          script: |
-            const webhook = process.env.DISCORD_WEBHOOK_URL;
-            if (!webhook) {
-              core.info("DISCORD_WEBHOOK_URL is not configured; skipping Discord notification.");
-              return;
-            }
-
-            const issue = context.payload.issue;
-            const payload = {
-              embeds: [{
-                title: "🔔 Новая Issue",
-                description: `[Номер #${issue.number}](${issue.html_url})\n**${issue.title}**\n_от_ **${issue.user.login}**`,
-                color: 0x5865F2,
-              }],
-            };
-
-            const response = await fetch(webhook, {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify(payload),
-            });
-
-            if (!response.ok) {
-              throw new Error(`Discord webhook failed: ${response.status} ${await response.text()}`);
-            }
+          # берем из секрета, как настроили ранее
+          webhook: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          # текст уведомления: номер, заголовок и ссылка на issue
+          description: |
+            🔔 **Новая Issue**
+            [Номер ${{ github.event.issue.number }}](${{ github.event.issue.html_url }})
+            **${{ github.event.issue.title }}**
+            _от_ **${{ github.event.issue.user.login }}**
+          status: success
+          color: 0x5865F2 # Cиний

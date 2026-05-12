@@ -10,16 +10,10 @@ on:
 jobs:
   add_label:
     permissions:
-      pull-requests: read
-      issues: write
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/github-script@v8
+    - uses: actions-ecosystem/action-add-labels@v1
       with:
-        script: |
-          await github.rest.issues.addLabels({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number: context.payload.pull_request.number,
-            labels: ["Branch: Stable"],
-          });
+        github_token: ${{ github.token }}
+        labels: "Branch: Stable"

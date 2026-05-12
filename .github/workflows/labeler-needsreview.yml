@@ -7,28 +7,14 @@ on:
 jobs:
   add_label:
     permissions:
-      pull-requests: read
-      issues: write
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/github-script@v8
+    - uses: actions-ecosystem/action-add-labels@v1
       with:
-        script: |
-          const issue_number = context.payload.pull_request.number;
-          const owner = context.repo.owner;
-          const repo = context.repo.repo;
-
-          await github.rest.issues.addLabels({
-            owner,
-            repo,
-            issue_number,
-            labels: ["S: Needs Review"],
-          });
-
-          for (const name of ["S: Awaiting Changes", "S: Approved"]) {
-            try {
-              await github.rest.issues.removeLabel({ owner, repo, issue_number, name });
-            } catch (error) {
-              if (error.status !== 404) throw error;
-            }
-          }
+        github_token: ${{ github.token }}
+        labels: "S: Needs Review"
+    - uses: actions-ecosystem/action-remove-labels@v1
+      with:
+        github_token: ${{ github.token }}
+        labels: "S: Awaiting Changes"

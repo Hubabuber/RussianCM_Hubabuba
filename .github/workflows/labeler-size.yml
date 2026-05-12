@@ -3,46 +3,20 @@ on: pull_request_target
 jobs:
   size-label:
     permissions:
-      pull-requests: read
-      issues: write
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - name: size-label
-        uses: actions/github-script@v8
+        uses: "pascalgn/size-label-action@v0.5.5"
+        env:
+          GITHUB_TOKEN: "${{ secrets.PAT }}"
         with:
-          script: |
-            const pull_number = context.payload.pull_request.number;
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-            const files = await github.paginate(github.rest.pulls.listFiles, {
-              owner,
-              repo,
-              pull_number,
-              per_page: 100,
-            });
-
-            const changed = files.reduce((total, file) => total + file.changes, 0);
-            const sizes = [
-              [5000, "XL"],
-              [1000, "L"],
-              [100, "M"],
-              [10, "S"],
-              [0, "XS"],
-            ];
-            const label = sizes.find(([threshold]) => changed >= threshold)[1];
-
-            for (const name of ["XS", "S", "M", "L", "XL"]) {
-              if (name === label) continue;
-              try {
-                await github.rest.issues.removeLabel({ owner, repo, issue_number: pull_number, name });
-              } catch (error) {
-                if (error.status !== 404) throw error;
-              }
+          # Custom size configuration
+          sizes: >
+            {
+              "0": "XS",
+              "10": "S",
+              "100": "M",
+              "1000": "L",
+              "5000": "XL"
             }
-
-            await github.rest.issues.addLabels({
-              owner,
-              repo,
-              issue_number: pull_number,
-              labels: [label],
-            });
