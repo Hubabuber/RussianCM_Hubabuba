@@ -85,7 +85,6 @@ rmc-ordnance-payload-no-fuel = В двигательном корпусе нет
 rmc-ordnance-payload-wrong-fuel = Двигательный корпус должен быть заправлен {$fuel}.
 rmc-ordnance-payload-no-chemicals = В боеголовке нет химической смеси.
 rmc-ordnance-payload-assembled = Боеприпас полностью собран.
-rmc-ordnance-assembly-combined = Вы соединяете части в detonator assembly.
 rmc-ordnance-timer-set = {$time} секунд
 rmc-ordnance-timer-current = {$time} секунд (текущее)
 rmc-ordnance-timer-popup = Таймер установлен на {$time} секунд.

@@ -6,4 +6,4 @@ ent-AU14KitFORECONDetachmentSpotter-name = Набор корректировщи
 ent-AU14KitFORECONDetachmentSpotter-desc = Обычная коробка.
 ent-AU14KitFORECONDetachmentSniper-name = Кейс со снаряжением снайпера ФОРЕКОН
 ent-AU14KitFORECONDetachmentSniper-desc = Большой кейс, содержащий вашу собственную дальнобойную снайперскую винтовку M96S-B, броню-гилли M45 и шлем, боеприпасы и дополнительное снаряжение.
-ПРИМЕЧАНИЕ: Вы не можете поместить предметы обратно в этот кейс.
+    ПРИМЕЧАНИЕ: Вы не можете поместить предметы обратно в этот кейс.

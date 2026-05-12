@@ -95,7 +95,9 @@ namespace Content.IntegrationTests.Tests
             "Berkley",
             "SSVDeyneka",
 			"HMSPratchett",
-            "Rover"
+            "Rover",
+            "CMULV376BarkersLament",
+            "Sheperds"
         };
 
         private static readonly ProtoId<EntityCategoryPrototype> DoNotMapCategory = "DoNotMap";
@@ -488,7 +490,8 @@ namespace Content.IntegrationTests.Tests
             var gameMaps = protoMan.EnumeratePrototypes<GameMapPrototype>()
                 .Where(x => !pair.IsTestPrototype(x))
                 .Where(x => x.ID == PoolManager.TestMap // RMC14
-                    || x.MapPath.ToString().StartsWith("/Maps/_RMC14"))
+                    || x.MapPath.ToString().StartsWith("/Maps/_RMC14")
+                    || x.MapPath.ToString().StartsWith("/Maps/_CMU14"))
                 .Select(x => x.ID)
                 .ToHashSet();
 
