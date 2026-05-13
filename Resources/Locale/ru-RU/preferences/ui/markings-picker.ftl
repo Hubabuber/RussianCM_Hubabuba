@@ -53,7 +53,6 @@ markings-category-Legs = Ноги
 markings-category-Tail = Хвост
 markings-category-Overlay = Наложение
 
-markings-category-Hair = Волосы
 markings-category-FacialHair = Растительность на лице
 
 markings-used = Используемые метки
