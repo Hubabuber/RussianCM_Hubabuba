@@ -65,3 +65,6 @@ trait-hemophilia-desc = Ваш организм не справляется со
 
 trait-impaired-mobility-name = Нарушение подвижности
 trait-impaired-mobility-desc = Вам тяжело передвигаться без посторонней помощи.
+
+trait-socialanxietyheavy-name = Сильное заикание
+trait-socialanxietyheavy-desc = Вы сильно заикаетесь. Ваши предложения могут обрываться на полуслове.
