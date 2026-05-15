@@ -68,3 +68,17 @@ trait-impaired-mobility-desc = Вам тяжело передвигаться б
 
 trait-socialanxietyheavy-name = Сильное заикание
 trait-socialanxietyheavy-desc = Вы сильно заикаетесь. Ваши предложения могут обрываться на полуслове.
+
+# Missing entries synced from en-US
+
+trait-pirate-accent-name = Пиратский акцент
+
+trait-pirate-accent-desc = Ты не можешь перестать говорить как пират!
+
+trait-cowboy-name = Ковбойский акцент
+
+trait-cowboy-desc = Вы говорите с отчетливым ковбойским акцентом!
+
+trait-italian-name = Итальянский акцент
+
+trait-italian-desc = Мама миа! Вы словно жили в космической Италии!

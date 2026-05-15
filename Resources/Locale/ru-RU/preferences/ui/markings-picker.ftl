@@ -53,7 +53,6 @@ markings-category-Legs = Ноги
 markings-category-Tail = Хвост
 markings-category-Overlay = Наложение
 
-markings-category-Hair = Волосы
 markings-category-FacialHair = Растительность на лице
 
 markings-used = Используемые метки
@@ -68,3 +67,7 @@ marking-used-forced = { $marking-name } (Принудительно)
 marking-slot-add = Добавить
 marking-slot-remove = Удалить
 marking-slot = Слот { $number }
+
+# Missing entries synced from en-US
+
+markings-category-Head = Глава

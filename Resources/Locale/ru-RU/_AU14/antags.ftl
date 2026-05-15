@@ -39,40 +39,40 @@ roles-antag-serialkiller-objective = Убивать и избегать поим
 serialkiller-role-greeting = У тебя неутолимая жажда убийства. Находи жертв и не оставляй свидетелей. У правоохранителей есть твои отпечатки с прошлых мест преступлений.
 
 ent-MindRoleRunawaySynth-name = Роль Сбежавшего Синтетика
-ent-MindRoleRunawaySynth-desc = Mind Role entity
+ent-MindRoleRunawaySynth-desc = Ролевая сущность разума
 
 ent-MindRoleCLFSubvertedSynth-name = Роль Взломанного Синтетика КОФ
-ent-MindRoleCLFSubvertedSynth-desc = Mind Role entity
+ent-MindRoleCLFSubvertedSynth-desc = Ролевая сущность разума
 
 ent-MindRoleCLFRecruit-name = Роль Рекрута КОФ
-ent-MindRoleCLFRecruit-desc = Mind Role entity
+ent-MindRoleCLFRecruit-desc = Ролевая сущность разума
 
 ent-MindRoleFugitive-name = Роль Беглеца
-ent-MindRoleFugitive-desc = Mind Role entity
+ent-MindRoleFugitive-desc = Ролевая сущность разума
 
 ent-MindRoleDrugDealer-name = Роль Наркоторговца
-ent-MindRoleDrugDealer-desc = Mind Role entity
+ent-MindRoleDrugDealer-desc = Ролевая сущность разума
 
 ent-MindRoleCorporateSpy-name = Роль Корпоративного Шпиона
-ent-MindRoleCorporateSpy-desc = Mind Role entity
+ent-MindRoleCorporateSpy-desc = Ролевая сущность разума
 
 ent-AU14DrugDealerDrugBackpack-name = сумка наркоторговца
 ent-AU14DrugDealerDrugBackpack-desc = Чёрная сумка, наполненная нелегальными веществами.
 
 ent-MindRoleCLFVeteran-name = Ветеран КОФ
-ent-MindRoleCLFVeteran-desc = Mind Role entity
+ent-MindRoleCLFVeteran-desc = Ролевая сущность разума
 
 ent-MindRoleStrikeOrganizer-name = Роль Организатора Протеста
-ent-MindRoleStrikeOrganizer-desc = Mind Role entity
+ent-MindRoleStrikeOrganizer-desc = Ролевая сущность разума
 
 ent-AU14StrikeOrganizerBackpack-name = радиопак организатора
 ent-AU14StrikeOrganizerBackpack-desc = Радиопак организатора рабочх.
 
 ent-MindRoleCannibal-name = Роль Каннибала
-ent-MindRoleCannibal-desc = Mind Role entity
+ent-MindRoleCannibal-desc = Ролевая сущность разума
 
 ent-MindRoleSerialKiller-name = Роль Серийного Убийцы
-ent-MindRoleSerialKiller-desc = Mind Role entity
+ent-MindRoleSerialKiller-desc = Ролевая сущность разума
 
 antag-category-colony-antags = Антагонисты колонии
 antag-category-prometheus-antags = Антагонисты Прометея

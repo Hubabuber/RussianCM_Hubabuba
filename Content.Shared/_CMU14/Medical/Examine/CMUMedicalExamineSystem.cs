@@ -10,6 +10,7 @@ using Content.Shared.Body.Systems;
 using Content.Shared.Examine;
 using Robust.Shared.Configuration;
 using Robust.Shared.Timing;
+using Robust.Shared.Localization; // RuMC edit
 
 namespace Content.Shared._CMU14.Medical.Examine;
 
@@ -72,7 +73,7 @@ public sealed class CMUMedicalExamineSystem : EntitySystem
                 }
 
                 if (HasComp<CMUEscharComponent>(partUid))
-                    untreated.Add("charred burn tissue");
+                    untreated.Add(Loc.GetString("cmu-medical-examine-eschar")); // RuMC edit
 
                 if (untreated.Count > 0)
                     sections.Add($"[color={UntreatedWoundColor}]{ToSentence(untreated)}[/color]");
@@ -109,63 +110,68 @@ public sealed class CMUMedicalExamineSystem : EntitySystem
         }
     }
 
-    private static string DescribeWound(Wound wound, WoundSize size, TimeSpan now)
+    private string DescribeWound(Wound wound, WoundSize size, TimeSpan now)  // RuMC edit
     {
-        var sizeText = size switch
+        var sizeKey = size switch
         {
-            WoundSize.Small => "small",
-            WoundSize.Deep => "deep",
-            WoundSize.Gaping => "gaping",
-            WoundSize.Massive => "massive",
-            _ => "deep",
+            WoundSize.Small   => "cmu-medical-examine-wound-size-small",
+            WoundSize.Deep    => "cmu-medical-examine-wound-size-deep",
+            WoundSize.Gaping  => "cmu-medical-examine-wound-size-gaping",
+            WoundSize.Massive => "cmu-medical-examine-wound-size-massive",
+            _                 => "cmu-medical-examine-wound-size-deep",
         };
 
-        var kind = wound.Type switch
+        var typeKey = wound.Type switch
         {
-            WoundType.Burn => "burn",
-            WoundType.Surgery => "surgical wound",
-            _ => "trauma wound",
+            WoundType.Burn    => "cmu-medical-examine-wound-type-burn",
+            WoundType.Surgery => "cmu-medical-examine-wound-type-surgery",
+            _                 => "cmu-medical-examine-wound-type-trauma",
         };
 
-        var treated = wound.Treated ? "treated " : string.Empty;
+        var treated = wound.Treated
+            ? Loc.GetString("cmu-medical-examine-wound-treated-prefix") + " "
+            : string.Empty;
+
         var bleeding = !wound.Treated
             && wound.Bloodloss > 0f
             && (wound.StopBleedAt is null || now < wound.StopBleedAt.Value)
-                ? " (bleeding)"
+                ? " " + Loc.GetString("cmu-medical-examine-wound-bleeding-suffix")
                 : string.Empty;
 
-        return $"a {treated}{sizeText} {kind}{bleeding}";
+        return $"{treated}{Loc.GetString(sizeKey)} {Loc.GetString(typeKey)}{bleeding}";
     }
 
-    private static string DescribeFracture(FractureSeverity severity, bool stabilized)
+    private string DescribeFracture(FractureSeverity severity, bool stabilized) // RuMC edit
     {
-        var prefix = stabilized ? "stabilized " : string.Empty;
-        return severity switch
+        var key = severity switch
         {
-            FractureSeverity.Hairline => $"a {prefix}hairline fracture",
-            FractureSeverity.Simple => $"a {prefix}broken bone",
-            FractureSeverity.Compound => $"a {prefix}compound fracture",
-            FractureSeverity.Comminuted => $"a {prefix}shattered bone",
-            _ => "a broken bone",
+            FractureSeverity.Hairline   => "cmu-medical-examine-fracture-hairline",
+            FractureSeverity.Simple     => "cmu-medical-examine-fracture-simple",
+            FractureSeverity.Compound   => "cmu-medical-examine-fracture-compound",
+            FractureSeverity.Comminuted => "cmu-medical-examine-fracture-comminuted",
+            _                           => "cmu-medical-examine-fracture-simple",
         };
+        return Loc.GetString(key, ("stabilized", stabilized ? "true" : "false"));
     }
 
-    private static string FormatPartName(BodyPartType type, BodyPartSymmetry symmetry)
+    private string FormatPartName(BodyPartType type, BodyPartSymmetry symmetry) // RuMC edit
     {
-        var part = type.ToString().ToLowerInvariant();
-        if (symmetry == BodyPartSymmetry.Left)
-            return "Left " + part;
+        var key = (type, symmetry) switch
+        {
+            (BodyPartType.Head,  _)                        => "cmu-medical-examine-part-head",
+            (BodyPartType.Torso, _)                        => "cmu-medical-examine-part-torso",
+            (BodyPartType.Arm,   BodyPartSymmetry.Left)    => "cmu-medical-examine-part-arm-left",
+            (BodyPartType.Arm,   BodyPartSymmetry.Right)   => "cmu-medical-examine-part-arm-right",
+            (BodyPartType.Hand,  BodyPartSymmetry.Left)    => "cmu-medical-examine-part-hand-left",
+            (BodyPartType.Hand,  BodyPartSymmetry.Right)   => "cmu-medical-examine-part-hand-right",
+            (BodyPartType.Leg,   BodyPartSymmetry.Left)    => "cmu-medical-examine-part-leg-left",
+            (BodyPartType.Leg,   BodyPartSymmetry.Right)   => "cmu-medical-examine-part-leg-right",
+            (BodyPartType.Foot,  BodyPartSymmetry.Left)    => "cmu-medical-examine-part-foot-left",
+            (BodyPartType.Foot,  BodyPartSymmetry.Right)   => "cmu-medical-examine-part-foot-right",
+            _                                              => null,
+        };
 
-        if (symmetry == BodyPartSymmetry.Right)
-            return "Right " + part;
-
-        if (type == BodyPartType.Head)
-            return "Head";
-
-        if (type == BodyPartType.Torso)
-            return "Torso";
-
-        return type.ToString();
+        return key != null ? Loc.GetString(key) : type.ToString();
     }
 
     private static int BodyPartSortOrder(BodyPartType type, BodyPartSymmetry symmetry)
@@ -197,14 +203,14 @@ public sealed class CMUMedicalExamineSystem : EntitySystem
         };
     }
 
-    private static string ToSentence(List<string> parts)
+    private string ToSentence(List<string> parts) // RuMC edit
     {
         return parts.Count switch
         {
             0 => string.Empty,
             1 => parts[0],
-            2 => $"{parts[0]} and {parts[1]}",
-            _ => $"{string.Join(", ", parts.GetRange(0, parts.Count - 1))}, and {parts[parts.Count - 1]}",
+            2 => $"{parts[0]} {Loc.GetString("cmu-medical-examine-list-and")} {parts[1]}",
+            _ => $"{string.Join(", ", parts.GetRange(0, parts.Count - 1))} {Loc.GetString("cmu-medical-examine-list-and")} {parts[parts.Count - 1]}",
         };
     }
 
