@@ -1,2 +1,2 @@
-reagent-name-goo = Странная жижа
-reagent-desc-goo = Я бы это не пробовал
+reagent-name-goo = Странная слизь
+reagent-desc-goo = Я это пробовать не стану.
