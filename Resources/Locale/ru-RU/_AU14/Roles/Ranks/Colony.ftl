@@ -1,17 +1,17 @@
-rank-AU14RankCMBProbDeputy = Стажёр-заместитель КМБ
-  .prefix = Стаж. КМБ
+rank-AU14RankCMBProbDeputy = Стажёр-заместитель БКМ
+  .prefix = Стаж. БКМ
 
-rank-AU14RankCMBDeputy = Заместитель КМБ
-  .prefix = Зам. КМБ
+rank-AU14RankCMBDeputy = Заместитель БКМ
+  .prefix = Зам. БКМ
 
-rank-AU14RankCMBSrDeputy = Старший заместитель КМБ
-  .prefix = Ст. Зам. КМБ
+rank-AU14RankCMBSrDeputy = Старший заместитель БКМ
+  .prefix = Ст. Зам. БКМ
 
-rank-AU14RankCMBChiefDeputy = Главный заместитель КМБ
-  .prefix = Гл. Зам. КМБ
+rank-AU14RankCMBChiefDeputy = Главный заместитель БКМ
+  .prefix = Гл. Зам. БКМ
 
-rank-AU14RankCMBMarshal = Маршал КМБ
-  .prefix = Марш. КМБ
+rank-AU14RankCMBMarshal = Маршал БКМ
+  .prefix = Марш. БКМ
 
 rank-AU14RankColonyAdministrator = Администратор
   .prefix = Адм.

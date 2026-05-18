@@ -1,17 +1,17 @@
-rank-AU14RankLBJuniorExecutive = Младший директор
-  .prefix = Мл. Дир.
+rank-AU14RankLBJuniorExecutive = Младший исполнитель
+  .prefix = Мл. Исп.
 
-rank-AU14RankLBExecutive = Директор
-  .prefix = Дир.
+rank-AU14RankLBExecutive = Исполнитель
+  .prefix = Исп.
 
-rank-AU14RankLBSeniorExecutive = Старший директор
-  .prefix = Ст. Дир.
+rank-AU14RankLBSeniorExecutive = Старший исполнитель
+  .prefix = Ст. Исп.
 
-rank-AU14RankLBExecutiveSpecialist = Специалист-директор
-  .prefix = Спец-Дир.
+rank-AU14RankLBExecutiveSpecialist = Специалист-исполнитель
+  .prefix = Спец-исп.
 
-rank-AU14RankLBExecutiveSupervisor = Руководитель-директор
-  .prefix = Рук-Дир.
+rank-AU14RankLBExecutiveSupervisor = Руководитель-исполнитель
+  .prefix = Рук-исп.
 
 rank-AU14RankLBAssistantManager = Помощник менеджера
   .prefix = Пом. Мен.
