@@ -1,126 +1,125 @@
 ent-RMCSecureCaseMini = маленький футляр
-  .desc = Небольшой твердый кейс. 
+  .desc = Небольшой прочный кейс.
 
 ent-RMCCrateMini = маленький ящик
-  .desc = Двоюродный брат большого ящика с припасами, удален первым.
+  .desc = Упрощённый вариант стандартного ящика с припасами.
 
-ent-RMCSecureCaseAmmoMini = маленький аммокейс
-  .desc = Небольшой металлический ящик. 
+ent-RMCSecureCaseAmmoMini = маленький ящик для боеприпасов
+  .desc = Небольшой металлический контейнер для боеприпасов.
 
 ent-RMCSecureCaseMedicalSmall = маленькая медицинская коробка
-  .desc = Небольшой металлический ящик. 
+  .desc = Небольшой металлический контейнер для медицинских принадлежностей.
 
-ent-RMCSmallChestRed = маленький сундук
-  .desc = Небольшой пластиковый ящик, обернутый эластичными ремнями.
+ent-RMCSmallChestRed = маленький ящик
+  .desc = Небольшой пластиковый контейнер, стянутый эластичными ремнями.
 
-ent-RMCSmallChestBlue = маленький сундук
-  .desc = Небольшой пластиковый ящик, обернутый эластичными ремнями.
+ent-RMCSmallChestBlue = маленький ящик
+  .desc = Небольшой пластиковый контейнер, стянутый эластичными ремнями.
 
-ent-RMCSmallChestYellow = маленький сундук
-  .desc = Небольшой пластиковый ящик, обернутый эластичными ремнями.
+ent-RMCSmallChestYellow = маленький ящик
+  .desc = Небольшой пластиковый контейнер, стянутый эластичными ремнями.
 
 ent-RMCSecureCaseMedicalBig = медицинский ящик
-  .desc = Ящик с медикаментами.
+  .desc = Крупный контейнер с медицинскими принадлежностями.
 
-ent-RMCSecureCaseStrapped = безопасный ящик с припасами
-  .desc = Огромный деревянный ящик.
+ent-RMCSecureCaseStrapped = ящик с припасами
+  .desc = Крупный деревянный ящик, закреплённый ремнями.
 
-ent-RMCSecureCaseChest = грудь
-  .desc = здоровенный деревянный ящик.
+ent-RMCSecureCaseChest = деревянный ящик
+  .desc = Крупный деревянный контейнер.
 
-ent-RMCSecureCaseSmall = небольшие дела
-  .desc = Два небольших черных ящика для хранения.
+ent-RMCSecureCaseSmall = набор кейсов
+  .desc = Два небольших чёрных контейнера для хранения.
 
-ent-RMCSecureCaseDouble = случаи
-  .desc = Стопка черных ящиков для хранения.
+ent-RMCSecureCaseDouble = набор кейсов
+  .desc = Стопка чёрных контейнеров для хранения.
 
-ent-RMCSecureCase = футляр для хранения
-  .desc = Черный футляр для хранения.
+ent-RMCSecureCase = кейс для хранения
+  .desc = Чёрный контейнер для хранения.
 
 ent-RMCOreBox = ящик с рудой
-  .desc = Тяжелый ящик, используемый для хранения руды.
+  .desc = Тяжёлый контейнер для хранения руды.
 
 ent-RMCCrateLarge = большой ящик
-  .desc = Огромный деревянный ящик.
+  .desc = Крупный деревянный ящик.
 
 ent-RMCSpawnerRandomCrateLoot = генератор случайной добычи из ящиков
-  .desc = Это генератор случайной добычи из ящиков.
+  .desc = Генерирует случайную добычу из ящиков.
 
 ent-RMCSpawnerRandomMiniAmmoCrateLoot = генератор случайной добычи из ящиков
-  .desc = Это генератор случайной добычи из ящиков.
+  .desc = Генерирует случайную добычу из ящиков с боеприпасами.
 
 ent-RMCSpawnerRandomMiniMedcase = генератор случайной добычи из ящиков
-  .desc = Это генератор случайной добычи из ящиков.
+  .desc = Генерирует случайную добычу из медицинских ящиков.
 
 ent-RMCSpawnerRandomMERCGuns = генератор случайной добычи из ящиков
-  .desc = Это генератор случайной добычи из ящиков.
+  .desc = Генерирует случайную добычу с оружием наёмников.
 
 ent-RMCSpawnerRandomConfiscatedEquipment = генератор случайной добычи из ящиков
-  .desc = Это генератор случайной добычи из ящиков.
+  .desc = Генерирует случайную добычу с конфискованным оборудованием.
 
 ent-RMCSpawnerRandomConfiscatedWeaponry = генератор случайной добычи из ящиков
-  .desc = Это генератор случайной добычи из ящиков.
+  .desc = Генерирует случайную добычу с конфискованным оружием.
 
 ent-RMCSpawnerRandomHalyconGuns = генератор случайной добычи из ящиков
-  .desc = Это генератор случайной добычи из ящиков.
+  .desc = Генерирует случайную добычу с оружием Halycon.
 
 ent-RMCSpawnerRandomUNMCGuns = генератор случайной добычи из ящиков
-  .desc = Это генератор случайной добычи из ящиков.
+  .desc = Генерирует случайную добычу с оружием UNMC.
 
-ent-RMCCrateHalyconFireArms = Ящик для огнестрельного оружия Halycon
-  .desc = Огромный деревянный ящик.
+ent-RMCCrateHalyconFireArms = ящик с оружием Halycon
+  .desc = Крупный деревянный ящик.
 
-ent-RMCCrateBlackmarketFireArms = Ящик с огнестрельным оружием на черном рынке
-  .desc = Огромный деревянный ящик.
+ent-RMCCrateBlackmarketFireArms = ящик с оружием чёрного рынка
+  .desc = Крупный деревянный ящик.
 
 ent-RMCCrateBlackmarketFireArmsHidden = ящик с припасами
-  .desc = Огромный деревянный ящик.
+  .desc = Крупный деревянный ящик.
 
-ent-RMCCrateBlackmarketConfiscatedEquipment = ящик с конфискованным иностранным оборудованием
-  .desc = Огромный деревянный ящик.
+ent-RMCCrateBlackmarketConfiscatedEquipment = ящик с конфискованным оборудованием
+  .desc = Крупный деревянный ящик.
 
-ent-RMCCrateBlackmarketConfiscatedWeaponry = захваченный ящик с иностранным оружием
-  .desc = Огромный деревянный ящик.
+ent-RMCCrateBlackmarketConfiscatedWeaponry = ящик с конфискованным оружием
+  .desc = Крупный деревянный ящик.
 
-ent-RMCCrateUNMCGunsDecoyObject = Ящик с огнестрельным оружием UNMC «Объект-приманка» (x3)
+ent-RMCCrateUNMCGunsDecoyObject = ящик с оружием UNMC «объект-приманка» (x3)
   .desc = Объект-приманка.
 
-ent-RMCCrateUNMCGuns = Ящик с огнестрельным оружием UNMC (x3)
-  .desc = Ящик с припасами, содержащий 3 огнестрельных оружия, используемых силами UNMC.
+ent-RMCCrateUNMCGuns = ящик с оружием UNMC (x3)
+  .desc = Контейнер с тремя единицами оружия, используемого силами UNMC.
 
-ent-RMCCrateUNMCGunsSingle = Ящик для огнестрельного оружия UNMC
-  .desc = Ящик с припасами, содержащий огнестрельное оружие, используемое силами UNMC.
+ent-RMCCrateUNMCGunsSingle = ящик с оружием UNMC
+  .desc = Контейнер с оружием, используемым силами UNMC.
 
-ent-RMCCrateMedicalVendor = Ящик Ве-Я-Мед Плюс
-  .desc = Ящик с одним продавцом We-Ya-Med Plus.
+ent-RMCCrateMedicalVendor = ящик We-Ya-Med Plus
+  .desc = Контейнер с одним терминалом We-Ya-Med Plus.
 
-ent-RMCCrateGeneratorPACMAN = П.А.К.М.А.Н. 
-  .desc = Ящик с P.A.C.M.A.N. 
+ent-RMCCrateGeneratorPACMAN = P.A.C.M.A.N.
+  .desc = Контейнер с генератором P.A.C.M.A.N.
 
-ent-RMCCrateFloodlightX4 = ящик для прожектора (x4)
-  .desc = Ящик с четырьмя прожекторами. 
+ent-RMCCrateFloodlightX4 = ящик с прожекторами (x4)
+  .desc = Контейнер с четырьмя прожекторами.
 
-ent-RMCCrateTablesAndRacks = ящик для хранения (x10, x10)
-  .desc = Ящик, содержащий десять частей стола и десять частей стеллажа, для удобства хранения.
+ent-RMCCrateTablesAndRacks = ящик со складскими материалами (x10, x10)
+  .desc = Контейнер с десятью частями столов и десятью частями стеллажей.
 
-ent-RMCCrateBottledWaterX50 = Ящик с водой в бутылках We-Ya (x50)
-  .desc = Ящик с пятьдесятю бутылками родниковой воды We-Ya.
+ent-RMCCrateBottledWaterX50 = ящик с водой We-Ya (x50)
+  .desc = Контейнер с пятьюдесятью бутылками родниковой воды We-Ya.
 
-ent-RMCCrateFlares200 = Ящик для факельных ракет (x200)
-  .desc = Ящик с припасами, содержащий два ящика с сигнальными ракетами.
+ent-RMCCrateFlares200 = ящик с сигнальными ракетами (x200)
+  .desc = Контейнер с сигнальными ракетами.
 
-ent-RMCCratePowerLoaderYellow = Ящик для погрузчика
-  .desc = Ящик с одним сложенным, но полностью собранным силовым погрузчиком LU-50 и брошюрой для быстрого обучения.
+ent-RMCCratePowerLoaderYellow = ящик с погрузчиком
+  .desc = Контейнер с собранным силовым погрузчиком LU-50 и инструкцией.
 
-ent-RMCCratePowerLoaderGreen = Ящик Fujin Powerloader
-  .desc = Ящик с одним сложенным, но полностью собранным погрузчиком LU-43 и брошюрой для быстрого обучения.
+ent-RMCCratePowerLoaderGreen = ящик Fujin Powerloader
+  .desc = Контейнер с собранным погрузчиком LU-43 и инструкцией.
 
-ent-RMCCratePowerLoaderBlue = Ящик Ferret Powerloader
-  .desc = Ящик с одним сложенным, но полностью собранным погрузчиком LU-52 и брошюрой для быстрого обучения.
+ent-RMCCratePowerLoaderBlue = ящик Ferret Powerloader
+  .desc = Контейнер с собранным погрузчиком LU-52 и инструкцией.
 
 ent-RMCCrateSandbags100 = ящик с мешками с песком (x100)
-  .desc = Ящик с припасами, содержащий четыре кучки по двадцать пять мешков с песком.
+  .desc = Контейнер с мешками с песком (четыре стопки по 25).
 
-ent-RMCCratePlasteel60 = пласталевой ящик с припасами (x60)
-  .desc = Ящик с запасами, содержащий две стопки по 30 листов пластали.
-
+ent-RMCCratePlasteel60 = ящик с пласталью (x60)
+  .desc = Контейнер с пласталью (две стопки по 30 листов).

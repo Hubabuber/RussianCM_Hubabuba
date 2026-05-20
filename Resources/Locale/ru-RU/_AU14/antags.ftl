@@ -1,78 +1,42 @@
-roles-antag-runaway-synth-name = Сбежавший Синтетик
-roles-antag-synth-objective = Залечь на дно до конца дня и покинуть планету.
-runawaysynth-role-greeting = Ты — сбежавший синтетик, федералы вышли на твой след. Заляг на день и надейся, что сможешь улететь с планеты.
+runawaysynth-role-greeting = Вы — сбежавший синтетик. Федералы вышли на ваш след. Залягте на дно на ближайший день и попытайтесь покинуть планету.
+roles-antag-runaway-synth-name = Сбежавший синтетик
+roles-antag-synth-objective = Залечь на дно и попытаться покинуть планету
 
-roles-antag-fugitive-name = Разыскиваемый Беглец
+fugitive-role-greeting = Вам удалось получить компромат на корпорацию. Избегайте поимки и обнародуйте правду.
+roles-antag-fugitive-name = Разыскиваемый беглец
 roles-antag-fugitive-objective = Избежать поимки
-fugitive-role-greeting = Ты нашёл компрометирующие информацию корпорации. Избеги поимки и разоблачи их.
 
+dealer-role-greeting = Вы — наркоторговец. Продавайте свой товар.
 roles-antag-dealer-name = Наркоторговец
-roles-antag-dealer-objective = Продать свой товар
-dealer-role-greeting = Ты — наркоторговец. Продавай свой товар.
+roles-antag-dealer-objective = Продавать товар
 
-roles-antag-spy-name = Корпоративный Шпион
+spy-role-greeting = Вы — корпоративный шпион Lasalle Bionational. Украдите секреты Weyland-Yutani. Вам выдали ID-карту для проникновения.
+roles-antag-spy-name = Корпоративный шпион
 roles-antag-spy-objective = Украсть исследования
-spy-role-greeting = Ты — корпоративный шпион Laselle Bionational. Укради секреты Weyland-Yutani. Тебе выдали удостоверение, чтобы проникнуть внутрь.
 
-roles-antag-exped-traitor-name = Предатель
-roles-antag-exped-traitor-objective = Утолить свою больную жажду
-exped-traitor-role-greeting = Ты — Предатель. Безумие, неисправность или жадность — неважно. Устрани их.
+exped-traitor-role-greeting = Вы — предатель экспедиции. Безумие, неисправность или жадность — причины уже не важны. Уничтожь их всех.
+roles-antag-exped-traitor-name = Предатель экспедиции
+roles-antag-exped-traitor-objective = Потворствуйте своим больным желаниям
 
-monster-traitor-name = Существо из Другого Мира
-monster-traitor-objective = Уничтожить тех, кто вторгся на твою территорию
-monster-antag-role-greeting = Эта планета — твой дом, а эти учёные должны уйти.
+monster-antag-role-greeting = Эта планета — ваш дом, а этим учёным здесь не место.
+monster-traitor-name = Нечто из иного мира
+monster-traitor-objective = Уничтожь тех, кто вторгся на вашу территорию
 
-roles-antag-clfveteran-name = Ветеран КОФ
-roles-antag-clfveteran-objective = Возроди дело, если сочтёшь нужным, или живи новой жизнью в мире.
-clfveteran-role-greeting = Ты оставил ту жизнь позади, но иногда зов свободы возвращается. Правоохранители знают, что ты в колонии, но не знают твоего имени.
+roles-antag-clfveteran-objective = Вернитесь к истокам, если сочтёте нужным, или живите новой жизнью в мире.
+roles-antag-clfveteran-name = Ветеран CLF
+clfveteran-role-greeting = Вы оставили ту жизнь позади, но зов свободы всё ещё звучит в вашей голове. Федералы знают, что вы в колонии, но не знают вашего имени.
 
-roles-antag-strikeorganizer-name = Организатор Протеста
-roles-antag-strikeorganizer-objective = Организовать рабочих и вызвать беспорядки
-strikeorganizer-role-greeting = Ты — Организатор Протеста. Сплоти рабочих, требуй лучших условий и оплаты, не позволяй корпорациям себя давить.
+strikeorganizer-role-greeting = Вы — профсоюзный организатор. Сплотите рабочих, требуйте лучших условий и оплаты труда и не дайте корпорациям помыкать людьми.
+roles-antag-strikeorganizer-name = Организатор забастовки
+roles-antag-strikeorganizer-objective = Организовать рабочих и посеять беспорядки
 
+cannibal-role-greeting = Вас мучает неестественный голод, который может утолить лишь человеческая плоть. Не попадитесь.
 roles-antag-cannibal-name = Каннибал
-roles-antag-cannibal-objective = Утолить голод, и не попасться
-cannibal-role-greeting = Ты испытываешь неестественный голод, который может утолить только человеческая плоть. Не попадись.
+roles-antag-cannibal-objective = Утолить свой голод и не попасться
 
-roles-antag-serialkiller-name = Серийный Убийца
+serialkiller-role-greeting = Вас терзает ненасытная жажда убийств. Найдите своих жертв и не оставляйте свидетелей. Федералы уже имеют ваши отпечатки с прошлых мест преступлений.
+roles-antag-serialkiller-name = Серийный убийца
 roles-antag-serialkiller-objective = Убивать и избегать поимки
-serialkiller-role-greeting = У тебя неутолимая жажда убийства. Находи жертв и не оставляй свидетелей. У правоохранителей есть твои отпечатки с прошлых мест преступлений.
-
-ent-MindRoleRunawaySynth-name = Роль Сбежавшего Синтетика
-ent-MindRoleRunawaySynth-desc = Ролевая сущность разума
-
-ent-MindRoleCLFSubvertedSynth-name = Роль Взломанного Синтетика КОФ
-ent-MindRoleCLFSubvertedSynth-desc = Ролевая сущность разума
-
-ent-MindRoleCLFRecruit-name = Роль Рекрута КОФ
-ent-MindRoleCLFRecruit-desc = Ролевая сущность разума
-
-ent-MindRoleFugitive-name = Роль Беглеца
-ent-MindRoleFugitive-desc = Ролевая сущность разума
-
-ent-MindRoleDrugDealer-name = Роль Наркоторговца
-ent-MindRoleDrugDealer-desc = Ролевая сущность разума
-
-ent-MindRoleCorporateSpy-name = Роль Корпоративного Шпиона
-ent-MindRoleCorporateSpy-desc = Ролевая сущность разума
-
-ent-AU14DrugDealerDrugBackpack-name = сумка наркоторговца
-ent-AU14DrugDealerDrugBackpack-desc = Чёрная сумка, наполненная нелегальными веществами.
-
-ent-MindRoleCLFVeteran-name = Ветеран КОФ
-ent-MindRoleCLFVeteran-desc = Ролевая сущность разума
-
-ent-MindRoleStrikeOrganizer-name = Роль Организатора Протеста
-ent-MindRoleStrikeOrganizer-desc = Ролевая сущность разума
-
-ent-AU14StrikeOrganizerBackpack-name = радиопак организатора
-ent-AU14StrikeOrganizerBackpack-desc = Радиопак организатора рабочх.
-
-ent-MindRoleCannibal-name = Роль Каннибала
-ent-MindRoleCannibal-desc = Ролевая сущность разума
-
-ent-MindRoleSerialKiller-name = Роль Серийного Убийцы
-ent-MindRoleSerialKiller-desc = Ролевая сущность разума
 
 roles-antag-category-colony = Антагонисты колонии
-roles-antag-category-prometheus = Антагонисты Прометея
+roles-antag-category-prometheus = Антагонисты «Прометея»

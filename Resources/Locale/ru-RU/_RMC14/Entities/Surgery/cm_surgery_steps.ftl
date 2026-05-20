@@ -1,28 +1,14 @@
-ent-RMCSurgeryRemoveXenoOrgan = Удалить ксенонидный орган
-
-ent-RMCSurgerySevereXenoConnections = Разорвать связи органов
-
-ent-RMCSurgeryOpenExoskeleton = Открыть экзоскелет
-
-ent-RMCSurgeryCutExoskeleton = Разрезанный панцирь экзоскелета
-
-ent-CMSurgeryStepCloseIncision = Закрыть разрез
-
-ent-CMSurgeryStepMendRibcage = Починить грудную клетку
-
-ent-CMSurgeryStepCloseBones = Близкие кости
-
-ent-CMSurgeryStepRemoveLarva = Удалить личинку
-
-ent-CMSurgeryStepCutLarvaRoots = Обрезать корни личинок
-
-ent-CMSurgeryStepPriseOpenBones = Приз кости открыты
-
-ent-CMSurgeryStepSawBones = Распилить кости
-
-ent-CMSurgeryStepRetractSkin = Втянуть кожу
-
-ent-CMSurgeryStepClampBleeders = Зажмите выпускные отверстия
-
-ent-CMSurgeryStepOpenIncisionScalpel = Разрезать скальпелем
-
+ent-CMSurgeryStepOpenIncisionScalpel-name = Открыть разрез скальпелем
+ent-CMSurgeryStepClampBleeders-name = Зажать кровоточащие сосуды
+ent-CMSurgeryStepRetractSkin-name = Оттянуть кожу
+ent-CMSurgeryStepSawBones-name = Распилить кости
+ent-CMSurgeryStepPriseOpenBones-name = Раздвинуть кости
+ent-CMSurgeryStepCutLarvaRoots-name = Перерезать корни личинки
+ent-CMSurgeryStepRemoveLarva-name = Удалить личинку
+ent-CMSurgeryStepCloseBones-name = Соединить кости
+ent-CMSurgeryStepMendRibcage-name = Восстановить грудную клетку
+ent-CMSurgeryStepCloseIncision-name = Закрыть разрез
+ent-RMCSurgeryCutExoskeleton-name = Разрезать хитиновый панцирь
+ent-RMCSurgeryOpenExoskeleton-name = Вскрыть экзоскелет
+ent-RMCSurgerySevereXenoConnections-name = Отделить соединения органов
+ent-RMCSurgeryRemoveXenoOrgan-name = Удалить орган ксеноморфа
