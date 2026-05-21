@@ -1,12 +1,17 @@
-ent-AU14PropTrafficDirector1-name = Регулировщик движения
-ent-AU14PropTrafficDirector1-desc = Регулировщик движения.
-ent-AU14PropTrafficDirector2-name = Регулировщик движения
-ent-AU14PropTrafficDirector2-desc = Регулировщик движения.
-ent-AU14PropTrafficDirector3-name = Регулировщик движения
-ent-AU14PropTrafficDirector3-desc = Регулировщик движения.
-ent-AU14PropTrafficDirector4-name = Регулировщик движения
-ent-AU14PropTrafficDirector4-desc = Регулировщик движения.
-ent-AU14PropTrafficDirector5-name = Регулировщик движения
-ent-AU14PropTrafficDirector5-desc = Регулировщик движения.
-ent-AU14PropTrafficDirector6-name = Регулировщик движения
-ent-AU14PropTrafficDirector6-desc = Регулировщик движения.
+ent-AU14PropTrafficDirector1 = регулировщик движения
+    .desc = регулировщик движения.
+
+ent-AU14PropTrafficDirector2 = регулировщик движения
+    .desc = регулировщик движения.
+
+ent-AU14PropTrafficDirector3 = регулировщик движения
+    .desc = регулировщик движения.
+
+ent-AU14PropTrafficDirector4 = регулировщик движения
+    .desc = регулировщик движения.
+
+ent-AU14PropTrafficDirector5 = регулировщик движения
+    .desc = регулировщик движения.
+
+ent-AU14PropTrafficDirector6 = регулировщик движения
+    .desc = регулировщик движения.

@@ -111,8 +111,8 @@ public sealed partial class CorporateConsoleSystem : EntitySystem
         {
             var sound = new Robust.Shared.Audio.SoundPathSpecifier("/Audio/Announcements/announce.ogg");
             _chat.DispatchGlobalAnnouncement(
-                $"Corporate transit tariff has been set to {clamped:F0}%. Submission payouts to the colony have been adjusted.",
-                "Corporate Affairs",
+                Loc.GetString("au14-corporate-console-tariff-announcement", ("percent", (int)clamped)), // RuCM edit
+                Loc.GetString("au14-corporate-console-tariff-sender"),
                 playSound: true,
                 announcementSound: sound);
         }

@@ -1,12 +1,17 @@
-ent-AU14LandingSignBase-name = указатель
-ent-AU14LandingSignBase-desc = Указатель.
-ent-AU14LandingSignStableSpacePort-name = указатель космопорта Альбасетир
-ent-AU14LandingSignStableSpacePort-desc = Большой указатель с надписью «Космопорт Альбасетир».
-ent-AU14LandingSignStableColony-name = указатель колонии Альбасетир
-ent-AU14LandingSignStableColony-desc = Большой указатель с надписью «Добро пожаловать в Гарнизон Один — Внешнее кольцо Альбасетир».
-ent-AU14LandingSignBaseMilitary-name = указатель
-ent-AU14LandingSignBaseMilitary-desc = Указатель.
-ent-AU14LandingSignStableMilitary-name = указатель Объединённой базы Шефер
-ent-AU14LandingSignStableMilitary-desc = Большой указатель с надписью «Объединённая база Шефер».
-ent-AU14LandingSignStableMilitaryDirty-name = указатель Объединённой базы Шефер
-ent-AU14LandingSignStableMilitaryDirty-desc = Большой указатель с надписью «Объединённая база Шефер».
+ent-AU14LandingSignBase = указатель
+    .desc = Указатель.
+
+ent-AU14LandingSignStableSpacePort = указатель космопорта Альбасетир
+    .desc = Большой указатель с надписью «Космопорт Альбасетир».
+
+ent-AU14LandingSignStableColony = указатель колонии Альбасетир
+    .desc = Большой указатель с надписью «Добро пожаловать в Стабильный гарнизон — внешнее кольцо Альбасетир».
+
+ent-AU14LandingSignBaseMilitary = указатель
+    .desc = Указатель.
+
+ent-AU14LandingSignStableMilitary = указатель Союзной базы Шефер
+    .desc = Большой указатель с надписью «Союзная база Шефер».
+
+ent-AU14LandingSignStableMilitaryDirty = указатель Союзной базы Шефер
+    .desc = Большой указатель с надписью «Союзная база Шефер».

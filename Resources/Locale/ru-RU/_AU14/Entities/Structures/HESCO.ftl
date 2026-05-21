@@ -1,2 +1,2 @@
-ent-AU14HESCOBarrier-name = Заграждение HESCO
-ent-AU14HESCOBarrier-desc = Наполненный песком ящик, предназначенный для остановки пуль.
+ent-AU14HESCOBarrier = заграждение HESCO
+    .desc = Ящик полный мешков с песком, предназначенный для остановки пуль.

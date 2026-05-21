@@ -1,157 +1,239 @@
-ent-Rails-name = железнодорожный путь
-ent-RailsJunctionRightTop-name = железнодорожный путь
-ent-RailsJunctionLeftTop-name = железнодорожный путь
-ent-RailsJunctionRightBottom-name = железнодорожный путь
-ent-RailsJunctionLeftBottom-name = железнодорожный путь
-ent-RailsTurnWS-name = железнодорожный путь
-ent-RailsTurnNW-name = железнодорожный путь
-ent-RailsTurnNE-name = железнодорожный путь
-ent-RailsTurnSE-name = железнодорожный путь
-ent-DecorFloorBoard1-name = дощатый настил
-ent-DecorFloorBoard1-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard2-name = дощатый настил
-ent-DecorFloorBoard2-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard3-name = дощатый настил
-ent-DecorFloorBoard3-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard4-name = дощатый настил
-ent-DecorFloorBoard4-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard5-name = дощатый настил
-ent-DecorFloorBoard5-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard6-name = дощатый настил
-ent-DecorFloorBoard6-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard7-name = дощатый настил
-ent-DecorFloorBoard7-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard8-name = дощатый настил
-ent-DecorFloorBoard8-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard9-name = дощатый настил
-ent-DecorFloorBoard9-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard10-name = дощатый настил
-ent-DecorFloorBoard10-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard11-name = дощатый настил
-ent-DecorFloorBoard11-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard12-name = дощатый настил
-ent-DecorFloorBoard12-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard13-name = дощатый настил
-ent-DecorFloorBoard13-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard14-name = дощатый настил
-ent-DecorFloorBoard14-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard15-name = дощатый настил
-ent-DecorFloorBoard15-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard16-name = дощатый настил
-ent-DecorFloorBoard16-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard17-name = дощатый настил
-ent-DecorFloorBoard17-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard18-name = дощатый настил
-ent-DecorFloorBoard18-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard19-name = дощатый настил
-ent-DecorFloorBoard19-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard20-name = дощатый настил
-ent-DecorFloorBoard20-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard21-name = дощатый настил
-ent-DecorFloorBoard21-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard22-name = дощатый настил
-ent-DecorFloorBoard22-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard23-name = дощатый настил
-ent-DecorFloorBoard23-desc = Держит грязь подальше от ваших ног.
-ent-DecorFloorBoard24-name = дощатый настил
-ent-DecorFloorBoard24-desc = Держит грязь подальше от ваших ног.
-ent-DecorStalagmite1-name = сталагмит
-ent-DecorStalagmite1-desc = Острые камни! Миты идут вверх, титы...
-ent-DecorStalagmite2-name = сталагмит
-ent-DecorStalagmite2-desc = Острые камни! Миты идут вверх, титы...
-ent-DecorStalagmite3-name = сталагмит
-ent-DecorStalagmite3-desc = Острые камни! Миты идут вверх, титы...
-ent-DecorStalagmite4-name = сталагмит
-ent-DecorStalagmite4-desc = Острые камни! Миты идут вверх, титы...
-ent-DecorStalagmite5-name = сталагмит
-ent-DecorStalagmite5-desc = Острые камни! Миты идут вверх, титы...
-ent-DecorStalagmite6-name = сталагмит
-ent-DecorStalagmite6-desc = Острые камни! Миты идут вверх, титы...
-ent-DecorMinecart-name = вагонетка
-ent-DecorMinecart-desc = Кажется, она перевернулась...
-ent-DecorSignLeftMine-name = указатель
-ent-DecorSignLeftMine-desc = Указатель к шахте, показывающий напра...налево
-ent-DecorSignRightMine-name = указатель
-ent-DecorSignRightMine-desc = Указатель, показывающий направо.
-ent-DecorFloorPaper-name = разбросанные бумаги
-ent-DecorFloorPaper-desc = Беспорядок из бумаг
-ent-DecorFloorPaper1-name = разбросанные бумаги
-ent-DecorFloorPaper1-desc = Беспорядок из бумаг
-ent-DecorFloorPaper2-name = разбросанные бумаги
-ent-DecorFloorPaper2-desc = Беспорядок из бумаг
-ent-DecorFloorPaper3-name = разбросанные бумаги
-ent-DecorFloorPaper3-desc = Беспорядок из бумаг
-ent-DecorFloorScrapwood-name = обрезки древесины
-ent-DecorFloorScrapwood-desc = обрезки древесины
-ent-DecorFloorBrickrubble-name = кирпичный щебень
-ent-DecorFloorBrickrubble-desc = кирпичный щебень
-ent-DecorFloorCardboard-name = картонные коробки
-ent-DecorFloorCardboard-desc = картонные коробки-обрезки
-ent-DecorFloorPallet-name = поддон
-ent-DecorFloorPallet-desc = деревянный поддон.
-ent-DecorFloorPalletStack-name = стопка поддонов
-ent-DecorFloorPalletStack-desc = стопка деревянных поддонов
-ent-DecorFloorBrickStack-name = стопка кирпичей
-ent-DecorFloorBrickStack-desc = аккуратная стопка кирпичей
-ent-DecorFloorBookstack1-name = стопка книг
-ent-DecorFloorBookstack1-desc = стопка книг
-ent-DecorFloorBookstack2-name = стопка книг
-ent-DecorFloorBookstack2-desc = стопка книг
-ent-DecorFloorBookstack3-name = стопка книг
-ent-DecorFloorBookstack3-desc = стопка книг
-ent-DecorFloorBookPile1-name = куча книг
-ent-DecorFloorBookPile1-desc = куча книг
-ent-DecorFloorBookPile2-name = куча книг
-ent-DecorFloorBookPile2-desc = куча книг
-ent-DecorFloorBookPile3-name = куча книг
-ent-DecorFloorBookPile3-desc = куча книг
-ent-DecorFloorBookPile4-name = куча книг
-ent-DecorFloorBookPile4-desc = куча книг
-ent-DecorFloorBookPile5-name = куча книг
-ent-DecorFloorBookPile5-desc = куча книг
-ent-DecorFloorBookPile6-name = куча книг
-ent-DecorFloorBookPile6-desc = куча книг
-ent-DecorFloorFood1-name = продукты
-ent-DecorFloorFood1-desc = старые продукты
-ent-DecorFloorFood2-name = продукты
-ent-DecorFloorFood2-desc = старые продукты
-ent-DecorFloorFood3-name = продукты
-ent-DecorFloorFood3-desc = старые продукты
-ent-DecorFloorFood4-name = продукты
-ent-DecorFloorFood4-desc = старые продукты
-ent-DecorFloorFood5-name = продукты
-ent-DecorFloorFood5-desc = старые продукты
-ent-DecorFloorFood6-name = продукты
-ent-DecorFloorFood6-desc = старые продукты
-ent-DecorFloorTrashbags1-name = мусорные мешки
-ent-DecorFloorTrashbags1-desc = старые мусорные мешки
-ent-DecorFloorTrashbags2-name = мусорные мешки
-ent-DecorFloorTrashbags2-desc = старые мусорные мешки
-ent-DecorFloorTrashbags3-name = мусорные мешки
-ent-DecorFloorTrashbags3-desc = старые мусорные мешки
-ent-DecorFloorTrashbags4-name = мусорные мешки
-ent-DecorFloorTrashbags4-desc = старые мусорные мешки
-ent-DecorFloorTrashbags5-name = мусорные мешки
-ent-DecorFloorTrashbags5-desc = старые мусорные мешки
-ent-DecorFloorTrashbags6-name = мусорные мешки
-ent-DecorFloorTrashbags6-desc = старые мусорные мешки
-ent-DecorFloorGlass1-name = стеклянные бутылки
-ent-DecorFloorGlass1-desc = старые осколки стекла
-ent-DecorFloorGlass2-name = стеклянные бутылки
-ent-DecorFloorGlass2-desc = старые осколки стекла
-ent-DecorFloorGlass3-name = стеклянные бутылки
-ent-DecorFloorGlass3-desc = старые осколки стекла
-ent-DecorFloorGlass4-name = стеклянные бутылки
-ent-DecorFloorGlass4-desc = старые осколки стекла
-ent-DecorFloorGlass5-name = стеклянные бутылки
-ent-DecorFloorGlass5-desc = старые осколки стекла
-ent-DecorFloorGlass6-name = стеклянные бутылки
-ent-DecorFloorGlass6-desc = старые осколки стекла
-ent-DecorSignMines-name = мины
-ent-DecorSignMines-desc = опасность мин и смерти...
-ent-DecorFloorSkeleton-name = скелет
-ent-DecorFloorSkeleton-desc = выглядит потрёпанным
-ent-DecorBarrels-name = бочки
-ent-DecorBarrels-desc = несколько старых ржавых бочек.
-ent-DecorFloorSkeletonOver-name = скелет
-ent-DecorFloorSkeletonOver-desc = выглядит потрёпанным
+ent-Rails = железнодорожный путь
+
+ent-RailsJunctionRightTop = железнодорожный путь
+
+ent-RailsJunctionLeftTop = железнодорожный путь
+
+ent-RailsJunctionRightBottom = железнодорожный путь
+
+ent-RailsJunctionLeftBottom = железнодорожный путь
+
+ent-RailsTurnWS = железнодорожный путь
+
+ent-RailsTurnNW = железнодорожный путь
+
+ent-RailsTurnNE = железнодорожный путь
+
+ent-RailsTurnSE = железнодорожный путь
+
+ent-DecorFloorBoard1 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard2 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard3 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard4 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard5 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard6 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard7 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard8 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard9 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard10 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard11 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard12 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard13 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard14 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard15 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard16 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard17 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard18 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard19 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard20 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard21 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard22 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard23 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorFloorBoard24 = дощатый настил
+    .desc = Держит грязь подальше от ваших ног.
+
+ent-DecorStalagmite1 = сталагмит
+    .desc = Острые камни! Миты идут вверх, титы...
+
+ent-DecorStalagmite2 = сталагмит
+    .desc = Острые камни! Миты идут вверх, титы...
+
+ent-DecorStalagmite3 = сталагмит
+    .desc = Острые камни! Миты идут вверх, титы...
+
+ent-DecorStalagmite4 = сталагмит
+    .desc = Острые камни! Миты идут вверх, титы...
+
+ent-DecorStalagmite5 = сталагмит
+    .desc = Острые камни! Миты идут вверх, титы...
+
+ent-DecorStalagmite6 = сталагмит
+    .desc = Острые камни! Миты идут вверх, титы...
+
+ent-DecorMinecart = вагонетка
+    .desc = Кажется, она перевернулась...
+
+ent-DecorSignLeftMine = указатель
+    .desc = Указатель к шахте, показывающий напра...налево
+
+ent-DecorSignRightMine = указатель
+    .desc = Указатель, показывающий направо.
+
+ent-DecorFloorPaper = разбросанные бумаги
+    .desc = Беспорядок из бумаг
+
+ent-DecorFloorPaper1 = разбросанные бумаги
+    .desc = Беспорядок из бумаг
+
+ent-DecorFloorPaper2 = разбросанные бумаги
+    .desc = Беспорядок из бумаг
+
+ent-DecorFloorPaper3 = разбросанные бумаги
+    .desc = Беспорядок из бумаг
+
+ent-DecorFloorScrapwood = обрезки древесины
+    .desc = обрезки древесины
+
+ent-DecorFloorBrickrubble = кирпичный щебень
+    .desc = кирпичный щебень
+
+ent-DecorFloorCardboard = картонные коробки
+    .desc = картонные коробки-обрезки
+
+ent-DecorFloorPallet = поддон
+    .desc = деревянный поддон.
+
+ent-DecorFloorPalletStack = стопка поддонов
+    .desc = стопка деревянных поддонов
+
+ent-DecorFloorBrickStack = стопка кирпичей
+    .desc = аккуратная стопка кирпичей
+
+ent-DecorFloorBookstack1 = стопка книг
+    .desc = стопка книг
+
+ent-DecorFloorBookstack2 = стопка книг
+    .desc = стопка книг
+
+ent-DecorFloorBookstack3 = стопка книг
+    .desc = стопка книг
+
+ent-DecorFloorBookPile1 = куча книг
+    .desc = куча книг
+
+ent-DecorFloorBookPile2 = куча книг
+    .desc = куча книг
+
+ent-DecorFloorBookPile3 = куча книг
+    .desc = куча книг
+
+ent-DecorFloorBookPile4 = куча книг
+    .desc = куча книг
+
+ent-DecorFloorBookPile5 = куча книг
+    .desc = куча книг
+
+ent-DecorFloorBookPile6 = куча книг
+    .desc = куча книг
+
+ent-DecorFloorFood1 = продукты
+    .desc = старые продукты
+
+ent-DecorFloorFood2 = продукты
+    .desc = старые продукты
+
+ent-DecorFloorFood3 = продукты
+    .desc = старые продукты
+
+ent-DecorFloorFood4 = продукты
+    .desc = старые продукты
+
+ent-DecorFloorFood5 = продукты
+    .desc = старые продукты
+
+ent-DecorFloorFood6 = продукты
+    .desc = старые продукты
+
+ent-DecorFloorTrashbags1 = мусорные мешки
+    .desc = старые мусорные мешки
+
+ent-DecorFloorTrashbags2 = мусорные мешки
+    .desc = старые мусорные мешки
+
+ent-DecorFloorTrashbags3 = мусорные мешки
+    .desc = старые мусорные мешки
+
+ent-DecorFloorTrashbags4 = мусорные мешки
+    .desc = старые мусорные мешки
+
+ent-DecorFloorTrashbags5 = мусорные мешки
+    .desc = старые мусорные мешки
+
+ent-DecorFloorTrashbags6 = мусорные мешки
+    .desc = старые мусорные мешки
+
+ent-DecorFloorGlass1 = стеклянные бутылки
+    .desc = старые осколки стекла
+
+ent-DecorFloorGlass2 = стеклянные бутылки
+    .desc = старые осколки стекла
+
+ent-DecorFloorGlass3 = стеклянные бутылки
+    .desc = старые осколки стекла
+
+ent-DecorFloorGlass4 = стеклянные бутылки
+    .desc = старые осколки стекла
+
+ent-DecorFloorGlass5 = стеклянные бутылки
+    .desc = старые осколки стекла
+
+ent-DecorFloorGlass6 = стеклянные бутылки
+    .desc = старые осколки стекла
+
+ent-DecorSignMines = мины
+    .desc = опасность мин и смерти...
+
+ent-DecorFloorSkeleton = скелет
+    .desc = выглядит потрёпанным
+
+ent-DecorBarrels = бочки
+    .desc = несколько старых ржавых бочек.
+
+ent-DecorFloorSkeletonOver = скелет
+    .desc = выглядит потрёпанным
