@@ -1,6 +1,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 using Content.Server.Chat.Systems;
+using Robust.Shared.Utility;
 
 namespace Content.Server.Corvax.TTS;
 
@@ -15,6 +16,7 @@ public sealed partial class TTSSystem
 
     private string Sanitize(string text)
     {
+        text = FormattedMessage.RemoveMarkupPermissive(text);
         text = text.Trim();
         text = Regex.Replace(text, @"[^a-zA-Zа-яА-ЯёЁ0-9,\-+?!. ]", "");
         text = Regex.Replace(text, @"[a-zA-Z]", ReplaceLat2Cyr, RegexOptions.Multiline | RegexOptions.IgnoreCase);

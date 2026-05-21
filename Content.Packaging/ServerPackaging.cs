@@ -134,7 +134,7 @@ public static class ServerPackaging
             {
                 "publish",
                 "--runtime", runtime,
-                "--no-self-contained",
+                "--self-contained", "true", // https://github.com/AU-14/ColonialMarinesUniverse/pull/1047/changes
                 "-c", configuration,
                 $"/p:TargetOs={targetOs}",
                 "/p:FullRelease=True",

@@ -1587,7 +1587,11 @@ namespace Content.Client.Lobby.UI
 
         private static bool IsRoundStartThreatAssignmentJob(JobPrototype job)
         {
-            return job.ID is "AU14JobThreatLeader" or "AU14JobThreatMember";
+            return job.ID is
+                "AU14JobThreatLeader" or
+                "AU14JobThreatMember" or
+                "AU14JobThirdPartyLeader" or
+                "AU14JobThirdPartyMember";
         }
 
         private static (string Key, string Title) GetMilitaryJobSegment(JobPrototype job)

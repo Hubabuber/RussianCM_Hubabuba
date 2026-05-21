@@ -1,6 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMTSEResponder
+  whitelisted: true
+  whitelistParent: RMCWhitelistHard
   name: rmc-job-name-tse-responder
   description: rmc-job-description-tse-responder
   playTimeTracker: CMJobTSEResponder

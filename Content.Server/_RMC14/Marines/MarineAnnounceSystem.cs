@@ -172,13 +172,14 @@ public sealed partial class MarineAnnounceSystem : SharedMarineAnnounceSystem
     {
         base.AnnounceARESStaging(source, message, sound, announcement, faction);
 
+        var ttsMessage = message;
         message = FormatARESStaging(announcement, message);
 
         var filter = string.IsNullOrWhiteSpace(faction)
             ? BuildAllMarineAnnouncementFilter()
             : BuildMarineAnnouncementFilter(faction);
 
-        RaiseLocalEvent(new RMCAnnouncementMadeEvent(source, message, filter)); // RuMC Announce TTS
+        RaiseLocalEvent(new RMCAnnouncementMadeEvent(source, ttsMessage, filter)); // RuMC Announce TTS
 
         AnnounceToMarines(message, sound, filter);
         _adminLogs.Add(LogType.RMCMarineAnnounce, $"{ToPrettyString(source):player} ARES announced message: {message}");

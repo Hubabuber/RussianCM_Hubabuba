@@ -1,13 +1,13 @@
 - type: job
   parent: CMJobBase
-  id: AU14JobProdigyPartySmartgunner
-  name: Prodigy PARTY Smartgun Operator
+  id: AU14JobWYProdigyPartySmartgunner
+  name: PMC Smartgun Operator
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobWYProdigyPartySmartgunner
   ranks:
     AU14RankWeYuSeniorOperator: []
-  spawnMenuRoleName: Prodigy PARTY Smartgun Operator (3rd party)
-  startingGear: AU14GearPARTPartyOperator
+  spawnMenuRoleName: WY PMC Smartgun Operator (3rd party)
+  startingGear: AU14GearWYPMCPartySmartgunner
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCGunner"
   joinNotifyCrew: false
@@ -45,15 +45,15 @@
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
-    squad: SquadPARTY
+    squad: SquadPMC
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Prodigy Smartgun Operator
+    name: PMC Smartgun Operator
     description: au14-prodigyparty-description
     reregister: false
-    job: AU14JobProdigyPartySmartgunner
+    job: AU14JobWYProdigyPartySmartgunner
     raffle:
       settings: short
     rules: au14-prodigyparty-description
@@ -67,7 +67,7 @@
     shoes: RMCBootsSPPBlackFilled
     mask: RMCMaskCoifPMC
     eyes: RMCGlassesSmartGunSight
-    head: AU14PARTOperatorHelmetHeavy
+    head: AU14ProdigyBeret
     gloves: AU14HandsProdigyRU
     belt: RMCBeltSmartGunOperatorPistolPMCFilled
     pocket1: RMCPouchDrumPMCFill

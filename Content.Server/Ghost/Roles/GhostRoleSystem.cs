@@ -3,6 +3,8 @@ using Content.Server._RMC14.Ghost.Roles;
 using Content.Server.Access.Systems;
 using Content.Server.IdentityManagement;
 using Content.Server.Administration.Logs;
+using Content.Server.Administration.Managers;
+using Content.Server.GameTicking.Events;
 using Content.Server.Preferences.Managers;
 using Content.Server.EUI;
 using Content.Server.Ghost.Roles.Components;
@@ -63,6 +65,7 @@ public sealed partial class GhostRoleSystem : EntitySystem
     [Dependency] private MetaDataSystem _metaData = default!;
     [Dependency] private IdCardSystem _idCard = default!;
     [Dependency] private IdentitySystem _identity = default!;
+    [Dependency] private IBanManager _banManager = default!;
 
     private uint _nextRoleIdentifier;
     private bool _needsUpdateGhostRoleCount = true;
@@ -224,7 +227,9 @@ public sealed partial class GhostRoleSystem : EntitySystem
             if (meta.EntityPaused)
                 continue;
 
-            if (raffle.CurrentMembers.RemoveWhere(session => !CanRequestGhostRole(session)) > 0)
+            if (raffle.CurrentMembers.RemoveWhere(session =>
+                    !TryComp(entityUid, out GhostRoleComponent? role) ||
+                    !CanRequestGhostRole(session, role)) > 0)
                 UpdateAllEui();
 
             // if all participants leave/were removed from the raffle, the raffle is canceled.
@@ -289,6 +294,23 @@ public sealed partial class GhostRoleSystem : EntitySystem
         // If a player has spawned into a normal body, purge stale raffle membership so
         // the raffle cannot pull them out of the round later.
         return player.AttachedEntity is not { } entity || HasComp<GhostComponent>(entity);
+    }
+
+    private bool CanRequestGhostRole(ICommonSession player, GhostRoleComponent role)
+    {
+        if (!CanRequestGhostRole(player))
+            return false;
+
+        if (role.JobProto is not { } job)
+            return true;
+
+        var jobBans = _banManager.GetJobBans(player.UserId);
+        if (jobBans == null || jobBans.Contains(job))
+            return false;
+
+        var ev = new IsJobAllowedEvent(player, job);
+        RaiseLocalEvent(ref ev);
+        return !ev.Cancelled;
     }
 
     private bool TryTakeover(ICommonSession player, uint identifier)
@@ -420,6 +442,9 @@ public sealed partial class GhostRoleSystem : EntitySystem
         if (!_ghostRoles.TryGetValue(identifier, out var roleEnt))
             return;
 
+        if (!CanRequestGhostRole(player, roleEnt.Comp))
+            return;
+
         // get raffle or create a new one if it doesn't exist
         var raffle = _ghostRoleRaffles.TryGetValue(identifier, out var raffleEnt)
             ? raffleEnt.Comp
@@ -499,6 +524,9 @@ public sealed partial class GhostRoleSystem : EntitySystem
         if (!_ghostRoles.TryGetValue(identifier, out var roleEnt))
             return;
 
+        if (!CanRequestGhostRole(player, roleEnt.Comp))
+            return;
+
         if (roleEnt.Comp.RaffleConfig is not null)
         {
             JoinRaffle(player, identifier);
@@ -519,6 +547,9 @@ public sealed partial class GhostRoleSystem : EntitySystem
             return false;
 
         if (!_ghostRoles.TryGetValue(identifier, out var role))
+            return false;
+
+        if (!CanRequestGhostRole(player, role.Comp))
             return false;
 
         var ev = new TakeGhostRoleEvent(player);

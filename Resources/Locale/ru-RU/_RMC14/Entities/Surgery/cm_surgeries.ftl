@@ -1,12 +1,9 @@
-ent-RMCSurgeryAlienHeartRemoval = Экспериментальная хирургия сбора урожая
-  .desc = Добудьте сердце умершего инопланетянина.
+ent-RMCSurgeryAlienHeartRemoval = Экспериментальная хирургия - извлечение
+  .desc = Извлечь сердце из мёртвого ксеноморфа.
 
 ent-CMSurgeryAlienEmbryoRemoval = Удаление чужеродных эмбрионов
-  .desc = Удаление чужеродного эмбриона из организма.
-
-ent-CMSurgeryOpenRibcage = Открытая грудная клетка
+  .desc = Удаление чужеродного эмбриона из тела.
 
 ent-CMSurgeryCloseIncision = Закрыть разрез
-
-ent-CMSurgeryOpenIncision = Открытый разрез
-
+ent-CMSurgeryOpenIncision = Открыть разрез
+ent-CMSurgeryOpenRibcage = Вскрыть грудную клетку

@@ -22,17 +22,17 @@ au14-job-prefix-govfordspilot = ПШ
 AU14JobGOVFORDCC = Командир экипажа штурмовика
 au14-job-name-govfordcc = Командир экипажа штурмовика
 au14-job-description-govfordcc = Обслуживай машину. Координируй грузы, пассажиров и помогай пилоту.
-au14-job-prefix-govfordcc = БМХ
+au14-job-prefix-govfordcc = КЭТ
 
 AU14JobGOVFORSectionSergeant = Старший сержант
 au14-job-name-govforSSG = Старший сержант
-au14-job-description-govforSSG = Старший рядовой состав. Обеспечивай работу взвода.
+au14-job-description-govforSSG = Старший сержантский состав. Обеспечивай работу взвода.
 au14-job-prefix-govforSSG = СС
 
-AU14JobGOVFORSquadSergeant = Командир отделения
-au14-job-name-govforsquadsergeant = Командир отделения
-au14-job-description-govforsquadsergeant = Командуй отделением. Следуй приказам сверху и верни своих людей домой.
-au14-job-prefix-govforsquadsergeant = КМД
+AU14JobGOVFORSquadSergeant = Командир отряда
+au14-job-name-govforsquadsergeant = Командир отряда
+au14-job-description-govforsquadsergeant = Командуй отрядом. Следуй приказам сверху и верни своих людей домой в сохранности.
+au14-job-prefix-govforsquadsergeant = КО
 
 AU14JobGOVFORSquadRifleman = Стрелок
 au14-job-name-govforsquadrifleman = Стрелок
@@ -46,12 +46,12 @@ au14-job-prefix-govforsquadautomaticrifleman = АВТ
 
 AU14JobGOVFORPlatoonCorpsman = Санитар госпиталя
 au14-job-name-govforplatooncorpsman = Санитар госпиталя
-au14-job-description-govforplatooncorpsman = Оказывай полевую медицинскую помощь. Латай раненых, поддерживай их дыхание и возвращай в бой.
+au14-job-description-govforplatooncorpsman = Оказывай полевую медицинскую помощь. Латай раненых и возвращай их в бой.
 au14-job-prefix-govforplatooncorpsman = СГ
 
 AU14JobGOVFORRadioTelephoneOperator = Командир огневой группы
 au14-job-name-radiotelephoneoperator = Командир огневой группы
-au14-job-description-radiotelephoneoperator = Управляй дальней связью и командуй огневыми группами.
+au14-job-description-radiotelephoneoperator = Управляйте дальней связью и командуйте огневыми группами.
 au14-job-prefix-radiotelephoneoperator = КОГ
 
 AU14JobGOVFORAuxSupportSynth = Синтетик поддержки
@@ -61,7 +61,7 @@ au14-job-prefix-govforauxsupportsynth = СИНТ
 
 AU14JobGOVFORSquadCombatTech = Боевой техник
 au14-job-name-govforsquadcombattech = Боевой техник
-au14-job-description-govforsquadcombattech = Обеспечивай инженерную поддержку для своей фракции.
+au14-job-description-govforsquadcombattech = Обеспечивай инженерную поддержку своей фракции.
 au14-job-prefix-govforsquadcombattech = БТ
 
 AU14JobGOVFORadvisor = Советник
@@ -92,19 +92,19 @@ au14-job-prefix-AU14JobGOVFORDSPilotWYPMC = ПДР
 au14-job-prefix-AU14JobGOVFORRadioTelephoneOperatorWYPMC = СВЯЗ
 au14-job-prefix-AU14JobGOVFORSectionSergeantWYPMC = КМДВЗ
 au14-job-prefix-AU14JobGOVFORSquadAutomaticRiflemanWYPMC = ПУЛ
-au14-job-prefix-AU14JobGOVFORSquadRiflemanWYPMC = КНТР
-au14-job-prefix-AU14JobGOVFORSquadSergeantWYPMC = КОГ
+au14-job-prefix-AU14JobGOVFORSquadRiflemanWYPMC = СТР
+au14-job-prefix-AU14JobGOVFORSquadSergeantWYPMC = КО
 
 au14-job-prefix-AU14JobGOVFORPlatCoUPP = КМВЗ
-au14-job-prefix-AU14JobGOVFORPlatoonCorpsmanUPP = ВСАН
+au14-job-prefix-AU14JobGOVFORPlatoonCorpsmanUPP = САН
 au14-job-prefix-AU14JobGOVFORDCCUPP = БМХ
 au14-job-prefix-AU14JobGOVFORPlatOpUPP = СМЩ
 au14-job-prefix-AU14JobGOVFORDSPilotUPP = ПДР
 au14-job-prefix-AU14JobGOVFORRadioTelephoneOperatorUPP = РТО
 au14-job-prefix-AU14JobGOVFORSectionSergeantUPP = КМДР
 au14-job-prefix-AU14JobGOVFORSquadAutomaticRiflemanUPP = ПУЛ
-au14-job-prefix-AU14JobGOVFORSquadRiflemanUPP = СТРЛ
-au14-job-prefix-AU14JobGOVFORSquadSergeantUPP = КОГ
+au14-job-prefix-AU14JobGOVFORSquadRiflemanUPP = СТР
+au14-job-prefix-AU14JobGOVFORSquadSergeantUPP = КО
 
 au14-job-prefix-AU14JobGOVFORPlatCoCMBCIU = МРШЛ
 au14-job-prefix-AU14JobGOVFORPlatoonCorpsmanCMBCIU = ТАКМЕД
@@ -120,8 +120,8 @@ au14-job-prefix-govforsquadautomaticriflemanRMC = ПУЛ
 
 au14-job-name-govforauxsupportsynthRMC = Синтетик поддержки
 au14-job-name-govforplatcoRMC = Командир
-au14-job-name-govforplatooncorpsmanRMC = Санитар Госпиталя
-au14-job-name-govfordccRMC = Командир Экипажа Штурмовика
+au14-job-name-govforplatooncorpsmanRMC = Санитар госпиталя
+au14-job-name-govfordccRMC = Старший экипажа штурмовика
 au14-job-name-govforplatopRMC = Младший офицер
 
 au14-job-name-govfordspilotRMC = Пилот-офицер
@@ -133,36 +133,36 @@ au14-job-prefix-govforSSGRMC = СТСРЖ
 au14-job-name-radiotelephoneoperatorRMC = Связист
 au14-job-name-govforsquadriflemanRMC = Стрелок
 
-au14-job-name-govforsquadcombattechRMC = БТ
-au14-job-prefix-govforsquadcombattechRMC = САП
+au14-job-name-govforsquadcombattechRMC = Боевой техник
+au14-job-prefix-govforsquadcombattechRMC = БТ
 
-au14-job-name-govforspecialist-marksmanRMC = Меткий Стрелок
-au14-job-prefix-govforspecialist-marksmanRMC = МРКС
+au14-job-name-govforspecialist-marksmanRMC = Снайпер
+au14-job-prefix-govforspecialist-marksmanRMC = СНП
 
-au14-job-name-govforspecialist-pointmanRMC = Наконечник
-au14-job-prefix-govforspecialist-pointmanRMC = НКН
+au14-job-name-govforspecialist-pointmanRMC = Стрелок
+au14-job-prefix-govforspecialist-pointmanRMC = СТР
 
-au14-job-name-govforspecialist-grenadierRMC = Гранатомётчик
+au14-job-name-govforspecialist-grenadierRMC = Гренадёр
 au14-job-prefix-govforspecialist-grenadierRMC = ГРН
 
-au14-job-prefix-govfork9handler = К9
+au14-job-prefix-govfork9handler = K9
 
 au-14-job-name-rmcrrt-commander = Командир
 au-14-job-prefix-rmcrrt-commander = КМД
 
-au14-job-name-govforspecialist-heavyantitankUPP = Противотанковый стрелок
-au14-job-prefix-govforspecialist-heavyantitankUPP = ПТО
+au14-job-name-govforspecialist-heavyantitankUPP = Антитанк
+au14-job-prefix-govforspecialist-heavyantitankUPP = АНТ
 
-au14-job-name-govforspecialist-marksmanUPP = Меткий Стрелок
-au14-job-prefix-govforspecialist-marksmanUPP = МС
+au14-job-name-govforspecialist-marksmanUPP = Снайпер
+au14-job-prefix-govforspecialist-marksmanUPP = СНП
 
-au14-job-name-govforspecialist-pointmanUPP = Щитовик
-au14-job-prefix-govforspecialist-pointmanUPP = ЩТК
+au14-job-name-govforspecialist-pointmanUPP = Стрелок
+au14-job-prefix-govforspecialist-pointmanUPP = СТР
 
-au-14-job-name-uppgrom-squadleader = Командир отделения
-au-14-job-prefix-uppgrom-squadleader = КОГ
+au-14-job-name-uppgrom-squadleader = Командир отряда
+au-14-job-prefix-uppgrom-squadleader = КО
 
-au14-job-name-juniorofficer-so = Офицер-Штаба
+au14-job-name-juniorofficer-so = Офицер штаба
 au14-job-prefix-juniorofficer-so = ОШ
 
 au14-job-name-juniorofficer-io = Офицер разведки

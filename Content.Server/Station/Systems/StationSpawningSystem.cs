@@ -182,6 +182,17 @@ public sealed partial class StationSpawningSystem : SharedStationSpawningSystem
             var jobEntity = Spawn(prototype.JobEntity, coordinates);
             MakeSentientCommand.MakeSentient(jobEntity, EntityManager);
 
+            if (profile != null && TryComp(jobEntity, out HumanoidAppearanceComponent? humanoid))
+            {
+                _humanoidSystem.LoadProfile(jobEntity, profile.WithSpecies(humanoid.Species), humanoid);
+                _metaSystem.SetEntityName(jobEntity, profile.Name);
+
+                if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
+                {
+                    AddComp<DetailExaminableComponent>(jobEntity).Content = profile.FlavorText;
+                }
+            }
+
             // Make sure custom names get handled, what is gameticker control flow whoopy.
             if (loadout != null)
             {
@@ -597,11 +608,20 @@ public sealed partial class StationSpawningSystem : SharedStationSpawningSystem
                 _cardSystem.TryChangeJobIcon(cardId, jobIcon, card);
         }
 
-        // Set access from the old job
-        if (station != null)
+        // Normal spawns need access applied from their actual job. Split-job spawns
+        // already merge access before this helper, so avoid overwriting that union.
+        if (titleJobPrototype.ID == accessJobPrototype.ID)
         {
-            var data = Comp<StationJobsComponent>(station.Value);
+            var extendedAccess = false;
+            if (station != null)
+            {
+                var data = Comp<StationJobsComponent>(station.Value);
+                extendedAccess = data.ExtendedAccess;
+            }
+
+            _accessSystem.SetAccessToJob(cardId, accessJobPrototype, extendedAccess);
         }
+
         if (pdaComponent != null)
             _pdaSystem.SetOwner(idUid.Value, pdaComponent, entity, characterName);
     }
