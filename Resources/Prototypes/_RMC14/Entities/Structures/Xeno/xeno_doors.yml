@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseXenoStructure
   id: DoorXenoResin
-  name: resin door
-  description: That's a resin door.
+  name: ent-DoorXenoResin
+  description: ent-DoorXenoResin-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -109,8 +109,8 @@
 - type: entity
   parent: DoorXenoResin
   id: DoorXenoResinThick
-  name: thick resin door
-  description: A thick resin door, which is more durable.
+  name: ent-DoorXenoResinThick
+  description: ent-DoorXenoResinThick-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_door.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: DoorXenoResin
   id: DoorXenoResinWeedbound
-  name: weedbound resin door
-  description: That's a resin door, bound to weeds.
+  name: ent-DoorXenoResinWeedbound
+  description: ent-DoorXenoResinWeedbound-desc
   components:
   - type: GuideHelp
     guides:
@@ -194,8 +194,8 @@
 - type: entity
   parent: DoorXenoResinThick
   id: DoorXenoResinThickWeedbound
-  name: thick weedbound resin door
-  description: A thick resin door, bound to weeds.
+  name: ent-DoorXenoResinThickWeedbound
+  description: ent-DoorXenoResinThickWeedbound-desc
   components:
   - type: GuideHelp
     guides:

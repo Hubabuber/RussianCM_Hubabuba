@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTSPartyContractorBase
-  name: PMC Contractor Base
+  name: job-au14jobpartspartycontractorbase-name
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTSPartyContractor
   basePlaytimeTracker: true
@@ -10,11 +10,11 @@
 - type: job
   parent: AU14JobPARTSPartyContractorBase
   id: AU14JobPARTSPartyContractor
-  name: PARTS Response Unit (M41A/2)
+  name: job-au14jobpartspartycontractor-name
   description: au14-prodigyparty-description
   ranks:
     AU14RankWeYuRecruit: []
-  spawnMenuRoleName: Prodigy Sierra Contractor (3rd party, M41A/2)
+  spawnMenuRoleName: job-au14jobpartspartycontractor-spawnmenurolename
   startingGear: AU14GearPARTSPartyContractor
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCStandard"
@@ -46,7 +46,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobPARTSPartyRifleman
-  name: Prodigy Sierra Party Rifleman (3rd party, M41A/2)
+  name: ent-AU14JobPARTSPartyRifleman
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

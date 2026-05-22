@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: RMCCLFSoldier
   name: rmc-clf-soldier
@@ -9,7 +9,7 @@
   startingGear: RMCGearCLFSoldier
   icon: RMCJobIconCLFSoldier
   joinNotifyCrew: false
-  spawnMenuRoleName: CLF Soldier
+  spawnMenuRoleName: job-rmcclfsoldier-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -35,8 +35,8 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFSoldier
-  name: clf ghost role soldier
-  suffix: Spawner, Player
+  name: ent-RMCRandomHumanoidCLFSoldier
+  suffix: ent-RMCRandomHumanoidCLFSoldier-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi

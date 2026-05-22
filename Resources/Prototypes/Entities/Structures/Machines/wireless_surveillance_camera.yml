@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseStructureDynamic, SmallConstructibleMachine ]
   id: SurveillanceWirelessCameraBase
-  name: wireless camera
-  description: A camera. It's watching you. Kinda.
+  name: ent-SurveillanceWirelessCameraBase
+  description: ent-SurveillanceWirelessCameraBase-desc
   components:
     - type: InteractionOutline
     - type: Eye
@@ -44,7 +44,7 @@
   abstract: true
   id: SurveillanceWirelessCameraAnchoredBase
   parent: SurveillanceWirelessCameraBase
-  suffix: Anchored
+  suffix: ent-SurveillanceWirelessCameraAnchoredBase-suffix
   components:
     - type: Machine
       board: SurveillanceWirelessCameraAnchoredCircuitboard
@@ -64,7 +64,7 @@
   abstract: true
   id: SurveillanceWirelessCameraMovableBase
   parent: SurveillanceWirelessCameraBase
-  suffix: Movable
+  suffix: ent-SurveillanceWirelessCameraMovableBase-suffix
   components:
     - type: Machine
       board: SurveillanceWirelessCameraMovableCircuitboard
@@ -78,7 +78,7 @@
 
 - type: entity
   parent: SurveillanceWirelessCameraAnchoredBase
-  suffix: Constructed, Anchored
+  suffix: ent-SurveillanceWirelessCameraAnchoredConstructed-suffix
   id: SurveillanceWirelessCameraAnchoredConstructed
   components:
     - type: DeviceNetwork
@@ -91,7 +91,7 @@
 
 - type: entity
   parent: SurveillanceWirelessCameraMovableBase
-  suffix: Constructed, Movable
+  suffix: ent-SurveillanceWirelessCameraMovableConstructed-suffix
   id: SurveillanceWirelessCameraMovableConstructed
   components:
     - type: DeviceNetwork
@@ -104,7 +104,7 @@
 
 - type: entity
   parent: SurveillanceWirelessCameraAnchoredBase
-  suffix: Entertainment, Anchored
+  suffix: ent-SurveillanceWirelessCameraAnchoredEntertainment-suffix
   id: SurveillanceWirelessCameraAnchoredEntertainment
   components:
     - type: DeviceNetwork
@@ -116,7 +116,7 @@
 
 - type: entity
   parent: SurveillanceWirelessCameraMovableBase
-  suffix: Entertainment, Movable
+  suffix: ent-SurveillanceWirelessCameraMovableEntertainment-suffix
   id: SurveillanceWirelessCameraMovableEntertainment
   components:
     - type: DeviceNetwork

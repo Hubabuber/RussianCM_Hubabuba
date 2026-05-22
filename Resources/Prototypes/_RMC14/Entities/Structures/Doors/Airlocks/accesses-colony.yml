@@ -1,8 +1,8 @@
-﻿# /obj/structure/machinery/door/airlock/secure/colony
+# /obj/structure/machinery/door/airlock/secure/colony
 - type: entity
   parent: CMAirlockSecure
   id: CMAirlockSecureLockedColony
-  suffix: Colony, Locked
+  suffix: ent-CMAirlockSecureLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyPublic"]]
@@ -11,7 +11,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockCommandLockedColony
-  suffix: Command, Colony, Locked
+  suffix: ent-CMAirlockCommandLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Colonial access
@@ -20,7 +20,7 @@
 - type: entity
   parent: CMAirlockSecurity
   id: CMAirlockSecurityLockedColony
-  suffix: Security, Colony, Locked
+  suffix: ent-CMAirlockSecurityLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Security access
@@ -29,7 +29,7 @@
 - type: entity
   parent: CMAirlockEngineer
   id: CMAirlockEngineerLockedColony
-  suffix: Engineering, Colony, Locked
+  suffix: ent-CMAirlockEngineerLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"], ["CMAccessColonyEngineering"], ["CMAccessColonyLogistics"]] # TODO RMC14 WeYa Colonial
@@ -38,7 +38,7 @@
 - type: entity
   parent: CMAirlockRequisitionsLocked
   id: CMAirlockRequisitionsLockedColony
-  suffix: Colony, Requisitions, Locked
+  suffix: ent-CMAirlockRequisitionsLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"], ["CMAccessColonyLogistics"]]
@@ -47,7 +47,7 @@
 - type: entity
   parent: CMAirlockMedical
   id: CMAirlockMedicalLockedColony
-  suffix: Medical, Colony, Locked
+  suffix: ent-CMAirlockMedicalLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyMedbay"], ["CMAccessColonyCommand"]] # TODO RMC14 Research and WeYa Colonial
@@ -56,7 +56,7 @@
 - type: entity
   parent: CMAirlockResearchLocked
   id: CMAirlockResearchLockedColony
-  suffix: Colony, Research, Locked
+  suffix: ent-CMAirlockResearchLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"]] # TODO RMC14 Research and WeYa Research
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintLockedColony
-  suffix: Maintenance, Colony, Locked
+  suffix: ent-CMAirlockMaintLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyPublic"], ["CMAccessColonyEngineering"]] # TODO RMC14 WeYa Colonial
@@ -74,7 +74,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockGlassLockedColony
-  suffix: Colony, Glass, Locked
+  suffix: ent-CMAirlockGlassLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyPublic"]]
@@ -83,7 +83,7 @@
 - type: entity
   parent: CMAirlockGlassEngineer
   id: CMAirlockGlassEngineerLockedColony
-  suffix: Engineering, Colony, Glass, Locked
+  suffix: ent-CMAirlockGlassEngineerLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"], ["CMAccessColonyEngineering"], ["CMAccessColonyLogistics"]] # TODO RMC14 WeYa Colonial
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: CMAirlockGlassSecurityLockedColony
-  suffix: Security, Colony, Glass, Locked
+  suffix: ent-CMAirlockGlassSecurityLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Security access
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMAirlockGlassMedical
   id: CMAirlockGlassMedicalLockedColony
-  suffix: Medical, Colony, Glass, Locked
+  suffix: ent-CMAirlockGlassMedicalLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyMedbay"], ["CMAccessColonyCommand"]] # TODO RMC14 Research and WeYa Colonial
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMAirlockGlassMedical
   id: CMAirlockGlassResearchLockedColony
-  suffix: Research, Colony, Glass, Locked
+  suffix: ent-CMAirlockGlassResearchLockedColony-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"]] # TODO RMC14 Research and WeYa Research
@@ -120,7 +120,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: RMCAirlockGlassSecurityLockedTSEPA
-  suffix: TSEPA, Colony, Glass, Locked
+  suffix: ent-RMCAirlockGlassSecurityLockedTSEPA-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPA"], ["CMAccessColonyCommand"]]
@@ -128,7 +128,7 @@
 - type: entity
   parent: CMAirlockSecurity
   id: RMCAirlockSecurityLockedTSEPA
-  suffix: TSEPA, Colony, Solid, Locked
+  suffix: ent-RMCAirlockSecurityLockedTSEPA-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPA"], ["CMAccessColonyCommand"]]
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCAirlockGlassSecurityLockedTSEPA
   id: RMCAirlockGlassSecurityLockedTSEPAAlt
-  name: airlock
+  name: ent-RMCAirlockGlassSecurityLockedTSEPAAlt
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/hybrisa_personal_door_glass.rsi
@@ -144,7 +144,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: RMCAirlockGlassSecurityLockedTSEPABrig
-  suffix: TSEPA Brig, Colony, Glass, Locked
+  suffix: ent-RMCAirlockGlassSecurityLockedTSEPABrig-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPABrig"], ["CMAccessColonyCommand"]]
@@ -152,7 +152,7 @@
 - type: entity
   parent: CMDoubleDoorSecurityGlass
   id: RMCDoubleDoorSecurityGlassLockedTSEPA
-  suffix: TSEPA, Glass, Locked
+  suffix: ent-RMCDoubleDoorSecurityGlassLockedTSEPA-suffix
   components:
   - type: AccessReader
     access: [ [ "RMCAccessTSEPA" ], [ "RMCAccessCommand" ] ]
@@ -167,7 +167,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: RMCAirlockMaintLockedTSEPA
-  suffix: TSEPA, Maint, Locked
+  suffix: ent-RMCAirlockMaintLockedTSEPA-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPA"], ["CMAccessColonyCommand"]]
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCAirlockHybrisaPersonal
   id: RMCAirlockHybrisaPersonalLockedTSEPA
-  suffix: TSEPA, Solid, Locked
+  suffix: ent-RMCAirlockHybrisaPersonalLockedTSEPA-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPA"], ["CMAccessColonyCommand"]]
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCAirlockHybrisaPersonal
   id: RMCAirlockHybrisaPersonalLockedTSEPABrig
-  suffix: TSEPA Brig, Solid, Locked
+  suffix: ent-RMCAirlockHybrisaPersonalLockedTSEPABrig-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPABrig"], ["CMAccessColonyCommand"]]

@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItemCabinet
   id: DefibrillatorCabinet
-  name: defibrillator cabinet
-  description: A small wall mounted cabinet designed to hold a defibrillator.
+  name: ent-DefibrillatorCabinet
+  description: ent-DefibrillatorCabinet-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -53,7 +53,7 @@
 - type: entity
   parent: DefibrillatorCabinet
   id: DefibrillatorCabinetOpen
-  suffix: Open
+  suffix: ent-DefibrillatorCabinetOpen-suffix
   components:
   - type: Openable
     opened: true
@@ -61,7 +61,7 @@
 - type: entity
   parent: DefibrillatorCabinet
   id: DefibrillatorCabinetFilled
-  suffix: Filled
+  suffix: ent-DefibrillatorCabinetFilled-suffix
   components:
   - type: ContainerFill
     containers:
@@ -71,4 +71,4 @@
 - type: entity
   parent: [DefibrillatorCabinetFilled, DefibrillatorCabinetOpen]
   id: DefibrillatorCabinetFilledOpen
-  suffix: Filled, Open
+  suffix: ent-DefibrillatorCabinetFilledOpen-suffix

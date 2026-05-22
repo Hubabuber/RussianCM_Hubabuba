@@ -20,7 +20,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: explosive payload
+  name: ent-ExplosivePayload
   parent: [ BasePayload, BaseSecurityContraband ]
   id: ExplosivePayload
   components:
@@ -44,10 +44,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: chemical payload
+  name: ent-ChemicalPayload
   parent: [ BasePayload, BaseMedicalScienceContraband ]
   id: ChemicalPayload
-  description: A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
+  description: ent-ChemicalPayload-desc
   components:
   - type: Sprite
     sprite: Objects/Devices/payload.rsi
@@ -80,10 +80,10 @@
     price: 60
 
 - type: entity
-  name: flash payload
+  name: ent-FlashPayload
   parent: [ BasePayload, BaseSecurityScienceCommandContraband ]
   id: FlashPayload
-  description: A single-use flash payload.
+  description: ent-FlashPayload-desc
   components:
     - type: Sprite
       sprite: Objects/Devices/payload.rsi

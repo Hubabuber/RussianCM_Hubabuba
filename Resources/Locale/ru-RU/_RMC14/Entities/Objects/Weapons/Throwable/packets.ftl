@@ -112,3 +112,23 @@ ent-RMCPacketGrenade20mmIncendiary = пакет гранат L109A2 зажига
 
 ent-RMCPacketGrenade20mmIncendiaryFilled = пакет гранат L109A2 зажигательных (полный)
     .desc = Содержит восемь 20мм зажигательных гранат L109A2.
+
+ent-RMCBoxCCDP = Ящик для гранат CCDP 30 мм.
+    .desc = Защищенный ящик с 25 30-мм гранатами CCDP Chemical Compound. Легко воспламеняется, не храните рядом с топливом для огнемета.
+
+ent-RMCBoxWPDP = 30-мм гранатный ящик WPDP
+    .desc = Защищенный ящик с 25 30-мм гранатами WPDP с белым фосфором. Легко воспламеняется, не храните рядом с топливом для огнемета.
+
+ent-RMCPacketGrenadeWhitePhosphorus = Пакет гранат WPDP
+    .desc = Он содержит три гранаты с белым фосфором WPDP.
+
+ent-RMCPacketGrenadeWhitePhosphorusCompound = Пакет гранат CCDP
+    .desc = Он содержит три гранаты с химическим составом CCDP.
+
+ent-RMCPacketGrenadeWhitePhosphorusCompoundFilled = Пакет гранат CCDP
+    .desc = Он содержит три гранаты с химическим составом CCDP.
+    .suffix = Заполненный
+
+ent-RMCPacketGrenadeWhitePhosphorusFilled = Пакет гранат WPDP
+    .desc = Он содержит три гранаты с белым фосфором WPDP.
+    .suffix = Заполненный

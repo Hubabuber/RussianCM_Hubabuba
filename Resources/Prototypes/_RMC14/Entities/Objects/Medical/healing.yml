@@ -21,9 +21,9 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMOintment
-  name: ointment
-  description: Used to treat those nasty burns. Less effective on caustic burns.
-  suffix: Ten
+  name: ent-CMOintment
+  description: ent-CMOintment-desc
+  suffix: ent-CMOintment-suffix
   components:
   - type: Tag
     tags:
@@ -70,7 +70,7 @@
 
 - type: stack
   id: CMOintment
-  name: ointment
+  name: stack-cmointment-name
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: ointment }
   spawn: CMOintment1
   maxCount: 10
@@ -78,7 +78,7 @@
 - type: entity
   id: CMOintment1
   parent: CMOintment
-  suffix: One
+  suffix: ent-CMOintment1-suffix
   components:
   - type: Stack
     stackType: CMOintment
@@ -87,7 +87,7 @@
 - type: entity
   id: CMOintment10
   parent: CMOintment
-  suffix: Ten
+  suffix: ent-CMOintment10-suffix
   components:
   - type: Stack
     stackType: CMOintment
@@ -97,9 +97,9 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMGauze
-  name: medical gauze
-  description: Some sterile gauze to wrap around bloody stumps and lacerations.
-  suffix: Ten
+  name: ent-CMGauze
+  description: ent-CMGauze-desc
+  suffix: ent-CMGauze-suffix
   components:
   - type: Tag
     tags:
@@ -144,7 +144,7 @@
 
 - type: stack
   id: CMGauze
-  name: gauze
+  name: stack-cmgauze-name
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: gauze }
   spawn: CMGauze1
   maxCount: 10
@@ -152,7 +152,7 @@
 - type: entity
   id: CMGauze1
   parent: CMGauze
-  suffix: One
+  suffix: ent-CMGauze1-suffix
   components:
   - type: Stack
     count: 1
@@ -160,7 +160,7 @@
 - type: entity
   id: CMGauze10
   parent: CMGauze
-  suffix: Ten
+  suffix: ent-CMGauze10-suffix
   components:
   - type: Stack
     count: 10
@@ -168,8 +168,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSurgicalLine
-  name: surgical line
-  description: A roll of military-grade surgical line, able to seamlessly sew up any wound. Also works as a robust fishing line for maritime deployments.
+  name: ent-CMSurgicalLine
+  description: ent-CMSurgicalLine-desc
   components:
   - type: Tag
     tags:
@@ -220,8 +220,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSynthGraft
-  name: synth graft
-  description: An applicator for silicon skin field grafts. The stuff reeks, itches like the dickens, hurts going on, and the color is a perfectly averaged multiethnic tone that doesn't blend with anyone's complexion. But at least you don't have to stay in sickbay.
+  name: ent-CMSynthGraft
+  description: ent-CMSynthGraft-desc
   components:
   - type: Tag
     tags:
@@ -265,9 +265,9 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMBurnKit
-  name: burn kit
-  description: A treatment kit for severe burns.
-  suffix: Ten
+  name: ent-CMBurnKit
+  description: ent-CMBurnKit-desc
+  suffix: ent-CMBurnKit-suffix
   components:
   - type: Stack
     stackType: CMBurnKit
@@ -317,7 +317,7 @@
 - type: entity
   id: CMBurnKit1
   parent: CMBurnKit
-  suffix: One
+  suffix: ent-CMBurnKit1-suffix
   components:
   - type: Stack
     count: 1
@@ -325,14 +325,14 @@
 - type: entity
   id: CMBurnKit10
   parent: CMBurnKit
-  suffix: Ten
+  suffix: ent-CMBurnKit10-suffix
   components:
   - type: Stack
     count: 10
 
 - type: stack
   id: CMBurnKit
-  name: advanced burn kit
+  name: stack-cmburnkit-name
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit }
   spawn: CMBurnKit1
   maxCount: 10
@@ -341,9 +341,9 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMTraumaKit
-  name: trauma kit
-  description: A trauma kit for severe injuries.
-  suffix: Ten
+  name: ent-CMTraumaKit
+  description: ent-CMTraumaKit-desc
+  suffix: ent-CMTraumaKit-suffix
   components:
   - type: Stack
     stackType: CMTraumaKit
@@ -388,7 +388,7 @@
 - type: entity
   id: CMTraumaKit1
   parent: CMTraumaKit
-  suffix: One
+  suffix: ent-CMTraumaKit1-suffix
   components:
   - type: Stack
     count: 1
@@ -396,14 +396,14 @@
 - type: entity
   id: CMTraumaKit10
   parent: CMTraumaKit
-  suffix: Ten
+  suffix: ent-CMTraumaKit10-suffix
   components:
   - type: Stack
     count: 10
 
 - type: stack
   id: CMTraumaKit
-  name: advanced trauma kit
+  name: stack-cmtraumakit-name
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit }
   spawn: CMTraumaKit1
   maxCount: 10
@@ -412,8 +412,8 @@
   parent: CMBurnKit
   abstract: true
   id: CMUpgradedBurnKit
-  name: upgraded burn kit
-  description: An upgraded burn treatment kit. Three times as effective as standard-issue, and non-replenishable. Use sparingly on only the most critical burns.
+  name: ent-CMUpgradedBurnKit
+  description: ent-CMUpgradedBurnKit-desc
   components:
   - type: Sprite
     state: burnkit_upgraded
@@ -444,7 +444,7 @@
 - type: entity
   id: CMUpgradedBurnKit1
   parent: CMUpgradedBurnKit
-  suffix: One
+  suffix: ent-CMUpgradedBurnKit1-suffix
   components:
   - type: Stack
     count: 1
@@ -452,14 +452,14 @@
 - type: entity
   id: CMUpgradedBurnKit10
   parent: CMUpgradedBurnKit
-  suffix: Ten
+  suffix: ent-CMUpgradedBurnKit10-suffix
   components:
   - type: Stack
     count: 10
 
 - type: stack
   id: CMUpgradedBurnKit
-  name: upgraded burn kit
+  name: stack-cmupgradedburnkit-name
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit_upgraded }
   spawn: CMUpgradedBurnKit1
   maxCount: 10
@@ -467,8 +467,8 @@
 - type: entity
   parent: CMTraumaKit
   id: CMUpgradedTraumaKit
-  name: upgraded trauma kit
-  description: An upgraded trauma treatment kit. Three times as effective as standard-issue, and non-replenishable. Use sparingly on only the most critical wounds.
+  name: ent-CMUpgradedTraumaKit
+  description: ent-CMUpgradedTraumaKit-desc
   components:
   - type: Sprite
     state: traumakit_upgraded
@@ -486,7 +486,7 @@
 - type: entity
   id: CMUpgradedTraumaKit1
   parent: CMUpgradedTraumaKit
-  suffix: One
+  suffix: ent-CMUpgradedTraumaKit1-suffix
   components:
   - type: Stack
     count: 1
@@ -494,14 +494,14 @@
 - type: entity
   id: CMUpgradedTraumaKit10
   parent: CMUpgradedTraumaKit
-  suffix: Ten
+  suffix: ent-CMUpgradedTraumaKit10-suffix
   components:
   - type: Stack
     count: 10
 
 - type: stack
   id: CMUpgradedTraumaKit
-  name: upgraded trauma kit
+  name: stack-cmupgradedtraumakit-name
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit_upgraded }
   spawn: CMUpgradedTraumaKit1
   maxCount: 10

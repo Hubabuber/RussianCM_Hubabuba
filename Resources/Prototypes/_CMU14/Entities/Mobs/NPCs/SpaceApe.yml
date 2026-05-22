@@ -1,9 +1,9 @@
 - type: entity
   parent: CMMobMonkey
   id: CMUMobApe
-  name: Ape
-  description: A capable and dangerous megafauna, high caloric needs.
-  suffix: CMU
+  name: ent-CMUMobApe
+  description: ent-CMUMobApe-desc
+  suffix: ent-CMUMobApe-suffix
   components:
   - type: DropshipHijacker
   - type: NightVision
@@ -212,7 +212,7 @@
 - type: entity
   id: OrganApeStomach
   parent: OrganAnimalStomach
-  name: stomach
+  name: ent-OrganApeStomach
   categories: [ HideSpawnMenu ]
   components:
   - type: Metabolizer
@@ -221,7 +221,7 @@
 - type: entity
   id: OrganApeLiver
   parent: OrganAnimalLiver
-  name: liver
+  name: ent-OrganApeLiver
   categories: [ HideSpawnMenu ]
   components:
   - type: Metabolizer
@@ -230,7 +230,7 @@
 - type: entity
   id: OrganApeHeart
   parent: OrganAnimalHeart
-  name: heart
+  name: ent-OrganApeHeart
   categories: [ HideSpawnMenu ]
   components:
   - type: Metabolizer

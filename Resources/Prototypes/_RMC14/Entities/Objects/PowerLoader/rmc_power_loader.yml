@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   abstract: true
   id: RMCMechBase
   components:
@@ -77,8 +77,8 @@
 
 - type: entity
   id: RMCMechPowerLoaderWreckage
-  name: LU-50 Power loader wreckage
-  description: The wreckage of a LU-50 Power loader.
+  name: ent-RMCMechPowerLoaderWreckage
+  description: ent-RMCMechPowerLoaderWreckage-desc
   components:
   - type: Corrodible
     isCorrodible: true
@@ -115,8 +115,8 @@
 - type: entity
   parent: RMCMechPowerLoaderWreckage
   id: RMCMechPowerLoaderWreckageGreen
-  name: LU-43 Power loader wreckage
-  description: The wreckage of a LU-43 Power loader.
+  name: ent-RMCMechPowerLoaderWreckageGreen
+  description: ent-RMCMechPowerLoaderWreckageGreen-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCMechPowerLoaderWreckage
   id: RMCMechPowerLoaderWreckageBlue
-  name: LU-52 Power loader wreckage
-  description: The wreckage of a LU-52 Power loader.
+  name: ent-RMCMechPowerLoaderWreckageBlue
+  description: ent-RMCMechPowerLoaderWreckageBlue-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCMechBase
   id: RMCMechPowerLoader
-  name: LU-50 Power loader
-  description: An old Fujin design refurbished by Weston-Yamada used in warehouses, constructions and military ships everywhere. # TODO RMC14 BETTER DESCRIPTION
+  name: ent-RMCMechPowerLoader
+  description: ent-RMCMechPowerLoader-desc # TODO RMC14 BETTER DESCRIPTION
   components:
   - type: RMCAllowStrapMovement
   - type: PowerLoader
@@ -167,8 +167,8 @@
 - type: entity
   parent: RMCMechPowerLoader
   id: RMCMechPowerLoaderGreen
-  name: LU-43 Power loader
-  description: An really old but trusted design used in warehouses, constructions and military ships everywhere. This one has a signature green and yellow livery of Fujin. The label claims they make electronics and machinery, though you’ve never heard of them before. # TODO RMC14 BETTER DESCRIPTION
+  name: ent-RMCMechPowerLoaderGreen
+  description: ent-RMCMechPowerLoaderGreen-desc # TODO RMC14 BETTER DESCRIPTION
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -182,8 +182,8 @@
 - type: entity
   parent: RMCMechPowerLoader
   id: RMCMechPowerLoaderBlue
-  name: LU-52 Power loader
-  description: A modernized design made to outdo the older models once used in fancy ports and facilities. It was built by Ferret Heavy Industries before they went bankrupt, making these units surprisingly affordable. # TODO RMC14 BETTER DESCRIPTION
+  name: ent-RMCMechPowerLoaderBlue
+  description: ent-RMCMechPowerLoaderBlue-desc # TODO RMC14 BETTER DESCRIPTION
   components:
   - type: Sprite
     drawdepth: Mobs

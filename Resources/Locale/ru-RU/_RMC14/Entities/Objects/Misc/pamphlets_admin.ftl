@@ -64,3 +64,7 @@ ent-RMCPamphletAdminConstruction2 = инструкция по строитель
 ent-RMCPamphletAdminConstruction1 = инструкция по строительству 1
 ent-RMCPamphletAdminAntagonist2 = инструкция по антагонистам 2
 ent-RMCPamphletAdminAntagonist1 = инструкция по антагонистам 1
+
+ent-RMCPamphletAdmin = учебная брошюра
+    .desc = Брошюра, предназначенная для быстрого распространения жизненно важных знаний.
+    .suffix = АДМИН

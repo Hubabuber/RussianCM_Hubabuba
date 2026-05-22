@@ -22,3 +22,5 @@ ent-RMCTentUNMCExtendedMessFolded = складная палатка UNMC
 ent-RMCTentUNMCExtendedMPFolded = сложенная палатка военной полиции UNMC
   .desc = Стандартная палатка военной полиции UNMC.
 
+ent-AU14TentBigFoldedSurgical = складная хирургическая палатка
+    .desc = Большая хирургическая полевая палатка. Он оснащен современным оборудованием для полевой хирургии. ВХОД НА ЮГ.

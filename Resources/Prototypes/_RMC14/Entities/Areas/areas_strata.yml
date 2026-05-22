@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaStrata
-  name: Sorokyne Strata
-  suffix: Sorokyne Strata
+  name: ent-RMCAreaStrata
+  suffix: ent-RMCAreaStrata-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_strata.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorOutOfBounds
-  name: Out of Bounds
+  name: ent-RMCAreaStrataInteriorOutOfBounds
   components:
   - type: Sprite
     state: ag_i
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCAreaStrata
   id: RMCAreaStrataExterior
-  name: Exterior
+  name: ent-RMCAreaStrataExterior
   components:
   - type: Sprite
     state: ag_e
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCAreaStrata
   id: RMCAreaStrataInterior
-  name: Interior
+  name: ent-RMCAreaStrataInterior
   components:
   - type: Sprite
     state: ag_i
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorLandingZones
-  name: Do not use.
+  name: ent-RMCAreaStrataExteriorLandingZones
   components:
   - type: Sprite
     state: landingzone_2
@@ -87,7 +87,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorLandingZones
-  name: Do not use.
+  name: ent-RMCAreaStrataInteriorLandingZones
   components:
   - type: Sprite
     state: landingzone_1
@@ -97,7 +97,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorLandingZones
   id: RMCAreaStrataExteriorLandingZonesLz2
-  name: Landing Zone 2 Pad - Rocky Fields
+  name: ent-RMCAreaStrataExteriorLandingZonesLz2
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -105,7 +105,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorLandingZones
   id: RMCAreaStrataExteriorLandingZonesNearLz2
-  name: Landing Zone 2 - Rocky Fields
+  name: ent-RMCAreaStrataExteriorLandingZonesNearLz2
   components:
   - type: Sprite
     state: nearlz2
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorLandingZones
   id: RMCAreaStrataInteriorLandingZonesLz1
-  name: Landing Zone 1 Pad - Mining Aerodrome
+  name: ent-RMCAreaStrataInteriorLandingZonesLz1
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorLandingZones
   id: RMCAreaStrataInteriorLandingZonesNearLz1
-  name: Landing Zone 1 - Mining Aerodrome
+  name: ent-RMCAreaStrataInteriorLandingZonesNearLz1
   components:
   - type: Sprite
     state: nearlz1
@@ -133,7 +133,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorShedFiveCaves
-  name: Terminal Five Topside Pathway
+  name: ent-RMCAreaStrataExteriorShedFiveCaves
   components:
   - type: Sprite
     state: lzcaves
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorLzCaves
-  name: External Mining Aerodrome Pathway
+  name: ent-RMCAreaStrataExteriorLzCaves
   components:
   - type: Sprite
     state: lzcaves
@@ -151,7 +151,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorMarsh
-  name: Do not use.
+  name: ent-RMCAreaStrataExteriorMarsh
   components:
   - type: Sprite
     state: marsh
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshSpringMarshes
-  name: Geothermal Springs Marshes
+  name: ent-RMCAreaStrataExteriorMarshSpringMarshes
   components:
   - type: Area
     linkedLz: dropship_lz1, dropship_lz2
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshWaterMarshes
-  name: Geothermal Water Marshes
+  name: ent-RMCAreaStrataExteriorMarshWaterMarshes
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshIslandMarshes
-  name: Geothermal Island Marshes
+  name: ent-RMCAreaStrataExteriorMarshIslandMarshes
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshRelayMarshes
-  name: Geothermal Relay Marshes
+  name: ent-RMCAreaStrataExteriorMarshRelayMarshes
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -191,7 +191,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshCenter
-  name: Geothermal Springs
+  name: ent-RMCAreaStrataExteriorMarshCenter
   components:
   - type: Sprite
     state: marshcenter
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshRiver
-  name: Geothermal River
+  name: ent-RMCAreaStrataExteriorMarshRiver
   components:
   - type: Sprite
     state: marshriver
@@ -211,7 +211,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshCrash
-  name: Geothermal Crashed Dropship
+  name: ent-RMCAreaStrataExteriorMarshCrash
   components:
   - type: Sprite
     state: marshship
@@ -221,7 +221,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshWater
-  name: Geothermal Water
+  name: ent-RMCAreaStrataExteriorMarshWater
   components:
   - type: Sprite
     state: marshwater
@@ -231,7 +231,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorVanyard
-  name: Flight Control Vehicle Yard
+  name: ent-RMCAreaStrataInteriorVanyard
   components:
   - type: Sprite
     state: garage
@@ -241,7 +241,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorOutpostDecks
-  name: Outpost - Decks
+  name: ent-RMCAreaStrataExteriorOutpostDecks
   components:
   - type: Sprite
     state: rdecks
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorFlightControlExterior
-  name: Flight Control Exterior
+  name: ent-RMCAreaStrataExteriorFlightControlExterior
   components:
   - type: Sprite
     state: path
@@ -261,7 +261,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorMiningOutpostExterior
-  name: Mining Outpost - Exterior
+  name: ent-RMCAreaStrataExteriorMiningOutpostExterior
   components:
   - type: Sprite
     state: path
@@ -271,7 +271,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorNorthOutpost
-  name: Outpost - North Access Channel
+  name: ent-RMCAreaStrataExteriorNorthOutpost
   components:
   - type: Sprite
     state: path
@@ -281,7 +281,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorFarNorthOutpost
-  name: Far North Of The Outpost
+  name: ent-RMCAreaStrataExteriorFarNorthOutpost
   components:
   - type: Sprite
     state: path
@@ -289,7 +289,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorSouthOutpost
-  name: South Of The Outpost
+  name: ent-RMCAreaStrataExteriorSouthOutpost
   components:
   - type: Sprite
     state: path
@@ -299,7 +299,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsMiningCaves
-  name: Mining Pathway Relay
+  name: ent-RMCAreaStrataExteriorTcommsMiningCaves
   components:
   - type: Sprite
     state: tcomms1
@@ -307,7 +307,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsVehicleYard
-  name: Vehicle Yard Relay
+  name: ent-RMCAreaStrataExteriorTcommsVehicleYard
   components:
   - type: Sprite
     state: tcomms1
@@ -317,7 +317,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsCrashedDropship
-  name: Crashed Dropship Relay
+  name: ent-RMCAreaStrataExteriorTcommsCrashedDropship
   components:
   - type: Sprite
     state: tcomms1
@@ -325,7 +325,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsGeosprings
-  name: Geothermal Springs Relay
+  name: ent-RMCAreaStrataExteriorTcommsGeosprings
   components:
   - type: Sprite
     state: tcomms1
@@ -333,7 +333,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsEngineeringPartsStorage
-  name: Engineering - Parts Storage Platform Relay
+  name: ent-RMCAreaStrataExteriorTcommsEngineeringPartsStorage
   components:
   - type: Sprite
     state: tcomms1
@@ -344,7 +344,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorOutpost
-  name: Sorokyne Outpost
+  name: ent-RMCAreaStrataInteriorOutpost
   components:
   - type: Sprite
     state: shed_x_ag
@@ -354,7 +354,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostFoyer
-  name: Outpost - Main Foyer
+  name: ent-RMCAreaStrataInteriorOutpostFoyer
   components:
   - type: Sprite
     state: outpost_gen_1
@@ -362,7 +362,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostMaint
-  name: Outpost - Canteen - Eastern Maintenance
+  name: ent-RMCAreaStrataInteriorOutpostMaint
   components:
   - type: Sprite
     state: outpost_maint
@@ -370,7 +370,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostMed
-  name: Outpost - Medical
+  name: ent-RMCAreaStrataInteriorOutpostMed
   components:
   - type: Sprite
     state: outpost_med
@@ -380,7 +380,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostEngi
-  name: Outpost - Engineering
+  name: ent-RMCAreaStrataInteriorOutpostEngi
   components:
   - type: Sprite
     state: outpost_engi_0
@@ -390,7 +390,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpostEngi
   id: RMCAreaStrataInteriorOutpostEngiDrome
-  name: Outpost - Aerodome
+  name: ent-RMCAreaStrataInteriorOutpostEngiDrome
   components:
   - type: Sprite
     state: outpost_engi_4
@@ -398,7 +398,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpostEngiDrome
   id: RMCAreaStrataInteriorOutpostEngiDromeShuttle
-  name: Dismantled VDVK Eagle Mk 4
+  name: ent-RMCAreaStrataInteriorOutpostEngiDromeShuttle
   components:
   - type: Sprite
     state: outpost_engi_3
@@ -406,7 +406,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpostEngiDrome
   id: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
-  name: VDVK Eagle Mk 3
+  name: ent-RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
   components:
   - type: Sprite
     state: outpost_engi_3
@@ -414,7 +414,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorShuttleSof
-  name: UPP-DS-3 'Voron'
+  name: ent-RMCAreaStrataInteriorShuttleSof
   components:
   - type: Sprite
     state: outpost_engi_3
@@ -422,7 +422,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorSupplyShuttleSof
-  name: UPP-DS-3 'Volk'
+  name: ent-RMCAreaStrataInteriorSupplyShuttleSof
   components:
   - type: Sprite
     state: outpost_engi_3
@@ -430,7 +430,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostSecurity
-  name: Outpost - Security
+  name: ent-RMCAreaStrataInteriorOutpostSecurity
   components:
   - type: Sprite
     state: outpost_sec_0
@@ -440,7 +440,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostAdmin
-  name: Outpost - Administration
+  name: ent-RMCAreaStrataInteriorOutpostAdmin
   components:
   - type: Sprite
     state: outpost_admin_0
@@ -459,7 +459,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostCanteen
-  name: Outpost - Canteen
+  name: ent-RMCAreaStrataInteriorOutpostCanteen
   components:
   - type: Sprite
     state: outpost_canteen_0
@@ -477,7 +477,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpostCanteen
   id: RMCAreaStrataInteriorOutpostCanteenBar
-  name: Outpost - Bar
+  name: ent-RMCAreaStrataInteriorOutpostCanteenBar
   components:
   - type: Sprite
     state: outpost_canteen_2
@@ -485,7 +485,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorMiningOutpost
-  name: Mining Outpost - Central
+  name: ent-RMCAreaStrataInteriorMiningOutpost
   components:
   - type: Sprite
     state: dorms_0
@@ -496,7 +496,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostSouthDormitories
-  name: Mining Outpost - South Dormitories
+  name: ent-RMCAreaStrataInteriorMiningOutpostSouthDormitories
   components:
   - type: Sprite
     state: dorms_3
@@ -514,7 +514,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostMaintenance
-  name: Mining Outpost - Dormitory Maintenance
+  name: ent-RMCAreaStrataInteriorMiningOutpostMaintenance
   components:
   - type: Sprite
     state: outpost_maint
@@ -522,7 +522,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostHive
-  name: Mining Outpost - Dormitory Geothermal Storage
+  name: ent-RMCAreaStrataInteriorMiningOutpostHive
   components:
   - type: Sprite
     state: dorms_beno
@@ -530,7 +530,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostCanteen
-  name: Mining Outpost - Dormitory Canteen
+  name: ent-RMCAreaStrataInteriorMiningOutpostCanteen
   components:
   - type: Sprite
     state: dorms_canteen
@@ -548,7 +548,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostFlightControl
-  name: Mining Outpost - Flight Control
+  name: ent-RMCAreaStrataInteriorMiningOutpostFlightControl
   components:
   - type: Sprite
     state: dorms_lobby
@@ -556,7 +556,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorAdministration
-  name: Flight Control Offices
+  name: ent-RMCAreaStrataInteriorAdministration
   components:
   - type: Sprite
     state: offices
@@ -567,7 +567,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorWoodenHospital
-  name: Wooden Hospital - Hospital Proper
+  name: ent-RMCAreaStrataInteriorWoodenHospital
   components:
   - type: Sprite
     state: cabin3
@@ -577,7 +577,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorWoodenRuins
-  name: Old Wooden Building
+  name: ent-RMCAreaStrataInteriorWoodenRuins
   components:
   - type: Sprite
     state: cabin3
@@ -596,22 +596,22 @@
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsNorthArmor
-  name: North Security Armored Checkpoint
+  name: ent-RMCAreaStrataInteriorCheckpointsNorthArmor
 
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsNorth
-  name: Landing Zone North Security Checkpoint
+  name: ent-RMCAreaStrataInteriorCheckpointsNorth
 
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsWest
-  name: Landing Zone West Security Checkpoint
+  name: ent-RMCAreaStrataInteriorCheckpointsWest
 
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsSouth
-  name: Landing Zone South Security Checkpoint
+  name: ent-RMCAreaStrataInteriorCheckpointsSouth
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -619,7 +619,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsOutpost
-  name: Outpost - Deck Security Checkpoint
+  name: ent-RMCAreaStrataInteriorCheckpointsOutpost
   components:
   - type: Sprite
     state: rdecks_sec
@@ -627,7 +627,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorPartsStorage
-  name: Engineering - Parts Storage
+  name: ent-RMCAreaStrataInteriorPartsStorage
   components:
   - type: Sprite
     state: outpost_engi_1
@@ -637,7 +637,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorGeneratorSubstation
-  name: Engineering - Generator Substation
+  name: ent-RMCAreaStrataInteriorGeneratorSubstation
   components:
   - type: Sprite
     state: outpost_engi_1
@@ -645,7 +645,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorPartsStorageExterior
-  name: Engineering - Parts Storage Exterior
+  name: ent-RMCAreaStrataExteriorPartsStorageExterior
   components:
   - type: Sprite
     state: outpost_engi_4
@@ -663,7 +663,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorPartsStorageCave
-  name: Engineering - Parts Storage Exterior
+  name: ent-RMCAreaStrataExteriorPartsStorageCave
   components:
   - type: Sprite
     state: outpost_engi_4
@@ -682,7 +682,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorBball
-  name: Outpost - Basket Ball Court
+  name: ent-RMCAreaStrataInteriorBball
   components:
   - type: Sprite
     state: outpost_gen_4
@@ -692,7 +692,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorBballCave
-  name: Outpost - B-Ball Caves
+  name: ent-RMCAreaStrataInteriorBballCave
   components:
   - type: Sprite
     state: hive_1
@@ -711,7 +711,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorSecureCheckpoint
-  name: Secure Checkpoint Passthrough
+  name: ent-RMCAreaStrataInteriorSecureCheckpoint
   components:
   - type: Sprite
     state: outpost_engi_0
@@ -730,7 +730,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorUndergroundDorms
-  name: Do not use.
+  name: ent-RMCAreaStrataInteriorUndergroundDorms
   components:
   - type: Sprite
     state: ug_jung_dorm
@@ -749,52 +749,52 @@
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsSec1
-  name: Deep Jungle - Security Dorm \#1
+  name: ent-RMCAreaStrataInteriorUndergroundDormsSec1
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsSec2
-  name: Deep Jungle - Security Dorm \#2
+  name: ent-RMCAreaStrataInteriorUndergroundDormsSec2
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsAdmin1
-  name: Deep Jungle - General Staff Dorm \#1
+  name: ent-RMCAreaStrataInteriorUndergroundDormsAdmin1
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsAdmin2
-  name: Deep Jungle - General Staff Dorm \#2
+  name: ent-RMCAreaStrataInteriorUndergroundDormsAdmin2
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsAdmin3
-  name: Deep Jungle - General Staff Dorm \#3
+  name: ent-RMCAreaStrataInteriorUndergroundDormsAdmin3
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsAdmin4
-  name: Deep Jungle - General Staff Dorm \#4
+  name: ent-RMCAreaStrataInteriorUndergroundDormsAdmin4
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsMed1
-  name: Deep Jungle - Medical Dorm \#1
+  name: ent-RMCAreaStrataInteriorUndergroundDormsMed1
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsMed2
-  name: Deep Jungle - Medical Dorm \#2
+  name: ent-RMCAreaStrataInteriorUndergroundDormsMed2
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsBotany
-  name: Botanical Research Station
+  name: ent-RMCAreaStrataInteriorUndergroundDormsBotany
 
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorOutpostPlatform
-  name: Deep Jungle - Platform
+  name: ent-RMCAreaStrataExteriorOutpostPlatform
   components:
   - type: Sprite
     state: ug_jung_1
@@ -804,7 +804,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorCarplakeCenter
-  name: Deep Jungle - Lake Center Island
+  name: ent-RMCAreaStrataExteriorCarplakeCenter
   components:
   - type: Sprite
     state: ug_jung_1
@@ -812,7 +812,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorDeepJungle
-  name: Do not use.
+  name: ent-RMCAreaStrataExteriorDeepJungle
   components:
   - type: Sprite
     state: ug_jung_0
@@ -831,7 +831,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleCarplakeNorth
-  name: Deep Jungle - North of Carp Lake
+  name: ent-RMCAreaStrataExteriorDeepJungleCarplakeNorth
   components:
   - type: Sprite
     state: ug_jung_6
@@ -839,7 +839,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleCarplakeEast
-  name: Deep Jungle - East of Carp Lake
+  name: ent-RMCAreaStrataExteriorDeepJungleCarplakeEast
   components:
   - type: Sprite
     state: ug_jung_5
@@ -847,7 +847,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJunglePlatform
-  name: Deep Jungle - South of the Platform
+  name: ent-RMCAreaStrataExteriorDeepJunglePlatform
   components:
   - type: Sprite
     state: ug_jung_4
@@ -855,7 +855,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJunglePlatformEast
-  name: Deep Jungle - East of the Platform
+  name: ent-RMCAreaStrataExteriorDeepJunglePlatformEast
   components:
   - type: Sprite
     state: ug_jung_0
@@ -873,7 +873,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleHotSprings
-  name: Deep Jungle - Hot Springs
+  name: ent-RMCAreaStrataExteriorDeepJungleHotSprings
   components:
   - type: Sprite
     state: ug_jung_4
@@ -883,7 +883,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleOldTunnels
-  name: Deep Jungle - Old Path - West of Classified Research Station
+  name: ent-RMCAreaStrataExteriorDeepJungleOldTunnels
   components:
   - type: Sprite
     state: ug_jung_mine_1
@@ -902,7 +902,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleNorth
-  name: Deep Jungle - South of Classified Research Station
+  name: ent-RMCAreaStrataExteriorDeepJungleNorth
   components:
   - type: Sprite
     state: ug_jung_6
@@ -912,7 +912,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleWest
-  name: Deep Jungle - West of Planetary Core Monitoring
+  name: ent-RMCAreaStrataExteriorDeepJungleWest
   components:
   - type: Sprite
     state: ug_jung_6
@@ -922,7 +922,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleSouth
-  name: Deep Jungle - South of Planetary Core Monitoring
+  name: ent-RMCAreaStrataExteriorDeepJungleSouth
   components:
   - type: Sprite
     state: ug_jung_7
@@ -932,7 +932,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleEast
-  name: Deep Jungle - East of Planetary Core Monitoring
+  name: ent-RMCAreaStrataExteriorDeepJungleEast
   components:
   - type: Sprite
     state: ug_jung_8
@@ -942,7 +942,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJunglePlanetCoreResearchStationExterior
-  name: Deep Jungle - Planetary Core Monitoring Research Station
+  name: ent-RMCAreaStrataExteriorDeepJunglePlanetCoreResearchStationExterior
   components:
   - type: Sprite
     state: ug_jung_8
@@ -952,7 +952,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleRuin
-  name: Deep Jungle - Ancient Dorms
+  name: ent-RMCAreaStrataExteriorDeepJungleRuin
   components:
   - type: Sprite
     state: ug_jung_mine_4
@@ -960,7 +960,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleTearlake
-  name: Deep Jungle - Weeping Pool
+  name: ent-RMCAreaStrataExteriorDeepJungleTearlake
   components:
   - type: Sprite
     state: ug_jung_3
@@ -968,7 +968,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorPlanetCoreResearchStation
-  name: Deep Jungle - Planetary Core Monitoring Research Station
+  name: ent-RMCAreaStrataInteriorPlanetCoreResearchStation
   components:
   - type: Sprite
     state: ug_jung_5
@@ -987,7 +987,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorResearch
-  name: Deep Jungle - Classified Research Station
+  name: ent-RMCAreaStrataInteriorResearch
   components:
   - type: Sprite
     state: ug_jung_2
@@ -1006,7 +1006,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorRestricted
-  name: Super Secret Credits Room
+  name: ent-RMCAreaStrataExteriorRestricted
   components:
   - type: Sprite
     state: marshwater
@@ -1030,14 +1030,14 @@
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsClf
-  name: Far North Armored Checkpoint
+  name: ent-RMCAreaStrataInteriorCheckpointsClf
 
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostClfDorms
-  name: Far North Dormitory
+  name: ent-RMCAreaStrataInteriorOutpostClfDorms
 
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostClfOffice
-  name: Far North Office
+  name: ent-RMCAreaStrataInteriorOutpostClfOffice

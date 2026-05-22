@@ -1,7 +1,7 @@
 - type: entity
   id: BaseMindRole
-  name: Mind Role
-  description: Mind Role entity
+  name: ent-BaseMindRole
+  description: ent-BaseMindRole-desc
   abstract: true
   components:
   - type: MindRole
@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleObserver
-  name: Observer Role
+  name: ent-MindRoleObserver
   components:
   - type: ObserverRole
   - type: MindRole
@@ -31,14 +31,14 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleGhostRoleNeutral
-  name: Ghost Role
+  name: ent-MindRoleGhostRoleNeutral
   components:
   - type: GhostRoleMarkerRole
 
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleFamiliar
-  name: Ghost Role (Familiar)
+  name: ent-MindRoleGhostRoleFamiliar
   components:
   - type: MindRole
     roleType: Familiar
@@ -46,7 +46,7 @@
 - type: entity
   parent: [ BaseMindRoleAntag, MindRoleGhostRoleNeutral ]
   id: MindRoleGhostRoleFreeAgent
-  name: Ghost Role (Free Agent)
+  name: ent-MindRoleGhostRoleFreeAgent
   components:
   - type: MindRole
     roleType: FreeAgent
@@ -56,7 +56,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleFreeAgentHarmless
-  name: Ghost Role (Free Agent)
+  name: ent-MindRoleGhostRoleFreeAgentHarmless
   components:
   - type: MindRole
     roleType: FreeAgent
@@ -65,7 +65,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleSilicon
-  name: Ghost Role (Silicon)
+  name: ent-MindRoleGhostRoleSilicon
   components:
   - type: MindRole
     roleType: Silicon
@@ -73,7 +73,7 @@
 - type: entity
   parent: [ BaseMindRoleAntag, MindRoleGhostRoleNeutral ]
   id: MindRoleGhostRoleSiliconAntagonist
-  name: Ghost Role (Silicon Antagonist)
+  name: ent-MindRoleGhostRoleSiliconAntagonist
   components:
   - type: MindRole
     roleType: SiliconAntagonist
@@ -83,12 +83,12 @@
 - type: entity
   parent: [ BaseMindRoleAntag, MindRoleGhostRoleNeutral ]
   id: MindRoleGhostRoleSoloAntagonist
-  name: Ghost Role (Solo Antagonist)
+  name: ent-MindRoleGhostRoleSoloAntagonist
 
 - type: entity
   parent: [ BaseMindRoleAntag, MindRoleGhostRoleNeutral ]
   id: MindRoleGhostRoleTeamAntagonist
-  name: Ghost Role (Team Antagonist)
+  name: ent-MindRoleGhostRoleTeamAntagonist
   components:
   - type: MindRole
     roleType: TeamAntagonist
@@ -98,7 +98,7 @@
 - type: entity
   parent: MindRoleGhostRoleTeamAntagonist
   id: MindRoleGhostRoleTeamAntagonistFlock
-  name: Ghost Role (Team Antagonist)
+  name: ent-MindRoleGhostRoleTeamAntagonistFlock
   components:
   - type: MindRole
     sortWeight: 40
@@ -107,14 +107,14 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleJob
-  name: Job Role
+  name: ent-MindRoleJob
   # JobPrototype is filled by SharedJobSystem
 
 # Silicon
 - type: entity
   parent: BaseMindRole
   id: MindRoleSiliconBrain
-  name: Borg Brain Role
+  name: ent-MindRoleSiliconBrain
   components:
   - type: MindRole
     roleType: Silicon
@@ -123,7 +123,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleSubvertedSilicon
-  name: Subverted Silicon Role
+  name: ent-MindRoleSubvertedSilicon
   description:
   components:
   - type: MindRole
@@ -136,7 +136,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleDragon
-  name: Dragon Role
+  name: ent-MindRoleDragon
   components:
   - type: MindRole
     antagPrototype: Dragon
@@ -149,7 +149,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleNinja
-  name: Space Ninja Role
+  name: ent-MindRoleNinja
   components:
   - type: MindRole
     antagPrototype: SpaceNinja
@@ -161,7 +161,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleParadoxClone
-  name: Paradox Clone Role
+  name: ent-MindRoleParadoxClone
   components:
   - type: MindRole
     antagPrototype: ParadoxClone
@@ -172,7 +172,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleNukeops
-  name: Nukeops Operative Role
+  name: ent-MindRoleNukeops
   components:
   - type: MindRole
     roleType: TeamAntagonist
@@ -184,7 +184,7 @@
 - type: entity
   parent: MindRoleNukeops
   id: MindRoleNukeopsMedic
-  name: Nukeops Medic Role
+  name: ent-MindRoleNukeopsMedic
   components:
   - type: MindRole
     antagPrototype: NukeopsMedic
@@ -192,7 +192,7 @@
 - type: entity
   parent: MindRoleNukeops
   id: MindRoleNukeopsCommander
-  name: Nukeops Commander Role
+  name: ent-MindRoleNukeopsCommander
   components:
   - type: MindRole
     antagPrototype: NukeopsCommander
@@ -201,7 +201,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleHeadRevolutionary
-  name: Head Revolutionary Role
+  name: ent-MindRoleHeadRevolutionary
   components:
   - type: MindRole
     antagPrototype: HeadRev
@@ -213,7 +213,7 @@
 - type: entity
   parent: MindRoleHeadRevolutionary
   id: MindRoleRevolutionary
-  name: Revolutionary Role
+  name: ent-MindRoleRevolutionary
   components:
   - type: MindRole
     antagPrototype: Rev
@@ -223,7 +223,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleSurvivor
-  name: Survivor Role
+  name: ent-MindRoleSurvivor
   components:
   - type: MindRole
     antagPrototype: Survivor
@@ -235,7 +235,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleThief
-  name: Thief Role
+  name: ent-MindRoleThief
   components:
   - type: MindRole
     antagPrototype: Thief
@@ -246,7 +246,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleTraitor
-  name: Traitor Role
+  name: ent-MindRoleTraitor
   components:
   - type: MindRole
     antagPrototype: Traitor
@@ -257,7 +257,7 @@
 - type: entity
   parent: MindRoleTraitor
   id: MindRoleTraitorSleeper
-  name: Sleeper Agent Role
+  name: ent-MindRoleTraitorSleeper
   components:
   - type: MindRole
     antagPrototype: TraitorSleeper
@@ -265,7 +265,7 @@
 - type: entity
   parent: MindRoleTraitor
   id: MindRoleTraitorReinforcement
-  name: Syndicate Reinforcement Role
+  name: ent-MindRoleTraitorReinforcement
   components:
   - type: MindRole
     roleType: TeamAntagonist
@@ -276,7 +276,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleWizard
-  name: Wizard Role
+  name: ent-MindRoleWizard
   components:
   - type: MindRole
     antagPrototype: Wizard
@@ -288,7 +288,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleInitialInfected
-  name: Initial Infected Role
+  name: ent-MindRoleInitialInfected
   components:
   - type: MindRole
     antagPrototype: InitialInfected
@@ -300,7 +300,7 @@
 - type: entity
   parent: MindRoleGhostRoleTeamAntagonistFlock
   id: MindRoleZombie
-  name: Zombie Role
+  name: ent-MindRoleZombie
   components:
   - type: MindRole
     antagPrototype: Zombie

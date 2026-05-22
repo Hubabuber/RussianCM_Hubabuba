@@ -1,8 +1,8 @@
 - type: entity
-  name: soap
+  name: ent-Soap
   id: Soap
   parent: BaseItem
-  description: A cheap bar of soap. Doesn't smell.
+  description: ent-Soap-desc
   components:
   - type: Tag
     tags:
@@ -72,10 +72,10 @@
     residueColor: residue-green
 
 - type: entity
-  name: soap
+  name: ent-SoapNT
   id: SoapNT
   parent: Soap
-  description: A Nanotrasen brand bar of soap. Smells of plasma.
+  description: ent-SoapNT-desc
   components:
   - type: Sprite
     layers:
@@ -97,10 +97,10 @@
     residueColor: residue-grey
 
 - type: entity
-  name: soap
+  name: ent-SoapDeluxe
   id: SoapDeluxe
   parent: Soap
-  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
+  description: ent-SoapDeluxe-desc
   components:
   - type: Sprite
     layers:
@@ -115,10 +115,10 @@
     residueColor: residue-brown
 
 - type: entity
-  name: soap
+  name: ent-SoapSyndie
   id: SoapSyndie
   parent: [Soap, BaseSyndicateContraband]
-  description: An untrustworthy bar of soap. Smells of fear.
+  description: ent-SoapSyndie-desc
   components:
   - type: Sprite
     layers:
@@ -145,11 +145,11 @@
     price: 500
 
 - type: entity
-  name: soaplet
+  name: ent-SoapletSyndie
   id: SoapletSyndie
   categories: [ HideSpawnMenu ]
   parent: Soap
-  description: A tiny piece of syndicate soap.
+  description: ent-SoapletSyndie-desc
   components:
   - type: Sprite
     layers:
@@ -186,10 +186,10 @@
         volume: -20
 
 - type: entity
-  name: soap
+  name: ent-SoapHomemade
   id: SoapHomemade
   parent: Soap
-  description: A homemade bar of soap. Smells of... well....
+  description: ent-SoapHomemade-desc
   components:
   - type: Sprite
     layers:
@@ -210,10 +210,10 @@
     residueColor: residue-red
 
 - type: entity
-  name: omega soap
+  name: ent-SoapOmega
   id: SoapOmega
   parent: Soap
-  description: The most advanced soap known to mankind. Smells of bluespace.
+  description: ent-SoapOmega-desc
   components:
   - type: Sprite
     layers:

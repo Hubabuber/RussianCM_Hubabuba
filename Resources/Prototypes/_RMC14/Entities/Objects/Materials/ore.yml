@@ -4,7 +4,7 @@
   abstract: true
   parent: BaseItem
   id: RMCOreBase
-  description: ""
+  description: "ent-RMCOreBase-desc"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Materials/ore.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: RMCOreBase
   id: RMCCoal
-  name: carbonaceous rock
-  suffix: Full
+  name: ent-RMCCoal
+  suffix: ent-RMCCoal-suffix
   components:
   - type: Stack
     stackType: Coal
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCCoal
   id: RMCCoal1
-  suffix: Single
+  suffix: ent-RMCCoal1-suffix
   components:
   - type: Stack
     count: 1
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCOreBase
   id: RMCDiamondOre
-  name: diamonds
-  suffix: Full
+  name: ent-RMCDiamondOre
+  suffix: ent-RMCDiamondOre-suffix
   components:
   - type: Stack
     stackType: DiamondOre
@@ -85,8 +85,8 @@
 - type: entity
   parent: RMCOreBase
   id: RMCGoldOre
-  name: native gold ore
-  suffix: Full
+  name: ent-RMCGoldOre
+  suffix: ent-RMCGoldOre-suffix
   components:
   - type: Stack
     stackType: GoldOre
@@ -105,7 +105,7 @@
 - type: entity
   parent: RMCGoldOre
   id: RMCGoldOre1
-  suffix: Single
+  suffix: ent-RMCGoldOre1-suffix
   components:
   - type: Stack
     count: 1
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCDiamondOre
   id: RMCDiamondOre1
-  suffix: Single
+  suffix: ent-RMCDiamondOre1-suffix
   components:
   - type: Stack
     count: 1
@@ -121,8 +121,8 @@
 - type: entity
   parent: RMCOreBase
   id: RMCIronOre
-  name: hematite
-  suffix: Full
+  name: ent-RMCIronOre
+  suffix: ent-RMCIronOre-suffix
   components:
   - type: Stack
     stackType: IronOre
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCIronOre
   id: RMCIronOre1
-  suffix: Single
+  suffix: ent-RMCIronOre1-suffix
   components:
     - type: Stack
       count: 1
@@ -149,8 +149,8 @@
 - type: entity
   parent: RMCOreBase
   id: RMCPlasmaOre
-  name: phoron crystals
-  suffix: Full
+  name: ent-RMCPlasmaOre
+  suffix: ent-RMCPlasmaOre-suffix
   components:
   - type: Stack
     stackType: PlasmaOre
@@ -174,7 +174,7 @@
 - type: entity
   parent: RMCPlasmaOre
   id: RMCPlasmaOre1
-  suffix: Single
+  suffix: ent-RMCPlasmaOre1-suffix
   components:
     - type: Stack
       count: 1
@@ -182,8 +182,8 @@
 - type: entity
   parent: RMCOreBase
   id: RMCPlatinumOre
-  name: raw platinum
-  suffix: Full
+  name: ent-RMCPlatinumOre
+  suffix: ent-RMCPlatinumOre-suffix
   components:
   - type: Stack
     stackType: PlatinumOre
@@ -202,7 +202,7 @@
 - type: entity
   parent: RMCPlatinumOre
   id: RMCPlatinumOre1
-  suffix: Single
+  suffix: ent-RMCPlatinumOre1-suffix
   components:
   - type: Stack
     count: 1
@@ -210,8 +210,8 @@
 - type: entity
   parent: RMCOreBase
   id: RMCSilverOre
-  name: native silver ore
-  suffix: Full
+  name: ent-RMCSilverOre
+  suffix: ent-RMCSilverOre-suffix
   components:
   - type: Stack
     stackType: SilverOre
@@ -230,7 +230,7 @@
 - type: entity
   parent: RMCSilverOre
   id: RMCSilverOre1
-  suffix: Single
+  suffix: ent-RMCSilverOre1-suffix
   components:
   - type: Stack
     count: 1
@@ -238,9 +238,9 @@
 - type: entity
   parent: RMCOreBase
   id: RMCUraniumOre
-  name: pitchblende
-  description: An ore containing Uranium. Just looking at it makes your head feel fuzzy... it's slightly luminescent.
-  suffix: Full
+  name: ent-RMCUraniumOre
+  description: ent-RMCUraniumOre-desc
+  suffix: ent-RMCUraniumOre-suffix
   components:
   - type: Stack
     stackType: UraniumOre
@@ -267,7 +267,7 @@
 - type: entity
   parent: RMCUraniumOre
   id: RMCUraniumOre1
-  suffix: Single
+  suffix: ent-RMCUraniumOre1-suffix
   components:
   - type: Stack
     count: 1

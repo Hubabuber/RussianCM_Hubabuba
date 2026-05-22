@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobGOVFORPlatoonCorpsmanWYPMC
-  name: PMC Combat Lifesaver
+  name: job-au14jobgovforplatooncorpsmanwypmc-name
   description: au14-job-description-govforplatooncorpsman
   setPreference: false
   ranks:
@@ -14,14 +14,14 @@
   dummyStartingGear: AU14GearGOVFORCorpsmanDummy
   icon: "AU14JobIconCorpsman"
   requireAdminNotify: false
-  spawnMenuRoleName: Hospital Corpsman (WYPMC)
+  spawnMenuRoleName: job-au14jobgovforplatooncorpsmanwypmc-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCorpsman
   - AU14GovforSquad
   overwatchSortPriority: -2
-  overwatchRoleName: Hospital Corpsmen
+  overwatchRoleName: job-au14jobgovforplatooncorpsmanwypmc-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

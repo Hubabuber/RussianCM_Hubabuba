@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineCaselessRifle
-  name: "magazine (.25 caseless)"
+  name: "ent-BaseMagazineCaselessRifle"
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: BaseMagazineCaselessRifleShort
-  name: "caseless rifle short magazine (.25 caseless)"
+  name: "ent-BaseMagazineCaselessRifleShort"
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: BaseMagazinePistolCaselessRifle
-  name: "pistol magazine (.25 caseless)"
+  name: "ent-BaseMagazinePistolCaselessRifle"
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -83,7 +83,7 @@
 
 - type: entity
   id: MagazineCaselessRifle10x24
-  name: "box magazine (.25 caseless)"
+  name: "ent-MagazineCaselessRifle10x24"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -98,9 +98,9 @@
 
 - type: entity
   id: MagazinePistolCaselessRifle
-  name: "pistol magazine (.25 caseless)"
+  name: "ent-MagazinePistolCaselessRifle"
   parent: BaseMagazinePistolCaselessRifle
-  description: 10-round magazine for the Cobra pistol. Intended to hold general-purpose kinetic ammunition.
+  description: ent-MagazinePistolCaselessRifle-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
@@ -126,9 +126,9 @@
 
 - type: entity
   id: MagazinePistolCaselessRiflePractice
-  name: "pistol magazine (.25 caseless practice)"
+  name: "ent-MagazinePistolCaselessRiflePractice"
   parent: BaseMagazinePistolCaselessRifle
-  description: 10-round magazine for the Cobra pistol. Intended to hold non-harmful chalk ammunition.
+  description: ent-MagazinePistolCaselessRiflePractice-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice
@@ -159,7 +159,7 @@
 
 - type: entity
   id: MagazineCaselessRifle
-  name: "magazine (.25 caseless)"
+  name: "ent-MagazineCaselessRifle"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -179,7 +179,7 @@
 
 - type: entity
   id: MagazineCaselessRiflePractice
-  name: "magazine (.25 caseless practice)"
+  name: "ent-MagazineCaselessRiflePractice"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -205,7 +205,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShort
-  name: "short magazine (.25 caseless)"
+  name: "ent-MagazineCaselessRifleShort"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -226,7 +226,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortPractice
-  name: "short magazine (.25 caseless practice)"
+  name: "ent-MagazineCaselessRifleShortPractice"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider

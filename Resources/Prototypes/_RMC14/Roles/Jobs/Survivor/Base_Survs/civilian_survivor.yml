@@ -86,8 +86,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSurvivor
-  name: survivor spawn point
-  suffix: Job Spawn, Main
+  name: ent-CMSpawnPointSurvivor
+  suffix: ent-CMSpawnPointSurvivor-suffix
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -99,7 +99,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleSurvivor
-  name: Survivor
+  name: ent-CMGuidebookRoleSurvivor
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -112,7 +112,7 @@
 
 - type: entity
   id: RMCSurvivorPresetNoGun
-  name: no gun colonist preset
+  name: ent-RMCSurvivorPresetNoGun
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCSurvivorPresetNoGun
   id: RMCSurvivorPresetCivilian
-  name: civilian colonist preset
+  name: ent-RMCSurvivorPresetCivilian
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -146,7 +146,7 @@
 
 - type: entity
   id: RMCSurvivorPresetCivilianRareItem
-  name: civilian colonist preset with rare item
+  name: ent-RMCSurvivorPresetCivilianRareItem
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -182,7 +182,7 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCSurvivorPresetCivilianOutfits
-  name: civilian colonist preset with random outfits
+  name: ent-RMCSurvivorPresetCivilianOutfits
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -196,7 +196,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorCivilian
-  name: civilian colonist ghost role
+  name: ent-RMCRandomHumanoidSurvivorCivilian
   components:
   - type: Sprite
     layers:

@@ -1,9 +1,9 @@
 - type: entity
   parent: Bed
   id: CMBed
-  name: bed
-  suffix: RMC
-  description: A mattress seated on a rectangular metallic frame. This is used to support a lying person in a comfortable manner, notably for regular sleep. Ancient technology, but still useful.
+  name: ent-CMBed
+  suffix: ent-CMBed-suffix
+  description: ent-CMBed-desc
   components:
   - type: VehicleSmashable
   - type: Transform
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMBed
   id: RMCBedAlien
-  name: alien bed
-  suffix: RMC|Alien
+  name: ent-RMCBedAlien
+  suffix: ent-RMCBedAlien-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunk
-  name: black bunk-bed
+  name: ent-RMCBedBunk
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkBlue
-  name: blue bunk-bed
+  name: ent-RMCBedBunkBlue
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkGreen
-  name: green bunk-bed
+  name: ent-RMCBedBunkGreen
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCBedBunkGreen
   id: RMCBedBunkGreenUnanchored
-  suffix: RMC|Unanchored
+  suffix: ent-RMCBedBunkGreenUnanchored-suffix
   components:
   - type: Transform
     anchored: false
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkRed
-  name: red bunk-bed
+  name: ent-RMCBedBunkRed
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -142,9 +142,9 @@
 - type: entity
   parent: [BaseItem, BaseFoldable]
   id: Bedroll
-  name: bedroll
-  suffix: RMC
-  description: A foldable bedroll, just about the only thing of comfort in the field. You're generally supposed to unroll it before sleeping, but who needs rules?
+  name: ent-Bedroll
+  suffix: ent-Bedroll-suffix
+  description: ent-Bedroll-desc
   components:
   - type: Transform
     noRot: true
@@ -210,7 +210,7 @@
 - type: entity
   parent: Bedroll
   id: BedrollFolded
-  suffix: folded
+  suffix: ent-BedrollFolded-suffix
   components:
   - type: Foldable
     folded: true

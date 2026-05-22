@@ -1,52 +1,45 @@
 - type: entity
   id: Windoor
   parent: BaseWindoor
-  name: windoor
-  description: It's a window and a sliding door. Wow!
-
+  name: ent-Windoor
+  description: ent-Windoor-desc
 - type: entity
   id: WindoorSecure
   parent: BaseSecureWindoor
-  name: secure windoor
-  description: It's a sturdy window and a sliding door. Wow!
-
+  name: ent-WindoorSecure
+  description: ent-WindoorSecure-desc
 - type: entity
   id: WindoorClockwork
   parent: BaseClockworkWindoor
-  name: clockwork windoor
-  description: It's a sturdy window and a sliding door. Wow!
-
+  name: ent-WindoorClockwork
+  description: ent-WindoorClockwork-desc
 - type: entity
   id: WindoorPlasma
   parent: BasePlasmaWindoor
-  name: plasma windoor
-  description: It's a pink window *and* a sliding door. Amazing!
-
+  name: ent-WindoorPlasma
+  description: ent-WindoorPlasma-desc
 - type: entity
   id: WindoorSecurePlasma
   parent: BaseSecurePlasmaWindoor
-  name: secure plasma windoor
-  description: It's a sturdy purple window *and* a sliding door. Spectacular!
-
+  name: ent-WindoorSecurePlasma
+  description: ent-WindoorSecurePlasma-desc
 - type: entity
   id: WindoorUranium
   parent: BaseUraniumWindoor
-  name: uranium windoor
-  description: It's a window and a sliding door. Huh? Oh, and it's green!
-
+  name: ent-WindoorUranium
+  description: ent-WindoorUranium-desc
 - type: entity
   id: WindoorSecureUranium
   parent: BaseSecureUraniumWindoor
-  name: secure uranium windoor
-  description: It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
-
+  name: ent-WindoorSecureUranium
+  description: ent-WindoorSecureUranium-desc
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Windoors (alphabetical)
 
 - type: entity
   parent: WindoorServiceLocked
   id: WindoorBarLocked
-  suffix: Bar, Locked
+  suffix: ent-WindoorBarLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -55,7 +48,7 @@
 - type: entity
   parent: WindoorServiceLocked
   id: WindoorBarKitchenLocked
-  suffix: Bar&Kitchen, Locked
+  suffix: ent-WindoorBarKitchenLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -64,7 +57,7 @@
 - type: entity
   parent: Windoor
   id: WindoorCargoLocked
-  suffix: Cargo, Locked
+  suffix: ent-WindoorCargoLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -75,7 +68,7 @@
 - type: entity
   parent: Windoor
   id: WindoorChapelLocked
-  suffix: Chapel, Locked
+  suffix: ent-WindoorChapelLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -84,7 +77,7 @@
 - type: entity
   parent: WindoorServiceLocked
   id: WindoorHydroponicsLocked
-  suffix: Hydroponics, Locked
+  suffix: ent-WindoorHydroponicsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -93,7 +86,7 @@
 - type: entity
   parent: WindoorServiceLocked
   id: WindoorJanitorLocked
-  suffix: Janitor, Locked
+  suffix: ent-WindoorJanitorLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -102,7 +95,7 @@
 - type: entity
   parent: WindoorPlasma
   id: PlasmaWindoorJanitorLocked
-  suffix: Janitor, Locked, Plasma
+  suffix: ent-PlasmaWindoorJanitorLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -113,7 +106,7 @@
 - type: entity
   parent: WindoorServiceLocked
   id: WindoorKitchenLocked
-  suffix: Kitchen, Locked
+  suffix: ent-WindoorKitchenLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -122,7 +115,7 @@
 - type: entity
   parent: WindoorServiceLocked
   id: WindoorKitchenHydroponicsLocked
-  suffix: Kitchen&Hydroponics, Locked
+  suffix: ent-WindoorKitchenHydroponicsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -131,7 +124,7 @@
 - type: entity
   parent: Windoor
   id: WindoorServiceLocked
-  suffix: Service, Locked
+  suffix: ent-WindoorServiceLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -142,7 +135,7 @@
 - type: entity
   parent: WindoorServiceLocked
   id: WindoorTheatreLocked
-  suffix: Theatre, Locked
+  suffix: ent-WindoorTheatreLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -153,7 +146,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureArmoryLocked
-  suffix: Armory, Locked
+  suffix: ent-WindoorSecureArmoryLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -164,7 +157,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureArmoryLocked
-  suffix: Armory, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureArmoryLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -175,7 +168,7 @@
 - type: entity
   parent: WindoorSecureEngineeringLocked
   id: WindoorSecureAtmosphericsLocked
-  suffix: Atmospherics, Locked
+  suffix: ent-WindoorSecureAtmosphericsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -184,7 +177,7 @@
 - type: entity
   parent: PlasmaWindoorSecureEngineeringLocked
   id: PlasmaWindoorSecureAtmosphericsLocked
-  suffix: Atmospherics, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureAtmosphericsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -193,7 +186,7 @@
 - type: entity
   parent: WindoorSecureServiceLocked
   id: WindoorSecureBarLocked
-  suffix: Bar, Locked
+  suffix: ent-WindoorSecureBarLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -202,7 +195,7 @@
 - type: entity
   parent: WindoorSecureSecurityLocked
   id: WindoorSecureBrigLocked
-  suffix: Brig, Locked
+  suffix: ent-WindoorSecureBrigLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -211,7 +204,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureCargoLocked
-  suffix: Cargo, Locked
+  suffix: ent-WindoorSecureCargoLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -222,7 +215,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureChapelLocked
-  suffix: Chapel, Locked
+  suffix: ent-WindoorSecureChapelLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -231,7 +224,7 @@
 - type: entity
   parent: WindoorSecureMedicalLocked
   id: WindoorSecureChemistryLocked
-  suffix: Chemistry, Locked
+  suffix: ent-WindoorSecureChemistryLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -240,7 +233,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureChemistryLocked
-  suffix: Chemistry, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureChemistryLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -251,7 +244,7 @@
 - type: entity
   parent: WindoorSecureCommandLocked
   id: WindoorSecureCentralCommandLocked
-  suffix: Central Command, Locked
+  suffix: ent-WindoorSecureCentralCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -260,7 +253,7 @@
 - type: entity
   parent: PlasmaWindoorSecureCommandLocked
   id: PlasmaWindoorSecureCentralCommandLocked
-  suffix: Central Command, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureCentralCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -269,7 +262,7 @@
 - type: entity
   parent: WindoorSecureUranium
   id: UraniumWindoorSecureCentralCommandLocked
-  suffix: Central Command, Locked, Uranium
+  suffix: ent-UraniumWindoorSecureCentralCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -282,7 +275,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureCommandLocked
-  suffix: Command, Locked
+  suffix: ent-WindoorSecureCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -295,7 +288,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureCommandLocked
-  suffix: Command, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -308,7 +301,7 @@
 - type: entity
   parent: WindoorSecureSecurityLocked
   id: WindoorSecureDetectiveLocked
-  suffix: Detective, Locked
+  suffix: ent-WindoorSecureDetectiveLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -317,7 +310,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureEngineeringLocked
-  suffix: Engineering, Locked
+  suffix: ent-WindoorSecureEngineeringLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -328,7 +321,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureEngineeringLocked
-  suffix: Engineering, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureEngineeringLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -339,7 +332,7 @@
 - type: entity
   parent: WindoorSecureUranium
   id: UraniumWindoorSecureEngineeringLocked
-  suffix: Engineering, Locked, Uranium
+  suffix: ent-UraniumWindoorSecureEngineeringLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -350,7 +343,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureExternalLocked
-  suffix: External, Locked
+  suffix: ent-WindoorSecureExternalLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -361,7 +354,7 @@
 - type: entity
   parent: WindoorSecureServiceLocked
   id: WindoorSecureJanitorLocked
-  suffix: Janitor, Locked
+  suffix: ent-WindoorSecureJanitorLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -370,7 +363,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureJanitorLocked
-  suffix: Janitor, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureJanitorLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -381,7 +374,7 @@
 - type: entity
   parent: WindoorSecureServiceLocked
   id: WindoorSecureKitchenLocked
-  suffix: Kitchen, Locked
+  suffix: ent-WindoorSecureKitchenLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -390,7 +383,7 @@
 - type: entity
   parent: WindoorSecureSecurityLocked
   id: WindoorSecureSecurityLawyerLocked
-  suffix: Security/Lawyer, Locked
+  suffix: ent-WindoorSecureSecurityLawyerLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -399,7 +392,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureMedicalLocked
-  suffix: Medical, Locked
+  suffix: ent-WindoorSecureMedicalLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -410,7 +403,7 @@
 - type: entity
   parent: WindoorSecureCommandLocked
   id: WindoorSecureResearchDirectorLocked
-  suffix: ResearchDirector, Locked
+  suffix: ent-WindoorSecureResearchDirectorLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -419,7 +412,7 @@
 - type: entity
   parent: WindoorSecureCargoLocked
   id: WindoorSecureSalvageLocked
-  suffix: Salvage, Locked
+  suffix: ent-WindoorSecureSalvageLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -428,7 +421,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureSecurityLocked
-  suffix: Security, Locked
+  suffix: ent-WindoorSecureSecurityLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -439,7 +432,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureSecurityLocked
-  suffix: Security, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureSecurityLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -450,7 +443,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureScienceLocked
-  suffix: Science, Locked
+  suffix: ent-WindoorSecureScienceLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -461,7 +454,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureScienceLocked
-  suffix: Science, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureScienceLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -472,7 +465,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureServiceLocked
-  suffix: Service, Locked
+  suffix: ent-WindoorSecureServiceLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -483,7 +476,7 @@
 - type: entity
   parent: WindoorSecureCommandLocked
   id: WindoorSecureHeadOfPersonnelLocked
-  suffix: HeadOfPersonnel, Locked
+  suffix: ent-WindoorSecureHeadOfPersonnelLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -494,7 +487,7 @@
 - type: entity
   parent: Windoor
   id: WindoorSyndicateLocked
-  suffix: Syndicate, Locked
+  suffix: ent-WindoorSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -503,7 +496,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureSyndicateLocked
-  suffix: Syndicate, Locked
+  suffix: ent-WindoorSecureSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -512,7 +505,7 @@
 - type: entity
   parent: WindoorPlasma
   id: PlasmaWindoorSyndicateLocked
-  suffix: Syndicate, Locked, Plasma
+  suffix: ent-PlasmaWindoorSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -521,7 +514,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureSyndicateLocked
-  suffix: Syndicate, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -530,7 +523,7 @@
 - type: entity
   parent: WindoorUranium
   id: UraniumWindoorSyndicateLocked
-  suffix: Syndicate, Locked, Uranium
+  suffix: ent-UraniumWindoorSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -539,7 +532,7 @@
 - type: entity
   parent: WindoorSecureUranium
   id: UraniumWindoorSecureSyndicateLocked
-  suffix: Syndicate, Locked, Uranium
+  suffix: ent-UraniumWindoorSecureSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -548,7 +541,7 @@
 - type: entity
   parent: Windoor
   id: WindoorNukeopLocked
-  suffix: Nukeop, Locked
+  suffix: ent-WindoorNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -557,7 +550,7 @@
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureNukeopLocked
-  suffix: Nukeop, Locked
+  suffix: ent-WindoorSecureNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -566,7 +559,7 @@
 - type: entity
   parent: WindoorPlasma
   id: PlasmaWindoorNukeopLocked
-  suffix: Nukeop, Locked, Plasma
+  suffix: ent-PlasmaWindoorNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -575,7 +568,7 @@
 - type: entity
   parent: WindoorSecurePlasma
   id: PlasmaWindoorSecureNukeopLocked
-  suffix: Nukeop, Locked, Plasma
+  suffix: ent-PlasmaWindoorSecureNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -584,7 +577,7 @@
 - type: entity
   parent: WindoorUranium
   id: UraniumWindoorNukeopLocked
-  suffix: Nukeop, Locked, Uranium
+  suffix: ent-UraniumWindoorNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -593,7 +586,7 @@
 - type: entity
   parent: WindoorSecureUranium
   id: UraniumWindoorSecureNukeopLocked
-  suffix: Nukeop, Locked, Uranium
+  suffix: ent-UraniumWindoorSecureNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:

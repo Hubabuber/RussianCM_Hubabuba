@@ -3,3 +3,5 @@ ent-RMCSurvivorPresetForeconMarksman = Предустановка выживан
 ent-CMSpawnPointForeconMarksman = точка появления стрелка Forecon
  
 
+job-rmcsurvivorforeconmarksman-name = RMC-имя-задания-форекон-стрелка
+job-rmcsurvivorforeconmarksman-spawnmenurolename = ФОРЕКОН Стрелок (Выживший)

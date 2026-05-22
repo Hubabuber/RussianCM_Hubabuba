@@ -3,3 +3,6 @@ ent-RMCCartridgeRifleAR10 = патрон (7.62x51)
 ent-RMCMagazineRifleAR10 = магазин AR10 (7.62x51мм)
 ent-WeaponRifleAR10 = штурмовая винтовка AR10
   .desc = Более ранняя версия широко распространённой винтовки M16. Считается отцом винтовки XX века. Как одна из них оказалась здесь — это отдельная загадка. Использует патрон 7.62x51мм.
+
+ent-BulletRifleAR10 = BaseBullet
+    .desc = If you can see this you're probably dead!

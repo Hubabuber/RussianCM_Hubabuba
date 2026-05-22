@@ -1,12 +1,12 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYPMCPartyEngineer #m41a/2
-  name: PMC Combat Engineer
+  name: job-au14jobwypmcpartyengineer-name
   description: au14-pmcparty-description
   playTimeTracker: AU14JobWYPMCPartyEngineer
   ranks:
     AU14RankWeYuOperator: []
-  spawnMenuRoleName: WY PMC Combat Engineer (3rd party, M41A/2)
+  spawnMenuRoleName: job-au14jobwypmcpartyengineer-spawnmenurolename
   startingGear: AU14GearWYPMCPartyEngineer
   greeting: au14-pmcparty-greeting
   icon: "RMCJobIconPMCEngineer"
@@ -32,7 +32,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyEngineer
-  name: WY PMC Party Combat Engineer (3rd party, M41A/2)
+  name: ent-AU14JobWYPMCPartyEngineer
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

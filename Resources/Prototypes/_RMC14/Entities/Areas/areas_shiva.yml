@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: RMCAreaBase
   id: RMCAreaShiva
-  name: Shiva's Snowball
-  suffix: Shiva Area
+  name: ent-RMCAreaShiva
+  suffix: ent-RMCAreaShiva-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_shiva.rsi
@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1Shiva
-  name: Shiva's Snowball - Dropship Alamo Landing Zone
+  name: ent-RMCAreaShuttleDrop1Shiva
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_shiva.rsi
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2Shiva
-  name: Shiva's Snowball - Dropship Normandy Landing Zone
+  name: ent-RMCAreaShuttleDrop2Shiva
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_shiva.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorLz1Console
-  name: Shiva's Snowball - Dropship Alamo Console
+  name: ent-RMCAreaShivaExteriorLz1Console
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCAreaShivaExteriorLz1Console
   id: RMCAreaShivaExteriorLz1ConsoleTwo
-  name: Shiva's Snowball - Dropship Normandy Console
+  name: ent-RMCAreaShivaExteriorLz1ConsoleTwo
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCAreaShiva
   id: RMCAreaShivaExterior
-  name: Shiva's Snowball - Exterior
+  name: ent-RMCAreaShivaExterior
   components:
   - type: Area
     CAS: true
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCAreaShiva
   id: RMCAreaShivaInterior
-  name: Shiva's Snowball - Interior
+  name: ent-RMCAreaShivaInterior
   components:
   - type: Area
     CAS: true
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorOob
-  name: Shiva's Snowball - Out Of Bounds
+  name: ent-RMCAreaShivaInteriorOob
   components:
   - type: Sprite
     state: oob
@@ -114,7 +114,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorOob
   id: RMCAreaShivaInteriorOobDevRoom
-  name: Shiva's Snowball - Secret Room
+  name: ent-RMCAreaShivaInteriorOobDevRoom
   components:
   - type: Sprite
     state: shiva
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorTelecomm
-  name: Shiva's Snowball - Communications Relay
+  name: ent-RMCAreaShivaExteriorTelecomm
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -131,7 +131,7 @@
 - type: entity
   parent: RMCAreaShivaExteriorTelecomm
   id: RMCAreaShivaExteriorTelecommLz1North
-  name: Shiva's Snowball - North LZ1 Communications Relay
+  name: ent-RMCAreaShivaExteriorTelecommLz1North
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -140,7 +140,7 @@
 - type: entity
   parent: RMCAreaShivaExteriorTelecomm
   id: RMCAreaShivaExteriorTelecommLz2Southeast
-  name: Shiva's Snowball - South-East LZ2 Communications Relay
+  name: ent-RMCAreaShivaExteriorTelecommLz2Southeast
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCAreaShivaExteriorTelecomm
   id: RMCAreaShivaExteriorTelecommLz2Northeast
-  name: Shiva's Snowball - North-East LZ2 Communications Relay
+  name: ent-RMCAreaShivaExteriorTelecommLz2Northeast
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorTelecomm
-  name: Shiva's Snowball - Communications Relay
+  name: ent-RMCAreaShivaInteriorTelecomm
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorTelecomm
   id: RMCAreaShivaInteriorTelecommLz1Biceps
-  name: Shiva's Snowball - Fort Biceps Communications Relay
+  name: ent-RMCAreaShivaInteriorTelecommLz1Biceps
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_shiva.rsi
@@ -178,7 +178,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorTelecomm
   id: RMCAreaShivaInteriorTelecommLz1Flight
-  name: Shiva's Snowball - LZ1 Aerodrome Communications Relay
+  name: ent-RMCAreaShivaInteriorTelecommLz1Flight
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -192,7 +192,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorTelecomm
   id: RMCAreaShivaInteriorTelecommLz2Research
-  name: Shiva's Snowball - Argentinian Communications Relay
+  name: ent-RMCAreaShivaInteriorTelecommLz2Research
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCAreaShivaCaves
   id: RMCAreaShivaCavesTelecomm
-  name: Shiva's Snowball - Communications Relay
+  name: ent-RMCAreaShivaCavesTelecomm
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -210,7 +210,7 @@
 - type: entity
   parent: RMCAreaShivaCavesTelecomm
   id: RMCAreaShivaCavesTelecommLz2South
-  name: Shiva's Snowball - Backup Communications Relay
+  name: ent-RMCAreaShivaCavesTelecommLz2South
   components:
   - type: Area
     minimapColor: '#EBE5E5E3'
@@ -219,7 +219,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorLz1Valley
-  name: Shiva's Snowball - Landing Valley
+  name: ent-RMCAreaShivaExteriorLz1Valley
   components:
   - type: Sprite
     state: landing_valley
@@ -231,7 +231,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorLz2Fortress
-  name: Shiva's Snowball - Landing Bulwark
+  name: ent-RMCAreaShivaExteriorLz2Fortress
   components:
   - type: Sprite
     state: lz2_fortress
@@ -243,7 +243,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorValley
-  name: Shiva's Snowball - Storage Bunker Valley
+  name: ent-RMCAreaShivaExteriorValley
   components:
   - type: Sprite
     state: junkyard1
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorSouthwestValley
-  name: Shiva's Snowball - Southwest Valley
+  name: ent-RMCAreaShivaExteriorSouthwestValley
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -259,7 +259,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorCpColonyGrounds
-  name: Shiva's Snowball - Colony Grounds
+  name: ent-RMCAreaShivaExteriorCpColonyGrounds
   components:
   - type: Sprite
     state: junkyard2
@@ -267,7 +267,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorJunkyard
-  name: Shiva's Snowball - Junkyard
+  name: ent-RMCAreaShivaExteriorJunkyard
   components:
   - type: Sprite
     state: junkyard0
@@ -275,7 +275,7 @@
 - type: entity
   parent: RMCAreaShivaExteriorJunkyard
   id: RMCAreaShivaExteriorJunkyardFortbiceps
-  name: Shiva's Snowball - Fort Biceps
+  name: ent-RMCAreaShivaExteriorJunkyardFortbiceps
   components:
   - type: Sprite
     state: junkyard1
@@ -283,7 +283,7 @@
 - type: entity
   parent: RMCAreaShivaExteriorJunkyard
   id: RMCAreaShivaExteriorJunkyardCpBar
-  name: Shiva's Snowball - Bar Grounds
+  name: ent-RMCAreaShivaExteriorJunkyardCpBar
   components:
   - type: Sprite
     state: bar0
@@ -291,7 +291,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorCpSResearch
-  name: Shiva's Snowball - Research Hab Exterior
+  name: ent-RMCAreaShivaExteriorCpSResearch
   components:
   - type: Sprite
     state: junkyard1
@@ -299,7 +299,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorCpLz2
-  name: Shiva's Snowball - North Colony Grounds
+  name: ent-RMCAreaShivaExteriorCpLz2
   components:
   - type: Sprite
     state: junkyard3
@@ -309,7 +309,7 @@
 - type: entity
   parent: RMCAreaShivaExterior
   id: RMCAreaShivaExteriorResearchAlley
-  name: Shiva's Snowball - South Research Alley
+  name: ent-RMCAreaShivaExteriorResearchAlley
   components:
   - type: Sprite
     state: junkyard2
@@ -319,7 +319,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorCaves
-  name: Shiva's Snowball - Caves
+  name: ent-RMCAreaShivaInteriorCaves
   components:
   - type: Sprite
     state: caves0
@@ -337,7 +337,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorCaves
   id: RMCAreaShivaInteriorCavesRightSpiders
-  name: Shiva's Snowball - Forgotten Passage
+  name: ent-RMCAreaShivaInteriorCavesRightSpiders
   components:
   - type: Sprite
     state: caves1
@@ -345,7 +345,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorCaves
   id: RMCAreaShivaInteriorCavesLeftSpiders
-  name: Shiva's Snowball - Crevice Passage
+  name: ent-RMCAreaShivaInteriorCavesLeftSpiders
   components:
   - type: Sprite
     state: caves2
@@ -353,7 +353,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorCaves
   id: RMCAreaShivaInteriorCavesSLz2
-  name: Shiva's Snowball - South LZ2 Caves
+  name: ent-RMCAreaShivaInteriorCavesSLz2
   components:
   - type: Sprite
     state: caves3
@@ -364,7 +364,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorCaves
   id: RMCAreaShivaInteriorCavesCpCamp
-  name: Shiva's Snowball - Cave Camp
+  name: ent-RMCAreaShivaInteriorCavesCpCamp
   components:
   - type: Sprite
     state: bar3
@@ -374,7 +374,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorCaves
   id: RMCAreaShivaInteriorCavesResearchCaves
-  name: Shiva's Snowball - South Research Hab Caves
+  name: ent-RMCAreaShivaInteriorCavesResearchCaves
   components:
   - type: Sprite
     state: caves2
@@ -384,7 +384,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorCaves
   id: RMCAreaShivaInteriorCavesMedsecengCaves
-  name: Shiva's Snowball - South Med-Sec-Eng Complex Caves
+  name: ent-RMCAreaShivaInteriorCavesMedsecengCaves
   components:
   - type: Sprite
     state: caves3
@@ -392,7 +392,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorColony
-  name: Shiva's Snowball - Colony MegaStruct(TM)
+  name: ent-RMCAreaShivaInteriorColony
   components:
   - type: Sprite
     state: res0
@@ -410,7 +410,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorColony
   id: RMCAreaShivaInteriorColonyBotany
-  name: Shiva's Snowball - MegaStruct(TM) Botanical Dorms
+  name: ent-RMCAreaShivaInteriorColonyBotany
   components:
   - type: Sprite
     state: res1
@@ -420,7 +420,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorColony
   id: RMCAreaShivaInteriorColonySAdmin
-  name: Shiva's Snowball - MegaStruct(TM) Crisis Center
+  name: ent-RMCAreaShivaInteriorColonySAdmin
   components:
   - type: Sprite
     state: res2
@@ -428,7 +428,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorColony
   id: RMCAreaShivaInteriorColonyNAdmin
-  name: Shiva's Snowball - MegaStruct(TM) Administration
+  name: ent-RMCAreaShivaInteriorColonyNAdmin
   components:
   - type: Sprite
     state: res3
@@ -438,7 +438,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorColony
   id: RMCAreaShivaInteriorColonyCentral
-  name: Shiva's Snowball - MegaStruct(TM) Residential Life
+  name: ent-RMCAreaShivaInteriorColonyCentral
   components:
   - type: Sprite
     state: res4
@@ -446,7 +446,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorColony
   id: RMCAreaShivaInteriorColonyResearchHab
-  name: Shiva's Snowball - Research Hab Interior
+  name: ent-RMCAreaShivaInteriorColonyResearchHab
   components:
   - type: Sprite
     state: res2
@@ -454,7 +454,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorColony
   id: RMCAreaShivaInteriorColonyMedseceng
-  name: Shiva's Snowball - Colony MegaStruct(TM) Med-Sec-Eng Segment
+  name: ent-RMCAreaShivaInteriorColonyMedseceng
   components:
   - type: Sprite
     state: res0
@@ -462,7 +462,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorColony
   id: RMCAreaShivaInteriorColonyDeck
-  name: Shiva's Snowball - Colony MegaStruct(TM) Open Deck
+  name: ent-RMCAreaShivaInteriorColonyDeck
   components:
   - type: Sprite
     state: res1
@@ -481,7 +481,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorAerodrome
-  name: Shiva's Snowball - Aerodrome
+  name: ent-RMCAreaShivaInteriorAerodrome
   components:
   - type: Sprite
     state: hangars0
@@ -491,7 +491,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorBar
-  name: Shiva's Snowball - Anti-Freeze Bar
+  name: ent-RMCAreaShivaInteriorBar
   components:
   - type: Sprite
     state: hangars0
@@ -499,7 +499,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorFortBiceps
-  name: Shiva's Snowball - Fort Biceps Interior
+  name: ent-RMCAreaShivaInteriorFortBiceps
   components:
   - type: Sprite
     state: hangars0
@@ -507,7 +507,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorWarehouse
-  name: Shiva's Snowball - Blue Warehouse
+  name: ent-RMCAreaShivaInteriorWarehouse
   components:
   - type: Sprite
     state: hangars1
@@ -517,7 +517,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorWarehouse
   id: RMCAreaShivaInteriorWarehouseCaves
-  name: Shiva's Snowball - Blue Warehouse Ice Cave
+  name: ent-RMCAreaShivaInteriorWarehouseCaves
   components:
   - type: Sprite
     state: caves1
@@ -525,7 +525,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorValleyHuts
-  name: Shiva's Snowball - Valley Bunker 1
+  name: ent-RMCAreaShivaInteriorValleyHuts
   components:
   - type: Sprite
     state: hangars1
@@ -533,7 +533,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorValleyHuts
   id: RMCAreaShivaInteriorValleyHutsNo2
-  name: Shiva's Snowball - Valley Bunker 2
+  name: ent-RMCAreaShivaInteriorValleyHutsNo2
   components:
   - type: Sprite
     state: hangars2
@@ -541,7 +541,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorValleyHuts
   id: RMCAreaShivaInteriorValleyHutsDisposals
-  name: Shiva's Snowball - Valley Disposals
+  name: ent-RMCAreaShivaInteriorValleyHutsDisposals
   components:
   - type: Sprite
     state: hangars3
@@ -549,7 +549,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorGarage
-  name: Shiva's Snowball - Cargo Tug Repair Station
+  name: ent-RMCAreaShivaInteriorGarage
   components:
   - type: Sprite
     state: hangars2
@@ -557,7 +557,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorLz2Habs
-  name: Shiva's Snowball - Argentinian Research Headquarters
+  name: ent-RMCAreaShivaInteriorLz2Habs
   components:
   - type: Sprite
     state: bar1
@@ -568,7 +568,7 @@
 - type: entity
   parent: RMCAreaShivaInterior
   id: RMCAreaShivaInteriorAuxPower
-  name: Shiva's Snowball - Auxiliary Generator Station
+  name: ent-RMCAreaShivaInteriorAuxPower
   components:
   - type: Sprite
     state: hangars0
@@ -576,7 +576,7 @@
 - type: entity
   parent: RMCAreaShivaInteriorColony
   id: RMCAreaShivaInteriorColonyCargoShuttle
-  name: Shiva's Snowball - Disabled Cargo Shuttle
+  name: ent-RMCAreaShivaInteriorColonyCargoShuttle
   components:
   - type: Sprite
     state: res2

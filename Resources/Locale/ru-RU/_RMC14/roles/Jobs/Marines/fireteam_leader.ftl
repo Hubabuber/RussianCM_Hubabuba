@@ -13,3 +13,6 @@ ent-CMSpawnPointFireteamLeaderCharlie = точка появления лидер
 ent-CMSpawnPointFireteamLeaderDelta = точка появления лидера боевой группы
  
 
+job-cmfireteamleader-desc = см-описание-должности-огневая группа-лидер
+job-cmfireteamleader-name = cm-название-должности-огневая группа-лидер
+job-cmfireteamleader-supervisors = cm-job-supervisors-sl

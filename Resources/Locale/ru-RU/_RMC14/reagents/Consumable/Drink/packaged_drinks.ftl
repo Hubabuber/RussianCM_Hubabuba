@@ -1,0 +1,12 @@
+reagent-rmcchocolatedrink-desc = RMC-реагент-десс-шоколадный напиток
+reagent-rmcchocolatedrink-name = rmc-название-реагента-шоколадный-напиток
+reagent-rmcchocolatedrink-physicaldesc = реагент-физический-дескриптор-сливочный
+reagent-rmccocomilk-desc = RMC-реагент-деск-коко-молоко
+reagent-rmccocomilk-name = RMC-название-реагента-коко-молоко
+reagent-rmccocomilk-physicaldesc = реагент-физический-дескриптор-сливочный
+reagent-rmcjuicebug-desc = RMC-реагент-десс-сок-ошибка
+reagent-rmcjuicebug-name = rmc-название-реагента-сок-ошибка
+reagent-rmcjuicebug-physicaldesc = реагент-физический-пузырьковый
+reagent-rmcsoymilk-desc = RMC-реагент-десс-соевое молоко
+reagent-rmcsoymilk-name = RMC-название-реагента-соевое-молоко
+reagent-rmcsoymilk-physicaldesc = реагент-физический-дескриптор-сливочный

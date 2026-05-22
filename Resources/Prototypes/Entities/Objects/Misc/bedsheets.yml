@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: BedsheetBase
-  name: BedsheetBase
+  name: ent-BedsheetBase
   abstract: true
-  description: A surprisingly soft linen bedsheet.
+  description: ent-BedsheetBase-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -27,7 +27,7 @@
 - type: entity
   id: BedsheetBlack
   parent: BedsheetBase
-  name: black bedsheet
+  name: ent-BedsheetBlack
   components:
   - type: Sprite
     state: sheetblack
@@ -37,7 +37,7 @@
 - type: entity
   id: BedsheetBlue
   parent: BedsheetBase
-  name: blue bedsheet
+  name: ent-BedsheetBlue
   components:
   - type: Sprite
     state: sheetblue
@@ -47,7 +47,7 @@
 - type: entity
   id: BedsheetBrown
   parent: BedsheetBase
-  name: brown bedsheet
+  name: ent-BedsheetBrown
   components:
   - type: Sprite
     state: sheetbrown
@@ -57,8 +57,8 @@
 - type: entity
   id: BedsheetCaptain
   parent: BedsheetBase
-  name: captain's bedsheet
-  description: It has a Nanotrasen symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains.
+  name: ent-BedsheetCaptain
+  description: ent-BedsheetCaptain-desc
   components:
   - type: Sprite
     state: sheetcaptain
@@ -70,8 +70,8 @@
 - type: entity
   id: BedsheetCE
   parent: BedsheetBase
-  name: CE's bedsheet
-  description: It's decorated with a wrench emblem. It's highly reflective and stain resistant, so you don't need to worry about ruining it with oil.
+  name: ent-BedsheetCE
+  description: ent-BedsheetCE-desc
   components:
   - type: Sprite
     state: sheetce
@@ -83,8 +83,8 @@
 - type: entity
   id: BedsheetCentcom
   parent: BedsheetBase
-  name: CentComm bedsheet
-  description: Woven with advanced nanothread for warmth as well as being very decorated, essential for all officials.
+  name: ent-BedsheetCentcom
+  description: ent-BedsheetCentcom-desc
   components:
   - type: Sprite
     state: sheetcentcom
@@ -96,8 +96,8 @@
 - type: entity
   id: BedsheetClown
   parent: BedsheetBase
-  name: clown's bedsheet
-  description: A rainbow blanket with a clown mask woven in. It smells faintly of bananas.
+  name: ent-BedsheetClown
+  description: ent-BedsheetClown-desc
   components:
   - type: Sprite
     state: sheetclown
@@ -107,8 +107,8 @@
 - type: entity
   id: BedsheetCMO
   parent: BedsheetBase
-  name: CMO's bedsheet
-  description: It's a sterilized blanket that has a cross emblem. There's some cat fur on it, likely from Runtime.
+  name: ent-BedsheetCMO
+  description: ent-BedsheetCMO-desc
   components:
   - type: Sprite
     state: sheetcmo
@@ -120,8 +120,8 @@
 - type: entity
   id: BedsheetCosmos
   parent: BedsheetBase
-  name: cosmos bedsheet
-  description: Made from the dreams of those who wonder at the stars.
+  name: ent-BedsheetCosmos
+  description: ent-BedsheetCosmos-desc
   components:
   - type: Sprite
     state: sheetcosmos
@@ -131,8 +131,8 @@
 - type: entity
   id: BedsheetCult
   parent: BedsheetBase
-  name: cult bedsheet
-  description: You might dream of Nar'Sie if you sleep with this. It seems rather tattered and glows of an eldritch presence.
+  name: ent-BedsheetCult
+  description: ent-BedsheetCult-desc
   components:
   - type: Sprite
     state: sheetcult
@@ -142,7 +142,7 @@
 - type: entity
   id: BedsheetGreen
   parent: BedsheetBase
-  name: green bedsheet
+  name: ent-BedsheetGreen
   components:
   - type: Sprite
     state: sheetgreen
@@ -152,7 +152,7 @@
 - type: entity
   id: BedsheetGrey
   parent: BedsheetBase
-  name: grey bedsheet
+  name: ent-BedsheetGrey
   components:
   - type: Sprite
     state: sheetgrey
@@ -162,8 +162,8 @@
 - type: entity
   id: BedsheetHOP
   parent: BedsheetBase
-  name: HOP's bedsheet
-  description: It's decorated with a key emblem. For those rare moments when you can rest and cuddle with Ian without someone screaming for you over the radio.
+  name: ent-BedsheetHOP
+  description: ent-BedsheetHOP-desc
   components:
   - type: Sprite
     state: sheethop
@@ -175,8 +175,8 @@
 - type: entity
   id: BedsheetHOS
   parent: BedsheetBase
-  name: HOS's bedsheet
-  description: It's decorated with a shield emblem. While crime doesn't sleep, you do, but you are still THE LAW!
+  name: ent-BedsheetHOS
+  description: ent-BedsheetHOS-desc
   components:
   - type: Sprite
     state: sheethos
@@ -188,7 +188,7 @@
 - type: entity
   id: BedsheetIan
   parent: BedsheetBase
-  name: Ian's bedsheet
+  name: ent-BedsheetIan
   components:
   - type: Sprite
     state: sheetian
@@ -198,8 +198,8 @@
 - type: entity
   id: BedsheetMedical
   parent: BedsheetBase
-  name: medical bedsheet
-  description: It's a sterilized blanket commonly used in the Medbay. Sterilization is voided if a virologist is present onboard the station.
+  name: ent-BedsheetMedical
+  description: ent-BedsheetMedical-desc
   components:
   - type: Sprite
     state: sheetmedical
@@ -209,8 +209,8 @@
 - type: entity
   id: BedsheetMime
   parent: BedsheetBase
-  name: mime's bedsheet
-  description: A very soothing striped blanket.  All the noise just seems to fade out when you're under the covers in this.
+  name: ent-BedsheetMime
+  description: ent-BedsheetMime-desc
   components:
   - type: Sprite
     state: sheetmime
@@ -220,8 +220,8 @@
 - type: entity
   id: BedsheetNT
   parent: BedsheetBase
-  name: NT bedsheet
-  description: It has the Nanotrasen logo on it and an aura of duty.
+  name: ent-BedsheetNT
+  description: ent-BedsheetNT-desc
   components:
   - type: Sprite
     state: sheetNT
@@ -231,7 +231,7 @@
 - type: entity
   id: BedsheetOrange
   parent: BedsheetBase
-  name: orange bedsheet
+  name: ent-BedsheetOrange
   components:
   - type: Sprite
     state: sheetorange
@@ -241,7 +241,7 @@
 - type: entity
   id: BedsheetPurple
   parent: BedsheetBase
-  name: purple bedsheet
+  name: ent-BedsheetPurple
   components:
   - type: Sprite
     state: sheetpurple
@@ -251,7 +251,7 @@
 - type: entity
   id: BedsheetQM
   parent: BedsheetBase
-  name: QM's bedsheet
+  name: ent-BedsheetQM
   components:
   - type: Sprite
     state: sheetqm
@@ -263,7 +263,7 @@
 - type: entity
   id: BedsheetRainbow
   parent: BedsheetBase
-  name: rainbow bedsheet
+  name: ent-BedsheetRainbow
   components:
   - type: Sprite
     state: sheetrainbow
@@ -273,8 +273,8 @@
 - type: entity
   id: BedsheetRD
   parent: BedsheetBase
-  name: RD's bedsheet
-  description: It appears to have a beaker emblem, and is made out of fire-resistant material, although it probably won't protect you in the event of fires you're familiar with every day.
+  name: ent-BedsheetRD
+  description: ent-BedsheetRD-desc
   components:
   - type: Sprite
     state: sheetrd
@@ -286,8 +286,8 @@
 - type: entity
   id: BedsheetBrigmedic
   parent: BedsheetBase
-  name: brigmedic's bedsheet
-  description: Not worse than cotton.
+  name: ent-BedsheetBrigmedic
+  description: ent-BedsheetBrigmedic-desc
   components:
   - type: Sprite
     state: sheetbrigmedic
@@ -297,7 +297,7 @@
 - type: entity
   id: BedsheetRed
   parent: BedsheetBase
-  name: red bedsheet
+  name: ent-BedsheetRed
   components:
   - type: Sprite
     state: sheetred
@@ -307,8 +307,8 @@
 - type: entity
   id: BedsheetSyndie
   parent: [ BedsheetBase, BaseSyndicateContraband ]
-  name: syndicate bedsheet
-  description: It has a syndicate emblem and it has an aura of evil.
+  name: ent-BedsheetSyndie
+  description: ent-BedsheetSyndie-desc
   components:
   - type: Sprite
     state: sheetsyndie
@@ -318,7 +318,7 @@
 - type: entity
   id: BedsheetUSA
   parent: BedsheetBase
-  name: USA bedsheet
+  name: ent-BedsheetUSA
   components:
   - type: Sprite
     state: sheetUSA
@@ -328,7 +328,7 @@
 - type: entity
   id: BedsheetWhite
   parent: BedsheetBase
-  name: white bedsheet
+  name: ent-BedsheetWhite
   components:
   - type: Butcherable
     spawned:
@@ -342,8 +342,8 @@
 - type: entity
   id: BedsheetWiz
   parent: BedsheetBase
-  name: wizard's bedsheet
-  description: A special fabric enchanted with magic so you can have an enchanted night. It even glows!
+  name: ent-BedsheetWiz
+  description: ent-BedsheetWiz-desc
   components:
   - type: Sprite
     state: sheetwiz
@@ -353,7 +353,7 @@
 - type: entity
   id: BedsheetYellow
   parent: BedsheetBase
-  name: yellow bedsheet
+  name: ent-BedsheetYellow
   components:
   - type: Sprite
     state: sheetyellow

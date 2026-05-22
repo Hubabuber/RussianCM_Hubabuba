@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseMachineCircuitboard
   id: WeaponEnergyTurretStationMachineCircuitboardBase
-  name: sentry turret machine board
-  description: A machine printed circuit board for a sentry turret.
+  name: ent-WeaponEnergyTurretStationMachineCircuitboardBase
+  description: ent-WeaponEnergyTurretStationMachineCircuitboardBase-desc
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationMachineCircuitboardBase
   id: WeaponEnergyTurretAIMachineCircuitboard
-  suffix: AI, Silicon
+  suffix: ent-WeaponEnergyTurretAIMachineCircuitboard-suffix
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -38,7 +38,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationMachineCircuitboardBase
   id: WeaponEnergyTurretSecurityMachineCircuitboard
-  suffix: Security
+  suffix: ent-WeaponEnergyTurretSecurityMachineCircuitboard-suffix
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: UnfinishedMachineFrame
   id: CMMachineFrameUnfinished
-  suffix: RMC14, Unfinished
+  suffix: ent-CMMachineFrameUnfinished-suffix
   placement:
     mode: SnapgridCenter
   components:
@@ -27,7 +27,7 @@
 - type: entity
   parent: MachineFrame
   id: CMMachineFrame
-  suffix: RMC14, Ready
+  suffix: ent-CMMachineFrame-suffix
   placement:
     mode: SnapgridCenter
   components:
@@ -55,7 +55,7 @@
 - type: entity
   parent: MachineFrameDestroyed
   id: CMMachineFrameDestroyed
-  suffix: RMC14
+  suffix: ent-CMMachineFrameDestroyed-suffix
   placement:
     mode: SnapgridCenter
   components:
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMMachineFrameUnfinished
   id: RMCComputerFrameUnfinished
-  name: computer frame
-  suffix: RMC14, Unfinished
+  name: ent-RMCComputerFrameUnfinished
+  suffix: ent-RMCComputerFrameUnfinished-suffix
   placement:
     mode: SnapgridCenter
   components:

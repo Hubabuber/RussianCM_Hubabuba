@@ -1,8 +1,8 @@
 - type: entity
   parent: CMAutolathe
   id: CMArmylathe
-  name: armylathe
-  description: The armylathe is a specialized UNMC autolathe meant for printing parts to construct various ordnance, such as grenade casings and mortar shells.
+  name: ent-CMArmylathe
+  description: ent-CMArmylathe-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/armylathe.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMArmylathe
   id: RMCArmylatheEmpty
-  suffix: Empty
+  suffix: ent-RMCArmylatheEmpty-suffix
   components:
   - type: MaterialStorage
     storage: {}

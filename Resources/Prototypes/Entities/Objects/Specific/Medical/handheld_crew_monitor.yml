@@ -1,10 +1,10 @@
 - type: entity
-  name: handheld crew monitor
+  name: ent-HandheldCrewMonitor
   categories: [ DoNotMap ]
   parent: [ BaseHandheldComputer, BaseGrandTheftContraband ]
   # CMO-only bud, don't add more.
   id: HandheldCrewMonitor
-  description: A hand-held crew monitor displaying the status of suit sensors.
+  description: ent-HandheldCrewMonitor-desc
   components:
   - type: Item
     heldPrefix: scanner
@@ -35,7 +35,7 @@
 - type: entity
   id: HandheldCrewMonitorEmpty
   parent: HandheldCrewMonitor
-  suffix: Empty
+  suffix: ent-HandheldCrewMonitorEmpty-suffix
   components:
   - type: ItemSlots
     slots:

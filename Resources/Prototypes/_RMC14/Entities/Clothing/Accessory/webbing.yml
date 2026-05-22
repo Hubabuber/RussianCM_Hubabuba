@@ -2,7 +2,7 @@
   parent: BaseItem
   abstract: true
   id: CMWebbingBase
-  name: webbing
+  name: ent-CMWebbingBase
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbing
-  name: webbing
-  description: A sturdy mess of synthcotton belts and buckles, ready to share your burden.
+  name: ent-CMWebbing
+  description: ent-CMWebbing-desc
   components:
   - type: Sprite
     state: webbing
@@ -98,8 +98,8 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouch
-  name: leg pouch
-  description: A camo conforming leg pouch usually worn by hunters, military and people who dream of being military.
+  name: ent-RMCWebbingLegPouch
+  description: ent-RMCWebbingLegPouch-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/leg_pouch/classic.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouchBlack
-  name: black leg pouch
-  description: A black leg pouch usually worn by hunters, military and people who dream of being military.
+  name: ent-RMCWebbingLegPouchBlack
+  description: ent-RMCWebbingLegPouchBlack-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/leg_pouch/black.rsi
@@ -126,7 +126,7 @@
 - type: entity
   parent: CMWebbing
   id: RMCWebbingBlackSmall
-  name: black webbing
+  name: ent-RMCWebbingBlackSmall
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black_small.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingBlack
-  name: black webbing vest
-  description: Robust black synthcotton vest with lots of pockets to hold whatever you need, but cannot hold in hands.
+  name: ent-CMWebbingBlack
+  description: ent-CMWebbingBlack-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMWebbingBlack
   id: CMWebbingBrown
-  name: brown webbing vest
-  description: Worn brownish synthcotton vest with lots of pockets to unload your hands.
+  name: ent-CMWebbingBrown
+  description: ent-CMWebbingBrown-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_brown.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingHolster
-  name: shoulder holster
-  description: A handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
+  name: ent-CMWebbingHolster
+  description: ent-CMWebbingHolster-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster.rsi
@@ -297,9 +297,9 @@
 - type: entity
   parent: CMWebbing
   id: RMCParaWebbing
-  name: paramarine webbing
-  description: A durable harness system issued to the RCM's Paramarines, designed to distribute weight evenly for comfort and mobility. Fitted with reinforced pouches for carrying essential gear during high-risk insertions.
-  suffix: Paramarine, Survivor
+  name: ent-RMCParaWebbing
+  description: ent-RMCParaWebbing-desc
+  suffix: ent-RMCParaWebbing-suffix
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Clothing/Webbing/para_webbing.rsi
@@ -309,8 +309,8 @@
 - type: entity
   parent: RMCParaWebbing
   id: RMCParaWebbingL88
-  name: paramarine webbing
-  suffix: Paramarine, Survivor, Filled, L88
+  name: ent-RMCParaWebbingL88
+  suffix: ent-RMCParaWebbingL88-suffix
   components:
     - type: StorageFill
       contents:
@@ -321,8 +321,8 @@
 - type: entity
   parent: RMCParaWebbing
   id: RMCParaWebbingPDW90AP
-  name: paramarine webbing
-  suffix: Paramarine, Survivor, Filled, PDW90
+  name: ent-RMCParaWebbingPDW90AP
+  suffix: ent-RMCParaWebbingPDW90AP-suffix
   components:
     - type: StorageFill
       contents:
@@ -333,7 +333,7 @@
 - type: entity
   parent: CMWebbingHolster
   id: RMCWebbingHolsterMK80
-  suffix: PMC FOL, Survivor, Filled
+  suffix: ent-RMCWebbingHolsterMK80-suffix
   components:
   - type: StorageFill
     contents:
@@ -344,8 +344,8 @@
 - type: entity
   parent: CMWebbingHolster
   id: RMCWebbingHolsterBlack
-  name: black shoulder holster
-  description: A black handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
+  name: ent-RMCWebbingHolsterBlack
+  description: ent-RMCWebbingHolsterBlack-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster_black.rsi
@@ -354,7 +354,7 @@
 - type: entity
   parent: RMCWebbingHolsterBlack
   id: RMCWebbingHolsterBlackB92FS
-  suffix: Filled, B92FS
+  suffix: ent-RMCWebbingHolsterBlackB92FS-suffix
   components:
   - type: StorageFill
     contents:
@@ -366,7 +366,7 @@
 - type: entity
   parent: RMCWebbingHolsterBlack
   id: RMCWebbingHolsterBlackMK45
-  suffix: Filled, MK45
+  suffix: ent-RMCWebbingHolsterBlackMK45-suffix
   components:
   - type: StorageFill
     contents:
@@ -378,7 +378,7 @@
 - type: entity
   parent: RMCWebbingHolsterBlack
   id: RMCWebbingHolsterBlackM1984
-  suffix: Filled, M1984
+  suffix: ent-RMCWebbingHolsterBlackM1984-suffix
   components:
   - type: StorageFill
     contents:
@@ -390,7 +390,7 @@
 - type: entity
   parent: RMCWebbingHolsterBlack
   id: RMCWebbingHolsterBlackSpearhead
-  suffix: Filled, Spearhead
+  suffix: ent-RMCWebbingHolsterBlackSpearhead-suffix
   components:
   - type: StorageFill
     contents:
@@ -402,8 +402,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingDropPouch
-  name: drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: ent-RMCWebbingDropPouch
+  description: ent-RMCWebbingDropPouch-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch.rsi
@@ -440,7 +440,7 @@
 - type: entity
   parent: CMWebbingHolster
   id: RMCShoulderHolsterMK80
-  suffix: MK80
+  suffix: ent-RMCShoulderHolsterMK80-suffix
   components:
   - type: StorageFill
     contents:
@@ -451,8 +451,8 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCWebbingDropPouchBlack
-  name: black drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: ent-RMCWebbingDropPouchBlack
+  description: ent-RMCWebbingDropPouchBlack-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch_black.rsi
@@ -492,8 +492,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingClipOnPouch
-  name: clip-on pouch
-  description: A clip on synth-leather pouch designed to house a small collection of items for ML66A weapon operators.
+  name: ent-RMCWebbingClipOnPouch
+  description: ent-RMCWebbingClipOnPouch-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/ml66a_pouch.rsi
@@ -530,8 +530,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingGrenade
-  name: clip-on grenade band
-  description: A sturdy mess of synth-leather band designed to store a few grenades for ML66A weapon operators.
+  name: ent-RMCWebbingGrenade
+  description: ent-RMCWebbingGrenade-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/grenade_pouch.rsi
@@ -562,8 +562,8 @@
 - type: entity
   parent: CMWebbing
   id: RMCToolWebbingSmall
-  name: small tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage. This is the small low-budget version.
+  name: ent-RMCToolWebbingSmall
+  description: ent-RMCToolWebbingSmall-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_brown.rsi
@@ -633,7 +633,7 @@
 - type: entity
   parent: RMCToolWebbingSmall
   id: RMCToolWebbingSmallFilled
-  suffix: Filled
+  suffix: ent-RMCToolWebbingSmallFilled-suffix
   components:
   - type: StorageFill
     contents:
@@ -647,7 +647,7 @@
 - type: entity
   parent: RMCToolWebbingSmall
   id: RMCToolWebbingSmallFilledRCMPVEAssaultEngi
-  suffix: Filled, RCM, PVE
+  suffix: ent-RMCToolWebbingSmallFilledRCMPVEAssaultEngi-suffix
   components:
   - type: StorageFill
     contents:
@@ -661,8 +661,8 @@
 - type: entity
   parent: RMCToolWebbingSmall
   id: RMCToolWebbing
-  name: tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage.
+  name: ent-RMCToolWebbing
+  description: ent-RMCToolWebbing-desc
   components:
   - type: Storage
     grid:
@@ -723,7 +723,7 @@
 - type: entity
   parent: RMCToolWebbing
   id: RMCToolWebbingFilled
-  suffix: Filled
+  suffix: ent-RMCToolWebbingFilled-suffix
   components:
   - type: StorageFill
     contents:
@@ -738,7 +738,7 @@
 - type: entity
   parent: CMWebbing
   id: RMCWebbingHEFA
-  suffix: Filled
+  suffix: ent-RMCWebbingHEFA-suffix
   components:
   - type: StorageFill
     contents:
@@ -748,7 +748,7 @@
 - type: entity
   parent: CMWebbing
   id: RMCWebbingCLFMAR
-  suffix: Filled
+  suffix: ent-RMCWebbingCLFMAR-suffix
   components:
   - type: StorageFill
     contents:
@@ -758,7 +758,7 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingCLFMAR50
-  suffix: Filled
+  suffix: ent-RMCWebbingCLFMAR50-suffix
   components:
   - type: IgnoreContentsSize
     items:
@@ -772,7 +772,7 @@
 - type: entity
   parent: CMWebbing
   id: RMCWebbingCLFBuckshot
-  suffix: Filled
+  suffix: ent-RMCWebbingCLFBuckshot-suffix
   components:
   - type: StorageFill
     contents:
@@ -782,8 +782,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingKnives
-  name: M272 pattern knife vest
-  description: An older generation M272 pattern knife vest once employed by the UNMC. Can hold up to 5 knives. It is made of synthcotton.
+  name: ent-CMWebbingKnives
+  description: ent-CMWebbingKnives-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_knife.rsi
@@ -819,7 +819,7 @@
 - type: entity
   parent: CMWebbingKnives
   id: CMWebbingKnivesFilled
-  suffix: Filled
+  suffix: ent-CMWebbingKnivesFilled-suffix
   components:
   - type: StorageFill
     contents:
@@ -829,7 +829,7 @@
 - type: entity
   parent: CMWebbingBlack
   id: RMCWebbingPMC
-  suffix: PMC, Filled
+  suffix: ent-RMCWebbingPMC-suffix
   components:
   - type: StorageFill
     contents:
@@ -842,7 +842,7 @@
 - type: entity
   parent: CMWebbingBlack
   id: RMCWebbingPMCEngineer
-  suffix: PMC, Engineer, Filled
+  suffix: ent-RMCWebbingPMCEngineer-suffix
   components:
   - type: StorageFill
     contents:
@@ -854,7 +854,7 @@
 - type: entity
   parent: CMWebbingBlack
   id: RMCWebbingPMCMedic
-  suffix: PMC, Medic, Filled
+  suffix: ent-RMCWebbingPMCMedic-suffix
   components:
   - type: StorageFill
     contents:
@@ -865,7 +865,7 @@
 - type: entity
   parent: CMWebbingBlack
   id: RMCWebbingPMCGunner
-  suffix: PMC, Gunner, Filled
+  suffix: ent-RMCWebbingPMCGunner-suffix
   components:
   - type: StorageFill
     contents:
@@ -877,7 +877,7 @@
 - type: entity
   parent: CMWebbingBlack
   id: RMCWebbingPMCWhiteout
-  suffix: PMC, Whiteout, Filled
+  suffix: ent-RMCWebbingPMCWhiteout-suffix
   components:
   - type: StorageFill
     contents:
@@ -887,7 +887,7 @@
 - type: entity
   parent: CMWebbingBlack
   id: RMCWebbingBuckshot
-  suffix: Buckshot, Filled
+  suffix: ent-RMCWebbingBuckshot-suffix
   components:
   - type: StorageFill
     contents:
@@ -897,7 +897,7 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCWebbingDropPouchRoyal
-  suffix: Filled, Royal
+  suffix: ent-RMCWebbingDropPouchRoyal-suffix
   components:
   - type: StorageFill
     contents:
@@ -908,7 +908,7 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCWebbingDropPouchRoyalTeamlead
-  suffix: Filled, Royal Team Leader
+  suffix: ent-RMCWebbingDropPouchRoyalTeamlead-suffix
   components:
   - type: StorageFill
     contents:
@@ -919,7 +919,7 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCWebbingPouchForecon
-  suffix: Filled, Forecon
+  suffix: ent-RMCWebbingPouchForecon-suffix
   components:
   - type: StorageFill
     contents:
@@ -930,9 +930,9 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalGreen
-  name: surgical webbing vest
-  description: A robust webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
-  suffix: Medical, Filled
+  name: ent-CMWebbingSurgicalGreen
+  description: ent-CMWebbingSurgicalGreen-desc
+  suffix: ent-CMWebbingSurgicalGreen-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_surgical_green.rsi
@@ -986,9 +986,9 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalBlue
-  name: surgical webbing vest
-  description: A robust blue webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
-  suffix: Medical, Filled
+  name: ent-CMWebbingSurgicalBlue
+  description: ent-CMWebbingSurgicalBlue-desc
+  suffix: ent-CMWebbingSurgicalBlue-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_surgical_blue.rsi
@@ -1042,8 +1042,8 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCToolDropPouchFilled
-  name: tool drop pouch
-  description: A drop pouch loaded with essential field repair tools.
+  name: ent-RMCToolDropPouchFilled
+  description: ent-RMCToolDropPouchFilled-desc
   components:
   - type: Storage
     grid:
@@ -1074,9 +1074,9 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingSurgicalRCM
-  name: MOLS medical carry harness
-  suffix: Royal
-  description: The L1 pattern Modular Operational Load-Bearing System designates the standard issue set of lightweight load-carrying equipment for the RCM. This configuration features a harness and webbing capable of fitting a wide variety of surgical equipment.
+  name: ent-RMCWebbingSurgicalRCM
+  suffix: ent-RMCWebbingSurgicalRCM-suffix
+  description: ent-RMCWebbingSurgicalRCM-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_surgical_blue.rsi
@@ -1111,7 +1111,7 @@
 - type: entity
   parent: RMCWebbingSurgicalRCM
   id: RMCWebbingSurgicalRCMFilled
-  suffix: Filled, Royal
+  suffix: ent-RMCWebbingSurgicalRCMFilled-suffix
   components:
   - type: StorageFill
     contents:
@@ -1132,7 +1132,7 @@
 - type: entity
   parent: CMWebbing
   id: RMCWebbingSPPCommandFilled
-  suffix: Filled
+  suffix: ent-RMCWebbingSPPCommandFilled-suffix
   components:
   - type: StorageFill
     contents:

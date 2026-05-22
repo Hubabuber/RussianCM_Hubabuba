@@ -4,3 +4,6 @@ ent-CMMagazineSMGMP5 = магазин MP5 (9мм)
   .desc = Магазин 9мм для MP5.
 ent-WeaponSMGMP5 = пистолет-пулемёт MP5
   .desc = Немецкая разработка, один из самых широко используемых пистолетов-пулемётов в мире. Это оружие всё ещё можно найти у коллекционеров или фанатов оружия.
+
+ent-CMBullet9mmSMG = BaseBullet
+    .desc = If you can see this you're probably dead!

@@ -1,7 +1,7 @@
 - type: entity
   id: RMCTelecomBusMainframe
-  name: Bus Mainframe
-  description: A mighty piece of hardware used to send massive amounts of data quickly.
+  name: ent-RMCTelecomBusMainframe
+  description: ent-RMCTelecomBusMainframe-desc
   placement:
     mode: SnapgridCenter
   components: #has no collission in 13 they have invisible walls behind it
@@ -46,8 +46,8 @@
 - type: entity
   id: RMCTelecomReceiver
   parent: RMCTelecomBusMainframe
-  name: Subspace Receiver
-  description: This machine has a dish-like shape and green lights. It is designed to detect and process subspace radio activity.
+  name: ent-RMCTelecomReceiver
+  description: ent-RMCTelecomReceiver-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -72,7 +72,7 @@
 - type: entity
   id: RMCTelecomBroadcasterDD
   parent: RMCTelecomBroadcaster
-  suffix: DrawDepth
+  suffix: ent-RMCTelecomBroadcasterDD-suffix
   components:
   - type: Sprite
     drawdepth: "1"
@@ -93,7 +93,7 @@
 - type: entity
   id: RMCTelecomRelayDD
   parent: RMCTelecomRelay
-  suffix: DrawDepth
+  suffix: ent-RMCTelecomRelayDD-suffix
   components:
   - type: Sprite
     drawdepth: "1"
@@ -122,8 +122,8 @@
 - type: entity
   id: RMCTelecomHub
   parent: RMCTelecomBusMainframe
-  name: Telecommunication Hub
-  description: A mighty piece of hardware used to send/receive massive amounts of data.
+  name: ent-RMCTelecomHub
+  description: ent-RMCTelecomHub-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -135,8 +135,8 @@
 - type: entity
   id: RMCTelecomOSServerBox
   parent: RMCTelecomBusMainframe
-  name: We-Ya OS server box
-  description: We-Ya OS is a proprietary operating system used by the Company to run most all of their servers, banking, and management systems. A code leak in 2144 led some amateur hackers to believe that We-Ya OS is loosely based on the 2017 release of TempleOS. But the Company has refuted these claims.
+  name: ent-RMCTelecomOSServerBox
+  description: ent-RMCTelecomOSServerBox-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -148,8 +148,8 @@
 - type: entity
   id: RMCTelecomBlackBox
   parent: RMCTelecomBusMainframe
-  name: Blackbox Recorder
-  description: The blackbox recorder is a device used to record data from the ship's systems. It is designed to be tamper-proof and can withstand extreme conditions. #custom
+  name: ent-RMCTelecomBlackBox
+  description: ent-RMCTelecomBlackBox-desc #custom
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -172,7 +172,7 @@
 - type: entity
   id: RMCTelecomBlackBoxDD
   parent: RMCTelecomBlackBox
-  suffix: DrawDepth
+  suffix: ent-RMCTelecomBlackBoxDD-suffix
   components:
   - type: Sprite
     drawdepth: "1"
@@ -180,8 +180,8 @@
 - type: entity
   id: RMCTelecomSensorComputer
   parent: RMCTelecomBusMainframe
-  name: sensor computer
-  description: The IBM series 10 computer retrofitted to work as a sensor computer for the ship. While somewhat dated it still serves its purpose.
+  name: ent-RMCTelecomSensorComputer
+  description: ent-RMCTelecomSensorComputer-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
@@ -206,8 +206,8 @@
 - type: entity
   id: RMCTelecomSensorComputer2
   parent: RMCTelecomBusMainframe
-  name: sensor computer
-  description: The IBM series 10 computer retrofitted to work as a sensor computer for the ship. While somewhat dated it still serves its purpose.
+  name: ent-RMCTelecomSensorComputer2
+  description: ent-RMCTelecomSensorComputer2-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
@@ -232,8 +232,8 @@
 - type: entity
   id: RMCTelecomSensorComputer3
   parent: RMCTelecomBusMainframe
-  name: sensor computer
-  description: The IBM series 10 computer retrofitted to work as a sensor computer for the ship. While somewhat dated it still serves its purpose.
+  name: ent-RMCTelecomSensorComputer3
+  description: ent-RMCTelecomSensorComputer3-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
@@ -258,8 +258,8 @@
 - type: entity
   id: RMCTelecomMappingComputer
   parent: RMCTelecomBusMainframe
-  name: CMPS II computer
-  description: The Common Mapping Production System version II allows for sensory input from satellites and ship systems to derive planetary maps in a standardized fashion for all UNMC pilots.
+  name: ent-RMCTelecomMappingComputer
+  description: ent-RMCTelecomMappingComputer-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -282,8 +282,8 @@
 - type: entity
   id: RMCTelecomMissionPlanningSystem
   parent: RMCTelecomBusMainframe
-  name: MPS IV computer
-  description: The Mission Planning System IV (MPS IV), an enhancement in mission planning and charting for dropship pilots across the UNMC. Fully capable of customizing their flight paths and loadouts to suit their combat needs.
+  name: ent-RMCTelecomMissionPlanningSystem
+  description: ent-RMCTelecomMissionPlanningSystem-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
@@ -308,8 +308,8 @@
 - type: entity
   id: RMCTelecomServerRack
   parent: RMCTelecomBusMainframe
-  name: server rack
-  description: The server rack is a piece of hardware used to house servers and other computer equipment. It is designed to be modular and can be easily expanded or reconfigured. #custom
+  name: ent-RMCTelecomServerRack
+  description: ent-RMCTelecomServerRack-desc #custom
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -334,8 +334,8 @@
 - type: entity
   id: RMCBlackMappingComputer
   parent: RMCTelecomSensorComputer
-  name: computer
-  description: ""
+  name: ent-RMCBlackMappingComputer
+  description: "ent-RMCBlackMappingComputer-desc"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/hybrisa_computer_props.rsi

@@ -1,10 +1,10 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorGoon
   id: RMCSurvivorHybrisaCorporateSecurity
   name: rmc-job-name-pmc-corporate-goon
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaCorporateSecurity
-  spawnMenuRoleName: We-Ya Goon (Hybrisa Survivor)
+  spawnMenuRoleName: job-rmcsurvivorhybrisacorporatesecurity-spawnmenurolename
   hasIcon: true
   special:
   - !type:AddComponentSpecial
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCSurvivorPresetHybrisaCorporateSecurity
-  name: hybrisa corporate security colonist preset
+  name: ent-RMCSurvivorPresetHybrisaCorporateSecurity
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

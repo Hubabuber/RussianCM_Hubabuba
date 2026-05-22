@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianDeliveryPizzaBoy
-  name: Pizza Delivery Boy
-  description: You are a Pizza Galaxy deliveryman sent with an assortment of refreshing beverages and a choice of pizza to sell to anyone you may encounter.
+  name: job-au14jobciviliandeliverypizzaboy-name
+  description: job-au14jobciviliandeliverypizzaboy-desc
   setPreference: true
   playTimeTracker: AU14JobCivilianDeliveryPizzaBoy
   ranks:
@@ -35,7 +35,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobPizzaDeliveryBoy
-  name: Pizza Delivery Boy
+  name: ent-AU14JobPizzaDeliveryBoy
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -84,7 +84,7 @@
 - type: entity
   parent: AU14SlingSatchelBlue
   id: AU14SlingSatchelBlueFilledPizza
-  suffix: Pizza Boy, Filled
+  suffix: ent-AU14SlingSatchelBlueFilledPizza-suffix
   components:
   - type: StorageFill
     contents:

@@ -1,8 +1,8 @@
 - type: entity
   id: CrateEngineeringGear
   parent: CrateEngineering
-  name: engineering gear crate
-  description: Various engineering gear parts.
+  name: ent-CrateEngineeringGear
+  description: ent-CrateEngineeringGear-desc
   components:
   - type: StorageFill
     contents:
@@ -22,8 +22,8 @@
 - type: entity
   id: CrateEngineeringToolbox
   parent: CrateEngineering
-  name: toolbox crate
-  description: Two mechanical and two electrical toolboxes.
+  name: ent-CrateEngineeringToolbox
+  description: ent-CrateEngineeringToolbox-desc
   components:
   - type: StorageFill
     contents:
@@ -46,8 +46,8 @@
 - type: entity
   id: CrateEngineeringCableLV
   parent: CrateElectrical
-  name: LV cable crate
-  description: 3 coils of LV cables.
+  name: ent-CrateEngineeringCableLV
+  description: ent-CrateEngineeringCableLV-desc
   components:
   - type: StorageFill
     contents:
@@ -57,8 +57,8 @@
 - type: entity
   id: CrateEngineeringCableMV
   parent: CrateElectrical
-  name: MV cable crate
-  description: 3 coils of MV cables.
+  name: ent-CrateEngineeringCableMV
+  description: ent-CrateEngineeringCableMV-desc
   components:
   - type: StorageFill
     contents:
@@ -68,8 +68,8 @@
 - type: entity
   id: CrateEngineeringCableHV
   parent: CrateElectrical
-  name: HV cable crate
-  description: 3 coils of HV cables.
+  name: ent-CrateEngineeringCableHV
+  description: ent-CrateEngineeringCableHV-desc
   components:
   - type: StorageFill
     contents:
@@ -79,8 +79,8 @@
 - type: entity
   id: CrateEngineeringFoamGrenade
   parent: CrateEngineeringSecure
-  name: sealant grenade crate
-  description: 5 metal foam sealant grenades.
+  name: ent-CrateEngineeringFoamGrenade
+  description: ent-CrateEngineeringFoamGrenade-desc
   components:
   - type: StorageFill
     contents:
@@ -90,8 +90,8 @@
 - type: entity
   id: CrateEngineeringCableBulk
   parent: CrateElectrical
-  name: bulk cable crate
-  description: 2 coils each for every cable type.
+  name: ent-CrateEngineeringCableBulk
+  description: ent-CrateEngineeringCableBulk-desc
   components:
   - type: StorageFill
     contents:
@@ -105,8 +105,8 @@
 - type: entity
   id: CrateEngineeringElectricalSupplies
   parent: CrateElectrical
-  name: electrical supplies crate
-  description: NT is not responsible for any workplace infighting relating to the insulated gloves included within these crates.
+  name: ent-CrateEngineeringElectricalSupplies
+  description: ent-CrateEngineeringElectricalSupplies-desc
   components:
   - type: StorageFill
     contents:
@@ -118,8 +118,8 @@
 - type: entity
   id: CrateEngineeringStationBeaconBundle
   parent: CratePlastic
-  name: station beacon bundle
-  description: A crate containing 5 station beacon assemblies for modifying the station map.
+  name: ent-CrateEngineeringStationBeaconBundle
+  description: ent-CrateEngineeringStationBeaconBundle-desc
   components:
   - type: StorageFill
     contents:
@@ -129,8 +129,8 @@
 - type: entity
   id: CrateEngineeringJetpack
   parent: CrateGenericSteel
-  name: jetpack crate
-  description: Two jetpacks for those who don't know how to use fire extinguishers.
+  name: ent-CrateEngineeringJetpack
+  description: ent-CrateEngineeringJetpack-desc
   components:
   - type: StorageFill
     contents:
@@ -140,8 +140,8 @@
 - type: entity
   id: CrateEngineeringMiniJetpack
   parent: CrateGenericSteel
-  name: mini jetpack crate
-  description: Two mini jetpacks for those who want an extra challenge.
+  name: ent-CrateEngineeringMiniJetpack
+  description: ent-CrateEngineeringMiniJetpack-desc
   components:
   - type: StorageFill
     contents:
@@ -151,8 +151,8 @@
 - type: entity
   id: CrateAirlockKit
   parent: CrateEngineering
-  name: airlock kit
-  description: A kit for building 6 airlocks, doesn't include tools.
+  name: ent-CrateAirlockKit
+  description: ent-CrateAirlockKit-desc
   components:
   - type: StorageFill
     contents:
@@ -164,8 +164,8 @@
 - type: entity
   id: CrateEvaKit
   parent: CrateCommandSecure
-  name: EVA kit
-  description: A set consisting of two prestigious EVA suits and helmets.
+  name: ent-CrateEvaKit
+  description: ent-CrateEvaKit-desc
   components:
   - type: StorageFill
     contents:
@@ -177,8 +177,8 @@
 - type: entity
   id: CrateRCDAmmo
   parent: CrateEngineering
-  name: compressed matter crate
-  description: Contains three compressed matter cartridges.
+  name: ent-CrateRCDAmmo
+  description: ent-CrateRCDAmmo-desc
   components:
   - type: StorageFill
     contents:
@@ -188,8 +188,8 @@
 - type: entity
   id: CrateRCD
   parent: CrateEngineeringSecure
-  name: RCD crate
-  description: A crate containing a single rapid construction device.
+  name: ent-CrateRCD
+  description: ent-CrateRCD-desc
   components:
   - type: StorageFill
     contents:
@@ -198,8 +198,8 @@
 - type: entity
   id: CrateParticleDecelerators
   parent: CrateEngineeringSecure
-  name: particle decelerators crate
-  description: A crate containing 3 Particle Decelerators.
+  name: ent-CrateParticleDecelerators
+  description: ent-CrateParticleDecelerators-desc
   components:
   - type: StorageFill
     contents:
@@ -209,8 +209,8 @@
 - type: entity
   id: CrateEngineeringSpaceHeater
   parent: CrateEngineering
-  name: space heater crate
-  description: Contains a space heater for climate control.
+  name: ent-CrateEngineeringSpaceHeater
+  description: ent-CrateEngineeringSpaceHeater-desc
   components:
   - type: StorageFill
     contents:
@@ -236,8 +236,8 @@
 - type: entity
   id: CrateTechBoardRandom
   parent: CrateEngineering
-  name: surplus boards
-  description: Surplus boards from somewhere.
+  name: ent-CrateTechBoardRandom
+  description: ent-CrateTechBoardRandom-desc
   components:
   - type: EntityTableContainerFill
     containers:
@@ -249,8 +249,8 @@
 - type: entity
   id: CrateAirGrenade
   parent: CrateEngineering
-  name: air grenade crate
-  description: A crate containing 3 air grenades.
+  name: ent-CrateAirGrenade
+  description: ent-CrateAirGrenade-desc
   components:
   - type: StorageFill
     contents:

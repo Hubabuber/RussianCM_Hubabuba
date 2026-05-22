@@ -2,8 +2,8 @@
 - type: entity
   parent: [ BaseSimpleMob, MobCombat, MobRobotic ]
   id: MobHivebot
-  name: hivebot
-  description: Agitating, mechanized pests.
+  name: ent-MobHivebot
+  description: ent-MobHivebot-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -73,9 +73,9 @@
 - type: entity
   parent: MobHivebot
   id: MobHivebotRanged
-  name: hivebot
-  suffix: Ranged
-  description: Agitating, mechanized pests. This one has a gun.
+  name: ent-MobHivebotRanged
+  suffix: ent-MobHivebotRanged-suffix
+  description: ent-MobHivebotRanged-desc
   components:
   - type: Sprite
     layers:
@@ -104,8 +104,8 @@
 - type: entity
   parent: MobHivebotRanged
   id: MobHivebotStrong
-  name: strong hivebot
-  description: Agitating, mechanized pests. This one looks much stronger then normal.
+  name: ent-MobHivebotStrong
+  description: ent-MobHivebotStrong-desc
   components:
   - type: Sprite
     layers:

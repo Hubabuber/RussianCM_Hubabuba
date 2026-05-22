@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   id: BlastDoor
   parent: BaseShutter
-  name: blast door
-  description: This one says 'BLAST DONGER'.
+  name: ent-BlastDoor
+  description: ent-BlastDoor-desc
   components:
   - type: AccessReader
     containerAccessProvider: board
@@ -54,7 +54,7 @@
 - type: entity
   id: BlastDoorOpen
   parent: BlastDoor
-  suffix: Open
+  suffix: ent-BlastDoorOpen-suffix
   components:
   - type: Door
     state: Open
@@ -70,8 +70,8 @@
 - type: entity
   id: BlastDoorFrame
   parent: BaseStructureDynamic
-  name: blast door frame
-  description: This one says 'BLAST DONGER'.
+  name: ent-BlastDoorFrame
+  description: ent-BlastDoorFrame-desc
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/blastdoor.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: BlastDoor
   id: BlastDoorXeno
-  name: xeno blast door
-  description: Don't lose an arm!
+  name: ent-BlastDoorXeno
+  description: ent-BlastDoorXeno-desc
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/xeno_blastdoor.rsi
@@ -139,7 +139,7 @@
 - type: entity
   parent: BlastDoorXeno
   id: BlastDoorXenoOpen
-  suffix: Open
+  suffix: ent-BlastDoorXenoOpen-suffix
   components:
   - type: Door
     state: Open
@@ -155,8 +155,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: BlastDoorXenoFrame
-  name: xeno blast door frame
-  description: This one says 'BLAST DONGER'.
+  name: ent-BlastDoorXenoFrame
+  description: ent-BlastDoorXenoFrame-desc
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/xeno_blastdoor.rsi

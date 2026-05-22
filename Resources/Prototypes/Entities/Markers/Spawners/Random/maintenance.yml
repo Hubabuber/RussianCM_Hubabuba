@@ -176,8 +176,8 @@
       - id: GoldenPersonalAI
 
 - type: entity
-  name: Maint Loot Spawner
-  suffix: Fluff+Clothes
+  name: ent-MaintenanceFluffSpawner
+  suffix: ent-MaintenanceFluffSpawner-suffix
   id: MaintenanceFluffSpawner
   parent: MarkerBase
   components:
@@ -304,8 +304,8 @@
         weight: 0.05
 
 - type: entity
-  name: Maint Loot Spawner
-  suffix: Tools+Cells+Mats
+  name: ent-MaintenanceToolSpawner
+  suffix: ent-MaintenanceToolSpawner-suffix
   id: MaintenanceToolSpawner
   parent: MarkerBase
   components:
@@ -362,8 +362,8 @@
       - id: ClothingHandsKnuckleDusters
 
 - type: entity
-  name: Maint Loot Spawner
-  suffix: Scrap+Weapons
+  name: ent-MaintenanceWeaponSpawner
+  suffix: ent-MaintenanceWeaponSpawner-suffix
   id: MaintenanceWeaponSpawner
   parent: MarkerBase
   components:
@@ -378,8 +378,8 @@
       prob: 0.6
 
 - type: entity
-  name: Maint Loot Spawner
-  suffix: Plants
+  name: ent-MaintenancePlantSpawner
+  suffix: ent-MaintenancePlantSpawner-suffix
   id: MaintenancePlantSpawner
   parent: MarkerBase
   components:
@@ -409,9 +409,9 @@
       weight: 1
 
 - type: entity
-  name: Maint Loot Spawner
+  name: ent-MaintenanceInsulsSpawner
   id: MaintenanceInsulsSpawner
-  suffix: Insuls, safe
+  suffix: ent-MaintenanceInsulsSpawner-suffix
   parent: MarkerBase
   components:
   - type: Sprite

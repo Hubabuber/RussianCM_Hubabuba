@@ -16,7 +16,7 @@
   requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
-  spawnMenuRoleName: Phycisian (3rd party)
+  spawnMenuRoleName: job-au14jobreturningdoctor-spawnmenurolename
   accessGroups:
   - Colonist
   - aumed
@@ -47,7 +47,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobReturningDoctor
-  name: Returning Colonist (doctor)
+  name: ent-AU14JobReturningDoctor
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -65,7 +65,7 @@
 
 - type: entity
   id: AU14ReturningDoctorPreset
-  name: returning doctor preset
+  name: ent-AU14ReturningDoctorPreset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

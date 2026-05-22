@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: BaseStorageItem
-  name: vial storage box
-  description: A place to store your fragile vials when you are not using them.
+  name: ent-RMCVialBox
+  description: ent-RMCVialBox-desc
   id: RMCVialBox
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 
 - type: entity
   parent: RMCVialBox
-  suffix: Full
+  suffix: ent-RMCVialBoxFull-suffix
   id: RMCVialBoxFull
   components:
   - type: StorageFill

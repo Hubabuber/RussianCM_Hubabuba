@@ -1,11 +1,11 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorMiner
   id: CMSurvivorChancesMiner
   name: rmc-job-name-colonist-chances-miner
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorChancesMiner
   startingGear: RMCGearSurvivorChancesMiner
-  spawnMenuRoleName: Mining Surveyor (Chances Colonist)
+  spawnMenuRoleName: job-cmsurvivorchancesminer-spawnmenurolename
   greeting: rmc-job-greeting-chances-colonist
   special:
   - !type:AddComponentSpecial
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesMiner
-  name: chances miner spawn point
+  name: ent-RMCSpawnPointSurvivorChancesMiner
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -62,7 +62,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesMiner
-  name: chances mining surveyor ghost role
+  name: ent-RMCRandomHumanoidSurvivorChancesMiner
   components:
   - type: Sprite
     layers:

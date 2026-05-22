@@ -8,7 +8,7 @@
   - !type:RoleTimeRequirement
     role: CMJobSmartGunOperator
     time: 3600 # 1 hour
-  spawnMenuRoleName: FORECON Smart Gun Operator (Survivor)
+  spawnMenuRoleName: job-rmcsurvivorforeconsmartgunoperator-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconSmartGunOperator
-  name: forecon smart gun operator spawn point
+  name: ent-CMSpawnPointForeconSmartGunOperator
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconSmartgunOperator

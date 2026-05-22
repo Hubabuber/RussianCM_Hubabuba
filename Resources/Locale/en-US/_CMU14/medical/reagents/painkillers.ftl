@@ -1,0 +1,9 @@
+reagent-cmuoxycodone-desc = reagent-desc-cmu-oxycodone
+reagent-cmuoxycodone-name = reagent-name-cmu-oxycodone
+reagent-cmuoxycodone-physicaldesc = reagent-physical-desc-oily
+reagent-cmuparacetamol-desc = reagent-desc-cmu-paracetamol
+reagent-cmuparacetamol-name = reagent-name-cmu-paracetamol
+reagent-cmuparacetamol-physicaldesc = reagent-physical-desc-fizzy
+reagent-cmutramadol-desc = reagent-desc-cmu-tramadol
+reagent-cmutramadol-name = reagent-name-cmu-tramadol
+reagent-cmutramadol-physicaldesc = reagent-physical-desc-acrid

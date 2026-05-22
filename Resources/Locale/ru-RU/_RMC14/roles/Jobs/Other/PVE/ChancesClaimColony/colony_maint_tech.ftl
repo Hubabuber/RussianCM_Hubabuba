@@ -3,3 +3,6 @@ ent-RMCSpawnPointSurvivorChancesColonyMaintTech = Точка спавна тех
 
 ent-RMCRandomHumanoidSurvivorChancesColonyMaintTech = Роль призрака: техник по обслуживанию колонии
 
+job-cmsurvivorchancescolonymainttech-desc = cm-описание-работы-выживший
+job-cmsurvivorchancescolonymainttech-name = RMC-название-работы-колонист-колония-обслуживание-технология
+job-cmsurvivorchancescolonymainttech-spawnmenurolename = Техник по обслуживанию колонии (Колонист Шанса)

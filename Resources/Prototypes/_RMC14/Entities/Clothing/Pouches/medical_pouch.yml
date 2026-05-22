@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMedical
-  name: medical pouch
-  description: It can carry small medical supplies.
+  name: ent-RMCPouchMedical
+  description: ent-RMCPouchMedical-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medical.rsi
@@ -39,7 +39,7 @@
 - type: entity
   parent: RMCPouchMedical
   id: RMCPouchMedicalFill
-  suffix: Filled
+  suffix: ent-RMCPouchMedicalFill-suffix
   components:
   - type: StorageFill
     contents:
@@ -51,7 +51,7 @@
 - type: entity
   parent: RMCPouchMedical
   id: RMCPouchMedicalPills
-  suffix: Pills
+  suffix: ent-RMCPouchMedicalPills-suffix
   components:
   - type: StorageFill
     contents:
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCPouchMedical
   id: RMCPouchMedicalERT
-  suffix: ERT
+  suffix: ent-RMCPouchMedicalERT-suffix
   components:
   - type: StorageFill
     contents:

@@ -69,8 +69,8 @@
   abstract: true
   id: BaseSubstation
   parent: [ CoreSubstation, BaseMachine, ConstructibleMachine ]
-  name: substation
-  description: Reduces the voltage of electricity put into it.
+  name: ent-BaseSubstation
+  description: ent-BaseSubstation-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -148,8 +148,8 @@
   id: BaseSubstationWall
   parent: CoreSubstation
   categories: [ HideSpawnMenu ]
-  name: wallmount substation
-  description: A substation designed for compact shuttles and spaces.
+  name: ent-BaseSubstationWall
+  description: ent-BaseSubstationWall-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -222,7 +222,7 @@
 - type: entity
   parent: BaseSubstation
   id: SubstationBasic
-  suffix: Basic, 2.5MJ
+  suffix: ent-SubstationBasic-suffix
   components:
   - type: Battery
     maxCharge: 2500000
@@ -231,7 +231,7 @@
 - type: entity
   parent: SubstationBasic
   id: SubstationBasicEmpty
-  suffix: Empty
+  suffix: ent-SubstationBasicEmpty-suffix
   components:
   - type: Battery
     startingCharge: 0
@@ -239,7 +239,7 @@
 - type: entity
   parent: BaseSubstationWall
   id: SubstationWallBasic
-  suffix: Basic, 2MJ
+  suffix: ent-SubstationWallBasic-suffix
   components:
   - type: Battery
     maxCharge: 2000000
@@ -259,8 +259,8 @@
 - type: entity
   id: BaseSubstationWallFrame
   categories: [ HideSpawnMenu ]
-  name: wallmount substation frame
-  description: A substation frame for construction.
+  name: ent-BaseSubstationWallFrame
+  description: ent-BaseSubstationWallFrame-desc
   placement:
     mode: SnapgridCenter
   components:

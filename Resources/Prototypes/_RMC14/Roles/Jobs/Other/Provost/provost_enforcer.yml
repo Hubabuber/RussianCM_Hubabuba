@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: CMProvostEnforcer
   whitelisted: true
@@ -13,7 +13,7 @@
   joinNotifyCrew: false
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: Provost Enforcer
+  spawnMenuRoleName: job-cmprovostenforcer-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -31,8 +31,8 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostEnforcer
-  name: provost ghost role enforcer
-  suffix: Spawner, Player, Friendly
+  name: ent-RMCRandomHumanoidProvostEnforcer
+  suffix: ent-RMCRandomHumanoidProvostEnforcer-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

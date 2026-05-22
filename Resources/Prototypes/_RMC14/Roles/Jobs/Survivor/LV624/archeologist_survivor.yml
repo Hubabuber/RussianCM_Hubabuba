@@ -4,7 +4,7 @@
   name: rmc-job-name-survivor-lv624-archeologist
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorLV624Archeologist
-  spawnMenuRoleName: Archeologist (LV624 Survivor)
+  spawnMenuRoleName: job-cmsurvivorlv624archeologist-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624Archeologist
-  name: survivor lv624 archeologist spawn point
+  name: ent-RMCSpawnPointSurvivorLV624Archeologist
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -57,4 +57,4 @@
 - type: entity
   parent: RMCSurvivorPresetScientist
   id: RMCGearSurvivorPresetLV624Archeologist
-  name: lv624 archeologist colonist preset # TODO RMC14 random research notes
+  name: ent-RMCGearSurvivorPresetLV624Archeologist # TODO RMC14 random research notes

@@ -51,3 +51,11 @@ ent-CMAirlockMaintLiaisonLocked = люк для обслуживания
 
 ent-CMAirlockHC = Высшая командная дверь
 
+ent-AUAirlockPrisonStaffLocked = Дверь для персонала
+    .suffix = Связь, Заблокировано
+
+ent-CMAirlockKitchenLocked = шлюзовая камера
+    .suffix = Кухня, Заперто
+
+ent-CMAirlockPressLocked = шлюзовая камера
+    .suffix = Нажмите, Заблокировано

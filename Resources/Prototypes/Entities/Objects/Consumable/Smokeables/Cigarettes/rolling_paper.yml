@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
-  name: pack of rolling paper
+  name: ent-PackPaperRolling
   id: PackPaperRolling
-  description: A pack of thin pieces of paper used to make fine smokeables.
+  description: ent-PackPaperRolling-desc
   components:
   - type: Storage
     grid:
@@ -23,9 +23,9 @@
 
 - type: entity
   parent: PackPaperRolling
-  name: pack of rolling paper with filters
+  name: ent-PackPaperRollingFilters
   id: PackPaperRollingFilters
-  description: A pack of filters and thin pieces of paper used to make fine smokeables.
+  description: ent-PackPaperRollingFilters-desc
   components:
   - type: Storage
     whitelist:
@@ -41,9 +41,9 @@
 
 - type: entity
   id: PaperRolling
-  name: rolling paper
-  description: A thin piece of paper used to make fine smokeables.
-  suffix: Full
+  name: ent-PaperRolling
+  description: ent-PaperRolling-desc
+  suffix: ent-PaperRolling-suffix
   parent: BaseItem
   components:
   - type: Stack
@@ -63,7 +63,7 @@
 
 - type: entity
   id: PaperRolling1
-  suffix: Single
+  suffix: ent-PaperRolling1-suffix
   parent: PaperRolling
   components:
     - type: Stack
@@ -71,9 +71,9 @@
 
 - type: entity
   id: CigaretteFilter
-  name: cigarette filter
-  description: A strip of firm paper used as a filter for handmade cigarettes.
-  suffix: Full
+  name: ent-CigaretteFilter
+  description: ent-CigaretteFilter-desc
+  suffix: ent-CigaretteFilter-suffix
   parent: BaseItem
   components:
   - type: Stack
@@ -92,7 +92,7 @@
 
 - type: entity
   id: CigaretteFilter1
-  suffix: Single
+  suffix: ent-CigaretteFilter1-suffix
   parent: CigaretteFilter
   components:
     - type: Stack

@@ -13,3 +13,5 @@ ent-RMCSheetCardboard10 = картон
 ent-RMCSheetCardboard1 = картон
   .desc = Лист материала, часто используемый на станции в различных целях.
 
+material-rmcsheetcardboard-name = материалы-картон
+stack-rmcsheetcardboard-name = материалы-картон

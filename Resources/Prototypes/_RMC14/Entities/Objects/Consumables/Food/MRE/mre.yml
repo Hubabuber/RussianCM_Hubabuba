@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMMRE
-  name: UNMC MRE
-  description: A Meal, Ready-to-Eat. A single-meal combat ration designed to provide a soldier with enough nutrients for a day of strenuous work. Its expiration date is at least 20 years ahead of your combat life expectancy.
+  name: ent-CMMRE
+  description: ent-CMMRE-desc
   components:
   - type: Tag
     tags:
@@ -99,8 +99,8 @@
   abstract: true
   parent: BaseItem
   id: CMMREComponentBase
-  name: MRE component
-  description: A package from a Meal Ready-to-Eat, property of the Marines. Contains a part of a meal, prepared for field consumption.
+  name: ent-CMMREComponentBase
+  description: ent-CMMREComponentBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_components.rsi
@@ -115,7 +115,7 @@
   abstract: true
   parent: CMFoodBase
   id: CMMREFoodBase
-  description: The contents of a Marine Standard issue MRE.
+  description: ent-CMMREFoodBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_contents.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCBoxMagazineSupplySmallBase
   id: RMCBoxMREEmpty
-  name: box of MREs (x12)
-  description: A box of MREs. Nutritious, but not delicious.
+  name: ent-RMCBoxMREEmpty
+  description: ent-RMCBoxMREEmpty-desc
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCBoxMREEmpty
   id: RMCBoxMRE
-  suffix: Filled, UN
+  suffix: ent-RMCBoxMRE-suffix
   components:
   - type: CMItemSlots
     startingItem: CMMRE
@@ -179,8 +179,8 @@
 - type: entity
   parent: CMMRE
   id: RMCMREWeYa
-  name: We-Ya brand ration pack
-  description: "A more or less cohesive ration, intended for colonist and corporate security, packed with a medium quality foods with a long shelf life. On the box is the Weston-Yamada logo, with a slogan surrounding it: WESTON-YAMADA. FEEDING THE FUTURE."
+  name: ent-RMCMREWeYa
+  description: "ent-RMCMREWeYa-desc"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_weya.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: BaseItem
   id: RMCMRECLF
-  name: wrapped makeshift meal
-  description: Some home cooked or salvaged meal, you do what you must within your capabilities.
+  name: ent-RMCMRECLF
+  description: ent-RMCMRECLF-desc
   components:
   - type: Tag
     tags:
@@ -278,8 +278,8 @@
 - type: entity
   parent: BaseItem
   id: RMCSurvivalRationSPP
-  name: SPP survival ration
-  description: A small compressed package containing a single portion of food you cannot distinguish.
+  name: ent-RMCSurvivalRationSPP
+  description: ent-RMCSurvivalRationSPP-desc
   components:
   - type: RMCLoreExaminable
     content: rmc-lore-examinable-spp-survival-ration
@@ -308,9 +308,9 @@
 - type: entity
   parent: RMCBoxMREEmpty
   id: RMCBoxMRETSEEmpty
-  name: box of ORPs (x12)
-  suffix: TSE
-  description: A box of ORPs. Scrummy!
+  name: ent-RMCBoxMRETSEEmpty
+  suffix: ent-RMCBoxMRETSEEmpty-suffix
+  description: ent-RMCBoxMRETSEEmpty-desc
   components:
   - type: CMItemSlots
     count: 12
@@ -323,17 +323,17 @@
 - type: entity
   parent: RMCBoxMRETSEEmpty
   id: RMCBoxMRETSE
-  suffix: Filled, TSE
+  suffix: ent-RMCBoxMRETSE-suffix
   components:
   - type: CMItemSlots
     startingItem: RMCMRETSE
 
 - type: entity
   parent: RMCBoxMREEmpty
-  name: box of WEYA-brand Ration Packs (x12)
-  description: A box of Weston-Yamada Ration Packs. Often found on Company-owned colonies.
+  name: ent-RMCBoxMREWEYA
+  description: ent-RMCBoxMREWEYA-desc
   id: RMCBoxMREWEYA
-  suffix: Filled, WEYA
+  suffix: ent-RMCBoxMREWEYA-suffix
   components:
   - type: CMItemSlots
     startingItem: RMCMREWeYa

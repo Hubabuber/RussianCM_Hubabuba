@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: RMCPinpointerBase
-  name: Pinpointer
-  description: A rugged military-grade tracking device. Changes colors based on the distance from the target. Keep upright to retain accuracy.
-  suffix: RMC
+  name: ent-RMCPinpointerBase
+  description: ent-RMCPinpointerBase-desc
+  suffix: ent-RMCPinpointerBase-suffix
   abstract: true
   components:
   - type: Transform
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCPinpointerBase
   id: RMCPinpointerUniversal
-  suffix: Universal
+  suffix: ent-RMCPinpointerUniversal-suffix
   components:
   - type: Pinpointer
     updateTargetName: true
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCPinpointerBase
   id: RMCPinpointerAegisID
-  suffix: AEGIS
+  suffix: ent-RMCPinpointerAegisID-suffix
   components:
   - type: Pinpointer
     component: AegisTrackable

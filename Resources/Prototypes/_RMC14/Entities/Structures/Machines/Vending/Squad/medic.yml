@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMedicalGear
-  name: ColMarTech squad medical gear rack
-  description: An automated gear rack for hospital corpsmen.
+  name: ent-ColMarTechMedicalGear
+  description: ent-ColMarTechMedicalGear-desc
   components:
   - type: AccessReader
     access:
@@ -211,8 +211,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMedicalEquipment
-  name: ColMarTech squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment.
+  name: ent-ColMarTechMedicalEquipment
+  description: ent-ColMarTechMedicalEquipment-desc
   components:
   - type: AccessReader
     access:
@@ -330,9 +330,9 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCColMarTechMedicalEquipmentPVE
-  name: ColMarTech squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment.
-  suffix: PVE
+  name: ent-RMCColMarTechMedicalEquipmentPVE
+  description: ent-RMCColMarTechMedicalEquipmentPVE-desc
+  suffix: ent-RMCColMarTechMedicalEquipmentPVE-suffix
   components:
   - type: AccessReader
     access:
@@ -409,9 +409,9 @@
 - type: entity
   parent: RMCColMarTechMedicalEquipmentPVE
   id: RMCPMCMedicalEquipmentPVE
-  name: We-Ya squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of corporate medic standard-issue equipment.
-  suffix: PVE, PMC
+  name: ent-RMCPMCMedicalEquipmentPVE
+  description: ent-RMCPMCMedicalEquipmentPVE-desc
+  suffix: ent-RMCPMCMedicalEquipmentPVE-suffix
   components:
   - type: CMAutomatedVendor
     sections:
@@ -466,9 +466,9 @@
 - type: entity
   parent: RMCColMarTechMedicalEquipmentPVE
   id: RMCSPPMedicalEquipmentPVE
-  name: H-Tech squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of UPP corpsman standard-issue equipment.
-  suffix: PVE, SPP
+  name: ent-RMCSPPMedicalEquipmentPVE
+  description: ent-RMCSPPMedicalEquipmentPVE-desc
+  suffix: ent-RMCSPPMedicalEquipmentPVE-suffix
   components:
   - type: CMAutomatedVendor
     sections:
@@ -527,9 +527,9 @@
 - type: entity
   parent: RMCColMarTechMedicalEquipmentPVE
   id: ColMarTechMedicalChemicalPVE
-  suffix: PVE
-  name: ColMarTech squad medical chemical rack
-  description: An automated gear rack for specialized chemicals for the hospital corpsman.
+  suffix: ent-ColMarTechMedicalChemicalPVE-suffix
+  name: ent-ColMarTechMedicalChemicalPVE
+  description: ent-ColMarTechMedicalChemicalPVE-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_chemical.rsi
@@ -574,9 +574,9 @@
 - type: entity
   parent: ColMarTechMedicalChemicalPVE
   id: RMCRCMMedicalChemicalPVE
-  suffix: PVE, RCM
-  name: We-Ya section medical chemical rack
-  description: An automated gear rack for specialized chemicals for the medical assistants.
+  suffix: ent-RMCRCMMedicalChemicalPVE-suffix
+  name: ent-RMCRCMMedicalChemicalPVE
+  description: ent-RMCRCMMedicalChemicalPVE-desc
   components:
   - type: CMAutomatedVendor
     jobs:

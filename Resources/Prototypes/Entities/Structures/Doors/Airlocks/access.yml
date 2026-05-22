@@ -2,7 +2,7 @@
 - type: entity
   parent: Airlock
   id: AirlockServiceLocked
-  suffix: Service, Locked
+  suffix: ent-AirlockServiceLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -13,7 +13,7 @@
 - type: entity
   parent: AirlockServiceLocked
   id: AirlockLawyerLocked
-  suffix: Lawyer, Locked
+  suffix: ent-AirlockLawyerLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -22,7 +22,7 @@
 - type: entity
   parent: AirlockServiceLocked
   id: AirlockTheatreLocked
-  suffix: Theatre, Locked
+  suffix: ent-AirlockTheatreLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -31,7 +31,7 @@
 - type: entity
   parent: AirlockServiceLocked
   id: AirlockServiceTheatreLocked
-  suffix: Service, Theatre, Locked
+  suffix: ent-AirlockServiceTheatreLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -40,7 +40,7 @@
 - type: entity
   parent: AirlockServiceLocked
   id: AirlockChapelLocked
-  suffix: Chapel, Locked
+  suffix: ent-AirlockChapelLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -49,7 +49,7 @@
 - type: entity
   parent: AirlockServiceLocked
   id: AirlockJanitorLocked
-  suffix: Janitor, Locked
+  suffix: ent-AirlockJanitorLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -58,7 +58,7 @@
 - type: entity
   parent: AirlockServiceLocked
   id: AirlockKitchenLocked
-  suffix: Kitchen, Locked
+  suffix: ent-AirlockKitchenLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -67,7 +67,7 @@
 - type: entity
   parent: AirlockServiceLocked
   id: AirlockBarLocked
-  suffix: Bar, Locked
+  suffix: ent-AirlockBarLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -76,7 +76,7 @@
 - type: entity
   parent: AirlockServiceLocked
   id: AirlockBarKitchenLocked
-  suffix: Bar&Kitchen, Locked
+  suffix: ent-AirlockBarKitchenLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -85,7 +85,7 @@
 - type: entity
   parent: AirlockHydroponics
   id: AirlockHydroponicsLocked
-  suffix: Hydroponics, Locked
+  suffix: ent-AirlockHydroponicsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -94,7 +94,7 @@
 - type: entity
   parent: AirlockExternal
   id: AirlockExternalLocked
-  suffix: External, Locked
+  suffix: ent-AirlockExternalLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -103,7 +103,7 @@
 - type: entity
   parent: AirlockExternal
   id: AirlockExternalCargoLocked
-  suffix: External, Cargo, Locked
+  suffix: ent-AirlockExternalCargoLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -114,7 +114,7 @@
 - type: entity
   parent: AirlockExternal
   id: AirlockExternalEngineeringLocked
-  suffix: External, Engineering, Locked
+  suffix: ent-AirlockExternalEngineeringLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -125,7 +125,7 @@
 - type: entity
   parent: AirlockExternal
   id: AirlockExternalCommandLocked
-  suffix: External, Command, Locked
+  suffix: ent-AirlockExternalCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -136,7 +136,7 @@
 - type: entity
   parent: AirlockExternalGlass
   id: AirlockExternalGlassCommandLocked
-  suffix: External, Glass, Command, Locked
+  suffix: ent-AirlockExternalGlassCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -147,7 +147,7 @@
 - type: entity
   parent: AirlockExternal
   id: AirlockExternalAtmosphericsLocked
-  suffix: External, Atmospherics, Locked
+  suffix: ent-AirlockExternalAtmosphericsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -158,7 +158,7 @@
 - type: entity
   parent: AirlockExternal
   id: AirlockExternalSyndicateLocked
-  suffix: External, Syndicate, Locked
+  suffix: ent-AirlockExternalSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -169,7 +169,7 @@
 - type: entity
   parent: AirlockExternal
   id: AirlockExternalNukeopLocked
-  suffix: External, Nukeop, Locked
+  suffix: ent-AirlockExternalNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -180,7 +180,7 @@
 - type: entity
   parent: AirlockFreezer
   id: AirlockFreezerLocked
-  suffix: Kitchen, Locked
+  suffix: ent-AirlockFreezerLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -189,7 +189,7 @@
 - type: entity
   parent: AirlockFreezer
   id: AirlockFreezerKitchenHydroLocked
-  suffix: Kitchen/Hydroponics, Locked
+  suffix: ent-AirlockFreezerKitchenHydroLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -198,7 +198,7 @@
 - type: entity
   parent: AirlockFreezer
   id: AirlockFreezerHydroponicsLocked
-  suffix: Hydroponics, Locked
+  suffix: ent-AirlockFreezerHydroponicsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -207,7 +207,7 @@
 - type: entity
   parent: AirlockEngineering
   id: AirlockEngineeringLocked
-  suffix: Engineering, Locked
+  suffix: ent-AirlockEngineeringLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -216,7 +216,7 @@
 - type: entity
   parent: AirlockAtmospherics
   id: AirlockAtmosphericsLocked
-  suffix: Atmospherics, Locked
+  suffix: ent-AirlockAtmosphericsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -225,7 +225,7 @@
 - type: entity
   parent: AirlockCargo
   id: AirlockCargoLocked
-  suffix: Cargo, Locked
+  suffix: ent-AirlockCargoLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -234,7 +234,7 @@
 - type: entity
   parent: AirlockSalvage
   id: AirlockSalvageLocked
-  suffix: Salvage, Locked
+  suffix: ent-AirlockSalvageLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -243,7 +243,7 @@
 - type: entity
   parent: AirlockMining
   id: AirlockMiningLocked
-  suffix: Mining(Salvage), Locked
+  suffix: ent-AirlockMiningLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -252,7 +252,7 @@
 - type: entity
   parent: AirlockMedical
   id: AirlockMedicalLocked
-  suffix: Medical, Locked
+  suffix: ent-AirlockMedicalLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -261,7 +261,7 @@
 - type: entity
   parent: AirlockVirology
   id: AirlockVirologyLocked
-  suffix: Virology, Locked
+  suffix: ent-AirlockVirologyLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -270,7 +270,7 @@
 - type: entity
   parent: AirlockChemistry
   id: AirlockChemistryLocked
-  suffix: Chemistry, Locked
+  suffix: ent-AirlockChemistryLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: AirlockMedical
   id: AirlockMedicalMorgueLocked
-  suffix: Morgue, Locked
+  suffix: ent-AirlockMedicalMorgueLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -288,7 +288,7 @@
 - type: entity
   parent: AirlockScience
   id: AirlockScienceLocked
-  suffix: Science, Locked
+  suffix: ent-AirlockScienceLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -297,7 +297,7 @@
 - type: entity
   parent: AirlockScience
   id: AirlockMedicalScienceLocked
-  suffix: Medical/Science, Locked
+  suffix: ent-AirlockMedicalScienceLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -306,7 +306,7 @@
 - type: entity
   parent: AirlockCentralCommand
   id: AirlockCentralCommandLocked
-  suffix: Central Command, Locked
+  suffix: ent-AirlockCentralCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -315,7 +315,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockCommandLocked
-  suffix: Command, Locked
+  suffix: ent-AirlockCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -324,7 +324,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockCaptainLocked
-  suffix: Captain, Locked
+  suffix: ent-AirlockCaptainLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -333,7 +333,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockChiefMedicalOfficerLocked
-  suffix: ChiefMedicalOfficer, Locked
+  suffix: ent-AirlockChiefMedicalOfficerLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -342,7 +342,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockChiefEngineerLocked
-  suffix: ChiefEngineer, Locked
+  suffix: ent-AirlockChiefEngineerLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -351,7 +351,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockHeadOfSecurityLocked
-  suffix: HeadOfSecurity, Locked
+  suffix: ent-AirlockHeadOfSecurityLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -360,7 +360,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockResearchDirectorLocked
-  suffix: ResearchDirector, Locked
+  suffix: ent-AirlockResearchDirectorLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -369,7 +369,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockHeadOfPersonnelLocked
-  suffix: HeadOfPersonnel, Locked
+  suffix: ent-AirlockHeadOfPersonnelLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -378,7 +378,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockQuartermasterLocked
-  suffix: Quartermaster, Locked
+  suffix: ent-AirlockQuartermasterLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -387,7 +387,7 @@
 - type: entity
   parent: AirlockSecurity
   id: AirlockSecurityLocked
-  suffix: Security, Locked
+  suffix: ent-AirlockSecurityLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -396,7 +396,7 @@
 - type: entity
   parent: AirlockSecurity
   id: AirlockDetectiveLocked
-  suffix: Detective, Locked
+  suffix: ent-AirlockDetectiveLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -405,7 +405,7 @@
 - type: entity
   parent: AirlockSecurity
   id: AirlockBrigLocked
-  suffix: Brig, Locked
+  suffix: ent-AirlockBrigLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -414,7 +414,7 @@
 - type: entity
   parent: AirlockSecurity
   id: AirlockSecurityLawyerLocked
-  suffix: Security/Lawyer, Locked
+  suffix: ent-AirlockSecurityLawyerLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -423,7 +423,7 @@
 - type: entity
   parent: AirlockSecurity
   id: AirlockArmoryLocked
-  suffix: Armory, Locked
+  suffix: ent-AirlockArmoryLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -434,7 +434,7 @@
 - type: entity
   parent: AirlockSecurity
   id: AirlockVaultLocked
-  suffix: Vault, Locked
+  suffix: ent-AirlockVaultLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -443,7 +443,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockEVALocked
-  suffix: EVA, Locked
+  suffix: ent-AirlockEVALocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -453,7 +453,7 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockServiceGlassLocked
-  suffix: Service, Locked
+  suffix: ent-AirlockServiceGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -464,7 +464,7 @@
 - type: entity
   parent: AirlockServiceGlassLocked
   id: AirlockLawyerGlassLocked
-  suffix: Lawyer, Locked
+  suffix: ent-AirlockLawyerGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -473,7 +473,7 @@
 - type: entity
   parent: AirlockServiceGlassLocked
   id: AirlockTheatreGlassLocked
-  suffix: Theatre, Locked
+  suffix: ent-AirlockTheatreGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -482,7 +482,7 @@
 - type: entity
   parent: AirlockServiceGlassLocked
   id: AirlockServiceTheatreGlassLocked
-  suffix: Service, Theatre, Locked
+  suffix: ent-AirlockServiceTheatreGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -491,7 +491,7 @@
 - type: entity
   parent: AirlockServiceGlassLocked
   id: AirlockBarGlassLocked
-  suffix: Bar, Locked
+  suffix: ent-AirlockBarGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -500,7 +500,7 @@
 - type: entity
   parent: AirlockServiceGlassLocked
   id: AirlockBarKitchenGlassLocked
-  suffix: Bar&Kitchen, Locked
+  suffix: ent-AirlockBarKitchenGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -510,7 +510,7 @@
 - type: entity
   parent: AirlockExternalGlass
   id: AirlockExternalGlassLocked
-  suffix: External, Glass, Locked
+  suffix: ent-AirlockExternalGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -519,7 +519,7 @@
 - type: entity
   parent: AirlockExternalGlass
   id: AirlockExternalGlassCargoLocked
-  suffix: External, Glass, Cargo, Locked
+  suffix: ent-AirlockExternalGlassCargoLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -530,7 +530,7 @@
 - type: entity
   parent: AirlockExternalGlass
   id: AirlockExternalGlassSyndicateLocked
-  suffix: External, Glass, Syndicate, Locked
+  suffix: ent-AirlockExternalGlassSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -541,7 +541,7 @@
 - type: entity
   parent: AirlockExternalGlass
   id: AirlockExternalGlassNukeopLocked
-  suffix: External, Glass, Nukeop, Locked
+  suffix: ent-AirlockExternalGlassNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -552,7 +552,7 @@
 - type: entity
   parent: AirlockExternalGlass
   id: AirlockExternalGlassEngineeringLocked
-  suffix: External, Glass, Engineering, Locked
+  suffix: ent-AirlockExternalGlassEngineeringLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -563,7 +563,7 @@
 - type: entity
   parent: AirlockExternalGlass
   id: AirlockExternalGlassAtmosphericsLocked
-  suffix: External, Glass, Atmospherics, Locked
+  suffix: ent-AirlockExternalGlassAtmosphericsLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -574,7 +574,7 @@
 - type: entity
   parent: AirlockServiceGlassLocked
   id: AirlockKitchenGlassLocked
-  suffix: Kitchen, Locked
+  suffix: ent-AirlockKitchenGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -583,7 +583,7 @@
 - type: entity
   parent: AirlockServiceGlassLocked
   id: AirlockJanitorGlassLocked
-  suffix: Janitor, Locked
+  suffix: ent-AirlockJanitorGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -592,7 +592,7 @@
 - type: entity
   parent: AirlockHydroponicsGlass
   id: AirlockHydroGlassLocked
-  suffix: Hydroponics, Locked
+  suffix: ent-AirlockHydroGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -601,7 +601,7 @@
 - type: entity
   parent: AirlockServiceGlassLocked
   id: AirlockChapelGlassLocked
-  suffix: Chapel, Locked
+  suffix: ent-AirlockChapelGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -610,7 +610,7 @@
 - type: entity
   parent: AirlockStandardGlass
   id: AirlockChapelStandardGlassLocked
-  suffix: Chapel, Locked
+  suffix: ent-AirlockChapelStandardGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -621,7 +621,7 @@
 - type: entity
   parent: AirlockEngineeringGlass
   id: AirlockEngineeringGlassLocked
-  suffix: Engineering, Locked
+  suffix: ent-AirlockEngineeringGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -630,7 +630,7 @@
 - type: entity
   parent: AirlockAtmosphericsGlass
   id: AirlockAtmosphericsGlassLocked
-  suffix: Atmospherics, Locked
+  suffix: ent-AirlockAtmosphericsGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -639,7 +639,7 @@
 - type: entity
   parent: AirlockCargoGlass
   id: AirlockCargoGlassLocked
-  suffix: Cargo, Locked
+  suffix: ent-AirlockCargoGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -648,7 +648,7 @@
 - type: entity
   parent: AirlockSalvageGlass
   id: AirlockSalvageGlassLocked
-  suffix: Salvage, Locked
+  suffix: ent-AirlockSalvageGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -657,7 +657,7 @@
 - type: entity
   parent: AirlockMiningGlass
   id: AirlockMiningGlassLocked
-  suffix: Mining(Salvage), Locked
+  suffix: ent-AirlockMiningGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -666,7 +666,7 @@
 - type: entity
   parent: AirlockChemistryGlass
   id: AirlockChemistryGlassLocked
-  suffix: Chemistry, Locked
+  suffix: ent-AirlockChemistryGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -675,7 +675,7 @@
 - type: entity
   parent: AirlockMedicalGlass
   id: AirlockMedicalMorgueGlassLocked
-  suffix: Morgue, Locked
+  suffix: ent-AirlockMedicalMorgueGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -684,7 +684,7 @@
 - type: entity
   parent: AirlockMedicalGlass
   id: AirlockMedicalGlassLocked
-  suffix: Medical, Locked
+  suffix: ent-AirlockMedicalGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -693,7 +693,7 @@
 - type: entity
   parent: AirlockVirologyGlass
   id: AirlockVirologyGlassLocked
-  suffix: Virology, Locked
+  suffix: ent-AirlockVirologyGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -702,7 +702,7 @@
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockScienceGlassLocked
-  suffix: Science, Locked
+  suffix: ent-AirlockScienceGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -711,7 +711,7 @@
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockMedicalScienceGlassLocked
-  suffix: Medical/Science, Locked
+  suffix: ent-AirlockMedicalScienceGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -720,7 +720,7 @@
 - type: entity
   parent: AirlockCentralCommandGlass
   id: AirlockCentralCommandGlassLocked
-  suffix: Central Command, Locked
+  suffix: ent-AirlockCentralCommandGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -729,7 +729,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockCommandGlassLocked
-  suffix: Command, Locked
+  suffix: ent-AirlockCommandGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -738,7 +738,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockCaptainGlassLocked
-  suffix: Captain, Locked
+  suffix: ent-AirlockCaptainGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -747,7 +747,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockChiefMedicalOfficerGlassLocked
-  suffix: ChiefMedicalOfficer, Locked
+  suffix: ent-AirlockChiefMedicalOfficerGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -756,7 +756,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockChiefEngineerGlassLocked
-  suffix: ChiefEngineer, Locked
+  suffix: ent-AirlockChiefEngineerGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -765,7 +765,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockHeadOfSecurityGlassLocked
-  suffix: HeadOfSecurity, Locked
+  suffix: ent-AirlockHeadOfSecurityGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -774,7 +774,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockResearchDirectorGlassLocked
-  suffix: ResearchDirector, Locked
+  suffix: ent-AirlockResearchDirectorGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -783,7 +783,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockHeadOfPersonnelGlassLocked
-  suffix: HeadOfPersonnel, Locked
+  suffix: ent-AirlockHeadOfPersonnelGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -792,7 +792,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockQuartermasterGlassLocked
-  suffix: Quartermaster, Locked
+  suffix: ent-AirlockQuartermasterGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -801,7 +801,7 @@
 - type: entity
   parent: AirlockSecurityGlass
   id: AirlockSecurityGlassLocked
-  suffix: Security, Locked
+  suffix: ent-AirlockSecurityGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -810,7 +810,7 @@
 - type: entity
   parent: AirlockSecurityGlass
   id: AirlockDetectiveGlassLocked
-  suffix: Detective, Locked
+  suffix: ent-AirlockDetectiveGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -819,7 +819,7 @@
 - type: entity
   parent: AirlockSecurityGlass
   id: AirlockBrigGlassLocked
-  suffix: Brig, Locked
+  suffix: ent-AirlockBrigGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -828,7 +828,7 @@
 - type: entity
   parent: AirlockSecurityGlass
   id: AirlockSecurityLawyerGlassLocked
-  suffix: Security/Lawyer, Locked
+  suffix: ent-AirlockSecurityLawyerGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -837,7 +837,7 @@
 - type: entity
   parent: AirlockSecurityGlass
   id: AirlockArmoryGlassLocked
-  suffix: Armory, Locked
+  suffix: ent-AirlockArmoryGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -846,7 +846,7 @@
 - type: entity
   parent: AirlockCommandGlassLocked
   id: AirlockEVAGlassLocked
-  suffix: EVA, Locked
+  suffix: ent-AirlockEVAGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -855,7 +855,7 @@
 - type: entity
   parent: AirlockSyndicateGlass
   id: AirlockSyndicateGlassLocked
-  suffix: Syndicate, Locked
+  suffix: ent-AirlockSyndicateGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -864,7 +864,7 @@
 - type: entity
   parent: AirlockSyndicateGlass
   id: AirlockSyndicateNukeopGlassLocked
-  suffix: Nukeop, Locked
+  suffix: ent-AirlockSyndicateNukeopGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -874,7 +874,7 @@
 - type: entity
   parent: AirlockMaint
   id: AirlockMaintLocked
-  suffix: Locked
+  suffix: ent-AirlockMaintLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -883,7 +883,7 @@
 - type: entity
   parent: AirlockXeno
   id: AirlockXenoMaintLocked
-  suffix: Maintenance, Locked
+  suffix: ent-AirlockXenoMaintLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -892,7 +892,7 @@
 - type: entity
   parent: AirlockMaintGlass
   id: AirlockMaintGlassLocked
-  suffix: Locked
+  suffix: ent-AirlockMaintGlassLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1118,7 +1118,7 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockSyndicateLocked
-  suffix: Syndicate, Locked
+  suffix: ent-AirlockSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1127,7 +1127,7 @@
 - type: entity
   parent: AirlockSyndicate
   id: AirlockSyndicateNukeopLocked
-  suffix: Nukeop, Locked
+  suffix: ent-AirlockSyndicateNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1137,7 +1137,7 @@
 - type: entity
   parent: AirlockShuttle
   id: AirlockExternalShuttleLocked
-  suffix: External, Docking, Locked
+  suffix: ent-AirlockExternalShuttleLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1146,7 +1146,7 @@
 - type: entity
   parent: AirlockShuttleSyndicate
   id: AirlockExternalShuttleSyndicateLocked
-  suffix: External, Docking, Syndicate, Locked
+  suffix: ent-AirlockExternalShuttleSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1155,7 +1155,7 @@
 - type: entity
   parent: AirlockShuttleSyndicate
   id: AirlockExternalShuttleNukeopLocked
-  suffix: External, Docking, Nukeop, Locked
+  suffix: ent-AirlockExternalShuttleNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1164,7 +1164,7 @@
 - type: entity
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleLocked
-  suffix: External, Glass, Docking, Locked
+  suffix: ent-AirlockExternalGlassShuttleLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1173,7 +1173,7 @@
 - type: entity
   parent: AirlockGlassShuttleSyndicate
   id: AirlockExternalGlassShuttleSyndicateLocked
-  suffix: Syndicate, Locked, Glass
+  suffix: ent-AirlockExternalGlassShuttleSyndicateLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1182,7 +1182,7 @@
 - type: entity
   parent: AirlockGlassShuttleSyndicate
   id: AirlockExternalGlassShuttleNukeopLocked
-  suffix: Nukeop, Locked, Glass
+  suffix: ent-AirlockExternalGlassShuttleNukeopLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1191,7 +1191,7 @@
 - type: entity
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleEmergencyLocked
-  suffix: External, Emergency, Glass, Docking, Locked
+  suffix: ent-AirlockExternalGlassShuttleEmergencyLocked-suffix
   components:
   - type: PriorityDock
     tag: DockEmergency
@@ -1202,7 +1202,7 @@
 - type: entity
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleArrivals
-  suffix: External, Arrivals, Glass, Docking
+  suffix: ent-AirlockExternalGlassShuttleArrivals-suffix
   components:
   - type: PriorityDock
     tag: DockArrivals
@@ -1213,7 +1213,7 @@
 - type: entity
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleEscape
-  suffix: External, Escape 3x4, Glass, Docking
+  suffix: ent-AirlockExternalGlassShuttleEscape-suffix
   components:
   - type: GridFill
     addComponents:
@@ -1228,7 +1228,7 @@
 - type: entity
   parent: HighSecDoor
   id: HighSecCentralCommandLocked
-  suffix: Central Command, Locked
+  suffix: ent-HighSecCentralCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1237,7 +1237,7 @@
 - type: entity
   parent: HighSecDoor
   id: HighSecCommandLocked
-  suffix: Command, Locked
+  suffix: ent-HighSecCommandLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1246,7 +1246,7 @@
 - type: entity
   parent: HighSecDoor
   id: HighSecCaptainLocked
-  suffix: Captain, Locked
+  suffix: ent-HighSecCaptainLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1255,7 +1255,7 @@
 - type: entity
   parent: HighSecDoor
   id: HighSecArmoryLocked
-  suffix: Armory, Locked
+  suffix: ent-HighSecArmoryLocked-suffix
   components:
   - type: ContainerFill
     containers:
@@ -1266,7 +1266,7 @@
 - type: entity
   parent: AirlockHatch
   id: AirlockHatchSyndicate
-  suffix: Syndicate, Locked
+  suffix: ent-AirlockHatchSyndicate-suffix
   components:
   - type: ContainerFill
     containers:

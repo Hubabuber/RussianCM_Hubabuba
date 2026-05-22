@@ -1,8 +1,8 @@
 - type: entity
-  name: sink
+  name: ent-SinkEmpty
   id: SinkEmpty
-  suffix: Empty
-  description: The faucets have been tightened to the maximum possible torque but are still known to drip.
+  suffix: ent-SinkEmpty-suffix
+  description: ent-SinkEmpty-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -68,10 +68,10 @@
 
 
 - type: entity
-  name: sink
+  name: ent-Sink
   id: Sink
   parent: SinkEmpty
-  suffix: Water
+  suffix: ent-Sink-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -83,7 +83,7 @@
           Quantity: 500
 
 - type: entity
-  name: wide sink
+  name: ent-SinkWide
   id: SinkWide
   parent: Sink
   components:
@@ -102,7 +102,7 @@
 #Stemless Sink
 
 - type: entity
-  name: sink
+  name: ent-SinkStemless
   id: SinkStemless
   parent: SinkEmpty
   components:
@@ -115,10 +115,10 @@
         visible: false
 
 - type: entity
-  name: sink
+  name: ent-SinkStemlessWater
   id: SinkStemlessWater
   parent: SinkStemless
-  suffix: Water
+  suffix: ent-SinkStemlessWater-suffix
   components:
   - type: SolutionContainerManager
     solutions:

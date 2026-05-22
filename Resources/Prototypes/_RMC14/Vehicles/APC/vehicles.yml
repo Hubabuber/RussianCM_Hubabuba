@@ -1,8 +1,8 @@
 - type: entity
   id: VehicleAPCBase
   abstract: true
-  name: armored personnel carrier
-  description: A rugged armored personnel carrier outfitted for battlefield support.
+  name: ent-VehicleAPCBase
+  description: ent-VehicleAPCBase-desc
   components:
   - type: Vehicle
     movementKind: Grid
@@ -200,8 +200,8 @@
 - type: entity
   parent: VehicleAPCBase
   id: VehicleAPCMed
-  name: armored personnel carrier (medical)
-  description: A medical-configured APC outfitted with triage markings.
+  name: ent-VehicleAPCMed
+  description: ent-VehicleAPCMed-desc
   components:
   - type: Sprite
     layers:
@@ -241,8 +241,8 @@
 - type: entity
   parent: VehicleAPCBase
   id: VehicleAPCCommand
-  name: armored personnel carrier (command)
-  description: A command-configured APC bristling with sensors and comms gear.
+  name: ent-VehicleAPCCommand
+  description: ent-VehicleAPCCommand-desc
   components:
   - type: Sprite
     layers:
@@ -282,8 +282,8 @@
 - type: entity
   parent: VehicleAPCBase
   id: VehicleSPPAPC
-  name: SPP armored personnel carrier
-  description: An armored personnel carrier configured for SPP forces.
+  name: ent-VehicleSPPAPC
+  description: ent-VehicleSPPAPC-desc
   components:
   - type: GridVehicleMover
     maxSpeed: 5

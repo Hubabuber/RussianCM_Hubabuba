@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [BaseItem, BaseXenoArtifact]
   id: BaseXenoArtifactItem
-  name: artifact
-  description: A strange artifact from time unknown. Looks like a good time. Fits in hand perfectly.
+  name: ent-BaseXenoArtifactItem
+  description: ent-BaseXenoArtifactItem-desc
   abstract: true
   noSpawn: true
   components:
@@ -75,8 +75,8 @@
 - type: entity
   id: ArtifactFragment
   parent: BaseItem
-  name: artifact fragment
-  description: A broken piece of an artifact. You could probably repair it if you had more.
+  name: ent-ArtifactFragment
+  description: ent-ArtifactFragment-desc
   components:
   - type: Sprite
     sprite: Objects/Specific/Xenoarchaeology/artifact_fragments.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: ArtifactFragment
   id: ArtifactFragment1
-  suffix: Single
+  suffix: ent-ArtifactFragment1-suffix
   components:
   - type: Stack
     count: 1

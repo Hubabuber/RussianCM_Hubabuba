@@ -3,8 +3,8 @@
   parent: ClothingBackpack
   abstract: true
   id: CMPersonalStorageBase
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: ent-CMPersonalStorageBase
+  description: ent-CMPersonalStorageBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/standard.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: CMBackpack
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: ent-CMBackpack
+  description: ent-CMBackpack-desc
   components:
   - type: StorageOpenDoAfter
     skipInHand: true
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackEngineer
-  name: industrial backpack
-  description: It's a tough backpack lookin' backpack used by engineers and the like.
+  name: ent-CMBackpackEngineer
+  description: ent-CMBackpackEngineer-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/engineer.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMedical
-  name: medical backpack
-  description: It's a backpack especially designed for use in a sterile environment.
+  name: ent-CMBackpackMedical
+  description: ent-CMBackpackMedical-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/medical.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackSecurity
-  name: security backpack
-  description: It's a very robust backpack.
+  name: ent-CMBackpackSecurity
+  description: ent-CMBackpackSecurity-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/security.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackCommand
-  name: marine commanding officer backpack
-  description: The contents of this backpack are top secret.
+  name: ent-CMBackpackCommand
+  description: ent-CMBackpackCommand-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMarine
-  name: lightweight IMP backpack
-  description: The standard-issue pack of the USCM forces. Designed to lug gear into the battlefield.
+  name: ent-CMBackpackMarine
+  description: ent-CMBackpackMarine-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard/jungle-desert-classic.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: CMBackpackMarine
   id: CMBackpackMarineMedic
-  name: medical backpack
-  description: A standard-issue medical backpack.
+  name: ent-CMBackpackMarineMedic
+  description: ent-CMBackpackMarineMedic-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/medic/jungle-desert-classic.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMBackpackMarine
   id: CMBackpackMarineTech
-  name: technician backpack
-  description: A standard-issue backpack worn by technicians.
+  name: ent-CMBackpackMarineTech
+  description: ent-CMBackpackMarineTech-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/tech/jungle-desert-classic.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMortar
-  name: USCM mortar shell backpack
-  description: A backpack specifically designed to hold ammunition for the M402 mortar.
+  name: ent-CMBackpackMortar
+  description: ent-CMBackpackMortar-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/mortar/jungle-desert-classic.rsi
@@ -204,8 +204,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackWelder
-  name: technician welderpack
-  description: A specialized backpack worn by technicians. It carries a fueltank for quick welder refueling and use.
+  name: ent-CMBackpackWelder
+  description: ent-CMBackpackWelder-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/welder/jungle-desert-classic.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: CMBackpack
   id: RMCBackpackAmmo
-  name: IMP ammo rack
-  description: A bare IMP frame with buckles designed to hold multiple ammo cans, but can fit any cumbersome box thanks to USCM ingenuity. Helps you lug around extra rounds or supplies.
+  name: ent-RMCBackpackAmmo
+  description: ent-RMCBackpackAmmo-desc
   components:
   - type: Item
     size: Huge
@@ -291,8 +291,8 @@
 - type: entity
   parent: RMCBackpackAmmo
   id: RMCBackpackAmmoRCM
-  name: RCM carry frame
-  description: A backpack specifically designed to hold equipment for RCM commandos.
+  name: ent-RMCBackpackAmmoRCM
+  description: ent-RMCBackpackAmmoRCM-desc
   components:
   - type: Storage
     grid:
@@ -310,8 +310,8 @@
 - type: entity
   parent: CMBackpackWelder
   id: RMCBackpackWelderPMC
-  name: pmc technician welderpack
-  description: Ergonomic, protected, high capacity backpack, designed for Weyland-Yutani PMCs. Features a small fueltank for quick blowtorch refueling.
+  name: ent-RMCBackpackWelderPMC
+  description: ent-RMCBackpackWelderPMC-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/welder.rsi
@@ -326,8 +326,8 @@
 - type: entity
   parent: RMCSatchelPMC
   id: RMCSatchelPMCCommando
-  name: We-Ya Commando combat backpack
-  description: Ergonomic, protected, high capacity backpack, designed for Weston-Yamada Commandos.
+  name: ent-RMCSatchelPMCCommando
+  description: ent-RMCSatchelPMCCommando-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/commando.rsi
@@ -337,9 +337,9 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: RMCBackpackRCMSmall
-  name: lightweight RCM backpack
-  description: "A TSE military light-carry RCM combat pack MK3."
-  suffix: PVE, RCM
+  name: ent-RMCBackpackRCMSmall
+  description: "ent-RMCBackpackRCMSmall-desc"
+  suffix: ent-RMCBackpackRCMSmall-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/RCM/small.rsi
@@ -360,7 +360,7 @@
 - type: entity
   parent: RMCBackpackRCMSmall
   id: RMCBackpackRCMSmallPVP
-  suffix: PVP, RCM
+  suffix: ent-RMCBackpackRCMSmallPVP-suffix
   components:
   - type: Storage
     maxItemSize: Normal
@@ -370,9 +370,9 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: RMCBackpackRCMMedium
-  name: standard RCM backpack
-  description: "A TSE military standard-carry RCM combat pack MK3."
-  suffix: PVE, RCM
+  name: ent-RMCBackpackRCMMedium
+  description: "ent-RMCBackpackRCMMedium-desc"
+  suffix: ent-RMCBackpackRCMMedium-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/RCM/medium.rsi
@@ -395,7 +395,7 @@
 - type: entity
   parent: RMCBackpackRCMMedium
   id: RMCBackpackRCMMediumPVP
-  suffix: PVP, RCM
+  suffix: ent-RMCBackpackRCMMediumPVP-suffix
   components:
   - type: Storage
     maxItemSize: Normal
@@ -405,9 +405,9 @@
 - type: entity
   parent: CMBackpack
   id: RMCBackpackRCMLarge
-  name: heavyweight RCM backpack
-  description: "The heavy-carry pack of the RCM forces. Designed to lug the most amount of gear into the battlefield."
-  suffix: PVE, RCM
+  name: ent-RMCBackpackRCMLarge
+  description: "ent-RMCBackpackRCMLarge-desc"
+  suffix: ent-RMCBackpackRCMLarge-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/RCM/large.rsi
@@ -428,7 +428,7 @@
 - type: entity
   parent: RMCBackpackRCMLarge
   id: RMCBackpackRCMLargePVP
-  suffix: PVP, RCM
+  suffix: ent-RMCBackpackRCMLargePVP-suffix
   components:
   - type: Storage
     maxItemSize: Normal
@@ -438,9 +438,9 @@
 - type: entity
   parent: RMCSatchelWelder
   id: RMCBackpackRCMTechnician
-  name: RCM engineering backpack
-  description: "A TSE military standard-carry RCM combat pack MK3. Modified by ingenious Royal Engineers to better fit their requirements."
-  suffix: PVE, RCM
+  name: ent-RMCBackpackRCMTechnician
+  description: "ent-RMCBackpackRCMTechnician-desc"
+  suffix: ent-RMCBackpackRCMTechnician-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/RCM/tech.rsi
@@ -461,9 +461,9 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: RMCBackpackRCMMedic
-  name: RCM medical backpack
-  description: "A TSE military standard-carry RCM combat pack MK3. Modified by Medical Assistants to fit their needs better."
-  suffix: PVE, RCM
+  name: ent-RMCBackpackRCMMedic
+  description: "ent-RMCBackpackRCMMedic-desc"
+  suffix: ent-RMCBackpackRCMMedic-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/RCM/medic.rsi
@@ -484,7 +484,7 @@
 - type: entity
   parent: RMCBackpackRCMMedic
   id: RMCBackpackRCMMedicPVP
-  suffix: PVP, RCM
+  suffix: ent-RMCBackpackRCMMedicPVP-suffix
   components:
   - type: Storage
     maxItemSize: Normal
@@ -494,7 +494,7 @@
 - type: entity
   parent: RMCBackpackRCMMedicPVP 
   id: RMCBackpackRCMMedicPVPFilledParaMedic
-  suffix: Filled, Paramarine Medic
+  suffix: ent-RMCBackpackRCMMedicPVPFilledParaMedic-suffix
   components:
     - type: StorageFill
       contents:

@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: ActionXenoBase
   id: ActionXenoEvolve
-  name: Evolve
-  description: Evolve to the next caste of xenonid or choose a strain if one is available.
+  name: ent-ActionXenoEvolve
+  description: ent-ActionXenoEvolve-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -16,7 +16,7 @@
   parent: ActionXenoBase
   id: ActionXenoDevolve
   name: De-evolve
-  description: Devolve to the previous caste of xenonid. [color=red]You won't get your evolution points refunded![/color]
+  description: ent-ActionXenoDevolve-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -29,8 +29,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoEvolve
-  name: Evolve
-  description: Evolve to the next caste of xenonid or choose a strain if one is available.
+  name: ent-RMCGuidebookActionXenoEvolve
+  description: ent-RMCGuidebookActionXenoEvolve-desc
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

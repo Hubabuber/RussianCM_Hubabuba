@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: CMStaffOfficer
   whitelisted: true
@@ -91,7 +91,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointStaffOfficer
-  name: staff officer spawn point
+  name: ent-CMSpawnPointStaffOfficer
   components:
   - type: SpawnPoint
     job_id: CMStaffOfficer
@@ -105,8 +105,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSO
-  name: A Staff Officer
-  description: A Staff Officer.
+  name: ent-RMCGuidebookRoleSO
+  description: ent-RMCGuidebookRoleSO-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

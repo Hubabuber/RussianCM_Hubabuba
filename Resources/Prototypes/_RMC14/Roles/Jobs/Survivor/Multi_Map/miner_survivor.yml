@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorMiner
-  name: survivor miner spawn point
+  name: ent-RMCSpawnPointSurvivorMiner
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,13 +50,13 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCSurvivorPresetMiner
-  name: miner colonist preset
+  name: ent-RMCSurvivorPresetMiner
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorMiner
-  name: miner colonist ghost role
+  name: ent-RMCRandomHumanoidSurvivorMiner
   components:
   - type: Sprite
     layers:

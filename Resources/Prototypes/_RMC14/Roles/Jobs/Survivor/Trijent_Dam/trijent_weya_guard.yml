@@ -1,11 +1,11 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorSecurity
   id: CMSurvivorTrijentGoon
   name: rmc-job-name-pmc-corporate-goon-secguard
   startingGear: RMCGearSurvivorTrijentGoon
   hasIcon: true
   icon: RMCJobIconWeYaSec
-  spawnMenuRoleName: WeYa Security Guard (Trijent Survivor)
+  spawnMenuRoleName: job-cmsurvivortrijentgoon-spawnmenurolename
   accessGroups:
   - ColonistSec
   - ColonistCorporate
@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentGoon
-  name: survivor trijent weya secguard spawn point
+  name: ent-RMCSpawnPointSurvivorTrijentGoon
   components:
   - type: SpawnPoint
     job_id: CMSurvivorTrijentGoon

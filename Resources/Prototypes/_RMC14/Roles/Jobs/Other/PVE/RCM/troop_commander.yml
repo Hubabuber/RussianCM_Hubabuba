@@ -12,7 +12,7 @@
   supervisors: cm-job-supervisors-squadron-command
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: RCM Troop Commander (PVE)
+  spawnMenuRoleName: job-cmroyalmarinestroopcommanderpve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -79,7 +79,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVETroopCommander
-  name: RCM troop commander spawn point
+  name: ent-CMSpawnPointRCMPVETroopCommander
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesTroopCommanderPVE

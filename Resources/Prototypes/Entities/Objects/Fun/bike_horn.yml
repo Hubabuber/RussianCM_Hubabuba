@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BikeHorn
-  name: bike horn
-  description: A horn off of a bicycle.
+  name: ent-BikeHorn
+  description: ent-BikeHorn-desc
   components:
   - type: Sprite
     sprite: Objects/Fun/bikehorn.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseItem
   id: CluwneHorn
-  name: broken bike horn
-  description: A broken horn off of a bicycle.
+  name: ent-CluwneHorn
+  description: ent-CluwneHorn-desc
   components:
   - type: UseDelay
   - type: Sprite
@@ -120,9 +120,9 @@
 - type: entity
   parent: BikeHorn
   id: GoldenBikeHorn
-  name: golden honker
+  name: ent-GoldenBikeHorn
   categories: [ DoNotMap ]
-  description: A happy honk prize, pray to the gods for your reward.
+  description: ent-GoldenBikeHorn-desc
   components:
   - type: Sprite
     sprite: Objects/Fun/goldbikehorn.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: BikeHorn
   id: BananiumHorn
-  name: bananium horn
-  description: An air horn made from bananium.
+  name: ent-BananiumHorn
+  description: ent-BananiumHorn-desc
   components:
   - type: Sprite
     sprite: Objects/Fun/bananiumhorn.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: BaseItem
   id: PushHorn
-  name: push horn
-  description: This powerful bikehorn is sure to blast frowns away.
+  name: ent-PushHorn
+  description: ent-PushHorn-desc
   components:
   - type: Sprite
     sprite: Objects/Fun/push_horn.rsi

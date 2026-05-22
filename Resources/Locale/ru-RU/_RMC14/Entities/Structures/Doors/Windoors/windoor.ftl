@@ -3,3 +3,6 @@ ent-CMWindoorSecure = безопасное окно
 
 ent-CMWindoor = стеклянная дверь
 
+ent-RMCWindoorSoro = стеклянная дверь
+    .desc = Окно, оно же и дверь. Окно, если хотите.
+    .suffix = Синий

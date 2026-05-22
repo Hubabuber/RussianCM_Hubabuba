@@ -1,11 +1,11 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorEngineer
   id: CMSurvivorChancesVehicleRepairman
   name: rmc-job-name-colonist-vehicle-repairman
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorChancesVehicleRepairman
   startingGear: RMCGearSurvivorChancesVehicleRepairman
-  spawnMenuRoleName: Vehicle Repairman (Chance's Colonist)
+  spawnMenuRoleName: job-cmsurvivorchancesvehiclerepairman-spawnmenurolename
   greeting: rmc-job-greeting-chances-colonist
   special:
   - !type:AddComponentSpecial
@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesVehicleRepairman
-  name: vehicle repairman spawn point
+  name: ent-RMCSpawnPointSurvivorChancesVehicleRepairman
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -56,7 +56,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesVehicleRepairman
-  name: vehicle repairman ghost role
+  name: ent-RMCRandomHumanoidSurvivorChancesVehicleRepairman
   components:
   - type: Sprite
     layers:

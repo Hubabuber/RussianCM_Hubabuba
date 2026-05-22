@@ -3,7 +3,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryOpenSoftTissue
-  name: Open Incision
+  name: ent-CMUSurgeryOpenSoftTissue
   components:
   - type: CMSurgery
     steps:
@@ -14,7 +14,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryOpenBoneCavity
-  name: Open Bone Cavity
+  name: ent-CMUSurgeryOpenBoneCavity
   components:
   - type: CMSurgery
     requirement: CMUSurgeryOpenSoftTissue
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryCloseIncision
-  name: Close Incision
+  name: ent-CMUSurgeryCloseIncision
   components:
   - type: CMSurgery
     priority: 1
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryCloseBoneCavity
-  name: Close Bone Cavity
+  name: ent-CMUSurgeryCloseBoneCavity
   components:
   - type: CMSurgery
     priority: 1
@@ -49,7 +49,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetSimpleFracture
-  name: Set Simple Fracture
+  name: ent-CMUSurgerySetSimpleFracture
   components:
   - type: CMSurgery
     priority: 10
@@ -64,7 +64,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetSimpleFractureCavity
-  name: Set Simple Fracture
+  name: ent-CMUSurgerySetSimpleFractureCavity
   components:
   - type: CMSurgery
     priority: 10
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetCompoundFracture
-  name: Set Compound Fracture
+  name: ent-CMUSurgerySetCompoundFracture
   components:
   - type: CMSurgery
     priority: 8
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetCompoundFractureCavity
-  name: Set Compound Fracture
+  name: ent-CMUSurgerySetCompoundFractureCavity
   components:
   - type: CMSurgery
     priority: 8
@@ -113,7 +113,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetComminutedFracture
-  name: Set Comminuted Fracture
+  name: ent-CMUSurgerySetComminutedFracture
   components:
   - type: CMSurgery
     priority: 7
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetComminutedFractureCavity
-  name: Set Comminuted Fracture
+  name: ent-CMUSurgerySetComminutedFractureCavity
   components:
   - type: CMSurgery
     priority: 7
@@ -151,7 +151,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryCauterizeInternalBleeding
-  name: Stop Internal Bleeding
+  name: ent-CMUSurgeryCauterizeInternalBleeding
   components:
   - type: CMSurgery
     priority: 7
@@ -163,7 +163,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryCauterizeInternalBleedingCavity
-  name: Stop Internal Bleeding
+  name: ent-CMUSurgeryCauterizeInternalBleedingCavity
   components:
   - type: CMSurgery
     priority: 7
@@ -179,7 +179,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveLiver
-  name: Remove Liver
+  name: ent-CMUSurgeryRemoveLiver
   components:
   - type: CMSurgery
     priority: 5
@@ -194,7 +194,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveLung
-  name: Remove Lungs
+  name: ent-CMUSurgeryRemoveLung
   components:
   - type: CMSurgery
     priority: 5
@@ -209,7 +209,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveKidney
-  name: Remove Kidneys
+  name: ent-CMUSurgeryRemoveKidney
   components:
   - type: CMSurgery
     priority: 5
@@ -224,7 +224,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveHeart
-  name: Remove Heart
+  name: ent-CMUSurgeryRemoveHeart
   components:
   - type: CMSurgery
     priority: 4
@@ -239,7 +239,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveStomach
-  name: Remove Stomach
+  name: ent-CMUSurgeryRemoveStomach
   components:
   - type: CMSurgery
     priority: 5
@@ -256,7 +256,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReplaceLiver
-  name: Replace Liver
+  name: ent-CMUSurgeryReplaceLiver
   components:
   - type: CMSurgery
     priority: 4
@@ -271,7 +271,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReplaceLung
-  name: Replace Lungs
+  name: ent-CMUSurgeryReplaceLung
   components:
   - type: CMSurgery
     priority: 4
@@ -286,7 +286,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReplaceKidney
-  name: Replace Kidneys
+  name: ent-CMUSurgeryReplaceKidney
   components:
   - type: CMSurgery
     priority: 4
@@ -301,7 +301,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryTransplantHeart
-  name: Transplant Heart
+  name: ent-CMUSurgeryTransplantHeart
   components:
   - type: CMSurgery
     priority: 4
@@ -316,7 +316,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReplaceStomach
-  name: Replace Stomach
+  name: ent-CMUSurgeryReplaceStomach
   components:
   - type: CMSurgery
     priority: 4
@@ -333,7 +333,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairLiver
-  name: Suture Liver
+  name: ent-CMUSurgeryRepairLiver
   components:
   - type: CMSurgery
     priority: 6
@@ -348,7 +348,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairLungs
-  name: Suture Lungs
+  name: ent-CMUSurgeryRepairLungs
   components:
   - type: CMSurgery
     priority: 6
@@ -363,7 +363,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairKidneys
-  name: Suture Kidneys
+  name: ent-CMUSurgeryRepairKidneys
   components:
   - type: CMSurgery
     priority: 6
@@ -378,7 +378,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairHeart
-  name: Suture Heart
+  name: ent-CMUSurgeryRepairHeart
   components:
   - type: CMSurgery
     priority: 6
@@ -393,7 +393,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairStomach
-  name: Suture Stomach
+  name: ent-CMUSurgeryRepairStomach
   components:
   - type: CMSurgery
     priority: 6
@@ -410,7 +410,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairBrain
-  name: Repair Brain
+  name: ent-CMUSurgeryRepairBrain
   components:
   - type: CMSurgery
     priority: 6
@@ -424,7 +424,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairEyes
-  name: Repair Eyes
+  name: ent-CMUSurgeryRepairEyes
   components:
   - type: CMSurgery
     priority: 6
@@ -438,7 +438,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairEars
-  name: Repair Ears
+  name: ent-CMUSurgeryRepairEars
   components:
   - type: CMSurgery
     priority: 6
@@ -454,8 +454,8 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryAlienEmbryoRemoval
-  name: Alien Embryo Removal
-  description: Removal of an alien embryo from the body.
+  name: ent-CMUSurgeryAlienEmbryoRemoval
+  description: ent-CMUSurgeryAlienEmbryoRemoval-desc
   components:
   - type: CMSurgery
     priority: -1
@@ -475,7 +475,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveLimb
-  name: Remove Limb
+  name: ent-CMUSurgeryRemoveLimb
   components:
   - type: CMSurgery
     priority: 2
@@ -486,7 +486,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReattachLimb
-  name: Reattach Limb
+  name: ent-CMUSurgeryReattachLimb
   components:
   - type: CMSurgery
     priority: 3

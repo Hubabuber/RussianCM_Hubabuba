@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseBlueprint
-  name: blueprint
-  description: A blueprint for some machine. It can be inserted into an autolathe.
+  name: ent-BaseBlueprint
+  description: ent-BaseBlueprint-desc
   abstract: true
   components:
   - type: Sprite
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintFulton
-  name: fulton blueprint
-  description: A blueprint with a schematic of a fulton. It can be inserted into an autolathe.
+  name: ent-BlueprintFulton
+  description: ent-BlueprintFulton-desc
   components:
   - type: Blueprint
     providedRecipes:
@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintSeismicCharge
-  name: seismic charge blueprint
-  description: A blueprint with a schematic of a seismic charge. It can be inserted into an autolathe.
+  name: ent-BlueprintSeismicCharge
+  description: ent-BlueprintSeismicCharge-desc
   components:
   - type: Blueprint
     providedRecipes:
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintDoubleEmergencyTank
-  name: double emergency tank blueprint
-  description: A blueprint with a schematic of a double emergency tank. It can be inserted into an autolathe.
+  name: ent-BlueprintDoubleEmergencyTank
+  description: ent-BlueprintDoubleEmergencyTank-desc
   components:
   - type: Blueprint
     providedRecipes:

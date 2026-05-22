@@ -4,8 +4,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetal
-  name: metal barricade
-  description: A sturdy and easily assembled barricade made of metal plates, often used for quick fortifications. Use a blowtorch to repair.
+  name: ent-CMBarricadeMetal
+  description: ent-CMBarricadeMetal-desc
   components:
   - type: Climbable
   - type: Anchorable
@@ -76,7 +76,7 @@
 - type: entity
   parent: CMBarricadeMetal
   id: RMCBarricadeMetalAltDrawdepth
-  suffix: Layers over Platforms
+  suffix: ent-RMCBarricadeMetalAltDrawdepth-suffix
   components:
     - type: Sprite
       drawdepth: SmallObjects
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMBarricadeMetal
   id: CMBarricadeBurn
-  suffix: Biohazard
+  suffix: ent-CMBarricadeBurn-suffix
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMBarricadeMetal
   id: CMBarricadeBrute
-  suffix: Reinforced
+  suffix: ent-CMBarricadeBrute-suffix
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -135,7 +135,7 @@
 - type: entity
   parent: CMBarricadeMetal
   id: CMBarricadeExplosive
-  suffix: Composite
+  suffix: ent-CMBarricadeExplosive-suffix
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeTurnstile
-  name: turnstile
-  description: A railing to prevent marines from stepping out of line.
+  name: ent-CMBarricadeTurnstile
+  description: ent-CMBarricadeTurnstile-desc
   components:
     - type: Anchorable
     - type: Sprite
@@ -191,8 +191,8 @@
 - type: entity
   parent: CMBarricadeTurnstile
   id: CMBarricadeTurnstileMed
-  name: turnstile
-  description: A railing to prevent marines from stepping out of line. This one is designed specifically for medical.
+  name: ent-CMBarricadeTurnstileMed
+  description: ent-CMBarricadeTurnstileMed-desc
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -207,8 +207,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadeHandrail
-  name: handrail
-  description: A railing, for your hands. Woooow.
+  name: ent-RMCBarricadeHandrail
+  description: ent-RMCBarricadeHandrail-desc
   components:
     - type: VehicleSmashable
     - type: Anchorable
@@ -261,7 +261,7 @@
 - type: entity
   parent: RMCBarricadeHandrailAlt
   id: RMCBarricadeHandrailAltDrawdepth
-  suffix: Layers over Platforms
+  suffix: ent-RMCBarricadeHandrailAltDrawdepth-suffix
   components:
     - type: Sprite
       drawdepth: SmallObjects
@@ -293,7 +293,7 @@
 - type: entity
   parent: RMCBarricadeHandrailStrata
   id: RMCBarricadeHandrailStrataAltDrawdepth
-  suffix: Layers over Platforms
+  suffix: ent-RMCBarricadeHandrailStrataAltDrawdepth-suffix
   components:
     - type: Sprite
       drawdepth: SmallObjects
@@ -325,7 +325,7 @@
 - type: entity
   parent: RMCBarricadeWireRail
   id: RMCBarricadeWireRailAltDrawdepth
-  suffix: Layers over Platforms
+  suffix: ent-RMCBarricadeWireRailAltDrawdepth-suffix
   components:
     - type: Sprite
       drawdepth: SmallObjects
@@ -357,7 +357,7 @@
 - type: entity
   parent: RMCBarricadeHybrisaCenterRoad
   id: RMCBarricadeHybrisaCenterRoadDouble
-  suffix: Double
+  suffix: ent-RMCBarricadeHybrisaCenterRoadDouble-suffix
   components:
     - type: Sprite
       offset: 0,-0.15
@@ -369,7 +369,7 @@
 - type: entity
   parent: RMCBarricadeHandrail
   id: RMCBarricadeHybrisaPlasticRoadBarrier
-  name: plastic road barrier
+  name: ent-RMCBarricadeHybrisaPlasticRoadBarrier
   components:
     - type: Sprite
       layers:
@@ -401,8 +401,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetalDoor
-  name: folding metal barricade
-  description: A folding metal barricade weaker than the non-folding counterpart. Able to be opened and closed at a moment's notice. Repair with a welder.
+  name: ent-CMBarricadeMetalDoor
+  description: ent-CMBarricadeMetalDoor-desc
   components:
   - type: Anchorable
   - type: MeleeSound

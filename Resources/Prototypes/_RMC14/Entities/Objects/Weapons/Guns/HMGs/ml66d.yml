@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponGun, BaseItem]
   id: RMCSmartGunMounted
-  name: M56D heavy machine gun
-  description: The top half of a M56D heavy machine gun post. However it ain't much use without the tripod.
+  name: ent-RMCSmartGunMounted
+  description: ent-RMCSmartGunMounted-desc
   components:
   - type: Item
     size: Huge
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCSmartGunMounted
   id: RMCSmartGunMountedLoaded
-  suffix: Loaded
+  suffix: ent-RMCSmartGunMountedLoaded-suffix
   categories: [ HideSpawnMenu ]
   components:
   - type: ItemSlots
@@ -132,8 +132,8 @@
 - type: entity
   parent: RMCSmartGunMounted
   id: RMCSmartGunMountedStatic
-  name: M56D heavy machine gun
-  suffix: Scoped
+  name: ent-RMCSmartGunMountedStatic
+  suffix: ent-RMCSmartGunMountedStatic-suffix
   components:
   - type: MagazineAmmoProvider
     autoEject: false
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineML66D
-  name: M56D drum magazine (10x28mm)
-  description: A box of 700, 10x28mm caseless tungsten rounds for the M56D heavy machine gun system.
+  name: ent-RMCMagazineML66D
+  description: ent-RMCMagazineML66D-desc
   components:
   - type: Tag
     tags:
@@ -200,8 +200,8 @@
 - type: entity
   parent: RMCMagazineML66D
   id: RMCMagazineML66DLarge
-  name: large M56D drum magazine (10x28mm)
-  description: A box of 1500, 10x28mm caseless tungsten rounds for the M56D heavy machine gun system.
+  name: ent-RMCMagazineML66DLarge
+  description: ent-RMCMagazineML66DLarge-desc
   components:
   - type: Tag
     tags:
@@ -218,7 +218,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeHMG10x28mm
-  name: cartridge (10x28mm)
+  name: ent-RMCCartridgeHMG10x28mm
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -245,7 +245,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletHMG10x28mm
-  name: bullet (10x28mm)
+  name: ent-RMCBulletHMG10x28mm
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

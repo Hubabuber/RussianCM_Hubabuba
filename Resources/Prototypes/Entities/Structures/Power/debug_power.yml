@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   id: DebugGenerator
   parent: BaseGenerator
-  suffix: DEBUG
+  suffix: ent-DebugGenerator-suffix
   components:
   - type: PowerSupplier
     supplyRate: 300000
@@ -13,8 +13,8 @@
 
 - type: entity
   id: DebugConsumer
-  name: consumer
-  suffix: DEBUG
+  name: ent-DebugConsumer
+  suffix: ent-DebugConsumer-suffix
   placement:
     mode: SnapgridCenter
   components:
@@ -58,8 +58,8 @@
 
 - type: entity
   id: DebugBatteryStorage
-  name: battery storage
-  suffix: DEBUG
+  name: ent-DebugBatteryStorage
+  suffix: ent-DebugBatteryStorage-suffix
   placement:
     mode: SnapgridCenter
   components:
@@ -91,8 +91,8 @@
 
 - type: entity
   id: DebugBatteryDischarger
-  name: battery discharger
-  suffix: DEBUG
+  name: ent-DebugBatteryDischarger
+  suffix: ent-DebugBatteryDischarger-suffix
   placement:
     mode: SnapgridCenter
   components:
@@ -127,7 +127,7 @@
 - type: entity
   id: DebugSMES
   parent: BaseSMES
-  suffix: DEBUG
+  suffix: ent-DebugSMES-suffix
   components:
   - type: Tag
     tags:
@@ -136,7 +136,7 @@
 - type: entity
   id: DebugSubstation
   parent: BaseSubstation
-  suffix: DEBUG
+  suffix: ent-DebugSubstation-suffix
   components:
   - type: Tag
     tags:
@@ -145,7 +145,7 @@
 - type: entity
   id: DebugAPC
   parent: BaseAPC
-  suffix: DEBUG
+  suffix: ent-DebugAPC-suffix
   components:
   - type: Tag
     tags:
@@ -153,8 +153,8 @@
 
 - type: entity
   id: DebugPowerReceiver
-  name: power receiver
-  suffix: DEBUG
+  name: ent-DebugPowerReceiver
+  suffix: ent-DebugPowerReceiver-suffix
   placement:
     mode: SnapgridCenter
   components:

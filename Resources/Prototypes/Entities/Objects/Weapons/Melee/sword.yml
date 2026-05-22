@@ -24,10 +24,10 @@
 
 #Shortswords
 - type: entity
-  name: cutlass
+  name: ent-Cutlass
   parent: [ BaseSword, BaseMajorContraband ]
   id: Cutlass
-  description: A wickedly curved blade, often seen in the hands of space pirates.
+  description: ent-Cutlass-desc
   components:
   - type: Tag
     tags:
@@ -49,10 +49,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: machete
+  name: ent-Machete
   parent: [ BaseSword, BaseMajorContraband ]
   id: Machete
-  description: A large, vicious looking blade.
+  description: ent-Machete-desc
   components:
   - type: Tag
     tags:
@@ -83,10 +83,10 @@
 
 #Longswords
 - type: entity
-  name: captain's sabre
+  name: ent-CaptainSabre
   parent: [ BaseSword, BaseCommandContraband ]
   id: CaptainSabre
-  description: A ceremonial weapon belonging to the captain of the station.
+  description: ent-CaptainSabre-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
@@ -117,10 +117,10 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: katana
+  name: ent-Katana
   parent: [ BaseSword, BaseMajorContraband ]
   id: Katana
-  description: Ancient craftwork made with not so ancient plasteel.
+  description: ent-Katana-desc
   components:
   - type: Tag
     tags:
@@ -147,10 +147,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: energy katana
+  name: ent-EnergyKatana
   parent: Katana
   id: EnergyKatana
-  description: A katana infused with strong energy.
+  description: ent-EnergyKatana-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -182,10 +182,10 @@
 
 #Greatswords
 - type: entity
-  name: claymore
+  name: ent-Claymore
   parent: [ BaseSword, BaseMajorContraband ]
   id: Claymore
-  description: An ancient war blade.
+  description: ent-Claymore-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi
@@ -211,10 +211,10 @@
 
 #Other/Weird
 - type: entity
-  name: throngler
+  name: ent-Throngler
   parent: [ BaseSword, BaseMajorContraband ]
   id: Throngler
-  description: If Security dares take it from you, just remind them that they are indeed mortal.
+  description: ent-Throngler-desc
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi

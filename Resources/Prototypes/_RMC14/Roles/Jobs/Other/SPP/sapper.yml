@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: RMCSPPEngineer
   name: rmc-job-name-spp-engineer
@@ -12,7 +12,7 @@
   accessGroups:
   - Colonist
   - CombatTech
-  spawnMenuRoleName: SPP Sapper
+  spawnMenuRoleName: job-rmcsppengineer-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -35,8 +35,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPEngineerHostile
-  name: spp ghost role engineer
-  suffix: Spawner, Player, Hostile
+  name: ent-RMCRandomHumanoidSPPEngineerHostile
+  suffix: ent-RMCRandomHumanoidSPPEngineerHostile-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -46,8 +46,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPEngineerFriendly
-  name: spp ghost role engineer
-  suffix: Spawner, Player, Friendly
+  name: ent-RMCRandomHumanoidSPPEngineerFriendly
+  suffix: ent-RMCRandomHumanoidSPPEngineerFriendly-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

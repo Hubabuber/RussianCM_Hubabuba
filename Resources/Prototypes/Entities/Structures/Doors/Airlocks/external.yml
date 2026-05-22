@@ -1,8 +1,8 @@
 - type: entity
   parent: AirlockRCDResistant
   id: AirlockExternal
-  suffix: External
-  description: It opens, it closes, it might crush you, and there might be only space behind it.
+  suffix: ent-AirlockExternal-suffix
+  description: ent-AirlockExternal-desc
   components:
   - type: Door
     crushDamage:
@@ -25,7 +25,7 @@
 - type: entity
   parent: AirlockExternal
   id: AirlockExternalGlass
-  suffix: Glass, External
+  suffix: ent-AirlockExternalGlass-suffix
   components:
   - type: Door
     occludes: false

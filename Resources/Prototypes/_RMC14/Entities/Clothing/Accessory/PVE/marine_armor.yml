@@ -3,9 +3,9 @@
   abstract: true
   parent: RMCBaseUniformAccessory
   id: RMCPVEArmorAccessoryBase
-  name: armor accessory
-  description: Abstract armor accessories.
-  suffix: PVE
+  name: ent-RMCPVEArmorAccessoryBase
+  description: ent-RMCPVEArmorAccessoryBase-desc
+  suffix: ent-RMCPVEArmorAccessoryBase-suffix
   components:
   - type: Sprite
     state: icon
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCPVEArmorPadsBase
   id: RMCPVEArmorPads
-  name: M3 Pauldrons
-  description: Attachable supplementary armor for the M3 armor system. Protects from glancing hits and covers the arm opening in the cuirass against shrapnel.
+  name: ent-RMCPVEArmorPads
+  description: ent-RMCPVEArmorPads-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/pads/jungle.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCPVEArmorBracersBase
   id: RMCPVEArmorBracers
-  name: M3 Vambraces
-  description: Attachable supplementary armor for the M3 armor system. A pair of composite ballistic vambraces to shield the forearms, with straps to ensure it doesn't ride up or down.
+  name: ent-RMCPVEArmorBracers
+  description: ent-RMCPVEArmorBracers-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/bracers/jungle.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCPVEArmorNeckGuardBase
   id: RMCPVEArmorNeckGuard
-  name: M3 Gorget
-  description: Attachable supplementary armor for the M3 armor system. A simple polymer ballistic plate to resist ricochets and shrapnel.
+  name: ent-RMCPVEArmorNeckGuard
+  description: ent-RMCPVEArmorNeckGuard-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/neckguard/jungle.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCPVEArmorGroinPlateBase
   id: RMCPVEArmorGroinPlate
-  name: M3 Lap Panel
-  description: Attachable supplementary armor for the M3 armor system. Shear thickening liquid armor piece covering the abdomen and groin, with an additional ruggedized boron carbide. Clasps to the inside of the M3 cuirass.
+  name: ent-RMCPVEArmorGroinPlate
+  description: ent-RMCPVEArmorGroinPlate-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/groinplate/jungle.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: RMCPVEArmorShinGuardBase
   id: RMCPVEArmorShinGuard
-  name: M3 Greaves
-  description: Attachable supplementary armor for the M3 armor system. Lightweight polymer clamshell-style plates enclose the lower legs to provide shrapnel and pistol protection.
+  name: ent-RMCPVEArmorShinGuard
+  description: ent-RMCPVEArmorShinGuard-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/shinguards/jungle.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCPVEArmorKneeGuardBase
   id: RMCPVEArmorKneeGuard
-  name: M3 Kneepads
-  description: Attachable supplementary armor for the M3 armor system. High impact ruggedized outer shell and polymer internals protect from shrapnel as well as low power ballistics.
+  name: ent-RMCPVEArmorKneeGuard
+  description: ent-RMCPVEArmorKneeGuard-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/thighguards/jungle.rsi
@@ -179,8 +179,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintSkull
-  name: skull armor paint
-  description: A set of paint tones to etch a skull into a Marine's armor.
+  name: ent-RMCPVEArmorPaintSkull
+  description: ent-RMCPVEArmorPaintSkull-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/skull.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintHeart
-  name: heart armor paint
-  description: A set of paint tones to etch a heart into a Marine's armor.
+  name: ent-RMCPVEArmorPaintHeart
+  description: ent-RMCPVEArmorPaintHeart-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/heart.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintMedic
-  name: medical cross armor paint
-  description: A set of paint tones to etch a blue cross into a Marine's armor.
+  name: ent-RMCPVEArmorPaintMedic
+  description: ent-RMCPVEArmorPaintMedic-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/medic.rsi
@@ -218,8 +218,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintUN
-  name: UN flag armor paint
-  description: A set of paint tones to etch the white and blue into a Marine's armor.
+  name: ent-RMCPVEArmorPaintUN
+  description: ent-RMCPVEArmorPaintUN-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/un.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintTarget
-  name: target armor paint
-  description: A set of paint tones to etch a target pattern into a Marine's armor.
+  name: ent-RMCPVEArmorPaintTarget
+  description: ent-RMCPVEArmorPaintTarget-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/target.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintSmileyFace
-  name: smileyface armor paint
-  description: A set of paint tones to etch a happy face into a Marine's armor.
+  name: ent-RMCPVEArmorPaintSmileyFace
+  description: ent-RMCPVEArmorPaintSmileyFace-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/smiley.rsi
@@ -257,8 +257,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintNeutralFace
-  name: neutralface armor paint
-  description: A set of paint tones to etch a neutral face into a Marine's armor.
+  name: ent-RMCPVEArmorPaintNeutralFace
+  description: ent-RMCPVEArmorPaintNeutralFace-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/neutral.rsi
@@ -270,8 +270,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintCross
-  name: cross armor paint
-  description: A set of paint tones to etch a religious symbol into a Marine's armor.
+  name: ent-RMCPVEArmorPaintCross
+  description: ent-RMCPVEArmorPaintCross-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/cross.rsi
@@ -283,8 +283,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintInscription
-  name: inscription armor paint
-  description: A set of paint tones to etch a text phrase into a Marine's armor.
+  name: ent-RMCPVEArmorPaintInscription
+  description: ent-RMCPVEArmorPaintInscription-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/inscription.rsi
@@ -296,8 +296,8 @@
 - type: entity
   parent: RMCPVEArmorPaintBase
   id: RMCPVEArmorPaintMixtape
-  name: flames armor paint
-  description: A set of paint tones to etch straight heat into a Marine's armor.
+  name: ent-RMCPVEArmorPaintMixtape
+  description: ent-RMCPVEArmorPaintMixtape-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/mixtape.rsi

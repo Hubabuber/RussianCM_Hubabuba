@@ -8,7 +8,7 @@
   parent: FoodInjectableBase
   id: FoodMealBase
   abstract: true
-  description: A delicious meal, cooked with love.
+  description: ent-FoodMealBase-desc
   components:
   - type: Item
     storedRotation: -90
@@ -26,10 +26,10 @@
 # Meals
 
 - type: entity
-  name: loaded baked potato
+  name: ent-FoodMealPotatoLoaded
   parent: FoodMealBase
   id: FoodMealPotatoLoaded
-  description: Totally baked.
+  description: ent-FoodMealPotatoLoaded-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -40,10 +40,10 @@
 # Tastes like potato.
 
 - type: entity
-  name: space fries
+  name: ent-FoodMealFries
   parent: FoodMealBase
   id: FoodMealFries
-  description: AKA, French Fries, Freedom Fries, etc.
+  description: ent-FoodMealFries-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -54,10 +54,10 @@
 # Tastes like fries, salt.
 
 - type: entity
-  name: cheesy fries
+  name: ent-FoodMealFriesCheesy
   parent: FoodMealBase
   id: FoodMealFriesCheesy
-  description: Fries. Covered in cheese. Duh.
+  description: ent-FoodMealFriesCheesy-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -69,10 +69,10 @@
 # Tastes like fries, cheese.
 
 - type: entity
-  name: carrot fries
+  name: ent-FoodMealFriesCarrot
   parent: FoodMealBase
   id: FoodMealFriesCarrot
-  description: Tasty fries from fresh carrots.
+  description: ent-FoodMealFriesCarrot-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -93,10 +93,10 @@
 # Tastes like carrots, salt.
 
 - type: entity
-  name: nachos
+  name: ent-FoodMealNachos
   parent: FoodMealBase
   id: FoodMealNachos
-  description: Chips from Space Mexico.
+  description: ent-FoodMealNachos-desc
   components:
   - type: Food
     trash:
@@ -118,10 +118,10 @@
 # Tastes like nachos.
 
 - type: entity
-  name: cheesy nachos
+  name: ent-FoodMealNachosCheesy
   parent: FoodMealBase
   id: FoodMealNachosCheesy
-  description: The delicious combination of nachos and melting cheese.
+  description: ent-FoodMealNachosCheesy-desc
   components:
   - type: Food
     trash:
@@ -144,10 +144,10 @@
 # Tastes like nachos, cheese.
 
 - type: entity
-  name: Cuban nachos
+  name: ent-FoodMealNachosCuban
   parent: FoodMealBase
   id: FoodMealNachosCuban
-  description: That's some dangerously spicy nachos.
+  description: ent-FoodMealNachosCuban-desc
   components:
   - type: Food
     trash:
@@ -173,10 +173,10 @@
 # Tastes like nachos, hot pepper.
 
 - type: entity
-  name: mint
+  name: ent-FoodMealMint
   parent: FoodMealBase
   id: FoodMealMint
-  description: It's wafer thin.
+  description: ent-FoodMealMint-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -194,10 +194,10 @@
 # Tastes like parsnips, salt.
 
 - type: entity
-  name: eggplant parmigiana
+  name: ent-FoodMealEggplantParm
   parent: FoodMealBase
   id: FoodMealEggplantParm
-  description: The only good recipe for eggplant.
+  description: ent-FoodMealEggplantParm-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -220,10 +220,10 @@
 # Tastes like eggplant, cheese.
 
 - type: entity
-  name: yaki imo
+  name: ent-FoodMealPotatoYaki
   parent: FoodMealBase
   id: FoodMealPotatoYaki
-  description: Made with roasted sweet potatoes!
+  description: ent-FoodMealPotatoYaki-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -234,10 +234,10 @@
 # Tastes like sweet potato.
 
 - type: entity
-  name: Cuban carp
+  name: ent-FoodMealCubancarp
   parent: FoodMealBase
   id: FoodMealCubancarp
-  description: A grifftastic sandwich that burns your tongue and then leaves it numb!
+  description: ent-FoodMealCubancarp-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -266,10 +266,10 @@
 # Tastes like fish, batter, hot peppers.
 
 - type: entity
-  name: corned beef and cabbage
+  name: ent-FoodMealCornedbeef
   parent: FoodMealBase
   id: FoodMealCornedbeef
-  description: Now you can feel like a real tourist vacationing in Ireland.
+  description: ent-FoodMealCornedbeef-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -292,10 +292,10 @@
 # Tastes like meat, cabbage.
 
 - type: entity
-  name: filet migrawr
+  name: ent-FoodMealBearsteak
   parent: FoodMealBase
   id: FoodMealBearsteak
-  description: Because eating bear wasn't manly enough.
+  description: ent-FoodMealBearsteak-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -318,10 +318,10 @@
 # Tastes like meat, salmon.
 
 - type: entity
-  name: pig in a blanket
+  name: ent-FoodMealPigblanket
   parent: FoodMealBase
   id: FoodMealPigblanket
-  description: A tiny sausage wrapped in a flakey, buttery roll. Free this pig from its blanket prison by eating it.
+  description: ent-FoodMealPigblanket-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -344,10 +344,10 @@
 # Tastes like meat, butter.
 
 - type: entity
-  name: bbq ribs
+  name: ent-FoodMealRibs
   parent: FoodMealBase
   id: FoodMealRibs
-  description: BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist.
+  description: ent-FoodMealRibs-desc
   components:
   - type: Food
     trash:
@@ -375,10 +375,10 @@
 # Tastes like meat, smokey sauce.
 
 - type: entity
-  name: eggs benedict
+  name: ent-FoodMealEggsbenedict
   parent: FoodMealBase
   id: FoodMealEggsbenedict
-  description: There is only one egg on this, how rude.
+  description: ent-FoodMealEggsbenedict-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -402,10 +402,10 @@
 # Tastes like eggs, bacon, bun.
 
 - type: entity
-  name: cheese omelette
+  name: ent-FoodMealOmelette
   parent: FoodMealBase
   id: FoodMealOmelette
-  description: Cheesy.
+  description: ent-FoodMealOmelette-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -426,10 +426,10 @@
 # Tastes like egg, cheese.
 
 - type: entity
-  name: fried egg
+  name: ent-FoodMealFriedegg
   parent: FoodMealBase
   id: FoodMealFriedegg
-  description: A fried egg, with a touch of salt and pepper.
+  description: ent-FoodMealFriedegg-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -460,10 +460,10 @@
 # Tastes like egg, salt, pepper.
 
 - type: entity
-  name: milk ape
+  name: ent-FoodMealMilkape
   parent: FoodMealBase
   id: FoodMealMilkape
-  description: The king of Jungle Thick.
+  description: ent-FoodMealMilkape-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -474,10 +474,10 @@
 # Tastes like milk, chocolate, the jungle.
 
 - type: entity
-  name: memory leek
+  name: ent-FoodMealMemoryleek
   parent: FoodMealBase
   id: FoodMealMemoryleek
-  description: This should refresh your memory.
+  description: ent-FoodMealMemoryleek-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -496,10 +496,10 @@
 # Tastes like pain.
 
 - type: entity
-  name: salty sweet miso cola soup
+  name: ent-DisgustingSweptSoup
   parent: FoodMealBase
   id: DisgustingSweptSoup
-  description: Jesus christ.
+  description: ent-DisgustingSweptSoup-desc
   components:
   - type: Sprite
     state: saltysweet
@@ -517,10 +517,10 @@
 # Tastes awesome.
 
 - type: entity
-  name: queso
+  name: ent-FoodMealQueso
   parent: FoodMealBase
   id: FoodMealQueso
-  description: A classic dipping sauce that you can't go wrong with.
+  description: ent-FoodMealQueso-desc
   components:
     - type: FlavorProfile
       flavors:
@@ -530,10 +530,10 @@
 # Its queso! Everyone loves queso... Right?.
 
 - type: entity
-  name: sashimi
+  name: ent-FoodMealSashimi
   parent: FoodMealBase
   id: FoodMealSashimi
-  description: Its taste can only be described as "Exotic". The poisoning though? That's pretty common.
+  description: ent-FoodMealSashimi-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -555,10 +555,10 @@
 # tastes exotic
 
 - type: entity
-  name: enchiladas
+  name: ent-FoodMealEnchiladas
   parent: FoodMealBase
   id: FoodMealEnchiladas
-  description: Viva La Mexico!
+  description: ent-FoodMealEnchiladas-desc
   components:
     - type: FlavorProfile
       flavors:
@@ -584,10 +584,10 @@
 # What do Europeans eat instead of enchiladas? 25.4 millimeter-iladas.
 
 - type: entity
-  name: melon fruit bowl
+  name: ent-FoodSaladWatermelonFruitBowl
   parent: FoodMealBase
   id: FoodSaladWatermelonFruitBowl
-  description: The only salad where you can eat the bowl.
+  description: ent-FoodSaladWatermelonFruitBowl-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -615,10 +615,10 @@
     - Fruit
 
 - type: entity
-  name: corn in butter
+  name: ent-FoodMealCornInButter
   parent: FoodMealBase
   id: FoodMealCornInButter
-  description: Buttery.
+  description: ent-FoodMealCornInButter-desc
   components:
   - type: Food
     trash:

@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSmartGunOperator
-  name: smart gun operator spawn point
+  name: ent-CMSpawnPointSmartGunOperator
   components:
   - type: SpawnPoint
     job_id: CMSmartGunOperator
@@ -79,7 +79,7 @@
 - type: entity
   parent: CMSpawnPointSmartGunOperator
   id: CMSpawnPointSmartGunOperatorAlpha
-  suffix: Alpha
+  suffix: ent-CMSpawnPointSmartGunOperatorAlpha-suffix
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointSmartGunOperator
   id: CMSpawnPointSmartGunOperatorBravo
-  suffix: Bravo
+  suffix: ent-CMSpawnPointSmartGunOperatorBravo-suffix
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMSpawnPointSmartGunOperator
   id: CMSpawnPointSmartGunOperatorCharlie
-  suffix: Charlie
+  suffix: ent-CMSpawnPointSmartGunOperatorCharlie-suffix
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMSpawnPointSmartGunOperator
   id: CMSpawnPointSmartGunOperatorDelta
-  suffix: Delta
+  suffix: ent-CMSpawnPointSmartGunOperatorDelta-suffix
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSGO
-  name: Smart Gun Operator
-  description: Smart Gun Operator
+  name: ent-RMCGuidebookRoleSGO
+  description: ent-RMCGuidebookRoleSGO-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

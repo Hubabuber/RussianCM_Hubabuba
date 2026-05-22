@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - SquadLeader
-  spawnMenuRoleName: SPP Section Sergeant (PVE)
+  spawnMenuRoleName: job-rmcsppsectionleadpve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPSectionLeadPVE
-  name: spp section lead spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointSPPSectionLeadPVE
+  suffix: ent-RMCSpawnPointSPPSectionLeadPVE-suffix
   components:
   - type: SpawnPoint
     job_id: RMCSPPSectionLeadPVE

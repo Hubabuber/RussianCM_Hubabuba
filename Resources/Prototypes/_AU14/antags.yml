@@ -47,7 +47,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleRunawaySynth
-  name: Runaway Synth  Role
+  name: ent-MindRoleRunawaySynth
   components:
   - type: MindRole
     antagPrototype: RunawaySynthRole
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFSubvertedSynth
-  name: CLF Subverted Synth Role
+  name: ent-MindRoleCLFSubvertedSynth
   components:
   - type: MindRole
     antagPrototype: CLFSubvertedSynthRole
@@ -96,7 +96,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFRecruit
-  name: CLF Recruit Role
+  name: ent-MindRoleCLFRecruit
   components:
   - type: MindRole
     antagPrototype: CLFRecruitRole
@@ -115,7 +115,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFGuerrilla
-  name: CLF Guerrilla Role
+  name: ent-MindRoleCLFGuerrilla
   components:
   - type: MindRole
     antagPrototype: CLFGuerrillaRole
@@ -228,7 +228,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleFugitive
-  name: Fugitive  Role
+  name: ent-MindRoleFugitive
   components:
   - type: MindRole
     antagPrototype: FugitiveRole
@@ -288,7 +288,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleDrugDealer
-  name: Drug Dealer Role
+  name: ent-MindRoleDrugDealer
   components:
   - type: MindRole
     antagPrototype: DrugDealerRole
@@ -312,8 +312,8 @@
 - type: entity
   parent: RMCSatchelBlack
   id: AU14DrugDealerDrugBackpack
-  name: drug dealer's satchel
-  description: A black satchel filled with illicit substances.
+  name: ent-AU14DrugDealerDrugBackpack
+  description: ent-AU14DrugDealerDrugBackpack-desc
   components:
   - type: StorageFill
     contents:
@@ -353,7 +353,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCorporateSpy
-  name: Corporate Spy Role
+  name: ent-MindRoleCorporateSpy
   components:
   - type: MindRole
     antagPrototype: CorporateSpyRole
@@ -431,7 +431,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFVeteran
-  name: CLF Veteran Role
+  name: ent-MindRoleCLFVeteran
   components:
   - type: MindRole
     antagPrototype: CLFVeteranRole
@@ -478,7 +478,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleStrikeOrganizer
-  name: Strike Organizer Role
+  name: ent-MindRoleStrikeOrganizer
   components:
   - type: MindRole
     antagPrototype: StrikeOrganizerRole
@@ -502,8 +502,8 @@
 - type: entity
   parent: RMCBackpackRTO
   id: AU14StrikeOrganizerBackpack
-  name: organizer's radio pack
-  description: A radio telephone pack carried by a labor organize.
+  name: ent-AU14StrikeOrganizerBackpack
+  description: ent-AU14StrikeOrganizerBackpack-desc
   components:
   - type: StorageFill
     contents:
@@ -538,7 +538,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCannibal
-  name: Cannibal Role
+  name: ent-MindRoleCannibal
   components:
   - type: MindRole
     antagPrototype: CannibalRole
@@ -579,7 +579,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleSerialKiller
-  name: Serial Killer Role
+  name: ent-MindRoleSerialKiller
   components:
   - type: MindRole
     antagPrototype: SerialKillerRole

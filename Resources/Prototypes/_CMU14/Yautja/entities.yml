@@ -1,8 +1,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMUYautjaBracer
-  name: hunting bracer
-  description: A heavy wrist computer packed with alien hunting tools.
+  name: ent-CMUYautjaBracer
+  description: ent-CMUYautjaBracer-desc
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/bracer.rsi
@@ -37,9 +37,9 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMUYautjaThrallBracer
-  name: thrall bracer
-  description: A simplified alien bracer that binds a thrall to a Yautja hunter.
-  suffix: Yautja, Thrall
+  name: ent-CMUYautjaThrallBracer
+  description: ent-CMUYautjaThrallBracer-desc
+  suffix: ent-CMUYautjaThrallBracer-suffix
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/bracer.rsi
@@ -62,18 +62,18 @@
 - type: entity
   parent: CMUYautjaBracer
   id: CMUYautjaBloodedThrallBracer
-  name: blooded thrall bracer
-  description: A full hunting bracer entrusted to a blooded thrall.
-  suffix: Yautja, Thrall, Blooded
+  name: ent-CMUYautjaBloodedThrallBracer
+  description: ent-CMUYautjaBloodedThrallBracer-desc
+  suffix: ent-CMUYautjaBloodedThrallBracer-suffix
   components:
   - type: YautjaThrallBracer
 
 - type: entity
   parent: BaseStorageItem
   id: CMUYautjaThrallGearBox
-  name: alien bracer box
-  description: A small case containing a thrall bracer and emergency Yautja medical supplies.
-  suffix: Yautja, Thrall, Filled
+  name: ent-CMUYautjaThrallGearBox
+  description: ent-CMUYautjaThrallGearBox-desc
+  suffix: ent-CMUYautjaThrallGearBox-suffix
   components:
   - type: Sprite
     sprite: Objects/Storage/boxes.rsi
@@ -99,7 +99,7 @@
   parent: [ CMBaseMask, CMUBaseGasMaskFilterSlot ]
   id: CMUYautjaMask
   name: bio-mask
-  description: An alien hunting mask with a built-in tactical visor.
+  description: ent-CMUYautjaMask-desc
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/mask.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: IDCardStandard
   id: CMUYautjaBracerIdChip
-  name: embedded bracer ID chip
-  description: A compact identification wafer deployed from a Yautja bracer.
+  name: ent-CMUYautjaBracerIdChip
+  description: ent-CMUYautjaBracerIdChip-desc
   components:
   - type: Sprite
     layers:
@@ -170,9 +170,9 @@
 - type: entity
   parent: ShardCrystalGreen
   id: CMUYautjaStabilisingCrystal
-  name: stabilising crystal
-  description: A bracer-grown crystal that rapidly stabilises alien biology.
-  suffix: Yautja
+  name: ent-CMUYautjaStabilisingCrystal
+  description: ent-CMUYautjaStabilisingCrystal-desc
+  suffix: ent-CMUYautjaStabilisingCrystal-suffix
   components:
   - type: Healing
     damageContainers:
@@ -199,9 +199,9 @@
 - type: entity
   parent: ShardCrystalCyan
   id: CMUYautjaHumanStabilisingCrystal
-  name: human stabilising crystal
-  description: A bracer-grown crystal tuned for humans and thralls.
-  suffix: Yautja
+  name: ent-CMUYautjaHumanStabilisingCrystal
+  description: ent-CMUYautjaHumanStabilisingCrystal-desc
+  suffix: ent-CMUYautjaHumanStabilisingCrystal-suffix
   components:
   - type: Healing
     damageContainers:
@@ -230,15 +230,15 @@
 - type: entity
   parent: CMUYautjaAutoInjector
   id: CMUYautjaHealingCapsule
-  name: healing capsule
-  description: A disposable bracer-fabricated capsule of emergency predator medicine.
-  suffix: Yautja
+  name: ent-CMUYautjaHealingCapsule
+  description: ent-CMUYautjaHealingCapsule-desc
+  suffix: ent-CMUYautjaHealingCapsule-suffix
 
 - type: entity
   parent: BaseItem
   id: CMUYautjaMaskOrnament
-  name: mask ornament
-  description: A small ceremonial ornament that clips into a Yautja bio-mask.
+  name: ent-CMUYautjaMaskOrnament
+  description: ent-CMUYautjaMaskOrnament-desc
   components:
   - type: Sprite
     sprite: Objects/Misc/guardian_info.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMUYautjaCloakPack
-  name: cloaking field harness
-  description: A compact field harness tuned for Yautja optical camouflage.
+  name: ent-CMUYautjaCloakPack
+  description: ent-CMUYautjaCloakPack-desc
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/cape_full.rsi
@@ -291,8 +291,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaSmartDisc
-  name: smart disc
-  description: A razor-edged Yautja throwing disc keyed to its owner.
+  name: ent-CMUYautjaSmartDisc
+  description: ent-CMUYautjaSmartDisc-desc
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/smart_disc.rsi
@@ -360,8 +360,8 @@
 - type: entity
   parent: BaseWeaponBattery
   id: CMUYautjaPlasmaCaster
-  name: shoulder plasma caster
-  description: A compact alien plasma weapon that draws power from a hunting bracer.
+  name: ent-CMUYautjaPlasmaCaster
+  description: ent-CMUYautjaPlasmaCaster-desc
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/plasma_caster.rsi
@@ -421,8 +421,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseMeleeWeapon ]
   id: CMUYautjaWristBlades
-  name: wrist blades
-  description: Retractable twin blades keyed to a hunting bracer.
+  name: ent-CMUYautjaWristBlades
+  description: ent-CMUYautjaWristBlades-desc
   components:
   - type: Sharp
   - type: Sprite
@@ -462,8 +462,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseMeleeWeapon ]
   id: CMUYautjaScimitar
-  name: combi scimitar
-  description: A long alien hunting blade with a brutal monomolecular edge.
+  name: ent-CMUYautjaScimitar
+  description: ent-CMUYautjaScimitar-desc
   components:
   - type: Sharp
   - type: Sprite
@@ -505,8 +505,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseMeleeWeapon ]
   id: CMUYautjaChainGauntlet
-  name: chain gauntlet
-  description: A heavy gauntlet weapon with compact linked chain drives.
+  name: ent-CMUYautjaChainGauntlet
+  description: ent-CMUYautjaChainGauntlet-desc
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/chain_gauntlet.rsi
@@ -540,8 +540,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaBracerShield
-  name: bracer shield
-  description: A compact hard-light shield projected from the hunting bracer.
+  name: ent-CMUYautjaBracerShield
+  description: ent-CMUYautjaBracerShield-desc
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/bracer_shield.rsi
@@ -587,9 +587,9 @@
 - type: entity
   parent: CMUpgradedTraumaKit1
   id: CMUYautjaAdvancedBruisePack
-  name: predator advanced trauma pack
-  description: A compact alien poultice for closing savage wounds.
-  suffix: Yautja
+  name: ent-CMUYautjaAdvancedBruisePack
+  description: ent-CMUYautjaAdvancedBruisePack-desc
+  suffix: ent-CMUYautjaAdvancedBruisePack-suffix
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -607,9 +607,9 @@
 - type: entity
   parent: CMUpgradedBurnKit1
   id: CMUYautjaAdvancedOintment
-  name: predator advanced ointment
-  description: A cool alien salve for sealing burns and caustic injuries.
-  suffix: Yautja
+  name: ent-CMUYautjaAdvancedOintment
+  description: ent-CMUYautjaAdvancedOintment-desc
+  suffix: ent-CMUYautjaAdvancedOintment-suffix
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -627,9 +627,9 @@
 - type: entity
   parent: MedicatedSuture
   id: CMUYautjaHealingGel
-  name: healing gel
-  description: A dense alien coagulant that knits together broad trauma.
-  suffix: Yautja
+  name: ent-CMUYautjaHealingGel
+  description: ent-CMUYautjaHealingGel-desc
+  suffix: ent-CMUYautjaHealingGel-suffix
   components:
   - type: Sprite
     state: medicated-suture
@@ -664,7 +664,7 @@
 
 - type: stack
   id: CMUYautjaHealingGel
-  name: healing gel
+  name: stack-cmuyautjahealinggel-name
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: medicated-suture }
   spawn: CMUYautjaHealingGel
   maxCount: 6
@@ -672,9 +672,9 @@
 - type: entity
   parent: RegenerativeMesh
   id: CMUYautjaStabilizerGel
-  name: stabilizer gel
-  description: A fast-setting alien gel for buying time through shock and blood loss.
-  suffix: Yautja
+  name: ent-CMUYautjaStabilizerGel
+  description: ent-CMUYautjaStabilizerGel-desc
+  suffix: ent-CMUYautjaStabilizerGel-suffix
   components:
   - type: Healing
     damageContainers:
@@ -704,7 +704,7 @@
 
 - type: stack
   id: CMUYautjaStabilizerGel
-  name: stabilizer gel
+  name: stack-cmuyautjastabilizergel-name
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: regenerative-mesh }
   spawn: CMUYautjaStabilizerGel
   maxCount: 6
@@ -712,15 +712,14 @@
 - type: entity
   parent: CMHemostatPredator
   id: CMUYautjaWoundClamp
-  name: wound clamp
-  description: A predator surgical clamp made to seal catastrophic bleeding.
-
+  name: ent-CMUYautjaWoundClamp
+  description: ent-CMUYautjaWoundClamp-desc
 - type: entity
   parent: BaseItem
   id: CMUYautjaHealingGun
-  name: healing gun
-  description: A compact alien applicator for rapid emergency treatment.
-  suffix: Yautja
+  name: ent-CMUYautjaHealingGun
+  description: ent-CMUYautjaHealingGun-desc
+  suffix: ent-CMUYautjaHealingGun-suffix
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/healing_gun.rsi
@@ -752,16 +751,16 @@
 - type: entity
   parent: CMHealthAnalyzer
   id: CMUYautjaAlienHealthAnalyzer
-  name: alien health analyzer
-  description: A bio-scanner tuned for alien physiology and battlefield triage.
-  suffix: Yautja
+  name: ent-CMUYautjaAlienHealthAnalyzer
+  description: ent-CMUYautjaAlienHealthAnalyzer-desc
+  suffix: ent-CMUYautjaAlienHealthAnalyzer-suffix
 
 - type: entity
   parent: CMAutoInjector
   id: CMUYautjaAutoInjector
-  name: yautja autoinjector
-  description: An alien autoinjector loaded with a strong trauma and burn treatment cocktail.
-  suffix: Yautja
+  name: ent-CMUYautjaAutoInjector
+  description: ent-CMUYautjaAutoInjector-desc
+  suffix: ent-CMUYautjaAutoInjector-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/emergency_auto_injector.rsi
@@ -805,9 +804,9 @@
 - type: entity
   parent: CMSurgicalCase
   id: CMUYautjaHerbalCase
-  name: herbs case
-  description: A small case packed with Yautja trauma poultices and burn salves.
-  suffix: Yautja, Filled
+  name: ent-CMUYautjaHerbalCase
+  description: ent-CMUYautjaHerbalCase-desc
+  suffix: ent-CMUYautjaHerbalCase-suffix
   components:
   - type: Storage
     maxItemSize: Small
@@ -823,9 +822,9 @@
 - type: entity
   parent: BaseStorageItem
   id: CMUYautjaMedicomp
-  name: medicomp
-  description: A predator compact medical kit stocked for solo field recovery.
-  suffix: Yautja, Filled
+  name: ent-CMUYautjaMedicomp
+  description: ent-CMUYautjaMedicomp-desc
+  suffix: ent-CMUYautjaMedicomp-suffix
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -867,9 +866,9 @@
 - type: entity
   parent: ColMarTechBase
   id: CMUYautjaLoadoutVendor
-  name: Yautja hunting gear rack
-  description: A restricted event rack for alien hunter loadout adjustments.
-  suffix: Yautja, Event
+  name: ent-CMUYautjaLoadoutVendor
+  description: ent-CMUYautjaLoadoutVendor-desc
+  suffix: ent-CMUYautjaLoadoutVendor-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/equipment.rsi

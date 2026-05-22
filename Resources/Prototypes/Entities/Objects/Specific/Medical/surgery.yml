@@ -15,10 +15,10 @@
 # Cautery
 
 - type: entity
-  name: cautery
+  name: ent-Cautery
   id: Cautery
   parent: BaseToolSurgery
-  description: A surgical tool used to cauterize open wounds.
+  description: ent-Cautery-desc
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/cautery.rsi
@@ -36,10 +36,10 @@
 # Drill
 
 - type: entity
-  name: drill
+  name: ent-Drill
   id: Drill
   parent: BaseToolSurgery
-  description: A surgical drill for making holes into hard material.
+  description: ent-Drill-desc
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/drill.rsi
@@ -61,10 +61,10 @@
 # Scalpel
 
 - type: entity
-  name: scalpel
+  name: ent-Scalpel
   id: Scalpel
   parent: BaseToolSurgery
-  description: A surgical tool used to make incisions into flesh.
+  description: ent-Scalpel-desc
   components:
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
@@ -92,10 +92,10 @@
       path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  name: shiv
+  name: ent-ScalpelShiv
   id: ScalpelShiv
   parent: Scalpel
-  description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
+  description: ent-ScalpelShiv-desc # Could become a decent tool or weapon with right tool mods.
   components:
   - type: Sprite
     state: shiv
@@ -103,10 +103,10 @@
     heldPrefix: shiv
 
 - type: entity
-  name: advanced scalpel
+  name: ent-ScalpelAdvanced
   id: ScalpelAdvanced
   parent: Scalpel
-  description: Made of more expensive materials, sharper and generally more reliable.
+  description: ent-ScalpelAdvanced-desc
   components:
   - type: Sprite
     state: advanced
@@ -118,10 +118,10 @@
         Slash: 12
 
 - type: entity
-  name: laser scalpel
+  name: ent-ScalpelLaser
   id: ScalpelLaser
   parent: Scalpel
-  description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
+  description: ent-ScalpelLaser-desc
   components:
   - type: Sprite
     state: laser
@@ -131,10 +131,10 @@
 # Scissors
 
 - type: entity
-  name: retractor
+  name: ent-Retractor
   id: Retractor
   parent: BaseToolSurgery
-  description: A surgical tool used to hold open incisions.
+  description: ent-Retractor-desc
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scissors.rsi
@@ -144,10 +144,10 @@
     storedRotation: 90
 
 - type: entity
-  name: hemostat
+  name: ent-Hemostat
   id: Hemostat
   parent: Retractor
-  description: A surgical tool used to compress blood vessels to prevent bleeding.
+  description: ent-Hemostat-desc
   components:
   - type: Sprite
     state: hemostat
@@ -164,10 +164,10 @@
 # Saws
 
 - type: entity
-  name: metal saw
+  name: ent-Saw
   id: Saw
   parent: BaseToolSurgery
-  description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
+  description: ent-Saw-desc
   components:
   - type: Sharp
   - type: Utensil
@@ -186,10 +186,10 @@
 # No melee for regular saw because have you ever seen someone use a band saw as a weapon? It's dumb.
 
 - type: entity
-  name: choppa
+  name: ent-SawImprov
   id: SawImprov
   parent: Saw
-  description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
+  description: ent-SawImprov-desc # It would make a pretty decent weapon, given there are more space for some tool mods too.
   components:
   - type: Sprite
     state: improv
@@ -206,10 +206,10 @@
     speedModifier: 0.5
 
 - type: entity
-  name: circular saw
+  name: ent-SawElectric
   id: SawElectric
   parent: Saw
-  description: For heavy duty cutting.
+  description: ent-SawElectric-desc
   components:
   - type: Sprite
     state: electric
@@ -225,10 +225,10 @@
     speedModifier: 1.5
 
 - type: entity
-  name: advanced circular saw
+  name: ent-SawAdvanced
   id: SawAdvanced
   parent: [ SawElectric, BaseSyndicateContraband ]
-  description: Interdyne's state-of-the-art surgical saw. Guaranteed to stay spotless and sterile, no matter how messy the job.
+  description: ent-SawAdvanced-desc
   components:
   - type: Sprite
     state: advanced

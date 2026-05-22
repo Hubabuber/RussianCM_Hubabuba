@@ -1,8 +1,8 @@
 - type: entity
   parent: Handcuffs
   id: RMCHandcuffs
-  name: handcuffs
-  description: Use this to keep prisoners in line.
+  name: ent-RMCHandcuffs
+  description: ent-RMCHandcuffs-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/handcuffs.rsi
@@ -19,9 +19,9 @@
 - type: entity
   parent: RMCHandcuffs
   id: RMCZipties
-  name: zipties
-  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
-  suffix: RMC
+  name: ent-RMCZipties
+  description: ent-RMCZipties-desc
+  suffix: ent-RMCZipties-suffix
   components:
   - type: UseDelay
     delay: 4

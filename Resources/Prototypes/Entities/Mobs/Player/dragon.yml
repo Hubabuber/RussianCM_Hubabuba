@@ -1,9 +1,9 @@
 - type: entity
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   id: BaseMobDragon
-  suffix: ""
-  name: space dragon
-  description: A flying leviathan, loosely related to space carps.
+  suffix: "ent-BaseMobDragon-suffix"
+  name: ent-BaseMobDragon
+  description: ent-BaseMobDragon-desc
   abstract: true
   components:
   - type: Bloodstream
@@ -187,8 +187,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: DragonsBreathGun
-  name: dragon's lung
-  description: For dragon's breathing.
+  name: ent-DragonsBreathGun
+  description: ent-DragonsBreathGun-desc
   components:
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 5
@@ -207,7 +207,7 @@
 - type: entity
   parent: BaseMobDragon
   id: MobDragonDungeon
-  suffix: Dungeon
+  suffix: ent-MobDragonDungeon-suffix
   components:
   - type: GhostRole
     description: ghost-role-information-space-dragon-dungeon-description
@@ -234,8 +234,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSpawnRift
-  name: Summon Carp Rift
-  description: Summons a carp rift that will periodically spawns carps.
+  name: ent-ActionSpawnRift
+  description: ent-ActionSpawnRift-desc
   components:
   - type: Action
     icon:
@@ -249,8 +249,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDevour
-  name: "[color=red]Devour[/color]"
-  description: Attempt to break a structure with your jaws or swallow a creature.
+  name: "ent-ActionDevour"
+  description: ent-ActionDevour-desc
   components:
   - type: Action
     icon: { sprite : Interface/Actions/devour.rsi, state: icon }
@@ -271,8 +271,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDragonsBreath
-  name: "[color=orange]Dragon's Breath[/color]"
-  description: Spew out flames at anyone foolish enough to attack you!
+  name: "ent-ActionDragonsBreath"
+  description: ent-ActionDragonsBreath-desc
   components:
   - type: Action
     # TODO: actual sprite and iconOn

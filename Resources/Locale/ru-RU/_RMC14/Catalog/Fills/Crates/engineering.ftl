@@ -12,3 +12,6 @@ ent-RMCCratePlasteelSheets = ящик пласталевых листов
 ent-RMCCrateMetalSheets = ящик металлических листов
 ent-RMCCrateSandbagsConstructionKit = набор для строительства мешков с песком
 ent-RMCCrateEmptySandbags = ящик пустых мешков с песком
+
+ent-RMCCrateInflatableBarriers = ящик для надувных барьеров
+    .desc = Строительный ящик.

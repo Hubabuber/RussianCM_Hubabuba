@@ -2,8 +2,8 @@
 - type: entity
   id: RMCAirScrubberPortable
   parent: BaseStructureDynamic
-  name: portable air scrubber
-  description: It scrubs, portably!
+  name: ent-RMCAirScrubberPortable
+  description: ent-RMCAirScrubberPortable-desc
   components:
   - type: Transform
   - type: Physics
@@ -64,8 +64,8 @@
 - type: entity
   id: RMCAirScrubberStationary
   parent: RMCAirScrubberPortable
-  name: stationary air scrubber
-  description: It's large and securely attached.
+  name: ent-RMCAirScrubberStationary
+  description: ent-RMCAirScrubberStationary-desc
   components:
   - type: Physics
     bodyType: Static
@@ -83,8 +83,8 @@
 - type: entity
   id: RMCAirPumpPortable
   parent: RMCAirScrubberPortable
-  name: portable air pump
-  description: A movable pump that can move air around.
+  name: ent-RMCAirPumpPortable
+  description: ent-RMCAirPumpPortable-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -106,8 +106,8 @@
 - type: entity
   id: RMCAirPumpStationary
   parent: RMCAirPumpPortable
-  name: stationary air pump
-  description: It's large and securely attached.
+  name: ent-RMCAirPumpStationary
+  description: ent-RMCAirPumpStationary-desc
   components:
   - type: Physics
     bodyType: Static
@@ -124,8 +124,8 @@
 # Heaters
 - type: entity
   id: RMCRadiator
-  name: radiator
-  description: It's a radiator. It heats the room through convection with hot water.
+  name: ent-RMCRadiator
+  description: ent-RMCRadiator-desc
   components:
   - type: Transform
   - type: Physics
@@ -160,8 +160,8 @@
 - type: entity
   id: RMCRadiatorRed
   parent: RMCRadiator
-  name: radiator
-  description: It's a radiator. It heats the room through convection with hot water. This one has a red handle.
+  name: ent-RMCRadiatorRed
+  description: ent-RMCRadiatorRed-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -170,8 +170,8 @@
 - type: entity
   id: RMCSpaceHeater
   parent: BaseStructureDynamic
-  name: space heater
-  description: It's an electric space heater. It heats the room through radiation with electricity.
+  name: ent-RMCSpaceHeater
+  description: ent-RMCSpaceHeater-desc
   components:
   - type: VehicleSmashable
   - type: Transform

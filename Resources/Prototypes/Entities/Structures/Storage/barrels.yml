@@ -2,8 +2,8 @@
   parent: [ StorageTank ]
   id: BaseBarrelChem
   abstract: true
-  name: chemical barrel
-  description: A small metal drum. How tropical.
+  name: ent-BaseBarrelChem
+  description: ent-BaseBarrelChem-desc
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -55,8 +55,8 @@
   parent: BaseBarrelChem
   id: BaseBarrelChemRadioactive
   abstract: true
-  name: radioactive barrel
-  description: It seems to be leaking a bit. I don't think you'd want to be around this for long.
+  name: ent-BaseBarrelChemRadioactive
+  description: ent-BaseBarrelChemRadioactive-desc
   components:
   - type: Sprite
     state: radbarrel
@@ -90,12 +90,12 @@
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemEmpty
-  suffix: Empty
+  suffix: ent-BarrelChemEmpty-suffix
 
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemFilledIodine
-  suffix: Iodine
+  suffix: ent-BarrelChemFilledIodine-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -108,7 +108,7 @@
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemFilledFluorine
-  suffix: Fluorine
+  suffix: ent-BarrelChemFilledFluorine-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -121,7 +121,7 @@
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemFilledChlorine
-  suffix: Chlorine
+  suffix: ent-BarrelChemFilledChlorine-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -134,7 +134,7 @@
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemFilledEthanol
-  suffix: Ethanol
+  suffix: ent-BarrelChemFilledEthanol-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -147,7 +147,7 @@
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemFilledPhosphorus
-  suffix: Phosphorus
+  suffix: ent-BarrelChemFilledPhosphorus-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -160,7 +160,7 @@
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemFilledMercury
-  suffix: Mercury
+  suffix: ent-BarrelChemFilledMercury-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -173,7 +173,7 @@
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemFilledSilicon
-  suffix: Silicon
+  suffix: ent-BarrelChemFilledSilicon-suffix
   components:
   - type: Sprite
     state: silicatebarrel
@@ -188,8 +188,8 @@
 - type: entity
   parent: BaseBarrelChem
   id: BarrelChemFilledLube
-  suffix: Lube
-  description: Slippery...
+  suffix: ent-BarrelChemFilledLube-suffix
+  description: ent-BarrelChemFilledLube-desc
   components:
   - type: Sprite
     state: silicatebarrel
@@ -204,12 +204,12 @@
 - type: entity
   parent: BaseBarrelChemRadioactive
   id: BaseBarrelChemRadioactiveEmpty
-  suffix: Empty
+  suffix: ent-BaseBarrelChemRadioactiveEmpty-suffix
 
 - type: entity
   parent: BaseBarrelChemRadioactive
   id: BaseBarrelChemRadioactiveFilledRadium
-  suffix: Radium
+  suffix: ent-BaseBarrelChemRadioactiveFilledRadium-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -222,7 +222,7 @@
 - type: entity
   parent: BaseBarrelChemRadioactive
   id: BaseBarrelChemRadioactiveFilledUranium
-  suffix: Uranium
+  suffix: ent-BaseBarrelChemRadioactiveFilledUranium-suffix
   components:
   - type: SolutionContainerManager
     solutions:

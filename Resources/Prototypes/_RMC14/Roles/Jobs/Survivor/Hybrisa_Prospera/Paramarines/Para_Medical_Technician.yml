@@ -6,7 +6,7 @@
     RMCRankParaLanceCorporal: [ ]
   startingGear: RMCGearParaMedicalTechnician
   icon: RMCJobIconParaMedicalTechnican
-  spawnMenuRoleName: Royal Paramarine Medical Technician (Survivor)
+  spawnMenuRoleName: job-rmcsurvivorparamedicaltechnician-spawnmenurolename
   special:
     - !type:AddComponentSpecial
       components:
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointParaMedicalTechnician
-  name: paramarine combat medical technician spawn point
+  name: ent-RMCSpawnPointParaMedicalTechnician
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorParaMedicalTechnician
@@ -61,4 +61,4 @@
   icon:
     sprite: _RMC14/Interface/cm_job_icons.rsi
     state: para_medic
-    
+

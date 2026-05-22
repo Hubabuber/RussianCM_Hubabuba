@@ -1,8 +1,8 @@
 - type: entity
   id: OrganVoxLungs
   parent: OrganHumanLungs
-  description: "The blue, anaerobic lungs of a vox, they intake nitrogen to breathe. Any form of gaseous oxygen is lethally toxic if breathed in."
-  suffix: "vox"
+  description: "ent-OrganVoxLungs-desc"
+  suffix: "ent-OrganVoxLungs-suffix"
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/organs.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: OrganHumanStomach
   id: OrganVoxStomach
-  name: stomach
-  description: "A stomach that smells of ammonia."
+  name: ent-OrganVoxStomach
+  description: "ent-OrganVoxStomach-desc"
   components:
   - type: Metabolizer #Skreeeee!
     metabolizerTypes: [Vox]
@@ -32,8 +32,8 @@
 - type: entity
   parent: OrganHumanLiver
   id: OrganVoxLiver
-  name: liver
-  description: "Smells flammable."
+  name: ent-OrganVoxLiver
+  description: "ent-OrganVoxLiver-desc"
   components:
   - type: Metabolizer
     metabolizerTypes: [Vox]
@@ -41,8 +41,8 @@
 - type: entity
   parent: OrganHumanHeart
   id: OrganVoxHeart
-  name: heart
-  description: "The strange heart of a vox."
+  name: ent-OrganVoxHeart
+  description: "ent-OrganVoxHeart-desc"
   components:
   - type: Metabolizer
     metabolizerTypes: [Vox]

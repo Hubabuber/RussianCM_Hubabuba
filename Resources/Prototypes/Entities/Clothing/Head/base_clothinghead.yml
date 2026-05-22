@@ -48,7 +48,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadLightBase
-  name: base helmet with light
+  name: ent-ClothingHeadLightBase
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEVAHelmetBase
-  name: base space helmet
+  name: ent-ClothingHeadEVAHelmetBase
   components:
 # SlotBlocker blocked until UI change
 #  - type: SlotBlock
@@ -146,7 +146,7 @@
   abstract: true
   # No parent since we aren't actually an item.
   id: ClothingHeadHardsuitBase
-  name: base hardsuit helmet
+  name: ent-ClothingHeadHardsuitBase
   categories: [ HideSpawnMenu ]
   components:
 # SlotBlocker blocked until UI change
@@ -195,7 +195,7 @@
   # No parent since it isn't an item
   # must parent both this and the desired helmet base when using
   id: ClothingHeadSuitWithLightBase
-  name: base hardsuit helmet with light
+  name: ent-ClothingHeadSuitWithLightBase
   categories: [ HideSpawnMenu ]
   components:
 # SlotBlocker blocked until UI change
@@ -251,8 +251,8 @@
 - type: entity
   abstract: true
   id: ClothingHeadHatHoodWinterBase
-  name: base winter coat hood
-  description: A hood, made to keep your head warm.
+  name: ent-ClothingHeadHatHoodWinterBase
+  description: ent-ClothingHeadHatHoodWinterBase-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

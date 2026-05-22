@@ -4,7 +4,7 @@
   name: rmc-job-name-survivor-tmcc-miner
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaTMCCMiner
-  spawnMenuRoleName: TMCC Miner (Hybrisa Survivor)
+  spawnMenuRoleName: job-rmcsurvivorhybrisatmccminer-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -29,7 +29,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaTMCCMiner
-  name: tmcc miner spawn point
+  name: ent-RMCSpawnPointSurvivorHybrisaTMCCMiner
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaTMCCMiner
-  name: tmcc miner preset
+  name: ent-RMCGearSurvivorPresetHybrisaTMCCMiner
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -12,8 +12,8 @@
 - type: entity
   parent: [ RMCRailAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentRailFlashlight
-  name: rail flashlight
-  description: A flashlight, for rails, on guns. Can be toggled on and off. A better light source than standard M3 pattern armor lights.
+  name: ent-RMCAttachmentRailFlashlight
+  description: ent-RMCAttachmentRailFlashlight-desc
   components:
   - type: ItemTogglePointLight
   - type: ToggleableVisuals
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentMagneticHarness
-  name: magnetic harness
-  description: A magnetically attached harness kit that attaches to the rail mount of a weapon. When dropped, the weapon will sling to any set of Marine armor.
+  name: ent-RMCAttachmentMagneticHarness
+  description: ent-RMCAttachmentMagneticHarness-desc
   components:
   - type: Sprite
     state: magnetic
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentS5MicroRedDotSight
-  name: S5-Micro dot sight
-  description: A lightweight, low-profile dot optic designed for rapid target acquisition with minimal weight penalty. Optimized for submachine guns and sidearms, it's ideal for close-quarters combat where speed and agility matter most.
+  name: ent-RMCAttachmentS5MicroRedDotSight
+  description: ent-RMCAttachmentS5MicroRedDotSight-desc
   components:
   - type: Sprite
     state: reddot_small
@@ -242,8 +242,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentS84xTelescopicScope
-  name: S8 4x telescopic scope
-  description: An AEGIS S8 telescopic eye piece. Fixed at 4x zoom.
+  name: ent-RMCAttachmentS84xTelescopicScope
+  description: ent-RMCAttachmentS84xTelescopicScope-desc
   components:
   - type: Sprite
     state: sniperscope
@@ -289,8 +289,8 @@
 - type: entity
   parent: RMCAttachmentS84xTelescopicScope
   id: RMCAttachmentSlavicScope
-  name: 4x telescopic scope
-  description: Oppa! How did you get this off glorious Stalin weapon? Blyat, put back on and do job tovarish. Yankee is not shoot self no?
+  name: ent-RMCAttachmentSlavicScope
+  description: ent-RMCAttachmentSlavicScope-desc
   components:
   - type: Sprite
     state: slavicscope
@@ -382,8 +382,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentHuntingScope
-  name: 2x hunting mini-scope
-  description: This civilian-grade scope is a common sight on hunting rifles due to its cheap price and great optics. Fixed at a modest 2x zoom.
+  name: ent-RMCAttachmentHuntingScope
+  description: ent-RMCAttachmentHuntingScope-desc
   components:
   - type: Sprite
     state: huntingscope
@@ -395,8 +395,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentS42xAdvancedTelescopicMiniscope
-  name: WeYa S4 2x advanced telescopic mini-scope
-  description: An AEGIS S4 telescoping eye piece, custom-tuned by WeYa scientists to be as ergonomic as possible.
+  name: ent-RMCAttachmentS42xAdvancedTelescopicMiniscope
+  description: ent-RMCAttachmentS42xAdvancedTelescopicMiniscope-desc
   components:
   - type: Sprite
     state: miniscope-nsg23
@@ -422,8 +422,8 @@
 - type: entity
   parent: RMCAttachmentS84xTelescopicScope
   id: RMCAttachmentMiniscopeHunting
-  name: 4x hunting mini-scope
-  description: This civilian-grade scope is a common sight on hunting rifles due to its cheap price and great optics. Fixed at a modest 2x zoom.
+  name: ent-RMCAttachmentMiniscopeHunting
+  description: ent-RMCAttachmentMiniscopeHunting-desc
   components:
   - type: Sprite
     state: huntingscope
@@ -443,8 +443,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentB8SmartScope
-  name: B8 scope
-  description: An experimental B8 Scope. It can only attach to the M4 Battle Rifle series and the M44 Combat Revolver. Despite common opinion, it is in fact not smart.
+  name: ent-RMCAttachmentB8SmartScope
+  description: ent-RMCAttachmentB8SmartScope-desc
   components:
   - type: Sprite
     state: iffbarrel
@@ -473,8 +473,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCM96SIntegratedScope
-  name: M96S integrated scope
-  description: This isn't supposed to come off the gun. How did you get it?
+  name: ent-RMCM96SIntegratedScope
+  description: ent-RMCM96SIntegratedScope-desc
   components:
   - type: Sprite
     state: m96s-scope
@@ -526,8 +526,8 @@
 - type: entity
   parent: RMCM96SIntegratedScope
   id: RMCXM43E1IntegratedScope
-  name: XM43E1 integrated scope
-  description: This isn't supposed to come off the gun. How did you get it?
+  name: ent-RMCXM43E1IntegratedScope
+  description: ent-RMCXM43E1IntegratedScope-desc
   components:
   - type: Sprite
     state: xm43e1_scope
@@ -545,8 +545,8 @@
 - type: entity
   parent: RMCM96SIntegratedScope
   id: RMCType88IntegratedScope
-  name: Type 88 integrated scope
-  description: This isn't supposed to come off the gun. How did you get it?
+  name: ent-RMCType88IntegratedScope
+  description: ent-RMCType88IntegratedScope-desc
   components:
   - type: Sprite
     state: type88_scope
@@ -564,8 +564,8 @@
 - type: entity
   parent: RMCM96SIntegratedScope
   id: RMCL112IntegratedScope
-  name: L112O1 integrated scope
-  description: Blimey! I don't think that bit was supposed to come off the rifle...
+  name: ent-RMCL112IntegratedScope
+  description: ent-RMCL112IntegratedScope-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_rail.rsi
@@ -585,8 +585,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentXS-9
-  name: XS-9 targeting relay
-  description: While still in development, the XS-9 Targeting Relay has many features -- most of them disabled for the field testing -- functions slightly better than a standard scope.
+  name: ent-RMCAttachmentXS-9
+  description: ent-RMCAttachmentXS-9-desc
   components:
   - type: Sprite
     state: d_boomslang-scope
@@ -641,8 +641,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentSASOS
-  name: L91O1 SASOS
-  description: The TSE-produced Small Arms Smart Optical Sight, or SASOS, is an experimental, next-gen IFF-enabling optic designed for use as part of the L91 Support Weapon System.
+  name: ent-RMCAttachmentSASOS
+  description: ent-RMCAttachmentSASOS-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_rail.rsi
@@ -688,8 +688,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentScopeMGLIntegrated
-  name: L989A2 collimator sight assembly
-  description: Blimey... I think that's supposed to be stuck on...
+  name: ent-RMCAttachmentScopeMGLIntegrated
+  description: ent-RMCAttachmentScopeMGLIntegrated-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
@@ -721,8 +721,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentL89Scope
-  name: L89 integrated optic
-  description: The rifle's about as useful as you are now, you wanker. Put it back on.
+  name: ent-RMCAttachmentL89Scope
+  description: ent-RMCAttachmentL89Scope-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_rail.rsi

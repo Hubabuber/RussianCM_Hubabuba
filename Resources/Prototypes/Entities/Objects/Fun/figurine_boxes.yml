@@ -1,8 +1,8 @@
 - type: entity
   id: MysteryFigureBoxTrash
   parent: BaseItem
-  name: unfolded cardboard box
-  description: A small, unfolded cardboard toy box.
+  name: ent-MysteryFigureBoxTrash
+  description: ent-MysteryFigureBoxTrash-desc
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -18,8 +18,8 @@
 - type: entity
   parent: PresentRandom
   id: MysteryFigureBox
-  name: mystery spacemen minifigure box
-  description: A box containing a mystery minifigure. The side of the box depicts a few blacked-out 'rare' figures, including one with a large, non-humanoid shilouette.
+  name: ent-MysteryFigureBox
+  description: ent-MysteryFigureBox-desc
   components:
   - type: Sprite
     sprite: Objects/Fun/figurines.rsi
@@ -137,9 +137,9 @@
 - type: entity
   parent: BaseItem
   id: MysteryLighterBox
-  name: Novelty lighter mystery box
-  suffix: Filled
-  description: A box of discontinued promotional lighters, many of which have since been declared "contraband".
+  name: ent-MysteryLighterBox
+  suffix: ent-MysteryLighterBox-suffix
+  description: ent-MysteryLighterBox-desc
   components:
   - type: Sprite
     sprite: Objects/Fun/figurines.rsi
@@ -175,7 +175,7 @@
 - type: entity
   parent: MysteryLighterBox
   id: UplinkLighterBox
-  suffix: Uplink
+  suffix: ent-UplinkLighterBox-suffix
   components:
   - type: SpawnItemsOnUse
     items:

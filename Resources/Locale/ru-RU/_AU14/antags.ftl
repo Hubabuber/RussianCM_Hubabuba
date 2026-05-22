@@ -40,3 +40,54 @@ roles-antag-serialkiller-objective = Убивать и избегать поим
 
 roles-antag-category-colony = Антагонисты колонии
 roles-antag-category-prometheus = Антагонисты «Прометея»
+
+ent-AU14DrugDealerDrugBackpack = сумка торговца наркотиками
+    .desc = Черная сумка, наполненная запрещенными веществами.
+
+ent-AU14StrikeOrganizerBackpack = радиопакет органайзера
+    .desc = Радиотелефонный комплект, который несет профсоюз.
+
+ent-MindRoleCLFGuerrilla = Партизанская роль CLF
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCLFLeader = Роль разума
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCLFPhysician = Роль разума
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCLFRecruit = Роль рекрута CLF
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCLFSubvertedSynth = CLF Subverted синтетик Роль
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCLFSurgeon = Роль разума
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCLFVeteran = Роль ветерана CLF
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCannibal = Роль каннибала
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCorporateSpy = Роль корпоративного шпиона
+    .desc = Ролевая сущность разума
+
+ent-MindRoleCultist = Роль разума
+    .desc = Ролевая сущность разума
+
+ent-MindRoleDrugDealer = Роль торговца наркотиками
+    .desc = Ролевая сущность разума
+
+ent-MindRoleFugitive = Роль беглеца
+    .desc = Ролевая сущность разума
+
+ent-MindRoleRunawaySynth = Беглый синтетик Роль
+    .desc = Ролевая сущность разума
+
+ent-MindRoleSerialKiller = Роль серийного убийцы
+    .desc = Ролевая сущность разума
+
+ent-MindRoleStrikeOrganizer = Роль организатора забастовки
+    .desc = Ролевая сущность разума

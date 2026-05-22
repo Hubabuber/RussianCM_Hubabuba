@@ -1,0 +1,10 @@
+accesslevel-rmcaccessspparmory-name = rmc-access-spp-armory
+accesslevel-rmcaccesssppcommando-name = RMC-доступ-SPP-коммандос
+accesslevel-rmcaccesssppengineering-name = RMC-доступ-SPP-инжиниринг
+accesslevel-rmcaccesssppflight-name = rmc-access-spp-flight
+accesslevel-rmcaccesssppgeneral-name = RMC-доступ-SPP-общий
+accesslevel-rmcaccesssppleadership-name = rmc-access-spp-лидерство
+accesslevel-rmcaccesssppmedical-name = rmc-access-spp-medical
+accesslevel-rmcaccesssppresearch-name = RMC-доступ-SPP-исследования
+accesslevel-rmcaccesssppsecurity-name = RMC-доступ-SPP-безопасность
+accesslevel-rmcaccesssppseniorlead-name = rmc-access-spp-старший-лидер

@@ -3,3 +3,6 @@ ent-RMCSpawnPointSurvivorFiorinaRiotInProgressCMBRiotControlOfficer = Особы
 
 ent-RMCSurvivorPresetRiotInProgressCMBRCTL = Бунт в процессе CMB RCTL пресет
 
+job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-desc = cm-описание-работы-выживший
+job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-name = RMC-название-должности-бюро-руководитель-группы по борьбе с беспорядками
+job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-spawnmenurolename = Руководитель группы CMB по борьбе с беспорядками (специальный выживший)

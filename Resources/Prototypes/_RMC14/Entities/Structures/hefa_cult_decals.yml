@@ -1,9 +1,9 @@
 - type: entity
   id: RMCHefaDecalBase
-  name: strange paint marks
-  description: You think you can make out the iconography of a HEFA grenade.
+  name: ent-RMCHefaDecalBase
+  description: ent-RMCHefaDecalBase-desc
   abstract: true
-  suffix: Floor
+  suffix: ent-RMCHefaDecalBase-suffix
   placement:
     mode: SnapgridCenter
   components:
@@ -22,7 +22,7 @@
   parent: RMCHefaDecalBase
   id: RMCHefaDecalWallBase
   abstract: true
-  suffix: Wall
+  suffix: ent-RMCHefaDecalWallBase-suffix
   components:
   - type: Sprite
     drawdepth: WallTops

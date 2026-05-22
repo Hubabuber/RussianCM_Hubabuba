@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   id: FloorChasmEntity
-  name: chasm
-  description: You can't even see the bottom.
+  name: ent-FloorChasmEntity
+  description: ent-FloorChasmEntity-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -51,7 +51,7 @@
 - type: entity
   parent: FloorChasmEntity
   id: FloorChromiteChasm
-  suffix: Chromite
+  suffix: ent-FloorChromiteChasm-suffix
   components:
   - type: Sprite
     sprite: Tiles/Planet/Chasms/chromite_chasm.rsi
@@ -61,7 +61,7 @@
 - type: entity
   parent: FloorChasmEntity
   id: FloorDesertChasm
-  suffix: Desert
+  suffix: ent-FloorDesertChasm-suffix
   components:
   - type: Sprite
     sprite: Tiles/Planet/Chasms/desert_chasm.rsi
@@ -71,7 +71,7 @@
 - type: entity
   parent: FloorChasmEntity
   id: FloorSnowChasm
-  suffix: Snow
+  suffix: ent-FloorSnowChasm-suffix
   components:
   - type: Sprite
     sprite: Tiles/Planet/Chasms/snow_chasm.rsi

@@ -1,10 +1,10 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorDoctor
   id: CMSurvivorTrijentDoctor
   name: cm-job-name-survivor-trijent-doctor
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorTrijentDoctor
-  spawnMenuRoleName: Trijent Doctor (Trijent Survivor)
+  spawnMenuRoleName: job-cmsurvivortrijentdoctor-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentDoctor
-  name: survivor trijent doctor spawn point
+  name: ent-RMCSpawnPointSurvivorTrijentDoctor
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,5 +50,5 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetTrijentDoctor
-  name: trijent doctor colonist preset
+  name: ent-RMCGearSurvivorPresetTrijentDoctor
   categories: [ HideSpawnMenu ]

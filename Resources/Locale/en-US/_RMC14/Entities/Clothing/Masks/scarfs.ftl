@@ -1,0 +1,177 @@
+ent-RMCBaseScarfDown = item
+    .suffix = down
+
+ent-RMCBaseScarfMask = item
+
+ent-RMCMaskNeckerchiefAlpha = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefAlphaDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefBlack = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefBlackDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefBravo = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefBravoDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefCharlie = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefCharlieDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefDelta = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefDeltaDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefEcho = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefEchoDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefFoxtrot = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefFoxtrotDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefGray = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefGrayDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefGreen = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefGreenDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefRed = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefRedDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefSquad = UNMC squad neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+    .suffix = DO NOT MAP
+
+ent-RMCMaskNeckerchiefTan = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefTanDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskNeckerchiefWhite = neckerchief
+    .desc = A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
+
+ent-RMCMaskNeckerchiefWhiteDown = neckerchief
+    .suffix = down
+
+ent-RMCMaskScarfAlpha = alpha tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfAlphaDown = alpha tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfBlack = black tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfBlackDown = black tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfBravo = bravo tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfBravoDown = bravo tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfCharlie = charlie tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfCharlieDown = charlie tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfDelta = delta tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfDeltaDown = delta tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfEcho = echo tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfEchoDown = echo tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfFoxtrot = foxtrot tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfFoxtrotDown = foxtrot tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfGray = grey tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfGrayDown = grey tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfGreen = green tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfGreenDown = green tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfRed = red tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfRedDown = red tactical wrap
+    .suffix = down
+
+ent-RMCMaskScarfSquad = UNMC squad tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+    .suffix = DO NOT MAP
+
+ent-RMCMaskScarfTan = tan tactical wrap
+    .desc = A tactical wrap used by soldiers to conceal their face.
+
+ent-RMCMaskScarfTanDown = tan tactical wrap
+    .suffix = down
+
+ent-RMCMaskSmockBlack = tactical smock
+    .desc = A tactical smock used to keep warm in the cold, and provide increased camouflage.
+
+ent-RMCMaskSmockCamo = tactical smock
+    .desc = A tactical smock used to keep warm in the cold, and provide increased camouflage.
+    .suffix = camo
+
+ent-RMCMaskTornScarfBase = item
+
+ent-RMCMaskTornScarfBlack = tactical scarf
+    .desc = A tactical scarf used to keep warm in the cold.
+
+ent-RMCMaskTornScarfDesert = desert tactical scarf
+    .desc = A tactical scarf used to keep warm in the cold.
+
+ent-RMCMaskTornScarfGreen = green tactical scarf
+    .desc = A tactical scarf used to keep warm in the cold.
+
+ent-RMCMaskTornScarfGrey = grey tactical scarf
+    .desc = A tactical scarf used to keep warm in the cold.
+
+ent-RMCMaskTornScarfSnow = snow tactical scarf
+    .desc = A tactical scarf used to keep warm in the cold.
+
+ent-RMCMaskTornScarfUrban = urban tactical scarf
+    .desc = A tactical scarf used to keep warm in the cold.

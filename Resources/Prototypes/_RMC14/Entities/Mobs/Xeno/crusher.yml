@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoCrusherBase
-  name: Crusher
-  description: A huge alien with an enormous armored crest.
+  name: ent-CMXenoCrusherBase
+  description: ent-CMXenoCrusherBase-desc
   components:
   - type: TTS
     voice: BOYZ_ORKS
@@ -146,7 +146,7 @@
 - type: entity
   parent: CMXenoCrusherBase
   id: RMCXenoCrusherCharger
-  suffix: Charger
+  suffix: ent-RMCXenoCrusherCharger-suffix
   components:
   - type: Sprite
     sprite: _AU14/Mobs/Xenos/Crusher/charger_crusher.rsi # AU14-Edit

@@ -35,8 +35,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapCommon
-  name: Salvage Scrap Spawner
-  suffix: Common, 50%
+  name: ent-SalvageSpawnerScrapCommon
+  suffix: ent-SalvageSpawnerScrapCommon-suffix
   components:
   - type: Sprite
     layers:
@@ -52,7 +52,7 @@
 - type: entity
   parent: SalvageSpawnerScrapCommon
   id: SalvageSpawnerScrapCommon75
-  suffix: Common, 75%
+  suffix: ent-SalvageSpawnerScrapCommon75-suffix
   components:
   - type: EntityTableSpawner
     offset: 0.4
@@ -96,8 +96,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapValuable
-  name: Salvage Scrap Spawner
-  suffix: Valuable, 50%
+  name: ent-SalvageSpawnerScrapValuable
+  suffix: ent-SalvageSpawnerScrapValuable-suffix
   components:
   - type: Sprite
     layers:
@@ -113,7 +113,7 @@
 - type: entity
   parent: SalvageSpawnerScrapValuable
   id: SalvageSpawnerScrapValuable75
-  suffix: Valuable, 75%
+  suffix: ent-SalvageSpawnerScrapValuable75-suffix
   components:
   - type: EntityTableSpawner
     offset: 0.4
@@ -172,8 +172,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasure
-  name: Salvage Treasure Spawner
-  suffix: Common, 75%
+  name: ent-SalvageSpawnerTreasure
+  suffix: ent-SalvageSpawnerTreasure-suffix
   components:
   - type: Sprite
     layers:
@@ -241,8 +241,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasureValuable
-  name: Salvage Treasure Spawner
-  suffix: Valuable, 75%
+  name: ent-SalvageSpawnerTreasureValuable
+  suffix: ent-SalvageSpawnerTreasureValuable-suffix
   components:
   - type: Sprite
     layers:
@@ -300,8 +300,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipment
-  name: Salvage Equipment Spawner
-  suffix: Common, 75%
+  name: ent-SalvageSpawnerEquipment
+  suffix: ent-SalvageSpawnerEquipment-suffix
   components:
   - type: Sprite
     layers:
@@ -365,8 +365,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipmentValuable
-  name: Salvage Equipment Spawner
-  suffix: Valuable, 75%
+  name: ent-SalvageSpawnerEquipmentValuable
+  suffix: ent-SalvageSpawnerEquipmentValuable-suffix
   components:
   - type: Sprite
     layers:
@@ -380,7 +380,7 @@
       prob: 0.75
 
 - type: entity
-  name: Salvage Canister Spawner
+  name: ent-SalvageCanisterSpawner
   id: SalvageCanisterSpawner
   parent: MarkerBase
   components:
@@ -438,8 +438,8 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobMagnet
-  name: Salvage Magnet Mob Spawner
-  suffix: 50%
+  name: ent-SalvageSpawnerMobMagnet
+  suffix: ent-SalvageSpawnerMobMagnet-suffix
   components:
   - type: Sprite
     layers:
@@ -454,7 +454,7 @@
 - type: entity
   parent: SalvageSpawnerMobMagnet
   id: SalvageSpawnerMobMagnet75
-  suffix: 75%
+  suffix: ent-SalvageSpawnerMobMagnet75-suffix
   components:
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -464,7 +464,7 @@
 - type: entity
   parent: SalvageSpawnerMobMagnet
   id: SalvageSpawnerMobMagnet100
-  suffix: 100%
+  suffix: ent-SalvageSpawnerMobMagnet100-suffix
   components:
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -474,7 +474,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerStructuresVarious
-  name: Space Debris Structure Spawner
+  name: ent-SalvageSpawnerStructuresVarious
   components:
   - type: Sprite
     layers:
@@ -510,7 +510,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobShark
-  name: Salvage Sharkminnow Spawner
+  name: ent-SalvageSpawnerMobShark
   components:
   - type: Sprite
     layers:
@@ -527,7 +527,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobMiningAsteroid
-  name: Mining Asteroid Mob Spawner
+  name: ent-SalvageSpawnerMobMiningAsteroid
   components:
   - type: Sprite
     layers:

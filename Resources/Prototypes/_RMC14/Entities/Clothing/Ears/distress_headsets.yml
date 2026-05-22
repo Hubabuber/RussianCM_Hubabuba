@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHeadset
   id: CMHeadsetColony
-  name: colony headset
-  description: A standard headset used by colonists.
+  name: ent-CMHeadsetColony
+  description: ent-CMHeadsetColony-desc
   components:
   - type: ContainerFill
     containers:
@@ -13,9 +13,9 @@
 - type: entity
   parent: RMCHeadsetIcons
   id: RMCHeadsetColonyIcons
-  name: colony headset
-  description: A standard headset used by colonists.
-  suffix: With HUD Icons
+  name: ent-RMCHeadsetColonyIcons
+  description: ent-RMCHeadsetColonyIcons-desc
+  suffix: ent-RMCHeadsetColonyIcons-suffix
   components:
   - type: ContainerFill
     containers:
@@ -26,15 +26,14 @@
 - type: entity
   parent: [RMCHeadsetIconsCLF, CMHeadsetColony]
   id: RMCHeadsetDistressCLF
-  name: CLF headset
-  description: A special headset used by small groups of trained operatives. Or terrorists.
-
+  name: ent-RMCHeadsetDistressCLF
+  description: ent-RMCHeadsetDistressCLF-desc
 # For Bureau Marshals
 - type: entity
   parent: RMCHeadsetIconsCMB
   id: RMCHeadsetDistressBureau
-  name: bureau earpiece
-  description: A sleek headset used by The Colony Marshal Bureau. Low profile and comfortable. No one is above the law.
+  name: ent-RMCHeadsetDistressBureau
+  description: ent-RMCHeadsetDistressBureau-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/headsets.rsi
@@ -48,8 +47,8 @@
 - type: entity
   parent: RMCHeadsetDistressBureau
   id: RMCHeadsetDistressBureauDamaged
-  name: damaged bureau earpiece
-  description: A sleek headset used by The Colony Marshal Bureau. Low profile and comfortable. No one is above the law. This one is pretty beat up, and seems to be missing a few frequencies.
+  name: ent-RMCHeadsetDistressBureauDamaged
+  description: ent-RMCHeadsetDistressBureauDamaged-desc
   components:
   - type: ContainerFill
     containers:
@@ -60,9 +59,9 @@
 - type: entity
   parent: RMCHeadsetIconsWeYa
   id: RMCHeadsetDistressWeYa
-  name: WeYa corporate headset
-  description: A headset commonly worn by WeYa corporate personnel.
-  suffix: WeYa, Colony
+  name: ent-RMCHeadsetDistressWeYa
+  description: ent-RMCHeadsetDistressWeYa-desc
+  suffix: ent-RMCHeadsetDistressWeYa-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/headsets.rsi
@@ -76,8 +75,8 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressPMC
-  name: PMC headset
-  description: A special headset used by corporate personnel.
+  name: ent-RMCHeadsetDistressPMC
+  description: ent-RMCHeadsetDistressPMC-desc
   components:
   - type: ContainerFill
     containers:
@@ -97,9 +96,9 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressPMCPVE
-  name: corporate headset
-  description: A special headset used by corporate personnel.
-  suffix: PVE
+  name: ent-RMCHeadsetDistressPMCPVE
+  description: ent-RMCHeadsetDistressPMCPVE-desc
+  suffix: ent-RMCHeadsetDistressPMCPVE-suffix
   components:
   - type: ContainerFill
     containers:
@@ -114,7 +113,7 @@
 - type: entity
   parent: RMCHeadsetDistressPMC
   id: RMCHeadsetDistressPMCLeader
-  suffix: Leader
+  suffix: ent-RMCHeadsetDistressPMCLeader-suffix
   description:
   components:
   - type: RMCHeadset
@@ -123,9 +122,9 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressPMCDirector
-  name: PMC headset
-  description: A special headset used by corporate personnel.
-  suffix: Director
+  name: ent-RMCHeadsetDistressPMCDirector
+  description: ent-RMCHeadsetDistressPMCDirector-desc
+  suffix: ent-RMCHeadsetDistressPMCDirector-suffix
   components:
   - type: ContainerFill
     containers:
@@ -146,8 +145,8 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressGoon
-  name: We-Ya headset
-  description: A special headset used by corporate personnel.
+  name: ent-RMCHeadsetDistressGoon
+  description: ent-RMCHeadsetDistressGoon-desc
   components:
   - type: ContainerFill
     containers:
@@ -169,7 +168,7 @@
 - type: entity
   parent: RMCHeadsetDistressGoon
   id: RMCHeadsetDistressGoonLeader
-  suffix: Leader
+  suffix: ent-RMCHeadsetDistressGoonLeader-suffix
   description:
   components:
   - type: RMCHeadset
@@ -178,9 +177,9 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressLawyerWeYa
-  name: We-Ya headset
-  description: A special headset used by corporate personnel.
-  suffix: Director
+  name: ent-RMCHeadsetDistressLawyerWeYa
+  description: ent-RMCHeadsetDistressLawyerWeYa-desc
+  suffix: ent-RMCHeadsetDistressLawyerWeYa-suffix
   components:
   - type: ContainerFill
     containers:
@@ -202,8 +201,8 @@
 - type: entity
   parent: RMCHeadsetIcons
   id: RMCHeadsetDistressDukes
-  name: Duke's Dozen headset
-  description: A special headset used by small groups of trained operatives. Or terrorists.
+  name: ent-RMCHeadsetDistressDukes
+  description: ent-RMCHeadsetDistressDukes-desc
   components:
   - type: ContainerFill
     containers:
@@ -226,9 +225,9 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: RMCHeadsetForecon
-  name: UNMC SOF headset
-  description: Issued exclusively to Marine Raiders and members of the UNMC's Force Reconnaissance.
-  suffix: Survivor
+  name: ent-RMCHeadsetForecon
+  description: ent-RMCHeadsetForecon-desc
+  suffix: ent-RMCHeadsetForecon-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/headsets.rsi
@@ -250,9 +249,9 @@
 - type: entity
   parent: RMCHeadsetIconsPara
   id: RMCHeadsetPara
-  name: paramarine headset
-  description: A sleek headset used by the RCM's Paramarines. Low profile enough to fit under any headgear.
-  suffix: Survivor, Paramarine
+  name: ent-RMCHeadsetPara
+  description: ent-RMCHeadsetPara-desc
+  suffix: ent-RMCHeadsetPara-suffix
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Clothing/headsets.rsi
@@ -273,9 +272,9 @@
 - type: entity
   parent: RMCHeadsetPara
   id: RMCHeadsetParaTeamLead
-  name: paramarine team leader's headset
-  description: A sleek headset used by the RCM's Paramarines. Low profile enough to fit under any headgear.
-  suffix: Survivor, Paramarine
+  name: ent-RMCHeadsetParaTeamLead
+  description: ent-RMCHeadsetParaTeamLead-desc
+  suffix: ent-RMCHeadsetParaTeamLead-suffix
   components:
     - type: RMCHeadset
       channels:
@@ -287,9 +286,9 @@
 - type: entity
   parent: RMCHeadsetPara
   id: RMCHeadsetParaOfficer
-  name: paramarine officer's headset
-  description: A sleek headset used by the RCM's Paramarines. Low profile enough to fit under any headgear. This one is heavier with the weight of responsibility.
-  suffix: Survivor, Paramarine
+  name: ent-RMCHeadsetParaOfficer
+  description: ent-RMCHeadsetParaOfficer-desc
+  suffix: ent-RMCHeadsetParaOfficer-suffix
   components:
     - type: RMCHeadset
       channels:
@@ -302,8 +301,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: RMCHeadsetMarineDistress
-  name: UNMC headset
-  description: A standard issue UNMC headset. This one is used by marines on colonial protection duties, and only comes equipped with civilian channels.
+  name: ent-RMCHeadsetMarineDistress
+  description: ent-RMCHeadsetMarineDistress-desc
   components:
   - type: ContainerFill
     containers:
@@ -315,9 +314,9 @@
 - type: entity
   parent: RMCHeadsetForecon
   id: RMCHeadsetMARSOC
-  name: UNMC SOF headset
-  description: Issued exclusively to Marine Raiders and members of the UNMC's Force Reconnaissance.
-  suffix: ERT
+  name: ent-RMCHeadsetMARSOC
+  description: ent-RMCHeadsetMARSOC-desc
+  suffix: ent-RMCHeadsetMARSOC-suffix
   components:
   - type: ContainerFill
     containers:

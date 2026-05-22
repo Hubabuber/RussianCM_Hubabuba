@@ -1,0 +1,1 @@
+ent-MapText = map text

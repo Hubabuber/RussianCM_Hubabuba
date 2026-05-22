@@ -1,5 +1,5 @@
 - type: entity
-  name: Objective Master
+  name: ent-ObjectiveMasterBaseFOF
   parent: MarkerBase
   id: ObjectiveMasterBaseFOF
   components:
@@ -20,7 +20,7 @@
 
 
 - type: entity
-  name: Objective Master
+  name: ent-ObjectiveMasterBaseDistress
   parent: MarkerBase
   id: ObjectiveMasterBaseDistress
   components:
@@ -38,8 +38,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerObjectivesGovfor
-  name: GOVFOR Objectives Console
-  description: Used to check progress on objectives
+  name: ent-ComputerObjectivesGovfor
+  description: ent-ComputerObjectivesGovfor-desc
   components:
   - type: ObjectivesConsole
     faction: govfor
@@ -57,8 +57,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerObjectivesScientist
-  name: Scientist Objectives Console
-  description: Used to check progress on scientist objectives
+  name: ent-ComputerObjectivesScientist
+  description: ent-ComputerObjectivesScientist-desc
   components:
   - type: ObjectivesConsole
     faction: SCIENTIST
@@ -76,8 +76,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerObjectivesCLF
-  name: CLF Objectives Console
-  description: Used to check progress on CLF objectives
+  name: ent-ComputerObjectivesCLF
+  description: ent-ComputerObjectivesCLF-desc
   components:
   - type: Transform
     anchored: false
@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerObjectivesOpfor
-  name: OPFOR Objectives Console
-  description: Used to check progress on OPFOR objectives
+  name: ent-ComputerObjectivesOpfor
+  description: ent-ComputerObjectivesOpfor-desc
   components:
   - type: ObjectivesConsole
     faction: opfor

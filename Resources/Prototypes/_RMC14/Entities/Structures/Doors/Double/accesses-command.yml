@@ -1,7 +1,7 @@
 - type: entity
   parent: CMDoubleDoorCommandGlass
   id: CMDoubleDoorCommandGlassLocked
-  suffix: Command, Glass, Locked
+  suffix: ent-CMDoubleDoorCommandGlassLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ] ]
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMDoubleDoorCommandSolid
   id: CMDoubleDoorCommandSolidLocked
-  suffix: Command, Solid, Locked
+  suffix: ent-CMDoubleDoorCommandSolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ] ]

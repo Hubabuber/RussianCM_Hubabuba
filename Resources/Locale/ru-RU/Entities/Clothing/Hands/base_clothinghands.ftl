@@ -9,3 +9,13 @@ ent-ClothingHandsGlovesSyntheticBase-name = lathe-category-clothing
 
 ent-RingBase-name = элемент
 
+ent-ClothingHandsBase = item
+
+ent-ClothingHandsButcherable = item
+
+ent-ClothingHandsGlovesSyntheticBase = item
+
+ent-RingBase = item
+
+ent-SilverRingBase = серебряное кольцо
+    .desc = Выглядит немного менее ценно, чем золотой.

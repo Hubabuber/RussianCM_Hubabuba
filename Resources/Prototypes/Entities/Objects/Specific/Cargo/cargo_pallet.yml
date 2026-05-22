@@ -1,8 +1,8 @@
 - type: entity
   id: BaseCargoPallet
   parent: BaseStructure
-  name: cargo pallet
-  description: Common fixture of logistics and cargo. Subtle reminder where crates go during transport to avoid bruised shins.
+  name: ent-BaseCargoPallet
+  description: ent-BaseCargoPallet-desc
   abstract: true
   components:
   - type: InteractionOutline
@@ -61,8 +61,8 @@
 
 - type: entity
   id: CargoPalletSell
-  name: cargo selling pallet
-  description: Designates valid items to sell. Made of plastitanium to discourage pesky vandals.
+  name: ent-CargoPalletSell
+  description: ent-CargoPalletSell-desc
   parent: BaseCargoPallet
   components:
   - type: CargoPallet
@@ -78,8 +78,8 @@
 
 - type: entity
   id: CargoPalletBuy
-  name: cargo buying pallet
-  description: Designates where orders will appear when purchased. Made of plastitanium to discourage pesky vandals.
+  name: ent-CargoPalletBuy
+  description: ent-CargoPalletBuy-desc
   parent: BaseCargoPallet
   components:
   - type: CargoPallet

@@ -1,0 +1,5 @@
+job-au14jobgovforradiotelephoneoperatorwypmc-desc = au14-job-description-radiotelephoneoperator
+job-au14jobgovforradiotelephoneoperatorwypmc-name = PMC Communications Specialist
+job-au14jobgovforradiotelephoneoperatorwypmc-overwatchrolename = Radio Telephone Operator
+job-au14jobgovforradiotelephoneoperatorwypmc-spawnmenurolename = Fireteam Leader (WYPMC)
+job-au14jobgovforradiotelephoneoperatorwypmc-supervisors = au14-job-supervisors-govfor

@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMedkit
-  name: medical kit pouch
-  description: It's specifically made to hold medical items.
+  name: ent-RMCPouchMedkit
+  description: ent-RMCPouchMedkit-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medkit.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: RMCPouchMedkit
   id: RMCPouchMedkitFill
-  suffix: Filled
+  suffix: ent-RMCPouchMedkitFill-suffix
   components:
   - type: StorageFill
     contents:
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCPouchMedkit
   id: RMCPouchMedkitFillAdvanced
-  suffix: Filled, Advanced
+  suffix: ent-RMCPouchMedkitFillAdvanced-suffix
   components:
   - type: StorageFill
     contents:
@@ -108,7 +108,7 @@
 - type: entity
   parent: RMCPouchMedkit
   id: RMCPouchMedkitFillSPP
-  suffix: Filled, SPP
+  suffix: ent-RMCPouchMedkitFillSPP-suffix
   components:
   - type: StorageFill
     contents:
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCPouchMedkit
   id: RMCPouchMedkitPMC
-  suffix: PMC
+  suffix: ent-RMCPouchMedkitPMC-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/wy_medkit.rsi
@@ -128,7 +128,7 @@
 - type: entity
   parent: RMCPouchMedkitPMC
   id: RMCPouchMedkitPMCFilled
-  suffix: Filled, PMC
+  suffix: ent-RMCPouchMedkitPMCFilled-suffix
   components:
   - type: StorageFill
     contents:
@@ -143,7 +143,7 @@
 - type: entity
   parent: RMCPouchMedkitPMC
   id: RMCPouchMedkitPMCFullAdvanced
-  suffix: Filled, Full Advanced, PMC
+  suffix: ent-RMCPouchMedkitPMCFullAdvanced-suffix
   components:
   - type: StorageFill
     contents:
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCPouchMedkit
   id: RMCPouchMedkitFillRoyal
-  suffix: Filled, Royal
+  suffix: ent-RMCPouchMedkitFillRoyal-suffix
   components:
   - type: StorageFill
     contents:
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCPouchMedkit
   id: RMCPouchMedkitFillRoyalMedic
-  suffix: Filled, Royal Medic
+  suffix: ent-RMCPouchMedkitFillRoyalMedic-suffix
   components:
   - type: StorageFill
     contents:

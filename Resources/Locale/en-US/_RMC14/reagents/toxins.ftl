@@ -1,2 +1,23 @@
 ﻿rmc-reagent-name-cyanide = Cyanide
 rmc-reagent-desc-cyanide = Cyanide is a naturally occurring toxic chemical, that has been used as a mean of killing for centuries because of its immediate effects. Symptoms include nausea, weakness, and difficulty breathing.
+
+reagent-rmcblackgoo-desc = reagent-desc-rmcblackgoo
+reagent-rmcblackgoo-name = reagent-name-rmcblackgoo
+reagent-rmcblackgoo-physicaldesc = reagent-physical-desc-unidentifiable
+reagent-rmcchloralhydrate-desc = reagent-desc-rmc-chloral-hydrate
+reagent-rmcchloralhydrate-name = reagent-name-rmc-chloral-hydrate
+reagent-rmcchloralhydrate-physicaldesc = reagent-physical-desc-nondescript
+reagent-rmccyanide-desc = rmc-reagent-desc-cyanide
+reagent-rmccyanide-name = rmc-reagent-name-cyanide
+reagent-rmccyanide-physicaldesc = reagent-physical-desc-pungent
+reagent-rmcgenerictoxin-desc = reagent-desc-rmcgenerictoxin
+reagent-rmcgenerictoxin-name = reagent-name-rmcgenerictoxin
+reagent-rmcgenerictoxin-physicaldesc = reagent-physical-desc-pungent
+reagent-rmclexorin-desc = reagent-desc-rmclexorin
+reagent-rmclexorin-name = reagent-name-rmclexorin
+reagent-rmclexorin-physicaldesc = reagent-physical-desc-pungent
+reagent-rmcmindbreakertoxin-desc = reagent-desc-rmcmindbreakertoxin
+reagent-rmcmindbreakertoxin-name = reagent-name-rmcmindbreakertoxin
+reagent-rmcmolecularacid-desc = reagent-desc-rmcmolecularacid
+reagent-rmcmolecularacid-name = reagent-name-rmcmolecularacid
+reagent-rmcmolecularacid-physicaldesc = reagent-physical-desc-acidic

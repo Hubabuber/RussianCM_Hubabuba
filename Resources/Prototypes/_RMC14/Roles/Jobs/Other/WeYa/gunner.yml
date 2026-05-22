@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: WEYA PMC Support Gunner
+  spawnMenuRoleName: job-rmcpmcgunner-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -45,8 +45,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCGunner
-  name: weya pmc ghost role gunner
-  suffix: Spawner, Player
+  name: ent-RMCRandomHumanoidPMCGunner
+  suffix: ent-RMCRandomHumanoidPMCGunner-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCGunner
-  name: weya pmc gunner spawn point
+  name: ent-RMCSpawnPointPMCGunner
   components:
   - type: SpawnPoint
     job_id: RMCPMCGunner

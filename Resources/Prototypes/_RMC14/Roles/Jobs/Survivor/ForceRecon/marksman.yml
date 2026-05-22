@@ -8,7 +8,7 @@
   - !type:RoleTimeRequirement
     role: CMJobWeaponsSpecialist
     time: 3600 # 1 hour
-  spawnMenuRoleName: FORECON Marksman (Survivor)
+  spawnMenuRoleName: job-rmcsurvivorforeconmarksman-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconMarksman
-  name: forecon marksman spawn point
+  name: ent-CMSpawnPointForeconMarksman
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconMarksman
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCSurvivorPresetForecon
   id: RMCSurvivorPresetForeconMarksman
-  name: forecon marksman survivor preset
+  name: ent-RMCSurvivorPresetForeconMarksman
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

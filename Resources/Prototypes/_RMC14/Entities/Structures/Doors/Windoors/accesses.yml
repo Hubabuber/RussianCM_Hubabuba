@@ -2,7 +2,7 @@
 - type: entity
   parent: CMWindoor
   id: CMWindoorKitchen
-  suffix: Kitchen, Locked
+  suffix: ent-CMWindoorKitchen-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessKitchen" ] ]
@@ -11,7 +11,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureBrig
-  suffix: Brig, Locked
+  suffix: ent-CMWindoorSecureBrig-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessBrig" ] ]
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecurerRequisitions
-  suffix: Requisitions, Locked
+  suffix: ent-CMWindoorSecurerRequisitions-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ] ]
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureMedical
-  suffix: Medical, Locked
+  suffix: ent-CMWindoorSecureMedical-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ] ]
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureEngineering
-  suffix: Engineering, Locked
+  suffix: ent-CMWindoorSecureEngineering-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ] ]
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureCommand
-  suffix: Command, Locked
+  suffix: ent-CMWindoorSecureCommand-suffix
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ] ]
@@ -51,7 +51,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: RMCWindoorSecureTSEPABrig
-  suffix: TSEPA, Brig, Locked
+  suffix: ent-RMCWindoorSecureTSEPABrig-suffix
   components:
   - type: AccessReader
     access: [ [ "RMCAccessTSEPABrig" ] ]
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMWindoorSecure
   id: CMWindoorSecureBrigPowered
-  suffix: Brig, Locked, Powered
+  suffix: ent-CMWindoorSecureBrigPowered-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessBrig" ] ]

@@ -1,8 +1,8 @@
 - type: entity
-  name: BasePistol
+  name: ent-BaseWeaponPistol
   parent: BaseItem
   id: BaseWeaponPistol
-  description: A rooty tooty point and shooty.
+  description: ent-BaseWeaponPistol-desc
   abstract: true
   components:
   - type: Sprite
@@ -69,10 +69,10 @@
     price: 500
 
 - type: entity
-  name: viper
+  name: ent-WeaponPistolViper
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolViper
-  description: A common handgun illegally modified by the Syndicate. The Viper sports a selector switch between semi-auto and ‘rock and roll’. The standard sidearm for any soldier who fights under the three serpents. Feeds from .35 pistol magazines.
+  description: ent-WeaponPistolViper-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -104,10 +104,10 @@
     price: 1000
 
 - type: entity
-  name: echis
+  name: ent-WeaponPistolEchis
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: WeaponPistolEchis
-  description: A cyborg-mounted weapon system based on the Viper pistol. Creates ammunition on the fly from an internal fabricator, which slowly self-charges.
+  description: ent-WeaponPistolEchis-desc
   components:
   - type: Gun
     fireRate: 5
@@ -139,10 +139,10 @@
   - type: AmmoCounter
 
 - type: entity
-  name: cobra
+  name: ent-WeaponPistolCobra
   parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
   id: WeaponPistolCobra
-  description: Integrally suppressed semi-automatic pistol used by the Syndicate, firing caseless subsonic rounds. Favored by any agent who likes to keep things quiet and leave no evidence behind. Feeds from .25 pistol magazines.
+  description: ent-WeaponPistolCobra-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
@@ -190,10 +190,10 @@
     price: 1500
 
 - type: entity
-  name: mk 58
+  name: ent-WeaponPistolMk58
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolMk58
-  description: Designed by Nanotrasen’s Small Arms Division, the Mk58 is a conventional semi-automatic pistol with a simple recoil-operated action and excellent reliability. The standard sidearm of Nanotrasen’s station security and emergency response teams. Feeds from .35 pistol magazines.
+  description: ent-WeaponPistolMk58-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
@@ -212,10 +212,10 @@
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
 
 - type: entity
-  name: N1984
+  name: ent-WeaponPistolN1984
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolN1984
-  description: An exceptionally powerful ‘hand cannon’ designed as part of Nanotrasen's BFG initiative. Chambered in .45, the lord’s caliber, it is generally considered too unwieldy for standard use but has become something of a status symbol among Nanotrasen officials. Feeds from .45 pistol magazines.
+  description: ent-WeaponPistolN1984-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi

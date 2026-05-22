@@ -1,7 +1,7 @@
 - type: entity
-  name: Atmos Fix Vacuum Marker
+  name: ent-AtmosFixBlockerMarker
   id: AtmosFixBlockerMarker
-  description: "Vacuum, T20C"
+  description: "ent-AtmosFixBlockerMarker-desc"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -16,9 +16,9 @@
       mode: 1
 
 - type: entity
-  name: Atmos Fix Oxygen Marker
+  name: ent-AtmosFixOxygenMarker
   id: AtmosFixOxygenMarker
-  description: "Oxygen @ gas miner pressure, T20C"
+  description: "ent-AtmosFixOxygenMarker-desc"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -33,9 +33,9 @@
       mode: 2
 
 - type: entity
-  name: Atmos Fix Nitrogen Marker
+  name: ent-AtmosFixNitrogenMarker
   id: AtmosFixNitrogenMarker
-  description: "Nitrogen @ gas miner pressure, T20C"
+  description: "ent-AtmosFixNitrogenMarker-desc"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -50,9 +50,9 @@
       mode: 3
 
 - type: entity
-  name: Atmos Fix Plasma Marker
+  name: ent-AtmosFixPlasmaMarker
   id: AtmosFixPlasmaMarker
-  description: "Plasma @ gas miner pressure, T20C"
+  description: "ent-AtmosFixPlasmaMarker-desc"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -67,9 +67,9 @@
       mode: 4
 
 - type: entity
-  name: Atmos Fix Instant Plasmafire Marker
+  name: ent-AtmosFixInstantPlasmaFireMarker
   id: AtmosFixInstantPlasmaFireMarker
-  description: "INSTANT PLASMAFIRE"
+  description: "ent-AtmosFixInstantPlasmaFireMarker-desc"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -84,9 +84,9 @@
       mode: 5
 
 - type: entity
-  name: Atmos Fix Freezer Marker
+  name: ent-AtmosFixFreezerMarker
   id: AtmosFixFreezerMarker
-  description: "Change air temp to 235K, for freezer with a bit of wiggle room to get set up."
+  description: "ent-AtmosFixFreezerMarker-desc"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: AtmosFixNitrogenMarker
   id: AtmosFixVoxMarker
-  suffix: Vox Atmosphere
-  description: "Nitrogen @ 101 kPa, 20C"
+  suffix: ent-AtmosFixVoxMarker-suffix
+  description: "ent-AtmosFixVoxMarker-desc"
   components:
   - type: AtmosFixMarker
     mode: 7
@@ -112,8 +112,8 @@
 - type: entity
   parent: MarkerBase
   id: AtmosFixAirMarker
-  name: Atmos Fix Air Marker
-  description: "Oxygen (21%) and nitrogen (79%) @ gas miner pressure, T20C"
+  name: ent-AtmosFixAirMarker
+  description: "ent-AtmosFixAirMarker-desc"
   components:
   - type: Sprite
     layers:

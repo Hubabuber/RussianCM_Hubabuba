@@ -13,7 +13,7 @@
   - Colony
   - RMCWeYa
   - SmartGunOperator
-  spawnMenuRoleName: WEYA PMC Support Gunner (PVE)
+  spawnMenuRoleName: job-cmpmcgunnerpve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -42,8 +42,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCGunnerPVE
-  name: weya pmc gunner spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointPMCGunnerPVE
+  suffix: ent-RMCSpawnPointPMCGunnerPVE-suffix
   components:
   - type: SpawnPoint
     job_id: CMPMCGunnerPVE

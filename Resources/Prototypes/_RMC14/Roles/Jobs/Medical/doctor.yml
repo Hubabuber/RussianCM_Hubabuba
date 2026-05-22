@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: CMDoctor
   name: rmc-job-name-doctor
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointDoctor
-  name: doctor spawn point
+  name: ent-CMSpawnPointDoctor
   components:
   - type: SpawnPoint
     job_id: CMDoctor
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleDoctor
-  name: Doctor
+  name: ent-CMGuidebookRoleDoctor
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

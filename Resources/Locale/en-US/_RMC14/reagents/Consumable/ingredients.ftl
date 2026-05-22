@@ -1,0 +1,12 @@
+reagent-rmcbatter-desc = reagent-desc-rmc-batter
+reagent-rmcbatter-name = reagent-name-rmc-batter
+reagent-rmcbatter-physicaldesc = reagent-physical-desc-creamy
+reagent-rmccherryjelly-desc = reagent-desc-rmc-cherry-jelly
+reagent-rmccherryjelly-name = reagent-name-rmc-cherry-jelly
+reagent-rmccherryjelly-physicaldesc = reagent-physical-desc-sweet
+reagent-rmcpeanutbutter-desc = reagent-desc-rmc-peanut-butter
+reagent-rmcpeanutbutter-name = reagent-name-rmc-peanut-butter
+reagent-rmcpeanutbutter-physicaldesc = reagent-physical-desc-creamy
+reagent-rmcsprinkles-desc = reagent-desc-rmc-sprinkles
+reagent-rmcsprinkles-name = reagent-name-rmc-sprinkles
+reagent-rmcsprinkles-physicaldesc = reagent-physical-desc-sweet

@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: CMIntelOfficer
   name: cm-job-name-intel
@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointIntelOfficer
-  name: intel officer spawn point
+  name: ent-CMSpawnPointIntelOfficer
   components:
   - type: SpawnPoint
     job_id: CMIntelOfficer
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleIO
-  name: Intelligence Officer
+  name: ent-RMCGuidebookRoleIO
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -15,8 +15,8 @@
 - type: entity
   parent: RMCAPCHardpointBase
   id: RMCAPCWheel
-  name: APC wheel
-  description: A reinforced APC wheel.
+  name: ent-RMCAPCWheel
+  description: ent-RMCAPCWheel-desc
   components:
   - type: Sprite
     state: tires
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCAPCHardpointBase
   id: RMCAPCFrontCannon
-  name: APC frontal cannon
-  description: A fixed forward cannon for an APC hardpoint.
+  name: ent-RMCAPCFrontCannon
+  description: ent-RMCAPCFrontCannon-desc
   components:
   - type: Sprite
     state: front_cannon
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCAPCHardpointBase
   id: RMCAPCDualCannon
-  name: APC dual cannon
-  description: A dual cannon turret for an APC hardpoint.
+  name: ent-RMCAPCDualCannon
+  description: ent-RMCAPCDualCannon-desc
   components:
   - type: Sprite
     state: dual_cannon
@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCAPCHardpointBase
   id: RMCAPCCommsRelay
-  name: APC comms relay
-  description: A communications relay array for APC support slots.
+  name: ent-RMCAPCCommsRelay
+  description: ent-RMCAPCCommsRelay-desc
   components:
   - type: Sprite
     state: comms_relay
@@ -148,8 +148,8 @@
 - type: entity
   parent: RMCAPCHardpointBase
   id: RMCAPCFlareLauncher
-  name: APC flare launcher
-  description: A flare launcher hardpoint for APC support slots.
+  name: ent-RMCAPCFlareLauncher
+  description: ent-RMCAPCFlareLauncher-desc
   components:
   - type: Sprite
     state: flare_launcher
@@ -200,8 +200,8 @@
 - type: entity
   parent: RMCAPCHardpointBase
   id: RMCAPCFreightStorage
-  name: APC freight storage
-  description: A cargo pod for APC support slots.
+  name: ent-RMCAPCFreightStorage
+  description: ent-RMCAPCFreightStorage-desc
   components:
   - type: Sprite
     state: freighter_storage
@@ -220,8 +220,8 @@
   parent: BaseItem
   id: VehicleAPCM56FPWPortGunBase
   abstract: true
-  name: APC port gun
-  description: A mounted M56 FPW port gun.
+  name: ent-VehicleAPCM56FPWPortGunBase
+  description: ent-VehicleAPCM56FPWPortGunBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/Interiors/apc.rsi
@@ -261,7 +261,7 @@
 - type: entity
   parent: VehicleAPCM56FPWPortGunBase
   id: VehicleAPCM56FPWPortGunRight
-  name: APC port gun (starboard)
+  name: ent-VehicleAPCM56FPWPortGunRight
   components:
   - type: GunFireArc
     arc: 90
@@ -275,7 +275,7 @@
 - type: entity
   parent: VehicleAPCM56FPWPortGunBase
   id: VehicleAPCM56FPWPortGunLeft
-  name: APC port gun (port)
+  name: ent-VehicleAPCM56FPWPortGunLeft
   components:
   - type: GunFireArc
     arc: 90

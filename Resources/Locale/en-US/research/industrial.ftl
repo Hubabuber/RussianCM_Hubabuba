@@ -1,0 +1,14 @@
+technology-advancedatmospherics-name = research-technology-advanced-atmospherics
+technology-advancedpowercells-name = research-technology-advanced-powercells
+technology-advancedtoolstechnology-name = research-technology-advanced-tools
+technology-atmospherictech-name = research-technology-atmospheric-tech
+technology-bluespacestorage-name = research-technology-bluespace-storage
+technology-industrialengineering-name = research-technology-industrial-engineering
+technology-massexcavation-name = research-technology-excavation
+technology-mechanicalcompression-name = research-technology-mechanical-compression
+technology-optimizedmicrogalvanism-name = research-technology-optimized-microgalvanism
+technology-powergeneration-name = research-technology-power-generation
+technology-ripleyaplu-name = research-technology-ripley-aplu
+technology-salvageequipment-name = research-technology-salvage-equipment
+technology-shuttlecraft-name = research-technology-shuttlecraft
+technology-spacescanning-name = research-technology-space-scanning

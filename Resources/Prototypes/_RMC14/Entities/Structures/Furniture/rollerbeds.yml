@@ -29,8 +29,8 @@
 - type: entity
   parent: [ RMCRollerBedDestruction, RollerBed ]
   id: CMRollerBed
-  name: roller bed
-  description: A collapsed roller bed that can be carried around.
+  name: ent-CMRollerBed
+  description: ent-CMRollerBed-desc
   components:
   - type: Tag
     tags:
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMRollerBed
   id: CMRollerBedSpawnFolded
-  suffix: folded
+  suffix: ent-CMRollerBedSpawnFolded-suffix
   components:
   - type: Foldable
     folded: true
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMRollerBed
   id: CMPortableSurgicalBed
-  name: portable surgical bed
-  description: A collapsible surgical bed. It's not perfect, but it's the best you'll get short of an actual surgical table.
+  name: ent-CMPortableSurgicalBed
+  description: ent-CMPortableSurgicalBed-desc
   components:
   - type: Item
     heldPrefix: surgical
@@ -122,7 +122,7 @@
 - type: entity
   parent: CMPortableSurgicalBed
   id: CMPortableSurgicalBedSpawnFolded
-  suffix: folded
+  suffix: ent-CMPortableSurgicalBedSpawnFolded-suffix
   components:
   - type: Foldable
     folded: true
@@ -133,8 +133,8 @@
 - type: entity
   parent: [ RMCRollerBedDestruction, BaseDeployFoldable ]
   id: RMCMedevacStretcher
-  name: medevac stretcher
-  description: A collapsible stretcher that can be activated to send patients to an overhead dropship.
+  name: ent-RMCMedevacStretcher
+  description: ent-RMCMedevacStretcher-desc
   components:
   - type: Item
     size: Small
@@ -216,7 +216,7 @@
 - type: entity
   parent: RMCMedevacStretcher
   id: RMCMedevacStretcherFolded
-  suffix: folded
+  suffix: ent-RMCMedevacStretcherFolded-suffix
   components:
   - type: Foldable
     folded: true
@@ -228,8 +228,8 @@
 - type: entity
   parent: CMRollerBed
   id: RMCRollerBedHospital
-  name: hospital roller bed
-  description: A basic cushioned leather board resting on a small frame. Not very comfortable at all, but allows the patient to rest lying down while moved to another location rapidly. Not great for surgery, but better than nothing.
+  name: ent-RMCRollerBedHospital
+  description: ent-RMCRollerBedHospital-desc
   components:
   - type: Sprite
     layers:
@@ -245,7 +245,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalFolded
-  suffix: folded
+  suffix: ent-RMCRollerBedHospitalFolded-suffix
   components:
   - type: Foldable
     folded: true
@@ -270,7 +270,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalBloodFolded
-  suffix: folded
+  suffix: ent-RMCRollerBedHospitalBloodFolded-suffix
   components:
   - type: Foldable
     folded: true
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalSheetFolded
-  suffix: folded
+  suffix: ent-RMCRollerBedHospitalSheetFolded-suffix
   components:
   - type: Foldable
     folded: true
@@ -320,7 +320,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalSheet2Folded
-  suffix: folded
+  suffix: ent-RMCRollerBedHospitalSheet2Folded-suffix
   components:
   - type: Foldable
     folded: true

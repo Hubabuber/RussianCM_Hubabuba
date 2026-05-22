@@ -1,0 +1,2 @@
+department-au14departmentcolonialliberationfront-desc = au14-департамент-колониалиберацияфронт-описание
+department-au14departmentcolonialliberationfront-name = au14-департамент-колониальный фронт освобождения

@@ -7,10 +7,10 @@
 # Large Plate
 
 - type: entity
-  name: large plate
+  name: ent-FoodPlate
   parent: BaseItem
   id: FoodPlate
-  description: A large plate, excellent for bread.
+  description: ent-FoodPlate-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -61,10 +61,10 @@
   - type: SpaceGarbage
 
 - type: entity
-  name: broken plate
+  name: ent-FoodPlateTrash
   parent: BaseItem
   id: FoodPlateTrash
-  description: A broken plate. Useless.
+  description: ent-FoodPlateTrash-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -81,10 +81,10 @@
 # Small Plate
 
 - type: entity
-  name: small plate
+  name: ent-FoodPlateSmall
   parent: FoodPlate
   id: FoodPlateSmall
-  description: A small plate. Delicate.
+  description: ent-FoodPlateSmall-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -132,10 +132,10 @@
 # Plastic Plate
 
 - type: entity
-  name: plastic plate
+  name: ent-FoodPlatePlastic
   parent: BaseItem
   id: FoodPlatePlastic
-  description: A large blue plastic plate, excellent for a birthday cake.
+  description: ent-FoodPlatePlastic-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -154,10 +154,10 @@
     - Trash
 
 - type: entity
-  name: plastic plate
+  name: ent-FoodPlateSmallPlastic
   parent: BaseItem
   id: FoodPlateSmallPlastic
-  description: A blue plastic plate, excellent for slices of birthday cake.
+  description: ent-FoodPlateSmallPlastic-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -178,10 +178,10 @@
 # Pie Tin
 
 - type: entity
-  name: pie tin
+  name: ent-FoodPlateTin
   parent: BaseItem
   id: FoodPlateTin
-  description: A cheap foil tin for pies.
+  description: ent-FoodPlateTin-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi
@@ -202,10 +202,10 @@
 # Muffin Tin
 
 - type: entity
-  name: muffin tin
+  name: ent-FoodPlateMuffinTin
   parent: BaseItem
   id: FoodPlateMuffinTin
-  description: A cheap foil tin for muffins.
+  description: ent-FoodPlateMuffinTin-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/plates.rsi

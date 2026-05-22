@@ -2,13 +2,13 @@
 - type: entity
   parent: RMCSensorTower
   id: AU14SensorTower
-  name: SA-2X experimental sensor-array tower
+  name: ent-AU14SensorTower
 # TODO: Govfor/Opfor ownership
 
 - type: entity
   parent: AU14SensorTower
   id: AU14SensorTowerOn
-  suffix: "On, Indestructible"
+  suffix: "ent-AU14SensorTowerOn-suffix"
   components:
   - type: SensorTower
     state: On
@@ -17,7 +17,7 @@
 - type: entity
   parent: AU14SensorTower
   id: AU14SensorTowerOffset
-  suffix: Offset
+  suffix: ent-AU14SensorTowerOffset-suffix
   components:
   - type: Sprite
     offset: 0.25,2

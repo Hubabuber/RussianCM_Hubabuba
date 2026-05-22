@@ -16,3 +16,6 @@ ent-CMSpawnPointHospitalCorpsmanDelta = Место появления санит
 ent-RMCGuidebookRoleHM = Санитар больницы
   .desc = Санитар больницы
 
+job-cmhospitalcorpsman-desc = см-должностная инструкция-больница-санитар
+job-cmhospitalcorpsman-name = cm-имя-должности-больница-санитар
+job-cmhospitalcorpsman-supervisors = cm-job-supervisors-sl

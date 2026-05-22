@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: RMCDropshipDoorBase
   id: CMNormandyDoor
-  name: lexington crew hatch
+  name: ent-CMNormandyDoor
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/normandy.rsi
@@ -9,7 +9,7 @@
 - type: entity
   parent: RMCDropshipDoorAftBase
   id: CMNormandyDoorAft
-  name: lexington cargo door
+  name: ent-CMNormandyDoorAft
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/normandy_cargo.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: RMCDropshipDoorPortBase
   id: CMNormandyDoorPort
-  name: lexington crew hatch
+  name: ent-CMNormandyDoorPort
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/normandy_doubledoor.rsi
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCDropshipDoorStarboardBase
   id: CMNormandyDoorStarboard
-  name: lexington crew hatch
+  name: ent-CMNormandyDoorStarboard
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/normandy_doubledoor.rsi
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCDropshipCockpitBase
   id: CMNormandyCockpit
-  suffix: Normandy
+  suffix: ent-CMNormandyCockpit-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/normandy.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMNormandyCockpit
   id: CMNormandyCockpitOpfor
-  suffix: Normandy, Opfor
+  suffix: ent-CMNormandyCockpitOpfor-suffix
   components:
   - type: AccessReader
     access: [ [ "AU14AccessOpforPilot" ] ]

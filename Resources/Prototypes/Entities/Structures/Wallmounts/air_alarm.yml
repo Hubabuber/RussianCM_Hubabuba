@@ -1,7 +1,7 @@
 - type: entity
   id: AirAlarm
-  name: air alarm
-  description: An air alarm. Alarms... air?
+  name: ent-AirAlarm
+  description: ent-AirAlarm-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -120,8 +120,8 @@
 
 - type: entity
   id: AirAlarmAssembly
-  name: air alarm assembly
-  description: An air alarm. Doesn't look like it'll be alarming air any time soon.
+  name: ent-AirAlarmAssembly
+  description: ent-AirAlarmAssembly-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -151,7 +151,7 @@
 - type: entity
   id: AirAlarmXeno
   parent: AirAlarm
-  description: An alien air alarm. Hopefully they didn't breathe poison.
+  description: ent-AirAlarmXeno-desc
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
@@ -164,7 +164,7 @@
 - type: entity
   id: AirAlarmAssemblyXeno
   parent: AirAlarmAssembly
-  description: An alien air alarm. Why are the wires pulsating?...
+  description: ent-AirAlarmAssemblyXeno-desc
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi

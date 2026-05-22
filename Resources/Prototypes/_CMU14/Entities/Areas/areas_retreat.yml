@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: CMUAreaRetreat
-  name: JE-1758 Ascanius
+  name: ent-CMUAreaRetreat
   abstract: true
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   parent: CMUAreaRetreat
   id: CMUAreaRetreatOutdoors
-  name: JE-1758 Ascanius - Surface
+  name: ent-CMUAreaRetreatOutdoors
   abstract: true
   components:
   - type: Area
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMUAreaRetreat
   id: CMUAreaRetreatIndoors
-  name: JE-1758 Ascanius - Interiors
+  name: ent-CMUAreaRetreatIndoors
   abstract: true
   components:
   - type: Area
@@ -56,7 +56,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatCaves
-  name: JE-1758 Ascanius - Caves
+  name: ent-CMUAreaRetreatCaves
   abstract: true
   components:
   - type: Area
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMUAreaRetreat
   id: CMUAreaRetreatFullProtection
-  name: JE-1758 Ascanius - Safe Zone
+  name: ent-CMUAreaRetreatFullProtection
   abstract: true
   components:
   - type: Area
@@ -95,7 +95,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatOutofBounds
-  name: Out of Bounds
+  name: ent-CMUAreaRetreatOutofBounds
   components:
   - type: Sprite
     state: oob
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBRequisitions
-  name: Fort Beauregard - Requisitions
+  name: ent-CMUAreaRetreatFBRequisitions
   components:
   - type: Sprite
     state: fb_req
@@ -117,7 +117,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBCommandIntelOffice
-  name: Fort Beauregard - Intelligence Office
+  name: ent-CMUAreaRetreatFBCommandIntelOffice
   components:
   - type: Sprite
     state: fb_cm_inteloffice
@@ -127,7 +127,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBCommandCommandCenter
-  name: Fort Beauregard - Command Center
+  name: ent-CMUAreaRetreatFBCommandCommandCenter
   components:
   - type: Sprite
     state: fb_cm_cc
@@ -137,7 +137,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBarracks
-  name: Fort Beauregard - Barracks
+  name: ent-CMUAreaRetreatFBBarracks
   components:
   - type: Sprite
     state: fb_barracks
@@ -147,7 +147,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBarracksMessHall
-  name: Fort Beauregard - Mess Hall
+  name: ent-CMUAreaRetreatFBBarracksMessHall
   components:
   - type: Sprite
     state: fb_barracks_messhall
@@ -157,7 +157,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBEngineeringMaintenanceBay
-  name: Fort Beauregard - Maintenace Bay
+  name: ent-CMUAreaRetreatFBEngineeringMaintenanceBay
   components:
   - type: Sprite
     state: fb_engi_maint
@@ -167,7 +167,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBrigProcessing
-  name: Fort Beauregard - Brig Processing
+  name: ent-CMUAreaRetreatFBBrigProcessing
   components:
   - type: Sprite
     state: fb_brig_processing
@@ -177,7 +177,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBrig
-  name: Fort Beauregard - Brig
+  name: ent-CMUAreaRetreatFBBrig
   components:
   - type: Sprite
     state: fb_brig
@@ -187,7 +187,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBrigHoldingCells
-  name: Fort Beauregard - Holding Cells
+  name: ent-CMUAreaRetreatFBBrigHoldingCells
   components:
   - type: Sprite
     state: fb_brig_cell
@@ -197,7 +197,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBrigLongTermConfinement
-  name: Fort Beauregard - Long Term Confinement
+  name: ent-CMUAreaRetreatFBBrigLongTermConfinement
   components:
   - type: Sprite
     state: fb_brig_longtermconfinement
@@ -207,7 +207,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalTriage
-  name: Fort Beauregard - Hospital Triage
+  name: ent-CMUAreaRetreatFBHospitalTriage
   components:
   - type: Sprite
     state: fb_hospital_triage
@@ -217,7 +217,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalTreatment
-  name: Fort Beauregard - Hospital Treatment
+  name: ent-CMUAreaRetreatFBHospitalTreatment
   components:
   - type: Sprite
     state: fb_hospital_treatment
@@ -227,7 +227,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalOperatingRooms
-  name: Fort Beauregard - Operating Rooms
+  name: ent-CMUAreaRetreatFBHospitalOperatingRooms
   components:
   - type: Sprite
     state: fb_hospital_operatingrooms
@@ -237,7 +237,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalChemistry
-  name: Fort Beauregard - Chemistry
+  name: ent-CMUAreaRetreatFBHospitalChemistry
   components:
   - type: Sprite
     state: fb_hospital_chemistry
@@ -247,7 +247,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalMorgue
-  name: Fort Beauregard - Morgue
+  name: ent-CMUAreaRetreatFBHospitalMorgue
   components:
   - type: Sprite
     state: fb_hospital_morgue
@@ -257,7 +257,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalBreakroom
-  name: Fort Beauregard - Hospital Breakroom
+  name: ent-CMUAreaRetreatFBHospitalBreakroom
   components:
   - type: Sprite
     state: fb_hospital_breakroom
@@ -267,7 +267,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorNorth
-  name: Fort Beauregard - North
+  name: ent-CMUAreaRetreatFBExteriorNorth
   components:
   - type: Sprite
     state: fb_exterior_north
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorSouth
-  name: Fort Beauregard - South
+  name: ent-CMUAreaRetreatFBExteriorSouth
   components:
   - type: Sprite
     state: fb_exterior_south
@@ -287,7 +287,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorEast
-  name: Fort Beauregard - East
+  name: ent-CMUAreaRetreatFBExteriorEast
   components:
   - type: Sprite
     state: fb_exterior_east
@@ -297,7 +297,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorWest
-  name: Fort Beauregard - West
+  name: ent-CMUAreaRetreatFBExteriorWest
   components:
   - type: Sprite
     state: fb_exterior_west
@@ -307,7 +307,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorLZAlpha
-  name: Fort Beauregard - LZ Alpha (North Pad)
+  name: ent-CMUAreaRetreatFBExteriorLZAlpha
   components:
   - type: Sprite
     state: fb_exterior_lzalpha
@@ -317,7 +317,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorLZBravo
-  name: Fort Beauregard - LZ Bravo (South Pad)
+  name: ent-CMUAreaRetreatFBExteriorLZBravo
   components:
   - type: Sprite
     state: fb_exterior_lzbravo
@@ -327,7 +327,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBMiscBriefingArea
-  name: Fort Beauregard - Briefing Area
+  name: ent-CMUAreaRetreatFBMiscBriefingArea
   components:
   - type: Sprite
     state: fb_misc_briefing
@@ -337,7 +337,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBMiscVehiclePool
-  name: Fort Beauregard - Vehicle Pool
+  name: ent-CMUAreaRetreatFBMiscVehiclePool
   components:
   - type: Sprite
     state: fb_misc_vehiclepool
@@ -349,7 +349,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCCavernNorth
-  name: Octanis Complex - Northern Cavern
+  name: ent-CMUAreaRetreatOCCavernNorth
   components:
   - type: Sprite
     state: oc_cavern_north
@@ -359,7 +359,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCCavernCentral
-  name: Octanis Complex - Central Cavern
+  name: ent-CMUAreaRetreatOCCavernCentral
   components:
   - type: Sprite
     state: oc_cavern_central
@@ -369,7 +369,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCCavernEast
-  name: Octanis Complex - Eastern Cavern
+  name: ent-CMUAreaRetreatOCCavernEast
   components:
   - type: Sprite
     state: oc_cavern_east
@@ -379,7 +379,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCSecPostNorth
-  name: Octanis Complex - Northern Gate House
+  name: ent-CMUAreaRetreatOCSecPostNorth
   components:
   - type: Sprite
     state: oc_secpost_north
@@ -389,7 +389,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCSecPostSouth
-  name: Octanis Complex - Southern Gate House
+  name: ent-CMUAreaRetreatOCSecPostSouth
   components:
   - type: Sprite
     state: oc_secpost_south
@@ -399,7 +399,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCResearchEast
-  name: Octanis Complex Research - East
+  name: ent-CMUAreaRetreatOCResearchEast
   components:
   - type: Sprite
     state: oc_research_east
@@ -409,7 +409,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCResearchSterileLab
-  name: Octanis Complex Research - Sterile Lab
+  name: ent-CMUAreaRetreatOCResearchSterileLab
   components:
   - type: Sprite
     state: oc_research_sterilelab
@@ -419,7 +419,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationSecurityPost
-  name: Octanis Complex Habitation - Security Post
+  name: ent-CMUAreaRetreatOCHabitationSecurityPost
   components:
   - type: Sprite
     state: oc_hab_securitypost
@@ -429,7 +429,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationNorthDorms
-  name: Octanis Complex Habitation - Northern Dormitories
+  name: ent-CMUAreaRetreatOCHabitationNorthDorms
   components:
   - type: Sprite
     state: oc_hab_northdorms
@@ -439,7 +439,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationSouthDorms
-  name: Octanis Complex Habitation - Southern Dormitories
+  name: ent-CMUAreaRetreatOCHabitationSouthDorms
   components:
   - type: Sprite
     state: oc_hab_southdorms
@@ -449,7 +449,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationAtrium
-  name: Octanis Complex Habitation - Atrium
+  name: ent-CMUAreaRetreatOCHabitationAtrium
   components:
   - type: Sprite
     state: oc_hab_atrium
@@ -459,7 +459,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationCafeteria
-  name: Octanis Complex Habitation - Cafeteria
+  name: ent-CMUAreaRetreatOCHabitationCafeteria
   components:
   - type: Sprite
     state: oc_hab_cafeteria
@@ -469,7 +469,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationMedbay
-  name: Octanis Complex Habitation - Medbay
+  name: ent-CMUAreaRetreatOCHabitationMedbay
   components:
   - type: Sprite
     state: oc_hab_medbay
@@ -479,7 +479,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCPowerplantOffice
-  name: Octanis Complex Powerplant - Office
+  name: ent-CMUAreaRetreatOCPowerplantOffice
   components:
   - type: Sprite
     state: oc_engi_office
@@ -489,7 +489,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCPowerplantTurbineRoom
-  name: Octanis Complex Powerplant - Turbine Room
+  name: ent-CMUAreaRetreatOCPowerplantTurbineRoom
   components:
   - type: Sprite
     state: oc_engi_turbine
@@ -499,7 +499,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCPowerplantStorageRoom
-  name: Octanis Complex Powerplant - Storage Room
+  name: ent-CMUAreaRetreatOCPowerplantStorageRoom
   components:
   - type: Sprite
     state: oc_engi_storage
@@ -509,7 +509,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminLiaisonOffices
-  name: Octanis Complex Administration - Liaison Offices
+  name: ent-CMUAreaRetreatOCAdminLiaisonOffices
   components:
   - type: Sprite
     state: oc_admin_embassy
@@ -519,7 +519,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminPanicRoom
-  name: Octanis Complex Administration - Panic Room
+  name: ent-CMUAreaRetreatOCAdminPanicRoom
   components:
   - type: Sprite
     state: oc_admin_panicroom
@@ -529,7 +529,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminAdminOffices
-  name: Octanis Complex Administration - Administrative Offices
+  name: ent-CMUAreaRetreatOCAdminAdminOffices
   components:
   - type: Sprite
     state: oc_admin_adminoffice
@@ -539,7 +539,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminAICore
-  name: Octanis Complex Administration - AI Core
+  name: ent-CMUAreaRetreatOCAdminAICore
   components:
   - type: Sprite
     state: oc_admin_aicore
@@ -549,7 +549,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminLogistics
-  name: Octanis Complex Administration - Logistics
+  name: ent-CMUAreaRetreatOCAdminLogistics
   components:
   - type: Sprite
     state: oc_admin_logi
@@ -561,7 +561,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCStarportServiceBay
-  name: Octanis Complex Starport - Service Bay
+  name: ent-CMUAreaRetreatOCStarportServiceBay
   components:
   - type: Sprite
     state: oc_starport_servicebuilding
@@ -571,7 +571,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCStarportWarehouses
-  name: Octanis Complex Starport - Warehouses
+  name: ent-CMUAreaRetreatOCStarportWarehouses
   components:
   - type: Sprite
     state: oc_starport_warehouses
@@ -582,7 +582,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCStarportTelecomms
-  name: Octanis Complex Starport - Telecomms
+  name: ent-CMUAreaRetreatOCStarportTelecomms
   components:
   - type: Sprite
     state: oc_starport_tcomms
@@ -592,7 +592,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCStarportTerminal
-  name: Octanis Complex Starport - Terminal
+  name: ent-CMUAreaRetreatOCStarportTerminal
   components:
   - type: Sprite
     state: oc_starport_terminal
@@ -604,7 +604,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatOCStarportExteriorNorth
-  name: Octanis Complex Starport - North
+  name: ent-CMUAreaRetreatOCStarportExteriorNorth
   components:
   - type: Sprite
     state: oc_starport_north
@@ -614,7 +614,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatOCStarportExteriorSouth
-  name: Octanis Complex Starport - South
+  name: ent-CMUAreaRetreatOCStarportExteriorSouth
   components:
   - type: Sprite
     state: oc_starport_south
@@ -624,7 +624,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatOCStarportExteriorLZ2
-  name: Octanis Complex Starport - Landing Pad (LZ2)
+  name: ent-CMUAreaRetreatOCStarportExteriorLZ2
   components:
   - type: Sprite
     state: oc_starport_lz2
@@ -634,7 +634,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatOCStarportExteriorServiceArea
-  name: Octanis Complex Starport - Service Area
+  name: ent-CMUAreaRetreatOCStarportExteriorServiceArea
   components:
   - type: Sprite
     state: oc_starport_servicearea
@@ -646,7 +646,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatCavesNorth
-  name: Northern Caves
+  name: ent-CMUAreaRetreatCavesNorth
   components:
   - type: Sprite
     state: caves_north
@@ -656,7 +656,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatCavesSouthEast
-  name: South Eastern Caves
+  name: ent-CMUAreaRetreatCavesSouthEast
   components:
   - type: Sprite
     state: caves_southeast
@@ -666,7 +666,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatCavesSouthWest
-  name: South Western Caves
+  name: ent-CMUAreaRetreatCavesSouthWest
   components:
   - type: Sprite
     state: caves_southwest
@@ -680,7 +680,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiningPrefabsNorth
-  name: Hope's Retreat - Northern Mining Prefabs
+  name: ent-CMUAreaRetreatHRMiningPrefabsNorth
   components:
   - type: Sprite
     state: hr_miningprefabs_north
@@ -690,7 +690,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiningPrefabsSouth
-  name: Hope's Retreat - Southern Mining Prefabs
+  name: ent-CMUAreaRetreatHRMiningPrefabsSouth
   components:
   - type: Sprite
     state: hr_miningprefabs_south
@@ -700,7 +700,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiningOfficeNorth
-  name: Hope's Retreat - Northern Mining Office
+  name: ent-CMUAreaRetreatHRMiningOfficeNorth
   components:
   - type: Sprite
     state: hr_miningprefabs_northminingoffice
@@ -710,7 +710,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRShippingAndReceiving
-  name: Hope's Retreat - Shipping and Receiving
+  name: ent-CMUAreaRetreatHRShippingAndReceiving
   components:
   - type: Sprite
     state: hr_shipping_office
@@ -720,7 +720,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRShippingAndReceivingForemansOffice
-  name: Hope's Retreat - Foreman's Office
+  name: ent-CMUAreaRetreatHRShippingAndReceivingForemansOffice
   components:
   - type: Sprite
     state: hr_shipping_foreman
@@ -730,7 +730,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRShippingAndReceivingLZServiceBay
-  name: Hope's Retreat - Landing Zone Service Bay
+  name: ent-CMUAreaRetreatHRShippingAndReceivingLZServiceBay
   components:
   - type: Sprite
     state: hr_shipping_servicebay
@@ -740,7 +740,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRShippingAndReceivingLZControlOffice
-  name: Hope's Retreat - Landing Zone Control Office
+  name: ent-CMUAreaRetreatHRShippingAndReceivingLZControlOffice
   components:
   - type: Sprite
     state: hr_shipping_controloffice
@@ -750,7 +750,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsColonyRecreationCenter
-  name: Hope's Retreat - Colony Recreation Center
+  name: ent-CMUAreaRetreatHRDormsColonyRecreationCenter
   components:
   - type: Sprite
     state: hr_dorms_recreationcenter
@@ -760,7 +760,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsDormitories
-  name: Hope's Retreat - Dormitories
+  name: ent-CMUAreaRetreatHRDormsDormitories
   components:
   - type: Sprite
     state: hr_dorms_livingspace
@@ -770,7 +770,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsCafeteria
-  name: Hope's Retreat - Cafeteria
+  name: ent-CMUAreaRetreatHRDormsCafeteria
   components:
   - type: Sprite
     state: hr_dorms_cafeteria
@@ -780,7 +780,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsHydroponics
-  name: Hope's Retreat - Hydroponics
+  name: ent-CMUAreaRetreatHRDormsHydroponics
   components:
   - type: Sprite
     state: hr_dorms_hydro
@@ -790,7 +790,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsCommissary
-  name: Hope's Retreat - Commissary
+  name: ent-CMUAreaRetreatHRDormsCommissary
   components:
   - type: Sprite
     state: hr_dorms_commissary
@@ -800,7 +800,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsSanitation
-  name: Hope's Retreat - Sanitation
+  name: ent-CMUAreaRetreatHRDormsSanitation
   components:
   - type: Sprite
     state: hr_dorms_sanitation
@@ -810,7 +810,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsAdministrationQuarters
-  name: Hope's Retreat - Administration Quarters
+  name: ent-CMUAreaRetreatHRDormsAdministrationQuarters
   components:
   - type: Sprite
     state: hr_dorms_admin
@@ -820,7 +820,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRClinic
-  name: Hope's Retreat - Medical Clinic
+  name: ent-CMUAreaRetreatHRClinic
   components:
   - type: Sprite
     state: hr_clinic
@@ -830,7 +830,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRClinicOperatingRoom
-  name: Hope's Retreat - Operating Room
+  name: ent-CMUAreaRetreatHRClinicOperatingRoom
   components:
   - type: Sprite
     state: hr_clinic_operatingroom
@@ -840,7 +840,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRAdminColonyAdministration
-  name: Hope's Retreat - Colony Administration
+  name: ent-CMUAreaRetreatHRAdminColonyAdministration
   components:
   - type: Sprite
     state: hr_admin
@@ -850,7 +850,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRAdminUPPEmbassy
-  name: Hope's Retreat - UPP Embassy
+  name: ent-CMUAreaRetreatHRAdminUPPEmbassy
   components:
   - type: Sprite
     state: hr_admin_embassy
@@ -860,7 +860,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRAdminServerRoom
-  name: Hope's Retreat - Server Room
+  name: ent-CMUAreaRetreatHRAdminServerRoom
   components:
   - type: Sprite
     state: hr_admin_serverroom
@@ -870,7 +870,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRSecurityOffice
-  name: Hope's Retreat - Security Office
+  name: ent-CMUAreaRetreatHRSecurityOffice
   components:
   - type: Sprite
     state: hr_security_office
@@ -880,7 +880,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRSecurityPrepRoom
-  name: Hope's Retreat - Prep Room
+  name: ent-CMUAreaRetreatHRSecurityPrepRoom
   components:
   - type: Sprite
     state: hr_security_prep
@@ -890,7 +890,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRSecurityJail
-  name: Hope's Retreat - Jail
+  name: ent-CMUAreaRetreatHRSecurityJail
   components:
   - type: Sprite
     state: hr_security_jail
@@ -900,7 +900,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringUpper
-  name: Hope's Retreat - Upper Engineering
+  name: ent-CMUAreaRetreatHREngineeringUpper
   components:
   - type: Sprite
     state: hr_engi_upper
@@ -910,7 +910,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringTurbineRoom
-  name: Hope's Retreat - Turbine Room
+  name: ent-CMUAreaRetreatHREngineeringTurbineRoom
   components:
   - type: Sprite
     state: hr_engi_turbine
@@ -920,7 +920,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringTreatment
-  name: Hope's Retreat - Water Treatment Plant
+  name: ent-CMUAreaRetreatHREngineeringTreatment
   components:
   - type: Sprite
     state: hr_engi_treatment
@@ -930,7 +930,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringConstruction
-  name: Hope's Retreat - Construction Office
+  name: ent-CMUAreaRetreatHREngineeringConstruction
   components:
   - type: Sprite
     state: hr_engi_construction
@@ -940,7 +940,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringFoundation
-  name: Hope's Retreat - Incomplete Building
+  name: ent-CMUAreaRetreatHREngineeringFoundation
   components:
   - type: Sprite
     state: hr_engi_foundation
@@ -950,7 +950,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiscMotorPoolGarage
-  name: Hope's Retreat - Motor Pool Garage
+  name: ent-CMUAreaRetreatHRMiscMotorPoolGarage
   components:
   - type: Sprite
     state: hr_misc_motorpool
@@ -960,7 +960,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiscMotorPoolStorage
-  name: Hope's Retreat - Motor Pool Storage
+  name: ent-CMUAreaRetreatHRMiscMotorPoolStorage
   components:
   - type: Sprite
     state: hr_misc_motorpoolstorage
@@ -970,7 +970,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiscSouthernDorms
-  name: Hope's Retreat - Ad-hoc Living Quarters
+  name: ent-CMUAreaRetreatHRMiscSouthernDorms
   components:
   - type: Sprite
     state: hr_misc_southerndorms
@@ -980,7 +980,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiscWasteManagement
-  name: Hope's Retreat - Waste Management
+  name: ent-CMUAreaRetreatHRMiscWasteManagement
   components:
   - type: Sprite
     state: hr_misc_wastemanagement
@@ -992,7 +992,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorNorthWest
-  name: Hope's Retreat - Northwestern Colony
+  name: ent-CMUAreaRetreatHRExteriorNorthWest
   components:
   - type: Sprite
     state: hr_outdoor_nw
@@ -1002,7 +1002,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorWest
-  name: Hope's Retreat - Western Colony
+  name: ent-CMUAreaRetreatHRExteriorWest
   components:
   - type: Sprite
     state: hr_outdoor_w
@@ -1012,7 +1012,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorNorth
-  name: Hope's Retreat - Northern Colony
+  name: ent-CMUAreaRetreatHRExteriorNorth
   components:
   - type: Sprite
     state: hr_outdoor_n
@@ -1022,7 +1022,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorCentral
-  name: Hope's Retreat - Central Colony
+  name: ent-CMUAreaRetreatHRExteriorCentral
   components:
   - type: Sprite
     state: hr_outdoor_c
@@ -1032,7 +1032,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorNorthEastern
-  name: Hope's Retreat - Northeastern Colony
+  name: ent-CMUAreaRetreatHRExteriorNorthEastern
   components:
   - type: Sprite
     state: hr_outdoor_ne
@@ -1042,7 +1042,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorEastern
-  name: Hope's Retreat - Eastern Colony
+  name: ent-CMUAreaRetreatHRExteriorEastern
   components:
   - type: Sprite
     state: hr_outdoor_e
@@ -1052,7 +1052,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorSouthEastern
-  name: Hope's Retreat - Southeastern Colony
+  name: ent-CMUAreaRetreatHRExteriorSouthEastern
   components:
   - type: Sprite
     state: hr_outdoor_se
@@ -1062,7 +1062,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorSouthWestern
-  name: Hope's Retreat - Southwestern Colony
+  name: ent-CMUAreaRetreatHRExteriorSouthWestern
   components:
   - type: Sprite
     state: hr_outdoor_sw
@@ -1072,7 +1072,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorSouthern
-  name: Hope's Retreat - Southern Colony
+  name: ent-CMUAreaRetreatHRExteriorSouthern
   components:
   - type: Sprite
     state: hr_outdoor_s
@@ -1082,7 +1082,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorLZ1
-  name: Hope's Retreat - Landing Zone (LZ1)
+  name: ent-CMUAreaRetreatHRExteriorLZ1
   components:
   - type: Sprite
     state: hr_outdoor_lz1

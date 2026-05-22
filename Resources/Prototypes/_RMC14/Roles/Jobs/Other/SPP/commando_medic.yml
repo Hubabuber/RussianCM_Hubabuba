@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: RMCSPPCommandoMedic
   name: rmc-job-name-spp-commando-medic
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: SPP Commando Medic (!DEATHSQUAD!)
+  spawnMenuRoleName: job-rmcsppcommandomedic-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -41,8 +41,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPCommandoMedic
-  name: DEATHSQUAD spp ghost role commando medic
-  suffix: Spawner, Player
+  name: ent-RMCRandomHumanoidSPPCommandoMedic
+  suffix: ent-RMCRandomHumanoidSPPCommandoMedic-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

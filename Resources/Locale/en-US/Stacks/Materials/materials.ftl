@@ -1,0 +1,16 @@
+stack-bananium-name = stack-bananium
+stack-biomass-name = stack-biomass
+stack-bones-name = stack-bones
+stack-cardboard-name = stack-cardboard
+stack-cloth-name = stack-cloth
+stack-cotton-name = stack-cotton
+stack-diamond-name = stack-diamond
+stack-durathread-name = stack-durathread
+stack-goliathhide-name = stack-goliath-hide
+stack-gunpowder-name = stack-gunpowder
+stack-meatsheets-name = stack-meat-sheet
+stack-pyrotton-name = stack-pyrotton
+stack-sharkminnowtooth-name = stack-sharkminnow-tooth
+stack-spacecarptooth-name = stack-space-carp-tooth
+stack-websilk-name = stack-silk
+stack-woodplank-name = stack-wood-plank

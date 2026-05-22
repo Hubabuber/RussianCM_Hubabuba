@@ -2,9 +2,9 @@
 - type: entity
   parent: ClosetBase
   id: CMClosetBaseUnanchored
-  name: closet
-  description: It's a basic storage unit.
-  suffix: Unanchored
+  name: ent-CMClosetBaseUnanchored
+  description: ent-CMClosetBaseUnanchored-desc
+  suffix: ent-CMClosetBaseUnanchored-suffix
   components:
   - type: Physics
     bodyType: Static
@@ -64,7 +64,7 @@
 - type: entity
   parent: CMClosetBaseUnanchored
   id: CMClosetBase
-  suffix: Anchored
+  suffix: ent-CMClosetBase-suffix
   components:
   - type: Transform
     anchored: true
@@ -73,8 +73,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCCabinetBase
-  name: cabinet
-  description: Old will forever be in fashion.
+  name: ent-RMCCabinetBase
+  description: ent-RMCCabinetBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cabinet.rsi
@@ -87,7 +87,7 @@
 - type: entity
   parent: RMCCabinetBase
   id: RMCCabinetBaseUnanchored
-  suffix: Unanchored
+  suffix: ent-RMCCabinetBaseUnanchored-suffix
   components:
   - type: Anchorable
   - type: Transform
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetBlack
-  name: formal closet
-  description: It's a storage unit for formal clothing.
+  name: ent-RMCClosetBlack
+  description: ent-RMCClosetBlack-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/black.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetBlue
-  name: legal closet
-  description: It's a storage unit for courtroom apparel and items.
+  name: ent-RMCClosetBlue
+  description: ent-RMCClosetBlue-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/blue.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetPurple
-  name: custodial closet
-  description: It's a storage unit for janitorial clothes and gear.
+  name: ent-RMCClosetPurple
+  description: ent-RMCClosetPurple-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/purple.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetEmergency
-  name: emergency closet
-  description: It's a storage unit for emergency breathmasks and o2 tanks.
+  name: ent-CMClosetEmergency
+  description: ent-CMClosetEmergency-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/emergency.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetFire
-  name: fire-safety closet
-  description: It's a storage unit for fire-fighting supplies.
+  name: ent-CMClosetFire
+  description: ent-CMClosetFire-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/firecloset.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetTool
-  name: tool closet
-  description: It's a storage unit for tools.
+  name: ent-CMClosetTool
+  description: ent-CMClosetTool-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/toolcloset.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetRadiation
-  name: radiation suit closet
-  description: It's a storage unit for rad-protective suits.
+  name: ent-CMClosetRadiation
+  description: ent-CMClosetRadiation-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/radsuit.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetBomb
-  name: EOD closet
-  description: It's a storage unit for explosion-protective suits.
+  name: ent-CMClosetBomb
+  description: ent-CMClosetBomb-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bombsuit.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetBio
-  name: level-3 biohazard suit closet
-  description: It's a storage unit for level-3 biohazard gear.
+  name: ent-CMClosetBio
+  description: ent-CMClosetBio-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bio.rsi
@@ -182,7 +182,7 @@
 - type: entity
   parent: CMClosetBio
   id: CMClosetBioVirology
-  suffix: Virology
+  suffix: ent-CMClosetBioVirology-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bio_virology.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: CMClosetBio
   id: CMClosetBioSecurity
-  suffix: Security
+  suffix: ent-CMClosetBioSecurity-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bio_security.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: CMClosetBio
   id: CMClosetBioJanitor
-  suffix: Janitor
+  suffix: ent-CMClosetBioJanitor-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bio_janitor.rsi
@@ -206,7 +206,7 @@
 - type: entity
   parent: CMClosetBio
   id: CMClosetBioScientist
-  suffix: Scientist
+  suffix: ent-CMClosetBioScientist-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bio_scientist.rsi
@@ -215,8 +215,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetAlien
-  name: strange closet
-  description: It looks alien!
+  name: ent-CMClosetAlien
+  description: ent-CMClosetAlien-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/acloset.rsi
@@ -225,7 +225,7 @@
 - type: entity
   parent: CMClosetBaseUnanchored
   id: RMCClosetMiner
-  name: miner's equipment
+  name: ent-RMCClosetMiner
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/mining.rsi
@@ -234,9 +234,9 @@
 - type: entity
   parent: CMClosetBaseUnanchored
   id: RMCClosetGoldenArrowGear
-  name: personal locker
-  description: An immobile storage unit.
-  suffix: PvE, Sun Riders
+  name: ent-RMCClosetGoldenArrowGear
+  description: ent-RMCClosetGoldenArrowGear-desc
+  suffix: ent-RMCClosetGoldenArrowGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -246,7 +246,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetPMCGear
-  suffix: PvE, PMC
+  suffix: ent-RMCClosetPMCGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -256,7 +256,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetSPPGear
-  suffix: PvE, SPP
+  suffix: ent-RMCClosetSPPGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -266,7 +266,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMGear
-  suffix: PVE, RCM
+  suffix: ent-RMCClosetRCMGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -276,8 +276,8 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMTroopSgtGear
-  name: troop sergeant locker
-  suffix: PVE, RCM, Troop Sergeant
+  name: ent-RMCClosetRCMTroopSgtGear
+  suffix: ent-RMCClosetRCMTroopSgtGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -287,8 +287,8 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMSectionLeaderGear
-  name: section leader locker
-  suffix: PVE, RCM, Section Leader
+  name: ent-RMCClosetRCMSectionLeaderGear
+  suffix: ent-RMCClosetRCMSectionLeaderGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -298,8 +298,8 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMGPMGGear
-  name: GPMG gunner locker
-  suffix: PVE, RCM, GPMG Gunner
+  name: ent-RMCClosetRCMGPMGGear
+  suffix: ent-RMCClosetRCMGPMGGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -309,8 +309,8 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMTeamLeaderGear
-  name: team leader locker
-  suffix: PVE, RCM, Team Leader
+  name: ent-RMCClosetRCMTeamLeaderGear
+  suffix: ent-RMCClosetRCMTeamLeaderGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -320,8 +320,8 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMTroopCommanderGear
-  name: troop commander locker
-  suffix: PVE, RCM, Troop Commander
+  name: ent-RMCClosetRCMTroopCommanderGear
+  suffix: ent-RMCClosetRCMTroopCommanderGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -331,8 +331,8 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMSapperGear
-  name: sapper locker
-  suffix: PVE, RCM, Sapper
+  name: ent-RMCClosetRCMSapperGear
+  suffix: ent-RMCClosetRCMSapperGear-suffix
   components:
   - type: EntityTableContainerFill
     containers:

@@ -1,8 +1,8 @@
 - type: entity
-  name: green glowstick
+  name: ent-GlowstickBase
   parent: BaseItem
   id: GlowstickBase
-  description: Useful for raves and emergencies.
+  description: ent-GlowstickBase-desc
   components:
     - type: SpaceGarbage
     - type: ExpendableLight
@@ -63,7 +63,7 @@
       - Trash
 
 - type: entity
-  name: red glowstick
+  name: ent-GlowstickRed
   parent: GlowstickBase
   id: GlowstickRed
   components:
@@ -74,7 +74,7 @@
       color: "#FF0000"
 
 - type: entity
-  name: purple glowstick
+  name: ent-GlowstickPurple
   parent: GlowstickBase
   id: GlowstickPurple
   components:
@@ -85,7 +85,7 @@
       color: "#FF00FF"
 
 - type: entity
-  name: yellow glowstick
+  name: ent-GlowstickYellow
   parent: GlowstickBase
   id: GlowstickYellow
   components:
@@ -96,7 +96,7 @@
       color: "#FFFF00"
 
 - type: entity
-  name: blue glowstick
+  name: ent-GlowstickBlue
   parent: GlowstickBase
   id: GlowstickBlue
   components:
@@ -110,7 +110,7 @@
 # THE FOLLOWING ARE ALL DUMMY ENTITIES USED TO TEST THE LIGHT BEHAVIOUR SYSTEM
 # ----------------------------------------------------------------------------
 - type: entity
-  name: light pulse test
+  name: ent-LightBehaviourTest1
   parent: BaseItem
   id: LightBehaviourTest1
   categories: [ HideSpawnMenu ]
@@ -141,7 +141,7 @@
           enabled: true
 
 - type: entity
-  name: color cycle test
+  name: ent-LightBehaviourTest2
   parent: BaseItem
   id: LightBehaviourTest2
   categories: [ HideSpawnMenu ]
@@ -173,7 +173,7 @@
             - green
 
 - type: entity
-  name: multi-behaviour light test
+  name: ent-LightBehaviourTest3
   parent: BaseItem
   id: LightBehaviourTest3
   categories: [ HideSpawnMenu ]
@@ -213,7 +213,7 @@
             - green
 
 - type: entity
-  name: light fade in test
+  name: ent-LightBehaviourTest4
   parent: BaseItem
   id: LightBehaviourTest4
   categories: [ HideSpawnMenu ]
@@ -244,7 +244,7 @@
           enabled: true
 
 - type: entity
-  name: light pulse radius test
+  name: ent-LightBehaviourTest5
   parent: BaseItem
   id: LightBehaviourTest5
   categories: [ HideSpawnMenu ]
@@ -275,7 +275,7 @@
           enabled: true
 
 - type: entity
-  name: light randomize radius test
+  name: ent-LightBehaviourTest6
   parent: BaseItem
   id: LightBehaviourTest6
   categories: [ HideSpawnMenu ]

@@ -8,3 +8,6 @@ ent-RMCMagazineRifleMAR40 = магазин MAR (7.62x39мм)
   .desc = Магазин 7.62x39мм для серии огнестрельного оружия MAR.
 ent-WeaponRifleMAR40 = боевая винтовка MAR-40
   .desc = Дешёвая, надёжная штурмовая винтовка калибра 7.62x39мм. Часто встречается в руках преступников или наёмников, а также у бойцов СНП или ФОК.
+
+ent-BulletRifleMAR40 = BaseBullet
+    .desc = If you can see this you're probably dead!

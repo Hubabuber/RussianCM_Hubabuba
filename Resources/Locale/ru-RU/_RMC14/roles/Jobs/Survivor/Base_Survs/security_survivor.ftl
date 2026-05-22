@@ -5,3 +5,5 @@ ent-RMCSurvivorPresetSecurity = настройки колониста служб
 ent-RMCSpawnPointSurvivorSecurity = точка появления службы безопасности выжившего
  
 
+job-cmsurvivorsecurity-desc = cm-описание-работы-выживший
+job-cmsurvivorsecurity-name = cm-job-name-survivor-security

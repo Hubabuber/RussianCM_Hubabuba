@@ -7,8 +7,8 @@
   id: BaseFish
   parent: BaseItem
   abstract: true
-  name: fish
-  description: Water-born creature from the infinite sea... Or toilet.
+  name: ent-BaseFish
+  description: ent-BaseFish-desc
   components:
   - type: Fish
     difficulty: 0.029
@@ -19,8 +19,8 @@
   id: BaseFishRare
   parent: BaseFish
   abstract: true
-  name: rare fish
-  description: Water-born creature from the infinite sea... Or toilet.
+  name: ent-BaseFishRare
+  description: ent-BaseFishRare-desc
   components:
   - type: Fish
     difficulty: 0.038
@@ -30,8 +30,8 @@
 - type: entity
   id: FishAlien
   parent: BaseFishRare
-  name: alien fish
-  description: Looks pretty... Abductory.
+  name: ent-FishAlien
+  description: ent-FishAlien-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -42,8 +42,8 @@
 - type: entity
   id: FishAngler
   parent: BaseFish
-  name: angler fish
-  description: Scariest thing in existence, after bingles.
+  name: ent-FishAngler
+  description: ent-FishAngler-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -54,8 +54,8 @@
 - type: entity
   id: FishBass
   parent: BaseFish
-  name: bass fish
-  description: Probably the most normal fish in existence. Unless you use it as bass guitar.
+  name: ent-FishBass
+  description: ent-FishBass-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -66,8 +66,8 @@
 - type: entity
   id: FishBingle
   parent: BaseFishRare
-  name: bingle fish
-  description: bingle
+  name: ent-FishBingle
+  description: ent-FishBingle-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -78,8 +78,8 @@
 - type: entity
   id: FishBlob
   parent: BaseFish
-  name: blob fish
-  description: Unfortuantly, this is not a 5th level bio-hazard threat.
+  name: ent-FishBlob
+  description: ent-FishBlob-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -90,8 +90,8 @@
 - type: entity
   id: FishBlueFintuna
   parent: BaseFish
-  name: blue fintuna
-  description: It's looking straight to you...
+  name: ent-FishBlueFintuna
+  description: ent-FishBlueFintuna-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -102,8 +102,8 @@
 - type: entity
   id: FishBoyFisher
   parent: BaseFishRare
-  name: boy fisher
-  description: You like kissing fish, don't you?
+  name: ent-FishBoyFisher
+  description: ent-FishBoyFisher-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -114,8 +114,8 @@
 - type: entity
   id: FishCat
   parent: BaseFish
-  name: cat fish
-  description: Ironically this looks nothing like a cat. And it doesn't meow.
+  name: ent-FishCat
+  description: ent-FishCat-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -126,8 +126,8 @@
 - type: entity
   id: FishTropicalClown
   parent: BaseFish
-  name: clown clown fish
-  description: That is almost certanly some kind of joke.
+  name: ent-FishTropicalClown
+  description: ent-FishTropicalClown-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -138,8 +138,8 @@
 - type: entity
   id: FishNukeDisk
   parent: BaseFishRare
-  name: nuke disk fish
-  description: Erm, Actually, it's a bad idea trying to fit a fish inside a nuclear explosion device.
+  name: ent-FishNukeDisk
+  description: ent-FishNukeDisk-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -150,8 +150,8 @@
 - type: entity
   id: FishGib
   parent: BaseFishRare
-  name: gib stick fish
-  description: "My face when i open a present and get gibstick:"
+  name: ent-FishGib
+  description: "ent-FishGib-desc"
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -162,8 +162,8 @@
 - type: entity
   id: FishMutant
   parent: BaseFishRare
-  name: mutant fish
-  description: Anomalous fish that looks like it ate some nuclear waste.
+  name: ent-FishMutant
+  description: ent-FishMutant-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -174,8 +174,8 @@
 - type: entity
   id: FishNuker
   parent: BaseFishRare
-  name: nuclear operative fish
-  description: Predator of the nuke disk fish.
+  name: ent-FishNuker
+  description: ent-FishNuker-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -186,8 +186,8 @@
 - type: entity
   id: FishPuffer
   parent: BaseFish
-  name: puffer fish
-  description: It is poisonous... in many ways.
+  name: ent-FishPuffer
+  description: ent-FishPuffer-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -198,8 +198,8 @@
 - type: entity
   id: FishSilver
   parent: BaseFish
-  name: silver fish
-  description: Actually contains silver.
+  name: ent-FishSilver
+  description: ent-FishSilver-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -210,8 +210,8 @@
 - type: entity
   id: FishTropicalSun
   parent: BaseFish
-  name: tropical sun fish
-  description: It probably looked at the sun for too long...?
+  name: ent-FishTropicalSun
+  description: ent-FishTropicalSun-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -222,8 +222,8 @@
 - type: entity
   id: FishToxic
   parent: BaseFishRare
-  name: toxic waste fish
-  description: "Looking at this fish, you understand how much it was a bad idea to allow nuclear waste to be dumped into rivers."
+  name: ent-FishToxic
+  description: "ent-FishToxic-desc"
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -234,8 +234,8 @@
 - type: entity
   id: FishTropical
   parent: BaseFish
-  name: clown fish
-  description: This fish is always searching for something... Or maybe someone?
+  name: ent-FishTropical
+  description: ent-FishTropical-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -246,8 +246,8 @@
 - type: entity
   id: FishIan
   parent: BaseFishRare
-  name: ian fish
-  description: Water-born ian from the sea.
+  name: ent-FishIan
+  description: ent-FishIan-desc
   components:
   - type: Sprite
     sprite: _SS14/_Goobstation/Objects/Specific/Fishing/fish.rsi

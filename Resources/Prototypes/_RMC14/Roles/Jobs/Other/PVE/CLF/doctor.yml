@@ -12,7 +12,7 @@
   accessGroups:
   - Colony
   - HospitalCorpsman
-  spawnMenuRoleName: CLF Doctor (PVE)
+  spawnMenuRoleName: job-rmcclfdoctorpve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -48,8 +48,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointCLFDoctorPVE
-  name: clf doctor spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointCLFDoctorPVE
+  suffix: ent-RMCSpawnPointCLFDoctorPVE-suffix
   components:
   - type: SpawnPoint
     job_id: RMCCLFDoctorPVE

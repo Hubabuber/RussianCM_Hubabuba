@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DrinkShaker
-  name: shaker
-  description: The trusty mixing buddy of the bartender.
+  name: ent-DrinkShaker
+  description: ent-DrinkShaker-desc
   components:
   - type: SolutionContainerManager
     solutions:
@@ -45,8 +45,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShotGlass
-  name: shot glass
-  description: Perfect for slamming down onto the table angrily.
+  name: ent-DrinkShotGlass
+  description: ent-DrinkShotGlass-desc
   components:
   - type: SolutionContainerManager
     solutions:
@@ -76,8 +76,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkJar
-  name: jar
-  description: The hipster's cup.
+  name: ent-DrinkJar
+  description: ent-DrinkJar-desc
   components:
   - type: Drink
   - type: Sprite
@@ -107,8 +107,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkJarWhat
-  name: jar of something
-  description: You can't really tell what this is.
+  name: ent-DrinkJarWhat
+  description: ent-DrinkJarWhat-desc
   components:
   - type: Drink
   - type: Sprite
@@ -137,8 +137,8 @@
 - type: entity
   parent: [BaseItem, BartenderMixer]
   id: DrinkJigger
-  name: jigger
-  description: Like a shaker, but smaller. Used to control the amount of ingredients.
+  name: ent-DrinkJigger
+  description: ent-DrinkJigger-desc
   components:
   - type: SolutionContainerManager
     solutions:
@@ -162,8 +162,8 @@
 - type: entity
   parent: [BaseItem, BartenderMixer]
   id: DrinkIceBucket
-  name: ice bucket
-  description: A special bucket of refreshy ice. Prohibited use for challenge with the same name!
+  name: ent-DrinkIceBucket
+  description: ent-DrinkIceBucket-desc
   components:
   - type: SolutionContainerManager
     solutions:
@@ -181,8 +181,8 @@
 - type: entity
   parent: DrinkBase
   id: Pitcher
-  name: metal pitcher
-  description: A stainless steel insulated pitcher. Everyone's best friend in the morning.
+  name: ent-Pitcher
+  description: ent-Pitcher-desc
   components:
   - type: SolutionContainerManager
     solutions:

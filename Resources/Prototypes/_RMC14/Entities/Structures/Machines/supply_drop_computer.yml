@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCSupplyDropConsole
-  name: supply drop console
-  description: An old-fashioned computer hooked into the nearby Supply Drop system.
+  name: ent-RMCSupplyDropConsole
+  description: ent-RMCSupplyDropConsole-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -29,7 +29,7 @@
   abstract: true
   parent: MarkerBase
   id: RMCSupplyDropPadBase
-  name: supply drop pad
+  name: ent-RMCSupplyDropPadBase
   components:
   - type: Transform
     anchored: true
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCSupplyDropPadBase
   id: RMCSupplyDropPadAlpha
-  suffix: Alpha
+  suffix: ent-RMCSupplyDropPadAlpha-suffix
   components:
   - type: SupplyDropPad
     squad: SquadAlpha
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCSupplyDropPadBase
   id: RMCSupplyDropPadBravo
-  suffix: Bravo
+  suffix: ent-RMCSupplyDropPadBravo-suffix
   components:
   - type: SupplyDropPad
     squad: SquadBravo
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCSupplyDropPadBase
   id: RMCSupplyDropPadCharlie
-  suffix: Charlie
+  suffix: ent-RMCSupplyDropPadCharlie-suffix
   components:
   - type: SupplyDropPad
     squad: SquadCharlie
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCSupplyDropPadBase
   id: RMCSupplyDropPadDelta
-  suffix: Delta
+  suffix: ent-RMCSupplyDropPadDelta-suffix
   components:
   - type: SupplyDropPad
     squad: SquadDelta
@@ -82,7 +82,7 @@
 - type: entity
   parent: RMCSupplyDropPadBase
   id: RMCSupplyDropPadEcho
-  suffix: Echo
+  suffix: ent-RMCSupplyDropPadEcho-suffix
   components:
   - type: SupplyDropPad
     squad: SquadEcho

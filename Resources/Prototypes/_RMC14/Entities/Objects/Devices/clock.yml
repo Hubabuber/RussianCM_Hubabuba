@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCDigitalClock
-  name: digital clock
-  description: A battery powered clock, able to keep time within about 5 seconds... it was never that accurate.
+  name: ent-RMCDigitalClock
+  description: ent-RMCDigitalClock-desc
   components:
   - type: Item
     size: Small
@@ -13,8 +13,8 @@
 
 - type: entity
   id: RMCCatClock
-  name: cat clock
-  description: An unbelievably creepy cat clock that surveys the room with every tick and every tock.
+  name: ent-RMCCatClock
+  description: ent-RMCCatClock-desc
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -30,8 +30,8 @@
 
 - type: entity
   id: RMCWoodClock
-  name: wood clock
-  description: An ordinary clock, for telling the time.
+  name: ent-RMCWoodClock
+  description: ent-RMCWoodClock-desc
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCWoodClock
   id: RMCGoldClock
-  name: gold clock
-  description: An ostentatious clock, for telling people how rich you are.
+  name: ent-RMCGoldClock
+  description: ent-RMCGoldClock-desc
   components:
   - type: Sprite
     drawdepth: WallMountedItems

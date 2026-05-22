@@ -11,7 +11,7 @@
   roleWeight: 0.25
   icon: "RMCJobIconSurvivorCommanderNewVaradero"
   hasIcon: true
-  spawnMenuRoleName: Commander (NV Survivor)
+  spawnMenuRoleName: job-rmcsurvivorcommandernewvaradero-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCPouchGeneralLarge
   id: RMCPouchGeneralLargeFilledSurvivorCommanderNewVaradero
-  suffix: Filled, Survivor
+  suffix: ent-RMCPouchGeneralLargeFilledSurvivorCommanderNewVaradero-suffix
   components:
   - type: StorageFill
     contents:
@@ -78,7 +78,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSurvivorCommanderNewVardero
-  name: new varadero commanding officer spawn point
+  name: ent-CMSpawnPointSurvivorCommanderNewVardero
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorCommanderNewVaradero

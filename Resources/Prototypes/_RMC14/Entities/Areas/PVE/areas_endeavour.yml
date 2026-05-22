@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: RMCAreaBase
   id: RMCAreaEndeavour
-  name: UNS Endeavour
+  name: ent-RMCAreaEndeavour
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_endeavour.rsi
@@ -28,22 +28,22 @@
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourBrief
-  name: Briefing Hall
+  name: ent-RMCAreaEndeavourBrief
 
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourDormitory
-  name: Dormitory
+  name: ent-RMCAreaEndeavourDormitory
 
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourCommandDeck
-  name: Command Deck
+  name: ent-RMCAreaEndeavourCommandDeck
 
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourMess
-  name: Mess Hall
+  name: ent-RMCAreaEndeavourMess
   components:
   - type: Sprite
     state: food
@@ -51,7 +51,7 @@
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourHypersleepStorage
-  name: Hypersleep Storage
+  name: ent-RMCAreaEndeavourHypersleepStorage
   components:
   - type: Sprite
     state: hypersleep
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourMaintenance
-  name: Maintenance
+  name: ent-RMCAreaEndeavourMaintenance
   components:
   - type: Sprite
     state: engineering
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourPrep
-  name: Gear Racks
+  name: ent-RMCAreaEndeavourPrep
   components:
   - type: Sprite
     state: prep
@@ -75,7 +75,7 @@
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourMedical
-  name: Infirmary
+  name: ent-RMCAreaEndeavourMedical
   components:
   - type: Sprite
     state: medical
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourHangar
-  name: Hangar
+  name: ent-RMCAreaEndeavourHangar
   components:
   - type: Sprite
     state: hangar
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourSupply
-  name: Supply Bay
+  name: ent-RMCAreaEndeavourSupply
   components:
   - type: Sprite
     state: cargo
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourAICore
-  name: ARES AI Core
+  name: ent-RMCAreaEndeavourAICore
   components:
   - type: Sprite
     state: ai
@@ -107,12 +107,12 @@
 - type: entity
   parent: RMCAreaEndeavourAICore
   id: RMCAreaEndeavourSyntheticStorage
-  name: Synthetic Storage
+  name: ent-RMCAreaEndeavourSyntheticStorage
 
 - type: entity
   parent: RMCAreaEndeavour
   id: RMCAreaEndeavourOOB
-  name: Out Of Bounds
+  name: ent-RMCAreaEndeavourOOB
   components:
   - type: Sprite
     state: oob

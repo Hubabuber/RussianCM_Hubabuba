@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesBoxingRed
-  name: red boxing gloves
-  description: Red gloves for competitive boxing.
+  name: ent-ClothingHandsGlovesBoxingRed
+  description: ent-ClothingHandsGlovesBoxingRed-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingred.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingBlue
-  name: blue boxing gloves
-  description: Blue gloves for competitive boxing.
+  name: ent-ClothingHandsGlovesBoxingBlue
+  description: ent-ClothingHandsGlovesBoxingBlue-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingblue.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingGreen
-  name: green boxing gloves
-  description: Green gloves for competitive boxing.
+  name: ent-ClothingHandsGlovesBoxingGreen
+  description: ent-ClothingHandsGlovesBoxingGreen-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxinggreen.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingRed
   id: ClothingHandsGlovesBoxingYellow
-  name: yellow boxing gloves
-  description: Yellow gloves for competitive boxing.
+  name: ent-ClothingHandsGlovesBoxingYellow
+  description: ent-ClothingHandsGlovesBoxingYellow-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Boxing/boxingyellow.rsi
@@ -81,7 +81,7 @@
 - type: entity
   parent: ClothingHandsGlovesBoxingBlue
   id: ClothingHandsGlovesBoxingRigged
-  suffix: Rigged
+  suffix: ent-ClothingHandsGlovesBoxingRigged-suffix
   components:
   - type: StaminaDamageOnHit
     damage: 25
@@ -96,8 +96,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseCommandContraband]
   id: ClothingHandsGlovesCaptain
-  name: captain gloves
-  description: Regal blue gloves, with a nice gold trim. Swanky.
+  name: ent-ClothingHandsGlovesCaptain
+  description: ent-ClothingHandsGlovesCaptain-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/captain.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesHop
-  name: papercut-proof gloves
-  description: Perfect for dealing with paperwork and matters with bureaucracy.
+  name: ent-ClothingHandsGlovesHop
+  description: ent-ClothingHandsGlovesHop-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/hop.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesLatex
-  name: latex gloves
-  description: Thin sterile latex gloves. Basic PPE for any doctor.
+  name: ent-ClothingHandsGlovesLatex
+  description: ent-ClothingHandsGlovesLatex-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/latex.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesNitrile
-  name: nitrile gloves
-  description: High-quality nitrile gloves. Expensive medical PPE.
+  name: ent-ClothingHandsGlovesNitrile
+  description: ent-ClothingHandsGlovesNitrile-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/nitrile.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesLeather
-  name: botanist's leather gloves
-  description: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
+  name: ent-ClothingHandsGlovesLeather
+  description: ent-ClothingHandsGlovesLeather-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/leather.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesPowerglove
-  name: power gloves
-  description: Now I'm playin' with power! Wait... they're turned off. #Use "Now I'm playin' with power! BAM!" for when they're turned on
+  name: ent-ClothingHandsGlovesPowerglove
+  description: ent-ClothingHandsGlovesPowerglove-desc #Use "Now I'm playin' with power! BAM!" for when they're turned on
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/powerglove.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesRobohands
-  name: robohands gloves
-  description: Beep boop borp!
+  name: ent-ClothingHandsGlovesRobohands
+  description: ent-ClothingHandsGlovesRobohands-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/robohands.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseToggleClothing, BaseMajorContraband]
   id: ClothingHandsGlovesSpaceNinja
-  name: space ninja gloves
-  description: These black nano-enhanced gloves insulate from electricity and provide fire resistance.
+  name: ent-ClothingHandsGlovesSpaceNinja
+  description: ent-ClothingHandsGlovesSpaceNinja-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/spaceninja.rsi
@@ -263,8 +263,8 @@
 - type: entity
   parent: [ ClothingHandsGlovesColorBlack, BaseSecurityEngineeringContraband ]
   id: ClothingHandsGlovesCombat
-  name: combat gloves
-  description: These tactical gloves are fireproof and shock resistant.
+  name: ent-ClothingHandsGlovesCombat
+  description: ent-ClothingHandsGlovesCombat-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/combat.rsi
@@ -278,8 +278,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGloves
-  name: tactical maid gloves
-  description: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate her goals.
+  name: ent-ClothingHandsTacticalMaidGloves
+  description: ent-ClothingHandsTacticalMaidGloves-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi
@@ -292,8 +292,8 @@
 - type: entity
   parent: [ BaseSecurityCargoContraband, ClothingHandsGlovesCombat ]
   id: ClothingHandsMercGlovesCombat
-  name: mercenary combat gloves
-  description: High-quality combat gloves to protect hands from mechanical damage during combat.
+  name: ent-ClothingHandsMercGlovesCombat
+  description: ent-ClothingHandsMercGlovesCombat-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/mercbattle.rsi
@@ -310,8 +310,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesFingerless
-  name: fingerless gloves
-  description: Plain black gloves without fingertips for the hard working.
+  name: ent-ClothingHandsGlovesFingerless
+  description: ent-ClothingHandsGlovesFingerless-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/fingerless.rsi
@@ -328,8 +328,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesFingerlessInsulated
-  name: fingerless insulated gloves
-  description: Insulated gloves resistant to shocks, or at least they used to.
+  name: ent-ClothingHandsGlovesFingerlessInsulated
+  description: ent-ClothingHandsGlovesFingerlessInsulated-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/fingerlessinsuls.rsi
@@ -346,8 +346,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesMercFingerless
-  name: mercenary fingerless gloves
-  description: Gloves that may not protect you from finger burns, but will make you cooler.
+  name: ent-ClothingHandsGlovesMercFingerless
+  description: ent-ClothingHandsGlovesMercFingerless-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/mercfingerless.rsi
@@ -366,7 +366,7 @@
   # This means they can also be butchered if you need to look un-sus before a very thorough search...
   parent: ClothingHandsGlovesColorBlack
   id: ThievingGloves
-  suffix: Thieving
+  suffix: ent-ThievingGloves-suffix
   components:
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
@@ -377,17 +377,17 @@
 - type: entity
   parent: ClothingHandsGlovesColorWhite
   id: ClothingHandsGlovesCluwne
-  name: cluwne hands
-  suffix: Unremoveable
-  description:  A cursed pair of cluwne hands.
+  name: ent-ClothingHandsGlovesCluwne
+  suffix: ent-ClothingHandsGlovesCluwne-suffix
+  description: ent-ClothingHandsGlovesCluwne-desc
   components:
   - type: Unremoveable
 
 - type: entity
   parent: [ClothingHandsButcherable, BaseSyndicateContraband]
   id: ClothingHandsGlovesNorthStar
-  name: gloves of the north star
-  description: These gloves allow you to punch incredibly fast.
+  name: ent-ClothingHandsGlovesNorthStar
+  description: ent-ClothingHandsGlovesNorthStar-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/northstar.rsi
@@ -426,8 +426,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseSecurityContraband]
   id: ClothingHandsGlovesForensic
-  name: forensic gloves
-  description: Do not leave fibers or fingerprints. If you work without them, you're A TERRIBLE DETECTIVE.
+  name: ent-ClothingHandsGlovesForensic
+  description: ent-ClothingHandsGlovesForensic-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/forensic.rsi
@@ -442,8 +442,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesJanitor
-  name: rubber gloves
-  description: High-quality rubber gloves, squeaky to do some cleaning!
+  name: ent-ClothingHandsGlovesJanitor
+  description: ent-ClothingHandsGlovesJanitor-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/janitor.rsi
@@ -458,8 +458,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseMinorContraband]
   id: ClothingHandsKnuckleDusters
-  name: knuckle dusters
-  description: "Cold plasteel knuckle dusters, makes your punches hit much harder."
+  name: ent-ClothingHandsKnuckleDusters
+  description: "ent-ClothingHandsKnuckleDusters-desc"
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/KnuckleDusters/knuckleduster.rsi
@@ -485,8 +485,8 @@
 - type: entity
   parent: [ClothingHandsKnuckleDusters, BaseMinorContraband] #Craftable version of base knuckledusters
   id: ClothingHandsKnuckleDustersBrass
-  name: brass knuckle dusters
-  description: "Brass knuckle dusters, just like how they used to make em and still hit just as hard."
+  name: ent-ClothingHandsKnuckleDustersBrass
+  description: "ent-ClothingHandsKnuckleDustersBrass-desc"
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/KnuckleDusters/brassknuckleduster.rsi
@@ -504,8 +504,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseGrandTheftContraband]
   id: ClothingHandsKnuckleDustersQM
-  name: QM's golden knuckle dusters
-  description: "24karat gold infused with plasteel and branded with the Nanotrasen logo. A true symbol of the Quartermaster's might."
+  name: ent-ClothingHandsKnuckleDustersQM
+  description: "ent-ClothingHandsKnuckleDustersQM-desc"
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/KnuckleDusters/goldenknuckleduster.rsi
@@ -533,8 +533,8 @@
 - type: entity
   parent: [ClothingHandsBase, BaseSyndicateContraband]
   id: ClothingHandsKnuckleDustersSyndicate
-  name: syndicate knuckle dusters
-  description: "Plastitanium knuckle dusters branded with the blood-red S. A real man beats someone to death with these."
+  name: ent-ClothingHandsKnuckleDustersSyndicate
+  description: "ent-ClothingHandsKnuckleDustersSyndicate-desc"
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/KnuckleDusters/syndicateknuckleduster.rsi
@@ -559,10 +559,10 @@
     price: 2000
 
 - type: entity
-  name: stun knuckle dusters
+  name: ent-ClothingHandsKnuckleDustersStun
   parent: [ClothingHandsBase, BaseToggleClothing, BaseSecurityContraband]
   id: ClothingHandsKnuckleDustersStun
-  description: A pair of knuckle dusters combined with the tech of a stun baton. This makes beating tiders a whole lot easier.
+  description: ent-ClothingHandsKnuckleDustersStun-desc
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/KnuckleDusters/electricknuckleduster.rsi
@@ -629,8 +629,8 @@
 - type: entity #Admeme
   parent: ClothingHandsKnuckleDusters
   id: ClothingHandsKnuckleBoneCrushers
-  name: bone crushers
-  description: "Blessed by the Gods to break all those who don't obey."
+  name: ent-ClothingHandsKnuckleDustersStun
+  description: "ent-ClothingHandsKnuckleDustersStun-desc"
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/KnuckleDusters/goldenknuckleduster.rsi

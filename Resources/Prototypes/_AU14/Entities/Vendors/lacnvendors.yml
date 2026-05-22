@@ -2,13 +2,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNclothingequipmentvendor
-  name: LACN Landing Forces apparel vendor
-  description: >-
-    An automated dispenser rack, hooked up to a small storage of Latin American Colonial Navy apparel for the Landing Forces.
-    Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
-    Manufactured to outfit personnel rapidly following cryogenic hypersleep or emergency mobilization.
-
-    For full operational readiness, select one item from each section: fatigues with a webbing, footwear, gloves, headgear, armor, backpack, belt and a pouch.
+  name: ent-AU14LACNclothingequipmentvendor
+  description: ent-AU14LACNclothingequipmentvendor-desc
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -191,13 +186,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNequipmentvendor
-  name: LACN Landing Forces equipment vendor
-  description: >-
-    An automated dispenser rack, hooked up to a small storage of Latin American Colonial Navy equipment for the Landing Forces.
-    Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
-    The interface is intentionally simple, even someone with tunnel-vision and frostbite can operate it.
-
-    Rapid-issue protocol: prioritize medical supplies, a ration pack, an e-tool and sandbags.
+  name: ent-AU14LACNequipmentvendor
+  description: ent-AU14LACNequipmentvendor-desc
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -286,13 +276,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNcorpsmanvendor
-  name: LACN Landing Forces corpsman medical vendor
-  description: >-
-    An automated medical rack, hooked up to a compact stock of Latin American Colonial Navy trauma supplies for the Landing Forces.
-    Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
-    Designed for rapid reconstitution of combat medics following cryogenic hypersleep or emergency call-up.
-
-    Corpsman protocol: select the essential equipment set, storage and limited medications.
+  name: ent-AU14LACNcorpsmanvendor
+  description: ent-AU14LACNcorpsmanvendor-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_equipment.rsi
@@ -412,12 +397,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNaircrewvendor
-  name: LACN aircrew vendor
-  description: >-
-    An automated dispenser rack, hooked up to a small storage of Latin American Colonial Navy aircrew flight and support gear for the Landing Forces.
-    Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
-
-    Aircrew protocol: select a set of fatigues, the essential medical equipment and storage kit.
+  name: ent-AU14LACNaircrewvendor
+  description: ent-AU14LACNaircrewvendor-desc
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
@@ -600,10 +581,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNcommandequipmentvendor
-  name: LACN Landing Forces command vendor
-  description: >-
-    An automated command rack, hooked up to a restricted storage of Latin American Colonial Navy command-leadership equipment for the Landing Forces.
-    Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
+  name: ent-AU14LACNcommandequipmentvendor
+  description: ent-AU14LACNcommandequipmentvendor-desc
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforCommand" ], [ "AU14AccessOpforCommand" ] ]
@@ -672,11 +651,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNMGequipmentvendor
-  name: LACN Landing Forces machine gunner equipment vendor
-  description: >-
-    An automated weapons rack, hooked up to a small armory of Latin American Colonial Navy light-machine gun systems for the Landing Forces.
-    Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
-    Built to bring fire support online rapidly after cryogenic hypersleep or emergency mobilization.
+  name: ent-AU14LACNMGequipmentvendor
+  description: ent-AU14LACNMGequipmentvendor-desc
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforGunner" ], [ "AU14AccessOpforGunner" ] ]
@@ -699,10 +675,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNsectionleaderequipmentvendor
-  name: LACN Landing Forces section leader vendor
-  description: >-
-    An automated equipment rack, hooked up to a compact storage of Latin American Colonial Navy section-leadership equipment for the Landing Forces.
-    Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
+  name: ent-AU14LACNsectionleaderequipmentvendor
+  description: ent-AU14LACNsectionleaderequipmentvendor-desc
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforFTL" ], [ "AU14AccessOpforFTL" ] ]
@@ -731,13 +705,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNWeaponsVendor
-  name: LACN Landing Forces weapons rack
-  description: >-
-    An automated weapons rack, hooked up to a small armory of Latin American Colonial Navy weaponry for the Landing Forces.
-    Standard issue across the frontier where threats can appear without warning.
-    Engineered to arm personnel in seconds following cryogenic hypersleep or emergency mobilization.
-
-    For immediate combat readiness: select a primary weapon kit and a sidearm.
+  name: ent-AU14LACNWeaponsVendor
+  description: ent-AU14LACNWeaponsVendor-desc
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -770,13 +739,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14LACNSpecialWeaponsVendor
-  name: LACN Landing Forces special weapons rack
-  description: >-
-    An automated special weapons rack, hooked up to a restricted armory of Latin American Colonial Navy heavy and breaching ordnance for the Landing Forces.
-    Standard issue only for qualified operators.
-    Engineered to deliver overwhelming firepower the instant cryogenic hypersleep ends or an emergency mobilization is called.
-
-    Special weapons protocol: one weapon system of choice with a full ammunition loadout and explosives.
+  name: ent-AU14LACNSpecialWeaponsVendor
+  description: ent-AU14LACNSpecialWeaponsVendor-desc
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -830,8 +794,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14MilitaryPolicemanVendorLACN
-  name: LACN military police equipment rack
-  description: An automated rack hooked up to a small storage of military police equipment.
+  name: ent-AU14MilitaryPolicemanVendorLACN
+  description: ent-AU14MilitaryPolicemanVendorLACN-desc
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
@@ -881,8 +845,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14LACNRequisitionVendor
-  name: LACN automated requisitions vendor
-  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
+  name: ent-AU14LACNRequisitionVendor
+  description: ent-AU14LACNRequisitionVendor-desc
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

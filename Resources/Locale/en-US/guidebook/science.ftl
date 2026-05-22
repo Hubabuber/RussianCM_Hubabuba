@@ -1,0 +1,9 @@
+guideentry-anomalousresearch-name = guide-entry-anomalous-research
+guideentry-ape-name = guide-entry-ape
+guideentry-artifactreports-name = guide-entry-artifact-reports
+guideentry-cyborgs-name = guide-entry-cyborgs
+guideentry-robotics-name = guide-entry-robotics
+guideentry-scannersandvessels-name = guide-entry-scanners-and-vessels
+guideentry-science-name = guide-entry-science
+guideentry-technologies-name = guide-entry-technologies
+guideentry-xenoarchaeology-name = guide-entry-xenoarchaeology

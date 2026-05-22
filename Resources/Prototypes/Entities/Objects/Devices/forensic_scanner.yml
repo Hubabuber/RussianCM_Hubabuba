@@ -1,8 +1,8 @@
 - type: entity
-  name: forensic scanner
+  name: ent-ForensicScanner
   parent: [ BaseItem, BaseSecurityContraband ]
   id: ForensicScanner
-  description: A handheld device that can scan objects for fingerprints and fibers.
+  description: ent-ForensicScanner-desc
   components:
   - type: Sprite
     sprite: Objects/Devices/forensic_scanner.rsi
@@ -31,10 +31,10 @@
     stealGroup: ForensicScanner
 
 - type: entity
-  name: forensic scanner report
+  name: ent-ForensicReportPaper
   parent: Paper
   id: ForensicReportPaper
-  description: Circumstantial evidence, at best.
+  description: ent-ForensicReportPaper-desc
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ForensicReportPaper
   id: PaperAccessLogs
-  name: access logs
-  description: A printout from the detective's trusty LogProbe.
+  name: ent-PaperAccessLogs
+  description: ent-PaperAccessLogs-desc
   components:
   - type: PaperVisuals
     headerImagePath: null

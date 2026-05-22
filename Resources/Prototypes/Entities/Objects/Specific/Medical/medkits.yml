@@ -1,6 +1,6 @@
 - type: entity
-  name: first aid kit
-  description: It's an emergency medical kit for those serious boo-boos.
+  name: ent-Medkit
+  description: ent-Medkit-desc
   parent: BaseStorageItem
   id: Medkit
   components:
@@ -23,8 +23,8 @@
     - Medkit
 
 - type: entity
-  name: burn treatment kit
-  description: "A specialized medical kit for when the toxins lab spontaneously burns down."
+  name: ent-MedkitBurn
+  description: "ent-MedkitBurn-desc"
   parent: Medkit
   id: MedkitBurn
   components:
@@ -34,8 +34,8 @@
     heldPrefix: burnkit
 
 - type: entity
-  name: toxin treatment kit
-  description: "Used to treat toxic blood content."
+  name: ent-MedkitToxin
+  description: "ent-MedkitToxin-desc"
   parent: Medkit
   id: MedkitToxin
   components:
@@ -45,8 +45,8 @@
     heldPrefix: toxinkit
 
 - type: entity
-  name: oxygen deprivation treatment kit
-  description: "A box full of oxygen goodies."
+  name: ent-MedkitO2
+  description: "ent-MedkitO2-desc"
   parent: Medkit
   id: MedkitO2
   components:
@@ -56,8 +56,8 @@
     heldPrefix: o2kit
 
 - type: entity
-  name: brute trauma treatment kit
-  description: "A first aid kit for when you get toolboxed."
+  name: ent-MedkitBrute
+  description: "ent-MedkitBrute-desc"
   parent: Medkit
   id: MedkitBrute
   components:
@@ -67,8 +67,8 @@
     heldPrefix: brutekit
 
 - type: entity
-  name: advanced first aid kit
-  description: "An advanced kit to help deal with advanced wounds."
+  name: ent-MedkitAdvanced
+  description: "ent-MedkitAdvanced-desc"
   parent: Medkit
   id: MedkitAdvanced
   components:
@@ -78,8 +78,8 @@
     heldPrefix: advkit
 
 - type: entity
-  name: radiation treatment kit
-  description: "If you took your Rad-X you wouldn't need this."
+  name: ent-MedkitRadiation
+  description: "ent-MedkitRadiation-desc"
   parent: Medkit
   id: MedkitRadiation
   components:
@@ -89,8 +89,8 @@
     heldPrefix: radkit
 
 - type: entity
-  name: combat medical kit
-  description: "For the big weapons among us."
+  name: ent-MedkitCombat
+  description: "ent-MedkitCombat-desc"
   parent: Medkit
   id: MedkitCombat
   components:

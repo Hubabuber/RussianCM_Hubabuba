@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: RMCCLFCellLeader
   name: rmc-clf-cell-leader
@@ -9,7 +9,7 @@
   startingGear: RMCGearCLFCellLeader
   icon: RMCJobIconCLFCellLeader
   joinNotifyCrew: false
-  spawnMenuRoleName: CLF Cell Leader
+  spawnMenuRoleName: job-rmcclfcellleader-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -56,8 +56,8 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFCellLeader
-  name: clf ghost role cell leader
-  suffix: Spawner, Player
+  name: ent-RMCRandomHumanoidCLFCellLeader
+  suffix: ent-RMCRandomHumanoidCLFCellLeader-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi

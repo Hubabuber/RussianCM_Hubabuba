@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - SmartGunOperator
-  spawnMenuRoleName: FORECON Smartgunner (PVE)
+  spawnMenuRoleName: job-rmcforeconpvesmartgunner-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVESmartgunner
-  name: forecon smartgunner spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointFORECONPVESmartgunner
+  suffix: ent-RMCSpawnPointFORECONPVESmartgunner-suffix
   components:
   - type: Sprite
     state: smartgunner_spawn

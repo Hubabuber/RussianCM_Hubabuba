@@ -82,3 +82,103 @@ ent-ClothingHeadHeadHatBaseFlippable-name = lathe-category-clothing
 
 ent-ClothingHeadHeadHatBaseFlipped-name = lathe-category-clothing
 
+ent-ClothingHeadHatBizarreSoft = кепка нарушителя спокойствия
+    .desc = Действительно... странный аксессуар.
+
+ent-ClothingHeadHatBizarreSoftFlipped = кепка нарушителя спокойствия
+    .suffix = перевернутый
+
+ent-ClothingHeadHatBlacksoft = черная кепка
+    .desc = Черная бейсболка.
+
+ent-ClothingHeadHatBlacksoftFlipped = черная кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatBluesoft = синяя кепка
+    .desc = Синяя бейсболка.
+
+ent-ClothingHeadHatBluesoftFlipped = синяя кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatCargosoft = грузовая крышка
+    .desc = Бейсболка, окрашенная в тон униформы груза.
+
+ent-ClothingHeadHatCargosoftFlipped = грузовая крышка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatCommandSoft = командирская кепка
+    .desc = Бейсболка характерного командного синего цвета.
+
+ent-ClothingHeadHatCommandSoftFlipped = командирская кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatCorpsoft = корпоративная кепка
+    .desc = Бейсболка корпоративных цветов.
+
+ent-ClothingHeadHatCorpsoftFlipped = корпоративная кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatGreensoft = зеленая кепка
+    .desc = Зеленая бейсболка.
+
+ent-ClothingHeadHatGreensoftFlipped = зеленая кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatGreysoft = серая кепка
+    .desc = Серая бейсболка.
+
+ent-ClothingHeadHatGreysoftFlipped = серая кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatMimesoft = белая кепка
+    .desc = Белая бейсболка.
+
+ent-ClothingHeadHatMimesoftFlipped = белая кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatOrangesoft = оранжевая кепка
+    .desc = Оранжевая бейсболка.
+
+ent-ClothingHeadHatOrangesoftFlipped = оранжевая кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatParamedicsoft = кепка фельдшера
+    .desc = Синяя бейсболка с крестом спереди.
+
+ent-ClothingHeadHatParamedicsoftFlipped = кепка фельдшера
+    .suffix = перевернутый
+
+ent-ClothingHeadHatPurplesoft = фиолетовая кепка
+    .desc = Фиолетовая бейсболка.
+
+ent-ClothingHeadHatPurplesoftFlipped = фиолетовая кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatQMsoft = фуражка интенданта
+    .desc = Бейсболка цвета интендантской формы.
+
+ent-ClothingHeadHatQMsoftFlipped = фуражка интенданта
+    .suffix = перевернутый
+
+ent-ClothingHeadHatRedsoft = красная шапка
+    .desc = Красная бейсболка.
+
+ent-ClothingHeadHatRedsoftFlipped = красная шапка
+    .suffix = перевернутый
+
+ent-ClothingHeadHatSecsoft = защитный колпачок
+    .desc = Бейсболка, окрашенная в тон униформы сотрудников службы безопасности.
+
+ent-ClothingHeadHatSecsoftFlipped = защитный колпачок
+    .suffix = перевернутый
+
+ent-ClothingHeadHatYellowsoft = желтая кепка
+    .desc = Желтая бейсболка.
+
+ent-ClothingHeadHatYellowsoftFlipped = желтая кепка
+    .suffix = перевернутый
+
+ent-ClothingHeadHeadHatBaseFlippable = item
+
+ent-ClothingHeadHeadHatBaseFlipped = item
+    .suffix = перевернутый

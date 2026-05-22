@@ -1,7 +1,7 @@
 - type: entity
   id: BasaltOne
-  name: basalt
-  description: Rock.
+  name: ent-BasaltOne
+  description: ent-BasaltOne-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -67,7 +67,7 @@
 - type: entity
   id: BasaltRandom
   parent: BasaltOne
-  suffix: Random
+  suffix: ent-BasaltRandom-suffix
   components:
     - type: RandomSprite
       available:

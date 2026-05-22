@@ -5,7 +5,7 @@
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorEngineer
   startingGear: RMCGearSurvivorTechnician
-  spawnMenuRoleName: Engineering Technician (NV Survivor)
+  spawnMenuRoleName: job-cmsurvivortechnician-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTechnician
-  name: survivor engineering technician spawn point
+  name: ent-RMCSpawnPointSurvivorTechnician
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -52,5 +52,5 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetTechnician
-  name: technician colonist preset
+  name: ent-RMCGearSurvivorPresetTechnician
   categories: [ HideSpawnMenu ]

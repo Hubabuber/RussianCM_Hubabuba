@@ -1,7 +1,7 @@
 - type: entity
   id: XenoTunnel
-  name: Tunnel
-  description: A tunnel entrance. Looks like it was dug by some kind of clawed beast.
+  name: ent-XenoTunnel
+  description: ent-XenoTunnel-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -44,8 +44,8 @@
 - type: entity
   parent: XenoTunnel
   id: XenoTunnelMaint
-  name: Maintenance Hatch
-  description: An entrance to a maintenance tunnel. You can see bits of slime and resin within. Pieces of debris keep you from getting a closer look.
+  name: ent-XenoTunnelMaint
+  description: ent-XenoTunnelMaint-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_tunnel.rsi
@@ -54,13 +54,13 @@
 - type: entity
   parent: XenoTunnelMaint
   id: XenoTunnelMaintNoXenoDesc
-  description: An entrance to a maintenance tunnel. Pieces of debris keep you from getting a closer look.
-  suffix: No Xeno Desc
+  description: ent-XenoTunnelMaintNoXenoDesc-desc
+  suffix: ent-XenoTunnelMaintNoXenoDesc-suffix
 
 - type: entity
   parent: XenoTunnelMaint
   id: XenoTunnelMaintHybrisa
-  name: Sewer Manhole
+  name: ent-XenoTunnelMaintHybrisa
   components:
   - type: Sprite
     state: wymanhole
@@ -68,7 +68,7 @@
 - type: entity
   parent: XenoTunnelMaintNoXenoDesc
   id: XenoTunnelMaintHybrisaNoXenoDesc
-  name: Sewer Manhole
+  name: ent-XenoTunnelMaintHybrisaNoXenoDesc
   components:
   - type: Sprite
     state: wymanhole

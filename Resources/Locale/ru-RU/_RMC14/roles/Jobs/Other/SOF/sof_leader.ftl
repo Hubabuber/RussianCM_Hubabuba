@@ -6,3 +6,6 @@ ent-RMCRandomHumanoidMarineRaiderLead = DEATHSQUAD Морпех лидер ре�
 ent-RMCDogtagMarineRaiderLeaderHidden = жетон для собаки
   .desc = Жетон Морпех.
 
+job-cmmarineraiderleader-desc = rmc-призрак-роль-информация-описания
+job-cmmarineraiderleader-name = rmc-имя-должности-морпех-рейдер-лидер
+job-cmmarineraiderleader-spawnmenurolename = Руководитель рейдерской группы MARSOC

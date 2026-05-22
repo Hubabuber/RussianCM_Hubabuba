@@ -75,7 +75,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointFireteamLeader
-  name: fireteam leader spawn point
+  name: ent-CMSpawnPointFireteamLeader
   components:
   - type: SpawnPoint
     job_id: CMFireteamLeader
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMSpawnPointFireteamLeader
   id: CMSpawnPointFireteamLeaderAlpha
-  suffix: Alpha
+  suffix: ent-CMSpawnPointFireteamLeaderAlpha-suffix
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSpawnPointFireteamLeader
   id: CMSpawnPointFireteamLeaderBravo
-  suffix: Bravo
+  suffix: ent-CMSpawnPointFireteamLeaderBravo-suffix
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMSpawnPointFireteamLeader
   id: CMSpawnPointFireteamLeaderCharlie
-  suffix: Charlie
+  suffix: ent-CMSpawnPointFireteamLeaderCharlie-suffix
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -118,7 +118,7 @@
 - type: entity
   parent: CMSpawnPointFireteamLeader
   id: CMSpawnPointFireteamLeaderDelta
-  suffix: Delta
+  suffix: ent-CMSpawnPointFireteamLeaderDelta-suffix
   components:
   - type: SquadSpawner
     squad: SquadDelta

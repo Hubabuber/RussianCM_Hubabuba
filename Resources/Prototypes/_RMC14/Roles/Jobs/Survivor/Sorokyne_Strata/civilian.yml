@@ -5,7 +5,7 @@
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
   startingGear: RMCGearSurvivorSoroCivilian
-  spawnMenuRoleName: Civilian (Sorokyne Survivor)
+  spawnMenuRoleName: job-cmjobsurvivorsorocivilian-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSoroCivilian
-  name: sorokyne civilian spawn point
+  name: ent-RMCSpawnPointSurvivorSoroCivilian
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -44,7 +44,7 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetSoroCivilian
-  name: sorokyne civilian preset
+  name: ent-RMCGearSurvivorPresetSoroCivilian
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -18,3 +18,23 @@ ent-ClothingOuterStorageToggleableBase-name = lathe-category-clothing
 
 ent-ClothingOuterBaseMedium-name = lathe-category-clothing
 
+ent-ClothingOuterBase = item
+
+ent-ClothingOuterBaseLarge = item
+
+ent-ClothingOuterBaseMedium = item
+
+ent-ClothingOuterBaseToggleable = толстовка с капюшоном
+
+ent-ClothingOuterEVASuitBase = базовый костюм EVA
+
+ent-ClothingOuterHardsuitBase = базовый комбинезон
+
+ent-ClothingOuterStorageBase = item
+
+ent-ClothingOuterStorageFoldableBase = item
+
+ent-ClothingOuterStorageFoldableBaseOpened = item
+    .suffix = открыт
+
+ent-ClothingOuterStorageToggleableBase = item

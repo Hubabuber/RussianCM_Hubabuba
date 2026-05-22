@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Bucket
-  name: bucket
-  description: It's a boring old bucket.
+  name: ent-Bucket
+  description: ent-Bucket-desc
   components:
   - type: Drink
     solution: bucket
@@ -72,8 +72,8 @@
 - type: entity
   parent: Bucket
   id: BorgBucket
-  name: internal tank
-  description: The internal reservoir of a custodial cyborg, capable of holding a entire mop bucket worth of water.
+  name: ent-BorgBucket
+  description: ent-BorgBucket-desc
   components:
   - type: SolutionContainerManager
     solutions:

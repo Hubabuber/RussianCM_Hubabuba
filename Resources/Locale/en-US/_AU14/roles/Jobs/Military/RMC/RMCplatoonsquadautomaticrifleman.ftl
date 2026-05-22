@@ -1,0 +1,5 @@
+job-au14jobgovforsquadautomaticriflemanrmc-desc = au14-job-description-govforsquadautomaticrifleman
+job-au14jobgovforsquadautomaticriflemanrmc-name = au14-job-name-govforsquadautomaticriflemanRMC
+job-au14jobgovforsquadautomaticriflemanrmc-overwatchrolename = Automatic Rifleman
+job-au14jobgovforsquadautomaticriflemanrmc-spawnmenurolename = Automatic Rifleman (TWE RMC)
+job-au14jobgovforsquadautomaticriflemanrmc-supervisors = au14-job-supervisors-govfor

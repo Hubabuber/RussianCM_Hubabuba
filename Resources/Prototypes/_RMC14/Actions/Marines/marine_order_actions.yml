@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineFocus
-  name: Issue Order - Focus
-  description: Increases gun accuracy for nearby marines.
+  name: ent-ActionMarineFocus
+  description: ent-ActionMarineFocus-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -15,8 +15,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineHold
-  name: Issue Order - Hold
-  description: Increases damage resistance for nearby marines.
+  name: ent-ActionMarineHold
+  description: ent-ActionMarineHold-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -29,8 +29,8 @@
 - type: entity
   id: ActionMarineMove
   parent: ActionMarineBase
-  name: Issue Order - Move
-  description: Increases speed for nearby marines. [color=red]This won't affect anyone without armor![/color]
+  name: ent-ActionMarineMove
+  description: ent-ActionMarineMove-desc
   components:
   - type: Action
     itemIconStyle: NoItem

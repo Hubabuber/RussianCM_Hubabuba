@@ -16,9 +16,9 @@
 - type: entity
   parent: DrinkBaseMug
   id: RMCCoffeeCup
-  name: mug
-  description: A ceramic mug. Practically guaranteed to fall and spill scalding-hot drink onto your brand-new shirt. Ouch.
-  suffix: RMC
+  name: ent-RMCCoffeeCup
+  description: ent-RMCCoffeeCup-desc
+  suffix: ent-RMCCoffeeCup-suffix
   components:
   - type: SolutionContainerManager
     solutions:
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCCoffeeCupFilled
-  suffix: RMC, Filled, RMCCoffee
+  suffix: ent-RMCCoffeeCupFilled-suffix
   components:
     - type: SolutionContainerManager
       solutions:
@@ -67,8 +67,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCMarineCorpsCup
-  name: UNMC mug
-  description: A rugged, military-grade mug featuring the UNMC insignia, built for endurance in any deployment—whether aboard a ship or in the field.
+  name: ent-RMCMarineCorpsCup
+  description: ent-RMCMarineCorpsCup-desc
   components:
   - type: Sprite
     layers:
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCSocialistPPCup
-  name: UPP mug
-  description: A tough, crimson cup stamped with the UPP emblem—built like a real krepky muzhik, ready to serve comrades in toil and glory among the stars.
+  name: ent-RMCSocialistPPCup
+  description: ent-RMCSocialistPPCup-desc
   components:
   - type: Sprite
     layers:
@@ -97,8 +97,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCUnitedNationsCup
-  name: UN mug
-  description: A sleek, official UN cup, symbolizing unity, order, and authority across the stars. Crafted for those who uphold peace and progress.
+  name: ent-RMCUnitedNationsCup
+  description: ent-RMCUnitedNationsCup-desc
   components:
   - type: Sprite
     layers:
@@ -112,8 +112,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCWestonYamadaCup
-  name: WEYA mug
-  description: A clean, stylish cup with the logo of the Weston-Yamada Corporation branded on the side. Used throughout the company hierarchy, from interns to division directors.
+  name: ent-RMCWestonYamadaCup
+  description: ent-RMCWestonYamadaCup-desc
   components:
   - type: Sprite
     layers:
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCThreeSunEmpireCup
-  name: TSE mug
-  description: A well-crafted, sleek mug with the icon of the Three Sun Empire on it's side. Excellent for those who serve and live under the Empress and her Empire.
+  name: ent-RMCThreeSunEmpireCup
+  description: ent-RMCThreeSunEmpireCup-desc
   components:
   - type: Sprite
     layers:
@@ -142,8 +142,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCColonyLiberationFrontCup
-  name: CLF mug
-  description: A tough, well-worn cup marked with the CLF sigil born from the defiance sparked by the Slaughter of Xibou.
+  name: ent-RMCColonyLiberationFrontCup
+  description: ent-RMCColonyLiberationFrontCup-desc
   components:
   - type: Sprite
     layers:
@@ -157,9 +157,9 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCPaperCup
-  name: paper cup
-  description: A paper water cup.
-  suffix: RMC
+  name: ent-RMCPaperCup
+  description: ent-RMCPaperCup-desc
+  suffix: ent-RMCPaperCup-suffix
   components:
   - type: SolutionContainerManager
     solutions:

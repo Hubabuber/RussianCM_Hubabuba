@@ -28,13 +28,13 @@
   dummyStartingGear: AU14GearopforAutoRiflemanDummy
   icon: "AU14JobIconOPFORAFN"
   requireAdminNotify: false
-  spawnMenuRoleName: Automatic Rifleman (OPFOR)
+  spawnMenuRoleName: job-au14jobopforsquadautomaticrifleman-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforGunner
   overwatchSortPriority: -6
-  overwatchRoleName: Automatic Riflemen
+  overwatchRoleName: job-au14jobopforsquadautomaticrifleman-overwatchrolename
   overwatchShowName: true
   roleWeight: 0.25
   special:
@@ -68,7 +68,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforSquadAutomaticRifleman
-  name: Spawn Point opfor Squad Rifleman
+  name: ent-AU14SpawnPointopforSquadAutomaticRifleman
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforSquadAutomaticRifleman

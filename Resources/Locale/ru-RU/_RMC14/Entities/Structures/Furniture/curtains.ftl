@@ -4,3 +4,83 @@ ent-RMCCurtainRed = красный занавес
 ent-RMCCurtainShower = занавеска для душа
 ent-RMCCurtainMedical = пластиковый занавес
 ent-RMCCurtainBase = занавес
+
+ent-RMCCurtainBlack = занавес
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Черный
+
+ent-RMCCurtainColourableTransparentOpen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Open
+
+ent-RMCCurtainColourableTransparentOpenAlt = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Open
+
+ent-RMCCurtainGreen = занавес
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Зеленый
+
+ent-RMCCurtainMedicalOpen = пластиковый занавес
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Open
+
+ent-RMCCurtainShowerOpen = занавеска для душа
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Open
+
+ent-RMCCurtainTransparentBeige = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Бежевый
+
+ent-RMCCurtainTransparentBeigeOpen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Бежевый, Открытый
+
+ent-RMCCurtainTransparentBlack = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Черный
+
+ent-RMCCurtainTransparentBlackOpen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Черный, Открытый
+
+ent-RMCCurtainTransparentBlue = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Синий
+
+ent-RMCCurtainTransparentBlueOpen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Синий, Открытый
+
+ent-RMCCurtainTransparentBrown = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Коричневый
+
+ent-RMCCurtainTransparentBrownOpen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Коричневый, Открытый
+
+ent-RMCCurtainTransparentDesatBlue = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Десат Синий
+
+ent-RMCCurtainTransparentDesatBlueOpen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Десат Синий, Открытый
+
+ent-RMCCurtainTransparentGreen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Зеленый
+
+ent-RMCCurtainTransparentGreenOpen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Зеленый, Открытый
+
+ent-RMCCurtainTransparentRed = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Красный
+
+ent-RMCCurtainTransparentRedOpen = жалюзи
+    .desc = Скрывает то, что другие не должны видеть.
+    .suffix = Красный, Открытый

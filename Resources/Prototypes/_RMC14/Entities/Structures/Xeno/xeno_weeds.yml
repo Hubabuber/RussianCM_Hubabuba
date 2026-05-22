@@ -178,7 +178,7 @@
 - type: entity
   parent: XenoWeeds
   id: XenoWeedsSourceHidden
-  suffix: Hidden Node
+  suffix: ent-XenoWeedsSourceHidden-suffix
   components:
   - type: Sprite
     layers:
@@ -202,7 +202,7 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoHiveWeeds
-  name: hive weeds
+  name: ent-XenoWeedsSourceHidden
   placement:
     mode: SnapgridCenter
     snap:
@@ -296,8 +296,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHiveWeeds
   id: XenoHiveWeedsSource
-  name: hive weed node
-  description: A weird, pulsating node
+  name: ent-XenoHiveWeedsCore
+  description: ent-XenoHiveWeedsCore-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -333,7 +333,7 @@
 - type: entity
   parent: XenoHiveWeeds
   id: XenoHiveWeedsSourceHidden
-  suffix: Hidden Node
+  suffix: ent-XenoHiveWeedsSourceHidden-suffix
   components:
   - type: Sprite
     layers:
@@ -357,7 +357,7 @@
 
 - type: entity
   id: XenoWeedsWall
-  name: weeds
+  name: ent-XenoWeedsWall
   placement:
     mode: SnapgridCenter
     snap:
@@ -436,8 +436,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHardyWeeds
   id: XenoHardyWeedsSource
-  name: hardy weed node
-  description: A weird, pulsating node
+  name: ent-XenoWeedsWall
+  description: ent-XenoWeedsWall-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -473,7 +473,7 @@
 - type: entity
   parent: XenoHardyWeeds
   id: XenoHardyWeedsSourceHidden
-  suffix: Hidden Node
+  suffix: ent-XenoHardyWeedsSourceHidden-suffix
   components:
   - type: Sprite
     layers:

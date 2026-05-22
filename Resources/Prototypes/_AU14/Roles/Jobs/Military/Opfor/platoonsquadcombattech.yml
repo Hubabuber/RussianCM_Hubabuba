@@ -5,7 +5,7 @@
   description: au14-job-description-opforsquadcombattech
   setPreference: false
   overwatchSortPriority: -5
-  overwatchRoleName: Combat Technician
+  overwatchRoleName: job-au14jobopforsquadcombattech-overwatchrolename
   requirements:
   - !type:TraitsRequirement
     inverted: true
@@ -30,7 +30,7 @@
   dummyStartingGear: AU14GearOPFORCTDummy
   icon: "AU14JobIconOPFORCT"
   requireAdminNotify: false
-  spawnMenuRoleName: Combat Tech (OPFOR)
+  spawnMenuRoleName: job-au14jobopforsquadcombattech-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
@@ -70,7 +70,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORSquadCombatTech
-  name: Spawn Point OPFOR Comtech
+  name: ent-AU14SpawnPointOPFORSquadCombatTech
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORSquadCombatTech

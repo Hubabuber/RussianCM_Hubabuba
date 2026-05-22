@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: RMCBaseWindowFrame
   id: RMCWindowFrameHybrisa
   components:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowHybrisa
-  name: window
-  description: A glass window inside a wall frame.
+  name: ent-RMCWindowHybrisa
+  description: ent-RMCWindowHybrisa-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hybrisa_window.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowHybrisaReinforced
-  name: reinforced window
-  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. Might take a few good hits to shatter it.
+  name: ent-RMCWindowHybrisaReinforced
+  description: ent-RMCWindowHybrisaReinforced-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hybrisa_window.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowHybrisaHull
-  name: hull window
-  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. No way to get through here.
+  name: ent-RMCWindowHybrisaHull
+  description: ent-RMCWindowHybrisaHull-desc
   components:
   - type: Corrodible
     isCorrodible: false
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCWindowFrameHybrisaReinforced
   id: RMCWindowFrameHybrisaMedicalReinforced
-  suffix: medical
+  suffix: ent-RMCWindowFrameHybrisaMedicalReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/hybrisa_frame_medical.rsi
@@ -196,7 +196,7 @@
 - type: entity
   parent: RMCWindowHybrisaReinforced
   id: RMCWindowHybrisaMedicalReinforced
-  suffix: medical
+  suffix: ent-RMCWindowHybrisaMedicalReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hybrisa_window_medical.rsi
@@ -247,7 +247,7 @@
 - type: entity
   parent: RMCWindowFrameHybrisaReinforced
   id: RMCWindowFrameHybrisaEngiReinforced
-  suffix: engineering
+  suffix: ent-RMCWindowFrameHybrisaEngiReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/hybrisa_frame_engineering.rsi
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCWindowHybrisaReinforced
   id: RMCWindowHybrisaEngiReinforced
-  suffix: engineering
+  suffix: ent-RMCWindowHybrisaEngiReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hybrisa_window_engineering.rsi
@@ -319,7 +319,7 @@
 - type: entity
   parent: RMCWindowFrameHybrisaReinforced
   id: RMCWindowFrameHybrisaOfficeReinforced
-  suffix: office
+  suffix: ent-RMCWindowFrameHybrisaOfficeReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/hybrisa_frame_office.rsi
@@ -340,7 +340,7 @@
 - type: entity
   parent: RMCWindowHybrisaReinforced
   id: RMCWindowHybrisaOfficeReinforced
-  suffix: office
+  suffix: ent-RMCWindowHybrisaOfficeReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hybrisa_window_office.rsi
@@ -391,7 +391,7 @@
 - type: entity
   parent: RMCWindowFrameHybrisa
   id: RMCWindowFrameHybrisaSpacePort
-  suffix: space port
+  suffix: ent-RMCWindowFrameHybrisaSpacePort-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/hybrisa_spaceport_frame.rsi
@@ -412,7 +412,7 @@
 - type: entity
   parent: RMCWindowHybrisa
   id: RMCWindowHybrisaSpacePort
-  suffix: space port
+  suffix: ent-RMCWindowHybrisaSpacePort-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/spaceport_window.rsi
@@ -461,7 +461,7 @@
 - type: entity
   parent: RMCWindowFrameHybrisaReinforced
   id: RMCWindowFrameHybrisaSpacePortReinforced
-  suffix: space port
+  suffix: ent-RMCWindowFrameHybrisaSpacePortReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/hybrisa_spaceport_frame.rsi
@@ -482,7 +482,7 @@
 - type: entity
   parent: RMCWindowHybrisaReinforced
   id: RMCWindowHybrisaSpacePortReinforced
-  suffix: space port
+  suffix: ent-RMCWindowHybrisaSpacePortReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/rspaceport_window.rsi
@@ -531,7 +531,7 @@
 - type: entity
   parent: RMCWindowFrameHybrisaReinforced
   id: RMCWindowFrameHybrisaSpacePortCell
-  suffix: space port
+  suffix: ent-RMCWindowFrameHybrisaSpacePortCell-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/hybrisa_spaceport_frame.rsi
@@ -552,7 +552,7 @@
 - type: entity
   parent: RMCWindowHybrisaReinforced
   id: RMCWindowHybrisaSpacePortCell
-  suffix: space port
+  suffix: ent-RMCWindowHybrisaSpacePortCell-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/spaceport_cellwindow.rsi
@@ -603,7 +603,7 @@
 - type: entity
   parent: RMCWindowFrameHybrisaReinforced
   id: RMCWindowFrameHybrisaResearchReinforced
-  suffix: research
+  suffix: ent-RMCWindowFrameHybrisaResearchReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/hybrisa_frame_research.rsi
@@ -624,7 +624,7 @@
 - type: entity
   parent: RMCWindowHybrisaReinforced
   id: RMCWindowHybrisaResearchReinforced
-  suffix: research
+  suffix: ent-RMCWindowHybrisaResearchReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hybrisa_window_research.rsi

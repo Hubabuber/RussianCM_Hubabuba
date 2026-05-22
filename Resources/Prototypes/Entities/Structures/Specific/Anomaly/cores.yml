@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseAnomalyCore
   abstract: true
-  name: anomaly core
-  description: The core of a destroyed incomprehensible object.
+  name: ent-BaseAnomalyCore
+  description: ent-BaseAnomalyCore-desc
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/gravity_core.rsi
@@ -37,7 +37,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCorePyroclastic
-  suffix: Pyroclastic
+  suffix: ent-AnomalyCorePyroclastic-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/pyro_core.rsi
@@ -53,7 +53,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreGravity
-  suffix: Gravity
+  suffix: ent-AnomalyCoreGravity-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/gravity_core.rsi
@@ -66,7 +66,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreIce
-  suffix: Ice
+  suffix: ent-AnomalyCoreIce-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/ice_core.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreFlesh
-  description: The core of a destroyed flesh anomaly. Pulsates sickeningly, but might be a hearty meal if cooked.
-  suffix: Flesh
+  description: ent-AnomalyCoreFlesh-desc
+  suffix: ent-AnomalyCoreFlesh-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/flesh_core.rsi
@@ -93,7 +93,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreRock
-  suffix: Rock
+  suffix: ent-AnomalyCoreRock-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/rock_core.rsi
@@ -106,7 +106,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreLiquid
-  suffix: Liquid
+  suffix: ent-AnomalyCoreLiquid-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/liquid_core.rsi
@@ -119,7 +119,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreBluespace
-  suffix: Bluespace
+  suffix: ent-AnomalyCoreBluespace-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/bluespace_core.rsi
@@ -132,7 +132,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreElectricity
-  suffix: Electricity
+  suffix: ent-AnomalyCoreElectricity-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/electric_core.rsi
@@ -146,7 +146,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreFlora
-  suffix: Flora
+  suffix: ent-AnomalyCoreFlora-suffix
   components:
   - type: Seed
     seedId: anomalyBerry
@@ -161,7 +161,7 @@
 - type: entity
   parent: [ BaseAnomalyCore, BaseShadow ]
   id: AnomalyCoreShadow
-  suffix: Shadow
+  suffix: ent-AnomalyCoreShadow-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/shadow_core.rsi
@@ -174,7 +174,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreTech
-  suffix: Tech
+  suffix: ent-AnomalyCoreTech-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/tech_core.rsi
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreSanta
-  suffix: Santa
+  suffix: ent-AnomalyCoreSanta-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/santa_core.rsi
@@ -217,7 +217,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCorePyroclasticInert
-  suffix: Pyroclastic, Inert
+  suffix: ent-AnomalyCorePyroclasticInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/pyro_core.rsi
@@ -230,7 +230,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreGravityInert
-  suffix: Gravity, Inert
+  suffix: ent-AnomalyCoreGravityInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/gravity_core.rsi
@@ -243,7 +243,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreIceInert
-  suffix: Ice, Inert
+  suffix: ent-AnomalyCoreIceInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/ice_core.rsi
@@ -270,7 +270,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreRockInert
-  suffix: Rock, Inert
+  suffix: ent-AnomalyCoreRockInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/rock_core.rsi
@@ -283,7 +283,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreLiquidInert
-  suffix: Liquid, Inert
+  suffix: ent-AnomalyCoreLiquidInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/liquid_core.rsi
@@ -296,7 +296,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreBluespaceInert
-  suffix: Bluespace, Inert
+  suffix: ent-AnomalyCoreBluespaceInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/bluespace_core.rsi
@@ -309,7 +309,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreElectricityInert
-  suffix: Electricity, Inert
+  suffix: ent-AnomalyCoreElectricityInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/electric_core.rsi
@@ -337,7 +337,7 @@
 - type: entity
   parent: [ BaseAnomalyInertCore, BaseShadow ]
   id: AnomalyCoreShadowInert
-  suffix: Shadow, Inert
+  suffix: ent-AnomalyCoreShadowInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/shadow_core.rsi
@@ -350,7 +350,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreTechInert
-  suffix: Tech, Inert
+  suffix: ent-AnomalyCoreTechInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/tech_core.rsi
@@ -363,7 +363,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreSantaInert
-  suffix: Santa, Inert
+  suffix: ent-AnomalyCoreSantaInert-suffix
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/santa_core.rsi

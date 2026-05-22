@@ -22,7 +22,7 @@
   dummyStartingGear: AU14GearOPFORMilitaryDoctorDummy
   icon: "AU14JobIconOPFORCorpsman"
   requireAdminNotify: true
-  spawnMenuRoleName: Military Doctor (OPFOR)
+  spawnMenuRoleName: job-au14jobopformilitarydoctor-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
@@ -33,7 +33,7 @@
   - CMAccessChemistry
   overwatchSortPriority: -6
   overwatchShowName: true
-  overwatchRoleName: Doctor
+  overwatchRoleName: job-au14jobopformilitarydoctor-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORMilitaryDoctor
-  name: Spawn Point OPFOR Doctor
+  name: ent-AU14SpawnPointOPFORMilitaryDoctor
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORMilitaryDoctor

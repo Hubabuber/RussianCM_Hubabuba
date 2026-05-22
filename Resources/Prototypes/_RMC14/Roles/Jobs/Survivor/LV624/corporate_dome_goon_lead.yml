@@ -3,7 +3,7 @@
   id: CMSurvivorLV624CorporateDomeGoonLead
   name: rmc-job-name-pmc-corporate-goon-leader
   description: cm-job-description-survivor
-  spawnMenuRoleName: We-Ya Goon Lead (Survivor Special)
+  spawnMenuRoleName: job-cmsurvivorlv624corporatedomegoonlead-spawnmenurolename
   startingGear: RMCGearSurvivorGoonLead
   icon: "RMCJobIconPMCGoonLead"
   hasIcon: true
@@ -43,11 +43,10 @@
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: background_goon
   greeting: rmc-job-greeting-corporate-dome-goon-lead
-
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CorporateDomeGoonLead
-  name: special survivor lv624 goon lead spawn point
+  name: ent-RMCSpawnPointSurvivorLV624CorporateDomeGoonLead
   components:
   - type: SpawnPoint
     job_id: CMSurvivorLV624CorporateDomeGoonLead
@@ -83,7 +82,7 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetLV624CorporateDomeGoonLead
-  name: lv624 colonist preset
+  name: ent-RMCGearSurvivorPresetLV624CorporateDomeGoonLead
 
 - type: jobIcon
   parent: CMJobIconBase

@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobRadioTelephoneOperatorBase
   id: AU14JobGOVFORRadioTelephoneOperatorUPP
-  name: Radio Telephone Operator
+  name: job-au14jobgovforradiotelephoneoperatorupp-name
   description: au14-job-description-radiotelephoneoperator
   setPreference: false
   ranks:
@@ -14,13 +14,13 @@
   dummyStartingGear: AU14GearGOVFORRadioTelephoneOperatorDummy
   icon: "AU14JobIconRTO"
   requireAdminNotify: false
-  spawnMenuRoleName: Fireteam Leader (UPP)
+  spawnMenuRoleName: job-au14jobgovforradiotelephoneoperatorupp-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforFTL
   overwatchSortPriority: -5
-  overwatchRoleName: Radio Telephone Operator
+  overwatchRoleName: job-au14jobgovforradiotelephoneoperatorupp-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

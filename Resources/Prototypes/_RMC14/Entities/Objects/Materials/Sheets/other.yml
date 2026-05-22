@@ -9,7 +9,7 @@
 
 - type: stack
   id: CMPhoron
-  name: phoron
+  name: stack-cmphoron-name
   icon: { sprite: _RMC14/Objects/Materials/Sheets/phoron.rsi, state: phoron }
   spawn: CMSheetPhoron
   maxCount: 50
@@ -17,9 +17,9 @@
 - type: entity
   parent: SheetOtherBase
   id: CMSheetPhoron
-  name: solid phoron
-  description: Phoron is an extremely rare mineral with exotic properties, often used in cutting-edge research. Just getting it into a stable, solid form is already difficult enough, considering it can be quite toxic and flammable.
-  suffix: Full
+  name: ent-CMSheetPhoron
+  description: ent-CMSheetPhoron-desc
+  suffix: ent-CMSheetPhoron-suffix
   components:
   - type: Material
   - type: PhysicalComposition
@@ -56,7 +56,7 @@
 - type: entity
   parent: CMSheetPhoron
   id: CMSheetPhoron15
-  suffix: 15
+  suffix: ent-CMSheetPhoron15-suffix
   components:
   - type: Stack
     count: 15
@@ -64,7 +64,7 @@
 - type: entity
   parent: CMSheetPhoron
   id: CMSheetPhoron25
-  suffix: 25
+  suffix: ent-CMSheetPhoron25-suffix
   components:
   - type: Stack
     count: 25
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMSheetPhoron
   id: CMSheetPhoron30
-  suffix: "30"
+  suffix: "ent-CMSheetPhoron30-suffix"
   components:
   - type: Stack
     count: 30
@@ -80,7 +80,7 @@
 - type: entity
   parent: CMSheetPhoron
   id: CMSheetPhoron1
-  suffix: Single
+  suffix: ent-CMSheetPhoron1-suffix
   components:
   - type: Stack
     count: 1
@@ -96,7 +96,7 @@
 
 - type: stack
   id: RMCWood
-  name: wooden plank
+  name: stack-rmcwood-name
   icon: { sprite: _RMC14/Objects/Materials/Sheets/wood.rsi, state: wood }
   spawn: RMCPlankWood
   maxCount: 50
@@ -104,9 +104,9 @@
 - type: entity
   parent: SheetOtherBase
   id: RMCPlankWood
-  name: wooden plank
-  description: One can only guess that this is a bunch of wood.
-  suffix: Full
+  name: ent-RMCPlankWood
+  description: ent-RMCPlankWood-desc
+  suffix: ent-RMCPlankWood-suffix
   components:
   - type: Material
   - type: PhysicalComposition
@@ -165,7 +165,7 @@
 - type: entity
   parent: RMCPlankWood
   id: RMCPlankWood10
-  suffix: 10
+  suffix: ent-RMCPlankWood10-suffix
   components:
   - type: Stack
     count: 10
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCPlankWood
   id: RMCPlankWood25
-  suffix: 25
+  suffix: ent-RMCPlankWood25-suffix
   components:
   - type: Stack
     count: 25
@@ -181,7 +181,7 @@
 - type: entity
   parent: RMCPlankWood
   id: RMCPlankWood50
-  suffix: 50
+  suffix: ent-RMCPlankWood50-suffix
   components:
   - type: Stack
     count: 50
@@ -189,7 +189,7 @@
 - type: entity
   parent: RMCPlankWood
   id: RMCPlankWood1
-  suffix: Single
+  suffix: ent-RMCPlankWood1-suffix
   components:
   - type: Stack
     count: 1
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCPlankWood
   id: RMCPlankWood2
-  suffix: 2
+  suffix: ent-RMCPlankWood2-suffix
   components:
   - type: Stack
     count: 2
@@ -213,7 +213,7 @@
 
 - type: stack
   id: RMCAluminum
-  name: aluminum
+  name: stack-rmcaluminum-name
   icon: { sprite: _RMC14/Objects/Materials/Sheets/aluminum.rsi, state: icon }
   spawn: RMCSheetAluminum
   maxCount: 50
@@ -221,9 +221,9 @@
 - type: entity
   parent: SheetOtherBase
   id: RMCSheetAluminum
-  name: aluminum
-  description: A silvery-white soft metal of the boron group. Because of its low density it is often used as a structural material in aircraft.
-  suffix: Full
+  name: ent-RMCSheetAluminum
+  description: ent-RMCSheetAluminum-desc
+  suffix: ent-RMCSheetAluminum-suffix
   components:
   - type: Material
   - type: PhysicalComposition
@@ -260,7 +260,7 @@
 - type: entity
   parent: RMCSheetAluminum
   id: RMCSheetAluminum15
-  suffix: "15"
+  suffix: "ent-RMCSheetAluminum15-suffix"
   components:
   - type: Stack
     count: 15
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCSheetAluminum
   id: RMCSheetAluminum25
-  suffix: "25"
+  suffix: "ent-RMCSheetAluminum25-suffix"
   components:
   - type: Stack
     count: 25
@@ -276,7 +276,7 @@
 - type: entity
   parent: RMCSheetAluminum
   id: RMCSheetAluminum30
-  suffix: "30"
+  suffix: "ent-RMCSheetAluminum30-suffix"
   components:
   - type: Stack
     count: 30
@@ -284,7 +284,7 @@
 - type: entity
   parent: RMCSheetAluminum
   id: RMCSheetAluminum1
-  suffix: Single
+  suffix: ent-RMCSheetAluminum1-suffix
   components:
   - type: Stack
     count: 1

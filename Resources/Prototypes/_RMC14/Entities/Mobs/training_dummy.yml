@@ -1,9 +1,9 @@
 - type: entity
   parent: RMCBaseMobSpeciesOrganic
   id: RMCTrainingDummy
-  name: training dummy
-  description: A training dummy used by the UNMC to simulate a humanoid body. Feels almost too lifelike.
-  suffix: RMC14
+  name: ent-RMCTrainingDummy
+  description: ent-RMCTrainingDummy-desc
+  suffix: ent-RMCTrainingDummy-suffix
   components:
   - type: Loadout
     prototypes: [ RMCGearTrainingDummy ]
@@ -35,7 +35,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnRMCTrainingDummy
-  name: RMC Training Dummy Spawner
+  name: ent-SpawnRMCTrainingDummy
   components:
   - type: Sprite
     layers:
@@ -49,9 +49,9 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerTrainingDummy
-  name: training dummy cabinet
-  suffix: South, Empty
-  description: An ultrasafe cabinet containing a training dummy. Only accessible by Chief Medical Officers and Senior Enlisted Advisors.
+  name: ent-RMCLockerTrainingDummy
+  suffix: ent-RMCLockerTrainingDummy-suffix
+  description: ent-RMCLockerTrainingDummy-desc
   # description: An ultrasafe cabinet containing Professor DUMMY and its tablet. Only accessible by Chief Medical Officers and Senior Listed Advisors.
   placement:
     mode: SnapgridCenter
@@ -84,7 +84,7 @@
 - type: entity
   parent: RMCLockerTrainingDummy
   id: RMCLockerTrainingDummyFilled
-  suffix: South, Filled
+  suffix: ent-RMCLockerTrainingDummyFilled-suffix
   components:
   - type: EntityTableContainerFill
     containers:
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCLockerTrainingDummy
   id: RMCLockerTrainingDummyNorth
-  suffix: North, Empty
+  suffix: ent-RMCLockerTrainingDummyNorth-suffix
   components:
   - type: EntityStorage
     enteringOffset: 0, 0.6
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCLockerTrainingDummyNorth
   id: RMCLockerTrainingDummyNorthFilled
-  suffix: North, Filled
+  suffix: ent-RMCLockerTrainingDummyNorthFilled-suffix
   components:
   - type: EntityTableContainerFill
     containers:

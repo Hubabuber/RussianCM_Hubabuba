@@ -1,0 +1,10 @@
+guideentry-biological-name = guide-entry-biological
+guideentry-botanical-name = guide-entry-botanical
+guideentry-chemicals-name = guide-entry-chemicals
+guideentry-elements-name = guide-entry-elements
+guideentry-foods-name = guide-entry-foods
+guideentry-narcotics-name = guide-entry-narcotics
+guideentry-others-name = guide-entry-others
+guideentry-pyrotechnic-name = guide-entry-pyrotechnics
+guideentry-special-name = guide-entry-special
+guideentry-toxins-name = guide-entry-toxins

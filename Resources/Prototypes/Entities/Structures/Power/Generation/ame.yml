@@ -1,7 +1,7 @@
 - type: entity
   id: AmeController
-  name: AME controller
-  description: It's a controller for the antimatter engine.
+  name: ent-AmeController
+  description: ent-AmeController-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -119,7 +119,7 @@
   categories: [ HideSpawnMenu ]
   parent: AmeController
   id: AmeControllerUnanchored
-  suffix: Unanchored
+  suffix: ent-AmeControllerUnanchored-suffix
   components:
   - type: Transform
     anchored: false
@@ -128,8 +128,8 @@
 
 - type: entity
   id: AmeShielding
-  name: AME shielding
-  description: Keeps the antimatter in and the matter out.
+  name: ent-AmeShielding
+  description: ent-AmeShielding-desc
   placement:
     mode: SnapgridCenter
   components:

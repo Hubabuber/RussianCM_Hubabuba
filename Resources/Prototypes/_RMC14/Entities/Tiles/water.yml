@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   id: CMFloorShallowWaterEntity
-  name: shallow water
-  description: ""
+  name: ent-CMFloorShallowWaterEntity
+  description: "ent-CMFloorShallowWaterEntity-desc"
   placement:
     mode: SnapgridCenter
     snap:
@@ -77,8 +77,8 @@
 - type: entity
   parent: CMFloorShallowWaterEntity
   id: CMFloorDeepWaterEntity
-  name: deep water
-  description: ""
+  name: ent-CMFloorDeepWaterEntity
+  description: "ent-CMFloorDeepWaterEntity-desc"
   components:
   - type: Sprite
     sprite: _RMC14/Tiles/planet/water.rsi
@@ -91,7 +91,7 @@
 - type: entity
   parent: CMFloorShallowWaterEntity
   id: RMCRiverSorokyne
-  name: river
+  name: ent-RMCRiverSorokyne
   components:
   - type: Sprite
     sprite: _RMC14/Tiles/planet/sorokyne/sorokyne_water.rsi
@@ -99,7 +99,7 @@
 - type: entity
   parent: CMFloorShallowWaterEntity
   id: RMCFloorShallowWaterEntityRed
-  suffix: Red
+  suffix: ent-RMCFloorShallowWaterEntityRed-suffix
   components:
   - type: Sprite
     color: "#995555"
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCFloorShallowWaterEntityRed
   id: RMCFloorShallowWaterEntityDarkRed
-  suffix: Dark Red
+  suffix: ent-RMCFloorShallowWaterEntityDarkRed-suffix
   components:
   - type: Sprite
     color: "#990000"

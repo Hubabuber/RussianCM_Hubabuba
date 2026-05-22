@@ -1,0 +1,12 @@
+accesslevel-cmaccessalpha-name = squad-alpha
+accesslevel-cmaccessbravo-name = squad-bravo
+accesslevel-cmaccesscharlie-name = squad-charlie
+accesslevel-cmaccesscombattechprep-name = cm-job-name-combat-tech
+accesslevel-cmaccessdelta-name = squad-delta
+accesslevel-cmaccessftlprep-name = cm-job-name-fireteam-leader
+accesslevel-cmaccessmarineprep-name = Marine Prep
+accesslevel-cmaccessmarinerifleman-name = cm-job-name-rifleman
+accesslevel-cmaccessmedprep-name = cm-job-name-hospital-corpsman
+accesslevel-cmaccesssmartprep-name = cm-job-name-smart-gun-operator
+accesslevel-cmaccessspecprep-name = cm-job-name-weapons-specialist
+accesslevel-cmaccesssquadleaderprep-name = cm-job-name-squad-leader

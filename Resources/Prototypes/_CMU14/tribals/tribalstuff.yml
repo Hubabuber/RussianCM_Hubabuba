@@ -5,8 +5,8 @@
   abstract: true
   parent: RMCBaseMobSpeciesOrganic
   id: CMUMobTribal
-  name: Tribal
-  suffix: CMU14
+  name: ent-CMUMobTribal
+  suffix: ent-CMUMobTribal-suffix
   components:
   - type: Tribal
   # RandomHumanoidAppearance rolls a fresh humanoid profile on map-init; we
@@ -150,7 +150,7 @@
 - type: entity
   parent: CMUMobTribal
   id: AU14MobTribalLeader
-  suffix: CMU14, Leader
+  suffix: ent-AU14MobTribalLeader-suffix
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -169,7 +169,7 @@
 - type: entity
   parent: CMUMobTribal
   id: AU14MobTribalSpear
-  suffix: CMU14, Spear
+  suffix: ent-AU14MobTribalSpear-suffix
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -188,7 +188,7 @@
 - type: entity
   parent: CMUMobTribal
   id: AU14MobTribalBowman
-  suffix: CMU14, Bowman
+  suffix: ent-AU14MobTribalBowman-suffix
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -207,7 +207,7 @@
 - type: entity
   parent: CMUMobTribal
   id: AU14MobTribalShaman
-  suffix: CMU14, Shaman
+  suffix: ent-AU14MobTribalShaman-suffix
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -227,18 +227,18 @@
   save: false
   parent: CMMobSlimePerson
   id: TribalSlime
-  name: Urist C.M McSlime
-  suffix: RMC14
+  name: ent-TribalSlime
+  suffix: ent-TribalSlime-suffix
   components:
   - type: Tribal
 
 # Tribal Weapons
 
 - type: entity
-  name: tribal spear
+  name: ent-TribalSpear
   parent: Spear
   id: TribalSpear
-  description: A spear crafted by tribal warriors. Vicious when stabbed, lethal when thrown.
+  description: ent-TribalSpear-desc
   components:
   - type: Tag
     tags:
@@ -282,8 +282,8 @@
 - type: entity
   parent: ArrowImprovised
   id: TribalArrow
-  name: bone arrow
-  description: A barbed bone-tipped shaft fletched with feathers. Hits like a bus.
+  name: ent-TribalArrow
+  description: ent-TribalArrow-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -303,10 +303,10 @@
         Piercing: 130
 
 - type: entity
-  name: tribal bow
+  name: ent-TribalBow
   parent: BaseBow
   id: TribalBow
-  description: A crude bow made by tribal warriors. Only usable by tribals.
+  description: ent-TribalBow-desc
   components:
   - type: Tag
     tags:

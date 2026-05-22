@@ -1,10 +1,10 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorScientist
   id: CMSurvivorTrijentResearcher
   name: cm-job-name-survivor-trijent-researcher
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorTrijentResearcher
-  spawnMenuRoleName: Trijent Dam Researcher (Trijent Survivor)
+  spawnMenuRoleName: job-cmsurvivortrijentresearcher-spawnmenurolename
   accessGroups:
   - ColonistMedical
   useLoadoutOfJob: CMSurvivorScientist # for inheritance
@@ -22,7 +22,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentResearcher
-  name: survivor trijent researcher spawn point
+  name: ent-RMCSpawnPointSurvivorTrijentResearcher
   components:
   - type: SpawnPoint
     job_id: CMSurvivorTrijentResearcher
@@ -34,5 +34,5 @@
 - type: entity
   parent: RMCSurvivorPresetScientist
   id: RMCSurvivorPresetTrijentResearcher
-  name: trijent researcher colonist preset # TODO RMC14 random research notes
+  name: ent-RMCSurvivorPresetTrijentResearcher # TODO RMC14 random research notes
   categories: [ HideSpawnMenu ]

@@ -1,4 +1,4 @@
-﻿- type: radioChannel
+- type: radioChannel
   id: TSE
   name: chat-radio-tse
   keycode: "'" # I hate this
@@ -10,7 +10,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyTSE
-  name: TSE radio encryption key
+  name: ent-RMCEncryptionKeyTSE
   components:
   - type: Sprite
     state: cmp_key
@@ -22,7 +22,7 @@
 - type: entity
   parent: RMCEncryptionKeyTSE
   id: RMCEncryptionKeyTSEPA
-  name: TSEPA radio encryption key
+  name: ent-RMCEncryptionKeyTSEPA
   components:
   - type: EncryptionKey
     channels:
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCHeadsetTSEAbstract
   id: RMCHeadsetTSE
-  name: TSE headset
+  name: ent-RMCHeadsetTSE
   components:
   - type: ContainerFill
     containers:
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCHeadsetTSEAbstract
   id: RMCHeadsetTSEPA
-  name: TSEPA headset
+  name: ent-RMCHeadsetTSEPA
   components:
   - type: ContainerFill
     containers:

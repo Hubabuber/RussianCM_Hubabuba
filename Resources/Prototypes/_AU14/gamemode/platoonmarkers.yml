@@ -1,5 +1,5 @@
 - type: entity
-  name: Marker Base
+  name: ent-Vmarker
   parent: MarkerBase
   id: Vmarker
   components:
@@ -7,7 +7,7 @@
     state: green
 
 - type: entity
-  name: Opfor corpsman marker
+  name: ent-VMarkerOpforplatcorp
   id: VMarkerOpforplatcorp
   parent: Vmarker
   components:
@@ -17,7 +17,7 @@
       class: Corpsman
 
 - type: entity
-  name: Opfor Arifleman marker
+  name: ent-VMarkerOpforAutomaticRifleman
   id: VMarkerOpforAutomaticRifleman
   parent: Vmarker
   components:
@@ -27,7 +27,7 @@
       class: Arifleman
 
 - type: entity
-  name: Opfor combat technician marker
+  name: ent-VMarkerOpforComtech
   id: VMarkerOpforComtech
   parent: Vmarker
   components:
@@ -37,7 +37,7 @@
     class: combattech
 
 - type: entity
-  name: Opfor equipment marker
+  name: ent-VMarkerOpforRifleman
   id: VMarkerOpforRifleman
   parent: Vmarker
   components:
@@ -47,7 +47,7 @@
       class: Rifleman
 
 - type: entity
-  name: Opfor dcc marker
+  name: ent-VMarkerOpforDCC
   id: VMarkerOpforDCC
   parent: Vmarker
   components:
@@ -57,7 +57,7 @@
       class: Dcc
 
 - type: entity
-  name: Opfor Weapons marker
+  name: ent-VMarkerOpforWeapons
   id: VMarkerOpforWeapons
   parent: Vmarker
   components:
@@ -66,7 +66,7 @@
     govfor: false
     class: Weapons
 - type: entity
-  name: Opfor Clothing marker
+  name: ent-VMarkerOpforClothing
   id: VMarkerOpforClothing
   parent: Vmarker
   components:
@@ -76,7 +76,7 @@
     class: Weapons
 
 - type: entity
-  name: OPFOR requisitions vendor marker
+  name: ent-VMarkeropforrequisitionsvendor
   id: VMarkeropforrequisitionsvendor
   parent: Vmarker
   components:
@@ -89,7 +89,7 @@
     state: base
 
 - type: entity
-  name: Opfor command marker
+  name: ent-VMarkerOpforoperationsOfficer
   id: VMarkerOpforoperationsOfficer
   parent: Vmarker
   components:
@@ -99,7 +99,7 @@
       class: OperationsOfficer
 
 - type: entity
-  name: Opfor RTO  marker
+  name: ent-VMarkerOpforradiotelephoneOperator
   id: VMarkerOpforradiotelephoneOperator
   parent: Vmarker
   components:
@@ -109,7 +109,7 @@
       class: Rto
 
 - type: entity
-  name: Opfor Doctor marker
+  name: ent-VMarkerOpfordoctor
   id: VMarkerOpfordoctor
   parent: Vmarker
   components:
@@ -119,7 +119,7 @@
       class: MilitaryDoctor
 
 - type: entity
-  name: Opfor Military Police  marker
+  name: ent-VMarkerOpforMilitaryPolice
   id: VMarkerOpforMilitaryPolice
   parent: Vmarker
   components:
@@ -129,7 +129,7 @@
       class: MilitaryPolice
 
 - type: entity
-  name: Opfor senior sergeant  marker
+  name: ent-VMarkerOpforsectionSergeant
   id: VMarkerOpforsectionSergeant
   parent: Vmarker
   components:
@@ -139,7 +139,7 @@
       class: SectionSergeant
 
 - type: entity
-  name: Opfor pilot  marker
+  name: ent-VMarkerOpforpilot
   id: VMarkerOpforpilot
   parent: Vmarker
   components:
@@ -149,7 +149,7 @@
       class: Pilot
 
 - type: entity
-  name: Opfor extra vendor 1 marker
+  name: ent-VMarkerOpforExtraVendor1
   id: VMarkerOpforExtraVendor1
   parent: Vmarker
   components:
@@ -159,7 +159,7 @@
       class: ExtraVendor1
 
 - type: entity
-  name: Opfor extra vendor 2 marker
+  name: ent-VMarkerOpforExtraVendor2
   id: VMarkerOpforExtraVendor2
   parent: Vmarker
   components:
@@ -169,7 +169,7 @@
       class: ExtraVendor2
 
 - type: entity
-  name: Opfor extra vendor 3 marker
+  name: ent-VMarkerOpforExtraVendor3
   id: VMarkerOpforExtraVendor3
   parent: Vmarker
   components:
@@ -179,7 +179,7 @@
       class: ExtraVendor3
 
 - type: entity
-  name: Opfor extra vendor 4 marker
+  name: ent-VMarkerOpforExtraVendor4
   id: VMarkerOpforExtraVendor4
   parent: Vmarker
   components:
@@ -189,7 +189,7 @@
       class: ExtraVendor4
 
 - type: entity
-  name: Gov corpsman marker
+  name: ent-VMarkerGovforcorpsman
   id: VMarkerGovforcorpsman
   parent: Vmarker
   components:
@@ -199,7 +199,7 @@
       class: Corpsman
 
 - type: entity
-  name: Gov Clothing marker
+  name: ent-VMarkerGovforClothing
   id: VMarkerGovforClothing
   parent: Vmarker
   components:
@@ -209,7 +209,7 @@
       class: Clothing
 
 - type: entity
-  name: Govfor requisitions vendor marker
+  name: ent-VMarkergovforrequisitionsvendor
   id: VMarkergovforrequisitionsvendor
   parent: Vmarker
   components:
@@ -222,7 +222,7 @@
     state: base
 
 - type: entity
-  name: Ship Clothing marker
+  name: ent-VMarkershipClothing
   id: VMarkershipClothing
   parent: Vmarker
   components:
@@ -236,7 +236,7 @@
     state: base
 
 - type: entity
-  name: Ship requisitions vendor marker
+  name: ent-VMarkershiprequisitionsvendor
   id: VMarkershiprequisitionsvendor
   parent: Vmarker
   components:
@@ -250,7 +250,7 @@
     state: base
 
 - type: entity
-  name: Gov Weapons marker
+  name: ent-VMarkerGovforWeapons
   id: VMarkerGovforWeapons
   parent: Vmarker
   components:
@@ -260,7 +260,7 @@
       class: Weapons
 
 - type: entity
-  name: Gov special weapons marker
+  name: ent-VMarkerGovforSWeapons
   id: VMarkerGovforSWeapons
   parent: Vmarker
   components:
@@ -270,7 +270,7 @@
       class: SWeapons
 
 - type: entity
-  name: Opfor special weapons marker
+  name: ent-VMarkerOpforSWeapons
   id: VMarkerOpforSWeapons
   parent: Vmarker
   components:
@@ -281,7 +281,7 @@
 
 
 - type: entity
-  name: Gov Arifleman marker
+  name: ent-VMarkerGovforAutomaticRifleman
   id: VMarkerGovforAutomaticRifleman
   parent: Vmarker
   components:
@@ -291,7 +291,7 @@
       class: Arifleman
 
 - type: entity
-  name: Gov equipment marker
+  name: ent-VMarkerGovforRifleman
   id: VMarkerGovforRifleman
   parent: Vmarker
   components:
@@ -301,7 +301,7 @@
       class: Rifleman
 
 - type: entity
-  name: Gov combat technician marker
+  name: ent-VMarkerGovforCombatTech
   id: VMarkerGovforCombatTech
   parent: Vmarker
   components:
@@ -311,7 +311,7 @@
     class: combattech
 
 - type: entity
-  name: Gov dcc marker
+  name: ent-VMarkerGovforDCC
   id: VMarkerGovforDCC
   parent: Vmarker
   components:
@@ -321,7 +321,7 @@
       class: Dcc
 
 - type: entity
-  name: Gov doctor marker
+  name: ent-VMarkerGovforDoctor
   id: VMarkerGovforDoctor
   parent: Vmarker
   components:
@@ -331,7 +331,7 @@
       class: MilitaryDoctor
 
 - type: entity
-  name: Gov military police marker
+  name: ent-VMarkerGovforMilitaryPolice
   id: VMarkerGovforMilitaryPolice
   parent: Vmarker
   components:
@@ -341,7 +341,7 @@
       class: MilitaryPolice
 
 - type: entity
-  name: Gov command marker
+  name: ent-VMarkerGovforoperationsOfficer
   id: VMarkerGovforoperationsOfficer
   parent: Vmarker
   components:
@@ -351,7 +351,7 @@
       class: OperationsOfficer
 
 - type: entity
-  name: Gov RTO  marker
+  name: ent-VMarkerGovforradiotelephoneOperator
   id: VMarkerGovforradiotelephoneOperator
   parent: Vmarker
   components:
@@ -361,7 +361,7 @@
       class: Rto
 
 - type: entity
-  name: Gov senior sergeant marker
+  name: ent-VMarkerGovforsectionSergeant
   id: VMarkerGovforsectionSergeant
   parent: Vmarker
   components:
@@ -371,7 +371,7 @@
       class: SectionSergeant
 
 - type: entity
-  name: Gov pilot  marker
+  name: ent-VMarkerGovforpilot
   id: VMarkerGovforpilot
   parent: Vmarker
   components:
@@ -381,7 +381,7 @@
       class: Pilot
 
 - type: entity
-  name: Gov extra vendor 1 marker
+  name: ent-VMarkerGovforExtraVendor1
   id: VMarkerGovforExtraVendor1
   parent: Vmarker
   components:
@@ -391,7 +391,7 @@
       class: ExtraVendor1
 
 - type: entity
-  name: Gov extra vendor 2 marker
+  name: ent-VMarkerGovforExtraVendor2
   id: VMarkerGovforExtraVendor2
   parent: Vmarker
   components:
@@ -401,7 +401,7 @@
       class: ExtraVendor2
 
 - type: entity
-  name: Gov extra vendor 3 marker
+  name: ent-VMarkerGovforExtraVendor3
   id: VMarkerGovforExtraVendor3
   parent: Vmarker
   components:
@@ -411,7 +411,7 @@
       class: ExtraVendor3
 
 - type: entity
-  name: Gov extra vendor 4 marker
+  name: ent-VMarkerGovforExtraVendor4
   id: VMarkerGovforExtraVendor4
   parent: Vmarker
   components:
@@ -421,7 +421,7 @@
       class: ExtraVendor4
 
 - type: entity
-  name: Gov deco marker 1
+  name: ent-VMarkerGovforDeco1
   id: VMarkerGovforDeco1
   parent: Vmarker
   components:
@@ -431,7 +431,7 @@
       class: Deco1
 
 - type: entity
-  name: Gov deco marker 2
+  name: ent-VMarkerGovforDeco2
   id: VMarkerGovforDeco2
   parent: Vmarker
   components:
@@ -441,7 +441,7 @@
       class: Deco2
 
 - type: entity
-  name: Gov deco marker 3
+  name: ent-VMarkerGovforDeco3
   id: VMarkerGovforDeco3
   parent: Vmarker
   components:
@@ -451,7 +451,7 @@
       class: Deco3
 
 - type: entity
-  name: Gov deco marker 4
+  name: ent-VMarkerGovforDeco4
   id: VMarkerGovforDeco4
   parent: Vmarker
   components:
@@ -461,7 +461,7 @@
       class: Deco4
 
 - type: entity
-  name: Gov deco marker 5
+  name: ent-VMarkerGovforDeco5
   id: VMarkerGovforDeco5
   parent: Vmarker
   components:
@@ -471,7 +471,7 @@
       class: Deco5
 
 - type: entity
-  name: Gov deco marker 6
+  name: ent-VMarkerGovforDeco6
   id: VMarkerGovforDeco6
   parent: Vmarker
   components:
@@ -481,7 +481,7 @@
       class: Deco6
 
 - type: entity
-  name: Opfor deco marker 1
+  name: ent-VMarkerOpforDeco1
   id: VMarkerOpforDeco1
   parent: Vmarker
   components:
@@ -491,7 +491,7 @@
       class: Deco1
 
 - type: entity
-  name: Opfor deco marker 2
+  name: ent-VMarkerOpforDeco2
   id: VMarkerOpforDeco2
   parent: Vmarker
   components:
@@ -501,7 +501,7 @@
       class: Deco2
 
 - type: entity
-  name: Opfor deco marker 3
+  name: ent-VMarkerOpforDeco3
   id: VMarkerOpforDeco3
   parent: Vmarker
   components:
@@ -511,7 +511,7 @@
       class: Deco3
 
 - type: entity
-  name: Opfor deco marker 4
+  name: ent-VMarkerOpforDeco4
   id: VMarkerOpforDeco4
   parent: Vmarker
   components:
@@ -521,7 +521,7 @@
       class: Deco4
 
 - type: entity
-  name: Opfor deco marker 5
+  name: ent-VMarkerOpforDeco5
   id: VMarkerOpforDeco5
   parent: Vmarker
   components:
@@ -531,7 +531,7 @@
       class: Deco5
 
 - type: entity
-  name: Opfor deco marker 6
+  name: ent-VMarkerOpforDeco6
   id: VMarkerOpforDeco6
   parent: Vmarker
   components:
@@ -541,7 +541,7 @@
       class: Deco6
 
 - type: entity
-  name: Ship Marker Base
+  name: ent-VmarkerShip
   parent: Vmarker
   id: VmarkerShip
   components:
@@ -552,7 +552,7 @@
 
 # Ship markers (shared for all platoons, no govfor/opfor distinction)
 - type: entity
-  name: Ship corpsman marker
+  name: ent-VMarkerShipCorpsman
   id: VMarkerShipCorpsman
   parent: VmarkerShip
   components:
@@ -566,7 +566,7 @@
       state: base
 
 - type: entity
-  name: Ship doctor marker
+  name: ent-VMarkerShipDoctor
   id: VMarkerShipDoctor
   parent: VmarkerShip
   components:
@@ -580,7 +580,7 @@
       state: base
 
 - type: entity
-  name: Ship combat technician marker
+  name: ent-VMarkerShipComtech
   id: VMarkerShipComtech
   parent: VmarkerShip
   components:
@@ -594,7 +594,7 @@
     state: base
 
 - type: entity
-  name: Ship Arifleman marker
+  name: ent-VMarkerShipAutomaticRifleman
   id: VMarkerShipAutomaticRifleman
   parent: VmarkerShip
   components:
@@ -608,7 +608,7 @@
       state: base
 
 - type: entity
-  name: Ship equipment marker
+  name: ent-VMarkerShipRifleman
   id: VMarkerShipRifleman
   parent: VmarkerShip
   components:
@@ -622,7 +622,7 @@
       state: base
 
 - type: entity
-  name: Ship aircrew clothing marker
+  name: ent-VMarkerShipDCC
   id: VMarkerShipDCC
   parent: VmarkerShip
   components:
@@ -636,7 +636,7 @@
       state: base
 
 - type: entity
-  name: Ship command marker
+  name: ent-VMarkerShipOperationsOfficer
   id: VMarkerShipOperationsOfficer
   parent: VmarkerShip
   components:
@@ -650,7 +650,7 @@
       state: base
 
 - type: entity
-  name: junior officer marker
+  name: ent-VMarkerShipJuniorOfficer
   id: VMarkerShipJuniorOfficer
   parent: VmarkerShip
   components:
@@ -664,7 +664,7 @@
     state: base
 
 - type: entity
-  name: military policeman marker
+  name: ent-VMarkerShipMPPoliceman
   id: VMarkerShipMPPoliceman
   parent: VmarkerShip
   components:
@@ -678,7 +678,7 @@
     state: base
 
 - type: entity
-  name: Ship RTO marker
+  name: ent-VMarkerShipRadiotelephoneOperator
   id: VMarkerShipRadiotelephoneOperator
   parent: VmarkerShip
   components:
@@ -692,7 +692,7 @@
       state: base
 
 - type: entity
-  name: Ship senior sergeant marker
+  name: ent-VMarkerShipSectionSergeant
   id: VMarkerShipSectionSergeant
   parent: VmarkerShip
   components:
@@ -706,7 +706,7 @@
       state: base
 
 - type: entity
-  name: Ship aircrew weapons marker
+  name: ent-VMarkerShipPilot
   id: VMarkerShipPilot
   parent: VmarkerShip
   components:
@@ -720,7 +720,7 @@
       state: base
 
 - type: entity
-  name: Ship Weapons marker
+  name: ent-VMarkerShipWeapons
   id: VMarkerShipWeapons
   parent: VmarkerShip
   components:
@@ -734,7 +734,7 @@
     state: base
 
 - type: entity
-  name: Ship command door marker
+  name: ent-VMarkerShipLockedCommandDoor
   id: VMarkerShipLockedCommandDoor
   parent: VmarkerShip
   components:
@@ -749,7 +749,7 @@
       state: com
 
 - type: entity
-  name: Ship command glass door marker
+  name: ent-VMarkerShipLockedCommandDoorGlass
   id: VMarkerShipLockedCommandDoorGlass
   parent: VmarkerShip
   components:
@@ -764,7 +764,7 @@
       state: comglass
 
 - type: entity
-  name: Ship security door marker
+  name: ent-VMarkerShipLockedSecurityDoor
   id: VMarkerShipLockedSecurityDoor
   parent: VmarkerShip
   components:
@@ -779,7 +779,7 @@
       state: sec
 
 - type: entity
-  name: Ship security glass door marker
+  name: ent-VMarkerShipLockedSecurityDoorGlass
   id: VMarkerShipLockedSecurityDoorGlass
   parent: VmarkerShip
   components:
@@ -794,7 +794,7 @@
       state: secglass
 
 - type: entity
-  name: Ship glass door marker
+  name: ent-VMarkerShipLockedGlassDoor
   id: VMarkerShipLockedGlassDoor
   parent: VmarkerShip
   components:
@@ -809,7 +809,7 @@
       state: glass
 
 - type: entity
-  name: Ship normal door marker
+  name: ent-VMarkerShipLockedNormalDoor
   id: VMarkerShipLockedNormalDoor
   parent: VmarkerShip
   components:
@@ -824,7 +824,7 @@
       state: normal
 
 - type: entity
-  name: Ship engineering glass door marker
+  name: ent-VMarkerShipLockedGlassDoorEngineering
   id: VMarkerShipLockedGlassDoorEngineering
   parent: VmarkerShip
   components:
@@ -839,7 +839,7 @@
       state: engglass
 
 - type: entity
-  name: Ship locked engineering door marker
+  name: ent-VMarkerShipLockedDoorEngineering
   id: VMarkerShipLockedDoorEngineering
   parent: VmarkerShip
   components:
@@ -854,7 +854,7 @@
       state: eng
 
 - type: entity
-  name: Ship medical glass door marker
+  name: ent-VMarkerShipLockedGlassDoorMedical
   id: VMarkerShipLockedGlassDoorMedical
   parent: VmarkerShip
   components:
@@ -869,7 +869,7 @@
       state: medglass
 
 - type: entity
-  name: Ship locked medical door marker
+  name: ent-VMarkerShipLockedDoorMedical
   id: VMarkerShipLockedDoorMedical
   parent: VmarkerShip
   components:
@@ -886,7 +886,7 @@
 
 
 - type: entity
-  name: Ship Overwatch Console Marker
+  name: ent-VMarkerShipOverwatchConsole
   id: VMarkerShipOverwatchConsole
   parent: VmarkerShip
   components:
@@ -901,7 +901,7 @@
 
 # Ship markers for consoles
 - type: entity
-  name: Ship Intel Computer Marker
+  name: ent-VMarkerShipIntelComputer
   id: VMarkerShipIntelComputer
   parent: VmarkerShip
   components:
@@ -913,7 +913,7 @@
     state: terminal1_old
 
 - type: entity
-  name: Ship Tech Tree Console Marker
+  name: ent-VMarkerShipTechTree
   id: VMarkerShipTechTree
   parent: VmarkerShip
   components:
@@ -925,7 +925,7 @@
     state: techweb
 
 - type: entity
-  name: Ship Groundside Operations Console Marker
+  name: ent-VMarkerShipGroundsideOps
   id: VMarkerShipGroundsideOps
   parent: VmarkerShip
   components:
@@ -939,7 +939,7 @@
 
 
 - type: entity
-  name: Ship Sweapons  Marker
+  name: ent-VMarkerShipSweapons
   id: VMarkerShipSweapons
   parent: VmarkerShip
   components:
@@ -953,7 +953,7 @@
     state: base
 
 - type: entity
-  name: Ship Objectives Console Marker
+  name: ent-shipobjectivesconsolemarker
   parent: MarkerBase
   id: shipobjectivesconsolemarker
   components:
@@ -967,7 +967,7 @@
     state: operating0
 
 - type: entity
-  name: Ship Generic Fetch Return Point Marker
+  name: ent-shipfetchreturnmarker
   parent: MarkerBase
   id: shipfetchreturnmarker
   components:
@@ -982,7 +982,7 @@
 
 
 - type: entity
-  name: Dropship Weapons VMarker
+  name: ent-dropshipweaponsvmarker
   parent: MarkerBase
   id: dropshipweaponsvmarker
   components:
@@ -996,7 +996,7 @@
 
 
 - type: entity
-  name: Dropship Shuttle VMarker
+  name: ent-dropshipshuttlevmarker
   parent: MarkerBase
   id: dropshipshuttlevmarker
   components:
@@ -1011,7 +1011,7 @@
 
 
 - type: entity
-  name: Dropship Ship destination ship VMarker
+  name: ent-dropshipdestshipmarker
   parent: MarkerBase
   id: dropshipdestshipmarker
   components:
@@ -1027,7 +1027,7 @@
 
 
 - type: entity
-  name: Figher Ship destination ship VMarker
+  name: ent-dropshipfighterdestmarker
   parent: MarkerBase
   id: dropshipfighterdestmarker
   components:
@@ -1041,7 +1041,7 @@
 
 
 - type: entity
-  name: Ship Requisitions Console Marker
+  name: ent-VMarkerShipRequisitionsConsole
   id: VMarkerShipRequisitionsConsole
   parent: VmarkerShip
   components:
@@ -1053,7 +1053,7 @@
     state: off
 
 - type: entity
-  name: Ship Requisitions Lift Marker
+  name: ent-VMarkerShipRequisitionsLift
   id: VMarkerShipRequisitionsLift
   parent: VmarkerShip
   components:
@@ -1066,7 +1066,7 @@
     drawdepth: LowFloors
 
 - type: entity
-  name: Ship Analyzer Marker
+  name: ent-VMarkerShipAnalyzer
   id: VMarkerShipAnalyzer
   parent: VmarkerShip
   components:
@@ -1076,7 +1076,7 @@
 
 # AI Core markers
 - type: entity
-  name: Ship AI Core Marker
+  name: ent-VMarkerShipAICore
   id: VMarkerShipAICore
   parent: VmarkerShip
   components:
@@ -1088,7 +1088,7 @@
     state: hydra-off
 
 - type: entity
-  name: Govfor AI Core Marker
+  name: ent-VMarkerGovforAICore
   id: VMarkerGovforAICore
   parent: Vmarker
   components:
@@ -1101,7 +1101,7 @@
     state: hydra-off
 
 - type: entity
-  name: Opfor AI Core Marker
+  name: ent-VMarkerOpforAICore
   id: VMarkerOpforAICore
   parent: Vmarker
   components:
@@ -1115,7 +1115,7 @@
 
 # Tactical Map markers
 - type: entity
-  name: Ship Tactical Map Marker
+  name: ent-VMarkerShipTacticalMap
   id: VMarkerShipTacticalMap
   parent: VmarkerShip
   components:
@@ -1127,7 +1127,7 @@
     state: overwatch
 
 - type: entity
-  name: Govfor Tactical Map Marker
+  name: ent-VMarkerGovforTacticalMap
   id: VMarkerGovforTacticalMap
   parent: Vmarker
   components:
@@ -1137,7 +1137,7 @@
     class: TacticalMap
 
 - type: entity
-  name: Opfor Tactical Map Marker
+  name: ent-VMarkerOpforTacticalMap
   id: VMarkerOpforTacticalMap
   parent: Vmarker
   components:

@@ -3,8 +3,8 @@
   id: AU14CorporateConsoleBase
   abstract: true
   parent: RMCCommunicationsConsoleBase
-  name: corporate affairs console
-  description: A Weyland-Yutani corporate affairs terminal for managing transit tariffs and corporate support operations.
+  name: ent-AU14CorporateConsoleBase
+  description: ent-AU14CorporateConsoleBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -39,9 +39,9 @@
 - type: entity
   id: AU14CorporateConsole
   parent: AU14CorporateConsoleBase
-  name: corporate affairs console
-  description: Weyland-Yutani's corporate affairs terminal. Set transit tariff rates, manage corporate funds, and coordinate corporate third-party support. All tariff changes are announced colony-wide.
-  suffix: Corporate, WY
+  name: ent-AU14CorporateConsole
+  description: ent-AU14CorporateConsole-desc
+  suffix: ent-AU14CorporateConsole-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi

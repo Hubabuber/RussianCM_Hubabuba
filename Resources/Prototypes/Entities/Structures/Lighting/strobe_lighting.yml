@@ -1,8 +1,8 @@
 - type: entity
   id: AlwaysPoweredStrobeLight
-  name: strobe
-  description: "UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
-  suffix: Always powered
+  name: ent-AlwaysPoweredStrobeLight
+  description: "ent-AlwaysPoweredStrobeLight-desc"
+  suffix: ent-AlwaysPoweredStrobeLight-suffix
   components:
   - type: AmbientSound
     volume: -15
@@ -80,10 +80,10 @@
     - Wallmount
 
 - type: entity
-  name: strobe
-  description: "UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
+  name: ent-PoweredStrobeLightEmpty
+  description: "ent-PoweredStrobeLightEmpty-desc"
   id: PoweredStrobeLightEmpty
-  suffix: Empty
+  suffix: ent-PoweredStrobeLightEmpty-suffix
   parent: AlwaysPoweredStrobeLight
   components:
   - type: Sprite
@@ -131,7 +131,7 @@
 
 - type: entity
   id: PoweredStrobeLightPolice
-  suffix: "Empty, police"
+  suffix: "ent-PoweredStrobeLightPolice-suffix"
   parent: PoweredStrobeLightEmpty
   components:
   - type: AmbientSound
@@ -142,7 +142,7 @@
 
 - type: entity
   id: PoweredStrobeLightSiren
-  suffix: "Empty, siren"
+  suffix: "ent-PoweredStrobeLightSiren-suffix"
   parent: PoweredStrobeLightEmpty
   components:
   - type: AmbientSound
@@ -153,7 +153,7 @@
 
 - type: entity
   id: PoweredStrobeLightEpsilon
-  suffix: "Empty, epsilon"
+  suffix: "ent-PoweredStrobeLightEpsilon-suffix"
   parent: PoweredStrobeLightEmpty
   components:
   - type: AmbientSound

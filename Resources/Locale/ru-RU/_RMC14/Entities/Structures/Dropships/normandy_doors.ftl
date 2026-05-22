@@ -8,3 +8,5 @@ ent-CMNormandyDoor = Люк экипажа Нормандии
 
 ent-CMNormandyCockpit = кабина
 
+ent-CMNormandyCockpitOpfor = кабина
+    .suffix = Нормандия, Опфор

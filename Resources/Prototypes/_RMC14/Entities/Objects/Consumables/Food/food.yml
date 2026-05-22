@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: BaseItem
   id: CMFoodBase
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCFoodDonut
   id: RMCFoodDonutJellyFrosted
-  name: frosted jelly donut
-  description: You jelly?
+  name: ent-RMCFoodDonutJellyFrosted
+  description: ent-RMCFoodDonutJellyFrosted-desc
   components:
   - type: Food
     transferAmount: 2 # 3 bites
@@ -42,8 +42,8 @@
 - type: entity
   parent: RMCFoodDonut
   id: RMCFoodDonutJelly
-  name: jelly donut
-  description: You jelly?
+  name: ent-RMCFoodDonutJelly
+  description: ent-RMCFoodDonutJelly-desc
   components:
   - type: Food
     transferAmount: 2 # 3 bites
@@ -66,10 +66,10 @@
     - sweet
 
 - type: entity
-  name: peanut butter cookie
+  name: ent-RMCFoodCookiePeanutButter
   parent: CMFoodBase
   id: RMCFoodCookiePeanutButter
-  description: Soft, chewy, and absolutely delicious!
+  description: ent-RMCFoodCookiePeanutButter-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -91,10 +91,10 @@
     - nutty
 
 - type: entity
-  name: peanut butter and jelly sandwich
+  name: ent-RMCFoodPBJSandwich
   parent: CMFoodBase
   id: RMCFoodPBJSandwich
-  description: A sweet and savory sandwich loved by adults and marines alike!
+  description: ent-RMCFoodPBJSandwich-desc
   components:
   - type: Food
     transferAmount: 4
@@ -119,10 +119,10 @@
     - nutty
 
 - type: entity
-  name: onigiri
+  name: ent-RMCFoodOnigiri
   parent: CMFoodBase
   id: RMCFoodOnigiri
-  description: These donuts are great! Jelly-filled are my favorite! Nothing beats a jelly-filled donut!
+  description: ent-RMCFoodOnigiri-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -145,10 +145,10 @@
     - salty
 
 - type: entity
-  name: carbonara
+  name: ent-RMCFoodCarbonara
   parent: FoodNoodlesBase
   id: RMCFoodCarbonara
-  description: Bacon with pasta? YES PLEASE!
+  description: ent-RMCFoodCarbonara-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -169,10 +169,10 @@
     - bacon
 
 - type: entity
-  name: sticky mango rice
+  name: ent-FoodRiceMango
   parent: FoodBowlBase
   id: FoodRiceMango
-  description: It's a grand gesture that isn't the least bit grand.
+  description: ent-FoodRiceMango-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -185,10 +185,10 @@
     - state: mango-rice
 
 - type: entity
-  name: banh mi
+  name: ent-FoodBanhMi
   parent: CMFoodBase
   id: FoodBanhMi
-  description: Banh Mi, for Banh You
+  description: ent-FoodBanhMi-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -212,10 +212,10 @@
     count: 2
 
 - type: entity
-  name: banh mi half
+  name: ent-FoodBanhMiHalf
   parent: CMFoodBase
   id: FoodBanhMiHalf
-  description: That's a symphony in a sandwich!
+  description: ent-FoodBanhMiHalf-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -236,10 +236,10 @@
           Quantity: 15
 
 - type: entity
-  name: chicken parm hero
+  name: ent-FoodChickenParmHero
   parent: CMFoodBase
   id: FoodChickenParmHero
-  description: Now thats a sandwich, fuggedaboutit!
+  description: ent-FoodChickenParmHero-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -266,10 +266,10 @@
     count: 2
 
 - type: entity
-  name: chicken parm half
+  name: ent-FoodChickenParmHalf
   parent: CMFoodBase
   id: FoodChickenParmHalf
-  description: Better than eating a grilled cheese off the radiator.
+  description: ent-FoodChickenParmHalf-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -293,10 +293,10 @@
           Quantity: 5
 
 - type: entity
-  name: meatball sub
+  name: ent-FoodMeatballSub
   parent: CMFoodBase
   id: FoodMeatballSub
-  description: Made with the secrets of Death Kwon Do!
+  description: ent-FoodMeatballSub-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -323,10 +323,10 @@
     count: 2
 
 - type: entity
-  name: meatball sub half
+  name: ent-FoodMeatballSubHalf
   parent: CMFoodBase
   id: FoodMeatballSubHalf
-  description: It's enough to make a grown marine cry.
+  description: ent-FoodMeatballSubHalf-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -350,10 +350,10 @@
           Quantity: 5
 
 - type: entity
-  name: gabagool sandwich
+  name: ent-FoodGabagool
   parent: CMFoodBase
   id: FoodGabagool
-  description: Woke up this morning, got yourself a sandwich.
+  description: ent-FoodGabagool-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -378,10 +378,10 @@
     count: 2
 
 - type: entity
-  name: gabagool sandwich half
+  name: ent-FoodGabagoolHalf
   parent: CMFoodBase
   id: FoodGabagoolHalf
-  description: Gabagool? Over here!!
+  description: ent-FoodGabagoolHalf-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -403,10 +403,10 @@
           Quantity: 15
 
 - type: entity
-  name: cheesesteak
+  name: ent-FoodCheesesteak
   parent: CMFoodBase
   id: FoodCheesesteak
-  description: If your hands aren't greasy holding it, is it really a cheesesteak?
+  description: ent-FoodCheesesteak-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -432,10 +432,10 @@
     count: 2
 
 - type: entity
-  name: cheesesteak half
+  name: ent-FoodCheesesteakHalf
   parent: CMFoodBase
   id: FoodCheesesteakHalf
-  description: Served wit-out onions.
+  description: ent-FoodCheesesteakHalf-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -458,10 +458,10 @@
           Quantity: 5
 
 - type: entity
-  name: yorkshire pudding
+  name: ent-FoodYorkshirePudding
   parent: CMFoodBase
   id: FoodYorkshirePudding
-  description: What a delightful pastry!
+  description: ent-FoodYorkshirePudding-desc
   components:
   - type: Tag
     tags:
@@ -488,10 +488,10 @@
     transferAmount: 5
 
 - type: entity
-  name: black forest cake
+  name: ent-FoodCakeBlackForest
   parent: CMFoodBase
   id: FoodCakeBlackForest
-  description: The cake is a lie no more!
+  description: ent-FoodCakeBlackForest-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -515,10 +515,10 @@
     count: 6
 
 - type: entity
-  name: black forest cake slice
+  name: ent-FoodBlackForestSlice
   parent: CMFoodBase
   id: FoodBlackForestSlice
-  description: Now without fish-shaped ethyl benzene!
+  description: ent-FoodBlackForestSlice-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -541,10 +541,10 @@
           Quantity: 6
 
 - type: entity
-  name: uncooked sausage
+  name: ent-FoodMeatSausage
   parent: CMFoodBase
   id: FoodMeatSausage
-  description: A piece of mixed, long meat.
+  description: ent-FoodMeatSausage-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/meat.rsi
@@ -566,10 +566,10 @@
     node: start
 
 - type: entity
-  name: cooked sausage
+  name: ent-FoodMeatSausageCooked
   parent: CMFoodBase
   id: FoodMeatSausageCooked
-  description: This snagger looks like it just came off the barbie!
+  description: ent-FoodMeatSausageCooked-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/meat.rsi
@@ -590,10 +590,10 @@
           Quantity: 4
 
 - type: entity
-  name: hot dog
+  name: ent-FoodHotDog
   parent: CMFoodBase
   id: FoodHotDog
-  description: Life is tasting pretty good! Oh yes!
+  description: ent-FoodHotDog-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -615,10 +615,10 @@
           Quantity: 4
 
 - type: entity
-  name: tapsilog
+  name: ent-FoodTapsilog
   parent: CMFoodBase
   id: FoodTapsilog
-  description: It's like steak and eggs, but better!
+  description: ent-FoodTapsilog-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -642,10 +642,10 @@
           Quantity: 8
 
 - type: entity
-  name: carpsilog
+  name: ent-FoodCarpsilog
   parent: CMFoodBase
   id: FoodCarpsilog
-  description: Drenched in enough vinegar to make you forget about that carpotoxin!
+  description: ent-FoodCarpsilog-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -670,10 +670,10 @@
           Quantity: 8
 
 - type: entity
-  name: chicksilog
+  name: ent-FoodChicksilog
   parent: CMFoodBase
   id: FoodChicksilog
-  description: Now I know you asked for tonkatsu, but this is all we got today.
+  description: ent-FoodChicksilog-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -697,10 +697,10 @@
           Quantity: 8
 
 - type: entity
-  name: tocilog
+  name: ent-FoodTocilog
   parent: CMFoodBase
   id: FoodTocilog
-  description: Looks nothing like bacon, but just as great!
+  description: ent-FoodTocilog-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -724,10 +724,10 @@
           Quantity: 8
 
 - type: entity
-  name: bangers and mash
+  name: ent-FoodBangersMash
   parent: CMFoodBase
   id: FoodBangersMash
-  description: Goes together like fish and chips, beans and.... nevermind.
+  description: ent-FoodBangersMash-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -749,10 +749,10 @@
           Quantity: 4
 
 - type: entity
-  name: pie and mash
+  name: ent-FoodPieMash
   parent: CMFoodBase
   id: FoodPieMash
-  description: Goes together like fish and chips, beans and.... nevermind.
+  description: ent-FoodPieMash-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi

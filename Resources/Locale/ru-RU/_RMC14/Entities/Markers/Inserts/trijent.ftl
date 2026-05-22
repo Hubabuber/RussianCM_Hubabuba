@@ -3,3 +3,15 @@ ent-RMCMapInsertTrijentTempleIntact = Храм цел
 ent-RMCMapInsertTrijentCaveInEngineering = Обвал в Инженерном
 ent-RMCMapInsertTrijentPurpleBridge = Новый мост Пурпурной реки
 ent-RMCMapInsertTrijentGreenBridge = Новый мост Зелёной реки
+
+ent-RMCMapInsertTrijentBase = База для вставки карты
+    .suffix = Вставьте Трайент
+
+ent-RMCMapInsertTrijentCLFPods = Стручки CLF
+    .suffix = Вставьте Трайент
+
+ent-RMCMapInsertTrijentCrashlandingSPPBar = Бар Crashlanding UPP
+    .suffix = Вставьте Трайент
+
+ent-RMCMapInsertTrijentMiniEvacWestResearch = Мини-эвакуация West Research
+    .suffix = Вставьте Трайент

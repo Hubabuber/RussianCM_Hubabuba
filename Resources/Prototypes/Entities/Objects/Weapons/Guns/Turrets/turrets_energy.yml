@@ -2,8 +2,8 @@
   abstract: true
   parent: [BaseWeaponEnergyTurret, ConstructibleMachine]
   id: WeaponEnergyTurretStationBase
-  name: sentry turret
-  description: A high-tech autonomous weapons system designed to keep unauthorized personnel out of sensitive areas.
+  name: ent-WeaponEnergyTurretStationBase
+  description: ent-WeaponEnergyTurretStationBase-desc
   components:
   - type: Fixtures
     fixtures:
@@ -140,7 +140,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationBase
   id: WeaponEnergyTurretAI
-  suffix: AI, Silicon
+  suffix: ent-WeaponEnergyTurretAI-suffix
   components:
   - type: AccessReader
     access: [["StationAi"], ["ResearchDirector"]]
@@ -157,7 +157,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationBase
   id: WeaponEnergyTurretSecurity
-  suffix: Security
+  suffix: ent-WeaponEnergyTurretSecurity-suffix
   components:
   - type: AccessReader
     access: [["StationAi"], ["Security"]]
@@ -175,7 +175,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationBase
   id: WeaponEnergyTurretCommand
-  suffix: Command
+  suffix: ent-WeaponEnergyTurretCommand-suffix
   components:
   - type: AccessReader
     access: [["StationAi"], ["Command"]]

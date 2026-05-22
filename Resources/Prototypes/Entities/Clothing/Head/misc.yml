@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBunny
-  name: bunny ears
-  description: Cute bunny ears.
+  name: ent-ClothingHeadHatBunny
+  description: ent-ClothingHeadHatBunny-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/bunny.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCake
-  name: cake hat
-  description: You put the cake on your head. Brilliant.
+  name: ent-ClothingHeadHatCake
+  description: ent-ClothingHeadHatCake-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cake.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatChickenhead
-  name: chicken head
-  description: "It's a chicken head. Bok bok bok!"
+  name: ent-ClothingHeadHatChickenhead
+  description: "ent-ClothingHeadHatChickenhead-desc"
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/chickenhead.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlowerWreath
-  name: flower wreath
-  description: A wreath of colourful flowers. Can be worn both on head and neck.
+  name: ent-ClothingHeadHatFlowerWreath
+  description: ent-ClothingHeadHatFlowerWreath-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/flower-wreath.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingHeadLightBase
   id: ClothingHeadHatPumpkin
-  name: pumpkin hat
-  description: A jack o' lantern! Believed to ward off evil spirits.
+  name: ent-ClothingHeadHatPumpkin
+  description: ent-ClothingHeadHatPumpkin-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pumpkin.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPwig
-  name: pwig
-  description: To be honest, those look ridiculous.
+  name: ent-ClothingHeadHatPwig
+  description: ent-ClothingHeadHatPwig-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pwig.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadMirror
-  name: head mirror
-  description: I doubt even the CMO knows how to use this thing.
+  name: ent-ClothingHeadMirror
+  description: ent-ClothingHeadMirror-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/head_mirror.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatRichard
-  name: richard
-  description: 'Do you like hurting people?'
+  name: ent-ClothingHeadHatRichard
+  description: 'ent-ClothingHeadHatRichard-desc'
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/richard.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSkub
-  name: skub hat
-  description: 'Best paired with the Skub Suit.'
+  name: ent-ClothingHeadHatSkub
+  description: 'ent-ClothingHeadHatSkub-desc'
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/skubhead.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatShrineMaidenWig
-  name: shrine maiden's wig
-  description: The tag reads "All proceeds go to the Hakurei Shrine."
+  name: ent-ClothingHeadHatShrineMaidenWig
+  description: ent-ClothingHeadHatShrineMaidenWig-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/shrine-maidens-wig.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCone
-  name: warning cone
-  description: This cone is trying to warn you of something!
+  name: ent-ClothingHeadHatCone
+  description: ent-ClothingHeadHatCone-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cone.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFancyCrown
-  name: fancy crown
-  description: It smells like dead rat. Lets you speak like one!
+  name: ent-ClothingHeadHatFancyCrown
+  description: ent-ClothingHeadHatFancyCrown-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/fancycrown.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
   id: ClothingHeadHatCatEars
-  name: cat ears
-  description: "NYAH!"
+  name: ent-ClothingHeadHatCatEars
+  description: "ent-ClothingHeadHatCatEars-desc"
   categories: [ DoNotMap ]
   components:
   - type: Tag
@@ -224,7 +224,7 @@
 - type: entity
   parent: [ClothingHeadHatCatEars, BaseToggleClothing]
   id: ClothingHeadHatCatEarsValid
-  suffix: Valid, DO NOT MAP
+  suffix: ent-ClothingHeadHatCatEarsValid-suffix
   categories: [ DoNotMap ]
   components:
   - type: ToggleClothing
@@ -246,14 +246,14 @@
 - type: entity
   parent: BaseToggleAction
   id: ActionBecomeValid
-  name: Become Valid
-  description: "*notices your killsign* owo whats this"
+  name: ent-ActionBecomeValid
+  description: "ent-ActionBecomeValid-desc"
 
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatDogEars
-  name: doggy ears
-  description: Only for good boys.
+  name: ent-ClothingHeadHatDogEars
+  description: ent-ClothingHeadHatDogEars-desc
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -266,8 +266,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSquid
-  name: squiddy
-  description: "Scare your friends with this eldritch mask."
+  name: ent-ClothingHeadHatSquid
+  description: "ent-ClothingHeadHatSquid-desc"
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/squiddy.rsi
@@ -285,8 +285,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatRedRacoon
-  name: red racoon hat
-  description: Fluffy hat of red racoon!
+  name: ent-ClothingHeadHatRedRacoon
+  description: ent-ClothingHeadHatRedRacoon-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/red_racoon.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: Clothing
   id: WaterDropletHat
-  name: water droplet
-  description: Makes 8-eyed friends 8 times more adorable!
+  name: ent-WaterDropletHat
+  description: ent-WaterDropletHat-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/waterdroplet.rsi
@@ -360,8 +360,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHairflower
-  name: hairflower
-  description: A beautiful hairflower that can be inserted between locks of hair.
+  name: ent-ClothingHeadHatHairflower
+  description: ent-ClothingHeadHatHairflower-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/hairflower.rsi
@@ -371,8 +371,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPerformerWig
-  name: performer's wig
-  description: On a closer inspection, it appears that it is made from optic fiber.
+  name: ent-ClothingHeadPerformerWig
+  description: ent-ClothingHeadPerformerWig-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/performer-wig.rsi

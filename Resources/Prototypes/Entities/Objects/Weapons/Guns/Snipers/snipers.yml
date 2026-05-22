@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponSniper
+  name: ent-BaseWeaponSniper
   parent: BaseItem
   id: BaseWeaponSniper
-  description: A rooty tooty point and shooty.
+  description: ent-BaseWeaponSniper-desc
   abstract: true
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
   name: Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband]
   id: WeaponSniperMosin
-  description: A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 10 rounds of .30 rifle.
+  description: ent-WeaponSniperMosin-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -51,10 +51,10 @@
     price: 500
 
 - type: entity
-  name: Hristov
+  name: ent-WeaponSniperHristov
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponSniperHristov
-  description: For when you absolutely, positively need to make someone regret their life choices from a safe distance. Uses .60 anti-materiel ammo.
+  description: ent-WeaponSniperHristov-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
@@ -85,10 +85,10 @@
     price: 3500
 
 - type: entity
-  name: musket
+  name: ent-Musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband ]
   id: Musket
-  description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
+  description: ent-Musket-desc
   components:
   - type: Sharp
   - type: Item
@@ -124,10 +124,10 @@
   - type: GunRequiresWield
 
 - type: entity
-  name: flintlock pistol
+  name: ent-WeaponPistolFlintlock
   parent: [BaseWeaponSniper, BaseMajorContraband]
   id: WeaponPistolFlintlock
-  description: A pirate's companion. Yarrr! Uses .45 magnum ammo.
+  description: ent-WeaponPistolFlintlock-desc
   components:
   - type: Gun
     minAngle: 0
@@ -157,7 +157,7 @@
 - type: entity
   parent: WeaponPistolFlintlock
   id: WeaponPistolFlintlockEmpty
-  suffix: Empty
+  suffix: ent-WeaponPistolFlintlockEmpty-suffix
   components:
   - type: BallisticAmmoProvider
     proto: null

@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItemCabinet
   id: ExtinguisherCabinet
-  name: extinguisher cabinet
-  description: A small wall mounted cabinet designed to hold a fire extinguisher.
+  name: ent-ExtinguisherCabinet
+  description: ent-ExtinguisherCabinet-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -58,7 +58,7 @@
 - type: entity
   parent: ExtinguisherCabinet
   id: ExtinguisherCabinetOpen
-  suffix: Open
+  suffix: ent-ExtinguisherCabinetOpen-suffix
   components:
   - type: Openable
     opened: true
@@ -66,7 +66,7 @@
 - type: entity
   parent: ExtinguisherCabinet
   id: ExtinguisherCabinetFilled
-  suffix: Filled
+  suffix: ent-ExtinguisherCabinetFilled-suffix
   components:
   - type: ContainerFill
     containers:
@@ -76,4 +76,4 @@
 - type: entity
   parent: [ExtinguisherCabinetFilled, ExtinguisherCabinetOpen]
   id: ExtinguisherCabinetFilledOpen
-  suffix: Filled, Open
+  suffix: ent-ExtinguisherCabinetFilledOpen-suffix

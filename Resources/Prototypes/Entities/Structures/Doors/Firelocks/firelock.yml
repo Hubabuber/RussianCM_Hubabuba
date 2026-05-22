@@ -2,8 +2,8 @@
   id: BaseFirelock
   abstract: true
   parent: BaseStructure
-  name: firelock
-  description: Apply crowbar.
+  name: ent-BaseFirelock
+  description: ent-BaseFirelock-desc
   components:
     - type: AtmosAlarmable
       syncWith:
@@ -164,7 +164,7 @@
 - type: entity
   id: FirelockGlass
   parent: Firelock
-  name: glass firelock
+  name: ent-FirelockGlass
   components:
     - type: StationAiWhitelist
     - type: Sprite
@@ -190,7 +190,7 @@
 - type: entity
   id: FirelockEdge
   parent: Firelock
-  name: firelock
+  name: ent-FirelockEdge
   components:
     - type: StationAiWhitelist
     - type: Sprite

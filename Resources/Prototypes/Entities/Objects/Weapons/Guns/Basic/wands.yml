@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: WeaponWandBase
   id: WeaponWandPolymorphBase
   abstract: true
@@ -16,10 +16,10 @@
     capacity: 5
 
 - type: entity
-  name: wand of carp polymorph
+  name: ent-WeaponWandPolymorphCarp
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphCarp
-  description: For when you need a carp filet quick and the clown is looking juicy.
+  description: ent-WeaponWandPolymorphCarp-desc
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCarp
@@ -27,10 +27,10 @@
     count: 5
 
 - type: entity
-  name: wand of monkey polymorph
+  name: ent-WeaponWandPolymorphMonkey
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphMonkey
-  description: For when you need a monkey friend.
+  description: ent-WeaponWandPolymorphMonkey-desc
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltMonkey
@@ -38,10 +38,10 @@
     count: 5
 
 - type: entity
-  name: wand of fireball
+  name: ent-WeaponWandFireball
   parent: WeaponWandBase
   id: WeaponWandFireball
-  description: Great big balls of fire!
+  description: ent-WeaponWandFireball-desc
   components:
   - type: Sprite
     layers:
@@ -58,8 +58,8 @@
     count: 5
 
 - type: entity
-  name: wand of the locker
-  description: Stuff nerds at a distance!
+  name: ent-WeaponWandLocker
+  description: ent-WeaponWandLocker-desc
   parent: WeaponWandBase
   id: WeaponWandLocker
   components:
@@ -94,10 +94,10 @@
           False: { visible: False }
 
 - type: entity
-  name: magical wand of instant death
+  name: ent-WeaponWandDeath
   parent: WeaponWandBase
   id: WeaponWandDeath
-  description: Only the best and brightest of the Space Wizards R&D team worked together to create this beauty.
+  description: ent-WeaponWandDeath-desc
   components:
   - type: Sprite
     layers:
@@ -113,10 +113,10 @@
     count: 3
 
 - type: entity
-  name: wand of entrance
+  name: ent-WeaponWandPolymorphDoor
   parent: WeaponWandBase
   id: WeaponWandPolymorphDoor
-  description: For when you need a get-away route.
+  description: ent-WeaponWandPolymorphDoor-desc
   components:
   - type: Sprite
     layers:
@@ -132,10 +132,10 @@
     count: 10
 
 - type: entity
-  name: wand of cluwning
+  name: ent-WeaponWandCluwne
   parent: WeaponWandPolymorphBase
   id: WeaponWandCluwne
-  description: Make their situation worse by turning them into a cluwne.
+  description: ent-WeaponWandCluwne-desc
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCluwne
@@ -145,8 +145,8 @@
 - type: entity
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphBread
-  name: magic bread wand
-  description: Turn all your friends into bread! Your boss! Your enemies! Your dog! Make everything bread!
+  name: ent-WeaponWandPolymorphBread
+  description: ent-WeaponWandPolymorphBread-desc
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltBread

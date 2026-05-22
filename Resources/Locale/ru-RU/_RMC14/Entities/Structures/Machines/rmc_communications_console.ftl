@@ -34,3 +34,14 @@ ent-RMCTacticalMapTableLargeSquare = таблица карт
 ent-RMCEscapePodControllerLiaison = контроллер спасательной капсулы
   .desc = Компьютер управления шаттлом.
 
+ent-RMCGroundsideOperationsConsoleGovfor = наземный пульт управления
+    .desc = Это можно использовать для различных важных функций.
+    .suffix = Правительство
+
+ent-RMCTacticalMapTableGovfor = таблица карт
+    .desc = Таблица, отображающая карту текущего местоположения операции.
+    .suffix = Правительство
+
+ent-RMCTacticalMapTableLargeGovfor = таблица карт
+    .desc = Таблица, отображающая карту текущего местоположения операции.
+    .suffix = Говфор, Большой

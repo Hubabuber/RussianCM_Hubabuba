@@ -21,8 +21,8 @@
 
 - type: entity
   id: RMCSpawnZombifiedColonist
-  name: zombie spawner
-  suffix: Colonist
+  name: ent-RMCSpawnZombifiedColonist
+  suffix: ent-RMCSpawnZombifiedColonist-suffix
   components:
   - type: Sprite
     sprite: Interface/Misc/job_icons.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCSpawnZombifiedColonist
   id: RMCSpawnZombifiedChef
-  suffix: Chef
+  suffix: ent-RMCSpawnZombifiedChef-suffix
   components:
   - type: CorpseSpawner
     spawn: RMCZombifiedChef
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCSpawnZombifiedColonist
   id: RMCSpawnZombifiedDoctor
-  suffix: Doctor
+  suffix: ent-RMCSpawnZombifiedDoctor-suffix
   components:
   - type: CorpseSpawner
     spawn: RMCZombifiedDoctor
@@ -73,7 +73,7 @@
 - type: entity
   parent: RMCSpawnZombifiedColonist
   id: RMCSpawnZombifiedEngineer
-  suffix: Engineer
+  suffix: ent-RMCSpawnZombifiedEngineer-suffix
   components:
   - type: CorpseSpawner
     spawn: RMCZombifiedEngineer
@@ -90,7 +90,7 @@
 - type: entity
   parent: RMCSpawnZombifiedColonist
   id: RMCSpawnZombifiedSecurity
-  suffix: Security
+  suffix: ent-RMCSpawnZombifiedSecurity-suffix
   components:
   - type: CorpseSpawner
     spawn: RMCZombifiedSecurity
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCSpawnZombifiedColonist
   id: RMCSpawnZombifiedLiaison
-  suffix: Liaison
+  suffix: ent-RMCSpawnZombifiedLiaison-suffix
   components:
   - type: CorpseSpawner
     spawn: RMCZombifiedLiaison
@@ -126,7 +126,7 @@
 - type: entity
   parent: RMCSpawnZombifiedColonist
   id: RMCSpawnZombifiedWeYaGoon
-  suffix: WeYa Goon
+  suffix: ent-RMCSpawnZombifiedWeYaGoon-suffix
   components:
   - type: CorpseSpawner
     spawn: RMCZombifiedGoon
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCSpawnZombifiedColonist
   id: RMCSpawnZombifiedWeYaPMC
-  suffix: WeYa PMC
+  suffix: ent-RMCSpawnZombifiedWeYaPMC-suffix
   components:
   - type: CorpseSpawner
     spawn: RMCZombifiedWeYaPMC

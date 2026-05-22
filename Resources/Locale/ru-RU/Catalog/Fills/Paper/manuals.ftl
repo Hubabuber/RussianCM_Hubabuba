@@ -9,3 +9,15 @@ ent-PaperWrittenCombatBakeryKit-desc = Съешьте записку после 
 
 ent-PaperWrittenAMEScribbles-name = stack-paper
 
+ent-HoloparasiteInfo = условия использования голопаразита
+    .desc = Крохотный объемный дисплей для документов заставляет задуматься, не слишком ли велик юридический бюджет Cybersun.
+
+ent-PaperAgrichemManual = Руководство НТ «АгриХим – это весело»
+    .desc = Единственный листок инструкции, который шел в комплекте.
+
+ent-PaperWrittenAMEScribbles = бумага
+    .desc = Кусок белой бумаги.
+    .suffix = AME каракули
+
+ent-PaperWrittenCombatBakeryKit = инструкция к боевому хлебобулочному набору
+    .desc = Съешьте записку после прочтения.

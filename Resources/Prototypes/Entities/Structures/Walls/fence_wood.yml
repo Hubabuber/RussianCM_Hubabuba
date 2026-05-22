@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: BaseFenceWood
-  name: wooden fence
-  description: Wooden piece of fencing. I hope there is babushka's garden behind it.
+  name: ent-BaseFenceWood
+  description: ent-BaseFenceWood-desc
   abstract: true
   components:
   - type: MeleeSound
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseFenceWood
   id: BaseFenceWoodSmall
-  name: small wooden fence
-  description: Wooden piece of small fence. The best protection for the fencing of a private territory!
+  name: ent-BaseFenceWoodSmall
+  description: ent-BaseFenceWoodSmall-desc
   abstract: true
   components:
   - type: Destructible
@@ -96,7 +96,7 @@
 - type: entity
   parent: BaseFenceWood
   id: FenceWoodHighStraight
-  suffix: Straight
+  suffix: ent-FenceWoodHighStraight-suffix
   components:
   - type: Icon
     sprite: Structures/Walls/wooden_fence.rsi
@@ -125,7 +125,7 @@
 - type: entity
   parent: BaseFenceWood
   id: FenceWoodHighEnd
-  suffix: End
+  suffix: ent-FenceWoodHighEnd-suffix
   components:
   - type: Icon
     sprite: Structures/Walls/wooden_fence.rsi
@@ -154,7 +154,7 @@
 - type: entity
   parent: BaseFenceWood
   id: FenceWoodHighCorner
-  suffix: Corner
+  suffix: ent-FenceWoodHighCorner-suffix
   components:
   - type: Icon
     sprite: Structures/Walls/wooden_fence.rsi
@@ -230,8 +230,8 @@
 - type: entity
   parent: BaseFenceWood
   id: FenceWoodHighGate
-  name: wooden fence gate
-  description: Do you have any idea what awaits you behind these gates? It can be either a toilet or a luxurious mansion. But you continue to love your emo boys.
+  name: ent-FenceWoodHighGate
+  description: ent-FenceWoodHighGate-desc
   components:
   - type: Sprite
     layers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: BaseFenceWoodSmall
   id: FenceWoodSmallStraight
-  suffix: Straight
+  suffix: ent-FenceWoodSmallStraight-suffix
   components:
   - type: Icon
     sprite: Structures/Walls/wooden_fence.rsi
@@ -307,7 +307,7 @@
 - type: entity
   parent: BaseFenceWoodSmall
   id: FenceWoodSmallEnd
-  suffix: End
+  suffix: ent-FenceWoodSmallEnd-suffix
   components:
   - type: Icon
     sprite: Structures/Walls/wooden_fence.rsi
@@ -335,7 +335,7 @@
 - type: entity
   parent: BaseFenceWoodSmall
   id: FenceWoodSmallCorner
-  suffix: Corner
+  suffix: ent-FenceWoodSmallCorner-suffix
   components:
   - type: Icon
     sprite: Structures/Walls/wooden_fence.rsi
@@ -409,8 +409,8 @@
 - type: entity
   parent: BaseFenceWoodSmall
   id: FenceWoodSmallGate
-  name: wooden fence gate
-  description: Looking at this gate, a familiar image pops up in your head. Where's my piggy?
+  name: ent-FenceWoodSmallGate
+  description: ent-FenceWoodSmallGate-desc
   components:
   - type: Sprite
     layers:

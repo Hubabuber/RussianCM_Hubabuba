@@ -1,9 +1,9 @@
-﻿# Tool closet
+# Tool closet
 - type: entity
   id: ClosetTool
-  name: tool closet
+  name: ent-ClosetTool
   parent: ClosetSteelBase
-  description: It's a storage unit for tools.
+  description: ent-ClosetTool-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -14,9 +14,9 @@
 # Radiation suit closet
 - type: entity
   id: ClosetRadiationSuit
-  name: radiation suit closet
+  name: ent-ClosetRadiationSuit
   parent: ClosetSteelBase
-  description: "More comfortable than radiation poisioning."
+  description: "ent-ClosetRadiationSuit-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -27,9 +27,9 @@
 # Emergency closet
 - type: entity
   id: ClosetEmergency
-  name: emergency closet
+  name: ent-ClosetEmergency
   parent: ClosetSteelBase
-  description: It's a storage unit for emergency breath masks and O2 tanks.
+  description: ent-ClosetEmergency-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -40,9 +40,9 @@
 # Emergency N2 closet
 - type: entity
   id: ClosetEmergencyN2
-  name: emergency nitrogen closet
+  name: ent-ClosetEmergencyN2
   parent: ClosetSteelBase
-  description: It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+  description: ent-ClosetEmergencyN2-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -53,9 +53,9 @@
 # Fire safety closet
 - type: entity
   id: ClosetFire
-  name: fire-safety closet
+  name: ent-ClosetFire
   parent: ClosetSteelBase
-  description: It's a storage unit for fire-fighting supplies.
+  description: ent-ClosetFire-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -66,9 +66,9 @@
 # EOD closet
 - type: entity
   id: ClosetBomb
-  name: EOD closet
+  name: ent-ClosetBomb
   parent: ClosetSteelBase
-  description: It's a storage unit for explosion-protective suits.
+  description: ent-ClosetBomb-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -79,9 +79,9 @@
 # Janitorial bomb suit closet
 - type: entity
   id: ClosetJanitorBomb
-  name: janitorial bomb suit closet
+  name: ent-ClosetJanitorBomb
   parent: ClosetSteelBase
-  description: It's a storage unit for janitorial explosion-protective suits.
+  description: ent-ClosetJanitorBomb-desc
   categories: [ DoNotMap ]
   components:
   - type: Appearance
@@ -96,8 +96,8 @@
 - type: entity
   id: ClosetL3
   parent: ClosetSteelBase
-  name: level 3 biohazard gear closet
-  description: It's a storage unit for level 3 biohazard gear.
+  name: ent-ClosetL3
+  description: ent-ClosetL3-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -152,9 +152,9 @@
 # Maintenance closet
 - type: entity
   id: ClosetMaintenance
-  name: maintenance closet
+  name: ent-ClosetMaintenance
   parent: ClosetSteelBase
-  description: It's a storage unit.
+  description: ent-ClosetMaintenance-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -164,9 +164,9 @@
 # Syndicate
 - type: entity
   id: LockerSyndicate
-  name: armory closet
+  name: ent-LockerSyndicate
   parent: ClosetSteelBase
-  description: It's a storage unit.
+  description: ent-LockerSyndicate-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -177,10 +177,10 @@
 # Bluespace closet
 - type: entity
   id: ClosetBluespace
-  name: suspicious closet
-  suffix: Bluespace
+  name: ent-ClosetBluespace
+  suffix: ent-ClosetBluespace-suffix
   parent: ClosetMaintenance
-  description: It's a storage unit... right?
+  description: ent-ClosetBluespace-desc
   components:
     - type: ArrivalsBlacklist
     - type: BluespaceLocker
@@ -196,10 +196,10 @@
 # Unstable bluespace closet
 - type: entity
   id: ClosetBluespaceUnstable
-  name: suspicious closet
-  suffix: Bluespace unstable
+  name: ent-ClosetBluespaceUnstable
+  suffix: ent-ClosetBluespaceUnstable-suffix
   parent: ClosetMaintenance
-  description: It's a storage unit... right?
+  description: ent-ClosetBluespaceUnstable-desc
   components:
     - type: ArrivalsBlacklist
     - type: BluespaceLocker

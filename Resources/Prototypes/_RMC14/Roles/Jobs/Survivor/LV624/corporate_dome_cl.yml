@@ -3,7 +3,7 @@
   id: CMSurvivorLV624CorporateDomeCL
   name: rmc-job-name-survivor-lv624-corporate-liaison
   description: cm-job-description-survivor
-  spawnMenuRoleName: Paranoid Corporate Liaison (LV624 Special Survivor)
+  spawnMenuRoleName: job-cmsurvivorlv624corporatedomecl-spawnmenurolename
   startingGear: RMCGearSurvivorLV624CorporateLiaison
   icon: "CMJobIconExecSpec"
   ranks:
@@ -44,11 +44,10 @@
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: background_goon
   greeting: rmc-job-greeting-corporate-dome-cl
-
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CorporateDomeCL
-  name: special survivor lv624 coporate liaison spawn point
+  name: ent-RMCSpawnPointSurvivorLV624CorporateDomeCL
   components:
   - type: SpawnPoint
     job_id: CMSurvivorLV624CorporateDomeCL
@@ -62,4 +61,4 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetLV624CorporateDomeCL
-  name: lv624 colonist preset
+  name: ent-RMCGearSurvivorPresetLV624CorporateDomeCL

@@ -2,8 +2,8 @@
 - type: entity
   parent: VendingMachine
   id: CMVendor
-  name: Vendomat
-  description: A generic vending machine.
+  name: ent-CMVendor
+  description: ent-CMVendor-desc
   components:
   - type: Transform
     anchored: false
@@ -124,8 +124,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCoffee
-  name: Hot Drinks machine
-  description: A vending machine which dispenses hot drinks.
+  name: ent-CMVendorCoffee
+  description: ent-CMVendorCoffee-desc
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -137,7 +137,7 @@
 - type: entity
   parent: CMVendorCoffee
   id: CMVendorCoffeeLockedPowered
-  suffix: Locked, Powered
+  suffix: ent-CMVendorCoffeeLockedPowered-suffix
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -159,8 +159,8 @@
 - type: entity
   parent: CMVendorCoffee
   id: RMCVendorCoffeeSimple
-  name: Hot Coffee Machine
-  suffix: Simple, Coco and Coffee only
+  name: ent-RMCVendorCoffeeSimple
+  suffix: ent-RMCVendorCoffeeSimple-suffix
   components:
   - type: VendingMachine
     pack: RMCVendorCoffeeSimple
@@ -176,8 +176,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSnack
-  name: Hot Foods Machine
-  description: A vending machine full of ready to cook meals, mhmmmm taste the nutritional goodness!
+  name: ent-CMVendorSnack
+  description: ent-CMVendorSnack-desc
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -202,7 +202,7 @@
 - type: entity
   parent: CMVendorSnack
   id: RMCVendorSnackSimple
-  suffix: Simple, Packaged Only
+  suffix: ent-RMCVendorSnackSimple-suffix
   components:
   - type: VendingMachine
     pack: RMCVendorSnackSimple
@@ -217,8 +217,8 @@
 - type: entity
   parent: CMVendorSnack
   id: RMCVendorSnackSPP
-  name: Surplus Ration Vendor
-  description: A vending machine full of surplus rations, viewed as the luxury of ready-avaliable UPP rations.
+  name: ent-RMCVendorSnackSPP
+  description: ent-RMCVendorSnackSPP-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/spp_snack.rsi
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCola
-  name: Souto Softdrinks
-  description: A softdrink vendor provided by Souto Soda Company, Havana.
+  name: ent-CMVendorCola
+  description: ent-CMVendorCola-desc
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -265,8 +265,8 @@
 - type: entity
   parent: CMVendorCola
   id: RMCVendorColaResearch
-  description: A softdrink vendor provided by Bobda Soda Company, Havana. This one is bound to the Research Budget card and doesn't require swiping
-  suffix: Research
+  description: ent-RMCVendorColaResearch-desc
+  suffix: ent-RMCVendorColaResearch-suffix
   components:
   - type: VendingMachine
     pack: RMCVendorColaResearch
@@ -287,8 +287,8 @@
 - type: entity
   parent: CMVendorCola
   id: RMCVendorNutriCoDrink
-  name: NutriCo AutoDrink
-  description: A NutriCo AutoDrink dispenser, capable of making a variety of drinks to consume from a mixture of water and instant flavoring juice and caffeine additives.
+  name: ent-RMCVendorNutriCoDrink
+  description: ent-RMCVendorNutriCoDrink-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/NutriCo/drink.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: CMVendorCola
   id: RMCVendorColaSPP
-  name: Xuanshi Drinks
-  description: A drinks vendors from a long forgotten branch of the SPP, selling rationed water mixed with thrice diluted 5% flavourments.
+  name: ent-RMCVendorColaSPP
+  description: ent-RMCVendorColaSPP-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/spp_cola.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: RMCVendorColaSPP
   id: RMCVendorNutriCoDrinkSPP
-  name: drink dispenser
-  suffix: SPP
+  name: ent-RMCVendorNutriCoDrinkSPP
+  suffix: ent-RMCVendorNutriCoDrinkSPP-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/NutriCo/drink.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: CMVendor
   id: RMCVendorSoda
-  name: Cold Drinks machine
-  description: A vending machine that contains cold drinks. This one appears to be produced by Tsumetai-Umi, a subsidairy of Neterai Foods International, which itself is subsidiary of Weston-Yamada.
+  name: ent-RMCVendorSoda
+  description: ent-RMCVendorSoda-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sodavend.rsi
@@ -344,8 +344,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCigs
-  name: Cigarette Machine
-  description: If you want to get cancer, might as well do it in style!
+  name: ent-CMVendorCigs
+  description: ent-CMVendorCigs-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/cigs.rsi
@@ -368,7 +368,7 @@
 - type: entity
   parent: CMVendorCigs
   id: RMCVendorCigsFree
-  suffix: Free
+  suffix: ent-RMCVendorCigsFree-suffix
   components:
   - type: VendingMachine
     pack: RMCVendorCigsFree
@@ -398,8 +398,8 @@
 - type: entity
   parent: CMVendorCigs
   id: RMCVendorCigsElectro
-  name: Electro Brand Cigarette Machine
-  description: An Electro brand cigarette vending machine. Comes with Lucky Sloths, Lady Fingers, Electro Golds of course, and a few smaller brands you've barely heard of.
+  name: ent-RMCVendorCigsElectro
+  description: ent-RMCVendorCigsElectro-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/electro_cigs.rsi
@@ -425,8 +425,8 @@
 - type: entity
   parent: CMVendorCigs
   id: RMCVendorCigsWeYa
-  name: Weston-Yamada Brand Cigarette Machine
-  description: A Weston-Yamada Brand cigarette vending machine, looks like a We-Ya Gold pack. Comes with Emerald Greens, We-Ya Golds of course, Arcturian Aces, and some Three Suns Empire brand you've barely heard of. Executive Selects are still out of stock due to shipping issues...
+  name: ent-RMCVendorCigsWeYa
+  description: ent-RMCVendorCigsWeYa-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/weya_cigs.rsi
@@ -453,8 +453,8 @@
 - type: entity
   parent: CMVendorCigs
   id: RMCVendorCigsSPP
-  name: Komandir Cigarettes Vendor
-  description: A state-owned cigarette vendor. Its drab colour was chosen to discourage purchases, but its existence is an admittance to the necessity for such machines to exist in the first place.
+  name: ent-RMCVendorCigsSPP
+  description: ent-RMCVendorCigsSPP-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/spp_cigs.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSec
-  name: SecTech
-  description: A security equipment vendor.
+  name: ent-CMVendorSec
+  description: ent-CMVendorSec-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sec.rsi
@@ -511,9 +511,9 @@
 - type: entity
   parent: CMVendor
   id: RMCVendorSecArmory
-  name: Riot Tech
-  description: A security riot equipment vendor.
-  suffix: Military Police
+  name: ent-RMCVendorSecArmory
+  description: ent-RMCVendorSecArmory-desc
+  suffix: ent-RMCVendorSecArmory-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sec.rsi
@@ -544,9 +544,9 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSEA
-  name: SEATech
-  description: An equipment vendor designed to save lives
-  suffix: SEA
+  name: ent-CMVendorSEA
+  description: ent-CMVendorSEA-desc
+  suffix: ent-CMVendorSEA-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sec.rsi
@@ -576,8 +576,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorNutri
-  name: NutriMax
-  description: A plant nutrients vendor.
+  name: ent-CMVendorNutri
+  description: ent-CMVendorNutri-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/nutri.rsi
@@ -608,8 +608,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSeeds
-  name: MegaSeed Servitor
-  description: When you need seeds fast!
+  name: ent-CMVendorSeeds
+  description: ent-CMVendorSeeds-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/seeds.rsi
@@ -669,8 +669,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorDinnerware
-  name: Dinnerware
-  description: A kitchen and restaurant equipment vendor.
+  name: ent-CMVendorDinnerware
+  description: ent-CMVendorDinnerware-desc
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -770,7 +770,7 @@
 - type: entity
   parent: CMVendorDinnerware
   id: CMVendorDinnerwareLockedPowered
-  suffix: Locked, Powered
+  suffix: ent-CMVendorDinnerwareLockedPowered-suffix
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -785,8 +785,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSodaSoviet
-  name: BODA
-  description: An old sweet water vending machine, how did this end up here?
+  name: ent-CMVendorSodaSoviet
+  description: ent-CMVendorSodaSoviet-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sovietsoda.rsi
@@ -804,8 +804,8 @@
 - type: entity
   parent: CMVendorDinnerware
   id: CMVendorIngredients
-  name: Galley Auxiliary Storage Requisition System
-  description: A vending machine meant to be use for cooks.
+  name: ent-CMVendorIngredients
+  description: ent-CMVendorIngredients-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/snack.rsi
@@ -895,7 +895,7 @@
 - type: entity
   parent: CMVendorIngredients
   id: CMVendorIngredientsLockedPowered
-  suffix: Locked, Powered
+  suffix: ent-CMVendorIngredientsLockedPowered-suffix
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -911,7 +911,7 @@
 - type: entity
   parent: CMVendorSec
   id: RMCVendorSecTSEPA
-  suffix: TSEPA
+  suffix: ent-RMCVendorSecTSEPA-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPA"]]

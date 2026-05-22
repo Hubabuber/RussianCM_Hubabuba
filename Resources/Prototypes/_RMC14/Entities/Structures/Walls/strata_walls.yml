@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallStrata
-  name: bare outpost wall
-  description: A thick and chunky metal wall. The surface is barren and imposing.
+  name: ent-RMCWallStrata
+  description: ent-RMCWallStrata-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_wall.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallStrataReinforced
-  name: ribbed outpost wall
-  description: A thick and chunky metal wall covered in jagged ribs.
+  name: ent-RMCWallStrataReinforced
+  description: ent-RMCWallStrataReinforced-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_rwall.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallStrataHull
-  name: heavy ribbed outpost wall
-  description: A thick and chunky metal wall that is, just by virtue of its placement and imposing presence, entirely indestructible.
+  name: ent-RMCWallStrataHull
+  description: ent-RMCWallStrataHull-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_rwall.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallStrataIce
-  name: ice columns
-  description: An absolutely massive collection of columns made of ice. The longer you stare, the deeper the ice seems to go.
+  name: ent-RMCWallStrataIce
+  description: ent-RMCWallStrataIce-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_ice.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCWallStrataIce
   id: RMCWallStrataRock
-  name: rock wall
-  description: A rough wall of hardened rock.
+  name: ent-RMCWallStrataRock
+  description: ent-RMCWallStrataRock-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_rock.rsi
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCWallStrataRock
   id: RMCWallStrataRockTimed
-  suffix: Timed
+  suffix: ent-RMCWallStrataRockTimed-suffix
   components:
   - type: TimedDespawn
     lifetime: 1200

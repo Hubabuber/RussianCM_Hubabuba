@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: BaseSign
   id: CMSemioticBase
@@ -9,8 +9,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAirlock
-  name: airlock semiotic
-  description: "Semiotic Standard denoting the nearby presence of an airlock."
+  name: ent-CMSemioticAirlock
+  description: "ent-CMSemioticAirlock-desc"
   components:
   - type: Sprite
     state: airlock
@@ -18,8 +18,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAmmunition
-  name: ammunition storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of an ammunition storage."
+  name: ent-CMSemioticAmmunition
+  description: "ent-CMSemioticAmmunition-desc"
   components:
   - type: Sprite
     state: ammo
@@ -27,8 +27,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAnalysis_lab
-  name: analysis laboratory semiotic
-  description: "Semiotic Standard denoting the nearby presence of an analysis laboratory."
+  name: ent-CMSemioticAnalysis_lab
+  description: "ent-CMSemioticAnalysis_lab-desc"
   components:
   - type: Sprite
     state: analysislab
@@ -36,8 +36,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAutodoc
-  name: autodoc semiotic
-  description: "Semiotic Standard denoting the nearby presence of an autodoc."
+  name: ent-CMSemioticAutodoc
+  description: "ent-CMSemioticAutodoc-desc"
   components:
   - type: Sprite
     state: autodoc
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAutoopenclose
-  name: automatic opener/closer semiotic
-  description: "Semiotic Standard denoting the nearby presence of an automatic shutoff valve."
+  name: ent-CMSemioticAutoopenclose
+  description: "ent-CMSemioticAutoopenclose-desc"
   components:
   - type: Sprite
     state: autoopenclose
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBathmens
-  name: men's bathroom semiotic
-  description: "Semiotic Standard denoting the nearby presence of a men's bathroom."
+  name: ent-CMSemioticBathmens
+  description: "ent-CMSemioticBathmens-desc"
   components:
   - type: Sprite
     state: bathmens
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBathunisex
-  name: unisex bathroom semiotic
-  description: "Semiotic Standard denoting the nearby presence of a unisex bathroom."
+  name: ent-CMSemioticBathunisex
+  description: "ent-CMSemioticBathunisex-desc"
   components:
   - type: Sprite
     state: bathunisex
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBathwomens
-  name: women's bathroom semiotic
-  description: "Semiotic Standard denoting the nearby presence of a women's bathroom."
+  name: ent-CMSemioticBathwomens
+  description: "ent-CMSemioticBathwomens-desc"
   components:
   - type: Sprite
     state: bathwomens
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBiohazard
-  name: biohazard semiotic
-  description: "Semiotic Standard denoting the nearby presence of a biohazard."
+  name: ent-CMSemioticBiohazard
+  description: "ent-CMSemioticBiohazard-desc"
   components:
   - type: Sprite
     state: biohazard
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBiolab
-  name: biological laboratory semiotic
-  description: "Semiotic Standard denoting the nearby presence of a biological laboratory."
+  name: ent-CMSemioticBiolab
+  description: "ent-CMSemioticBiolab-desc"
   components:
   - type: Sprite
     state: biolab
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBridge
-  name: bridge semiotic
-  description: "Semiotic Standard denoting the nearby presence of a starship's bridge."
+  name: ent-CMSemioticBridge
+  description: "ent-CMSemioticBridge-desc"
   components:
   - type: Sprite
     state: bridge
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBulkhead_door
-  name: bulkhead door semiotic
-  description: "Semiotic Standard denoting the nearby presence of a bulkhead door."
+  name: ent-CMSemioticBulkhead_door
+  description: "ent-CMSemioticBulkhead_door-desc"
   components:
   - type: Sprite
     state: bulkheaddoor
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticChem_lab
-  name: chemical laboratory semiotic
-  description: "Semiotic Standard denoting the nearby presence of a chemical laboratory."
+  name: ent-CMSemioticChem_lab
+  description: "ent-CMSemioticChem_lab-desc"
   components:
   - type: Sprite
     state: chemlab
@@ -126,8 +126,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticCoffee
-  name: coffee semiotic
-  description: "Semiotic Standard denoting the nearby presence of coffee: the lifeblood of any starship crew."
+  name: ent-CMSemioticCoffee
+  description: "ent-CMSemioticCoffee-desc"
   components:
   - type: Sprite
     state: coffee
@@ -135,8 +135,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticCommline_connection
-  name: point of connection for a communication line semiotic
-  description: "Semiotic Standard denoting the nearby presence of a comm line connection."
+  name: ent-CMSemioticCommline_connection
+  description: "ent-CMSemioticCommline_connection-desc"
   components:
   - type: Sprite
     state: commlineconnection
@@ -144,8 +144,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticConference_room
-  name: conference room semiotic
-  description: "Semiotic Standard denoting the nearby presence of a conference room."
+  name: ent-CMSemioticConference_room
+  description: "ent-CMSemioticConference_room-desc"
   components:
   - type: Sprite
     state: confroom
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticCryo
-  name: cryogenic vault semiotic
-  description: "Semiotic Standard denoting the nearby presence of a cryogenics vault."
+  name: ent-CMSemioticCryo
+  description: "ent-CMSemioticCryo-desc"
   components:
   - type: Sprite
     state: cryo
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticDebark_lounge
-  name: debarkation lounge semiotic
-  description: "Semiotic Standard denoting the nearby presence of a debarkation lounge."
+  name: ent-CMSemioticDebark_lounge
+  description: "ent-CMSemioticDebark_lounge-desc"
   components:
   - type: Sprite
     state: debarkationlounge
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticDistribution_pipes
-  name: distribution pipes semiotic
-  description: "Semiotic Standard denoting the nearby presence of a distribution pipeline."
+  name: ent-CMSemioticDistribution_pipes
+  description: "ent-CMSemioticDistribution_pipes-desc"
   components:
   - type: Sprite
     state: distpipe
@@ -180,8 +180,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticEast
-  name: East semiotic
-  description: "Semiotic Standard denoting the nearby presence of something to the East."
+  name: ent-CMSemioticEast
+  description: "ent-CMSemioticEast-desc"
   components:
   - type: Sprite
     state: east
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticElectronics
-  name: astronic systems semiotic
-  description: "Semiotic Standard denoting the nearby presence of astronic systems. That's a fancy way of saying electrical systems."
+  name: ent-CMSemioticElectronics
+  description: "ent-CMSemioticElectronics-desc"
   components:
   - type: Sprite
     state: astronics
@@ -198,8 +198,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticElevator
-  name: elevator semiotic
-  description: "Semiotic Standard denoting the nearby presence of an elevator."
+  name: ent-CMSemioticElevator
+  description: "ent-CMSemioticElevator-desc"
   components:
   - type: Sprite
     state: elevator
@@ -207,8 +207,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticEscapepod
-  name: escape pod semiotic
-  description: "Semiotic Standard denoting an escape pod."
+  name: ent-CMSemioticEscapepod
+  description: "ent-CMSemioticEscapepod-desc"
   components:
   - type: Sprite
     state: escapepod
@@ -216,8 +216,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticExhaust
-  name: exhaust semiotic
-  description: "Semiotic Standard denoting the nearby presence of an engine or generator exhaust."
+  name: ent-CMSemioticExhaust
+  description: "ent-CMSemioticExhaust-desc"
   components:
   - type: Sprite
     state: exhaust
@@ -225,8 +225,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFire_haz
-  name: fire hazard semiotic
-  description: "Semiotic Standard denoting the nearby presence of a fire hazard."
+  name: ent-CMSemioticFire_haz
+  description: "ent-CMSemioticFire_haz-desc"
   components:
   - type: Sprite
     state: firehaz
@@ -234,8 +234,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFiringrange
-  name: firing range semiotic
-  description: "Semiotic Standard denoting the nearby presence of a live ammunition firing range."
+  name: ent-CMSemioticFiringrange
+  description: "ent-CMSemioticFiringrange-desc"
   components:
   - type: Sprite
     state: firingrange
@@ -243,8 +243,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFood_storage
-  name: organic storage (foodstuffs) semiotic
-  description: "Semiotic Standard denoting the nearby presence of unrefrigerated food storage."
+  name: ent-CMSemioticFood_storage
+  description: "ent-CMSemioticFood_storage-desc"
   components:
   - type: Sprite
     state: foodstorage
@@ -252,8 +252,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticGalley
-  name: galley semiotic
-  description: "Semiotic Standard denoting the nearby presence of a galley."
+  name: ent-CMSemioticGalley
+  description: "ent-CMSemioticGalley-desc"
   components:
   - type: Sprite
     state: galley
@@ -261,8 +261,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHazard
-  name: hazard semiotic
-  description: "Semiotic Standard denoting the nearby presence of a hazard. Watch out!"
+  name: ent-CMSemioticHazard
+  description: "ent-CMSemioticHazard-desc"
   components:
   - type: Sprite
     state: hazard
@@ -270,8 +270,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHigh_rad
-  name: high radioactivity semiotic
-  description: "Semiotic Standard denoting the nearby presence of a highly radioactive area."
+  name: ent-CMSemioticHigh_rad
+  description: "ent-CMSemioticHigh_rad-desc"
   components:
   - type: Sprite
     state: highrad
@@ -279,8 +279,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHigh_voltage
-  name: high voltage semiotic
-  description: "Semiotic Standard denoting the nearby presence of a high voltage electrical current."
+  name: ent-CMSemioticHigh_voltage
+  description: "ent-CMSemioticHigh_voltage-desc"
   components:
   - type: Sprite
     state: highvoltage
@@ -288,8 +288,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHvac
-  name: HVAC semiotic
-  description: "Semiotic Standard denoting the nearby presence of...an HVAC system. This sign must have been updated to the new standard."
+  name: ent-CMSemioticHvac
+  description: "ent-CMSemioticHvac-desc"
   components:
   - type: Sprite
     state: hvac
@@ -297,8 +297,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHvac_old
-  name: HVAC semiotic
-  description: "Semiotic Standard denoting the nearby presence of an HVAC system. This sign is still using the old standard."
+  name: ent-CMSemioticHvac_old
+  description: "ent-CMSemioticHvac_old-desc"
   components:
   - type: Sprite
     state: hvacold
@@ -306,8 +306,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticIntercom
-  name: intercom semiotic
-  description: "Semiotic Standard denoting the nearby presence of an intercom."
+  name: ent-CMSemioticIntercom
+  description: "ent-CMSemioticIntercom-desc"
   components:
   - type: Sprite
     state: comm
@@ -315,8 +315,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLadder
-  name: ladder semiotic
-  description: "Semiotic Standard denoting the nearby presence of a ladder."
+  name: ent-CMSemioticLadder
+  description: "ent-CMSemioticLadder-desc"
   components:
   - type: Sprite
     state: ladder
@@ -324,8 +324,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLaser
-  name: laser semiotic
-  description: "Semiotic Standard denoting the nearby presence of lasers. It's usually not as cool as it sounds."
+  name: ent-CMSemioticLaser
+  description: "ent-CMSemioticLaser-desc"
   components:
   - type: Sprite
     state: laser
@@ -333,8 +333,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLife_support
-  name: life support system semiotic
-  description: "Semiotic Standard denoting the nearby presence of a life support system."
+  name: ent-CMSemioticLife_support
+  description: "ent-CMSemioticLife_support-desc"
   components:
   - type: Sprite
     state: lifesupport
@@ -342,8 +342,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticMaint
-  name: maintenance semiotic
-  description: "Semiotic Standard denoting the nearby presence of maintenance access."
+  name: ent-CMSemioticMaint
+  description: "ent-CMSemioticMaint-desc"
   components:
   - type: Sprite
     state: maint
@@ -351,8 +351,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticManualopenclose
-  name: manual opener/closer semiotic
-  description: "Semiotic Standard denoting the nearby presence of a manual shutoff valve."
+  name: ent-CMSemioticManualopenclose
+  description: "ent-CMSemioticManualopenclose-desc"
   components:
   - type: Sprite
     state: manualopenclose
@@ -360,8 +360,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticMed_cryo
-  name: medical cryostasis vault semiotic
-  description: "Semiotic Standard denoting the nearby presence of a medical cryostasis vault."
+  name: ent-CMSemioticMed_cryo
+  description: "ent-CMSemioticMed_cryo-desc"
   components:
   - type: Sprite
     state: medcryo
@@ -369,8 +369,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticMed_life_support
-  name: medical life support semiotic
-  description: "Semiotic Standard denoting the nearby presence of a life support system for a medbay."
+  name: ent-CMSemioticMed_life_support
+  description: "ent-CMSemioticMed_life_support-desc"
   components:
   - type: Sprite
     state: medlifesupport
@@ -378,8 +378,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticMedical
-  name: medical semiotic
-  description: "Semiotic Standard denoting the nearby presence of a medbay."
+  name: ent-CMSemioticMedical
+  description: "ent-CMSemioticMedical-desc"
   components:
   - type: Sprite
     state: medical
@@ -387,8 +387,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNonpress
-  name: non-pressurized area beyond semiotic
-  description: "Semiotic Standard denoting that the area beyond isn't pressurized."
+  name: ent-CMSemioticNonpress
+  description: "ent-CMSemioticNonpress-desc"
   components:
   - type: Sprite
     state: nonpressarea
@@ -396,8 +396,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNonpress_ag
-  name: artificial gravity area, non-pressurized, suit required semiotic
-  description: "Semiotic Standard denoting the nearby presence of an area with artificial gravity lacking in pressurization."
+  name: ent-CMSemioticNonpress_ag
+  description: "ent-CMSemioticNonpress_ag-desc"
   components:
   - type: Sprite
     state: nonpressag
@@ -405,8 +405,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNonpress_0g
-  name: non-pressurized area, no gravity, suit required semiotic
-  description: "Semiotic Standard denoting that the area beyond isn't pressurized and has no artificial gravity."
+  name: ent-CMSemioticNonpress_0g
+  description: "ent-CMSemioticNonpress_0g-desc"
   components:
   - type: Sprite
     state: nonpresszerog
@@ -414,8 +414,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNorth
-  name: North semiotic
-  description: "Semiotic Standard denoting the nearby presence of something to the North."
+  name: ent-CMSemioticNorth
+  description: "ent-CMSemioticNorth-desc"
   components:
   - type: Sprite
     state: north
@@ -423,8 +423,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticOpens_up
-  name: opens upwards semiotic
-  description: "Semiotic Standard denoting the nearby door opens upwards."
+  name: ent-CMSemioticOpens_up
+  description: "ent-CMSemioticOpens_up-desc"
   components:
   - type: Sprite
     state: opensup
@@ -432,8 +432,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticOutpatient
-  name: outpatient clinic semiotic
-  description: "Semiotic Standard denoting the nearby presence of an outpatient clinic."
+  name: ent-CMSemioticOutpatient
+  description: "ent-CMSemioticOutpatient-desc"
   components:
   - type: Sprite
     state: outpatient
@@ -441,8 +441,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFibre_optics
-  name: photonics systems (fibre optics) semiotic
-  description: "Semiotic Standard denoting the nearby presence of fibre optics lines."
+  name: ent-CMSemioticFibre_optics
+  description: "ent-CMSemioticFibre_optics-desc"
   components:
   - type: Sprite
     state: fibreoptic
@@ -450,8 +450,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticPress_area_ag
-  name: pressurized with artificial gravity semiotic
-  description: "Semiotic Standard denoting the nearby presence of a pressurized area without artificial gravity."
+  name: ent-CMSemioticPress_area_ag
+  description: "ent-CMSemioticPress_area_ag-desc"
   components:
   - type: Sprite
     state: pressareaag
@@ -459,8 +459,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticPress_area
-  name: pressurized area semiotic
-  description: "Semiotic Standard denoting the nearby presence of a pressurized area."
+  name: ent-CMSemioticPress_area
+  description: "ent-CMSemioticPress_area-desc"
   components:
   - type: Sprite
     state: pressarea
@@ -468,8 +468,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRad_haz
-  name: radiation hazard semiotic
-  description: "Semiotic Standard denoting the nearby presence of a radiation hazard."
+  name: ent-CMSemioticRad_haz
+  description: "ent-CMSemioticRad_haz-desc"
   components:
   - type: Sprite
     state: radhaz
@@ -477,8 +477,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRad_shield
-  name: area shielded from radiation semiotic
-  description: "Semiotic Standard denoting the nearby presence of an area shielded from radiation."
+  name: ent-CMSemioticRad_shield
+  description: "ent-CMSemioticRad_shield-desc"
   components:
   - type: Sprite
     state: radshield
@@ -486,8 +486,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRadio_rad
-  name: radiation of radio waves semiotic
-  description: "Semiotic Standard denoting the nearby presence of radiation from a radio tower."
+  name: ent-CMSemioticRadio_rad
+  description: "ent-CMSemioticRadio_rad-desc"
   components:
   - type: Sprite
     state: radiorad
@@ -495,8 +495,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticReception
-  name: reception semiotic
-  description: "Semiotic Standard denoting the nearby presence of a reception area."
+  name: ent-CMSemioticReception
+  description: "ent-CMSemioticReception-desc"
   components:
   - type: Sprite
     state: reception
@@ -504,8 +504,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticReduction
-  name: reduction dilation of area semiotic
-  description: "Semiotic Standard denoting that the area gets smaller ahead."
+  name: ent-CMSemioticReduction
+  description: "ent-CMSemioticReduction-desc"
   components:
   - type: Sprite
     state: reduction
@@ -513,8 +513,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRef_bio_storage
-  name: refrigerated biological storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of refrigerated biological storage."
+  name: ent-CMSemioticRef_bio_storage
+  description: "ent-CMSemioticRef_bio_storage-desc"
   components:
   - type: Sprite
     state: refbiostorage
@@ -522,8 +522,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRef_chem_storage
-  name: refrigerated chemical storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of refrigerated chemical storage."
+  name: ent-CMSemioticRef_chem_storage
+  description: "ent-CMSemioticRef_chem_storage-desc"
   components:
   - type: Sprite
     state: refchemstorage
@@ -531,8 +531,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRestrictedarea
-  name: restricted area semiotic
-  description: "Semiotic Standard denoting the nearby presence of a restricted area."
+  name: ent-CMSemioticRestrictedarea
+  description: "ent-CMSemioticRestrictedarea-desc"
   components:
   - type: Sprite
     state: restrictedarea
@@ -540,8 +540,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFridge
-  name: refrigerated storage (organic foodstuffs) semiotic
-  description: "Semiotic Standard denoting the nearby presence of a fridge."
+  name: ent-CMSemioticFridge
+  description: "ent-CMSemioticFridge-desc"
   components:
   - type: Sprite
     state: fridge
@@ -549,8 +549,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRefridgeration
-  name: refrigeration semiotic
-  description: "Semiotic Standard denoting the nearby presence of non-food refrigeration."
+  name: ent-CMSemioticRefridgeration
+  description: "ent-CMSemioticRefridgeration-desc"
   components:
   - type: Sprite
     state: refridgeration
@@ -558,8 +558,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRewire
-  name: rewire system semiotic
-  description: "Semiotic Standard denoting the nearby presence of a rewire system."
+  name: ent-CMSemioticRewire
+  description: "ent-CMSemioticRewire-desc"
   components:
   - type: Sprite
     state: rewire
@@ -567,8 +567,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSecurity
-  name: security semiotic
-  description: "Semiotic Standard denoting the nearby presence of law enforcement or a security force."
+  name: ent-CMSemioticSecurity
+  description: "ent-CMSemioticSecurity-desc"
   components:
   - type: Sprite
     state: security
@@ -576,8 +576,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSouth
-  name: South semiotic
-  description: "Semiotic Standard denoting the nearby presence of something to the South."
+  name: ent-CMSemioticSouth
+  description: "ent-CMSemioticSouth-desc"
   components:
   - type: Sprite
     state: south
@@ -585,8 +585,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticStairs
-  name: stairs semiotic
-  description: "Semiotic Standard denoting the nearby presence of a staircase."
+  name: ent-CMSemioticStairs
+  description: "ent-CMSemioticStairs-desc"
   components:
   - type: Sprite
     state: stairs
@@ -594,8 +594,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticStorage
-  name: storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of a general dry storage room."
+  name: ent-CMSemioticStorage
+  description: "ent-CMSemioticStorage-desc"
   components:
   - type: Sprite
     state: storage
@@ -603,8 +603,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSuit_storage
-  name: pressure suit locker semiotic
-  description: "Semiotic Standard denoting the nearby presence of a pressure suit storage locker."
+  name: ent-CMSemioticSuit_storage
+  description: "ent-CMSemioticSuit_storage-desc"
   components:
   - type: Sprite
     state: suitstorage
@@ -612,8 +612,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSilicon_storage
-  name: silicon storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of a silicon unit storage room."
+  name: ent-CMSemioticSilicon_storage
+  description: "ent-CMSemioticSilicon_storage-desc"
   components:
   - type: Sprite
     state: siliconstorage
@@ -621,8 +621,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticTerminal
-  name: computer terminal semiotic
-  description: "Semiotic Standard denoting the nearby presence of a computer terminal."
+  name: ent-CMSemioticTerminal
+  description: "ent-CMSemioticTerminal-desc"
   components:
   - type: Sprite
     state: terminal
@@ -630,8 +630,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticTram
-  name: tram line semiotic
-  description: "Semiotic Standard denoting the nearby presence of a tram line."
+  name: ent-CMSemioticTram
+  description: "ent-CMSemioticTram-desc"
   components:
   - type: Sprite
     state: tramline
@@ -639,8 +639,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticTwilight_zone_terminator
-  name: twilight zone terminator semiotic
-  description: "Semiotic Standard denoting the nearby presence of a twilight zone terminator. It's way less cool than it sounds."
+  name: ent-CMSemioticTwilight_zone_terminator
+  description: "ent-CMSemioticTwilight_zone_terminator-desc"
   components:
   - type: Sprite
     state: twilightzoneterminator
@@ -648,8 +648,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticWater
-  name: water semiotic
-  description: "Semiotic Standard denoting the nearby presence of water."
+  name: ent-CMSemioticWater
+  description: "ent-CMSemioticWater-desc"
   components:
   - type: Sprite
     state: water
@@ -657,8 +657,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticWaterhazard
-  name: water hazard semiotic
-  description: "Semiotic Standard denoting a water hazard. Keep electronics away."
+  name: ent-CMSemioticWaterhazard
+  description: "ent-CMSemioticWaterhazard-desc"
   components:
   - type: Sprite
     state: waterhaz
@@ -666,8 +666,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticWest
-  name: West semiotic
-  description: "Semiotic Standard denoting the nearby presence of something to the West."
+  name: ent-CMSemioticWest
+  description: "ent-CMSemioticWest-desc"
   components:
   - type: Sprite
     state: west
@@ -675,8 +675,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticZero_g
-  name: artificial gravity absent semiotic
-  description: "Semiotic Standard denoting the nearby lack of artificial gravity."
+  name: ent-CMSemioticZero_g
+  description: "ent-CMSemioticZero_g-desc"
   components:
   - type: Sprite
     state: zerog
@@ -684,8 +684,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFlightcontrol
-  name: flight control semiotic
-  description: "Semiotic Standard denoting an area used by or for flight control systems."
+  name: ent-CMSemioticFlightcontrol
+  description: "ent-CMSemioticFlightcontrol-desc"
   components:
   - type: Sprite
     state: flightcontrol
@@ -693,8 +693,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAirtraffictower
-  name: air traffic tower semiotic
-  description: "Semiotic Standard denoting an air traffic tower nearby."
+  name: ent-CMSemioticAirtraffictower
+  description: "ent-CMSemioticAirtraffictower-desc"
   components:
   - type: Sprite
     state: airtraffictower
@@ -702,8 +702,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLuggageclaim
-  name: luggage claim semiotic
-  description: "Semiotic Standard denoting the presecense of a luggage claim area nearby."
+  name: ent-CMSemioticLuggageclaim
+  description: "ent-CMSemioticLuggageclaim-desc"
   components:
   - type: Sprite
     state: luggageclaim
@@ -711,8 +711,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLandingzone
-  name: landing zone semiotic
-  description: "Semiotic Standard denoting the presecense of a landing zone nearby."
+  name: ent-CMSemioticLandingzone
+  description: "ent-CMSemioticLandingzone-desc"
   components:
   - type: Sprite
     state: landingzone
@@ -720,8 +720,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticZero
-  name: zero semiotic
-  description: "Semiotic Standard denoting the number zero."
+  name: ent-CMSemioticZero
+  description: "ent-CMSemioticZero-desc"
   components:
   - type: Sprite
     state: 0
@@ -729,8 +729,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticOne
-  name: one semiotic
-  description: "Semiotic Standard denoting the number one."
+  name: ent-CMSemioticOne
+  description: "ent-CMSemioticOne-desc"
   components:
   - type: Sprite
     state: 1
@@ -738,8 +738,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticTwo
-  name: two semiotic
-  description: "Semiotic Standard denoting the number two."
+  name: ent-CMSemioticTwo
+  description: "ent-CMSemioticTwo-desc"
   components:
   - type: Sprite
     state: 2
@@ -747,8 +747,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticThree
-  name: three semiotic
-  description: "Semiotic Standard denoting the number three."
+  name: ent-CMSemioticThree
+  description: "ent-CMSemioticThree-desc"
   components:
   - type: Sprite
     state: 3
@@ -756,8 +756,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFour
-  name: four semiotic
-  description: "Semiotic Standard denoting the number four."
+  name: ent-CMSemioticFour
+  description: "ent-CMSemioticFour-desc"
   components:
   - type: Sprite
     state: 4
@@ -765,8 +765,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFive
-  name: five semiotic
-  description: "Semiotic Standard denoting the number five."
+  name: ent-CMSemioticFive
+  description: "ent-CMSemioticFive-desc"
   components:
   - type: Sprite
     state: 5
@@ -774,8 +774,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSix
-  name: six semiotic
-  description: "Semiotic Standard denoting the number six."
+  name: ent-CMSemioticSix
+  description: "ent-CMSemioticSix-desc"
   components:
   - type: Sprite
     state: 6
@@ -783,8 +783,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSeven
-  name: seven semiotic
-  description: "Semiotic Standard denoting the number seven."
+  name: ent-CMSemioticSeven
+  description: "ent-CMSemioticSeven-desc"
   components:
   - type: Sprite
     state: 7
@@ -792,8 +792,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticEight
-  name: eight semiotic
-  description: "Semiotic Standard denoting the number eight."
+  name: ent-CMSemioticEight
+  description: "ent-CMSemioticEight-desc"
   components:
   - type: Sprite
     state: 8
@@ -801,8 +801,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNine
-  name: nine semiotic
-  description: "Semiotic Standard denoting the number nine."
+  name: ent-CMSemioticNine
+  description: "ent-CMSemioticNine-desc"
   components:
   - type: Sprite
     state: 9

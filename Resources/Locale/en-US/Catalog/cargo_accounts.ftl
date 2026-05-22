@@ -1,0 +1,12 @@
+cargoaccount-cargo-code = cargo-account-cargo-code
+cargoaccount-cargo-name = cargo-account-cargo-name
+cargoaccount-engineering-code = cargo-account-engineering-code
+cargoaccount-engineering-name = cargo-account-engineering-name
+cargoaccount-medical-code = cargo-account-medical-code
+cargoaccount-medical-name = cargo-account-medical-name
+cargoaccount-science-code = cargo-account-science-code
+cargoaccount-science-name = cargo-account-science-name
+cargoaccount-security-code = cargo-account-security-code
+cargoaccount-security-name = cargo-account-security-name
+cargoaccount-service-code = cargo-account-service-code
+cargoaccount-service-name = cargo-account-service-name

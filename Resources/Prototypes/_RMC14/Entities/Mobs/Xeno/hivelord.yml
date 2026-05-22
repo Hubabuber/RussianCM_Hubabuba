@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoHivelordBase
-  name: Hivelord
-  description: A builder of really big hives.
+  name: ent-CMXenoHivelordBase
+  description: ent-CMXenoHivelordBase-desc
   components:
   - type: TTS
     voice: OUTWORLD_DESTROYER_DOTA_2
@@ -160,7 +160,7 @@
 - type: entity
   parent: CMXenoHivelordBase
   id: CMXenoHivelordResinWhisperer
-  suffix: Resin Whisperer
+  suffix: ent-CMXenoHivelordResinWhisperer-suffix
   components:
   - type: CanBuildThickFromConstructNode
   - type: Sprite
@@ -215,7 +215,7 @@
 - type: entity
   parent: CMXenoHivelordBase
   id: CMXenoHivelordDesigner
-  suffix: Designer
+  suffix: ent-CMXenoHivelordDesigner-suffix
   components:
   - type: GuideHelp
     guides:

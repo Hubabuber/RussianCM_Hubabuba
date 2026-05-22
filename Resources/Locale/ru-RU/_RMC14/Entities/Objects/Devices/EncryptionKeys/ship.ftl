@@ -28,3 +28,10 @@ ent-CMEncryptionKeyColony = ключ шифрования колонии
 ent-CMEncryptionKeyCommon = ключ шифрования общего канала
 ent-CMEncryptionKey = стандартный ключ шифрования
   .desc = Ключ шифрования для гарнитуры.
+
+ent-RMCEncryptionKeyCorrespondent = ключ шифрования корреспондентской радиосвязи
+    .desc = Ключ шифрования для радиогарнитуры.
+
+ent-RMCEncryptionKeyMarineCommandAlternative = ключ шифрования радиокоманды морпех
+    .desc = Ключ шифрования для радиогарнитуры.
+    .suffix = Альтернатива

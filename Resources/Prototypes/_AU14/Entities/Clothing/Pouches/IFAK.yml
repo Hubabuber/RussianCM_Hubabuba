@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: AU14PouchIFAK
-  name: infantry first aid kit pouch
-  description: It can carry small medical supplies.
+  name: ent-AU14PouchIFAK
+  description: ent-AU14PouchIFAK-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medical.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14PouchIFAK
   id: AU14PouchIFAKFill
-  suffix: Filled
+  suffix: ent-AU14PouchIFAKFill-suffix
   components:
   - type: StorageFill
     contents:

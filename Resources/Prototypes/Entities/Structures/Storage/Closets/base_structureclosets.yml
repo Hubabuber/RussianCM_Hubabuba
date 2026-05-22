@@ -1,8 +1,8 @@
 - type: entity
   id: ClosetBase
   parent: BaseStructureDynamic
-  name: closet
-  description: A standard-issue Nanotrasen storage unit.
+  name: ent-ClosetBase
+  description: ent-ClosetBase-desc
   abstract: true
   components:
   - type: Animateable
@@ -132,8 +132,8 @@
   placement:
     mode: SnapgridCenter
   abstract: true
-  name: wall closet
-  description: A standard-issue Nanotrasen storage unit, now on walls.
+  name: ent-BaseWallCloset
+  description: ent-BaseWallCloset-desc
   components:
   - type: InteractionOutline
   - type: Clickable
@@ -235,8 +235,8 @@
 - type: entity
   id: SuitStorageBase
   parent: BaseStructure
-  name: suit storage unit
-  description: A fancy hi-tech storage unit made for storing space suits.
+  name: ent-SuitStorageBase
+  description: ent-SuitStorageBase-desc
   components:
   - type: AccessReader
   - type: Lock

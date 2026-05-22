@@ -9,27 +9,24 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed3
-  name: Tachycardia
-  description: Heart is racing.
-
+  name: alert-cmutachycardia-name
+  description: alert-cmutachycardia-desc
 - type: alert
   id: CMUArrhythmia
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed5
-  name: Arrhythmia
-  description: Heart rhythm irregular.
-
+  name: alert-cmuarrhythmia-name
+  description: alert-cmuarrhythmia-desc
 - type: alert
   id: CMUCardiacArrest
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: Cardiac Arrest
-  description: Heart has stopped.
-
+  name: alert-cmucardiacarrest-name
+  description: alert-cmucardiacarrest-desc
 # ---- Respiratory -----------------------------------------------------
 
 - type: alert
@@ -38,9 +35,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/breathing.rsi
     state: not_enough_oxy
-  name: Pulmonary Edema
-  description: Breathing is laboured; lungs are flooded.
-
+  name: alert-cmupulmonaryedema-name
+  description: alert-cmupulmonaryedema-desc
 # ---- Hepatic / Renal -------------------------------------------------
 
 - type: alert
@@ -49,18 +45,16 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed8
-  name: Hepatic Failure
-  description: Liver is failing — toxins are not being cleared.
-
+  name: alert-cmuhepaticfailure-name
+  description: alert-cmuhepaticfailure-desc
 - type: alert
   id: CMURenalFailure
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed7
-  name: Renal Failure
-  description: Kidneys are failing — chems linger.
-
+  name: alert-cmurenalfailure-name
+  description: alert-cmurenalfailure-desc
 # ---- Neuro -----------------------------------------------------------
 
 - type: alert
@@ -69,27 +63,24 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: hot1
-  name: Concussed
-  description: Mild head trauma — brief disorientation.
-
+  name: alert-cmuconcussed-name
+  description: alert-cmuconcussed-desc
 - type: alert
   id: CMUTraumaticBrainInjury
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: hot3
-  name: Traumatic Brain Injury
-  description: Severe head trauma.
-
+  name: alert-cmutraumaticbraininjury-name
+  description: alert-cmutraumaticbraininjury-desc
 - type: alert
   id: CMUWhiplash
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: hot2
-  name: Whiplash
-  description: Neck strain after a head impact.
-
+  name: alert-cmuwhiplash-name
+  description: alert-cmuwhiplash-desc
 # ---- Sensory ---------------------------------------------------------
 
 - type: alert
@@ -98,27 +89,24 @@
   icons:
   - sprite: /Textures/Interface/Alerts/hunger.rsi
     state: peckish
-  name: Nausea
-  description: Stomach is unsettled.
-
+  name: alert-cmunausea-name
+  description: alert-cmunausea-desc
 - type: alert
   id: CMUTinnitus
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold1
-  name: Tinnitus
-  description: Ringing in the ears.
-
+  name: alert-cmutinnitus-name
+  description: alert-cmutinnitus-desc
 - type: alert
   id: CMUDeafened
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold3
-  name: Deafened
-  description: Hearing has failed.
-
+  name: alert-cmudeafened-name
+  description: alert-cmudeafened-desc
 # ---- Limb ------------------------------------------------------------
 
 - type: alert
@@ -127,36 +115,32 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: Missing Arm
-  description: An arm has been severed.
-
+  name: alert-cmumissingarm-name
+  description: alert-cmumissingarm-desc
 - type: alert
   id: CMUMissingHand
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed9
-  name: Missing Hand
-  description: A hand has been severed.
-
+  name: alert-cmumissinghand-name
+  description: alert-cmumissinghand-desc
 - type: alert
   id: CMUMissingLeg
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: Missing Leg
-  description: A leg has been severed.
-
+  name: alert-cmumissingleg-name
+  description: alert-cmumissingleg-desc
 - type: alert
   id: CMUMissingFoot
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed9
-  name: Missing Foot
-  description: A foot has been severed.
-
+  name: alert-cmumissingfoot-name
+  description: alert-cmumissingfoot-desc
 # ---- Recovery / pain --------------------------------------------------
 
 - type: alert
@@ -165,72 +149,64 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold2
-  name: Recovering from Surgery
-  description: Recently operated on — take it easy.
-
+  name: alert-cmurecoveringfromsurgery-name
+  description: alert-cmurecoveringfromsurgery-desc
 - type: alert
   id: CMUTransplantRejection
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed4
-  name: Transplant Rejection
-  description: A transplanted organ is being rejected.
-
+  name: alert-cmutransplantrejection-name
+  description: alert-cmutransplantrejection-desc
 - type: alert
   id: CMUNerveDamage
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold2
-  name: Nerve Damage
-  description: A limb's nerves are damaged — aim sways.
-
+  name: alert-cmunervedamage-name
+  description: alert-cmunervedamage-desc
 - type: alert
   id: CMUPainShock
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: Pain Shock
-  description: Pain has crossed the shock threshold.
-
+  name: alert-cmupainshock-name
+  description: alert-cmupainshock-desc
 - type: alert
   id: CMUPainSuppression
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold1
-  name: Pain Suppressed
-  description: Painkillers active.
-
+  name: alert-cmupainsuppression-name
+  description: alert-cmupainsuppression-desc
 - type: alert
   id: CMUSplinted
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed1
-  name: Splinted
-  description: A fractured limb is splinted.
-
+  name: alert-cmusplinted-name
+  description: alert-cmusplinted-desc
 - type: alert
   id: CMUCast
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed2
-  name: In Cast
-  description: A fractured limb is set in a cast.
-
+  name: alert-cmucast-name
+  description: alert-cmucast-desc
 - type: alert
   id: CMUBoneRegenBoost
   category: CMUMedical
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold1
-  name: Bone Regen
-  description: Bone-regeneration chems are active.
-
+  name: alert-cmuboneregenboost-name
+  description: alert-cmuboneregenboost-desc
 - type: alert
   id: CMUPainMild
   category: CMUMedical
@@ -239,7 +215,6 @@
     state: bleed1
   name: cmu-medical-pain-mild-alert-name
   description: cmu-medical-pain-mild-alert-desc
-
 - type: alert
   id: CMUPainModerate
   category: CMUMedical
@@ -248,7 +223,6 @@
     state: bleed3
   name: cmu-medical-pain-moderate-alert-name
   description: cmu-medical-pain-moderate-alert-desc
-
 - type: alert
   id: CMUPainSevere
   category: CMUMedical

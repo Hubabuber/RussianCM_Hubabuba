@@ -1,7 +1,7 @@
 - type: entity
   id: SignalSwitch
-  name: signal switch
-  description: It's a switch for toggling power to things.
+  name: ent-SignalSwitch
+  description: ent-SignalSwitch-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -43,8 +43,8 @@
 
 - type: entity
   id: SignalButton
-  name: signal button
-  description: It's a button for activating something.
+  name: ent-SignalButton
+  description: ent-SignalButton-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -107,8 +107,8 @@
 
 - type: entity
   id: ApcNetSwitch
-  name: apc net switch
-  description: It's a switch for toggling lights that are connected to the same apc.
+  name: ent-ApcNetSwitch
+  description: ent-ApcNetSwitch-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -143,8 +143,8 @@
 
 - type: entity
   id: TwoWayLever
-  name: two way lever
-  description: A two way lever.
+  name: ent-TwoWayLever
+  description: ent-TwoWayLever-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -200,8 +200,8 @@
 
 - type: entity
   id: SignalSwitchDirectional
-  name: signal switch
-  suffix: directional
+  name: ent-SignalSwitchDirectional
+  suffix: ent-SignalSwitchDirectional-suffix
   parent: SignalSwitch
   components:
   - type: WallMount
@@ -212,8 +212,8 @@
 
 - type: entity
   id: SignalButtonDirectional
-  name: signal button
-  suffix: directional
+  name: ent-SignalButtonDirectional
+  suffix: ent-SignalButtonDirectional-suffix
   parent: SignalButton
   components:
   - type: WallMount
@@ -224,8 +224,8 @@
 
 - type: entity
   id: ApcNetSwitchDirectional
-  name: apc net switch
-  suffix: directional
+  name: ent-ApcNetSwitchDirectional
+  suffix: ent-ApcNetSwitchDirectional-suffix
   parent: ApcNetSwitch
   components:
   - type: WallMount
@@ -238,7 +238,7 @@
 
 - type: entity
   id: LockableButton
-  name: lockable button
+  name: ent-LockableButton
   parent: SignalButtonDirectional
   categories: [ HideSpawnMenu ]
   components:
@@ -257,7 +257,7 @@
 
 - type: entity
   id: LockableButtonCaptain
-  suffix: Captain
+  suffix: ent-LockableButtonCaptain-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -265,7 +265,7 @@
 
 - type: entity
   id: LockableButtonHeadOfPersonnel
-  suffix: HeadOfPersonnel
+  suffix: ent-LockableButtonHeadOfPersonnel-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -273,7 +273,7 @@
 
 - type: entity
   id: LockableButtonChiefEngineer
-  suffix: ChiefEngineer
+  suffix: ent-LockableButtonChiefEngineer-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -281,7 +281,7 @@
 
 - type: entity
   id: LockableButtonChiefMedicalOfficer
-  suffix: ChiefMedicalOfficer
+  suffix: ent-LockableButtonChiefMedicalOfficer-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -289,7 +289,7 @@
 
 - type: entity
   id: LockableButtonHeadOfSecurity
-  suffix: HeadOfSecurity
+  suffix: ent-LockableButtonHeadOfSecurity-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -297,7 +297,7 @@
 
 - type: entity
   id: LockableButtonResearchDirector
-  suffix: ResearchDirector
+  suffix: ent-LockableButtonResearchDirector-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -305,7 +305,7 @@
 
 - type: entity
   id: LockableButtonCommand
-  suffix: Command
+  suffix: ent-LockableButtonCommand-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -313,7 +313,7 @@
 
 - type: entity
   id: LockableButtonCryogenics
-  suffix: Cryogenics
+  suffix: ent-LockableButtonCryogenics-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -321,7 +321,7 @@
 
 - type: entity
   id: LockableButtonSecurity
-  suffix: Security
+  suffix: ent-LockableButtonSecurity-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -329,7 +329,7 @@
 
 - type: entity
   id: LockableButtonDetective
-  suffix: Detective
+  suffix: ent-LockableButtonDetective-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -337,7 +337,7 @@
 
 - type: entity
   id: LockableButtonArmory
-  suffix: Armory
+  suffix: ent-LockableButtonArmory-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -345,7 +345,7 @@
 
 - type: entity
   id: LockableButtonBrig
-  suffix: Brig
+  suffix: ent-LockableButtonBrig-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -353,7 +353,7 @@
 
 - type: entity
   id: LockableButtonLawyer
-  suffix: Lawyer
+  suffix: ent-LockableButtonLawyer-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -361,7 +361,7 @@
 
 - type: entity
   id: LockableButtonEngineering
-  suffix: Engineering
+  suffix: ent-LockableButtonEngineering-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -369,7 +369,7 @@
 
 - type: entity
   id: LockableButtonMedical
-  suffix: Medical
+  suffix: ent-LockableButtonMedical-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -377,7 +377,7 @@
 
 - type: entity
   id: LockableButtonQuartermaster
-  suffix: Quartermaster
+  suffix: ent-LockableButtonQuartermaster-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -385,7 +385,7 @@
 
 - type: entity
   id: LockableButtonSalvage
-  suffix: Salvage
+  suffix: ent-LockableButtonSalvage-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -393,7 +393,7 @@
 
 - type: entity
   id: LockableButtonCargo
-  suffix: Cargo
+  suffix: ent-LockableButtonCargo-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -401,7 +401,7 @@
 
 - type: entity
   id: LockableButtonResearch
-  suffix: Research
+  suffix: ent-LockableButtonResearch-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -409,7 +409,7 @@
 
 - type: entity
   id: LockableButtonService
-  suffix: Service
+  suffix: ent-LockableButtonService-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -417,7 +417,7 @@
 
 - type: entity
   id: LockableButtonMaintenance
-  suffix: Maintenance
+  suffix: ent-LockableButtonMaintenance-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -425,7 +425,7 @@
 
 - type: entity
   id: LockableButtonExternal
-  suffix: External
+  suffix: ent-LockableButtonExternal-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -433,7 +433,7 @@
 
 - type: entity
   id: LockableButtonJanitor
-  suffix: Janitor
+  suffix: ent-LockableButtonJanitor-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -441,7 +441,7 @@
 
 - type: entity
   id: LockableButtonTheatre
-  suffix: Theatre
+  suffix: ent-LockableButtonTheatre-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -449,7 +449,7 @@
 
 - type: entity
   id: LockableButtonBar
-  suffix: Bar
+  suffix: ent-LockableButtonBar-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -457,7 +457,7 @@
 
 - type: entity
   id: LockableButtonChemistry
-  suffix: Chemistry
+  suffix: ent-LockableButtonChemistry-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -465,7 +465,7 @@
 
 - type: entity
   id: LockableButtonKitchen
-  suffix: Kitchen
+  suffix: ent-LockableButtonKitchen-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -473,7 +473,7 @@
 
 - type: entity
   id: LockableButtonChapel
-  suffix: Chapel
+  suffix: ent-LockableButtonChapel-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -481,7 +481,7 @@
 
 - type: entity
   id: LockableButtonHydroponics
-  suffix: Hydroponics
+  suffix: ent-LockableButtonHydroponics-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -489,7 +489,7 @@
 
 - type: entity
   id: LockableButtonAtmospherics
-  suffix: Atmospherics
+  suffix: ent-LockableButtonAtmospherics-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -497,7 +497,7 @@
 
 - type: entity
   id: LockableButtonCentcomm
-  suffix: CentComm
+  suffix: ent-LockableButtonCentcomm-suffix
   parent: LockableButton
   components:
   - type: AccessReader
@@ -507,9 +507,9 @@
 
 - type: entity
   id: ButtonFrame
-  name: button frame
+  name: ent-ButtonFrame
   categories: [ HideSpawnMenu ]
-  description: It's a frame to help distinguish switches visually.
+  description: ent-ButtonFrame-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -530,7 +530,7 @@
 - type: entity
   id: ButtonFrameGrey
   parent: ButtonFrame
-  suffix: grey
+  suffix: ent-ButtonFrameGrey-suffix
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -540,7 +540,7 @@
 - type: entity
   id: ButtonFrameCaution
   parent: ButtonFrame
-  suffix: caution
+  suffix: ent-ButtonFrameCaution-suffix
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -550,7 +550,7 @@
 - type: entity
   id: ButtonFrameCautionSecurity
   parent: ButtonFrame
-  suffix: caution
+  suffix: ent-ButtonFrameCautionSecurity-suffix
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -560,7 +560,7 @@
 - type: entity
   id: ButtonFrameExit
   parent: ButtonFrame
-  suffix: exit
+  suffix: ent-ButtonFrameExit-suffix
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -570,7 +570,7 @@
 - type: entity
   id: ButtonFrameJanitor
   parent: ButtonFrame
-  suffix: janitor
+  suffix: ent-ButtonFrameJanitor-suffix
   components:
   - type: Sprite
     drawdepth: SmallObjects

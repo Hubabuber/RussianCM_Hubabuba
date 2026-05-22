@@ -5,7 +5,7 @@
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorDoctor
   startingGear: RMCGearSurvivorMedicalTechnician
-  spawnMenuRoleName: Medical Technician (NV Survivor)
+  spawnMenuRoleName: job-cmsurvivormedicaltechnician-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorMedicalTechnician
-  name: survivor medical technician spawn point
+  name: ent-RMCSpawnPointSurvivorMedicalTechnician
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,5 +50,5 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetMedicalTechnician
-  name: medical technician colonist preset
+  name: ent-RMCGearSurvivorPresetMedicalTechnician
   categories: [ HideSpawnMenu ]  # TODO RMC14 random research notes

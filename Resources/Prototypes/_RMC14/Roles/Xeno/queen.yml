@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobXenoBase
   id: CMXenoQueen
   name: cm-job-name-xeno-queen
@@ -17,7 +17,7 @@
   weight: 100
   requireAdminNotify: true
   hidden: false
-  supervisors: nobody
+  supervisors: job-cmxenoqueen-supervisors
   jobPreviewEntity: RMCPlayerXenoQueenPreview
   accessGroups:
   - CMAccessXeno

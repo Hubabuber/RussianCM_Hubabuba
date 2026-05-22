@@ -1,10 +1,10 @@
-﻿- type: entity
+- type: entity
   id: RMCRefuelingHose
-  name: refueling hose
-  description: "A long refueling hose that connects to various types of dropships"
+  name: ent-RMCRefuelingHose
+  description: "ent-RMCRefuelingHose-desc"
   placement:
     mode: SnapgridCenter
-  suffix: End
+  suffix: ent-RMCRefuelingHose-suffix
   components:
   - type: Transform
     anchored: true
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCRefuelingHose
   id: RMCRefuelingHoseAlt
-  suffix: Mid
+  suffix: ent-RMCRefuelingHoseAlt-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/refueling_hose.rsi

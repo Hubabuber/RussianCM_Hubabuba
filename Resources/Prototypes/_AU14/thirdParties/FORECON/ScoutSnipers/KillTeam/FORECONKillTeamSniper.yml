@@ -9,7 +9,7 @@
       role: AU14FORECONSniperDetachment
       time: 18000 #5 hours
     RMCRankWarrantOfficer: []
-  spawnMenuRoleName: FORECON Sniper (AU14, KillTeam)
+  spawnMenuRoleName: job-au14foreconkillteamsniper-spawnmenurolename
   icon: "CMJobIconEmpty"
   startingGear: AU14GearFORECONKillTeamSniper
   greeting: au14-job-description-forecon-killteam-greeting
@@ -32,9 +32,9 @@
 
 - type: entity
   parent: AU14BaseMobSpeciesOrganicFORECON
-  suffix: AU14, FORECON, KillTeam
+  suffix: ent-AU14JobFORECONKillTeamSniper-suffix
   id: AU14JobFORECONKillTeamSniper
-  name: FORECON Sniper (Kill Team)
+  name: ent-AU14JobFORECONKillTeamSniper
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

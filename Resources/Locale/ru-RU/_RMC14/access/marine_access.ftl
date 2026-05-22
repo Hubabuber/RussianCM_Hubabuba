@@ -1,0 +1,12 @@
+accesslevel-cmaccessalpha-name = отделение-альфа
+accesslevel-cmaccessbravo-name = отделение-браво
+accesslevel-cmaccesscharlie-name = отделение-Чарли
+accesslevel-cmaccesscombattechprep-name = cm-имя-работы-боевых технологий
+accesslevel-cmaccessdelta-name = отделение-дельта
+accesslevel-cmaccessftlprep-name = cm-название-должности-огневая группа-лидер
+accesslevel-cmaccessmarineprep-name = морпех Преп
+accesslevel-cmaccessmarinerifleman-name = cm-job-name-стрелок
+accesslevel-cmaccessmedprep-name = cm-имя-должности-больница-санитар
+accesslevel-cmaccesssmartprep-name = cm-имя-задания-оператора-умного пистолета
+accesslevel-cmaccessspecprep-name = cm-название-должности-специалист по оружию
+accesslevel-cmaccesssquadleaderprep-name = cm-должность-название-отделение-лидер

@@ -1,7 +1,7 @@
 # Survivor Skills
 - type: entity
   id: RMCSkillPresetParamarine
-  name: Royal Paramarine Rifleman
+  name: ent-RMCSkillPresetParamarine
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -17,21 +17,21 @@
       RMCSkillMedical: 1
       RMCSkillPolice: 0 #RMC Change: Should be 2
       RMCSkillVehicles: 1
-        
+
 - type: entity
   parent: RMCSkillPresetParamarine
   id: RMCSkillPresetParaPilot
-  name: Royal Paramarine Pilot
+  name: ent-RMCSkillPresetParaPilot
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
     skills:
       RMCSkillPilot: 2
-        
+
 - type: entity
   parent: RMCSkillPresetParamarine
   id: RMCSkillPresetParaEngineer
-  name: Royal Paramarine Engineer
+  name: ent-RMCSkillPresetParaEngineer
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -39,11 +39,11 @@
       RMCSkillConstruction: 2
       RMCSkillEngineer: 2
       RMCSkillPowerLoader: 1
-        
+
 - type: entity
   parent: RMCSkillPresetParamarine
   id: RMCSkillPresetParaMedic
-  name: Royal Paramarine Medic
+  name: ent-RMCSkillPresetParaMedic
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -51,11 +51,11 @@
       RMCSkillFireman: 3
       RMCSkillMedical: 3
       RMCSkillSurgery: 2
-        
+
 - type: entity
   parent: RMCSkillPresetParamarine
   id: RMCSkillPresetParaLeader
-  name: Royal Paramarine Squad Leader
+  name: ent-RMCSkillPresetParaLeader
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -66,10 +66,10 @@
       RMCSkillLeadership: 1
       RMCSkillPilot: 1
       RMCSkillIntel: 1
-        
+
 - type: entity
   id: RMCSkillPresetParaSynth
-  name: Royal Paramarine Synthetic
+  name: ent-RMCSkillPresetParaSynth
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -91,4 +91,4 @@
       RMCSkillJtac: 1
       RMCSkillIntel: 1
       RMCSkillDomestics: 2
-        
+

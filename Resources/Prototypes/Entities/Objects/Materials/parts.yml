@@ -23,8 +23,8 @@
 - type: entity
   parent: PartBase
   id: PartRodMetal
-  name: metal rod
-  suffix: Full
+  name: ent-PartRodMetal
+  suffix: ent-PartRodMetal-suffix
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -87,8 +87,8 @@
 - type: entity
   parent: PartRodMetal
   id: PartRodMetal10
-  name: metal rod
-  suffix: 10
+  name: ent-PartRodMetal10
+  suffix: ent-PartRodMetal10-suffix
   components:
   - type: Tag
     tags:
@@ -101,8 +101,8 @@
 - type: entity
   parent: PartRodMetal
   id: PartRodMetal1
-  name: metal rod
-  suffix: Single
+  name: ent-PartRodMetal1
+  suffix: ent-PartRodMetal1-suffix
   components:
   - type: Tag
     tags:
@@ -115,7 +115,7 @@
 - type: entity
   parent: PartRodMetal
   id: PartRodMetalLingering0
-  suffix: Lingering, 0
+  suffix: ent-PartRodMetalLingering0-suffix
   components:
   - type: Stack
     lingering: true
@@ -124,7 +124,7 @@
 - type: entity
   parent: FloorTileItemSteel
   id: FloorTileItemSteelLingering0
-  suffix: Lingering, 0
+  suffix: ent-FloorTileItemSteelLingering0-suffix
   components:
   - type: Stack
     lingering: true
@@ -133,7 +133,7 @@
 - type: entity
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteLingering0
-  suffix: Lingering, 0
+  suffix: ent-FloorTileItemWhiteLingering0-suffix
   components:
   - type: Stack
     lingering: true
@@ -142,7 +142,7 @@
 - type: entity
   parent: FloorTileItemDark
   id: FloorTileItemDarkLingering0
-  suffix: Lingering, 0
+  suffix: ent-FloorTileItemDarkLingering0-suffix
   components:
   - type: Stack
     lingering: true

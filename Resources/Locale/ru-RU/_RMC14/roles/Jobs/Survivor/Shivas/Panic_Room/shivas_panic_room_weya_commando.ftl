@@ -18,3 +18,7 @@ ent-RMCBeltPMCFilledCommando = Установка для загрузки бое
 ent-RMCSatchelPMCCommandoFilled = Боевой рюкзак We-Ya Commando
   .desc = Эргономичный, защищенный, большой вместительный рюкзак, разработанный для коммандос Weston-Yamada.
 
+job-rmcsurvivorpmccommandoshivas-desc = RMC-описание-работы-выживший
+job-rmcsurvivorpmccommandoshivas-name = RMC-имя-работы-выживший-шивас-вея-коммандос
+job-rmcsurvivorpmccommandoshivas-spawnmenurolename = Выживший — Ве-Я Коммандос (Шивас)
+job-rmcsurvivorpmccommandoshivas-supervisors = см-работа-руководители-мы-я

@@ -1,8 +1,8 @@
 - type: entity
   id: SmokingPipe
   parent: BaseSmokingPipe
-  name: pipe
-  description: Just like grandpappy used to smoke.
+  name: ent-SmokingPipe
+  description: ent-SmokingPipe-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Pipes/pipe.rsi
@@ -21,9 +21,9 @@
 - type: entity
   id: SmokingPipeFilledTobacco
   parent: SmokingPipe
-  name: pipe
-  suffix: Tobacco
-  description: Just like grandpappy used to smoke.
+  name: ent-SmokingPipeFilledTobacco
+  suffix: ent-SmokingPipeFilledTobacco-suffix
+  description: ent-SmokingPipeFilledTobacco-desc
   components:
   - type: ContainerContainer
     containers:
@@ -44,9 +44,9 @@
 - type: entity
   id: SmokingPipeFilledCannabis
   parent: SmokingPipe
-  name: pipe
-  suffix: Cannabis
-  description: Just like grandpappy used to smoke.
+  name: ent-SmokingPipeFilledCannabis
+  suffix: ent-SmokingPipeFilledCannabis-suffix
+  description: ent-SmokingPipeFilledCannabis-desc
   components:
   - type: ContainerContainer
     containers:
@@ -67,9 +67,9 @@
 - type: entity
   id: SmokingPipeFilledCannabisRainbow
   parent: SmokingPipe
-  name: pipe
-  suffix: Rainbow Cannabis
-  description: Just like grandpappy used to smoke.
+  name: ent-SmokingPipeFilledCannabisRainbow
+  suffix: ent-SmokingPipeFilledCannabisRainbow-suffix
+  description: ent-SmokingPipeFilledCannabisRainbow-desc
   components:
   - type: ContainerContainer
     containers:

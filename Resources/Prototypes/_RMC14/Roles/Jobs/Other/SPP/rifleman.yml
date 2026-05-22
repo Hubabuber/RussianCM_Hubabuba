@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: RMCSPPRifleman
   name: rmc-job-name-spp-rifleman
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Colonist
-  spawnMenuRoleName: SPP Conscript
+  spawnMenuRoleName: job-rmcspprifleman-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -29,8 +29,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPRiflemanHostile
-  name: spp ghost role rifleman
-  suffix: Spawner, Player, Hostile
+  name: ent-RMCRandomHumanoidSPPRiflemanHostile
+  suffix: ent-RMCRandomHumanoidSPPRiflemanHostile-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -40,8 +40,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPRiflemanFriendly
-  name: spp ghost role rifleman
-  suffix: Spawner, Player, Friendly
+  name: ent-RMCRandomHumanoidSPPRiflemanFriendly
+  suffix: ent-RMCRandomHumanoidSPPRiflemanFriendly-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

@@ -1,9 +1,9 @@
-﻿- type: entity
+- type: entity
   save: false
   parent: [ BaseSimpleMob, MobCombat ]
   id: BaseMobArgocyte
-  suffix: AI
-  description: A dangerous alien found on the wrong side of planets, known for their propensity for munching on ruins.
+  suffix: ent-BaseMobArgocyte-suffix
+  description: ent-BaseMobArgocyte-desc
   abstract: true
   components:
   - type: NpcFactionMember
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteSlurva
-  name: slurva
-  description: A pathetic creature, incapable of doing much.
+  name: ent-MobArgocyteSlurva
+  description: ent-MobArgocyteSlurva-desc
   components:
   - type: Sprite
     layers:
@@ -89,7 +89,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteBarrier
-  name: barrier
+  name: ent-MobArgocyteBarrier
   components:
   - type: Sprite
     layers:
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteSkitter
-  name: skitter
-  description: A devious little alien... Make sure they don't run off with your rations!
+  name: ent-MobArgocyteSkitter
+  description: ent-MobArgocyteSkitter-desc
   components:
   - type: Sprite
     layers:
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteSwiper
-  name: swiper
-  description: Where did that stack of steel go?
+  name: ent-MobArgocyteSwiper
+  description: ent-MobArgocyteSwiper-desc
   components:
   - type: Sprite
     layers:
@@ -198,7 +198,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteMolder
-  name: molder
+  name: ent-MobArgocyteMolder
   components:
   - type: Sprite
     layers:
@@ -225,7 +225,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocytePouncer
-  name: pouncer
+  name: ent-MobArgocytePouncer
   components:
   - type: Sprite
     layers:
@@ -254,7 +254,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteGlider
-  name: glider
+  name: ent-MobArgocyteGlider
   components:
   - type: Sprite
     layers:
@@ -286,7 +286,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteHarvester
-  name: harvester
+  name: ent-MobArgocyteHarvester
   components:
   - type: Sprite
     layers:
@@ -316,8 +316,8 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteCrawler
-  name: crawler
-  description: Deadly, pack-animals that maul unsuspecting travelers.
+  name: ent-MobArgocyteCrawler
+  description: ent-MobArgocyteCrawler-desc
   components:
   - type: Sprite
     layers:
@@ -350,7 +350,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteEnforcer
-  name: enforcer
+  name: ent-MobArgocyteEnforcer
   components:
   - type: Sprite
     layers:
@@ -383,7 +383,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteFounder
-  name: founder
+  name: ent-MobArgocyteFounder
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi
@@ -429,7 +429,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteLeviathing
-  name: leviathing
+  name: ent-MobArgocyteLeviathing
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi

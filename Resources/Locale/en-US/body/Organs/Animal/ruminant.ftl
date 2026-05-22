@@ -1,0 +1,1 @@
+ent-OrganAnimalRuminantStomach = ruminant stomach

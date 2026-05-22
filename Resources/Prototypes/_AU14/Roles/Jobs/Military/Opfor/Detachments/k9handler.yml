@@ -1,22 +1,22 @@
 - type: job
   parent: AU14Jobk9handlerBase
   id: AU14JobOPFORk9handler
-  name: K9 Handler
-  description: K9 Handler
+  name: job-au14jobopfork9handler-name
+  description: job-au14jobopfork9handler-desc
   setPreference: false
   ranks:
     RMCRankStaffSergeant: []
   startingGear: AU14GearopforPlatoonCorpsman
   icon: "AU14JobIconOPFORK9Handler"
   requireAdminNotify: false
-  spawnMenuRoleName: K9 Handler (OPFOR)
+  spawnMenuRoleName: job-au14jobopfork9handler-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforCorpsman
   - AU14OpforSquad
   overwatchSortPriority: -2
-  overwatchRoleName: K9 Handler
+  overwatchRoleName: job-au14jobopfork9handler-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORK9Handler
-  name: (DO NOT MAP) Spawn Point OPFOR K9 Handler
+  name: ent-AU14SpawnPointOPFORK9Handler
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORk9handler

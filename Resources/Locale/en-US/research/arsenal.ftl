@@ -1,0 +1,16 @@
+technology-advancedriotcontrol-name = research-technology-advanced-riot-control
+technology-advancedshuttleweapon-name = research-technology-advanced-shuttle-weapon
+technology-basicshuttlearmament-name = research-technology-basic-shuttle-armament
+technology-concentratedlaserweaponry-name = research-technology-concentrated-laser-weaponry
+technology-draconicmunitions-name = research-technology-draconic-munitions
+technology-dualwieldingtechnology-name = research-technology-dual-wielding-technology
+technology-explosivetechnology-name = research-technology-explosive-technology
+technology-kineticmodifications-name = research-technology-kinetic-modifications
+technology-nonlethalammunition-name = research-technology-nonlethal-ammunition
+technology-portablemicrofusionweaponry-name = research-technology-portable-microfusion-weaponry
+technology-salvageweapons-name = research-technology-salvage-weapons
+technology-specialmeans-name = research-technology-special-means
+technology-thermalweaponry-name = research-technology-thermal-weaponry
+technology-uraniummunitions-name = research-technology-uranium-munitions
+technology-waveparticleharnessing-name = research-technology-wave-particle-harnessing
+technology-weaponizedlasermanipulation-name = research-technology-weaponized-laser-manipulation

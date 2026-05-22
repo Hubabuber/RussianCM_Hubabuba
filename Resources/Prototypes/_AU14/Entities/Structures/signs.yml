@@ -1,9 +1,9 @@
-﻿- type: entity
+- type: entity
   parent: CMBaseStructureCorrodible
   abstract: true
   id: AU14LandingSignBase
-  name: sign
-  description: A sign.
+  name: ent-AU14LandingSignBase
+  description: ent-AU14LandingSignBase-desc
   components:
   - type: Transform
     anchored: false
@@ -19,8 +19,8 @@
 - type: entity
   parent: AU14LandingSignBase
   id: AU14LandingSignStableSpacePort
-  name: Albacetire spaceport sign
-  description: A large sign reading 'Albacetire Spaceport'.
+  name: ent-AU14LandingSignStableSpacePort
+  description: ent-AU14LandingSignStableSpacePort-desc
   components:
   - type: Sprite
     state: stable_spaceport
@@ -28,8 +28,8 @@
 - type: entity
   parent: AU14LandingSignBase
   id: AU14LandingSignStableColony
-  name: Albacetire colony sign
-  description: A large sign reading 'Welcome to Garrison One - Albacetire Outer Rim'.
+  name: ent-AU14LandingSignStableColony
+  description: ent-AU14LandingSignStableColony-desc
   components:
   - type: Sprite
     state: stable_welcome
@@ -38,8 +38,8 @@
   parent: CMBaseStructureCorrodible
   abstract: true
   id: AU14LandingSignBaseMilitary
-  name: sign
-  description: A sign.
+  name: ent-AU14LandingSignBaseMilitary
+  description: ent-AU14LandingSignBaseMilitary-desc
   components:
   - type: Transform
     anchored: false
@@ -54,8 +54,8 @@
 - type: entity
   parent: AU14LandingSignBaseMilitary
   id: AU14LandingSignStableMilitary
-  name: joint base schaefer sign
-  description: A large sign reading 'Joint Base Schaefer'.
+  name: ent-AU14LandingSignStableMilitary
+  description: ent-AU14LandingSignStableMilitary-desc
   components:
   - type: Sprite
     state: schaefer_clean
@@ -63,8 +63,8 @@
 - type: entity
   parent: AU14LandingSignBaseMilitary
   id: AU14LandingSignStableMilitaryDirty
-  name: joint base schaefer sign
-  description: A large sign reading 'Joint Base Schaefer'.
+  name: ent-AU14LandingSignStableMilitaryDirty
+  description: ent-AU14LandingSignStableMilitaryDirty-desc
   components:
   - type: Sprite
     state: schaefer_dirty

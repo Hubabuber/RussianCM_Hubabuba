@@ -2,8 +2,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMLockerBase
-  name: secure locker
-  description: It's an immobile card-locked storage unit.
+  name: ent-CMLockerBase
+  description: ent-CMLockerBase-desc
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCommander
-  name: commanding officer's locker
+  name: ent-CMLockerCommander
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/commander.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCommanderSecure
-  name: commanding officer's secure box
-  description: A safe for the Commanding Officer to store any equipment they need to have ready at a moment's notice. There's a note inside saying that whatever was inside it before was moved out.
+  name: ent-CMLockerCommanderSecure
+  description: ent-CMLockerCommanderSecure-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/safe.rsi
@@ -71,9 +71,9 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerSecureSafe
-  name: secure safe
-  description: A safe for an important person to store any valuables or equipment they need. The hinges have begun to rust.
-  suffix: All Access
+  name: ent-RMCLockerSecureSafe
+  description: ent-RMCLockerSecureSafe-desc
+  suffix: ent-RMCLockerSecureSafe-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/safe.rsi
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCLockerSecureSafe
   id: RMCLockerSecureSafeColony
-  suffix: Colony Command
+  suffix: ent-RMCLockerSecureSafeColony-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/safe.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: RMCLockerSecureSafe
   id: RMCLockerSecureSafeLiaison
-  description: A huge chunk of metal with a dial embedded in it. Fine print on the dial reads "Scarborough Arms - 2 tumbler safe, guaranteed thermite resistant, and explosion resistant."
-  suffix: Corporate Liaison
+  description: ent-RMCLockerSecureSafeLiaison-desc
+  suffix: ent-RMCLockerSecureSafeLiaison-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/safe.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerStaff
-  name: staff officer's locker
+  name: ent-CMLockerStaff
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/staff.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerPilot
-  name: pilot's locker
+  name: ent-CMLockerPilot
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/pilot.rsi
@@ -122,7 +122,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerPolice
-  name: military police's locker
+  name: ent-CMLockerPolice
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/police.rsi
@@ -132,13 +132,13 @@
 - type: entity
   parent: CMLockerPolice
   id: RMCLockerPoliceSoro
-  name: security officer's locker
+  name: ent-RMCLockerPoliceSoro
 
 - type: entity
   parent: CMLockerBase
   id: RMCLockerGunBase
-  name: gun cabinet
-  description: It's an immobile card-locked storage unit.
+  name: ent-RMCLockerGunBase
+  description: ent-RMCLockerGunBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/gun_cabinet.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGunStorageBrig
-  name: Storage Cabinet
-  description: It's an immobile card-locked storage unit.
+  name: ent-RMCLockerGunStorageBrig
+  description: ent-RMCLockerGunStorageBrig-desc
   components:
   - type: AccessReader
     access: [["CMAccessBrig"]]
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGunStorageCommand
-  name: Storage Cabinet
-  description: It's an immobile card-locked storage unit.
+  name: ent-RMCLockerGunStorageCommand
+  description: ent-RMCLockerGunStorageCommand-desc
   components:
   - type: AccessReader
     access: [["RMCAccessCommand"]]
@@ -171,9 +171,9 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGun
-  name: gun cabinet
-  description: It's an immobile card-locked storage unit.
-  suffix: Colony
+  name: ent-RMCLockerGun
+  description: ent-RMCLockerGun-desc
+  suffix: ent-RMCLockerGun-suffix
   components:
   - type: AccessReader
     access: [["CMAccessColonyArmory"]]
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGunBlue
-  name: riot control equipment Cabinet
+  name: ent-RMCLockerGunBlue
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/armory_locker.rsi
@@ -193,7 +193,7 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGunRed
-  name: red alert gun cabinet
+  name: ent-RMCLockerGunRed
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/armory_locker.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCMP
-  name: chief MP's locker
+  name: ent-CMLockerCMP
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cmp.rsi
@@ -214,7 +214,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerWarden
-  name: warden's locker
+  name: ent-CMLockerWarden
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/warden.rsi
@@ -224,7 +224,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerMedical
-  name: medical doctor's locker
+  name: ent-CMLockerMedical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/medical.rsi
@@ -234,7 +234,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerMedicalWhite
-  name: medical locker
+  name: ent-CMLockerMedicalWhite
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/medical_white.rsi
@@ -244,7 +244,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerHydroResearch
-  name: hydroponics research locker
+  name: ent-CMLockerHydroResearch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/medical_white.rsi
@@ -254,7 +254,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerHydro
-  name: botanist's locker
+  name: ent-RMCLockerHydro
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/hydro.rsi
@@ -264,7 +264,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerQM
-  name: Logistics Officer's locker
+  name: ent-CMLockerQM
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/qm.rsi
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCargo
-  name: requisitions technician's locker
+  name: ent-CMLockerCargo
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cargo.rsi
@@ -287,7 +287,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerSEA
-  name: SEA's locker
+  name: ent-CMLockerSEA
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/commander.rsi
@@ -297,7 +297,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerResearcher
-  name: researcher's locker
+  name: ent-CMLockerResearcher
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/researcher.rsi
@@ -307,7 +307,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCMO
-  name: chief medical officer's locker
+  name: ent-CMLockerCMO
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cmo.rsi
@@ -318,7 +318,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCE
-  name: chief engineer's locker
+  name: ent-CMLockerCE
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/ce.rsi
@@ -328,7 +328,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerEngineer
-  name: engineer's locker
+  name: ent-CMLockerEngineer
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/engineer.rsi
@@ -338,7 +338,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerEngineerElectrical
-  name: electrical supplies
+  name: ent-CMLockerEngineerElectrical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/engineer_electric.rsi
@@ -348,7 +348,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerEngineerWelder
-  name: welding supplies
+  name: ent-CMLockerEngineerWelder
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/engineer_welder.rsi
@@ -358,7 +358,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerEngineerGeneric
-  name: workshop materials
+  name: ent-RMCLockerEngineerGeneric
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/engineer_generic.rsi
@@ -369,7 +369,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerAlpha
-  name: alpha squad locker
+  name: ent-CMLockerAlpha
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/alpha.rsi
@@ -379,7 +379,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerBravo
-  name: bravo squad locker
+  name: ent-CMLockerBravo
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/bravo.rsi
@@ -389,7 +389,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCharlie
-  name: charlie squad locker
+  name: ent-CMLockerCharlie
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/charlie.rsi
@@ -399,7 +399,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerDelta
-  name: delta squad locker
+  name: ent-CMLockerDelta
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/delta.rsi
@@ -411,7 +411,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerResearchDirector
-  name: research director's locker
+  name: ent-RMCLockerResearchDirector
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/rd.rsi
@@ -421,7 +421,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCCabinet
-  name: cabinet
+  name: ent-RMCCabinet
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cabinet.rsi
@@ -429,7 +429,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerDetective
-  name: detective's cabinet
+  name: ent-RMCLockerDetective
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/detective.rsi
@@ -439,7 +439,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerSquadLeader
-  name: section sergeant locker
+  name: ent-RMCLockerSquadLeader
   components:
   - type: AccessReader
     access: [["CMAccessSquadLeaderPrep"]]
@@ -451,7 +451,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerSmartGunOperatorOne
-  name: squad one smartgun operator locker
+  name: ent-RMCLockerSmartGunOperatorOne
   components:
   - type: AccessReader
     access: [["CMAccessSmartPrep"]]
@@ -463,22 +463,22 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorTwo
-  name: squad two smartgun operator locker
+  name: ent-RMCLockerSmartGunOperatorTwo
 
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorThree
-  name: squad three smartgun operator locker
+  name: ent-RMCLockerSmartGunOperatorThree
 
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorFour
-  name: squad four smartgun operator locker
+  name: ent-RMCLockerSmartGunOperatorFour
 
 - type: entity
   parent: RMCLockerSquadLeader
   id: RMCLockerSquadLeaderPMC
-  name: force lead locker
+  name: ent-RMCLockerSquadLeaderPMC
   components:
   - type: EntityTableContainerFill
     containers:
@@ -488,7 +488,7 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorPMCOne
-  name: squad one support gunner locker
+  name: ent-RMCLockerSmartGunOperatorPMCOne
   components:
   - type: EntityTableContainerFill
     containers:
@@ -498,12 +498,12 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorPMCOne
   id: RMCLockerSmartGunOperatorPMCTwo
-  name: squad two support gunner locker
+  name: ent-RMCLockerSmartGunOperatorPMCTwo
 
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerHeavyGunnerCLF
-  name: heavy gunner locker
+  name: ent-RMCLockerHeavyGunnerCLF
   components:
   - type: EntityTableContainerFill
     containers:
@@ -513,7 +513,7 @@
 - type: entity
   parent: RMCCabinet
   id: RMCCabinetTSEPAInspector
-  name: inspector's cabinet
+  name: ent-RMCCabinetTSEPAInspector
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPAInspector"]]
@@ -521,7 +521,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerTSEPASeniorConstable
-  name: senior constable's locker
+  name: ent-RMCLockerTSEPASeniorConstable
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPABrig"]]
@@ -533,7 +533,7 @@
 - type: entity
   parent: CMLockerPolice
   id: RMCLockerTSEPA
-  name: constable's locker
+  name: ent-RMCLockerTSEPA
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPA"]]
@@ -546,7 +546,7 @@
 - type: entity
   parent: RMCLockerSquadLeader
   id: RMCLockerSquadLeaderSPP
-  name: section lead locker
+  name: ent-RMCLockerSquadLeaderSPP
   components:
   - type: EntityTableContainerFill
     containers:
@@ -556,7 +556,7 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorSPPOne
-  name: squad one heavy gunner locker
+  name: ent-RMCLockerSmartGunOperatorSPPOne
   components:
   - type: EntityTableContainerFill
     containers:
@@ -566,4 +566,4 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorSPPOne
   id: RMCLockerSmartGunOperatorSPPTwo
-  name: squad two heavy gunner locker
+  name: ent-RMCLockerSmartGunOperatorSPPTwo

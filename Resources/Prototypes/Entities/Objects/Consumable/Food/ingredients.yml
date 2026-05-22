@@ -85,8 +85,8 @@
 - type: entity
   parent: [ReagentPacketBase, ItemHeftyBase]
   id: ReagentContainerFlour
-  name: flour bag
-  description: A big bag of flour. Good for baking!
+  name: ent-ReagentContainerFlour
+  description: ent-ReagentContainerFlour-desc
   components:
   - type: Sprite
     state: flour-big
@@ -101,8 +101,8 @@
 - type: entity
   parent: [ReagentPacketBase, ItemHeftyBase]
   id: ReagentContainerFlourSmall
-  name: flour pack
-  description: A pack of flour. Good for baking!
+  name: ent-ReagentContainerFlourSmall
+  description: ent-ReagentContainerFlourSmall-desc
   components:
   - type: Sprite
     state: flour-small
@@ -117,8 +117,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerCornmeal
-  name: cornmeal bag
-  description: A big bag of cornmeal. Good for cooking!
+  name: ent-ReagentContainerCornmeal
+  description: ent-ReagentContainerCornmeal-desc
   components:
   - type: Sprite
     state: cornmeal-big
@@ -132,8 +132,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerCornmealSmall
-  name: cornmeal pack
-  description: A pack of cornmeal. Good for cooking!
+  name: ent-ReagentContainerCornmealSmall
+  description: ent-ReagentContainerCornmealSmall-desc
   components:
   - type: Sprite
     state: cornmeal
@@ -148,8 +148,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerRice
-  name: rice bag
-  description: A big bag of rice. Good for cooking!
+  name: ent-ReagentContainerRice
+  description: ent-ReagentContainerRice-desc
   components:
   - type: Sprite
     state: rice-big
@@ -163,8 +163,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerRiceSmall
-  name: rice pack
-  description: A pack of rice. Good for cooking!
+  name: ent-ReagentContainerRiceSmall
+  description: ent-ReagentContainerRiceSmall-desc
   components:
   - type: Sprite
     state: rice-small
@@ -179,8 +179,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerSugar
-  name: sugar bag
-  description: A big bag of tasty spacey sugar.
+  name: ent-ReagentContainerSugar
+  description: ent-ReagentContainerSugar-desc
   components:
   - type: Sprite
     state: sugar-big
@@ -194,8 +194,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerSugarSmall
-  name: sugar pack
-  description: A pack of tasty spacey sugar.
+  name: ent-ReagentContainerSugarSmall
+  description: ent-ReagentContainerSugarSmall-desc
   components:
   - type: Sprite
     state: sugar-small
@@ -212,8 +212,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerOliveoil
-  name: olive oil
-  description: Olive oil. From space olives presumably.
+  name: ent-ReagentContainerOliveoil
+  description: ent-ReagentContainerOliveoil-desc
   components:
   - type: Sprite
     state: oliveoil
@@ -228,8 +228,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerMayo
-  name: mayonnaise
-  description: Bottle of mayonnaise.
+  name: ent-ReagentContainerMayo
+  description: ent-ReagentContainerMayo-desc
   components:
   - type: Sprite
     state: mayo
@@ -265,7 +265,7 @@
   abstract: true
   parent: FoodBase
   id: FoodBakingBase
-  description: Used in various recipes.
+  description: ent-FoodBakingBase-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi
@@ -281,10 +281,10 @@
       - Ingredient
 
 - type: entity
-  name: dough
+  name: ent-FoodDough
   parent: FoodBakingBase
   id: FoodDough
-  description: A piece of dough.
+  description: ent-FoodDough-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -299,10 +299,10 @@
     node: start
 
 - type: entity
-  name: dough slice
+  name: ent-FoodDoughSlice
   parent: FoodBakingBase
   id: FoodDoughSlice
-  description: A slice of dough. Can be cooked into a bun.
+  description: ent-FoodDoughSlice-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -324,10 +324,10 @@
           Quantity: 5
 
 - type: entity
-  name: dough rope
+  name: ent-FoodDoughRope
   parent: FoodBakingBase
   id: FoodDoughRope
-  description: A thin noodle of dough. Can be cooked into a bagel.
+  description: ent-FoodDoughRope-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -346,10 +346,10 @@
           Quantity: 5
 
 - type: entity
-  name: cornmeal dough
+  name: ent-FoodDoughCornmeal
   parent: FoodBakingBase
   id: FoodDoughCornmeal
-  description: A piece of cornmeal dough.
+  description: ent-FoodDoughCornmeal-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -362,10 +362,10 @@
     slice: FoodDoughCornmealSlice
 
 - type: entity
-  name: cornmeal dough slice
+  name: ent-FoodDoughCornmealSlice
   parent: FoodBakingBase
   id: FoodDoughCornmealSlice
-  description: A slice of cornmeal dough.
+  description: ent-FoodDoughCornmealSlice-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -378,10 +378,10 @@
     - Slice
 
 - type: entity
-  name: tortilla dough
+  name: ent-FoodDoughTortilla
   parent: FoodBakingBase
   id: FoodDoughTortilla
-  description: A piece of tortilla dough.
+  description: ent-FoodDoughTortilla-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -394,10 +394,10 @@
     slice: FoodDoughTortillaSlice
 
 - type: entity
-  name: tortilla dough slice
+  name: ent-FoodDoughTortillaSlice
   parent: FoodBakingBase
   id: FoodDoughTortillaSlice
-  description: A slice of tortilla dough.
+  description: ent-FoodDoughTortillaSlice-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -413,10 +413,10 @@
     - Slice
 
 - type: entity
-  name: flattened tortilla dough
+  name: ent-FoodDoughTortillaFlat
   parent: FoodBakingBase
   id: FoodDoughTortillaFlat
-  description: A flattened slice of tortilla dough, cook this to get a taco shell.
+  description: ent-FoodDoughTortillaFlat-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -429,10 +429,10 @@
     node: flat
 
 - type: entity
-  name: cotton dough
+  name: ent-FoodDoughCotton
   parent: FoodBakingBase
   id: FoodDoughCotton
-  description: A piece of fabric dough.
+  description: ent-FoodDoughCotton-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -461,10 +461,10 @@
           Quantity: 10
 
 - type: entity
-  name: cotton dough slice
+  name: ent-FoodDoughCottonSlice
   parent: FoodBakingBase
   id: FoodDoughCottonSlice
-  description: A slice of cotton dough.
+  description: ent-FoodDoughCottonSlice-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -490,10 +490,10 @@
           Quantity: 3.5
 
 - type: entity
-  name: cotton dough rope
+  name: ent-FoodDoughCottonRope
   parent: FoodBakingBase
   id: FoodDoughCottonRope
-  description: A thin noodle of cotton dough. Can be cooked into a cotton bagel.
+  description: ent-FoodDoughCottonRope-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -519,37 +519,37 @@
      - Ingredient
 
 - type: entity
-  name: raw pastry base
+  name: ent-FoodDoughPastryBaseRaw
   parent: FoodBakingBase
   id: FoodDoughPastryBaseRaw
-  description: Must be cooked before use.
+  description: ent-FoodDoughPastryBaseRaw-desc
   components:
   - type: Sprite
     state: dough-pastry
 
 - type: entity
-  name: pastry base
+  name: ent-FoodDoughPastryBase
   parent: FoodBakingBase
   id: FoodDoughPastryBase
-  description: A base for any self-respecting pastry.
+  description: ent-FoodDoughPastryBase-desc
   components:
   - type: Sprite
     state: dough-pastry-baked
 
 - type: entity
-  name: pie dough
+  name: ent-FoodDoughPie
   parent: FoodBakingBase
   id: FoodDoughPie
-  description: Cook it to get a pie.
+  description: ent-FoodDoughPie-desc
   components:
   - type: Sprite
     state: dough-pie
 
 - type: entity
-  name: flat dough
+  name: ent-FoodDoughFlat
   parent: FoodBakingBase
   id: FoodDoughFlat
-  description: A flattened dough.
+  description: ent-FoodDoughFlat-desc
   components:
   - type: Sprite
     state: dough-flat
@@ -561,10 +561,10 @@
     slice: FoodCroissantRaw
 
 - type: entity
-  name: flat cotton dough
+  name: ent-FoodDoughCottonFlat
   parent: FoodBakingBase
   id: FoodDoughCottonFlat
-  description: A flattened cotton dough.
+  description: ent-FoodDoughCottonFlat-desc
   components:
   - type: Sprite
     state: cotton-dough-flat
@@ -576,19 +576,19 @@
     slice: FoodCroissantRawCotton
 
 - type: entity
-  name: pizza bread
+  name: ent-FoodDoughPizzaBaked
   parent: FoodBakingBase
   id: FoodDoughPizzaBaked
-  description: Add ingredients to make a pizza.
+  description: ent-FoodDoughPizzaBaked-desc
   components:
   - type: Sprite
     state: pizzabread
 
 - type: entity
-  name: cake batter
+  name: ent-FoodCakeBatter
   parent: FoodBakingBase
   id: FoodCakeBatter
-  description: Cook it to get a cake.
+  description: ent-FoodCakeBatter-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -597,10 +597,10 @@
     state: cakebatter
 
 - type: entity
-  name: stick of butter
+  name: ent-FoodButter
   parent: FoodBakingBase
   id: FoodButter
-  description: A stick of delicious, golden, fatty goodness.
+  description: ent-FoodButter-desc
   components:
   - type: Sprite
     state: butter
@@ -639,10 +639,10 @@
     slice: FoodButterSlice
 
 - type: entity
-  name: butter slice
+  name: ent-FoodButterSlice
   parent: FoodBakingBase
   id: FoodButterSlice
-  description: A pat of delicious, golden, fatty goodness.
+  description: ent-FoodButterSlice-desc
   components:
   - type: Sprite
     state: butter-slice
@@ -658,10 +658,10 @@
     - Slice
 
 - type: entity
-  name: stick of cannabis butter
+  name: ent-FoodCannabisButter
   parent: FoodButter
   id: FoodCannabisButter
-  description: Add this to your favorite baked goods for an irie time.
+  description: ent-FoodCannabisButter-desc
   components:
   - type: Sprite
     state: butter
@@ -679,10 +679,10 @@
     grindableSolutionName: food
 
 - type: entity
-  name: cheese wheel
+  name: ent-FoodCheese
   parent: FoodBakingBase
   id: FoodCheese
-  description: A big wheel of delicious Cheddar.
+  description: ent-FoodCheese-desc
   components:
   - type: Item
     size: Normal
@@ -696,10 +696,10 @@
     slice: FoodCheeseSlice
 
 - type: entity
-  name: cheese wedge
+  name: ent-FoodCheeseSlice
   parent: FoodBakingBase
   id: FoodCheeseSlice
-  description: A wedge of delicious Cheddar. The cheese wheel it was cut from can't have gone far.
+  description: ent-FoodCheeseSlice-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -728,10 +728,10 @@
       - state: cheesewedge-inhand-right
 
 - type: entity
-  name: chèvre log
+  name: ent-FoodChevre
   parent: FoodBakingBase
   id: FoodChevre
-  description: A soft log of creamy Chèvre.
+  description: ent-FoodChevre-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -753,10 +753,10 @@
           Quantity: 0.6
 
 - type: entity
-  name: chèvre disk
+  name: ent-FoodChevreSlice
   parent: FoodBakingBase
   id: FoodChevreSlice
-  description: A small disk of creamy Chèvre. An ideal adornment for French side dishes.
+  description: ent-FoodChevreSlice-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -778,10 +778,10 @@
     - Slice
 
 - type: entity
-  name: tofu
+  name: ent-FoodTofu
   parent: FoodBakingBase
   id: FoodTofu
-  description: Solid white block with a subtle flavor.
+  description: ent-FoodTofu-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -802,10 +802,10 @@
     slice: FoodTofuSlice
 
 - type: entity
-  name: tofu slice
+  name: ent-FoodTofuSlice
   parent: FoodBakingBase
   id: FoodTofuSlice
-  description: A slice of tofu. Ingredient of various vegetarian dishes.
+  description: ent-FoodTofuSlice-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -826,10 +826,10 @@
     - Slice
 
 - type: entity
-  name: burned mess
+  name: ent-FoodBadRecipe
   parent: FoodBakingBase
   id: FoodBadRecipe
-  description: Someone should be demoted from cook for this.
+  description: ent-FoodBadRecipe-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -850,10 +850,10 @@
     - Trash
 
 - type: entity
-  name: cocoa beans
+  name: ent-FoodCocoaBeans
   parent: FoodProduceBase
   id: FoodCocoaBeans
-  description: You can never have too much chocolate!
+  description: ent-FoodCocoaBeans-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -882,10 +882,10 @@
       - Ingredient
 
 - type: entity
-  name: raw croissant
+  name: ent-FoodCroissantRaw
   parent: FoodBakingBase
   id: FoodCroissantRaw
-  description: Buttery, flaky goodness waiting to happen.
+  description: ent-FoodCroissantRaw-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -901,10 +901,10 @@
           Quantity: 3
 
 - type: entity
-  name: raw cotton croissant
+  name: ent-FoodCroissantRawCotton
   parent: FoodCroissantRaw
   id: FoodCroissantRawCotton
-  description: Buttery, flaky, fibery goodness waiting to happen.
+  description: ent-FoodCroissantRawCotton-desc
   components:
   - type: FlavorProfile
     flavors:

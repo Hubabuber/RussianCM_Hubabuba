@@ -3,3 +3,6 @@ ent-RMCSpawnPointSurvivorChancesTerraformingSpecialist = точка спавна
 
 ent-RMCRandomHumanoidSurvivorChancesTerraformingSpecialist = Роль призрака специалиста по терраформированию
 
+job-cmsurvivorchancesterraformingspecialist-desc = cm-описание-работы-выживший
+job-cmsurvivorchancesterraformingspecialist-name = RMC-имя-должности-колонист-специалист по терраформированию
+job-cmsurvivorchancesterraformingspecialist-spawnmenurolename = Специалист по терраформированию (Колонист Шанса)

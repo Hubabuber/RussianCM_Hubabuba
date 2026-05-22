@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: RMCSPPMedic
   name: rmc-job-name-spp-medic
@@ -12,7 +12,7 @@
   accessGroups:
   - Colonist
   - HospitalCorpsman
-  spawnMenuRoleName: SPP Medic
+  spawnMenuRoleName: job-rmcsppmedic-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -34,8 +34,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPMedicHostile
-  name: spp ghost role medic
-  suffix: Spawner, Player, Hostile
+  name: ent-RMCRandomHumanoidSPPMedicHostile
+  suffix: ent-RMCRandomHumanoidSPPMedicHostile-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -45,8 +45,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPMedicFriendly
-  name: spp ghost role medic
-  suffix: Spawner, Player, Friendly
+  name: ent-RMCRandomHumanoidSPPMedicFriendly
+  suffix: ent-RMCRandomHumanoidSPPMedicFriendly-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

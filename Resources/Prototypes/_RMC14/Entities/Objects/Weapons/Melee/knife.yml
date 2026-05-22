@@ -73,8 +73,8 @@
 - type: entity
   parent: RMCM5Bayonet
   id: RMCCombatUtilityKnifeA
-  name: "'Druzhina' combat utility knife"
-  description: A heavy combat knife, designed for SPP special forces. Its heft and durability makes it popular for various uses in the field.
+  name: "ent-RMCCombatUtilityKnifeA"
+  description: ent-RMCCombatUtilityKnifeA-desc
   components:
   - type: Clothing
     slots:
@@ -95,8 +95,8 @@
 - type: entity
   parent: RMCM5Bayonet
   id: RMCCombatUtilityKnifeB
-  name: "'Druzhina' combat utility knife"
-  description: A heavy combat knife, designed for SPP special forces. Its heft and durability makes it popular for various uses in the field.
+  name: "ent-RMCCombatUtilityKnifeB"
+  description: ent-RMCCombatUtilityKnifeB-desc
   components:
   - type: Clothing
     slots:
@@ -203,10 +203,10 @@
     prefix: daggerb
 
 - type: entity
-  name: M11 throwing knife
+  name: ent-CMM11Knife
   parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: CMM11Knife
-  description: A military knife designed to be thrown at the enemy.
+  description: ent-CMM11Knife-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/m11_knife.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: CMM2132Machete
-  name: M2132 machete
-  description: Latest issue of the Marine Machete.
+  name: ent-CMM2132Machete
+  description: ent-CMM2132Machete-desc
   components:
   - type: Clothing
     slots:
@@ -289,8 +289,8 @@
 - type: entity
   parent: CMM2132Machete
   id: RMCCeremonialSword
-  name: ceremonial sabre
-  description: A fancy ceremonial sabre passed down from generation to generation. Despite this, it has been very well cared for, and is in top condition.
+  name: ent-RMCCeremonialSword
+  description: ent-RMCCeremonialSword-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/co_sabre.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: CMM2132Machete
   id: RMCM2100Machete
-  name: M2100 "Ngájhe" machete
-  description: An older issue UNMC machete, never left testing. Designed in the Central African Republic. The notching made it hard to clean, and as such the UNMC refused to adopt it - despite the superior bludgeoning power offered.
+  name: ent-RMCM2100Machete
+  description: ent-RMCM2100Machete-desc
   components:
   - type: Tag
     tags:
@@ -327,8 +327,8 @@
 - type: entity
   parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: RMCStraightRazor
-  name: straight razor
-  description: The commandant's favorite weapon against marines who dare break the grooming standards.
+  name: ent-RMCStraightRazor
+  description: ent-RMCStraightRazor-desc
   components:
   - type: Tag
     tags:

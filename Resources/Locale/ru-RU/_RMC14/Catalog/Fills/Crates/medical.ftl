@@ -4,3 +4,7 @@ ent-RMCCrateMedicalFirstAid = ящик аптечек (x2 каждого)
 ent-RMCCrateMedicalStasisBag = ящик стазис-мешков (x3)
 ent-RMCCrateMedicalBodyBag = ящик мешков для тел (x28)
 ent-RMCCrateMedicalSurgery = ящик хирургического оборудования (лоток, анестетики, инструменты)
+
+ent-RMCCrateFieldDoctor = Ящик полевого врача (замена снаряжения полевого врача)
+    .desc = Хирургический ящик.
+    .suffix = Безопасный

@@ -1,9 +1,9 @@
 # TODO once tiles can be smoothed and carpets ported over to that, add them to the FloorTile outputs
 - type: entity
-  name: carpet
+  name: ent-FloorCarpetItemRed
   parent: FloorTileItemBase
   id: FloorCarpetItemRed
-  suffix: Red
+  suffix: ent-FloorCarpetItemRed-suffix
   components:
   - type: Sprite
     state: carpet-red
@@ -22,7 +22,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemBlack
-  suffix: Black
+  suffix: ent-FloorCarpetItemBlack-suffix
   components:
   - type: Sprite
     state: carpet-black
@@ -38,7 +38,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemBlue
-  suffix: Blue
+  suffix: ent-FloorCarpetItemBlue-suffix
   components:
   - type: Sprite
     state: carpet-blue
@@ -54,7 +54,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemGreen
-  suffix: Green
+  suffix: ent-FloorCarpetItemGreen-suffix
   components:
   - type: Sprite
     state: carpet-green
@@ -70,7 +70,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemOrange
-  suffix: Orange
+  suffix: ent-FloorCarpetItemOrange-suffix
   components:
   - type: Sprite
     state: carpet-orange
@@ -86,7 +86,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemSkyBlue
-  suffix: Sky Blue
+  suffix: ent-FloorCarpetItemSkyBlue-suffix
   components:
   - type: Sprite
     state: carpet-skyblue
@@ -102,7 +102,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemPurple
-  suffix: Purple
+  suffix: ent-FloorCarpetItemPurple-suffix
   components:
   - type: Sprite
     state: carpet-purple
@@ -118,7 +118,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemPink
-  suffix: Pink
+  suffix: ent-FloorCarpetItemPink-suffix
   components:
   - type: Sprite
     state: carpet-pink
@@ -134,7 +134,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemCyan
-  suffix: Cyan
+  suffix: ent-FloorCarpetItemCyan-suffix
   components:
   - type: Sprite
     state: carpet-cyan
@@ -150,7 +150,7 @@
 - type: entity
   parent: FloorCarpetItemRed
   id: FloorCarpetItemWhite
-  suffix: White
+  suffix: ent-FloorCarpetItemWhite-suffix
   components:
   - type: Sprite
     state: carpet-white

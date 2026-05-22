@@ -5,7 +5,7 @@
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
   startingGear: RMCGearSurvivorFireProtectionSpecialist
-  spawnMenuRoleName: Fire Protection Specialist (Sorokyne Survivor)
+  spawnMenuRoleName: job-cmjobsurvivorfireprotectionspecialist-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFireProtectionSpecialist
-  name: fire protection specialist spawn point
+  name: ent-RMCSpawnPointSurvivorFireProtectionSpecialist
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -60,7 +60,7 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetFireProtectionSpecialist
-  name: fire protection specialist preset
+  name: ent-RMCGearSurvivorPresetFireProtectionSpecialist
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

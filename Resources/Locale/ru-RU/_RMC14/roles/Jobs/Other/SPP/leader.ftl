@@ -2,3 +2,6 @@ ent-RMCRandomHumanoidSPPLeaderFriendly = лидер роли призрака sp
 
 ent-RMCRandomHumanoidSPPLeaderHostile = лидер роли призрака spp
 
+job-rmcsppleader-desc = RMC-описание-работы-spp-лидер
+job-rmcsppleader-name = rmc-имя-задания-spp-лидер
+job-rmcsppleader-spawnmenurolename = Руководитель отделения СПП

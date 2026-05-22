@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: M41A MK2 pulse rifle
+  name: ent-RMCWeaponRifleM54C
   id: RMCWeaponRifleM54C
-  description: The standard issue rifle of the UA. Commonly carried by most combat personnel. Uses 10x24mm caseless ammunition.
+  description: ent-RMCWeaponRifleM54C-desc
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/USCM/m41mk2.rsi
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCWeaponRifleM54C
   id: RMCWeaponRifleM54CStripped
-  suffix: Stripped, Filled
+  suffix: ent-RMCWeaponRifleM54CStripped-suffix
   components:
   - type: ItemSlots
     slots:
@@ -168,7 +168,7 @@
 - type: entity
   parent: RMCWeaponRifleM54C
   id: RMCWeaponRifleM54CSemiStripped
-  suffix: No UGL, Filled
+  suffix: ent-RMCWeaponRifleM54CSemiStripped-suffix
   components:
   - type: ItemSlots
     slots:
@@ -226,7 +226,7 @@
 - type: entity
   parent: RMCWeaponRifleM54C
   id: RMCWeaponRifleM54CFilled
-  suffix: Filled
+  suffix: ent-RMCWeaponRifleM54CFilled-suffix
   components:
   - type: ItemSlots
     slots:
@@ -247,8 +247,8 @@
 - type: entity
   parent: RMCWeaponRifleM54CSemiStripped
   id: RMCWeaponRifleM54CWhiteNoLock
-  description: A M41A Mk2 with a Weyland-Yutani logo imprinted on the reciever. Used primarily by Weyland-Yutani's corporate security forces, and comes equipped with a drab corproate white paint job.
-  suffix: Corporate, No UGL, No ID lock
+  description: ent-RMCWeaponRifleM54CWhiteNoLock-desc
+  suffix: ent-RMCWeaponRifleM54CWhiteNoLock-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c/snow.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: RMCWeaponRifleM54CWhite
   id: RMCWeaponRifleM54CWhiteCommando
-  description: A Weston-Yamada creation, this M54C MK2 comes equipped in corporate white. Uses 10x24mm caseless ammunition.
-  suffix: Commando
+  description: ent-RMCWeaponRifleM54CWhiteCommando-desc
+  suffix: ent-RMCWeaponRifleM54CWhiteCommando-suffix
   components:
   - type: ItemSlots
     slots:
@@ -363,14 +363,14 @@
 - type: entity
   parent: RMCWeaponRifleM54CWhiteNoLock
   id: RMCWeaponRifleM54CWhite
-  suffix: Has ID Lock
+  suffix: ent-RMCWeaponRifleM54CWhite-suffix
   components:
   - type: GunIDLock
 
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
-  name: "M41A MK2 magazine (10x24mm)"
+  name: "ent-CMMagazineRifleM54C"
   components:
   - type: Tag
     tags:
@@ -397,8 +397,8 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
-  name: "M41A MK2 AP magazine (10x24mm)"
-  suffix: AP
+  name: "ent-CMMagazineRifleM54CAP"
+  suffix: ent-CMMagazineRifleM54CAP-suffix
   components:
   - type: Tag
     tags:
@@ -426,8 +426,8 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CIncendiary
-  name: "M41A MK2 Incendiary magazine (10x24mm)"
-  suffix: Incendiary
+  name: "ent-RMCMagazineRifleM54CIncendiary"
+  suffix: ent-RMCMagazineRifleM54CIncendiary-suffix
   components:
   - type: Tag
     tags:
@@ -453,8 +453,8 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CHEAP
-  name: "M41A MK2 HEAP magazine (10x24mm)"
-  suffix: HEAP
+  name: "ent-RMCMagazineRifleM54CHEAP"
+  suffix: ent-RMCMagazineRifleM54CHEAP-suffix
   components:
   - type: Tag
     tags:
@@ -480,7 +480,7 @@
 - type: entity
   parent: RMCMagazineRifleM54CHEAP
   id: RMCMagazineRifleM54CHEAPEmpty
-  suffix: HEAP, Empty
+  suffix: ent-RMCMagazineRifleM54CHEAPEmpty-suffix
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -488,8 +488,8 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CWP
-  name: "M41A MK2 WP magazine (10x24mm)"
-  suffix: WP
+  name: "ent-RMCMagazineRifleM54CWP"
+  suffix: ent-RMCMagazineRifleM54CWP-suffix
   components:
   - type: Tag
     tags:
@@ -515,7 +515,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
-  name: "M41A MK2 extended magazine (10x24mm)"
+  name: "ent-CMMagazineRifleM54CExt"
   components:
   - type: Tag
     tags:
@@ -544,8 +544,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: CMCartridgeRifle10x24mm
-  name: cartridge (10x24mm)
-  description: A 10x24mm cartridge. Fits in 10x24mm magazines.
+  name: ent-CMCartridgeRifle10x24mm
+  description: ent-CMCartridgeRifle10x24mm-desc
   components:
   - type: Tag
     tags:
@@ -557,8 +557,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmAP
-  name: AP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm AP magazines.
+  name: ent-CMCartridgeRifle10x24mmAP
+  description: ent-CMCartridgeRifle10x24mmAP-desc
   components:
   - type: Tag
     tags:
@@ -570,8 +570,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmIncendiary
-  name: AP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm AP magazines.
+  name: ent-RMCCartridgeRifle10x24mmIncendiary
+  description: ent-RMCCartridgeRifle10x24mmIncendiary-desc
   components:
   - type: Tag
     tags:
@@ -583,8 +583,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmHEAP
-  name: HEAP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm HEAP magazines.
+  name: ent-RMCCartridgeRifle10x24mmHEAP
+  description: ent-RMCCartridgeRifle10x24mmHEAP-desc
   components:
   - type: Tag
     tags:
@@ -596,8 +596,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmWP
-  name: WP cartridge (10x24mm)
-  description: An armor piercing wall-penetrating 10x24mm cartridge. Fits in 10x24mm WP magazines.
+  name: ent-RMCCartridgeRifle10x24mmWP
+  description: ent-RMCCartridgeRifle10x24mmWP-desc
   components:
   - type: Tag
     tags:

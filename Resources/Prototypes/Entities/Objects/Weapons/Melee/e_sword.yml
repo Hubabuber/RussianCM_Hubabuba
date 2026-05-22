@@ -74,10 +74,10 @@
     temperature: 700
 
 - type: entity
-  name: energy sword
+  name: ent-EnergySword
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergySword
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
+  description: ent-EnergySword-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
@@ -94,10 +94,10 @@
     price: 2500
 
 - type: entity
-  name: energy dagger
+  name: ent-EnergyDaggerLoud
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergyDaggerLoud
-  description: A not as loud and dangerous dagger with a beam made of pure, concentrated plasma. This one is completely undisguised.
+  description: ent-EnergyDaggerLoud-desc
   components:
   - type: ItemToggle
     soundActivate:
@@ -158,11 +158,11 @@
     netsync: false
 
 - type: entity
-  name: pen
+  name: ent-EnergyDagger
   parent: BaseMeleeWeaponEnergy
   id: EnergyDagger
   suffix: E-Dagger
-  description: 'A dark ink pen.'
+  description: 'ent-EnergyDagger-desc'
   components:
   - type: ItemToggle
     soundActivate:
@@ -229,9 +229,9 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: EnergyDaggerBox
-  name: e-dagger box
+  name: ent-EnergyDaggerBox
   suffix: E-Dagger
-  description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
+  description: ent-EnergyDaggerBox-desc
   components:
   - type: Item
     size: Tiny
@@ -245,10 +245,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: energy cutlass
+  name: ent-EnergyCutlass
   parent: [BaseMeleeWeaponEnergy, BaseMajorContraband]
   id: EnergyCutlass
-  description: An exotic energy weapon.
+  description: ent-EnergyCutlass-desc
   components:
   - type: ItemToggleMeleeWeapon
     activatedDamage:
@@ -269,10 +269,10 @@
     sprite: Objects/Weapons/Melee/e_cutlass.rsi
 
 - type: entity
-  name: double-bladed energy sword
+  name: ent-EnergySwordDouble
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergySwordDouble
-  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
+  description: ent-EnergySwordDouble-desc
   components:
   - type: ItemToggle
     onUse: false # wielding events control it instead
@@ -338,7 +338,7 @@
   parent: EnergySwordDouble
   id: HyperEutacticBlade
   name: hypereutactic-blade
-  description: A supermassive weapon envisioned to cleave the very fabric of space and time itself in twain, the hypereutactic blade dynamically flash-forges a hypereutactic crystaline nanostructure capable of passing through most known forms of matter like a hot knife through butter.
+  description: ent-HyperEutacticBlade-desc
   components:
   - type: MeleeWeapon
     wideAnimationRotation: 180
@@ -399,7 +399,7 @@
 - type: entity
   parent: [ EnergyDaggerLoud, BaseXenoborgContraband ]
   id: EnergyDaggerLoudBlue
-  suffix: blue
+  suffix: ent-EnergyDaggerLoudBlue-suffix
   components:
   - type: EnergySword
     colorOptions:

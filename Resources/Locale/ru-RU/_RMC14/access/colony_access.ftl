@@ -1,0 +1,12 @@
+accesslevel-au14accessshopkeep-name = au14-доступ-магазин
+accesslevel-auaccessprison-name = au-доступ-тюрьма
+accesslevel-cmaccesscolonyarmory-name = RMC-доступ-колония-арсенал
+accesslevel-cmaccesscolonybrig-name = см-доступ-колония-бриг
+accesslevel-cmaccesscolonycommand-name = cm-доступ-колония-команда
+accesslevel-cmaccesscolonyengineering-name = cm-access-colony-engineering
+accesslevel-cmaccesscolonylogistics-name = см-доступ-колония-логистика
+accesslevel-cmaccesscolonymedbay-name = cm-access-colony-medbay
+accesslevel-cmaccesscolonyresearch-name = cm-access-colony-research
+accesslevel-rmcaccesstsepa-name = RMC-доступ-цепа
+accesslevel-rmcaccesstsepabrig-name = rmc-access-tsepa-brig
+accesslevel-rmcaccesstsepainspector-name = RMC-доступ-цепа-инспектор

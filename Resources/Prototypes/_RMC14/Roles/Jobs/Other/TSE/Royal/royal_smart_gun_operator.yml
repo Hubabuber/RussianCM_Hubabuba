@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: CMRoyalMarinesSGO
   name: rmc-job-name-rcm-sgo
@@ -10,7 +10,7 @@
   icon: RMCJobIconRoyalSmartGunOperator
   joinNotifyCrew: false
   supervisors: cm-job-supervisors-royal-tl
-  spawnMenuRoleName: RCM Smart Gun Operator
+  spawnMenuRoleName: job-cmroyalmarinessgo-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -45,8 +45,8 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesSGO
-  name: royal crown marines ghost role smart gun operator
-  suffix: Spawner, Player, Friendly
+  name: ent-RMCRandomHumanoidRoyalMarinesSGO
+  suffix: ent-RMCRandomHumanoidRoyalMarinesSGO-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/ballistic.rsi

@@ -5,3 +5,22 @@ ent-RMCWeaponPistolM13 = Автопистолет M13
   .desc = Автопистолет M13, компактный, скорострельный пистолет, предназначенный для защиты в ближнем бою. С магазином на 40 патронов он делает ставку на скорострельность, а не на точность, обеспечивая эффективный подавляющий огонь в ближнем бою.
 ent-RMCWeaponPistolM13Empty = автопистолет M13
   .desc = Автопистолет M13, компактный, скорострельный пистолет, предназначенный для защиты в ближнем бою. С магазином на 40 патронов он делает ставку на скорострельность, а не на точность, обеспечивая эффективный подавляющий огонь в ближнем бою.
+
+ent-RMCBulletAutoPistol = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-RMCBulletAutoPistolAP = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-RMCCartridgeAutoPistol = патрон (10х20мм-БТР)
+
+ent-RMCCartridgeAutoPistolAP = бронебойный патрон (10х20мм-БТР)
+
+ent-RMCMagazinePistolM13AP = Магазин M13 AP (10x20 мм-APC)
+    .desc = Пистолетный магазин.
+
+ent-RMCMagazinePistolM13DrumAP = Барабанный магазин M13 AP (10x20 мм-APC)
+    .desc = Пистолетный магазин.
+
+ent-RMCMagazinePistolM13ExtAP = Удлиненный магазин M13 AP (10x20 мм-APC)
+    .desc = Пистолетный магазин.

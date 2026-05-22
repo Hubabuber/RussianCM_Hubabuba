@@ -10,10 +10,10 @@
     size: Small
 
 - type: entity
-  name: match stick
+  name: ent-Matchstick
   parent: BaseItem
   id: Matchstick
-  description: A simple match stick, used for lighting fine smokables.
+  description: ent-Matchstick-desc
   components:
   - type: Tag
     tags:
@@ -51,7 +51,7 @@
 - type: entity
   parent: Matchstick
   id: MatchstickSpent
-  suffix: spent
+  suffix: ent-MatchstickSpent-suffix
   components:
   - type: Sprite
     layers:
@@ -60,10 +60,10 @@
     state: Burnt
 
 - type: entity
-  name: match box
+  name: ent-Matchbox
   parent: [ SmallboxItem, BaseBagOpenClose ]
   id: Matchbox
-  description: A small box of Almost But Not Quite Plasma Premium Matches.
+  description: ent-Matchbox-desc
   components:
   - type: EmitSoundOnDrop
     sound:
@@ -119,8 +119,8 @@
 - type: entity
   parent: [Matchbox, BaseSyndicateContraband]
   id: GorlexMatchbox
-  name: Gorlex match box
-  description: "A pneumatic match box styled after the Gorlex Marauders' equipment. Contains 24 matches."
+  name: ent-GorlexMatchbox
+  description: "ent-GorlexMatchbox-desc"
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/gorlex.rsi
@@ -136,10 +136,10 @@
   - type: Matchbox
 
 - type: entity
-  name: match stick
+  name: ent-GorlexMatchstick
   parent: [Matchstick, BaseSyndicateContraband]
   id: GorlexMatchstick
-  description: A military grade match stick, used for lighting fine smokables and noncombatants alike.
+  description: ent-GorlexMatchstick-desc
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/gorlexmatch.rsi

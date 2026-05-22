@@ -1,6 +1,6 @@
 - type: entity
   id: RMCSimpleMob
-  name: abstract simple mob
+  name: ent-RMCSimpleMob
   abstract: true
   components:
   - type: ShortExamine
@@ -33,7 +33,7 @@
 
 - type: entity
   id: RMCSmallHost
-  name: abstract small host
+  name: ent-RMCSmallHost
   abstract: true
   components:
   - type: Infectable
@@ -53,8 +53,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobMonkey, RMCSmallHost]
   id: CMMobMonkey
-  name: monkey
-  suffix: CM
+  name: ent-CMMobMonkey
+  suffix: ent-CMMobMonkey-suffix
   components:
   - type: GhostRole
     prob: 0
@@ -62,8 +62,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobKobold, RMCSmallHost]
   id: CMMobKobold
-  name: kobold
-  suffix: CM
+  name: ent-CMMobKobold
+  suffix: ent-CMMobKobold-suffix
   components:
   - type: GhostRole
     prob: 0
@@ -71,7 +71,7 @@
 - type: entity
   parent: [RMCSimpleMob, MobMouse]
   id: CMMobMouse
-  suffix: CM
+  suffix: ent-CMMobMouse-suffix
   components:
   - type: GhostRole
     prob: 0
@@ -86,7 +86,7 @@
 - type: entity
   parent: [RMCSimpleMob, MobMouse1]
   id: CMMobMouse1
-  suffix: CM
+  suffix: ent-CMMobMouse1-suffix
   components:
   - type: GhostRole
     prob: 0
@@ -100,7 +100,7 @@
 - type: entity
   parent: [RMCSimpleMob, MobMouse2]
   id: CMMobMouse2
-  suffix: CM
+  suffix: ent-CMMobMouse2-suffix
   components:
   - type: GhostRole
     prob: 0
@@ -114,15 +114,15 @@
 - type: entity
   parent: CMMobMouse
   id: RMCMobMouseDoc
-  name: Doc
-  description: "Senior mouse researcher of the Almayer. Likes: cheese, experiments, explosions."
+  name: ent-RMCMobMouseDoc
+  description: "ent-RMCMobMouseDoc-desc"
 
 - type: entity
-  name: rat
+  name: ent-RMCMobRat
   parent: [RMCSimpleMob, SimpleMobBase]
   id: RMCMobRat
-  description: It's a small laboratory rat.
-  suffix: RMC
+  description: ent-RMCMobRat-desc
+  suffix: ent-RMCMobRat-suffix
   components:
   - type: Body
     prototype: Mouse
@@ -277,9 +277,9 @@
 - type: entity
   parent: RMCMobRat
   id: RMCMobRatBrown
-  suffix: RMC
-  name: rat
-  description: It's a big, disease-ridden rodent.
+  suffix: ent-RMCMobRatBrown-suffix
+  name: ent-RMCMobRatBrown
+  description: ent-RMCMobRatBrown-desc
   components:
   - type: Sprite
     layers:
@@ -331,8 +331,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobCorgiPuppy]
   id: CMMobWiggles
-  name: Mister Wiggles
-  description: It's a corgi puppy. MISTER WIGGLES!! HE IS THE GREATEST!
+  name: ent-CMMobWiggles
+  description: ent-CMMobWiggles-desc
   components:
   - type: WarpPoint
     follow: true
@@ -348,8 +348,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobCatCalico]
   id: CMMobJones
-  name: Jones
-  description: A tough, old stray whose origin no one seems to know.
+  name: ent-CMMobJones
+  description: ent-CMMobJones-desc
   components:
   - type: WarpPoint
     follow: true
@@ -365,8 +365,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobCatCalico]
   id: RMCMobOrion
-  name: Orion
-  description: A domesticated, feline pet. The collar says 'Orion'.
+  name: ent-RMCMobOrion
+  description: ent-RMCMobOrion-desc
   components:
   - type: WarpPoint
     follow: true
@@ -382,8 +382,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobCat]
   id: RMCMobGarry
-  name: Garry
-  description: Her fur has the look and feel of velvet, and her tail quivers occasionally.
+  name: ent-RMCMobGarry
+  description: ent-RMCMobGarry-desc
   components:
   - type: WarpPoint
     follow: true
@@ -401,8 +401,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobMonkey
-  name: monkey spawner
-  suffix: RMC
+  name: ent-CMSpawnMobMonkey
+  suffix: ent-CMSpawnMobMonkey-suffix
   components:
   - type: Sprite
     layers:
@@ -416,8 +416,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobKobold
-  name: kobold spawner
-  suffix: RMC
+  name: ent-CMSpawnMobKobold
+  suffix: ent-CMSpawnMobKobold-suffix
   components:
   - type: Sprite
     layers:
@@ -432,7 +432,7 @@
 - type: entity
   parent: SpawnMobMouse
   id: CMSpawnMobMouse
-  suffix: CM
+  suffix: ent-CMSpawnMobMouse-suffix
   components:
   - type: ConditionalSpawner
     prototypes:
@@ -443,8 +443,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnRatBlack
-  name: rat spawner
-  suffix: black
+  name: ent-RMCSpawnRatBlack
+  suffix: ent-RMCSpawnRatBlack-suffix
   components:
   - type: Sprite
     layers:
@@ -458,7 +458,7 @@
 - type: entity
   parent: RMCSpawnRatBlack
   id: RMCSpawnRatGray
-  suffix: gray
+  suffix: ent-RMCSpawnRatGray-suffix
   components:
   - type: Sprite
     layers:
@@ -472,7 +472,7 @@
 - type: entity
   parent: RMCSpawnRatBlack
   id: RMCSpawnRatBrown
-  suffix: brown
+  suffix: ent-RMCSpawnRatBrown-suffix
   components:
   - type: Sprite
     layers:
@@ -486,7 +486,7 @@
 - type: entity
   parent: RMCSpawnRatBlack
   id: RMCSpawnRatWhite
-  suffix: white
+  suffix: ent-RMCSpawnRatWhite-suffix
   components:
   - type: Sprite
     layers:
@@ -500,8 +500,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobWiggles
-  name: Mr. Wiggles Spawner
-  suffix: CM
+  name: ent-CMSpawnMobWiggles
+  suffix: ent-CMSpawnMobWiggles-suffix
   components:
   - type: Sprite
     layers:
@@ -515,8 +515,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobJones
-  name: Jones Spawner
-  suffix: CM
+  name: ent-CMSpawnMobJones
+  suffix: ent-CMSpawnMobJones-suffix
   components:
   - type: Sprite
     layers:
@@ -530,8 +530,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobOrion
-  name: Orion Spawner
-  suffix: RMC
+  name: ent-CMSpawnMobOrion
+  suffix: ent-CMSpawnMobOrion-suffix
   components:
   - type: Sprite
     layers:
@@ -545,8 +545,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnMobGarry
-  name: Garry Spawner
-  suffix: RMC
+  name: ent-RMCSpawnMobGarry
+  suffix: ent-RMCSpawnMobGarry-suffix
   components:
   - type: Sprite
     layers:
@@ -560,8 +560,8 @@
 - type: entity
   parent: SpawnMobMouse
   id: RMCSpawnMobDoc
-  name: doc spawner
-  suffix: RMC
+  name: ent-RMCSpawnMobDoc
+  suffix: ent-RMCSpawnMobDoc-suffix
   components:
   - type: ConditionalSpawner
     prototypes:

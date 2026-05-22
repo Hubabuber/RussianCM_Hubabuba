@@ -12,7 +12,7 @@
   accessGroups:
   - Colony
   - SmartGunOperator
-  spawnMenuRoleName: CLF Heavy Gunner (PVE)
+  spawnMenuRoleName: job-rmcclfheavygunnerpve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointCLFCHeavyGunnerPVE
-  name: clf heavy gunner spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointCLFCHeavyGunnerPVE
+  suffix: ent-RMCSpawnPointCLFCHeavyGunnerPVE-suffix
   components:
   - type: SpawnPoint
     job_id: RMCCLFHeavyGunnerPVE

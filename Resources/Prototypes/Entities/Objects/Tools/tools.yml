@@ -1,8 +1,8 @@
 - type: entity
-  name: wirecutter
+  name: ent-Wirecutter
   parent: BaseItem
   id: Wirecutter
-  description: This kills the wire.
+  description: ent-Wirecutter-desc
   components:
   - type: EmitSoundOnLand
     sound:
@@ -52,10 +52,10 @@
     mishapDamageAmount: 2
 
 - type: entity
-  name: screwdriver
+  name: ent-Screwdriver
   parent: BaseItem
   id: Screwdriver
-  description: Industrial grade torque in a small screwdriving package.
+  description: ent-Screwdriver-desc
   components:
   - type: EmitSoundOnLand
     sound:
@@ -104,10 +104,10 @@
     failurePenalty: 1
 
 - type: entity
-  name: wrench
+  name: ent-Wrench
   parent: BaseItem
   id: Wrench
-  description: 'A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
+  description: 'ent-Wrench-desc'
   components:
   - type: EmitSoundOnLand
     sound:
@@ -153,10 +153,10 @@
     mishapDamageAmount: 4
 
 - type: entity
-  name: multitool
+  name: ent-Multitool
   parent: BaseItem
   id: Multitool
-  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
+  description: ent-Multitool-desc
   components:
   - type: EmitSoundOnLand
     sound:
@@ -207,10 +207,10 @@
     - InspectingPower
 
 - type: entity
-  name: network configurator
+  name: ent-NetworkConfigurator
   parent: BaseItem
   id: NetworkConfigurator
-  description: A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
+  description: ent-NetworkConfigurator-desc
   components:
     - type: EmitSoundOnLand
       sound:
@@ -260,10 +260,10 @@
 #Power tools
 #Later on these should switch probably switch damage when changing the tool behavior.
 - type: entity
-  name: power drill
+  name: ent-PowerDrill
   parent: BaseItem
   id: PowerDrill
-  description: A simple powered hand drill.
+  description: ent-PowerDrill-desc
   components:
   - type: Tag
     tags:
@@ -316,8 +316,8 @@
 - type: entity
   id: RCD
   parent: [ BaseItem, BaseEngineeringContraband ]
-  name: RCD
-  description: The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
+  name: ent-RCD
+  description: ent-RCD-desc
   components:
   - type: RCD
     availablePrototypes:
@@ -369,7 +369,7 @@
 - type: entity
   id: RCDEmpty
   parent: RCD
-  suffix: Empty
+  suffix: ent-RCDEmpty-suffix
   components:
   - type: LimitedCharges
     lastCharges: -1
@@ -377,9 +377,9 @@
 - type: entity
   id: RCDRecharging
   parent: RCD
-  name: experimental RCD
-  description: Cyborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
-  suffix: AutoRecharge
+  name: ent-RCDRecharging
+  description: ent-RCDRecharging-desc
+  suffix: ent-RCDRecharging-suffix
   components:
   - type: LimitedCharges
     maxCharges: 20
@@ -389,18 +389,18 @@
 - type: entity
   id: RCDExperimental
   parent: RCD
-  suffix: Admeme
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  suffix: ent-RCDExperimental-suffix
+  name: ent-RCDExperimental
+  description: ent-RCDExperimental-desc
   components:
   - type: AutoRecharge
     rechargeDuration: 1
 
 - type: entity
-  name: compressed matter
+  name: ent-RCDAmmo
   parent: BaseItem
   id: RCDAmmo
-  description: A cartridge of raw matter compacted by bluespace technology. Used in rapid construction devices.
+  description: ent-RCDAmmo-desc
   components:
   - type: RCDAmmo
   - type: Sprite
@@ -417,10 +417,10 @@
     price: 60
 
 - type: entity
-  name: omnitool
+  name: ent-Omnitool
   parent: BaseItem
   id: Omnitool
-  description: A drone's best friend.
+  description: ent-Omnitool-desc
   components:
   - type: Sprite
     sprite: Objects/Tools/omnitool.rsi
@@ -483,10 +483,10 @@
 
 #Other
 - type: entity
-  name: shovel
+  name: ent-Shovel
   parent: BaseItem
   id: Shovel
-  description: A large tool for digging and moving dirt.
+  description: ent-Shovel-desc
   components:
   - type: Sprite
     sprite: Objects/Tools/shovel.rsi
@@ -512,8 +512,8 @@
 - type: entity
   parent: BaseItem
   id: RollingPin
-  name: rolling pin
-  description: A tool used to shape and flatten dough.
+  name: ent-RollingPin
+  description: ent-RollingPin-desc
   components:
   - type: Sprite
     sprite: Objects/Tools/rolling_pin.rsi

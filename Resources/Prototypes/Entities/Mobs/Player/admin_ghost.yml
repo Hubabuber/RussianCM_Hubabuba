@@ -1,7 +1,7 @@
 - type: entity
   parent: [MobObserverBase, InventoryBase]
   id: AdminObserver
-  name: admin observer
+  name: ent-AdminObserver
   categories: [ HideSpawnMenu ]
   components:
   - type: ContentEye
@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowSolar
-  name: Solar Control Interface
-  description: View a Solar Control Interface.
+  name: ent-ActionAGhostShowSolar
+  description: ent-ActionAGhostShowSolar-desc
   components:
   - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
@@ -156,8 +156,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCommunications
-  name: Communications Interface
-  description: View a Communications Interface.
+  name: ent-ActionAGhostShowCommunications
+  description: ent-ActionAGhostShowCommunications-desc
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: comms_console }
@@ -170,8 +170,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowRadar
-  name: Mass Scanner Interface
-  description: View a Mass Scanner Interface.
+  name: ent-ActionAGhostShowRadar
+  description: ent-ActionAGhostShowRadar-desc
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
@@ -184,8 +184,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCargo
-  name: Cargo Ordering Interface
-  description: View a Cargo Ordering Interface.
+  name: ent-ActionAGhostShowCargo
+  description: ent-ActionAGhostShowCargo-desc
   components:
   - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
@@ -193,8 +193,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCrewMonitoring
-  name: Crew Monitoring Interface
-  description: View a Crew Monitoring Interface.
+  name: ent-ActionAGhostShowCrewMonitoring
+  description: ent-ActionAGhostShowCrewMonitoring-desc
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: crew_monitor }
@@ -207,8 +207,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowStationRecords
-  name: Station Records Interface
-  description: View a Station Records Interface.
+  name: ent-ActionAGhostShowStationRecords
+  description: ent-ActionAGhostShowStationRecords-desc
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: station_records }

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianProfessorVonBandolier
-  name: Professor Von Bandolier
-  description: Find the biggest and most dangerous game, whether that is space alien or a man with a gun and eloquently shoot them.
+  name: job-au14jobcivilianprofessorvonbandolier-name
+  description: job-au14jobcivilianprofessorvonbandolier-desc
   setPreference: true
   playTimeTracker: AU14JobCivilianProfessorVonBandolier
   ranks:
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14PartyJobProfessorVonBandolier
-  name: Professor Von Bandolier
+  name: ent-AU14PartyJobProfessorVonBandolier
   components:
   - type: GhostTakeoverAvailable
   - type: RandomHumanoidAppearanceWhitelisted #civilian type
@@ -109,7 +109,7 @@
 - type: entity
   parent: AU14M276ShotgunShellLoadingRigBlack
   id: AU14M276ShotgunShellLoadingRigBlackVonBandolier
-  suffix: Filled, Professor Von Bandolier
+  suffix: ent-AU14M276ShotgunShellLoadingRigBlackVonBandolier-suffix
   components:
   - type: StorageFill
     contents:
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMArmorDutchJacket
   id: CMArmorDutchJacketVonBandolier
-  suffix: Filled, Professor Von Bandolier
+  suffix: ent-CMArmorDutchJacketVonBandolier-suffix
   components:
   - type: StorageFill
     contents:
@@ -129,7 +129,7 @@
 - type: entity
   parent: RMCPouchMedkit
   id: RMCPouchMedkitVonBandolier
-  suffix: Filled, Professor Von Bandolier
+  suffix: ent-RMCPouchMedkitVonBandolier-suffix
   components:
   - type: StorageFill
     contents:
@@ -144,7 +144,7 @@
 - type: entity
   parent: RMCPouchMagazinePistolLarge
   id: RMCPouchMagazinePistolLargeVonBandolier
-  suffix: Filled, Professor Von Bandolier
+  suffix: ent-RMCPouchMagazinePistolLargeVonBandolier-suffix
   components:
   - type: StorageFill
     contents:
@@ -155,7 +155,7 @@
 - type: entity
   parent: RMCBeltHolsterRevolver
   id: RMCBeltHolsterRevolverVonBandolier
-  suffix: Filled, Professor Von Bandolier
+  suffix: ent-RMCBeltHolsterRevolverVonBandolier-suffix
   components:
   - type: StorageFill
     contents:

@@ -29,7 +29,7 @@
   dummyStartingGear: AU14GearopforDSPilotDummy
   icon: "AU14JobIconOPFORPilotOfficer"
   requireAdminNotify: true
-  spawnMenuRoleName: Pilot Officer (OPFOR)
+  spawnMenuRoleName: job-au14jobopfordspilot-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
@@ -80,7 +80,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforDSPilot
-  name: Spawn Point opfor Dropship Pilot
+  name: ent-AU14SpawnPointopforDSPilot
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforDSPilot

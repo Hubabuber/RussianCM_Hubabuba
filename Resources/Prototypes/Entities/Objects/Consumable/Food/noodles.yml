@@ -5,7 +5,7 @@
   parent: FoodInjectableBase
   id: FoodNoodlesBase
   abstract: true
-  description: Now that's a nice pasta!
+  description: ent-FoodNoodlesBase-desc
   components:
   - type: Item
     storedRotation: -90
@@ -22,10 +22,10 @@
 # Noodles
 
 - type: entity
-  name: boiled spaghetti
+  name: ent-FoodNoodlesBoiled
   parent: FoodNoodlesBase
   id: FoodNoodlesBoiled
-  description: A plain dish of noodles, this needs more ingredients.
+  description: ent-FoodNoodlesBoiled-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -35,10 +35,10 @@
 # Tastes like pasta.
 
 - type: entity
-  name: spaghetti
+  name: ent-FoodNoodles
   parent: FoodNoodlesBase
   id: FoodNoodles
-  description: Spaghetti and crushed tomatoes. Just like your abusive father used to make!
+  description: ent-FoodNoodles-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -59,10 +59,10 @@
 # Tastes like pasta, tomato.
 
 - type: entity
-  name: copypasta
+  name: ent-FoodNoodlesCopy
   parent: FoodNoodlesBase
   id: FoodNoodlesCopy
-  description: You probably shouldn't try this, you always hear people talking about how bad it is...
+  description: ent-FoodNoodlesCopy-desc
   components:
   - type: Food
     trash:
@@ -83,10 +83,10 @@
 # Tastes like pasta, bad humor.
 
 - type: entity
-  name: spaghetti and meatballs
+  name: ent-FoodNoodlesMeatball
   parent: FoodNoodlesBase
   id: FoodNoodlesMeatball
-  description: Now that's a nice-a meatball!
+  description: ent-FoodNoodlesMeatball-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -109,10 +109,10 @@
 # Tastes like pasta, meat.
 
 - type: entity
-  name: spesslaw
+  name: ent-FoodNoodlesSpesslaw
   parent: FoodNoodlesBase
   id: FoodNoodlesSpesslaw
-  description: A lawyer's favourite.
+  description: ent-FoodNoodlesSpesslaw-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -132,10 +132,10 @@
 # Tastes like pasta, meat.
 
 - type: entity
-  name: chow mein
+  name: ent-FoodNoodlesChowmein
   parent: FoodNoodlesBase
   id: FoodNoodlesChowmein
-  description: A nice mix of noodles and fried vegetables.
+  description: ent-FoodNoodlesChowmein-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -159,10 +159,10 @@
 # Tastes like pasta, tomato.
 
 - type: entity
-  name: butter noodles
+  name: ent-FoodNoodlesButter
   parent: FoodNoodlesBase
   id: FoodNoodlesButter
-  description: Noodles covered in savory butter. Simple and slippery, but delicious.
+  description: ent-FoodNoodlesButter-desc
   components:
   - type: FlavorProfile
     flavors:

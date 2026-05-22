@@ -1,0 +1,15 @@
+reagent-bleach-desc = reagent-desc-bleach
+reagent-bleach-name = reagent-name-bleach
+reagent-bleach-physicaldesc = reagent-physical-desc-strong-smelling
+reagent-soapreagent-desc = reagent-desc-soap
+reagent-soapreagent-name = reagent-name-soap
+reagent-soapreagent-physicaldesc = reagent-physical-desc-soapy
+reagent-spacecleaner-desc = reagent-desc-space-cleaner
+reagent-spacecleaner-name = reagent-name-space-cleaner
+reagent-spacecleaner-physicaldesc = reagent-physical-desc-lemony-fresh
+reagent-spaceglue-desc = reagent-desc-space-glue
+reagent-spaceglue-name = reagent-name-space-glue
+reagent-spaceglue-physicaldesc = reagent-physical-desc-sticky
+reagent-spacelube-desc = reagent-desc-space-lube
+reagent-spacelube-name = reagent-name-space-lube
+reagent-spacelube-physicaldesc = reagent-physical-desc-shiny

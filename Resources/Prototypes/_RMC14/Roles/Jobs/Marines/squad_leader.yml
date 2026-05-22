@@ -94,7 +94,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSquadLeader
-  name: squad leader spawn point
+  name: ent-CMSpawnPointSquadLeader
   components:
   - type: SpawnPoint
     job_id: CMSquadLeader
@@ -104,7 +104,7 @@
 - type: entity
   parent: CMSpawnPointSquadLeader
   id: CMSpawnPointSquadLeaderAlpha
-  suffix: Alpha
+  suffix: ent-CMSpawnPointSquadLeaderAlpha-suffix
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -115,7 +115,7 @@
 - type: entity
   parent: CMSpawnPointSquadLeader
   id: CMSpawnPointSquadLeaderBravo
-  suffix: Bravo
+  suffix: ent-CMSpawnPointSquadLeaderBravo-suffix
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -126,7 +126,7 @@
 - type: entity
   parent: CMSpawnPointSquadLeader
   id: CMSpawnPointSquadLeaderCharlie
-  suffix: Charlie
+  suffix: ent-CMSpawnPointSquadLeaderCharlie-suffix
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -137,7 +137,7 @@
 - type: entity
   parent: CMSpawnPointSquadLeader
   id: CMSpawnPointSquadLeaderDelta
-  suffix: Delta
+  suffix: ent-CMSpawnPointSquadLeaderDelta-suffix
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSL
-  name: The Squad Leader
-  description: The Squad Leader
+  name: ent-RMCGuidebookRoleSL
+  description: ent-RMCGuidebookRoleSL-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -175,7 +175,7 @@
 
 - type: entity
   id: RMCGuidebookActionMove
-  name: Move order
+  name: ent-RMCGuidebookActionMove
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 
 - type: entity
   id: RMCGuidebookActionHold
-  name: Hold order
+  name: ent-RMCGuidebookActionHold
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 
 - type: entity
   id: RMCGuidebookActionFocus
-  name: Focus order
+  name: ent-RMCGuidebookActionFocus
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

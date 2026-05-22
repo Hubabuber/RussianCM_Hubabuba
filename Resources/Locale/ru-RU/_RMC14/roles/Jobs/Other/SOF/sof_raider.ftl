@@ -6,3 +6,5 @@ ent-RMCRandomHumanoidMarineRaider = DEATHSQUAD Морпех роль призр�
 ent-RMCDogtagMarineRaiderHidden = жетон для собаки
   .desc = Жетон Морпех.
 
+job-cmmarineraider-name = rmc-имя-работы-морпех-рейдер
+job-cmmarineraider-spawnmenurolename = МАРСОК Рейдер

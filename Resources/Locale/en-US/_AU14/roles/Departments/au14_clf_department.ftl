@@ -1,0 +1,2 @@
+department-au14departmentcolonialliberationfront-desc = au14-department-colonialliberationfront-description
+department-au14departmentcolonialliberationfront-name = au14-department-colonialliberationfront

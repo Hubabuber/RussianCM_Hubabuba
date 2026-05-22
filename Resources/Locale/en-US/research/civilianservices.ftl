@@ -1,0 +1,16 @@
+technology-advancedcleaning-name = research-technology-advanced-cleaning
+technology-advancedentertainment-name = research-technology-advanced-entertainment
+technology-advancedspray-name = research-technology-advanced-spray
+technology-audiovisualcommunication-name = research-technology-audio-visual-communication
+technology-biochemicalstasis-name = research-technology-biochemical-stasis
+technology-bluespacecargotransport-name = research-technology-bluespace-cargo-transport
+technology-bluespacechemistry-name = research-technology-bluespace-chemistry
+technology-crittermechs-name = research-technology-critter-mechs
+technology-fauxastrotiles-name = research-technology-faux-astro-tiles
+technology-honkmech-name = research-technology-honk-mech
+technology-hydroponics-name = research-technology-basic-hydroponics
+technology-launchersyringe-name = research-technology-launcher-syringe
+technology-meatmanipulation-name = research-technology-meat-manipulation
+technology-mechanizedtreatment-name = research-technology-mechanized-treatment
+technology-pushhorn-name = research-technology-clowning-utilities
+technology-quantumfiberweaving-name = research-technology-quantum-fiber-weaving

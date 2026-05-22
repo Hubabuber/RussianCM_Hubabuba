@@ -1,10 +1,10 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorPriest
   id: CMSurvivorSolarisChaplain
   name: rmc-job-name-survivor-solaris-chaplain
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorSolarisChaplain
-  spawnMenuRoleName: Solaris Chaplain (Solaris Survivor)
+  spawnMenuRoleName: job-cmsurvivorsolarischaplain-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisChaplain
-  name: survivor solaris chaplain spawn point
+  name: ent-RMCSpawnPointSurvivorSolarisChaplain
   components:
   - type: SpawnPoint
     job_id: CMSurvivorSolarisChaplain

@@ -23,3 +23,16 @@ ent-RMCCondimentEnzyme = универсальный фермент
 ent-RMCCondimentHotsauce = родительский объект острого соуса
 ent-RMCCondiment = контейнер с приправой
   .desc = Обычный контейнер для приправ.
+
+ent-RMCCondimentSmall = контейнер для приправ
+    .desc = Просто обычный контейнер для приправ.
+
+reagent-rmccornoil-desc = реагент-десц-рогойл
+reagent-rmccornoil-name = название-реагента-коройлик
+reagent-rmccornoil-physicaldesc = reagent-physical-desc-oily
+reagent-rmcketchup-desc = реагент-деск-кетчуп
+reagent-rmcketchup-name = название-реагента-кетчуп
+reagent-rmcketchup-physicaldesc = reagent-physical-desc-tangy
+reagent-rmcsoysauce-desc = реагент-десс-соевый соус
+reagent-rmcsoysauce-name = название-реагента-соевый соус
+reagent-rmcsoysauce-physicaldesc = реагент-физический-солевой

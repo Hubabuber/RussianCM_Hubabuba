@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: SheetMetalBase
-  description: A sheet of metal, used often on the station in various applications.
+  description: ent-SheetMetalBase-desc
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetSteel
-  name: steel
-  suffix: Full
+  name: ent-SheetSteel
+  suffix: ent-SheetSteel-suffix
   components:
   - type: Material
   - type: PhysicalComposition
@@ -73,8 +73,8 @@
 - type: entity
   parent: SheetSteel
   id: SheetSteel10
-  name: steel
-  suffix: 10
+  name: ent-SheetSteel10
+  suffix: ent-SheetSteel10-suffix
   components:
   - type: Sprite
     state: steel
@@ -85,8 +85,8 @@
 - type: entity
   parent: SheetSteel
   id: SheetSteel1
-  name: steel
-  suffix: Single
+  name: ent-SheetSteel1
+  suffix: ent-SheetSteel1-suffix
   components:
   - type: Sprite
     state: steel
@@ -97,7 +97,7 @@
 - type: entity
   parent: SheetSteel
   id: SheetSteelLingering0
-  suffix: Lingering, 0
+  suffix: ent-SheetSteelLingering0-suffix
   components:
   - type: Stack
     lingering: true
@@ -106,9 +106,9 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetBrass
-  name: brass
-  description: A sheet of brass, primarily used by clockwork enthusiasts and the remnants of Ratvarian cults.
-  suffix: Full
+  name: ent-SheetBrass
+  description: ent-SheetBrass-desc
+  suffix: ent-SheetBrass-suffix
   components:
   - type: Material
   - type: PhysicalComposition
@@ -146,8 +146,8 @@
 - type: entity
   parent: SheetBrass
   id: SheetBrass10
-  name: brass
-  suffix: 10
+  name: ent-SheetBrass10
+  suffix: ent-SheetBrass10-suffix
   components:
   - type: Sprite
     state: brass
@@ -158,8 +158,8 @@
 - type: entity
   parent: SheetBrass
   id: SheetBrass1
-  name: brass
-  suffix: Single
+  name: ent-SheetBrass1
+  suffix: ent-SheetBrass1-suffix
   components:
   - type: Sprite
     state: brass
@@ -170,8 +170,8 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetPlasteel
-  name: plasteel
-  suffix: Full
+  name: ent-SheetPlasteel
+  suffix: ent-SheetPlasteel-suffix
   components:
   - type: Material
   - type: PhysicalComposition
@@ -209,8 +209,8 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel10
-  name: plasteel
-  suffix: 10
+  name: ent-SheetPlasteel10
+  suffix: ent-SheetPlasteel10-suffix
   components:
   - type: Sprite
     state: plasteel
@@ -221,8 +221,8 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel1
-  name: plasteel
-  suffix: Single
+  name: ent-SheetPlasteel1
+  suffix: ent-SheetPlasteel1-suffix
   components:
   - type: Sprite
     state: plasteel
@@ -233,7 +233,7 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteelLingering0
-  suffix: Lingering, 0
+  suffix: ent-SheetPlasteelLingering0-suffix
   components:
   - type: Stack
     lingering: true

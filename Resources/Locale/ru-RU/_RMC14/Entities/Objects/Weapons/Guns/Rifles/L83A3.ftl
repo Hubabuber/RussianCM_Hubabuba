@@ -18,3 +18,25 @@ ent-RMCMagazineRifleL83A3 = Магазин L83A3 (5.56x45мм)
   .desc = Магазин на 5.56x45мм патронов для винтовки L83A3.
 ent-WeaponRifleL83A3 = Винтовка L83A3
   .desc = Боевая винтовка L83A3, часто встречающаяся в арсеналах Империи Трех Солнц.
+
+ent-BulletRifle556x45mmHEAP = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-BulletRifle556x45mmIncendiary = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-RMCMagazineRifleL83A3Extended = L83A3 Удлиненный магазин (5,56x45 мм)
+    .desc = Удлиненный магазин патронов 5,56х45 мм для винтовки Л83А3.
+    .suffix = Расширенный
+
+ent-RMCWeaponRifleL83A3 = Винтовка Л83А3
+    .desc = Боевая винтовка L83A3, обычно встречающаяся в арсеналах Империи Трех Солнц.
+    .suffix = Заполненный
+
+ent-RMCWeaponRifleL83A3FStripped = Винтовка Л83А3Ф
+    .desc = Вариант L83A3 с сильно модифицированным ударно-спусковым механизмом, позволяющим вести огонь очередями.
+    .suffix = Раздетый
+
+ent-RMCWeaponRifleL83A3Stripped = Винтовка Л83А3
+    .desc = Боевая винтовка L83A3, обычно встречающаяся в арсеналах Империи Трех Солнц.
+    .suffix = Раздетый

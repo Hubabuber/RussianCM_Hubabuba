@@ -5,7 +5,7 @@
   - CMXenoFlammable
   - RMCXenoVentCrawler
   id: CMXenoParasiteBase
-  name: Facehugger
+  name: ent-CMXenoParasiteBase
   components:
   - type: TTS
     voice: SHEOGORATH
@@ -163,7 +163,7 @@
 - type: entity
   parent: CMXenoParasiteBase
   id: RMCXenoParasiteWatcher
-  suffix: Watcher
+  suffix: ent-RMCXenoParasiteWatcher-suffix
   components:
   - type: Xeno
     actionIds:
@@ -186,6 +186,6 @@
 - type: entity
   parent: CMXenoParasite
   id: RMCXenoParasitePrimeHiveAssign
-  suffix: Auto-Assign, Prime Hive
+  suffix: ent-RMCXenoParasitePrimeHiveAssign-suffix
   components:
   - type: AutoAssignHive

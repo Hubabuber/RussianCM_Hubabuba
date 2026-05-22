@@ -4,7 +4,7 @@
   name: rmc-job-name-survivor-fire-protection-specialist-hybrisa
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaFireProtectionSpecialist
-  spawnMenuRoleName: Fire Protection Specialist (Hybrisa Survivor)
+  spawnMenuRoleName: job-rmcsurvivorhybrisafireprotectionspecialist-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -34,7 +34,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaFireProtectionSpecialist
-  name: hybrisa fire protection specialist spawn point
+  name: ent-RMCSpawnPointSurvivorHybrisaFireProtectionSpecialist
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaFireProtectionSpecialist
-  name: hybrisa fire protection specialist preset
+  name: ent-RMCGearSurvivorPresetHybrisaFireProtectionSpecialist
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

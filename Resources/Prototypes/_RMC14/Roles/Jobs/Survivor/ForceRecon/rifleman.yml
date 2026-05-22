@@ -3,7 +3,7 @@
   id: RMCSurvivorForeconRifleman
   name: cm-job-name-rifleman
   icon: "RMCJobIconForeconRifleman"
-  spawnMenuRoleName: FORECON Rifleman (Survivor)
+  spawnMenuRoleName: job-rmcsurvivorforeconrifleman-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconRifleman
-  name: forecon rifleman spawn point
+  name: ent-CMSpawnPointForeconRifleman
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconRifleman

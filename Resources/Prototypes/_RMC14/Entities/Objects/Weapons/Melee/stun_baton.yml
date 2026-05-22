@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCStunBatonDamaged
-  name: damaged stun baton
-  description: A stun baton for incapacitating people with. This one seems pretty broken and beat up, especially around the on/off switch..
+  name: ent-RMCStunBatonDamaged
+  description: ent-RMCStunBatonDamaged-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/stun_baton.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: RMCStunBatonDamaged
   id: CMStunbaton
-  name: stun baton
-  description: A stun baton for incapacitating people with.
+  name: ent-CMStunbaton
+  description: ent-CMStunbaton-desc
   components:
   - type: Stunbaton
     energyPerUse: 50
@@ -82,8 +82,8 @@
 - type: entity
   parent: CMStunbaton
   id: RMCTelescopicBaton
-  name: telescopic baton
-  description: A compact yet rebalanced personal defense weapon. Can be concealed when folded.
+  name: ent-RMCTelescopicBaton
+  description: ent-RMCTelescopicBaton-desc
   components:
   - type: Item
     size: Small

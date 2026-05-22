@@ -1,0 +1,11 @@
+cargobounty-bountygoliathplates-desc = bounty-description-plates
+cargobounty-bountyhivelordremains-desc = bounty-description-remains
+cargobounty-bountysalvagediamond-desc = bounty-description-diamond
+cargobounty-bountysalvageorebananium-desc = bounty-description-salvage-ore-bananium
+cargobounty-bountysalvageoregold-desc = bounty-description-salvage-ore-gold
+cargobounty-bountysalvageoreplasma-desc = bounty-description-salvage-ore-plasma
+cargobounty-bountysalvageoresilver-desc = bounty-description-salvage-ore-silver
+cargobounty-bountysalvageoreuranium-desc = bounty-description-salvage-ore-uranium
+cargobounty-bountysalvagescrap-desc = bounty-description-salvage-scrap
+cargobounty-bountyteethsharkminnow-desc = bounty-description-tooth-sharkminnow
+cargobounty-bountyteethspacecarp-desc = bounty-description-tooth-space-carp

@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: Freelancer Medic
+  spawnMenuRoleName: job-cmfreelancermedic-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -36,8 +36,8 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerMedicHostile
-  name: freelancer ghost role medic
-  suffix: Spawner, Player, Hostile
+  name: ent-RMCRandomHumanoidFreelancerMedicHostile
+  suffix: ent-RMCRandomHumanoidFreelancerMedicHostile-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_freelancer.rsi
@@ -47,8 +47,8 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerMedicFriendly
-  name: freelancer ghost role medic
-  suffix: Spawner, Player, Friendly
+  name: ent-RMCRandomHumanoidFreelancerMedicFriendly
+  suffix: ent-RMCRandomHumanoidFreelancerMedicFriendly-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_freelancer.rsi

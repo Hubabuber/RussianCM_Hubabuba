@@ -12,7 +12,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: WEYA PMC Operator (PVE)
+  spawnMenuRoleName: job-cmpmcoperatorpve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCOperatorPVE
-  name: weya pmc operator spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointPMCOperatorPVE
+  suffix: ent-RMCSpawnPointPMCOperatorPVE-suffix
   components:
   - type: SpawnPoint
     job_id: CMPMCOperatorPVE

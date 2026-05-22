@@ -10,3 +10,8 @@ ent-DeliveryModifierBomb-desc = Компоненты, которые нужно 
 
 ent-BaseDelivery-name = элемент
 
+ent-BaseDelivery = item
+
+ent-LetterDelivery = письмо
+
+ent-PackageDelivery = упаковка

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseMobSpeciesOrganic
   id: RMCMobFeroxi
-  name: Urist C.M McFeroxi
-  suffix: RMC14
+  name: ent-RMCMobFeroxi
+  suffix: ent-RMCMobFeroxi-suffix
   components:
   - type: HumanoidAppearance
     species: Feroxi
@@ -88,10 +88,10 @@
 
 - type: entity
   parent: BaseSpeciesDummy
-  name: Feroxi Dummy
+  name: ent-MobFeroxiDummy
   id: MobFeroxiDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy feroxi meant to be used in character setup.
+  description: ent-MobFeroxiDummy-desc
   components:
   - type: HumanoidAppearance
     species: Feroxi

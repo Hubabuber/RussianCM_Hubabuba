@@ -22,3 +22,5 @@ ent-SquadGovforIntel = Поддержка
 ent-SquadGovfor = Альфа
 ent-SquadGovforBravo = Браво
 ent-SquadGovforCharlie = Чарли
+
+ent-SquadPara = Пара морпехи

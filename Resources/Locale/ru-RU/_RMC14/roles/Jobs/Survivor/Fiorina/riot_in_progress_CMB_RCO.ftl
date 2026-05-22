@@ -3,3 +3,6 @@ ent-RMCSpawnPointSurvivorFiorinaRiotInProgressUNRiotOfficer = Особый вы�
 
 ent-RMCSurvivorPresetRiotInProgressCMBRCO = Бунт в процессе CMB RCO пресет
 
+job-rmcsurvivorfiorinariotinprogresscmbriotcontrolofficer-desc = cm-описание-работы-выживший
+job-rmcsurvivorfiorinariotinprogresscmbriotcontrolofficer-name = cm-имя-должности-выживший-офицер-бунтовщик
+job-rmcsurvivorfiorinariotinprogresscmbriotcontrolofficer-spawnmenurolename = Офицер CMB по борьбе с беспорядками (специальный выживший)

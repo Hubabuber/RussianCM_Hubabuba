@@ -4,8 +4,8 @@
   parent: RubberStampBase
   id: CMStampBase
   abstract: true
-  name: rubber stamp
-  description: A rubber stamp for stamping important documents.
+  name: ent-CMStampBase
+  description: ent-CMStampBase-desc
   components:
   - type: Item
     heldPrefix: stamp
@@ -21,7 +21,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampXO
-  name: executive officer's rubber stamp
+  name: ent-CMStampXO
   components:
   - type: Sprite
     state: stamp-hop
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMStampXO
   id: CMStampCO
-  name: commanding officer's rubber stamp
+  name: ent-CMStampCO
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-cm-co
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampASO
-  name: auxiliary support officer's rubber stamp
+  name: ent-CMStampASO
   components:
   - type: Sprite
     state: stamp-ce
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMP
-  name: Chief MP's rubber stamp
+  name: ent-CMStampCMP
   components:
   - type: Sprite
     state: stamp-hos
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMW
-  name: Military Warden's rubber stamp
+  name: ent-CMStampMW
   components:
   - type: Sprite
     state: stamp-mw
@@ -77,7 +77,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMO
-  name: chief medical officer's rubber stamp
+  name: ent-CMStampCMO
   components:
   - type: Sprite
     state: stamp-cmo
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampQM
-  name: Logistics Officer's rubber stamp
+  name: ent-CMStampQM
   components:
   - type: Sprite
     state: stamp-ro
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMStampASO
   id: CMStampCE
-  name: chief engineer's rubber stamp
+  name: ent-CMStampCE
   components:
   - type: Sprite
     state: stamp-ce
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampSEA
-  name: senior enlisted advisor's rubber stamp
+  name: ent-RMCStampSEA
   components:
   - type: Sprite
     state: stamp-sea
@@ -124,7 +124,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampLiaison
-  name: corporate liaison rubber stamp
+  name: ent-CMStampLiaison
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -136,7 +136,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampProvostInspector
-  name: provost inspector rubber stamp
+  name: ent-RMCStampProvostInspector
   components:
   - type: Sprite
     state: stamp-provost
@@ -151,7 +151,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampApproved
-  name: APPROVED rubber stamp
+  name: ent-CMStampApproved
   components:
   - type: Sprite
     state: stamp-approve
@@ -163,7 +163,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampDenied
-  name: DENIED rubber stamp
+  name: ent-CMStampDenied
   components:
   - type: Sprite
     state: stamp-deny
@@ -177,8 +177,8 @@
 - type: entity
   parent: CMStampLiaison
   id: CMStampWeYa
-  name: Weston-Yamada rubber stamp
-  suffix: Admin
+  name: ent-CMStampWeYa
+  suffix: ent-CMStampWeYa-suffix
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-cm-we-ya
@@ -186,8 +186,8 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMarine
-  name: marine rubber stamp
-  suffix: Admin, UNMC
+  name: ent-CMStampMarine
+  suffix: ent-CMStampMarine-suffix
   components:
   - type: Sprite
     state: stamp-marine
@@ -199,8 +199,8 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMB
-  name: colony marshal bureau rubber stamp
-  suffix: Admin, CMB
+  name: ent-CMStampCMB
+  suffix: ent-CMStampCMB-suffix
   components:
   - type: Sprite
     state: stamp-cmb
@@ -212,8 +212,8 @@
 - type: entity
   parent: CMStampBase
   id: CMStampProvost
-  name: provost rubber stamp
-  suffix: Admin, Provost
+  name: ent-CMStampProvost
+  suffix: ent-CMStampProvost-suffix
   components:
   - type: Sprite
     state: stamp-provost # RMC14 Todo: update sprite
@@ -225,8 +225,8 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampCLF
-  name: colony liberation front rubber stamp
-  suffix: Admin, CLF
+  name: ent-RMCStampCLF
+  suffix: ent-RMCStampCLF-suffix
   components:
   - type: Sprite
     state: stamp-clf
@@ -238,8 +238,8 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampSPP
-  name: socialist progressive peoples rubber stamp
-  suffix: Admin, SPP
+  name: ent-RMCStampSPP
+  suffix: ent-RMCStampSPP-suffix
   components:
   - type: Sprite
     state: stamp-spp
@@ -251,8 +251,8 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampTSE
-  name: three suns empire rubber stamp
-  suffix: Admin, TSE
+  name: ent-RMCStampTSE
+  suffix: ent-RMCStampTSE-suffix
   components:
   - type: Sprite
     state: stamp-tse
@@ -264,8 +264,8 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampFreePress
-  name: free press rubber stamp
-  suffix: Admin, Press
+  name: ent-RMCStampFreePress
+  suffix: ent-RMCStampFreePress-suffix
   components:
   - type: Sprite
     state: stamp-free-press
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMStampXO
   id: AU14StampAdjutant
-  name: adjutant's rubber stamp
+  name: ent-AU14StampAdjutant
   components:
   - type: Stamp
     stampedName: Adjutant

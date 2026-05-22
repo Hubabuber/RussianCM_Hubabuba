@@ -7,3 +7,11 @@ ent-ClothingShoesBaseButcherable-name = lathe-category-clothing
 
 ent-ClothingShoesMilitaryBase-name = lathe-category-clothing
 
+ent-ClothingShoesBase = item
+
+ent-ClothingShoesBaseButcherable = item
+
+ent-ClothingShoesBaseWinterBoots = item
+    .desc = Пушистые сапожки помогут пережить даже самую холодную зиму.
+
+ent-ClothingShoesMilitaryBase = item

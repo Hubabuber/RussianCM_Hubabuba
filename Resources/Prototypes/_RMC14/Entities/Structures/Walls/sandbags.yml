@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: CMBarricadeBase
   id: CMBarricadeSandbag
-  name: sandbag barricade
-  description: A makeshift barricade made out of the sand from the ground. Tough to beat but easy to pierce.
+  name: ent-CMBarricadeSandbag
+  description: ent-CMBarricadeSandbag-desc
   components:
   - type: BarricadeSandbag
   - type: Climbable
@@ -74,8 +74,8 @@
 - type: entity
   parent: BaseItem
   id: CMSandbagEmpty
-  name: empty sandbags
-  description: Some empty sandbags, best to fill them up if you want to use them.
+  name: ent-CMSandbagEmpty
+  description: ent-CMSandbagEmpty-desc
   components:
   - type: Item
     sprite: _RMC14/Objects/Misc/sandbags.rsi
@@ -98,7 +98,7 @@
 - type: entity
   parent: CMSandbagEmpty
   id: CMSandbagEmpty50
-  suffix: "50"
+  suffix: "ent-CMSandbagEmpty50-suffix"
   components:
   - type: Stack
     stackType: CMSandbagEmpty
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMSandbagEmpty
   id: CMSandbagEmpty25
-  suffix: "25"
+  suffix: "ent-CMSandbagEmpty25-suffix"
   components:
   - type: Stack
     stackType: CMSandbagEmpty
@@ -116,7 +116,7 @@
 - type: entity
   parent: CMSandbagEmpty
   id: CMSandbagEmpty10
-  suffix: "10"
+  suffix: "ent-CMSandbagEmpty10-suffix"
   components:
   - type: Stack
     stackType: CMSandbagEmpty
@@ -125,8 +125,8 @@
 - type: entity
   parent: BaseItem
   id: CMSandbagFull
-  name: sandbags
-  description: Some bags filled with sand. For now, just cumbersome, but soon to be used for fortifications.
+  name: ent-CMSandbagFull
+  description: ent-CMSandbagFull-desc
   components:
   - type: Item
     sprite: _RMC14/Objects/Misc/sandbags.rsi
@@ -153,7 +153,7 @@
 - type: entity
   parent: CMSandbagFull
   id: CMSandbagFull50
-  suffix: "50"
+  suffix: "ent-CMSandbagFull50-suffix"
   components:
   - type: Stack
     stackType: CMSandbagFull
@@ -162,7 +162,7 @@
 - type: entity
   parent: CMSandbagFull
   id: CMSandbagFull25
-  suffix: "25"
+  suffix: "ent-CMSandbagFull25-suffix"
   components:
   - type: Stack
     stackType: CMSandbagFull
@@ -171,7 +171,7 @@
 - type: entity
   parent: CMSandbagFull
   id: CMSandbagFull5
-  suffix: "5"
+  suffix: "ent-CMSandbagFull5-suffix"
   components:
   - type: Stack
     stackType: CMSandbagFull
@@ -179,20 +179,20 @@
 
 - type: stack
   id: CMSandbagEmpty
-  name: empty sandbags
+  name: stack-cmsandbagempty-name
   spawn: CMSandbagEmpty
   maxCount: 50
 
 - type: stack
   id: CMSandbagFull
-  name: empty sandbags
+  name: stack-cmsandbagfull-name
   spawn: CMSandbagFull
   maxCount: 50
 
 - type: entity
   parent: CMBarricadeSandbag
   id: RMCBarricadeSandbagSoro
-  suffix: Brown
+  suffix: ent-RMCBarricadeSandbagSoro-suffix
   components:
   - type: Sprite
     color: "#a98c7c"

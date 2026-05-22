@@ -11,3 +11,8 @@ ent-CMBaseWallXeno = смоляная стена
 
   .desc = Огромный кусок металла, используемый для разделения комнат.
 
+ent-RMCWallInvisibleBulletBlocker = блокировщик стены
+    .suffix = Блокатор снарядов
+
+ent-RMCWallInvisibleBulletLightBlocker = блокировщик стены
+    .suffix = Снаряд + Блокатор света

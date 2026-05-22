@@ -1,9 +1,9 @@
 - type: entity
   parent: RMCCommunicationsTower
   id: AU14CommunicationsTower
-  suffix: "Default, Empty"
-  name: TC-5F static telecommunications tower
-  description: A static heavy-duty TC-5F telecom-frequency tower. Used to set up subspace communications lines between planetary and extra-planetary locations. Will need to have extra communication frequencies programmed into it by multitool.
+  suffix: "ent-AU14CommunicationsTower-suffix"
+  name: ent-AU14CommunicationsTower
+  description: ent-AU14CommunicationsTower-desc
   components:
   - type: RMCRepairable
     heal: 150
@@ -34,7 +34,7 @@
 - type: entity
   parent: AU14CommunicationsTower
   id: AU14CommunicationsTowerOn
-  suffix: "On, Global Comms"
+  suffix: "ent-AU14CommunicationsTowerOn-suffix"
   components:
   - type: CommunicationsTower
     state: On
@@ -68,7 +68,7 @@
 - type: entity
   parent: AU14CommunicationsTower
   id: AU14CommunicationsTowerGovfor
-  suffix: "Off, GOVFOR Comms"
+  suffix: "ent-AU14CommunicationsTowerGovfor-suffix"
   components:
   - type: CommunicationsTower
     state: Off
@@ -85,7 +85,7 @@
 - type: entity
   parent: AU14CommunicationsTower
   id: AU14CommunicationsTowerOpfor
-  suffix: "Off, OPFOR Comms"
+  suffix: "ent-AU14CommunicationsTowerOpfor-suffix"
   components:
   - type: CommunicationsTower
     state: Off
@@ -102,7 +102,7 @@
 - type: entity
   parent: AU14CommunicationsTower
   id: AU14CommunicationsTowerThirdParty
-  suffix: "Off, 3rd Party Comms"
+  suffix: "ent-AU14CommunicationsTowerThirdParty-suffix"
   components:
   - type: CommunicationsTower
     state: Off
@@ -117,7 +117,7 @@
 - type: entity
   parent: AU14CommunicationsTower
   id: AU14CommunicationsTowerColony
-  suffix: "Off, Colony Comms"
+  suffix: "ent-AU14CommunicationsTowerColony-suffix"
   components:
   - type: CommunicationsTower
     state: Off
@@ -133,7 +133,7 @@
   abstract: true
   parent: MarkerBase
   id: AU14SpawnerCommunicationsTowerBase
-  name: static comms
+  name: ent-AU14SpawnerCommunicationsTowerBase
   components:
   - type: Sprite
     sprite: _RMC14/Structures/communications_tower.rsi
@@ -145,7 +145,7 @@
 - type: entity
   parent: AU14SpawnerCommunicationsTowerBase
   id: AU14SpawnerCommunicationsTowerOne
-  suffix: One
+  suffix: ent-AU14SpawnerCommunicationsTowerOne-suffix
   components:
   - type: Sprite
     state: comms_landmark_1
@@ -155,7 +155,7 @@
 - type: entity
   parent: AU14SpawnerCommunicationsTowerBase
   id: AU14SpawnerCommunicationsTowerTwo
-  suffix: Two
+  suffix: ent-AU14SpawnerCommunicationsTowerTwo-suffix
   components:
   - type: Sprite
     state: comms_landmark_2

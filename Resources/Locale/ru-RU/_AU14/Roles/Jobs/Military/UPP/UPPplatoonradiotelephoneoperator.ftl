@@ -1,0 +1,5 @@
+job-au14jobgovforradiotelephoneoperatorupp-desc = au14-должностная инструкция-радиотелефонный оператор
+job-au14jobgovforradiotelephoneoperatorupp-name = Радиотелефонист
+job-au14jobgovforradiotelephoneoperatorupp-overwatchrolename = Радиотелефонист
+job-au14jobgovforradiotelephoneoperatorupp-spawnmenurolename = Лидер огневой группы (УПП)
+job-au14jobgovforradiotelephoneoperatorupp-supervisors = au14-job-supervisors-govfor

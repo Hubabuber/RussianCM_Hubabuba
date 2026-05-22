@@ -1,11 +1,11 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorEngineer
   id: CMSurvivorChancesColonyMaintTech
   name: rmc-job-name-colonist-colony-maint-tech
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorChancesColonyMaintTech
   startingGear: RMCGearSurvivorChancesColonyMaintTech
-  spawnMenuRoleName: Colony Maintenance Technician (Chance's Colonist)
+  spawnMenuRoleName: job-cmsurvivorchancescolonymainttech-spawnmenurolename
   greeting: rmc-job-greeting-chances-colonist
   special:
   - !type:AddComponentSpecial
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesColonyMaintTech
-  name: colony maintenance technician spawn point
+  name: ent-RMCSpawnPointSurvivorChancesColonyMaintTech
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -55,7 +55,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesColonyMaintTech
-  name: colony maintenance technician ghost role
+  name: ent-RMCRandomHumanoidSurvivorChancesColonyMaintTech
   components:
   - type: Sprite
     layers:

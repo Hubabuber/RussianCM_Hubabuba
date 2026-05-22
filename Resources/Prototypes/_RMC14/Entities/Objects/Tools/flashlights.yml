@@ -64,8 +64,8 @@
 - type: entity
   parent: RMCBoxMagazineSupplyBase
   id: RMCBoxFlashlightsEmpty
-  name: box of flashlights (x8)
-  description: A box of flashlights to brighten your day!
+  name: ent-RMCBoxFlashlightsEmpty
+  description: ent-RMCBoxFlashlightsEmpty-desc
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCBoxFlashlightsEmpty
   id: RMCBoxFlashlights
-  suffix: Filled
+  suffix: ent-RMCBoxFlashlights-suffix
   components:
   - type: CMItemSlots
     startingItem: RMCFlashlight
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCFlashlightBase
   id: RMCFlashlight
-  name: flashlight
-  description: A hand-held emergency light.
+  name: ent-RMCFlashlight
+  description: ent-RMCFlashlight-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/flashlight.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: RMCFlashlightBase
   id: RMCFlashlightPen
-  name: penlight
-  description: A pen-sized light, used by medical staff.
+  name: ent-RMCFlashlightPen
+  description: ent-RMCFlashlightPen-desc
   components:
   - type: HandheldLight
     addPrefix: false
@@ -157,8 +157,8 @@
 - type: entity
   parent: RMCFlashlightBase
   id: RMCLamp
-  name: desk lamp
-  description: A desk lamp with an adjustable mount.
+  name: ent-RMCLamp
+  description: ent-RMCLamp-desc
   components:
   - type: HandheldLight
     addPrefix: false
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampGreen
-  description: A classic green-shaded desk lamp.
+  description: ent-RMCLampGreen-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/green_lamp.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampMenorah
-  name: Menorah
-  description: For celebrating Chanukah.
+  name: ent-RMCLampMenorah
+  description: ent-RMCLampMenorah-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/menorah.rsi
@@ -202,8 +202,8 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampCandelabra
-  name: candelabra
-  description: A fire hazard that can be used to thwack things with impunity.
+  name: ent-RMCLampCandelabra
+  description: ent-RMCLampCandelabra-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/candelabra.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampTripod
-  name: tripod lamp
-  description: An emergency light tube mounted onto a tripod. It seemingly lasts forever.
+  name: ent-RMCLampTripod
+  description: ent-RMCLampTripod-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/tripod_lamp.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: RMCFlashlightBase
   id: RMCFlashlightLantern
-  name: lantern
-  description: A mining lantern.
+  name: ent-RMCFlashlightLantern
+  description: ent-RMCFlashlightLantern-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/lantern.rsi

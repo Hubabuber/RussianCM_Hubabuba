@@ -12,7 +12,7 @@
   requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-foreman
-  spawnMenuRoleName: Colony Miner (CMU)
+  spawnMenuRoleName: job-au14jobcivilianminer-spawnmenurolename
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianMiner
-  name: Spawn Point Civilian Miner
+  name: ent-AU14SpawnPointCivilianMiner
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianMiner

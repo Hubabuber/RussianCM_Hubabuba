@@ -2,8 +2,8 @@
   abstract: true
   parent: CMBaseStructureCorrodible
   id: RMCBaseWindowFrame
-  name: window frame
-  description: A big hole in the wall that used to sport a large window. Can be vaulted through.
+  name: ent-RMCBaseWindowFrame
+  description: ent-RMCBaseWindowFrame-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -182,7 +182,7 @@
 - type: entity
   parent: RMCBaseWindowFrame
   id: RMCWindowFrameHunterReinforced
-  suffix: hunter
+  suffix: ent-RMCWindowFrameHunterReinforced-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/colony_rframe.rsi

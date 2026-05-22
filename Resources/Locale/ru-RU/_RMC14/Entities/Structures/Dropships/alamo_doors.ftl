@@ -8,3 +8,5 @@ ent-CMAlamoDoor = люк для экипажа Аламо
 
 ent-CMAlamoCockpit = кабина
 
+ent-CMAlamoCockpitOpfor = кабина
+    .suffix = Аламо, Опфор

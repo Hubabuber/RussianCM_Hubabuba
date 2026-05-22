@@ -1,9 +1,9 @@
-﻿# Chessboard item (normal in game item you can hold in your hand)
+# Chessboard item (normal in game item you can hold in your hand)
 - type: entity
   parent: BaseBoardEntity
   id: ChessBoard
-  name: chessboard
-  description: A chessboard. Pieces included!
+  name: ent-ChessBoard
+  description: ent-ChessBoard-desc
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chessboard.rsi
@@ -18,7 +18,7 @@
 # Chessboard tabletop item (item only visible in tabletop game)
 - type: entity
   id: ChessBoardTabletop
-  name: chessboard
+  name: ent-ChessBoardTabletop
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:
@@ -29,7 +29,7 @@
 # White pieces
 - type: entity
   id: WhiteKing
-  name: white king
+  name: ent-WhiteKing
   parent: BaseTabletopPiece
   components:
   - type: Sprite
@@ -38,7 +38,7 @@
 
 - type: entity
   id: WhiteQueen
-  name: white queen
+  name: ent-WhiteQueen
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: WhiteRook
-  name: white rook
+  name: ent-WhiteRook
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -56,7 +56,7 @@
 
 - type: entity
   id: WhiteBishop
-  name: white bishop
+  name: ent-WhiteBishop
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: WhiteKnight
-  name: white knight
+  name: ent-WhiteKnight
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: WhitePawn
-  name: white pawn
+  name: ent-WhitePawn
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -84,7 +84,7 @@
 # Black pieces
 - type: entity
   id: BlackKing
-  name: black king
+  name: ent-BlackKing
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -93,7 +93,7 @@
 
 - type: entity
   id: BlackQueen
-  name: black queen
+  name: ent-BlackQueen
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: BlackRook
-  name: black rook
+  name: ent-BlackRook
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -111,7 +111,7 @@
 
 - type: entity
   id: BlackBishop
-  name: black bishop
+  name: ent-BlackBishop
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -120,7 +120,7 @@
 
 - type: entity
   id: BlackKnight
-  name: black knight
+  name: ent-BlackKnight
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -129,7 +129,7 @@
 
 - type: entity
   id: BlackPawn
-  name: black pawn
+  name: ent-BlackPawn
   parent: BaseTabletopPiece
   components:
     - type: Sprite

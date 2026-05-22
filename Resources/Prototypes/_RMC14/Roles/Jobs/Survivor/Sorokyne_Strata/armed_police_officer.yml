@@ -17,7 +17,7 @@
   startingGear: RMCGearSurvivorArmedPoliceOfficer
   accessGroups:
   - ColonistSec
-  spawnMenuRoleName: People's Armed Police Officer (Sorokyne Survivor)
+  spawnMenuRoleName: job-cmjobsurvivorarmedpoliceofficer-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorArmedPoliceOfficer
-  name: people's armed police officer spawn point
+  name: ent-RMCSpawnPointSurvivorArmedPoliceOfficer
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -69,5 +69,5 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetArmedPoliceOfficer
-  name: people's armed police officer preset
+  name: ent-RMCGearSurvivorPresetArmedPoliceOfficer
   categories: [ HideSpawnMenu ]

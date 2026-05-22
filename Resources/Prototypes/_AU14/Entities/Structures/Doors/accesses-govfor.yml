@@ -1,7 +1,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockGovfor
-  suffix: Govfor
+  suffix: ent-CMAirlockGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/govfor_door.rsi
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMAirlockGovfor
   id: CMAirlockGovforLocked
-  suffix: Govfor, Locked
+  suffix: ent-CMAirlockGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockGovforGlass
-  suffix: Govfor, Glass
+  suffix: ent-CMAirlockGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/govfor_door_glass.rsi
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMAirlockGovforGlass
   id: CMAirlockGovforGlassLocked
-  suffix: Govfor, Glass, Locked
+  suffix: ent-CMAirlockGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMDoubleDoorBase
   id: CMDoubleDoorGovfor
-  suffix: Govfor, Solid
+  suffix: ent-CMDoubleDoorGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/govfor_solid.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: CMDoubleDoorGovfor
   id: CMDoubleDoorGovforLocked
-  suffix: Govfor, Solid, Locked
+  suffix: ent-CMDoubleDoorGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -50,7 +50,7 @@
 - type: entity
   parent: CMDoubleDoorBase
   id: CMDoubleDoorGovforGlass
-  suffix: Govfor, Glass
+  suffix: ent-CMDoubleDoorGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/govfor_glass.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: CMDoubleDoorGovforGlass
   id: CMDoubleDoorGovforGlassLocked
-  suffix: Govfor, Glass, Locked
+  suffix: ent-CMDoubleDoorGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -66,7 +66,7 @@
 - type: entity
   parent: CMAirlockGovfor
   id: CMAirlockCommandGovfor
-  suffix: Command, Govfor
+  suffix: ent-CMAirlockCommandGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/command_govfor_door.rsi
@@ -74,7 +74,7 @@
 - type: entity
   parent: CMAirlockCommandGovfor
   id: CMAirlockCommandGovforLocked
-  suffix: Command, Govfor, Locked
+  suffix: ent-CMAirlockCommandGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovforCommand"]]
@@ -82,7 +82,7 @@
 - type: entity
   parent: CMAirlockGovforGlass
   id: CMAirlockCommandGovforGlass
-  suffix: Command, Govfor, Glass
+  suffix: ent-CMAirlockCommandGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/command_govfor_door_glass.rsi
@@ -90,7 +90,7 @@
 - type: entity
   parent: CMAirlockCommandGovforGlass
   id: CMAirlockCommandGovforGlassLocked
-  suffix: Command, Govfor, Glass, Locked
+  suffix: ent-CMAirlockCommandGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovforCommand"]]
@@ -98,7 +98,7 @@
 - type: entity
   parent: CMDoubleDoorGovfor
   id: CMDoubleDoorCommandGovfor
-  suffix: Command, Govfor, Solid
+  suffix: ent-CMDoubleDoorCommandGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/command_govfor_solid.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMDoubleDoorCommandGovfor
   id: CMDoubleDoorCommandGovforLocked
-  suffix: Command, Govfor, Solid, Locked
+  suffix: ent-CMDoubleDoorCommandGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovforCommand"]]
@@ -115,7 +115,7 @@
 - type: entity
   parent: CMDoubleDoorGovforGlass
   id: CMDoubleDoorCommandGovforGlass
-  suffix: Command, Govfor, Glass
+  suffix: ent-CMDoubleDoorCommandGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/command_govfor_glass.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMDoubleDoorCommandGovforGlass
   id: CMDoubleDoorCommandGovforGlassLocked
-  suffix: Command, Govfor, Glass, Locked
+  suffix: ent-CMDoubleDoorCommandGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovforCommand"]]
@@ -131,7 +131,7 @@
 - type: entity
   parent: CMAirlockGovfor
   id: CMAirlockSecurityGovfor
-  suffix: Security, Govfor
+  suffix: ent-CMAirlockSecurityGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/security_govfor_door.rsi
@@ -139,7 +139,7 @@
 - type: entity
   parent: CMAirlockSecurityGovfor
   id: CMAirlockSecurityGovforLocked
-  suffix: Security, Govfor, Locked
+  suffix: ent-CMAirlockSecurityGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovforSecurity"]]
@@ -147,7 +147,7 @@
 - type: entity
   parent: CMAirlockGovforGlass
   id: CMAirlockSecurityGovforGlass
-  suffix: Security, Govfor, Glass
+  suffix: ent-CMAirlockSecurityGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/security_govfor_door_glass.rsi
@@ -155,7 +155,7 @@
 - type: entity
   parent: CMAirlockSecurityGovforGlass
   id: CMAirlockSecurityGovforGlassLocked
-  suffix: Security, Govfor, Glass, Locked
+  suffix: ent-CMAirlockSecurityGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovforSecurity"]]
@@ -163,7 +163,7 @@
 - type: entity
   parent: CMDoubleDoorGovfor
   id: CMDoubleDoorSecurityGovfor
-  suffix: Security, Govfor, Solid
+  suffix: ent-CMDoubleDoorSecurityGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/security_govfor_solid.rsi
@@ -172,7 +172,7 @@
 - type: entity
   parent: CMDoubleDoorSecurityGovfor
   id: CMDoubleDoorSecurityGovforLocked
-  suffix: Security, Govfor, Solid, Locked
+  suffix: ent-CMDoubleDoorSecurityGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovforSecurity"]]
@@ -180,7 +180,7 @@
 - type: entity
   parent: CMDoubleDoorGovforGlass
   id: CMDoubleDoorSecurityGovforGlass
-  suffix: Security, Govfor, Glass
+  suffix: ent-CMDoubleDoorSecurityGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/security_govfor_glass.rsi
@@ -188,7 +188,7 @@
 - type: entity
   parent: CMDoubleDoorSecurityGovforGlass
   id: CMDoubleDoorSecurityGovforGlassLocked
-  suffix: Security, Govfor, Glass, Locked
+  suffix: ent-CMDoubleDoorSecurityGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovforSecurity"]]
@@ -196,7 +196,7 @@
 - type: entity
   parent: CMAirlockGovfor
   id: CMAirlockMedicalGovfor
-  suffix: Medical, Govfor
+  suffix: ent-CMAirlockMedicalGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/medical_govfor_door.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: CMAirlockMedicalGovfor
   id: CMAirlockMedicalGovforLocked
-  suffix: Medical, Govfor, Locked
+  suffix: ent-CMAirlockMedicalGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -212,7 +212,7 @@
 - type: entity
   parent: CMAirlockGovforGlass
   id: CMAirlockMedicalGovforGlass
-  suffix: Medical, Govfor, Glass
+  suffix: ent-CMAirlockMedicalGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/medical_govfor_door_glass.rsi
@@ -220,7 +220,7 @@
 - type: entity
   parent: CMAirlockMedicalGovforGlass
   id: CMAirlockMedicalGovforGlassLocked
-  suffix: Medical, Govfor, Glass, Locked
+  suffix: ent-CMAirlockMedicalGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -228,7 +228,7 @@
 - type: entity
   parent: CMDoubleDoorGovfor
   id: CMDoubleDoorMedicalGovfor
-  suffix: Medical, Govfor, Solid
+  suffix: ent-CMDoubleDoorMedicalGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/medical_govfor_solid.rsi
@@ -237,7 +237,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalGovfor
   id: CMDoubleDoorMedicalGovforLocked
-  suffix: Medical, Govfor, Solid, Locked
+  suffix: ent-CMDoubleDoorMedicalGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -245,7 +245,7 @@
 - type: entity
   parent: CMDoubleDoorGovforGlass
   id: CMDoubleDoorMedicalGovforGlass
-  suffix: Medical, Govfor, Glass
+  suffix: ent-CMDoubleDoorMedicalGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/medical_govfor_glass.rsi
@@ -253,7 +253,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalGovforGlass
   id: CMDoubleDoorMedicalGovforGlassLocked
-  suffix: Medical, Govfor, Glass, Locked
+  suffix: ent-CMDoubleDoorMedicalGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -261,7 +261,7 @@
 - type: entity
   parent: CMAirlockGovfor
   id: CMAirlockEngineerGovfor
-  suffix: Engineer, Govfor
+  suffix: ent-CMAirlockEngineerGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/engineer_govfor_door.rsi
@@ -269,7 +269,7 @@
 - type: entity
   parent: CMAirlockEngineerGovfor
   id: CMAirlockEngineerGovforLocked
-  suffix: Engineer, Govfor, Locked
+  suffix: ent-CMAirlockEngineerGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMAirlockGovforGlass
   id: CMAirlockEngineerGovforGlass
-  suffix: Engineer, Govfor, Glass
+  suffix: ent-CMAirlockEngineerGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/engineer_govfor_door_glass.rsi
@@ -285,7 +285,7 @@
 - type: entity
   parent: CMAirlockEngineerGovforGlass
   id: CMAirlockEngineerGovforGlassLocked
-  suffix: Engineer, Govfor, Glass, Locked
+  suffix: ent-CMAirlockEngineerGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -293,7 +293,7 @@
 - type: entity
   parent: CMDoubleDoorGovfor
   id: CMDoubleDoorEngineerGovfor
-  suffix: Engineer, Govfor, Solid
+  suffix: ent-CMDoubleDoorEngineerGovfor-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/engineer_govfor_solid.rsi
@@ -302,7 +302,7 @@
 - type: entity
   parent: CMDoubleDoorEngineerGovfor
   id: CMDoubleDoorEngineerGovforLocked
-  suffix: Engineer, Govfor, Solid, Locked
+  suffix: ent-CMDoubleDoorEngineerGovforLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]
@@ -310,7 +310,7 @@
 - type: entity
   parent: CMDoubleDoorGovforGlass
   id: CMDoubleDoorEngineerGovforGlass
-  suffix: Engineer, Govfor, Glass
+  suffix: ent-CMDoubleDoorEngineerGovforGlass-suffix
   components:
   - type: Sprite
     sprite: _AU14/Structures/Doors/Airlocks/Double/engineer_govfor_glass.rsi
@@ -318,7 +318,7 @@
 - type: entity
   parent: CMDoubleDoorEngineerGovforGlass
   id: CMDoubleDoorEngineerGovforGlassLocked
-  suffix: Engineer, Govfor, Glass, Locked
+  suffix: ent-CMDoubleDoorEngineerGovforGlassLocked-suffix
   components:
   - type: AccessReader
     access: [["AU14AccessGovfor"]]

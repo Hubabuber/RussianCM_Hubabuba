@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorSecurity
   id: RMCSurvivorKutjevoCMBDeputy
   name: rmc-job-name-survivor-cmb-deputy
@@ -6,7 +6,7 @@
   startingGear: RMCGearSurvivorKutjevoCMBDeputy
   hasIcon: true
   icon: RMCJobIconBureauDeputy
-  spawnMenuRoleName: CMB Deputy (Kutjevo Survivor)
+  spawnMenuRoleName: job-rmcsurvivorkutjevocmbdeputy-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoCMBDeputy
-  name: kutjevo cmb deputy spawn point
+  name: ent-RMCSpawnPointSurvivorKutjevoCMBDeputy
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoCMBDeputy
@@ -55,5 +55,5 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetKutjevoCMBDeputy
-  name: kutjevo goon colonist preset
+  name: ent-RMCGearSurvivorPresetKutjevoCMBDeputy
   categories: [ HideSpawnMenu ]

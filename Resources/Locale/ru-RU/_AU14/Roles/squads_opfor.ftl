@@ -1,0 +1,1 @@
+ent-SquadOpfor = Сьерра

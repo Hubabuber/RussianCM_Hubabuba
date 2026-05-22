@@ -1,4 +1,4 @@
-﻿# PORTING CHEATSHEET
+# PORTING CHEATSHEET
 # 0: Block nothing
 # 1: Block mortar placement, lasing, medevac
 # 2: Block CAS signals, supply drops, fultoning, mortar fire
@@ -8,8 +8,8 @@
 - type: entity
   abstract: true
   id: RMCAreaBase
-  name: area
-  suffix: Area
+  name: ent-RMCAreaBase
+  suffix: ent-RMCAreaBase-suffix
   placement:
     mode: SnapgridCenter
     snap:
@@ -41,7 +41,7 @@
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionZero
-  name: protection 0
+  name: ent-RMCAreaProtectionZero
   components:
   - type: Area
     CAS: true
@@ -57,19 +57,19 @@
   parent: RMCAreaProtectionZero
   abstract: true
   id: RMCAreaNone
-  name: none
+  name: ent-RMCAreaNone
 
 - type: entity
   parent: RMCAreaProtectionZero
   abstract: true
   id: RMCAreaGlass
-  name: glass
+  name: ent-RMCAreaGlass
 
 - type: entity
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionOne
-  name: protection 1
+  name: ent-RMCAreaProtectionOne
   components:
   - type: Area
     lasing: false
@@ -81,13 +81,13 @@
   parent: RMCAreaProtectionOne
   abstract: true
   id: RMCAreaProtectionMetal
-  name: metal
+  name: ent-RMCAreaProtectionMetal
 
 - type: entity
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionTwo
-  name: protection 2
+  name: ent-RMCAreaProtectionTwo
   components:
   - type: Area
     fulton: false
@@ -97,19 +97,19 @@
   parent: RMCAreaProtectionTwo
   abstract: true
   id: RMCAreaUndergroundAllowCAS
-  name: underground allow cas
+  name: ent-RMCAreaUndergroundAllowCAS
 
 - type: entity
   parent: RMCAreaProtectionTwo
   abstract: true
   id: RMCAreaUndergroundMetalAllowCAS
-  name: underground metal allow cas
+  name: ent-RMCAreaUndergroundMetalAllowCAS
 
 - type: entity
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionThree
-  name: protection 3
+  name: ent-RMCAreaProtectionThree
   components:
   - type: Area
     CAS: false
@@ -118,19 +118,19 @@
   parent: RMCAreaProtectionThree
   abstract: true
   id: RMCAreaUndergroundBlockCAS
-  name: underground block cas
+  name: ent-RMCAreaUndergroundBlockCAS
 
 - type: entity
   parent: RMCAreaProtectionThree
   abstract: true
   id: RMCAreaUndergroundMetalBlockCAS
-  name: underground metal block cas
+  name: ent-RMCAreaUndergroundMetalBlockCAS
 
 - type: entity
   parent: RMCAreaBase
   abstract: true
   id: RMCAreaProtectionFour
-  name: protection 4
+  name: ent-RMCAreaProtectionFour
   components:
   - type: Area
     OB: false
@@ -139,28 +139,28 @@
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaDeepUnderground
-  name: deep underground
+  name: ent-RMCAreaDeepUnderground
 
 - type: entity
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaDeepUndergroundMetal
-  name: deep underground metal
+  name: ent-RMCAreaDeepUndergroundMetal
 
 - type: entity
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaReinforcedMetal
-  name: reinforced metal
+  name: ent-RMCAreaReinforcedMetal
 
 - type: entity
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaResin
-  name: resin
+  name: ent-RMCAreaResin
 
 - type: entity
   parent: RMCAreaProtectionFour
   abstract: true
   id: RMCAreaMax
-  name: max
+  name: ent-RMCAreaMax

@@ -3,3 +3,6 @@ ent-RMCGearSurvivorPresetKutjevoTrucker = Пресет колониста-дал
 ent-RMCSpawnPointSurvivorKutjevoTrucker = точка спавна дальнобойщиков в Кутьево
  
 
+job-rmcsurvivorkutjevotrucker-desc = cm-описание-работы-выживший
+job-rmcsurvivorkutjevotrucker-name = RMC-имя-должности-выжившего-кутьево-дальнобойщика
+job-rmcsurvivorkutjevotrucker-spawnmenurolename = Кутьевский оператор большегрузной техники (Кутьевский выживший)

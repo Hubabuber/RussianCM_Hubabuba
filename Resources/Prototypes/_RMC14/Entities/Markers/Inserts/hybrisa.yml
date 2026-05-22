@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: RMCMapInsertBase
   id: RMCMapInsertHybrisaBase
-  suffix: Insert Hybrisa
+  suffix: ent-RMCMapInsertHybrisaBase-suffix
   components:
   - type: MapInsert
     clearEntities: true
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMapInsertHybrisaBase
   id: RMCMapInsertHybrisaCLFSpaceport
-  name: CLF Spaceport
-  suffix: Insert Hybrisa
+  name: ent-RMCMapInsertHybrisaCLFSpaceport
+  suffix: ent-RMCMapInsertHybrisaCLFSpaceport-suffix
   components:
   - type: MapInsert
     variations:
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCMapInsertHybrisaBase
   id: RMCMapInsertHybrisaTSEAirbase
-  name: TSE Airbase
-  suffix: Insert Hybrisa
+  name: ent-RMCMapInsertHybrisaTSEAirbase
+  suffix: ent-RMCMapInsertHybrisaTSEAirbase-suffix
   components:
   - type: MapInsert
     variations:

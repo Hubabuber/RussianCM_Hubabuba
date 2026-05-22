@@ -4,8 +4,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorMARSOC
-  name: marine raider armor
-  description: A heavily customized suit of M3 armor. Used by Marine Raiders.
+  name: ent-RMCArmorMARSOC
+  description: ent-RMCArmorMARSOC-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/marsoc.rsi
@@ -29,7 +29,7 @@
 - type: entity
   parent: RMCArmorMARSOC
   id: RMCArmorMARSOCXM40
-  suffix: XM40 HEAP, Filled
+  suffix: ent-RMCArmorMARSOCXM40-suffix
   components:
   - type: StorageFill
     contents:
@@ -40,8 +40,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorIronBear
-  name: H1 iron bears vest
-  description: A protective vest worn by Iron Bears mercenaries.
+  name: ent-CMArmorIronBear
+  description: ent-CMArmorIronBear-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/bear.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorDutchVest
-  name: D2 armored vest
-  description: A protective vest worn by some seriously experienced mercs.
+  name: ent-CMArmorDutchVest
+  description: ent-CMArmorDutchVest-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Dutch/vest.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorDutchJacket
-  name: safari jacket
-  description: A tailored hunting jacket, cunningly lined with segmented armor plates. Sometimes the game shoots back.
+  name: ent-CMArmorDutchJacket
+  description: ent-CMArmorDutchJacket-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Dutch/bandolier.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: RMCArmorSPP
   id: CMArmorFreelancer
-  name: freelancer cuirass
-  description: An armored protective chestplate scrapped together from various plates. It keeps up remarkably well, as the craftsmanship is solid, and the design mirrors such armors in the UPP and the UNMC. The many skilled craftsmen in the freelancers ranks produce these vests at a rate about one a month.
+  name: ent-CMArmorFreelancer
+  description: ent-CMArmorFreelancer-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/freelancer.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: RMCCoatMilitia
-  name: colonial militia hauberk
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops.
+  name: ent-RMCCoatMilitia
+  description: ent-RMCCoatMilitia-desc
   components:
   - type: AllowSuitStorage
   - type: Sprite
@@ -161,8 +161,8 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaVest
-  name: colonial militia vest
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This extremely light variant protects only the chest and abdomen.
+  name: ent-RMCCoatMilitiaVest
+  description: ent-RMCCoatMilitiaVest-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Militia/vest.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaBrace
-  name: colonial militia brace
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This extremely light variant has some of the chest pieces removed.
+  name: ent-RMCCoatMilitiaBrace
+  description: ent-RMCCoatMilitiaBrace-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Militia/brace.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaHauberk
-  name: colonial militia partial hauberk
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This even lighter variant has some of the arm pieces removed.
+  name: ent-RMCCoatMilitiaHauberk
+  description: ent-RMCCoatMilitiaHauberk-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Militia/hauberk.rsi
@@ -214,9 +214,9 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaHarness
-  name: colonial militia harness
-  suffix: smart gun harness
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This one has straps interweaved with the plates, that allow the user to fire a captured smart gun, if a bit uncomfortably.
+  name: ent-RMCCoatMilitiaHarness
+  suffix: ent-RMCCoatMilitiaHarness-suffix
+  description: ent-RMCCoatMilitiaHarness-desc
   components:
   - type: SmartGunArmor
 
@@ -225,8 +225,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorRoyal, CMArmorM4PMC]
   id: RMCArmorMercenary
-  name: mercenary K12 ceramic plated armor
-  description: A set of grey, heavy ceramic armor with dark blue highlights. It is the standard uniform of an unknown mercenary group working in the sector.
+  name: ent-RMCArmorMercenary
+  description: ent-RMCArmorMercenary-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Mercenary/heavy.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: RMCArmorMercenary
   id: RMCArmorMercenaryHeavy
-  name: mercenary modified K12 ceramic plated armor
-  description: A set of grey, heavy ceramic armor with dark blue highlights. It has been modified with extra ceramic plates placed in its storage pouch, and seems intended to support an extremely heavy weapon.
+  name: ent-RMCArmorMercenaryHeavy
+  description: ent-RMCArmorMercenaryHeavy-desc
   components:
   - type: CMArmor
     melee: 50 # CLOTHING_ARMOR_ULTRAHIGH
@@ -265,8 +265,8 @@
 - type: entity
   parent: RMCArmorMercenary
   id: RMCArmorMercenaryMiner
-  name: mercenary Y8 armored miner vest
-  description: A set of beige, light armor built for protection while mining. It is a specialized uniform of an unknown mercenary group working in the sector.
+  name: ent-RMCArmorMercenaryMiner
+  description: ent-RMCArmorMercenaryMiner-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Mercenary/miner.rsi
@@ -278,8 +278,8 @@
 - type: entity
   parent: RMCArmorMercenary
   id: RMCArmorMercenaryEngineer
-  name: mercenary Z7 armored vest
-  description: A set of blue armor with yellow highlights built for protection while building or carrying out medical treatment in highly dangerous environments. It is a specialized uniform of an unknown mercenary group working in the sector.
+  name: ent-RMCArmorMercenaryEngineer
+  description: ent-RMCArmorMercenaryEngineer-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Mercenary/engi.rsi
@@ -288,8 +288,8 @@
 - type: entity
   parent: RMCArmorM3G4
   id: RMCArmorMercenaryHEFA
-  name: HEFA knight armor
-  description: A thick piece of armor adorning a HEFA. Usually seen on a HEFA knight.
+  name: ent-RMCArmorMercenaryHEFA
+  description: ent-RMCArmorMercenaryHEFA-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Mercenary/hefa.rsi
@@ -305,9 +305,9 @@
 - type: entity
   parent: [RMCArmorM4PMCNoLight, RMCBaseMarineArmorLight]
   id: RMCArmorPMCRiot
-  name: UN-M1 riot armor
-  description: Based on the M3 pattern employed by the UNMC, the UN-M1 body armor is employed by security, riot control and union-busting teams. While robust against melee and bullet attacks, it critically lacks coverage of the legs and arms.
-  suffix: ""
+  name: ent-RMCArmorPMCRiot
+  description: ent-RMCArmorPMCRiot-desc
+  suffix: "ent-RMCArmorPMCRiot-suffix"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/un-m1_body_armor.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: RMCArmorPMCRiot
   id: RMCArmorPMCRiotSynth
-  name: UN-M1S synthetic body armor
-  description: Based on the M3 pattern employed by the UNMC, the UN-M1 body armor is employed by security, riot control and union-busting teams. The UN-1MS modification is Synthetic programming compliant, sacrificing protection for speed and carrying capacity.
+  name: ent-RMCArmorPMCRiotSynth
+  description: ent-RMCArmorPMCRiotSynth-desc
   components:
   - type: CMArmor
     melee: 0
@@ -352,8 +352,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorCBRN
-  name: CBRN M3-M armor
-  description: While lacking the appearance of the M3 pattern armor worn in regular service, this armor piece is still a derivative of it. It has been heavily modified to fit over the MOPP suit with additional padding and Venlar composite layers removed, so as not to restrict the wearer’s movement. However, with the reduction of composite layers, the personal protection offered is less than desired with complaints having been lodged since 2165.
+  name: ent-RMCArmorCBRN
+  description: ent-RMCArmorCBRN-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/cbrn.rsi
@@ -373,7 +373,7 @@
 - type: entity
   parent: RMCArmorCBRN
   id: RMCArmorCBRNAdvanced
-  name: CBRN M3-M advanced armor
+  name: ent-RMCArmorCBRNAdvanced
   components:
   - type: CMArmor
     melee: 30 # CLOTHING_ARMOR_HIGH

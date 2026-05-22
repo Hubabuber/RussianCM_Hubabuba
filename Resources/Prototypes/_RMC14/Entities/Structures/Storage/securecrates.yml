@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomCrateLoot
-  name: random crate loot spawner
-  description: This is a random crate loot spawner
+  name: ent-RMCSpawnerRandomCrateLoot
+  description: ent-RMCSpawnerRandomCrateLoot-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -29,8 +29,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomMiniAmmoCrateLoot
-  name: random crate loot spawner
-  description: This is a random crate loot spawner
+  name: ent-RMCSpawnerRandomMiniAmmoCrateLoot
+  description: ent-RMCSpawnerRandomMiniAmmoCrateLoot-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -54,8 +54,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomMiniMedcase
-  name: random crate loot spawner
-  description: This is a random crate loot spawner
+  name: ent-RMCSpawnerRandomMiniMedcase
+  description: ent-RMCSpawnerRandomMiniMedcase-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -83,8 +83,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomMERCGuns
-  name: random crate loot spawner
-  description: This is a random crate loot spawner
+  name: ent-RMCSpawnerRandomMERCGuns
+  description: ent-RMCSpawnerRandomMERCGuns-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -122,8 +122,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomConfiscatedEquipment
-  name: random crate loot spawner
-  description: This is a random crate loot spawner
+  name: ent-RMCSpawnerRandomConfiscatedEquipment
+  description: ent-RMCSpawnerRandomConfiscatedEquipment-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -137,8 +137,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomConfiscatedWeaponry
-  name: random crate loot spawner
-  description: This is a random crate loot spawner
+  name: ent-RMCSpawnerRandomConfiscatedWeaponry
+  description: ent-RMCSpawnerRandomConfiscatedWeaponry-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -152,8 +152,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomHalyconGuns
-  name: random crate loot spawner
-  description: This is a random crate loot spawner
+  name: ent-RMCSpawnerRandomHalyconGuns
+  description: ent-RMCSpawnerRandomHalyconGuns-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -178,8 +178,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomUNMCGuns
-  name: random crate loot spawner
-  description: This is a random crate loot spawner
+  name: ent-RMCSpawnerRandomUNMCGuns
+  description: ent-RMCSpawnerRandomUNMCGuns-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -213,8 +213,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCCrateLarge
-  name: large crate
-  description: A hefty wooden crate.
+  name: ent-RMCCrateLarge
+  description: ent-RMCCrateLarge-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/densecrate.rsi
@@ -283,8 +283,8 @@
 - type: entity
   parent: RMCCrateLarge
   id: RMCCrateHalyconFireArms
-  name: Halycon firearm crate
-  description: A hefty wooden crate.
+  name: ent-RMCCrateHalyconFireArms
+  description: ent-RMCCrateHalyconFireArms-desc
   components:
   - type: SpawnOnTerminate
     spawn: RMCSpawnerRandomHalyconGuns
@@ -294,8 +294,8 @@
 - type: entity
   parent: RMCCrateLarge
   id: RMCCrateBlackmarketFireArms
-  name: Black market firearm crate
-  description: A hefty wooden crate.
+  name: ent-RMCCrateBlackmarketFireArms
+  description: ent-RMCCrateBlackmarketFireArms-desc
   components:
   - type: SpawnOnTerminate
     spawn: RMCSpawnerRandomMERCGuns
@@ -303,8 +303,8 @@
 - type: entity
   parent: RMCSecureCaseDouble #Evilass hidden GUN GAMBA CRATEEEEEEEE For CHANCESSSS CLAIMEEEEEEEEEEEEEE
   id: RMCCrateBlackmarketFireArmsHidden
-  name: supply crate
-  description: A hefty wooden crate.
+  name: ent-RMCCrateBlackmarketFireArmsHidden
+  description: ent-RMCCrateBlackmarketFireArmsHidden-desc
   components:
   - type: SpawnOnTerminate
     spawn: RMCSpawnerRandomMERCGuns
@@ -330,8 +330,8 @@
 - type: entity
   parent: RMCCrateLarge # TDLR (randomized spawn does not work with crateopenable spawn a object that uses Spawnonterminate for it) Part of UNMC Guns Crate
   id: RMCCrateUNMCGunsDecoyObject
-  name: Decoy Object UNMC firearms crate (x3)
-  description: Decoy Object.
+  name: ent-RMCCrateUNMCGunsDecoyObject
+  description: ent-RMCCrateUNMCGunsDecoyObject-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn
@@ -342,8 +342,8 @@
 - type: entity
   parent: RMCCrateLarge # UNMC Guns Crate
   id: RMCCrateUNMCGuns
-  name: UNMC firearms crate (x3)
-  description: A supply crate containing 3 firearms used by UNMC forces.
+  name: ent-RMCCrateUNMCGuns
+  description: ent-RMCCrateUNMCGuns-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -355,8 +355,8 @@
 - type: entity
   parent: RMCCrateLarge # UNMC Guns Crate
   id: RMCCrateUNMCGunsSingle
-  name: UNMC firearms crate
-  description: A supply crate containing firearms used by UNMC forces.
+  name: ent-RMCCrateUNMCGunsSingle
+  description: ent-RMCCrateUNMCGunsSingle-desc
   components:
   - type: SpawnOnTerminate
     spawn: RMCSpawnerRandomUNMCGuns
@@ -364,8 +364,8 @@
 - type: entity
   parent: RMCSecureCaseMedicalBig #Medical Vendor Crate
   id: RMCCrateMedicalVendor
-  name: We-Ya-Med Plus crate
-  description: A crate containing one We-Ya-Med Plus vendor.
+  name: ent-RMCCrateMedicalVendor
+  description: ent-RMCCrateMedicalVendor-desc
   components:
   - type: SpawnOnTerminate
     spawn: CMVendorMedicalAllAccess
@@ -373,8 +373,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped #Generator Crate
   id: RMCCrateGeneratorPACMAN
-  name: P.A.C.M.A.N. crate
-  description: A crate containing a P.A.C.M.A.N. generator, some fuel, and some cable coil to get your power up and going.
+  name: ent-RMCCrateGeneratorPACMAN
+  description: ent-RMCCrateGeneratorPACMAN-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -390,8 +390,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped #Floodlights (funny drag stuff)
   id: RMCCrateFloodlightX4
-  name: floodlight crate (x4)
-  description: A crate containing four floodlights. "Warning It might be bit tangled!" written on the side.
+  name: ent-RMCCrateFloodlightX4
+  description: ent-RMCCrateFloodlightX4-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -403,8 +403,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped #Floodlights (funny drag stuff)
   id: RMCCrateTablesAndRacks
-  name: storage solutions crate (x10, x10)
-  description: A crate containing ten table parts, and ten rack parts, for easy storage setup.
+  name: ent-RMCCrateTablesAndRacks
+  description: ent-RMCCrateTablesAndRacks-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -418,8 +418,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped #Water Bottles
   id: RMCCrateBottledWaterX50
-  name: We-Ya Bottled Water crate (x50)
-  description: A crate containing fifty We-Ya Bottled Spring Water bottles.
+  name: ent-RMCCrateBottledWaterX50
+  description: ent-RMCCrateBottledWaterX50-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -431,8 +431,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped #Flare Boxes
   id: RMCCrateFlares200
-  name: Flare supply crate (x200)
-  description: A supply crate containing two crates of flares.
+  name: ent-RMCCrateFlares200
+  description: ent-RMCCrateFlares200-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -444,8 +444,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped #Powerloader
   id: RMCCratePowerLoaderYellow
-  name: Powerloader crate
-  description: A crate containing one folded, but fully assembled, LU-50 Power Loader and included pamphlet for quick training.
+  name: ent-RMCCratePowerLoaderYellow
+  description: ent-RMCCratePowerLoaderYellow-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -457,8 +457,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped #Powerloader Fujin
   id: RMCCratePowerLoaderGreen
-  name: Fujin Powerloader crate
-  description: A crate containing one folded, but fully assembled, LU-43 Power Loader and included pamphlet for quick training.
+  name: ent-RMCCratePowerLoaderGreen
+  description: ent-RMCCratePowerLoaderGreen-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -470,8 +470,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped #Powerloader Ferret
   id: RMCCratePowerLoaderBlue
-  name: Ferret Powerloader crate
-  description: A crate containing one folded, but fully assembled, LU-52 Power Loader and included pamphlet for quick training.
+  name: ent-RMCCratePowerLoaderBlue
+  description: ent-RMCCratePowerLoaderBlue-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -483,8 +483,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped # 4 x25 Sandbags
   id: RMCCrateSandbags100
-  name: sandbag supply crate (x100)
-  description: A supply crate containing four piles of twenty-five sandbags.
+  name: ent-RMCCrateSandbags100
+  description: ent-RMCCrateSandbags100-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -496,8 +496,8 @@
 - type: entity
   parent: RMCSecureCaseStrapped # 2 x30 Plasteel Sheets
   id: RMCCratePlasteel60
-  name: plasteel supply crate (x60)
-  description: A supply crate containing two stacks of 30 plasteel sheets.
+  name: ent-RMCCratePlasteel60
+  description: ent-RMCCratePlasteel60-desc
   components:
   - type: CrateOpenable
     spawn:
@@ -511,8 +511,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCOreBox
-  name: ore box
-  description: A heavy box used for storing ore.
+  name: ent-RMCOreBox
+  description: ent-RMCOreBox-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/orebox.rsi
@@ -563,8 +563,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCSecureCase
-  name: storage case
-  description: A black storage case.
+  name: ent-RMCSecureCase
+  description: ent-RMCSecureCase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/case.rsi
@@ -610,8 +610,8 @@
 - type: entity
   parent: RMCSecureCase
   id: RMCSecureCaseDouble
-  name: cases
-  description: A stack of black storage cases.
+  name: ent-RMCSecureCaseDouble
+  description: ent-RMCSecureCaseDouble-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/casedouble.rsi
@@ -626,8 +626,8 @@
 - type: entity
   parent: RMCSecureCase
   id: RMCSecureCaseSmall
-  name: small cases
-  description: Two small black storage cases.
+  name: ent-RMCSecureCaseSmall
+  description: ent-RMCSecureCaseSmall-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/casesmall.rsi
@@ -642,8 +642,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCSecureCaseChest
-  name: chest
-  description: hefty wooden crate.
+  name: ent-RMCSecureCaseChest
+  description: ent-RMCSecureCaseChest-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/chest.rsi
@@ -689,8 +689,8 @@
 - type: entity
   parent: RMCSecureCaseChest
   id: RMCSecureCaseStrapped
-  name: secure supply crate
-  description: A hefty wooden crate.
+  name: ent-RMCSecureCaseStrapped
+  description: ent-RMCSecureCaseStrapped-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/securecrate.rsi
@@ -705,8 +705,8 @@
 - type: entity
   parent: RMCSecureCaseChest
   id: RMCSecureCaseMedicalBig
-  name: medical crate
-  description: A crate containing medical supplies.
+  name: ent-RMCSecureCaseMedicalBig
+  description: ent-RMCSecureCaseMedicalBig-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/chestwhite.rsi
@@ -721,8 +721,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCSmallChestYellow
-  name: small chest
-  description: A small plastic crate wrapped with securing elastic straps.
+  name: ent-RMCSmallChestYellow
+  description: ent-RMCSmallChestYellow-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minichest.rsi
@@ -768,8 +768,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCSmallChestBlue
-  name: small chest
-  description: A small plastic crate wrapped with securing elastic straps.
+  name: ent-RMCSmallChestBlue
+  description: ent-RMCSmallChestBlue-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minichestb.rsi
@@ -784,8 +784,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCSmallChestRed
-  name: small chest
-  description: A small plastic crate wrapped with securing elastic straps.
+  name: ent-RMCSmallChestRed
+  description: ent-RMCSmallChestRed-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minichestc.rsi
@@ -800,8 +800,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCSecureCaseMedicalSmall
-  name: small medcase
-  description: A small metal crate. Here, Freeman take this medkit!
+  name: ent-RMCSecureCaseMedicalSmall
+  description: ent-RMCSecureCaseMedicalSmall-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minimedcase.rsi
@@ -818,8 +818,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCSecureCaseAmmoMini
-  name: small ammocase
-  description: A small metal crate. Here, Freeman ammo!
+  name: ent-RMCSecureCaseAmmoMini
+  description: ent-RMCSecureCaseAmmoMini-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/miniammo.rsi
@@ -836,8 +836,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCCrateMini
-  name: small crate
-  description: The large supply crate's cousin, 1st removed.
+  name: ent-RMCCrateMini
+  description: ent-RMCCrateMini-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minicrate.rsi
@@ -858,8 +858,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCSecureCaseMini
-  name: small case
-  description: A small hard-shell case. What could be inside?
+  name: ent-RMCSecureCaseMini
+  description: ent-RMCSecureCaseMini-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minicase.rsi

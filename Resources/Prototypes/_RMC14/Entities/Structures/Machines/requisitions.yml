@@ -1,6 +1,6 @@
 - type: entity
   id: RMCASRSAccount
-  name: ASRS account
+  name: ent-RMCASRSAccount
   categories: [ HideSpawnMenu ]
   components:
   - type: RequisitionsAccount
@@ -36,9 +36,9 @@
 - type: entity
   parent: [ CMBaseStructureCorrodible, CMCargoCatalog ]
   id: CMASRSConsole
-  name: ASRS console
-  description: A console for the Automated Storage Retrieval System.
-  suffix: Requisitions
+  name: ent-CMASRSConsole
+  description: ent-CMASRSConsole-desc
+  suffix: ent-CMASRSConsole-suffix
   components:
   - type: ItemSlots
     slots:
@@ -127,7 +127,7 @@
 - type: entity
   parent: CMASRSConsole
   id: CMASRSConsolePowered
-  suffix: Powered
+  suffix: ent-CMASRSConsolePowered-suffix
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -136,8 +136,8 @@
 
 - type: entity
   id: CMCargoElevator
-  name: cargo elevator
-  suffix: Lowered, Requisitions
+  name: ent-CMCargoElevator
+  suffix: ent-CMCargoElevator-suffix
   placement:
     mode: SnapgridCenter
     snap:
@@ -180,9 +180,9 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMRailing
-  name: retractable railing
-  description: That looks like it doesn't open easily.
-  suffix: Raised
+  name: ent-CMRailing
+  description: ent-CMRailing-desc
+  suffix: ent-CMRailing-suffix
   components:
   - type: Transform
     anchored: false
@@ -214,8 +214,8 @@
 
 - type: entity
   id: CMGear
-  name: gear
-  description: ""
+  name: ent-CMGear
+  description: "ent-CMGear-desc"
   placement:
     mode: SnapgridCenter
     snap:
@@ -234,7 +234,7 @@
 - type: entity
   parent: [ CMASRSConsole ]
   id: CMASRSConsoleGovfor
-  name: ASRS console (Govfor)
+  name: ent-CMASRSConsoleGovfor
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforCommand" ], [ "AU14AccessGovforPilot" ], [ "AU14AccessGovforReq" ] ]
@@ -244,7 +244,7 @@
 - type: entity
   parent: [ CMASRSConsole ]
   id: CMASRSConsoleOpfor
-  name: ASRS console (Opfor)
+  name: ent-CMASRSConsoleOpfor
   components:
   - type: AccessReader
     access: [ [ "AU14AccessOpforCommand" ], [ "AU14AccessOpforPilot" ] ]
@@ -254,7 +254,7 @@
 - type: entity
   parent: CMCargoElevator
   id: CMCargoElevatorGovfor
-  name: cargo elevator (Govfor)
+  name: ent-CMCargoElevatorGovfor
   components:
   - type: RequisitionsElevator
     faction: govfor
@@ -262,7 +262,7 @@
 - type: entity
   parent: CMCargoElevator
   id: CMCargoElevatorOpfor
-  name: cargo elevator (Opfor)
+  name: ent-CMCargoElevatorOpfor
   components:
   - type: RequisitionsElevator
     faction: opfor
@@ -270,7 +270,7 @@
 - type: entity
   parent: [ CMASRSConsole ]
   id: CMASRSConsoleColony
-  name: ASRS console (Colony)
+  name: ent-CMASRSConsoleColony
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ], [ "CMAccessColonyCommand" ] ]
@@ -280,7 +280,7 @@
 - type: entity
   parent: CMCargoElevator
   id: CMCargoElevatorColony
-  name: cargo elevator (Colony)
+  name: ent-CMCargoElevatorColony
   components:
   - type: RequisitionsElevator
     faction: colony

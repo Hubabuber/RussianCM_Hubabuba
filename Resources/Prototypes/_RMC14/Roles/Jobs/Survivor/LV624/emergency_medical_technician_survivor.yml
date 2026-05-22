@@ -4,7 +4,7 @@
   name: rmc-job-name-survivor-lv624-medical-technician
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorLV624MedicalTechnician
-  spawnMenuRoleName: Medical Technician (LV624 Survivor)
+  spawnMenuRoleName: job-cmsurvivorlv624medicaltechnician-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624MedicalTechnician
-  name: survivor lv624 medical technician spawn point
+  name: ent-RMCSpawnPointSurvivorLV624MedicalTechnician
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -53,4 +53,4 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetLV624MedicalTechnician
-  name: lv624 medical technician colonist preset
+  name: ent-RMCGearSurvivorPresetLV624MedicalTechnician

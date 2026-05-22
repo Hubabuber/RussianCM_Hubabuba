@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   abstract: true
   id: AU14ContainerBase
-  name: cargo container
-  description: A huge industrial shipping container.
+  name: ent-AU14ContainerBase
+  description: ent-AU14ContainerBase-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -33,7 +33,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerGreenAriousLeft
-  suffix: Arious, Left
+  suffix: ent-AU14ContainerGreenAriousLeft-suffix
   components:
   - type: Sprite
     state: arious_lm
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerGreenAriousMiddle
-  suffix: Arious, Middle
+  suffix: ent-AU14ContainerGreenAriousMiddle-suffix
   components:
   - type: Sprite
     state: arious_m
@@ -49,7 +49,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerDarkGreenCANC
-  suffix: CANC, Left
+  suffix: ent-AU14ContainerDarkGreenCANC-suffix
   components:
   - type: Sprite
     state: canc_g_l
@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerDarkGreenCANCRight
-  suffix: CANC, Right
+  suffix: ent-AU14ContainerDarkGreenCANCRight-suffix
   components:
   - type: Sprite
     state: canc_g_r
@@ -65,7 +65,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerDarkGreenCANCMiddle
-  suffix: CANC, Middle
+  suffix: ent-AU14ContainerDarkGreenCANCMiddle-suffix
   components:
   - type: Sprite
     state: canc_g_m
@@ -73,7 +73,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerTanCANC
-  suffix: CANC, Left
+  suffix: ent-AU14ContainerTanCANC-suffix
   components:
   - type: Sprite
     state: canc_t_l
@@ -81,7 +81,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerTanCANCRight
-  suffix: CANC, Right
+  suffix: ent-AU14ContainerTanCANCRight-suffix
   components:
   - type: Sprite
     state: canc_t_r
@@ -89,7 +89,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerTanCANCMiddle
-  suffix: CANC, Middle
+  suffix: ent-AU14ContainerTanCANCMiddle-suffix
   components:
   - type: Sprite
     state: canc_t_m
@@ -97,7 +97,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerBlueGraffitiLeft
-  suffix: Graffiti, Blue
+  suffix: ent-AU14ContainerBlueGraffitiLeft-suffix
   components:
   - type: Sprite
     state: grafcontain_l
@@ -105,7 +105,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerBlueGraffitiMiddle
-  suffix: Graffiti, Blue
+  suffix: ent-AU14ContainerBlueGraffitiMiddle-suffix
   components:
   - type: Sprite
     state: grafcontain_rm
@@ -113,7 +113,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerBlueGraffitiRight
-  suffix: Graffiti, Blue
+  suffix: ent-AU14ContainerBlueGraffitiRight-suffix
   components:
   - type: Sprite
     state: grafcontain_r
@@ -121,7 +121,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerRedGraffitiLeft
-  suffix: Graffiti, Red
+  suffix: ent-AU14ContainerRedGraffitiLeft-suffix
   components:
   - type: Sprite
     state: grafcontain2_l
@@ -129,7 +129,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerRedGraffitiMiddle
-  suffix: Graffiti, Red
+  suffix: ent-AU14ContainerRedGraffitiMiddle-suffix
   components:
   - type: Sprite
     state: grafcontain2_rm
@@ -137,7 +137,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerRedGraffitiRight
-  suffix: Graffiti, Red
+  suffix: ent-AU14ContainerRedGraffitiRight-suffix
   components:
   - type: Sprite
     state: grafcontain2_r
@@ -145,7 +145,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerGreenGraffitiLeft
-  suffix: Graffiti, Green
+  suffix: ent-AU14ContainerGreenGraffitiLeft-suffix
   components:
   - type: Sprite
     state: grafcontain3_l
@@ -153,7 +153,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerGreenGraffitiMiddle
-  suffix: Graffiti, Green
+  suffix: ent-AU14ContainerGreenGraffitiMiddle-suffix
   components:
   - type: Sprite
     state: grafcontain3_rm
@@ -161,7 +161,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerGreenGraffitiRight
-  suffix: Graffiti, Green
+  suffix: ent-AU14ContainerGreenGraffitiRight-suffix
   components:
   - type: Sprite
     state: grafcontain3_r
@@ -169,7 +169,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerHyperdyneLeft
-  suffix: Hyperdyne, DarkBlue
+  suffix: ent-AU14ContainerHyperdyneLeft-suffix
   components:
   - type: Sprite
     state: hd_l
@@ -177,7 +177,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerHyperdyneMiddle
-  suffix: Hyperdyne, DarkBlue
+  suffix: ent-AU14ContainerHyperdyneMiddle-suffix
   components:
   - type: Sprite
     state: hd_m
@@ -185,7 +185,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerHyperdyneRight
-  suffix: Hyperdyne, DarkBlue
+  suffix: ent-AU14ContainerHyperdyneRight-suffix
   components:
   - type: Sprite
     state: hd_r
@@ -193,7 +193,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerLightHyperdyneLeft
-  suffix: Hyperdyne, LightBlue
+  suffix: ent-AU14ContainerLightHyperdyneLeft-suffix
   components:
   - type: Sprite
     state: hd_l_alt
@@ -201,7 +201,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerLightHyperdyneMiddle
-  suffix: Hyperdyne, LightBlue
+  suffix: ent-AU14ContainerLightHyperdyneMiddle-suffix
   components:
   - type: Sprite
     state: hd_m_alt
@@ -209,7 +209,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerLightHyperdyneRight
-  suffix: Hyperdyne, LightBlue
+  suffix: ent-AU14ContainerLightHyperdyneRight-suffix
   components:
   - type: Sprite
     state: hd_r_alt
@@ -217,7 +217,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerLockmartLeft
-  suffix: Lockmart, LightBlue
+  suffix: ent-AU14ContainerLockmartLeft-suffix
   components:
   - type: Sprite
     state: lockmart_l
@@ -225,7 +225,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerLockmartMiddle
-  suffix: Lockmart, LightBlue
+  suffix: ent-AU14ContainerLockmartMiddle-suffix
   components:
   - type: Sprite
     state: lockmart_m
@@ -233,7 +233,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerLockmartRight
-  suffix: Lockmart, LightBlue
+  suffix: ent-AU14ContainerLockmartRight-suffix
   components:
   - type: Sprite
     state: lockmart_r
@@ -241,7 +241,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerSeegsonLeft
-  suffix: Seegson, LightBlue
+  suffix: ent-AU14ContainerSeegsonLeft-suffix
   components:
   - type: Sprite
     state: seegson_l
@@ -249,7 +249,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerSeegsonMiddle
-  suffix: Seegson, LightBlue
+  suffix: ent-AU14ContainerSeegsonMiddle-suffix
   components:
   - type: Sprite
     state: seegson_m
@@ -257,7 +257,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerSeegsonRight
-  suffix: Seegson, LightBlue
+  suffix: ent-AU14ContainerSeegsonRight-suffix
   components:
   - type: Sprite
     state: seegson_r
@@ -265,7 +265,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUPPDarkGreenLeft
-  suffix: UPP, DarkGreen
+  suffix: ent-AU14ContainerUPPDarkGreenLeft-suffix
   components:
   - type: Sprite
     state: upp_l
@@ -273,7 +273,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUPPDarkGreenMiddle
-  suffix: UPP, DarkGreen
+  suffix: ent-AU14ContainerUPPDarkGreenMiddle-suffix
   components:
   - type: Sprite
     state: upp_m
@@ -281,7 +281,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUPPDarkGreenRight
-  suffix: UPP, DarkGreen
+  suffix: ent-AU14ContainerUPPDarkGreenRight-suffix
   components:
   - type: Sprite
     state: upp_r
@@ -289,7 +289,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUPPTanLeft
-  suffix: UPP, Tan
+  suffix: ent-AU14ContainerUPPTanLeft-suffix
   components:
   - type: Sprite
     state: upp_t_l
@@ -297,7 +297,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUPPTanMiddle
-  suffix: UPP, Tan
+  suffix: ent-AU14ContainerUPPTanMiddle-suffix
   components:
   - type: Sprite
     state: upp_t_m
@@ -305,7 +305,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUPPTanRight
-  suffix: UPP, Tan
+  suffix: ent-AU14ContainerUPPTanRight-suffix
   components:
   - type: Sprite
     state: upp_t_r
@@ -313,7 +313,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUSCMLeft
-  suffix: USCM, Gray
+  suffix: ent-AU14ContainerUSCMLeft-suffix
   components:
   - type: Sprite
     state: uscm4_l
@@ -321,7 +321,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUSCMMiddle
-  suffix: USCM, Gray
+  suffix: ent-AU14ContainerUSCMMiddle-suffix
   components:
   - type: Sprite
     state: uscm4_m
@@ -329,7 +329,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerUSCMRight
-  suffix: USCM, Gray
+  suffix: ent-AU14ContainerUSCMRight-suffix
   components:
   - type: Sprite
     state: uscm_r
@@ -337,7 +337,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerWYLeft
-  suffix: WY, Gray
+  suffix: ent-AU14ContainerWYLeft-suffix
   components:
   - type: Sprite
     state: wy_l
@@ -345,7 +345,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerWYMiddle
-  suffix: WY, Gray
+  suffix: ent-AU14ContainerWYMiddle-suffix
   components:
   - type: Sprite
     state: wy_m
@@ -353,7 +353,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerWYRight
-  suffix: WY, Gray
+  suffix: ent-AU14ContainerWYRight-suffix
   components:
   - type: Sprite
     state: wy_r
@@ -361,7 +361,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerMK6Left
-  suffix: MK6, DarkGreen
+  suffix: ent-AU14ContainerMK6Left-suffix
   components:
   - type: Sprite
     state: mk6_l
@@ -369,7 +369,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerMK6Middle
-  suffix: MK6, DarkGreen
+  suffix: ent-AU14ContainerMK6Middle-suffix
   components:
   - type: Sprite
     state: mk6_m
@@ -377,7 +377,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerMK6Right
-  suffix: MK6, DarkGreen
+  suffix: ent-AU14ContainerMK6Right-suffix
   components:
   - type: Sprite
     state: mk6_r
@@ -386,7 +386,7 @@
 - type: entity
   parent: AU14ContainerBase
   id: AU14ContainerTartarusLeft
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeft-suffix
   components:
   - type: Sprite
     state: grant_l
@@ -405,7 +405,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftBlackWY
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftBlackWY-suffix
   components:
   - type: Sprite
     state: blackwyleft
@@ -413,7 +413,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightBlackWY
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightBlackWY-suffix
   components:
   - type: Sprite
     state: blackwyright
@@ -421,7 +421,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftBlueWYWings
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftBlueWYWings-suffix
   components:
   - type: Sprite
     state: bluewywingsleft
@@ -429,7 +429,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightBlueWYWings
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightBlueWYWings-suffix
   components:
   - type: Sprite
     state: bluewywingsright
@@ -437,7 +437,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftMedicalEmpty
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftMedicalEmpty-suffix
   components:
   - type: Sprite
     state: emptymedicalleft
@@ -445,7 +445,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightMedicalEmpty
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightMedicalEmpty-suffix
   components:
   - type: Sprite
     state: emptymedicalright
@@ -453,7 +453,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftGrayWY
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftGrayWY-suffix
   components:
   - type: Sprite
     state: greywyleft
@@ -461,7 +461,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightGrayWY
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightGrayWY-suffix
   components:
   - type: Sprite
     state: greywyright
@@ -469,7 +469,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftKelland
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftKelland-suffix
   components:
   - type: Sprite
     state: kelland_alt_l
@@ -477,7 +477,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightKelland
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightKelland-suffix
   components:
   - type: Sprite
     state: kelland_alt_r
@@ -485,7 +485,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftKellandAlt
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftKellandAlt-suffix
   components:
   - type: Sprite
     state: kelland_l
@@ -493,7 +493,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightKellandAlt
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightKellandAlt-suffix
   components:
   - type: Sprite
     state: kelland_r
@@ -501,7 +501,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftLightGrayWY
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftLightGrayWY-suffix
   components:
   - type: Sprite
     state: lightgreywyleft
@@ -509,7 +509,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightLightGrayWY
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightLightGrayWY-suffix
   components:
   - type: Sprite
     state: lightgreywyright
@@ -517,7 +517,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftMedicalEmptyAlt
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftMedicalEmptyAlt-suffix
   components:
   - type: Sprite
     state: medicalleft
@@ -525,7 +525,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightMedicalEmptyAlt
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightMedicalEmptyAlt-suffix
   components:
   - type: Sprite
     state: medicalright
@@ -533,7 +533,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftRedWYWings
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftRedWYWings-suffix
   components:
   - type: Sprite
     state: redwywingsleft
@@ -541,7 +541,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightRedWYWings
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightRedWYWings-suffix
   components:
   - type: Sprite
     state: redwywingsright
@@ -549,7 +549,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftTanWYWings
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftTanWYWings-suffix
   components:
   - type: Sprite
     state: tanwywingsleft
@@ -557,7 +557,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightTanWYWings
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightTanWYWings-suffix
   components:
   - type: Sprite
     state: tanwywingsright
@@ -565,7 +565,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusLeftOffBlueWY
-  suffix: Tartarus, Left
+  suffix: ent-AU14ContainerTartarusLeftOffBlueWY-suffix
   components:
   - type: Sprite
     state: whitewyleft
@@ -573,7 +573,7 @@
 - type: entity
   parent: AU14ContainerTartarusLeft
   id: AU14ContainerTartarusRightOffBlueWY
-  suffix: Tartarus, Right
+  suffix: ent-AU14ContainerTartarusRightOffBlueWY-suffix
   components:
   - type: Sprite
     state: whitewyright

@@ -14,3 +14,23 @@ ent-CableMVUncuttable-name = stack-mv-cable
 ent-CableApcExtensionUncuttable-name = Силовой кабель низкого напряжения
 ent-CableApcExtensionUncuttable-desc = Кабель, используемый для подключения машин к APC.
 
+ent-CableApcExtension = Силовой кабель низкого напряжения
+    .desc = Кабель, используемый для подключения машин к APC.
+
+ent-CableApcExtensionUncuttable = Силовой кабель низкого напряжения
+    .desc = Кабель, используемый для подключения машин к APC.
+    .suffix = неразрезаемый
+
+ent-CableHV = Силовой кабель высокого напряжения
+    .desc = Оранжевый силовой кабель высокого напряжения.
+
+ent-CableHVUncuttable = Силовой кабель высокого напряжения
+    .desc = Оранжевый силовой кабель высокого напряжения.
+    .suffix = неразрезаемый
+
+ent-CableMV = Силовой кабель среднего напряжения
+    .desc = Силовой кабель среднего напряжения.
+
+ent-CableMVUncuttable = Силовой кабель среднего напряжения
+    .desc = Силовой кабель среднего напряжения.
+    .suffix = неразрезаемый

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineShotgun
-  name: ammo drum (.50 shells)
+  name: ent-BaseMagazineShotgun
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -44,8 +44,8 @@
 
 - type: entity
   id: MagazineShotgunEmpty
-  name: ammo drum (.50 shells any)
-  suffix: empty
+  name: ent-MagazineShotgunEmpty
+  suffix: ent-MagazineShotgunEmpty-suffix
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -53,7 +53,7 @@
 
 - type: entity
   id: MagazineShotgun
-  name: ammo drum (.50 pellet)
+  name: ent-MagazineShotgun
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: MagazineShotgunBeanbag
-  name: ammo drum (.50 beanbags)
+  name: ent-MagazineShotgunBeanbag
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -101,7 +101,7 @@
 
 - type: entity
   id: MagazineShotgunSlug
-  name: ammo drum (.50 slug)
+  name: ent-MagazineShotgunSlug
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -125,7 +125,7 @@
 
 - type: entity
   id: MagazineShotgunIncendiary
-  name: ammo drum (.50 incendiary)
+  name: ent-MagazineShotgunIncendiary
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider

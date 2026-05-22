@@ -1,10 +1,10 @@
 # When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_single.yml
 
 - type: entity
-  name: taco shell
+  name: ent-FoodTacoShell
   parent: FoodMealBase
   id: FoodTacoShell
-  description: A taco shell, easy to hold, but falls on its side when put down.
+  description: ent-FoodTacoShell-desc
   components:
   - type: Item
     storedRotation: -90
@@ -67,30 +67,30 @@
       - Meat
 
 - type: entity
-  name: beef taco
+  name: ent-FoodTacoBeef
   parent: FoodTacoBase
   id: FoodTacoBeef
-  description: A very basic and run of the mill beef taco, now with cheese!
+  description: ent-FoodTacoBeef-desc
   components:
   - type: Food
   - type: Sprite
     state: beeftaco
 
 - type: entity
-  name: chicken taco
+  name: ent-FoodTacoChicken
   parent: FoodTacoBase
   id: FoodTacoChicken
-  description: A very basic and run of the mill chicken taco, now with cheese!
+  description: ent-FoodTacoChicken-desc
   components:
   - type: Food
   - type: Sprite
     state: chickentaco
 
 - type: entity
-  name: fish taco
+  name: ent-FoodTacoFish
   parent: FoodTacoBase
   id: FoodTacoFish
-  description: Sounds kinda gross, but it's actually not that bad.
+  description: ent-FoodTacoFish-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -110,10 +110,10 @@
           Quantity: 6
 
 - type: entity
-  name: rat taco
+  name: ent-FoodTacoRat
   parent: FoodTacoBase
   id: FoodTacoRat
-  description: Yeah, that looks about right...
+  description: ent-FoodTacoRat-desc
   components:
   - type: Food
   - type: Sprite
@@ -129,10 +129,10 @@
           Quantity: 4
 
 - type: entity
-  name: beef taco supreme
+  name: ent-FoodTacoBeefSupreme
   parent: FoodTacoBase
   id: FoodTacoBeefSupreme
-  description: It's like a regular beef taco, but supreme!
+  description: ent-FoodTacoBeefSupreme-desc
   components:
   - type: Food
   - type: Sprite
@@ -148,10 +148,10 @@
           Quantity: 6
 
 - type: entity
-  name: chicken taco supreme
+  name: ent-FoodTacoChickenSupreme
   parent: FoodTacoBase
   id: FoodTacoChickenSupreme
-  description: It's like a regular chicken taco, but supreme!
+  description: ent-FoodTacoChickenSupreme-desc
   components:
   - type: Food
   - type: Sprite
@@ -167,10 +167,10 @@
           Quantity: 6
 
 - type: entity
-  name: draco
+  name: ent-FoodTacoDragon
   parent: FoodTacoBase
   id: FoodTacoDragon
-  description: A dragon taco, which is technically also a fish taco.
+  description: ent-FoodTacoDragon-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -194,10 +194,10 @@
           Quantity: 6
 
 - type: entity
-  name: soft taco
+  name: ent-FoodMealSoftTaco
   parent: FoodMealBase
   id: FoodMealSoftTaco
-  description: Take a bite!
+  description: ent-FoodMealSoftTaco-desc
   components:
   - type: FlavorProfile
     flavors:

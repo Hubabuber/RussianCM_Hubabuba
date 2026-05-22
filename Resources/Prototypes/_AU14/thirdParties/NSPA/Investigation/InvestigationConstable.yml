@@ -2,7 +2,7 @@
   parent: AU14JobLEOBase
   id: AU14JobNSPAInvestigationPartyJobConstable
   name: au14-job-name-civiliannspaConstable
-  description: You have been sent by the Colonial Administration to investigate unspecified occurrences on this planet. Investigate the area under the orders of your marshal and ensure that the laws of Sol extend far beyond the Solar System.
+  description: job-au14jobnspainvestigationpartyjobconstable-desc
   setPreference: false
   canBeAntag: false
   requirements:
@@ -10,7 +10,7 @@
     AU14RankNSPASeniorConstable: []
   startingGear: AU14GearNSPAConstableInvestigationSMG
   icon: "RMCJobIconTSEPASeniorConstable"
-  spawnMenuRoleName: NSPA Constable (3rd party)
+  spawnMenuRoleName: job-au14jobnspainvestigationpartyjobconstable-spawnmenurolename
   requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
@@ -62,7 +62,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicNSPA
   id: NSPAInvestigationPartyJobConstable
-  name: NSPA Constable
+  name: ent-NSPAInvestigationPartyJobConstable
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

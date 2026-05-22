@@ -62,3 +62,7 @@ ent-CMAirlockGlassHybrisaPersonal = стеклянный шлюзовой шлю
 ent-RMCAirlockSPPGreyGlass = стеклянный шлюзовой шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
 
+ent-CMAirlockShuttle = шлюзовая камера
+    .suffix = Трансфер
+
+ent-RMCAirlockStrata = шлюзовая камера

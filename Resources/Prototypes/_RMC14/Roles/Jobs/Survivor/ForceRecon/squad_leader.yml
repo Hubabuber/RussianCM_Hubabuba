@@ -13,7 +13,7 @@
   - !type:TotalJobsTimeRequirement
     group: RMCJobsSurvivor
     time: 3600 # 1 hour
-  spawnMenuRoleName: FORECON Squad Leader (Survivor)
+  spawnMenuRoleName: job-rmcsurvivorforeconsquadleader-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconSquadLeader
-  name: forecon squad leader spawn point
+  name: ent-CMSpawnPointForeconSquadLeader
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconSquadLeader
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCSurvivorPresetForecon
   id: RMCSurvivorPresetForeconSquadLead
-  name: forecon squad leader survivor preset
+  name: ent-RMCSurvivorPresetForeconSquadLead
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

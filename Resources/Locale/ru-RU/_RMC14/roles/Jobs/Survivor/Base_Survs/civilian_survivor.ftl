@@ -13,3 +13,6 @@ ent-CMGuidebookRoleSurvivor = Выживший
 ent-CMSpawnPointSurvivor = точка появления выжившего
  
 
+job-cmsurvivor-desc = cm-описание-работы-выживший
+job-cmsurvivor-name = cm-имя-задания-выживший
+job-cmsurvivor-supervisors = cm-job-supervisors-никто

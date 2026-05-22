@@ -2,7 +2,7 @@
 - type: entity
   parent: CMDoubleDoorAlmayerGlass
   id: CMDoubleDoorRequisitionsGlassLocked
-  suffix: Requisitions, Glass, Locked
+  suffix: ent-CMDoubleDoorRequisitionsGlassLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ], [ "RMCAccessCommand" ] ]
@@ -10,7 +10,7 @@
 - type: entity
   parent: CMDoubleDoorAlmayerSolid
   id: CMDoubleDoorRequisitionsSolidLocked
-  suffix: Requisitions, Solid, Locked
+  suffix: ent-CMDoubleDoorRequisitionsSolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ], [ "RMCAccessCommand" ] ]
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMDoubleDoorEngineerGlass
   id: CMDoubleDoorEngineerGlassLocked
-  suffix: Engineer, Glass, Locked
+  suffix: ent-CMDoubleDoorEngineerGlassLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ], [ "RMCAccessCommand" ] ]
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMDoubleDoorEngineerSolid
   id: CMDoubleDoorEngineerSolidLocked
-  suffix: Engineer, Solid, Locked
+  suffix: ent-CMDoubleDoorEngineerSolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ], [ "RMCAccessCommand" ] ]
@@ -36,7 +36,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalGlass
   id: CMDoubleDoorMedicalGlassLocked
-  suffix: Medical, Glass, Locked
+  suffix: ent-CMDoubleDoorMedicalGlassLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ], [ "RMCAccessCommand" ] ]
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalSolid
   id: CMDoubleDoorMedicalSolidLocked
-  suffix: Medical, Solid, Locked
+  suffix: ent-CMDoubleDoorMedicalSolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ], [ "RMCAccessCommand" ] ]
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalSolid
   id: CMDoubleDoorMorgueSolidLocked
-  suffix: Morgue, Solid, Locked
+  suffix: ent-CMDoubleDoorMorgueSolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "RMCAccessMorgue" ] ]
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalGlass
   id: CMDoubleDoorChemistryGlassLocked
-  suffix: Chemistry, Glass, Locked
+  suffix: ent-CMDoubleDoorChemistryGlassLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessChemistry" ], [ "RMCAccessCommand" ] ]
@@ -70,7 +70,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalSolid
   id: CMDoubleDoorChemistrySolidLocked
-  suffix: Chemistry, Solid, Locked
+  suffix: ent-CMDoubleDoorChemistrySolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessChemistry" ], [ "RMCAccessCommand" ] ]
@@ -79,8 +79,8 @@
 - type: entity
   parent: CMDoubleDoorMedicalGlass
   id: CMDoubleDoorResearchGlassLocked
-  name: Research Airlock
-  suffix: Research, Glass, Locked
+  name: ent-CMDoubleDoorResearchGlassLocked
+  suffix: ent-CMDoubleDoorResearchGlassLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessResearch" ], [ "AU14AccessCorporateWEYU" ] ]
@@ -88,7 +88,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalSolid
   id: CMDoubleDoorResearchSolidLocked
-  suffix: Research, Solid, Locked
+  suffix: ent-CMDoubleDoorResearchSolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessResearch" ], [ "AU14AccessCorporateWEYU" ] ]
@@ -97,7 +97,7 @@
 - type: entity
   parent: CMDoubleDoorGenericGlass
   id: CMDoubleDoorPilotsGlassLocked
-  suffix: Pilots, Glass, Locked
+  suffix: ent-CMDoubleDoorPilotsGlassLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessDropship" ], [ "RMCAccessCommand" ] ]
@@ -105,7 +105,7 @@
 - type: entity
   parent: CMDoubleDoorGenericSolid
   id: CMDoubleDoorPilotsSolidLocked
-  suffix: Pilots, Solid, Locked
+  suffix: ent-CMDoubleDoorPilotsSolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessDropship" ], [ "RMCAccessCommand" ] ]
@@ -114,7 +114,7 @@
 - type: entity
   parent: CMDoubleDoorSecurityGlass
   id: CMDoubleDoorSecurityGlassLocked
-  suffix: Security, Glass, Locked
+  suffix: ent-CMDoubleDoorSecurityGlassLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessBrig" ], [ "RMCAccessCommand" ] ]
@@ -122,7 +122,7 @@
 - type: entity
   parent: CMDoubleDoorSecuritySolid
   id: CMDoubleDoorSecuritySolidLocked
-  suffix: Security, Solid, Locked
+  suffix: ent-CMDoubleDoorSecuritySolidLocked-suffix
   components:
   - type: AccessReader
     access: [ [ "CMAccessBrig" ], [ "RMCAccessCommand" ] ]

@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidNormal
-  name: Corrosive Acid (100)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure or item over time.
+  name: ent-ActionXenoAcidNormal  # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoAcidNormal-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -31,8 +31,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidWeak
-  name: Weak Corrosive Acid (75)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure or item over time.
+  name: ent-ActionXenoAcidWeak  # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoAcidWeak-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -53,8 +53,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidStrong
-  name: Strong Corrosive Acid (125)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure or item over time.
+  name: ent-ActionXenoAcidStrong  # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoAcidStrong-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -75,8 +75,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidAcider
-  name: Strong Corrosive Acid (100 acid)
-  description: Melts down barricades or items over time. You cannot melt structures.
+  name: ent-ActionXenoAcidAcider
+  description: ent-ActionXenoAcidAcider-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -99,8 +99,8 @@
 - type: entity
   id: ActionXenoRegurgitate
   parent: ActionXenoBase
-  name: Regurgitate
-  description: Eject any devoured marines.
+  name: ent-ActionXenoRegurgitate
+  description: ent-ActionXenoRegurgitate-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -114,8 +114,8 @@
 - type: entity
   id: ActionXenoTailStab
   parent: ActionXenoBase
-  name: Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss.
+  name: ent-ActionXenoTailStab
+  description: ent-ActionXenoTailStab-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -138,13 +138,13 @@
 - type: entity
   id: ActionXenoTailSlam
   parent: ActionXenoTailStab
-  name: Tail Slam
+  name: ent-ActionXenoTailSlam
 
 - type: entity
   parent: ActionXenoTailStab
   id: ActionXenoTailStabCorrosive
-  name: Corrosive Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss. [color=red]It also injects diluted molecular acid into the target, dealing damage over time.[/color]
+  name: ent-ActionXenoTailStabCorrosive
+  description: ent-ActionXenoTailStabCorrosive-desc
   components:
   - type: Action
     icon:
@@ -154,14 +154,13 @@
 - type: entity
   parent: ActionXenoTailStabCorrosive
   id: ActionXenoTailStabBoiler
-  name: Corrosive Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss. [color=red]It also injects diluted molecular acid or neurotoxin into the target, dealing damage or stunning over time. Which type depends on current gas type.[/color]
-
+  name: ent-ActionXenoTailStabBoiler
+  description: ent-ActionXenoTailStabBoiler-desc
 - type: entity
   id: ActionXenoLeap
   parent: ActionXenoBase
-  name: Leap
-  description: Jump towards a given location and knock down the first enemy hit.
+  name: ent-ActionXenoLeap
+  description: ent-ActionXenoLeap-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -179,8 +178,8 @@
 - type: entity
   id: ActionXenoRush
   parent: ActionXenoLeap
-  name: Rush
-  description: Jump towards a given location and slash the enemy you hit, shaking their screen.
+  name: ent-ActionXenoRush
+  description: ent-ActionXenoRush-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -193,8 +192,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoPounce
-  name: Pounce (20) # TODO RMC14 proper plasma costs
-  description: Jump towards a given location and knock down the first enemy hit [color=red]if you are invisible.[/color]
+  name: ent-ActionXenoPounce # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoPounce-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -219,8 +218,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoAssault
-  name: Assault (25)
-  description: Charge towards a location. Destroys some objects in your path. Melee slashes reduce assault's cooldown. If Super-Empowered, stuns and flings back the first enemy hit.
+  name: ent-ActionXenoAssault
+  description: ent-ActionXenoAssault-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -244,8 +243,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoDash
-  name: Dash (40)
-  description: Dash a short distance towards a given location.
+  name: ent-ActionXenoDash
+  description: ent-ActionXenoDash-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -269,8 +268,8 @@
 - type: entity
   id: ActionXenoHeadbutt
   parent: ActionXenoBase
-  name: Headbutt (10) # TODO RMC14 proper plasma costs
-  description: Charge towards the targeted enemy and push back the first enemy hit, piercing armor slightly. Does less damage but has more knockback when crest is lowered.
+  name: ent-ActionXenoHeadbutt # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoHeadbutt-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -298,8 +297,8 @@
 - type: entity
   id: ActionXenoTailSweep
   parent: ActionXenoBase
-  name: Tail Sweep (10) # TODO RMC14 proper plasma costs
-  description: Knock down any enemies close to you.
+  name: ent-ActionXenoTailSweep # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoTailSweep-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -322,8 +321,8 @@
 - type: entity
   id: ActionXenoSlowingSpit
   parent: ActionXenoBase
-  name: Slowing Spit (20) # TODO RMC14 proper plasma costs
-  description: Launches a damageless projectile that will slow the first enemy that it hits, and paralyze them if they have no armor. It'll also drain helpful substances from their body.
+  name: ent-ActionXenoSlowingSpit # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoSlowingSpit-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -343,8 +342,8 @@
 - type: entity
   id: ActionXenoScatteredSpit
   parent: ActionXenoBase
-  name: Scattered Spit (20) # TODO RMC14 proper plasma costs
-  description: Launches multiple damageless projectiles that will briefly paralyze any enemies they hit.
+  name: ent-ActionXenoScatteredSpit # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoScatteredSpit-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -372,8 +371,8 @@
 - type: entity
   id: ActionXenoSpit
   parent: ActionXenoBase
-  name: Xeno Spit (25) # TODO RMC14 proper plasma costs
-  description: Launches a projectile that will deal damage to the first enemy that it hits.
+  name: ent-ActionXenoSpit # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoSpit-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -409,8 +408,8 @@
 - type: entity
   id: ActionXenoChargeSpit
   parent: ActionXenoBase
-  name: Charge Spit (50) # TODO RMC14 proper plasma costs
-  description: Charges up your next spit, making it deal more damage and coat the enemy in acid, but have less range. Increases your movement speed until the ability expires.
+  name: ent-ActionXenoChargeSpit # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoChargeSpit-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -434,8 +433,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSprayAcid
-  name: Spray Acid (40)
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid and significantly strengthen acid inflicted from Charge Spit![/color]
+  name: ent-ActionXenoSprayAcid
+  description: ent-ActionXenoSprayAcid-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -460,7 +459,7 @@
 - type: entity
   parent: ActionXenoSprayAcid
   id: ActionXenoSprayAcidBoiler
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid![/color]
+  description: ent-ActionXenoSprayAcidBoiler-desc
   components:
   - type: Action
     useDelay: 10
@@ -474,8 +473,8 @@
 - type: entity
   parent: ActionXenoSprayAcid
   id: ActionXenoSprayAcidPraetorian
-  name: Spray Acid (80)
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid![/color]
+  name: ent-ActionXenoSprayAcidPraetorian
+  description: ent-ActionXenoSprayAcidPraetorian-desc
   components:
   - type: Action
     useDelay: 10
@@ -483,7 +482,7 @@
 - type: entity
   parent: ActionXenoSprayAcidPraetorian
   id: ActionXenoSprayAcidWarden
-  name: Spray Acid (130)
+  name: ent-ActionXenoSprayAcidWarden
   components:
   - type: Action
     useDelay: 13
@@ -491,8 +490,8 @@
 - type: entity
   id: ActionXenoAcidBall
   parent: ActionXenoBase
-  name: Acid Ball (80) # TODO RMC14 proper plasma costs
-  description: Throws a projectile that will explode into acid spit in all directions after a short delay.
+  name: ent-ActionXenoAcidBall # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoAcidBall-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -518,8 +517,8 @@
 - type: entity
   id: ActionXenoParalyzingSlash
   parent: ActionXenoBase
-  name: Paralyzing Slash (50) # TODO RMC14 proper plasma costs
-  description: Temporarily charge up a melee attack that will knockdown the first enemy it hits after a short delay.
+  name: ent-ActionXenoParalyzingSlash # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoParalyzingSlash-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -535,8 +534,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCripplingStrike
-  name: Crippling Strike (20) # TODO RMC14 proper plasma costs
-  description: Temporarily charge up a melee attack that will slow the first enemy it hits and do 20% more damage.
+  name: ent-ActionXenoCripplingStrike # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoCripplingStrike-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -560,8 +559,8 @@
 - type: entity
   id: ActionXenoBoneChips
   parent: ActionXenoBase
-  name: Bone Chips
-  description: Launch a projectile that will damage and slow down the first enemy it hits.
+  name: ent-ActionXenoBoneChips
+  description: ent-ActionXenoBoneChips-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -586,8 +585,8 @@
 - type: entity
   id: ActionXenoPunch
   parent: ActionXenoBase
-  name: Punch
-  description: Punches the targeted enemy to deal a hefty amount of damage, slowing them and pushing them away.
+  name: ent-ActionXenoPunch
+  description: ent-ActionXenoPunch-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -614,8 +613,8 @@
 - type: entity
   id: ActionXenoFling
   parent: ActionXenoBase
-  name: Fling
-  description: Flings the targeted enemy a few tiles, knocking them down and damaging them.
+  name: ent-ActionXenoFling
+  description: ent-ActionXenoFling-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -643,8 +642,8 @@
 - type: entity
   id: ActionXenoLunge
   parent: ActionXenoBase
-  name: Lunge
-  description: Lunges towards the targeted enemy and grabs the first enemy hit.
+  name: ent-ActionXenoLunge
+  description: ent-ActionXenoLunge-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -674,8 +673,8 @@
 - type: entity
   id: ActionXenoScreech
   parent: ActionXenoBase
-  name: Screech (250)
-  description: A wide area of effect stun, screeches upon activation. [color=red]This will also stun parasites, and is blocked by solid walls, smoke, and boiler gas, but not windows![/color]
+  name: ent-ActionXenoScreech
+  description: ent-ActionXenoScreech-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -690,8 +689,8 @@
 - type: entity
   id: ActionXenoGut
   parent: ActionXenoBase
-  name: Gut (200)
-  description: Gibs the mob you decide to gut.
+  name: ent-ActionXenoGut
+  description: ent-ActionXenoGut-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -706,8 +705,8 @@
 - type: entity
   id: ActionXenoStomp
   parent: ActionXenoBase
-  name: Stomp (30)
-  description: Slam the ground with a 5x5 AOE, slowing down and disarming all enemies in range. Deals heavy damage to targets you are on top of.
+  name: ent-ActionXenoStomp
+  description: ent-ActionXenoStomp-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -729,8 +728,8 @@
 - type: entity
   parent: ActionXenoStomp
   id: ActionXenoCrush
-  name: Crush (25)
-  description: Slam the ground with a 7x7 AOE, slowing down and disarming all enemies in range. Deals heavy damage to targets you are on top of.
+  name: ent-ActionXenoCrush
+  description: ent-ActionXenoCrush-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -744,8 +743,8 @@
 - type: entity
   id: ActionXenoCharge
   parent: ActionXenoBase
-  name: Charge (20)
-  description: Click on a tile you want to charge at, after a brief non cancel-able windup time. Slows around the impact area. [color=green]Cooldown is partially refunded upon attacking an enemy, scaling with the amount of enemies you cleave with your passive.[/color]
+  name: ent-ActionXenoCharge
+  description: ent-ActionXenoCharge-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -770,8 +769,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleCharging
-  name: Toggle Charging
-  description: Enable charging when moving in a straight line, which increases your speed and impact damage depending on the total distance travelled.
+  name: ent-ActionXenoToggleCharging
+  description: ent-ActionXenoToggleCharging-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -785,7 +784,7 @@
 - type: entity
   parent: ActionXenoFling
   id: ActionXenoRam
-  name: Ram (10)
+  name: ent-ActionXenoRam
   components:
   - type: Action
     icon:
@@ -798,8 +797,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoBombard
-  name: Bombard (200)
-  description: Fire either an acidic or neurotoxic glob after a delay.
+  name: ent-ActionXenoBombard
+  description: ent-ActionXenoBombard-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -831,8 +830,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleGasType
-  name: Toggle Gas Type
-  description: Toggle between Acid or Neurotoxic gas types. Your acidic globs will deal continual damage to anything caught in its radius, while neurotoxin will cause targets to suffocate, be slowed down and blinded, alongside eventually knocking them unconscious to be kidnapped.
+  name: ent-ActionXenoToggleGasType
+  description: ent-ActionXenoToggleGasType-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -858,8 +857,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidShroud
-  name: Acid Shroud
-  description: Create a small cloud of acidic or neurotoxic gas around you to cloak yourself. This will disable your other abilities for a short time to allow you to escape.
+  name: ent-ActionXenoAcidShroud
+  description: ent-ActionXenoAcidShroud-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -888,8 +887,8 @@
 - type: entity
   id: ActionXenoTremor
   parent: ActionXenoBase
-  name: Tremor (100)
-  description: Slam the ground with a 7x7 AOE, stunning all enemies in range for a short period of time.
+  name: ent-ActionXenoTremor
+  description: ent-ActionXenoTremor-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -911,8 +910,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoForTheHive
-  name: For The Hive!
-  description: Prime yourself to detonate in a massive acid explosion in 20 seconds. Requires 200 acid at the minimum. The more acid reserves you have, the larger and more damaging the explosion will be. It will also coat barricades and mobs in acid, in a range equal to 1/2th the damage range. Damage is less the farther the mob is from the explosion. You will be slowed, change visually, and make an a loud wailing sound charging up. Dying will prevent the explosion from going off, but if successful you will respawn as a larva at your hive's hive core or at your corpse if theres none. Using this ability while primed will cancel the explosion at the cost of a 1/4th of your acid reserves.
+  name: ent-ActionXenoForTheHive
+  description: ent-ActionXenoForTheHive-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -925,8 +924,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoImpale
-  name: Impale (80)
-  description: Impales an adjacent enemy with your tail. Hits twice on a marked target and removes the mark. Pierces some armor.
+  name: ent-ActionXenoImpale
+  description: ent-ActionXenoImpale-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -948,8 +947,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailTrip
-  name: Tail Trip (30)
-  description: Disarms and dazes an unmarked enemy. Stuns and dazes for longer on a marked target, and removes the mark.
+  name: ent-ActionXenoTailTrip
+  description: ent-ActionXenoTailTrip-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -971,8 +970,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoPierce
-  name: Pierce (50)
-  description: Pierce through enemies in a 3 tile range, doing high damage and piercing some armor. Hitting 2 or more recharges your shield.
+  name: ent-ActionXenoPierce
+  description: ent-ActionXenoPierce-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1000,8 +999,8 @@
 - type: entity
   parent: ActionXenoDash
   id: ActionXenoBlitz
-  name: Blitz (50)
-  description: Dash a short distance towards a given location. After 3 seconds or if you use it again before then, damages enemies around you. Hitting 1 or more recharges your shield.
+  name: ent-ActionXenoBlitz
+  description: ent-ActionXenoBlitz-desc
   components:
   - type: Action
     useDelay: 0
@@ -1010,8 +1009,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCleaveRoot
-  name: Cleave Root
-  description: Root an enemy for a second. The duration is higher if your shield is up.
+  name: ent-ActionXenoCleaveRoot
+  description: ent-ActionXenoCleaveRoot-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1042,8 +1041,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCleaveFling
-  name: Cleave Fling
-  description: Fling an enemy. The distance is doubled if your shield is up.
+  name: ent-ActionXenoCleaveFling
+  description: ent-ActionXenoCleaveFling-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1093,14 +1092,13 @@
 - type: entity
   id: ActionXenoSpitQueen
   parent: ActionXenoSpit
-  name: Xeno Spit (50/25)
-  description: Launches a projectile that will either paralyze the first enemy it hits or damage them and cover them in acid.
-
+  name: ent-ActionXenoSpitQueen
+  description: ent-ActionXenoSpitQueen-desc
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleSpitType
-  name: Toggle Spit Type
-  description: Toggle between Neurotoxic or Acidic spit. Neurotoxic has less range and costs 50 plasma, and knocks down the first enemy it hits. Acidic has more range and costs 25 plasma, and damages and covers in acid the first enemy it hits.
+  name: ent-ActionXenoToggleSpitType
+  description: ent-ActionXenoToggleSpitType-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1117,8 +1115,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHighGallop
-  name: High Gallop
-  description: Stuns foes in a 2x3 area in targeted direction, and slows them. Also flings back grenades.
+  name: ent-ActionXenoHighGallop
+  description: ent-ActionXenoHighGallop-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1144,8 +1142,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoScissorCut
-  name: Scissor Cut (25)
-  description: Cuts enemies and fences in a straight line. If Super-Empowered, slows enemies hit too.
+  name: ent-ActionXenoScissorCut
+  description: ent-ActionXenoScissorCut-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1173,8 +1171,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailSeize
-  name: Tail Seize
-  description: Throw out your tail in front of you. Uses up your melee attack. Pulls in the first enemy hit to you and roots and slows them on arrival. [color=red]Has a 3-tile range![/color]
+  name: ent-ActionXenoTailSeize
+  description: ent-ActionXenoTailSeize-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1202,8 +1200,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAbduct
-  name: Abduct (180)
-  description: Cast out a line that after a small doafter pulls in enemies towards you, disarming them. Catching 1 target slows them, 2 roots them, and 3 or more stuns them.
+  name: ent-ActionXenoAbduct
+  description: ent-ActionXenoAbduct-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1231,8 +1229,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailLash
-  name: Tail Lash (80)
-  description: Fling back foes in a 2x3 area in targeted direction after a very short doafter. Also slows.
+  name: ent-ActionXenoTailLash
+  description: ent-ActionXenoTailLash-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1259,8 +1257,8 @@
 - type: entity
   id: ActionXenoDislocate
   parent: ActionXenoBase
-  name: Dislocate (55)
-  description: Punch a targeted enemy, doing some damage and pushing them back. If the target is slowed, stunned, downed, or rooted, instead roots and completely pierces armor. Reduces the cooldown of Abduct and Tail Lash.
+  name: ent-ActionXenoDislocate
+  description: ent-ActionXenoDislocate-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1289,8 +1287,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailJab
-  name: Tail Jab
-  description: Jab an enemy in a 2.5 tile range, doing high damage and slowing them.
+  name: ent-ActionXenoTailJab
+  description: ent-ActionXenoTailJab-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1312,8 +1310,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoFlurry
-  name: Flurry
-  description: An attack that has a range of 1x3 tiles, dealing damage per target and healing you.
+  name: ent-ActionXenoFlurry
+  description: ent-ActionXenoFlurry-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1339,8 +1337,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHeadbite
-  name: Headbite
-  description: Instantly kills unconscious targets and heals you for 150 HP.
+  name: ent-ActionXenoHeadbite
+  description: ent-ActionXenoHeadbite-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1368,8 +1366,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoApprehend
-  name: Apprehend
-  description: Increases your movement speed and applies a slow on the next target you slash.
+  name: ent-ActionXenoApprehend
+  description: ent-ActionXenoApprehend-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1384,8 +1382,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoEviscerate
-  name: Eviscerate
-  description: Eviscerate nearby enemies after a short delay. Costs 1 rage stack.
+  name: ent-ActionXenoEviscerate
+  description: ent-ActionXenoEviscerate-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1401,8 +1399,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoClothesline
-  name: Clothesline
-  description: Flings a target, doing minimal damage and healing you. The amount healed is higher the more rage stacks you have.
+  name: ent-ActionXenoClothesline
+  description: ent-ActionXenoClothesline-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1421,8 +1419,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTumble
-  name: Tumble (25) # TODO RMC14 proper plasma costs
-  description: Charge towards your side and push back the first enemy hit. Can only be used towards either side of where you are facing.
+  name: ent-ActionXenoTumble # TODO RMC14 proper plasma costs
+  description: ent-ActionXenoTumble-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1444,8 +1442,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoFireSpikes
-  name: Fire Spikes (75 shards)
-  description: Launch 8 small shards of spikes in the direction you click.
+  name: ent-ActionXenoFireSpikes
+  description: ent-ActionXenoFireSpikes-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1465,8 +1463,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSpikeShed
-  name: Spike Shed (all shards)
-  description: Shred all of your shards to launch them all in all directions around yourself. Lose the bonus armor in the process while also gaining a speed boost. This will disable you from gaining any shards for 30 seconds. Requires 50 shards minimum
+  name: ent-ActionXenoSpikeShed
+  description: ent-ActionXenoSpikeShed-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1482,8 +1480,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoRend
-  name: Rend (25)
-  description: Claw at enemies around you.
+  name: ent-ActionXenoRend
+  description: ent-ActionXenoRend-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1500,8 +1498,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoDestroy
-  name: Destroy
-  description: After a short time, jump to the targeted location, destroying structures and gibbing hostiles within a 3x3 range. Works over barricades and other short barriers.
+  name: ent-ActionXenoDestroy
+  description: ent-ActionXenoDestroy-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1519,8 +1517,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidMine
-  name: Acid Mine (40)
-  description: Cause an acid explosion at the targeted location.
+  name: ent-ActionXenoAcidMine
+  description: ent-ActionXenoAcidMine-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1551,8 +1549,8 @@
 - type: entity
   id: ActionXenoAcidShotgun
   parent: ActionXenoBase
-  name: Acid Shotgun (40)
-  description: Launches multiple acid projectiles that deal increased damage to trapped targets.
+  name: ent-ActionXenoAcidShotgun
+  description: ent-ActionXenoAcidShotgun-desc
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1572,8 +1570,8 @@
 - type: entity
   id: ActionXenoDeployTraps
   parent: ActionXenoBase
-  name: Deploy Traps (60)
-  description: Deploys a line of snaring traps.
+  name: ent-ActionXenoDeployTraps
+  description: ent-ActionXenoDeployTraps-desc
   components:
   - type: Action
     useDelay: 20.5

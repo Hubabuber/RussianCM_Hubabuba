@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRifleman
-  name: rifleman spawn point
+  name: ent-CMSpawnPointRifleman
   components:
   - type: SpawnPoint
     job_id: CMRifleman
@@ -70,7 +70,7 @@
 - type: entity
   parent: CMSpawnPointRifleman
   id: CMSpawnPointRiflemanAlpha
-  suffix: Alpha
+  suffix: ent-CMSpawnPointRiflemanAlpha-suffix
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMSpawnPointRifleman
   id: CMSpawnPointRiflemanBravo
-  suffix: Bravo
+  suffix: ent-CMSpawnPointRiflemanBravo-suffix
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMSpawnPointRifleman
   id: CMSpawnPointRiflemanCharlie
-  suffix: Charlie
+  suffix: ent-CMSpawnPointRiflemanCharlie-suffix
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -103,7 +103,7 @@
 - type: entity
   parent: CMSpawnPointRifleman
   id: CMSpawnPointRiflemanDelta
-  suffix: Delta
+  suffix: ent-CMSpawnPointRiflemanDelta-suffix
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -114,7 +114,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleYou
-  name: You?
+  name: ent-CMGuidebookRoleYou
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

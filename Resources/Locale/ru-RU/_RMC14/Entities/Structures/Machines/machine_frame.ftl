@@ -6,3 +6,5 @@ ent-CMMachineFrameUnfinished = рама машины
 
 ent-CMMachineFrameDestroyed = разрушенный корпус машины
 
+ent-CMMachineFrame = рама машины
+    .suffix = RMC14, Готово

@@ -1,9 +1,9 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorCorporate
   id: RMCSurvivorHybrisaCorporateLiaison
   name: cm-job-name-liaison
   description: cm-job-description-survivor
-  spawnMenuRoleName: Corporate Liaison (Hybrisa Survivor)
+  spawnMenuRoleName: job-rmcsurvivorhybrisacorporateliaison-spawnmenurolename
   startingGear: RMCGearSurvivorHybrisaCorporateLiaison
   special:
   - !type:AddComponentSpecial
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaCorporateLiaison
-  name: hybrisa corporate liaison survivor spawn point
+  name: ent-RMCSpawnPointSurvivorHybrisaCorporateLiaison
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorHybrisaCorporateLiaison
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCSurvivorPresetHybrisaCorporateLiaison
-  name: hybrisa corporate liaison preset
+  name: ent-RMCSurvivorPresetHybrisaCorporateLiaison
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

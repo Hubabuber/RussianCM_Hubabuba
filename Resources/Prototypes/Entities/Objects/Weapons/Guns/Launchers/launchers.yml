@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponLauncher
+  name: ent-BaseWeaponLauncher
   parent: BaseItem
   id: BaseWeaponLauncher
-  description: A rooty tooty point and shooty.
+  description: ent-BaseWeaponLauncher-desc
   abstract: true
   components:
   - type: Sprite
@@ -21,10 +21,10 @@
         ents: []
 
 - type: entity
-  name: china lake
+  name: ent-WeaponLauncherChinaLake
   parent: [BaseWeaponLauncher, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponLauncherChinaLake
-  description: PLOOP.
+  description: ent-WeaponLauncherChinaLake-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: [ BaseWeaponLauncher, BaseGunWieldable, BaseMajorContraband ]
   id: WeaponLauncherHydra
-  name: hydra
-  description: PLOOP... FSSSSSS
+  name: ent-WeaponLauncherHydra
+  description: ent-WeaponLauncherHydra-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
@@ -101,7 +101,7 @@
   name: RPG-7
   parent: [ BaseWeaponLauncher, BaseMajorContraband ]
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: ent-WeaponLauncherRocket-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -131,10 +131,10 @@
   - type: Appearance
 
 - type: entity
-  name: multiple rocket launcher
+  name: ent-WeaponLauncherMultipleRocket
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: ent-WeaponLauncherMultipleRocket-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -166,10 +166,10 @@
   - type: Appearance
 
 - type: entity
-  name: pirate cannon
+  name: ent-WeaponLauncherPirateCannon
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  description: Kaboom!
+  description: ent-WeaponLauncherPirateCannon-desc
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -198,12 +198,12 @@
         path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
-  name: tether gun
+  name: ent-WeaponTetherGun
   parent:
   - BaseItem
   - PowerCellSlotMediumItem
   id: WeaponTetherGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: ent-WeaponTetherGun-desc
   components:
     - type: Item
       storedRotation: -90
@@ -240,12 +240,12 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: ent-WeaponForceGun
   parent:
     - BaseItem
     - PowerCellSlotMediumItem
   id: WeaponForceGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: ent-WeaponForceGun-desc
   components:
     - type: Item
       storedRotation: -90
@@ -288,7 +288,7 @@
                 False: { visible: false }
 
 - type: entity
-  name: grappling gun
+  name: ent-WeaponGrapplingGun
   parent: BaseItem
   id: WeaponGrapplingGun
   components:
@@ -321,11 +321,11 @@
 
 # Admeme
 - type: entity
-  name: tether gun
+  name: ent-WeaponTetherGunAdmin
   parent: BaseItem
   id: WeaponTetherGunAdmin
-  suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  suffix: ent-WeaponTetherGunAdmin-suffix
+  description: ent-WeaponTetherGunAdmin-desc
   components:
     - type: TetherGun
       canTetherAlive: true
@@ -360,11 +360,11 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: ent-WeaponForceGunAdmin
   parent: BaseItem
   id: WeaponForceGunAdmin
-  suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  suffix: ent-WeaponForceGunAdmin-suffix
+  description: ent-WeaponForceGunAdmin-desc
   components:
     - type: ForceGun
       canTetherAlive: true
@@ -402,11 +402,11 @@
             False: { visible: false }
 
 - type: entity
-  name: meteor launcher
+  name: ent-WeaponLauncherAdmemeMeteorLarge
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
-  suffix: Admeme
-  description: It fires large meteors.
+  suffix: ent-WeaponLauncherAdmemeMeteorLarge-suffix
+  description: ent-WeaponLauncherAdmemeMeteorLarge-desc
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -415,11 +415,11 @@
     proto: MeteorMedium
 
 - type: entity
-  name: immovable rod launcher
+  name: ent-WeaponLauncherAdmemeImmovableRodSlow
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
-  suffix: Admeme
-  description: It fires slow immovable rods.
+  suffix: ent-WeaponLauncherAdmemeImmovableRodSlow-suffix
+  description: ent-WeaponLauncherAdmemeImmovableRodSlow-desc
   components:
   - type: BallisticAmmoProvider
     whitelist:

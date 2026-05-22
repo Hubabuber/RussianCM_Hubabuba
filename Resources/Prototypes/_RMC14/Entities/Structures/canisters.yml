@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCCanisterBase
-  name: canister
-  description: A gas canister.
+  name: ent-RMCCanisterBase
+  description: ent-RMCCanisterBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterGrey
-  name: canister (Air)
-  description: A gas canister.
+  name: ent-RMCCanisterGrey
+  description: ent-RMCCanisterGrey-desc
   components:
   - type: Sprite
     state: grey 
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBlack
-  name: canister (CO2)
-  description: A gas canister.
+  name: ent-RMCCanisterBlack
+  description: ent-RMCCanisterBlack-desc
   components:
   - type: Sprite
     state: black 
@@ -62,8 +62,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBlue
-  name: canister (O2)
-  description: A gas canister.
+  name: ent-RMCCanisterBlue
+  description: ent-RMCCanisterBlue-desc
   components:
   - type: Sprite
     state: blue
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterRed
-  name: canister (N2)
-  description: A gas canister.
+  name: ent-RMCCanisterRed
+  description: ent-RMCCanisterRed-desc
   components:
   - type: Sprite
     state: red
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterOrange
-  name: canister (Phoron)
-  description: A gas canister.
+  name: ent-RMCCanisterOrange
+  description: ent-RMCCanisterOrange-desc
   components:
   - type: Sprite
     state: orange 
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterRedWhite
-  name: canister (N2O)
-  description: A gas canister.
+  name: ent-RMCCanisterRedWhite
+  description: ent-RMCCanisterRedWhite-desc
   components:
   - type: Sprite
     state: redws
@@ -99,8 +99,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBrokenBase
-  name: broken canister
-  description: A broken gas canister. Completely useless.
+  name: ent-RMCCanisterBrokenBase
+  description: ent-RMCCanisterBrokenBase-desc
   components:  
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi

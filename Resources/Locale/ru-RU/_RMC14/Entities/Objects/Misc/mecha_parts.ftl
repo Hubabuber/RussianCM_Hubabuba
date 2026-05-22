@@ -3,3 +3,6 @@ ent-RMCMechPropArmorBooster = модуль усиления брони (оруж
 ent-RMCMechPropClamp = гидравлический захват
 ent-RMCMechPropDrill = бур
   .desc = Это бур, который пробьёт небеса!
+
+ent-RMCMechPropBase = item
+    .suffix = Опора

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseHiveStructure
   id: HiveCoreXeno
-  name: hive core
-  description: A giant pulsating mound of mass. It looks very much alive.
+  name: ent-HiveCoreXeno
+  description: ent-HiveCoreXeno-desc
   components:
   - type: Transform
     anchored: true
@@ -90,9 +90,9 @@
 - type: entity
   id: HiveCoreXenoConstructionNode
   parent: BaseHiveStructureNode
-  name: hive core
-  description: A strange wriggling lump. Looks like a marker for something.
-  suffix: Construction
+  name: ent-HiveCoreXenoConstructionNode
+  description: ent-HiveCoreXenoConstructionNode-desc
+  suffix: ent-HiveCoreXenoConstructionNode-suffix
   components:
   - type: Sprite
     color: '#FFFFFFAA'
@@ -127,8 +127,8 @@
 - type: entity
   parent: BaseHiveStructure
   id: HivePylonXeno
-  name: hive pylon
-  description: A towering spike of resin. Its base pulsates with large tendrils.
+  name: ent-HivePylonXeno
+  description: ent-HivePylonXeno-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/hive_structures.rsi

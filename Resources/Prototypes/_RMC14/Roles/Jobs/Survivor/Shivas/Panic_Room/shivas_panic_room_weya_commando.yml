@@ -15,7 +15,7 @@
   camouflageStartingGear: null
   greeting: rmc-job-greeting-shivas-commando
   playTimeTracker: CMJobSurvivorSecurity
-  spawnMenuRoleName: Survivor - We-Ya Commando (Shivas)
+  spawnMenuRoleName: job-rmcsurvivorpmccommandoshivas-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -60,13 +60,13 @@
 - type: entity
   parent: CMArmorM4PMCCommandoSurvivor
   id: CMArmorM4PMCCommandoSurvivorFilled
-  suffix: Filled
+  suffix: ent-CMArmorM4PMCCommandoSurvivorFilled-suffix
 
 
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidKitFilledCommando
-  suffix: Filled, Commando
+  suffix: ent-CMFirstAidKitFilledCommando-suffix
   components:
   - type: StorageFill
     contents:
@@ -88,7 +88,7 @@
 - type: entity
   parent: CMSurgicalCase
   id: RMCSurgicalCaseFilledCommandoElite
-  suffix: Filled, Commando, Elite
+  suffix: ent-RMCSurgicalCaseFilledCommandoElite-suffix
   components:
   - type: StorageFill
     contents:
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledCommando
-  suffix: Filled, Commando
+  suffix: ent-RMCSyringeCaseFilledCommando-suffix
   components:
   - type: StorageFill
     contents:
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMMedicalUpgradeKit
   id: CMMedicalUpgradeKitFilledCommando
-  suffix: Filled, Commando
+  suffix: ent-CMMedicalUpgradeKitFilledCommando-suffix
   components:
   - type: StorageFill # todo: randomization (35% probability to spawn 1-4 trauma, and 35% to spawn 1-4 burn)
     contents:
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCBeltPMC
   id: RMCBeltPMCFilledCommando
-  suffix: Filled, Commando, Survivor
+  suffix: ent-RMCBeltPMCFilledCommando-suffix
   components:
   - type: StorageFill
     contents:
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCSatchelPMCCommando
   id: RMCSatchelPMCCommandoFilled
-  suffix: Filled
+  suffix: ent-RMCSatchelPMCCommandoFilled-suffix
   components:
   - type: StorageFill
     contents:
@@ -152,7 +152,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorPanicRoomCommando
-  name: special survivor panic room commando spawn point
+  name: ent-RMCSpawnPointSurvivorPanicRoomCommando
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorPMCCommandoShivas

@@ -1,0 +1,23 @@
+ent-CMFilingCabinet = filing cabinet
+    .desc = A large cabinet with drawers.
+    .suffix = Empty
+
+ent-CMFilingCabinetChest = chest drawer
+    .desc = A large cabinet with drawers.
+    .suffix = Empty
+
+ent-CMFilingCabinetChestAngled = chest drawer
+    .desc = A large cabinet with drawers.
+    .suffix = Angled
+
+ent-CMFilingCabinetChestWood = wooden chest drawer
+    .desc = A large cabinet with drawers.
+    .suffix = Empty
+
+ent-CMFilingCabinetTall = tall filing cabinet
+    .desc = A large cabinet with drawers.
+    .suffix = Empty
+
+ent-CMFilingCabinetTallWood = tall wooden filing cabinet
+    .desc = A large cabinet with drawers.
+    .suffix = Empty

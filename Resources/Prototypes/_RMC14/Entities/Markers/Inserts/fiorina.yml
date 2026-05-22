@@ -3,7 +3,7 @@
   abstract: true
   parent: RMCMapInsertBase
   id: RMCMapInsertFiorinaBase
-  suffix: Insert Fiorina
+  suffix: ent-RMCMapInsertFiorinaBase-suffix
   components:
   - type: MapInsert
     clearEntities: true
@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCMapInsertFiorinaBase
   id: RMCMapInsertFiorinaPodholder
-  name: Podholder # Not mapped
-  suffix: Insert Fiorina
+  name: ent-RMCMapInsertFiorinaPodholder # Not mapped
+  suffix: ent-RMCMapInsertFiorinaPodholder-suffix
   components:
   - type: MapInsert
     variations:
@@ -25,8 +25,8 @@
 - type: entity
   parent: RMCMapInsertFiorinaBase
   id: RMCMapInsertFiorinaRocinanteCLF
-  name: Rocinante - CLF
-  suffix: Insert Fiorina
+  name: ent-RMCMapInsertFiorinaRocinanteCLF
+  suffix: ent-RMCMapInsertFiorinaRocinanteCLF-suffix
   components:
   - type: MapInsert
     variations:
@@ -38,8 +38,8 @@
 - type: entity
   parent: RMCMapInsertFiorinaBase
   id: RMCMapInsertFiorinaRiotInProgress
-  name: Riot In Progress
-  suffix: Insert Fiorina
+  name: ent-RMCMapInsertFiorinaRiotInProgress
+  suffix: ent-RMCMapInsertFiorinaRiotInProgress-suffix
   components:
   - type: MapInsert
     variations:

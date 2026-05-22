@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWeaponRifle
-  name: Kramer Assault Rifle
+  name: ent-AU14WeaponRifleKramerAR
   id: AU14WeaponRifleKramerAR
-  description: Alternately referred to as the Kramer or KAR, it is an automatic assault rifle manufactured by Kramer Metallarbeiten GmBH and is used by many military forces across the United Americas.
+  description: ent-AU14WeaponRifleKramerAR-desc
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/LACN/kramer.rsi
@@ -101,7 +101,7 @@
 - type: entity
   parent: AU14WeaponRifleKramerAR
   id: AU14WeaponRifleKramerARAP
-  name: Kramer Assault Rifle (AP)
+  name: ent-AU14WeaponRifleKramerARAP
   components:
   - type: ItemSlots
     slots:
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14WeaponRifleKramerMagazineStandard
-  name: "Kramer magazine (10x24mm)"
+  name: "ent-AU14WeaponRifleKramerMagazineStandard"
   components:
   - type: Tag
     tags:
@@ -146,8 +146,8 @@
 - type: entity
   parent: AU14WeaponRifleKramerMagazineStandard
   id: AU14WeaponRifleKramerMagazineAP
-  name: "Kramer AP magazine (10x24mm)"
-  suffix: AP
+  name: "ent-AU14WeaponRifleKramerMagazineAP"
+  suffix: ent-AU14WeaponRifleKramerMagazineAP-suffix
   components:
   - type: Tag
     tags:

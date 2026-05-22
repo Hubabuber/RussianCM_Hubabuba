@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobRedCrossCMO
-  name: ICRC Medical Staff CMO
-  description: You are a member of the medical staff assigned to an International Committee of the Red Cross relief mission, traveling from colony to colony to provide vaccines, medical aid and humanitarian assistance. Provide care to those you encounter and help the people of the Neroid Sector.
+  name: job-au14jobredcrosscmo-name
+  description: job-au14jobredcrosscmo-desc
   setPreference: true
   canBeAntag: false
   playTimeTracker: AU14JobRedCrossCMO
@@ -65,7 +65,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicRedCross
   id: AU14PartyJobICRCCMO
-  name: ICRC Medical Staff CMO
+  name: ent-AU14PartyJobICRCCMO
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

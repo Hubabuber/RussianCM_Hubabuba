@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseHandheldInstrument
-  description: That's an instrument.
+  description: ent-BaseHandheldInstrument-desc
   components:
   - type: Sprite
     state: icon
@@ -23,7 +23,7 @@
 
 #These are for instruments that are larger, can't be picked up, or have collision
 - type: entity
-  name: baseinstrument
+  name: ent-BasePlaceableInstrument
   id: BasePlaceableInstrument
   parent: BaseStructureDynamic
   abstract: true
@@ -79,7 +79,7 @@
 - type: entity
   parent: BasePlaceableInstrument
   id: BasePlaceableInstrumentRotatable
-  name: baseinstrumentrotatable
+  name: ent-BasePlaceableInstrumentRotatable
   abstract: true
   components:
   - type: Rotatable

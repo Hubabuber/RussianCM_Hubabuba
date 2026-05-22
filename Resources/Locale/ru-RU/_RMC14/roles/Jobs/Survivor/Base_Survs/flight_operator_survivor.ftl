@@ -5,3 +5,6 @@ ent-RMCRandomHumanoidSurvivorFlightOperator = Роль призрака коло
 
 ent-RMCGearSurvivorPresetFlightOperator = предустановка колониста авиаоператора
 
+job-cmsurvivorflightoperator-desc = cm-описание-работы-выживший
+job-cmsurvivorflightoperator-name = cm-имя-задания-выжившего-оператора-управления-полетом
+job-cmsurvivorflightoperator-spawnmenurolename = Оператор управления полетом (Выживший)

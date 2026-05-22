@@ -3,16 +3,15 @@
   id: WardrobeBase
   parent: ClosetSteelBase
   abstract: true
-  description: It's a storage unit for standard-issue Nanotrasen attire.
-
+  description: ent-WardrobeBase-desc
 # Colored
 
 # Blue wardrobe
 - type: entity
   id: WardrobeBlue
   parent: WardrobeBase
-  name: blue wardrobe
-  description: "A wardrobe packed with stylish blue clothing."
+  name: ent-WardrobeBlue
+  description: "ent-WardrobeBlue-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -24,8 +23,8 @@
 - type: entity
   id: WardrobePink
   parent: WardrobeBase
-  name: pink wardrobe
-  description: "A wardrobe packed with fabulous pink clothing."
+  name: ent-WardrobePink
+  description: "ent-WardrobePink-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -37,8 +36,8 @@
 - type: entity
   id: WardrobeBlack
   parent: WardrobeBase
-  name: black wardrobe
-  description: "A wardrobe packed with stylish black clothing."
+  name: ent-WardrobeBlack
+  description: "ent-WardrobeBlack-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -50,8 +49,8 @@
 - type: entity
   id: WardrobeGreen
   parent: WardrobeBase
-  name: green wardrobe
-  description: "A wardrobe packed with stylish green clothing."
+  name: ent-WardrobeGreen
+  description: "ent-WardrobeGreen-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -63,7 +62,7 @@
 - type: entity
   id: WardrobePrison
   parent: WardrobeBase
-  name: prison wardrobe
+  name: ent-WardrobePrison
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -75,8 +74,8 @@
 - type: entity
   id: WardrobeYellow
   parent: WardrobeBase
-  name: yellow wardrobe
-  description: "A wardrobe packed with stylish yellow clothing."
+  name: ent-WardrobeYellow
+  description: "ent-WardrobeYellow-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -88,8 +87,8 @@
 - type: entity
   id: WardrobeWhite
   parent: WardrobeBase
-  name: white wardrobe
-  description: "A wardrobe packed with stylish white clothing."
+  name: ent-WardrobeWhite
+  description: "ent-WardrobeWhite-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -101,8 +100,8 @@
 - type: entity
   id: WardrobeGrey
   parent: WardrobeBase
-  name: grey wardrobe
-  description: "A wardrobe packed with a tide of grey clothing."
+  name: ent-WardrobeGrey
+  description: "ent-WardrobeGrey-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -114,8 +113,8 @@
 - type: entity
   id: WardrobeMixed
   parent: WardrobeBase
-  name: mixed wardrobe
-  description: "A wardrobe packed with a mix of colorful clothing."
+  name: ent-WardrobeMixed
+  description: "ent-WardrobeMixed-desc"
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -128,7 +127,7 @@
 - type: entity
   id: WardrobeSecurity
   parent: WardrobeBase
-  name: security wardrobe
+  name: ent-WardrobeSecurity
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -139,7 +138,7 @@
 - type: entity
   id: WardrobeAtmospherics
   parent: WardrobeBase
-  name: atmospherics wardrobe
+  name: ent-WardrobeAtmospherics
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -150,80 +149,74 @@
 - type: entity
   id: ClosetJanitor
   parent: WardrobeMixed
-  name: custodial closet
-  description: It's a storage unit for janitorial clothes and gear.
-
+  name: ent-ClosetJanitor
+  description: ent-ClosetJanitor-desc
 - type: entity
   id: WardrobeFormal
   parent: WardrobeBlack
-  name: formal closet
-  description: It's a storage unit for formal clothing.
-
+  name: ent-WardrobeFormal
+  description: ent-WardrobeFormal-desc
 - type: entity
   id: ClosetChef
   parent: WardrobeBlack
-  name: chef's closet
-  description: It's a storage unit for foodservice garments and mouse traps.
-
+  name: ent-ClosetChef
+  description: ent-ClosetChef-desc
 - type: entity
   id: WardrobeChapel
   parent: WardrobeBlack
-  name: chaplain's wardrobe
-  description: It's a storage unit for Nanotrasen-approved religious attire.
-
+  name: ent-WardrobeChapel
+  description: ent-WardrobeChapel-desc
 - type: entity
   id: ClosetLegal
   parent: WardrobeBlue
-  name: legal closet
-  description: It's a storage unit for courtroom apparel and items.
-
+  name: ent-ClosetLegal
+  description: ent-ClosetLegal-desc
 - type: entity
   id: WardrobeCargo
   parent: WardrobePrison
-  name: cargo wardrobe
+  name: ent-WardrobeCargo
 
 - type: entity
   id: WardrobeSalvage
   parent: WardrobeMixed
-  name: salvage wardrobe
-  description: Notably not salvaged.
-
+  name: ent-WardrobeSalvage
+  description: ent-WardrobeSalvage-desc
 - type: entity
   id: WardrobeEngineering
   parent: WardrobeYellow
-  name: engineering wardrobe
+  name: ent-WardrobeEngineering
 
 - type: entity
   id: WardrobeMedicalDoctor
   parent: WardrobeWhite
-  name: medical doctor's wardrobe
+  name: ent-WardrobeMedicalDoctor
 
 - type: entity
   id: WardrobeRobotics
   parent: WardrobeBlack
-  name: robotics wardrobe
+  name: ent-WardrobeRobotics
 
 - type: entity
   id: WardrobeChemistry
   parent: WardrobeWhite
-  name: chemistry wardrobe
+  name: ent-WardrobeChemistry
 
 - type: entity
   id: WardrobeGenetics
   parent: WardrobeWhite
-  name: genetics wardrobe
+  name: ent-WardrobeGenetics
 
 - type: entity
   id: WardrobeVirology
   parent: WardrobeWhite
-  name: virology wardrobe
+  name: ent-WardrobeVirology
 
 - type: entity
   id: WardrobeScience
   parent: WardrobeWhite
-  name: science wardrobe
+  name: ent-WardrobeScience
 
 - type: entity
   id: WardrobeBotanist
   parent: WardrobeGreen
-  name: botanist wardrobe
+  name: ent-WardrobeBotanist

@@ -17,3 +17,6 @@ ent-CMSpawnPointRiflemanDelta = точка появления стрелка
 
 ent-RMCGuidebookCorpseMarine = Раненый Морпех
 
+job-cmrifleman-desc = cm-job-description-стрелок
+job-cmrifleman-name = cm-job-name-стрелок
+job-cmrifleman-supervisors = cm-job-supervisors-sl

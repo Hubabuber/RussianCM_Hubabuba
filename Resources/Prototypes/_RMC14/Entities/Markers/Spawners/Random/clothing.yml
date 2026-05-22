@@ -1,9 +1,9 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomClothingBase
-  name: gun spawner
-  description: spawns a random clothing item
-  suffix: Base
+  name: ent-RMCSpawnerRandomClothingBase
+  description: ent-RMCSpawnerRandomClothingBase-desc
+  suffix: ent-RMCSpawnerRandomClothingBase-suffix
   abstract: true
   components:
   - type: Sprite
@@ -15,9 +15,9 @@
 - type: entity
   parent: RMCSpawnerRandomClothingBase
   id: RMCSpawnerRandomGoggles
-  name: goggles loot spawner
-  description: This is a random set of goggles, for survivors.
-  suffix: Guaranteed
+  name: ent-RMCSpawnerRandomGoggles
+  description: ent-RMCSpawnerRandomGoggles-desc
+  suffix: ent-RMCSpawnerRandomGoggles-suffix
   components:
   - type: RandomSpawner
     offset: 0
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCSpawnerRandomGoggles
   id: RMCSpawnerRandomGogglesLowChance
-  suffix: Low Chance
+  suffix: ent-RMCSpawnerRandomGogglesLowChance-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCSpawnerRandomGoggles
   id: RMCSpawnerRandomGogglesMidChance
-  suffix: Mid Chance
+  suffix: ent-RMCSpawnerRandomGogglesMidChance-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCSpawnerRandomGoggles
   id: RMCSpawnerRandomGogglesHighChance
-  suffix: High Chance
+  suffix: ent-RMCSpawnerRandomGogglesHighChance-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

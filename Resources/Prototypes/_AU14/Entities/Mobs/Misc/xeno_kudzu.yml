@@ -1,9 +1,9 @@
 - type: entity
   parent: Kudzu
   id: CMUXenoKudzu
-  name: roots
-  suffix: Xeno, Kudzu
-  description: A weird, rapidly growing cluster of roots.
+  name: ent-CMUXenoKudzu
+  suffix: ent-CMUXenoKudzu-suffix
+  description: ent-CMUXenoKudzu-desc
   components:
   - type: Sprite
     drawdepth: HighFloorObjects
@@ -58,9 +58,9 @@
 - type: entity
   parent: BaseStructure
   id: CMUSentryXenoKudzu
-  name: xeno turret
-  suffix: Xeno, Kudzu
-  description: Shoots 9mm acid projectiles.
+  name: ent-CMUSentryXenoKudzu
+  suffix: ent-CMUSentryXenoKudzu-suffix
+  description: ent-CMUSentryXenoKudzu-desc
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMUSentryXenoKudzu
   id: CMUSentryXenoKudzuBig
-  name: big xeno turret
-  description: Shoots .700in acid projectiles.
+  name: ent-CMUSentryXenoKudzuBig
+  description: ent-CMUSentryXenoKudzuBig-desc
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Turrets/xenoturretbig.rsi
@@ -199,7 +199,7 @@
 - type: entity
   parent: BulletAcid
   id: CMUBulletAcidBig
-  name: big acid spit
+  name: ent-CMUBulletAcidBig
   categories: [ HideSpawnMenu ]
   components:
   - type: Fixtures

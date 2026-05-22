@@ -33,14 +33,14 @@
   dummyStartingGear: AU14GearopforPlatoonSergantDummy
   icon: "AU14JobIconOPFORPlatoonSarge"
   requireAdminNotify: true
-  spawnMenuRoleName: Platoon Sergeant (OPFOR)
+  spawnMenuRoleName: job-au14jobopforsectionsergeant-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforCommand
   overwatchSortPriority: -6
   overwatchShowName: true
-  overwatchRoleName: Platoon Sergeant
+  overwatchRoleName: job-au14jobopforsectionsergeant-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforSectionSergeant
-  name: Spawn Point opfor Section Sergeant
+  name: ent-AU14SpawnPointopforSectionSergeant
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforSectionSergeant

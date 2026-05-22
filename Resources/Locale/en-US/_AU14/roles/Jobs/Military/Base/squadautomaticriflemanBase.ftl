@@ -1,0 +1,2 @@
+job-au14jobsquadautomaticriflemanbase-desc = au14-job-description-govforsquadautomaticrifleman
+job-au14jobsquadautomaticriflemanbase-name = au14-job-name-govforsquadautomaticrifleman

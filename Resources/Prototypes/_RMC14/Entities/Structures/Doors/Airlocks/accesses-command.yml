@@ -10,7 +10,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockCommandLocked
-  suffix: Command, Locked
+  suffix: ent-CMAirlockCommandLocked-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessCommand"]]
@@ -18,7 +18,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintCommandLocked
-  suffix: Command, Locked, Maint
+  suffix: ent-CMAirlockMaintCommandLocked-suffix
   components:
   - type: AccessReader
     access: [["RMCAccessCommand"]]
@@ -28,7 +28,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockCMPLocked
-  suffix: CMP, Locked
+  suffix: ent-CMAirlockCMPLocked-suffix
   components:
   - type: AccessReader
     access: [["CMAccessCMP"]]
@@ -36,7 +36,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockQuartermasterLocked
-  suffix: Logistics Officer, Locked
+  suffix: ent-CMAirlockQuartermasterLocked-suffix
   components:
   - type: AccessReader
     access: [["CMAccessQM"]]
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockSEALocked
-  suffix: SEA, Locked
+  suffix: ent-CMAirlockSEALocked-suffix
   components:
   - type: AccessReader
     access: [["CMAccessSEA"]]
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockCOLocked
-  suffix: CO, Locked
+  suffix: ent-CMAirlockCOLocked-suffix
   components:
   - type: AccessReader
     access: [["CMAccessCO"]]
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockCMOLocked
-  suffix: CMO, Locked
+  suffix: ent-CMAirlockCMOLocked-suffix
   components:
   - type: AccessReader
     access: [["CMAccessCMO"]]
@@ -68,7 +68,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockCELocked
-  suffix: CE, Locked
+  suffix: ent-CMAirlockCELocked-suffix
   components:
   - type: AccessReader
     access: [["CMAccessCE"]]
@@ -76,7 +76,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockASOLocked
-  suffix: ASO, Locked
+  suffix: ent-CMAirlockASOLocked-suffix
   components:
   - type: AccessReader
     access: [["CMAccessASO"]]
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMAirlockCommand
   id: CMAirlockHighCommandLocked
-  suffix: High Command, Locked
+  suffix: ent-CMAirlockHighCommandLocked-suffix
   components:
   - type: AccessReader
     access: [["CMAccessHighCommand"]]

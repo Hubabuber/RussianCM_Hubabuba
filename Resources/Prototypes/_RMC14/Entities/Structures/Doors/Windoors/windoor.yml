@@ -118,8 +118,8 @@
 - type: entity
   parent: CMBaseWindoor
   id: CMWindoor
-  name: glass door
-  description: A window, that is also a door. A windoor if you will.
+  name: ent-CMWindoor
+  description: ent-CMWindoor-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Windoors/windoor.rsi
@@ -154,7 +154,7 @@
 - type: entity
   parent: CMWindoor
   id: RMCWindoorSoro
-  suffix: Blue
+  suffix: ent-RMCWindoorSoro-suffix
   components:
   - type: Sprite
     color: "#98A3AB"
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMBaseWindoor
   id: CMWindoorSecure
-  name: secure glass door
-  description: A thick chunk of tempered glass on metal track. Probably more robust than you.
+  name: ent-CMWindoorSecure
+  description: ent-CMWindoorSecure-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Windoors/secure.rsi

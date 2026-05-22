@@ -1,10 +1,10 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorEngineer
   id: CMSurvivorTrijentEngiHydro
   name: cm-job-name-survivor-trijent-engi-hydro
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorTrijentEngiHydro
-  spawnMenuRoleName: Hydro Electric Engineer (Trijent Survivor)
+  spawnMenuRoleName: job-cmsurvivortrijentengihydro-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentEngiHydro
-  name: survivor hydro electric engineer spawn point
+  name: ent-RMCSpawnPointSurvivorTrijentEngiHydro
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -51,5 +51,5 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetTrijentEngiHydro
-  name: hydro electric engineer colonist preset
+  name: ent-RMCGearSurvivorPresetTrijentEngiHydro
   categories: [ HideSpawnMenu ]

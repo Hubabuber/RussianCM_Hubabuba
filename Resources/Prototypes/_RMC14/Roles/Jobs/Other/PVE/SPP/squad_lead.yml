@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - FTL
-  spawnMenuRoleName: SPP Squad Lead (PVE)
+  spawnMenuRoleName: job-rmcsppsquadleadpve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPSquadLeadPVE
-  name: spp squad lead spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointSPPSquadLeadPVE
+  suffix: ent-RMCSpawnPointSPPSquadLeadPVE-suffix
   components:
   - type: SpawnPoint
     job_id: RMCSPPSquadLeadPVE

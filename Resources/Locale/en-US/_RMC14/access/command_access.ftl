@@ -1,0 +1,12 @@
+accesslevel-cmaccessaso-name = cm-job-name-aso
+accesslevel-cmaccessce-name = Chief Engineer
+accesslevel-cmaccesscmo-name = rmc-job-name-cmo
+accesslevel-cmaccesscmp-name = cm-job-name-chief-mp
+accesslevel-cmaccessco-name = cm-job-name-commanding-officer
+accesslevel-cmaccesscorp-name = cm-job-name-corp
+accesslevel-cmaccesshighcommand-name = cm-job-name-high-command
+accesslevel-cmaccessqm-name = id-card-access-level-quartermaster
+accesslevel-cmaccesssea-name = cm-job-name-senior-enlisted-advisor
+accesslevel-rmcaccesscommand-name = id-card-access-level-command
+accesslevel-rmcaccessdatabase-name = Database
+accesslevel-rmcaccessseniorcommand-name = Senior Command

@@ -1,2 +1,10 @@
 ent-AU14SpawnPointMobGoon-name = Точка возрождения Моб Гун
 ent-AU14SpawnPointMobGoon-desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+
+ent-AU14SpawnPointMobGoon = Точка возрождения Моб Гун
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+
+job-au14jobmobgoon-desc = au14-описание-должности-mobgoon
+job-au14jobmobgoon-name = au14-имя-работы-mobgoon
+job-au14jobmobgoon-supervisors = au14-работа-руководители-mobgoon

@@ -3,3 +3,6 @@ ent-RMCSpawnPointSurvivorChancesAtmosProcessTech = Точка возрожден
 
 ent-RMCRandomHumanoidSurvivorChancesAtmosProcessTech = Роль призрака: техник по реактору обработки атмосферы
 
+job-cmsurvivorchancesatmosprocesstech-desc = cm-описание-работы-выживший
+job-cmsurvivorchancesatmosprocesstech-name = RMC-имя-задания-колонист-атмос-процесс-технология
+job-cmsurvivorchancesatmosprocesstech-spawnmenurolename = Техник реактора обработки атмосферы (Колонист Шанса)

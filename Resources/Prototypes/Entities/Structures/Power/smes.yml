@@ -3,8 +3,8 @@
   abstract: true
   id: BaseSMES
   parent: [ BaseMachine, ConstructibleMachine ]
-  name: SMES
-  description: A high-capacity superconducting magnetic energy storage (SMES) unit.
+  name: ent-BaseSMES
+  description: ent-BaseSMES-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -116,7 +116,7 @@
 - type: entity
   parent: BaseSMES
   id: SMESBasic
-  suffix: Basic, 8MJ
+  suffix: ent-SMESBasic-suffix
   components:
   - type: Battery
     maxCharge: 8000000
@@ -125,7 +125,7 @@
 - type: entity
   parent: SMESBasic
   id: SMESBasicEmpty
-  suffix: Empty
+  suffix: ent-SMESBasicEmpty-suffix
   components:
   - type: Battery
     startingCharge: 0
@@ -133,9 +133,9 @@
 - type: entity
   parent: BaseSMES
   id: SMESAdvanced
-  suffix: Advanced, 16MJ
-  name: advanced SMES
-  description: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
+  suffix: ent-SMESAdvanced-suffix
+  name: ent-SMESAdvanced
+  description: ent-SMESAdvanced-desc
   components:
   - type: Sprite
     sprite: Structures/Power/smes.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: SMESAdvanced
   id: SMESAdvancedEmpty
-  suffix: Empty
+  suffix: ent-SMESAdvancedEmpty-suffix
   components:
   - type: Battery
     startingCharge: 0

@@ -6,3 +6,6 @@ ent-RMCBulletSentryFireProjectile = пылающий шар
   .desc = Хм? 
 ent-RMCBulletSentry = пуля (10х28мм)
 ent-CMBulletSentry10x50mm = пуля (10х50мм)
+
+ent-RMCBaseBulletSentryFireProjectile = пылающий шар
+    .desc = Хм? Вы не должны этого видеть...

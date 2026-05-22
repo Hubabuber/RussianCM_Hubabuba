@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: RMCBoxMagazineSupplyBase
   id: RMCBoxMagazinePowerCellsHigh
-  name: box of high-capacity power cells (x8)
-  description: A box of High-Capacity Power Cells to keep your electronics going all night long!
+  name: ent-RMCBoxMagazinePowerCellsHigh
+  description: ent-RMCBoxMagazinePowerCellsHigh-desc
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCBoxMagazinePowerCellsHigh
   id: RMCBoxMagazinePowerCellsHighFilled
-  suffix: Filled
+  suffix: ent-RMCBoxMagazinePowerCellsHighFilled-suffix
   components:
   - type: CMItemSlots
     startingItem: RMCPowerCellHigh

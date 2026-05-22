@@ -8,3 +8,16 @@ ent-GhostBox-desc = Осторожно!
 
 ent-BigBox-name = construction-recipe-big-box
 
+ent-BaseBigBox = картонная коробка
+    .desc = Хм? Просто коробка...
+
+ent-BigBox = картонная коробка
+    .desc = Хм? Просто коробка...
+
+ent-GhostBox = призрачный ящик
+    .desc = Остерегаться!
+    .suffix = скрытность
+
+ent-StealthBox = картонная коробка
+    .desc = Заставил тебя ждать, да?
+    .suffix = скрытность

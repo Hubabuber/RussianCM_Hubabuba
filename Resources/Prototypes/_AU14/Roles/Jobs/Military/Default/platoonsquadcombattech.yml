@@ -5,7 +5,7 @@
   description: au14-job-description-govforsquadcombattech
   setPreference: true
   overwatchSortPriority: -5
-  overwatchRoleName: Combat Technician
+  overwatchRoleName: job-au14jobgovforsquadcombattech-overwatchrolename
   requirements:
   - !type:TraitsRequirement
     inverted: true
@@ -30,7 +30,7 @@
   dummyStartingGear: AU14GearGOVFORCTDummy
   icon: "AU14JobIconGovCT"
   requireAdminNotify: false
-  spawnMenuRoleName: Combat Tech (GOVFOR)
+  spawnMenuRoleName: job-au14jobgovforsquadcombattech-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
@@ -70,7 +70,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadCombatTech
-  name: Spawn Point GOVFOR Comtech
+  name: ent-AU14SpawnPointGOVFORSquadCombatTech
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadCombatTech

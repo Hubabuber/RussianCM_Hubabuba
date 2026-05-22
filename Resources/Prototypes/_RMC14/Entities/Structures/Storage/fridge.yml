@@ -1,7 +1,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerFridge
-  name: fridge
+  name: ent-CMLockerFridge
   placement:
     mode: SnapgridCenter
   components:
@@ -13,7 +13,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeGroceries
-  name: groceries
+  name: ent-RMCLockerFridgeGroceries
   components:
   - type: StorageFill
     contents:
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeOrganic
-  name: organic
+  name: ent-RMCLockerFridgeOrganic
   components:
   - type: StorageFill
     contents:
@@ -63,7 +63,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeDry
-  name: dry
+  name: ent-RMCLockerFridgeDry
   components:
   - type: StorageFill
     contents:
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeMeat
-  name: meat
+  name: ent-RMCLockerFridgeMeat
   components:
   - type: StorageFill
     contents:
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeFish
-  name: fish
+  name: ent-RMCLockerFridgeFish
   components:
   - type: StorageFill
     contents:

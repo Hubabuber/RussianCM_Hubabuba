@@ -7,3 +7,6 @@ ent-RMCMarshalCMBUniformSurvivorMarshal = униформа маршала кол
 ent-RMCWebbingSurvivorCMBMarshal = плечевая кобура
   .desc = Кобура для пистолета с прикрепленным подсумком, позволяющая хранить вместе два магазина или спидлоадера.
 
+job-cmsurvivorsolariscmbmarshal-desc = cm-должностная инструкция-командир-офицер
+job-cmsurvivorsolariscmbmarshal-name = RMC-имя-должности-выжившего-бюро-маршала
+job-cmsurvivorsolariscmbmarshal-spawnmenurolename = Маршал CMB (Выживший в Солярисе)

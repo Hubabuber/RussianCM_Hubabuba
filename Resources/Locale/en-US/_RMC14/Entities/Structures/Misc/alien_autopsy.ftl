@@ -1,0 +1,22 @@
+ent-RMCAlienTank = cryo tank
+    .desc = There is something big inside...
+    .suffix = Alien
+
+ent-RMCAlienTankBroken = cryo tank
+    .suffix = Broken
+
+ent-RMCAlienTankEmpty = cryo tank
+    .desc = It is empty.
+    .suffix = Empty
+
+ent-RMCAlienTankLarva = cryo tank
+    .desc = There is something worm-like inside...
+    .suffix = Larva
+
+ent-RMCAlienTankParasite = cryo tank
+    .desc = There is something spider-like inside...
+    .suffix = Parasite
+
+ent-RMCBaseAlienTank = cryo tank
+
+ent-RMCResearchThingies = jar shelf

@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: CMExecutiveOfficer
   whitelisted: true
@@ -91,7 +91,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointExecutiveOfficer
-  name: executive officer spawn point
+  name: ent-CMSpawnPointExecutiveOfficer
   components:
   - type: SpawnPoint
     job_id: CMExecutiveOfficer
@@ -105,8 +105,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleXO
-  name: The Executive Officer
-  description: The Executive Officer.
+  name: ent-RMCGuidebookRoleXO
+  description: ent-RMCGuidebookRoleXO-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

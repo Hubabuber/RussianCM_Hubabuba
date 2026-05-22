@@ -2,8 +2,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyOpfor
-  name: OPFOR encryption key
-  description: An encryption key used to communicate on the OPFOR channel, it is automatically assigned the right channel.
+  name: ent-AU14EncryptionKeyOpfor
+  description: ent-AU14EncryptionKeyOpfor-desc
   components:
   - type: GrantSquadLeaderTracker
     defaultMode: SquadLeader
@@ -15,8 +15,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforBravo
-  name: OPFOR Bravo encryption key
-  description: An encryption key used to communicate on the OPFOR Bravo channel.
+  name: ent-AU14EncryptionKeyOpforBravo
+  description: ent-AU14EncryptionKeyOpforBravo-desc
   components:
   - type: EncryptionKey
     channels:
@@ -26,8 +26,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforCharlie
-  name: OPFOR Charlie encryption key
-  description: An encryption key used to communicate on the OPFOR Charlie channel.
+  name: ent-AU14EncryptionKeyOpforCharlie
+  description: ent-AU14EncryptionKeyOpforCharlie-desc
   components:
   - type: EncryptionKey
     channels:
@@ -37,8 +37,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforCommand
-  name: OPFOR Command encryption key
-  description: An encryption key used to communicate on all available OPFOR channels.
+  name: ent-AU14EncryptionKeyOpforCommand
+  description: ent-AU14EncryptionKeyOpforCommand-desc
   components:
   - type: EncryptionKey
     channels:
@@ -54,8 +54,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforCommandOnly
-  name: OPFOR Command-only encryption key
-  description: An encryption key used to communicate on the OPFOR Command channels.
+  name: ent-AU14EncryptionKeyOpforCommandOnly
+  description: ent-AU14EncryptionKeyOpforCommandOnly-desc
   components:
   - type: EncryptionKey
     channels:
@@ -65,8 +65,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforIntel
-  name: OPFOR Intel encryption key
-  description: An encryption key used to communicate on the OPFOR Intel channel.
+  name: ent-AU14EncryptionKeyOpforIntel
+  description: ent-AU14EncryptionKeyOpforIntel-desc
   components:
   - type: EncryptionKey
     channels:
@@ -76,8 +76,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforJTAC
-  name: OPFOR JTAC encryption key
-  description: An encryption key used to communicate on the OPFOR ATC channel.
+  name: ent-AU14EncryptionKeyOpforJTAC
+  description: ent-AU14EncryptionKeyOpforJTAC-desc
   components:
   - type: EncryptionKey
     channels:
@@ -86,7 +86,7 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforMILP
-  name: OPFOR MP encryption key
+  name: ent-AU14EncryptionKeyOpforMILP
   components:
   - type: EncryptionKey
     channels:
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: AU14HeadsetOpforMarine
-  name: OPFOR section radio headset
-  description: This is used by OPFOR personnel to communicate on the radio.
+  name: ent-AU14HeadsetOpforMarine
+  description: ent-AU14HeadsetOpforMarine-desc
   components:
   - type: Sprite
     state: generic_headset
@@ -109,8 +109,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforCommand
-  name: OPFOR Command radio headset
-  description: This is used by OPFOR command members to communicate on the radio.
+  name: ent-AU14HeadsetOpforCommand
+  description: ent-AU14HeadsetOpforCommand-desc
   components:
   - type: ContainerFill
     containers:
@@ -125,8 +125,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforMarineSL
-  name: OPFOR SL radio headset
-  description: This is used by OPFOR section leaders to communicate on the radio.
+  name: ent-AU14HeadsetOpforMarineSL
+  description: ent-AU14HeadsetOpforMarineSL-desc
   components:
   - type: ContainerFill
     containers:
@@ -138,8 +138,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforMarineFTL
-  name: OPFOR FTL radio headset
-  description: This is used by OPFOR fireteam leaders to communicate on the radio.
+  name: ent-AU14HeadsetOpforMarineFTL
+  description: ent-AU14HeadsetOpforMarineFTL-desc
   components:
   - type: ContainerFill
     containers:
@@ -150,8 +150,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforAuxiliary
-  name: OPFOR Auxiliary support radio headset
-  description: This is used by OPFOR auxiliary support personnel to communicate on the radio.
+  name: ent-AU14HeadsetOpforAuxiliary
+  description: ent-AU14HeadsetOpforAuxiliary-desc
   components:
   - type: ContainerFill
     containers:
@@ -163,8 +163,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforMarineMP
-  name: OPFOR MP radio headset
-  description: This is used by OPFOR military police to communicate on the radio.
+  name: ent-AU14HeadsetOpforMarineMP
+  description: ent-AU14HeadsetOpforMarineMP-desc
   components:
   - type: ContainerFill
     containers:

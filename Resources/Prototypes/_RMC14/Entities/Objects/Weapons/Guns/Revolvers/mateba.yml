@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCBaseSlideMagazineVisualsBallistic, RMCWeaponRevolverBase]
   id: RMCWeaponRevolverMateba
-  name: Mateba autorevolver custom
-  description: The .454 Mateba 6 Unica autorevolver is a semi-automatic handcannon that uses its own recoil to rotate the cylinders. Extremely rare, prohibitively costly, and unyieldingly powerful, it's found in the hands of a select few high-ranking USCMC officials. Stylish, sophisticated, and above all, extremely deadly.
+  name: ent-RMCWeaponRevolverMateba
+  description: ent-RMCWeaponRevolverMateba-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mateba/jungle.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: RMCWeaponRevolverMateba
   id: RMCWeaponRevolverMatebaGold
-  name: golden Mateba autorevolver custom
-  description: Boasting a gold-plated frame and grips made of a critically-endangered rosewood tree, this heavily-customized Mateba revolver's pretentious design rivals only the power of its wielder. Fit for a king. Or a general.
+  name: ent-RMCWeaponRevolverMatebaGold
+  description: ent-RMCWeaponRevolverMatebaGold-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mateba_gold.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: RMCWeaponRevolverMateba
   id: RMCWeaponRevolverMatebaSpecial
-  name: Mateba autorevolver special
-  description: An old, heavily modified version of the Mateba Autorevolver. It sports a smooth wooden grip, and a much larger barrel to it's unmodified counterpart. It's clear that this weapon has been cared for over a long period of time.
+  name: ent-RMCWeaponRevolverMatebaSpecial
+  description: ent-RMCWeaponRevolverMatebaSpecial-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mateba_special.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: RMCWeaponRevolverMateba
   id: RMCWeaponRevolverMatebaNoStun
-  suffix: No Stun
+  suffix: ent-RMCWeaponRevolverMatebaNoStun-suffix
   components:
   - type: RevolverAmmoProvider
     proto: RMCCartridgeRevolverMateba
@@ -188,14 +188,14 @@
 - type: entity
   parent: RMCWeaponRevolverMatebaSpecial
   id: RMCWeaponRevolverMatebaSpecialNoStun
-  suffix: No Stun
+  suffix: ent-RMCWeaponRevolverMatebaSpecialNoStun-suffix
   components:
   - type: RevolverAmmoProvider
     proto: RMCCartridgeRevolverMateba
 
 - type: entity
   id: RMCBaseSpeedLoaderMateba
-  name: "Mateba speed loader (.454)" #Base
+  name: "ent-RMCBaseSpeedLoaderMateba" #Base
   parent: BaseItem
   abstract: true
   components:
@@ -220,8 +220,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba #Normal Loader
   id: RMCSpeedLoaderMateba
-  name: "Mateba speed loader (.454)"
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. Packs a devastating punch. This standard-variant is optimized for anti-armor.
+  name: "ent-RMCSpeedLoaderMateba"
+  description: ent-RMCSpeedLoaderMateba-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -367,7 +367,7 @@
 - type: entity
   parent: CMBulletBase #Base bullet
   id: RMCBulletMateba
-  name: bullet (.454)
+  name: ent-RMCBulletMateba
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -445,8 +445,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCMatebaCustomizationCase
-  name: mateba customization kit case
-  description: A wooden case used for storing the tools and parts needed to customize a Mateba revolver. Comes with three barrel lengths and the necessary key to swap them out.
+  name: ent-RMCMatebaCustomizationCase
+  description: ent-RMCMatebaCustomizationCase-desc
   components:
   - type: Item
     size: Normal
@@ -477,8 +477,8 @@
 - type: entity
   parent: RMCMatebaCustomizationCase
   id: RMCMatebaCustomizationCaseWeapon
-  suffix: Filled, Mateba
-  description: A wooden case used for storing the tools and parts needed to customize a Mateba revolver. Comes with three barrel lengths, necessary key to swap them out, and the mateba handcannon itself.
+  suffix: ent-RMCMatebaCustomizationCaseWeapon-suffix
+  description: ent-RMCMatebaCustomizationCaseWeapon-desc
   components:
   - type: IgnoreContentsSize
     items:
@@ -501,8 +501,8 @@
 - type: entity
   parent: RMCMatebaCustomizationCase
   id: RMCMatebaCustomizationCaseLuxury
-  name: luxurious mateba customization kit case
-  description: A black case used for storing the tools and parts needed to customize a Mateba revolver. This variant is made for general-grade golden Matebas and comes with golden barrel attachments
+  name: ent-RMCMatebaCustomizationCaseLuxury
+  description: ent-RMCMatebaCustomizationCaseLuxury-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/mateba_kit.rsi
@@ -527,7 +527,7 @@
 - type: entity
   parent: RMCMatebaCustomizationCaseWeapon
   id: RMCMatebaCustomizationCaseLuxuryWeapon
-  description: A black case used for storing the tools and parts needed to customize a Mateba revolver. This variant is made for general-grade golden Matebas and comes with golden barrel attachments, and the mateba handcannon itself.
+  description: ent-RMCMatebaCustomizationCaseLuxuryWeapon-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/mateba_kit.rsi

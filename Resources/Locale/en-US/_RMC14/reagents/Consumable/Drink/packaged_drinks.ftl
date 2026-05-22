@@ -1,0 +1,12 @@
+reagent-rmcchocolatedrink-desc = rmc-reagent-desc-chocolate-drink
+reagent-rmcchocolatedrink-name = rmc-reagent-name-chocolate-drink
+reagent-rmcchocolatedrink-physicaldesc = reagent-physical-desc-creamy
+reagent-rmccocomilk-desc = rmc-reagent-desc-coco-milk
+reagent-rmccocomilk-name = rmc-reagent-name-coco-milk
+reagent-rmccocomilk-physicaldesc = reagent-physical-desc-creamy
+reagent-rmcjuicebug-desc = rmc-reagent-desc-juice-bug
+reagent-rmcjuicebug-name = rmc-reagent-name-juice-bug
+reagent-rmcjuicebug-physicaldesc = reagent-physical-desc-bubbly
+reagent-rmcsoymilk-desc = rmc-reagent-desc-soy-milk
+reagent-rmcsoymilk-name = rmc-reagent-name-soy-milk
+reagent-rmcsoymilk-physicaldesc = reagent-physical-desc-creamy

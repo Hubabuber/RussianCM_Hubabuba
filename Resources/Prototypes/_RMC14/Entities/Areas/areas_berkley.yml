@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaBerkley
-  suffix: Berkley Area
+  suffix: ent-RMCAreaBerkley-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Areas/berkley.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyBrig
-  name: Brig
+  name: ent-RMCAreaBerkleyBrig
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -35,19 +35,19 @@
 - type: entity
   parent:  RMCAreaBerkleyBrig
   id: RMCAreaBerkleyBrigOB
-  name: Orbital Cannon Room
+  name: ent-RMCAreaBerkleyBrigOB
 
 - type: entity
   parent:  RMCAreaBerkleyBrig
   id: RMCAreaBerkleyPointDefense
-  name: Point Defense
+  name: ent-RMCAreaBerkleyPointDefense
 
 # COMMAND
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyCIC
-  name: Combat Information Center
+  name: ent-RMCAreaBerkleyCIC
   components:
   - type: Sprite
     state: command
@@ -57,22 +57,22 @@
 - type: entity
   parent:  RMCAreaBerkleyCIC
   id: RMCAreaBerkleyLiaison
-  name: Liaison Office
+  name: ent-RMCAreaBerkleyLiaison
 
 - type: entity
   parent:  RMCAreaBerkleyCIC
   id: RMCAreaBerkleyCICingOfficer
-  name: Commanding Officer Bunks
+  name: ent-RMCAreaBerkleyCICingOfficer
 
 - type: entity
   parent:  RMCAreaBerkleyCIC
   id: RMCAreaBerkleyCryo
-  name: Command Cryo
+  name: ent-RMCAreaBerkleyCryo
 
 - type: entity
   parent:  RMCAreaBerkleyCIC
   id: RMCAreaBerkleyIO
-  name: IO office
+  name: ent-RMCAreaBerkleyIO
   components:
   - type: Area
     retrieveItemObjective: true
@@ -82,7 +82,7 @@
 - type: entity
   parent: RMCAreaBerkley
   id: RMCAreaBerkleyMedical
-  name: Medical
+  name: ent-RMCAreaBerkleyMedical
   components:
   - type: Sprite
     sprite: _RMC14/Areas/berkley.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent:  RMCAreaBerkleyMedical
   id: RMCAreaBerkleyMedicalResearch
-  name: Research
+  name: ent-RMCAreaBerkleyMedicalResearch
   components:
   - type: Area
     retrieveItemObjective: true
@@ -102,7 +102,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyRequisitions
-  name: Requisitions
+  name: ent-RMCAreaBerkleyRequisitions
   components:
   - type: Sprite
     state: requi
@@ -110,29 +110,29 @@
 - type: entity
   parent:  RMCAreaBerkleyRequisitions
   id: RMCAreaBerkleyHangarPort
-  name: Hangar Port
+  name: ent-RMCAreaBerkleyHangarPort
 
 - type: entity
   parent:  RMCAreaBerkleyRequisitions
   id: RMCAreaBerkleyHangarStarboard
-  name: Hangar Starboard
+  name: ent-RMCAreaBerkleyHangarStarboard
 
 - type: entity
   parent:  RMCAreaBerkleyRequisitions
   id: RMCAreaBerkleyPilotsRoom
-  name: Pilots Room
+  name: ent-RMCAreaBerkleyPilotsRoom
 
 - type: entity
   parent:  RMCAreaBerkleyRequisitions
   id: RMCAreaBerkleyCanteen
-  name: Canteen
+  name: ent-RMCAreaBerkleyCanteen
 
 # PREP
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyAlphaBravo
-  name: Alpha-Bravo Preparation
+  name: ent-RMCAreaBerkleyAlphaBravo
   components:
   - type: Sprite
     state: alpha_bravo
@@ -140,7 +140,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyAlpha
-  name: Alpha Preparation
+  name: ent-RMCAreaBerkleyAlpha
   components:
   - type: Sprite
     state: alpha
@@ -148,7 +148,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyBravo
-  name: Bravo Preparation
+  name: ent-RMCAreaBerkleyBravo
   components:
   - type: Sprite
     state: bravo
@@ -156,7 +156,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyCharlieDelta
-  name: Charlie-Delta Preparation
+  name: ent-RMCAreaBerkleyCharlieDelta
   components:
   - type: Sprite
     state: charlie_delta
@@ -164,7 +164,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyCharlie
-  name: Charlie Preparation
+  name: ent-RMCAreaBerkleyCharlie
   components:
   - type: Sprite
     state: charlie
@@ -172,7 +172,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyDelta
-  name: Delta Preparation
+  name: ent-RMCAreaBerkleyDelta
   components:
   - type: Sprite
     state: delta
@@ -182,7 +182,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyEngineering
-  name: Engineering
+  name: ent-RMCAreaBerkleyEngineering
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -209,51 +209,51 @@
 - type: entity
   parent:  RMCAreaBerkleyPumpBase
   id: RMCAreaBerkleyPumpStarboardBow
-  name: Starboard Bow Pump
+  name: ent-RMCAreaBerkleyPumpStarboardBow
 
 - type: entity
   parent:  RMCAreaBerkleyPumpBase
   id: RMCAreaBerkleyPumpStarboardQuarter
-  name: Starboard Quarter Pump
+  name: ent-RMCAreaBerkleyPumpStarboardQuarter
 
 - type: entity
   parent:  RMCAreaBerkleyPumpBase
   id: RMCAreaBerkleyPumpPortBow
-  name: Port Bow Pump
+  name: ent-RMCAreaBerkleyPumpPortBow
 
 - type: entity
   parent:  RMCAreaBerkleyPumpBase
   id: RMCAreaBerkleyPumpPortQuarter
-  name: Port Quarter Pump
+  name: ent-RMCAreaBerkleyPumpPortQuarter
 
 # OTHER
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyCorridor
-  name: Amidship Corridor
+  name: ent-RMCAreaBerkleyCorridor
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleySEA
-  name: SEA Office
+  name: ent-RMCAreaBerkleySEA
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyBriefing
-  name: Briefing
+  name: ent-RMCAreaBerkleyBriefing
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyLifeboat
-  name: Lifeboat Docking
+  name: ent-RMCAreaBerkleyLifeboat
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleySynthetic
-  name: Synthetic Storage
+  name: ent-RMCAreaBerkleySynthetic
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyPress
-  name: Correspondent
+  name: ent-RMCAreaBerkleyPress

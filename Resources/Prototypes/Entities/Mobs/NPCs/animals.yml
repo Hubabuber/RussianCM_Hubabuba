@@ -1,8 +1,8 @@
 - type: entity
-  name: bat
+  name: ent-MobBat
   parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
   id: MobBat
-  description: Some cultures find them terrifying, others crunchy on the teeth.
+  description: ent-MobBat-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 3
@@ -80,10 +80,10 @@
     - VimPilot
 
 - type: entity
-  name: bee
+  name: ent-MobBee
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobBee
-  description: Nice to have, but you can't build a civilization on a foundation of honey alone.
+  description: ent-MobBee-desc
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -163,11 +163,11 @@
         recursive: false
 
 - type: entity
-  name: bee
-  suffix: Angry
+  name: ent-MobAngryBee
+  suffix: ent-MobAngryBee-suffix
   parent: [ MobBee, MobCombat ]
   id: MobAngryBee
-  description: How nice a bee. Oh no, it looks angry and wants my pizza.
+  description: ent-MobAngryBee-desc
   components:
   - type: CombatMode
   - type: MeleeWeapon
@@ -191,10 +191,10 @@
 
 
 - type: entity
-  name: chicken
+  name: ent-MobChicken
   parent: SimpleMobBase
   id: MobChicken
-  description: Comes before an egg, and IS a dinosaur!
+  description: ent-MobChicken-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -326,7 +326,7 @@
 - type: entity
   id: FoodEggChickenFertilized
   parent: FoodEgg
-  suffix: Fertilized, Chicken
+  suffix: ent-FoodEggChickenFertilized-suffix
   components:
   - type: TimedSpawner
     prototypes:
@@ -340,10 +340,10 @@
     lifetime: 21
 
 - type: entity # TODO: figure out how to make these guys gib when stepped on
-  name: cockroach
+  name: ent-FoodEggChickenFertilized
   parent: SimpleMobBase
   id: MobCockroach
-  description: This station is just crawling with bugs.
+  description: ent-FoodEggChickenFertilized-desc
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -436,11 +436,11 @@
         Piercing: 0
 
 - type: entity
-  name: glockroach
+  name: ent-MobGlockroach
   parent: MobCockroach
-  suffix: Admeme
+  suffix: ent-MobGlockroach-suffix
   id: MobGlockroach
-  description: This station is just crawling with bu- OH GOD THAT COCKROACH HAS A GUN!!!
+  description: ent-MobGlockroach-desc
   components:
   - type: Sprite
     layers:
@@ -468,10 +468,10 @@
     - id: FoodMeatSlime
 
 - type: entity
-  name: mothroach
+  name: ent-MobMothroach
   parent: MobCockroach
   id: MobMothroach
-  description: This is the adorable by-product of multiple attempts at genetically mixing mothpeople with cockroaches.
+  description: ent-MobMothroach-desc
   components:
   - type: GhostRole
     makeSentient: true
@@ -638,10 +638,10 @@
 # The white duck is more akin to a pekin or call duck.
 
 - type: entity
-  name: mallard duck #Quack
+  name: ent-MobDuckMallard #Quack
   parent: SimpleMobBase
   id: MobDuckMallard
-  description: An adorable mallard duck, it's fluffy and soft!
+  description: ent-MobDuckMallard-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -711,10 +711,10 @@
     - Passive
 
 - type: entity
-  name: white duck #Quack
+  name: ent-MobDuckWhite #Quack
   parent: MobDuckMallard
   id: MobDuckWhite
-  description: An adorable white duck, it's fluffy and soft!
+  description: ent-MobDuckWhite-desc
   components:
   - type: Sprite
     layers:
@@ -730,10 +730,10 @@
         Base: dead-1
 
 - type: entity
-  name: brown duck #Quack
+  name: ent-MobDuckBrown #Quack
   parent: MobDuckMallard
   id: MobDuckBrown
-  description: An adorable brown duck, it's fluffy and soft!
+  description: ent-MobDuckBrown-desc
   components:
   - type: Sprite
     layers:
@@ -751,7 +751,7 @@
 - type: entity
   id: FoodEggDuckFertilized
   parent: FoodEgg
-  suffix: Fertilized, Duck
+  suffix: ent-FoodEggDuckFertilized-suffix
   components:
     - type: TimedSpawner
       prototypes:
@@ -765,10 +765,10 @@
       lifetime: 21
 
 - type: entity
-  name: butterfly
+  name: ent-MobButterfly
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobButterfly
-  description: Despite popular misconceptions, it's not actually made of butter.
+  description: ent-MobButterfly-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 3
@@ -839,10 +839,10 @@
         recursive: false
 
 - type: entity
-  name: cow
+  name: ent-MobCow
   parent: SimpleMobBase
   id: MobCow
-  description: Moo.
+  description: ent-MobCow-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -924,10 +924,10 @@
     - FoodRecipes
 
 - type: entity
-  name: crab
+  name: ent-MobCrab
   parent: SimpleMobBase
   id: MobCrab
-  description: A folk legend goes around that his claw snaps spacemen out of existence over distasteful remarks. Be polite and tolerant for your own safety.
+  description: ent-MobCrab-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -992,10 +992,10 @@
     prototype: AnimalHemocyanin
 
 - type: entity
-  name: goat
+  name: ent-MobGoat
   parent: SimpleMobBase
   id: MobGoat
-  description: Her spine consists of long sharp segments, no wonder she is so grumpy.
+  description: ent-MobGoat-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1096,10 +1096,10 @@
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
-  name: goose
+  name: ent-MobGoose
   parent: SimpleMobBase
   id: MobGoose
-  description: Its stomach and mind are an enigma beyond human comprehension.
+  description: ent-MobGoose-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1144,10 +1144,10 @@
     - Passive
 
 - type: entity
-  name: gorilla
+  name: ent-MobGorilla
   parent: [ SimpleMobBase, MobCombat ]
   id: MobGorilla
-  description: Smashes, roars, looks cool. Don't stand near one.
+  description: ent-MobGorilla-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1221,13 +1221,13 @@
     damageCoefficient: 0.40
 
 - type: entity
-  name: kangaroo
+  name: ent-MobKangaroo
   parent:
   - SimpleMobBase
   - MobCombat
   - StripableInventoryBase
   id: MobKangaroo
-  description: A large marsupial herbivore. It has powerful hind legs, with nails that resemble long claws.
+  description: ent-MobKangaroo-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3.5
@@ -1305,7 +1305,7 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: boxing kangaroo
+  name: ent-MobBoxingKangaroo
   parent: MobKangaroo
   id: MobBoxingKangaroo
   components:
@@ -1316,10 +1316,10 @@
     - SimpleHostile
 
 - type: entity
-  name: genetic ancestor
+  name: ent-MobBaseAncestor
   id: MobBaseAncestor
   parent: [SimpleMobBase, StripableInventoryBase]
-  description: The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the station that descended from whatever this is.
+  description: ent-MobBaseAncestor-desc
   abstract: true
   components:
   - type: CombatMode
@@ -1434,10 +1434,10 @@
 
 
 - type: entity
-  name: monkey
+  name: ent-MobMonkey
   id: MobMonkey
   parent: MobBaseAncestor
-  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+  description: ent-MobMonkey-desc
   components:
   - type: NameIdentifier
     group: Monkey
@@ -1470,11 +1470,11 @@
 
 
 - type: entity
-  name: monkey
+  name: ent-MobBaseSyndicateMonkey
   id: MobBaseSyndicateMonkey
   parent: MobBaseAncestor
-  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
-  suffix: syndicate base
+  description: ent-MobBaseSyndicateMonkey-desc
+  suffix: ent-MobBaseSyndicateMonkey-suffix
   components:
   - type: NameIdentifier
     group: Monkey
@@ -1505,7 +1505,7 @@
 - type: entity
   id: MobMonkeySyndicateAgent
   parent: MobBaseSyndicateMonkey
-  suffix: syndicate agent
+  suffix: ent-MobMonkeySyndicateAgent-suffix
   components:
     # make the player a traitor once its taken
   - type: AutoTraitor
@@ -1519,10 +1519,10 @@
   - type: NukeOperative
 
 - type: entity
-  name: kobold
+  name: ent-MobBaseKobold
   id: MobBaseKobold
   parent: MobBaseAncestor
-  description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+  description: ent-MobBaseKobold-desc
   abstract: true
   components:
   - type: NameIdentifier
@@ -1632,10 +1632,10 @@
     rules: ghost-role-information-nonantagonist-rules
 
 - type: entity
-  name: kobold
+  name: ent-MobKobold
   id: MobKobold
   parent: MobBaseKobold
-  description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+  description: ent-MobKobold-desc
   components:
   - type: Clumsy
     gunShootFailDamage:
@@ -1653,7 +1653,7 @@
 - type: entity
   id: MobBaseSyndicateKobold
   parent: MobBaseKobold
-  suffix: syndicate base
+  suffix: ent-MobBaseSyndicateKobold-suffix
   components:
   - type: MobThresholds
     thresholds:
@@ -1669,7 +1669,7 @@
 - type: entity
   id: MobKoboldSyndicateAgent
   parent: MobBaseSyndicateKobold
-  suffix: syndicate agent
+  suffix: ent-MobKoboldSyndicateAgent-suffix
   components:
     # make the player a traitor once its taken
   - type: AutoTraitor
@@ -1683,19 +1683,19 @@
   - type: NukeOperative
 
 - type: entity
-  name: guidebook monkey
+  name: ent-MobGuidebookMonkey
   parent: MobMonkey
   categories: [ HideSpawnMenu ]
   id: MobGuidebookMonkey
-  description: A hopefully helpful monkey whose only purpose in life is for you to click on. Does this count as having a monkey give you a tutorial?
+  description: ent-MobGuidebookMonkey-desc
   components:
     - type: GuidebookControlsTest
 
 - type: entity
-  name: mouse
+  name: ent-MobMouse
   parent: SimpleMobBase
   id: MobMouse
-  description: Squeak!
+  description: ent-MobMouse-desc
   components:
   - type: Body
     prototype: Mouse
@@ -1876,11 +1876,11 @@
 
 - type: entity
   parent: MobMouse
-  suffix: Dead
+  suffix: ent-MobMouseDead-suffix
   save: false
   id: MobMouseDead
-  name: mouse
-  description: Squeak!
+  name: ent-MobMouseDead
+  description: ent-MobMouseDead-desc
   components:
   - type: Damageable
     damage:
@@ -1893,7 +1893,7 @@
 - type: entity
   parent: MobMouse
   id: MobMouseAdmeme
-  suffix: Admeme
+  suffix: ent-MobMouseAdmeme-suffix
   components:
   # allow admeme mouse to eat pills
   - type: IgnoreBadFood
@@ -1965,8 +1965,8 @@
     heldPrefix: 2
 
 - type: entity
-  name: cancer mouse
-  description: Toxic. Squeak!
+  name: ent-MobMouseCancer
+  description: ent-MobMouseCancer-desc
   parent: MobMouse
   id: MobMouseCancer
   components:
@@ -2000,10 +2000,10 @@
     damageModifierSet: Zombie
 
 - type: entity
-  name: lizard #Weh
+  name: ent-MobLizard #Weh
   parent: SimpleMobBase
   id: MobLizard
-  description: A harmless dragon.
+  description: ent-MobLizard-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
@@ -2056,10 +2056,10 @@
 
 
 - type: entity
-  name: slug
+  name: ent-MobSlug
   parent: SimpleMobBase
   id: MobSlug
-  description: And they called this a lizard?
+  description: ent-MobSlug-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2
@@ -2103,10 +2103,10 @@
     bloodMaxVolume: 50
 
 - type: entity
-  name: frog
+  name: ent-MobFrog
   parent: SimpleMobBase
   id: MobFrog
-  description: Hop hop hop. Lookin' moist.
+  description: ent-MobFrog-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3
@@ -2175,7 +2175,7 @@
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobParrotBase
   abstract: true
-  description: Infiltrates your domain, spies on you, and somehow still a cool pet.
+  description: ent-MobParrotBase-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.5
@@ -2249,17 +2249,17 @@
     bloodMaxVolume: 50
 
 - type: entity
-  name: parrot
+  name: ent-MobParrot
   parent: MobParrotBase
   id: MobParrot
   components:
   - type: ParrotAccent # regular parrots have a parrotaccent. Polly is special and does not
 
 - type: entity
-  name: penguin
+  name: ent-MobPenguin
   parent: SimpleMobBase
   id: MobPenguin
-  description: Their lives are constant pain due to their inner-body knees.
+  description: ent-MobPenguin-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2317,10 +2317,10 @@
         Heat : 0.2 #per second, scales with temperature & other constants
 
 - type: entity
-  name: grenade penguin
+  name: ent-MobGrenadePenguin
   parent: [ MobPenguin, MobCombat, BaseSyndicateContraband ]
   id: MobGrenadePenguin
-  description: A small penguin with a grenade strapped around its neck. Harvested by the Syndicate from icy shit-hole planets.
+  description: ent-MobGrenadePenguin-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3
@@ -2390,10 +2390,10 @@
 
   # I have included a snake_hiss.ogg sound file so if you want to use that be my guest
 - type: entity
-  name: snake
+  name: ent-MobSnake
   parent: SimpleMobBase
   id: MobSnake
-  description: Hissss! Bites aren't poisonous.
+  description: ent-MobSnake-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2551,10 +2551,10 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: tarantula
+  name: ent-MobGiantSpider
   parent: MobSpiderBase
   id: MobGiantSpider
-  description: Widely recognized to be the literal worst thing in existence.
+  description: ent-MobGiantSpider-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2594,10 +2594,10 @@
   id: MobGiantSpiderAngry
 
 - type: entity
-  name: clown spider
+  name: ent-MobClownSpider
   parent: MobSpiderAngryBase
   id: MobClownSpider
-  description: Combines the two most terrifying things in existence, spiders and clowns.
+  description: ent-MobClownSpider-desc
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -2642,11 +2642,11 @@
       bloodReagent: Laughter
 
 - type: entity
-  name: wizard spider
+  name: ent-MobGiantSpiderWizard
   parent: MobGiantSpider
   id: MobGiantSpiderWizard
-  description: This spider looks a little magical
-  suffix: Wizard
+  description: ent-MobGiantSpiderWizard-desc
+  suffix: ent-MobGiantSpiderWizard-suffix
   components:
   - type: Accentless
     removes:
@@ -2654,10 +2654,10 @@
       accent: xeno  #let this wizard speak
 
 - type: entity
-  name: possum
+  name: ent-MobPossum
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobPossum
-  description: '"O Possum! My Possum!" -- Walt Whitman, 1865'
+  description: 'ent-MobPossum-desc'
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2706,9 +2706,9 @@
     - VimPilot
 
 - type: entity
-  name: possum
+  name: ent-MobPossumOld
   parent: MobPossum
-  suffix: Old sprite
+  suffix: ent-MobPossumOld-suffix
   id: MobPossumOld
   components:
   - type: Sprite
@@ -2727,10 +2727,10 @@
         Base: possum_dead_old
 
 - type: entity
-  name: raccoon
+  name: ent-MobRaccoon
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobRaccoon
-  description: Trash panda!
+  description: ent-MobRaccoon-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2780,10 +2780,10 @@
     - VimPilot
 
 - type: entity
-  name: fox
+  name: ent-MobFox
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobFox
-  description: They're a fox.
+  description: ent-MobFox-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2861,8 +2861,8 @@
   abstract: true
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobCorgiBase
-  name: corgi
-  description: Finally, a space corgi!
+  name: ent-MobCorgiBase
+  description: ent-MobCorgiBase-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2925,10 +2925,10 @@
     - VimPilot
 
 - type: entity
-  name: corrupted corgi
+  name: ent-MobCorgiNarsi
   parent: [ MobCorgi, MobCombat ]
   id: MobCorgiNarsi
-  description: Ian! No!
+  description: ent-MobCorgiNarsi-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2986,10 +2986,10 @@
         Heat : 1 #per second, scales with temperature & other constants
 
 - type: entity
-  name: corgi puppy
+  name: ent-MobCorgiPuppy
   parent: MobCorgi
   id: MobCorgiPuppy
-  description: A little corgi! Aww...
+  description: ent-MobCorgiPuppy-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3013,10 +3013,10 @@
       gender: epicene
 
 - type: entity
-  name: cat
+  name: ent-MobCat
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobCat
-  description: Feline pet, very funny.
+  description: ent-MobCat-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3085,10 +3085,10 @@
     baseSprintSpeed: 4
 
 - type: entity
-  name: calico cat
+  name: ent-MobCatCalico
   id: MobCatCalico
   parent: MobCat
-  description: Feline pet, very funny.
+  description: ent-MobCatCalico-desc
   components:
   - type: Sprite
     layers:
@@ -3104,10 +3104,10 @@
         Base: cat2_dead
 
 - type: entity
-  name: syndicat
+  name: ent-MobCatSyndy
   id: MobCatSyndy
   parent: MobCatSpace
-  description: Explosive kitten.
+  description: ent-MobCatSyndy-desc
   components:
   - type: Sprite
     layers:
@@ -3157,10 +3157,10 @@
         Structural: 15
 
 - type: entity
-  name: space cat
+  name: ent-MobCatSpace
   id: MobCatSpace
   parent: MobCat
-  description: Feline pet, prepared for the worst.
+  description: ent-MobCatSpace-desc
   components:
   - type: Sprite
     layers:
@@ -3195,10 +3195,10 @@
     minSaturation: 5.0
 
 - type: entity
-  name: caracal cat
+  name: ent-MobCatCaracal
   id: MobCatCaracal
   parent: MobCat
-  description: Hilarious.
+  description: ent-MobCatCaracal-desc
   components:
   - type: Sprite
     sprite: Mobs/Pets/caracal.rsi
@@ -3215,10 +3215,10 @@
         Base: caracal_dead
 
 - type: entity
-  name: kitten
+  name: ent-MobCatKitten
   parent: MobCat
   id: MobCatKitten
-  description: Small and fluffy.
+  description: ent-MobCatKitten-desc
   components:
   - type: Sprite
     layers:
@@ -3248,10 +3248,10 @@
       25: Dead
 
 - type: entity
-  name: sloth
+  name: ent-MobSloth
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobSloth
-  description: Very slow animal. For people with low energy.
+  description: ent-MobSloth-desc
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 0.5
@@ -3305,10 +3305,10 @@
     - VimPilot
 
 - type: entity
-  name: ferret
+  name: ent-MobFerret
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobFerret
-  description: Just a silly little guy!
+  description: ent-MobFerret-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3359,10 +3359,10 @@
     - VimPilot
 
 - type: entity
-  name: hamster
+  name: ent-MobHamster
   parent: [ SimpleMobBase, MobCombat, StripableInventoryBase]
   id: MobHamster
-  description: A cute, fluffy, robust hamster.
+  description: ent-MobHamster-desc
   components:
   - type: GhostRole
     makeSentient: true
@@ -3511,10 +3511,10 @@
         recursive: false
 
 - type: entity
-  name: pig
+  name: ent-MobPig
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobPig
-  description: Oink.
+  description: ent-MobPig-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3582,10 +3582,10 @@
       task: RuminantCompound
 
 - type: entity
-  name: diona nymph
+  name: ent-MobDionaNymph
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobDionaNymph
-  description: It's like a cat, only.... branch-ier.
+  description: ent-MobDionaNymph-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3671,10 +3671,10 @@
     accent: nymph
 
 - type: entity
-  name: reindeer buck
+  name: ent-MobReindeerBuck
   parent: [ SimpleMobBase, MobCombat ]
   id: MobReindeerBuck
-  description: You think it can pull a sleigh?
+  description: ent-MobReindeerBuck-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3733,7 +3733,7 @@
     needsHands: false
 
 - type: entity
-  name: reindeer doe
+  name: ent-MobReindeerDoe
   parent: MobReindeerBuck
   id: MobReindeerDoe
   components:
@@ -3767,8 +3767,8 @@
 - type: entity
   parent: MobCorgiBase
   id: MobCorgiSmart
-  name: smart corgi
-  description: An unusually smart dog.
+  name: ent-MobCorgiSmart
+  description: ent-MobCorgiSmart-desc
   components:
   # Use corgi sprite, need to add handcuff layer
   - type: Sprite

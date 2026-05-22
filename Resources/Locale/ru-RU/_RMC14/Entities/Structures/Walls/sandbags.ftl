@@ -20,3 +20,5 @@ ent-CMSandbagFull5 = пустые мешки с песком
 ent-RMCBarricadeSandbagSoro = баррикада из мешков с песком
   .desc = Импровизированная баррикада, сделанная из песка с земли. 
 
+stack-cmsandbagempty-name = пустые мешки с песком
+stack-cmsandbagfull-name = пустые мешки с песком

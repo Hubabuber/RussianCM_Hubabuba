@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCRequisitionsChairMarker
-  name: requisitions chair marker
-  suffix: RMC14
+  name: ent-RMCRequisitionsChairMarker
+  suffix: ent-RMCRequisitionsChairMarker-suffix
   components:
   - type: Sprite
     state: pink
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCRequisitionsChairMarker
   id: RMCRequisitionsChairMarkerNorth
-  suffix: RMC14, North
+  suffix: ent-RMCRequisitionsChairMarkerNorth-suffix
   components:
   - type: RMCRequisitionsChair
     offsetItem: 0,1
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCRequisitionsChairMarker
   id: RMCRequisitionsChairMarkerEast
-  suffix: RMC14, East
+  suffix: ent-RMCRequisitionsChairMarkerEast-suffix
   components:
   - type: RMCRequisitionsChair
     offsetItem: 1,0
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCRequisitionsChairMarker
   id: RMCRequisitionsChairMarkerSouth
-  suffix: RMC14, South
+  suffix: ent-RMCRequisitionsChairMarkerSouth-suffix
   components:
   - type: RMCRequisitionsChair
     offsetItem: 0,-1
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCRequisitionsChairMarker
   id: RMCRequisitionsChairMarkerWest
-  suffix: RMC14, West
+  suffix: ent-RMCRequisitionsChairMarkerWest-suffix
   components:
   - type: RMCRequisitionsChair
     offsetItem: -1,0

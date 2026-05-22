@@ -1,8 +1,8 @@
 - type: entity
-  name: fireaxe
+  name: ent-FireAxe
   parent: [BaseItem, BaseEngineeringContraband]
   id: FireAxe
-  description: Truly, the weapon of a madman. Who would think to fight fire with an axe?
+  description: ent-FireAxe-desc
   components:
   - type: Tag
     tags:
@@ -52,9 +52,9 @@
 
 - type: entity
   id: FireAxeFlaming
-  name: fire axe
+  name: ent-FireAxeFlaming
   parent: [BaseSyndicateContraband, FireAxe]
-  description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
+  description: ent-FireAxeFlaming-desc
   components:
   - type: MeleeWeapon
     wideAnimationRotation: 90

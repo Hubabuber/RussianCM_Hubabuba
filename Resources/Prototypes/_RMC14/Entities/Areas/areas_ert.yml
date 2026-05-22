@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: RMCAreaBase
   id: RMCAreaERT
-  name: ERT station
+  name: ent-RMCAreaERT
   components:
   - type: Sprite
     state: green
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCAreaERT
   id: RMCAreaERTFax
-  name: Sector Comms Relay
-  suffix: Fax Responder Outpost, Interior
+  name: ent-RMCAreaERTFax
+  suffix: ent-RMCAreaERTFax-suffix
   components:
   - type: Sprite
     state: green
@@ -26,8 +26,8 @@
 - type: entity
   parent: RMCAreaERT
   id: RMCAreaERTFaxExterior
-  name: Sector Comms Relay
-  suffix: Fax Responder Outpost, Exterior
+  name: ent-RMCAreaERTFaxExterior
+  suffix: ent-RMCAreaERTFaxExterior-suffix
   components:
   - type: Sprite
     state: red
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCAreaShuttleNS
   id: RMCAreaShuttleERT
-  name: ERT Shuttle
+  name: ent-RMCAreaShuttleERT
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_almayer.rsi

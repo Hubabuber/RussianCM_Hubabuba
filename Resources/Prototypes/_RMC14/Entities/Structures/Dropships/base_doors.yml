@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: CMBaseDoor
   id: RMCDropshipDoorBase
   abstract: true
-  name: crew hatch
+  name: ent-RMCDropshipDoorBase
   placement:
     mode: SnapgridCenter
   components:
@@ -58,7 +58,7 @@
   parent: RMCDropshipDoorBase
   id: RMCDropshipCockpitBase
   abstract: true
-  name: cockpit
+  name: ent-RMCDropshipCockpitBase
   components:
   - type: Sprite
     layers:
@@ -96,7 +96,7 @@
   parent: RMCDropshipDoorBase
   id: RMCDropshipDoorAftBase
   abstract: true
-  suffix: Aft
+  suffix: ent-RMCDropshipDoorAftBase-suffix
   components:
   - type: Sprite
   - type: Door
@@ -119,7 +119,7 @@
   parent: RMCDropshipDoorBase
   id: RMCDropshipDoorPortBase
   abstract: true
-  suffix: Port
+  suffix: ent-RMCDropshipDoorPortBase-suffix
   components:
   - type: Sprite
     offset: 0, 0.5
@@ -143,7 +143,7 @@
   parent: RMCDropshipDoorBase
   id: RMCDropshipDoorStarboardBase
   abstract: true
-  suffix: Starboard
+  suffix: ent-RMCDropshipDoorStarboardBase-suffix
   components:
   - type: Sprite
     offset: 0, 0.5

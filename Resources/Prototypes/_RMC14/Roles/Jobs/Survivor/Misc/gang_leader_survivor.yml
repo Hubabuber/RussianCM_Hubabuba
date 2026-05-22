@@ -6,7 +6,7 @@
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
   startingGear: RMCGearSurvivorGangLeader
-  spawnMenuRoleName: Gang Leader (Survivor)
+  spawnMenuRoleName: job-cmsurvivorgangleader-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -54,7 +54,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorGangLeader
-  name: survivor gang leader spawn point
+  name: ent-RMCSpawnPointSurvivorGangLeader
   components:
   - type: SpawnPoint
     job_id: CMSurvivorGangLeader
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetGangLeader
-  name: gang leader survivor preset
+  name: ent-RMCGearSurvivorPresetGangLeader
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,10 +1,10 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorEngineer
   id: CMSurvivorSolarisEngineer
   name: rmc-job-name-survivor-solaris-engineer
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorSolarisEngineer
-  spawnMenuRoleName: Solaris Engineer (Solaris Survivor)
+  spawnMenuRoleName: job-cmsurvivorsolarisengineer-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisEngineer
-  name: survivor solaris engineer spawn point
+  name: ent-RMCSpawnPointSurvivorSolarisEngineer
   components:
   - type: SpawnPoint
     job_id: CMSurvivorSolarisEngineer

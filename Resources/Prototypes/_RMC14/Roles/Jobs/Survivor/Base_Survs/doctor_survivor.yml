@@ -47,7 +47,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorDoctor
-  name: survivor doctor spawn point
+  name: ent-RMCSpawnPointSurvivorDoctor
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetDoctor
-  name: doctor colonist preset
+  name: ent-RMCSurvivorPresetDoctor
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -84,7 +84,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorDoctor
-  name: doctor colonist ghost role
+  name: ent-RMCRandomHumanoidSurvivorDoctor
   components:
   - type: Sprite
     layers:

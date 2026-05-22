@@ -37,8 +37,8 @@
 - type: entity
   parent: [BaseTraitorObjective, BaseLivingObjective]
   id: EscapeShuttleObjective
-  name: Escape to centcomm alive and unrestrained.
-  description: One of our undercover agents will debrief you when you arrive. Don't show up in cuffs.
+  name: ent-EscapeShuttleObjective
+  description: ent-EscapeShuttleObjective-desc
   components:
   - type: Objective
     difficulty: 1.3
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseTraitorObjective
   id: DieObjective
-  name: Die a glorious death
-  description: Die.
+  name: ent-DieObjective
+  description: ent-DieObjective-desc
   components:
   - type: Objective
     difficulty: 0.5
@@ -83,7 +83,7 @@
 - type: entity
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomPersonObjective
-  description: Do it however you like, just make sure they don't get off the station.
+  description: ent-KillRandomPersonObjective-desc
   components:
   - type: Objective
     difficulty: 1.75
@@ -97,7 +97,7 @@
 - type: entity
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomHeadObjective
-  description: We need this head gone and you probably know why. Make sure they don't make it to CentComm, even if they're dead. Good luck, agent.
+  description: ent-KillRandomHeadObjective-desc
   components:
   - type: Objective
     # technically its still possible for KillRandomPersonObjective to roll a head but this is guaranteed, so higher difficulty
@@ -118,7 +118,7 @@
 - type: entity
   parent: [BaseTraitorSocialObjective, BaseKeepAliveObjective]
   id: RandomTraitorAliveObjective
-  description: Identify yourself at your own risk. We just need them alive.
+  description: ent-RandomTraitorAliveObjective-desc
   components:
   - type: Objective
     difficulty: 1.75
@@ -129,7 +129,7 @@
 - type: entity
   parent: [BaseTraitorSocialObjective, BaseHelpProgressObjective]
   id: RandomTraitorProgressObjective
-  description: Identify yourself at your own risk. We just need them to succeed.
+  description: ent-RandomTraitorProgressObjective-desc
   components:
   - type: Objective
     difficulty: 2.5

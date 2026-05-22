@@ -1,9 +1,9 @@
 - type: entity
   parent: CMUBaseMobCarp
   id: CMUMobCarpInvasive
-  name: invasive carp
-  description: It's an invasive species of carp. Adapted to hunt up hill both ways.
-  suffix: CMU
+  name: ent-CMUMobCarpInvasive
+  description: ent-CMUMobCarpInvasive-desc
+  suffix: ent-CMUMobCarpInvasive-suffix
   components:
   - type: CombatMode
     canDisarm: true
@@ -163,7 +163,7 @@
 - type: entity
   parent: ActionXenoTumble
   id: ActionCarpTumble
-  name: Tumble
+  name: ent-ActionCarpTumble
   components:
   - type: XenoActionPlasma
     cost: 0
@@ -171,7 +171,7 @@
 - type: entity
   parent: ActionXenoRam
   id: ActionCarpRam
-  name: Ram
+  name: ent-ActionCarpRam
   components:
   - type: XenoActionPlasma
     cost: 0
@@ -179,4 +179,4 @@
 - type: entity
   parent: ActionXenoTailLash
   id: ActionCarpTailLash
-  name: Tail Lash
+  name: ent-ActionCarpTailLash

@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaPRT
-  name: Pratchett
+  name: ent-RMCAreaPRT
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_pratchett.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTHypersleep
-  name: Hypersleep Storage
+  name: ent-RMCAreaPRTHypersleep
   components:
   - type: Sprite
     state: medical
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTGalley
-  name: Galley
+  name: ent-RMCAreaPRTGalley
   components:
   - type: Sprite
     state: public
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTCanteen
-  name: Canteen
+  name: ent-RMCAreaPRTCanteen
   components:
   - type: Sprite
     state: public1
@@ -51,7 +51,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTLounge
-  name: Common Lounge
+  name: ent-RMCAreaPRTLounge
   components:
   - type: Sprite
     state: public
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTMedbay
-  name: Medical Bay
+  name: ent-RMCAreaPRTMedbay
   components:
   - type: Sprite
     state: medical
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTOffice
-  name: Troop Commander's Office
+  name: ent-RMCAreaPRTOffice
   components:
   - type: Sprite
     state: medical
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTCargoBayUpper
-  name: Upper Deck Cargo Bay
+  name: ent-RMCAreaPRTCargoBayUpper
   components:
   - type: Sprite
     state: cargo
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTCargoBayLower
-  name: Lower Deck Auxiliary Cargo Transfer Station
+  name: ent-RMCAreaPRTCargoBayLower
   components:
   - type: Sprite
     state: cargo
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTMaintenaceLower
-  name: Lower Deck Maintenance
+  name: ent-RMCAreaPRTMaintenaceLower
   components:
   - type: Sprite
     state: maints
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTMaintenanceUpper
-  name: Upper Deck Maintenance
+  name: ent-RMCAreaPRTMaintenanceUpper
   components:
   - type: Sprite
     state: maints
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTEngineering
-  name: Engineering Bay
+  name: ent-RMCAreaPRTEngineering
   components:
   - type: Sprite
     state: engi
@@ -119,7 +119,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTHangar
-  name: Hangar Bay
+  name: ent-RMCAreaPRTHangar
   components:
   - type: Sprite
     state: hangar
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTHangarCargo
-  name: Hangar Storage
+  name: ent-RMCAreaPRTHangarCargo
   components:
   - type: Sprite
     state: cargo
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTHallways
-  name: Upper Deck Hallways
+  name: ent-RMCAreaPRTHallways
   components:
   - type: Sprite
     state: public2
@@ -143,7 +143,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTDisposalsLower
-  name: Processed Waste Primary Disposal Shaft
+  name: ent-RMCAreaPRTDisposalsLower
   components:
   - type: Sprite
     state: public1
@@ -152,7 +152,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTDisposalsUpper
-  name: Upper Deck Preliminary Waste Processing
+  name: ent-RMCAreaPRTDisposalsUpper
   components:
   - type: Sprite
     state: public
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTSurgicalBay
-  name: Surgical Bay
+  name: ent-RMCAreaPRTSurgicalBay
   components:
   - type: Sprite
     state: medical
@@ -168,7 +168,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTArmory
-  name: Armaments Storage
+  name: ent-RMCAreaPRTArmory
   components:
   - type: Sprite
     state: public2
@@ -176,7 +176,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTSynth
-  name: Synthetic Storage
+  name: ent-RMCAreaPRTSynth
   components:
   - type: Sprite
     state: public
@@ -184,7 +184,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTAICoreOuter
-  name: SHIVA Core Outer Chamber
+  name: ent-RMCAreaPRTAICoreOuter
   components:
   - type: Sprite
     state: engi
@@ -192,7 +192,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTAICoreInner
-  name: SHIVA Core Inner Chamber
+  name: ent-RMCAreaPRTAICoreInner
   components:
   - type: Sprite
     state: hangar
@@ -200,7 +200,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTBunks
-  name: Bunkroom
+  name: ent-RMCAreaPRTBunks
   components:
   - type: Sprite
     state: medical
@@ -208,7 +208,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTBriefing
-  name: Briefing Room
+  name: ent-RMCAreaPRTBriefing
   components:
   - type: Sprite
     state: public2
@@ -216,7 +216,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTCraneTunnel
-  name: Cargo Transit Shaft
+  name: ent-RMCAreaPRTCraneTunnel
   components:
   - type: Sprite
     state: maints

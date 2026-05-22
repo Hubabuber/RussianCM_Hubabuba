@@ -1,9 +1,9 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgEngi
-  name: engi xenoborg
-  suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools for supporting the other xenoborgs.
+  name: ent-XenoborgEngi
+  suffix: ent-XenoborgEngi-suffix
+  description: ent-XenoborgEngi-desc
   components:
   - type: BorgTransponder
     name: engi xenoborg
@@ -55,9 +55,9 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgHeavy
-  name: heavy xenoborg
-  suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor plates. It may be tougher, but its speed matches its brawn.
+  name: ent-XenoborgHeavy
+  suffix: ent-XenoborgHeavy-suffix
+  description: ent-XenoborgHeavy-desc
   components:
   - type: BorgTransponder
     name: heavy xenoborg
@@ -142,9 +142,9 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgScout
-  name: scout xenoborg
-  suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move quickly through space.
+  name: ent-XenoborgScout
+  suffix: ent-XenoborgScout-suffix
+  description: ent-XenoborgScout-desc
   components:
   - type: BorgTransponder
     name: scout xenoborg
@@ -195,9 +195,9 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgStealth
-  name: stealth xenoborg
-  suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.
+  name: ent-XenoborgStealth
+  suffix: ent-XenoborgStealth-suffix
+  description: ent-XenoborgStealth-desc
   components:
   - type: BorgTransponder
     name: stealth xenoborg
@@ -251,7 +251,7 @@
 - type: entity
   parent: XenoborgEngi
   id: XenoborgEngiPrinted
-  suffix: no brain
+  suffix: ent-XenoborgEngiPrinted-suffix
   components:
   - type: ContainerFill
     containers:
@@ -274,7 +274,7 @@
 - type: entity
   parent: XenoborgHeavy
   id: XenoborgHeavyPrinted
-  suffix: no brain
+  suffix: ent-XenoborgHeavyPrinted-suffix
   components:
   - type: ContainerFill
     containers:
@@ -294,7 +294,7 @@
 - type: entity
   parent: XenoborgScout
   id: XenoborgScoutPrinted
-  suffix: no brain
+  suffix: ent-XenoborgScoutPrinted-suffix
   components:
   - type: ContainerFill
     containers:
@@ -314,7 +314,7 @@
 - type: entity
   parent: XenoborgStealth
   id: XenoborgStealthPrinted
-  suffix: no brain
+  suffix: ent-XenoborgStealthPrinted-suffix
   components:
   - type: ContainerFill
     containers:

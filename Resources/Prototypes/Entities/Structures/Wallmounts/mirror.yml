@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   id: Mirror
-  name: mirror
-  description: 'Mirror mirror on the wall , who''s the most robust of them all?'
+  name: ent-Mirror
+  description: 'ent-Mirror-desc'
   placement:
     mode: SnapgridCenter
   components:
@@ -30,7 +30,7 @@
 - type: entity
   parent: Mirror
   id: MirrorModern
-  suffix: rectangle
+  suffix: ent-MirrorModern-suffix
   components:
   - type: Sprite
     state: rectangle-mirror

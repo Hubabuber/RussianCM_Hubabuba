@@ -1,0 +1,13 @@
+construction-cmairlock-desc = It opens, it closes, and maybe crushes you.
+construction-cmairlockglass-desc = It opens, it closes, and maybe crushes you.
+construction-cmbarricademetal-desc = A military-grade metal barricade.
+construction-cmbarricademetaldoor-desc = A barricade that can be folded or opened to allow marines through.
+construction-cmbarricadeplasteeldoor-desc = A barricade that can be folded or opened to allow marines through. Made from hardened plasteel.
+construction-cmwindoor-desc = It opens, it closes, and you can see through it!
+construction-cmwindoorsecure-desc = It opens, it closes, and you can see through it! This one looks tough.
+construction-rmcbarricadeplasteel-desc = A military-grade hardened plasteel barricade.
+construction-rmcbarricadewood-desc = A makeshift wooden barricade.
+construction-rmclightbulbfixture-desc = A wallmounted fixture for bulb lights.
+construction-rmclighttubefixture-desc = A wallmounted fixture for tube lights.
+construction-rmcwindowdirectional-desc = A glass window. It looks thin and flimsy.
+construction-rmcwindowreinforceddirectional-desc = A glass window reinforced with bracing rods. It looks rather strong.

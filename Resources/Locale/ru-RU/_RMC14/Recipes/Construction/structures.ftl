@@ -1,0 +1,13 @@
+construction-cmairlock-desc = Он открывается, закрывается и, возможно, раздавит вас.
+construction-cmairlockglass-desc = Он открывается, закрывается и, возможно, раздавит вас.
+construction-cmbarricademetal-desc = Металлическая баррикада военного образца.
+construction-cmbarricademetaldoor-desc = Баррикада, которую можно сложить или открыть, чтобы пропустить морпехи.
+construction-cmbarricadeplasteeldoor-desc = Баррикада, которую можно сложить или открыть, чтобы пропустить морпехи. Изготовлен из закаленной пластали.
+construction-cmwindoor-desc = Он открывается, закрывается, и вы можете видеть сквозь него!
+construction-cmwindoorsecure-desc = Он открывается, закрывается, и вы можете видеть сквозь него! Этот выглядит жестко.
+construction-rmcbarricadeplasteel-desc = Баррикада из закаленной пластали военного уровня.
+construction-rmcbarricadewood-desc = Импровизированная деревянная баррикада.
+construction-rmclightbulbfixture-desc = Настенный светильник для лампочек.
+construction-rmclighttubefixture-desc = Настенный светильник для трубчатых светильников.
+construction-rmcwindowdirectional-desc = Стеклянное окно. Он выглядит тонким и хлипким.
+construction-rmcwindowreinforceddirectional-desc = Стеклянное окно, усиленное распорными стержнями. Выглядит довольно сильно.

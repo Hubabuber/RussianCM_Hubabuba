@@ -1,8 +1,8 @@
 - type: entity
-  name: handheld mass scanner
+  name: ent-HandHeldMassScanner
   parent: BaseHandheldComputer
   id: HandHeldMassScanner
-  description: A hand-held mass scanner.
+  description: ent-HandHeldMassScanner-desc
   components:
   - type: Item
     sprite: Objects/Tools/handheld_mass_scanner.rsi
@@ -42,7 +42,7 @@
 - type: entity
   id: HandHeldMassScannerEmpty
   parent: HandHeldMassScanner
-  suffix: Empty
+  suffix: ent-HandHeldMassScannerEmpty-suffix
   components:
   - type: ItemSlots
     slots:
@@ -52,7 +52,7 @@
 - type: entity
   id: HandHeldMassScannerBorg
   parent: HandHeldMassScanner
-  suffix: Borg
+  suffix: ent-HandHeldMassScannerBorg-suffix
   components:
   - type: ItemSlots
     slots:

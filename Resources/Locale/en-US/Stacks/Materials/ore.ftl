@@ -1,0 +1,10 @@
+stack-bananiumore-name = stack-bananium-ore
+stack-coal-name = stack-coal
+stack-diamondore-name = stack-rough-diamond
+stack-goldore-name = stack-gold-ore
+stack-plasmaore-name = stack-plasma-ore
+stack-saltore-name = stack-salt
+stack-silverore-name = stack-silver-ore
+stack-spacequartz-name = stack-space-quartz
+stack-steelore-name = stack-iron-ore
+stack-uraniumore-name = stack-uranium-ore

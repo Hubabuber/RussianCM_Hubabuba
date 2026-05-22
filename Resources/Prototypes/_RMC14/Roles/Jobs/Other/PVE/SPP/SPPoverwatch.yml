@@ -15,7 +15,7 @@
   joinNotifyCrew: false
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: SPP Platoon Commander (PVE)
+  spawnMenuRoleName: job-rmcsppplatcopve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -68,8 +68,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPPlatCoPVE
-  name: spp platoon commander spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointSPPPlatCoPVE
+  suffix: ent-RMCSpawnPointSPPPlatCoPVE-suffix
   components:
   - type: SpawnPoint
     job_id: RMCSPPPlatCoPVE

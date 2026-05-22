@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: SurveillanceCameraBase
-  name: camera
-  description: A surveillance camera. It's watching you. Kinda.
+  name: ent-SurveillanceCameraBase
+  description: ent-SurveillanceCameraBase-desc
   components:
   - type: Physics
     bodyType: Static
@@ -102,8 +102,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraConstructed
-  name: camera
-  suffix: Constructed
+  name: ent-SurveillanceCameraConstructed
+  suffix: ent-SurveillanceCameraConstructed-suffix
   components:
     - type: DeviceNetwork
       deviceNetId: Wired
@@ -122,8 +122,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraEngineering
-  name: camera
-  suffix: Engineering
+  name: ent-SurveillanceCameraEngineering
+  suffix: ent-SurveillanceCameraEngineering-suffix
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -135,8 +135,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSecurity
-  name: camera
-  suffix: Security
+  name: ent-SurveillanceCameraSecurity
+  suffix: ent-SurveillanceCameraSecurity-suffix
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -148,8 +148,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraScience
-  name: camera
-  suffix: Science
+  name: ent-SurveillanceCameraScience
+  suffix: ent-SurveillanceCameraScience-suffix
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -161,8 +161,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSupply
-  name: camera
-  suffix: Supply
+  name: ent-SurveillanceCameraSupply
+  suffix: ent-SurveillanceCameraSupply-suffix
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -174,8 +174,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraCommand
-  name: camera
-  suffix: Command
+  name: ent-SurveillanceCameraCommand
+  suffix: ent-SurveillanceCameraCommand-suffix
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -187,8 +187,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraService
-  name: camera
-  suffix: Service
+  name: ent-SurveillanceCameraService
+  suffix: ent-SurveillanceCameraService-suffix
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -200,8 +200,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraMedical
-  name: camera
-  suffix: Medical
+  name: ent-SurveillanceCameraMedical
+  suffix: ent-SurveillanceCameraMedical-suffix
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -213,8 +213,8 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraGeneral
-  name: camera
-  suffix: General
+  name: ent-SurveillanceCameraGeneral
+  suffix: ent-SurveillanceCameraGeneral-suffix
   components:
   - type: DeviceNetwork
     deviceNetId: Wired
@@ -225,8 +225,8 @@
 
 - type: entity
   id: SurveillanceCameraAssembly
-  name: camera
-  description: A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
+  name: ent-SurveillanceCameraAssembly
+  description: ent-SurveillanceCameraAssembly-desc
   components:
     - type: Clickable
     - type: InteractionOutline

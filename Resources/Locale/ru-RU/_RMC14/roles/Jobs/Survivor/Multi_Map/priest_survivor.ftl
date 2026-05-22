@@ -6,3 +6,6 @@ ent-RMCSpawnPointSurvivorPriest = точка появления выжившег
 ent-CMSatchelFillSurvivorPriest = кожаная сумка
   .desc = Очень нарядная сумка из тонкой кожи. 
 
+job-cmsurvivorpriest-desc = cm-описание-работы-выживший
+job-cmsurvivorpriest-name = cm-имя-должности-выжившего-священника
+job-cmsurvivorpriest-spawnmenurolename = Священник (Выживший)

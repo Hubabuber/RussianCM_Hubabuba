@@ -1,7 +1,7 @@
 - type: entity
   id: Screen
-  name: screen
-  description: Displays text or time.
+  name: ent-Screen
+  description: ent-Screen-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -41,7 +41,7 @@
 - type: entity
   id: ArrivalsShuttleTimer
   parent: Screen
-  name: arrivals screen
+  name: ent-ArrivalsShuttleTimer
   components:
   - type: DeviceNetwork
     deviceNetId: Private

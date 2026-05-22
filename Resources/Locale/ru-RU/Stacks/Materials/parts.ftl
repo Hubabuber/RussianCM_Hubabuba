@@ -1,0 +1,1 @@
+stack-metalrod-name = штабелеукладчики

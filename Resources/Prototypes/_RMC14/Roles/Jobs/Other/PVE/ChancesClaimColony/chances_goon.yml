@@ -1,11 +1,11 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorSecurity
   id: CMSurvivorChancesGoon
   name: rmc-job-name-colonist-chances-goon
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorChancesGoon
   startingGear: RMCGearSurvivorChancesGoon
-  spawnMenuRoleName: Chance's Claim Corporate Security (Chance's Colonist)
+  spawnMenuRoleName: job-cmsurvivorchancesgoon-spawnmenurolename
   greeting: rmc-job-greeting-chances-colonist
   hasIcon: true
   special:
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesGoon
-  name: chances goon spawn point
+  name: ent-RMCSpawnPointSurvivorChancesGoon
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -51,7 +51,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesGoon
-  name: chances claim corporate security ghost role
+  name: ent-RMCRandomHumanoidSurvivorChancesGoon
   components:
   - type: Sprite
     layers:

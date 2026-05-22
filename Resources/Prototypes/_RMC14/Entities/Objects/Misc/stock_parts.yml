@@ -4,8 +4,8 @@
 #  parent: BaseStockPart
   parent: BaseItem
   id: CMStockPartBase
-  name: stock part
-  description: What?
+  name: ent-CMStockPartBase
+  description: ent-CMStockPartBase-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/stock_parts.rsi
@@ -18,9 +18,9 @@
 - type: entity
   parent: CMStockPartBase
   id: CMStockPartScreen
-  name: console screen
-  description: Used in the construction of computers and other devices with an interactive console.
-  suffix: Rating 1
+  name: ent-CMStockPartScreen
+  description: ent-CMStockPartScreen-desc
+  suffix: ent-CMStockPartScreen-suffix
   components:
   - type: Sprite
     state: screen
@@ -31,9 +31,9 @@
 - type: entity
   parent: CMStockPartBase
   id: CMStockPartCapacitor
-  name: capacitor
-  description: A basic capacitor used in the construction of a variety of devices.
-  suffix: Rating 1
+  name: ent-CMStockPartCapacitor
+  description: ent-CMStockPartCapacitor-desc
+  suffix: ent-CMStockPartCapacitor-suffix
   components:
   - type: Sprite
     state: capacitor
@@ -44,9 +44,9 @@
 - type: entity
   parent: CMStockPartBase
   id: CMStockPartScanningModule
-  name: scanning module
-  description: A compact, high resolution scanning module used in the construction of certain devices.
-  suffix: Rating 1
+  name: ent-CMStockPartScanningModule
+  description: ent-CMStockPartScanningModule-desc
+  suffix: ent-CMStockPartScanningModule-suffix
   components:
   - type: Sprite
     state: scan_module
@@ -58,8 +58,8 @@
   parent: CMStockPartBase
   id: CMStockPartManipulatorMicro
   name: micro-manipulator
-  description: A tiny little manipulator used in the construction of certain devices.
-  suffix: Rating 1
+  description: ent-CMStockPartManipulatorMicro-desc
+  suffix: ent-CMStockPartManipulatorMicro-suffix
   components:
   - type: Sprite
     state: micro_mani
@@ -71,8 +71,8 @@
   parent: CMStockPartBase
   id: CMStockPartMicroLaser
   name: micro-laser
-  description: A tiny laser used in certain devices.
-  suffix: Rating 1
+  description: ent-CMStockPartMicroLaser-desc
+  suffix: ent-CMStockPartMicroLaser-suffix
   components:
   - type: Sprite
     state: micro_laser
@@ -83,9 +83,9 @@
 - type: entity
   parent: CMStockPartBase
   id: CMStockPartMatterBin
-  name: matter bin
-  description: A container for hold compressed matter awaiting re-construction.
-  suffix: Rating 1
+  name: ent-CMStockPartMatterBin
+  description: ent-CMStockPartMatterBin-desc
+  suffix: ent-CMStockPartMatterBin-suffix
   components:
   - type: Sprite
     state: matter_bin
@@ -98,9 +98,9 @@
 - type: entity
   parent: CMStockPartCapacitor
   id: CMStockPartCapacitorAdvanced
-  name: advanced capacitor
-  description: An advanced capacitor used in the construction of a variety of devices.
-  suffix: Rating 2
+  name: ent-CMStockPartCapacitorAdvanced
+  description: ent-CMStockPartCapacitorAdvanced-desc
+  suffix: ent-CMStockPartCapacitorAdvanced-suffix
 #  components:
 #  - type: MachinePart
 #    rating: 2
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMStockPartScanningModule
   id: CMStockPartScanningModuleAdvanced
-  name: advanced scanning module
-  suffix: Rating 2
+  name: ent-CMStockPartScanningModuleAdvanced
+  suffix: ent-CMStockPartScanningModuleAdvanced-suffix
   #components:
   #- type: MachinePart
   #  part:
@@ -119,7 +119,7 @@
   parent: CMStockPartManipulatorMicro
   id: CMStockPartManipulatorNano
   name: nano-manipulator
-  suffix: Rating 2
+  suffix: ent-CMStockPartManipulatorNano-suffix
   components:
   - type: Sprite
     state: nano_mani
@@ -129,8 +129,8 @@
 - type: entity
   parent: CMStockPartMicroLaser
   id: CMStockPartMicroLaserHigh
-  name: high-power micro-laser
-  suffix: Rating 2
+  name: ent-CMStockPartMicroLaserHigh
+  suffix: ent-CMStockPartMicroLaserHigh-suffix
   components:
   - type: Sprite
     state: high_micro_laser
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMStockPartMatterBin
   id: CMStockPartMatterAdvanced
-  name: advanced matter bin
-  suffix: Rating 2
+  name: ent-CMStockPartMatterAdvanced
+  suffix: ent-CMStockPartMatterAdvanced-suffix
   components:
   - type: Sprite
     state: advanced_matter_bin
@@ -154,9 +154,9 @@
 - type: entity
   parent: CMStockPartCapacitor
   id: CMStockPartCapacitorSuper
-  name: super capacitor
-  description: A super-high-capacity capacitor used in the construction of a variety of devices.
-  suffix: Rating 3
+  name: ent-CMStockPartCapacitorSuper
+  description: ent-CMStockPartCapacitorSuper-desc
+  suffix: ent-CMStockPartCapacitorSuper-suffix
 #  components:
 #  - type: MachinePart
 #    rating: 3
@@ -164,9 +164,9 @@
 - type: entity
   parent: CMStockPartScanningModule
   id: CMStockPartScanningModulePhasic
-  name: phasic scanning module
-  description: A compact, high resolution phasic scanning module used in the construction of certain devices.
-  suffix: Rating 3
+  name: ent-CMStockPartScanningModulePhasic
+  description: ent-CMStockPartScanningModulePhasic-desc
+  suffix: ent-CMStockPartScanningModulePhasic-suffix
   #components:
   #- type: MachinePart
   #  rating: 3
@@ -175,7 +175,7 @@
   parent: CMStockPartManipulatorMicro
   id: CMStockPartManipulatorPico
   name: pico-manipulator
-  suffix: Rating 3
+  suffix: ent-CMStockPartManipulatorPico-suffix
   components:
   - type: Sprite
     state: pico_mani
@@ -185,8 +185,8 @@
 - type: entity
   parent: CMStockPartMicroLaser
   id: CMStockPartMicroLaserUltra
-  name: ultra-high-power micro-laser
-  suffix: Rating 3
+  name: ent-CMStockPartMicroLaserUltra
+  suffix: ent-CMStockPartMicroLaserUltra-suffix
   components:
   - type: Sprite
     state: ultra_high_micro_laser
@@ -196,8 +196,8 @@
 - type: entity
   parent: CMStockPartMatterBin
   id: CMStockPartMatterBinSuper
-  name: super matter bin
-  suffix: Rating 3
+  name: ent-CMStockPartMatterBinSuper
+  suffix: ent-CMStockPartMatterBinSuper-suffix
   components:
   - type: Sprite
     state: super_matter_bin
@@ -211,8 +211,8 @@
 - type: entity
   parent: CMStockPartBase
   id: CMStockPartSMESCoil
-  name: superconducting magnetic coil
-  description: Heavy-duty superconducting magnetic coil, mainly used in construction of SMES units.
+  name: ent-CMStockPartSMESCoil
+  description: ent-CMStockPartSMESCoil-desc
   components:
   - type: Sprite
     state: smes_coil

@@ -18,3 +18,15 @@ ent-RMCMagazineRifleL24 = Магазин L24 (8.88x51мм)
   .desc = Магазин на 8.88x51мм патронов для винтовки L24.
 ent-RMCWeaponRifleL24 = Винтовка L24
   .desc = Редкая винтовка, чаще всего встречающаяся на вооружении подразделений Морской Пехоты Короны Империи Трех Солнц. По сравнению с M41A MK2, она имеет заметно улучшенную эргономику и значительно более высокие характеристики. Данный экземпляр окрашен в сине-фиолетовый камуфляж Коммандос Морской Пехоты Короны.
+
+ent-BulletRifle888x51mm = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-BulletRifle888x51mmAP = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-BulletRifle888x51mmHEAP = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-BulletRifle888x51mmIncendiary = BaseBullet
+    .desc = If you can see this you're probably dead!

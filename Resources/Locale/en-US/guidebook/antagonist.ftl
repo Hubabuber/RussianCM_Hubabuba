@@ -1,0 +1,9 @@
+guideentry-antagonists-name = guide-entry-antagonists
+guideentry-minorantagonists-name = guide-entry-minor-antagonists
+guideentry-nuclearoperatives-name = guide-entry-nuclear-operatives
+guideentry-revolutionaries-name = guide-entry-revolutionaries
+guideentry-spaceninja-name = guide-entry-space-ninja
+guideentry-thieves-name = guide-entry-thieves
+guideentry-traitors-name = guide-entry-traitors
+guideentry-wizard-name = guide-entry-wizard
+guideentry-zombies-name = guide-entry-zombies

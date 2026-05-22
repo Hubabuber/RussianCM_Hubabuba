@@ -4,7 +4,7 @@
   name: cm-job-name-survivor-icb
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorCorporate
-  spawnMenuRoleName: Interstellar Commerce Bureau Liaison (NV Survivor)
+  spawnMenuRoleName: job-cmsurvivorvaraderoicb-spawnmenurolename
   startingGear: RMCGearSurvivorVaraderoICB
   ranks:
     RMCRankICBCorporateLiaison: []
@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorVaraderoICB
-  name: survivor icb spawn point
+  name: ent-RMCSpawnPointSurvivorVaraderoICB
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -54,5 +54,5 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetICB
-  name: icb colonist preset
+  name: ent-RMCGearSurvivorPresetICB
   categories: [ HideSpawnMenu ]

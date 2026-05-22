@@ -20,46 +20,46 @@
 # Ice-cream
 
 - type: entity
-  name: ice-cream sandwich
+  name: ent-FoodFrozenSandwich
   parent: FoodFrozenBase
   id: FoodFrozenSandwich
-  description: Portable ice-cream in its own packaging.
+  description: ent-FoodFrozenSandwich-desc
   components:
   - type: Sprite
     state: sandwich
 
 - type: entity
-  name: strawberry ice-cream sandwich
+  name: ent-FoodFrozenSandwichStrawberry
   parent: FoodFrozenBase
   id: FoodFrozenSandwichStrawberry
-  description: Portable ice-cream in its own packaging of the strawberry variety.
+  description: ent-FoodFrozenSandwichStrawberry-desc
   components:
   - type: Sprite
     state: sandwich-strawberry
 
 - type: entity
-  name: space freezy
+  name: ent-FoodFrozenFreezy
   parent: FoodFrozenBase
   id: FoodFrozenFreezy
-  description: The best ice-cream in space.
+  description: ent-FoodFrozenFreezy-desc
   components:
   - type: Sprite
     state: spacefreezy
 
 - type: entity
-  name: ice-cream sundae
+  name: ent-FoodFrozenSundae
   parent: FoodFrozenBase
   id: FoodFrozenSundae
-  description: A classic dessert.
+  description: ent-FoodFrozenSundae-desc
   components:
   - type: Sprite
     state: spacefreezy
 
 - type: entity
-  name: cornuto
+  name: ent-FoodFrozenCornuto
   parent: FoodFrozenBase
   id: FoodFrozenCornuto
-  description: A Neapolitan vanilla and chocolate ice-cream cone. It menaces with a sprinkling of caramelized nuts.
+  description: ent-FoodFrozenCornuto-desc
   components:
   - type: Sprite
     state: cornuto
@@ -76,10 +76,10 @@
 # Popsicle
 
 - type: entity
-  name: orange creamsicle
+  name: ent-FoodFrozenPopsicleOrange
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleOrange
-  description: A classic orange creamsicle. A sunny frozen treat.
+  description: ent-FoodFrozenPopsicleOrange-desc
   components:
   - type: Sprite
     layers:
@@ -96,10 +96,10 @@
     - Creamsicle
 
 - type: entity
-  name: berry creamsicle
+  name: ent-FoodFrozenPopsicleBerry
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleBerry
-  description: A vibrant berry creamsicle. A berry good frozen treat.
+  description: ent-FoodFrozenPopsicleBerry-desc
   components:
   - type: Sprite
     layers:
@@ -116,10 +116,10 @@
     - Creamsicle
 
 - type: entity
-  name: jumbo ice-cream
+  name: ent-FoodFrozenPopsicleJumbo
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleJumbo
-  description: A luxurious ice-cream covered in rich chocolate. It's smaller than you remember.
+  description: ent-FoodFrozenPopsicleJumbo-desc
   components:
   - type: Sprite
     layers:
@@ -144,11 +144,11 @@
 # layer depending on soda/syrup/waterever. Name and description will also have
 # to be modified.
 - type: entity
-  name: sweet snowcone
+  name: ent-FoodFrozenSnowconeBase
   #  name: [Flavor] snowcone
   parent: FoodFrozenBase
   id: FoodFrozenSnowconeBase
-  description: It's just shaved ice and simple syrup, minimum effort.
+  description: ent-FoodFrozenSnowconeBase-desc
   #  description: [Liquid] drizzled over a snowball in a paper cup.
   components:
     - type: Sprite
@@ -172,10 +172,10 @@
               Quantity: 2
 
 - type: entity
-  name: flavorless snowcone
+  name: ent-FoodFrozenSnowcone
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowcone
-  description: It's just shaved ice. Still fun to chew on.
+  description: ent-FoodFrozenSnowcone-desc
   components:
   - type: SolutionContainerManager
     solutions:
@@ -186,10 +186,10 @@
             Quantity: 8
 
 - type: entity
-  name: berry snowcone
+  name: ent-FoodFrozenSnowconeBerry
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeBerry
-  description: Berry syrup drizzled over a snowball in a paper cup.
+  description: ent-FoodFrozenSnowconeBerry-desc
   components:
   - type: Sprite
     layers:
@@ -203,10 +203,10 @@
     - Fruit
 
 - type: entity
-  name: fruit salad snowcone
+  name: ent-FoodFrozenSnowconeFruit
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeFruit
-  description: A delightful mix of citrus syrups drizzled over a snowball in a paper cup.
+  description: ent-FoodFrozenSnowconeFruit-desc
   components:
   - type: Sprite
     layers:
@@ -220,10 +220,10 @@
     - Fruit
 
 - type: entity
-  name: clowncone
+  name: ent-FoodFrozenSnowconeClown
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeClown
-  description: Laughter drizzled over a snowball in a paper cup.
+  description: ent-FoodFrozenSnowconeClown-desc
   components:
   - type: Sprite
     layers:
@@ -234,10 +234,10 @@
     - FoodFrozenSnowconeTrash
 
 - type: entity
-  name: mime snowcone
+  name: ent-FoodFrozenSnowconeMime
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeMime
-  description: ...
+  description: ent-FoodFrozenSnowconeMime-desc
   components:
   - type: Sprite
     layers:
@@ -248,10 +248,10 @@
     - FoodFrozenSnowconeTrash
 
 - type: entity
-  name: rainbow snowcone
+  name: ent-FoodFrozenSnowconeRainbow
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeRainbow
-  description: A very colorful snowball in a paper cup.
+  description: ent-FoodFrozenSnowconeRainbow-desc
   components:
   - type: Sprite
     layers:
@@ -264,10 +264,10 @@
 # Trash
 
 - type: entity
-  name: paper cone
+  name: ent-FoodFrozenSnowconeTrash
   parent: BaseItem
   id: FoodFrozenSnowconeTrash
-  description: A crumpled paper cone used for an icy treat. Worthless.
+  description: ent-FoodFrozenSnowconeTrash-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/frozen.rsi
@@ -277,10 +277,10 @@
     - Trash
 
 - type: entity
-  name: popsicle stick
+  name: ent-FoodFrozenPopsicleTrash
   parent: BaseItem
   id: FoodFrozenPopsicleTrash
-  description: Once held a delicious treat. Now, 'tis barren.
+  description: ent-FoodFrozenPopsicleTrash-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/frozen.rsi

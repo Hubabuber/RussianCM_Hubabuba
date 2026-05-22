@@ -14,7 +14,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: CMPelletShotgunBuckshot
-  name: buckshot
+  name: ent-CMPelletShotgunBuckshot
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -56,7 +56,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: CMPelletShotgunSlug
-  name: slug
+  name: ent-CMPelletShotgunSlug
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -99,7 +99,7 @@
 - type: entity
   parent: CMPelletShotgunSlug
   id: CMPelletShotgunIncendiary
-  name: incendiary slug
+  name: ent-CMPelletShotgunIncendiary
   components:
   - type: Projectile
     damage:
@@ -121,7 +121,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: CMPelletShotgunBeanbag
-  name: beanbag slug
+  name: ent-CMPelletShotgunBeanbag
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -145,7 +145,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: CMPelletShotgunFlechette
-  name: flechette shell
+  name: ent-CMPelletShotgunFlechette
   components:
   - type: CMArmorPiercing
     amount: 35
@@ -173,7 +173,7 @@
 - type: entity
   parent: CMPelletShotgunBuckshot
   id: CMPelletShotgunIncendiaryBuckshot
-  name: incendiary buckshot shell
+  name: ent-CMPelletShotgunIncendiaryBuckshot
   components:
   - type: ProjectileSpread
     proto: CMPelletShotgunIncendiaryBuckshot
@@ -184,7 +184,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: RMCPelletShotgunBreaching
-  name: light breaching shell
+  name: ent-RMCPelletShotgunBreaching
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi

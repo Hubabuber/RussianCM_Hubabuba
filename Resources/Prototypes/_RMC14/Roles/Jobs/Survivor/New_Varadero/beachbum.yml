@@ -5,7 +5,7 @@
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
   startingGear: RMCGearSurvivorBeachBum
-  spawnMenuRoleName: Beach Bum (NV Survivor)
+  spawnMenuRoleName: job-cmsurvivorbeachbum-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSatchelFillSurvivor
   id: CMSatchelFillSurvivorBeachBum
-  suffix: Survivor
+  suffix: ent-CMSatchelFillSurvivorBeachBum-suffix
   components:
   - type: StorageFill
     contents:
@@ -66,7 +66,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorBeachBum
-  name: survivor beach bum spawn point
+  name: ent-RMCSpawnPointSurvivorBeachBum
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -78,5 +78,5 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetBeachBum
-  name: beach bum colonist preset
+  name: ent-RMCGearSurvivorPresetBeachBum
   categories: [ HideSpawnMenu ]

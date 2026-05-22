@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMSMESMachineCircuitboard
-  name: SMES machine board
-  description: A machine printed circuit board for a SMES.
+  name: ent-CMSMESMachineCircuitboard
+  description: ent-CMSMESMachineCircuitboard-desc
   components:
   - type: Sprite
     state: power_mod
@@ -17,8 +17,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMAutolatheMachineCircuitboard
-  name: autolathe machine board
-  description: A machine printed circuit board for an autolathe
+  name: ent-CMAutolatheMachineCircuitboard
+  description: ent-CMAutolatheMachineCircuitboard-desc
   components: # TODO RMC14 autolathe
     - type: MachineBoard
       prototype: RMCAutolatheEmpty
@@ -31,7 +31,7 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCPortableGeneratorPacmanMachineCircuitBoard
-  name: P.A.C.M.A.N.-type portable generator machine board
+  name: ent-RMCPortableGeneratorPacmanMachineCircuitBoard
   components:
     - type: Sprite
       state: power_mod
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCPortableGeneratorSuperPacmanMachineCircuitboard
-  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator machine board
+  name: ent-RMCPortableGeneratorSuperPacmanMachineCircuitboard
   components:
     - type: Sprite
       state: power_mod
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserChem
-  name: chem dispenser machine board
-  description: A machine printed circuit board for a chemical dispenser.
+  name: ent-CMCircuitboardDispenserChem
+  description: ent-CMCircuitboardDispenserChem-desc
   components:
   - type: Sprite
     state: blank_mod
@@ -73,8 +73,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserBooze
-  name: booze dispenser machine board
-  description: A machine printed circuit board for a booze dispenser.
+  name: ent-CMCircuitboardDispenserBooze
+  description: ent-CMCircuitboardDispenserBooze-desc
   components:
   - type: Sprite
     state: blank_mod
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserSoda
-  name: soda dispenser machine board
-  description: A machine printed circuit board for a soda dispenser.
+  name: ent-CMCircuitboardDispenserSoda
+  description: ent-CMCircuitboardDispenserSoda-desc
   components:
   - type: Sprite
     state: blank_mod
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardChemMaster
-  name: chem master machine board
-  description: A machine printed circuit board for a chem master.
+  name: ent-CMCircuitboardChemMaster
+  description: ent-CMCircuitboardChemMaster-desc
   components:
   - type: Sprite
     state: blank_mod
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCCircuitboardIndustrialChemMaster
-  name: chem master machine board
-  description: A machine printed circuit board for a industrial chem master.
+  name: ent-RMCCircuitboardIndustrialChemMaster
+  description: ent-RMCCircuitboardIndustrialChemMaster-desc
   components:
   - type: Sprite
     state: blank_mod
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardMicrowave
-  name: microwave machine board
-  description: A machine printed circuit board for a microwave.
+  name: ent-CMCircuitboardMicrowave
+  description: ent-CMCircuitboardMicrowave-desc
   components:
   - type: Sprite
     state: blank_mod
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCArmylatheMachineCircuitboard
-  name: armylathe machine board
-  description: A machine printed circuit board for an armylathe
+  name: ent-RMCArmylatheMachineCircuitboard
+  description: ent-RMCArmylatheMachineCircuitboard-desc
   components:
     - type: MachineBoard
       prototype: RMCArmylatheEmpty

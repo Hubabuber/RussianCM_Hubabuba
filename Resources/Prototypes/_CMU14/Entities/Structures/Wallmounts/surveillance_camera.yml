@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyGOVFOR
-  name: colony-grade camera
-  suffix: Colony, Govfor
+  name: ent-CMUSurveillanceCameraColonyGOVFOR
+  suffix: ent-CMUSurveillanceCameraColonyGOVFOR-suffix
   placement:
     mode: SnapgridCenter
     snap:
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyWEYU
-  name: colony-grade camera
-  suffix: Colony, We-Yu
+  name: ent-CMUSurveillanceCameraColonyWEYU
+  suffix: ent-CMUSurveillanceCameraColonyWEYU-suffix
   placement:
     mode: SnapgridCenter
     snap:
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyCMB
-  name: colony-grade camera
-  suffix: Colony, CMB
+  name: ent-CMUSurveillanceCameraColonyCMB
+  suffix: ent-CMUSurveillanceCameraColonyCMB-suffix
   placement:
     mode: SnapgridCenter
     snap:
@@ -40,9 +40,9 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyGovfor
-  name: colony security cameras
-  description: Used to access the various cameras on the colony.
-  suffix: Colony, Govfor
+  name: ent-CMUMonitorCameraColonyGovfor
+  description: ent-CMUMonitorCameraColonyGovfor-desc
+  suffix: ent-CMUMonitorCameraColonyGovfor-suffix
   components:
   - type: RMCCameraComputer
     protoIds:
@@ -51,9 +51,9 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyWEYU
-  name: colony security cameras
-  description: Used to access the various cameras on the colony.
-  suffix: Colony, We-Yu
+  name: ent-CMUMonitorCameraColonyWEYU
+  description: ent-CMUMonitorCameraColonyWEYU-desc
+  suffix: ent-CMUMonitorCameraColonyWEYU-suffix
   components:
   - type: RMCCameraComputer
     protoIds:
@@ -62,9 +62,9 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyCMB
-  name: colony security cameras
-  description: Used to access the various cameras on the colony.
-  suffix: Colony, CMB
+  name: ent-CMUMonitorCameraColonyCMB
+  description: ent-CMUMonitorCameraColonyCMB-desc
+  suffix: ent-CMUMonitorCameraColonyCMB-suffix
   components:
   - type: RMCCameraComputer
     protoIds:

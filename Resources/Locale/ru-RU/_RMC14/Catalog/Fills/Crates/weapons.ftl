@@ -8,3 +8,9 @@ ent-RMCCrateXM88 = Ящик тяжёлых винтовок XM88 (x2)
 ent-RMCCrateMK80 = Ящик ручных пушек MK80 (x2)
 ent-RMCCrateM54CE2 = Ящик M54CE2 HAR (2x HAR, 2x коробки с патронами HAR)
 ent-RMCCrateM54CMK1 = Ящик винтовок M54C MK1 (2x МК1, 2x магазина)
+
+ent-RMCCrateM2C = Ящик для пулемета M2C (x1)
+    .desc = Ящик с оружием.
+
+ent-RMCCrateML66D = Ящик для пулемета M56D (x1)
+    .desc = Ящик с оружием.

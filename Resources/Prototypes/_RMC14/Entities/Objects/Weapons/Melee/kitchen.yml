@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: RMCKitchenKnife
-  name: knife
-  description: Can cut through any food.
+  name: ent-RMCKitchenKnife
+  description: ent-RMCKitchenKnife-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/Kitchen/knife.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: RMCKitchenKnife
   id: RMCKitchenKnifePlastic
-  name: plastic knife
-  description: The bluntest of blades.
+  name: ent-RMCKitchenKnifePlastic
+  description: ent-RMCKitchenKnifePlastic-desc
   components:
   - type: Sprite
     state: plastic
@@ -49,14 +49,13 @@
 - type: entity
   parent: RMCKitchenKnife
   id: RMCKitchenKnifeChef
-  name: kitchen knife
-  description: A general purpose Chef's Knife made by SpaceCook Incorporated. Guaranteed to stay sharp for years to come.
-
+  name: ent-RMCKitchenKnifeChef
+  description: ent-RMCKitchenKnifeChef-desc
 - type: entity
   parent: RMCKitchenKnife
   id: RMCKitchenKnifeButcher
-  name: butcher's cleaver
-  description: A huge thing used for chopping and chopping up meat. This includes clowns and clown-by-products.
+  name: ent-RMCKitchenKnifeButcher
+  description: ent-RMCKitchenKnifeButcher-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/Kitchen/cleaver.rsi

@@ -1,8 +1,8 @@
 #Old AI sat voidsuits
 - type: entity
   id: LockerOldAISat
-  name: closet
-  suffix: NTSRA voidsuit locker
+  name: ent-LockerOldAISat
+  suffix: ent-LockerOldAISat-suffix
   parent: LockerSyndicate
   components:
   - type: StorageFill
@@ -15,7 +15,7 @@
 - type: entity
   id: LockerSyndicateShipGearBasic
   parent: LockerSyndicate
-  suffix: Basic ship gear, Random
+  suffix: ent-LockerSyndicateShipGearBasic-suffix
   components:
   - type: StorageFill
     contents:
@@ -34,7 +34,7 @@
 - type: entity
   id: LockerSyndicateShipGearBasicChameleonKit
   parent: LockerSyndicateShipGearBasic
-  suffix: Basic ship gear, Random, Chameleon Kit
+  suffix: ent-LockerSyndicateShipGearBasicChameleonKit-suffix
   components:
   - type: StorageFill
     contents:

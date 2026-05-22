@@ -1,0 +1,12 @@
+stack-cigarettefilter-name = stack-cigarette-filter
+stack-groundcannabis-name = stack-ground-cannabis
+stack-groundcannabisrainbow-name = stack-ground-rainbow-cannabis
+stack-groundtobacco-name = stack-ground-tobacco
+stack-leavescannabisdried-name = stack-dried-cannabis-leaves
+stack-leavescannabisrainbowdried-name = stack-dried-rainbow-cannabis-leaves
+stack-leavestobaccodried-name = stack-dried-tobacco-leaves
+stack-pancake-name = stack-pancake
+stack-pancakebb-name = stack-blueberry-pancake
+stack-pancakecc-name = stack-chocolate-chip-pancake
+stack-paperrolling-name = stack-rolling-paper
+stack-pizzabox-name = stack-pizza-box

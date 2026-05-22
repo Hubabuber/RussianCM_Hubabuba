@@ -22,3 +22,15 @@ ent-RMC40MMGrenadeM74AGMI = зажигательная граната M74 AGM-I 
 ent-RMC40MMGrenadeM74AGMF = осколочная граната M74 AGM-F 40мм
   .desc = M74 — боеприпас гранаты воздушного подрыва — осколочный. Эту гранату необходимо запускать из гранатомёта, и она взрывается по достижении цели. Рассеивает зазубренную шрапнель конусом перед собой, разрывая плоть и броню alike. Схема рассеивания оптимизирована против крупных целей. Страдает от избыточного пробития при прямом попадании.
 ent-RMCBaseAirBurstGrenade = граната воздушного подрыва
+
+ent-RMC40MMGrenadeM74AGMSVehicle = 40-мм дымовая граната M74 AGM-S
+    .desc = M74 — Боеприпас для воздушной гранаты — Дым. Эту гранату необходимо запускать из гранатомета, и она взрывается, как только достигнет места назначения. При детонации мгновенно объединяет несколько химикатов внутри корпуса, образуя облако дыма.
+
+ent-RMCAirBurstProjectileSmokeVehicle = 40-мм граната М74 AGM-S
+    .desc = If you can see this you're probably dead!
+
+ent-RMCBaseAirBurstProjectile = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-RMCBaseAirburstRound = BaseBullet
+    .desc = If you can see this you're probably dead!

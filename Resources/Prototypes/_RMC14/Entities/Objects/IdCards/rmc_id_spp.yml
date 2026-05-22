@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: FactionSPP
   categories: [ HideSpawnMenu ]
   components:
@@ -13,8 +13,8 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCIDSPP
-  name: UPP dog tag
-  description: A soldier dog tag.
+  name: ent-RMCIDSPP
+  description: ent-RMCIDSPP-desc
   components:
   - type: ItemIFF
     factions:
@@ -28,8 +28,8 @@
 - type: entity
   parent: CMIDCardLanyard
   id: RMCIDCardPaP
-  name: PaP identification holo-badge
-  description: A standard-issue holo-badge for personnel within the UPP's People's Armed Police. It displays the officer's rank and affiliation.
+  name: ent-RMCIDCardPaP
+  description: ent-RMCIDCardPaP-desc
   components:
   - type: PresetIdCard
     job: CMSurvivor
@@ -40,9 +40,9 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardHalcyon
-  name: corporate holo-badge
-  description: A corporate holo-badge. It's a unique Corporate orange and black.
-  suffix: Halcyon
+  name: ent-RMCIDCardHalcyon
+  description: ent-RMCIDCardHalcyon-desc
+  suffix: ent-RMCIDCardHalcyon-suffix
   components:
   - type: ItemIFF
     factions:

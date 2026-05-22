@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - SquadLeader
-  spawnMenuRoleName: FORECON Squad Lead (PVE)
+  spawnMenuRoleName: job-rmcforeconpvesquadlead-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVESquadLead
-  name: forecon squad lead spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointFORECONPVESquadLead
+  suffix: ent-RMCSpawnPointFORECONPVESquadLead-suffix
   components:
   - type: Sprite
     state: so_spawn

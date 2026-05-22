@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUAutodocPod
-  name: autodoc pod
-  description: An automated surgical pod. A trained surgeon can queue procedures from its linked console.
+  name: ent-CMUAutodocPod
+  description: ent-CMUAutodocPod-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUAutodocConsole
-  name: autodoc console
-  description: A dedicated terminal for queuing procedures on a nearby autodoc pod.
+  name: ent-CMUAutodocConsole
+  description: ent-CMUAutodocConsole-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -117,8 +117,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUBodyScannerPod
-  name: body scanner pod
-  description: A full-body diagnostic scanner with an enclosed patient bay.
+  name: ent-CMUBodyScannerPod
+  description: ent-CMUBodyScannerPod-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUBodyScannerConsole
-  name: body scanner console
-  description: A medical console for reviewing enclosed body scans and calibrating surgical assistance.
+  name: ent-CMUBodyScannerConsole
+  description: ent-CMUBodyScannerConsole-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -217,8 +217,8 @@
 - type: entity
   parent: BaseStructure
   id: CMULimbPrinter
-  name: limb printer
-  description: A surgical bioprinter that grows replacement human arms and legs from matrix reagent and a blood sample.
+  name: ent-CMULimbPrinter
+  description: ent-CMULimbPrinter-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -299,8 +299,8 @@
 - type: entity
   parent: CMBeakerLarge
   id: CMULimbPrinterMatrixBeaker
-  name: biogenic matrix beaker
-  suffix: CMU, Filled
+  name: ent-CMULimbPrinterMatrixBeaker
+  suffix: ent-CMULimbPrinterMatrixBeaker-suffix
   components:
   - type: Label
     currentLabel: biogenic matrix

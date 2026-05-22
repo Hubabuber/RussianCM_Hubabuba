@@ -1,8 +1,8 @@
 - type: entity
-  name: spear
+  name: ent-Spear
   parent: [BaseItem, BaseMinorContraband]
   id: Spear
-  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
+  description: ent-Spear-desc
   components:
   - type: EmbeddableProjectile
     offset: -0.15,0.0
@@ -119,10 +119,10 @@
 
 
 - type: entity
-  name: reinforced spear
+  name: ent-SpearReinforced
   parent: Spear
   id: SpearReinforced
-  description: A spear with a reinforced glass shard as a tip.
+  description: ent-SpearReinforced-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/reinforced_spear.rsi
@@ -139,10 +139,10 @@
     graph: SpearReinforced
 
 - type: entity
-  name: plasma spear
+  name: ent-SpearPlasma
   parent: Spear
   id: SpearPlasma
-  description: A spear with a plasma shard as a tip.
+  description: ent-SpearPlasma-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/plasma_spear.rsi
@@ -159,10 +159,10 @@
     graph: SpearPlasma
 
 - type: entity
-  name: uranium spear
+  name: ent-SpearUranium
   parent: Spear
   id: SpearUranium
-  description: A spear with a uranium shard as a tip.
+  description: ent-SpearUranium-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/uranium_spear.rsi
@@ -181,10 +181,10 @@
     graph: SpearUranium
 
 - type: entity
-  name: bone spear
+  name: ent-SpearBone
   parent: Spear
   id: SpearBone
-  description: A spear made of bones.
+  description: ent-SpearBone-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/bone_spear.rsi
@@ -216,10 +216,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: sharkminnow tooth spear
+  name: ent-SpearSharkMinnow
   parent: Spear 
   id: SpearSharkMinnow
-  description: A spear with a sharkminnow tooth as a tip.
+  description: ent-SpearSharkMinnow-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/sharkminnow_spear.rsi

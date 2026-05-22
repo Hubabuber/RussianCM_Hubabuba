@@ -19,3 +19,6 @@ ent-RMCWindoorSecureTSEPABrig = безопасное окно
 ent-CMWindoorSecureBrigPowered = безопасное окно
   .desc = Он открывается, закрывается, и вы можете видеть сквозь него! 
 
+ent-CMWindoorKitchen = стеклянная дверь
+    .desc = Окно, оно же и дверь. Окно, если хотите.
+    .suffix = Кухня, Заперто

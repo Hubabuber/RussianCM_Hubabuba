@@ -22,3 +22,18 @@ ent-RMCOverwatchConsoleRCM = консоль наблюдения
 ent-RMCOverwatchConsoleRCMRotating = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
 
+ent-RMCOverwatchConsoleGovfor = консоль наблюдения
+    .desc = Современная техника для подачи заказов в отделение.
+    .suffix = Правительство
+
+ent-RMCOverwatchConsoleGovforRotating = консоль наблюдения
+    .desc = Современная техника для подачи заказов в отделение.
+    .suffix = Правительство, Ротация
+
+ent-RMCOverwatchConsoleOpfor = консоль наблюдения
+    .desc = Современная техника для подачи заказов в отделение.
+    .suffix = Опфор
+
+ent-RMCOverwatchConsoleOpforRotating = консоль наблюдения
+    .desc = Современная техника для подачи заказов в отделение.
+    .suffix = Опфор, Вращающийся

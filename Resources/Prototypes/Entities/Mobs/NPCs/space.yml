@@ -1,9 +1,9 @@
 - type: entity
-  name: basic
+  name: ent-MobSpaceBasic
   id: MobSpaceBasic
   parent: SimpleSpaceMobBase
   abstract: true
-  description: It looks friendly. Why don't you give it a hug?
+  description: ent-MobSpaceBasic-desc
   components:
   - type: HTN
     rootTask:
@@ -69,10 +69,10 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: space bear
+  name: ent-MobBearSpace
   id: MobBearSpace
   parent: MobSpaceBasic
-  description: It looks friendly. Why don't you give it a hug?
+  description: ent-MobBearSpace-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -114,15 +114,15 @@
 - type: entity
   id: MobBearSpaceSalvage
   parent: MobBearSpace
-  suffix: "Salvage Ruleset"
+  suffix: "ent-MobBearSpaceSalvage-suffix"
   components:
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space kangaroo
+  name: ent-MobKangarooSpace
   id: MobKangarooSpace
   parent: [MobSpaceBasic, StripableInventoryBase]
-  description: It looks friendly. Why don't you give it a hug?
+  description: ent-MobKangarooSpace-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -176,15 +176,15 @@
 - type: entity
   id: MobKangarooSpaceSalvage
   parent: MobKangarooSpace
-  suffix: "Salvage Ruleset"
+  suffix: "ent-MobKangarooSpaceSalvage-suffix"
   components:
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space spider
+  name: ent-MobSpiderSpace
   id: MobSpiderSpace
   parent: MobSpaceBasic
-  description: It's so glowing, it looks dangerous.
+  description: ent-MobSpiderSpace-desc
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -274,15 +274,15 @@
 - type: entity
   id: MobSpiderSpaceSalvage
   parent: MobSpiderSpace
-  suffix: "Salvage Ruleset"
+  suffix: "ent-MobSpiderSpaceSalvage-suffix"
   components:
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space cobra
+  name: ent-MobCobraSpace
   id: MobCobraSpace
   parent: MobSpaceBasic
-  description: Long fangs and a glowing hood, and the alluring look begs to come closer.
+  description: ent-MobCobraSpace-desc
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -371,15 +371,15 @@
 - type: entity
   id: MobCobraSpaceSalvage
   parent: MobCobraSpace
-  suffix: "Salvage Ruleset"
+  suffix: "ent-MobCobraSpaceSalvage-suffix"
   components:
     - type: SalvageMobRestrictions
 
 - type: entity
   parent: SimpleSpaceMobBase
   id: MobSnail
-  name: snail
-  description: Revolting unless you're french.
+  name: ent-MobSnail
+  description: ent-MobSnail-desc
   components:
   - type: Body
     prototype: Mouse
@@ -525,7 +525,7 @@
 - type: entity
   parent: MobSnail
   id: MobSnailInstantDeath
-  suffix: Smite
+  suffix: ent-MobSnailInstantDeath-suffix
   components:
   - type: GhostRole
     mindRoles:
@@ -544,7 +544,7 @@
 - type: entity
   parent: MobSnail
   id: MobSnailSpeed
-  suffix: Speed
+  suffix: ent-MobSnailSpeed-suffix
   components:
   - type: GhostRole
     name: ghost-role-information-snailspeed-name
@@ -571,7 +571,7 @@
 - type: entity
   parent: MobSnail
   id: MobSnailMoth
-  name: Snoth
+  name: ent-MobSnailMoth
   components:
   - type: Body
     prototype: Mothroach

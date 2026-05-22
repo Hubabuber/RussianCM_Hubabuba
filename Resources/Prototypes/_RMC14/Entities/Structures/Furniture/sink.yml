@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   id: CMSinkEmpty
-  name: sink
-  suffix: Empty
-  description: A sink used for washing one's hands and face.
+  name: ent-CMSinkEmpty
+  suffix: ent-CMSinkEmpty-suffix
+  description: ent-CMSinkEmpty-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMSinkEmpty
   id: CMSink
-  name: sink
-  suffix: Water
+  name: ent-CMSink
+  suffix: ent-CMSink-suffix
   components:
   - type: SolutionContainerManager
     solutions:

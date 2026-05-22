@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: MarkerBase
   id: RMCMarkerAreaLabel
-  name: area
-  suffix: Tactical Map Area Label
+  name: ent-RMCMarkerAreaLabel
+  suffix: ent-RMCMarkerAreaLabel-suffix
   components:
   - type: Sprite
     state: blue
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCMarkerAreaLabel
   id: RMCMarkerAreaLabelRed
-  suffix: Tactical Map Area Label, Red Text
+  suffix: ent-RMCMarkerAreaLabelRed-suffix
   components:
   - type: NavMapBeacon
     color: "#f54242"
@@ -22,7 +22,7 @@
 - type: entity
   parent: RMCMarkerAreaLabel
   id: RMCMarkerAreaLabelBlue
-  suffix: Tactical Map Area Label, Blue Text
+  suffix: ent-RMCMarkerAreaLabelBlue-suffix
   components:
   - type: NavMapBeacon
     color: "#4287f5"
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCMarkerAreaLabel
   id: RMCMarkerAreaLabelGreen
-  suffix: Tactical Map Area Label, Green Text
+  suffix: ent-RMCMarkerAreaLabelGreen-suffix
   components:
   - type: NavMapBeacon
     color: "#42f548"
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCMarkerAreaLabel
   id: RMCMarkerAreaLabelCyan
-  suffix: Tactical Map Area Label, Cyan Text
+  suffix: ent-RMCMarkerAreaLabelCyan-suffix
   components:
   - type: NavMapBeacon
     color: "#42d7f5"
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCMarkerAreaLabel
   id: RMCMarkerAreaLabelPurple
-  suffix: Tactical Map Area Label, Purple Text
+  suffix: ent-RMCMarkerAreaLabelPurple-suffix
   components:
   - type: NavMapBeacon
     color: "#a142f5"
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCMarkerAreaLabel
   id: RMCMarkerAreaLabelOrange
-  suffix: Tactical Map Area Label, Orange Text
+  suffix: ent-RMCMarkerAreaLabelOrange-suffix
   components:
   - type: NavMapBeacon
     color: "#f0a23c"

@@ -97,8 +97,8 @@
 - type: entity
   parent: BaseItem
   id: BorgBeaker
-  name: integrated beaker
-  description: An internal compartment installed into a cyborg. Rated for 50 units of any liquid.
+  name: ent-BorgBeaker
+  description: ent-BorgBeaker-desc
   components:
   # 3 morbillion components are to avoid inheriting breakable since borgs can't replace beakers.
   - type: Tag
@@ -215,9 +215,9 @@
   - type: DnaSubstanceTrace
 
 - type: entity
-  name: beaker
+  name: ent-Beaker
   parent: BaseBeaker
-  description: Used to contain a moderate amount of chemicals and solutions.
+  description: ent-Beaker-desc
   id: Beaker
   components:
   - type: Spillable
@@ -234,7 +234,7 @@
     inHandsFillBaseName: -fill-
 
 - type: entity
-  suffix: cryoxadone
+  suffix: ent-CryoxadoneBeakerSmall-suffix
   parent: Beaker
   id: CryoxadoneBeakerSmall
   components:
@@ -249,9 +249,9 @@
           Quantity: 50
 
 - type: entity
-  name: large beaker
+  name: ent-LargeBeaker
   parent: BaseBeaker
-  description: Used to contain a large amount of chemicals or solutions.
+  description: ent-LargeBeaker-desc
   id: LargeBeaker
   components:
   - type: Spillable
@@ -283,9 +283,9 @@
     price: 20
 
 - type: entity
-  name: cryostasis beaker
+  name: ent-CryostasisBeaker
   parent: BaseBeakerMetallic
-  description: Used to contain chemicals or solutions without reactions.
+  description: ent-CryostasisBeaker-desc
   id: CryostasisBeaker
   components:
   - type: Spillable
@@ -303,9 +303,9 @@
         canReact: false
 
 - type: entity
-  name: bluespace beaker
+  name: ent-BluespaceBeaker
   parent: BaseBeakerMetallic
-  description: Powered by experimental bluespace technology.
+  description: ent-BluespaceBeaker-desc
   id: BluespaceBeaker
   components:
   - type: Spillable
@@ -322,9 +322,9 @@
         maxVol: 1000
 
 - type: entity
-  name: dropper
+  name: ent-Dropper
   parent: BaseItem
-  description: Used to transfer small amounts of chemical solution between containers.
+  description: ent-Dropper-desc
   id: Dropper
   components:
   - type: Sprite
@@ -374,8 +374,8 @@
 - type: entity
   parent: Dropper
   id: BorgDropper
-  name: hydraulic pipette
-  description: State-of-the-art hydraulic dropper built for cyborgs. It features a higher capacity than hand-powered droppers, able to hold 15 units of liquid.
+  name: ent-BorgDropper
+  description: ent-BorgDropper-desc
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/dropper.rsi
@@ -392,9 +392,9 @@
     sprite: Objects/Specific/Chemistry/dropper.rsi
 
 - type: entity
-  name: syringe
+  name: ent-BaseSyringe
   parent: BaseItem
-  description: Used to draw blood samples from mobs, or to inject them with reagents.
+  description: ent-BaseSyringe-desc
   id: BaseSyringe
   abstract: true
   components:
@@ -447,9 +447,9 @@
     - Trash
 
 - type: entity
-  name: mini syringe
+  name: ent-MiniSyringe
   parent: Syringe
-  description: A regular syringe, reshaped to fit inside of a gun.
+  description: ent-MiniSyringe-desc
   id: MiniSyringe
   components:
   - type: Sprite
@@ -524,8 +524,8 @@
 - type: entity
   id: SyringeBluespace
   parent: BaseSyringe
-  name: bluespace syringe
-  description: Injecting with advanced bluespace technology.
+  name: ent-SyringeBluespace
+  description: ent-SyringeBluespace-desc
   components:
   - type: Sprite
     layers:
@@ -555,8 +555,8 @@
 - type: entity
   id: SyringeCryostasis
   parent: BaseSyringe
-  name: cryostasis syringe
-  description: A syringe used to contain chemicals or solutions without reactions.
+  name: ent-SyringeCryostasis
+  description: ent-SyringeCryostasis-desc
   components:
   - type: Sprite
     layers:
@@ -585,10 +585,10 @@
 
 
 - type: entity
-  name: pill
+  name: ent-Pill
   parent: BaseItem
   id: Pill
-  description: It's not a suppository.
+  description: ent-Pill-desc
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pills.rsi
@@ -635,10 +635,10 @@
     - Pill
 
 - type: entity
-  name: pill canister
+  name: ent-PillCanister
   id: PillCanister
   parent: BaseStorageItem
-  description: Holds up to 10 pills.
+  description: ent-PillCanister-desc
   components:
   - type: Item
     size: Tiny

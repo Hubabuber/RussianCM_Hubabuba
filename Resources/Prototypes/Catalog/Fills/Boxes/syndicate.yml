@@ -1,8 +1,8 @@
 - type: entity
   id: ElectricalDisruptionKit
   parent: [BoxCardboard, BaseSyndicateContraband]
-  name: electrical disruption kit
-  suffix: Filled
+  name: ent-ElectricalDisruptionKit
+  suffix: ent-ElectricalDisruptionKit-suffix
   components:
     - type: StorageFill
       contents:
@@ -14,8 +14,8 @@
 - type: entity
   parent: [BoxVial, BaseSyndicateContraband]
   id: ChemicalSynthesisKit
-  name: chemical synthesis kit
-  description: A starter kit for the aspiring chemist, includes two vials of vestine for all your criminal needs!
+  name: ent-ChemicalSynthesisKit
+  description: ent-ChemicalSynthesisKit-desc
   components:
   - type: Storage
     grid:
@@ -35,8 +35,8 @@
 - type: entity
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: ThrowingKnivesKit
-  name: throwing knives kit
-  description: A set of 4 syndicate branded throwing knives, perfect for embedding into the body of your victims.
+  name: ent-ThrowingKnivesKit
+  description: ent-ThrowingKnivesKit-desc
   components:
   - type: Storage
     grid:
@@ -51,10 +51,10 @@
       - state: throwing_knives
 
 - type: entity
-  name: deathrattle implant box
+  name: ent-BoxDeathRattleImplants
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxDeathRattleImplants
-  description: Six deathrattle implants for the whole squad.
+  description: ent-BoxDeathRattleImplants-desc
   components:
   - type: Sprite
     layers:
@@ -71,8 +71,8 @@
 - type: entity
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: CombatBakeryKit
-  name: combat bakery kit
-  description: A kit of clandestine baked weapons.
+  name: ent-CombatBakeryKit
+  description: ent-CombatBakeryKit-desc
   components:
   - type: Sprite
     layers:

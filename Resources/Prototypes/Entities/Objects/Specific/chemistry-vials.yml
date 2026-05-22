@@ -1,10 +1,10 @@
 # TODO: Have a seperate lid state that can be popped on and off (not as a seperate item) that changes whether the vial can be spilled or not.
 
 - type: entity
-  name: vial
+  name: ent-BaseChemistryEmptyVial
   parent: BaseItem
   id: BaseChemistryEmptyVial
-  description: A small vial.
+  description: ent-BaseChemistryEmptyVial-desc
   components:
   - type: Tag
     tags:
@@ -106,8 +106,8 @@
 - type: entity
   parent: BaseItem
   id: BorgVial
-  name: integrated vial
-  description: An internal compartment installed into a cyborg. Rated for 30 units of any liquid.
+  name: ent-BorgVial
+  description: ent-BorgVial-desc
   components:
   # All this shit is here to avoid inheriting breakable, since borgs can't replace broken vials.
   - type: Sprite
@@ -163,7 +163,7 @@
 - type: entity
   id: VestineChemistryVial
   parent: BaseChemistryEmptyVial
-  suffix: vestine
+  suffix: ent-VestineChemistryVial-suffix
   components:
   - type: Label
     currentLabel: reagent-name-vestine
@@ -180,7 +180,7 @@
 - type: entity
   id: RadiumChemistryVial
   parent: BaseChemistryEmptyVial
-  suffix: radium
+  suffix: ent-RadiumChemistryVial-suffix
   components:
   - type: Label
     currentLabel: reagent-name-radium
@@ -195,7 +195,7 @@
 - type: entity
   id: ChlorineChemistryVial
   parent: BaseChemistryEmptyVial
-  suffix: chlorine
+  suffix: ent-ChlorineChemistryVial-suffix
   components:
   - type: Label
     currentLabel: reagent-name-chlorine
@@ -210,7 +210,7 @@
 - type: entity
   id: PlasmaChemistryVial
   parent: BaseChemistryEmptyVial
-  suffix: plasma
+  suffix: ent-PlasmaChemistryVial-suffix
   components:
   - type: Label
     currentLabel: reagent-name-plasma

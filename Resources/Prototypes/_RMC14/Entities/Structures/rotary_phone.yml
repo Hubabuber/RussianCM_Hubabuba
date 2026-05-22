@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   id: RMCRotaryPhone
-  name: rotary phone
-  description: The finger plate is a little stiff.
+  name: ent-RMCRotaryPhone
+  description: ent-RMCRotaryPhone-desc
   components:
   - type: Physics
     bodyType: Static
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneWallmount
-  name: wall-mounted phone
-  description: "It is a wall mounted telephone. The fine text reads: To log your details with the mainframe please insert your keycard into the slot below. Unfortunately the slot is jammed. You can still use the phone, however."
+  name: ent-RMCRotaryPhoneWallmount
+  description: "ent-RMCRotaryPhoneWallmount-desc"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/wallmount_phone.rsi
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseItem
   id: RMCTelephone
-  name: telephone
+  name: ent-RMCTelephone
   components:
   - type: Sprite
     sprite: _RMC14/Objects/phone.rsi
@@ -92,28 +92,28 @@
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneCommandTent
-  name: Command tent
+  name: ent-RMCRotaryPhoneCommandTent
 
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneReqTent
-  name: Requisitions Tent
+  name: ent-RMCRotaryPhoneReqTent
 
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneMessTent
-  name: Mess Tent
+  name: ent-RMCRotaryPhoneMessTent
 
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneMPTent
-  name: Military Police Tent
+  name: ent-RMCRotaryPhoneMPTent
 
 # Admin
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneAdmin
-  suffix: Admin
+  suffix: ent-RMCRotaryPhoneAdmin-suffix
   components:
   - type: RotaryPhone
     canDnd: true
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCRotaryPhoneWallmount
   id: RMCRotaryPhoneWallmountAdmin
-  suffix: Admin
+  suffix: ent-RMCRotaryPhoneWallmountAdmin-suffix
   components:
   - type: RotaryPhone
     canDnd: true

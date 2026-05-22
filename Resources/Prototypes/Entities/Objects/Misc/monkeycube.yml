@@ -1,8 +1,8 @@
 - type: entity
   parent: BoxCardboard
-  name: monkey cube box
+  name: ent-MonkeyCubeBox
   id: MonkeyCubeBox
-  description: Drymate brand monkey cubes. Just add water!
+  description: ent-MonkeyCubeBox-desc
   components:
   - type: StorageFill
     contents:
@@ -15,7 +15,7 @@
 - type: entity
   parent: BaseItem
   abstract: true
-  suffix: Wrapped
+  suffix: ent-BaseWrappedCube-suffix
   id: BaseWrappedCube
   components:
   - type: Item
@@ -28,9 +28,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: monkey cube
+  name: ent-MonkeyCubeWrapped
   id: MonkeyCubeWrapped
-  description: Unwrap this to get a monkey cube.
+  description: ent-MonkeyCubeWrapped-desc
   components:
   - type: SpawnItemsOnUse
     items:
@@ -43,9 +43,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: kobold cube box
+  name: ent-KoboldCubeBox
   id: KoboldCubeBox
-  description: Condensed kobolds in a cube. Just add water!
+  description: ent-KoboldCubeBox-desc
   components:
   - type: StorageFill
     contents:
@@ -57,9 +57,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: variant cube box
+  name: ent-VariantCubeBox
   id: VariantCubeBox
-  description: Both kobold cubes and monkey cubes. Just add water!
+  description: ent-VariantCubeBox-desc
   components:
   - type: StorageFill
     contents:
@@ -73,9 +73,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: kobold cube
+  name: ent-KoboldCubeWrapped
   id: KoboldCubeWrapped
-  description: Unwrap this to get a kobold cube.
+  description: ent-KoboldCubeWrapped-desc
   components:
   - type: SpawnItemsOnUse
     items:
@@ -85,10 +85,10 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: monkey cube box
-  suffix: Syndicate
+  name: ent-SyndicateSpongeBox
+  suffix: ent-SyndicateSpongeBox-suffix
   id: SyndicateSpongeBox
-  description: Drymate brand monkey cubes. Just add water!
+  description: ent-SyndicateSpongeBox-desc
   components:
   - type: StorageFill
     contents:
@@ -100,8 +100,8 @@
 
 - type: entity
   parent: MonkeyCubeWrapped
-  name: monkey cube
-  suffix: Wrapped, Syndicate
+  name: ent-SyndicateSpongeWrapped
+  suffix: ent-SyndicateSpongeWrapped-suffix
   id: SyndicateSpongeWrapped
   components:
   - type: SpawnItemsOnUse

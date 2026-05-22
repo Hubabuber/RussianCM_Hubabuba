@@ -3,3 +3,6 @@ ent-RMCSpawnPointSurvivorChancesParamedic = Шансы на точку появ�
 
 ent-RMCRandomHumanoidSurvivorChancesParamedic = Шанс, роль призрака фельдшера
 
+job-cmsurvivorchancesparamedic-desc = cm-описание-работы-выживший
+job-cmsurvivorchancesparamedic-name = RMC-имя-должности-колонист-шансы-фельдшер
+job-cmsurvivorchancesparamedic-spawnmenurolename = Фельдшер Chance's Claim (Колонист Chance)

@@ -1,9 +1,9 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCMDCabinet
-  name: command tablet cabinet
-  suffix: Empty
-  description: A bulletproof cabinet containing the command tablet for usage by a Commander.
+  name: ent-CMLockerCMDCabinet
+  suffix: ent-CMLockerCMDCabinet-suffix
+  description: ent-CMLockerCMDCabinet-desc
   # description: A bulletproof cabinet containing the command tablet for usage by the CO and XO. Opens only to them and department heads. (Parity desc, once Senior access is implemented)
   components:
   - type: WallMount
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMLockerCMDCabinet
   id: CMLockerCMDCabinetFilled
-  suffix: Filled
+  suffix: ent-CMLockerCMDCabinetFilled-suffix
   components:
   - type: EntityTableContainerFill
     containers:

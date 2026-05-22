@@ -31,7 +31,7 @@
   name: donk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocket
-  description: The food of choice for the seasoned traitor.
+  description: ent-FoodDonkpocket-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -42,10 +42,10 @@
     state: plain
 
 - type: entity
-  name: warm donk-pocket
+  name: ent-FoodDonkpocketWarm
   parent: FoodDonkpocket
   id: FoodDonkpocketWarm
-  description: The heated food of choice for the seasoned traitor.
+  description: ent-FoodDonkpocketWarm-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -66,7 +66,7 @@
   name: dank-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDank
-  description: The food of choice for the seasoned botanist.
+  description: ent-FoodDonkpocketDank-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -82,10 +82,10 @@
     state: dank
 
 - type: entity
-  name: warm dank-pocket
+  name: ent-FoodDonkpocketDankWarm
   parent: FoodDonkpocketDank
   id: FoodDonkpocketDankWarm
-  description: The heated food of choice for the seasoned botanist.
+  description: ent-FoodDonkpocketDankWarm-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -104,7 +104,7 @@
   name: spicy-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketSpicy
-  description: The classic snack food, now with a heat-activated spicy flair.
+  description: ent-FoodDonkpocketSpicy-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -115,10 +115,10 @@
     state: plain
 
 - type: entity
-  name: warm spicy-pocket
+  name: ent-FoodDonkpocketSpicyWarm
   parent: FoodDonkpocketSpicy
   id: FoodDonkpocketSpicyWarm
-  description: The classic snack food, now maybe a bit too spicy.
+  description: ent-FoodDonkpocketSpicyWarm-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -140,7 +140,7 @@
   name: teriyaki-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketTeriyaki
-  description: An East Asian take on the classic stationside snack.
+  description: ent-FoodDonkpocketTeriyaki-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
     state: teriyaki
 
 - type: entity
-  name: warm teriyaki-pocket
+  name: ent-FoodDonkpocketTeriyakiWarm
   parent: FoodDonkpocketTeriyaki
   id: FoodDonkpocketTeriyakiWarm
-  description: An East Asian take on the classic stationside snack, now steamy and warm.
+  description: ent-FoodDonkpocketTeriyakiWarm-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -174,7 +174,7 @@
   name: pizza-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketPizza
-  description: Delicious, cheesy and surprisingly filling.
+  description: ent-FoodDonkpocketPizza-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -192,10 +192,10 @@
     state: pizza
 
 - type: entity
-  name: warm pizza-pocket
+  name: ent-FoodDonkpocketPizzaWarm
   parent: FoodDonkpocketPizza
   id: FoodDonkpocketPizzaWarm
-  description: Cheese filling really hits the spot when warm.
+  description: ent-FoodDonkpocketPizzaWarm-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -216,7 +216,7 @@
   name: honk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketHonk
-  description: The award-winning donk-pocket that won the hearts of clowns and humans alike.
+  description: ent-FoodDonkpocketHonk-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -234,10 +234,10 @@
     state: banana
 
 - type: entity
-  name: warm honk-pocket
+  name: ent-FoodDonkpocketHonkWarm
   parent: FoodDonkpocketHonk
   id: FoodDonkpocketHonkWarm
-  description: The award-winning donk-pocket, now warm and toasty.
+  description: ent-FoodDonkpocketHonkWarm-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -256,7 +256,7 @@
   name: berry-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketBerry
-  description: A relentlessly sweet donk-pocket. Made with 100% artificial flavoring.
+  description: ent-FoodDonkpocketBerry-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -272,10 +272,10 @@
     state: berry
 
 - type: entity
-  name: warm berry-pocket
+  name: ent-FoodDonkpocketBerryWarm
   parent: FoodDonkpocketBerry
   id: FoodDonkpocketBerryWarm
-  description: A relentlessly sweet donk-pocket, now warm and delicious.
+  description: ent-FoodDonkpocketBerryWarm-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -296,7 +296,7 @@
   name: stonk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketStonk
-  description: Tasty, but a sad reminder of the great crash of '24.
+  description: ent-FoodDonkpocketStonk-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -312,7 +312,7 @@
     state: stonk
 
 - type: entity
-  name: warm stonk-pocket
+  name: ent-FoodDonkpocketStonkWarm
   parent: FoodDonkpocketStonk
   id: FoodDonkpocketStonkWarm
   components:
@@ -333,7 +333,7 @@
   name: carp-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketCarp
-  description: A long-lost edition of donk pocket, made specifically for hard-working salvagers.
+  description: ent-FoodDonkpocketCarp-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -349,7 +349,7 @@
     state: carp
 
 - type: entity
-  name: warm carp-pocket
+  name: ent-FoodDonkpocketCarpWarm
   parent: FoodDonkpocketCarp
   id: FoodDonkpocketCarpWarm
   components:
@@ -370,7 +370,7 @@
   name: dink-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDink
-  description: An off-brand lizard donk-pocket, filled with pickled carrot and wrapped with seaweed. Best eaten cold, or even better, not eaten at all.
+  description: ent-FoodDonkpocketDink-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -391,7 +391,7 @@
   name: moth-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketMoth
-  description: Buzzy edition of donk-pocket that was created during mass protests ab-... Actually who cares? Just donk-pockets for moths.
+  description: ent-FoodDonkpocketMoth-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -415,7 +415,7 @@
     - DonkPocket
 
 - type: entity
-  name: warm moth-pocket
+  name: ent-FoodDonkpocketMothWarm
   parent: FoodDonkpocketMoth
   id: FoodDonkpocketMothWarm
   components:

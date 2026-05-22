@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazinePistol
-  name: pistol magazine (.35 auto)
+  name: ent-BaseMagazinePistol
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: BaseMagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
+  name: ent-BaseMagazinePistolHighCapacity
   parent: BaseItem
   abstract: true
   components:
@@ -99,9 +99,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunTopMounted
-  name: WT550 magazine (.35 auto top-mounted)
+  name: ent-MagazinePistolSubMachineGunTopMounted
   parent: [ BaseItem, BaseSecurityContraband ]
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
+  description: ent-MagazinePistolSubMachineGunTopMounted-desc
   components:
   - type: Tag
     tags:
@@ -131,18 +131,18 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunTopMountedEmpty
-  name: WT550 magazine (.35 auto top-mounted any)
+  name: ent-MagazinePistolSubMachineGunTopMountedEmpty
   parent: MagazinePistolSubMachineGunTopMounted
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG.
+  description: ent-MagazinePistolSubMachineGunTopMountedEmpty-desc
   components:
   - type: BallisticAmmoProvider
     proto: null
 
 - type: entity
   id: MagazinePistol
-  name: pistol magazine (.35 auto)
+  name: ent-MagazinePistol
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold general-purpose kinetic ammunition.
+  description: ent-MagazinePistol-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -161,10 +161,10 @@
 
 - type: entity
   id: MagazinePistolEmpty
-  name: pistol magazine (.35 auto any)
-  suffix: empty
+  name: ent-MagazinePistolEmpty
+  suffix: ent-MagazinePistolEmpty-suffix
   parent: MagazinePistol
-  description: 10-round single-stack magazine for pistols.
+  description: ent-MagazinePistolEmpty-desc
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -183,9 +183,9 @@
 
 - type: entity
   id: MagazinePistolIncendiary
-  name: pistol magazine (.35 auto incendiary)
+  name: ent-MagazinePistolIncendiary
   parent: MagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold self-igniting incendiary ammunition.
+  description: ent-MagazinePistolIncendiary-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -210,9 +210,9 @@
 
 - type: entity
   id: MagazinePistolPractice
-  name: pistol magazine (.35 auto practice)
+  name: ent-MagazinePistolPractice
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold non-harmful chalk ammunition.
+  description: ent-MagazinePistolPractice-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -237,9 +237,9 @@
 
 - type: entity
   id: MagazinePistolUranium
-  name: pistol magazine (.35 auto uranium)
+  name: ent-MagazinePistolUranium
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold exotic uranium-core ammunition.
+  description: ent-MagazinePistolUranium-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -264,8 +264,8 @@
 
 - type: entity
   id: MagazinePistolHighCapacityEmpty
-  name: machine pistol magazine (.35 auto any)
-  suffix: empty
+  name: ent-MagazinePistolHighCapacityEmpty
+  suffix: ent-MagazinePistolHighCapacityEmpty-suffix
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -285,7 +285,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
+  name: ent-MagazinePistolHighCapacity
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -305,7 +305,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityPractice
-  name: machine pistol magazine (.35 auto practice)
+  name: ent-MagazinePistolHighCapacityPractice
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -331,9 +331,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGun
-  name: SMG magazine (.35 auto)
+  name: ent-MagazinePistolSubMachineGun
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
+  description: ent-MagazinePistolSubMachineGun-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -357,10 +357,10 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunEmpty
-  name: SMG magazine (.35 auto any)
-  suffix: empty
+  name: ent-MagazinePistolSubMachineGunEmpty
+  suffix: ent-MagazinePistolSubMachineGunEmpty-suffix
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns.
+  description: ent-MagazinePistolSubMachineGunEmpty-desc
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -379,9 +379,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunPractice
-  name: SMG magazine (.35 auto practice)
+  name: ent-MagazinePistolSubMachineGunPractice
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold non-harmful chalk ammunition.
+  description: ent-MagazinePistolSubMachineGunPractice-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -406,9 +406,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunUranium
-  name: SMG magazine (.35 auto uranium)
+  name: ent-MagazinePistolSubMachineGunUranium
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold exotic uranium-core ammunition.
+  description: ent-MagazinePistolSubMachineGunUranium-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -434,8 +434,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunIncendiary
-  name: SMG magazine (.35 auto incendiary)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold self-igniting incendiary ammunition.
+  name: ent-MagazinePistolSubMachineGunIncendiary
+  description: ent-MagazinePistolSubMachineGunIncendiary-desc
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary

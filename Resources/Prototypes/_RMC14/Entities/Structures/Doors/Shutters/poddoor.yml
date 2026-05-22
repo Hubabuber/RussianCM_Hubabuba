@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCShutterBaseIndestructible
   id: RMCPodDoorIndestructible
-  name: podlock
-  description: That looks like it doesn't open easily.
+  name: ent-RMCPodDoorIndestructible
+  description: ent-RMCPodDoorIndestructible-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -49,8 +49,8 @@
   parent: RMCShutterBaseIndestructible
   id: RMCPodDoorNonOccluderIndestructible
   abstract: true
-  name: podlock
-  description: That looks like it doesn't open easily.
+  name: ent-RMCPodDoorNonOccluderIndestructible
+  description: ent-RMCPodDoorNonOccluderIndestructible-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -96,7 +96,7 @@
   - RMCPodDoorIndestructible
   - RMCShutterBase
   id: RMCPodDoor
-  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
+  description: ent-RMCPodDoor-desc
   components:
   - type: VehicleSmashable
     smashSound:
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCPodDoorHybrisaRed
   id: RMCPodDoorHybrisaRedOpen
-  suffix: Open
+  suffix: ent-RMCPodDoorHybrisaRedOpen-suffix
   components:
   - type: Door
     state: Open
@@ -152,7 +152,7 @@
 - type: entity
   parent: RMCPodDoorIndestructible
   id: RMCPodDoorAlmayerIndestructible
-  suffix: Indestructible
+  suffix: ent-RMCPodDoorAlmayerIndestructible-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/Almayer/poddoor.rsi
@@ -162,9 +162,9 @@
 - type: entity
   parent: RMCPodDoorIndestructible
   id: RMCPodDoorAlmayerContainmentIndestructible
-  name: cell wall
-  description: A metal wall used to separate rooms and make up the ship.
-  suffix: Indestructible
+  name: ent-RMCPodDoorAlmayerContainmentIndestructible
+  description: ent-RMCPodDoorAlmayerContainmentIndestructible-desc
+  suffix: ent-RMCPodDoorAlmayerContainmentIndestructible-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/Almayer/containment.rsi
@@ -174,7 +174,7 @@
 - type: entity
   parent: RMCPodDoorIndestructible
   id: RMCPodDoorHybrisaIndestructible
-  suffix: Indestructible
+  suffix: ent-RMCPodDoorHybrisaIndestructible-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/Hybrisa/redpoddoor.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: RMCPodDoorIndestructible
   id: RMCPodDoorHybrisaIndestructibleUltra
-  description: A heavily reinforced metal-alloy door, designed to be virtually indestructible—nothing can penetrate its defenses.
-  suffix: Indestructible
+  description: ent-RMCPodDoorHybrisaIndestructibleUltra-desc
+  suffix: ent-RMCPodDoorHybrisaIndestructibleUltra-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/Hybrisa/ultra_reinforced.rsi # the sprites on these are a little fucked but ive spent 2 weeks porting this fucking map and im not wasting time fixing an animated sprite that is 1 tile too long someone else do this please im going mad
@@ -204,8 +204,8 @@
 - type: entity
   parent: RMCPodDoorHybrisaIndestructibleUltra
   id: RMCPodDoorHybrisaIndestructibleUltraOpen
-  description: A heavily reinforced metal-alloy door, designed to be virtually indestructible—nothing can penetrate its defenses.
-  suffix: Indestructible, Open
+  description: ent-RMCPodDoorHybrisaIndestructibleUltraOpen-desc
+  suffix: ent-RMCPodDoorHybrisaIndestructibleUltraOpen-suffix
   components:
   - type: Door
     state: Open
@@ -221,8 +221,8 @@
 - type: entity
   parent: RMCPodDoorAlmayer
   id: RMCPodDoorAlmayerLocked
-  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
-  suffix: Locked
+  description: ent-RMCPodDoorAlmayerLocked-desc
+  suffix: ent-RMCPodDoorAlmayerLocked-suffix
   components:
   - type: Door
     canPry: false
@@ -230,7 +230,7 @@
 - type: entity
   parent: RMCPodDoorAlmayer
   id: RMCPodDoorAlmayerOpen
-  suffix: Open
+  suffix: ent-RMCPodDoorAlmayerOpen-suffix
   components:
   - type: Door
     state: Open
@@ -246,7 +246,7 @@
 - type: entity
   parent: RMCPodDoorAlmayerOpen
   id: RMCPodDoorBrigLockdown
-  suffix: Open, BrigLockdown
+  suffix: ent-RMCPodDoorBrigLockdown-suffix
   components:
   - type: RMCPodDoor
     id: BrigLockdown
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCPodDoorAlmayerOpen
   id: RMCPodDoorHangerLockdown
-  suffix: Open, HangerLockdown
+  suffix: ent-RMCPodDoorHangerLockdown-suffix
   components:
   - type: RMCPodDoor
     id: HangerLockdown
@@ -269,7 +269,7 @@
 - type: entity
   parent: RMCPodDoorAlmayerBlack
   id: RMCPodDoorAIBlackLockdown
-  suffix: Open, AILockdown
+  suffix: ent-RMCPodDoorAIBlackLockdown-suffix
   components:
   - type: RMCPodDoor
     id: AILockdown
@@ -301,7 +301,7 @@
 - type: entity
   parent: RMCPodDoorAI
   id: RMCPodDoorAILockdown
-  suffix: Open, AILockdown
+  suffix: ent-RMCPodDoorAILockdown-suffix
   components:
   - type: RMCPodDoor
     id: AILockdown
@@ -326,7 +326,7 @@
 - type: entity
   parent: RMCPodDoorAIWhite
   id: RMCPodDoorAIWhiteOpen
-  suffix: Open
+  suffix: ent-RMCPodDoorAIWhiteOpen-suffix
   components:
   - type: Door
     state: Open

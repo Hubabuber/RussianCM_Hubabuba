@@ -7,8 +7,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoMobCollision
   id: RMCXenoQueenBase
-  name: Queen
-  description: A huge, looming alien creature. The biggest and the baddest.
+  name: ent-RMCXenoQueenBase
+  description: ent-RMCXenoQueenBase-desc
   components:
   - type: TTS
     voice: CIRILLA
@@ -300,7 +300,7 @@
 - type: entity
   parent: RMCXenoQueenBase
   id: RMCXenoQueenMaid
-  suffix: Cat Maid Queen
+  suffix: ent-RMCXenoQueenMaid-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Extras/Maid_queen/maid_queen.rsi
@@ -322,8 +322,8 @@
 - type: entity
   parent: StationAiHolo
   id: RMCQueenEye
-  name: queen eye
-  description: It seems to be a visual projection of someone.
+  name: ent-RMCQueenEye
+  description: ent-RMCQueenEye-desc
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: LogicEmptyCircuit
-  name: empty circuit
-  description: Something seems to be missing.
+  name: ent-LogicEmptyCircuit
+  description: ent-LogicEmptyCircuit-desc
   components:
   - type: Sprite
     drawdepth: ThinPipe
@@ -29,9 +29,9 @@
 - type: entity
   parent: BaseLogicItem
   id: LogicGateOr
-  name: logic gate
-  description: A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
-  suffix: Or
+  name: ent-LogicGateOr
+  description: ent-LogicGateOr-desc
+  suffix: ent-LogicGateOr-suffix
   components:
   - type: Sprite
     layers:
@@ -88,7 +88,7 @@
 - type: entity
   parent: LogicGateOr
   id: LogicGateAnd
-  suffix: And
+  suffix: ent-LogicGateAnd-suffix
   components:
   - type: Sprite
     layers:
@@ -111,7 +111,7 @@
 - type: entity
   parent: LogicGateOr
   id: LogicGateXor
-  suffix: Xor
+  suffix: ent-LogicGateXor-suffix
   components:
   - type: Sprite
     layers:
@@ -134,7 +134,7 @@
 - type: entity
   parent: LogicGateOr
   id: LogicGateNor
-  suffix: Nor
+  suffix: ent-LogicGateNor-suffix
   components:
   - type: Sprite
     layers:
@@ -157,7 +157,7 @@
 - type: entity
   parent: LogicGateOr
   id: LogicGateNand
-  suffix: Nand
+  suffix: ent-LogicGateNand-suffix
   components:
   - type: Sprite
     layers:
@@ -180,7 +180,7 @@
 - type: entity
   parent: LogicGateOr
   id: LogicGateXnor
-  suffix: Xnor
+  suffix: ent-LogicGateXnor-suffix
   components:
   - type: Sprite
     layers:
@@ -203,8 +203,8 @@
 - type: entity
   parent: BaseLogicItem
   id: EdgeDetector
-  name: edge detector
-  description: Splits rising and falling edges into unique pulses and detects how edgy you are.
+  name: ent-EdgeDetector
+  description: ent-EdgeDetector-desc
   components:
   - type: Sprite
     layers:
@@ -227,8 +227,8 @@
 - type: entity
   parent: BaseLogicItem
   id: PowerSensor
-  name: power sensor
-  description: Generates signals in response to powernet changes. Can be cycled between cable voltages.
+  name: ent-PowerSensor
+  description: ent-PowerSensor-desc
   components:
   - type: Sprite
     layers:
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseLogicItem
   id: MemoryCell
-  name: memory cell
-  description: A D-Latch circuit that stores a signal which can be changed depending on input and enable ports.
+  name: ent-MemoryCell
+  description: ent-MemoryCell-desc
   components:
   - type: Sprite
     layers:

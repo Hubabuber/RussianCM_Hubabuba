@@ -1,0 +1,5 @@
+job-au14jobgovforsquadautomaticriflemanupp-desc = au14-job-description-govforsquadautomaticrifleman
+job-au14jobgovforsquadautomaticriflemanupp-name = Machine Gunner
+job-au14jobgovforsquadautomaticriflemanupp-overwatchrolename = Automatic Rifleman
+job-au14jobgovforsquadautomaticriflemanupp-spawnmenurolename = Automatic Rifleman (UPP)
+job-au14jobgovforsquadautomaticriflemanupp-supervisors = au14-job-supervisors-govfor

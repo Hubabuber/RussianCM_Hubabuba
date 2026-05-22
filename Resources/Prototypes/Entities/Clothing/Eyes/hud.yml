@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudDiagnostic
-  name: diagnostic hud
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+  name: ent-ClothingEyesHudDiagnostic
+  description: ent-ClothingEyesHudDiagnostic-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diag.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedical
-  name: medical hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status.
+  name: ent-ClothingEyesHudMedical
+  description: ent-ClothingEyesHudMedical-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/med.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyesHudSecurity
-  name: security hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
+  name: ent-ClothingEyesHudSecurity
+  description: ent-ClothingEyesHudSecurity-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/sec.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseCommandContraband]
   id: ClothingEyesHudCommand
-  name: administration hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status.
+  name: ent-ClothingEyesHudCommand
+  description: ent-ClothingEyesHudCommand-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/command.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudBeer
-  name: beer goggles
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion.
+  name: ent-ClothingEyesHudBeer
+  description: ent-ClothingEyesHudBeer-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beergoggles.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudFriedOnion
-  name: fried onion goggles
-  description: Filler
+  name: ent-ClothingEyesHudFriedOnion
+  description: ent-ClothingEyesHudFriedOnion-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/friedonion.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudOnionBeer
-  name: thungerst goggles
-  description: Filler
+  name: ent-ClothingEyesHudOnionBeer
+  description: ent-ClothingEyesHudOnionBeer-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/onionbeer.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedOnion
-  name: medonion hud
-  description: Filler
+  name: ent-ClothingEyesHudMedOnion
+  description: ent-ClothingEyesHudMedOnion-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medonion.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedOnionBeer
-  name: medthungerst hud
-  description: Filler
+  name: ent-ClothingEyesHudMedOnionBeer
+  description: ent-ClothingEyesHudMedOnionBeer-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medonionbeer.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseSecurityCommandContraband]
   id: ClothingEyesHudMedSec
-  name: medsec hud
-  description: An eye display that looks like a mixture of medical and security huds.
+  name: ent-ClothingEyesHudMedSec
+  description: ent-ClothingEyesHudMedSec-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medsec.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesHudMultiversal
-  name: multiversal hud
-  description: Filler
+  name: ent-ClothingEyesHudMultiversal
+  description: ent-ClothingEyesHudMultiversal-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medsecengi.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesHudOmni
-  name: omni hud
-  description: Filler
+  name: ent-ClothingEyesHudOmni
+  description: ent-ClothingEyesHudOmni-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/omni.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSyndicateContraband]
   id: ClothingEyesHudSyndicate
-  name: syndicate visor
-  description: The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
+  name: ent-ClothingEyesHudSyndicate
+  description: ent-ClothingEyesHudSyndicate-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/synd.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSyndicateContraband]
   id: ClothingEyesHudSyndicateAgent
-  name: syndicate medical visor
-  description: The Syndicate Corpsman's professional heads-up display, designed for quick diagnosis of their team's status.
+  name: ent-ClothingEyesHudSyndicateAgent
+  description: ent-ClothingEyesHudSyndicateAgent-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/syndagent.rsi
@@ -245,13 +245,13 @@
 - type: entity
   parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons]
   id: ClothingEyesGlassesHiddenSecurity
-  suffix: Syndicate
+  suffix: ent-ClothingEyesGlassesHiddenSecurity-suffix
 
 - type: entity
   parent: [ClothingEyesHudMedical, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudMedical
-  name: medical hud eyepatch
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status. For true patriots.
+  name: ent-ClothingEyesEyepatchHudMedical
+  description: ent-ClothingEyesEyepatchHudMedical-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medpatch.rsi
@@ -266,13 +266,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudMedical, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudMedicalFlipped
-  name: medical hud eyepatch
+  name: ent-ClothingEyesEyepatchHudMedicalFlipped
 
 - type: entity
   parent: [ClothingEyesHudSecurity, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudSecurity
-  name: security hud eyepatch
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records. For true patriots.
+  name: ent-ClothingEyesEyepatchHudSecurity
+  description: ent-ClothingEyesEyepatchHudSecurity-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/secpatch.rsi
@@ -287,13 +287,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudSecurity,  ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudSecurityFlipped
-  name: security hud eyepatch
+  name: ent-ClothingEyesEyepatchHudSecurityFlipped
 
 - type: entity
   parent: [ClothingEyesHudBeer, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudBeer
-  name: beer hud eyepatch
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion. For true patriots.
+  name: ent-ClothingEyesEyepatchHudBeer
+  description: ent-ClothingEyesEyepatchHudBeer-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beerpatch.rsi
@@ -303,13 +303,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudBeer, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudBeerFlipped
-  name: beer hud eyepatch
+  name: ent-ClothingEyesEyepatchHudBeerFlipped
 
 - type: entity
   parent: [ClothingEyesHudDiagnostic, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudDiag
-  name: diagnostic hud eyepatch
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+  name: ent-ClothingEyesEyepatchHudDiag
+  description: ent-ClothingEyesEyepatchHudDiag-desc
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diagpatch.rsi
@@ -319,4 +319,4 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudDiag, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudDiagFlipped
-  name: diagnostic hud eyepatch
+  name: ent-ClothingEyesEyepatchHudDiagFlipped

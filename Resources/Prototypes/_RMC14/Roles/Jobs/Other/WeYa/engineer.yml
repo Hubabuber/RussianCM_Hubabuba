@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: WEYA PMC Engineer
+  spawnMenuRoleName: job-rmcpmcengineer-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -45,8 +45,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCEngineer
-  name: weya pmc ghost role engineer
-  suffix: Spawner, Player
+  name: ent-RMCRandomHumanoidPMCEngineer
+  suffix: ent-RMCRandomHumanoidPMCEngineer-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCEngineer
-  name: weya pmc engineer spawn point
+  name: ent-RMCSpawnPointPMCEngineer
   components:
   - type: SpawnPoint
     job_id: RMCPMCEngineer

@@ -15,9 +15,9 @@
 - type: entity
   parent: RMCLightTubeBase
   id: RMCLightTube
-  name: light tube
-  description: A replacement light tube.
-  suffix: Warm
+  name: ent-RMCLightTube
+  description: ent-RMCLightTube-desc
+  suffix: ent-RMCLightTube-suffix
   components:
   - type: LightBulb
     color: "#FFEFD2"
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCLightTube
   id: RMCLightTubeBlue
-  suffix: Blue
+  suffix: ent-RMCLightTubeBlue-suffix
   components:
   - type: LightBulb
     color: "#D2E3EC"
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCLightTube
   id: RMCLightTubeWarm
-  suffix: Orange
+  suffix: ent-RMCLightTubeWarm-suffix
   components:
   - type: LightBulb
     color: "#FA8E2A"
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCLightTube
   id: RMCLightTubeRed
-  suffix: Red
+  suffix: ent-RMCLightTubeRed-suffix
   components:
   - type: LightBulb
     color: "#C02526"
@@ -49,9 +49,9 @@
 - type: entity
   parent: RMCLightTubeBase
   id: RMCLightTubeBroken
-  name: light tube
-  description: A replacement light tube.
-  suffix: Broken
+  name: ent-RMCLightTubeBroken
+  description: ent-RMCLightTubeBroken-desc
+  suffix: ent-RMCLightTubeBroken-suffix
   components:
   - type: LightBulb
     startingState: Broken

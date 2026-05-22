@@ -21,14 +21,14 @@
   dummyStartingGear: AU14GearopforCorpsmanDummy
   icon: "AU14JobIconOPFORCorpsman"
   requireAdminNotify: false
-  spawnMenuRoleName: Hospital Coprsman (OPFOR)
+  spawnMenuRoleName: job-au14jobopforplatooncorpsman-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforCorpsman
   - AU14OpforSquad
   overwatchSortPriority: -2
-  overwatchRoleName: Hospital Corpsmen
+  overwatchRoleName: job-au14jobopforplatooncorpsman-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforPlatoonCorpsman
-  name: Spawn Point opfor Squad Sergeant
+  name: ent-AU14SpawnPointopforPlatoonCorpsman
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforPlatoonCorpsman

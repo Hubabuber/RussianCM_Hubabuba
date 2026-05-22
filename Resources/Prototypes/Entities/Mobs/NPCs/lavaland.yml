@@ -1,9 +1,9 @@
-﻿- type: entity
-  name: watcher
+- type: entity
+  name: ent-MobWatcherBase
   id: MobWatcherBase
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   abstract: true
-  description: It's like it's staring right through you.
+  description: ent-MobWatcherBase-desc
   components:
   - type: NpcFactionMember
     factions:
@@ -94,7 +94,7 @@
 - type: entity
   id: MobWatcherIcewing
   parent: MobWatcherBase
-  name: icewing watcher
+  name: ent-MobWatcherIcewing
   components:
   - type: Sprite
     layers:
@@ -112,7 +112,7 @@
 - type: entity
   id: MobWatcherMagmawing
   parent: MobWatcherBase
-  name: magmawing watcher
+  name: ent-MobWatcherMagmawing
   components:
   - type: Sprite
     layers:
@@ -133,9 +133,9 @@
 - type: entity
   id: MobWatcherPride
   parent: MobWatcherBase
-  name: pride watcher
-  suffix: Admeme
-  description: This rare subspecies only appears in June.
+  name: ent-MobWatcherPride
+  suffix: ent-MobWatcherPride-suffix
+  description: ent-MobWatcherPride-desc
   components:
   - type: Sprite
     layers:

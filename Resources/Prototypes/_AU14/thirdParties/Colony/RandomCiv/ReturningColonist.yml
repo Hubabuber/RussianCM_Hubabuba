@@ -8,7 +8,7 @@
   ranks:
     RMCRankCivilian: []
   startingGear: AU14GearCivilianColonist
-  spawnMenuRoleName: Colonist (3rd party)
+  spawnMenuRoleName: job-au14jobreturningcolonist-spawnmenurolename
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
@@ -38,7 +38,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobReturningColonist
-  name: Returning Colonist (civilian)
+  name: ent-AU14JobReturningColonist
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -56,7 +56,7 @@
 
 - type: entity
   id: AU14ReturningColonistPreset
-  name: returning colonist preset
+  name: ent-AU14ReturningColonistPreset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -12,7 +12,7 @@
   - ShipMasterAccess # TODO RMC14 here until we have the id console
   - Synth
   startingGear: RMCGearForeconSynthetic
-  spawnMenuRoleName: FORECON Synthetic (Survivor)
+  spawnMenuRoleName: job-rmcsurvivorforeconsynth-spawnmenurolename
   roleWeight: 0.25
   icon: "RMCJobIconReconSynthetic"
   whitelisted: true
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconSynth
-  name: forecon synthetic spawn point
+  name: ent-CMSpawnPointForeconSynth
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconSynth

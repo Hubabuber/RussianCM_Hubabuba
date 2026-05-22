@@ -51,3 +51,8 @@ ent-RMCFoodSnackBarcaridineBar = батончик «Баркаридин»
   .desc = Классический шоколадный батончик, который пахнет как медблок. «Шоколад помогает заглушить боль».
 ent-RMCFoodSnackBarcaridine = батончик «Баркаридин»
   .desc = Классический шоколадный батончик, который пахнет как медблок. «Шоколад помогает заглушить боль».
+
+ent-RMCFoodPacketTrash = item
+    .desc = Это место кишит мусором.
+
+ent-RMCFoodSnackBase = item

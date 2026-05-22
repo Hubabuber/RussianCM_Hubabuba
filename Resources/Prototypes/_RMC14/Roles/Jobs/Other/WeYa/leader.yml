@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: WEYA PMC Leader
+  spawnMenuRoleName: job-rmcpmcleader-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -66,8 +66,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCLeader
-  name: weya pmc ghost role leader
-  suffix: Spawner, Player
+  name: ent-RMCRandomHumanoidPMCLeader
+  suffix: ent-RMCRandomHumanoidPMCLeader-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCLeader
-  name: weya pmc squad leader spawn point
+  name: ent-RMCSpawnPointPMCLeader
   components:
   - type: SpawnPoint
     job_id: RMCPMCLeader

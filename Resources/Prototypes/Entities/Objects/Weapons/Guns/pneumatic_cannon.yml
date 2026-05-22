@@ -1,8 +1,8 @@
 - type: entity
-  name: improvised pneumatic cannon
+  name: ent-WeaponImprovisedPneumaticCannon
   parent: [BaseStorageItem, BaseMinorContraband]
   id: WeaponImprovisedPneumaticCannon
-  description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+  description: ent-WeaponImprovisedPneumaticCannon-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
@@ -63,10 +63,10 @@
       gas_tank: !type:ContainerSlot
 
 - type: entity
-  name: pie cannon
+  name: ent-LauncherCreamPie
   parent: BaseStorageItem
   id: LauncherCreamPie
-  description: Load cream pie for optimal results.
+  description: ent-LauncherCreamPie-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -105,10 +105,10 @@
         ents: []
         
 - type: entity
-  name: syringe gun
+  name: ent-LauncherSyringe
   parent: BaseStorageItem
   id: LauncherSyringe
-  description: Load full of poisoned syringes for optimal fun.
+  description: ent-LauncherSyringe-desc
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
@@ -145,7 +145,7 @@
 - type: entity
   parent: WeaponImprovisedPneumaticCannon
   id: WeaponImprovisedPneumaticCannonGun
-  suffix: Gun
+  suffix: ent-WeaponImprovisedPneumaticCannonGun-suffix
   components:
   - type: PneumaticCannon
     throwItems: false
@@ -154,7 +154,7 @@
 - type: entity
   parent: WeaponImprovisedPneumaticCannonGun
   id: WeaponImprovisedPneumaticCannonAdmeme
-  suffix: Admeme
+  suffix: ent-WeaponImprovisedPneumaticCannonAdmeme-suffix
   components:
   - type: Item
     size: Ginormous

@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: RMCAreaBase
   id: RMCAreaGA
-  name: Golden Arrow
+  name: ent-RMCAreaGA
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAHypersleepStorageA
-  name: Hypersleep Storage A
+  name: ent-RMCAreaGAHypersleepStorageA
   components:
   - type: Sprite
     state: medical
@@ -36,22 +36,22 @@
 - type: entity
   parent: RMCAreaGAHypersleepStorageA
   id: RMCAreaGAHypersleepStorageB
-  name: Hypersleep Storage B
+  name: ent-RMCAreaGAHypersleepStorageB
 
 - type: entity
   parent: RMCAreaGAHypersleepStorageA
   id: RMCAreaGAHypersleepStorageC
-  name: Hypersleep Storage C
+  name: ent-RMCAreaGAHypersleepStorageC
 
 - type: entity
   parent: RMCAreaGAHypersleepStorageA
   id: RMCAreaGAHypersleepStorageD
-  name: Hypersleep Storage D
+  name: ent-RMCAreaGAHypersleepStorageD
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAHypersleepGearLockers
-  name: Hypersleep Gear Lockers
+  name: ent-RMCAreaGAHypersleepGearLockers
   components:
   - type: Sprite
     state: derelictship
@@ -59,17 +59,17 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAMessHall
-  name: Mess Hall
+  name: ent-RMCAreaGAMessHall
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGABathroom
-  name: Bathroom
+  name: ent-RMCAreaGABathroom
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGADisposals
-  name: Disposals
+  name: ent-RMCAreaGADisposals
   components:
   - type: Sprite
     state: recycling
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAMedical
-  name: Medical
+  name: ent-RMCAreaGAMedical
   components:
   - type: Sprite
     state: medical
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGABriefRoom
-  name: Briefing Room
+  name: ent-RMCAreaGABriefRoom
   components:
   - type: Sprite
     state: caves_central
@@ -93,17 +93,17 @@
 - type: entity
   parent: RMCAreaGABriefRoom
   id: RMCAreaGACommandDeck
-  name: Platoon Command Deck
+  name: ent-RMCAreaGACommandDeck
 
 - type: entity
   parent: RMCAreaGABriefRoom
   id: RMCAreaGACommandRooms
-  name: Platoon Command Rooms
+  name: ent-RMCAreaGACommandRooms
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAPrep
-  name: Platoon Prep
+  name: ent-RMCAreaGAPrep
   components:
   - type: Sprite
     state: security_hub
@@ -111,12 +111,12 @@
 - type: entity
   parent: RMCAreaGAPrep
   id: RMCAreaGAArmoury
-  name: Platoon Armoury
+  name: ent-RMCAreaGAArmoury
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAHangar
-  name: Hangar
+  name: ent-RMCAreaGAHangar
   components:
   - type: Sprite
     state: lz
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGASupply
-  name: Supply
+  name: ent-RMCAreaGASupply
   components:
   - type: Sprite
     state: maints
@@ -132,12 +132,12 @@
 - type: entity
   parent: RMCAreaGASupply
   id: RMCAreaGAMaint
-  name: Maintenance
+  name: ent-RMCAreaGAMaint
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAEngineering
-  name: Engineering
+  name: ent-RMCAreaGAEngineering
   components:
   - type: Sprite
     state: power0
@@ -145,7 +145,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGASynth
-  name: Synthetic Storage Closet
+  name: ent-RMCAreaGASynth
   components:
   - type: Sprite
     state: synthetic
@@ -153,7 +153,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAAI
-  name: AI Interface
+  name: ent-RMCAreaGAAI
   components:
   - type: Sprite
     state: wylab
@@ -161,7 +161,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGALiaisonOffice
-  name: Liaison Office
+  name: ent-RMCAreaGALiaisonOffice
   components:
   - type: Sprite
     state: wyoffice
@@ -169,7 +169,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGASupplyDrop
-  name: Supply Drop Bay
+  name: ent-RMCAreaGASupplyDrop
   components:
   - type: Sprite
     state: wyspaceportcargo
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAOOB
-  name: Out Of Bounds
+  name: ent-RMCAreaGAOOB
   components:
   - type: Sprite
     state: oob

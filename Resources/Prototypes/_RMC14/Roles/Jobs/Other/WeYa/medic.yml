@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: WEYA PMC Medic
+  spawnMenuRoleName: job-rmcpmcmedic-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -37,8 +37,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCMedic
-  name: weya pmc ghost role medic
-  suffix: Spawner, Player
+  name: ent-RMCRandomHumanoidPMCMedic
+  suffix: ent-RMCRandomHumanoidPMCMedic-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -49,7 +49,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCMedic
-  name: weya pmc medic spawn point
+  name: ent-RMCSpawnPointPMCMedic
   components:
   - type: SpawnPoint
     job_id: RMCPMCMedic

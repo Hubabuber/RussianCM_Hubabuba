@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadSergeantBase
   id: AU14JobGOVFORSquadSergeantUPP
-  name: Squad Leader
+  name: job-au14jobgovforsquadsergeantupp-name
   description: au14-job-description-govforsquadsergeant
   setPreference: false
   canBeAntag: false
@@ -11,13 +11,13 @@
   dummyStartingGear: AU14GearGOVFORSquadSergantDummy
   icon: "AU14JobIconSarge"
   requireAdminNotify: false
-  spawnMenuRoleName: Squad Sergeant (UPP)
+  spawnMenuRoleName: job-au14jobgovforsquadsergeantupp-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforFTL
   overwatchSortPriority: -5
-  overwatchRoleName: Squad Sergeant
+  overwatchRoleName: job-au14jobgovforsquadsergeantupp-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

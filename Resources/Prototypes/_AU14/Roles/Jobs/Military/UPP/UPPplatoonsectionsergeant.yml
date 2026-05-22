@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantUPP
-  name: Platoon Leader
+  name: job-au14jobgovforsectionsergeantupp-name
   description: au14-job-description-govforSSG
   setPreference: false
   ranks:
@@ -18,14 +18,14 @@
   dummyStartingGear: AU14GearGOVFORPlatoonSergantDummy
   icon: "AU14JobIconPlatoonSarge"
   requireAdminNotify: true
-  spawnMenuRoleName: Platoon Sergeant (UPP)
+  spawnMenuRoleName: job-au14jobgovforsectionsergeantupp-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCommand
   overwatchSortPriority: -6
   overwatchShowName: true
-  overwatchRoleName: Platoon Sergeant
+  overwatchRoleName: job-au14jobgovforsectionsergeantupp-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

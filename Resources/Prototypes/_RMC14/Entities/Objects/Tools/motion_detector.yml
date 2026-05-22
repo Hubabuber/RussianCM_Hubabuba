@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: BaseItem
   id: RMCMotionDetector
-  name: motion detector
-  description: A device that detects movement, but ignores marines. # Can also be used to scan a vehicle interior from outside, but accuracy of such scanning is low and there is no way to differentiate friends from foes. TODO RMC14
+  name: ent-RMCMotionDetector
+  description: ent-RMCMotionDetector-desc # Can also be used to scan a vehicle interior from outside, but accuracy of such scanning is low and there is no way to differentiate friends from foes. TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/motion_detector.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCMotionDetector
   id: RMCMotionDetectorCompact
-  name: M717 pocket motion detector
-  description: This prototype motion detector sacrifices versatility, having only the long-range mode, for size, being so small it can even fit in pockets.
+  name: ent-RMCMotionDetectorCompact
+  description: ent-RMCMotionDetectorCompact-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/compact_motion_detector.rsi
@@ -76,15 +76,12 @@
 - type: entity
   parent: RMCMotionDetector
   id: AU14MotionDetectorRMC
-  name: L107 motion detector
-  description: A military grade, hand-held motion detection device that can penetrate most anything and has an approximate range of 28 meters. Can also be utilized to scan vehicle interiors. This one is programmed to operate with RMC IFF.
-
+  name: ent-AU14MotionDetectorRMC
+  description: ent-AU14MotionDetectorRMC-desc
 - type: entity
   parent: RMCMotionDetectorCompact
   id: AU14MotionDetectorCompactRMC
-  name: L717 pocket motion detector
-  description: This prototype motion detector sacrifices versatility, having only the long-range mode, for size, being so small it can even fit in pockets. This one is programmed to operate with RMC IFF.
-  
-
+  name: ent-AU14MotionDetectorCompactRMC
+  description: ent-AU14MotionDetectorCompactRMC-desc
 - type: Tag
   id: RMCDetector

@@ -1,0 +1,12 @@
+accesslevel-cmaccessaso-name = cm-имя-задания-aso
+accesslevel-cmaccessce-name = Главный инженер
+accesslevel-cmaccesscmo-name = rmc-имя-задания-cmo
+accesslevel-cmaccesscmp-name = cm-имя-задания-руководитель-MP
+accesslevel-cmaccessco-name = cm-должность-командир-офицер
+accesslevel-cmaccesscorp-name = cm-job-name-corp
+accesslevel-cmaccesshighcommand-name = cm-имя-задания-высокая-команда
+accesslevel-cmaccessqm-name = уровень-доступа к удостоверению личности-интендант
+accesslevel-cmaccesssea-name = cm-имя-должности-старший-зачисленный-советник
+accesslevel-rmcaccesscommand-name = команда-уровня-доступа к идентификационной карте
+accesslevel-rmcaccessdatabase-name = База данных
+accesslevel-rmcaccessseniorcommand-name = Старший командный состав

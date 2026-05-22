@@ -1,0 +1,6 @@
+ent-Dresser = dresser
+    .desc = Wooden dresser, can store things inside itself, ideal for underwear, and someone's kidneys?...
+
+ent-DresserFilled = dresser
+    .desc = Wooden dresser, can store things inside itself, ideal for underwear, and someone's kidneys?...
+    .suffix = Filled

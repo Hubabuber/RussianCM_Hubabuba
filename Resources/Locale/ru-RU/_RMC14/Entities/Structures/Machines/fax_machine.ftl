@@ -31,3 +31,6 @@ ent-RMCFaxLiaison = факс
 ent-RMCFaxColony = факс
   .desc = Это мало кому поможет.
 
+ent-CMFaxColonyAdmin = Факс администратора колонии
+    .desc = Лучший и единственный друг Лиазона.
+    .suffix = Админ

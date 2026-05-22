@@ -13,7 +13,7 @@
   hasIcon: true
   greeting: rmc-job-greeting-forecon
   playTimeTracker: RMCJobSurvivorMilitary
-  spawnMenuRoleName: FORECON Survivor (Base)
+  spawnMenuRoleName: job-rmcsurvivorforeconbase-spawnmenurolename
   hidden: true
 
 - type: startingGear
@@ -31,7 +31,7 @@
 
 - type: entity
   id: RMCSurvivorPresetForeconNoPrimary
-  name: forecon no primary survivor preset
+  name: ent-RMCSurvivorPresetForeconNoPrimary
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCSurvivorPresetForeconNoPrimary
   id: RMCSurvivorPresetForecon
-  name: forecon survivor preset
+  name: ent-RMCSurvivorPresetForecon
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCSurvivorPresetForecon
   id: RMCSurvivorPresetForeconNoPistol
-  name: forecon survivor preset
+  name: ent-RMCSurvivorPresetForeconNoPistol
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

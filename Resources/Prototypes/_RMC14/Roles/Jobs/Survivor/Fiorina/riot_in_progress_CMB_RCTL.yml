@@ -7,7 +7,7 @@
   startingGear: RMCGearSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader
   accessGroups:
   - ColonistSec
-  spawnMenuRoleName: CMB Riot Control Team Leader (Special Survivor)
+  spawnMenuRoleName: job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-spawnmenurolename
   icon: "RMCJobIconBureauDeputy"
   hasIcon: true
   special:
@@ -35,7 +35,6 @@
     - type: JobPrefix
       prefix: rmc-job-prefix-bureau-riot-control-team-leader
   greeting: rmc-job-greeting-riot-in-progress-CMB-RCTL
-
 - type: startingGear
   parent: RMCGearSurvivorFiorinaRiotInProgressCMBRiotControlOfficer
   id: RMCGearSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader
@@ -50,7 +49,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFiorinaRiotInProgressCMBRiotControlOfficer
-  name: special survivor fiorina riot in progress colony marshal bureau riot control team leader spawn point
+  name: ent-RMCSpawnPointSurvivorFiorinaRiotInProgressCMBRiotControlOfficer
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader
@@ -61,7 +60,7 @@
 
 - type: entity
   id: RMCSurvivorPresetRiotInProgressCMBRCTL
-  name: riot in progress CMB RCTL preset
+  name: ent-RMCSurvivorPresetRiotInProgressCMBRCTL
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

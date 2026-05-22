@@ -2,9 +2,9 @@
 - type: entity
   parent: SeatBase
   id: RMCCouchMid
-  name: couch
-  description: A piece of Swedish flat pack furniture, just dont ask the MTs for an Allen key.
-  suffix: Mid
+  name: ent-RMCCouchMid
+  description: ent-RMCCouchMid-desc
+  suffix: ent-RMCCouchMid-suffix
   placement:
     mode: SnapgridCenter
   components:
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCCouchMid
   id: RMCCouchEnd
-  suffix: End
+  suffix: ent-RMCCouchEnd-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/couch.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: RMCCouchMid
   id: RMCCouchMidRed
-  name: red couch
-  suffix: Mid
+  name: ent-RMCCouchMidRed
+  suffix: ent-RMCCouchMidRed-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/red_couch.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCCouchMid
   id: RMCCouchEndLowerRed
-  name: red couch
-  suffix: End, Lower
+  name: ent-RMCCouchEndLowerRed
+  suffix: ent-RMCCouchEndLowerRed-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/red_couch.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: RMCCouchMid
   id: RMCCouchEndUpperRed
-  name: red couch
-  suffix: End, Upper
+  name: ent-RMCCouchEndUpperRed
+  suffix: ent-RMCCouchEndUpperRed-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/red_couch.rsi
@@ -85,9 +85,9 @@
 - type: entity
   parent: RMCCouchMid
   id: RMCCouchLeftBar
-  suffix: Left
-  name: bar booth
-  description: An old wooden booth with red cushioning. There are stains in the cushions.
+  suffix: ent-RMCCouchLeftBar-suffix
+  name: ent-RMCCouchLeftBar
+  description: ent-RMCCouchLeftBar-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/couch_bar.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCCouchLeftBar
   id: RMCCouchRightBar
-  suffix: Right
+  suffix: ent-RMCCouchRightBar-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/couch_bar.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: VehicleCartridgeLTBCannon
-  name: cartridge (LTB cannon)
+  name: ent-VehicleCartridgeLTBCannon
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -16,7 +16,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: VehicleCartridgeAceAutocannon
-  name: cartridge (ACE autocannon)
+  name: ent-VehicleCartridgeAceAutocannon
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -30,7 +30,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: VehicleCartridgeDragonFlame
-  name: cartridge (DRGN flame)
+  name: ent-VehicleCartridgeDragonFlame
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: VehicleCartridgeTankFlamer
-  name: cartridge (tank flamer)
+  name: ent-VehicleCartridgeTankFlamer
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: CMCartridge10x20mmAP
   id: VehicleCartridgeLTAAAP
-  name: cartridge (10x20mm-APC)
+  name: ent-VehicleCartridgeLTAAAP
   components:
   - type: CartridgeAmmo
     proto: VehicleBulletLTAAAP
@@ -66,7 +66,7 @@
 # Projectiles
 - type: entity
   id: VehicleLTBCannonImpact
-  name: LTB cannon impact
+  name: ent-VehicleLTBCannonImpact
   categories: [ HideSpawnMenu ]
   components:
   - type: TriggerOnSpawn
@@ -90,7 +90,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCProjectileAceAutocannonFlak
-  name: ACE flak round
+  name: ent-RMCProjectileAceAutocannonFlak
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: VehicleProjectileDragonFlame
-  name: DRGN flame jet
+  name: ent-VehicleProjectileDragonFlame
   categories: [ HideSpawnMenu ]
   components:
   - type: DeleteOnFixedDistanceStop
@@ -180,7 +180,7 @@
 - type: entity
   parent: Bullet10x20mmAP
   id: VehicleBulletLTAAAP
-  name: bullet (10x20mm-APC)
+  name: ent-VehicleBulletLTAAAP
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -192,7 +192,7 @@
 
 - type: entity
   id: VehicleDragonFlameImpact
-  name: DRGN flame impact
+  name: ent-VehicleDragonFlameImpact
   categories: [ HideSpawnMenu ]
   components:
   - type: TriggerOnSpawn
@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: VehicleProjectileDragonFlameShard
-  name: DRGN flame jet
+  name: ent-VehicleProjectileDragonFlameShard
   categories: [ HideSpawnMenu ]
   components:
   - type: IgniteOnProjectileHit
@@ -247,7 +247,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: VehicleProjectileTankFlamer
-  name: tank flamer jet
+  name: ent-VehicleProjectileTankFlamer
   categories: [ HideSpawnMenu ]
   components:
   - type: IgniteOnProjectileHit
@@ -286,7 +286,7 @@
 
 - type: entity
   id: VehicleTankFlamerImpact
-  name: tank flamer impact
+  name: ent-VehicleTankFlamerImpact
   categories: [ HideSpawnMenu ]
   components:
   - type: TriggerOnSpawn

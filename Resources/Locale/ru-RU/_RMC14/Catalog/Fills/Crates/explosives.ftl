@@ -15,3 +15,18 @@ ent-RMCCrateGrenadesSmoke = ящик дымовых гранат M40 HSDP (x6)
 ent-RMCCrateGrenadesFrag = ящик осколочных гранат M40 HEFA (x6)
 ent-RMCCrateGrenadesIncendiary = ящик зажигательных гранат M40 HIDP (x6)
 ent-RMCCrateGrenadesHighExplosive = ящик осколочно-фугасных гранат M40 HEDP (x6)
+
+ent-RMCCrateExplosiveClaymoreMine = Ящик с миной M20 «Клеймор» (x10)
+    .desc = Ящик со взрывчаткой.
+
+ent-RMCCrateExplosiveWhitePhosphorus = Ящик для 30-мм гранат WPDP «Белый фосфор» (25 шт.)
+    .desc = Ящик со взрывчаткой.
+
+ent-RMCCrateExplosiveWhitePhosphorusCompound = Ящик для 30-мм гранат CCDP с химическим составом (6 шт.)
+    .desc = Ящик со взрывчаткой.
+
+ent-RMCCrateExplosiveWhitePhosphorusCompoundBox = Ящик для 30-мм гранат CCDP с химическим составом (25 шт.)
+    .desc = Ящик со взрывчаткой.
+
+ent-RMCCrateM6HBruteRockets = M6H-BRUT пробивает ящик с ракетами (x6)
+    .desc = Ящик со взрывчаткой.

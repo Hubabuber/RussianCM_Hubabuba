@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorSecurity
   id: RMCSurvivorHybrisaTSEPAConstable
   name: rmc-job-name-tsepa-constable
@@ -17,7 +17,7 @@
   accessGroups:
   - ColonistAllAccessNoArmory
   - ColonistTSEPA
-  spawnMenuRoleName: TSEPA Constable (Hybrisa Survivor)
+  spawnMenuRoleName: job-rmcsurvivorhybrisatsepaconstable-spawnmenurolename
   icon: "RMCJobIconTSEPAConstable"
   hasIcon: true
   special:
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCSurvivorPresetHybrisaConstable
-  name: constable colonist preset
+  name: ent-RMCSurvivorPresetHybrisaConstable
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

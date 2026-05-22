@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorCorporate
-  name: survivor corporate spawn point
+  name: ent-RMCSpawnPointSurvivorCorporate
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -77,13 +77,13 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetCorporate
-  name: corporate colonist preset
+  name: ent-RMCSurvivorPresetCorporate
   categories: [ HideSpawnMenu ]   # TODO RMC14 random research notes
 
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorCorporate
-  name: corporate colonist ghost role
+  name: ent-RMCRandomHumanoidSurvivorCorporate
   components:
   - type: Sprite
     layers:

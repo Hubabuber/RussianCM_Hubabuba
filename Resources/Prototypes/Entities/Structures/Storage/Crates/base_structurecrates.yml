@@ -2,8 +2,8 @@
   parent: BaseStructureDynamic
   id: CrateGeneric
   categories: [ HideSpawnMenu ]
-  name: crate
-  description: A large container for items.
+  name: ent-CrateGeneric
+  description: ent-CrateGeneric-desc
   components:
   - type: Animateable
   - type: Transform
@@ -106,7 +106,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CrateBaseSecure
-  suffix: Secure
+  suffix: ent-CrateBaseSecure-suffix
   components:
   - type: Lock
   - type: LockVisuals

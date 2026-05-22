@@ -4,7 +4,7 @@
   name: rmc-job-name-survivor-grind-barista
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaGrindBarista
-  spawnMenuRoleName: Daily Grind Barista (Hybrisa Survivor)
+  spawnMenuRoleName: job-rmcsurvivorhybrisagrindbarista-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaGrindBarista
-  name: daily grind barista spawn point
+  name: ent-RMCSpawnPointSurvivorHybrisaGrindBarista
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaGrindBarista
-  name: daily grind barista preset
+  name: ent-RMCGearSurvivorPresetHybrisaGrindBarista
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

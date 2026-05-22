@@ -26,7 +26,7 @@
   dummyStartingGear: AU14GearGOVFORMilitaryDoctorDummy
   icon: "AU14JobIconCorpsman"
   requireAdminNotify: true
-  spawnMenuRoleName: Military Doctor (GOVFOR)
+  spawnMenuRoleName: job-au14jobgovformilitarydoctor-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
@@ -37,7 +37,7 @@
   - CMAccessChemistry
   overwatchSortPriority: -6
   overwatchShowName: true
-  overwatchRoleName: Doctor
+  overwatchRoleName: job-au14jobgovformilitarydoctor-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -83,7 +83,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORMilitaryDoctor
-  name: Spawn Point GOVFOR Doctor
+  name: ent-AU14SpawnPointGOVFORMilitaryDoctor
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORMilitaryDoctor

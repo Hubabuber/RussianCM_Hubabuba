@@ -18,13 +18,13 @@
   dummyStartingGear: AU14GearopforSquadSergantDummy
   icon: "AU14JobIconOPFORPlatoonSarge"
   requireAdminNotify: false
-  spawnMenuRoleName: Squad Sergeant (OPFOR)
+  spawnMenuRoleName: job-au14jobopforsquadsergeant-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforFTL
   overwatchSortPriority: -5
-  overwatchRoleName: Squad Leader
+  overwatchRoleName: job-au14jobopforsquadsergeant-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforSquadSergeant
-  name: Spawn Point opfor Squad Sergeant
+  name: ent-AU14SpawnPointopforSquadSergeant
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforSquadSergeant

@@ -58,3 +58,4 @@ ent-RMCTileFireEthanol = огонь
 
 ent-RMCTileFireWeldingFuel = огонь
 
+ent-RMCTileFireBrute = огонь

@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadSergeantBase
   id: AU14JobGOVFORSquadSergeantWYPMC
-  name: PMC Squad Leader
+  name: job-au14jobgovforsquadsergeantwypmc-name
   description: au14-job-description-govforsquadsergeant
   setPreference: false
   canBeAntag: false
@@ -15,13 +15,13 @@
   dummyStartingGear: AU14GearGOVFORSquadSergantDummy
   icon: "AU14JobIconSarge"
   requireAdminNotify: false
-  spawnMenuRoleName: Squad Sergeant (WYPMC)
+  spawnMenuRoleName: job-au14jobgovforsquadsergeantwypmc-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforFTL
   overwatchSortPriority: -5
-  overwatchRoleName: Squad Sergeant
+  overwatchRoleName: job-au14jobgovforsquadsergeantwypmc-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   abstract: true
   id: CMVinesBase
-  name: vines
+  name: ent-CMVinesBase
   placement:
     mode: SnapgridCenter
     snap:
@@ -82,8 +82,8 @@
 - type: entity
   parent: CMVinesBase
   id: CMVinesLight
-  name: vines
-  description: A mass of twisted vines.
+  name: ent-CMVinesLight
+  description: ent-CMVinesLight-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/vines.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: CMVinesBase
   id: CMVinesHeavy
-  name: vines
-  description: A thick, coiled mass of twisted vines.
+  name: ent-CMVinesHeavy
+  description: ent-CMVinesHeavy-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/vines.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardSeniorEnlistedAdvisor
-  name: senior enlisted advisor ID card
+  name: ent-CMIDCardSeniorEnlistedAdvisor
   components:
   - type: PresetIdCard
     job: CMSeniorEnlistedAdvisor
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardCorrespondent
-  name: correspondent ID card
+  name: ent-CMIDCardCorrespondent
   components:
   - type: PresetIdCard
     job: CMCorrespondent
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardLanyard
   id: CMIDCardColonist
-  name: colonist ID card
+  name: ent-CMIDCardColonist
   components:
   - type: PresetIdCard
     job: CMSurvivor
@@ -28,7 +28,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardColonistDoctor
-  name: doctor colonist ID card
+  name: ent-CMIDCardColonistDoctor
   components:
   - type: PresetIdCard
     job: CMSurvivorDoctor
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMIDCardLanyard
   id: CMIDCardColonistEngineer
-  name: engineer colonist ID card
+  name: ent-CMIDCardColonistEngineer
   components:
   - type: PresetIdCard
     job: CMSurvivorEngineer
@@ -50,7 +50,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardColonistScientist
-  name: researcher colonist ID card
+  name: ent-RMCIDCardColonistScientist
   components:
   - type: PresetIdCard
     job: CMSurvivorScientist
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMIDCardLanyard
   id: CMIDCardColonistSecurity
-  name: security colonist ID card
+  name: ent-CMIDCardColonistSecurity
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/id.rsi
@@ -77,9 +77,9 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardLiaison
-  name: corporate holo-badge
-  description: A corporate holo-badge. It's a unique Corporate orange and white.
-  suffix: WeYa
+  name: ent-CMIDCardLiaison
+  description: ent-CMIDCardLiaison-desc
+  suffix: ent-CMIDCardLiaison-suffix
   components:
   - type: Sprite
     state: corporate_liaison
@@ -93,9 +93,9 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardPMC
-  name: pmc holo-badge
-  description: A corporate holo-badge. It has a unique uncapped bottom.
-  suffix: WeYa
+  name: ent-CMIDCardPMC
+  description: ent-CMIDCardPMC-desc
+  suffix: ent-CMIDCardPMC-suffix
   components:
   - type: Sprite
     state: pmc
@@ -106,8 +106,8 @@
 - type: entity
   parent: CMIDCardPMC
   id: CMIDCardCommando
-  name: commando holo-badge
-  suffix: WeYa
+  name: ent-CMIDCardCommando
+  suffix: ent-CMIDCardCommando-suffix
   components:
   - type: Sprite
     state: commando
@@ -115,9 +115,9 @@
 - type: entity
   parent: CMIDCardLiaison
   id: CMIDCardPMCExecutive
-  name: corporate holo-badge
-  description: A corporate holo-badge in standard corporate orange and white. It has a unique uncapped bottom. It is fingerprint locked with 5-X clearance level. Commonly held by corporate managers.
-  suffix: WeYa
+  name: ent-CMIDCardPMCExecutive
+  description: ent-CMIDCardPMCExecutive-desc
+  suffix: ent-CMIDCardPMCExecutive-suffix
   components:
   - type: Sprite
     state: pmc
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMIDCardLiaison
   id: CMIDCardLiaisonColony
-  name: liaison ID card
+  name: ent-CMIDCardLiaisonColony
   components:
   - type: ItemIFF
     factions:
@@ -142,7 +142,7 @@
 - type: entity
   parent: CMIDCardLiaisonColony
   id: RMCIDCardWeYaCorporateSecurity
-  name: we-ya corporate security ID card
+  name: ent-RMCIDCardWeYaCorporateSecurity
   components:
   - type: PresetIdCard
     job: CMSurvivorGoon
@@ -150,7 +150,7 @@
 - type: entity
   parent: CMIDCardLiaison
   id: RMCIDCardExecutiveCorporateSpecialist
-  name: executive legal specialist ID card
+  name: ent-RMCIDCardExecutiveCorporateSpecialist
   components:
   - type: PresetIdCard
     job: CMCorporateExecutiveSupervisorLegal
@@ -158,7 +158,7 @@
 - type: entity
   parent: CMIDCardLiaison
   id: RMCIDCardExecutiveCorporateSupervisor
-  name: executive corporate supervisor ID card
+  name: ent-RMCIDCardExecutiveCorporateSupervisor
   components:
   - type: PresetIdCard
     job: CMCorporateExecutiveSupervisor
@@ -166,7 +166,7 @@
 - type: entity
   parent: CMIDCardLiaison
   id: RMCIDCardICBLiaison
-  name: interstellar commerce bureau liaison ID card
+  name: ent-RMCIDCardICBLiaison
   components:
   - type: PresetIdCard
     job: CMICBLiaison
@@ -174,7 +174,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardMessTech
-  name: mess tech's ID card
+  name: ent-CMIDCardMessTech
   components:
   - type: PresetIdCard
     job: CMMessTech
@@ -182,8 +182,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardPizza
-  name: pizza guy badge
-  description: It reads 'Pizza-guy local union No. 217', 'We always deliver!'
+  name: ent-RMCIDCardPizza
+  description: ent-RMCIDCardPizza-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/pizza.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardMarshal
-  name: bureau marshal gold badge
-  description: A coveted gold badge signifying that the wearer is one of the few CMB Marshals patroling the outer rim. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: ent-RMCIDCardMarshal
+  description: ent-RMCIDCardMarshal-desc
   components:
   - type: PresetIdCard
     job: CMBureauMarshal
@@ -209,8 +209,8 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardDeputy
-  name: bureau deputy silver badge
-  description: The silver badge which represents that the wearer is a Bureau Deputy. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: ent-RMCIDCardDeputy
+  description: ent-RMCIDCardDeputy-desc
   components:
   - type: PresetIdCard
     job: CMBureauDeputy
@@ -222,8 +222,8 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardPMC
-  name: PMC holo-badge
-  description: A corporate holo-badge. It has a unique uncapped bottom.
+  name: ent-RMCIDCardPMC
+  description: ent-RMCIDCardPMC-desc
   components:
   - type: ItemIFF
     factions:
@@ -236,7 +236,7 @@
 - type: entity
   parent: CMIDCardLanyard
   id: RMCIDCardBureauObserver
-  name: bureau observer ID card
+  name: ent-RMCIDCardBureauObserver
   components:
   - type: PresetIdCard
     job: CMBureauObserver
@@ -244,14 +244,14 @@
 - type: entity
   parent: CMIDCardBase
   id: RMCIDCardFreelancer
-  name: freelancer ID card
+  name: ent-RMCIDCardFreelancer
 
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardProvost
   abstract: true
-  name: provost ID card
-  description: Issued to members of the Provost Office.
+  name: ent-RMCIDCardProvost
+  description: ent-RMCIDCardProvost-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi
@@ -264,7 +264,7 @@
 - type: entity
   parent: RMCIDCardProvost
   id: RMCIDCardProvostAdvisor
-  name: provost advisor ID card
+  name: ent-RMCIDCardProvostAdvisor
   components:
   - type: PresetIdCard
     job: CMProvostAdvisor
@@ -272,7 +272,7 @@
 - type: entity
   parent: RMCIDCardProvost
   id: RMCIDCardProvostEnforcer
-  name: provost enforcer ID card
+  name: ent-RMCIDCardProvostEnforcer
   components:
   - type: PresetIdCard
     job: CMProvostEnforcer
@@ -280,7 +280,7 @@
 - type: entity
   parent: RMCIDCardProvost
   id: RMCIDCardProvostTeamLeader
-  name: provost team leader ID card
+  name: ent-RMCIDCardProvostTeamLeader
   components:
   - type: PresetIdCard
     job: CMProvostTeamLeader
@@ -288,7 +288,7 @@
 - type: entity
   parent: RMCIDCardProvost
   id: RMCIDCardProvostChiefInspector
-  name: provost chief inspector ID card
+  name: ent-RMCIDCardProvostChiefInspector
   components:
   - type: PresetIdCard
     job: CMProvostChiefInspector
@@ -296,7 +296,7 @@
 - type: entity
   parent: RMCIDCardProvost
   id: RMCIDCardProvostDeputyMarshal
-  name: provost deputy marshal ID card
+  name: ent-RMCIDCardProvostDeputyMarshal
   components:
   - type: PresetIdCard
     job: CMProvostDeputyMarshal
@@ -304,7 +304,7 @@
 - type: entity
   parent: RMCIDCardProvost
   id: RMCIDCardProvostInspector
-  name: provost inspector ID card
+  name: ent-RMCIDCardProvostInspector
   components:
   - type: PresetIdCard
     job: CMProvostInspector
@@ -312,7 +312,7 @@
 - type: entity
   parent: RMCIDCardProvost
   id: RMCIDCardProvostMarshal
-  name: provost marshal ID card
+  name: ent-RMCIDCardProvostMarshal
   components:
   - type: PresetIdCard
     job: CMProvostMarshal
@@ -320,7 +320,7 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardSynth
-  name: synth ID card
+  name: ent-RMCIDCardSynth
   components:
   - type: PresetIdCard
     job: RMCJobSynthetic
@@ -328,8 +328,8 @@
 - type: entity
   parent: CMIDCardLanyard
   id: RMCIDCardSynthColony
-  name: synth ID card
-  suffix: Survivor
+  name: ent-RMCIDCardSynthColony
+  suffix: ent-RMCIDCardSynthColony-suffix
   components:
   - type: PresetIdCard
     job: RMCJobSyntheticColony
@@ -339,8 +339,8 @@
 
 - type: entity
   id: RMCIDCardAegis
-  name: AEGIS Access Badge
-  description: High-Level AEGIS Access Badge, granting access to many of their restricted areas and equipment. Required to unlock AEGIS crates.
+  name: ent-RMCIDCardAegis
+  description: ent-RMCIDCardAegis-desc
   components:
   - type: WarpPoint
   - type: Sprite
@@ -364,9 +364,9 @@
 - type: entity
   parent: RMCIDCardAegis
   id: RMCIDCardAegisIntel
-  name: AEGIS Access Badge
+  name: ent-RMCIDCardAegisIntel
   suffix: Intel-giving
-  description: High-Level AEGIS Access Badge, granting access to many of their restricted areas and equipment. Required to unlock AEGIS crates. It has some blood on it.
+  description: ent-RMCIDCardAegisIntel-desc
   components:
   - type: IntelRescueSurvivorObjective
     value: 2

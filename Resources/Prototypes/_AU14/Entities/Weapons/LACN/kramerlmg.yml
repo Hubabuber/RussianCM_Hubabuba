@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14WeaponRifleKramerAR
-  name: Kramer Light Support Weapon
+  name: ent-AU14WeaponRifleKramerLSW
   id: AU14WeaponRifleKramerLSW
-  description: Also referred to as the Kramer or KAR, the Kramer Light Support Weapon is an automatic squad support variant of the standard Kramer assault rifle. Manufactured by Kramer Metallarbeiten GmbH, the KAR sees widespread use across United Americas.
+  description: ent-AU14WeaponRifleKramerLSW-desc
   components:
     - type: Sprite
       sprite: _AU14/Weapons/Guns/LACN/kramerLMG.rsi
@@ -69,7 +69,7 @@
 - type: entity
   parent: AU14WeaponRifleKramerLSW
   id: AU14WeaponRifleKramerLSWAP
-  name: Kramer Light Support Weapon (AP)
+  name: ent-AU14WeaponRifleKramerLSWAP
   components:
     - type: ItemSlots
       slots:
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14WeaponRifleKramerMagazineLSWStandard
-  name: "Kramer LSW box magazine (10x24mm)"
+  name: "ent-AU14WeaponRifleKramerMagazineLSWStandard"
   components:
     - type: Tag
       tags:
@@ -114,8 +114,8 @@
 - type: entity
   parent: AU14WeaponRifleKramerMagazineLSWStandard
   id: AU14WeaponRifleKramerMagazineLSWAP
-  name: "Kramer LSW AP box magazine (10x24mm)"
-  suffix: AP
+  name: "ent-AU14WeaponRifleKramerMagazineLSWAP"
+  suffix: ent-AU14WeaponRifleKramerMagazineLSWAP-suffix
   components:
     - type: Tag
       tags:

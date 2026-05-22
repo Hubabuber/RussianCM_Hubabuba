@@ -16,7 +16,7 @@
   accessGroups:
   - MarineMain
   - RMCWeYa
-  spawnMenuRoleName: WEYA PMC Force Command (PVE)
+  spawnMenuRoleName: job-cmpmcforcecommandpve-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCForceCommandPVE
-  name: weya pmc force command spawn point
-  suffix: PVE
+  name: ent-RMCSpawnPointPMCForceCommandPVE
+  suffix: ent-RMCSpawnPointPMCForceCommandPVE-suffix
   components:
   - type: SpawnPoint
     job_id: CMPMCForceCommandPVE

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, RMCConstructibleMachine ]
   id: CMAutolathe
-  name: autolathe
-  description: It produces items using metal and glass.
+  name: ent-CMAutolathe
+  description: ent-CMAutolathe-desc
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMAutolathe
   id: RMCAutolatheEmpty
-  suffix: Empty
+  suffix: ent-RMCAutolatheEmpty-suffix
   components:
   - type: MaterialStorage
     storage: {}

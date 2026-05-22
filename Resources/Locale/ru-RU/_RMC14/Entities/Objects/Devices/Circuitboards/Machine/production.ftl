@@ -14,3 +14,13 @@ ent-CMAutolatheMachineCircuitboard = плата автолата
   .desc = Машинная печатная плата для автолата.
 ent-CMSMESMachineCircuitboard = плата СМЭУ
   .desc = Машинная печатная плата для СМЭУ (Супер-Машинный Энергетический Узел).
+
+ent-RMCCircuitboardIndustrialChemMaster = Машинная доска мастера химии
+    .desc = Машинная печатная плата для мастера промышленной химии.
+    .suffix = Машинная доска
+
+ent-RMCPortableGeneratorPacmanMachineCircuitBoard = Плата портативного генератора типа P.A.C.M.A.N.
+    .suffix = Машинная доска
+
+ent-RMCPortableGeneratorSuperPacmanMachineCircuitboard = Плата портативного генератора типа S.U.P.E.R.P.A.C.M.A.N.
+    .suffix = Машинная доска

@@ -14,3 +14,18 @@ ent-RMCMagazineRifleL83A2 = магазин L83A2 (5.56x45мм)
   .desc = Магазин патронов 5.56x45мм для винтовки L83A2.
 ent-WeaponRifleL83A2 = винтовка L83A2
   .desc = Винтовка гражданского класса с безгильзовыми патронами, используемая офицерами ТСЭПА.
+
+ent-BulletRifle556x45mmAP = BaseBullet
+    .desc = If you can see this you're probably dead!
+
+ent-RMCMagazineRifleL83A2Extended = L83A2 Удлиненный магазин (5,56x45 мм)
+    .desc = Удлиненный магазин патронов 5,56х45 мм для винтовки Л83А2.
+    .suffix = Расширенный
+
+ent-RMCWeaponRifleL83A2 = Винтовка Л83А2
+    .desc = Безгильзовая винтовка гражданского уровня, используемая офицерами TSEPA.
+    .suffix = Заполненный
+
+ent-RMCWeaponRifleL83A2Stripped = Винтовка Л83А2
+    .desc = Безгильзовая винтовка гражданского уровня, используемая офицерами TSEPA.
+    .suffix = Раздетый

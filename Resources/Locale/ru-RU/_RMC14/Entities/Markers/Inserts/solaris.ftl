@@ -14,3 +14,45 @@ ent-RMCMapInsertSolarisSeCheckpoint = КПП ЮВ
 ent-RMCMapInsertSolarisLambdaCaveExtratunnel = Доп. туннель пещеры Лямбда
 ent-RMCMapInsertSolarisMedbayPassage = Проход к медблоку
 ent-RMCMapInsertSolarisMedbay = Медблок v3
+
+ent-RMCMapInsertSolarisBase = База для вставки карты
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisCLFMining = КЛФ Майнинг
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisCargoContainers = Грузовые Контейнеры
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisChapelCult = Часовня Культ
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisCrashlandingEva = Аварийная посадка Евы
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisCrashlandingOffices = Офисы аварийной посадки
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisLZ1ContainersScramble = Битва контейнеров LZ1
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisLambdaCaveMushroom = Лямбда-пещерный гриб
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisReactorMeltdown = Авария реактора
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisSurvSpawnAdmin = Админ Surv Spawn
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisSurvSpawnBar = Бар Surv Спаун
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisSurvSpawnOffice = Офисный спавн Surv
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisSurvSpawnSouthMarshals = Южные маршалы Surv Spawn
+    .suffix = Вставить Солярис
+
+ent-RMCMapInsertSolarisSurvSpawnStorage = Хранилище Surv Spawn
+    .suffix = Вставить Солярис

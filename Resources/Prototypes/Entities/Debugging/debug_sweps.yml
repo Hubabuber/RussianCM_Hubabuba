@@ -1,9 +1,9 @@
 - type: entity
-  name: bang, ded
+  name: ent-WeaponPistolDebug
   parent: BaseWeaponPistol
   id: WeaponPistolDebug
-  description: ded
-  suffix: DEBUG
+  description: ent-WeaponPistolDebug-desc
+  suffix: ent-WeaponPistolDebug-suffix
   components:
   - type: Tag
     tags:
@@ -43,9 +43,9 @@
 
 - type: entity
   id: MagazinePistolDebug
-  name: bang, ded mag
+  name: ent-MagazinePistolDebug
   parent: BaseMagazinePistol
-  suffix: DEBUG
+  suffix: ent-MagazinePistolDebug-suffix
   components:
   - type: Tag
     tags:
@@ -58,10 +58,10 @@
 
 - type: entity
   id: BulletDebug
-  name: bang, ded bullet
+  name: ent-BulletDebug
   parent: BaseBullet
   categories: [ Debug, HideSpawnMenu ]
-  suffix: DEBUG
+  suffix: ent-BulletDebug-suffix
   components:
   - type: Tag
     tags:
@@ -73,9 +73,9 @@
 
 - type: entity
   id: CartridgeDebug
-  name: bang, ded cartridge
+  name: ent-CartridgeDebug
   parent: BaseCartridgePistol
-  suffix: DEBUG
+  suffix: ent-CartridgeDebug-suffix
   components:
   - type: Tag
     tags:
@@ -84,11 +84,11 @@
     proto: BulletDebug
 
 - type: entity
-  name: bang stick gibber
+  name: ent-MeleeDebugGib
   parent: BaseItem
   id: MeleeDebugGib
-  description: hit hard ye
-  suffix: DEBUG
+  description: ent-MeleeDebugGib-desc
+  suffix: ent-MeleeDebugGib-suffix
   components:
   - type: Tag
     tags:
@@ -105,7 +105,7 @@
     sprite: Objects/Weapons/Melee/debug.rsi
 
 - type: entity
-  name: bang stick 100dmg
+  name: ent-MeleeDebug100
   parent: MeleeDebugGib
   id: MeleeDebug100
   components:
@@ -118,7 +118,7 @@
         Blunt: 100
 
 - type: entity
-  name: bang stick 200dmg
+  name: ent-MeleeDebug200
   parent: MeleeDebugGib
   id: MeleeDebug200
   components:

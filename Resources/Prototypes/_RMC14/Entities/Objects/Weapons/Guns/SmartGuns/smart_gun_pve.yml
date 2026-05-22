@@ -1,10 +1,10 @@
-﻿- type: entity
+- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGunPVENoCamo
   abstract: true
-  name: ML66A heavy support gun
-  description: The actual firearm in the Support Gun System. Essentially a heavy, mobile machinegun.
-  suffix: PVE
+  name: ent-RMCSmartGunPVENoCamo
+  description: ent-RMCSmartGunPVENoCamo-desc
+  suffix: ent-RMCSmartGunPVENoCamo-suffix
   components:
   - type: Wieldable
   - type: Item
@@ -183,9 +183,9 @@
 - type: entity
   parent: RMCSmartGunPVENoCamo
   id: RMCSmartGunPMCPVE
-  name: ML79A heavy support gun
-  description: The actual firearm in the Support Gun System, modified for We-Ya PMCs. Essentially a heavy, mobile machinegun.
-  suffix: PVE, PMC
+  name: ent-RMCSmartGunPMCPVE
+  description: ent-RMCSmartGunPMCPVE-desc
+  suffix: ent-RMCSmartGunPMCPVE-suffix
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml79a.rsi
@@ -258,9 +258,9 @@
 - type: entity
   parent: RMCSmartGunPVENoCamo
   id: RMCSmartGunRCMPVE
-  name: ML66C general purpose machine gun
-  description: A heavy, mobile machinegun used by the Royal Crown Marines. Heavily modified from the UN's ML66A platform, it fires 10x30mm holotargeting rounds. # In parity this is 10x28 HT but I don't want to make more unnecessary duplicate gear
-  suffix: PVE, RCM
+  name: ent-RMCSmartGunRCMPVE
+  description: ent-RMCSmartGunRCMPVE-desc # In parity this is 10x28 HT but I don't want to make more unnecessary duplicate gear
+  suffix: ent-RMCSmartGunRCMPVE-suffix
   components:
   - type: Gun
     selectedMode: FullAuto

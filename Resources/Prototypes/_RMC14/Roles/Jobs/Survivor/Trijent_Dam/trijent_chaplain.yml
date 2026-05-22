@@ -1,10 +1,10 @@
-﻿- type: job
+- type: job
   parent: CMSurvivorPriest
   id: CMSurvivorTrijentChaplain
   name: rmc-job-name-survivor-trijent-chaplain
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorTrijentChaplain
-  spawnMenuRoleName: Trijent Chaplain (Trijent Survivor)
+  spawnMenuRoleName: job-cmsurvivortrijentchaplain-spawnmenurolename
   special:
   - !type:AddComponentSpecial
     components:
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentChaplain
-  name: survivor trijent chaplain spawn point
+  name: ent-RMCSpawnPointSurvivorTrijentChaplain
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -64,5 +64,5 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetTrijentChaplain
-  name: trijent chaplain preset
+  name: ent-RMCGearSurvivorPresetTrijentChaplain
   categories: [ HideSpawnMenu ]

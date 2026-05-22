@@ -9,8 +9,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoRunnerBase
-  name: Runner
-  description: A small red alien that looks like it could run fairly quickly...
+  name: ent-CMXenoRunnerBase
+  description: ent-CMXenoRunnerBase-desc
   components:
   - type: TTS
     voice: GYROCOPTER_DOTA_2
@@ -171,7 +171,7 @@
 - type: entity
   parent: CMXenoRunnerBase
   id: RMCXenoRunnerAcider
-  suffix: Acider
+  suffix: ent-RMCXenoRunnerAcider-suffix
   components:
   - type: Sprite
     sprite: _AU14/Mobs/Xenos/Runner/acider_runner.rsi # AU14-Edit

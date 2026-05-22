@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: RMCMapInsertBase
   id: RMCMapInsertVaraderoBase
-  suffix: Insert Varadero
+  suffix: ent-RMCMapInsertVaraderoBase-suffix
   components:
   - type: MapInsert
     clearEntities: true
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMapInsertVaraderoBase
   id: RMCMapInsertVaraderoCLFRaid
-  name: CLF Raid
-  suffix: Insert Varadero
+  name: ent-RMCMapInsertVaraderoCLFRaid
+  suffix: ent-RMCMapInsertVaraderoCLFRaid-suffix
   components:
   - type: MapInsert
     variations:
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCMapInsertVaraderoBase
   id: RMCMapInsertVaraderoResturant
-  name: Resturant
-  suffix: Insert Varadero
+  name: ent-RMCMapInsertVaraderoResturant
+  suffix: ent-RMCMapInsertVaraderoResturant-suffix
   components:
   - type: MapInsert
     variations:
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCMapInsertVaraderoBase
   id: RMCMapInsertVaraderoAltHospital
-  name: Alt. Hospital
-  suffix: Insert Varadero
+  name: ent-RMCMapInsertVaraderoAltHospital
+  suffix: ent-RMCMapInsertVaraderoAltHospital-suffix
   components:
   - type: MapInsert
     clearEntities: true
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCMapInsertVaraderoBase
   id: RMCMapInsertVaraderoEngiHold
-  name: Engi Hold
-  suffix: Insert Varadero
+  name: ent-RMCMapInsertVaraderoEngiHold
+  suffix: ent-RMCMapInsertVaraderoEngiHold-suffix
   components:
   - type: MapInsert
     clearEntities: true

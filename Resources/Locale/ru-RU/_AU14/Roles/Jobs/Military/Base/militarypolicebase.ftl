@@ -1,0 +1,2 @@
+job-au14jobmilitarypolicebase-desc = au14-должностное описание-правительственныйвоенныйполицейский
+job-au14jobmilitarypolicebase-name = au14-имя-должности-правительствовоенныйполицейский

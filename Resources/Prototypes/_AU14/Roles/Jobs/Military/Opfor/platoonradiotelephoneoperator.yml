@@ -24,13 +24,13 @@
   dummyStartingGear: AU14GearopforRadioTelephoneOperatorDummy
   icon: "AU14JobIconOPFORSarge"
   requireAdminNotify: false
-  spawnMenuRoleName: Fireteam Leader (OPFOR)
+  spawnMenuRoleName: job-au14jobopforradiotelephoneoperator-spawnmenurolename
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforFTL
   overwatchSortPriority: -3
-  overwatchRoleName: Fire Team Leaders
+  overwatchRoleName: job-au14jobopforradiotelephoneoperator-overwatchrolename
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforRadioTelephoneOperator
-  name: Spawn Point opfor Radio Telephone Operator
+  name: ent-AU14SpawnPointopforRadioTelephoneOperator
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforRadioTelephoneOperator

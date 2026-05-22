@@ -1,11 +1,11 @@
 # These can still be used as containers
 - type: entity
-  name: base empty bottle
+  name: ent-DrinkBottleBaseEmpty
   id: DrinkBottleBaseEmpty
   parent: BaseItem
   abstract: true
-  description: An empty bottle.
-  suffix: Empty
+  description: ent-DrinkBottleBaseEmpty-desc
+  suffix: ent-DrinkBottleBaseEmpty-suffix
   components:
   - type: Sprite
     state: icon
@@ -79,7 +79,7 @@
   - type: DnaSubstanceTrace
 
 - type: entity
-  name: base empty bottle
+  name: ent-DrinkBottleBaseSmallEmpty
   id: DrinkBottleBaseSmallEmpty
   parent: DrinkBottleBaseEmpty
   abstract: true
@@ -92,12 +92,12 @@
         maxVol: 50
 
 - type: entity
-  name: base empty carton
+  name: ent-DrinkCartonBaseEmpty
   id: DrinkCartonBaseEmpty
   parent: BaseItem
   abstract: true
-  description: An empty carton.
-  suffix: Empty
+  description: ent-DrinkCartonBaseEmpty-desc
+  suffix: ent-DrinkCartonBaseEmpty-suffix
   components:
   - type: Sprite
     state: icon
@@ -145,7 +145,7 @@
   - type: SpaceGarbage
 
 - type: entity
-  name: base empty bottle
+  name: ent-DrinkCartonBaseLargeEmpty
   id: DrinkCartonBaseLargeEmpty
   parent: DrinkCartonBaseEmpty
   abstract: true
@@ -159,7 +159,7 @@
 
 # Containers
 - type: entity
-  name: Jailbreaker Verte bottle
+  name: ent-DrinkBottleAbsinthe
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleAbsinthe
   components:
@@ -168,7 +168,7 @@
 
 
 - type: entity
-  name: alcohol bottle
+  name: ent-DrinkBottleAlcoClear
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleAlcoClear
   components:
@@ -177,7 +177,7 @@
 
 
 - type: entity
-  name: ale bottle
+  name: ent-DrinkBottleAle
   parent: DrinkBottleBaseSmallEmpty
   id: DrinkBottleAle
   components:
@@ -186,7 +186,7 @@
 
 
 - type: entity
-  name: beer bottle
+  name: ent-DrinkBottleBeer
   parent: DrinkBottleBaseSmallEmpty
   id: DrinkBottleBeer
   components:
@@ -195,7 +195,7 @@
 
 
 - type: entity
-  name: cognac bottle
+  name: ent-DrinkBottleCognac
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleCognac
   components:
@@ -204,7 +204,7 @@
 
 
 - type: entity
-  name: Griffeater gin bottle
+  name: ent-DrinkBottleGin
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleGin
   components:
@@ -213,7 +213,7 @@
 
 
 - type: entity
-  name: gildlager bottle
+  name: ent-DrinkBottleGildlager
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleGildlager
   components:
@@ -222,7 +222,7 @@
 
 
 - type: entity
-  name: coffee liqueur bottle
+  name: ent-DrinkBottleCoffeeLiqueur
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleCoffeeLiqueur
   components:
@@ -231,7 +231,7 @@
 
 
 - type: entity
-  name: nt cahors bottle
+  name: ent-DrinkBottleNTCahors
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleNTCahors
   components:
@@ -240,7 +240,7 @@
 
 
 - type: entity
-  name: patron bottle
+  name: ent-DrinkBottlePatron
   parent: DrinkBottleBaseEmpty
   id: DrinkBottlePatron
   components:
@@ -249,7 +249,7 @@
 
 
 - type: entity
-  name: poison wine bottle
+  name: ent-DrinkBottlePoisonWine
   parent: DrinkBottleBaseEmpty
   id: DrinkBottlePoisonWine
   components:
@@ -258,7 +258,7 @@
 
 
 - type: entity
-  name: rum bottle
+  name: ent-DrinkBottleRum
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleRum
   components:
@@ -267,7 +267,7 @@
 
 
 - type: entity
-  name: tequila bottle
+  name: ent-DrinkBottleTequila
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleTequila
   components:
@@ -276,7 +276,7 @@
 
 
 - type: entity
-  name: vermouth bottle
+  name: ent-DrinkBottleVermouth
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleVermouth
   components:
@@ -285,7 +285,7 @@
 
 
 - type: entity
-  name: vodka bottle
+  name: ent-DrinkBottleVodka
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleVodka
   components:
@@ -294,7 +294,7 @@
 
 
 - type: entity
-  name: whiskey bottle
+  name: ent-DrinkBottleWhiskey
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleWhiskey
   components:
@@ -303,7 +303,7 @@
 
 
 - type: entity
-  name: wine bottle
+  name: ent-DrinkBottleWine
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleWine
   components:
@@ -312,7 +312,7 @@
 
 
 - type: entity
-  name: lime juice carton
+  name: ent-DrinkCartonLime
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonLime
   components:
@@ -321,7 +321,7 @@
 
 
 - type: entity
-  name: orange juice carton
+  name: ent-DrinkCartonOrange
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonOrange
   components:
@@ -330,7 +330,7 @@
 
 
 - type: entity
-  name: tomato juice carton
+  name: ent-DrinkCartonTomato
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonTomato
   components:
@@ -339,7 +339,7 @@
 
 
 - type: entity
-  name: milk cream carton
+  name: ent-DrinkCartonCream
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonCream
   components:
@@ -348,7 +348,7 @@
 
 
 - type: entity
-  name: milk carton
+  name: ent-DrinkCartonMilk
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonMilk
   components:
@@ -356,7 +356,7 @@
     sprite: Objects/Consumable/Drinks/milk.rsi
 
 - type: entity
-  name: soy milk carton
+  name: ent-DrinkCartonSoyMilk
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonSoyMilk
   components:
@@ -364,7 +364,7 @@
     sprite: Objects/Consumable/Drinks/soymilk.rsi
 
 - type: entity
-  name: oat milk carton
+  name: ent-DrinkCartonOatMilk
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonOatMilk
   components:

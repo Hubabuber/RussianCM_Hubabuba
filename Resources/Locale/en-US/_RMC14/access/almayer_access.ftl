@@ -1,0 +1,11 @@
+accesslevel-cmaccesschemistry-name = id-card-access-level-chemistry
+accesslevel-cmaccessengineering-name = id-card-access-level-engineering
+accesslevel-cmaccesskitchen-name = cm-job-name-messtech
+accesslevel-cmaccessmaint-name = id-card-access-level-maintenance
+accesslevel-cmaccessmedical-name = id-card-access-level-medical
+accesslevel-cmaccessot-name = cm-job-name-ordnance-tech
+accesslevel-cmaccesspress-name = cm-access-press
+accesslevel-cmaccessrequisitions-name = Requisitions
+accesslevel-cmaccessresearch-name = rmc-job-name-researcher
+accesslevel-rmcaccessmorgue-name = id-card-access-level-morgue
+accesslevel-rmcaccesssynth-name = rmc-job-name-synth

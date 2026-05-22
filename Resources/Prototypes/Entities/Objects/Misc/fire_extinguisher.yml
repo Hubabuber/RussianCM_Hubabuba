@@ -1,8 +1,8 @@
 - type: entity
-  name: fire extinguisher
+  name: ent-FireExtinguisher
   parent: BaseItem
   id: FireExtinguisher
-  description: It extinguishes fires.
+  description: ent-FireExtinguisher-desc
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: FireExtinguisher
   id: BorgFireExtinguisher
-  name: maneuvering jet
-  description: Based on fire extinguisher technology, the maneuvering jet is... well yes, its just a bigger fire extinguisher.
+  name: ent-BorgFireExtinguisher
+  description: ent-BorgFireExtinguisher-desc
   components:
   - type: SolutionContainerManager
     solutions:
@@ -90,7 +90,7 @@
           Quantity: 200
 
 - type: entity
-  name: extinguisher spray
+  name: ent-ExtinguisherSpray
   id: ExtinguisherSpray
   parent: Vapor
   categories: [ HideSpawnMenu ]
@@ -108,10 +108,10 @@
     animationState: extinguish
 
 - type: entity
-  name: pocket fire extinguisher
+  name: ent-FireExtinguisherMini
   parent: FireExtinguisher
   id: FireExtinguisherMini
-  description: A light and compact fibreglass-framed model fire extinguisher. It holds less water than its bigger brother.
+  description: ent-FireExtinguisherMini-desc
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher_mini.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: [ FireExtinguisher, BaseXenoborgContraband ]
   id: SelfRechargingFireExtinguisher
-  name: self-recharging fire extinguisher
-  description: It extinguishes fires. it slowly refills with water.
+  name: ent-SelfRechargingFireExtinguisher
+  description: ent-SelfRechargingFireExtinguisher-desc
   components:
   - type: SolutionRegeneration
     solution: spray

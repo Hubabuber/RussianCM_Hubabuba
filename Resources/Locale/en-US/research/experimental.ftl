@@ -1,0 +1,12 @@
+technology-abnormalartifactmanipulation-name = research-technology-abnormal-artifact-manipulation
+technology-advancedanomalyresearch-name = research-technology-advanced-anomaly-research
+technology-alternativeresearch-name = research-technology-alternative-research
+technology-anomalycoreharnessing-name = research-technology-anomaly-harnessing
+technology-basicanomalousresearch-name = research-technology-basic-anomalous-research
+technology-basicrobotics-name = research-technology-basic-robotics
+technology-basicxenoarcheology-name = research-technology-basic-xenoarcheology
+technology-bluespacetimemanipulation-name = research-technology-bluespace-time-manipulation
+technology-deterrencetechnologies-name = research-technology-deterrence
+technology-gravitymanipulation-name = research-technology-gravity-manipulation
+technology-magnetstech-name = research-technology-magnets-tech
+technology-quantumleaping-name = research-technology-quantum-leaping
