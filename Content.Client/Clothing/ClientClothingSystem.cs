@@ -72,15 +72,26 @@ public sealed partial class ClientClothingSystem : ClothingSystem
             return;
 
         // RuMC edit start
-        var currentSex = CompOrNull<HumanoidAppearanceComponent>(uid)?.Sex;
-        var currentSpeciesId = component.SpeciesId;
+        var humanoid = CompOrNull<HumanoidAppearanceComponent>(uid);
 
-        if (!_lastKnownAppearance.TryGetValue(uid, out var last)
-            || last.Sex != currentSex
-            || last.SpeciesId != currentSpeciesId)
+        if (humanoid == null)
         {
-            _lastKnownAppearance[uid] = (currentSex, currentSpeciesId);
+            // Non-humanoid: always update (original behavior, no caching)
             UpdateAllSlots(uid, component);
+        }
+        else
+        {
+            // Humanoid: only update if sex or species changed
+            var currentSex = humanoid.Sex;
+            var currentSpeciesId = component.SpeciesId;
+
+            if (!_lastKnownAppearance.TryGetValue(uid, out var last)
+                || last.Sex != currentSex
+                || last.SpeciesId != currentSpeciesId)
+            {
+                _lastKnownAppearance[uid] = (currentSex, currentSpeciesId);
+                UpdateAllSlots(uid, component);
+            }
         }
         // RuMC edit end
 
