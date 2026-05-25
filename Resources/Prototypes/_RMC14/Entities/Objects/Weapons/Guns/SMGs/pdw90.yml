@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: ent-RMCWeaponSMGPDW90
+  name: FN P90 submachine gun
   id: RMCWeaponSMGPDW90
-  description: ent-RMCWeaponSMGPDW90-desc
-  suffix: ent-RMCWeaponSMGPDW90-suffix
+  description: The P90 submachine gun. An archaic design, but still widely used by corporate and mercenary groups, sometimes seen in the hands of civilian populations. This weapon only accepts 5.7×28mm rounds.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/pdw90.rsi
@@ -94,10 +94,10 @@
     
 - type: entity
   parent: RMCWeaponSMGPDW90
-  name: ent-RMCWeaponSMGPDW90TSE
+  name: L57 submachine gun
   id: RMCWeaponSMGPDW90TSE
-  description: ent-RMCWeaponSMGPDW90TSE-desc
-  suffix: ent-RMCWeaponSMGPDW90TSE-suffix
+  description: A P90 submachine gun in the colors of the Royal Marines, manufactured for the TWE's armed forces under license. This weapon only accepts 5.7x28mm rounds.
+  suffix: Filled
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Weapons/Guns/SMGs/pdw90tse.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGPDW90
-  name: "ent-RMCMagazineSMGPDW90"
-  description: "ent-RMCMagazineSMGPDW90-desc"
+  name: "P90 magazine (5.7×28mm)"
+  description: "A 5.7×28mm magazine for the FN PDW90."
   components:
   - type: Tag
     tags:
@@ -155,8 +155,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGPDW90AP
-  name: "ent-RMCMagazineSMGPDW90AP"
-  description: "ent-RMCMagazineSMGPDW90AP-desc"
+  name: "P90 AP magazine (5.7×28mm)"
+  description: "An armor-piercing 5.7x28mm magazine for the FN PDW90."
   components:
     - type: Tag
       tags:
@@ -186,8 +186,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge57x28mm
-  name: ent-RMCCartridge57x28mm
-  description: ent-RMCCartridge57x28mm-desc
+  name: cartridge (57×28mm SMG)
+  description: A 5.7×28mm cartridge for the FN PDW90.
   components:
   - type: Tag
     tags:
@@ -199,8 +199,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge57x28mmAP
-  name: ent-RMCCartridge57x28mmAP
-  description: ent-RMCCartridge57x28mmAP-desc
+  name: cartridge (57×28mm SMG)
+  description: A 5.7×28mm AP cartridge for the FN PDW90.
   components:
     - type: Tag
       tags:

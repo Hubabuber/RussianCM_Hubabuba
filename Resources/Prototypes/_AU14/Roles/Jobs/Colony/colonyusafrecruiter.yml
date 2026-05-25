@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianUSASFRecruiter
-  name: job-au14jobcivilianusasfrecruiter-name
-  description: job-au14jobcivilianusasfrecruiter-desc
+  name: au14-job-name-usasfrecruiter
+  description: au14-job-description-usasfrecruiter
   setPreference: true
   requirements:
   - !type:TraitsRequirement
@@ -16,7 +16,7 @@
   icon: "AU14JobIconRFN"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianusasfrecruiter-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianUSASFRecruiter
-  name: ent-AU14SpawnPointCivilianUSASFRecruiter
+  name: Spawn Point USASF Recruiter LV624 SPECIFIC
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianUSASFRecruiter

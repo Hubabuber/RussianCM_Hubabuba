@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMSurvivor
   id: CMSurvivorAdministrativeClerk
-  name: job-cmsurvivoradministrativeclerk-name
-  description: job-cmsurvivoradministrativeclerk-desc
+  name: rmc-job-name-colonist-administrative-clerk
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorAdministrativeClerk
   icon: "CMJobIconLiaison"
   hasIcon: true
@@ -22,7 +22,7 @@
       time: 90000 # 25 hours
     RMCRankWeYaJuniorExecutive: []
   startingGear: RMCGearSurvivorAdministrativeClerk
-  spawnMenuRoleName: job-cmsurvivoradministrativeclerk-spawnmenurolename
+  spawnMenuRoleName: Administrative Clerk (Chances Colonist)
   accessGroups:
   - ColonistCorporate
   special:
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorAdministrativeClerk
-  name: ent-RMCSpawnPointSurvivorAdministrativeClerk
+  name:  spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -77,7 +77,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorAdministrativeClerk
-  name: ent-RMCRandomHumanoidSurvivorAdministrativeClerk
+  name: chances administrative clerk ghost role
   components:
   - type: Sprite
     layers:

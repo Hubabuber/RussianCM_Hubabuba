@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFuelTank
-  name: ent-RMCPouchFuelTank
-  description: ent-RMCPouchFuelTank-desc
+  name: fuel tank strap pouch
+  description: Two ring straps to loop around M34-pattern napalm tanks. Handle with care.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/fueltank.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCPouchFuelTank
   id: RMCPouchFuelTankFilledExtinguisher
-  suffix: ent-RMCPouchFuelTankFilledExtinguisher-suffix
+  suffix: Filled, Extinguishers
   components:
   - type: StorageFill
     contents:

@@ -1,10 +1,10 @@
 ent-RMCMapInsertVaraderoCLFRaid = CLF Рейд
-    .suffix = CLF Рейд
+
 ent-RMCMapInsertVaraderoResturant = Ресторан
-    .suffix = Ресторан
+
 ent-RMCMapInsertVaraderoAltHospital = Альт.
-    .suffix = Альт.
+
 ent-RMCMapInsertVaraderoEngiHold = Энги Холд
-    .suffix = Энги Холд
+
 ent-RMCMapInsertVaraderoBase = База для вставки карты
-    .suffix = База для вставки карты
+

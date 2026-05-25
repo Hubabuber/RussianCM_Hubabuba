@@ -1,6 +1,6 @@
 - type: entity
-  name: ent-RadioHandheld
-  description: ent-RadioHandheld-desc
+  name: handheld radio
+  description: A handy handheld radio.
   parent: BaseItem
   id: RadioHandheld
   components:
@@ -27,8 +27,8 @@
   - type: ChatRepeatIgnoreSender # RMC14
 
 - type: entity
-  name: ent-RadioHandheldSecurity
-  description: ent-RadioHandheldSecurity-desc
+  name: security radio
+  description: A handy security radio.
   parent: [ RadioHandheld, BaseSecurityContraband ]
   id: RadioHandheldSecurity
   components:

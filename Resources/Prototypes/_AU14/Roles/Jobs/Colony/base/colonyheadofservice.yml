@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianHeadOfService
-  name: job-au14jobcivilianheadofservice-name
-  description: job-au14jobcivilianheadofservice-desc
+  name: au14-job-name-civilianheadofservice
+  description: au14-job-description-civilianheadofservice
   setPreference: true
   canBeAntag: false
   playTimeTracker: AU14JobCivilianHeadOfService
@@ -24,7 +24,7 @@
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianheadofservice-supervisors
+  supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:
   - Colonist
   - auheadsofcolony
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianHeadOfService
-  name: ent-AU14SpawnPointCivilianHeadOfService
+  name: Spawn Point Head of Service
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianHeadOfService

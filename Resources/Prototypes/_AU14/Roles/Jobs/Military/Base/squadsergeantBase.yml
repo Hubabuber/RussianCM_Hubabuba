@@ -2,16 +2,16 @@
   abstract: true
   parent: CMJobBase
   id: AU14JobSquadSergeantBaseAbstract # Squad Leader Abstraction
-  name: job-au14jobsquadsergeantbaseabstract-name
-  description: job-au14jobsquadsergeantbaseabstract-desc
+  name: au14-job-name-govforsquadsergeant
+  description: au14-job-description-govforsquadsergeant
   icon: "AU14JobIconSarge"
   #icon: "AU14JobIconPlatoonSarge" # unused
-  spawnMenuRoleName: job-au14jobsquadsergeantbaseabstract-spawnmenurolename
-  supervisors: job-au14jobsquadsergeantbaseabstract-supervisors
+  spawnMenuRoleName: Squad Sergeant (GOVFOR)
+  supervisors: au14-job-supervisors-govfor
   startingGear: AU14GearGOVFORSquadSergeant
   dummyStartingGear: AU14GearGOVFORSquadSergeantDummy
   playTimeTracker: AU14JobGOVFORSquadSergeant
-  overwatchRoleName: job-au14jobsquadsergeantbaseabstract-overwatchrolename
+  overwatchRoleName: Squad Lead
   overwatchShowName: true
   overwatchSortPriority: -5
   setPreference: false
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadSergeant
-  name: ent-AU14SpawnPointGOVFORSquadSergeant
+  name: Spawn Point GOVFOR Squad Sergeant
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadSergeant

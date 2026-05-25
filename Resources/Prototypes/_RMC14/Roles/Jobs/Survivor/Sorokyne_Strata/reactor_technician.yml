@@ -1,13 +1,13 @@
 - type: job
   parent: CMSurvivor
   id: CMJobSurvivorReactorTechnician
-  name: job-cmjobsurvivorreactortechnician-name
-  description: job-cmjobsurvivorreactortechnician-desc
+  name: rmc-job-name-survivor-reactor-technician
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorEngineer
   startingGear: RMCGearSurvivorReactorTechnician
   accessGroups:
   - ColonistEngi
-  spawnMenuRoleName: job-cmjobsurvivorreactortechnician-spawnmenurolename
+  spawnMenuRoleName: Reactor Technician (Sorokyne Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorReactorTechnician
-  name: ent-RMCSpawnPointSurvivorReactorTechnician
+  name: reactor technician spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetReactorTechnician
-  name: ent-RMCGearSurvivorPresetReactorTechnician
+  name: reactor technician preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

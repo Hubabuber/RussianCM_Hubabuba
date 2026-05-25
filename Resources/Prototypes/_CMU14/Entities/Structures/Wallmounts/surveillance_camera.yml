@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyGOVFOR
-  name: ent-CMUSurveillanceCameraColonyGOVFOR
-  suffix: ent-CMUSurveillanceCameraColonyGOVFOR-suffix
+  name: colony-grade camera
+  suffix: Colony, Govfor
   placement:
     mode: SnapgridCenter
     snap:
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyWEYU
-  name: ent-CMUSurveillanceCameraColonyWEYU
-  suffix: ent-CMUSurveillanceCameraColonyWEYU-suffix
+  name: colony-grade camera
+  suffix: Colony, We-Yu
   placement:
     mode: SnapgridCenter
     snap:
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyCMB
-  name: ent-CMUSurveillanceCameraColonyCMB
-  suffix: ent-CMUSurveillanceCameraColonyCMB-suffix
+  name: colony-grade camera
+  suffix: Colony, CMB
   placement:
     mode: SnapgridCenter
     snap:
@@ -40,9 +40,9 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyGovfor
-  name: ent-CMUMonitorCameraColonyGovfor
-  description: ent-CMUMonitorCameraColonyGovfor-desc
-  suffix: ent-CMUMonitorCameraColonyGovfor-suffix
+  name: colony security cameras
+  description: Used to access the various cameras on the colony.
+  suffix: Colony, Govfor
   components:
   - type: RMCCameraComputer
     protoIds:
@@ -51,9 +51,9 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyWEYU
-  name: ent-CMUMonitorCameraColonyWEYU
-  description: ent-CMUMonitorCameraColonyWEYU-desc
-  suffix: ent-CMUMonitorCameraColonyWEYU-suffix
+  name: colony security cameras
+  description: Used to access the various cameras on the colony.
+  suffix: Colony, We-Yu
   components:
   - type: RMCCameraComputer
     protoIds:
@@ -62,9 +62,9 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyCMB
-  name: ent-CMUMonitorCameraColonyCMB
-  description: ent-CMUMonitorCameraColonyCMB-desc
-  suffix: ent-CMUMonitorCameraColonyCMB-suffix
+  name: colony security cameras
+  description: Used to access the various cameras on the colony.
+  suffix: Colony, CMB
   components:
   - type: RMCCameraComputer
     protoIds:

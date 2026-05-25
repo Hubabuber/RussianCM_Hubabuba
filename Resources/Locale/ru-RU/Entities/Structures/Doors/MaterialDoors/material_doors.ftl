@@ -28,32 +28,3 @@ ent-WebDoor-desc = Дверь, ведущая в страны пауков... и
 ent-BaseMaterialDoorNavMap-name = дверь
 ent-BaseMaterialDoorNavMap-desc = Дверь, куда она приведет?
 
-ent-BananiumDoor = банановая дверь
-    .desc = Дверь, куда она приведет?
-
-ent-BaseMaterialDoor = дверь
-    .desc = Дверь, куда она приведет?
-
-ent-BaseMaterialDoorNavMap = дверь
-    .desc = Дверь, куда она приведет?
-
-ent-GoldDoor = золотая дверь
-    .desc = Дверь, куда она приведет?
-
-ent-MetalDoor = металлическая дверь
-    .desc = Дверь, куда она приведет?
-
-ent-PaperDoor = бумажная дверь
-    .desc = Дверь, куда она приведет?
-
-ent-PlasmaDoor = плазменная дверь
-    .desc = Дверь, куда она приведет?
-
-ent-SilverDoor = серебряная дверь
-    .desc = Дверь, куда она приведет?
-
-ent-WebDoor = веб-дверь
-    .desc = Дверь, ведущая в страны пауков... или в отдельную комнату.
-
-ent-WoodDoor = деревянная дверь
-    .desc = Дверь, куда она приведет?

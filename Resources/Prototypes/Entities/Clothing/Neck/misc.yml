@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: ClothingNeckStethoscope
-  name: ent-ClothingNeckStethoscope
-  description: ent-ClothingNeckStethoscope-desc
+  name: stethoscope
+  description: An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
   components:
   - type: Item
     size: Small
@@ -19,7 +19,7 @@
 - type: entity
   parent: BaseAction
   id: ActionStethoscope
-  name: ent-ActionStethoscope
+  name: Listen with stethoscope
   components:
   - type: Action
     icon:
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBling
-  name: ent-ClothingNeckBling
-  description: ent-ClothingNeckBling-desc
+  name: bling
+  description: Damn, it feels good to be a gangster.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/bling.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckLawyerbadge
-  name: ent-ClothingNeckLawyerbadge
-  description: ent-ClothingNeckLawyerbadge-desc
+  name: lawyer badge
+  description: A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/lawyerbadge.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: Dinkystar
-  name: ent-Dinkystar
-  description: ent-Dinkystar-desc
+  name: star sticker
+  description: A dinky lil star for only the hardest working security officers! It's not even sticky anymore.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/dinkystar.rsi

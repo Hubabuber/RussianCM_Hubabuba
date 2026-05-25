@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
-  name: ent-MopItem
+  name: mop
   id: MopItem
-  description: ent-MopItem-desc
+  description: A mop that can't be stopped, viscera cleanup detail awaits.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/mop.rsi
@@ -59,9 +59,9 @@
 
 - type: entity
   parent: BaseItem
-  name: ent-AdvMopItem
+  name: advanced mop
   id: AdvMopItem
-  description: ent-AdvMopItem-desc
+  description: Motorized mop that has a bigger reservoir and quickly replaces reagents inside with water. Automatic Clown Countermeasure not included.
   components:
     - type: Sprite
       sprite: Objects/Specific/Janitorial/advmop.rsi
@@ -123,10 +123,10 @@
     - type: DnaSubstanceTrace
 
 - type: entity
-  name: ent-WetFloorSign
+  name: wet floor sign
   id: WetFloorSign
   parent: ClothingOuterBase
-  description: ent-WetFloorSign-desc
+  description: Caution! Wet Floor!
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/wet_floor_sign.rsi
@@ -148,7 +148,7 @@
 
 
 - type: entity
-  suffix: ent-WetFloorSignMineExplosive-suffix
+  suffix: Explosive
   parent: WetFloorSign
   id: WetFloorSignMineExplosive
   components:
@@ -201,10 +201,10 @@
       - WetFloorSign
 
 - type: entity
-  name: ent-Plunger
+  name: plunger
   id: Plunger
   parent: BaseItem
-  description: ent-Plunger-desc
+  description: A plunger with a red plastic suction-cup and a wooden handle. Used to unclog drains.
   components:
   - type: Tag
     tags:
@@ -265,10 +265,10 @@
       Wood: 100
 
 - type: entity
-  name: ent-GoldenPlunger
+  name: golden plunger
   id: GoldenPlunger
   parent: Plunger
-  description: ent-GoldenPlunger-desc
+  description: A plunger with a plastic suction cup coated in a thin layer of gold given as a token of appreciation for years of service. Still used to unclog drains.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/golden_plunger.rsi
@@ -304,9 +304,9 @@
 
 - type: entity
   parent: BaseItem
-  name: ent-RagItem
+  name: damp rag
   id: RagItem
-  description: ent-RagItem-desc
+  description: For cleaning up messes, you suppose.
   components:
     - type: Sprite
       sprite: Objects/Specific/Janitorial/rag.rsi
@@ -356,8 +356,8 @@
 - type: entity
   parent: BaseItem
   id: WireBrush
-  name: ent-WireBrush
-  description: ent-WireBrush-desc
+  name: wire brush
+  description: A bristly steel wire brush, perfect for scraping away even the toughest patches of rust.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/wirebrush.rsi

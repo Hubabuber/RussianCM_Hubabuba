@@ -14,25 +14,3 @@ ent-DecalSpawnerGrassC-name = Создатель декалей
 
 ent-DecalSpawnerGrassDE-name = Создатель декалей
 
-ent-DecalSpawnerBasaltRock = Создатель декалей
-    .suffix = Базальтовая скала
-
-ent-DecalSpawnerBushesAC = Создатель декалей
-    .suffix = Кусты (а-в)
-
-ent-DecalSpawnerFloraBase = Создатель декалей
-
-ent-DecalSpawnerFlowers = Создатель декалей
-    .suffix = Цветы
-
-ent-DecalSpawnerGrassAB = Создатель декалей
-    .suffix = Трава (а-б)
-
-ent-DecalSpawnerGrassC = Создатель декалей
-    .suffix = Трава (с)
-
-ent-DecalSpawnerGrassDE = Создатель декалей
-    .suffix = Трава (д-е)
-
-ent-DecalSpawnerGrassyRock = Создатель декалей
-    .suffix = Травяной рок

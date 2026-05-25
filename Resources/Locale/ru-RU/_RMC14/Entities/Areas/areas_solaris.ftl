@@ -1,270 +1,270 @@
 ent-RMCAreaBigredv2OutsideFiltrationCaveCas = Вход в пещеры с фильтрацией
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideLz2SouthCas = Вход в пещеры блокировки ЭТА
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideLz2WestCas = Вход в юго-западные пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideLz1TelecommCas = Вход в вирусологические пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideLz1NorthCas = Вход в Северные пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2LandingConsole2 = LZ2 «Грузовой»
-    .suffix = область
+
 ent-RMCAreaBigredv2LandingConsole = LZ1 «Телекоммуникации»
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesNorth = Северные пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesEast = Восточные пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesSe = Юго-восточные пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesResearch = Пещеры исследовательской лаборатории We-Ya
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesSw = Юго-западные пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesVirology = Вирусологические пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideGeneralOffices = Общие офисы
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideAtmos = Атмосферный стабилизатор
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideSolarPlant = Солнечная электростанция
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideStorage = Хранилище
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideEngineeringReactor = Главный реактор
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideEngineering = Инженерный комплекс
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideTelecommEngi = Реле инженерной связи
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideTelecommAdmin = Реле административной связи
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideTelecommStore = Реле связи универсального магазина
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideTelecommSecurity = Реле охранной связи
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideTelecommWarehouse = Реле складской связи
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideTelecommNCave = Реле связи Северной пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideTelecommLz2Cave = Реле связи с центральной территорией
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideTelecomm = Реле связи LZ1
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideSpacePortLz2 = Грузовая посадочная площадка
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideSpacePort = Космический порт
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideOfficeComplex = Офисный комплекс
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideLibrary = Библиотека
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideHydroponics = Гидропоника
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideChapel = Часовня
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideBar = Бар
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideDorms = Общежития
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideVirology = Вирусологическая лаборатория
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideFiltrationPlant = Фильтрационная установка
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideAdminBuilding = Администрация
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideMedical = Больница
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideMarshalOffice = Маршальские офисы
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideGeneralStore = Универсальный магазин
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideCargo = Груз
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesEtaResearch = Эта Исследования
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesEtaStorage = Эта хранилище
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesEtaXenobiology = Эта ксенобиология
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesEtaLiving = Жилые помещения Эта
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideEta = Комплекс Эта Лабораторий
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesMining = Юго-западные заброшенные шахтерские пещеры
-    .suffix = область
+
 ent-RMCAreaBigredv2Caves = Неизвестный район
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideSw = Юго-западная колония
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideS = Территория Южной колонии
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideSe = Юго-восточная колония
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideE = Территория Восточной колонии
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideW = Территория Западной колонии
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideN = Территория Северной колонии
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideC = Центральная колония
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideNw = Территория северо-западной колонии
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideNe = Территория северо-восточной колонии
-    .suffix = область
+
 ent-RMCAreaBigredv2Outside = Территория колонии
-    .suffix = область
+
 ent-RMCAreaBigredv2Oob = Большой Красный за пределами поля
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideLambdaCaveCas = Вход в пещеры Лямбда-локдаун
-    .suffix = область
+
 ent-RMCAreaBigredv2LambdaCaves = Пещеры лаборатории Лямбда
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesLambdaXenobiology = Лямбда-ксенобиология
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesLambdaBreakroom = Лямбда-комната отдыха
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesLambdaResearch = Лямбда-исследования
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesLambdaVirology = Лямбда-вирусология
-    .suffix = область
+
 ent-RMCAreaBigredUgroundSafeRoom = Корпоративная сейфовая комната
-    .suffix = область
+
 ent-RMCAreaBigredUgroundCargoElevator = Грузовой лифт
-    .suffix = область
+
 ent-RMCAreaBigredUgroundQuarantine = Карантинная зона
-    .suffix = область
+
 ent-RMCAreaBigredUgroundVirology = Лаборатория вирусологии
-    .suffix = область
+
 ent-RMCAreaBigredUgroundTeleporter = Лаборатория телепортации
-    .suffix = область
+
 ent-RMCAreaBigredUgroundAnomalyLab = Лаборатория аномальных материалов
-    .suffix = область
+
 ent-RMCAreaBigredUgroundMiscLab = Разное Лаборатория
-    .suffix = область
+
 ent-RMCAreaBigredUgroundDisection = Лаборатория диссекции
-    .suffix = область
+
 ent-RMCAreaBigredUgroundChemistry = Химическая лаборатория
-    .suffix = область
+
 ent-RMCAreaBigredUgroundXenoFlora = Лаборатория Ксено-Флоры
-    .suffix = область
+
 ent-RMCAreaBigredUgroundXeno = Ксенобиологическая лаборатория
-    .suffix = область
+
 ent-RMCAreaBigredUgroundHallway = Исследовательский коридор
-    .suffix = область
+
 ent-RMCAreaBigredUgroundLobby = Исследовательское лобби
-    .suffix = область
+
 ent-RMCAreaBigredGroundCargo = Грузовой отсек
-    .suffix = область
+
 ent-RMCAreaBigredGroundExteriorEast = Внешний вид восточного объекта
-    .suffix = область
+
 ent-RMCAreaBigredGroundExteriorWest = Внешний вид западного объекта
-    .suffix = область
+
 ent-RMCAreaBigredGroundExteriorSouth = Внешний вид южного объекта
-    .suffix = область
+
 ent-RMCAreaBigredGroundExteriorNorth = Внешний вид северного объекта
-    .suffix = область
+
 ent-RMCAreaBigredGroundExterior = Метро
-    .suffix = область
+
 ent-RMCAreaBigredGroundMaintAtmos = Обслуживание атмосферы
-    .suffix = область
+
 ent-RMCAreaBigredGroundMaintEngineering = Инженерное обслуживание
-    .suffix = область
+
 ent-RMCAreaBigredGroundMaintCommand = Командное обслуживание
-    .suffix = область
+
 ent-RMCAreaBigredGroundMaintScience = Наука Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaBigredGroundMaintCentral = Центральная шахта технического обслуживания
-    .suffix = область
+
 ent-RMCAreaBigredGroundHr = Отдел кадров
-    .suffix = область
+
 ent-RMCAreaBigredGroundToilet = Туалеты
-    .suffix = область
+
 ent-RMCAreaBigredGroundScienceResearch = Исследовательская лаборатория
-    .suffix = область
+
 ent-RMCAreaBigredGroundScienceOffice = Администрация
-    .suffix = область
+
 ent-RMCAreaBigredGroundScienceAssembly = Актовый зал
-    .suffix = область
+
 ent-RMCAreaBigredGroundScienceRobotics = Лаборатория робототехники
-    .suffix = область
+
 ent-RMCAreaBigredGroundScienceHall = Научный коридор
-    .suffix = область
+
 ent-RMCAreaBigredGroundScienceDecon = Обеззараживание
-    .suffix = область
+
 ent-RMCAreaBigredGroundEngineeringAtmosphericsGenerator = Терраформирующий процессор
-    .suffix = область
+
 ent-RMCAreaBigredGroundEngineeringAtmospherics = Атмосфера
-    .suffix = область
+
 ent-RMCAreaBigredGroundEngineeringCustodial = Кастодиальное хранение
-    .suffix = область
+
 ent-RMCAreaBigredGroundEngineeringEngine = Машинное отделение
-    .suffix = область
+
 ent-RMCAreaBigredGroundEngineeringEngineControl = Основной контроль
-    .suffix = область
+
 ent-RMCAreaBigredGroundEngineeringSmesRoom = Энергетическое хранилище
-    .suffix = область
+
 ent-RMCAreaBigredGroundChapel = Часовня
-    .suffix = область
+
 ent-RMCAreaBigredGroundForehall = Передний коридор
-    .suffix = область
+
 ent-RMCAreaBigredGroundCrewQuarters = Общежития для экипажа
-    .suffix = область
+
 ent-RMCAreaBigredGroundHanger = Вешалка
-    .suffix = область
+
 ent-RMCAreaBigredGroundLaundry = прачечная самообслуживания
-    .suffix = область
+
 ent-RMCAreaBigredGroundCryogenics = Криогенное хранилище
-    .suffix = область
+
 ent-RMCAreaBigredGroundGarden = Сад
-    .suffix = область
+
 ent-RMCAreaBigredGroundCentralHall3 = Центральный коридор
-    .suffix = область
+
 ent-RMCAreaBigredGroundMedicalLobby = Медицинское лобби
-    .suffix = область
+
 ent-RMCAreaBigredGroundMedbay = Медикал Бэй
-    .suffix = область
+
 ent-RMCAreaBigredGroundBridge = Командная комната
-    .suffix = область
+
 ent-RMCAreaBigredGroundSecurity = Модуль безопасности
-    .suffix = область
+
 ent-RMCAreaBigredGroundKitchen = Кухня
-    .suffix = область
+
 ent-RMCAreaBigredGroundCanteen = Кафетерий
-    .suffix = область
+
 ent-RMCAreaBigredGroundCentralHall = Центральный коридор
-    .suffix = область
+
 ent-RMCAreaBigredGroundEngineeringEngineeringHall = Инженерный коридор
-    .suffix = область
+
 ent-RMCAreaBigredGroundNexus = Центральный Нексус
-    .suffix = область
+
 ent-RMCAreaBigredGroundShip = Разбившееся судно
-    .suffix = область
+
 ent-RMCAreaBigredGroundGarageWorkshop = Гаражная мастерская
-    .suffix = область
+
 ent-RMCAreaBigredUground = наземный
-    .suffix = область
+
 ent-RMCAreaBigredGround = земля
-    .suffix = область
+
 ent-RMCAreaBigred = область
-    .suffix = область
+
 ent-RMCAreaBigredGroundEngineering = земля
-    .suffix = область
+
 ent-RMCAreaBigredGroundMedical = земля
-    .suffix = область
+
 ent-RMCAreaBigredGroundScience = земля
-    .suffix = область
+
 ent-RMCAreaBigredGroundMaint = земля
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesLambda = Неизвестный район
-    .suffix = область
+
 ent-RMCAreaBigredv2 = область
-    .suffix = область
+
 ent-RMCAreaBigredv2OutsideNwCeiling = Территория северо-западной колонии
-    .suffix = область
+
 ent-RMCAreaBigredv2CavesEta = Неизвестный район
-    .suffix = область
+
 ent-RMCAreaBigredv2Landing = область
-    .suffix = область
+

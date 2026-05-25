@@ -4,8 +4,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorTool
-  name: ent-CMVendorTool
-  description: ent-CMVendorTool-desc
+  name: Tool Storage Machine
+  description: A large storage machine containing various tools and devices for general repair.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/tool.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: CMVendorTool
   id: CMVendorCircuits
-  name: ent-CMVendorCircuits
-  description: ent-CMVendorCircuits-desc
+  name: Circuitboard Vendor
+  description: A safe storage for pre-programmed circuit boards, it has an internal gyroscope to keep any external force from moving the boards, thick insulation and a custom 2.1mm UPS port for charging various We-Yu exclusive devices (sold separately).
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/robotics.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: CMVendorTool
   id: CMVendorElectronics
-  name: ent-CMVendorElectronics
-  description: ent-CMVendorElectronics-desc
+  name: Electronics Vendor
+  description: Spare tool vendor. What? Did you expect some witty description?
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/engivend.rsi
@@ -179,8 +179,8 @@
 - type: entity
   parent: CMVendorTool
   id: CMVendorComponent
-  name: ent-CMVendorComponent
-  description: ent-CMVendorComponent-desc
+  name: Component Storage Machine
+  description: A large storage machine containing various components.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/engi.rsi
@@ -218,8 +218,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorScience
-  name: ent-CMVendorScience
-  description: ent-CMVendorScience-desc
+  name: We-Yu SciVend
+  description: Vendor containing basic equipment for your experiments.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/robotics.rsi
@@ -260,8 +260,8 @@
 - type: entity
   parent: CMVendorScience
   id: CMVendorRobotics
-  name: ent-CMVendorRobotics
-  description: ent-CMVendorRobotics-desc
+  name: Robotech Deluxe
+  description: All the tools you need to create your own robot army.
   components:
   - type: CMAutomatedVendor
     hackable: true

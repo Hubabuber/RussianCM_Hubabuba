@@ -1,8 +1,8 @@
 - type: entity
   id: CMTarbackCigar
   parent: Cigar
-  name: ent-CMTarbackCigar
-  description: "ent-CMTarbackCigar-desc"
+  name: tarback cigar
+  description: "Tarbacks by Reisland Tobacco. The Surgeon General has declared that smoking Tarbacks can be hazardous to one’s health. Reisland Tobacco has declared that the Surgeon General is a bitch. Rolled in Columbia."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigars/tarback.rsi
@@ -27,7 +27,7 @@
 - type: entity
   id: CMTarbackCigarSpent
   parent: CMTarbackCigar
-  suffix: ent-CMTarbackCigarSpent-suffix
+  suffix: spent
   components:
   - type: Sprite
     state: burnt-icon
@@ -46,8 +46,8 @@
 - type: entity
   id: RMCTarbackTube
   parent: BaseStorageItem
-  name: ent-RMCTarbackTube
-  description: ent-RMCTarbackTube-desc
+  name: tarback tube
+  description: A single Tarback cigar in a protective metal tube. About as low-end as you can get. Rolled in Columbia.
   components:
   - type: Item
     size: Small
@@ -87,8 +87,8 @@
 - type: entity
   parent: CMTarbackCigar
   id: RMCShioCigar
-  name: ent-RMCShioCigar
-  description: "ent-RMCShioCigar-desc"
+  name: shio royals cigar
+  description: "Shio Royals, produced by Weyland-Yutani. It seems to imply waves and the sea, somehow. Rolled in Japan."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigars/shio_royals.rsi
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCShioCigar
   id: RMCShioCigarSpent
-  suffix: ent-RMCShioCigarSpent-suffix
+  suffix: spent
   components:
   - type: Sprite
     state: burnt-icon
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCTarbackTube
   id: RMCShioRoyalsTube
-  name: ent-RMCShioRoyalsTube
-  description: ent-RMCShioRoyalsTube-desc
+  name: shio royals tube
+  description: A single Shio Royals cigar in a silver protective metal tube. Despite claims from both Weyland-Yutani and rival cigar companies, these cigars are completely middle-of-the-road. Rolled in Japan.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigars/shio_royals_tube.rsi

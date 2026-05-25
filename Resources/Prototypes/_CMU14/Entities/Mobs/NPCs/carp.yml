@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-CMUBaseMobCarp
+  name: genetic ancestor
   id: CMUBaseMobCarp
   parent: SimpleMobBase
-  description: ent-CMUBaseMobCarp-desc
+  description: The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the planet that descended from whatever this is.
   abstract: true
   components:
   - type: CombatMode
@@ -79,9 +79,9 @@
 - type: entity
   parent: [RMCSimpleMob, CMUBaseMobCarp, RMCSmallHost]
   id: CMUMobCarp
-  name: ent-CMUMobCarp
-  description: ent-CMUMobCarp-desc
-  suffix: ent-CMUMobCarp-suffix
+  name: carp
+  description: It's a carp. Adapted to migrate up hill both ways.
+  suffix: CMU
   components:
   - type: RotationVisuals
     defaultRotation: 90
@@ -117,10 +117,10 @@
     displayName: Mask
 
 - type: entity
-  name: ent-CMUSpawnMobCarp
+  name: Carp Spawner
   id: CMUSpawnMobCarp
   parent: MarkerBase
-  suffix: ent-CMUSpawnMobCarp-suffix
+  suffix: CMU
   components:
   - type: Sprite
     layers:

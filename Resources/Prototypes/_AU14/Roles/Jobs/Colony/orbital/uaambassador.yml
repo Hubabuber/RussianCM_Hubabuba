@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianAmbassadorUA
-  name: job-au14jobcivilianambassadorua-name
-  description: job-au14jobcivilianambassadorua-desc
+  name: au14-job-name-civilianambassadorua
+  description: au14-job-description-civilianambassadorua
   playTimeTracker: AU14JobCivilianAmbassadorUA
   setPreference: true
   ranks:
@@ -13,7 +13,7 @@
   joinNotifyCrew: false
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  supervisors: job-au14jobcivilianambassadorua-supervisors
+  supervisors: au14-job-supervisors-orbital
   accessGroups:
   - Colonist
   - auadmin
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianAmbassadorUA
-  name: ent-AU14SpawnPointCivilianAmbassadorUA
+  name: Spawn Point Civilian UA Ambassador
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianAmbassadorUA

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMachinePowered
   id: FaxMachineBase
-  name: ent-FaxMachineBase
-  description: ent-FaxMachineBase-desc
+  name: long range fax machine
+  description: Bluespace technologies on the application of bureaucracy.
   components:
   - type: Sprite
     sprite: Structures/Machines/fax_machine.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineCentcom
-  name: ent-FaxMachineCentcom
-  suffix: ent-FaxMachineCentcom-suffix
+  name: CentComm long range fax machine
+  suffix: CentCom
   components:
   - type: Sprite
     layers:
@@ -91,8 +91,8 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineSyndie
-  name: ent-FaxMachineSyndie
-  suffix: ent-FaxMachineSyndie-suffix
+  name: syndicate long range fax machine
+  suffix: Syndicate
   components:
   - type: Sprite
     layers:
@@ -109,8 +109,8 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineCaptain
-  name: ent-FaxMachineCaptain
-  suffix: ent-FaxMachineCaptain-suffix
+  name: captain long range fax machine
+  suffix: NukeCodes
   components:
     - type: FaxMachine
       name: "Captain's Office"

@@ -1,8 +1,8 @@
 - type: entity
   id: RMCBaseBush
-  suffix: ent-RMCBaseBush-suffix
+  suffix: RMCBaseBush
   abstract: true
-  name: ent-RMCBaseBush
+  name: bush
   components:
   - type: SpriteFade
   - type: Clickable
@@ -40,9 +40,9 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBaseGrass
-  suffix: ent-RMCBaseGrass-suffix
+  suffix: RMCBaseGrass
   abstract: true
-  name: ent-RMCBaseGrass
+  name: grass
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_grass.rsi
@@ -50,9 +50,9 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBaseFlowers
-  suffix: ent-RMCBaseFlowers-suffix
+  suffix: RMCBaseFlowers
   abstract: true
-  name: ent-RMCBaseFlowers
+  name: flowers
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -60,9 +60,9 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBaseRock
-  suffix: ent-RMCBaseRock-suffix
+  suffix: RMCBaseRock
   abstract: true
-  name: ent-RMCBaseRock
+  name: rocks
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassa1
-  suffix: ent-RMCGrassa1-suffix
+  suffix: RMCGrassa1
   components:
   - type: Sprite
     state: grassa1
@@ -78,7 +78,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassa2
-  suffix: ent-RMCGrassa2-suffix
+  suffix: RMCGrassa2
   components:
   - type: Sprite
     state: grassa2
@@ -86,7 +86,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassa3
-  suffix: ent-RMCGrassa3-suffix
+  suffix: RMCGrassa3
   components:
   - type: Sprite
     state: grassa3
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassa4
-  suffix: ent-RMCGrassa4-suffix
+  suffix: RMCGrassa4
   components:
   - type: Sprite
     state: grassa4
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassa5
-  suffix: ent-RMCGrassa5-suffix
+  suffix: RMCGrassa5
   components:
   - type: Sprite
     state: grassa5
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassb1
-  suffix: ent-RMCGrassb1-suffix
+  suffix: RMCGrassb1
   components:
   - type: Sprite
     state: grassb1
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassb2
-  suffix: ent-RMCGrassb2-suffix
+  suffix: RMCGrassb2
   components:
   - type: Sprite
     state: grassb2
@@ -126,7 +126,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassb3
-  suffix: ent-RMCGrassb3-suffix
+  suffix: RMCGrassb3
   components:
   - type: Sprite
     state: grassb3
@@ -134,7 +134,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassb4
-  suffix: ent-RMCGrassb4-suffix
+  suffix: RMCGrassb4
   components:
   - type: Sprite
     state: grassb4
@@ -142,7 +142,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassb5
-  suffix: ent-RMCGrassb5-suffix
+  suffix: RMCGrassb5
   components:
   - type: Sprite
     state: grassb5
@@ -150,7 +150,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassc1
-  suffix: ent-RMCGrassc1-suffix
+  suffix: RMCGrassc1
   components:
   - type: Sprite
     state: grassc1
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassc2
-  suffix: ent-RMCGrassc2-suffix
+  suffix: RMCGrassc2
   components:
   - type: Sprite
     state: grassc2
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassc3
-  suffix: ent-RMCGrassc3-suffix
+  suffix: RMCGrassc3
   components:
   - type: Sprite
     state: grassc3
@@ -174,7 +174,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassc4
-  suffix: ent-RMCGrassc4-suffix
+  suffix: RMCGrassc4
   components:
   - type: Sprite
     state: grassc4
@@ -182,7 +182,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassd1
-  suffix: ent-RMCGrassd1-suffix
+  suffix: RMCGrassd1
   components:
   - type: Sprite
     state: grassd1
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassd2
-  suffix: ent-RMCGrassd2-suffix
+  suffix: RMCGrassd2
   components:
   - type: Sprite
     state: grassd2
@@ -198,7 +198,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrassd3
-  suffix: ent-RMCGrassd3-suffix
+  suffix: RMCGrassd3
   components:
   - type: Sprite
     state: grassd3
@@ -206,7 +206,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrasse1
-  suffix: ent-RMCGrasse1-suffix
+  suffix: RMCGrasse1
   components:
   - type: Sprite
     state: grasse1
@@ -214,7 +214,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrasse2
-  suffix: ent-RMCGrasse2-suffix
+  suffix: RMCGrasse2
   components:
   - type: Sprite
     state: grasse2
@@ -222,7 +222,7 @@
 - type: entity
   parent: RMCBaseGrass
   id: RMCGrasse3
-  suffix: ent-RMCGrasse3-suffix
+  suffix: RMCGrasse3
   components:
   - type: Sprite
     state: grasse3
@@ -230,7 +230,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBusha1
-  suffix: ent-RMCBusha1-suffix
+  suffix: RMCBusha1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -239,7 +239,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBusha2
-  suffix: ent-RMCBusha2-suffix
+  suffix: RMCBusha2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -248,7 +248,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBusha3
-  suffix: ent-RMCBusha3-suffix
+  suffix: RMCBusha3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -257,7 +257,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushb1
-  suffix: ent-RMCBushb1-suffix
+  suffix: RMCBushb1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -266,7 +266,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushb2
-  suffix: ent-RMCBushb2-suffix
+  suffix: RMCBushb2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -275,7 +275,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushb3
-  suffix: ent-RMCBushb3-suffix
+  suffix: RMCBushb3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -284,7 +284,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushc1
-  suffix: ent-RMCBushc1-suffix
+  suffix: RMCBushc1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -293,7 +293,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushc2
-  suffix: ent-RMCBushc2-suffix
+  suffix: RMCBushc2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -302,7 +302,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushc3
-  suffix: ent-RMCBushc3-suffix
+  suffix: RMCBushc3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -311,7 +311,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushd1
-  suffix: ent-RMCBushd1-suffix
+  suffix: RMCBushd1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -320,7 +320,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushd2
-  suffix: ent-RMCBushd2-suffix
+  suffix: RMCBushd2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -329,7 +329,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushd3
-  suffix: ent-RMCBushd3-suffix
+  suffix: RMCBushd3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -338,7 +338,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushd4
-  suffix: ent-RMCBushd4-suffix
+  suffix: RMCBushd4
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -347,7 +347,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushe1
-  suffix: ent-RMCBushe1-suffix
+  suffix: RMCBushe1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -356,7 +356,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushe2
-  suffix: ent-RMCBushe2-suffix
+  suffix: RMCBushe2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -365,7 +365,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushe3
-  suffix: ent-RMCBushe3-suffix
+  suffix: RMCBushe3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -374,7 +374,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushe4
-  suffix: ent-RMCBushe4-suffix
+  suffix: RMCBushe4
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -383,7 +383,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushf1
-  suffix: ent-RMCBushf1-suffix
+  suffix: RMCBushf1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -392,7 +392,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushf2
-  suffix: ent-RMCBushf2-suffix
+  suffix: RMCBushf2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -401,7 +401,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushf3
-  suffix: ent-RMCBushf3-suffix
+  suffix: RMCBushf3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -410,7 +410,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushg1
-  suffix: ent-RMCBushg1-suffix
+  suffix: RMCBushg1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -419,7 +419,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushg2
-  suffix: ent-RMCBushg2-suffix
+  suffix: RMCBushg2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -428,7 +428,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushg3
-  suffix: ent-RMCBushg3-suffix
+  suffix: RMCBushg3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -437,7 +437,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushg4
-  suffix: ent-RMCBushg4-suffix
+  suffix: RMCBushg4
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -446,7 +446,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushh1
-  suffix: ent-RMCBushh1-suffix
+  suffix: RMCBushh1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -455,7 +455,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushh2
-  suffix: ent-RMCBushh2-suffix
+  suffix: RMCBushh2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -464,7 +464,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushh3
-  suffix: ent-RMCBushh3-suffix
+  suffix: RMCBushh3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -473,7 +473,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushi1
-  suffix: ent-RMCBushi1-suffix
+  suffix: RMCBushi1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -482,7 +482,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushi2
-  suffix: ent-RMCBushi2-suffix
+  suffix: RMCBushi2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -491,7 +491,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushi3
-  suffix: ent-RMCBushi3-suffix
+  suffix: RMCBushi3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -500,7 +500,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushi4
-  suffix: ent-RMCBushi4-suffix
+  suffix: RMCBushi4
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -509,7 +509,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushj1
-  suffix: ent-RMCBushj1-suffix
+  suffix: RMCBushj1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -518,7 +518,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushj2
-  suffix: ent-RMCBushj2-suffix
+  suffix: RMCBushj2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -527,7 +527,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushj3
-  suffix: ent-RMCBushj3-suffix
+  suffix: RMCBushj3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -536,7 +536,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushk1
-  suffix: ent-RMCBushk1-suffix
+  suffix: RMCBushk1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -545,7 +545,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushk2
-  suffix: ent-RMCBushk2-suffix
+  suffix: RMCBushk2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -554,7 +554,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushk3
-  suffix: ent-RMCBushk3-suffix
+  suffix: RMCBushk3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -563,7 +563,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushl1
-  suffix: ent-RMCBushl1-suffix
+  suffix: RMCBushl1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -572,7 +572,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushl2
-  suffix: ent-RMCBushl2-suffix
+  suffix: RMCBushl2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -581,7 +581,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushl3
-  suffix: ent-RMCBushl3-suffix
+  suffix: RMCBushl3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -590,7 +590,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushl4
-  suffix: ent-RMCBushl4-suffix
+  suffix: RMCBushl4
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -599,7 +599,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushm1
-  suffix: ent-RMCBushm1-suffix
+  suffix: RMCBushm1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -608,7 +608,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushm2
-  suffix: ent-RMCBushm2-suffix
+  suffix: RMCBushm2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -617,7 +617,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushm3
-  suffix: ent-RMCBushm3-suffix
+  suffix: RMCBushm3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -626,7 +626,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushm4
-  suffix: ent-RMCBushm4-suffix
+  suffix: RMCBushm4
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -635,7 +635,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCBushn1
-  suffix: ent-RMCBushn1-suffix
+  suffix: RMCBushn1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushes.rsi
@@ -644,7 +644,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCbushsnowa1
-  suffix: ent-RMCbushsnowa1-suffix
+  suffix: RMCbushsnowa1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushessnow.rsi
@@ -653,7 +653,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCbushsnowa2
-  suffix: ent-RMCbushsnowa2-suffix
+  suffix: RMCbushsnowa2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushessnow.rsi
@@ -662,7 +662,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCbushsnowa3
-  suffix: ent-RMCbushsnowa3-suffix
+  suffix: RMCbushsnowa3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushessnow.rsi
@@ -671,7 +671,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCbushsnowb1
-  suffix: ent-RMCbushsnowb1-suffix
+  suffix: RMCbushsnowb1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushessnow.rsi
@@ -680,7 +680,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCbushsnowb2
-  suffix: ent-RMCbushsnowb2-suffix
+  suffix: RMCbushsnowb2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushessnow.rsi
@@ -689,7 +689,7 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCbushsnowb3
-  suffix: ent-RMCbushsnowb3-suffix
+  suffix: RMCbushsnowb3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_bushessnow.rsi
@@ -698,7 +698,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowersbr1
-  suffix: ent-RMCFlowersbr1-suffix
+  suffix: RMCFlowersbr1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -707,7 +707,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowersbr2
-  suffix: ent-RMCFlowersbr2-suffix
+  suffix: RMCFlowersbr2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -716,7 +716,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowersbr3
-  suffix: ent-RMCFlowersbr3-suffix
+  suffix: RMCFlowersbr3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -725,7 +725,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowerspv1
-  suffix: ent-RMCFlowerspv1-suffix
+  suffix: RMCFlowerspv1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -734,7 +734,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowerspv2
-  suffix: ent-RMCFlowerspv2-suffix
+  suffix: RMCFlowerspv2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -743,7 +743,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowerspv3
-  suffix: ent-RMCFlowerspv3-suffix
+  suffix: RMCFlowerspv3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -752,7 +752,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowersy1
-  suffix: ent-RMCFlowersy1-suffix
+  suffix: RMCFlowersy1
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -761,7 +761,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowersy2
-  suffix: ent-RMCFlowersy2-suffix
+  suffix: RMCFlowersy2
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -770,7 +770,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowersy3
-  suffix: ent-RMCFlowersy3-suffix
+  suffix: RMCFlowersy3
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -779,7 +779,7 @@
 - type: entity
   parent: RMCBaseFlowers
   id: RMCFlowersy4
-  suffix: ent-RMCFlowersy4-suffix
+  suffix: RMCFlowersy4
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -788,7 +788,7 @@
 - type: entity
   parent: RMCBaseRock
   id: RMCRock01
-  suffix: ent-RMCRock01-suffix
+  suffix: RMCRock01
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -797,7 +797,7 @@
 - type: entity
   parent: RMCBaseRock
   id: RMCRock02
-  suffix: ent-RMCRock02-suffix
+  suffix: RMCRock02
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -806,7 +806,7 @@
 - type: entity
   parent: RMCBaseRock
   id: RMCRock03
-  suffix: ent-RMCRock03-suffix
+  suffix: RMCRock03
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -815,7 +815,7 @@
 - type: entity
   parent: RMCBaseRock
   id: RMCRock04
-  suffix: ent-RMCRock04-suffix
+  suffix: RMCRock04
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -824,7 +824,7 @@
 - type: entity
   parent: RMCBaseRock
   id: RMCRock05
-  suffix: ent-RMCRock05-suffix
+  suffix: RMCRock05
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -833,7 +833,7 @@
 - type: entity
   parent: RMCBaseRock
   id: RMCRock06
-  suffix: ent-RMCRock06-suffix
+  suffix: RMCRock06
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -842,7 +842,7 @@
 - type: entity
   parent: RMCBaseRock
   id: RMCRock07
-  suffix: ent-RMCRock07-suffix
+  suffix: RMCRock07
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -851,9 +851,9 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCAlienBush1
-  suffix: ent-RMCAlienBush1-suffix
-  name: ent-RMCAlienBush1
-  description: ent-RMCAlienBush1-desc
+  suffix: RMCAlienBush1
+  name: strange tree
+  description: Some kind of bizarre alien tree. It oozes with a sickly yellow sap.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flora/flora_plantalien.rsi
@@ -866,9 +866,9 @@
 - type: entity
   parent: RMCBaseBush
   id: RMCStump1
-  suffix: ent-RMCStump1-suffix
-  name: ent-RMCStump1
-  description: ent-RMCStump1-desc
+  suffix: RMCStump1
+  name: tree stump
+  description: There used to be a tree here.
   components:
   - type: Sprite
     sprite: Objects/Decoration/Flora/flora_treessnow.rsi
@@ -878,7 +878,7 @@
 - type: entity
   parent: RMCStump1
   id: RMCStump2
-  suffix: ent-RMCStump2-suffix
+  suffix: RMCStump2
   components:
   - type: Sprite
     sprite: Objects/Decoration/Flora/flora_treesconifer.rsi
@@ -888,7 +888,7 @@
 - type: entity
   parent: RMCStump1
   id: RMCStump3
-  suffix: ent-RMCStump3-suffix
+  suffix: RMCStump3
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flora/flora_treealien.rsi

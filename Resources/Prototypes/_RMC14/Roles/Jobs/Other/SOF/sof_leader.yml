@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMMarineRaiderLeader
-  name: job-cmmarineraiderleader-name
-  description: job-cmmarineraiderleader-desc
+  name: rmc-job-name-marine-raider-leader
+  description: rmc-ghost-role-information-sof-description
   playTimeTracker: CMJobMarineRaiderLeader
   ranks:
     RMCRankGunnerySergeant: [ ]
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: job-cmmarineraiderleader-spawnmenurolename
+  spawnMenuRoleName: MARSOC Raider Team Leader
   special:
   - !type:AddComponentSpecial
     components:
@@ -56,8 +56,8 @@
 
 - type: entity
   id: RMCRandomHumanoidMarineRaiderLead
-  name: ent-RMCRandomHumanoidMarineRaiderLead
-  suffix: ent-RMCRandomHumanoidMarineRaiderLead-suffix
+  name: DEATHSQUAD marine raider team leader ghost role
+  suffix: Role
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -117,7 +117,7 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCDogtagMarineRaiderLeader
-  name: ent-RMCDogtagMarineRaiderLeader
+  name: Marine Raider Team Leader's dogtags
   components:
   - type: PresetIdCard
     job: CMMarineRaiderLeader

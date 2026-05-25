@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14UPPGROMMachinegunner
-  name: job-au14uppgrommachinegunner-name
-  description: job-au14uppgrommachinegunner-desc
+  name: au14-job-name-govforsquadautomaticriflemanRMC
+  description: au14-uppgrom-description
   playTimeTracker: AU14JobUPPGROMMachinegunner
   ranks:
     UPP_StaffSergeant:
@@ -14,12 +14,12 @@
       role: AU14JobUPPGROMMachinegunner
       time: 18000 #5 hours
     UPP_Plutonowy: []
-  spawnMenuRoleName: job-au14uppgrommachinegunner-spawnmenurolename
+  spawnMenuRoleName: UPP GROM Machinegunner (Survivor)
   startingGear: AU14GearUPPGROMMachinegunner
   greeting: au14-uppgrom-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14uppgrommachinegunner-supervisors
+  supervisors: au-14-job-name-uppgrom-squadleader
   accessGroups:
   - AU14GovforCommand
   special:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMMachinegunner
-  name: ent-AU14JobUPPGROMMachinegunner
+  name: UPP GROM Machinegunner
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

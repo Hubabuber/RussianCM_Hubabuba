@@ -1,13 +1,13 @@
 - type: job
   parent: CMSurvivorSecurity
   id: RMCSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader
-  name: job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-name
-  description: job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-desc
+  name: rmc-job-name-bureau-riot-control-team-leader
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorSecurity
   startingGear: RMCGearSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader
   accessGroups:
   - ColonistSec
-  spawnMenuRoleName: job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-spawnmenurolename
+  spawnMenuRoleName: CMB Riot Control Team Leader (Special Survivor)
   icon: "RMCJobIconBureauDeputy"
   hasIcon: true
   special:
@@ -35,6 +35,7 @@
     - type: JobPrefix
       prefix: rmc-job-prefix-bureau-riot-control-team-leader
   greeting: rmc-job-greeting-riot-in-progress-CMB-RCTL
+
 - type: startingGear
   parent: RMCGearSurvivorFiorinaRiotInProgressCMBRiotControlOfficer
   id: RMCGearSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader
@@ -49,7 +50,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFiorinaRiotInProgressCMBRiotControlOfficer
-  name: ent-RMCSpawnPointSurvivorFiorinaRiotInProgressCMBRiotControlOfficer
+  name: special survivor fiorina riot in progress colony marshal bureau riot control team leader spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader
@@ -60,7 +61,7 @@
 
 - type: entity
   id: RMCSurvivorPresetRiotInProgressCMBRCTL
-  name: ent-RMCSurvivorPresetRiotInProgressCMBRCTL
+  name: riot in progress CMB RCTL preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

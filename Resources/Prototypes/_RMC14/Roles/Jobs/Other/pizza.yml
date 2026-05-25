@@ -2,8 +2,8 @@
 - type: job
   parent: CMJobBase
   id: CMPizzaDeliverer
-  name: job-cmpizzadeliverer-name
-  description: job-cmpizzadeliverer-desc
+  name: rmc-job-name-pizza
+  description: rmc-ghost-role-information-pizza-description
   playTimeTracker: CMJobPizzaDeliverer
   ranks:
     RMCRankCivilian: [ ]
@@ -30,8 +30,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPizzaDeliveryBoy
-  name: ent-RMCRandomHumanoidPizzaDeliveryBoy
-  suffix: ent-RMCRandomHumanoidPizzaDeliveryBoy-suffix
+  name: pizza delivery boy ghost role
+  suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/pizza.rsi

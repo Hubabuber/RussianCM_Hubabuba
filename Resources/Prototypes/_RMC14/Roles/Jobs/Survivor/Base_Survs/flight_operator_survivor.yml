@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorFlightOperator
-  name: job-cmsurvivorflightoperator-name
-  description: job-cmsurvivorflightoperator-desc
+  name: cm-job-name-survivor-flight-control-operator
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorFlightOperator
-  spawnMenuRoleName: job-cmsurvivorflightoperator-spawnmenurolename
+  spawnMenuRoleName: Flight Control Operator (Survivor)
   access:
   - CMAccessColonyPublic
   - AU14AccessCorporateWEYUFlight
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFlightOperator
-  name: ent-RMCSpawnPointSurvivorFlightOperator
+  name: survivor flight operator spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorFlightOperator
@@ -58,7 +58,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorFlightOperator
-  name: ent-RMCRandomHumanoidSurvivorFlightOperator
+  name: flight operator colonist ghost role
   components:
   - type: Sprite
     layers:
@@ -76,5 +76,5 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetFlightOperator
-  name: ent-RMCGearSurvivorPresetFlightOperator
+  name: flight operator colonist preset
   categories: [ HideSpawnMenu ]

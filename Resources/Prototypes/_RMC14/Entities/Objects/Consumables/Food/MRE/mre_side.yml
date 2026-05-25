@@ -1,9 +1,9 @@
-# Components
+﻿# Components
 - type: entity
   abstract: true
   parent: CMMREComponentBase
   id: CMMRESideComponentBase
-  description: ent-CMMRESideComponentBase-desc
+  description: An MRE side component. Contains a side, to be eaten alongside the main.
   components:
   - type: Sprite
     state: side
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMMRESideComponentBase
   id: CMMREComponentCracker
-  name: ent-CMMREComponentCracker
-  description: ent-CMMREComponentCracker-desc
+  name: MRE component (cracker)
+  description: An MRE side component. Contains a side, to be eaten alongside the main. This one is a cracker.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMRESideComponentBase
   id: CMMREComponentRiceOnigiri
-  name: ent-CMMREComponentRiceOnigiri
-  description: ent-CMMREComponentRiceOnigiri-desc
+  name: MRE component (rice onigiri)
+  description: An MRE side component. Contains a side, to be eaten alongside the main. This one is rice onigiri.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMMRESideComponentBase
   id: CMMREComponentMashedPotatoes
-  name: ent-CMMREComponentMashedPotatoes
-  description: ent-CMMREComponentMashedPotatoes-desc
+  name: MRE component (mashed potatoes)
+  description: An MRE side component. Contains a side, to be eaten alongside the main. This one is mashed potatoes.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMMRESideComponentBase
   id: CMMREComponentRisotto
-  name: ent-CMMREComponentRisotto
-  description: ent-CMMREComponentRisotto-desc
+  name: MRE component (risotto)
+  description: An MRE side component. Contains a side, to be eaten alongside the main. This one is risotto.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -73,8 +73,8 @@
 - type: entity
   parent: CMMREFoodSide
   id: CMMREFoodCracker
-  name: ent-CMMREFoodCracker
-  description: ent-CMMREFoodCracker-desc
+  name: cracker
+  description: The contents of a Marine Standard issue MRE. This one is a cracker.
   components:
   - type: Sprite
     state: cracker
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMMREFoodSide
   id: CMMREFoodRiceOnigiri
-  name: ent-CMMREFoodRiceOnigiri
-  description: ent-CMMREFoodRiceOnigiri-desc
+  name: rice onigiri
+  description: The contents of a Marine Standard issue MRE. This one is rice onigiri.
   components:
   - type: Sprite
     state: rice_onigiri
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMMREFoodSide
   id: CMMREFoodMashedPotatoes
-  name: ent-CMMREFoodMashedPotatoes
-  description: ent-CMMREFoodMashedPotatoes-desc
+  name: mashed potatoes
+  description: The contents of a Marine Standard issue MRE. This one is mashed potatoes.
   components:
   - type: Sprite
     state: mashed_potatoes
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMMREFoodSide
   id: CMMREFoodRisotto
-  name: ent-CMMREFoodRisotto
-  description: ent-CMMREFoodRisotto-desc
+  name: risotto
+  description: The contents of a Marine Standard issue MRE. This one is risotto.
   components:
   - type: Sprite
     state: risotto

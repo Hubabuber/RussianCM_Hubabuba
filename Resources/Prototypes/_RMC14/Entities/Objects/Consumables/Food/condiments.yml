@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItem
   id: RMCCondiment
-  name: ent-RMCCondiment
-  description: ent-RMCCondiment-desc
+  name: condiment container
+  description: Just your average condiment container.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/condiments.rsi
@@ -49,7 +49,7 @@
   abstract: true
   parent: RMCCondiment
   id: RMCCondimentHotsauce
-  name: ent-RMCCondimentHotsauce
+  name: hotsauce parent object
   components:
   - type: Sprite
     state: icon
@@ -67,8 +67,8 @@
 - type: entity
   parent: RMCCondiment
   id: RMCCondimentEnzyme
-  name: ent-RMCCondimentEnzyme
-  description: ent-RMCCondimentEnzyme-desc
+  name: universal enzyme
+  description: Used in cooking various dishes.
   components:
   - type: Sprite
     state: enzyme
@@ -83,8 +83,8 @@
 - type: entity
   parent: RMCCondiment
   id: RMCCondimentSugar
-  name: ent-RMCCondimentSugar
-  description: ent-RMCCondimentSugar-desc
+  name: sugar
+  description: Tasty space sugar!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -96,10 +96,10 @@
 # Ketchup
 - type: reagent
   id: RMCKetchup
-  name: reagent-rmcketchup-name
+  name: reagent-name-ketchup
   group: Foods
-  desc: reagent-rmcketchup-desc
-  physicalDesc: reagent-rmcketchup-physicaldesc
+  desc: reagent-desc-ketchup
+  physicalDesc: reagent-physical-desc-tangy
   flavor: tomato
   color: "#731008"
   recognizable: true
@@ -115,8 +115,8 @@
 - type: entity
   parent: RMCCondiment
   id: RMCCondimentKetchup
-  name: ent-RMCCondimentKetchup
-  description: ent-RMCCondimentKetchup-desc
+  name: ketchup
+  description: You feel more American already.
   components:
   - type: Sprite
     state: ketchup
@@ -130,10 +130,10 @@
 # Soy Sauce
 - type: reagent
   id: RMCSoysauce
-  name: reagent-rmcsoysauce-name
+  name: reagent-name-soysauce
   group: Foods
-  desc: reagent-rmcsoysauce-desc
-  physicalDesc: reagent-rmcsoysauce-physicaldesc
+  desc: reagent-desc-soysauce
+  physicalDesc: reagent-physical-desc-salty
   flavor: salty
   color: "#792300"
   recognizable: true
@@ -149,8 +149,8 @@
 - type: entity
   parent: RMCCondiment
   id: RMCCondimentSoysauce
-  name: ent-RMCCondimentSoysauce
-  description: ent-RMCCondimentSoysauce-desc
+  name: soy sauce
+  description: A salty soy-based flavoring.
   components:
   - type: Sprite
     state: soysauce
@@ -164,10 +164,10 @@
 # Corn Oil
 - type: reagent
   id: RMCCornoil
-  name: reagent-rmccornoil-name
+  name: reagent-name-cornoil
   group: Foods
-  desc: reagent-rmccornoil-desc
-  physicalDesc: reagent-rmccornoil-physicaldesc
+  desc: reagent-desc-cornoil
+  physicalDesc: reagent-physical-desc-oily
   flavor: oily
   color: "#302000"
   recognizable: true
@@ -183,8 +183,8 @@
 - type: entity
   parent: RMCCondiment
   id: RMCCondimentCornOil
-  name: ent-RMCCondimentCornOil
-  description: ent-RMCCondimentCornOil-desc
+  name: corn oil
+  description: A delicious oil used in cooking. Made from corn.
   components:
   - type: Sprite
     state: oliveoil
@@ -199,8 +199,8 @@
 - type: entity
   parent: RMCCondimentSmall
   id: RMCCondimentSmallSalt
-  name: ent-RMCCondimentSmallSalt
-  description: ent-RMCCondimentSmallSalt-desc
+  name: salt shaker
+  description: Salt. From space oceans, presumably.
   components:
   - type: Sprite
     state: saltshakersmall
@@ -215,8 +215,8 @@
 - type: entity
   parent: RMCCondimentSmall
   id: RMCCondimentSmallPepper
-  name: ent-RMCCondimentSmallPepper
-  description: ent-RMCCondimentSmallPepper-desc
+  name: pepper mill
+  description: Often used to flavor food or make people sneeze.
   components:
   - type: Sprite
     state: peppermillsmall
@@ -232,8 +232,8 @@
 - type: entity
   parent: RMCCondimentHotsauce
   id: RMCCondimentHotsauceCholula
-  name: ent-RMCCondimentHotsauceCholula
-  description: ent-RMCCondimentHotsauceCholula-desc
+  name: Cholula bottle
+  description: A bottle of Weyland-Yutani brand Cholula hot sauce.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Sauces/cholula.rsi
@@ -241,8 +241,8 @@
 - type: entity
   parent: RMCCondimentHotsauce
   id: RMCCondimentHotsauceFranks
-  name: ent-RMCCondimentHotsauceFranks
-  description: ent-RMCCondimentHotsauceFranks-desc
+  name: red hot bottle
+  description: A bottle of Weyland-Yutani brand Red Hot hot sauce.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Sauces/franks.rsi
@@ -252,8 +252,8 @@
 - type: entity
   parent: RMCCondimentHotsauce
   id: RMCCondimentHotsauceSriracha
-  name: ent-RMCCondimentHotsauceSriracha
-  description: ent-RMCCondimentHotsauceSriracha-desc
+  name: Sriracha bottle
+  description: A bottle of Weyland-Yutani brand Sriracha hot sauce.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Sauces/sriracha.rsi
@@ -261,8 +261,8 @@
 - type: entity
   parent: RMCCondimentHotsauce
   id: RMCCondimentHotsauceTabasco
-  name: ent-RMCCondimentHotsauceTabasco
-  description: ent-RMCCondimentHotsauceTabasco-desc
+  name: Tabasco bottle
+  description: A bottle of Weyland-Yutani brand Tabasco hot sauce.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/Sauces/tabasco.rsi

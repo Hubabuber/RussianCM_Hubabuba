@@ -2,10 +2,10 @@
 #1D2L3U4R
 
 - type: entity
-  name: ent-MobCorgiIan
+  name: Ian
   parent: MobCorgi
   id: MobCorgiIan
-  description: ent-MobCorgiIan-desc
+  description: Favorite pet corgi.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -38,10 +38,10 @@
     stealGroup: AnimalIan
 
 - type: entity
-  name: ent-MobCorgiIanOld
+  name: Old Ian
   parent: MobCorgiIan
   id: MobCorgiIanOld
-  description: ent-MobCorgiIanOld-desc
+  description: Still the favorite pet corgi. Love his wheels.
   components:
   - type: Sprite
     layers:
@@ -63,10 +63,10 @@
     - id: MaterialHideCorgi
 
 - type: entity
-  name: ent-MobCorgiLisa
+  name: Lisa
   parent: MobCorgiIan
   id: MobCorgiLisa
-  description: ent-MobCorgiLisa-desc
+  description: Ian's favorite corgi.
   components:
   - type: Sprite
     layers:
@@ -86,10 +86,10 @@
       gender: female
 
 - type: entity
-  name: ent-MobCorgiMouse
+  name: real mouse
   parent: MobCorgiIan
   id: MobCorgiMouse
-  description: ent-MobCorgiMouse-desc
+  description: It's 100% a real hungry mouse.
   components:
   - type: Sprite
     layers:
@@ -109,10 +109,10 @@
       gender: female
 
 - type: entity
-  name: ent-MobCorgiIanPup
+  name: Puppy Ian
   parent: MobCorgiPuppy
   id: MobCorgiIanPup
-  description: ent-MobCorgiIanPup-desc
+  description: Favourite puppy corgi. Awww.
   components:
   - type: Grammar
     attributes:
@@ -127,10 +127,10 @@
     stealGroup: AnimalIan
 
 - type: entity
-  name: ent-MobCatRuntime
+  name: Runtime
   parent: MobCat
   id: MobCatRuntime
-  description: ent-MobCatRuntime-desc
+  description: Professional mouse hunter. Escape artist.
   components:
   - type: NpcFactionMember
     factions:
@@ -150,10 +150,10 @@
     stealGroup: AnimalNamedCat
 
 - type: entity
-  name: ent-MobCatException
+  name: Exception
   id: MobCatException
   parent: MobCatCalico
-  description: ent-MobCatException-desc
+  description: Ask nicely, and maybe they'll give you one of their spare lives.
   components:
   - type: NpcFactionMember
     factions:
@@ -170,10 +170,10 @@
     stealGroup: AnimalNamedCat
 
 - type: entity
-  name: ent-MobCatFloppa
+  name: Floppa
   id: MobCatFloppa
   parent: MobCatCaracal
-  description: ent-MobCatFloppa-desc
+  description: He out here.
   components:
   - type: Fixtures
     fixtures:
@@ -197,10 +197,10 @@
     stealGroup: AnimalNamedCat
 
 - type: entity
-  name: ent-MobBandito
+  name: Bandito
   parent: MobFerret
   id: MobBandito
-  description: ent-MobBandito-desc
+  description: Just a silly little guy!
   components:
   - type: Grammar
     attributes:
@@ -212,10 +212,10 @@
     - VimPilot
 
 - type: entity
-  name: ent-MobBingus
+  name: Bingus
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobBingus
-  description: ent-MobBingus-desc
+  description: Bingus my beloved...
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -269,10 +269,10 @@
     stealGroup: AnimalNamedCat
 
 - type: entity
-  name: ent-MobMcGriff
+  name: McGriff
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobMcGriff
-  description: ent-MobMcGriff-desc
+  description: This dog can tell something smells around here, and that something is CRIME!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -331,10 +331,10 @@
     stealGroup: AnimalMcGriff
 
 - type: entity
-  name: ent-MobPaperwork
+  name: Paperwork
   parent: MobSloth
   id: MobPaperwork
-  description: ent-MobPaperwork-desc
+  description: Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -365,10 +365,10 @@
       gender: male
 
 - type: entity
-  name: ent-MobWalter
+  name: Walter
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobWalter
-  description: ent-MobWalter-desc
+  description: He likes chems and treats. Walter.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -427,10 +427,10 @@
     speechSounds: Dog
 
 - type: entity
-  name: ent-MobPossumMorty
+  name: Morty
   parent: MobPossum
   id: MobPossumMorty
-  description: ent-MobPossumMorty-desc
+  description: The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
   components:
   - type: InteractionPopup
     successChance: 1.0 # Hey, c'mon, this is Morty we're talking about here.
@@ -451,10 +451,10 @@
     stealGroup: AnimalMorty
 
 - type: entity
-  name: ent-MobPossumMortyOld
+  name: Morty
   parent: MobPossumMorty
   id: MobPossumMortyOld
-  suffix: ent-MobPossumMortyOld-suffix
+  suffix: Old sprite
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -470,10 +470,10 @@
         Base: possum_dead_old
 
 - type: entity
-  name: ent-MobPossumPoppy # the Safety Possum
+  name: Poppy # the Safety Possum
   parent: MobPossumMorty
   id: MobPossumPoppy
-  description: ent-MobPossumPoppy-desc
+  description: It's an opossum, a small scavenging marsupial. It's wearing appropriate personal protective equipment.
   components:
   - type: Grammar
     attributes:
@@ -493,10 +493,10 @@
         Base: poppy_dead
 
 - type: entity
-  name: ent-MobRaccoonMorticia
+  name: Morticia
   parent: MobRaccoon
   id: MobRaccoonMorticia
-  description: ent-MobRaccoonMorticia-desc
+  description: A powerful creature of the night. Her eyeshadow is always on point.
   components:
   - type: InteractionPopup
     successChance: 0.7
@@ -515,10 +515,10 @@
     - VimPilot
 
 - type: entity
-  name: ent-MobAlexander
+  name: Alexander
   parent: MobPig
   id: MobAlexander
-  description: ent-MobAlexander-desc
+  description: Chef's finest colleague.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -537,10 +537,10 @@
     - VimPilot
 
 - type: entity
-  name: ent-MobFoxRenault
+  name: Renault
   parent: MobFox
   id: MobFoxRenault
-  description: ent-MobFoxRenault-desc
+  description: The captain's trustworthy fox.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -567,10 +567,10 @@
     stealGroup: AnimalRenault
 
 - type: entity
-  name: ent-MobHamsterHamlet
+  name: Hamlet
   parent: MobHamster
   id: MobHamsterHamlet
-  description: ent-MobHamsterHamlet-desc
+  description: A grumpy, cute and fluffy hamster.
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -620,10 +620,10 @@
     - sadness
 
 - type: entity
-  name: ent-MobSpiderShiva
+  name: Shiva
   parent: MobGiantSpider
   id: MobSpiderShiva
-  description: ent-MobSpiderShiva-desc
+  description: The first defender of the station.
   components:
   - type: InteractionPopup
     successChance: 0.5 # spider is mean
@@ -685,10 +685,10 @@
     stealGroup: AnimalShiva
 
 - type: entity
-  name: ent-MobKangarooWillow
+  name: Willow
   parent: MobKangaroo
   id: MobKangarooWillow
-  description: ent-MobKangarooWillow-desc
+  description: Willow the boxing kangaroo.
   components:
   - type: InteractionPopup
     successChance: 0.8
@@ -716,10 +716,10 @@
     prototypes: [ BoxingKangarooGear ]
 
 - type: entity
-  name: ent-MobSlimesPet
+  name: Smile
   id: MobSlimesPet
   parent: [MobAdultSlimes, StripableInventoryBase]
-  description: ent-MobSlimesPet-desc
+  description: This masterpiece has gone through thousands of experiments. But it is the sweetest creature in the world. Smile Slime!
   components:
   - type: Sprite
     layers:
@@ -798,10 +798,10 @@
       gender: female
 
 - type: entity
-  name: ent-MobMonkeyPunpun
+  name: Pun Pun
   parent: MobMonkey
   id: MobMonkeyPunpun
-  description: ent-MobMonkeyPunpun-desc
+  description: A prominent representative of monkeys with unlimited access to alcohol.
   components:
   - type: GhostRole
     prob: 1
@@ -833,10 +833,10 @@
       gender: male
 
 - type: entity
-  name: ent-MobCrabAtmos
+  name: Tropico
   parent: MobCrab
   id: MobCrabAtmos
-  description: ent-MobCrabAtmos-desc
+  description: The noble and stalwart defender of Atmosia. Viva!
   components:
 #  - type: GhostRole
 #    prob: 1
@@ -860,10 +860,10 @@
     stealGroup: AnimalTropico
 
 - type: entity
-  name: ent-MobPollyParrot
+  name: Polly the parrot
   parent: MobParrotBase
   id: MobPollyParrot
-  description: ent-MobPollyParrot-desc
+  description: An expert in quantum cracker theory
   components:
   - type: ParrotMemory
     learnChance: 0.5 # polly is smarter

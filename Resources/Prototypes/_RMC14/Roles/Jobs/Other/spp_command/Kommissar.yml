@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: RMCSPPKommissar
-  name: job-rmcsppkommissar-name
-  description: job-rmcsppkommissar-desc
+  name: rmc-job-name-spp-kommissar
+  description: rmc-job-description-spp-kommissar
   playTimeTracker: RMCJobSPPKommissar
   ranks:
     RMCRankSPPPoliticalKommissar: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Colonist
-  spawnMenuRoleName: job-rmcsppkommissar-spawnmenurolename
+  spawnMenuRoleName: SPP Kommissar
   special:
   - !type:AddComponentSpecial
     components:
@@ -46,8 +46,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPKommissarNeutral
-  name: ent-RMCRandomHumanoidSPPKommissarNeutral
-  suffix: ent-RMCRandomHumanoidSPPKommissarNeutral-suffix
+  name: Kommissar ghost role
+  suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -101,8 +101,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPBattalionKommissar
-  name: job-rmcsppbattalionkommissar-name
-  description: job-rmcsppbattalionkommissar-desc
+  name: rmc-job-name-spp-battalion-kommissar
+  description: rmc-job-description-spp-battalion-kommissar
   playTimeTracker: RMCJobSPPBattalionKommissar
   ranks:
     RMCRankSPPPoliticalBattalionKommissar: []
@@ -111,7 +111,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Colonist
-  spawnMenuRoleName: job-rmcsppbattalionkommissar-spawnmenurolename
+  spawnMenuRoleName: SPP Battalion Kommissar
   special:
   - !type:AddComponentSpecial
     components:
@@ -146,8 +146,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPBattalionKommissarNeutral
-  name: ent-RMCRandomHumanoidSPPBattalionKommissarNeutral
-  suffix: ent-RMCRandomHumanoidSPPBattalionKommissarNeutral-suffix
+  name: Battalion Kommissar ghost role
+  suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -184,8 +184,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPSrBattalionKommissar
-  name: job-rmcsppsrbattalionkommissar-name
-  description: job-rmcsppsrbattalionkommissar-desc
+  name: rmc-job-name-spp-sr-battalion-kommissar
+  description: rmc-job-description-spp-sr-battalion-kommissar
   playTimeTracker: RMCJobSPPSrBattalionKommissar
   ranks:
     RMCRankSPPPoliticalSrBattalionKommissar: []
@@ -194,7 +194,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Colonist
-  spawnMenuRoleName: job-rmcsppsrbattalionkommissar-spawnmenurolename
+  spawnMenuRoleName: SPP Sr Battalion Kommissar
   special:
   - !type:AddComponentSpecial
     components:
@@ -229,8 +229,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPSrBattalionKommissarNeutral
-  name: ent-RMCRandomHumanoidSPPSrBattalionKommissarNeutral
-  suffix: ent-RMCRandomHumanoidSPPSrBattalionKommissarNeutral-suffix
+  name: Sr. Battalion. Kommissar ghost role
+  suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -267,8 +267,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPRegimentalKommissar
-  name: job-rmcsppregimentalkommissar-name
-  description: job-rmcsppregimentalkommissar-desc
+  name: rmc-job-name-spp-regimental-kommissar
+  description: rmc-job-description-spp-regimental-kommissar
   playTimeTracker: RMCJobSPPRegimentalKommissar
   ranks:
     RMCRankSPPPoliticalRegimentalKommissar: []
@@ -277,7 +277,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Colonist
-  spawnMenuRoleName: job-rmcsppregimentalkommissar-spawnmenurolename
+  spawnMenuRoleName: SPP Regimental Kommissar
   special:
   - !type:AddComponentSpecial
     components:
@@ -312,8 +312,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPRegimentalKommissarNeutral
-  name: ent-RMCRandomHumanoidSPPRegimentalKommissarNeutral
-  suffix: ent-RMCRandomHumanoidSPPRegimentalKommissarNeutral-suffix
+  name: Regimental Kommissar ghost role
+  suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -350,8 +350,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPBrigadeKommissar
-  name: job-rmcsppbrigadekommissar-name
-  description: job-rmcsppbrigadekommissar-desc
+  name: rmc-job-name-spp-brigade-kommissar
+  description: rmc-job-description-spp-brigade-kommissar
   playTimeTracker: RMCJobSPPBrigadeKommissar
   ranks:
     RMCRankSPPPoliticalBrigadeKommissar: []
@@ -360,7 +360,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Colonist
-  spawnMenuRoleName: job-rmcsppbrigadekommissar-spawnmenurolename
+  spawnMenuRoleName: SPP Brigade Kommissar
   special:
   - !type:AddComponentSpecial
     components:
@@ -395,8 +395,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPBrigadeKommissarNeutral
-  name: ent-RMCRandomHumanoidSPPBrigadeKommissarNeutral
-  suffix: ent-RMCRandomHumanoidSPPBrigadeKommissarNeutral-suffix
+  name: Brigade Kommissar ghost role
+  suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -433,8 +433,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPDivisionKommissar
-  name: job-rmcsppdivisionkommissar-name
-  description: job-rmcsppdivisionkommissar-desc
+  name: rmc-job-name-spp-division-kommissar
+  description: rmc-job-description-spp-division-kommissar
   playTimeTracker: RMCJobSPPDivisionKommissar
   ranks:
     RMCRankSPPPoliticalDivisionKommissar: []
@@ -443,7 +443,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Colonist
-  spawnMenuRoleName: job-rmcsppdivisionkommissar-spawnmenurolename
+  spawnMenuRoleName: SPP Division Kommissar
   special:
   - !type:AddComponentSpecial
     components:

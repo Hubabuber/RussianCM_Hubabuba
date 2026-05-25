@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMMilitaryPolice
-  name: job-cmmilitarypolice-name
-  description: job-cmmilitarypolice-desc
+  name: cm-job-name-militarypolice
+  description: cm-job-description-militarypolice
   setPreference: false
   playTimeTracker: CMJobMilitaryPolice
   requirements:
@@ -24,7 +24,7 @@
   icon: "CMJobIconMilitaryPolice"
   joinNotifyCrew: false
   marineAuthorityLevel: 3
-  supervisors: job-cmmilitarypolice-supervisors
+  supervisors: cm-job-supervisors-cmp
   accessGroups:
   - MP
   roleWeight: 0.25
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointMilitaryPolice
-  name: ent-CMSpawnPointMilitaryPolice
+  name: military police spawn point
   components:
   - type: SpawnPoint
     job_id: CMMilitaryPolice
@@ -82,8 +82,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleMP
-  name: ent-RMCGuidebookRoleMP
-  description: ent-RMCGuidebookRoleMP-desc
+  name: Military Police
+  description: Military Police
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

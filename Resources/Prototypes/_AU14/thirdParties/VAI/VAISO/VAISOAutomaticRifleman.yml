@@ -1,7 +1,7 @@
 - type: job
   parent: AU14VAIMachinegunnerBase
   id: AU14VAISOMachinegunner
-  spawnMenuRoleName: job-au14vaisomachinegunner-spawnmenurolename
+  spawnMenuRoleName: VAISO Machinegunner
   playTimeTracker: AU14VAISOMachinegunner
   icon: "CMJobIconEmpty"
   greeting: au14-vaiso-greeting
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAISOMachinegunner
-  name: ent-AU14VAISOMachinegunner
+  name: VAISO Machinegunner
   components:
   - type: EquipEntityPreset
     preset: AU14VAISOMGPreset
@@ -61,7 +61,7 @@
 
 - type: entity
   id: AU14VAISOMGPreset
-  name: ent-AU14VAISOMGPreset
+  name: vaiso mg preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

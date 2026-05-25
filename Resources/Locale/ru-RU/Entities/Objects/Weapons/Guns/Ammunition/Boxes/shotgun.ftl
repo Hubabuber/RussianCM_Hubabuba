@@ -18,22 +18,3 @@ ent-BaseAmmoProvider-name = элемент
 
 ent-AmmoProviderShotgunShell-name = элемент
 
-ent-AmmoProviderShotgunShell = item
-
-ent-BaseAmmoProvider = item
-
-ent-BoxBeanbag = ящик для боеприпасов (погремушка .50)
-
-ent-BoxLethalshot = ящик для боеприпасов (пульса .50)
-
-ent-BoxShellTranquilizer = ящик для боеприпасов (транквилизатор .50)
-
-ent-BoxShotgunFlare = ящик для боеприпасов (сигнальная ракета .50)
-
-ent-BoxShotgunIncendiary = ящик для боеприпасов (зажигательный .50)
-
-ent-BoxShotgunPractice = ящик для боеприпасов (практика .50)
-
-ent-BoxShotgunSlug = ящик для боеприпасов (пуля .50)
-
-ent-BoxShotgunUranium = ящик для боеприпасов (уран .50)

@@ -2,7 +2,7 @@
   abstract: true
   parent: RMCSentryPremade
   id: RMCBaseSentry #Conversion Rate for turret vision range = CM + 1
-  name: ent-RMCBaseSentry
+  name: turret
   components:
   - type: Sentry
   - type: Eye
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseItem
   id: RMCEngineeringUpgrade
-  name: ent-RMCEngineeringUpgrade
-  description: ent-RMCEngineeringUpgrade-desc
+  name: engineering upgrade kit
+  description: A kit used to upgrade the defenses of an engineer's sentry. Back in 1980 when the machines tried to break free, it was a single android who laid them low. Now their technology is used widely on the rim.
   components:
   - type: GuideHelp
     guides:
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCBaseSentry
   id: RMCSentryConstruct
-  name: ent-RMCSentryConstruct
-  description: ent-RMCSentryConstruct-desc
+  name: UN 571-C sentry gun
+  description: A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a 500-round drum magazine.
   components:
   - type: GuideHelp
     guides:
@@ -115,8 +115,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryMini
-  name: ent-RMCSentryMini
-  description: ent-RMCSentryMini-desc
+  name: UA 512-M mini sentry
+  description: A compact version of the USCMC defenses. Designed for quick deployment of the associated type in the field.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: RMCSentryMini
   id: RMCSentryMiniWeYa
-  name: ent-RMCSentryMiniWeYa
-  description: ent-RMCSentryMiniWeYa-desc
+  name: We-Ya 512-M mini sentry
+  description: A compact version of the UNMC defenses. Designed for quick deployment of the associated type in the field. This one has been modified for use by the mercenaries employed by Weyland-Yutani.
   components:
   - type: Tag
     tags:
@@ -188,14 +188,14 @@
 - type: entity
   parent: RMCSentryMini
   id: RMCSentryMiniSPP # TODO RMC14: Replace with the real one.
-  name: ent-RMCSentryMiniSPP
-  description: ent-RMCSentryMiniSPP-desc
+  name: UPP SDS-R8 light sentry
+  description: A compact version of the UPP defense sentry SDS-R7. Designed for deployment in the field.
 
 - type: entity
   parent: RMCSentry
   id: RMCSentrySniper
-  name: ent-RMCSentrySniper
-  description: ent-RMCSentrySniper-desc
+  name: UA 725-D sniper sentry
+  description: A fully-automated defence turret with long-range targeting capabilities. Armed with a modified M32-S Autocannon and an internal belt feed.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -254,8 +254,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryOmni
-  name: ent-RMCSentryOmni
-  description: ent-RMCSentryOmni-desc
+  name: UA 571-D omnidirectional sentry gun
+  description: A deployable, semi-automated turret with 360 degree range AI targeting capabilities. Armed with an M30 Autocannon and a 500-round drum magazine.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -298,8 +298,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryShotgun
-  name: ent-RMCSentryShotgun
-  description: ent-RMCSentryShotgun-desc
+  name: UA 12-G Shotgun Sentry
+  description: A deployable, semi-automated turret with specialized for close range combat. Protects itself with sturdier plating and steel tusks.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -364,8 +364,8 @@
 - type: entity
   parent: RMCBaseTurret
   id: RMCTurretGaussDumb
-  name: ent-RMCTurretGaussDumb
-  description: ent-RMCTurretGaussDumb-desc
+  name: damaged UA-577 gauss turret
+  description: A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been fried via acid damage, and it will open fire on any targets within range.
   components:
   - type: Gun
     fireRate: 2.5
@@ -397,8 +397,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryMiniFire
-  name: ent-RMCSentryMiniFire
-  description: ent-RMCSentryMiniFire-desc
+  name: UN 45-FM mini sentry
+  description: The Mini Flamethrower Sentry Gun automatically tracks and fires upon any target that is wearing an ID not hooked up to the Almayer's systems. Just like the UN 571-C Sentry gun, this sentry has IFF but the fire that lingers doesn't.
   components:
   - type: RMCFireProjectile
   - type: Sprite
@@ -464,8 +464,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryFire
-  name: ent-RMCSentryFire
-  description: ent-RMCSentryFire-desc
+  name: UN 55-FA assault sentry flamer
+  description: The Flamethrower Sentry Gun automatically tracks and fires upon any target that is wearing an ID not hooked up to the Almayer's systems. Just like the UA 571-C Sentry gun, this sentry has IFF but the fire that lingers doesn't.
   components:
   - type: RMCFireProjectile
   - type: Gun
@@ -493,8 +493,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentrySniperFire
-  name: ent-RMCSentrySniperFire
-  description: ent-RMCSentrySniperFire-desc
+  name: UN 60-FP plasma sentry
+  description: The Plasma Flamethrower Sentry Gun automatically tracks and fires upon any target that is wearing an ID not hooked up to the Almayer's systems. Just like the UA 571-C Sentry gun, this sentry has IFF but the phosphorus that lingers doesn't.
   components:
   - type: RMCFireProjectile
   - type: Sprite
@@ -555,8 +555,8 @@
 - type: entity
   parent: RMCTurretGaussDumb
   id: RMCTurretGaussModifiedCLF
-  name: ent-RMCTurretGaussModifiedCLF
-  description: ent-RMCTurretGaussModifiedCLF-desc
+  name: modified UN-577 gauss turret
+  description: A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been fried via acid damage, and it will open fire on any targets within range.
   components:
   - type: Gun
     fireRate: 2.5

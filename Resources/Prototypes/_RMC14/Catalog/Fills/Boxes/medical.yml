@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-RMCBoxSterileMask
+  name: sterile mask box
   parent: RMCBoxCardboard
   id: RMCBoxSterileMask
-  description: ent-RMCBoxSterileMask-desc
+  description: This box contains sterile medical masks.
   components:
   - type: StorageFill
     contents:
@@ -12,10 +12,10 @@
     state: sterile
 
 - type: entity
-  name: ent-RMCBoxLatexGloves
+  name: latex gloves box
   parent: RMCBoxCardboard
   id: RMCBoxLatexGloves
-  description: ent-RMCBoxLatexGloves-desc
+  description: Contains sterile latex gloves.
   components:
   - type: StorageFill
     contents:
@@ -25,10 +25,10 @@
     state: latex
 
 - type: entity
-  name: ent-RMCBoxBodyBag
+  name: body bag box
   parent: RMCBoxCardboard
   id: RMCBoxBodyBag
-  description: ent-RMCBoxBodyBag-desc
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:
@@ -41,10 +41,10 @@
         - BodyBag
 
 - type: entity
-  name: ent-RMCBoxPillCanister
+  name: box of pill bottles
   parent: RMCBoxCardboard
   id: RMCBoxPillCanister
-  description: ent-RMCBoxPillCanister-desc
+  description: It has pictures of pill bottles on its front.
   components:
   - type: StorageFill
     contents:
@@ -68,10 +68,10 @@
       - PillCanister
 
 - type: entity
-  name: ent-RMCBoxSyringe
+  name: box of syringes
   parent: RMCBoxCardboard
   id: RMCBoxSyringe
-  description: ent-RMCBoxSyringe-desc
+  description: A biohazard alert warning is printed on the box
   components:
   - type: StorageFill
     contents:
@@ -81,10 +81,10 @@
     state: syringe
 
 - type: entity
-  name: ent-RMCBoxBeaker
+  name: box of beakers
   parent: RMCBoxCardboard
   id: RMCBoxBeaker
-  description: ent-RMCBoxBeaker-desc
+  description: It's just an ordinary box.
   components:
   - type: StorageFill
     contents:

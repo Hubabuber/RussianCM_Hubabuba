@@ -1,42 +1,46 @@
 ent-RMCDoubleDoorBase = дверь
+
 ent-RMCDoubleDoorAlmayerGlass = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorAlmayerSolid = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorCommandGlass = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorCommandSolid = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorEngineerGlass = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorEngineerSolid = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorGenericGlass = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorGenericSolid = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorMedicalGlass = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorMedicalSolid = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPersonalGlass = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPersonalSolid = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparations = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsAlpha = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsBravo = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsCharlie = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsDelta = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecurityGlass = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecuritySolid = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSPPShipGlass = дверь
+
 ent-RMCDoubleDoorSPPShipSolid = дверь
+
 ent-RMCDoubleDoorSPPShipSolidUtility = дверь
+

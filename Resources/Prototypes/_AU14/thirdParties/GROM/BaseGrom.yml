@@ -1,7 +1,7 @@
 - type: entity
   parent: CMMobHuman
   id: AU14BaseMobSpeciesOrganicUPPGROM
-  suffix: ent-AU14BaseMobSpeciesOrganicUPPGROM-suffix
+  suffix: AU14, UPP, GROM
   abstract: true
   components:
   - type: GhostTakeoverAvailable
@@ -76,9 +76,9 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14FatiguesUPPGROM
-  suffix: ent-AU14FatiguesUPPGROM-suffix
-  name: ent-AU14FatiguesUPPGROM
-  description: ent-AU14FatiguesUPPGROM-desc
+  suffix: AU14, GROM
+  name: UPP naval infantry fatigues
+  description: A standard set of Union of Progressive Peoples Fatigues. It has shards of light Kevlar to help protect against shrapnel. This one has blood and tears after countless battles.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/jumpsuits/upprecon.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: AU14BeltHolsterPistolUPP
   id: AU14BeltHolsterPistolUPPFull
-  suffix: ent-AU14BeltHolsterPistolUPPFull-suffix
+  suffix: Full, T74, GROM
   components: 
   - type: StorageFill
     contents:
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCOuterClothingExternalWebbing
   id: RMCOuterClothingExternalWebbingBrownFull
-  suffix: ent-RMCOuterClothingExternalWebbingBrownFull-suffix
+  suffix: Full, Crowbar
   components: 
   - type: StorageFill
     contents:
@@ -112,7 +112,7 @@
 - type: entity
   parent: AU14WebbingDropPouchUPP
   id: AU14WebbingDropPouchUPPFull
-  suffix: ent-AU14WebbingDropPouchUPPFull-suffix
+  suffix: Full, GROM
   components: 
   - type: StorageFill
     contents:
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCSatchelSPP
   id: RMCSatchelSPPFull
-  suffix: ent-RMCSatchelSPPFull-suffix
+  suffix: Full, GROM
   components: 
   - type: StorageFill
     contents:
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCSatchelSPP
   id: RMCSatchelSPPFullMarksman
-  suffix: ent-RMCSatchelSPPFullMarksman-suffix
+  suffix: Full, GROM
   components: 
   - type: StorageFill
     contents:
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCSatchelSPP
   id: RMCSatchelSPPFullMachinegunner
-  suffix: ent-RMCSatchelSPPFullMachinegunner-suffix
+  suffix: Full, GROM
   components: 
   - type: StorageFill
     contents:
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCPouchCommand
   id: RMCPouchCommandFull
-  suffix: ent-RMCPouchCommandFull-suffix
+  suffix: Full, GROM
   components: 
   - type: StorageFill
     contents:
@@ -167,7 +167,7 @@
 - type: entity
   parent: AU14ShotgunShellLoadingRigUPP
   id: AU14ShotgunShellLoadingRigUPPFull
-  suffix: ent-AU14ShotgunShellLoadingRigUPPFull-suffix
+  suffix: Full, GROM
   components: 
   - type: StorageFill
     contents:
@@ -177,7 +177,7 @@
 - type: entity
   parent: AU14BeltMedicalUPP
   id: AU14BeltMedicalUPPFull
-  suffix: ent-AU14BeltMedicalUPPFull-suffix
+  suffix: Full, GROM
   components: 
   - type: StorageFill
     contents:
@@ -191,7 +191,7 @@
 - type: entity
   parent: AU14BeltMedicalUPP
   id: AU14BeltMedicalUPPFullSupportTech
-  suffix: ent-AU14BeltMedicalUPPFullSupportTech-suffix
+  suffix: Full, GROM
   components: 
   - type: StorageFill
     contents:
@@ -203,7 +203,7 @@
 - type: entity
   parent: AU14PouchPistolAlt
   id: AU14PouchPistolAltFull
-  suffix: ent-AU14PouchPistolAltFull-suffix
+  suffix: Full, GROM, T74
   components: 
   - type: StorageFill
     contents:
@@ -213,7 +213,7 @@
 - type: entity
   parent: AU14BeltSmartGunOperatorPistolUPP
   id: AU14BeltSmartGunOperatorPistolUPPFull
-  suffix: ent-AU14BeltSmartGunOperatorPistolUPPFull-suffix
+  suffix: Full, GROM, T74
   components: 
   - type: StorageFill
     contents:
@@ -225,7 +225,7 @@
 - type: entity
   parent: RMCPouchMagazine
   id: RMCPouchMagazineUPPFull
-  suffix: ent-RMCPouchMagazineUPPFull-suffix
+  suffix: Full, GROM, AG80
   components: 
   - type: StorageFill
     contents:
@@ -234,9 +234,9 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: RMCHeadsetGROM
-  name: ent-RMCHeadsetGROM
-  description: ent-RMCHeadsetGROM-desc
-  suffix: ent-RMCHeadsetGROM-suffix
+  name: UPP SOF headset
+  description: Issued exclusively to UPP Special Forces such as Kommando Spezialkrafte and GROM.
+  suffix: GROM
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/headsets.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCPouchStorage
   id: RMCPouchReagentCanister
-  name: ent-RMCPouchReagentCanister
-  description: ent-RMCPouchReagentCanister-desc
+  name: pressurized reagent canister pouch
+  description: A pressurized reagent canister pouch. It is used to refill custom injectors, and can also store one. May be refilled with a reagent tank or a Chemical Dispenser. Can be worn by attaching it to a pocket.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/pressurized_reagent_canister.rsi
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterBicaridine
-  suffix: ent-RMCPouchReagentCanisterBicaridine-suffix
+  suffix: Bicaridine
   components:
   - type: StorageFill
     contents:
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterKelotane
-  suffix: ent-RMCPouchReagentCanisterKelotane-suffix
+  suffix: Kelotane
   components:
   - type: StorageFill
     contents:
@@ -106,7 +106,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterTricordrazineRevival
-  suffix: ent-RMCPouchReagentCanisterTricordrazineRevival-suffix
+  suffix: Tricordrazine - Revival
   components:
   - type: StorageFill
     contents:
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterTricordrazine
-  suffix: ent-RMCPouchReagentCanisterTricordrazine-suffix
+  suffix: Tricordrazine
   components:
   - type: StorageFill
     contents:
@@ -142,7 +142,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterMeraBic
-  suffix: ent-RMCPouchReagentCanisterMeraBic-suffix
+  suffix: MeraBic
   components:
   - type: StorageFill
     contents:
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterKeloDerm
-  suffix: ent-RMCPouchReagentCanisterKeloDerm-suffix
+  suffix: KeloDerm
   components:
   - type: StorageFill
     contents:

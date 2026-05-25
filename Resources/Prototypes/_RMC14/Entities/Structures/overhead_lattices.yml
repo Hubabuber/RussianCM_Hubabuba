@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   id: RMCOverheadLattice
   abstract: true
-  name: ent-RMCOverheadLattice
-  description: ent-RMCOverheadLattice-desc
+  name: lattice
+  description: A support lattice.
   placement:
     mode: SnapgridCenter
     snap:
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeVertical1
-  suffix: ent-RMCOverheadLatticeVertical1-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical2
-  suffix: ent-RMCOverheadLatticeVertical2-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice.rsi
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical3
-  suffix: ent-RMCOverheadLatticeVertical3-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice.rsi
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical1A
-  suffix: ent-RMCOverheadLatticeVertical1A-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical1B
-  suffix: ent-RMCOverheadLatticeVertical1B-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical1C
-  suffix: ent-RMCOverheadLatticeVertical1C-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical1D
-  suffix: ent-RMCOverheadLatticeVertical1D-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical2A
-  suffix: ent-RMCOverheadLatticeVertical2A-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical2B
-  suffix: ent-RMCOverheadLatticeVertical2B-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical2C
-  suffix: ent-RMCOverheadLatticeVertical2C-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -148,7 +148,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical2D
-  suffix: ent-RMCOverheadLatticeVertical2D-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical3A
-  suffix: ent-RMCOverheadLatticeVertical3A-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -172,7 +172,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical3B
-  suffix: ent-RMCOverheadLatticeVertical3B-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -184,7 +184,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical3C
-  suffix: ent-RMCOverheadLatticeVertical3C-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -196,7 +196,7 @@
 - type: entity
   parent: RMCOverheadLatticeVertical1
   id: RMCOverheadLatticeVertical3D
-  suffix: ent-RMCOverheadLatticeVertical3D-suffix
+  suffix: Vertical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -210,7 +210,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal4
-  suffix: ent-RMCOverheadLatticeHorizontal4-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice.rsi
@@ -222,7 +222,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal8
-  suffix: ent-RMCOverheadLatticeHorizontal8-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice.rsi
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal12
-  suffix: ent-RMCOverheadLatticeHorizontal12-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice.rsi
@@ -246,7 +246,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal4A
-  suffix: ent-RMCOverheadLatticeHorizontal4A-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -258,7 +258,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal4B
-  suffix: ent-RMCOverheadLatticeHorizontal4B-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -270,7 +270,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal4C
-  suffix: ent-RMCOverheadLatticeHorizontal4C-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -282,7 +282,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal4D
-  suffix: ent-RMCOverheadLatticeHorizontal4D-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -294,7 +294,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal5A
-  suffix: ent-RMCOverheadLatticeHorizontal5A-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -306,7 +306,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal5B
-  suffix: ent-RMCOverheadLatticeHorizontal5B-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -318,7 +318,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal5C
-  suffix: ent-RMCOverheadLatticeHorizontal5C-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -330,7 +330,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal5D
-  suffix: ent-RMCOverheadLatticeHorizontal5D-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -342,7 +342,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal6A
-  suffix: ent-RMCOverheadLatticeHorizontal6A-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -354,7 +354,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal6B
-  suffix: ent-RMCOverheadLatticeHorizontal6B-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -366,7 +366,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal6C
-  suffix: ent-RMCOverheadLatticeHorizontal6C-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi
@@ -378,7 +378,7 @@
 - type: entity
   parent: RMCOverheadLattice
   id: RMCOverheadLatticeHorizontal6D
-  suffix: ent-RMCOverheadLatticeHorizontal6D-suffix
+  suffix: Horizontal
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_lattice_hybrisa.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BoozeDispenser
   id: CMDispenserSoda
-  name: ent-CMDispenserSoda
-  description: ent-CMDispenserSoda-desc
+  name: soda fountain
+  description: A drink fabricating machine, capable of producing many sugary drinks with just one touch.
   components:
   - type: Transform
     anchored: false
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCChemStorageBase
   id: RMCChemStorageDrinks
-  suffix: ent-RMCChemStorageDrinks-suffix
+  suffix: Drinks
   components:
   - type: RMCChemicalStorage
     network: RMCChemStorageDrinks

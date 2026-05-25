@@ -13,37 +13,3 @@ ent-AU14SkillPresetPlatoonDCC-name = Командир экипажа штурм�
 ent-AU14SkillPresetPlatoonAuxiliarySupportSynth-name = Синтетик поддержки
 ent-AU14SkillPresetMilitaryDoctor-name = Военный врач
 ent-AU14SkillPresetPlatoonWorkingJoe-name = Рабочий Джо
-
-ent-AU14SkillPresetMilitaryDoctor = военный врач
-
-ent-AU14SkillPresetMilitaryPolice = Военная полиция
-
-ent-AU14SkillPresetPlatoonAdvisor = Советник
-
-ent-AU14SkillPresetPlatoonAutomaticRifleman = Автоматический стрелок
-
-ent-AU14SkillPresetPlatoonAuxTech = Вспомогательный техник
-
-ent-AU14SkillPresetPlatoonAuxiliarySupportSynth = Вспомогательный синтетик поддержки
-
-ent-AU14SkillPresetPlatoonCombatTechnician = Боевой техник
-
-ent-AU14SkillPresetPlatoonCommander = Командир
-
-ent-AU14SkillPresetPlatoonDCC = Начальник экипажа десантного корабля
-
-ent-AU14SkillPresetPlatoonDP = десантный корабль Пилот
-
-ent-AU14SkillPresetPlatoonHospitalCorpsman = Больничный санитар
-
-ent-AU14SkillPresetPlatoonJuniorOfficer = Младший офицер
-
-ent-AU14SkillPresetPlatoonRTO = Оператор радиосообщения
-
-ent-AU14SkillPresetPlatoonRifleman = стрелок
-
-ent-AU14SkillPresetPlatoonSeniorSergeant = Старший сержант
-
-ent-AU14SkillPresetPlatoonSergeant = Сержант
-
-ent-AU14SkillPresetPlatoonWorkingJoe = Рабочий Джо

@@ -1,9 +1,9 @@
 - type: job
   parent: CMSurvivorCorporate
   id: CMSurvivorSolarisCorporateLiaison
-  name: job-cmsurvivorsolariscorporateliaison-name
-  description: job-cmsurvivorsolariscorporateliaison-desc
-  spawnMenuRoleName: job-cmsurvivorsolariscorporateliaison-spawnmenurolename
+  name: rmc-job-name-survivor-solaris-corporate-liaison
+  description: cm-job-description-survivor
+  spawnMenuRoleName: Corporate Liaison (Solaris Survivor)
   startingGear: RMCGearSurvivorSolarisCorporateLiaison
   special:
   - !type:AddComponentSpecial
@@ -36,7 +36,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisCorporateLiaison
-  name: ent-RMCSpawnPointSurvivorSolarisCorporateLiaison
+  name: survivor solaris coporate liaison spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorSolarisCorporateLiaison

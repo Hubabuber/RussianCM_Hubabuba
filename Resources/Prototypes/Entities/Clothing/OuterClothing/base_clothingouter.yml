@@ -68,7 +68,7 @@
   abstract: true
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterStorageFoldableBaseOpened
-  suffix: ent-ClothingOuterStorageFoldableBaseOpened-suffix
+  suffix: opened
   components:
   - type: Foldable
     folded: true
@@ -103,7 +103,7 @@
   abstract: true
   parent: [ClothingOuterBase, GeigerCounterClothing, AllowSuitStorageClothing]
   id: ClothingOuterHardsuitBase
-  name: ent-ClothingOuterHardsuitBase
+  name: base hardsuit
   components:
 # SlotBlocker blocked until UI change
 #  - type: SlotBlock
@@ -150,7 +150,7 @@
   abstract: true
   parent: [ClothingOuterBase, AllowSuitStorageClothing]
   id: ClothingOuterEVASuitBase
-  name: ent-ClothingOuterEVASuitBase
+  name: base EVA Suit
   components:
 # SlotBlocker blocked until UI change
 #  - type: SlotBlock
@@ -178,7 +178,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterBaseToggleable
-  name: ent-ClothingOuterBaseToggleable
+  name: hoodie with hood
   abstract: True
   components:
   - type: ToggleableClothing

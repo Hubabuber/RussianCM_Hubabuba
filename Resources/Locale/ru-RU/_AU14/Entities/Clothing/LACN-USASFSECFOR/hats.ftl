@@ -4,12 +4,3 @@ ent-AU14LACNCommandoBeanie-name = Шапка коммандос LACN
 ent-AU14LACNCommandoBeanie-desc = Шапка, используемая морскими коммандос LACN.
 ent-AU14USASFSECFORBeret-name = Берет сил безопасности USASF
 ent-AU14USASFSECFORBeret-desc = Берет с эмблемой сил безопасности USASF.
-
-ent-AU14LACNCommandoBeanie = Шапка-бини LACN Commandos
-    .desc = Шапка, используемая военно-морскими коммандос LACN.
-
-ent-AU14LACNNavyCap = Кепка ЛАКН
-    .desc = Стандартная кепка, созданная для LACN.
-
-ent-AU14USASFSECFORBeret = Берет сил безопасности USASF
-    .desc = Берет со знаками различия сил безопасности USASF.

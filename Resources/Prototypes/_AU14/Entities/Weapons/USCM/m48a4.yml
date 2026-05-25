@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolM1984
   id: AU14WeaponPistolM48A4
-  name: ent-AU14WeaponPistolM48A4
-  description: ent-AU14WeaponPistolM48A4-desc
+  name: M48A4 service pistol
+  description: A timeless classic since the first World War, the M1911A1 has limited use with the USCM, and is often used as a sidearm by non-governmental bodies due to its reliability. This is a modernized version with an ammo counter and a polymer grip, designated M48A4. Chambered in .45 ACP.
   components:
   - type: Gun
     shotsPerBurst: 2
@@ -82,7 +82,7 @@
 - type: entity
   parent: AU14WeaponPistolM48A4
   id: AU14WeaponPistolM48A4Empty
-  suffix: ent-AU14WeaponPistolM48A4Empty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -98,8 +98,8 @@
 - type: entity
   parent: AU14WeaponPistolM48A4
   id: AU14WeaponPistolM48A4Tactical
-  name: ent-AU14WeaponPistolM48A4Tactical
-  suffix: ent-AU14WeaponPistolM48A4Tactical-suffix
+  name: SOCOM M48A4 service pistol
+  suffix: Tactical
   components:
   - type: AttachableHolder
     slots:
@@ -130,8 +130,8 @@
 - type: entity
   parent: AU14WeaponPistolM48A4
   id: AU14WeaponPistolM48A5Officer
-  name: ent-AU14WeaponPistolM48A5Officer
-  description: ent-AU14WeaponPistolM48A5Officer-desc
+  name: M48A5 service pistol
+  description: A timeless classic since the first World War, the M1911A1 has limited use with the USCM, and is often used as a sidearm by non-governmental bodies due to its reliability. An adaptation of the M48A4, with a reinforced chamber, barrel and slide to handle higher pressure loads, designated the M48A5. Chambered in .45 Super, but can load normal .45 ACP also.
   components:
   - type: Gun
     shotsPerBurst: 2
@@ -207,7 +207,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: AU14MagazinePistolM48A4
-  name: ent-AU14MagazinePistolM48A4
+  name: M48A4 magazine (.45)
   components:
   - type: Tag
     tags:
@@ -238,8 +238,8 @@
 - type: entity
   parent: AU14MagazinePistolM48A4
   id: AU14MagazinePistolM48A5Super
-  name: ent-AU14MagazinePistolM48A5Super
-  description: ent-AU14MagazinePistolM48A5Super-desc
+  name: M48A5 Super magazine (.45 Super)
+  description: A .45 Automagnum Super pistol magazine for the M48A5.
   components:
   - type: Tag
     tags:
@@ -265,7 +265,7 @@
 - type: entity
   parent: CMCartridgePistolMK45
   id: AU14CartridgePistolM48A5Super
-  name: ent-AU14CartridgePistolM48A5Super
+  name: cartridge (.45 Super)
   components:
   - type: Tag
     tags:
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMBulletBase
   id: AU14BulletPistol45Super
-  name: ent-AU14BulletPistol45Super
+  name: bullet (.45 Super)
   components:
   - type: Projectile
     damage:

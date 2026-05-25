@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: BaseComputerCircuitboard
-  name: ent-BaseComputerCircuitboard
+  name: computer board
   abstract: true
   components:
     - type: ComputerBoard
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AlertsComputerCircuitboard
-  name: ent-AlertsComputerCircuitboard
-  description: ent-AlertsComputerCircuitboard-desc
+  name: atmospheric alerts computer board
+  description: A computer printed circuit board for an atmospheric alerts computer.
   components:
     - type: Sprite
       state: cpu_engineering
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AtmosMonitoringComputerCircuitboard
-  name: ent-AtmosMonitoringComputerCircuitboard
-  description: ent-AtmosMonitoringComputerCircuitboard-desc
+  name: atmospheric network monitor board
+  description: A computer printed circuit board for an atmospheric network monitor.
   components:
     - type: Sprite
       state: cpu_engineering
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: PowerComputerCircuitboard
-  name: ent-PowerComputerCircuitboard
-  description: ent-PowerComputerCircuitboard-desc
+  name: power monitoring computer board
+  description: A computer printed circuit board for a power monitoring computer.
   components:
     - type: Sprite
       state: cpu_engineering
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: MedicalRecordsComputerCircuitboard
-  name: ent-MedicalRecordsComputerCircuitboard
-  description: ent-MedicalRecordsComputerCircuitboard-desc
+  name: medical records computer board
+  description: A computer printed circuit board for a medical records computer.
   components:
     - type: Sprite
       state: cpu_medical
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CriminalRecordsComputerCircuitboard
-  name: ent-CriminalRecordsComputerCircuitboard
-  description: ent-CriminalRecordsComputerCircuitboard-desc
+  name: criminal records computer board
+  description: A computer printed circuit board for a criminal records computer.
   components:
     - type: Sprite
       state: cpu_security
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationRecordsComputerCircuitboard
-  name: ent-StationRecordsComputerCircuitboard
-  description: ent-StationRecordsComputerCircuitboard-desc
+  name: station records computer board
+  description: A computer printed circuit board for a station records computer.
   components:
     - type: Sprite
       state: cpu_command
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestComputerCircuitboard
-  name: ent-CargoRequestComputerCircuitboard
-  description: ent-CargoRequestComputerCircuitboard-desc
+  name: cargo request computer board
+  description: A computer printed circuit board for a cargo request computer.
   components:
     - type: Sprite
       state: cpu_supply
@@ -100,8 +100,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestEngineeringComputerCircuitboard
-  name: ent-CargoRequestEngineeringComputerCircuitboard
-  description: ent-CargoRequestEngineeringComputerCircuitboard-desc
+  name: engineering request computer board
+  description: A computer printed circuit board for an engineering request computer.
   components:
   - type: Sprite
     state: cpu_engineering
@@ -113,8 +113,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestMedicalComputerCircuitboard
-  name: ent-CargoRequestMedicalComputerCircuitboard
-  description: ent-CargoRequestMedicalComputerCircuitboard-desc
+  name: medical request computer board
+  description: A computer printed circuit board for a medical request computer.
   components:
   - type: Sprite
     state: cpu_medical
@@ -126,8 +126,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestScienceComputerCircuitboard
-  name: ent-CargoRequestScienceComputerCircuitboard
-  description: ent-CargoRequestScienceComputerCircuitboard-desc
+  name: science request computer board
+  description: A computer printed circuit board for a science request computer.
   components:
   - type: Sprite
     state: cpu_science
@@ -139,8 +139,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestSecurityComputerCircuitboard
-  name: ent-CargoRequestSecurityComputerCircuitboard
-  description: ent-CargoRequestSecurityComputerCircuitboard-desc
+  name: security request computer board
+  description: A computer printed circuit board for a security request computer.
   components:
   - type: Sprite
     state: cpu_security
@@ -152,8 +152,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestServiceComputerCircuitboard
-  name: ent-CargoRequestServiceComputerCircuitboard
-  description: ent-CargoRequestServiceComputerCircuitboard-desc
+  name: service request computer board
+  description: A computer printed circuit board for a service request computer.
   components:
   - type: Sprite
     state: cpu_service
@@ -165,8 +165,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: FundingAllocationComputerCircuitboard
-  name: ent-FundingAllocationComputerCircuitboard
-  description: ent-FundingAllocationComputerCircuitboard-desc
+  name: funding allocation computer board
+  description: A computer printed circuit board for a funding allocation card console.
   components:
   - type: Sprite
     state: cpu_command
@@ -178,8 +178,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoSaleComputerCircuitboard
-  name: ent-CargoSaleComputerCircuitboard
-  description: ent-CargoSaleComputerCircuitboard-desc
+  name: cargo sale computer board
+  description: A computer printed circuit board for a cargo sale computer.
   components:
     - type: Sprite
       state: cpu_supply
@@ -189,8 +189,8 @@
 - type: entity
   id: CargoBountyComputerCircuitboard
   parent: BaseComputerCircuitboard
-  name: ent-CargoBountyComputerCircuitboard
-  description: ent-CargoBountyComputerCircuitboard-desc
+  name: cargo bounty computer board
+  description: A computer printed circuit board for a cargo bounty computer.
   components:
   - type: Sprite
     state: cpu_supply
@@ -201,8 +201,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SalvageJobBoardComputerCircuitboard
-  name: ent-SalvageJobBoardComputerCircuitboard
-  description: ent-SalvageJobBoardComputerCircuitboard-desc
+  name: salvage job board computer board
+  description: A computer printed circuit board for a salvage job board computer.
   components:
   - type: Sprite
     state: cpu_supply
@@ -212,8 +212,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SalvageExpeditionsComputerCircuitboard
-  name: ent-SalvageExpeditionsComputerCircuitboard
-  description: ent-SalvageExpeditionsComputerCircuitboard-desc
+  name: salvage expeditions computer board
+  description: A computer printed circuit board for a salvage expeditions computer.
   components:
     - type: Sprite
       state: cpu_supply
@@ -225,8 +225,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoShuttleConsoleCircuitboard
-  name: ent-CargoShuttleConsoleCircuitboard
-  description: ent-CargoShuttleConsoleCircuitboard-desc
+  name: cargo shuttle console board
+  description: A computer printed circuit board for a cargo shuttle console.
   components:
   - type: Sprite
     state: cpu_supply
@@ -238,8 +238,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SurveillanceCameraMonitorCircuitboard
-  name: ent-SurveillanceCameraMonitorCircuitboard
-  description: ent-SurveillanceCameraMonitorCircuitboard-desc
+  name: surveillance camera monitor board
+  description: A computer printed circuit board for a surveillance camera monitor.
   components:
   - type: Sprite
     state: cpu_security
@@ -252,8 +252,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SurveillanceWirelessCameraMonitorCircuitboard
-  name: ent-SurveillanceWirelessCameraMonitorCircuitboard
-  description: ent-SurveillanceWirelessCameraMonitorCircuitboard-desc
+  name: surveillance wireless camera monitor board
+  description: A computer printed circuit board for a surveillance wireless camera monitor.
   components:
   - type: Sprite
     state: cpu_service
@@ -263,8 +263,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerTelevisionCircuitboard
-  name: ent-ComputerTelevisionCircuitboard
-  description: ent-ComputerTelevisionCircuitboard-desc
+  name: television board
+  description: A computer printed circuit board for a television.
   components:
     - type: ComputerBoard
       prototype: ComputerTelevision
@@ -275,8 +275,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ResearchComputerCircuitboard
-  name: ent-ResearchComputerCircuitboard
-  description: ent-ResearchComputerCircuitboard-desc
+  name: R&D computer board
+  description: A computer printed circuit board for a R&D console.
   components:
     - type: Sprite
       state: cpu_science
@@ -286,8 +286,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AnalysisComputerCircuitboard
-  name: ent-AnalysisComputerCircuitboard
-  description: ent-AnalysisComputerCircuitboard-desc
+  name: analysis computer board
+  description: A computer printed circuit board for an analysis console.
   components:
     - type: Sprite
       state: cpu_science
@@ -297,8 +297,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: TechDiskComputerCircuitboard
-  name: ent-TechDiskComputerCircuitboard
-  description: ent-TechDiskComputerCircuitboard-desc
+  name: tech disk terminal board
+  description: A computer printed circuit board for a technology disk terminal.
   components:
   - type: Sprite
     state: cpu_science
@@ -308,8 +308,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CrewMonitoringComputerCircuitboard
-  name: ent-CrewMonitoringComputerCircuitboard
-  description: ent-CrewMonitoringComputerCircuitboard-desc
+  name: crew monitoring computer board
+  description: A computer printed circuit board for a crew monitoring console.
   components:
   - type: Sprite
     state: cpu_medical
@@ -319,8 +319,8 @@
 - type: entity
   parent: [BaseComputerCircuitboard, BaseCommandContraband]
   id: IDComputerCircuitboard
-  name: ent-IDComputerCircuitboard
-  description: ent-IDComputerCircuitboard-desc
+  name: ID card computer board
+  description: A computer printed circuit board for an ID card console.
   components:
     - type: Sprite
       state: cpu_command
@@ -335,8 +335,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: BodyScannerComputerCircuitboard
-  name: ent-BodyScannerComputerCircuitboard
-  description: ent-BodyScannerComputerCircuitboard-desc
+  name: body scanner computer board
+  description: A computer printed circuit board for a body scanner console.
   components:
     - type: Sprite
       state: cpu_medical
@@ -346,8 +346,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: CommsComputerCircuitboard
-  name: ent-CommsComputerCircuitboard
-  description: ent-CommsComputerCircuitboard-desc
+  name: communications computer board
+  description: A computer printed circuit board for a communications console.
   components:
     - type: Sprite
       state: cpu_command
@@ -357,8 +357,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: SyndicateCommsComputerCircuitboard
-  name: ent-SyndicateCommsComputerCircuitboard
-  description: ent-SyndicateCommsComputerCircuitboard-desc
+  name: syndicate communications computer board
+  description: A computer printed circuit board for a syndicate communications console.
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -368,8 +368,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: WizardCommsComputerCircuitboard
-  name: ent-WizardCommsComputerCircuitboard
-  description: ent-WizardCommsComputerCircuitboard-desc
+  name: wizard communications computer board
+  description: A computer printed circuit board for a wizard communications console.
   components:
   - type: Sprite
     state: cpu_wizard
@@ -379,8 +379,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCentcommContraband ]
   id: CentcommCommsComputerCircuitboard
-  name: ent-CentcommCommsComputerCircuitboard
-  description: ent-CentcommCommsComputerCircuitboard-desc
+  name: central command communications computer board
+  description: A computer printed circuit board for a central command communications console.
   components:
   - type: Sprite
     state: cpu_centcomm
@@ -390,7 +390,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: RadarConsoleCircuitboard
-  name: ent-RadarConsoleCircuitboard
+  name: radar console computer board
   components:
   - type: Sprite
     state: cpu_supply
@@ -400,8 +400,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SolarControlComputerCircuitboard
-  name: ent-SolarControlComputerCircuitboard
-  description: ent-SolarControlComputerCircuitboard-desc
+  name: solar control computer board
+  description: A computer printed circuit board for a solar control console.
   components:
     - type: Sprite
       state: cpu_engineering
@@ -411,8 +411,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SpaceVillainArcadeComputerCircuitboard
-  name: ent-SpaceVillainArcadeComputerCircuitboard
-  description: ent-SpaceVillainArcadeComputerCircuitboard-desc
+  name: space villain arcade board
+  description: A computer printed circuit board for a space villain arcade cabinet.
   components:
     - type: ComputerBoard
       prototype: SpaceVillainArcade
@@ -420,8 +420,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: BlockGameArcadeComputerCircuitboard
-  name: ent-BlockGameArcadeComputerCircuitboard
-  description: ent-BlockGameArcadeComputerCircuitboard-desc
+  name: block game arcade board
+  description: A computer printed circuit board for a block game arcade cabinet.
   components:
     - type: ComputerBoard
       prototype: BlockGameArcade
@@ -429,8 +429,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ParticleAcceleratorComputerCircuitboard
-  name: ent-ParticleAcceleratorComputerCircuitboard
-  description: ent-ParticleAcceleratorComputerCircuitboard-desc
+  name: PA control box computer board
+  description: A computer printed circuit board for a particle accelerator control box.
   components:
     - type: Sprite
       state: cpu_engineering
@@ -440,8 +440,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ShuttleConsoleCircuitboard
-  name: ent-ShuttleConsoleCircuitboard
-  description: ent-ShuttleConsoleCircuitboard-desc
+  name: shuttle console board
+  description: A computer printed circuit board for a shuttle console.
   components:
   - type: Sprite
     state: cpu_supply
@@ -451,8 +451,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: SyndicateShuttleConsoleCircuitboard
-  name: ent-SyndicateShuttleConsoleCircuitboard
-  description: ent-SyndicateShuttleConsoleCircuitboard-desc
+  name: syndicate shuttle console board
+  description: A computer printed circuit board for a syndicate shuttle console.
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -462,8 +462,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CloningConsoleComputerCircuitboard
-  name: ent-CloningConsoleComputerCircuitboard
-  description: ent-CloningConsoleComputerCircuitboard-desc
+  name: cloning console computer board
+  description: A computer printed circuit board for a cloning console.
   components:
     - type: Sprite
       state: cpu_medical
@@ -473,8 +473,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerIFFCircuitboard
-  name: ent-ComputerIFFCircuitboard
-  description: ent-ComputerIFFCircuitboard-desc
+  name: IFF console board
+  description: Allows you to control the IFF characteristics of this vessel.
   components:
     - type: Sprite
       state: cpu_command
@@ -484,8 +484,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: ComputerIFFSyndicateCircuitboard
-  name: ent-ComputerIFFSyndicateCircuitboard
-  description: ent-ComputerIFFSyndicateCircuitboard-desc
+  name: syndicate IFF console board
+  description: Allows you to control the IFF and stealth characteristics of this vessel.
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -495,8 +495,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerMassMediaCircuitboard
-  name: ent-ComputerMassMediaCircuitboard
-  description: ent-ComputerMassMediaCircuitboard-desc
+  name: news manager console board
+  description: Write your message to the world!
   components:
     - type: Sprite
       state: cpu_service
@@ -508,8 +508,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SensorConsoleCircuitboard
-  name: ent-SensorConsoleCircuitboard
-  description: ent-SensorConsoleCircuitboard-desc
+  name: sensor monitoring console board
+  description: A computer printed circuit board for a sensor monitoring console.
   components:
     - type: Sprite
       state: cpu_engineering
@@ -519,8 +519,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: RoboticsConsoleCircuitboard
-  name: ent-RoboticsConsoleCircuitboard
-  description: ent-RoboticsConsoleCircuitboard-desc
+  name: robotics control console board
+  description: A computer printed circuit board for a robotics control console.
   components:
     - type: Sprite
       state: cpu_science
@@ -530,8 +530,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationAiUploadCircuitboard
-  name: ent-StationAiUploadCircuitboard
-  description: ent-StationAiUploadCircuitboard-desc
+  name: AI upload console board
+  description: A computer printed circuit board for a AI upload console.
   components:
     - type: Sprite
       state: cpu_science

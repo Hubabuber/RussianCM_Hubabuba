@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: TelecomServer
-  name: ent-TelecomServer
-  description: ent-TelecomServer-desc
+  name: telecommunication server
+  description: When powered and filled with encryption keys it allows radio headset communication.
   components:
   - type: Sprite
     sprite: Structures/Machines/telecomms.rsi
@@ -188,7 +188,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilled
-  suffix: ent-TelecomServerFilled-suffix
+  suffix: Filled All
   components:
   - type: ContainerFill
     containers:
@@ -205,7 +205,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledCommon
-  suffix: ent-TelecomServerFilledCommon-suffix
+  suffix: Common
   components:
   - type: ContainerFill
     containers:
@@ -215,7 +215,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledCargo
-  suffix: ent-TelecomServerFilledCargo-suffix
+  suffix: Cargo
   components:
   - type: ContainerFill
     containers:
@@ -225,7 +225,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledEngineering
-  suffix: ent-TelecomServerFilledEngineering-suffix
+  suffix: Engineering
   components:
   - type: ContainerFill
     containers:
@@ -235,7 +235,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledMedical
-  suffix: ent-TelecomServerFilledMedical-suffix
+  suffix: Medical
   components:
   - type: ContainerFill
     containers:
@@ -245,7 +245,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledScience
-  suffix: ent-TelecomServerFilledScience-suffix
+  suffix: Science
   components:
   - type: ContainerFill
     containers:
@@ -255,7 +255,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledSecurity
-  suffix: ent-TelecomServerFilledSecurity-suffix
+  suffix: Security
   components:
   - type: ContainerFill
     containers:
@@ -265,7 +265,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledService
-  suffix: ent-TelecomServerFilledService-suffix
+  suffix: Service
   components:
   - type: ContainerFill
     containers:
@@ -275,7 +275,7 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledCommand
-  suffix: ent-TelecomServerFilledCommand-suffix
+  suffix: Command
   components:
   - type: ContainerFill
     containers:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCSyringeCase
-  name: ent-RMCSyringeCase
-  description: ent-RMCSyringeCase-desc
+  name: syringe case
+  description: It's a medical case for storing syringes and bottles.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/syringe_case.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilled
-  suffix: ent-RMCSyringeCaseFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledBurn
-  suffix: ent-RMCSyringeCaseFilledBurn-suffix
+  suffix: Burn, Filled
   components:
   - type: StorageFill
     contents:
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledToxin
-  suffix: ent-RMCSyringeCaseFilledToxin-suffix
+  suffix: Toxin, Filled
   components:
   - type: StorageFill
     contents:
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledOxygen
-  suffix: ent-RMCSyringeCaseFilledOxygen-suffix
+  suffix: Oxygen, Filled
   components:
   - type: StorageFill
     contents:
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledRCM
-  suffix: ent-RMCSyringeCaseFilledRCM-suffix
+  suffix: RCM, Filled
 #  components:
 #  - type: StorageFill
 #    contents:
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledWhiteout
-  suffix: ent-RMCSyringeCaseFilledWhiteout-suffix
+  suffix: Whiteout, Filled
   components:
   - type: StorageFill
     contents:
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledPMC
-  suffix: ent-RMCSyringeCaseFilledPMC-suffix
+  suffix: PMC, Filled
   components:
   - type: StorageFill
     contents:
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledPMCLooted
-  suffix: ent-RMCSyringeCaseFilledPMCLooted-suffix
+  suffix: PMC, Looted
   components:
   - type: StorageFill
     contents:

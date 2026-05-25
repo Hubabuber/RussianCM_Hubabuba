@@ -4,37 +4,17 @@ ent-ClothingOuterEVASuitBase-name = базовый костюм EVA
 
 ent-ClothingOuterBaseToggleable-name = толстовка с капюшоном
 
-ent-ClothingOuterBase-name = Одежда
+ent-ClothingOuterBase-name = lathe-category-clothing
 
-ent-ClothingOuterBaseLarge-name = Одежда
+ent-ClothingOuterBaseLarge-name = lathe-category-clothing
 
-ent-ClothingOuterStorageBase-name = Одежда
+ent-ClothingOuterStorageBase-name = lathe-category-clothing
 
-ent-ClothingOuterStorageFoldableBase-name = Одежда
+ent-ClothingOuterStorageFoldableBase-name = lathe-category-clothing
 
-ent-ClothingOuterStorageFoldableBaseOpened-name = Одежда
+ent-ClothingOuterStorageFoldableBaseOpened-name = lathe-category-clothing
 
-ent-ClothingOuterStorageToggleableBase-name = Одежда
+ent-ClothingOuterStorageToggleableBase-name = lathe-category-clothing
 
-ent-ClothingOuterBaseMedium-name = Одежда
+ent-ClothingOuterBaseMedium-name = lathe-category-clothing
 
-ent-ClothingOuterBase = item
-
-ent-ClothingOuterBaseLarge = item
-
-ent-ClothingOuterBaseMedium = item
-
-ent-ClothingOuterBaseToggleable = толстовка с капюшоном
-
-ent-ClothingOuterEVASuitBase = базовый костюм EVA
-
-ent-ClothingOuterHardsuitBase = базовый комбинезон
-
-ent-ClothingOuterStorageBase = item
-
-ent-ClothingOuterStorageFoldableBase = item
-
-ent-ClothingOuterStorageFoldableBaseOpened = item
-    .suffix = открыт
-
-ent-ClothingOuterStorageToggleableBase = item

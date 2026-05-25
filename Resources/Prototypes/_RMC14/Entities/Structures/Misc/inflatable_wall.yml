@@ -1,7 +1,7 @@
 - type: entity
   id: RMCInflatableWall
-  name: ent-RMCInflatableWall
-  description: ent-RMCInflatableWall-desc
+  name: inflatable wall
+  description: An inflated membrane. Activate to deflate. Do not puncture.
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseMaterialDoor
   id: RMCInflatableDoor
-  name: ent-RMCInflatableDoor
-  description: ent-RMCInflatableDoor-desc
+  name: inflatable door
+  description: An inflated membrane. Activate to deflate. Now with a door. Do not puncture.
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCInflatableWallBroken
-  name: ent-RMCInflatableWallBroken
-  description: ent-RMCInflatableWallBroken-desc
+  name: popped inflatable wall
+  description: This used to be an inflatable wall, now it's just a mess of plastic.
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCInflatableWallBroken
   id: RMCInflatableDoorBroken
-  name: ent-RMCInflatableDoorBroken
-  description: ent-RMCInflatableDoorBroken-desc
+  name: popped inflatable door
+  description: This used to be an inflatable door, now it's just a mess of plastic.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/inflatable_door.rsi

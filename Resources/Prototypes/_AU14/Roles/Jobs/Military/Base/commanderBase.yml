@@ -2,11 +2,11 @@
   abstract: true
   parent: CMJobBase
   id: AU14JobPlatCoBaseAbstract
-  name: job-au14jobplatcobaseabstract-name
-  description: job-au14jobplatcobaseabstract-desc
+  name: au14-job-name-govforplatco
+  description: au14-job-description-govforplatco
   icon: "AU14JobIconPlatCo"
-  spawnMenuRoleName: job-au14jobplatcobaseabstract-spawnmenurolename
-  supervisors: job-au14jobplatcobaseabstract-supervisors
+  spawnMenuRoleName: Platoon Commander (GOVFOR)
+  supervisors: au14-job-supervisors-govforplatco
   startingGear: AU14GearGOVFORPlatCo
   dummyStartingGear: AU14GearGOVFORPlatCoDummy
   playTimeTracker: AU14JobGOVFORPlatCo
@@ -103,7 +103,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORPlatCo
-  name: ent-AU14SpawnPointGOVFORPlatCo
+  name: Spawn Point GOVFOR Platoon Commander
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORPlatCo

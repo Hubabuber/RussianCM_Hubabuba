@@ -1,10 +1,10 @@
-- type: job
+﻿- type: job
   parent: CMSurvivorScientist
   id: RMCSurvivorKutjevoResearcher
-  name: job-rmcsurvivorkutjevoresearcher-name
-  description: job-rmcsurvivorkutjevoresearcher-desc
+  name: rmc-job-name-survivor-kutjevo-researcher
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorKutjevoResearcher
-  spawnMenuRoleName: job-rmcsurvivorkutjevoresearcher-spawnmenurolename
+  spawnMenuRoleName: Kutjevo Researcher (Kutjevo Survivor)
   accessGroups:
   - ColonistMedical
   useLoadoutOfJob: CMSurvivorScientist # for inheritance
@@ -23,7 +23,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoResearcher
-  name: ent-RMCSpawnPointSurvivorKutjevoResearcher
+  name: survivor kutjevo researcher spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoResearcher
@@ -35,5 +35,5 @@
 - type: entity
   parent: RMCSurvivorPresetScientist
   id: RMCSurvivorPresetKutjevoResearcher
-  name: ent-RMCSurvivorPresetKutjevoResearcher # TODO RMC14 random research notes
+  name: kutjevo researcher colonist preset # TODO RMC14 random research notes
   categories: [ HideSpawnMenu ]

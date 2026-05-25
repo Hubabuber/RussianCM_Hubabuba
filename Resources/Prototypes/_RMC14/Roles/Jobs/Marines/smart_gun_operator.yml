@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMSmartGunOperator
-  name: job-cmsmartgunoperator-name
-  description: job-cmsmartgunoperator-desc
+  name: cm-job-name-smart-gun-operator
+  description: cm-job-description-smart-gun-operator
   setPreference: false
   playTimeTracker: CMJobSmartGunOperator
   ranks:
@@ -14,7 +14,7 @@
   icon: "CMJobIconSmartGunOperator"
   joinNotifyCrew: false
   marineAuthorityLevel: 1
-  supervisors: job-cmsmartgunoperator-supervisors
+  supervisors: cm-job-supervisors-sl
   accessGroups:
   - SmartGunOperator
   overwatchSortPriority: -3
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSmartGunOperator
-  name: ent-CMSpawnPointSmartGunOperator
+  name: smart gun operator spawn point
   components:
   - type: SpawnPoint
     job_id: CMSmartGunOperator
@@ -79,7 +79,7 @@
 - type: entity
   parent: CMSpawnPointSmartGunOperator
   id: CMSpawnPointSmartGunOperatorAlpha
-  suffix: ent-CMSpawnPointSmartGunOperatorAlpha-suffix
+  suffix: Alpha
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointSmartGunOperator
   id: CMSpawnPointSmartGunOperatorBravo
-  suffix: ent-CMSpawnPointSmartGunOperatorBravo-suffix
+  suffix: Bravo
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMSpawnPointSmartGunOperator
   id: CMSpawnPointSmartGunOperatorCharlie
-  suffix: ent-CMSpawnPointSmartGunOperatorCharlie-suffix
+  suffix: Charlie
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMSpawnPointSmartGunOperator
   id: CMSpawnPointSmartGunOperatorDelta
-  suffix: ent-CMSpawnPointSmartGunOperatorDelta-suffix
+  suffix: Delta
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSGO
-  name: ent-RMCGuidebookRoleSGO
-  description: ent-RMCGuidebookRoleSGO-desc
+  name: Smart Gun Operator
+  description: Smart Gun Operator
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

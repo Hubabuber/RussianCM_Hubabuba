@@ -1,7 +1,7 @@
 - type: entity
   id: WarpPoint
   parent: MarkerBase
-  name: ent-WarpPoint
+  name: warp point
   components:
   - type: WarpPoint
   - type: Sprite
@@ -10,7 +10,7 @@
 - type: entity
   id: WarpPointBeacon
   parent: WarpPoint
-  name: ent-WarpPointBeacon
+  name: warp point (beacon)
   components:
   - type: NavMapBeacon
   - type: WarpPoint
@@ -20,7 +20,7 @@
 - type: entity
   id: GhostWarpPoint
   parent: MarkerBase
-  name: ent-GhostWarpPoint
+  name: ghost only warp point
   components:
   - type: Tag
     tags:
@@ -35,8 +35,8 @@
 - type: entity
   parent: WarpPoint
   id: WarpPointBombing
-  name: ent-WarpPointBombing
-  suffix: ent-WarpPointBombing-suffix
+  name: warp point
+  suffix: ninja bombing target
   components:
   - type: BombingTarget
   - type: Tag

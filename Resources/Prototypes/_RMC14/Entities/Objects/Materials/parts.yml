@@ -1,9 +1,9 @@
 - type: entity
   parent: PartRodMetal
   id: CMRodMetal
-  name: ent-CMRodMetal
-  description: ent-CMRodMetal-desc
-  suffix: ent-CMRodMetal-suffix
+  name: metal rod
+  description: Some rods. Can be used for building, or something.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Materials/parts.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: CMRodMetal
   id: CMRodMetal10
-  name: ent-CMRodMetal10
-  suffix: "ent-CMRodMetal10-suffix"
+  name: metal rod
+  suffix: "10"
   components:
   - type: Sprite
     state: rods
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMRodMetal
   id: CMRodMetal1
-  name: ent-CMRodMetal1
-  suffix: ent-CMRodMetal1-suffix
+  name: metal rod
+  suffix: Single
   components:
   - type: Sprite
     state: rods
@@ -74,9 +74,9 @@
 - type: entity
   parent: CMRodMetal
   id: CMRodPlasteel
-  name: ent-CMRodPlasteel
-  description: ent-CMRodPlasteel-desc
-  suffix: ent-CMRodPlasteel-suffix
+  name: plasteel rod
+  description: Some plasteel rods. Can be used for building sturdier structures and objects.
+  suffix: Filled
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -105,8 +105,8 @@
 - type: entity
   parent: CMRodPlasteel
   id: CMRodPlasteel10
-  name: ent-CMRodPlasteel10
-  suffix: "ent-CMRodPlasteel10-suffix"
+  name: plasteel rod
+  suffix: "10"
   components:
   - type: Sprite
     state: rods_plasteel
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMRodPlasteel
   id: CMRodPlasteel1
-  name: ent-CMRodPlasteel1
-  suffix: ent-CMRodPlasteel1-suffix
+  name: plasteel rod
+  suffix: Single
   components:
   - type: Sprite
     state: rods_plasteel

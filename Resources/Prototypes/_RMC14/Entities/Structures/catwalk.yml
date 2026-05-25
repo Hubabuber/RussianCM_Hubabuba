@@ -1,7 +1,7 @@
 - type: entity
   id: CMCatwalk
-  name: ent-CMCatwalk
-  description: ent-CMCatwalk-desc
+  name: catwalk
+  description: A catwalk for easier EVA maneuvering and cable placement.
   placement:
     mode: SnapgridCenter
   components:
@@ -91,7 +91,7 @@
 - type: entity
   parent: CMCatwalk
   id: RMCCatwalkHybrisa
-  name: ent-RMCCatwalkHybrisa
+  name: solid metal grate
   components:
   - type: Sprite
     state: solidgrate1
@@ -99,7 +99,7 @@
 - type: entity
   parent: CMCatwalk
   id: RMCCatwalkHybrisaLattice
-  name: ent-RMCCatwalkHybrisaLattice
+  name: structural lattice
   components:
   - type: Sprite
     state: latticefull
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMCatwalk
   id: RMCCatwalkHybrisaElevator
-  name: ent-RMCCatwalkHybrisaElevator
+  name: solid metal grate
   components:
   - type: Sprite
     state: solidgrate5
@@ -116,8 +116,8 @@
 
 - type: entity
   id: RMCMonorailStraight
-  name: ent-RMCMonorailStraight
-  description: ent-RMCMonorailStraight-desc
+  name: monorail track
+  description: The rail system for the CORSAT monorail.
   placement:
     mode: SnapgridCenter
   components:
@@ -158,8 +158,8 @@
 - type: entity
   parent: RMCMonorailStraight
   id: RMCRailroadStraight
-  name: ent-RMCRailroadStraight
-  description: ent-RMCRailroadStraight-desc
+  name: rails
+  description: Minecarts and rail vehicles go on these.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/catwalk.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: RMCRailroadStraight
   id: RMCRailroadBumper
-  name: ent-RMCRailroadBumper
-  description: ent-RMCRailroadBumper-desc
+  name: rail bumpers
+  description: This (usually) stops minecarts and other rail vehicles at the end of a line of track.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/catwalk.rsi

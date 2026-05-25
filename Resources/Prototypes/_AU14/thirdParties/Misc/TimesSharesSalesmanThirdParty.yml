@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianTimesSharesSalesman
-  name: job-au14jobciviliantimessharessalesman-name
-  description: job-au14jobciviliantimessharessalesman-desc
+  name: Timeshares Salesperson
+  description: You are a timeshares salesperson sent to the frontier to sell vacation packages. You travel from colony to colony trying to convince people to buy into shared properties.
   setPreference: true
   playTimeTracker: AU14JobCivilianDeliveryPizzaBoy
   ranks:
@@ -11,7 +11,7 @@
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobciviliantimessharessalesman-supervisors
+  supervisors: au14-job-supervisors-loner
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -38,7 +38,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14PartyJobTimeSharesSalesman
-  name: ent-AU14PartyJobTimeSharesSalesman
+  name: Timeshares Salesperson
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -84,7 +84,7 @@
 - type: entity
   parent: AU14SlingSatchelBlack
   id: AU14SlingSatchelBlueTimeSharesSalesman
-  suffix: ent-AU14SlingSatchelBlueTimeSharesSalesman-suffix
+  suffix: Filled, Time Shares Salesman
   components:
   - type: StorageFill
     contents:

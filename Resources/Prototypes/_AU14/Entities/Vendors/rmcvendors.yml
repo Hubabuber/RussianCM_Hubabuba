@@ -3,8 +3,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCclothingequipmentvendor
-  name: ent-AU14RMCclothingequipmentvendor
-  description: ent-AU14RMCclothingequipmentvendor-desc
+  name: Royal Marines apparel vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Royal Marine Commandos apparel.
+    Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
+    Manufactured to outfit personnel rapidly following cryogenic hypersleep or emergency mobilization.
+
+    For full operational readiness, select one item from each section: fatigues with a webbing, footwear, gloves, headgear, armor, backpack, belt and a pouch.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -246,8 +251,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCequipmentvendor
-  name: ent-AU14RMCequipmentvendor
-  description: ent-AU14RMCequipmentvendor-desc
+  name: Royal Marines equipment vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Royal Marine Commandos equipment.
+    Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
+    The interface is intentionally simple, even someone with tunnel-vision and frostbite can operate it.
+
+    Rapid-issue protocol: prioritize medical supplies, a ration pack, an e-tool and sandbags.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -380,8 +390,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCcorpsmanvendor
-  name: ent-AU14RMCcorpsmanvendor
-  description: ent-AU14RMCcorpsmanvendor-desc
+  name: Royal Marines corpsman medical vendor
+  description: >-
+    An automated medical rack, hooked up to a compact stock of Royal Marine Commandos trauma supplies.
+    Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
+    Designed for rapid reconstitution of combat medics following cryogenic hypersleep or emergency call-up.
+
+    Corpsman protocol: select the essential equipment set, storage and limited medications.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
@@ -507,8 +522,12 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCaircrewvendor
-  name: ent-AU14RMCaircrewvendor
-  description: ent-AU14RMCaircrewvendor-desc
+  name: Royal Marines aircrew vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Royal Marine Commandos aircrew flight and support gear.
+    Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
+
+    Aircrew protocol: select a set of fatigues, the essential medical equipment and storage kit.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
@@ -687,8 +706,10 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCcommandequipmentvendor
-  name: ent-AU14RMCcommandequipmentvendor
-  description: ent-AU14RMCcommandequipmentvendor-desc
+  name: Royal Marines command vendor
+  description: >-
+    An automated command rack, hooked up to a restricted storage of Royal Marine Commandos command-leadership equipment.
+    Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforCommand" ], [ "AU14AccessOpforCommand" ] ]
@@ -768,8 +789,11 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCSGequipmentvendor
-  name: ent-AU14RMCSGequipmentvendor
-  description: ent-AU14RMCSGequipmentvendor-desc
+  name: Royal Marines smartgunner equipment vendor
+  description: >-
+    An automated smartgunner rack, hooked up to a small armory of Royal Marine Commandos heavy-weapon operator systems.
+    Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
+    Built to bring heavy fire support online rapidly after cryogenic hypersleep or emergency mobilization.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforGunner" ], [ "AU14AccessOpforGunner" ] ]
@@ -806,8 +830,10 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCsectionleaderequipmentvendor
-  name: ent-AU14RMCsectionleaderequipmentvendor
-  description: ent-AU14RMCsectionleaderequipmentvendor-desc
+  name: Royal Marines section leader vendor
+  description: >-
+    An automated equipment rack, hooked up to a compact storage of Royal Marine Commandos section-leadership equipment.
+    Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforFTL" ], [ "AU14AccessOpforFTL" ] ]
@@ -844,8 +870,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCWeaponsVendor
-  name: ent-AU14RMCWeaponsVendor
-  description: ent-AU14RMCWeaponsVendor-desc
+  name: Royal Marines weapons rack
+  description: >-
+    An automated weapons rack, hooked up to a small armory of Royal Marine Commandos weaponry.
+    Standard issue across the frontier where threats can appear without warning.
+    Engineered to arm personnel in seconds following cryogenic hypersleep or emergency mobilization.
+
+    For immediate combat readiness: select a primary weapon kit and a sidearm.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -885,8 +916,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCRTOVendor
-  name: ent-AU14RMCRTOVendor
-  description: ent-AU14RMCRTOVendor-desc
+  name: Royal Marines radio telephone operator rack
+  description: An automated rack hooked up to a small storage of radio equipment.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforFTL" ], [ "AU14AccessOpforFTL" ] ]
@@ -921,8 +952,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCSpecialWeaponsVendor
-  name: ent-AU14RMCSpecialWeaponsVendor
-  description: ent-AU14RMCSpecialWeaponsVendor-desc
+  name: Royal Marines special weapons rack
+  description: >-
+    An automated special weapons rack, hooked up to a restricted armory of Royal Marine Commandos heavy and breaching ordnance.
+    Standard issue only for qualified operators.
+    Engineered to deliver overwhelming firepower the instant cryogenic hypersleep ends or an emergency mobilization is called.
+
+    Special weapons protocol: one weapon system of choice with a full ammunition loadout and explosives.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -996,8 +1032,12 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCAircrewWeaponsVendor
-  name: ent-AU14RMCAircrewWeaponsVendor
-  description: ent-AU14RMCAircrewWeaponsVendor-desc
+  name: Royal Marines aircrew weapons rack
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Royal Marine Commandos aircrew flight and support gear.
+    Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
+
+    Aircrew protocol: select a set of fatigues, the essential medical equipment and storage kit.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
@@ -1033,8 +1073,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCComtechGearVendor
-  name: ent-AU14RMCComtechGearVendor
-  description: ent-AU14RMCComtechGearVendor-desc
+  name: Royal Marines combat technicians gear rack
+  description: An automated gear rack for combat technicians.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforEngineering" ], [ "AU14AccessOpforEngineering" ] ]
@@ -1112,8 +1152,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14RMCRequisitionVendor
-  name: ent-AU14RMCRequisitionVendor
-  description: ent-AU14RMCRequisitionVendor-desc
+  name: royal marines automated requisitions vendor
+  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

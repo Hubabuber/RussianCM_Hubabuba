@@ -44,7 +44,7 @@
   parent: FoodCakeBase
   id: FoodCakeSliceBase
   abstract: true
-  description: ent-FoodCakeSliceBase-desc
+  description: Just a slice of cake, it is enough for everyone.
   components:
   - type: FlavorProfile
     flavors:
@@ -69,10 +69,10 @@
 # Custom Cake Example
 
 - type: entity
-  name: ent-FoodCakeBlueberry
+  name: blueberry cake
   parent: FoodCakeBase
   id: FoodCakeBlueberry
-  description: ent-FoodCakeBlueberry-desc
+  description: Stains your teeth.
   components:
   - type: Sprite
     layers:
@@ -97,10 +97,10 @@
         color: blue
 
 - type: entity
-  name: ent-FoodCakeBlueberrySlice
+  name: blueberry slice
   parent: FoodCakeSliceBase
   id: FoodCakeBlueberrySlice
-  description: ent-FoodCakeBlueberrySlice-desc
+  description: Stains your teeth.
   components:
   - type: Sprite
     layers:
@@ -126,10 +126,10 @@
 # Cake
 
 - type: entity
-  name: ent-FoodCakePlain
+  name: cake
   parent: FoodCakeBase
   id: FoodCakePlain
-  description: ent-FoodCakePlain-desc
+  description: A plain cake, not a lie.
   components:
   - type: Sprite
     state: plain
@@ -150,7 +150,7 @@
 # Added in type lines above
 
 - type: entity
-  name: ent-FoodCakePlainSlice
+  name: slice of cake
   parent: FoodCakeSliceBase
   id: FoodCakePlainSlice
   components:
@@ -170,10 +170,10 @@
 # Tastes like sweetness, cake.
 
 - type: entity
-  name: ent-FoodCakeCarrot
+  name: carrot cake
   parent: FoodCakeBase
   id: FoodCakeCarrot
-  description: ent-FoodCakeCarrot-desc
+  description: A favorite desert of a certain wascally wabbit.
   components:
   - type: Sprite
     state: carrot
@@ -208,10 +208,10 @@
         color: "#ffbd2f"
 
 - type: entity
-  name: ent-FoodCakeCarrotSlice
+  name: slice of carrot cake
   parent: FoodCakeSliceBase
   id: FoodCakeCarrotSlice
-  description: ent-FoodCakeCarrotSlice-desc
+  description: Carrotty slice of carrot cake. Carrots are good for your eyes!
   components:
   - type: Sprite
     state: carrot-slice
@@ -247,10 +247,10 @@
 # Tastes like sweetness, cake, carrot.
 
 - type: entity
-  name: ent-FoodCakeBrain
+  name: brain cake
   parent: FoodCakeBase
   id: FoodCakeBrain
-  description: ent-FoodCakeBrain-desc
+  description: A squishy cake-thing.
   components:
   - type: Sprite
     state: brain
@@ -274,10 +274,10 @@
         color: "#ff5b7a"
 
 - type: entity
-  name: ent-FoodCakeBrainSlice
+  name: slice of brain cake
   parent: FoodCakeSliceBase
   id: FoodCakeBrainSlice
-  description: ent-FoodCakeBrainSlice-desc
+  description: Lemme tell you something about prions. THEY'RE DELICIOUS.
   components:
   - type: Sprite
     state: brain-slice
@@ -301,10 +301,10 @@
 # Tastes like sweetness, cake, brains.
 
 - type: entity
-  name: ent-FoodCakeCheese
+  name: cheese cake
   parent: FoodCakeBase
   id: FoodCakeCheese
-  description: ent-FoodCakeCheese-desc
+  description: DANGEROUSLY cheesy.
   components:
   - type: Sprite
     state: cheese
@@ -322,10 +322,10 @@
         color: "#ffffff"
 
 - type: entity
-  name: ent-FoodCakeCheeseSlice
+  name: slice of cheese cake
   parent: FoodCakeSliceBase
   id: FoodCakeCheeseSlice
-  description: ent-FoodCakeCheeseSlice-desc
+  description: Slice of pure cheestisfaction.
   components:
   - type: Sprite
     state: cheese-slice
@@ -342,10 +342,10 @@
 # Tastes like sweetness, cream cheese.
 
 - type: entity
-  name: ent-FoodCakeOrange
+  name: orange cake
   parent: FoodCakeBase
   id: FoodCakeOrange
-  description: ent-FoodCakeOrange-desc
+  description: A cake with added orange.
   components:
   - type: Sprite
     layers:
@@ -370,7 +370,7 @@
         color: "#ff9900"
 
 - type: entity
-  name: ent-FoodCakeOrangeSlice
+  name: slice of orange cake
   parent: FoodCakeSliceBase
   id: FoodCakeOrangeSlice
   components:
@@ -397,10 +397,10 @@
 # Tastes like sweetness, cake, oranges.
 
 - type: entity
-  name: ent-FoodCakeLime
+  name: lime cake
   parent: FoodCakeBase
   id: FoodCakeLime
-  description: ent-FoodCakeLime-desc
+  description: A cake with added lime.
   components:
   - type: Sprite
     layers:
@@ -425,7 +425,7 @@
         color: "#00ff00"
 
 - type: entity
-  name: ent-FoodCakeLimeSlice
+  name: slice of lime cake
   parent: FoodCakeSliceBase
   id: FoodCakeLimeSlice
   components:
@@ -452,10 +452,10 @@
 # Tastes like sweetness, cake, limes.
 
 - type: entity
-  name: ent-FoodCakeLemon
+  name: lemon cake
   parent: FoodCakeBase
   id: FoodCakeLemon
-  description: ent-FoodCakeLemon-desc
+  description: A cake with added lemon.
   components:
   - type: Sprite
     layers:
@@ -480,7 +480,7 @@
         color: "#ffff00"
 
 - type: entity
-  name: ent-FoodCakeLemonSlice
+  name: slice of lemon cake
   parent: FoodCakeSliceBase
   id: FoodCakeLemonSlice
   components:
@@ -507,10 +507,10 @@
 # Tastes like sweetness, cake, lemons.
 
 - type: entity
-  name: ent-FoodCakeLemoon
+  name: lemoon cake
   parent: FoodCakeBase
   id: FoodCakeLemoon
-  description: ent-FoodCakeLemoon-desc
+  description: A cake that represents the moon of earth.
   components:
   - type: Sprite
     state: lemoon
@@ -539,10 +539,10 @@
     heldPrefix: lemoon
 
 - type: entity
-  name: ent-FoodCakeLemoonSlice
+  name: shard of lemoon cake
   parent: FoodCakeSliceBase
   id: FoodCakeLemoonSlice
-  description: ent-FoodCakeLemoonSlice-desc
+  description: A shard of moon, has the smell of milk.
   components:
   - type: Sprite
     state: lemoon-slice
@@ -580,10 +580,10 @@
         color: "#fffead"
 
 - type: entity
-  name: ent-FoodCakeChocolate
+  name: chocolate cake
   parent: FoodCakeBase
   id: FoodCakeChocolate
-  description: ent-FoodCakeChocolate-desc
+  description: A cake with added chocolate.
   components:
   - type: Sprite
     layers:
@@ -612,7 +612,7 @@
         color: "#ba672e"
 
 - type: entity
-  name: ent-FoodCakeChocolateSlice
+  name: slice of chocolate cake
   parent: FoodCakeSliceBase
   id: FoodCakeChocolateSlice
   components:
@@ -642,10 +642,10 @@
 # Tastes like sweetness, cake, chocolate.
 
 - type: entity
-  name: ent-FoodCakeApple
+  name: apple cake
   parent: FoodCakeBase
   id: FoodCakeApple
-  description: ent-FoodCakeApple-desc
+  description: A cake centred with apple.
   components:
   - type: Sprite
     layers:
@@ -670,10 +670,10 @@
         color: "#ff4300"
 
 - type: entity
-  name: ent-FoodCakeAppleSlice
+  name: slice of apple cake
   parent: FoodCakeSliceBase
   id: FoodCakeAppleSlice
-  description: ent-FoodCakeAppleSlice-desc
+  description: A slice of heavenly cake.
   components:
   - type: Sprite
     layers:
@@ -699,10 +699,10 @@
 # Tastes like sweetness, cake, slime.
 
 - type: entity
-  name: ent-FoodCakeSlime
+  name: slime cake
   parent: FoodCakeBase
   id: FoodCakeSlime
-  description: ent-FoodCakeSlime-desc
+  description: A cake made of slimes. Probably not electrified.
   components:
   - type: Sprite
     state: slime
@@ -726,10 +726,10 @@
         color: "#00ffff"
 
 - type: entity
-  name: ent-FoodCakeSlimeSlice
+  name: slice of slime cake
   parent: FoodCakeSliceBase
   id: FoodCakeSlimeSlice
-  description: ent-FoodCakeSlimeSlice-desc
+  description: A slice of slime cake.
   components:
   - type: Sprite
     state: slime-slice
@@ -753,10 +753,10 @@
 # Tastes like sweetness, cake, slime.
 
 - type: entity
-  name: ent-FoodCakePumpkin
+  name: pumpkin-spice cake
   parent: FoodCakeBase
   id: FoodCakePumpkin
-  description: ent-FoodCakePumpkin-desc
+  description: A hollow cake with real pumpkin.
   components:
   - type: Sprite
     state: pumpkinspice
@@ -787,10 +787,10 @@
         color: "#ffffff"
 
 - type: entity
-  name: ent-FoodCakePumpkinSlice
+  name: slice of pumpkin-spice cake
   parent: FoodCakeSliceBase
   id: FoodCakePumpkinSlice
-  description: ent-FoodCakePumpkinSlice-desc
+  description: A spicy slice of pumpkin goodness.
   components:
   - type: Sprite
     state: pumpkinspice-slice
@@ -821,10 +821,10 @@
 # Tastes like sweetness, cake, pumpkin.
 
 - type: entity
-  name: ent-FoodCakeChristmas
+  name: christmas cake
   parent: FoodCakeBase
   id: FoodCakeChristmas
-  description: ent-FoodCakeChristmas-desc
+  description: A cake made of christmas.
   components:
   - type: Sprite
     state: christmas
@@ -844,7 +844,7 @@
         color: "#ab5012"
 
 - type: entity
-  name: ent-FoodCakeChristmasSlice
+  name: slice of christmas cake
   parent: FoodCakeSliceBase
   id: FoodCakeChristmasSlice
   components:
@@ -866,10 +866,10 @@
 # Tastes like sweetness, cake, christmas.
 
 - type: entity
-  name: ent-FoodCakeBirthday
+  name: birthday cake
   parent: FoodCakeBase
   id: FoodCakeBirthday
-  description: ent-FoodCakeBirthday-desc
+  description: Happy Birthday little clown...
   components:
   - type: Sprite
     state: birthday
@@ -879,10 +879,10 @@
     heldPrefix: birthday
 
 - type: entity
-  name: ent-FoodCakeBirthdaySlice
+  name: slice of birthday cake
   parent: FoodCakeSliceBase
   id: FoodCakeBirthdaySlice
-  description: ent-FoodCakeBirthdaySlice-desc
+  description: A slice of your birthday.
   components:
   - type: Sprite
     state: birthday-slice
@@ -891,10 +891,10 @@
 # Tastes like sweetness, cake, christmas.
 
 - type: entity
-  name: ent-FoodCakeVanilla
+  name: vanilla cake
   parent: FoodCakeBase
   id: FoodCakeVanilla
-  description: ent-FoodCakeVanilla-desc
+  description: A vanilla frosted cake.
   components:
   - type: Sprite
     state: vanilla
@@ -915,10 +915,10 @@
     heldPrefix: vanilla
 
 - type: entity
-  name: ent-FoodCakeVanillaSlice
+  name: slice of vanilla cake
   parent: FoodCakeSliceBase
   id: FoodCakeVanillaSlice
-  description: ent-FoodCakeVanillaSlice-desc
+  description: A slice of vanilla frosted cake.
   components:
   - type: Sprite
     state: vanilla-slice
@@ -944,10 +944,10 @@
 # Tastes like sweetness, cake, vanilla.
 
 - type: entity
-  name: ent-FoodCakeClown
+  name: clown cake
   parent: FoodCakeBase
   id: FoodCakeClown
-  description: ent-FoodCakeClown-desc
+  description: A funny cake with a clown face on it.
   components:
   - type: Sprite
     state: clown
@@ -968,10 +968,10 @@
     heldPrefix: clown
 
 - type: entity
-  name: ent-FoodCakeClownSlice
+  name: slice of clown cake
   parent: FoodCakeSliceBase
   id: FoodCakeClownSlice
-  description: ent-FoodCakeClownSlice-desc
+  description: A slice of bad jokes, and silly props.
   components:
   - type: Sprite
     state: clown-slice
@@ -991,10 +991,10 @@
 # Tastes like sweetness, cake, clown.
 
 - type: entity
-  name: ent-FoodCakeSpaceman
+  name: spaceman's cake
   parent: FoodCakeBase
   id: FoodCakeSpaceman
-  description: ent-FoodCakeSpaceman-desc
+  description: A spaceman's trumpet frosted cake.
   components:
   - type: Sprite
     state: trumpet
@@ -1015,10 +1015,10 @@
     heldPrefix: trumpet
 
 - type: entity
-  name: ent-FoodCakeSpacemanSlice
+  name: slice of spaceman's cake
   parent: FoodCakeSliceBase
   id: FoodCakeSpacemanSlice
-  description: ent-FoodCakeSpacemanSlice-desc
+  description: A spaceman's trumpet frosted cake.
   components:
   - type: Sprite
     state: trumpet-slice
@@ -1038,10 +1038,10 @@
 # Tastes like sweetness, cake, jam.
 
 - type: entity
-  name: ent-MobCatCake
+  name: cak
   id: MobCatCake
   parent: EdibleBase
-  description: ent-MobCatCake-desc
+  description: It's a cake. It's a cat. It's a cak.
   components:
   - type: FlavorProfile
     flavors:
@@ -1129,10 +1129,10 @@
 # I can't figure out where to put this. It kind of acts like a cake I guess?
 
 - type: entity
-  name: ent-FoodCakeSuppermatter
+  name: suppermatter
   parent: FoodCakeBase
   id: FoodCakeSuppermatter
-  description: ent-FoodCakeSuppermatter-desc
+  description: Extremely dense and powerful food.
   components:
   - type: Sprite
     state: suppermatter
@@ -1159,10 +1159,10 @@
     energy: 1.4
 
 - type: entity
-  name: ent-FoodCakeSuppermatterSlice
+  name: suppermatter shard
   parent: FoodCakeSliceBase
   id: FoodCakeSuppermatterSlice
-  description: ent-FoodCakeSuppermatterSlice-desc
+  description: A single portion of power.
   components:
   - type: Sprite
     state: suppermatter-shard
@@ -1193,10 +1193,10 @@
 
 
 - type: entity
-  name: ent-FoodCakeCotton
+  name: cotton cake
   parent: FoodCakeBase
   id: FoodCakeCotton
-  description: ent-FoodCakeCotton-desc
+  description: A cake with a fiber frosting and a wad of cotton on top.
   components:
   - type: Sprite
     state: cotton
@@ -1221,10 +1221,10 @@
     heldPrefix: cotton
 
 - type: entity
-  name: ent-FoodCakeCottonSlice
+  name: slice of cotton cake
   parent: FoodCakeSliceBase
   id: FoodCakeCottonSlice
-  description: ent-FoodCakeCottonSlice-desc
+  description: A slice of cotton cake. You can just lick the frosting, it's fine.
   components:
   - type: Sprite
     state: cotton-slice
@@ -1250,10 +1250,10 @@
 # Motivating
 
 - type: entity
-  name: ent-FoodCakeBerryDelight
+  name: berry delight
   parent: FoodCakeBase
   id: FoodCakeBerryDelight
-  description: ent-FoodCakeBerryDelight-desc
+  description: This is a cake that is approaching.
   components:
   - type: Sprite
     state: berry_delight
@@ -1291,10 +1291,10 @@
         color: red
 
 - type: entity
-  name: ent-FoodCakeBerryDelightSlice
+  name: berry delight slice
   parent: FoodCakeSliceBase
   id: FoodCakeBerryDelightSlice
-  description: ent-FoodCakeBerryDelightSlice-desc
+  description: Put a fork in, your hunger in isolation.
   components:
   - type: Sprite
     state: berry_delight_slice

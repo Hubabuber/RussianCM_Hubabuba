@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTSPartyMedic
-  name: job-au14jobpartspartymedic-name
-  description: job-au14jobpartspartymedic-desc
+  name: Prodigy Sierra Combat Lifesaver
+  description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTSPartyMedic
   ranks:
     AU14RankWeYuOperator: []
-  spawnMenuRoleName: job-au14jobpartspartymedic-spawnmenurolename
+  spawnMenuRoleName: Prodigy Sierra Combat Lifesaver (3rd party, M41A/2)
   startingGear: AU14GearPARTSPartyMedic
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCMedic"
   joinNotifyCrew: false
-  supervisors: job-au14jobpartspartymedic-supervisors
+  supervisors: au14-job-supervisors-psc
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -40,7 +40,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobPARTSPartyMedic
-  name: ent-AU14JobPARTSPartyMedic
+  name: Prodigy Sierra Party Combat Lifesaver (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

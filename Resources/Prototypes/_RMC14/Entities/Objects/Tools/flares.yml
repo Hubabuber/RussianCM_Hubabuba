@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-CMFlare
+  name: flare
   parent: BaseItem
   id: CMFlare
-  description: ent-CMFlare-desc
+  description: A red Marine issued flare. There are instructions on the side, it reads 'pull cord, make light'.
   components:
   - type: Fixtures
     fixtures:
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMFlare
   id: RMCFlareCAS
-  name: ent-RMCFlareCAS
-  description: ent-RMCFlareCAS-desc
+  name: signal flare
+  description: A green UNMC issued signal flare. The telemetry computer works on chemical reaction that releases smoke and light and thus works only while the flare is burning.
   components:
   - type: Tag
     tags:
@@ -132,8 +132,8 @@
 - type: entity
   parent: CMFlare
   id: RMCStarShellAsh
-  name: ent-RMCStarShellAsh
-  description: ent-RMCStarShellAsh-desc
+  name: burning star shell ash
+  description: Bright burning ash from a Star Shell 40mm. Don't touch, or it'll burn ya'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/flares.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: RMCBoxMagazineSupplySmallBase
   id: RMCBoxPackFlareEmpty
-  name: ent-RMCBoxPackFlareEmpty
-  description: ent-RMCBoxPackFlareEmpty-desc
+  name: box of M94 flare packs (x10)
+  description: A box of M94 marking flare packs, to brighten up your day.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -212,7 +212,7 @@
 - type: entity
   parent: RMCBoxPackFlareEmpty
   id: RMCBoxPackFlare
-  suffix: ent-RMCBoxPackFlare-suffix
+  suffix: Filled
   components:
   - type: CMItemSlots
     startingItem: CMPackFlare
@@ -220,8 +220,8 @@
 - type: entity
   parent: RMCBoxMagazineSupplySmallBase
   id: RMCBoxPackFlareCASEmpty
-  name: ent-RMCBoxPackFlareCASEmpty
-  description: ent-RMCBoxPackFlareCASEmpty-desc
+  name: box of M89-S flare packs (x10)
+  description: A box of M89 signal flare packs, to mark up the way.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -256,7 +256,7 @@
 - type: entity
   parent: RMCBoxPackFlareCASEmpty
   id: RMCBoxPackFlareCAS
-  suffix: ent-RMCBoxPackFlareCAS-suffix
+  suffix: Filled
   components:
   - type: CMItemSlots
     startingItem: RMCPackFlareCAS
@@ -265,8 +265,8 @@
   abstract: true
   parent: BaseItem
   id: CMPackFlareBase
-  name: ent-CMPackFlareBase
-  description: ent-CMPackFlareBase-desc
+  name: M94 marking flare pack
+  description: A packet of eight M94 Marking Flares. Carried by Marine soldiers to light dark areas that cannot be reached with the usual TNR Shoulder Lamp.
   components:
   - type: Item
     size: Normal
@@ -307,7 +307,7 @@
 - type: entity
   parent: CMPackFlareBase
   id: CMPackFlare
-  suffix: ent-CMPackFlare-suffix
+  suffix: Filled
   components:
   - type: CMItemSlots
     startingItem: CMFlare
@@ -315,9 +315,9 @@
 - type: entity
   parent: CMPackFlareBase
   id: RMCPackFlareCAS
-  name: ent-RMCPackFlareCAS
-  description: ent-RMCPackFlareCAS-desc
-  suffix: ent-RMCPackFlareCAS-suffix
+  name: M89-S signal flare pack
+  description: A packet of eight M89-S Signal Marking Flares.
+  suffix: Filled
   components:
   - type: Tag
     tags:
@@ -339,7 +339,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCFlareBullet
-  name: ent-RMCFlareBullet
+  name: flare projectile
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -390,7 +390,7 @@
 - type: entity
   parent: RMCFlareBullet
   id: RMCFlareCASBullet
-  name: ent-RMCFlareCASBullet
+  name: signal flare projectile
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -407,7 +407,7 @@
 
 - type: entity
   id: RMCAirFlare
-  name: ent-RMCAirFlare
+  name: air flare
   categories: [ HideSpawnMenu ]
   components:
   - type: ExpendableLight
@@ -441,7 +441,7 @@
 - type: entity
   parent: RMCAirFlare
   id: RMCAirFlareCAS
-  name: ent-RMCAirFlareCAS
+  name: air signal flare
   categories: [ HideSpawnMenu ]
   components:
   - type: Tag
@@ -492,8 +492,8 @@
 - type: entity
   parent: CMFlare
   id: RMCFlareL96
-  name: ent-RMCFlareL96
-  description: ent-RMCFlareL96-desc
+  name: flare
+  description: A vibrant purple Royal Crown Marines issued flare. There are instructions on the side, it reads 'To light, pull cord'.
   components:
   - type: Tag
     tags:
@@ -557,9 +557,9 @@
 - type: entity
   parent: CMPackFlareBase
   id: RMCPackFlareL96
-  name: ent-RMCPackFlareL96
-  description: ent-RMCPackFlareL96-desc
-  suffix: ent-RMCPackFlareL96-suffix
+  name: L96 marking flare pack
+  description: A packet of eight L96 Signal Marking Flares.
+  suffix: Filled
   components:
   - type: Tag
     tags:
@@ -581,7 +581,7 @@
 - type: entity
   parent: RMCFlareBullet
   id: RMCFlareL96Bullet
-  name: ent-RMCFlareL96Bullet
+  name: L96 flare projectile
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -598,7 +598,7 @@
 
 - type: entity
   id: RMCAirFlareL96
-  name: ent-RMCAirFlareL96
+  name: air flare
   categories: [ HideSpawnMenu ]
   components:
   - type: ExpendableLight

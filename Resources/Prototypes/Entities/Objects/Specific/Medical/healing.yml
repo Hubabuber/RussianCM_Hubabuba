@@ -14,11 +14,11 @@
     price: 0
 
 - type: entity
-  name: ent-Ointment
-  description: ent-Ointment-desc
+  name: ointment
+  description: Used to treat those nasty burns. Less effective on caustic burns.
   parent: BaseHealingItem
   id: Ointment
-  suffix: ent-Ointment-suffix
+  suffix: Full
   components:
   - type: Tag
     tags:
@@ -55,7 +55,7 @@
 - type: entity
   id: Ointment1
   parent: Ointment
-  suffix: ent-Ointment1-suffix
+  suffix: Single
   components:
   - type: Stack
     stackType: Ointment
@@ -64,18 +64,18 @@
 - type: entity
   id: Ointment10Lingering
   parent: Ointment
-  suffix: ent-Ointment10Lingering-suffix
+  suffix: 10, Lingering
   components:
   - type: Stack
     lingering: true
     count: 10
 
 - type: entity
-  name: ent-RegenerativeMesh
-  description: ent-RegenerativeMesh-desc
+  name: regenerative mesh
+  description: Used to treat even the nastiest burns. Also effective against caustic burns.
   parent: BaseHealingItem
   id: RegenerativeMesh
-  suffix: ent-RegenerativeMesh-suffix
+  suffix: Full
   components:
   - type: Tag
     tags:
@@ -112,7 +112,7 @@
 - type: entity
   id: OintmentAdvanced1
   parent: RegenerativeMesh
-  suffix: ent-OintmentAdvanced1-suffix
+  suffix: Single
   components:
   - type: Stack
     stackType: RegenerativeMesh
@@ -121,18 +121,18 @@
 - type: entity
   parent: RegenerativeMesh
   id: RegenerativeMeshLingering0
-  suffix: ent-RegenerativeMeshLingering0-suffix
+  suffix: 0, Lingering
   components:
   - type: Stack
     lingering: true
     count: 0
 
 - type: entity
-  name: ent-Brutepack
-  description: ent-Brutepack-desc
+  name: bruise pack
+  description: A therapeutic gel pack and bandages designed to treat blunt-force trauma.
   parent: BaseHealingItem
   id: Brutepack
-  suffix: ent-Brutepack-suffix
+  suffix: Full
   components:
   - type: Tag
     tags:
@@ -166,7 +166,7 @@
 - type: entity
   id: Brutepack1
   parent: Brutepack
-  suffix: ent-Brutepack1-suffix
+  suffix: Single
   components:
   - type: Stack
     stackType: Brutepack
@@ -175,18 +175,18 @@
 - type: entity
   id: Brutepack10Lingering
   parent: Brutepack
-  suffix: ent-Brutepack10Lingering-suffix
+  suffix: 10, Lingering
   components:
   - type: Stack
     lingering: true
     count: 10
 
 - type: entity
-  name: ent-MedicatedSuture
-  description: ent-MedicatedSuture-desc
+  name: medicated suture
+  description: A suture soaked in medicine, treats blunt-force trauma effectively and closes wounds.
   parent: BaseHealingItem
   id: MedicatedSuture
-  suffix: ent-MedicatedSuture-suffix
+  suffix: Full
   components:
   - type: Tag
     tags:
@@ -222,7 +222,7 @@
 - type: entity
   id: BrutepackAdvanced1
   parent: MedicatedSuture
-  suffix: ent-BrutepackAdvanced1-suffix
+  suffix: Single
   components:
   - type: Stack
     stackType: MedicatedSuture
@@ -231,18 +231,18 @@
 - type: entity
   parent: MedicatedSuture
   id: MedicatedSutureLingering0
-  suffix: ent-MedicatedSutureLingering0-suffix
+  suffix: 0, Lingering
   components:
   - type: Stack
     lingering: true
     count: 0
 
 - type: entity
-  name: ent-Bloodpack
-  description: ent-Bloodpack-desc
+  name: blood pack
+  description: Contains a groundbreaking universal blood replacement created by Nanotrasen's advanced medical science.
   parent: BaseHealingItem
   id: Bloodpack
-  suffix: ent-Bloodpack-suffix
+  suffix: Full
   components:
   - type: Item
     heldPrefix: bloodpack
@@ -277,7 +277,7 @@
 - type: entity
   parent: Bloodpack
   id: Bloodpack1
-  suffix: ent-Bloodpack1-suffix
+  suffix: Single
   components:
   - type: Stack
     stackType: Bloodpack
@@ -286,7 +286,7 @@
 - type: entity
   parent: Bloodpack
   id: Bloodpack10Lingering
-  suffix: ent-Bloodpack10Lingering-suffix
+  suffix: 10, Lingering
   components:
   - type: Stack
     lingering: true
@@ -295,8 +295,8 @@
 - type: entity
   parent: BaseHealingItem
   id: Tourniquet
-  name: ent-Tourniquet
-  description: ent-Tourniquet-desc
+  name: tourniquet
+  description: Stops bleeding! Hopefully.
   components:
     - type: Tag
       tags:
@@ -327,11 +327,11 @@
           variation: 0.125
 
 - type: entity
-  name: ent-Gauze
-  description: ent-Gauze-desc
+  name: roll of gauze
+  description: Some sterile gauze to wrap around bloody stumps.
   parent: BaseHealingItem
   id: Gauze
-  suffix: ent-Gauze-suffix
+  suffix: Full
   components:
   - type: Tag
     tags:
@@ -376,7 +376,7 @@
 - type: entity
   id: Gauze1
   parent: Gauze
-  suffix: ent-Gauze1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -384,15 +384,15 @@
 - type: entity
   id: Gauze10Lingering
   parent: Gauze
-  suffix: ent-Gauze10Lingering-suffix
+  suffix: 10, Lingering
   components:
   - type: Stack
     lingering: true
     count: 10
 
 - type: entity
-  name: ent-AloeCream
-  description: ent-AloeCream-desc
+  name: aloe cream
+  description: A topical cream for burns.
   parent: Ointment ##Yes it's a direct reskin
   id: AloeCream
   components:
@@ -406,8 +406,8 @@
 - type: entity
   parent: BaseHealingItem
   id: HealingToolbox
-  name: ent-HealingToolbox
-  description: ent-HealingToolbox-desc
+  name: healing toolbox
+  description: A powerful toolbox imbued with robust energy. It can heal your wounds and fill you with murderous intent.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -437,8 +437,8 @@
 
 # Pills
 - type: entity
-  name: ent-PillDexalin
-  suffix: ent-PillDexalin-suffix
+  name: pill
+  suffix: Dexalin 10u
   parent: Pill
   id: PillDexalin
   components:
@@ -457,10 +457,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterDexalin
+  name: pill canister
   parent: PillCanister
   id: PillCanisterDexalin
-  suffix: ent-PillCanisterDexalin-suffix
+  suffix: Dexalin 10u, 7
   components:
   - type: Label
     currentLabel: dexalin 10u
@@ -470,8 +470,8 @@
       amount: 7
 
 - type: entity
-  name: ent-PillDylovene
-  suffix: ent-PillDylovene-suffix
+  name: pill
+  suffix: Dylovene 10u
   parent: Pill
   id: PillDylovene
   components:
@@ -490,10 +490,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterDylovene
+  name: pill canister
   parent: PillCanister
   id: PillCanisterDylovene
-  suffix: ent-PillCanisterDylovene-suffix
+  suffix: Dylovene 10u, 5
   components:
   - type: Label
     currentLabel: dylovene 10u
@@ -503,8 +503,8 @@
       amount: 5
 
 - type: entity
-  name: ent-PillHyronalin
-  suffix: ent-PillHyronalin-suffix
+  name: pill
+  suffix: Hyronalin 10u
   parent: Pill
   id: PillHyronalin
   components:
@@ -523,10 +523,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterHyronalin
+  name: pill canister
   parent: PillCanister
   id: PillCanisterHyronalin
-  suffix: ent-PillCanisterHyronalin-suffix
+  suffix: Hyronalin 10u, 5
   components:
   - type: Label
     currentLabel: hyronalin 10u
@@ -536,8 +536,8 @@
       amount: 5
 
 - type: entity
-  name: ent-PillPotassiumIodide
-  suffix: ent-PillPotassiumIodide-suffix
+  name: pill
+  suffix: Potassium iodide 10u
   parent: Pill
   id: PillPotassiumIodide
   components:
@@ -556,10 +556,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterPotassiumIodide
+  name: pill canister
   parent: PillCanister
   id: PillCanisterPotassiumIodide
-  suffix: ent-PillCanisterPotassiumIodide-suffix
+  suffix: Potassium iodide 10u, 5
   components:
   - type: Label
     currentLabel: potassium iodide 10u
@@ -569,8 +569,8 @@
       amount: 5
 
 - type: entity
-  name: ent-PillIron
-  suffix: ent-PillIron-suffix
+  name: pill
+  suffix: Iron 10u
   parent: Pill
   id: PillIron
   components:
@@ -589,8 +589,8 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCopper
-  suffix: ent-PillCopper-suffix
+  name: pill
+  suffix: Copper 10u
   parent: Pill
   id: PillCopper
   components:
@@ -609,10 +609,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterIron
+  name: pill canister
   parent: PillCanister
   id: PillCanisterIron
-  suffix: ent-PillCanisterIron-suffix
+  suffix: Iron 10u, 5
   components:
   - type: Label
     currentLabel: iron 10u
@@ -622,10 +622,10 @@
       amount: 5
 
 - type: entity
-  name: ent-PillCanisterCopper
+  name: pill canister
   parent: PillCanister
   id: PillCanisterCopper
-  suffix: ent-PillCanisterCopper-suffix
+  suffix: Copper 10u, 5
   components:
   - type: Label
     currentLabel: copper 10u
@@ -635,8 +635,8 @@
       amount: 5
 
 - type: entity
-  name: ent-PillKelotane
-  suffix: ent-PillKelotane-suffix
+  name: pill
+  suffix: Kelotane 10u
   parent: Pill
   id: PillKelotane
   components:
@@ -655,10 +655,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterKelotane
+  name: pill canister
   parent: PillCanister
   id: PillCanisterKelotane
-  suffix: ent-PillCanisterKelotane-suffix
+  suffix: Kelotane 10u, 5
   components:
   - type: Label
     currentLabel: kelotane 10u
@@ -668,8 +668,8 @@
       amount: 5
 
 - type: entity
-  name: ent-PillDermaline
-  suffix: ent-PillDermaline-suffix
+  name: pill
+  suffix: Dermaline 10u
   parent: Pill
   id: PillDermaline
   components:
@@ -688,10 +688,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterDermaline
+  name: pill canister
   parent: PillCanister
   id: PillCanisterDermaline
-  suffix: ent-PillCanisterDermaline-suffix
+  suffix: Dermaline 10u, 5
   components:
   - type: Label
     currentLabel: dermaline 10u
@@ -701,7 +701,7 @@
       amount: 5
 
 - type: entity
-  name: ent-PillSpaceDrugs
+  name: space mirage
   parent: Pill
   id: PillSpaceDrugs
   components:
@@ -714,8 +714,8 @@
           Quantity: 15
 
 - type: entity
-  name: ent-PillTricordrazine
-  suffix: ent-PillTricordrazine-suffix
+  name: pill
+  suffix: Tricordrazine 10u
   parent: Pill
   id: PillTricordrazine
   components:
@@ -734,10 +734,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterTricordrazine
+  name: pill canister
   parent: PillCanister
   id: PillCanisterTricordrazine
-  suffix: ent-PillCanisterTricordrazine-suffix
+  suffix: Tricordrazine 10u, 5
   components:
   - type: Label
     currentLabel: tricordrazine 10u
@@ -747,8 +747,8 @@
       amount: 5
 
 - type: entity
-  name: ent-PillBicaridine
-  suffix: ent-PillBicaridine-suffix
+  name: pill
+  suffix: Bicaridine 10u
   parent: Pill
   id: PillBicaridine
   components:
@@ -767,10 +767,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterBicaridine
+  name: pill canister
   parent: PillCanister
   id: PillCanisterBicaridine
-  suffix: ent-PillCanisterBicaridine-suffix
+  suffix: Bicaridine 10u, 5
   components:
   - type: Label
     currentLabel: bicaridine 10u
@@ -780,8 +780,8 @@
       amount: 5
 
 - type: entity
-  name: ent-PillCharcoal
-  suffix: ent-PillCharcoal-suffix
+  name: pill
+  suffix: Charcoal 10u
   parent: Pill
   id: PillCharcoal
   components:
@@ -800,10 +800,10 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillCanisterCharcoal
+  name: pill canister
   parent: PillCanister
   id: PillCanisterCharcoal
-  suffix: ent-PillCanisterCharcoal-suffix
+  suffix: Charcoal 10u, 3
   components:
   - type: Label
     currentLabel: charcoal 10u
@@ -813,7 +813,7 @@
       amount: 3
 
 - type: entity
-  name: ent-PillRomerol
+  name: romerol pill
   parent: Pill
   id: PillRomerol
   components:
@@ -826,7 +826,7 @@
           Quantity: 10
 
 - type: entity
-  name: ent-PillAmbuzol
+  name: ambuzol pill
   parent: Pill
   id: PillAmbuzol
   components:
@@ -839,7 +839,7 @@
               Quantity: 10
 
 - type: entity
-  name: ent-PillAmbuzolPlus
+  name: ambuzol plus pill
   parent: Pill
   id: PillAmbuzolPlus
   components:
@@ -858,7 +858,7 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterRandom
-  suffix: ent-PillCanisterRandom-suffix
+  suffix: Random
   components:
   - type: StorageFill
     contents:
@@ -925,7 +925,7 @@
 
 # Syringes
 - type: entity
-  suffix: ent-SyringeEphedrine-suffix
+  suffix: ephedrine
   parent: PrefilledSyringe
   id: SyringeEphedrine
   components:
@@ -940,7 +940,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeInaprovaline-suffix
+  suffix: inaprovaline
   parent: PrefilledSyringe
   id: SyringeInaprovaline
   components:
@@ -955,7 +955,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeTranexamicAcid-suffix
+  suffix: tranexamic acid
   parent: PrefilledSyringe
   id: SyringeTranexamicAcid
   components:
@@ -970,7 +970,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeBicaridine-suffix
+  suffix: bicaridine
   parent: PrefilledSyringe
   id: SyringeBicaridine
   components:
@@ -985,7 +985,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeDermaline-suffix
+  suffix: dermaline
   parent: PrefilledSyringe
   id: SyringeDermaline
   components:
@@ -1000,7 +1000,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeHyronalin-suffix
+  suffix: hyronalin
   parent: PrefilledSyringe
   id: SyringeHyronalin
   components:
@@ -1015,7 +1015,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeIpecac-suffix
+  suffix: ipecac
   parent: PrefilledSyringe
   id: SyringeIpecac
   components:
@@ -1030,7 +1030,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeAmbuzol-suffix
+  suffix: ambuzol
   parent: PrefilledSyringe
   id: SyringeAmbuzol
   components:
@@ -1045,7 +1045,7 @@
             Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeSigynate-suffix
+  suffix: sigynate
   parent: PrefilledSyringe
   id: SyringeSigynate
   components:
@@ -1060,7 +1060,7 @@
             Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeEthylredoxrazine-suffix
+  suffix: ethylredoxrazine
   parent: PrefilledSyringe
   id: SyringeEthylredoxrazine
   components:
@@ -1075,7 +1075,7 @@
             Quantity: 15
 
 - type: entity
-  suffix: ent-SyringePhalanximine-suffix
+  suffix: phalanximine
   parent: PrefilledSyringe
   id: SyringePhalanximine
   components:
@@ -1090,7 +1090,7 @@
             Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeSaline-suffix
+  suffix: saline
   parent: PrefilledSyringe
   id: SyringeSaline
   components:
@@ -1106,7 +1106,7 @@
 
 #this is where all the syringes are so i didn't know where to put it
 - type: entity
-  suffix: ent-SyringeRomerol-suffix
+  suffix: romerol
   parent: PrefilledSyringe
   id: SyringeRomerol
   components:
@@ -1121,7 +1121,7 @@
           Quantity: 15
 
 - type: entity
-  suffix: ent-SyringeStimulants-suffix
+  suffix: hyperzine
   parent: PrefilledSyringe
   id: SyringeStimulants
   components:

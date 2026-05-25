@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTPartyEngineer #m41a/2
-  name: job-au14jobpartpartyengineer-name
-  description: job-au14jobpartpartyengineer-desc
+  name: Prodigy Yankee Combat Engineer
+  description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTPartyEngineer
   ranks:
     AU14RankWeYuOperator: []
-  spawnMenuRoleName: job-au14jobpartpartyengineer-spawnmenurolename
+  spawnMenuRoleName: WY PMC Combat Engineer (3rd party, M41A/2)
   startingGear: AU14GearWYPMCPartyEngineer
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCEngineer"
   joinNotifyCrew: false
-  supervisors: job-au14jobpartpartyengineer-supervisors
+  supervisors: au14-job-supervisors-psc
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -32,7 +32,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobPARTPartyEngineer
-  name: ent-AU14JobPARTPartyEngineer
+  name: part Party Combat Engineer (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

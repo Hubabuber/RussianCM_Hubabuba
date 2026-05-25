@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionFireball
-  name: ent-ActionFireball
-  description: ent-ActionFireball-desc
+  name: Fireball
+  description: Fires an explosive fireball towards the clicked location.
   components:
   - type: Magic
   - type: Action
@@ -30,8 +30,8 @@
 - type: entity
   parent: ActionFireball
   id: ActionFireballII
-  name: ent-ActionFireballII
-  description: ent-ActionFireballII-desc
+  name: Fireball II
+  description: Fires a fireball, but faster!
   components:
   - type: Action
     useDelay: 10
@@ -39,8 +39,8 @@
 - type: entity
   parent: ActionFireball
   id: ActionFireballIII
-  name: ent-ActionFireballIII
-  description: ent-ActionFireballIII-desc
+  name: Fireball III
+  description: The fastest fireball in the west!
   components:
   - type: Action
     useDelay: 8

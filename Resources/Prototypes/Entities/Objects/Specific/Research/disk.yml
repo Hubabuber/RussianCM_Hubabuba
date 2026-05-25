@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ResearchDisk
-  name: ent-ResearchDisk
-  description: ent-ResearchDisk-desc
+  name: research point disk (1000)
+  description: A disk for the R&D server containing 1000 points.
   components:
   - type: Sprite
     sprite: Objects/Specific/Research/researchdisk.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk5000
-  name: ent-ResearchDisk5000
-  description: ent-ResearchDisk5000-desc
+  name: research point disk (5000)
+  description: A disk for the R&D server containing 5000 points.
   components:
   - type: ResearchDisk
     points: 5000
@@ -24,8 +24,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk10000
-  name: ent-ResearchDisk10000
-  description: ent-ResearchDisk10000-desc
+  name: research point disk (10000)
+  description: A disk for the R&D server containing 10000 points.
   components:
   - type: ResearchDisk
     points: 10000
@@ -33,10 +33,10 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDiskDebug
-  name: ent-ResearchDiskDebug
-  suffix: ent-ResearchDiskDebug-suffix
+  name: research point disk
+  suffix: DEBUG, DO NOT MAP
   categories: [ DoNotMap ]
-  description: ent-ResearchDiskDebug-desc
+  description: A disk for the R&D server containing all the points you could ever need.
   components:
   - type: ResearchDisk
     unlockAllTech: true
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseItem
   id: TechnologyDisk
-  name: ent-TechnologyDisk
-  description: ent-TechnologyDisk-desc
+  name: technology disk
+  description: A disk for the R&D server containing research technology.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -66,7 +66,7 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskRare
-  suffix: ent-TechnologyDiskRare-suffix
+  suffix: rare.
   components:
   - type: TechnologyDisk
     tierWeightPrototype: RareTechDiskTierWeights

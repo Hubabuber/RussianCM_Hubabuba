@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ent-RMCWeaponRifleXM40
+  name: XM40 assault rifle
   id: RMCWeaponRifleXM40
-  description: ent-RMCWeaponRifleXM40-desc
+  description: One of the experimental predecessors to the M41A line that never saw widespread adoption beyond elite marine units. Of the rifles in the USCM inventory that are still in production, this is the only one to feature an integrated suppressor. It can accept M41A MK2 magazines, but also features its own proprietary magazine system. Extremely lethal in burstfire mode.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/xm40.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleXM40AP
-  name: "ent-RMCMagazineRifleXM40AP"
+  name: "XM40 AP magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleXM40HEAP
-  name: "ent-RMCMagazineRifleXM40HEAP"
+  name: "XM40 HEAP magazine (10x24mm)"
   components:
   - type: Tag
     tags:

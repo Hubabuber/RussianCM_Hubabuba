@@ -1,432 +1,432 @@
 ent-RMCAreaSpaceAlmayerLifeboatDock = Портовая пристань для спасательных шлюпок
-    .suffix = Космос
+
 ent-RMCAreaAlmayerCommandLifeboat = Причал для спасательной шлюпки
-    .suffix = область
+
 ent-RMCAreaAlmayerLifeboatPumpsSouth2 = Топливный насос спасательной шлюпки по левому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerLifeboatPumpsSouth1 = Топливный насос спасательной шлюпки в носовой части
-    .suffix = область
+
 ent-RMCAreaAlmayerLifeboatPumpsNorth2 = Топливный насос спасательной шлюпки по правому борту и корме
-    .suffix = область
+
 ent-RMCAreaAlmayerLifeboatPumpsNorth1 = Топливный насос спасательной шлюпки по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerLifeboatPumps = Топливные насосы для спасательных шлюпок
-    .suffix = область
+
 ent-RMCAreaAlmayerPoweredAgent = Неизвестный район
-    .suffix = область
+
 ent-RMCAreaAlmayerSquadsReq = Реквизиты
-    .suffix = область
+
 ent-RMCAreaAlmayerSquadsCharlieDeltaShared = Чарли Дельта Подготовка оборудования
-    .suffix = область
+
 ent-RMCAreaAlmayerSquadsAlphaBravoShared = Подготовка снаряжения Альфа Браво
-    .suffix = область
+
 ent-RMCAreaAlmayerSquadsDelta = Подготовка отряда Дельта
-    .suffix = область
+
 ent-RMCAreaAlmayerSquadsCharlie = Подготовка отряда Чарли
-    .suffix = область
+
 ent-RMCAreaAlmayerSquadsBravo = Подготовка отряда Браво
-    .suffix = область
+
 ent-RMCAreaAlmayerSquadsAlpha = Подготовка отряда Альфа
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalLowerMedicalMedbay = Медицинский Нижний Медбай
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalCryoTubes = Медицинские криогенные трубки
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalLockerroom = Медицинская раздевалка
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalChemistry = Медико-химическая лаборатория
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalContainmentCellCl = Сдерживание
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalContainmentCell = Камеры содержания медицинских исследований
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalContainment = Сдерживание медицинских исследований
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalHydroponics = Медицинские исследования гидропоники
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalMedicalScience = Медицинские исследовательские лаборатории
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalOperatingRoomFour = Медицинская операционная 4
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalOperatingRoomThree = Медицинская операционная 3
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalOperatingRoomTwo = Медицинская операционная 2
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalOperatingRoomOne = Медицинская операционная 1
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalMorgue = Морг
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalUpperMedical = Медицинский Верх
-    .suffix = область
+
 ent-RMCAreaAlmayerMedicalLowerMedicalLobby = Медицинский нижний вестибюль
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingChapel = Часовня Альмайера
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingNumbertwobunks = Койка исполнительного директора
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingSynthcloset = Синтетический шкаф для хранения вещей на верхней палубе
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingCommandbunks = Койка командира офицера
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingBridgebunks = Штабной офицер Банкс
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingPilotbunks = Койки пилота
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingCaptainMess = Капитанский беспорядок
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingOfficesFlight = Летное бюро
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingOffices = Конференц-офис нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingCafeteriaOfficer = Офицерская столовая верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingGym = Тренажерный зал нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingCafeteriaStarboard = Кафетерий по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingCafeteriaPort = Кафетерий Порт
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingOfficerStudy = Кабинет офицера верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingOfficerRnr = Комната отдыха офицеров верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingGruntRnr = Бездельничать
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingBasketball = Баскетбольная площадка
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingStarboardGarden = Сад по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingPortGarden = Портовый сад
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingStarboardEmb = Койки для расширенных миссий на нижней палубе по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingPortEmb = Койки для расширенных миссий на нижней палубе по порту
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingBriefing = Зона для брифингов
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingCryoCells = Криокамеры нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingAuxiliaryOfficerOffice = Офис вспомогательного офицера поддержки нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerLivingTankerbunks = Койки для экипажа транспортных средств на нижней палубе
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperUAP = Верхняя палуба по левому борту корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperUMP = Верхняя палуба левого миделя корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperUFP = Верхняя палуба в носовой части корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperUAS = Верхняя палуба по правому борту - кормовая часть корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperUMS = Верхняя палуба правого борта-миделя корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperUFS = Верхняя палуба по правому борту - носовая часть корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperSStern = Верхняя палуба правого борта и кормовой части корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperPStern = Верхняя палуба левого кормового корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperSBow = Верхняя палуба, правый борт, носовая часть корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperPBow = Верхняя палуба левого носового корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpperStairs = Лестница на верхнюю палубу корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullUpper = Верхняя палуба корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerLAP = Нижняя палуба по левому борту и кормовой части корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerLMP = Нижняя палуба левого и мидель корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerLFP = Нижняя палуба в носовой части корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerLAS = Нижняя палуба по правому борту - кормовая часть корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerLMS = Нижняя палуба по правому борту и миделю корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerLFS = Нижняя палуба, правый борт, носовая часть корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerSBow = Нижняя палуба, правый борт, носовая часть корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerPBow = Нижняя палуба, носовая часть корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerStern = Нижняя палуба кормового корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLowerStairs = Лестница нижней палубы корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHullLower = Нижняя палуба корпуса
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintUpperUAS = Техническое обслуживание верхней палубы по правому борту и корме
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintUpperUAP = Техническое обслуживание верхней палубы по левому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintUpperUFS = Техническое обслуживание верхней палубы по правому борту и носовой части
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintUpperUFP = Техническое обслуживание носовой части верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintUpperUMS = Техническое обслуживание верхней палубы по правому борту и миделю
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintUpperUMP = Техническое обслуживание верхней палубы по левому борту и на миделе
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintUpperMess = Обслуживание столовой верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintUpper = Обслуживание верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintLowerCryoCells = Техническое обслуживание криокамер нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintLowerSBow = Техническое обслуживание нижней палубы по правому борту и носовой части
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintLowerConstr = Строительная площадка нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintLower = Техническое обслуживание нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerStairCloneUpper = Лестница на верхнюю палубу
-    .suffix = область
+
 ent-RMCAreaAlmayerStairClone = Лестница на нижнюю палубу
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysUpperStarboard = Коридор по правому борту на верхней палубе
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysUpperPort = Портовый коридор верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysUpperMidshipHallway = Коридор средней палубы верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysUpperForeHallway = Передний коридор верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysUpperAftHallway = Кормовой коридор верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerStarboardAftHallway = Нижняя палуба по правому борту – кормовой коридор
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerStarboardMidshipHallway = Коридор нижней палубы по правому борту и на миделе корабля
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerStarboardForeHallway = Нижняя палуба по правому борту - носовой коридор
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerPortAftHallway = Нижняя палуба, коридор в кормовой части
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerPortMidshipHallway = Коридор нижней палубы по левому борту и миделю корабля
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerPortForeHallway = Нижняя палуба, передний коридор
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerPortUmbilical = Пупочный коридор нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerStarboardUmbilical = Пупочный коридор по правому борту нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerRepairBay = Мастер-класс по развертыванию нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLowerVehiclehangar = Хранение транспортных средств на нижней палубе
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysHangar = Ангар
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardFiringRangeSouth = Портовая дальность стрельбы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardFiringRangeNorth = Дальность стрельбы по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardSeaOffice = Офис старшего рядового советника нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigWardenOffice = Офис бригадного смотрителя
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigChiefMpOffice = Офис главного полицейского бригады
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigCells = Бриговые ячейки
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigProcessing = Бриговая обработка и удержание
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigDress = Комната парадной униформы CIC
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigCicHallway = Бриг CiC Коридор
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigExecutionStorage = Бриговое хранилище казни
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigExecution = Комната казни Брига
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigEvidenceStorage = Бриг Хранилище улик
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigGeneralEquipment = Бриг Общее оборудование
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigInterrogation = Бриговая комната для допросов
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigMedical = Бриг Медикал
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigCryo = Бриговые криокапсулы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigPerma = Бриг Перма Ячейки
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigStarboardHallway = Коридор брига по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigMpBunks = Бриг МП Банккс
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigArmory = Бриг Оружейная палата
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrigLobby = Бриг Лобби
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardBrig = Бриг
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardSternPointDefense = Защита кормовой точки нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardPortPointDefense = Защита порта нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardStarboardPointDefense = Оборона нижней палубы по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardWeaponRoom = Управление оружием нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardPortMissiles = Ракетные аппараты верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardStarboardMissiles = Ракетные аппараты правого борта верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardPanic = Комната Паники в Ангаре
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardNavigation = Астронавигационная палуба
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringLaundry = Прачечная на верхней палубе
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringPortAtmos = Атмосфера порта верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringStarboardAtmos = Атмосфера на верхней палубе по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringCeRoom = Офис главного инженера верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringUpperEngineeringPort = Портовая инженерия верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringUpperEngineeringStarboard = Инженерное обеспечение верхней палубы по правому борту
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringUpperEngineering = Инженерное дело верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringLowerEngineCore = Активная комната реактора двигателя
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringLowerWorkshopHangar = Артиллерийская мастерская
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringLowerWorkshop = Инженерная мастерская нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringLowerEngineMonitoring = Мониторинг двигателя реактора нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringLower = Инженерное дело нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandCombatCorrespondent = Боевой корреспондент на верхней палубе
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandCorporateliaison = Офис корпоративных связей
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandSelfDestruct = Самоуничтожающаяся основная комната на верхней палубе
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandTelecomms = Телекоммуникации верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandComputerlab = Компьютерная лаборатория верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandSecurestorage = Безопасное хранилище на верхней палубе
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandAiroom = Ядро ИИ
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandCichallway = Безопасный командный коридор
-    .suffix = область
+
 ent-RMCAreaAlmayerCommandCic = Боевой информационный центр
-    .suffix = область
+
 ent-RMCAreaAlmayer = область
-    .suffix = область
+
 ent-RMCAreaAlmayerCommand = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineering = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringLowerEngine = Инженерное дело нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringUpperEngineeringNotunnel = Инженерное дело верхней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboard = область
-    .suffix = область
+
 ent-RMCAreaAlmayerShipboardWeaponRoomNotunnel = Управление оружием нижней палубы
-    .suffix = область
+
 ent-RMCAreaAlmayerHallways = область
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysLower = область
-    .suffix = область
+
 ent-RMCAreaAlmayerHallwaysUpper = область
-    .suffix = область
+
 ent-RMCAreaAlmayerMaint = область
-    .suffix = область
+
 ent-RMCAreaAlmayerMaintHull = область
-    .suffix = область
+
 ent-RMCAreaAlmayerLiving = область
-    .suffix = область
+
 ent-RMCAreaAlmayerMedical = область
-    .suffix = область
+
 ent-RMCAreaAlmayerSquads = область
-    .suffix = область
+
 ent-RMCAreaAlmayerPowered = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEngineeringAirmix = область
-    .suffix = область
+
 ent-RMCAreaSpaceAlmayer = Космос
-    .suffix = Космос
+
 ent-RMCAreaAlmayerEvacuation = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod1 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod2 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod3 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod4 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod5 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod6 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod7 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod8 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod9 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod10 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod11 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod12 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod13 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod14 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod15 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod16 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod17 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationPod18 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStranded = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod1 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod2 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod3 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod4 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod5 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod6 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod7 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod8 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod9 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod10 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod11 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod12 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod13 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod14 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod15 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod16 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod17 = область
-    .suffix = область
+
 ent-RMCAreaAlmayerEvacuationStrandedPod18 = область
-    .suffix = область
+

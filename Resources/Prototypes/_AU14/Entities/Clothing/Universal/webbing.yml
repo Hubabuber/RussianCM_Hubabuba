@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingMagazine
-  name: ent-AU14WebbingMagazine
-  description: ent-AU14WebbingMagazine-desc
+  name: magazine webbing
+  description: Synthcotton webbing with three pockets to hold your magazines.
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/magazinewebbing.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingDumpPouch
-  name: ent-AU14WebbingDumpPouch
-  description: ent-AU14WebbingDumpPouch-desc
+  name: dump pouch webbing
+  description: A pouch to dump your empty mags into.
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/dumpouch.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingUtility
-  name: ent-AU14WebbingUtility
-  description: ent-AU14WebbingUtility-desc
+  name: utility webbing
+  description: A synthcotton webbing vest with lots of pockets to hold whatever you need, but cannot hold in hands.
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/utilitywebbing.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingDropPouch
-  name: ent-AU14WebbingDropPouch
-  description: ent-AU14WebbingDropPouch-desc
+  name: drop pouch
+  description: A convenient pouch to carry loose items around.
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/droppouch.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingAdminPouch
-  name: ent-AU14WebbingAdminPouch
-  description: ent-AU14WebbingAdminPouch-desc
+  name: admin pouch
+  description: A pouch to carry your administrative equipment around.
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/adminpouch.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingKnives
-  name: ent-AU14WebbingKnives
-  description: ent-AU14WebbingKnives-desc
+  name: knife webbing
+  description: An older generation knife vest. Can hold up to 5 knives. It is made of synthcotton.
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/knifevest.rsi
@@ -271,7 +271,7 @@
 - type: entity
   parent: AU14WebbingKnives
   id: AU14WebbingKnivesFilled
-  suffix: ent-AU14WebbingKnivesFilled-suffix
+  suffix: Filled
   components:
     - type: StorageFill
       contents:

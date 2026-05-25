@@ -1,11 +1,11 @@
 - type: job
   parent: CMSurvivor
   id: RMCSurvivorPMCCommandoShivas
-  name: job-rmcsurvivorpmccommandoshivas-name
-  description: job-rmcsurvivorpmccommandoshivas-desc
+  name: rmc-job-name-survivor-shivas-weya-commando
+  description: rmc-job-description-survivor
   ranks:
     RMCRankWeYaCommando: []
-  supervisors: job-rmcsurvivorpmccommandoshivas-supervisors
+  supervisors: cm-job-supervisors-we-ya
   accessGroups:
   - ColonistPMC
   startingGear: RMCGearSurvivorShivasCommando
@@ -15,7 +15,7 @@
   camouflageStartingGear: null
   greeting: rmc-job-greeting-shivas-commando
   playTimeTracker: CMJobSurvivorSecurity
-  spawnMenuRoleName: job-rmcsurvivorpmccommandoshivas-spawnmenurolename
+  spawnMenuRoleName: Survivor - We-Ya Commando (Shivas)
   special:
   - !type:AddComponentSpecial
     components:
@@ -60,13 +60,13 @@
 - type: entity
   parent: CMArmorM4PMCCommandoSurvivor
   id: CMArmorM4PMCCommandoSurvivorFilled
-  suffix: ent-CMArmorM4PMCCommandoSurvivorFilled-suffix
+  suffix: Filled
 
 
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidKitFilledCommando
-  suffix: ent-CMFirstAidKitFilledCommando-suffix
+  suffix: Filled, Commando
   components:
   - type: StorageFill
     contents:
@@ -88,7 +88,7 @@
 - type: entity
   parent: CMSurgicalCase
   id: RMCSurgicalCaseFilledCommandoElite
-  suffix: ent-RMCSurgicalCaseFilledCommandoElite-suffix
+  suffix: Filled, Commando, Elite
   components:
   - type: StorageFill
     contents:
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCSyringeCase
   id: RMCSyringeCaseFilledCommando
-  suffix: ent-RMCSyringeCaseFilledCommando-suffix
+  suffix: Filled, Commando
   components:
   - type: StorageFill
     contents:
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMMedicalUpgradeKit
   id: CMMedicalUpgradeKitFilledCommando
-  suffix: ent-CMMedicalUpgradeKitFilledCommando-suffix
+  suffix: Filled, Commando
   components:
   - type: StorageFill # todo: randomization (35% probability to spawn 1-4 trauma, and 35% to spawn 1-4 burn)
     contents:
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCBeltPMC
   id: RMCBeltPMCFilledCommando
-  suffix: ent-RMCBeltPMCFilledCommando-suffix
+  suffix: Filled, Commando, Survivor
   components:
   - type: StorageFill
     contents:
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCSatchelPMCCommando
   id: RMCSatchelPMCCommandoFilled
-  suffix: ent-RMCSatchelPMCCommandoFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -152,7 +152,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorPanicRoomCommando
-  name: ent-RMCSpawnPointSurvivorPanicRoomCommando
+  name: special survivor panic room commando spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorPMCCommandoShivas

@@ -1,8 +1,8 @@
 - type: job
   parent: CMStaffOfficer
   id: CMPVEPlatoonCommander
-  name: job-cmpveplatooncommander-name
-  description: job-cmpveplatooncommander-desc
+  name: cm-job-name-platoon-commander
+  description: cm-job-description-platoon-commander
   playTimeTracker: CMJobPVEPlatoonCommander
   requirements:
   - !type:RoleTimeRequirement
@@ -10,11 +10,11 @@
     time: 10800 # 3 hours
   ranks:
     RMCRankSecondLT: []
-  spawnMenuRoleName: job-cmpveplatooncommander-spawnmenurolename
+  spawnMenuRoleName: Sun Rider Platoon Commander (PVE)
   startingGear: RMCGearPVEPlatoonCommander
   icon: "RMCJobIconPVEPlatoonCommander"
   joinNotifyCrew: false
-  supervisors: job-cmpveplatooncommander-supervisors
+  supervisors: cm-job-supervisors-company-command
   marineAuthorityLevel: 14
   accessGroups:
   - ShipMasterAccess
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVEPlatoonCommander
-  name: ent-RMCSpawnPointPVEPlatoonCommander
+  name: PVE platoon commander spawn point
   components:
   - type: SpawnPoint
     job_id: CMPVEPlatoonCommander

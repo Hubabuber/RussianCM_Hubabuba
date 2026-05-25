@@ -1,17 +1,17 @@
-# dropship doors and nav computers
+﻿# dropship doors and nav computers
 - type: accessLevel
   id: CMAccessDropship
   parent: RMCBaseCommandAccess
-  name: accesslevel-cmaccessdropship-name
+  name: cm-access-dropship
 
 # pilot vendor access
 - type: accessLevel
   id: CMAccessPilot
   parent: RMCBaseHidden
-  name: accesslevel-cmaccesspilot-name
+  name: cm-job-name-pilot
 
 # vehicle crewman and corresponding machines' access
 - type: accessLevel
   id: CMAccessCrewman
   parent: RMCBaseHidden
-  name: accesslevel-cmaccesscrewman-name
+  name: cm-job-name-dcc

@@ -19,30 +19,3 @@ ent-LockerBotanistLoot-desc = Стандартное хранилище Nanotras
 ent-ClosetJanitorBombFilled-name = шкаф для уборки бомбового костюма
 ent-ClosetJanitorBombFilled-desc = Это склад служебных взрывозащитных костюмов.
 
-ent-ClosetChefFilled = шкаф повара
-    .desc = Это склад одежды для предприятий общественного питания и мышеловок.
-    .suffix = Заполненный
-
-ent-ClosetJanitorBombFilled = шкаф для уборки бомбового костюма
-    .desc = Это хранилище взрывозащитных костюмов уборщиков.
-    .suffix = НЕ СОСТАВЛЯЙТЕ КАРТУ, заполнено
-
-ent-ClosetJanitorFilled = чулан для содержания под стражей
-    .desc = Это хранилище для уборочной одежды и инвентаря.
-    .suffix = Заполненный
-
-ent-ClosetLegalFilled = юридический шкаф
-    .desc = Это хранилище для судебной одежды и предметов.
-    .suffix = Заполненный
-
-ent-LockerBoozeFilled = хранилище для выпивки
-    .desc = Здесь бармен хранит выпивку.
-    .suffix = Заполненный
-
-ent-LockerBotanistFilled = шкафчик ботаника
-    .desc = Стандартное хранилище Nanotrasen.
-    .suffix = Заполненный
-
-ent-LockerBotanistLoot = шкафчик ботаника
-    .desc = Стандартное хранилище Nanotrasen.
-    .suffix = Лут

@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: BaseItem
-  name: ent-RMCNailgunCompact
+  name: compact nailgun
   id: RMCNailgunCompact
-  description: ent-RMCNailgunCompact-desc
-  suffix: ent-RMCNailgunCompact-suffix
+  description: A carpentry tool, used to drive nails into tough surfaces. Cannot fire nails offensively due to a lack of a gas seal around the nail, meaning it cannot build up the pressure to fire.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/nailgun_compact.rsi
@@ -77,10 +77,10 @@
 
 - type: entity
   parent: RMCNailgunCompact
-  name: ent-RMCNailgunTactical
+  name: tactical compact nailgun
   id: RMCNailgunTactical
-  description: ent-RMCNailgunTactical-desc
-  suffix: ent-RMCNailgunTactical-suffix
+  description: A carpentry tool, used to drive nails into tough surfaces. This one is military grade, it's olive drab and tacticool. Cannot fire nails as a projectile.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/nailgun_tactical.rsi

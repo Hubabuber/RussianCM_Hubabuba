@@ -1,11 +1,11 @@
 - type: job
   parent: AU14JobPlatOpBase
   id: AU14JobOpforPlatOp
-  name: job-au14jobopforplatop-name
-  description: job-au14jobopforplatop-desc
+  name: au14-job-name-opforplatop
+  description: au14-job-description-opforplatop
   icon: "AU14JobIconOPFOROpsOfc"
-  spawnMenuRoleName: job-au14jobopforplatop-spawnmenurolename
-  supervisors: job-au14jobopforplatop-supervisors
+  spawnMenuRoleName: Junior Officer (OPFOR)
+  supervisors: au14-job-supervisors-opfor
   startingGear: AU14GearOpforPlatOp
   dummyStartingGear: AU14GearOpforPlatOpDummy
   accessGroups:
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforPlatOp
-  name: ent-AU14SpawnPointopforPlatOp
+  name: Spawn Point opfor Platoon Operations Officer
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforPlatOp

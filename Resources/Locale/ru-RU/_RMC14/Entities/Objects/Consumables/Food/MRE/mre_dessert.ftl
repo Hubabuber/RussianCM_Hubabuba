@@ -34,8 +34,3 @@ ent-CMMREComponentSpicedApples = компонент ИРП (яблоки со с
 
 
 
-ent-CMMREDessertComponentBase = компонент MRE
-    .desc = Побочный компонент MRE. Содержит сладкий десерт, который можно есть после основного блюда (или перед ним, если вы непослушный).
-
-ent-CMMREFoodDessert = item
-    .desc = Содержимое морфеха Стандартный выпуск MRE.

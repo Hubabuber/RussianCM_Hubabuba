@@ -1,5 +1,5 @@
 - type: entity
-  name: ent-BaseAnomalyInjector
+  name: anomaly injector
   parent: MarkerBase
   id: BaseAnomalyInjector
   abstract: true
@@ -31,7 +31,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapPyroclastic
-  suffix: ent-AnomalyTrapPyroclastic-suffix
+  suffix: Pyroclastic
   components:
   - type: Sprite
     layers:
@@ -61,7 +61,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapElectricity
-  suffix: ent-AnomalyTrapElectricity-suffix
+  suffix: Electricity
   components:
   - type: Sprite
     layers:
@@ -91,7 +91,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapShadow
-  suffix: ent-AnomalyTrapShadow-suffix
+  suffix: Shadow
   components:
   - type: Sprite
     layers:
@@ -121,7 +121,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapIce
-  suffix: ent-AnomalyTrapIce-suffix
+  suffix: Ice
   components:
   - type: Sprite
     layers:
@@ -151,7 +151,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapFlora
-  suffix: ent-AnomalyTrapFlora-suffix
+  suffix: Flora
   components:
   - type: Sprite
     layers:
@@ -181,7 +181,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapBluespace
-  suffix: ent-AnomalyTrapBluespace-suffix
+  suffix: Bluespace
   components:
   - type: Sprite
     layers:
@@ -211,7 +211,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapFlesh
-  suffix: ent-AnomalyTrapFlesh-suffix
+  suffix: Flesh
   components:
   - type: Sprite
     layers:
@@ -241,7 +241,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapGravity
-  suffix: ent-AnomalyTrapGravity-suffix
+  suffix: Gravity
   components:
   - type: Sprite
     layers:
@@ -271,7 +271,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapTech
-  suffix: ent-AnomalyTrapTech-suffix
+  suffix: Tech
   components:
   - type: Sprite
     layers:
@@ -301,7 +301,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapRock
-  suffix: ent-AnomalyTrapRock-suffix
+  suffix: Rock
   components:
   - type: Sprite
     layers:
@@ -332,7 +332,7 @@
 - type: entity
   parent: BaseAnomalyInjector
   id: AnomalyTrapSanta
-  suffix: ent-AnomalyTrapSanta-suffix
+  suffix: Santa
   components:
   - type: Sprite
     layers:

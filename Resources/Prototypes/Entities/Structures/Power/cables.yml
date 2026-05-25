@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   abstract: true
   id: CableBase
   placement:
@@ -53,8 +53,8 @@
 - type: entity
   parent: CableBase
   id: CableHV
-  name: ent-CableHV
-  description: ent-CableHV-desc
+  name: HV power cable
+  description: An orange high voltage power cable.
   components:
   - type: Sprite
     sprite: Structures/Power/Cables/hv_cable.rsi
@@ -103,7 +103,7 @@
 - type: entity
   id: CableHVUncuttable
   parent: CableHV
-  suffix: ent-CableHVUncuttable-suffix
+  suffix: uncuttable
   components:
   - type: Cable
     cuttingQuality: null
@@ -111,8 +111,8 @@
 - type: entity
   parent: CableBase
   id: CableMV
-  name: ent-CableMV
-  description: ent-CableMV-desc
+  name: MV power cable
+  description: A medium voltage power cable.
   components:
   - type: Sprite
     sprite: Structures/Power/Cables/mv_cable.rsi
@@ -157,7 +157,7 @@
 - type: entity
   id: CableMVUncuttable
   parent: CableMV
-  suffix: ent-CableMVUncuttable-suffix
+  suffix: uncuttable
   components:
   - type: Cable
     cuttingQuality: null
@@ -165,8 +165,8 @@
 - type: entity
   parent: CableBase
   id: CableApcExtension
-  name: ent-CableApcExtension
-  description: ent-CableApcExtension-desc #APCs aren't area defined anymore so need this cable to connect things to the APC. This description should be dynamic in future.
+  name: LV power cable
+  description: A cable used to connect machines to an APC. #APCs aren't area defined anymore so need this cable to connect things to the APC. This description should be dynamic in future.
   components:
   - type: Sprite
     color: Green
@@ -212,7 +212,7 @@
 - type: entity
   id: CableApcExtensionUncuttable
   parent: CableApcExtension
-  suffix: ent-CableApcExtensionUncuttable-suffix
+  suffix: uncuttable
   components:
   - type: Cable
     cuttingQuality: null

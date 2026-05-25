@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobSquadAutomaticRiflemanBase
   id: AU14JobGOVFORSquadAutomaticRifleman
-  name: job-au14jobgovforsquadautomaticrifleman-name
-  description: job-au14jobgovforsquadautomaticrifleman-desc
+  name: au14-job-name-govforsquadautomaticrifleman
+  description: au14-job-description-govforsquadautomaticrifleman
   setPreference: true
   requirements:
   - !type:TraitsRequirement
@@ -32,13 +32,13 @@
   dummyStartingGear: AU14GearGOVFORAutoRiflemanDummy
   icon: "AU14JobIconAFN"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobgovforsquadautomaticrifleman-spawnmenurolename
+  spawnMenuRoleName: Automatic Rifleman (GOVFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforsquadautomaticrifleman-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforGunner
   overwatchSortPriority: -6
-  overwatchRoleName: job-au14jobgovforsquadautomaticrifleman-overwatchrolename
+  overwatchRoleName: au14-job-name-govforsquadautomaticrifleman-plural
   overwatchShowName: true
 
   roleWeight: 0.25
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadAutomaticRifleman
-  name: ent-AU14SpawnPointGOVFORSquadAutomaticRifleman
+  name: Spawn Point GOVFOR Squad Rifleman
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadAutomaticRifleman

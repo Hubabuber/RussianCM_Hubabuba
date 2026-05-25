@@ -3,8 +3,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleL90A1
-  name: ent-RMCWeaponRifleL90A1
-  description: ent-RMCWeaponRifleL90A1-desc
+  name: SLRA1 infantry carbine
+  description: The SLRA1 infantry carbine. While lacking in modularity and noticeably less ergonomic than later models, it still packs a punch. Chambered in 7x43mm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/l90a1.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: RMCWeaponRifleL90A1
   id: RMCWeaponRifleL90A2
-  name: ent-RMCWeaponRifleL90A2
-  description: ent-RMCWeaponRifleL90A2-desc
+  name: SLRA2 infantry carbine
+  description: The SLRA2 infantry carbine. Highly modular, easy to handle, and hard-hitting, the A2 is widely regarded as a quality rifle by its users. Chambered in 7x43mm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/l90a2.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: RMCWeaponRifleL90A2
   id: RMCWeaponRifleL91SWS
-  name: ent-RMCWeaponRifleL91SWS
-  description: ent-RMCWeaponRifleL91SWS-desc
+  name: L91 SWS
+  description: The L91 Support Weapon System features a significantly longer and heavier barrel than the L90. While this makes it more unwieldy, the added length, weight, and durability enable accurate and sustained fire from a stationary position. Chambered in 7x43mm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/l91.rsi
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCWeaponRifleL90A1
   id: RMCWeaponRifleL90A1Filled
-  suffix: ent-RMCWeaponRifleL90A1Filled-suffix
+  suffix: Filled
   components:
   - type: ItemSlots
     slots:
@@ -342,7 +342,7 @@
 - type: entity
   parent: RMCWeaponRifleL90A1Filled
   id: RMCWeaponRifleL90A1FilledSemiStripped
-  suffix: ent-RMCWeaponRifleL90A1FilledSemiStripped-suffix
+  suffix: No UGL, Filled
   components:
   - type: AttachableHolder
     slots:
@@ -370,7 +370,7 @@
 - type: entity
   parent: RMCWeaponRifleL90A2
   id: RMCWeaponRifleL90A2Filled
-  suffix: ent-RMCWeaponRifleL90A2Filled-suffix
+  suffix: Filled
   components:
   - type: ItemSlots
     slots:
@@ -429,7 +429,7 @@
 - type: entity
   parent: RMCWeaponRifleL90A2Filled
   id: RMCWeaponRifleL90A2FilledSemiStripped
-  suffix: ent-RMCWeaponRifleL90A2FilledSemiStripped-suffix
+  suffix: No UGL, Filled
   components:
   - type: AttachableHolder
     slots:
@@ -469,7 +469,7 @@
 - type: entity
   parent: RMCWeaponRifleL90A2Filled
   id: RMCWeaponRifleL90A2Breacher
-  suffix: ent-RMCWeaponRifleL90A2Breacher-suffix
+  suffix: Breacher
   components:
   - type: AttachableHolder
     slots:
@@ -511,7 +511,7 @@
 - type: entity
   parent: RMCWeaponRifleL91SWS
   id: RMCWeaponRifleL91SWSFilled
-  suffix: ent-RMCWeaponRifleL91SWSFilled-suffix
+  suffix: Filled
   components:
   - type: ItemSlots
     slots:
@@ -565,8 +565,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL90
-  name: ent-RMCMagazineRifleL90
-  description: "ent-RMCMagazineRifleL90-desc"
+  name: SLR magazine (7x43mm)
+  description: "A magazine of 7x43mm rounds for use in SLR pattern rifles."
   components:
   - type: Tag
     tags:
@@ -593,9 +593,9 @@
 - type: entity
   parent: RMCMagazineRifleL90
   id: RMCMagazineRifleL90Drum
-  name: ent-RMCMagazineRifleL90Drum
-  description: "ent-RMCMagazineRifleL90Drum-desc"
-  suffix: ent-RMCMagazineRifleL90Drum-suffix
+  name: SLR drum magazine (7x43mm)
+  description: "A drum magazine of 7x43mm rounds for use in SLR pattern rifles."
+  suffix: Drum
   components:
   - type: Tag
     tags:
@@ -621,9 +621,9 @@
 - type: entity
   parent: RMCMagazineRifleL90
   id: RMCMagazineRifleL90AP
-  name: ent-RMCMagazineRifleL90AP
-  description: "ent-RMCMagazineRifleL90AP-desc"
-  suffix: ent-RMCMagazineRifleL90AP-suffix
+  name: SLR AP magazine (7x43mm)
+  description: "A magazine of armor-piercing 7x43mm rounds for use in SLR pattern rifles."
+  suffix: AP
   components:
   - type: Tag
     tags:
@@ -650,9 +650,9 @@
 - type: entity
   parent: RMCMagazineRifleL90AP
   id: RMCMagazineRifleL90DrumAP
-  name: ent-RMCMagazineRifleL90DrumAP
-  description: "ent-RMCMagazineRifleL90DrumAP-desc"
-  suffix: ent-RMCMagazineRifleL90DrumAP-suffix
+  name: SLR AP drum magazine (7x43mm)
+  description: "A drum magazine of armor-piercing 7x43mm rounds for use in SLR pattern rifles."
+  suffix: Drum, AP
   components:
   - type: Tag
     tags:
@@ -680,9 +680,9 @@
 - type: entity
   parent: RMCMagazineRifleL90
   id: RMCMagazineRifleL90HEAP
-  name: ent-RMCMagazineRifleL90HEAP
-  description: "ent-RMCMagazineRifleL90HEAP-desc"
-  suffix: ent-RMCMagazineRifleL90HEAP-suffix
+  name: SLR HEAP magazine (7x43mm)
+  description: "A magazine of HEAP 7x43mm rounds for use in SLR pattern rifles."
+  suffix: HEAP
   components:
   - type: Tag
     tags:
@@ -707,9 +707,9 @@
 - type: entity
   parent: RMCMagazineRifleL90AP
   id: RMCMagazineRifleL90DrumHEAP
-  name: ent-RMCMagazineRifleL90DrumHEAP
-  description: "ent-RMCMagazineRifleL90DrumHEAP-desc"
-  suffix: ent-RMCMagazineRifleL90DrumHEAP-suffix
+  name: SLR HEAP drum magazine (7x43mm)
+  description: "A drum magazine of HEAP 7x43mm rounds for use in SLR pattern rifles."
+  suffix: Drum, HEAP
   components:
   - type: Tag
     tags:
@@ -735,9 +735,9 @@
 - type: entity
   parent: RMCMagazineRifleL90
   id: RMCMagazineRifleL90Incendiary
-  name: ent-RMCMagazineRifleL90Incendiary
-  description: "ent-RMCMagazineRifleL90Incendiary-desc"
-  suffix: ent-RMCMagazineRifleL90Incendiary-suffix
+  name: SLR incendiary magazine (7x43mm)
+  description: "A magazine of incendiary 7x43mm rounds for use in SLR pattern rifles."
+  suffix: Incendiary
   components:
   - type: Tag
     tags:
@@ -762,9 +762,9 @@
 - type: entity
   parent: RMCMagazineRifleL90Incendiary
   id: RMCMagazineRifleL90DrumIncendiary
-  name: ent-RMCMagazineRifleL90DrumIncendiary
-  description: "ent-RMCMagazineRifleL90DrumIncendiary-desc"
-  suffix: ent-RMCMagazineRifleL90DrumIncendiary-suffix
+  name: SLR incendiary drum magazine (7x43mm)
+  description: "A drum magazine of incendiary 7x43mm rounds for use in SLR pattern rifles."
+  suffix: Drum, Incendiary
   components:
   - type: Tag
     tags:
@@ -792,8 +792,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL90
-  name: ent-RMCCartridgeRifleL90
-  description: ent-RMCCartridgeRifleL90-desc
+  name: cartridge (7x43mm)
+  description: A 7x43mm rifle cartridge designed for L90 pattern rifles.
   components:
   - type: Tag
     tags:
@@ -829,8 +829,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL90AP
-  name: ent-RMCCartridgeRifleL90AP
-  description: ent-RMCCartridgeRifleL90AP-desc
+  name: AP cartridge (7x43mm)
+  description: A 7x43mm AP rifle cartridge designed for L90 pattern rifles.
   components:
   - type: Tag
     tags:
@@ -854,8 +854,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL90HEAP
-  name: ent-RMCCartridgeRifleL90HEAP
-  description: ent-RMCCartridgeRifleL90HEAP-desc
+  name: HEAP cartridge (7x43mm)
+  description: A 7x43mm HEAP rifle cartridge designed for L90 pattern rifles.
   components:
   - type: Tag
     tags:
@@ -878,8 +878,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL90Incendiary
-  name: ent-RMCCartridgeRifleL90Incendiary
-  description: ent-RMCCartridgeRifleL90Incendiary-desc
+  name: incendiary cartridge (7x43mm)
+  description: A 7x43mm incendiary rifle cartridge designed for L90 pattern rifles.
   components:
   - type: Tag
     tags:

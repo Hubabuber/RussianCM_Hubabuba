@@ -1,10 +1,10 @@
 - type: job
   parent: RMCSurvivorForeconBase
   id: RMCSurvivorForeconSniper
-  name: job-rmcsurvivorforeconsniper-name
+  name: rmc-job-name-forecon-sniper
   startingGear: RMCGearForeconSniper
   icon: "RMCJobIconForeconSniper"
-  spawnMenuRoleName: job-rmcsurvivorforeconsniper-spawnmenurolename
+  spawnMenuRoleName: FORECON Sniper (Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconSniper
-  name: ent-CMSpawnPointForeconSniper
+  name: forecon sniper spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconSniper

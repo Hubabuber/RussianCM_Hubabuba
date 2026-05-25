@@ -1,8 +1,8 @@
 - type: entity
   id: BaseDefibrillator
   parent: BaseItem
-  name: ent-BaseDefibrillator
-  description: ent-BaseDefibrillator-desc
+  name: defibrillator
+  description: CLEAR! Zzzzat!
   abstract: true
   components:
     - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   id: DefibrillatorEmpty
   parent: Defibrillator
-  suffix: ent-DefibrillatorEmpty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -63,7 +63,7 @@
 - type: entity
   id: DefibrillatorOneHandedUnpowered
   parent: BaseDefibrillator
-  suffix: ent-DefibrillatorOneHandedUnpowered-suffix
+  suffix: One-Handed, Always Powered
 
 - type: entity
   id: DefibrillatorCompact # This should be a research item at some point
@@ -98,8 +98,8 @@
 - type: entity
   id: DefibrillatorSyndicate
   parent: [ DefibrillatorCompact, BaseSyndicateContraband ]
-  name: ent-DefibrillatorSyndicate
-  description: ent-DefibrillatorSyndicate-desc
+  name: interdyne defibrillator
+  description: Doubles as a self-defense weapon against war-crime inclined tiders.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/defibsyndi.rsi

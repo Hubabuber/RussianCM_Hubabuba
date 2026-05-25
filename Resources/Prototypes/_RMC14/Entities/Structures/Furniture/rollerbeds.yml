@@ -29,8 +29,8 @@
 - type: entity
   parent: [ RMCRollerBedDestruction, RollerBed ]
   id: CMRollerBed
-  name: ent-CMRollerBed
-  description: ent-CMRollerBed-desc
+  name: roller bed
+  description: A collapsed roller bed that can be carried around.
   components:
   - type: Tag
     tags:
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMRollerBed
   id: CMRollerBedSpawnFolded
-  suffix: ent-CMRollerBedSpawnFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMRollerBed
   id: CMPortableSurgicalBed
-  name: ent-CMPortableSurgicalBed
-  description: ent-CMPortableSurgicalBed-desc
+  name: portable surgical bed
+  description: A collapsible surgical bed. It's not perfect, but it's the best you'll get short of an actual surgical table.
   components:
   - type: Item
     heldPrefix: surgical
@@ -122,7 +122,7 @@
 - type: entity
   parent: CMPortableSurgicalBed
   id: CMPortableSurgicalBedSpawnFolded
-  suffix: ent-CMPortableSurgicalBedSpawnFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -133,8 +133,8 @@
 - type: entity
   parent: [ RMCRollerBedDestruction, BaseDeployFoldable ]
   id: RMCMedevacStretcher
-  name: ent-RMCMedevacStretcher
-  description: ent-RMCMedevacStretcher-desc
+  name: medevac stretcher
+  description: A collapsible stretcher that can be activated to send patients to an overhead dropship.
   components:
   - type: Item
     size: Small
@@ -216,7 +216,7 @@
 - type: entity
   parent: RMCMedevacStretcher
   id: RMCMedevacStretcherFolded
-  suffix: ent-RMCMedevacStretcherFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -228,8 +228,8 @@
 - type: entity
   parent: CMRollerBed
   id: RMCRollerBedHospital
-  name: ent-RMCRollerBedHospital
-  description: ent-RMCRollerBedHospital-desc
+  name: hospital roller bed
+  description: A basic cushioned leather board resting on a small frame. Not very comfortable at all, but allows the patient to rest lying down while moved to another location rapidly. Not great for surgery, but better than nothing.
   components:
   - type: Sprite
     layers:
@@ -245,7 +245,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalFolded
-  suffix: ent-RMCRollerBedHospitalFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -270,7 +270,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalBloodFolded
-  suffix: ent-RMCRollerBedHospitalBloodFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalSheetFolded
-  suffix: ent-RMCRollerBedHospitalSheetFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -320,7 +320,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalSheet2Folded
-  suffix: ent-RMCRollerBedHospitalSheet2Folded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true

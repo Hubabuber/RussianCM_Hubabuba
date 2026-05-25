@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: RMCPropVehicleBase
   id: RMCPropVehicleLargeBase
   abstract: true
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleAmbulance
-  name: ent-RMCPropVehicleAmbulance
-  description: ent-RMCPropVehicleAmbulance-desc
+  name: ambulance
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: ambulance
@@ -30,9 +30,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleAmbulanceF
-  name: ent-RMCPropVehicleAmbulanceF
-  description: ent-RMCPropVehicleAmbulanceF-desc
-  suffix: ent-RMCPropVehicleAmbulanceF-suffix
+  name: ambulance
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: ambulance_f
@@ -42,8 +42,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckBlue
-  name: ent-RMCPropVehicleLoaderTruckBlue
-  description: ent-RMCPropVehicleLoaderTruckBlue-desc
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: armored_truck_blue
@@ -51,9 +51,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckBlueF
-  name: ent-RMCPropVehicleLoaderTruckBlueF
-  description: ent-RMCPropVehicleLoaderTruckBlueF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckBlueF-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: armored_truck_blue_f
@@ -61,9 +61,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckBlueFilled
-  name: ent-RMCPropVehicleLoaderTruckBlueFilled
-  description: ent-RMCPropVehicleLoaderTruckBlueFilled-desc
-  suffix: ent-RMCPropVehicleLoaderTruckBlueFilled-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded
   components:
   - type: Sprite
     state: armored_truck_blue_loaded
@@ -71,9 +71,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckBlueFilledF
-  name: ent-RMCPropVehicleLoaderTruckBlueFilledF
-  description: ent-RMCPropVehicleLoaderTruckBlueFilledF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckBlueFilledF-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded, Flipped
   components:
   - type: Sprite
     state: armored_truck_blue_loaded_f
@@ -81,8 +81,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckTeal
-  name: ent-RMCPropVehicleLoaderTruckTeal
-  description: ent-RMCPropVehicleLoaderTruckTeal-desc
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: armored_truck_teal
@@ -90,9 +90,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckTealF
-  name: ent-RMCPropVehicleLoaderTruckTealF
-  description: ent-RMCPropVehicleLoaderTruckTealF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckTealF-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: armored_truck_teal_f
@@ -100,9 +100,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckTealFilled
-  name: ent-RMCPropVehicleLoaderTruckTealFilled
-  description: ent-RMCPropVehicleLoaderTruckTealFilled-desc
-  suffix: ent-RMCPropVehicleLoaderTruckTealFilled-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded
   components:
   - type: Sprite
     state: armored_truck_teal_loaded
@@ -110,9 +110,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckTealFilledF
-  name: ent-RMCPropVehicleLoaderTruckTealFilledF
-  description: ent-RMCPropVehicleLoaderTruckTealFilledF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckTealFilledF-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded, Flipped
   components:
   - type: Sprite
     state: armored_truck_teal_loaded_f
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckWhite
-  name: ent-RMCPropVehicleLoaderTruckWhite
-  description: ent-RMCPropVehicleLoaderTruckWhite-desc
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: armored_truck_white
@@ -129,9 +129,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckWhiteF
-  name: ent-RMCPropVehicleLoaderTruckWhiteF
-  description: ent-RMCPropVehicleLoaderTruckWhiteF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckWhiteF-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: armored_truck_white_f
@@ -139,9 +139,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckWhiteFilled
-  name: ent-RMCPropVehicleLoaderTruckWhiteFilled
-  description: ent-RMCPropVehicleLoaderTruckWhiteFilled-desc
-  suffix: ent-RMCPropVehicleLoaderTruckWhiteFilled-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded
   components:
   - type: Sprite
     state: armored_truck_white_loaded
@@ -149,9 +149,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckWhiteFilledF
-  name: ent-RMCPropVehicleLoaderTruckWhiteFilledF
-  description: ent-RMCPropVehicleLoaderTruckWhiteFilledF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckWhiteFilledF-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded, Flipped
   components:
   - type: Sprite
     state: armored_truck_white_loaded_f
@@ -159,8 +159,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckBlack
-  name: ent-RMCPropVehicleLoaderTruckBlack
-  description: ent-RMCPropVehicleLoaderTruckBlack-desc
+  name: Weyland-Yutani security truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: armored_truck_wy_black
@@ -168,9 +168,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckBlackF
-  name: ent-RMCPropVehicleLoaderTruckBlackF
-  description: ent-RMCPropVehicleLoaderTruckBlackF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckBlackF-suffix
+  name: Weyland-Yutani security truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: armored_truck_wy_black_f
@@ -178,9 +178,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckBlackFilled
-  name: ent-RMCPropVehicleLoaderTruckBlackFilled
-  description: ent-RMCPropVehicleLoaderTruckBlackFilled-desc
-  suffix: ent-RMCPropVehicleLoaderTruckBlackFilled-suffix
+  name: Weyland-Yutani security truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded
   components:
   - type: Sprite
     state: armored_truck_wy_black_loaded
@@ -188,9 +188,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckBlackFilledF
-  name: ent-RMCPropVehicleLoaderTruckBlackFilledF
-  description: ent-RMCPropVehicleLoaderTruckBlackFilledF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckBlackFilledF-suffix
+  name: Weyland-Yutani security truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded, Flipped
   components:
   - type: Sprite
     state: armored_truck_wy_black_loaded_f
@@ -198,8 +198,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckWhiteWeYa
-  name: ent-RMCPropVehicleLoaderTruckWhiteWeYa
-  description: ent-RMCPropVehicleLoaderTruckWhiteWeYa-desc
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: armored_truck_wy_white
@@ -207,9 +207,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckWhiteWeYaF
-  name: ent-RMCPropVehicleLoaderTruckWhiteWeYaF
-  description: ent-RMCPropVehicleLoaderTruckWhiteWeYaF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckWhiteWeYaF-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: armored_truck_wy_white_f
@@ -217,9 +217,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckWhiteWeYaFilled
-  name: ent-RMCPropVehicleLoaderTruckWhiteWeYaFilled
-  description: ent-RMCPropVehicleLoaderTruckWhiteWeYaFilled-desc
-  suffix: ent-RMCPropVehicleLoaderTruckWhiteWeYaFilled-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded
   components:
   - type: Sprite
     state: armored_truck_wy_white_loaded
@@ -227,9 +227,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLoaderTruckWhiteWeYaFilledF
-  name: ent-RMCPropVehicleLoaderTruckWhiteWeYaFilledF
-  description: ent-RMCPropVehicleLoaderTruckWhiteWeYaFilledF-desc
-  suffix: ent-RMCPropVehicleLoaderTruckWhiteWeYaFilledF-suffix
+  name: heavy-loader truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded, Flipped
   components:
   - type: Sprite
     state: armored_truck_wy_white_loaded_f
@@ -239,8 +239,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanBlueGrey
-  name: ent-RMCPropVehicleBoxVanBlueGrey
-  description: ent-RMCPropVehicleBoxVanBlueGrey-desc
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: box_van_bluegrey
@@ -248,9 +248,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanBlueGreyF
-  name: ent-RMCPropVehicleBoxVanBlueGreyF
-  description: ent-RMCPropVehicleBoxVanBlueGreyF-desc
-  suffix: ent-RMCPropVehicleBoxVanBlueGreyF-suffix
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: box_van_bluegrey_f
@@ -258,8 +258,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanMaintGrey
-  name: ent-RMCPropVehicleBoxVanMaintGrey
-  description: ent-RMCPropVehicleBoxVanMaintGrey-desc
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: box_van_maintenanceblue
@@ -267,9 +267,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanMaintGreyF
-  name: ent-RMCPropVehicleBoxVanMaintGreyF
-  description: ent-RMCPropVehicleBoxVanMaintGreyF-desc
-  suffix: ent-RMCPropVehicleBoxVanMaintGreyF-suffix
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: box_van_maintenanceblue_f
@@ -277,8 +277,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanMaintWhite
-  name: ent-RMCPropVehicleBoxVanMaintWhite
-  description: ent-RMCPropVehicleBoxVanMaintWhite-desc
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: box_van_maintenancewhite
@@ -286,9 +286,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanMaintWhiteF
-  name: ent-RMCPropVehicleBoxVanMaintWhiteF
-  description: ent-RMCPropVehicleBoxVanMaintWhiteF-desc
-  suffix: ent-RMCPropVehicleBoxVanMaintWhiteF-suffix
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: box_van_maintenancewhite_f
@@ -296,8 +296,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanMining
-  name: ent-RMCPropVehicleBoxVanMining
-  description: ent-RMCPropVehicleBoxVanMining-desc
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: box_van_mining
@@ -305,9 +305,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanMiningF
-  name: ent-RMCPropVehicleBoxVanMiningF
-  description: ent-RMCPropVehicleBoxVanMiningF-desc
-  suffix: ent-RMCPropVehicleBoxVanMiningF-suffix
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: box_van_mining_f
@@ -315,8 +315,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanPizza
-  name: ent-RMCPropVehicleBoxVanPizza
-  description: ent-RMCPropVehicleBoxVanPizza-desc
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: box_van_pizza
@@ -324,9 +324,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanPizzaF
-  name: ent-RMCPropVehicleBoxVanPizzaF
-  description: ent-RMCPropVehicleBoxVanPizzaF-desc
-  suffix: ent-RMCPropVehicleBoxVanPizzaF-suffix
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: box_van_pizza_f
@@ -334,8 +334,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanRed
-  name: ent-RMCPropVehicleBoxVanRed
-  description: ent-RMCPropVehicleBoxVanRed-desc
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: box_van_red
@@ -343,9 +343,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanRedF
-  name: ent-RMCPropVehicleBoxVanRedF
-  description: ent-RMCPropVehicleBoxVanRedF-desc
-  suffix: ent-RMCPropVehicleBoxVanRedF-suffix
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: box_van_red_f
@@ -353,8 +353,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanWhite
-  name: ent-RMCPropVehicleBoxVanWhite
-  description: ent-RMCPropVehicleBoxVanWhite-desc
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: box_van_white
@@ -362,9 +362,9 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleBoxVanWhiteF
-  name: ent-RMCPropVehicleBoxVanWhiteF
-  description: ent-RMCPropVehicleBoxVanWhiteF-desc
-  suffix: ent-RMCPropVehicleBoxVanWhiteF-suffix
+  name: box van
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: box_van_white_f
@@ -374,8 +374,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleLongTruckBlue
-  name: ent-RMCPropVehicleLongTruckBlue
-  description: ent-RMCPropVehicleLongTruckBlue-desc
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: longtruck_blue
@@ -392,9 +392,9 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckBlueF
-  name: ent-RMCPropVehicleLongTruckBlueF
-  description: ent-RMCPropVehicleLongTruckBlueF-desc
-  suffix: ent-RMCPropVehicleLongTruckBlueF-suffix
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: longtruck_blue_f
@@ -402,8 +402,8 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckBrown
-  name: ent-RMCPropVehicleLongTruckBrown
-  description: ent-RMCPropVehicleLongTruckBrown-desc
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: longtruck_brown
@@ -411,9 +411,9 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckBrownF
-  name: ent-RMCPropVehicleLongTruckBrownF
-  description: ent-RMCPropVehicleLongTruckBrownF-desc
-  suffix: ent-RMCPropVehicleLongTruckBrownF-suffix
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: longtruck_brown_f
@@ -421,8 +421,8 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckDonk
-  name: ent-RMCPropVehicleLongTruckDonk
-  description: ent-RMCPropVehicleLongTruckDonk-desc
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: longtruck_donk
@@ -430,9 +430,9 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckDonkF
-  name: ent-RMCPropVehicleLongTruckDonkF
-  description: ent-RMCPropVehicleLongTruckDonkF-desc
-  suffix: ent-RMCPropVehicleLongTruckDonkF-suffix
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: longtruck_donk_f
@@ -440,8 +440,8 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckMining
-  name: ent-RMCPropVehicleLongTruckMining
-  description: ent-RMCPropVehicleLongTruckMining-desc
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: longtruck_mining
@@ -449,9 +449,9 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckMiningF
-  name: ent-RMCPropVehicleLongTruckMiningF
-  description: ent-RMCPropVehicleLongTruckMiningF-desc
-  suffix: ent-RMCPropVehicleLongTruckMiningF-suffix
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: longtruck_mining_f
@@ -459,8 +459,8 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckRed
-  name: ent-RMCPropVehicleLongTruckRed
-  description: ent-RMCPropVehicleLongTruckRed-desc
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: longtruck_red
@@ -468,9 +468,9 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckRedF
-  name: ent-RMCPropVehicleLongTruckRedF
-  description: ent-RMCPropVehicleLongTruckRedF-desc
-  suffix: ent-RMCPropVehicleLongTruckRedF-suffix
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: longtruck_red_f
@@ -478,8 +478,8 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckWeYaBlue
-  name: ent-RMCPropVehicleLongTruckWeYaBlue
-  description: ent-RMCPropVehicleLongTruckWeYaBlue-desc
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: longtruck_wy_blue
@@ -487,9 +487,9 @@
 - type: entity
   parent: RMCPropVehicleLongTruckBlue
   id: RMCPropVehicleLongTruckWeYaBlueF
-  name: ent-RMCPropVehicleLongTruckWeYaBlueF
-  description: ent-RMCPropVehicleLongTruckWeYaBlueF-desc
-  suffix: ent-RMCPropVehicleLongTruckWeYaBlueF-suffix
+  name: long-hauler truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: longtruck_wy_blue_f
@@ -499,8 +499,8 @@
 - type: entity
   parent: RMCPropVehicleLargeBase
   id: RMCPropVehicleSmallTruckBlue
-  name: ent-RMCPropVehicleSmallTruckBlue
-  description: ent-RMCPropVehicleSmallTruckBlue-desc
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: small_truck_blue
@@ -517,9 +517,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBlueF
-  name: ent-RMCPropVehicleSmallTruckBlueF
-  description: ent-RMCPropVehicleSmallTruckBlueF-desc
-  suffix: ent-RMCPropVehicleSmallTruckBlueF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: small_truck_blue_f
@@ -527,9 +527,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBlueCargo
-  name: ent-RMCPropVehicleSmallTruckBlueCargo
-  description: ent-RMCPropVehicleSmallTruckBlueCargo-desc
-  suffix: ent-RMCPropVehicleSmallTruckBlueCargo-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded
   components:
   - type: Sprite
     state: small_truck_blue_cargo
@@ -537,9 +537,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBlueCargoF
-  name: ent-RMCPropVehicleSmallTruckBlueCargoF
-  description: ent-RMCPropVehicleSmallTruckBlueCargoF-desc
-  suffix: ent-RMCPropVehicleSmallTruckBlueCargoF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded, Flipped
   components:
   - type: Sprite
     state: small_truck_blue_cargo_f
@@ -547,8 +547,8 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBrown
-  name: ent-RMCPropVehicleSmallTruckBrown
-  description: ent-RMCPropVehicleSmallTruckBrown-desc
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: small_truck_brown
@@ -556,9 +556,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBrownF
-  name: ent-RMCPropVehicleSmallTruckBrownF
-  description: ent-RMCPropVehicleSmallTruckBrownF-desc
-  suffix: ent-RMCPropVehicleSmallTruckBrownF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: small_truck_brown_f
@@ -566,9 +566,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBrownCargo
-  name: ent-RMCPropVehicleSmallTruckBrownCargo
-  description: ent-RMCPropVehicleSmallTruckBrownCargo-desc
-  suffix: ent-RMCPropVehicleSmallTruckBrownCargo-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded
   components:
   - type: Sprite
     state: small_truck_brown_cargo
@@ -576,9 +576,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBrownCargoF
-  name: ent-RMCPropVehicleSmallTruckBrownCargoF
-  description: ent-RMCPropVehicleSmallTruckBrownCargoF-desc
-  suffix: ent-RMCPropVehicleSmallTruckBrownCargoF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded, Flipped
   components:
   - type: Sprite
     state: small_truck_brown_cargo_f
@@ -586,9 +586,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBrownCargoAlt
-  name: ent-RMCPropVehicleSmallTruckBrownCargoAlt
-  description: ent-RMCPropVehicleSmallTruckBrownCargoAlt-desc
-  suffix: ent-RMCPropVehicleSmallTruckBrownCargoAlt-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded Alt
   components:
   - type: Sprite
     state: small_truck_brown_cargobarrels
@@ -596,9 +596,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckBrownCargoAltF
-  name: ent-RMCPropVehicleSmallTruckBrownCargoAltF
-  description: ent-RMCPropVehicleSmallTruckBrownCargoAltF-desc
-  suffix: ent-RMCPropVehicleSmallTruckBrownCargoAltF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Loaded Alt, Flipped
   components:
   - type: Sprite
     state: small_truck_brown_cargobarrels_f
@@ -606,8 +606,8 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckGarbage
-  name: ent-RMCPropVehicleSmallTruckGarbage
-  description: ent-RMCPropVehicleSmallTruckGarbage-desc
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: small_truck_garbage
@@ -615,9 +615,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckGarbageF
-  name: ent-RMCPropVehicleSmallTruckGarbageF
-  description: ent-RMCPropVehicleSmallTruckGarbageF-desc
-  suffix: ent-RMCPropVehicleSmallTruckGarbageF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: small_truck_garbage_f
@@ -625,8 +625,8 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckGreen
-  name: ent-RMCPropVehicleSmallTruckGreen
-  description: ent-RMCPropVehicleSmallTruckGreen-desc
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: small_truck_green
@@ -634,9 +634,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckGreenF
-  name: ent-RMCPropVehicleSmallTruckGreenF
-  description: ent-RMCPropVehicleSmallTruckGreenF-desc
-  suffix: ent-RMCPropVehicleSmallTruckGreenF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: small_truck_green_f
@@ -644,8 +644,8 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckMedical
-  name: ent-RMCPropVehicleSmallTruckMedical
-  description: ent-RMCPropVehicleSmallTruckMedical-desc
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: small_truck_medical
@@ -653,9 +653,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckMedicalF
-  name: ent-RMCPropVehicleSmallTruckMedicalF
-  description: ent-RMCPropVehicleSmallTruckMedicalF-desc
-  suffix: ent-RMCPropVehicleSmallTruckMedicalF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: small_truck_medical_f
@@ -663,8 +663,8 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckMining
-  name: ent-RMCPropVehicleSmallTruckMining
-  description: ent-RMCPropVehicleSmallTruckMining-desc
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: small_truck_mining
@@ -672,9 +672,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckMiningF
-  name: ent-RMCPropVehicleSmallTruckMiningF
-  description: ent-RMCPropVehicleSmallTruckMiningF-desc
-  suffix: ent-RMCPropVehicleSmallTruckMiningF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: small_truck_mining_f
@@ -682,8 +682,8 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckRed
-  name: ent-RMCPropVehicleSmallTruckRed
-  description: ent-RMCPropVehicleSmallTruckRed-desc
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
   components:
   - type: Sprite
     state: small_truck_red
@@ -691,9 +691,9 @@
 - type: entity
   parent: RMCPropVehicleSmallTruckBlue
   id: RMCPropVehicleSmallTruckRedF
-  name: ent-RMCPropVehicleSmallTruckRedF
-  description: ent-RMCPropVehicleSmallTruckRedF-desc
-  suffix: ent-RMCPropVehicleSmallTruckRedF-suffix
+  name: small truck
+  description: It's locked and seems to be broken down, forget driving this.
+  suffix: Flipped
   components:
   - type: Sprite
     state: small_truck_red_f

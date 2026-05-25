@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScope
-  name: ent-CMActionToggleScope
-  description: ent-CMActionToggleScope-desc
+  name: Toggle Optics
+  description: Scope in or out with your optics.
   components:
   - type: Action
     icon:
@@ -15,8 +15,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleZoomLevel
-  name: ent-RMCActionCycleZoomLevel
-  description: ent-RMCActionCycleZoomLevel-desc
+  name: Cycle Zoom Level
+  description: Change the level of magnification of your optics.
   components:
   - type: Action
     icon:
@@ -32,8 +32,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScoutVision
-  name: ent-CMActionToggleScoutVision
-  description: ent-CMActionToggleScoutVision-desc
+  name: Toggle the M42 scout sight
+  description: Allows you to see even in complete darkness.
   components:
   - type: Action
     icon:
@@ -49,8 +49,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleExperimentalMesons
-  name: ent-RMCActionToggleExperimentalMesons
-  description: ent-RMCActionToggleExperimentalMesons-desc
+  name: Toggle experimental meson goggles
+  description: Enables synthetic meson-assisted terrain imaging.
   components:
   - type: Action
     icon:
@@ -66,8 +66,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIDLock
-  name: ent-RMCActionToggleIDLock
-  description: ent-RMCActionToggleIDLock-desc
+  name: Toggle ID lock
+  description: Toggles the ID lock on the gun, allowing anyone to use it.
   components:
   - type: Action
     icon:
@@ -79,8 +79,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIFF
-  name: ent-RMCActionToggleIFF
-  description: ent-RMCActionToggleIFF-desc
+  name: Toggle IFF
+  description: Toggles the IFF on the gun.
   components:
   - type: Action
     icon:
@@ -92,8 +92,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleAttachable
-  name: ent-CMActionToggleAttachable
-  description: ent-CMActionToggleAttachable-desc
+  name: Toggle Attachable
+  description: Toggle an attachable. If you're seeing this, someone forgot to set the description properly.
   components:
   - type: Action
     icon:
@@ -105,8 +105,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionWhistle
-  name: ent-RMCActionWhistle
-  description: ent-RMCActionWhistle-desc
+  name: Whistle
+  description: Blow the whistle.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -120,8 +120,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionTelephone
-  name: ent-RMCActionTelephone
-  description: ent-RMCActionTelephone-desc
+  name: Use Phone
+  description: Used to call another phone.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -138,8 +138,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleMedhud
-  name: ent-RMCActionToggleMedhud
-  description: ent-RMCActionToggleMedhud-desc
+  name: Toggle Medical HUD
+  description: Toggle the optical matrix of the medical HUD.
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -149,8 +149,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleSynthHud
-  name: ent-RMCActionToggleSynthHud
-  description: ent-RMCActionToggleSynthHud-desc
+  name: Toggle Synthetic HUD
+  description: Toggle the integrated synthetic medical HUD.
   components:
   - type: Action
     icon:
@@ -166,8 +166,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleSechud
-  name: ent-RMCActionToggleSechud
-  description: ent-RMCActionToggleSechud-desc
+  name: Toggle Security HUD
+  description: Toggle the optical matrix of the security HUD.
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -177,8 +177,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleWeldingGoggles
-  name: ent-RMCActionToggleWeldingGoggles
-  description: ent-RMCActionToggleWeldingGoggles-desc
+  name: Toggle the welding goggles
+  description: Change the positions of the welding goggles on your forehead.
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -188,8 +188,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleVisor
-  name: ent-RMCActionCycleVisor
-  description: ent-RMCActionCycleVisor-desc
+  name: Cycle helmet HUD
+  description: Cycles the currently active visor.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -203,8 +203,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionSpotTarget
-  description: ent-RMCActionSpotTarget-desc
-  name: ent-RMCActionSpotTarget
+  description: Hover your mouse over a target and press the unique action key to start spotting.
+  name: Spot Target
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -217,8 +217,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleLaser
-  name: ent-RMCActionToggleLaser
-  description: ent-RMCActionToggleLaser-desc
+  name: Toggle Laser
+  description: Toggles your laser on or off
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -232,8 +232,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionAimedShot
-  name: ent-RMCActionAimedShot
-  description: ent-RMCActionAimedShot-desc
+  name: Aimed Shot
+  description: While in combat mode and hovering your mouse over a target, press the unique action key to begin aiming.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -246,8 +246,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionBroiler
-  name: ent-RMCActionBroiler
-  description: ent-RMCActionBroiler-desc
+  name: Switch Tank
+  description: Switch to a different fuel tank.
   components:
   - type: Action
   - type: InstantAction
@@ -256,8 +256,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionDismount
-  name: ent-RMCActionDismount
-  description: ent-RMCActionDismount-desc
+  name: Dismount
+  description: Stop using the weapon
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -271,8 +271,8 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleCBRNHelmet
-  name: ent-ActionToggleCBRNHelmet
-  description: ent-ActionToggleCBRNHelmet-desc
+  name: Toggle CBRN Mask
+  description: Raise or lower the integrated MOPP mask to toggle full fire protection.
   components:
   - type: Action
     icon:

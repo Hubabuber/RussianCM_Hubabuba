@@ -28,36 +28,5 @@ ent-ClothingMaskBandMerc-desc = Для защиты головы от солнц
 ent-ClothingMaskBandBrown-name = коричневая бандана
 ent-ClothingMaskBandBrown-desc = Коричневая бандана, которая поможет вам выглядеть круто.
 
-ent-ClothingMaskBandanaBase-name = Одежда
+ent-ClothingMaskBandanaBase-name = lathe-category-clothing
 
-ent-ClothingMaskBandBlack = черная бандана
-    .desc = Черная бандана, которая заставит вас выглядеть круто.
-
-ent-ClothingMaskBandBlue = синяя бандана
-    .desc = Синяя бандана, которая заставит вас выглядеть круто.
-
-ent-ClothingMaskBandBotany = ботаническая бандана
-    .desc = Бандана из ботаники, которая придаст вам крутости, изготовлена ​​из натуральных волокон.
-
-ent-ClothingMaskBandBrown = коричневая бандана
-    .desc = Коричневая бандана, которая поможет вам выглядеть круто.
-
-ent-ClothingMaskBandGold = золотая бандана
-    .desc = Золотая бандана, которая заставит вас выглядеть круто.
-
-ent-ClothingMaskBandGreen = зеленая бандана
-    .desc = Зеленая бандана, которая поможет вам выглядеть круто.
-
-ent-ClothingMaskBandGrey = серая бандана
-    .desc = Серая бандана, которая поможет вам выглядеть круто.
-
-ent-ClothingMaskBandMerc = бандана наемника
-    .desc = Для защиты головы от солнца, насекомых и других опасностей высшего пути.
-
-ent-ClothingMaskBandRed = красная бандана
-    .desc = Красная бандана, которая заставит вас выглядеть круто.
-
-ent-ClothingMaskBandSkull = череп бандана
-    .desc = Бандана с черепом, которая сделает вас еще круче.
-
-ent-ClothingMaskBandanaBase = item

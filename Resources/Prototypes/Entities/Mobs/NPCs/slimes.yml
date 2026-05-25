@@ -1,9 +1,9 @@
-- type: entity
-  name: ent-BaseMobAdultSlimes
+﻿- type: entity
+  name: basic slime
   id: BaseMobAdultSlimes
   parent: [ SimpleMobBase, MobCombat ]
   abstract: true
-  description: ent-BaseMobAdultSlimes-desc
+  description: It looks so much like jelly. I wonder what it tastes like?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -112,11 +112,11 @@
     proto: slime
 
 - type: entity
-  name: ent-MobAdultSlimes
+  name: basic slime
   id: MobAdultSlimes
   parent: BaseMobAdultSlimes
   abstract: true
-  description: ent-MobAdultSlimes-desc
+  description: It looks so much like jelly. I wonder what it tastes like?
   components:
   - type: ReplacementAccent
     accent: slimes
@@ -142,7 +142,7 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: ent-MobAdultSlimesBlue
+  name: blue slime
   id: MobAdultSlimesBlue
   parent: MobAdultSlimes
   components:
@@ -154,10 +154,10 @@
         Base: blue_adult_slime_dead
 
 - type: entity
-  name: ent-MobAdultSlimesBlueAngry
+  name: blue slime
   parent: MobAdultSlimesBlue
   id: MobAdultSlimesBlueAngry
-  suffix: ent-MobAdultSlimesBlueAngry-suffix
+  suffix: Angry
   components:
     - type: NpcFactionMember
       factions:
@@ -171,7 +171,7 @@
         settings: short
 
 - type: entity
-  name: ent-MobAdultSlimesGreen
+  name: green slime
   parent: MobAdultSlimes
   id: MobAdultSlimesGreen
   components:
@@ -194,10 +194,10 @@
           Poison: 4
 
 - type: entity
-  name: ent-MobAdultSlimesGreenAngry
+  name: green slime
   parent: MobAdultSlimesGreen
   id: MobAdultSlimesGreenAngry
-  suffix: ent-MobAdultSlimesGreenAngry-suffix
+  suffix: Angry
   components:
     - type: NpcFactionMember
       factions:
@@ -211,7 +211,7 @@
         settings: short
 
 - type: entity
-  name: ent-MobAdultSlimesYellow
+  name: yellow slime
   parent: MobAdultSlimes
   id: MobAdultSlimesYellow
   components:
@@ -233,10 +233,10 @@
           Caustic: 4
 
 - type: entity
-  name: ent-MobAdultSlimesYellowAngry
+  name: yellow slime
   parent: MobAdultSlimesYellow
   id: MobAdultSlimesYellowAngry
-  suffix: ent-MobAdultSlimesYellowAngry-suffix
+  suffix: Angry
   components:
     - type: NpcFactionMember
       factions:

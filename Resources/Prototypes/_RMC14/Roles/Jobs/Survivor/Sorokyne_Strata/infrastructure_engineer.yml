@@ -1,13 +1,13 @@
 - type: job
   parent: CMSurvivor
   id: CMJobSurvivorInfrastructureEngineer
-  name: job-cmjobsurvivorinfrastructureengineer-name
-  description: job-cmjobsurvivorinfrastructureengineer-desc
+  name: rmc-job-name-survivor-infrastructure-engineer
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorEngineer
   startingGear: RMCGearSurvivorInfrastructureEngineer
   accessGroups:
   - ColonistEngi
-  spawnMenuRoleName: job-cmjobsurvivorinfrastructureengineer-spawnmenurolename
+  spawnMenuRoleName: Infrastructure Engineer (Sorokyne Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -49,7 +49,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorInfrastructureEngineer
-  name: ent-RMCSpawnPointSurvivorInfrastructureEngineer
+  name: survivor infrastructure engineer spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetInfrastructureEngineer
-  name: ent-RMCGearSurvivorPresetInfrastructureEngineer
+  name: infrastructure engineer preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

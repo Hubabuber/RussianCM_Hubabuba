@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineMagnum
-  name: ent-BaseMagazineMagnum
+  name: pistol magazine (.45 magnum)
   parent: [ BaseMagazinePistol, BaseSecurityContraband ]
   abstract: true
   components:
@@ -16,7 +16,7 @@
 
 - type: entity
   id: BaseMagazineMagnumSubMachineGun
-  name: ent-BaseMagazineMagnumSubMachineGun
+  name: SMG magazine (.45 magnum)
   parent: BaseItem
   abstract: true
   components:
@@ -49,10 +49,10 @@
 
 - type: entity
   id: MagazineMagnumEmpty
-  name: ent-MagazineMagnumEmpty
-  suffix: ent-MagazineMagnumEmpty-suffix
+  name: pistol magazine (.45 magnum any)
+  suffix: empty
   parent: BaseMagazineMagnum
-  description: ent-MagazineMagnumEmpty-desc
+  description: 7-round single stack pistol magazine.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -71,9 +71,9 @@
 
 - type: entity
   id: MagazineMagnum
-  name: ent-MagazineMagnum
+  name: pistol magazine (.45 magnum)
   parent: BaseMagazineMagnum
-  description: ent-MagazineMagnum-desc
+  description: 7-round single stack pistol magazine. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnum
@@ -92,9 +92,9 @@
 
 - type: entity
   id: MagazineMagnumPractice
-  name: ent-MagazineMagnumPractice
+  name: pistol magazine (.45 magnum practice)
   parent: BaseMagazineMagnum
-  description: ent-MagazineMagnumPractice-desc
+  description: 7-round single stack pistol magazine. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -119,9 +119,9 @@
 
 - type: entity
   id: MagazineMagnumUranium
-  name: ent-MagazineMagnumUranium
+  name: pistol magazine (.45 magnum uranium)
   parent: BaseMagazineMagnum
-  description: ent-MagazineMagnumUranium-desc
+  description: 7-round single stack pistol magazine. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -146,9 +146,9 @@
 
 - type: entity
   id: MagazineMagnumAP
-  name: ent-MagazineMagnumAP
+  name: pistol magazine (.45 magnum armor-piercing)
   parent: BaseMagazineMagnum
-  description: ent-MagazineMagnumAP-desc
+  description: 7-round single stack pistol magazine. Intended to hold rare armor-piercing ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP
@@ -173,8 +173,8 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunEmpty
-  name: ent-MagazineMagnumSubMachineGunEmpty
-  suffix: ent-MagazineMagnumSubMachineGunEmpty-suffix
+  name: SMG magazine (.45 magnum any)
+  suffix: empty
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -194,7 +194,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGun
-  name: ent-MagazineMagnumSubMachineGun
+  name: SMG magazine (.45 magnum)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -214,7 +214,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunPractice
-  name: ent-MagazineMagnumSubMachineGunPractice
+  name: SMG magazine (.45 magnum practice)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -240,7 +240,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunUranium
-  name: ent-MagazineMagnumSubMachineGunUranium
+  name: SMG magazine (.45 magnum uranium)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -266,7 +266,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunPiercing
-  name: ent-MagazineMagnumSubMachineGunPiercing
+  name: SMG magazine (.45 magnum armour-piercing)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider

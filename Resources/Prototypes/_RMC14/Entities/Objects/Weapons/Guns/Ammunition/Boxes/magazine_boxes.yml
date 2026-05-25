@@ -7,8 +7,8 @@
   abstract: true
   parent: BaseItem
   id: RMCBoxMagazineBase
-  name: ent-RMCBoxMagazineBase
-  description: ent-RMCBoxMagazineBase-desc
+  name: generic magazine box (? x ?)
+  description: A box of magazines.
   components:
   - type: Item
     size: Huge
@@ -32,8 +32,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRifleBase
-  name: ent-RMCBoxMagazineRifleBase
-  description: ent-RMCBoxMagazineRifleBase-desc
+  name: generic rifle magazine box (? x ?)
+  description: A box of rifle magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -83,8 +83,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineSMGBase
-  name: ent-RMCBoxMagazineSMGBase
-  description: ent-RMCBoxMagazineSMGBase-desc
+  name: generic smg magazine box (? x ?)
+  description: A box of SMG magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -134,8 +134,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazinePistolBase
-  name: ent-RMCBoxMagazinePistolBase
-  description: ent-RMCBoxMagazinePistolBase-desc
+  name: generic pistol magazine box (? x ?)
+  description: A box of pistol magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -178,8 +178,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxFlamerTankBase
-  name: ent-RMCBoxFlamerTankBase
-  description: ent-RMCBoxFlamerTankBase-desc
+  name: generic flamer tank box (? x ?)
+  description: A box of incinerator tanks.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -219,8 +219,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineShellBase
-  name: ent-RMCBoxMagazineShellBase
-  description: ent-RMCBoxMagazineShellBase-desc
+  name: generic shell bundle box (? x ?)
+  description: A box of bundled shells.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -269,8 +269,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineSupplyBase
-  name: ent-RMCBoxMagazineSupplyBase
-  description: ent-RMCBoxMagazineSupplyBase-desc
+  name: generic supply box (? x ?)
+  description: A box of supplies.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -305,8 +305,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineSupplySmallBase
-  name: ent-RMCBoxMagazineSupplySmallBase
-  description: ent-RMCBoxMagazineSupplySmallBase-desc
+  name: generic small supply box (? x ?)
+  description: A box of supplies.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -346,7 +346,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleM54CEmpty
-  name: ent-RMCBoxMagazineRifleM54CEmpty
+  name: magazine box (M54C x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -380,7 +380,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM54CEmpty
   id: RMCBoxMagazineRifleM54C
-  suffix: ent-RMCBoxMagazineRifleM54C-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM54C
@@ -394,7 +394,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleM54CAPEmpty
-  name: ent-RMCBoxMagazineRifleM54CAPEmpty
+  name: magazine box (AP M54C x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -428,7 +428,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM54CAPEmpty
   id: RMCBoxMagazineRifleM54CAP
-  suffix: ent-RMCBoxMagazineRifleM54CAP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM54CAP
@@ -442,7 +442,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleM54CExtEmpty
-  name: ent-RMCBoxMagazineRifleM54CExtEmpty
+  name: magazine box (Ext M54C x 8)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -476,7 +476,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM54CExtEmpty
   id: RMCBoxMagazineRifleM54CExt
-  suffix: ent-RMCBoxMagazineRifleM54CExt-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM54CExt
@@ -490,7 +490,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleM4SPREmpty
-  name: ent-RMCBoxMagazineRifleM4SPREmpty
+  name: magazine box (M4SPR x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -524,7 +524,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM4SPREmpty
   id: RMCBoxMagazineRifleM4SPR
-  suffix: ent-RMCBoxMagazineRifleM4SPR-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM4SPR
@@ -538,7 +538,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleM4SPRAPEmpty
-  name: ent-RMCBoxMagazineRifleM4SPRAPEmpty
+  name: magazine box (AP M4SPR x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -572,7 +572,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM4SPRAPEmpty
   id: RMCBoxMagazineRifleM4SPRAP
-  suffix: ent-RMCBoxMagazineRifleM4SPRAP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM4SPRAP
@@ -586,7 +586,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleM4SPRExtEmpty
-  name: ent-RMCBoxMagazineRifleM4SPRExtEmpty
+  name: magazine box (Ext M4SPR x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -620,7 +620,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM4SPRExtEmpty
   id: RMCBoxMagazineRifleM4SPRExt
-  suffix: ent-RMCBoxMagazineRifleM4SPRExt-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineRifleM4SPRExt
@@ -634,7 +634,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL24Empty
-  name: ent-RMCBoxMagazineRifleL24Empty
+  name: magazine box (L24 x 16)
   components:
   - type: Sprite
     layers:
@@ -665,7 +665,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL24Empty
   id: RMCBoxMagazineRifleL24
-  suffix: ent-RMCBoxMagazineRifleL24-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL24
@@ -679,7 +679,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL24APEmpty
-  name: ent-RMCBoxMagazineRifleL24APEmpty
+  name: magazine box (AP L24 x 16)
   components:
   - type: Sprite
     layers:
@@ -710,7 +710,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL24APEmpty
   id: RMCBoxMagazineRifleL24AP
-  suffix: ent-RMCBoxMagazineRifleL24AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL24AP
@@ -724,7 +724,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL24ExtEmpty
-  name: ent-RMCBoxMagazineRifleL24ExtEmpty
+  name: magazine box (Ext L24 x 12)
   components:
   - type: Sprite
     layers:
@@ -755,7 +755,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL24ExtEmpty
   id: RMCBoxMagazineRifleL24Ext
-  suffix: ent-RMCBoxMagazineRifleL24Ext-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL24Extended
@@ -769,7 +769,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL24HEAPEmpty
-  name: ent-RMCBoxMagazineRifleL24HEAPEmpty
+  name: magazine box (HEAP L24 x 16)
   components:
   - type: Sprite
     layers:
@@ -800,7 +800,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL24HEAPEmpty
   id: RMCBoxMagazineRifleL24HEAP
-  suffix: ent-RMCBoxMagazineRifleL24HEAP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL24HEAP
@@ -814,7 +814,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL24IncendiaryEmpty
-  name: ent-RMCBoxMagazineRifleL24IncendiaryEmpty
+  name: magazine box (Inc L24 x 16)
   components:
   - type: Sprite
     layers:
@@ -845,7 +845,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL24IncendiaryEmpty
   id: RMCBoxMagazineRifleL24Incendiary
-  suffix: ent-RMCBoxMagazineRifleL24Incendiary-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL24Incendiary
@@ -859,7 +859,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGL7A3SquashHeadEmpty
-  name: ent-RMCBoxMagazineSMGL7A3SquashHeadEmpty
+  name: magazine box (L7A3 x 12)
   components:
   - type: Sprite
     layers:
@@ -890,7 +890,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGL7A3SquashHeadEmpty
   id: RMCBoxMagazineSMGL7A3SquashHead
-  suffix: ent-RMCBoxMagazineSMGL7A3SquashHead-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineSMGL7A3SquashHead
@@ -904,7 +904,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL42AEmpty
-  name: ent-RMCBoxMagazineRifleL42AEmpty
+  name: magazine box (L42A x 16)
   components:
 #  - type: Construction
 #    graph: RMCBoxMagazine
@@ -938,7 +938,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL42AEmpty
   id: RMCBoxMagazineRifleL42A
-  suffix: ent-RMCBoxMagazineRifleL42A-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL42A
@@ -952,7 +952,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL42AAPEmpty
-  name: ent-RMCBoxMagazineRifleL42AAPEmpty
+  name: magazine box (AP L42A x 16)
   components:
 #  - type: Construction
 #    graph: RMCBoxMagazine
@@ -986,7 +986,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL42AAPEmpty
   id: RMCBoxMagazineRifleL42AAP
-  suffix: ent-RMCBoxMagazineRifleL42AAP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL42AAP
@@ -1000,7 +1000,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL42AExtEmpty
-  name: ent-RMCBoxMagazineRifleL42AExtEmpty
+  name: magazine box (Ext L42A x 12)
   components:
 #  - type: Construction
 #    graph: RMCBoxMagazine
@@ -1034,7 +1034,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL42AExtEmpty
   id: RMCBoxMagazineRifleL42AExt
-  suffix: ent-RMCBoxMagazineRifleL42AExt-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL42AExtended
@@ -1048,8 +1048,8 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxBullets458Empty
-  name: ent-RMCBoxBullets458Empty # Used to say 300 when it was, infact, not 300 rounds.
-  description: ent-RMCBoxBullets458Empty-desc
+  name: bullet bundle box (.458 SOCOM x 297) # Used to say 300 when it was, infact, not 300 rounds.
+  description: A box of bundled .458 SOCOM rounds.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1109,7 +1109,7 @@
 - type: entity
   parent: RMCBoxBullets458Empty
   id: RMCBoxBullets458
-  suffix: ent-RMCBoxBullets458-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCCartridge458SOCOM
@@ -1118,7 +1118,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleM16Empty
-  name: ent-RMCBoxMagazineRifleM16Empty
+  name: magazine box (M16 x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1152,7 +1152,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleM16Empty
   id: RMCBoxMagazineRifleM16
-  suffix: ent-RMCBoxMagazineRifleM16-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleM16
@@ -1162,7 +1162,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL83A3Empty
-  name: ent-RMCBoxMagazineRifleL83A3Empty
+  name: magazine box (L83A3 x 16)
   components:
   - type: Sprite
     layers:
@@ -1193,7 +1193,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL83A3Empty
   id: RMCBoxMagazineRifleL83A3
-  suffix: ent-RMCBoxMagazineRifleL83A3-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL83A3
@@ -1207,7 +1207,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL83A3APEmpty
-  name: ent-RMCBoxMagazineRifleL83A3APEmpty
+  name: magazine box (AP L83A3 x 16)
   components:
   - type: Sprite
     layers:
@@ -1238,7 +1238,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL83A3APEmpty
   id: RMCBoxMagazineRifleL83A3AP
-  suffix: ent-RMCBoxMagazineRifleL83A3AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL83A3AP
@@ -1252,7 +1252,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL83A3ExtEmpty
-  name: ent-RMCBoxMagazineRifleL83A3ExtEmpty
+  name: magazine box (Ext L83A3 x 12)
   components:
   - type: Sprite
     layers:
@@ -1283,7 +1283,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL83A3ExtEmpty
   id: RMCBoxMagazineRifleL83A3Ext
-  suffix: ent-RMCBoxMagazineRifleL83A3Ext-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL83A3Extended
@@ -1296,7 +1296,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleAK4047Empty
-  name: ent-RMCBoxMagazineRifleAK4047Empty
+  name: magazine box (AK-4047 x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1330,7 +1330,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleAK4047Empty
   id: RMCBoxMagazineRifleAK4047
-  suffix: ent-RMCBoxMagazineRifleAK4047-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleAK4047
@@ -1341,7 +1341,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleSSG45Empty
-  name: ent-RMCBoxMagazineRifleSSG45Empty
+  name: magazine box (SSG45 x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1375,7 +1375,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleSSG45Empty
   id: RMCBoxMagazineRifleSSG45
-  suffix: ent-RMCBoxMagazineRifleSSG45-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleSSG45
@@ -1388,7 +1388,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleSSG45APEmpty
-  name: ent-RMCBoxMagazineRifleSSG45APEmpty
+  name: magazine box (AP SSG45 x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1422,7 +1422,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleSSG45APEmpty
   id: RMCBoxMagazineRifleSSG45AP
-  suffix: ent-RMCBoxMagazineRifleSSG45AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleSSG45AP
@@ -1436,7 +1436,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType71Empty
-  name: ent-RMCBoxMagazineRifleType71Empty
+  name: magazine box (Type 71 x 10)
   components:
   - type: Sprite
     layers:
@@ -1467,7 +1467,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleType71Empty
   id: RMCBoxMagazineRifleType71
-  suffix: ent-RMCBoxMagazineRifleType71-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleType71
@@ -1481,7 +1481,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType71APEmpty
-  name: ent-RMCBoxMagazineRifleType71APEmpty
+  name: magazine box (AP Type 71 x 10)
   components:
   - type: Sprite
     layers:
@@ -1512,7 +1512,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleType71APEmpty
   id: RMCBoxMagazineRifleType71AP
-  suffix: ent-RMCBoxMagazineRifleType71AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleType71AP
@@ -1526,7 +1526,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType88Empty
-  name: ent-RMCBoxMagazineRifleType88Empty
+  name: magazine box (Type 88 x 16)
   components:
   - type: Sprite
     layers:
@@ -1557,7 +1557,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleType88Empty
   id: RMCBoxMagazineRifleType88
-  suffix: ent-RMCBoxMagazineRifleType88-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineSniperType88
@@ -1570,7 +1570,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90Empty
-  name: ent-RMCBoxMagazineRifleL90Empty
+  name: magazine box (L90/91 x 12)
   components:
   - type: Sprite
     layers:
@@ -1601,7 +1601,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL90Empty
   id: RMCBoxMagazineRifleL90
-  suffix: ent-RMCBoxMagazineRifleL90-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL90
@@ -1615,7 +1615,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90DrumEmpty
-  name: ent-RMCBoxMagazineRifleL90DrumEmpty
+  name: magazine box (Drum L90/91 x 12)
   components:
   - type: Sprite
     layers:
@@ -1646,7 +1646,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL90DrumEmpty
   id: RMCBoxMagazineRifleL90Drum
-  suffix: ent-RMCBoxMagazineRifleL90Drum-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL90Drum
@@ -1660,7 +1660,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90APEmpty
-  name: ent-RMCBoxMagazineRifleL90APEmpty
+  name: magazine box (AP L90/91 x 12)
   components:
   - type: Sprite
     layers:
@@ -1691,7 +1691,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL90APEmpty
   id: RMCBoxMagazineRifleL90AP
-  suffix: ent-RMCBoxMagazineRifleL90AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL90AP
@@ -1705,7 +1705,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90DrumAPEmpty
-  name: ent-RMCBoxMagazineRifleL90DrumAPEmpty
+  name: magazine box (AP Drum L90/91 x 12)
   components:
   - type: Sprite
     layers:
@@ -1736,7 +1736,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleL90DrumAPEmpty
   id: RMCBoxMagazineRifleL90DrumAP
-  suffix: ent-RMCBoxMagazineRifleL90DrumAP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineRifleL90DrumAP
@@ -1752,7 +1752,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGM63Empty
-  name: ent-RMCBoxMagazineSMGM63Empty
+  name: magazine box (M63 x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1786,7 +1786,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGM63Empty
   id: RMCBoxMagazineSMGM63
-  suffix: ent-RMCBoxMagazineSMGM63-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineSMGM63
@@ -1800,7 +1800,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGM63APEmpty
-  name: ent-RMCBoxMagazineSMGM63APEmpty
+  name: magazine box (AP M63 x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1834,7 +1834,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGM63APEmpty
   id: RMCBoxMagazineSMGM63AP
-  suffix: ent-RMCBoxMagazineSMGM63AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineSMGM63AP
@@ -1848,7 +1848,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGM63ExtEmpty
-  name: ent-RMCBoxMagazineSMGM63ExtEmpty
+  name: magazine box (Ext M63 x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1882,7 +1882,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGM63ExtEmpty
   id: RMCBoxMagazineSMGM63Ext
-  suffix: ent-RMCBoxMagazineSMGM63Ext-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazineSMGM63Ext
@@ -1897,7 +1897,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGM63HEAPEmpty
-  name: ent-RMCBoxMagazineSMGM63HEAPEmpty
+  name: magazine box (HEAP M63 x 12)
   components:
   - type: Sprite
     layers:
@@ -1928,7 +1928,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGM63HEAPEmpty
   id: RMCBoxMagazineSMGM63HEAP
-  suffix: ent-RMCBoxMagazineSMGM63HEAP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineSMGM63HEAP
@@ -1942,7 +1942,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGType64Empty
-  name: ent-RMCBoxMagazineSMGType64Empty
+  name: magazine box (Type 64 x 12)
   components:
   - type: Sprite
     layers:
@@ -1973,7 +1973,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGType64Empty
   id: RMCBoxMagazineSMGType64
-  suffix: ent-RMCBoxMagazineSMGType64-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineSMGType64
@@ -1989,7 +1989,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM1984Empty
-  name: ent-RMCBoxMagazinePistolM1984Empty
+  name: magazine box (M1984 x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2021,7 +2021,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM1984Empty
   id: RMCBoxMagazinePistolM1984
-  suffix: ent-RMCBoxMagazinePistolM1984-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazinePistolM1984
@@ -2035,7 +2035,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM1984APEmpty
-  name: ent-RMCBoxMagazinePistolM1984APEmpty
+  name: magazine box (AP M1984 x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2067,7 +2067,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM1984APEmpty
   id: RMCBoxMagazinePistolM1984AP
-  suffix: ent-RMCBoxMagazinePistolM1984AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolM1984AP
@@ -2076,7 +2076,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id:  RMCBoxMagazinePistolMK80Empty
-  name: ent-RMCBoxMagazinePistolMK80Empty
+  name: magazine box (MK80 x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2108,7 +2108,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolMK80Empty
   id:  RMCBoxMagazinePistolMK80
-  suffix: ent-RMCBoxMagazinePistolMK80-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazinePistolMK80
@@ -2122,7 +2122,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolSU6Empty
-  name: ent-RMCBoxMagazinePistolSU6Empty
+  name: magazine box (SU-6 x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2154,7 +2154,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolSU6Empty
   id: RMCBoxMagazinePistolSU6
-  suffix: ent-RMCBoxMagazinePistolSU6-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolSU6
@@ -2168,7 +2168,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM77APEmpty
-  name: ent-RMCBoxMagazinePistolM77APEmpty
+  name: magazine box (M77 AP x 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2200,7 +2200,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM77APEmpty
   id: RMCBoxMagazinePistolM77AP
-  suffix: ent-RMCBoxMagazinePistolM77AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMMagazinePistolM77AP
@@ -2214,8 +2214,8 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazineRevolverM44Empty
-  name: ent-RMCBoxMagazineRevolverM44Empty
-  description: ent-RMCBoxMagazineRevolverM44Empty-desc
+  name: speedloader box (M44 x 16)
+  description: A box of pistol speedloaders.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2247,7 +2247,7 @@
 - type: entity
   parent: RMCBoxMagazineRevolverM44Empty
   id: RMCBoxMagazineRevolverM44
-  suffix: ent-RMCBoxMagazineRevolverM44-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCSpeedLoaderM44
@@ -2261,8 +2261,8 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazineRevolverM44MarksmanEmpty
-  name: ent-RMCBoxMagazineRevolverM44MarksmanEmpty
-  description: ent-RMCBoxMagazineRevolverM44MarksmanEmpty-desc
+  name: speedloader box (Marksman M44 x 16)
+  description: A box of pistol speedloaders.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2294,7 +2294,7 @@
 - type: entity
   parent: RMCBoxMagazineRevolverM44MarksmanEmpty
   id: RMCBoxMagazineRevolverM44Marksman
-  suffix: ent-RMCBoxMagazineRevolverM44Marksman-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCSpeedLoader44Marksman
@@ -2308,7 +2308,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolType73Empty
-  name: ent-RMCBoxMagazinePistolType73Empty
+  name: magazine box (Type 73 x 16)
   components:
   - type: Sprite
     layers:
@@ -2337,7 +2337,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolType73Empty
   id: RMCBoxMagazinePistolType73
-  suffix: ent-RMCBoxMagazinePistolType73-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolT73
@@ -2351,7 +2351,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolTypeNP92Empty
-  name: ent-RMCBoxMagazinePistolTypeNP92Empty
+  name: magazine box (NP92 x 16)
   components:
   - type: Sprite
     layers:
@@ -2380,7 +2380,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolTypeNP92Empty
   id: RMCBoxMagazinePistolTypeNP92
-  suffix: ent-RMCBoxMagazinePistolTypeNP92-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolNP92
@@ -2394,7 +2394,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolL14Empty
-  name: ent-RMCBoxMagazinePistolL14Empty
+  name: magazine box (L14 x 16)
   components:
   - type: Sprite
     layers:
@@ -2423,7 +2423,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolL14Empty
   id: RMCBoxMagazinePistolL14
-  suffix: ent-RMCBoxMagazinePistolL14-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolL14
@@ -2437,7 +2437,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolL14APEmpty
-  name: ent-RMCBoxMagazinePistolL14APEmpty
+  name: magazine box (AP L14 x 16)
   components:
   - type: Sprite
     layers:
@@ -2466,7 +2466,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolL14APEmpty
   id: RMCBoxMagazinePistolL14AP
-  suffix: ent-RMCBoxMagazinePistolL14AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolL14AP
@@ -2481,7 +2481,7 @@
 - type: entity
   parent: RMCBoxFlamerTankBase
   id: RMCBoxFlamerTankEmpty
-  name: ent-RMCBoxFlamerTankEmpty
+  name: flamer tank box (UT-Napthal Fuel x 8)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2508,7 +2508,7 @@
 - type: entity
   parent: RMCBoxFlamerTankEmpty
   id: RMCBoxFlamerTank
-  suffix: ent-RMCBoxFlamerTank-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCTankFlamer
@@ -2524,7 +2524,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsBuckshotEmpty
-  name: ent-RMCBoxShellsBuckshotEmpty
+  name: shell box (Buckshot x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2554,7 +2554,7 @@
 - type: entity
   parent: RMCBoxShellsBuckshotEmpty
   id: RMCBoxShellsBuckshot
-  suffix: ent-RMCBoxShellsBuckshot-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMShellShotgunBuckshot
@@ -2568,7 +2568,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsSlugsEmpty
-  name: ent-RMCBoxShellsSlugsEmpty
+  name: shell box (Slugs x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2598,7 +2598,7 @@
 - type: entity
   parent: RMCBoxShellsSlugsEmpty
   id: RMCBoxShellsSlugs
-  suffix: ent-RMCBoxShellsSlugs-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMShellShotgunSlugs
@@ -2612,7 +2612,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsFlechetteEmpty
-  name: ent-RMCBoxShellsFlechetteEmpty
+  name: shell box (Flechette x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2642,7 +2642,7 @@
 - type: entity
   parent: RMCBoxShellsFlechetteEmpty
   id: RMCBoxShellsFlechette
-  suffix: ent-RMCBoxShellsFlechette-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMShellShotgunFlechette
@@ -2656,7 +2656,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsBreachingEmpty
-  name: ent-RMCBoxShellsBreachingEmpty
+  name: shell box (Breaching x 120)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2685,7 +2685,7 @@
 - type: entity
   parent: RMCBoxShellsBreachingEmpty
   id: RMCBoxShellsBreaching
-  suffix: ent-RMCBoxShellsBreaching-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCShellShotgunBreaching
@@ -2699,7 +2699,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsBeanbagEmpty
-  name: ent-RMCBoxShellsBeanbagEmpty
+  name: shell box (Beanbag x 100)
   components:
   # - type: Construction
   # graph: RMCBoxMagazine
@@ -2731,7 +2731,7 @@
 - type: entity
   parent: RMCBoxShellsBeanbagEmpty
   id: RMCBoxShellsBeanbag
-  suffix: ent-RMCBoxShellsBeanbag-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMShellShotgunBeanbag
@@ -2745,7 +2745,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsIncendiaryEmpty
-  name: ent-RMCBoxShellsIncendiaryEmpty
+  name: shell box (Incendiary Slug x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2779,7 +2779,7 @@
 - type: entity
   parent: RMCBoxShellsIncendiaryEmpty
   id: RMCBoxShellsIncendiary
-  suffix: ent-RMCBoxShellsIncendiary-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMShellShotgunIncendiary
@@ -2793,7 +2793,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsIncendiaryBuckshotEmpty
-  name: ent-RMCBoxShellsIncendiaryBuckshotEmpty
+  name: shell box (Incendiary Buckshot x 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2827,7 +2827,7 @@
 - type: entity
   parent: RMCBoxShellsIncendiaryBuckshotEmpty
   id: RMCBoxShellsIncendiaryBuckshot
-  suffix: ent-RMCBoxShellsIncendiaryBuckshot-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: CMShellShotgunIncendiaryBuckshot
@@ -2843,7 +2843,7 @@
 - type: entity
   parent: RMCBoxMagazineSupplySmallBase
   id: RMCBoxMagazineSMGNailgunEmpty
-  name: ent-RMCBoxMagazineSMGNailgunEmpty
+  name: magazine box (Nailgun x 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2875,7 +2875,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGNailgunEmpty
   id: RMCBoxMagazineSMGNailgun
-  suffix: ent-RMCBoxMagazineSMGNailgun-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazineSMGNailgun
@@ -2890,7 +2890,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM13Empty
-  name: ent-RMCBoxMagazinePistolM13Empty
+  name: magazine box (M13 x 22)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2922,7 +2922,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM13Empty
   id: RMCBoxMagazinePistolM13
-  suffix: ent-RMCBoxMagazinePistolM13-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolM13
@@ -2936,7 +2936,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM13ExtEmpty
-  name: ent-RMCBoxMagazinePistolM13ExtEmpty
+  name: magazine box (Ext M13 x 14)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2968,7 +2968,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM13ExtEmpty
   id: RMCBoxMagazinePistolM13Ext
-  suffix: ent-RMCBoxMagazinePistolM13Ext-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolM13Ext
@@ -2982,7 +2982,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM13DrumEmpty
-  name: ent-RMCBoxMagazinePistolM13DrumEmpty
+  name: magazine box (Drum M13 x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -3014,7 +3014,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM13DrumEmpty
   id: RMCBoxMagazinePistolM13Drum
-  suffix: ent-RMCBoxMagazinePistolM13Drum-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolM13Drum
@@ -3028,7 +3028,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM13APEmpty
-  name: ent-RMCBoxMagazinePistolM13APEmpty
+  name: magazine box (M13 AP x 22)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -3060,7 +3060,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM13APEmpty
   id: RMCBoxMagazinePistolM13AP
-  suffix: ent-RMCBoxMagazinePistolM13AP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolM13AP
@@ -3074,7 +3074,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM13ExtAPEmpty
-  name: ent-RMCBoxMagazinePistolM13ExtAPEmpty
+  name: magazine box (Ext M13 AP x 14)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -3106,7 +3106,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM13ExtAPEmpty
   id: RMCBoxMagazinePistolM13ExtAP
-  suffix: ent-RMCBoxMagazinePistolM13ExtAP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolM13ExtAP
@@ -3120,7 +3120,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM13DrumAPEmpty
-  name: ent-RMCBoxMagazinePistolM13DrumAPEmpty
+  name: magazine box (Drum M13 AP x 12)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -3152,7 +3152,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolM13DrumAPEmpty
   id: RMCBoxMagazinePistolM13DrumAP
-  suffix: ent-RMCBoxMagazinePistolM13DrumAP-suffix
+  suffix: Full
   components:
   - type: CMItemSlots
     startingItem: RMCMagazinePistolM13DrumAP

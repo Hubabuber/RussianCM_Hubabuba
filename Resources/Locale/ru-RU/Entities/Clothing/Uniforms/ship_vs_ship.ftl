@@ -22,26 +22,3 @@ ent-ClothingUniformJumpsuitChiefEngineerNT-desc = Часто шутят, что 
 ent-ClothingUniformJumpsuitChiefEngineerSyndie-name = комбинезон главного инженера синдиката
 ent-ClothingUniformJumpsuitChiefEngineerSyndie-desc = Зловещий комбинезон со светоотражающим жилетом и красной майкой.
 
-ent-ClothingUniformJumpsuitChiefEngineerNT = комбинезон главного инженера
-    .desc = Часто шутят, что на должность главного инженера боевого сектора выдвигают настоящих инженеров с логистическим складом ума. Удачи.
-
-ent-ClothingUniformJumpsuitChiefEngineerSyndie = комбинезон главного инженера синдиката
-    .desc = Зловещий комбинезон со светоотражающим жилетом и красной майкой.
-
-ent-ClothingUniformJumpsuitParamedicNT = фельдшерский комбинезон
-    .desc = Базовый бело-синий комбинезон, созданный для парамедиков Nanotrasen, дислоцированных на боевых участках.
-
-ent-ClothingUniformJumpsuitParamedicSyndie = комбинезон фельдшера синдиката
-    .desc = По какой-то причине, надевая это, вы чувствуете, что очень близки к нарушению Женевской конвенции.
-
-ent-ClothingUniformJumpsuitRecruitNT = набрать комбинезон
-    .desc = Стильный серый комбинезон с синей отделкой. Идеально подходит для достойного помощника.
-
-ent-ClothingUniformJumpsuitRecruitSyndie = комбинезон рекрута синдиката
-    .desc = Сомнительный темно-серый комбинезон. Как будто пассажиры уже недостаточно сомневались.
-
-ent-ClothingUniformJumpsuitRepairmanNT = комбинезон ремонтника
-    .desc = Комбинезон, напоминающий об определенной рабочей позиции в экипаже. Надеюсь, вам не придется выполнять ту же работу, что и ЭТИ уроды.
-
-ent-ClothingUniformJumpsuitRepairmanSyndie = комбинезон ремонтника синдиката
-    .desc = Функциональный, модный и крутой. Инженеры Nanotrasen хотели бы, чтобы они выглядели так же хорошо.

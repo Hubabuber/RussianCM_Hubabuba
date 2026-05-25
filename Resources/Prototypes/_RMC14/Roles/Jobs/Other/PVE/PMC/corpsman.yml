@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMPMCCorpsmanPVE
-  name: job-cmpmccorpsmanpve-name
-  description: job-cmpmccorpsmanpve-desc
+  name: rmc-job-name-pmc-medic
+  description: rmc-job-description-pmc-pve-medic
   playTimeTracker: CMJobPMCCorpsmanPVE
   requirements:
   - !type:TotalJobsTimeRequirement
@@ -17,7 +17,7 @@
   - Colony
   - RMCWeYa
   - HospitalCorpsman
-  spawnMenuRoleName: job-cmpmccorpsmanpve-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Medic (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCCorpsmanPVE
-  name: ent-RMCSpawnPointPMCCorpsmanPVE
-  suffix: ent-RMCSpawnPointPMCCorpsmanPVE-suffix
+  name: weya pmc medic spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: CMPMCCorpsmanPVE

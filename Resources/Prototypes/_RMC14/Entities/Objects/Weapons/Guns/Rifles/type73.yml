@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ent-RMCWeaponRifleType73
+  name: Type 71 'Commando' assault carbine
   id: RMCWeaponRifleType73
-  description: ent-RMCWeaponRifleType73-desc
+  description: A much rarer variant of the Type 71, this version contains an integrated suppressor, integrated scope, and extensive fine-tuning. Many parts have been replaced, filed down, and improved upon. As a result, this variant is rarely seen outside of commando units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/type73.rsi
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCWeaponRifleType73
   id: RMCWeaponRifleType73Filled
-  suffix: ent-RMCWeaponRifleType73Filled-suffix
+  suffix: Filled
   components:
   - type: ItemSlots
     slots:

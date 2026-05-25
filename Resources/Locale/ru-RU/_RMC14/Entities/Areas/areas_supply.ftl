@@ -1,10 +1,10 @@
 ent-RMCAreaSupplyDockVehicle = Автомобиль АСРС
-    .suffix = область
+
 ent-RMCAreaSupplyStationVehicle = Автомобиль АСРС
-    .suffix = область
+
 ent-RMCAreaSupplyDock = Шаттл снабжения
-    .suffix = область
+
 ent-RMCAreaSupplyStation = Шаттл снабжения
-    .suffix = область
+
 ent-RMCAreaSupply = область
-    .suffix = область
+

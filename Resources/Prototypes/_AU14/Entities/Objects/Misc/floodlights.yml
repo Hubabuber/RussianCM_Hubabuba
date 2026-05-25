@@ -3,9 +3,9 @@
 - type: entity
   parent: BaseStructure
   id: AU14TallFloodlight
-  name: ent-AU14TallFloodlight
-  description: ent-AU14TallFloodlight-desc
-  suffix: ent-AU14TallFloodlight-suffix
+  name: tall floodlight
+  description: A pillar of light in the darkness.
+  suffix: AU14
   placement:
     mode: SnapgridCenter
   components:
@@ -74,9 +74,9 @@
 - type: entity
   parent: BaseStructure
   id: AU14FloodlightBroken
-  name: ent-AU14FloodlightBroken
-  description: ent-AU14FloodlightBroken-desc
-  suffix: ent-AU14FloodlightBroken-suffix
+  name: tall broken floodlight
+  description: A pasted on note says 'To fix, unscrew the panel, crowbar out the damaged assembly, weld it fixed, add 2 cable, then close the panel.'
+  suffix: AU14
   components:
   - type: Transform
     anchored: true
@@ -162,8 +162,8 @@
 - type: entity
   parent: AU14TallFloodlight
   id: AU14Streetlight
-  name: ent-AU14Streetlight
-  suffix: ent-AU14Streetlight-suffix
+  name: colony streetlight
+  suffix: AU14
   components:
   - type: Fixtures
     fixtures:
@@ -193,9 +193,9 @@
 - type: entity
   parent: AU14FloodlightBroken
   id: AU14StreetlightBroken
-  name: ent-AU14StreetlightBroken
-  description: ent-AU14StreetlightBroken-desc
-  suffix: ent-AU14StreetlightBroken-suffix
+  name: broken colony streetlight
+  description: A pasted on note says 'To fix, unscrew the panel, crowbar out the damaged assembly, weld it fixed, add 2 cable, then close the panel.'
+  suffix: AU14
   components:
   - type: Sprite
     noRot: true

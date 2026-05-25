@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMBaseDefibrillator
-  name: ent-CMBaseDefibrillator
-  description: ent-CMBaseDefibrillator-desc
+  name: emergency defibrillator
+  description: A handheld emergency defibrillator, used to restore fibrillating patients. Can optionally bring people back from the dead.
   abstract: true
   components:
   - type: Sprite
@@ -78,7 +78,7 @@
 - type: entity
   id: CMDefibrillator
   parent: [CMBaseDefibrillator, RMCPowerCellSlotUnremovable]
-  suffix: ent-CMDefibrillator-suffix
+  suffix: RMC14
   components:
   - type: PowerCellDraw
     enabled: false
@@ -92,7 +92,7 @@
 - type: entity
   id: CMDefibrillatorEmpty
   parent: CMDefibrillator
-  suffix: ent-CMDefibrillatorEmpty-suffix
+  suffix: RMC14, Empty
   components:
   - type: ItemSlots
     slots:
@@ -102,13 +102,13 @@
 - type: entity
   parent: CMBaseDefibrillator
   id: CMDefibrillatorInfinite
-  suffix: ent-CMDefibrillatorInfinite-suffix
+  suffix: RMC14, Infinite
 
 - type: entity
   id: RMCDefibrillatorCompact
   parent: CMDefibrillator
-  name: ent-RMCDefibrillatorCompact
-  description: ent-RMCDefibrillatorCompact-desc
+  name: automated external defibrillator
+  description: This particular defibrillator has little charge capacity compared to the standard lifepak, but is smaller and quick to use.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/compact_defib.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: [CMBaseDefibrillator, RMCPowerCellSlotUnremovable]
   id: RMCSynthResetKey
-  name: ent-RMCSynthResetKey
-  description: ent-RMCSynthResetKey-desc
+  name: We-Yu synthetic reset key
+  description: This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It must be recharged after use.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/synth_reset_key.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeySMART
-  name: ent-RMCSynthResetKeySMART
-  description: ent-RMCSynthResetKeySMART-desc
+  name: SMART We-Yu synthetic reset key
+  description: This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It must be recharged after use. This one has a microfunction AI and can be operated by anyone.
   components:
   - type: Sprite
     layers:
@@ -196,8 +196,8 @@
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeyHyperdyne
-  name: ent-RMCSynthResetKeyHyperdyne
-  description: ent-RMCSynthResetKeyHyperdyne-desc
+  name: Hyperdyne synthetic reset key
+  description: A Hyperdyne-pattern reset key for rebooting synthetic units after critical failure. It must be recharged after use.
   components:
   - type: Sprite
     layers:
@@ -209,8 +209,8 @@
 - type: entity
   parent: RMCSynthResetKeySMART
   id: RMCSynthResetKeyHyperdyneSMART
-  name: ent-RMCSynthResetKeyHyperdyneSMART
-  description: ent-RMCSynthResetKeyHyperdyneSMART-desc
+  name: SMART Hyperdyne synthetic reset key
+  description: A Hyperdyne-pattern reset key with a microfunction AI, allowing anyone to operate it. It must be recharged after use.
   components:
   - type: Sprite
     layers:
@@ -222,8 +222,8 @@
 - type: entity
   parent: RMCSynthResetKeySMART
   id: RMCSynthResetKeySeegson
-  name: ent-RMCSynthResetKeySeegson
-  description: ent-RMCSynthResetKeySeegson-desc
+  name: Seegson Working Joe reboot key
+  description: A rugged reboot key designed for Seegson Working Joe synthetic units. It must be recharged after use.
   components:
   - type: Sprite
     layers:
@@ -235,8 +235,8 @@
 - type: entity
   parent: RMCSynthResetKeySMART
   id: RMCSynthResetKeyMakeshift
-  name: ent-RMCSynthResetKeyMakeshift
-  description: ent-RMCSynthResetKeyMakeshift-desc
+  name: makeshift synthetic sparker
+  description: A crude synthetic reboot device assembled from scavenged sparking electronics. It must be recharged after use.
   components:
   - type: Sprite
     layers:
@@ -248,13 +248,14 @@
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeyNovaris
-  name: ent-RMCSynthResetKeyNovaris
-  description: ent-RMCSynthResetKeyNovaris-desc
+  name: Novaris synthetic reset key
+  description: An independent Novaris design, based on a previous collaboration with Weyland-Yutani. This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It must be recharged after use.
+
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeyNovarisSMART
-  name: ent-RMCSynthResetKeyNovarisSMART
-  description: ent-RMCSynthResetKeyNovarisSMART-desc
+  name: SMART Novaris synthetic reset key
+  description: An independent Novaris design, based on a previous collaboration with Weyland-Yutani. This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It must be recharged after use. This one has a micro-function AI and can be operated by anyone.
   components:
   - type: RequiresSkill
     skills:

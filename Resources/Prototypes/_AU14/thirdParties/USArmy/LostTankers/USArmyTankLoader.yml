@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmyTankLoader
-  name: job-au14usarmytankloader-name
-  description: job-au14usarmytankloader-desc
+  name: au14-job-name-usarmy-tankloader
+  description: au14-job-description-usarmy-tankccrew
   playTimeTracker: AU14JobUSArmyTankLoader
   ranks:
     USArmy_Corporal:
@@ -10,12 +10,12 @@
       role: AU14JobUSArmyTankLoader
       time: 18000 #5 hours
     USArmy_Specialist: []
-  spawnMenuRoleName: job-au14usarmytankloader-spawnmenurolename
+  spawnMenuRoleName: US Army Tank Loader (AU14, 3rd Party)
   startingGear: AU14GearUSArmyTankLoader
   greeting: au14-usarmy-tank-greeting
   icon: "AU14JobIconTankCrewman"
   joinNotifyCrew: false
-  supervisors: job-au14usarmytankloader-supervisors
+  supervisors: au14-job-name-usarmy-tankcommander
   accessGroups:
   - AU14GovforSquad
   special:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTankLoader
-  name: ent-AU14JobUSArmyTankLoader
+  name: US Army Tank Loader
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

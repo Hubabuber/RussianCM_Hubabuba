@@ -1,6 +1,6 @@
-- type: radioChannel
+﻿- type: radioChannel
   id: TSE
-  name: radiochannel-tse-name
+  name: chat-radio-tse
   keycode: "'" # I hate this
   frequency: 1551
   color: "#9a1228"
@@ -10,7 +10,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyTSE
-  name: ent-RMCEncryptionKeyTSE
+  name: TSE radio encryption key
   components:
   - type: Sprite
     state: cmp_key
@@ -22,7 +22,7 @@
 - type: entity
   parent: RMCEncryptionKeyTSE
   id: RMCEncryptionKeyTSEPA
-  name: ent-RMCEncryptionKeyTSEPA
+  name: TSEPA radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCHeadsetTSEAbstract
   id: RMCHeadsetTSE
-  name: ent-RMCHeadsetTSE
+  name: TSE headset
   components:
   - type: ContainerFill
     containers:
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCHeadsetTSEAbstract
   id: RMCHeadsetTSEPA
-  name: ent-RMCHeadsetTSEPA
+  name: TSEPA headset
   components:
   - type: ContainerFill
     containers:

@@ -1,7 +1,7 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMMarineRaider
-  name: job-cmmarineraider-name
+  name: rmc-job-name-marine-raider
   description: "" # TODO RMC14
   playTimeTracker: CMJobMarineRaider
   ranks:
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: job-cmmarineraider-spawnmenurolename
+  spawnMenuRoleName: MARSOC Raider
   special:
   - !type:AddComponentSpecial
     components:
@@ -37,8 +37,8 @@
 
 - type: entity
   id: RMCRandomHumanoidMarineRaider
-  name: ent-RMCRandomHumanoidMarineRaider
-  suffix: ent-RMCRandomHumanoidMarineRaider-suffix
+  name: DEATHSQUAD marine raider ghost role
+  suffix: Role
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -98,7 +98,7 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCDogtagMarineRaider
-  name: ent-RMCDogtagMarineRaider
+  name: Marine Raider's dogtags
   components:
   - type: PresetIdCard
     job: CMMarineRaider

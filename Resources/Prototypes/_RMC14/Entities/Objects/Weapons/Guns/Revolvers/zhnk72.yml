@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [RMCBaseSlideMagazineVisualsBallistic, RMCWeaponRevolverBase]
   id: RMCWeaponRevolverZHNK72
-  name: ent-RMCWeaponRevolverZHNK72
-  description: ent-RMCWeaponRevolverZHNK72-desc
+  name: ZHNK-72 revolver
+  description: The ZHNK-72 is a UPP designed revolver. The ZHNK-72 is used by the UPP armed forces in a policing role as well as limited numbers in the hands of SNCOs.
   components:
   - type: Tag
     tags:
@@ -72,7 +72,7 @@
 - type: entity
   parent: RMCWeaponRevolverZHNK72
   id: RMCWeaponRevolverZHNK72Empty
-  suffix: ent-RMCWeaponRevolverZHNK72Empty-suffix
+  suffix: Empty
   components:
   - type: RevolverAmmoProvider
     proto: null
@@ -87,7 +87,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoaderZHNK72
-  name: "ent-RMCBaseSpeedLoaderZHNK72"
+  name: "Speed loader (7.62mm)"
   parent: BaseItem
   abstract: true
   components:
@@ -112,8 +112,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderZHNK72
   id: RMCSpeedLoaderZHNK72
-  name: "ent-RMCSpeedLoaderZHNK72"
-  description: ent-RMCSpeedLoaderZHNK72-desc
+  name: "ZHNK-72 Speed loader (7.62mm)"
+  description: A revolver speed loader.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/zhnk72.rsi
@@ -133,7 +133,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverZHNK72
-  name: ent-RMCCartridgeRevolverZHNK72
+  name: cartridge (7.62mm)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -146,7 +146,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolverZHNK72
-  name: ent-RMCBulletRevolverZHNK72
+  name: bullet (7.62mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

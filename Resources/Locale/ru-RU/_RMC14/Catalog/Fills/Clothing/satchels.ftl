@@ -1,32 +1,33 @@
 ent-RMCSatchelHEFAFill = сумка для хранения HEFA
   .desc = Прочная сумка, которую носят солдаты UNMC и вспомогательный персонал.
-    .suffix = сумка для хранения HEFA
+
 ent-RMCSatchelHEFAKnightFill = сумка для хранения HEFA
   .desc = Прочная сумка, которую носят солдаты UNMC и вспомогательный персонал.
+
 ent-RMCSatchelPizza = кожаная сумка
   .desc = Очень нарядная сумка из тонкой кожи. 
-    .suffix = кожаная сумка
+
 ent-RMCSatchelCivilianFill = кожаная сумка
   .desc = Очень нарядная сумка из тонкой кожи. 
-    .suffix = кожаная сумка
+
 ent-RMCSatchelFlightOperatorFill = кожаная сумка
   .desc = Очень нарядная сумка из тонкой кожи. 
-    .suffix = кожаная сумка
+
 ent-RMCSatchelMarineForeconSurvivorFill = Ранец UNMC
   .desc = Прочная сумка, которую носят солдаты UNMC и вспомогательный персонал.
-    .suffix = Ранец UNMC
+
 ent-RMCSatchelMarineLogisticsBigForeconSurvivorFill = Рюкзак UNMC для логистики IMP
   .desc = Стандартный рюкзак, который носят сотрудники логистики. 
-    .suffix = Рюкзак UNMC для логистики IMP
+
 ent-RMCSatchelMarineForeconSurvivorCommanderFill = Ранец UNMC
   .desc = Прочная сумка, которую носят солдаты UNMC и вспомогательный персонал.
-    .suffix = Ранец UNMC
+
 ent-RMCSatchelMarineForeconSurvivorSmartgunOperatorFill = Ранец UNMC
   .desc = Прочная сумка, которую носят солдаты UNMC и вспомогательный персонал.
-    .suffix = Ранец UNMC
+
 ent-RMCSatchelLightpackSurvivorFill = легкий боевой ранец
   .desc = Небольшой и легкий рюкзак для экспедиций и операций на ближних дистанциях.
-    .suffix = легкий боевой ранец
+
 ent-RMCSatchelBlackBartenderSynthFill = кожаная сумка
   .desc = Очень нарядная сумка из тонкой кожи. 
-    .suffix = кожаная сумка
+

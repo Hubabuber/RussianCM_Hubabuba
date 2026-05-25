@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBeltMarine
   id: AU14BeltMarineRMC
-  name: ent-AU14BeltMarineRMC
-  description: ent-AU14BeltMarineRMC-desc
+  name: L70 pattern ammo load rig
+  description: Standart-issue Royal Marines Commando rig. It consists of a modular belt with various clips. This is the standard variant, designed for bulk ammunition-carrying operations.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/ammo.rsi
@@ -14,7 +14,7 @@
 - type: entity
   parent: AU14BeltMarineRMC
   id: AU14BeltMarineRMCFullL90
-  suffix: ent-AU14BeltMarineRMCFullL90-suffix
+  suffix: Full, L90
   components:
   - type: StorageFill
     contents:
@@ -27,8 +27,8 @@
 - type: entity
   parent: AU14BeltUtilityGeneralBlack
   id: AU14BeltUtilityGeneralRMC
-  name: ent-AU14BeltUtilityGeneralRMC
-  description: ent-AU14BeltUtilityGeneralRMC-desc
+  name: L26 general utility pouch
+  description: A small, lightweight pouch that can be clipped onto kestrel armour to provide additional storage. The newer model, while uncomfortable, can also be clipped around the waist.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/general.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: CMBeltMedical
   id: AU14BeltMedicalRMC
-  name: ent-AU14BeltMedicalRMC
-  description: ent-AU14BeltMedicalRMC-desc
+  name: L75 pattern medical storage rig
+  description: Standart-issue Royal Marines Commando rig. It consists of a modular belt with various clips. This version is a less common configuration, designed to transport bulkier medical supplies.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/medical.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: AU14BeltHolsterPistolRMC
-  name: ent-AU14BeltHolsterPistolRMC
-  description: ent-AU14BeltHolsterPistolRMC-desc
+  name: L165 pattern general pistol holster rig
+  description: Standart-issue Royal Marines Commando rig. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/holster.rsi
@@ -111,7 +111,7 @@
 - type: entity
   parent: AU14BeltHolsterPistolRMC
   id: AU14BeltHolsterPistolRMCFullL165A1
-  suffix: ent-AU14BeltHolsterPistolRMCFullL165A1-suffix
+  suffix: Full, L165A1
   components:
   - type: StorageFill
     contents:
@@ -122,8 +122,8 @@
 - type: entity
   parent: CMBeltUtilityCombat
   id: AU14BeltUtilityCombatRMC
-  name: ent-AU14BeltUtilityCombatRMC
-  description: ent-AU14BeltUtilityCombatRMC-desc
+  name: L177 pattern combat toolbelt rig
+  description: Standart-issue Royal Marines Commando rig of the RMC for engineers conducting repairs within combat zones. It consists of a modular belt with various clips and pouches for tools along with a holster for a sidearm. Due to the bulk of the sidearm, it is unable to hold as many tools as its standard counterpart.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/combat_utility.rsi
@@ -146,7 +146,7 @@
 - type: entity
   parent: AU14BeltUtilityCombatRMC
   id: AU14BeltUtilityCombatRMCFilled
-  suffix: ent-AU14BeltUtilityCombatRMCFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMBeltMedicBag
   id: AU14BeltMedicBagRMC
-  name: ent-AU14BeltMedicBagRMC
-  description: ent-AU14BeltMedicBagRMC-desc
+  name: L75 pattern lifesaver bag
+  description: Standart-issue Royal Marines Commando rig. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/medicbag.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCM276ShotgunShellLoadingRig
   id: AU14ShotgunShellLoadingRigRMC
-  name: ent-AU14ShotgunShellLoadingRigRMC
-  description: ent-AU14ShotgunShellLoadingRigRMC-desc # or individual bullets. TODO RMC14
+  name: L70 pattern shotgun shell loading rig
+  description: An ammunition belt designed to hold shotgun shells. # or individual bullets. TODO RMC14
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/shotgun.rsi
@@ -202,7 +202,7 @@
 - type: entity
   parent: AU14ShotgunShellLoadingRigRMC
   id: AU14ShotgunShellLoadingRigRMCFullBuckshot
-  suffix: ent-AU14ShotgunShellLoadingRigRMCFullBuckshot-suffix
+  suffix: Full, Buckshot
   components:
   - type: StorageFill
     contents:
@@ -212,8 +212,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: AU14BeltMortarGrenadierRMC
-  name: ent-AU14BeltMortarGrenadierRMC
-  description: ent-AU14BeltMortarGrenadierRMC-desc
+  name: L84 pattern ammo load rig
+  description: An L84 pattern load-bearing rig configured to carry support ammunition for either the L53A1 light mortar or L164A3 multiple grenade launcher, along with a sidearm & magazine. Made of special rot-resistant fabric.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/mortar/snow-urban.rsi

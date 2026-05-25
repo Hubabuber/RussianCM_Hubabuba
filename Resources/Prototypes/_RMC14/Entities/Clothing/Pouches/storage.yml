@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchGeneral
-  name: ent-RMCPouchGeneral
-  description: ent-RMCPouchGeneral-desc
+  name: light general pouch
+  description: A general-purpose pouch used to carry a small item, or two tiny ones.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCPouchGeneral
   id: RMCPouchGeneralMedium
-  name: ent-RMCPouchGeneralMedium
-  description: ent-RMCPouchGeneralMedium-desc
+  name: medium general pouch
+  description: A general-purpose pouch used to carry a variety of differently sized items.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_drop.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchSurvival
-  name: ent-RMCPouchSurvival
-  description: ent-RMCPouchSurvival-desc
+  name: survival pouch
+  description: A pouch given to colonists in the event of an emergency.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/survivalpouch_brown.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCPouchSurvival
   id: RMCPouchSurvivalSynth
-  name: ent-RMCPouchSurvivalSynth
-  description: ent-RMCPouchSurvivalSynth-desc
+  name: synth survival pouch
+  description: An emergency pouch given to silicons in the event of an emergency.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/survivalpouch_grey.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: [RMCPouchClosed, RMCPouchStorage]
   id: RMCPouchCommand
-  name: ent-RMCPouchCommand
-  description: ent-RMCPouchCommand-desc
+  name: command pouch
+  description: A specialized, sturdy pouch issued to Commanding Officers. Can hold their sidearm, the command tablet and a set of binoculars.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/command.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMagazine
-  name: ent-RMCPouchMagazine
-  description: ent-RMCPouchMagazine-desc
+  name: magazine pouch
+  description: It can carry magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_ammo_mag.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: RMCPouchMagazine
   id: RMCPouchMagazineLarge
-  name: ent-RMCPouchMagazineLarge
-  description: ent-RMCPouchMagazineLarge-desc
+  name: large magazine pouch
+  description: It can carry many magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCPouchMagazineLarge
   id: RMCPouchMagazineLargeMAR40
-  suffix: ent-RMCPouchMagazineLargeMAR40-suffix
+  suffix: Filled, MAR40
   components:
   - type: StorageFill
     contents:
@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCPouchMagazineLarge
   id: RMCPouchMagazineLargePMC
-  suffix: ent-RMCPouchMagazineLargePMC-suffix
+  suffix: PMC
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag_pmc.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: RMCPouchMagazine
   id: RMCPouchMagazinePistol
-  name: ent-RMCPouchMagazinePistol
-  description: ent-RMCPouchMagazinePistol-desc
+  name: pistol magazine pouch
+  description: It can carry pistol magazines and revolver speedloaders.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/pistol_mag.rsi
@@ -233,8 +233,8 @@
 - type: entity
   parent: RMCPouchMagazinePistol
   id: RMCPouchMagazinePistolLarge
-  name: ent-RMCPouchMagazinePistolLarge
-  description: ent-RMCPouchMagazinePistolLarge-desc
+  name: large pistol magazine pouch
+  description: It can carry many pistol magazines or revolver speedloaders.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_pistol_mag.rsi
@@ -245,7 +245,7 @@
 - type: entity
   parent: RMCPouchMagazinePistolLarge
   id: RMCPouchMagazinePistolLargeFilledHighCommand
-  suffix: ent-RMCPouchMagazinePistolLargeFilledHighCommand-suffix
+  suffix: Filled, High Command
   components:
   - type: StorageFill
     contents:
@@ -256,8 +256,8 @@
 - type: entity
   parent: [RMCPouchStorage]
   id: RMCPouchShotgun
-  name: ent-RMCPouchShotgun
-  description: ent-RMCPouchShotgun-desc #, or bullets if you choose to for some reason. # TODO RMC14
+  name: shotgun shell pouch
+  description: It can contain handfuls of shells. #, or bullets if you choose to for some reason. # TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_shotshells.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: RMCPouchShotgun
   id: RMCPouchShotgunLarge
-  name: ent-RMCPouchShotgunLarge
-  description: ent-RMCPouchShotgunLarge-desc #, or bullets if you choose to for some reason. TODO RMC14
+  name: large shotgun shell pouch
+  description: It can contain more handfuls of shells. #, or bullets if you choose to for some reason. TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_shotshells.rsi
@@ -346,8 +346,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDocument
-  name: ent-RMCPouchDocument
-  description: ent-RMCPouchDocument-desc
+  name: large document pouch
+  description: It can contain papers, folders, disks, technical manuals, and clipboards.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/document.rsi
@@ -371,8 +371,8 @@
 - type: entity
   parent: RMCPouchDocument
   id: RMCPouchDocumentSmall
-  name: ent-RMCPouchDocumentSmall
-  description: ent-RMCPouchDocumentSmall-desc
+  name: small document pouch
+  description: A smaller version of the document pouch. It can contain papers, folders, disks, technical manuals, and clipboards.
   components:
   - type: Storage
     grid:
@@ -382,8 +382,8 @@
 - type: entity
   parent: RMCPouchFill
   id: RMCPouchFlare
-  name: ent-RMCPouchFlare
-  description: ent-RMCPouchFlare-desc
+  name: flare pouch
+  description: A pouch designed to hold flares. Refillable with an M94 flare pack.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/flare.rsi
@@ -406,8 +406,8 @@
 - type: entity
   parent: RMCPouchFlare
   id: RMCPouchFlareL96
-  name: ent-RMCPouchFlareL96
-  description: ent-RMCPouchFlareL96-desc
+  name: L96 flare pouch
+  description: A pouch designed to hold flares used by the Royal Crown Marines. Refillable with an L96 flare pack.
   components:
   - type: CMItemSlots
     cooldown: 1
@@ -423,8 +423,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchRadio
-  name: ent-RMCPouchRadio
-  description: ent-RMCPouchRadio-desc
+  name: radio pouch
+  description: It can contain two handheld radios.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/radio.rsi
@@ -440,8 +440,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchElectronics
-  name: ent-RMCPouchElectronics
-  description: ent-RMCPouchElectronics-desc
+  name: electronics pouch
+  description: It is designed to hold most electronics, power cells and circuit boards.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/electronics.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchEngineerKit
-  name: ent-RMCPouchEngineerKit
-  description: ent-RMCPouchEngineerKit-desc
+  name: engineer kit pouch
+  description: It's specifically made to hold engineering items. Requires engineering skills to use effectively.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/engineerpouch.rsi
@@ -520,8 +520,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchTools
-  name: ent-RMCPouchTools
-  description: ent-RMCPouchTools-desc
+  name: tools pouch
+  description: It's designed to hold maintenance tools - screwdriver, wrench, cable coil, etc. It also has a hook for an entrenching tool or light replacer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/tools.rsi
@@ -554,8 +554,8 @@
 - type: entity
   parent: RMCPouchTools
   id: RMCPouchToolsSoc
-  name: ent-RMCPouchToolsSoc
-  description: ent-RMCPouchToolsSoc-desc
+  name: tactical tools pouch
+  description: This particular toolkit full of sharp, heavy objects was designed for breaking into things rather than fixing them. Still does the latter pretty well, though.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/soctools.rsi
@@ -566,7 +566,7 @@
 - type: entity
   parent: RMCPouchToolsSoc
   id: RMCPouchToolsSocFilledSynthetic
-  suffix: ent-RMCPouchToolsSocFilledSynthetic-suffix
+  suffix: Filled, Synthetic
   components:
   - type: StorageFill
     contents:
@@ -582,7 +582,7 @@
 - type: entity
   parent: RMCPouchTools
   id: RMCPouchToolsFilledRCM
-  suffix: ent-RMCPouchToolsFilledRCM-suffix
+  suffix: Filled, RCM
   components:
   - type: StorageFill
     contents:
@@ -594,7 +594,7 @@
 - type: entity
   parent: RMCPouchToolsSoc
   id: RMCPouchToolsSocFilledTactical
-  suffix: ent-RMCPouchToolsSocFilledTactical-suffix
+  suffix: Filled, Tactical
   components:
   - type: StorageFill
     contents:
@@ -611,8 +611,8 @@
 - type: entity
   parent: [RMCPouchClosed, RMCPouchStorage]
   id: RMCPouchSling
-  name: ent-RMCPouchSling
-  description: ent-RMCPouchSling-desc
+  name: sling strap
+  description: Keeps a single item attached to a strap.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/sling.rsi
@@ -656,8 +656,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchCassette
-  name: ent-RMCPouchCassette
-  description: ent-RMCPouchCassette-desc
+  name: cassette pouch
+  description: A finely crafted pouch, made specifically to keep cassettes safe during wartime.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/cassette.rsi
@@ -673,8 +673,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDrumPMC
-  name: ent-RMCPouchDrumPMC
-  description: ent-RMCPouchDrumPMC-desc
+  name: smartgun drum pouch
+  description: A heavy pouch designed for carrying a surplus of smartgun drums.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/wy_sgdrums_ammo.rsi
@@ -694,7 +694,7 @@
 - type: entity
   parent: RMCPouchToolsSoc
   id: RMCPouchToolsSocRCMPVEAssaultEngi
-  suffix: ent-RMCPouchToolsSocRCMPVEAssaultEngi-suffix
+  suffix: Filled, RCM, PVE
   components:
   - type: StorageFill
     contents:

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCultist
-  name: job-au14jobcultist-name
-  description: job-au14jobcultist-desc
+  name: cm-cultist-name
+  description: cm-cultist-description
   setPreference: true
   playTimeTracker: AU14JobCultist
   ranks:
@@ -11,7 +11,7 @@
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcultist-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -61,7 +61,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCultist
   id: cultistJob
-  name: ent-cultistJob
+  name: Cultist
   components:
   - type: Threat
   - type: GhostTakeoverAvailable

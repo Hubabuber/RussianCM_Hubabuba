@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMDoctor
-  name: job-cmdoctor-name
-  description: job-cmdoctor-desc
+  name: rmc-job-name-doctor
+  description: rmc-job-description-doctor
   setPreference: false
   playTimeTracker: CMJobDoctor
   requirements:
@@ -14,7 +14,7 @@
   startingGear: CMGearDoctor
   icon: "CMJobIconDoctor"
   joinNotifyCrew: false
-  supervisors: job-cmdoctor-supervisors
+  supervisors: cm-job-supervisors-cmo
   accessGroups:
   - CMMedbay
   roleWeight: 0.25
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointDoctor
-  name: ent-CMSpawnPointDoctor
+  name: doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMDoctor
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleDoctor
-  name: ent-CMGuidebookRoleDoctor
+  name: Doctor
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

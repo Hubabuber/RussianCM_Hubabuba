@@ -30,8 +30,8 @@
 - type: entity
   parent: GasTrinaryBase
   id: GasFilter
-  name: ent-GasFilter
-  description: ent-GasFilter-desc
+  name: gas filter
+  description: Very useful for filtering gases.
   placement:
     mode: SnapgridCenter
   components:
@@ -82,8 +82,8 @@
 - type: entity
   parent: GasFilter
   id: GasFilterFlipped
-  name: ent-GasFilterFlipped
-  suffix: ent-GasFilterFlipped-suffix
+  name: gas filter
+  suffix: Flipped
   placement:
     mode: SnapgridCenter
   components:
@@ -129,8 +129,8 @@
 - type: entity
   parent: GasTrinaryBase
   id: GasMixer
-  name: ent-GasMixer
-  description: ent-GasMixer-desc
+  name: gas mixer
+  description: Very useful for mixing gases.
   placement:
     mode: SnapgridCenter
   components:
@@ -181,8 +181,8 @@
 - type: entity
   parent: GasMixer
   id: GasMixerFlipped
-  name: ent-GasMixerFlipped
-  suffix: ent-GasMixerFlipped-suffix
+  name: gas mixer
+  suffix: Flipped
   placement:
     mode: SnapgridCenter
   components:
@@ -224,8 +224,8 @@
 - type: entity
   parent: GasPipeBase
   id: PressureControlledValve
-  name: ent-PressureControlledValve
-  description: ent-PressureControlledValve-desc
+  name: pneumatic valve
+  description: A bidirectional valve controlled by pressure. Opens if the output pipe is lower than the pressure of the control pipe by 101.325 kPa.
   placement:
     mode: SnapgridCenter
   components:

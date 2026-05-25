@@ -1,1 +1,0 @@
-ent-dragshadow = drag shadow

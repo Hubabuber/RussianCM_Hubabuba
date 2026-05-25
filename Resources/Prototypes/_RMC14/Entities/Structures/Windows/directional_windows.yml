@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   id: CMWindowDirectional
   parent: WindowDirectional
-  name: ent-CMWindowDirectional
-  description: ent-CMWindowDirectional-desc
+  name: window
+  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
   components:
   - type: Transform
     anchored: true
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMWindowDirectional
   id: RMCWindowDirectionalAltDrawDepth
-  suffix: ent-RMCWindowDirectionalAltDrawDepth-suffix
+  suffix: Alt Drawdepth
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -70,8 +70,8 @@
 - type: entity
   id: CMWindowReinforcedDirectional
   parent: CMWindowDirectional
-  name: ent-CMWindowReinforcedDirectional
-  description: ent-CMWindowReinforcedDirectional-desc
+  name: reinforced window
+  description: A glass window reinforced with bracing rods. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     state: rwindow
@@ -113,8 +113,8 @@
 - type: entity
   id: CMWindowStrongReinforcedDirectional
   parent: CMWindowDirectional
-  name: ent-CMWindowStrongReinforcedDirectional
-  description: ent-CMWindowStrongReinforcedDirectional-desc
+  name: strong reinforced window
+  description: A glass window reinforced with bracing rods. It looks very strong. You can't break it with your fists.
   components:
   - type: Sprite
     state: rwindow
@@ -145,8 +145,8 @@
 - type: entity
   id: CMWindowTintedDirectional
   parent: CMWindowDirectional
-  name: ent-CMWindowTintedDirectional
-  description: ent-CMWindowTintedDirectional-desc
+  name: tinted window
+  description: A tinted glass window. It looks rather strong and opaque. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     state: twindow
@@ -157,7 +157,7 @@
 - type: entity
   id: RMCWindowTintedDirectionalBlue
   parent: CMWindowTintedDirectional
-  suffix: ent-RMCWindowTintedDirectionalBlue-suffix
+  suffix: Blue
   components:
   - type: Sprite
     color: "#969696"
@@ -165,7 +165,7 @@
 - type: entity
   id: RMCWindowDirectionalBlue
   parent: CMWindowDirectional
-  suffix: ent-RMCWindowDirectionalBlue-suffix
+  suffix: Blue
   components:
   - type: Sprite
     color: "#969696"
@@ -173,8 +173,8 @@
 - type: entity
   id: CMWindowUltraDirectional
   parent: CMWindowDirectional
-  name: ent-CMWindowUltraDirectional
-  description: ent-CMWindowUltraDirectional-desc
+  name: ultra-reinforced window
+  description: An ultra-reinforced window designed to keep the briefing podium a secure area.
   components:
   - type: Sprite
     state: fwindow

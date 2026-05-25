@@ -8,8 +8,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: RMCXenoLurkerBase
-  name: ent-RMCXenoLurkerBase
-  description: ent-RMCXenoLurkerBase-desc
+  name: Lurker
+  description: A beefy, fast alien with sharp claws.
   components:
   - type: TTS
     voice: KEEPER_OF_THE_LIGHT_DOTA_2
@@ -109,7 +109,7 @@
   - CMXenoTail
   - RMCXenoLurkerBase
   id: CMXenoLurker
-  suffix: ent-CMXenoLurker-suffix
+  suffix: Base
   components:
   - type: GuideHelp
     guides:
@@ -142,7 +142,7 @@
 - type: entity
   parent: RMCXenoLurkerBase
   id: RMCXenoLurkerVampire
-  suffix: ent-RMCXenoLurkerVampire-suffix
+  suffix: Vampire
   components:
   - type: GuideHelp
     guides:

@@ -1,11 +1,1 @@
 ent-RMCRadioHandheldColonyBase = коротковолновое радио
-    .desc = коротковолновое радио
-ent-RMCRadioHandheldAlmayer = коротковолновое радио
-    .desc = Удобная портативная радиостанция.
-    .suffix = На
-ent-RMCRadioHandheldColony = коротковолновое радио
-    .desc = Удобная портативная радиостанция.
-    .suffix = На
-ent-RMCRadioHandheldColonyOff = коротковолновое радио
-    .desc = Удобная портативная радиостанция.
-    .suffix = Выключенный

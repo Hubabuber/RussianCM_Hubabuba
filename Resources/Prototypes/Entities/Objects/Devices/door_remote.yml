@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DoorRemoteDefault
-  name: ent-DoorRemoteDefault
-  description: ent-DoorRemoteDefault-desc
+  name: door remote
+  description: A gadget which can open and bolt doors remotely.
   abstract: true
   components:
   - type: Sprite
@@ -17,7 +17,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCommand
-  name: ent-DoorRemoteCommand
+  name: command door remote
   components:
   - type: Sprite
     layers:
@@ -34,8 +34,8 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCustom
-  name: ent-DoorRemoteCustom
-  description: ent-DoorRemoteCustom-desc
+  name: custom door remote
+  description: A gadget which can open and bolt doors remotely. This advanced variant does not have built-in access, instead inheriting the ID access of the user.
   components:
   - type: Sprite
     layers:
@@ -51,7 +51,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteSecurity
-  name: ent-DoorRemoteSecurity
+  name: security door remote
   components:
   - type: Sprite
     layers:
@@ -67,7 +67,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseSecurityCommandContraband]
   id: DoorRemoteArmory
-  name: ent-DoorRemoteArmory
+  name: armory door remote
   components:
   - type: Sprite
     layers:
@@ -83,7 +83,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteService
-  name: ent-DoorRemoteService
+  name: service door remote
   components:
   - type: Sprite
     layers:
@@ -99,7 +99,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteResearch
-  name: ent-DoorRemoteResearch
+  name: research door remote
   components:
   - type: Sprite
     layers:
@@ -115,7 +115,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCargo
-  name: ent-DoorRemoteCargo
+  name: cargo door remote
   components:
   - type: Sprite
     layers:
@@ -131,7 +131,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteMedical
-  name: ent-DoorRemoteMedical
+  name: medical door remote
   components:
   - type: Sprite
     layers:
@@ -147,7 +147,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteEngineering
-  name: ent-DoorRemoteEngineering
+  name: engineering door remote
   components:
   - type: Sprite
     layers:
@@ -163,8 +163,8 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteAll
-  name: ent-DoorRemoteAll
-  suffix: ent-DoorRemoteAll-suffix
+  name: super door remote
+  suffix: Admeme
   components:
   - type: Sprite
     layers:
@@ -188,7 +188,7 @@
 - type: entity
   parent: [ DoorRemoteDefault, BaseXenoborgContraband ]
   id: DoorRemoteXenoborg
-  name: ent-DoorRemoteXenoborg
+  name: xenoborg door remote
   components:
   - type: Sprite
     layers:

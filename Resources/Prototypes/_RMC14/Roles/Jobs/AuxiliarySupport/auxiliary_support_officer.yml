@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMAuxiliarySupportOfficer
-  name: job-cmauxiliarysupportofficer-name
-  description: job-cmauxiliarysupportofficer-desc
+  name: cm-job-name-aso
+  description: cm-job-description-aso
   setPreference: false
   playTimeTracker: CMJobAuxiliarySupportOfficer
   requirements:
@@ -36,7 +36,7 @@
   requireAdminNotify: true
   joinNotifyCrew: false
   marineAuthorityLevel: 12
-  supervisors: job-cmauxiliarysupportofficer-supervisors
+  supervisors: rmc-job-supervisors-commander
   accessGroups:
   - ASO
   roleWeight: 0.25
@@ -109,7 +109,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointASO
-  name: ent-CMSpawnPointASO
+  name: auxiliary support officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMAuxiliarySupportOfficer
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleASO
-  name: ent-RMCGuidebookRoleASO
+  name: Auxiliary Support Officer
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

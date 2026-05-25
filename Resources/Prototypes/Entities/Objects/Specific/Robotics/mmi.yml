@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: MMI
-  name: ent-MMI
-  description: ent-MMI-desc
+  name: man-machine interface
+  description: A machine able to facilitate communication between a biological brain and electronics, enabling crew to continue to provide value after work-related incidents.
   components:
   - type: Sprite
     sprite: Objects/Specific/Robotics/mmi.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: MMI
   id: MMIFilled
-  suffix: ent-MMIFilled-suffix
+  suffix: Filled
   components:
   - type: ItemSlots
     slots:
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseItem
   id: PositronicBrain
-  name: ent-PositronicBrain
-  description: ent-PositronicBrain-desc
+  name: positronic brain
+  description: An artificial brain capable of spontaneous neural activity.
   components:
     - type: Sprite
       sprite: Objects/Specific/Robotics/mmi.rsi

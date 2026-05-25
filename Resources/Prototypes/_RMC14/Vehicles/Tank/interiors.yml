@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleTankInteriorBase
-  name: ent-VehicleTankInteriorBase
-  description: ent-VehicleTankInteriorBase-desc
+  name: tank interior piece
+  description: A decorative interior piece for the tank.
   placement:
     mode: SnapgridCenter
   components:
@@ -16,8 +16,8 @@
 - type: entity
   abstract: true
   id: VehicleTankRoofBase
-  name: ent-VehicleTankRoofBase
-  description: ent-VehicleTankRoofBase-desc
+  name: tank interior roof
+  description: A removable roof section for the tank interior.
   placement:
     mode: SnapgridCenter
   components:
@@ -74,8 +74,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleTankLockerBase
-  name: ent-VehicleTankLockerBase
-  description: ent-VehicleTankLockerBase-desc
+  name: tank interior locker
+  description: A storage locker for tank interiors.
   placement:
     mode: PlaceFree
   components:
@@ -408,12 +408,12 @@
 - type: entity
   parent: VehicleTankLockerBase
   id: VehicleTankLocker
-  name: ent-VehicleTankLocker
+  name: tank locker
 
 - type: entity
   parent: VehicleTankLockerBase
   id: VehicleTankLockerOpen
-  name: ent-VehicleTankLockerOpen
+  name: tank locker (open)
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: locker_open
@@ -422,8 +422,8 @@
 - type: entity
   parent: VehicleAmmoLoader
   id: VehicleTankAmmoLoader
-  name: ent-VehicleTankAmmoLoader
-  description: ent-VehicleTankAmmoLoader-desc
+  name: tank ammo loader
+  description: A loader for tank hardpoint ammunition.
   components:
   - type: Sprite
     drawdepth: LowFloors

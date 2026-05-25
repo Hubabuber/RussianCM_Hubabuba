@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCArmoredUniformBase
   id: RMCJumpsuitTSEPA
-  name: ent-RMCJumpsuitTSEPA
-  description: ent-RMCJumpsuitTSEPA-desc
+  name: nspa uniform
+  description: The standard uniform of a Neroid Sector Policing Authority officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/TSE/TSEPA/standard.rsi
@@ -16,9 +16,9 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitMarineRoyal
-  name: ent-RMCJumpsuitMarineRoyal
-  description: ent-RMCJumpsuitMarineRoyal-desc
-  suffix: ent-RMCJumpsuitMarineRoyal-suffix
+  name: royal marine commando uniform
+  description: The field uniform of the royal marine commandoes. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar USCMC equipment.
+  suffix: Filled, Royal
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/TSE/RCM/standard.rsi
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCJumpsuitMarineRoyal
   id: RMCJumpsuitMarineRoyalMK80
-  suffix: ent-RMCJumpsuitMarineRoyalMK80-suffix
+  suffix: Filled, Royal, MK80
   components:
   - type: WebbingClothing
     startingWebbing: RMCShoulderHolsterMK80
@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCJumpsuitMarineRoyal
   id: RMCJumpsuitMarineRoyalMedic
-  suffix: ent-RMCJumpsuitMarineRoyalMedic-suffix
+  suffix: Filled, Royal, Medic
   components:
   - type: WebbingClothing
     startingWebbing: CMWebbingSurgicalBlue
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCJumpsuitMarineRoyal
   id: RMCJumpsuitMarineRoyalDropPouch
-  suffix: ent-RMCJumpsuitMarineRoyalDropPouch-suffix
+  suffix: Filled, Royal, Drop Pouch
   components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingDropPouchRoyal
@@ -58,9 +58,9 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitMarineRoyalTeamlead
-  name: ent-RMCJumpsuitMarineRoyalTeamlead
-  description: ent-RMCJumpsuitMarineRoyalTeamlead-desc
-  suffix: ent-RMCJumpsuitMarineRoyalTeamlead-suffix
+  name: royal marine commando uniform
+  description: The field uniform of the royal marine commandoes. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar USCMC equipment.
+  suffix: Filled, Royal, Teamlead
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/TSE/RCM/team_lead.rsi
@@ -76,9 +76,9 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCFoldableUniformBase]
   id: RMCJumpsuitMarineRoyalPVE
-  name: ent-RMCJumpsuitMarineRoyalPVE
-  description: ent-RMCJumpsuitMarineRoyalPVE-desc
-  suffix: ent-RMCJumpsuitMarineRoyalPVE-suffix
+  name: royal crown marine uniform
+  description: The field uniform of the royal crown marines. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar UNMC equipment.
+  suffix: Royal, PVE
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/TSE/RCM/standard.rsi
@@ -93,14 +93,14 @@
     foldVerbText: rmc-sleeves-verb-fold
   - type: FoldableClothing
     foldedEquippedPrefix: sleeves
-
+    
 # RCM Paramarines
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCFoldableUniformBase]
   id: RMCJumpsuitMarinePara
-  name: ent-RMCJumpsuitMarinePara
-  description: ent-RMCJumpsuitMarinePara-desc
-  suffix: ent-RMCJumpsuitMarinePara-suffix
+  name: paramarine battle dress uniform
+  description: No.8 Pattern BDU used by the RCM's Paramarine regiments. Identical in cut and protection to standard issue uniforms, but issued in woodland camouflage. Lightweight Kevlar mesh offers limited protection against shrapnel and close-quarters threats.
+  suffix: Survivor, Paramarine
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/TSE/RCM/para.rsi
@@ -118,29 +118,29 @@
     foldVerbText: rmc-sleeves-verb-fold
   - type: FoldableClothing
     foldedEquippedPrefix: sleeves
-
+    
 - type: entity
   parent: RMCJumpsuitMarinePara
   id: RMCJumpsuitMarineParaL88
-  suffix: ent-RMCJumpsuitMarineParaL88-suffix
+  suffix: Survivor, Paramarine, Webbing, L88
   components:
     - type: WebbingClothing
       startingWebbing: RMCParaWebbingL88
-
+    
 - type: entity
   parent: RMCJumpsuitMarinePara
   id: RMCJumpsuitMarineParaPDW90
-  suffix: ent-RMCJumpsuitMarineParaPDW90-suffix
+  suffix: Survivor, Paramarine, Webbing. PDW90AP
   components:
     - type: WebbingClothing
       startingWebbing: RMCParaWebbingPDW90AP
-
+    
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCFoldableUniformBase]
   id: RMCJumpsuitMarineParaService
-  name: ent-RMCJumpsuitMarineParaService
-  description: ent-RMCJumpsuitMarineParaService-desc
-  suffix: ent-RMCJumpsuitMarineParaService-suffix
+  name: paramarine service uniform
+  description: A formal No.2 service uniform worn by RCM-P officers. Features the same upper torso cut as the No.8 BDU, but paired with pressed khaki trousers. Issued for inspections, ceremonial duties, or when deployed in an advisory role.
+  suffix: Survivor, Paramarine
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Clothing/Uniforms/TSE/RCM/para_officer.rsi
@@ -155,4 +155,4 @@
       foldVerbText: rmc-sleeves-verb-fold
     - type: FoldableClothing
       foldedEquippedPrefix: sleeves
-
+      

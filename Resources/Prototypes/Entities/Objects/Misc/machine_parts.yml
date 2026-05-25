@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   id: BaseStockPart
-  name: ent-BaseStockPart
+  name: stock part
   parent: BaseItem
-  description: ent-BaseStockPart-desc
+  description: What?
   abstract: true
   components:
     - type: Sprite
@@ -14,10 +14,10 @@
 
 - type: entity
   id: MicroManipulatorStockPart
-  name: ent-MicroManipulatorStockPart
+  name: modular machine part
   parent: BaseStockPart
-  description: ent-MicroManipulatorStockPart-desc
-  suffix: ent-MicroManipulatorStockPart-suffix
+  description: A basic machine part used in the construction of a variety of devices.
+  suffix: Rating 1
   components:
     - type: Sprite
       state: micro_mani

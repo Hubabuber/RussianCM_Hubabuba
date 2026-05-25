@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: BaseAnomaly
-  name: ent-BaseAnomaly
-  description: ent-BaseAnomaly-desc
+  name: anomaly
+  description: An impossible object. Should you be standing this close to it?
   components:
   - type: Anomaly
     offset: 0, 0.15
@@ -62,7 +62,7 @@
 - type: entity
   id: AnomalyPyroclastic
   parent: BaseAnomaly
-  suffix: ent-AnomalyPyroclastic-suffix
+  suffix: Pyroclastic
   components:
   - type: AmbientSound
     volume: 5
@@ -119,7 +119,7 @@
 - type: entity
   id: AnomalyGravity
   parent: BaseAnomaly
-  suffix: ent-AnomalyGravity-suffix
+  suffix: Gravity
   components:
   - type: Anomaly
     corePrototype: AnomalyCoreGravity
@@ -151,7 +151,7 @@
 - type: entity
   id: AnomalyElectricity
   parent: BaseAnomaly
-  suffix: ent-AnomalyElectricity-suffix
+  suffix: Electricity
   components:
   - type: Anomaly
     corePrototype: AnomalyCoreElectricity
@@ -174,7 +174,7 @@
 - type: entity
   id: AnomalyFlesh
   parent: BaseAnomaly
-  suffix: ent-AnomalyFlesh-suffix
+  suffix: Flesh
   components:
   - type: Anomaly
     corePrototype: AnomalyCoreFlesh
@@ -267,7 +267,7 @@
 - type: entity
   id: AnomalyBluespace
   parent: BaseAnomaly
-  suffix: ent-AnomalyBluespace-suffix
+  suffix: Bluespace
   components:
   - type: Sprite
     layers:
@@ -314,7 +314,7 @@
 - type: entity
   id: AnomalyIce
   parent: BaseAnomaly
-  suffix: ent-AnomalyIce-suffix
+  suffix: Ice
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/ice_anom.rsi
@@ -369,7 +369,7 @@
   id: AnomalyRockBase
   parent: BaseAnomaly
   abstract: true
-  suffix: ent-AnomalyRockBase-suffix
+  suffix: Rock
   components:
   - type: Anomaly
     corePrototype: AnomalyCoreRock
@@ -406,7 +406,7 @@
 - type: entity
   id: AnomalyRockUranium
   parent: AnomalyRockBase
-  suffix: ent-AnomalyRockUranium-suffix
+  suffix: Rock, Uranium
   components:
   - type: Sprite
     color: "#52ff39"
@@ -456,7 +456,7 @@
 - type: entity
   id: AnomalyRockBananium
   parent: AnomalyRockBase
-  suffix: ent-AnomalyRockBananium-suffix
+  suffix: Rock, Bananium
   components:
   - type: Sprite
     color: "#ddde40"
@@ -506,7 +506,7 @@
 - type: entity
   id: AnomalyRockQuartz
   parent: AnomalyRockBase
-  suffix: ent-AnomalyRockQuartz-suffix
+  suffix: Rock, Quartz
   components:
   - type: Sprite
     color: "#fb4747"
@@ -556,7 +556,7 @@
 - type: entity
   id: AnomalyRockSilver
   parent: AnomalyRockBase
-  suffix: ent-AnomalyRockSilver-suffix
+  suffix: Rock, Silver
   components:
   - type: Sprite
     color: "#47f8ff"
@@ -606,7 +606,7 @@
 - type: entity
   id: AnomalyRockGold
   parent: AnomalyRockBase
-  suffix: ent-AnomalyRockGold-suffix
+  suffix: Rock, Gold
   components:
   - type: Sprite
     color: "#e3ba70"
@@ -656,7 +656,7 @@
 - type: entity
   id: AnomalyRockIron
   parent: AnomalyRockBase
-  suffix: ent-AnomalyRockIron-suffix
+  suffix: Rock, Iron
   components:
   - type: Sprite
     color: "#ff8227"
@@ -706,7 +706,7 @@
 - type: entity
   id: AnomalyRockCoal
   parent: AnomalyRockBase
-  suffix: ent-AnomalyRockCoal-suffix
+  suffix: Rock, Coal
   components:
   - type: Sprite
     color: "#484848"
@@ -756,7 +756,7 @@
 - type: entity
   id: AnomalyFlora
   parent: BaseAnomaly
-  suffix: ent-AnomalyFlora-suffix
+  suffix: Flora
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -811,10 +811,10 @@
 
 - type: entity
   id: AnomalyFloraBulb
-  name: ent-AnomalyFloraBulb
+  name: strange glowing berry
   parent: BaseStructure
-  description: ent-AnomalyFloraBulb-desc
-  suffix: ent-AnomalyFloraBulb-suffix
+  description: It's a beautiful strange glowing berry. It seems to have something growing inside it...
+  suffix: Flora Anomaly
   components:
   - type: Transform
     anchored: true
@@ -855,7 +855,7 @@
 - type: entity
   id: AnomalyLiquid
   parent: BaseAnomaly
-  suffix: ent-AnomalyLiquid-suffix
+  suffix: Liquid
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/liquid_anom.rsi
@@ -968,7 +968,7 @@
 - type: entity
   id: AnomalyShadow
   parent: BaseAnomaly
-  suffix: ent-AnomalyShadow-suffix
+  suffix: Shadow
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/shadow_anom.rsi
@@ -1030,7 +1030,7 @@
 - type: entity
   id: AnomalyTech
   parent: BaseAnomaly
-  suffix: ent-AnomalyTech-suffix
+  suffix: Tech
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/tech_anom.rsi
@@ -1090,7 +1090,7 @@
 - type: entity
   id: AnomalySanta
   parent: BaseAnomaly
-  suffix: ent-AnomalySanta-suffix
+  suffix: Santa
   components:
   - type: Sprite
     drawdepth: Mobs

@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivor
   id: RMCSurvivorHybrisaMaterialReprocessingTechnician
-  name: job-rmcsurvivorhybrisamaterialreprocessingtechnician-name
-  description: job-rmcsurvivorhybrisamaterialreprocessingtechnician-desc
+  name: rmc-job-name-survivor-material-reprocessing-technician
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaMaterialReprocessingTechnician
-  spawnMenuRoleName: job-rmcsurvivorhybrisamaterialreprocessingtechnician-spawnmenurolename
+  spawnMenuRoleName: Civilian - Material Reprocessing Technician (Hybrisa Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaMaterialReprocessingTechnician
-  name: ent-RMCSpawnPointSurvivorHybrisaMaterialReprocessingTechnician
+  name: hybrisa material reprocessing technician spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaMaterialReprocessingTechnician
-  name: ent-RMCGearSurvivorPresetHybrisaMaterialReprocessingTechnician
+  name: hybrisa material reprocessing technician preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

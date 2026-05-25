@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: CMFilingCabinetBase
-  description: ent-CMFilingCabinetBase-desc
-  suffix: ent-CMFilingCabinetBase-suffix
+  description: A large cabinet with drawers.
+  suffix: Empty
   components:
   - type: Storage
     grid:
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMFilingCabinetBase
   id: CMFilingCabinet
-  name: ent-CMFilingCabinet
+  name: filing cabinet
   components:
   - type: Sprite
     state: filingcabinet
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMFilingCabinetBase
   id: CMFilingCabinetTall
-  name: ent-CMFilingCabinetTall
+  name: tall filing cabinet
   components:
   - type: Sprite
     state: tallcabinet
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMFilingCabinetTall
   id: CMFilingCabinetTallWood
-  name: ent-CMFilingCabinetTallWood
+  name: tall wooden filing cabinet
   components:
   - type: Sprite
     state: tallcabinet
@@ -97,7 +97,7 @@
 - type: entity
   parent: CMFilingCabinetBase
   id: CMFilingCabinetChest
-  name: ent-CMFilingCabinetChest
+  name: chest drawer
   components:
   - type: Storage
     grid:
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMFilingCabinetChest
   id: CMFilingCabinetChestWood
-  name: ent-CMFilingCabinetChestWood
+  name: wooden chest drawer
   components:
   - type: Sprite
     state: chestdrawer
@@ -142,8 +142,8 @@
 - type: entity
   parent: CMFilingCabinetBase
   id: CMFilingCabinetChestAngled
-  name: ent-CMFilingCabinetChestAngled
-  suffix: ent-CMFilingCabinetChestAngled-suffix
+  name: chest drawer
+  suffix: Angled
   components:
   - type: Sprite
     state: sidecabinet

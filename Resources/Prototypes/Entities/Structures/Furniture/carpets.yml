@@ -2,8 +2,8 @@
 - type: entity
   id: CarpetBase
   parent: BaseStructure
-  name: ent-CarpetBase
-  description: "ent-CarpetBase-desc"
+  name: carpet
+  description: "Fancy walking surface."
   abstract: true
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   id: Carpet
   parent: CarpetBase
-  suffix: ent-Carpet-suffix
+  suffix: Red
   components:
   - type: Sprite
     sprite: Structures/Furniture/Carpets/red_carpet.rsi
@@ -70,7 +70,7 @@
 - type: entity
   id: CarpetBlack
   parent: CarpetBase
-  suffix: ent-CarpetBlack-suffix
+  suffix: Black
   components:
   - type: Clickable
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   id: CarpetPink
   parent: CarpetBase
-  suffix: ent-CarpetPink-suffix
+  suffix: Pink
   components:
   - type: Clickable
   - type: Sprite
@@ -130,7 +130,7 @@
 - type: entity
   id: CarpetBlue
   parent: CarpetBase
-  suffix: ent-CarpetBlue-suffix
+  suffix: Blue
   components:
   - type: Clickable
   - type: Sprite
@@ -160,7 +160,7 @@
 - type: entity
   id: CarpetGreen
   parent: CarpetBase
-  suffix: ent-CarpetGreen-suffix
+  suffix: Green
   components:
   - type: Clickable
   - type: Sprite
@@ -190,7 +190,7 @@
 - type: entity
   id: CarpetOrange
   parent: CarpetBase
-  suffix: ent-CarpetOrange-suffix
+  suffix: Orange
   components:
   - type: Clickable
   - type: Sprite
@@ -220,7 +220,7 @@
 - type: entity
   id: CarpetSBlue
   parent: CarpetBase
-  suffix: ent-CarpetSBlue-suffix
+  suffix: Sky Blue
   components:
   - type: Clickable
   - type: Sprite
@@ -250,7 +250,7 @@
 - type: entity
   id: CarpetPurple
   parent: CarpetBase
-  suffix: ent-CarpetPurple-suffix
+  suffix: Purple
   components:
   - type: Clickable
   - type: Sprite
@@ -280,7 +280,7 @@
 - type: entity
   id: CarpetCyan
   parent: CarpetBase
-  suffix: ent-CarpetCyan-suffix
+  suffix: Cyan
   components:
   - type: Clickable
   - type: Sprite
@@ -310,7 +310,7 @@
 - type: entity
   id: CarpetWhite
   parent: CarpetBase
-  suffix: ent-CarpetWhite-suffix
+  suffix: White
   components:
   - type: Clickable
   - type: Sprite
@@ -341,7 +341,7 @@
 - type: entity
   id: CarpetChapel
   parent: BaseStructure
-  name: "ent-CarpetChapel"
+  name: "chapel's carpet"
   components:
   - type: Sprite
     sprite: Structures/Furniture/Carpets/chapel_carpet.rsi

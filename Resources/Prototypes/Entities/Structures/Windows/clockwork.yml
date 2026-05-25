@@ -1,7 +1,7 @@
 - type: entity
   id: ClockworkWindow
-  name: ent-ClockworkWindow
-  description: ent-ClockworkWindow-desc
+  name: clockwork window
+  description: Don't smudge up the brass down there.
   parent: Window
   components:
   - type: Sprite
@@ -56,8 +56,8 @@
 - type: entity
   id: WindowClockworkDirectional
   parent: WindowDirectional
-  name: ent-WindowClockworkDirectional
-  description: ent-WindowClockworkDirectional-desc
+  name: directional clockwork window
+  description: Don't smudge up the brass down there.
   placement:
     mode: SnapgridCenter
     snap:
@@ -112,7 +112,7 @@
 - type: entity
   parent: ClockworkWindow
   id: ClockworkWindowDiagonal
-  suffix: ent-ClockworkWindowDiagonal-suffix
+  suffix: diagonal
   placement:
     mode: SnapgridCenter
     snap:

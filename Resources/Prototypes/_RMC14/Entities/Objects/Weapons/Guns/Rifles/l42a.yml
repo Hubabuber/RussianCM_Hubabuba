@@ -1,9 +1,9 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ] # L42A battle rifle base remove wield stuff (uses m54c ammo diffrent mags)
-  name: ent-RMCWeaponRifleL42A
+  name: L42A battle rifle
   id: RMCWeaponRifleL42A
-  description: ent-RMCWeaponRifleL42A-desc
-  suffix: ent-RMCWeaponRifleL42A-suffix
+  description: The L42A Battle Rifle, found commonly around the frontiers of the Galaxy. It's commonly used by colonists for self defense, as well as many colonial militias, whomever they serve due to it's rugged reliability and ease of use without much training. This rifle was put up for adoption by the UNMC and tested for a time, but ultimately lost to the M4SPR already in service.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/l42a.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42A
-  name: ent-RMCMagazineRifleL42A
-  description: ent-RMCMagazineRifleL42A-desc
+  name: L42A magazine (10x24mm)
+  description: A 10x24mm battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -125,7 +125,7 @@
 - type: entity
   parent: RMCMagazineRifleL42A
   id: RMCMagazineRifleL42AEmpty
-  suffix: ent-RMCMagazineRifleL42AEmpty-suffix
+  suffix: Empty
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -133,8 +133,8 @@
 - type: entity
   parent: RMCMagazineRifleL42A
   id: RMCMagazineRifleL42AExtended
-  name: ent-RMCMagazineRifleL42AExtended
-  description: ent-RMCMagazineRifleL42AExtended-desc
+  name: L42A Extended magazine (10x24mm)
+  description: A Extended 10x24mm battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCMagazineRifleL42AExtended
   id: RMCMagazineRifleL42AExtendedEmpty
-  suffix: ent-RMCMagazineRifleL42AExtendedEmpty-suffix
+  suffix: Empty
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -167,8 +167,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AAP
-  name: ent-RMCMagazineRifleL42AAP
-  description: ent-RMCMagazineRifleL42AAP-desc
+  name: L42A AP magazine (10x24mm)
+  description: A 10x24mm Armor Piercing battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -197,8 +197,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AWP
-  name: ent-RMCMagazineRifleL42AWP
-  description: ent-RMCMagazineRifleL42AWP-desc
+  name: L42A WP magazine (10x24mm)
+  description: A 10x24mm Wall Piercing battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AIncendiary
-  name: ent-RMCMagazineRifleL42AIncendiary
-  description: ent-RMCMagazineRifleL42AIncendiary-desc
+  name: L42A incendiary magazine (10x24mm)
+  description: A 10x24mm Incendiary battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -257,7 +257,7 @@
 - type: entity
   parent: RMCMagazineRifleL42AAP
   id: RMCMagazineRifleL42AAPEmpty
-  suffix: ent-RMCMagazineRifleL42AAPEmpty-suffix
+  suffix: Empty
   components:
   - type: BallisticAmmoProvider
     proto: null

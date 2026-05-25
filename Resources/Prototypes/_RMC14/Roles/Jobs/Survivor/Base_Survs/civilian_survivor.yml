@@ -1,8 +1,8 @@
 - type: job
   parent: RMCJobRibbonBase
   id: CMSurvivor
-  name: job-cmsurvivor-name
-  description: job-cmsurvivor-desc
+  name: cm-job-name-survivor
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
   requirements:
   - !type:DepartmentTimeRequirement
@@ -20,7 +20,7 @@
   dummyStartingGear: RMCGearSurvivorEquipped
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-cmsurvivor-supervisors
+  supervisors: cm-job-supervisors-nobody
   accessGroups:
   - Colonist
   special:
@@ -86,8 +86,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSurvivor
-  name: ent-CMSpawnPointSurvivor
-  suffix: ent-CMSpawnPointSurvivor-suffix
+  name: survivor spawn point
+  suffix: Job Spawn, Main
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -99,7 +99,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleSurvivor
-  name: ent-CMGuidebookRoleSurvivor
+  name: Survivor
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -112,7 +112,7 @@
 
 - type: entity
   id: RMCSurvivorPresetNoGun
-  name: ent-RMCSurvivorPresetNoGun
+  name: no gun colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCSurvivorPresetNoGun
   id: RMCSurvivorPresetCivilian
-  name: ent-RMCSurvivorPresetCivilian
+  name: civilian colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -146,7 +146,7 @@
 
 - type: entity
   id: RMCSurvivorPresetCivilianRareItem
-  name: ent-RMCSurvivorPresetCivilianRareItem
+  name: civilian colonist preset with rare item
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -182,7 +182,7 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCSurvivorPresetCivilianOutfits
-  name: ent-RMCSurvivorPresetCivilianOutfits
+  name: civilian colonist preset with random outfits
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -196,7 +196,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorCivilian
-  name: ent-RMCRandomHumanoidSurvivorCivilian
+  name: civilian colonist ghost role
   components:
   - type: Sprite
     layers:

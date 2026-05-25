@@ -19,35 +19,3 @@ ent-AU14WallFlagUPP-name = Флаг СПН
 ent-AU14WallFlagUPP-desc = Флаг Союза Прогрессивных Народов.
 ent-AU14WallFlagUPPWorn-name = Потрёпанный флаг СПН
 ent-AU14WallFlagUPPWorn-desc = Флаг Союза Прогрессивных Народов. Этот повидал лучшие дни.
-
-ent-AU14WallFlagBase = базовый знак
-
-ent-AU14WallFlagCLF = Флаг CLF
-    .desc = Флаг Фронта освобождения колоний.
-
-ent-AU14WallFlagCLFWorn = Изношенный флаг CLF
-    .desc = Флаг Фронта освобождения колоний. Этот видел лучшие дни.
-
-ent-AU14WallFlagTWE = Флаг ДВА
-    .desc = Флаг Трех Мировой Империи.
-
-ent-AU14WallFlagTWEWorn = Изношенный флаг TWE
-    .desc = Флаг Трех Мировой Империи. Этот видел лучшие дни.
-
-ent-AU14WallFlagUA = Флаг Украины
-    .desc = Флаг Соединенных Штатов.
-
-ent-AU14WallFlagUAWorn = Изношенный флаг Украины
-    .desc = Флаг Соединенных Штатов. Этот видел лучшие дни.
-
-ent-AU14WallFlagUPP = Флаг УПП
-    .desc = Флаг Союза прогрессивных народов.
-
-ent-AU14WallFlagUPPWorn = Изношенный флаг УПП
-    .desc = Флаг Союза прогрессивных народов. Этот видел лучшие дни.
-
-ent-AU14WallFlagUSCM = ККМ США Флаг
-    .desc = Флаг Колониального морпехового корпуса США.
-
-ent-AU14WallFlagUSCMWorn = Изношенный флаг ККМ США
-    .desc = Флаг Колониального морпехового корпуса США. Этот видел лучшие дни.

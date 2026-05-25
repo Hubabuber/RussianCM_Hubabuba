@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianJournalist
-  name: job-au14jobcivilianjournalist-name
-  description: job-au14jobcivilianjournalist-desc
+  name: au14-job-name-civilianjournalist
+  description: au14-job-description-civilianjournalist
   setPreference: true
   playTimeTracker: AU14JobCivilianJournalist
   ranks:
@@ -12,8 +12,8 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianjournalist-supervisors
-  spawnMenuRoleName: job-au14jobcivilianjournalist-spawnmenurolename
+  supervisors: au14-job-supervisors-colonycivilian
+  spawnMenuRoleName: Journalist (CMU)
   accessGroups:
   - Colonist
   - aunews
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianJournalist
-  name: ent-AU14SpawnPointCivilianJournalist
+  name: Spawn Point Civilian Journalist
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianJournalist

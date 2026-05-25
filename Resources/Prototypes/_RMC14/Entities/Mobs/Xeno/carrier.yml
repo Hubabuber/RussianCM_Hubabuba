@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: RMCXenoCarrierBase
-  name: ent-RMCXenoCarrierBase
-  description: ent-RMCXenoCarrierBase-desc
+  name: Carrier
+  description: A strange-looking alien creature. It carries a number of scuttling jointed crablike creatures.
   abstract: true
   components:
   - type: TTS
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCXenoCarrierBase
   id: RMCXenoCarrierEggsac
-  suffix: ent-RMCXenoCarrierEggsac-suffix
+  suffix: Eggsac
   components:
   - type: CanBuildThickFromConstructNode
   - type: GuideHelp

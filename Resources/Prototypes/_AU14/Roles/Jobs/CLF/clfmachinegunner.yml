@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCLFMachineGunner
-  name: job-au14jobclfmachinegunner-name
-  description: job-au14jobclfmachinegunner-desc
+  name: au14-job-name-clfmachinegunner
+  description: au14-job-description-clfmachinegunner
   setPreference: true
   ignoreAllegiance: true
   playTimeTracker: AU14JobCLFMachineGunner
@@ -22,7 +22,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobclfmachinegunner-supervisors
+  supervisors: au14-job-supervisors-clflrs
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -68,7 +68,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCLFMachineGunner
-  name: ent-AU14SpawnPointCLFMachineGunner
+  name: Spawn Point CLF Machine Gunner
   components:
   - type: SpawnPoint
     job_id: AU14JobCLFMachineGunner

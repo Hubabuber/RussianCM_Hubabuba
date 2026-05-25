@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianForeman
-  name: job-au14jobcivilianforeman-name
-  description: job-au14jobcivilianforeman-desc
+  name: au14-job-name-foreman
+  description: au14-job-description-foreman
   setPreference: true
   canBeAntag: false
   playTimeTracker: AU14JobCivilianForeman
@@ -24,7 +24,7 @@
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianforeman-supervisors
+  supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:
   - Colonist
   - auadmin
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianForeman
-  name: ent-AU14SpawnPointCivilianForeman
+  name: Spawn Point Civilian Foreman
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianForeman

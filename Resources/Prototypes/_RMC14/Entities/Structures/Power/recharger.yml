@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseRecharger
   id: RMCRecharger
-  name: ent-RMCRecharger
+  name: recharger
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Power/recharger.rsi
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCRecharger
   id: RMCRechargerLocked
-  suffix: ent-RMCRechargerLocked-suffix
+  suffix: locked
   components:
   - type: Transform
     anchored: true
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMUCircuitboardRecharger
-  name: ent-CMUCircuitboardRecharger
-  description: ent-CMUCircuitboardRecharger-desc
+  name: circuit board (recharger)
+  description: A machine printed circuit board for a recharger.
   components:
   - type: MachineBoard
     prototype: RMCRecharger

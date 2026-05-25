@@ -6,8 +6,8 @@
   id: CableStack
   abstract: true
   parent: BaseItem
-  name: ent-CableStack
-  suffix: ent-CableStack-suffix
+  name: cable stack
+  suffix: Full
   components:
   - type: Tag
     tags:
@@ -46,9 +46,9 @@
 - type: entity
   id: CableHVStack
   parent: CableStack
-  name: ent-CableHVStack
-  suffix: ent-CableHVStack-suffix
-  description: ent-CableHVStack-desc
+  name: HV cable coil
+  suffix: Full
+  description: HV cables for connecting engines to heavy duty machinery, SMESes, and substations.
   components:
   - type: Stack
     stackType: CableHV
@@ -84,7 +84,7 @@
 - type: entity
   parent: CableHVStack
   id: CableHVStack10
-  suffix: ent-CableHVStack10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: coilhv-10
@@ -94,7 +94,7 @@
 - type: entity
   parent: CableHVStack10
   id: CableHVStackLingering10
-  suffix: ent-CableHVStackLingering10-suffix
+  suffix: Lingering, 10
   components:
   - type: Stack
     lingering: true
@@ -103,7 +103,7 @@
 - type: entity
   parent: CableHVStack
   id: CableHVStack1
-  suffix: ent-CableHVStack1-suffix
+  suffix: 1
   components:
   - type: Sprite
     state: coilhv-10
@@ -113,9 +113,9 @@
 - type: entity
   parent: CableStack
   id: CableMVStack
-  name: ent-CableMVStack
-  suffix: ent-CableMVStack-suffix
-  description: ent-CableMVStack-desc
+  name: MV cable coil
+  suffix: Full
+  description: MV cables for connecting substations to APCs, and also powering a select few things like emitters.
   components:
   - type: Stack
     stackType: CableMV
@@ -149,7 +149,7 @@
 - type: entity
   parent: CableMVStack
   id: CableMVStack10
-  suffix: ent-CableMVStack10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: coilmv-10
@@ -159,7 +159,7 @@
 - type: entity
   parent: CableMVStack10
   id: CableMVStackLingering10
-  suffix: ent-CableMVStackLingering10-suffix
+  suffix: Lingering, 10
   components:
   - type: Stack
     lingering: true
@@ -168,7 +168,7 @@
 - type: entity
   parent: CableMVStack
   id: CableMVStack1
-  suffix: ent-CableMVStack1-suffix
+  suffix: 1
   components:
   - type: Sprite
     state: coilmv-10
@@ -178,9 +178,9 @@
 - type: entity
   parent: CableStack
   id: CableApcStack
-  name: ent-CableApcStack
-  description: ent-CableApcStack-desc
-  suffix: ent-CableApcStack-suffix
+  name: LV cable coil
+  description: Low-Voltage stack of wires for connecting APCs to machines and other purposes.
+  suffix: Full
   components:
   - type: Sprite
     state: coillv-30
@@ -213,7 +213,7 @@
 - type: entity
   parent: CableApcStack
   id: CableApcStack10
-  suffix: ent-CableApcStack10-suffix
+  suffix: 10
   components:
     - type: Sprite
       state: coillv-10
@@ -223,7 +223,7 @@
 - type: entity
   parent: CableApcStack10
   id: CableApcStackLingering10
-  suffix: ent-CableApcStackLingering10-suffix
+  suffix: Lingering, 10
   components:
   - type: Stack
     lingering: true
@@ -232,7 +232,7 @@
 - type: entity
   parent: CableApcStack
   id: CableApcStack1
-  suffix: ent-CableApcStack1-suffix
+  suffix: 1
   components:
   - type: Sprite
     state: coillv-10

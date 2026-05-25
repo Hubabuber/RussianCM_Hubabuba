@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-SeatBase
+  name: chair
   id: SeatBase
   abstract: true
-  description: ent-SeatBase-desc
+  description: You sit in this. Either by will or force.
   placement:
     mode: PlaceFree
   components:
@@ -52,7 +52,7 @@
 
 #Starts unanchored, cannot be rotated while anchored
 - type: entity
-  name: ent-UnanchoredChairBase
+  name: chair
   id: UnanchoredChairBase
   parent: SeatBase
   abstract: true
@@ -62,7 +62,7 @@
 
 #Start anchored, cannot be rotated while anchored
 - type: entity
-  name: ent-ChairBase
+  name: chair
   id: ChairBase
   abstract: true
   parent: UnanchoredChairBase
@@ -76,7 +76,7 @@
 
 #Starts unanchored, can be rotated while anchored
 - type: entity
-  name: ent-OfficeChairBase
+  name: chair
   id: OfficeChairBase
   parent: UnanchoredChairBase
   abstract: true
@@ -86,7 +86,7 @@
 
 #Starts anchored, can be rotated while anchored
 - type: entity
-  name: ent-StoolBase
+  name: stool
   id: StoolBase
   parent: OfficeChairBase
   abstract: true
@@ -99,7 +99,7 @@
     anchored: true
 
 - type: entity
-  name: ent-Chair
+  name: chair
   id: Chair
   parent: ChairBase
   components:
@@ -110,19 +110,19 @@
     node: chair
 
 - type: entity
-  name: ent-ChairGreyscale
+  name: chair
   id: ChairGreyscale
   parent: Chair
-  suffix: ent-ChairGreyscale-suffix
+  suffix: White
   components:
   - type: Sprite
     state: chair-greyscale
 
 - type: entity
-  name: ent-Stool
+  name: stool
   id: Stool
   parent: UnanchoredChairBase
-  description: ent-Stool-desc
+  description: Apply butt.
   components:
   - type: Sprite
     state: stool
@@ -131,7 +131,7 @@
     node: stool
 
 - type: entity
-  name: ent-StoolBar
+  name: bar stool
   id: StoolBar
   parent: StoolBase
   components:
@@ -142,7 +142,7 @@
     node: stoolBar
 
 - type: entity
-  name: ent-ChairBrass
+  name: brass chair
   id: ChairBrass
   parent: StoolBase
   components:
@@ -153,7 +153,7 @@
     node: chairBrass
 
 - type: entity
-  name: ent-ChairOfficeLight
+  name: white office chair
   id: ChairOfficeLight
   parent: OfficeChairBase
   components:
@@ -164,7 +164,7 @@
     node: chairOffice
 
 - type: entity
-  name: ent-ChairOfficeDark
+  name: dark office chair
   id: ChairOfficeDark
   parent: ChairOfficeLight
   components:
@@ -175,10 +175,10 @@
     node: chairOfficeDark
 
 - type: entity
-  name: ent-ComfyChair
+  name: comfy chair
   id: ComfyChair
   parent: ChairBase
-  description: ent-ComfyChair-desc
+  description: It looks comfy.
   components:
   - type: Sprite
     state: comfy
@@ -187,10 +187,10 @@
     node: chairComfy
 
 - type: entity
-  name: ent-ChairPilotSeat
+  name: pilot seat
   id: ChairPilotSeat
   parent: ChairBase
-  description: ent-ChairPilotSeat-desc
+  description: The pilot seat of a prestigious ship.
   components:
   - type: Sprite
     state: shuttle
@@ -199,7 +199,7 @@
     node: chairPilotSeat
 
 - type: entity
-  name: ent-ChairWood
+  name: wooden chair
   id: ChairWood
   parent: UnanchoredChairBase
   components:
@@ -242,10 +242,10 @@
     price: 75
 
 - type: entity
-  name: ent-ChairRitual
+  name: ritual chair
   id: ChairRitual
   parent: ChairWood
-  description: ent-ChairRitual-desc
+  description: Looks uncomfortable.
   components:
   - type: Sprite
     state: ritual
@@ -256,8 +256,8 @@
 - type: entity
   id: ChairMeat
   parent: UnanchoredChairBase
-  name: ent-ChairMeat
-  description: ent-ChairMeat-desc
+  name: meat chair
+  description: Uncomfortably sweaty.
   components:
   - type: Sprite
     state: meat
@@ -266,10 +266,10 @@
     node: chairMeat
 
 - type: entity
-  name: ent-ChairCursed
+  name: cursed chair
   id: ChairCursed
   parent: ChairWood
-  description: ent-ChairCursed-desc
+  description: It's staring back.
   components:
   - type: Sprite
     state: cursed
@@ -306,9 +306,9 @@
     node: chairCursed
 
 - type: entity
-  name: ent-ChairWeb
+  name: web chair
   id: ChairWeb
-  description: ent-ChairWeb-desc
+  description: For true web developers.
   parent: UnanchoredChairBase
   components:
   - type: Sprite
@@ -353,8 +353,8 @@
 - type: entity
   parent: [SeatBase, BaseDeployFoldable]
   id: ChairFolding
-  name: ent-ChairFolding
-  description: ent-ChairFolding-desc
+  name: folding chair
+  description: If you carry six of these you become the coolest kid at church.
   components:
   - type: Rotatable
   - type: Sprite
@@ -382,7 +382,7 @@
 - type: entity
   parent: ChairFolding
   id: ChairFoldingSpawnFolded
-  suffix: ent-ChairFoldingSpawnFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -390,10 +390,10 @@
     enabled: False
 
 - type: entity
-  name: ent-SteelBench
+  name: steel bench
   id: SteelBench
   parent: ChairBase
-  description: ent-SteelBench-desc
+  description: A long chair made for a metro. Really standard design.
   components:
   - type: Sprite
     state: steel-bench
@@ -402,10 +402,10 @@
     node: chairSteelBench
 
 - type: entity
-  name: ent-WoodenBench
+  name: wooden bench
   id: WoodenBench
   parent: ChairBase
-  description: ent-WoodenBench-desc
+  description: Did you get a splinter? Well, at least it’s eco friendly.
   components:
   - type: Sprite
     state: wooden-bench
@@ -443,7 +443,7 @@
 - type: entity
   parent: StoolBase
   id: ChairXeno
-  name: ent-ChairXeno
+  name: xeno chair
   components:
   - type: Sprite
     state: xeno-chair

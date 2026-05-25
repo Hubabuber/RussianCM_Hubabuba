@@ -1,10 +1,10 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMProvostDeputyMarshal
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-cmprovostdeputymarshal-name
-  description: job-cmprovostdeputymarshal-desc
+  name: rmc-job-name-corp-provost-deputy-marshal
+  description: rmc-ghost-role-information-provost-description
   playTimeTracker: CMJobProvostDeputyMarshal
   ranks:
     RMCRankProvostDeputyMarshal: []
@@ -60,8 +60,8 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostDeputyMarshal
-  name: ent-RMCRandomHumanoidProvostDeputyMarshal
-  suffix: ent-RMCRandomHumanoidProvostDeputyMarshal-suffix
+  name: provost ghost role deputy marshal
+  suffix: Spawner, Player, Friendly, Whitelisted COs
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

@@ -1,9 +1,0 @@
-accesslevel-au14accessopfor-name = Опфор
-accesslevel-au14accessopforcommand-name = Оперативное командование
-accesslevel-au14accessopforengineering-name = Опфор Инжиниринг
-accesslevel-au14accessopforftl-name = Опфор отделения сержант
-accesslevel-au14accessopforgunner-name = Opfor Smart Gun Оператор
-accesslevel-au14accessopformedical-name = Опфор Медикал
-accesslevel-au14accessopforpilot-name = Опфор Пилот
-accesslevel-au14accessopforsecurity-name = Опфор Безопасность
-accesslevel-au14accessopforsquad-name = Опфорное отделение

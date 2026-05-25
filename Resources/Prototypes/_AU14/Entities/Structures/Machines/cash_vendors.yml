@@ -7,8 +7,8 @@
   id: AU14CashVendorBase
   abstract: true
   parent: CMBaseStructureCorrodible
-  name: ent-AU14CashVendorBase
-  description: ent-AU14CashVendorBase-desc
+  name: vending machine
+  description: Insert cash and select an item to purchase.
   components:
   - type: ItemSlots
     slots:
@@ -75,9 +75,9 @@
 - type: entity
   id: AU14CashDrinkMachine
   parent: AU14CashVendorShopkeepBase
-  name: ent-AU14CashDrinkMachine
-  description: ent-AU14CashDrinkMachine-desc
-  suffix: ent-AU14CashDrinkMachine-suffix
+  name: WY Refreshments
+  description: A Weyland-Yutani branded beverage dispenser. Insert cash to purchase a drink. Prices subject to colonial sales tax.
+  suffix: Cash, Drinks
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/coffee.rsi
@@ -88,9 +88,9 @@
 - type: entity
   id: AU14CashSnackMachine
   parent: AU14CashVendorBase
-  name: ent-AU14CashSnackMachine
-  description: ent-AU14CashSnackMachine-desc
-  suffix: ent-AU14CashSnackMachine-suffix
+  name: WY Provisions
+  description: A Weyland-Yutani branded snack dispenser. Insert cash to purchase a snack. Prices subject to colonial sales tax.
+  suffix: Cash, Snacks
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/coffee.rsi

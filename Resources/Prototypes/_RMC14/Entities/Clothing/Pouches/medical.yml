@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCPouchMedical
   id: RMCPouchMedicalSoc
-  name: ent-RMCPouchMedicalSoc
-  description: ent-RMCPouchMedicalSoc-desc
+  name: tactical medical pouch
+  description: A heavy pouch containing everything one needs to get themselves back on their feet. Quite the selection.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/socmed.rsi
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCPouchMedicalSoc
   id: RMCPouchMedicalSocFill
-  suffix: ent-RMCPouchMedicalSocFill-suffix
+  suffix: Filled
   components:
   - type: StorageFill # todo rmc14 autoinjectors oxycodone
     contents:
@@ -50,12 +50,13 @@
 - type: entity
   parent: RMCPouchMedicalSoc
   id: RMCPouchMedicalSocDutch
-  name: ent-RMCPouchMedicalSocDutch
-  description: ent-RMCPouchMedicalSocDutch-desc
+  name: Dutch's Medical Pouch
+  description: A pouch bought from a black market trader by Dutch quite a few years ago. Rumoured to be stolen from secret Marine assets. Its contents have been slowly used up and replaced over the years.
+
 - type: entity
   parent: RMCPouchMedicalSocDutch
   id: RMCPouchMedicalSocDutchFill
-  suffix: ent-RMCPouchMedicalSocDutchFill-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -74,7 +75,7 @@
 - type: entity
   parent: RMCPouchMedicalSoc
   id: RMCPouchMedicalSocMarineRaiderFill
-  suffix: ent-RMCPouchMedicalSocMarineRaiderFill-suffix
+  suffix: Filled
   components:
   - type: StorageFill # TODO RMC14
     contents:
@@ -93,14 +94,16 @@
 - type: entity
   parent: RMCPouchMedicalSocDutch
   id: RMCPouchMedicalSocDutchUnmarked
-  name: ent-RMCPouchMedicalSocDutchUnmarked
-  description: ent-RMCPouchMedicalSocDutchUnmarked-desc
+  name: tactical medical pouch
+  description: A heavy pouch containing everything one needs to get themselves back on their feet. Quite the selection. Somehow, the whole pouch manages to look classified, you feel like you're going to get court-marshalled for even looking at it.
+
+
 # Pouch First Responder
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFirstResponder
-  name: ent-RMCPouchFirstResponder
-  description: ent-RMCPouchFirstResponder-desc
+  name: first responder pouch
+  description: A pouch designed for carrying supplies to assist medical personnel and quickly respond to injuries on the battlefield without immediately treating them. Can hold supplies such as roller beds, stasis bags, and health analysers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/frt_med.rsi
@@ -133,7 +136,7 @@
 - type: entity
   parent: RMCPouchFirstResponder
   id: RMCPouchFirstResponderFill
-  suffix: ent-RMCPouchFirstResponderFill-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -147,8 +150,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchVial
-  name: ent-RMCPouchVial
-  description: ent-RMCPouchVial-desc
+  name: vial pouch
+  description: A pouch for carrying glass vials.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/vial.rsi
@@ -164,7 +167,7 @@
 - type: entity
   parent: RMCPouchVial
   id: RMCPouchVialFill
-  suffix: ent-RMCPouchVialFill-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -176,8 +179,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchChem
-  name: ent-RMCPouchChem
-  description: ent-RMCPouchChem-desc
+  name: chemist pouch
+  description: A pouch for carrying glass beakers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/chemist.rsi
@@ -194,7 +197,7 @@
 - type: entity
   parent: RMCPouchChem
   id: RMCPouchChemFill
-  suffix: ent-RMCPouchChemFill-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -205,8 +208,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchAutoinjector
-  name: ent-RMCPouchAutoinjector
-  description: ent-RMCPouchAutoinjector-desc
+  name: auto-injector pouch
+  description: A pouch specifically for auto-injectors.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/injectors.rsi
@@ -221,7 +224,7 @@
 - type: entity
   parent: RMCPouchAutoinjector
   id: RMCPouchAutoinjectorFill
-  suffix: ent-RMCPouchAutoinjectorFill-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents: # todo rmc14 autoinjectors kelo x2, tramad x2, emerg
@@ -238,8 +241,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchSyringe
-  name: ent-RMCPouchSyringe
-  description: ent-RMCPouchSyringe-desc
+  name: syringe pouch
+  description: It can carry syringes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/syringe.rsi
@@ -254,7 +257,7 @@
 - type: entity
   parent: RMCPouchSyringe
   id: RMCPouchSyringeFill
-  suffix: ent-RMCPouchSyringeFill-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:

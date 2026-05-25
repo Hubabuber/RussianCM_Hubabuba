@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCFORECONPVESmartgunner
-  name: job-rmcforeconpvesmartgunner-name
-  description: job-rmcforeconpvesmartgunner-desc
+  name: rmc-job-name-pve-forecon-smartgunner
+  description: cm-job-description-smart-gun-operator
   playTimeTracker: CMJobFORECONPVESmartgunner
   ranks:
    RMCRankSergeant: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - SmartGunOperator
-  spawnMenuRoleName: job-rmcforeconpvesmartgunner-spawnmenurolename
+  spawnMenuRoleName: FORECON Smartgunner (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVESmartgunner
-  name: ent-RMCSpawnPointFORECONPVESmartgunner
-  suffix: ent-RMCSpawnPointFORECONPVESmartgunner-suffix
+  name: forecon smartgunner spawn point
+  suffix: PVE
   components:
   - type: Sprite
     state: smartgunner_spawn

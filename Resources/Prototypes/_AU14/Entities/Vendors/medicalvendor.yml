@@ -1,9 +1,9 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14GeneralMedicalVendor
-  name: ent-AU14GeneralMedicalVendor
-  description: ent-AU14GeneralMedicalVendor-desc
-  suffix: ent-AU14GeneralMedicalVendor-suffix
+  name: We-Yu Medical Supply Vendor
+  description: An automated supply vendor hooked up to a storage of medical supplies.
+  suffix: AU14 MED
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/med.rsi
@@ -125,9 +125,9 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: AU14VendorBlood
-  name: ent-AU14VendorBlood
-  description: ent-AU14VendorBlood-desc #dont update year, that`s a joke from cm13
-  suffix: ent-AU14VendorBlood-suffix
+  name: WeYu Blood Dispenser
+  description: The WeYu Med-Sci Brand Blood Pack Dispensary is the premier, top-of-the-line blood dispenser of 2105! Get yours today! #dont update year, that`s a joke from cm13
+  suffix: AU14 MED
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/blood.rsi
@@ -160,9 +160,9 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: AU14VendorBloodField
-  name: ent-AU14VendorBloodField
-  description: ent-AU14VendorBloodField-desc #dont update year, that`s a joke from cm13
-  suffix: ent-AU14VendorBloodField-suffix
+  name: WeYu Field Blood Dispenser
+  description: The WeYu Med-Sci Brand Blood Pack Dispensary is the premier, top-of-the-line blood dispenser of 2105! Get yours today! #dont update year, that`s a joke from cm13
+  suffix: AU14 MED
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/blood.rsi
@@ -195,7 +195,7 @@
 - type: entity
   parent: AU14VendorBloodField
   id: AU14VendorBloodFieldPowered
-  suffix: ent-AU14VendorBloodFieldPowered-suffix
+  suffix: Powered
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -206,8 +206,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: AU14GeneralMedicalVendorLight
-  name: ent-AU14GeneralMedicalVendorLight
-  description: ent-AU14GeneralMedicalVendorLight-desc
+  name: WeYu Medical Field Supply Vendor
+  description: Medical Pharmaceutical dispenser with basic medical supplies.
   components:
   - type: Fixtures
     fixtures:
@@ -273,7 +273,7 @@
 - type: entity
   parent: AU14GeneralMedicalVendorLight
   id: AU14GeneralMedicalVendorLightAlwaysPowered
-  suffix: ent-AU14GeneralMedicalVendorLightAlwaysPowered-suffix
+  suffix: Powered
   components:
   - type: ApcPowerReceiver
     powerLoad: 0

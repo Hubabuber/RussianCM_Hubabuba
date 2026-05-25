@@ -1,12 +1,6 @@
 ent-RMCCrateGearParachute = ящик парашютов (x20)
-    .desc = Ящик с припасами.
 ent-RMCCrateGearFulton = ящик устройств подъёма Фултона (x4)
-    .desc = Ящик с боеприпасами.
 ent-RMCCrateGearPackFlareCAS = ящик наборов сигнальных ракет (x4)
-    .desc = Ящик с боеприпасами.
 ent-RMCCrateGearMotionDetector = ящик детекторов движения (x2)
-    .desc = Ящик с боеприпасами.
 ent-RMCCrateGearPackFlare = ящик наборов сигнальных ракет (x20)
-    .desc = Ящик с боеприпасами.
 ent-RMCCrateGearBinoculars = ящик биноклей (2x каждого, 6x всего)
-    .desc = Ящик с боеприпасами.

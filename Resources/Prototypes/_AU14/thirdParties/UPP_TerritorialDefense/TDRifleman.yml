@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobTDRiflemanBase
-  name: job-au14jobtdriflemanbase-name
-  description: job-au14jobtdriflemanbase-desc
+  name: au-14-job-name-upptd-rifleman
+  description: au14-upptd-description
   playTimeTracker: AU14JobUPPTerritorialDefenseRifleman
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobTDRiflemanBase
   id: AU14UPPTerritorialDefenseRifleman
-  name: job-au14uppterritorialdefenserifleman-name
-  description: job-au14uppterritorialdefenserifleman-desc
+  name: au-14-job-name-upptd-rifleman
+  description: au14-upptd-description
   ranks:
     UPP_SeniorGefreiter:
     - !type:RoleTimeRequirement
@@ -22,12 +22,12 @@
       role: AU14JobUPPTerritorialDefenseRifleman
       time: 18000 #5 hours
     UPP_Private: []
-  spawnMenuRoleName: job-au14uppterritorialdefenserifleman-spawnmenurolename
+  spawnMenuRoleName: UPP TD Rifleman (3rd party)
   startingGear: AU14GearUPPTerritorialDefenseRifleman
   greeting: au14-upptd-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14uppterritorialdefenserifleman-supervisors
+  supervisors: au-14-job-name-upptd-squadleader
   accessGroups:
   - AU14GovforSquad
   special:
@@ -51,7 +51,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicTDThirdparty
   id: AU14JobUPPTerritorialDefenseRifleman
-  name: ent-AU14JobUPPTerritorialDefenseRifleman
+  name: UPP TD Rifleman
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

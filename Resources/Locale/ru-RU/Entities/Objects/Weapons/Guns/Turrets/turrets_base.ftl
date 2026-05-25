@@ -6,10 +6,3 @@ ent-BaseWeaponBallisticTurret-desc = Баллистический пулемет
 ent-BaseWeaponEnergyTurret-name = лазерная турель
 ent-BaseWeaponEnergyTurret-desc = Автотурель, вооруженная тяжелым лазером. Его оружие будет перезаряжаться при подключении к активной электросети.
 
-ent-BaseWeaponBallisticTurret = баллистическая турель
-    .desc = Баллистический пулемет-автотурель.
-
-ent-BaseWeaponEnergyTurret = лазерная турель
-    .desc = Автотурель, вооруженная тяжелым лазером. Его оружие будет перезаряжаться при подключении к активной электросети.
-
-ent-BaseWeaponTurret = турель

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCFORECONPVERifleman
-  name: job-rmcforeconpverifleman-name
-  description: job-rmcforeconpverifleman-desc
+  name: rmc-job-name-pve-forecon-rifleman
+  description: cm-job-description-rifleman
   playTimeTracker: CMJobFORECONPVERifleman
   ranks:
    RMCRankLanceCorporal: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Rifleman
-  spawnMenuRoleName: job-rmcforeconpverifleman-spawnmenurolename
+  spawnMenuRoleName: FORECON Rifleman (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVERifleman
-  name: ent-RMCSpawnPointFORECONPVERifleman
-  suffix: ent-RMCSpawnPointFORECONPVERifleman-suffix
+  name: forecon rifleman spawn point
+  suffix: PVE
   components:
   - type: Sprite
     state: marine_spawn

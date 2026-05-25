@@ -1,8 +1,8 @@
-- type: entity
-  name: ent-PianoInstrument
+﻿- type: entity
+  name: piano
   parent: BasePlaceableInstrumentRotatable
   id: PianoInstrument
-  description: ent-PianoInstrument-desc
+  description: Play Needles Piano Now.
   components:
   - type: Instrument
     program: 1
@@ -11,10 +11,10 @@
   - type: Climbable
 
 - type: entity
-  name: ent-UprightPianoInstrument
+  name: upright piano
   parent: BasePlaceableInstrumentRotatable
   id: UprightPianoInstrument
-  description: ent-UprightPianoInstrument-desc
+  description: I said Piannie!
   components:
   - type: Instrument
     program: 3
@@ -23,10 +23,10 @@
   - type: Climbable
 
 - type: entity
-  name: ent-VibraphoneInstrument
+  name: vibraphone
   id: VibraphoneInstrument
   parent: BasePlaceableInstrumentRotatable
-  description: ent-VibraphoneInstrument-desc
+  description: Good vibes all around.
   components:
   - type: Instrument
     program: 11
@@ -34,7 +34,7 @@
     state: vibraphone
 
 - type: entity
-  name: ent-MarimbaInstrument
+  name: marimba
   id: MarimbaInstrument
   parent: BasePlaceableInstrumentRotatable
   components:
@@ -44,10 +44,10 @@
     state: marimba
 
 - type: entity
-  name: ent-ChurchOrganInstrument
+  name: church organ
   parent: BasePlaceableInstrumentRotatable
   id: ChurchOrganInstrument
-  description: ent-ChurchOrganInstrument-desc
+  description: This thing really blows!
   components:
   - type: Instrument
     program: 19
@@ -55,10 +55,10 @@
     state: church-organ
 
 - type: entity
-  name: ent-TubaInstrument
+  name: tuba
   parent: BasePlaceableInstrument
   id: TubaInstrument
-  description: ent-TubaInstrument-desc
+  description: The big daddy of the brass family. Standing next to its majesty makes you feel insecure.
   components:
   - type: Instrument
     program: 58
@@ -68,8 +68,8 @@
 - type: entity
   id: HarpInstrument
   parent: BasePlaceableInstrument
-  name: ent-HarpInstrument
-  description: ent-HarpInstrument-desc
+  name: harp
+  description: Plucking at the strings cuts your fingers, but at least the music is pretty.
   components:
   - type: Instrument
     program: 46
@@ -79,8 +79,8 @@
 - type: entity
   id: TimpaniInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: ent-TimpaniInstrument
-  description: ent-TimpaniInstrument-desc
+  name: timpani
+  description: It goes BOOM BOOM BOOM BOOM!
   components:
   - type: Instrument
     program: 47
@@ -90,8 +90,8 @@
 - type: entity
   id: TaikoInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: ent-TaikoInstrument
-  description: ent-TaikoInstrument-desc
+  name: taiko
+  description: A large drum. Looking at it fills you with the urge to slap it.
   components:
   - type: Instrument
     program: 116
@@ -101,8 +101,8 @@
 - type: entity
   id: ContrabassInstrument
   parent: BasePlaceableInstrument
-  name: ent-ContrabassInstrument
-  description: ent-ContrabassInstrument-desc
+  name: contrabass
+  description: Perfect for laying down a nice jazzy beat.
   components:
   - type: Instrument
     program: 43
@@ -126,10 +126,10 @@
         - BulletImpassable
 
 - type: entity
-  name: ent-MinimoogInstrument
+  name: minimoog
   parent: BasePlaceableInstrumentRotatable
   id: MinimoogInstrument
-  description: ent-MinimoogInstrument-desc
+  description: This is a minimoog, like a space piano, but more spacey!
   components:
   - type: Instrument
     program: 81
@@ -139,8 +139,8 @@
 - type: entity
   id: TomDrumsInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: ent-TomDrumsInstrument
-  description: ent-TomDrumsInstrument-desc
+  name: tom drums
+  description: Where'd the rest of the kit go?
   components:
   - type: Instrument
     program: 117
@@ -150,8 +150,8 @@
 - type: entity
   parent: [ BasePlaceableInstrumentRotatable, ConstructibleMachine]
   id: DawInstrument
-  name: ent-DawInstrument
-  description: ent-DawInstrument-desc
+  name: digital audio workstation
+  description: Cutting edge music technology, straight from the 90s.
   components:
   - type: Sprite
     layers:

@@ -25,29 +25,3 @@ ent-MedTekCartridge-desc = Программа, предоставляющая и
 ent-AstroNavCartridge-name = Картридж АстроНав
 ent-AstroNavCartridge-desc = Программа для навигации, предоставляющая координаты GPS.
 
-ent-AstroNavCartridge = Картридж АстроНав
-    .desc = Программа для навигации, предоставляющая координаты GPS.
-
-ent-CrewManifestCartridge = картридж с декларацией экипажа
-    .desc = Программа для внесения в список ваших коллег по экипажу.
-
-ent-LogProbeCartridge = Картридж LogProbe
-    .desc = Программа для получения логов доступа с устройств.
-
-ent-MedTekCartridge = МедТек картридж
-    .desc = Программа, предоставляющая инструменты медицинской диагностики.
-
-ent-NanoTaskCartridge = Картридж NanoTask
-    .desc = Программа, позволяющая вести список дел, которые нужно сделать.
-
-ent-NetProbeCartridge = Картридж NetProbe
-    .desc = Программа для получения адреса и частоты сетевых устройств.
-
-ent-NewsReaderCartridge = новостной картридж
-    .desc = Программа для чтения новостей.
-
-ent-NotekeeperCartridge = картридж для блокнота
-    .desc = Программа для ведения заметок.
-
-ent-WantedListCartridge = Картридж из списка разыскиваемых
-    .desc = Программа для получения списка разыскиваемых лиц.

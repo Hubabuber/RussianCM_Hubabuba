@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItemCabinetGlass
   id: FireAxeCabinet
-  name: ent-FireAxeCabinet
-  description: ent-FireAxeCabinet-desc
+  name: fire axe cabinet
+  description: There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
   placement:
     mode: SnapgridCenter
   components:
@@ -58,7 +58,7 @@
 - type: entity
   parent: FireAxeCabinet
   id: FireAxeCabinetOpen
-  suffix: ent-FireAxeCabinetOpen-suffix
+  suffix: Open
   components:
   - type: Openable
     opened: true
@@ -68,7 +68,7 @@
 - type: entity
   parent: FireAxeCabinet
   id: FireAxeCabinetFilled
-  suffix: ent-FireAxeCabinetFilled-suffix
+  suffix: Filled
   components:
   - type: ContainerFill
     containers:
@@ -78,4 +78,4 @@
 - type: entity
   parent: [FireAxeCabinetFilled, FireAxeCabinetOpen]
   id: FireAxeCabinetFilledOpen
-  suffix: ent-FireAxeCabinetFilledOpen-suffix
+  suffix: Filled, Open

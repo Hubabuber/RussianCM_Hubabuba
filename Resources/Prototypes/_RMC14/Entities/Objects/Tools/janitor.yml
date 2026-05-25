@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMMop
-  name: ent-CMMop
-  description: ent-CMMop-desc
+  name: mop
+  description: The world of janitalia wouldn't be complete without a mop.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/mop.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseItem
   id: CMWetSign
-  name: ent-CMWetSign
-  description: ent-CMWetSign-desc
+  name: wet floor sign
+  description: Caution! Wet Floor!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/caution.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: CMWarningCone
-  name: ent-CMWarningCone
-  description: ent-CMWarningCone-desc
+  name: warning cone
+  description: This cone is trying to warn you of something!
   components:
   - type: ClothingSpeedModifier
     walkModifier: 0.5
@@ -84,8 +84,8 @@
 - type: entity
   parent: BaseItem
   id: RMCLightReplacer
-  name: ent-RMCLightReplacer
-  description: ent-RMCLightReplacer-desc
+  name: light replacer
+  description: A device to automatically replace lights. Refill with working lightbulbs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/light_replacer.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCLightReplacer
   id: RMCLightReplacerEmpty
-  suffix: ent-RMCLightReplacerEmpty-suffix
+  suffix: Empty
   components:
   - type: LightReplacer
     contents:
@@ -117,8 +117,8 @@
 - type: entity
   parent: RMCLightReplacer
   id: RMCSprayBottleSpaceCleaner
-  name: ent-RMCSprayBottleSpaceCleaner
-  suffix: ent-RMCSprayBottleSpaceCleaner-suffix
+  name: light replacer
+  suffix: Empty
   components:
   - type: LightReplacer
     contents:

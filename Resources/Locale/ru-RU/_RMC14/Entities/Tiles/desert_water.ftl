@@ -1,12 +1,13 @@
 ent-RMCGrate = решетка
   .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+
 ent-RMCEntityDesertWaterShallow = мелководье
-    .desc = мелководье
+
 ent-RMCEntityDesertWaterShallowCorner = мелководье
-    .desc = мелководье
+
 ent-RMCEntityDesertWaterShallowCornerEdge = мелководье
-    .desc = мелководье
+
 ent-RMCEntityDesertWaterShallowEdge = мелководье
-    .desc = мелководье
+
 ent-RMCEntityDesertWaterDeep = глубокая вода
-    .desc = глубокая вода
+

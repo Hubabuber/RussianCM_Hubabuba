@@ -1,116 +1,116 @@
 ent-RMCAreaShivaInteriorAuxPower = Снежок Шивы — Вспомогательная генераторная станция
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorLz2Habs = Снежок Шивы - Аргентинский исследовательский штаб
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorGarage = Снежок Шивы - Станция ремонта грузовых буксиров
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorValleyHutsDisposals = Снежок Шивы - Избавление от долины
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorValleyHutsNo2 = Снежок Шивы - Бункер Долины 2
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorValleyHuts = Снежок Шивы — Бункер в Долине 1
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorWarehouseCaves = Снежок Шивы — Ледяная пещера Синего склада
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorWarehouse = Снежок Шивы — Синий склад
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorFortBiceps = Снежок Шивы — интерьер Форта Бицепс
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorBar = Снежок Шивы - незамерзающий батончик
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorAerodrome = Снежок Шивы - Аэродром
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColonyDeck = Снежок Шивы — открытая колода Colony MegaStruct™
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColonyMedseceng = Снежок Шивы - Мед-сек-англоязычный сегмент колонии MegaStruct(TM)
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColonyResearchHab = Снежок Шивы — Интерьер исследовательского центра
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColonyCentral = Снежок Шивы - Жилая жизнь MegaStruct(TM)
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColonyNAdmin = Снежок Шивы - Администрация MegaStruct(TM)
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColonySAdmin = Снежок Шивы - Кризисный центр MegaStruct™
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColonyBotany = Снежок Шивы - Ботанические общежития MegaStruct(TM)
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColony = Снежок Шивы - Колония MegaStruct(TM)
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorCavesMedsecengCaves = Снежок Шивы - Пещеры Южного Медико-Инженерного Комплекса
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorCavesResearchCaves = Снежок Шивы — Пещеры Южного исследовательского центра
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorCavesCpCamp = Снежок Шивы — Пещерный лагерь
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorCavesSLz2 = Снежок Шивы — южные пещеры LZ2.
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorCavesLeftSpiders = Снежок Шивы — Проход в расщелину
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorCavesRightSpiders = Снежок Шивы - Забытый проход
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorCaves = Снежок Шивы - Пещеры
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorResearchAlley = Снежок Шивы — Южная исследовательская аллея
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorCpLz2 = Снежок Шивы — Территория Северной колонии
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorCpSResearch = Снежок Шивы — внешний вид исследовательского центра
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorJunkyardCpBar = Снежок Шивы - Территория бара
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorJunkyardFortbiceps = Снежок Шивы – Форт Бицепс
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorJunkyard = Снежок Шивы - Свалка
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorCpColonyGrounds = Снежок Шивы — Территория колонии
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorSouthwestValley = Снежок Шивы — Юго-Западная долина
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorValley = Снежок Шивы — Долина бункеров-хранилищ
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorLz2Fortress = Снежок Шивы — приземляющийся оплот
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorLz1Valley = Снежок Шивы - Долина приземления
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaCavesTelecommLz2South = Снежок Шивы — резервное реле связи
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaCavesTelecomm = Снежок Шивы - Реле связи
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorTelecommLz2Research = Снежок Шивы - аргентинская ретранслятор связи
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorTelecommLz1Flight = Снежок Шивы - Реле аэродромной связи LZ1
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorTelecommLz1Biceps = Снежок Шивы — реле связи форта бицепс
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorTelecomm = Снежок Шивы - Реле связи
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorTelecommLz2Northeast = Снежок Шивы — северо-восточное реле связи LZ2
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorTelecommLz2Southeast = Снежок Шивы — юго-восточное реле связи LZ2
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorTelecommLz1North = Снежок Шивы — реле связи North LZ1
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorTelecomm = Снежок Шивы - Реле связи
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorOobDevRoom = Снежок Шивы — Секретная комната
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorOob = Снежок Шивы - За пределами границ
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInterior = Снежок Шивы - Интерьер
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExterior = Снежок Шивы — Внешний вид
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorLz1ConsoleTwo = Снежок Шивы — Консоль Dropship Normandy
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaExteriorLz1Console = Снежок Шивы — консоль Alamo Dropship
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShuttleDrop2Shiva = Снежок Шивы - Зона высадки десантного корабля в Нормандии
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1Shiva = Снежок Шивы — зона приземления десантного корабля Аламо
-    .suffix = область
+
 ent-RMCAreaShiva = Снежок Шивы
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaCaves = Снежок Шивы
-    .suffix = Снежок Шивы
+
 ent-RMCAreaShivaInteriorColonyCargoShuttle = Снежок Шивы — грузовой шаттл для инвалидов
-    .suffix = Снежок Шивы
+

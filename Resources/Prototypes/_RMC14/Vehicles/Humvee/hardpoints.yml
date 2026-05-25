@@ -11,8 +11,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeWheel
-  name: ent-VehicleHumveeWheel
-  description: ent-VehicleHumveeWheel-desc
+  name: humvee wheel
+  description: A reinforced humvee wheel.
   components:
   - type: Sprite
     state: tires
@@ -29,8 +29,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeTurret
-  name: ent-VehicleHumveeTurret
-  description: ent-VehicleHumveeTurret-desc
+  name: humvee turret
+  description: A roof-mounted humvee turret.
   components:
   - type: Sprite
     state: humveeturret
@@ -89,8 +89,8 @@
 - type: entity
   parent: VehicleHumveeTurret
   id: VehicleHumveeTurretArmed
-  name: ent-VehicleHumveeTurretArmed
-  description: ent-VehicleHumveeTurretArmed-desc
+  name: humvee turret
+  description: A roof-mounted humvee turret pre-fitted with its cannon.
   components:
   - type: ItemSlots
     slots:
@@ -109,8 +109,8 @@
 - type: entity
   parent: VehicleHumveeTurret
   id: VehicleHumveeARCTurret
-  name: ent-VehicleHumveeARCTurret
-  description: ent-VehicleHumveeARCTurret-desc
+  name: humvee turret
+  description: A roof-mounted humvee turret pre-fitted with its ARC cannon.
   components:
   - type: ItemSlots
     slots:
@@ -129,8 +129,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeCannon
-  name: ent-VehicleHumveeCannon
-  description: ent-VehicleHumveeCannon-desc
+  name: humvee cannon
+  description: A fixed forward cannon for a humvee hardpoint.
   components:
   - type: Sprite
     state: humveecannon
@@ -186,8 +186,8 @@
 - type: entity
   parent: VehicleHumveeCannon
   id: VehicleHumveeARCCannon
-  name: ent-VehicleHumveeARCCannon
-  description: ent-VehicleHumveeARCCannon-desc
+  name: ARC cannon
+  description: A burst-fire cannon configured for an ARC humvee turret.
   components:
   - type: Gun
     fireRate: 5 # 0.2 seconds between shots
@@ -200,8 +200,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeLauncher
-  name: ent-VehicleHumveeLauncher
-  description: ent-VehicleHumveeLauncher-desc
+  name: humvee launcher
+  description: A launcher hardpoint for a humvee.
   components:
   - type: Sprite
     state: humveelauncher
@@ -252,8 +252,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeSnowplow
-  name: ent-VehicleHumveeSnowplow
-  description: ent-VehicleHumveeSnowplow-desc
+  name: humvee snowplow
+  description: A reinforced plow attachment for a humvee.
   components:
   - type: Sprite
     state: snowplow
@@ -274,8 +274,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeOverlight
-  name: ent-VehicleHumveeOverlight
-  description: ent-VehicleHumveeOverlight-desc
+  name: humvee overlight
+  description: An overlight array for a humvee.
   components:
   - type: Sprite
     state: overlight
@@ -295,8 +295,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeHatch
-  name: ent-VehicleHumveeHatch
-  description: ent-VehicleHumveeHatch-desc
+  name: humvee hatch
+  description: A hatch assembly for a humvee.
   components:
   - type: Sprite
     state: humveehatch

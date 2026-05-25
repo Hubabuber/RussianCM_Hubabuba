@@ -1,8 +1,8 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorScientist
-  name: job-cmsurvivorscientist-name
-  description: job-cmsurvivorscientist-desc
+  name: cm-job-name-survivor-scientist
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorScientist
   ranks:
     RMCRankCivilianDoctor: []
@@ -51,7 +51,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorScientist
-  name: ent-RMCSpawnPointSurvivorScientist
+  name: survivor scientist spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorScientist
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetScientist
-  name: ent-RMCSurvivorPresetScientist # TODO RMC14 random research notes and vial
+  name: scientist colonist preset # TODO RMC14 random research notes and vial
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -77,7 +77,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorScientist
-  name: ent-RMCRandomHumanoidSurvivorScientist
+  name: scientist colonist ghost role
   components:
   - type: Sprite
     layers:

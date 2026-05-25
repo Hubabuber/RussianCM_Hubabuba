@@ -20,9 +20,9 @@
 
 - type: entity
   id: Kudzu
-  name: ent-Kudzu
+  name: kudzu
   parent: BaseKudzu
-  description: ent-Kudzu-desc
+  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
   components:
     - type: MeleeSound
       soundGroups:
@@ -105,16 +105,16 @@
 - type: entity
   id: WeakKudzu
   parent: Kudzu
-  suffix: ent-WeakKudzu-suffix
+  suffix: Weak
   components:
     - type: Kudzu
       spreadChance: 0.3
 
 - type: entity
   id: KudzuFlowerFriendly
-  name: ent-KudzuFlowerFriendly
-  suffix: ent-KudzuFlowerFriendly-suffix
-  description: ent-KudzuFlowerFriendly-desc
+  name: floral carpet
+  suffix: Friendly, Floral Anomaly
+  description: A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
   parent: Kudzu
   components:
     - type: Sprite
@@ -148,7 +148,7 @@
 
 - type: entity
   id: KudzuFlowerAngry
-  suffix: ent-KudzuFlowerAngry-suffix
+  suffix: Angry, Floral Anomaly
   parent: KudzuFlowerFriendly
   components:
     - type: Kudzu
@@ -164,9 +164,9 @@
 
 - type: entity
   id: FleshKudzu
-  name: ent-FleshKudzu
+  name: tendons
   parent: BaseKudzu
-  description: ent-FleshKudzu-desc
+  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
   placement:
     mode: SnapgridCenter
     snap:
@@ -265,7 +265,7 @@
       - Meat
 
 - type: entity
-  name: ent-ShadowKudzu
+  name: dark haze
   id: ShadowKudzu
   parent: [ BaseKudzu, BaseShadow ]
   components:
@@ -305,7 +305,7 @@
           data: { state: spookysmoke_static }
 
 - type: entity
-  name: ent-ShadowKudzuWeak
+  name: haze
   id: ShadowKudzuWeak
   parent: ShadowKudzu
   components:

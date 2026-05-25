@@ -1,9 +1,0 @@
-material-rawbananium-name = материалы-сырье-банан
-material-rawdiamond-name = материалы-алмаз
-material-rawgold-name = материалы-сырец-золото
-material-rawiron-name = материалы-сырец-железо
-material-rawplasma-name = материалы-сырье-плазма
-material-rawquartz-name = материалы-сырье-кварц
-material-rawsalt-name = материалы-сырец-соль
-material-rawsilver-name = материалы-необработанное серебро
-material-rawuranium-name = материалы-сырье-уран

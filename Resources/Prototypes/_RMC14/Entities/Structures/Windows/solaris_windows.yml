@@ -41,8 +41,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowSolaris
-  name: ent-CMWindowSolaris
-  description: ent-CMWindowSolaris-desc
+  name: window
+  description: A glass window inside a wall frame.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/solaris_window.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowSolarisReinforced
-  name: ent-CMWindowSolarisReinforced
-  description: ent-CMWindowSolarisReinforced-desc
+  name: reinforced window
+  description: A glass window. The inside is reinforced with a few tempered matrix rods along the base. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/solaris_rwindow.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: CMWindowSolarisHull
-  name: ent-CMWindowSolarisHull
-  description: ent-CMWindowSolarisHull-desc
+  name: hull window
+  description: A glass window. Something tells you this one is somehow indestructible.
   components:
   - type: Corrodible
     isCorrodible: false

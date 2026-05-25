@@ -1,7 +1,7 @@
 - type: entity
   id: PresentBase
-  name: ent-PresentBase
-  description: ent-PresentBase-desc
+  name: present
+  description: A little box with incredible surprises inside.
   abstract: true
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   id: Present
   parent: [PresentBase, BaseStorageItem]
-  suffix: ent-Present-suffix
+  suffix: Empty
   components:
   - type: Item
     size: Normal
@@ -20,7 +20,7 @@
 - type: entity
   id: PresentRandomUnsafe
   parent: [PresentBase, BaseItem]
-  suffix: ent-PresentRandomUnsafe-suffix
+  suffix: Filled, any item
   components:
   - type: RandomGift
     wrapper: PresentTrash
@@ -35,7 +35,7 @@
 - type: entity
   id: PresentRandomInsane
   parent: PresentRandomUnsafe
-  suffix: ent-PresentRandomInsane-suffix
+  suffix: Filled, any entity
   components:
     - type: RandomGift
       insaneMode: true
@@ -43,7 +43,7 @@
 - type: entity
   id: PresentRandom
   parent: [PresentBase, BaseItem]
-  suffix: ent-PresentRandom-suffix
+  suffix: Filled Safe
   components:
   - type: SpawnItemsOnUse
     items:
@@ -380,7 +380,7 @@
 - type: entity
   id: PresentRandomCoal
   parent: [PresentBase, BaseItem]
-  suffix: ent-PresentRandomCoal-suffix
+  suffix: Filled Coal
   components:
   - type: SpawnItemsOnUse
     items:
@@ -402,7 +402,7 @@
 - type: entity
   id: PresentRandomCash
   parent: [PresentBase, BaseItem]
-  suffix: ent-PresentRandomCash-suffix
+  suffix: Filled Cash
   components:
   - type: SpawnItemsOnUse
     items:
@@ -440,8 +440,8 @@
   id: PresentTrash
   categories: [ HideSpawnMenu ]
   parent: BaseItem
-  name: ent-PresentTrash
-  description: ent-PresentTrash-desc
+  name: wrapping paper
+  description: Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.
   components:
   - type: Sprite
     sprite: Objects/Decoration/present.rsi

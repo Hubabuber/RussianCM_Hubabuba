@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   parent: ActionMarineToggleable
   id: RMCActionSpecialistBase
-  name: ent-RMCActionSpecialistBase
+  name: Spec Ability
   abstract: true
   components:
   - type: ActionBlockIfDevoured
@@ -9,8 +9,8 @@
 - type: entity
   parent: RMCActionSpecialistBase
   id: RMCActionGhilliePreparePosition
-  name: ent-RMCActionGhilliePreparePosition
-  description: ent-RMCActionGhilliePreparePosition-desc
+  name: Prepare Position
+  description: Use the ghillie suit and the nearby environment to become near invisible.
   components:
   - type: Action
     icon:
@@ -25,8 +25,8 @@
 - type: entity
   parent: RMCActionSpecialistBase
   id: RMCActionToggleCloak
-  name: ent-RMCActionToggleCloak
-  description: ent-RMCActionToggleCloak-desc
+  name: Toggle Cloak
+  description: Enable or Disable your Thermal Cloak
   components:
   - type: Action
     icon:
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCActionSpecialistBase
   id: RMCActionFireShield
-  name: ent-RMCActionFireShield
-  description: ent-RMCActionFireShield-desc
+  name: Activate Fire Shield
+  description: Activate your armor's FIREWALK protocol for a short duration.
   components:
   - type: Action
     icon:

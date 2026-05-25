@@ -59,8 +59,8 @@
 - type: entity
   parent: CMBeakerBase
   id: CMBeaker
-  name: ent-CMBeaker
-  description: ent-CMBeaker-desc
+  name: beaker
+  description: A beaker. Can hold up to 60 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/beaker.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: CMBeakerBase
   id: CMBeakerLarge
-  name: ent-CMBeakerLarge
-  description: ent-CMBeakerLarge-desc
+  name: large beaker
+  description: A large beaker. Can hold up to 120 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/large_beaker.rsi
@@ -156,8 +156,8 @@
 - type: entity
   parent: RMCBeakerBaseMetallic
   id: RMCBeakerHighCapacity
-  name: ent-RMCBeakerHighCapacity
-  description: ent-RMCBeakerHighCapacity-desc
+  name: high-capacity beaker
+  description: A beaker with an enlarged holding capacity, made with blue-tinted plexiglass in order to withstand greater pressure. Can hold up to 300 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/high_capacity_beaker.rsi
@@ -280,8 +280,8 @@
 - type: entity
   parent: RMCBeakerBaseMetallic
   id: CMMiniTank
-  name: ent-CMMiniTank
-  description: ent-CMMiniTank-desc
+  name: MS-11 Smart Refill Tank
+  description: A robust little tank capable of refilling autoinjectors that previously required a nanomed system to refill. Using the wonders of microchips, it automatically sorts the correct chemicals into most single reagent autoinjectors. It is unable to partially fill them however. A valve exists on the top to transfer reagents to another container or to flush it entirely.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/minitank.rsi
@@ -333,8 +333,8 @@
 - type: entity
   parent: RMCSealedChemicalContainer
   id: RMCPressurizedCanister
-  name: ent-RMCPressurizedCanister
-  description: ent-RMCPressurizedCanister-desc
+  name: pressurized canister
+  description: A pressurized container. The inner part of a pressurized reagent canister pouch. Only compatible with its pouch, machinery or a storage tank.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/pressurized_reagent_container.rsi
@@ -368,7 +368,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterBicaridine
-  suffix: ent-RMCPressurizedCanisterBicaridine-suffix
+  suffix: Bicaridine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -381,7 +381,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterKelotane
-  suffix: ent-RMCPressurizedCanisterKelotane-suffix
+  suffix: Kelotane
   components:
   - type: SolutionContainerManager
     solutions:
@@ -394,7 +394,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterTricordrazineRevival
-  suffix: ent-RMCPressurizedCanisterTricordrazineRevival-suffix
+  suffix: Tricordrazine - Revival
   components:
   - type: SolutionContainerManager
     solutions:
@@ -411,7 +411,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterTricordrazine
-  suffix: ent-RMCPressurizedCanisterTricordrazine-suffix
+  suffix: Tricordrazine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -424,7 +424,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterMeraBic
-  suffix: ent-RMCPressurizedCanisterMeraBic-suffix
+  suffix: MeraBic
   components:
   - type: SolutionContainerManager
     solutions:
@@ -439,7 +439,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterKeloDerm
-  suffix: ent-RMCPressurizedCanisterKeloDerm-suffix
+  suffix: KeloDerm
   components:
   - type: SolutionContainerManager
     solutions:
@@ -457,8 +457,8 @@
 - type: entity
   parent: CMBeakerBase
   id: RMCVial
-  name: ent-RMCVial
-  description: ent-RMCVial-desc
+  name: vial
+  description: A small glass vial. Can hold up to 30 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/vials.rsi
@@ -513,9 +513,9 @@
 - type: entity
   parent: RMCVial
   id: RMCVialTricordrazine
-  name: ent-RMCVialTricordrazine
-  description: ent-RMCVialTricordrazine-desc
-  suffix: ent-RMCVialTricordrazine-suffix
+  name: tricordrazine vial
+  description: A small glass vial. Can hold up to 30 units. Contains Tricordrazine, a weak general use medicine for treating damage.
+  suffix: Filled, Tricordrazine
   components:
   - type: SolutionContainerManager
     solutions:

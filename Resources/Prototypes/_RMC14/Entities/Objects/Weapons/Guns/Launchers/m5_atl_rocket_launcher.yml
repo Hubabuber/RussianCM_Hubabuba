@@ -64,9 +64,9 @@
 
 - type: entity
   parent: [RMCBaseWeaponLauncher, RMCBaseAttachableHolder]
-  name: ent-RMCWeaponLauncherM5ATL
+  name: M7-SMAW
   id: RMCWeaponLauncherM5ATL
-  description: "ent-RMCWeaponLauncherM5ATL-desc"
+  description: "The M7 Shoulder Launched Multipurpose Assault Weapon is a powerful anti-armor infantry weapon. Used to take out light-tanks and enemy structures, it is a dangerous weapon with a variety of combat uses, depending on the loaded ammunition, and is capable of firing both shells and rocket-propelled grenades."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/m5atl/m5atl_inhands.rsi
@@ -87,9 +87,9 @@
 # 84mm HE
 - type: entity
   id: RMCRocket84mm
-  name: ent-RMCRocket84mm
+  name: 84mm high-explosive rocket
   parent: BaseItem
-  description: ent-RMCRocket84mm-desc
+  description: A rocket tube compatible with the M5-ATL loaded with a HE warhead. Deals high damage to soft targets on direct hit and splashes other targets in a 5-meter-wide area. Has decreased effect on heavily armored targets.
   components:
   - type: Tag
     tags:
@@ -113,9 +113,9 @@
 
 - type: entity
   id: RMCBaseProjectileRocket84mm
-  name: ent-RMCBaseProjectileRocket84mm
+  name: 84mm high-explosive rocket
   categories: [ HideSpawnMenu ]
-  description: ent-RMCBaseProjectileRocket84mm-desc
+  description: Uh oh.
   components:
   - type: Physics
     bodyType: Dynamic
@@ -155,9 +155,9 @@
 - type: entity
   parent: RMCBaseProjectileRocket84mm
   id: RMCProjectileRocket84mm
-  name: ent-RMCProjectileRocket84mm
+  name: 84mm high-explosive rocket
   categories: [ HideSpawnMenu ]
-  description: ent-RMCProjectileRocket84mm-desc
+  description: Uh oh.
   components:
   - type: TriggerOnCollide
     # TODO RMC14 Make TriggerOnCollide spawn the explosion on the OtherEntity tile more consistently, so the explosion is centered properly
@@ -188,9 +188,9 @@
 
 - type: entity
   id: RMCRocket84mmAntiArmor
-  name: ent-RMCRocket84mmAntiArmor
+  name: 84mm anti-armor rocket
   parent: RMCRocket84mm
-  description: ent-RMCRocket84mmAntiArmor-desc
+  description: A rocket tube compatible with the M5-ATL loaded with an AP warhead. Capable of piercing and downing heavily armored targets. Deals very little to no splash damage. Inflicts guaranteed stun to most targets. Has high accuracy within 7 meters.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mmAntiArmor
@@ -207,7 +207,7 @@
 
 - type: entity
   id: RMCProjectileRocket84mmAntiArmor
-  name: ent-RMCProjectileRocket84mmAntiArmor
+  name: 84mm anti-armor rocket
   parent: RMCProjectileRocket84mm
   categories: [ HideSpawnMenu ]
   components:
@@ -247,8 +247,8 @@
 - type: entity
   parent: RMCRocket84mm
   id: RMCRocket84mmWhitePhosphorus
-  name: ent-RMCRocket84mmWhitePhosphorus
-  description: ent-RMCRocket84mmWhitePhosphorus-desc
+  name: 84mm white phosphorus rocket
+  description: A rocket tube loaded with a white phosphorus incendiary warhead. Has two damaging factors. On hit disperses X-Variant Napthal (blue flames) in a 4-meter radius circle, ignoring cover, while simultaneously bursting into highly heated shrapnel that ignites targets within slightly bigger area.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mmWhitePhosphorus
@@ -266,7 +266,7 @@
 - type: entity
   parent: RMCBaseProjectileRocket84mm
   id: RMCProjectileRocket84mmWhitePhosphorus
-  name: ent-RMCProjectileRocket84mmWhitePhosphorus
+  name: 84mm white phosphorus rocket
   categories: [ HideSpawnMenu ]
   components:
   - type: TriggerOnCollide

@@ -1,9 +1,9 @@
 - type: job
   parent: CMSurvivorDoctor
   id: CMSurvivorLV624CorporateDomeGoonMedic
-  name: job-cmsurvivorlv624corporatedomegoonmedic-name
-  description: job-cmsurvivorlv624corporatedomegoonmedic-desc
-  spawnMenuRoleName: job-cmsurvivorlv624corporatedomegoonmedic-spawnmenurolename
+  name: rmc-job-name-pmc-corporate-goon-medic
+  description: cm-job-description-survivor
+  spawnMenuRoleName: We-Ya Goon Medic (Survivor Special)
   startingGear: RMCGearSurvivorGoon
   icon: "RMCJobIconPMCGoonMedic"
   hasIcon: true
@@ -30,10 +30,11 @@
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: background_goon
   greeting: rmc-job-greeting-corporate-dome-goon-medic
+
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CorporateDomeGoonMedic
-  name: ent-RMCSpawnPointSurvivorLV624CorporateDomeGoonMedic
+  name: special survivor lv624 goon medic spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorLV624CorporateDomeGoonMedic
@@ -47,7 +48,7 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetLV624CorporateDomeGoonMedic
-  name: ent-RMCGearSurvivorPresetLV624CorporateDomeGoonMedic
+  name: lv624 colonist preset
 
 - type: jobIcon
   parent: CMJobIconBase

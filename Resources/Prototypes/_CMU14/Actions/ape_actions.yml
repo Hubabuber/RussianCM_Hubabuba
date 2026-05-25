@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionApeLeap
-  name: ent-ActionApeLeap
-  description: ent-ActionApeLeap-desc
+  name: Leap
+  description: Jump towards a given location and knock down the first enemy hit.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -20,8 +20,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionApeDestroy
-  name: ent-ActionApeDestroy
-  description: ent-ActionApeDestroy-desc
+  name: Destroy
+  description: After a short time, jump to the targeted location, destroying structures and gibbing hostiles within a 3x3 range. Works over barricades and other short barriers.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -38,8 +38,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionApeCharge
-  name: ent-ActionApeCharge
-  description: ent-ActionApeCharge-desc
+  name: Charge
+  description: Ape-specific charge. Click on a tile to wind up and charge to it, stunning and damaging foes hit.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -57,8 +57,8 @@
 - type: entity
   parent: ActionXenoFling
   id: ActionApeRam
-  name: ent-ActionApeRam
-  description: ent-ActionApeRam-desc
+  name: Ram
+  description: Ape-specific ram. Target an enemy to ram them, costing a small amount of plasma.
   components:
   - type: Action
     icon:
@@ -74,8 +74,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionApeHeadbite
-  name: ent-ActionApeHeadbite
-  description: ent-ActionApeHeadbite-desc
+  name: Headbite
+  description: Ape-specific headbite that applies the headbite effect to unconscious targets.
   components:
   - type: Action
     itemIconStyle: NoItem

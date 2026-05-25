@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPowerCell
-  name: ent-RMCPowerCell
-  description: ent-RMCPowerCell-desc
+  name: power cell
+  description: A rechargeable electrochemical power cell.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Power/cells.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellCrap
-  name: ent-RMCPowerCellCrap
-  description: ent-RMCPowerCellCrap-desc
+  name: We-Yu rechargeable mini-battery
+  description: Cheap, throwaway batteries provided by the Weyland-Yutani Corporation. The 'rechargeable' feature was added to be more marketable to independent colonists hell-bent on 'using it till it disintegrates', a common sentiment on the frontier.
   components:
   - type: Sprite
     layers:
@@ -53,7 +53,7 @@
 - type: entity
   parent: RMCPowerCellCrap
   id: RMCPowerCellCrapEmpty
-  suffix: ent-RMCPowerCellCrapEmpty-suffix
+  suffix: Empty
   components:
   - type: Battery
     startingCharge: 0
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellAPC
-  name: ent-RMCPowerCellAPC
+  name: heavy-duty power cell
   components:
   - type: Battery
     maxCharge: 5000
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCPowerCellAPC
   id: RMCPowerCellAPCNoPower
-  suffix: ent-RMCPowerCellAPCNoPower-suffix
+  suffix: No Power
   components:
   - type: Battery
     maxCharge: 5000
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCPowerCellAPC
   id: RMCPowerCellAPCEmpty
-  suffix: ent-RMCPowerCellAPCEmpty-suffix
+  suffix: Empty
   components:
   - type: Battery
     startingCharge: 0
@@ -87,7 +87,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellHigh
-  name: ent-RMCPowerCellHigh
+  name: high-capacity power cell
   components:
   - type: Sprite
     layers:
@@ -114,7 +114,7 @@
 - type: entity
   parent: RMCPowerCellHigh
   id: RMCPowerCellHighEmpty
-  suffix: ent-RMCPowerCellHighEmpty-suffix
+  suffix: Empty
   components:
   - type: Battery
     startingCharge: 0
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellSuper
-  name: ent-RMCPowerCellSuper
+  name: super-capacity power cell
   components:
   - type: Sprite
     layers:
@@ -142,7 +142,7 @@
 - type: entity
   parent: RMCPowerCellSuper
   id: RMCPowerCellSuperEmpty
-  suffix: ent-RMCPowerCellSuperEmpty-suffix
+  suffix: Empty
   components:
   - type: Battery
     startingCharge: 0
@@ -150,7 +150,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellHyper
-  name: ent-RMCPowerCellHyper
+  name: hyper-capacity power cell
   components:
   - type: Sprite
     layers:
@@ -170,7 +170,7 @@
 - type: entity
   parent: RMCPowerCellHyper
   id: RMCPowerCellHyperEmpty
-  suffix: ent-RMCPowerCellHyperEmpty-suffix
+  suffix: Empty
   components:
   - type: Battery
     startingCharge: 0
@@ -178,7 +178,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellInfinite
-  name: ent-RMCPowerCellInfinite
+  name: infinite-capacity power cell
   components:
   - type: Sprite
     layers:
@@ -201,8 +201,8 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellPotato
-  name: ent-RMCPowerCellPotato
-  description: ent-RMCPowerCellPotato-desc
+  name: potato battery
+  description: A rechargeable starch-based power cell.
   components:
   - type: Sprite
     layers:
@@ -218,8 +218,8 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellSmartgun
-  name: ent-RMCPowerCellSmartgun
-  description: "ent-RMCPowerCellSmartgun-desc"
+  name: smart gun DV9 battery
+  description: "A standard-issue 9-volt lithium dry-cell battery, most commonly used within the UNMC to power smartguns. Per the manual, one battery is good for up to 50000 rounds and plugs directly into the smartgun's power receptacle, which is only compatible with this type of battery. Various auxiliary modes usually bring the round count far lower. While this cell is incompatible with most standard electrical system, it can be charged by common rechargers in a pinch. UNMC smartgunners often guard them jealously."
   components:
   - type: Sprite
     layers:

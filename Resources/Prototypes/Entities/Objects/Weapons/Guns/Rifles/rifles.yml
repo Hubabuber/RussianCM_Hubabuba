@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-BaseWeaponRifle
+  name: BaseWeaponRifle
   parent: [BaseItem, BaseGunWieldable]
   id: BaseWeaponRifle
-  description: ent-BaseWeaponRifle-desc
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -53,10 +53,10 @@
     price: 500
 
 - type: entity
-  name: ent-WeaponRifleAk
+  name: AKMS
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleAk
-  description: ent-WeaponRifleAk-desc
+  description: A somewhat battered combat rifle of a design originating from old Earth. Favored by criminals, militias, and terrorists due to its famed reliability and easy-to-manufacture design. Feeds from .30 rifle magazines.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
@@ -104,7 +104,7 @@
   name: M-90gl
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90GrenadeLauncher
-  description: ent-WeaponRifleM90GrenadeLauncher-desc
+  description: An older bullpup carbine model, with an attached underbarrel grenade launcher. Uses .20 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -145,10 +145,10 @@
   - type: Appearance
 
 - type: entity
-  name: ent-WeaponRifleLecter
+  name: Lecter
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleLecter
-  description: ent-WeaponRifleLecter-desc
+  description: A high end military grade assault rifle. Uses .20 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
@@ -192,10 +192,10 @@
   - type: Appearance
 
 - type: entity
-  name: ent-WeaponRifleEstoc
+  name: Estoc DMR
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleEstoc
-  description: ent-WeaponRifleEstoc-desc
+  description: A designated marksman rifle, favored for medium-to-long range engagements. Uses .20 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/estoc.rsi
@@ -257,10 +257,10 @@
   - type: Appearance
 
 - type: entity
-  name: ent-WeaponRifleFoam
+  name: Foam Force Astro Ace
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponRifleFoam
-  description: ent-WeaponRifleFoam-desc
+  description: A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_rifle.rsi

@@ -1,9 +1,9 @@
 - type: entity
   id: BaseShutter
   parent: BaseStructure
-  name: ent-BaseShutter
+  name: shutter
   abstract: true
-  description: ent-BaseShutter-desc
+  description: One shudders to think about what might be behind this shutter.
   placement:
     mode: SnapgridCenter
   components:
@@ -115,7 +115,7 @@
 - type: entity
   id: ShuttersNormalOpen
   parent: ShuttersNormal
-  suffix: ent-ShuttersNormalOpen-suffix
+  suffix: Open
   components:
   - type: Door
     state: Open
@@ -131,8 +131,8 @@
 - type: entity
   id: ShuttersRadiation
   parent: BaseShutter
-  name: ent-ShuttersRadiation
-  description: ent-ShuttersRadiation-desc
+  name: radiation shutters
+  description: Why did they make these shutters radioactive?
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_radiation.rsi
@@ -153,7 +153,7 @@
 - type: entity
   id: ShuttersRadiationOpen
   parent: ShuttersRadiation
-  suffix: ent-ShuttersRadiationOpen-suffix
+  suffix: Open
   components:
   - type: Door
     state: Open
@@ -169,8 +169,8 @@
 - type: entity
   id: ShuttersWindow
   parent: BaseShutter
-  name: ent-ShuttersWindow
-  description: ent-ShuttersWindow-desc
+  name: window shutters
+  description: The Best (TM) place to see your friends explode!
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_window.rsi
@@ -190,7 +190,7 @@
 - type: entity
   id: ShuttersWindowOpen
   parent: ShuttersWindow
-  suffix: ent-ShuttersWindowOpen-suffix
+  suffix: Open
   components:
   - type: Door
     state: Open
@@ -205,8 +205,8 @@
 - type: entity
   id: ShuttersFrame
   parent: BaseStructureDynamic
-  name: ent-ShuttersFrame
-  description: ent-ShuttersFrame-desc
+  name: shutter frame
+  description: A frame for constructing a shutter.
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters.rsi

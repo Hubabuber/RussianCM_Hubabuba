@@ -1,7 +1,7 @@
 - type: entity
   id: RMCStairs
-  name: ent-RMCStairs
-  description: ent-RMCStairs-desc
+  name: stairs
+  description: The greatest invention since rocket-propelled grenades.
   placement:
     mode: SnapgridCenter
   components:
@@ -22,7 +22,7 @@
 - type: entity
   parent: RMCStairs
   id: RMCStairsOffset
-  suffix: ent-RMCStairsOffset-suffix
+  suffix: Offset
   components:
   - type: Sprite
     offset: 0, 0.325
@@ -30,7 +30,7 @@
 - type: entity
   id: RMCStairsCorner
   parent: RMCStairs
-  suffix: ent-RMCStairsCorner-suffix
+  suffix: Corner
   components:
   - type: Sprite
     state: p_stair_full_corner
@@ -38,7 +38,7 @@
 - type: entity
   id: RMCStairsLeft
   parent: RMCStairs
-  suffix: ent-RMCStairsLeft-suffix
+  suffix: Left
   components:
   - type: Sprite
     state: p_stair_left_cap
@@ -46,7 +46,7 @@
 - type: entity
   id: RMCStairsRight
   parent: RMCStairs
-  suffix: ent-RMCStairsRight-suffix
+  suffix: Right
   components:
   - type: Sprite
     state: p_stair_right_cap
@@ -54,7 +54,7 @@
 - type: entity
   id: RMCStairsLeftHalf
   parent: RMCStairs
-  suffix: ent-RMCStairsLeftHalf-suffix
+  suffix: Left, Half
   components:
   - type: Sprite
     state: p_stair_left_cap_half
@@ -62,7 +62,7 @@
 - type: entity
   id: RMCStairsRightHalf
   parent: RMCStairs
-  suffix: ent-RMCStairsRightHalf-suffix
+  suffix: Right, Half
   components:
   - type: Sprite
     state: p_stair_right_cap_half
@@ -70,7 +70,7 @@
 - type: entity
   id: RMCStairsSolo
   parent: RMCStairs
-  suffix: ent-RMCStairsSolo-suffix
+  suffix: Solo
   components:
   - type: Sprite
     state: p_stair_solo_cap
@@ -85,7 +85,7 @@
 - type: entity
   id: RMCStairsKutjevoCorner
   parent: RMCStairs
-  suffix: ent-RMCStairsKutjevoCorner-suffix
+  suffix: Corner
   components:
   - type: Sprite
     state: p_stair_kutjevo_full_corner
@@ -93,7 +93,7 @@
 - type: entity
   id: RMCStairsKutjevoLeft
   parent: RMCStairs
-  suffix: ent-RMCStairsKutjevoLeft-suffix
+  suffix: Left
   components:
   - type: Sprite
     state: p_stair_kutjevo_left_cap
@@ -101,7 +101,7 @@
 - type: entity
   id: RMCStairsKutjevoRight
   parent: RMCStairs
-  suffix: ent-RMCStairsKutjevoRight-suffix
+  suffix: Right
   components:
   - type: Sprite
     state: p_stair_kutjevo_right_cap
@@ -109,7 +109,7 @@
 - type: entity
   id: RMCStairsKutjevoLeftHalf
   parent: RMCStairs
-  suffix: ent-RMCStairsKutjevoLeftHalf-suffix
+  suffix: Left, Half
   components:
   - type: Sprite
     state: p_stair_kutjevo_left_cap_half
@@ -117,7 +117,7 @@
 - type: entity
   id: RMCStairsKutjevoRightHalf
   parent: RMCStairs
-  suffix: ent-RMCStairsKutjevoRightHalf-suffix
+  suffix: Right, Half
   components:
   - type: Sprite
     state: p_stair_kutjevo_right_cap_half
@@ -125,7 +125,7 @@
 - type: entity
   id: RMCStairsKutjevoSolo
   parent: RMCStairs
-  suffix: ent-RMCStairsKutjevoSolo-suffix
+  suffix: Solo
   components:
   - type: Sprite
     state: p_stair_kutjevo_solo_cap
@@ -140,7 +140,7 @@
 - type: entity
   id: RMCStairsIceCorner
   parent: RMCStairs
-  suffix: ent-RMCStairsIceCorner-suffix
+  suffix: Corner
   components:
   - type: Sprite
     state: p_stair_ice_full_corner
@@ -148,7 +148,7 @@
 - type: entity
   id: RMCStairsIceLeft
   parent: RMCStairs
-  suffix: ent-RMCStairsIceLeft-suffix
+  suffix: Left
   components:
   - type: Sprite
     state: p_stair_ice_left_cap
@@ -156,7 +156,7 @@
 - type: entity
   id: RMCStairsIceRight
   parent: RMCStairs
-  suffix: ent-RMCStairsIceRight-suffix
+  suffix: Right
   components:
   - type: Sprite
     state: p_stair_ice_right_cap
@@ -164,7 +164,7 @@
 - type: entity
   id: RMCStairsIceLeftHalf
   parent: RMCStairs
-  suffix: ent-RMCStairsIceLeftHalf-suffix
+  suffix: Left, Half
   components:
   - type: Sprite
     state: p_stair_ice_left_cap_half
@@ -172,7 +172,7 @@
 - type: entity
   id: RMCStairsIceRightHalf
   parent: RMCStairs
-  suffix: ent-RMCStairsIceRightHalf-suffix
+  suffix: Right, Half
   components:
   - type: Sprite
     state: p_stair_ice_right_cap_half
@@ -180,14 +180,14 @@
 - type: entity
   id: RMCStairsIceSolo
   parent: RMCStairs
-  suffix: ent-RMCStairsIceSolo-suffix
+  suffix: Solo
   components:
   - type: Sprite
     state: p_stair_ice_solo_cap
 
 - type: entity
   parent: RMCStairs
-  suffix: ent-RMCHunterStairs-suffix
+  suffix: Corner
   id: RMCHunterStairs
   components:
   - type: Sprite
@@ -196,7 +196,7 @@
 - type: entity
   id: RMCHunterStairsCorner
   parent: RMCStairs
-  suffix: ent-RMCHunterStairsCorner-suffix
+  suffix: Corner
   components:
   - type: Sprite
     state: p_stair_full_corner
@@ -205,7 +205,7 @@
 - type: entity
   id: RMCHunterStairsLeft
   parent: RMCStairs
-  suffix: ent-RMCHunterStairsLeft-suffix
+  suffix: Left
   components:
   - type: Sprite
     state: p_stair_left_cap
@@ -214,7 +214,7 @@
 - type: entity
   id: RMCHunterStairsRight
   parent: RMCStairs
-  suffix: ent-RMCHunterStairsRight-suffix
+  suffix: Right
   components:
   - type: Sprite
     state: p_stair_right_cap
@@ -223,7 +223,7 @@
 - type: entity
   id: RMCHunterStairsSolo
   parent: RMCStairs
-  suffix: ent-RMCHunterStairsSolo-suffix
+  suffix: Solo
   components:
   - type: Sprite
     state: p_stair_solo_cap
@@ -240,7 +240,7 @@
 - type: entity
   parent: RMCStairs
   id: RMCAlmayerStairs
-  suffix: ent-RMCAlmayerStairs-suffix
+  suffix: Almayer
   components:
   - type: Sprite
     state: rampbottom
@@ -248,7 +248,7 @@
 - type: entity
   parent: RMCStairs
   id: RMCAlmayerStairsTop
-  suffix: ent-RMCAlmayerStairsTop-suffix
+  suffix: Almayer
   components:
   - type: Sprite
     state: ramptop
@@ -263,7 +263,7 @@
 
 - type: entity
   parent: RMCStairs
-  suffix: ent-RMCTempleStairs-suffix
+  suffix: Corner
   id: RMCTempleStairs
   components:
   - type: Sprite
@@ -272,7 +272,7 @@
 - type: entity
   id: RMCTempleStairsCorner
   parent: RMCStairs
-  suffix: ent-RMCTempleStairsCorner-suffix
+  suffix: Corner
   components:
   - type: Sprite
     state: p_stair_full_corner
@@ -281,7 +281,7 @@
 - type: entity
   id: RMCTempleStairsLeft
   parent: RMCStairs
-  suffix: ent-RMCTempleStairsLeft-suffix
+  suffix: Left
   components:
   - type: Sprite
     state: p_stair_left_cap
@@ -290,7 +290,7 @@
 - type: entity
   id: RMCTempleStairsRight
   parent: RMCStairs
-  suffix: ent-RMCTempleStairsRight-suffix
+  suffix: Right
   components:
   - type: Sprite
     state: p_stair_right_cap
@@ -299,7 +299,7 @@
 - type: entity
   id: RMCTempleStairsSolo
   parent: RMCStairs
-  suffix: ent-RMCTempleStairsSolo-suffix
+  suffix: Solo
   components:
   - type: Sprite
     state: p_stair_solo_cap
@@ -315,7 +315,7 @@
 - type: entity
   id: RMCSoroStairsCorner
   parent: RMCStairs
-  suffix: ent-RMCSoroStairsCorner-suffix
+  suffix: Corner
   components:
   - type: Sprite
     state: p_stair_full_corner
@@ -324,7 +324,7 @@
 - type: entity
   id: RMCSoroStairsLeft
   parent: RMCStairs
-  suffix: ent-RMCSoroStairsLeft-suffix
+  suffix: Left
   components:
   - type: Sprite
     state: p_stair_left_cap
@@ -333,7 +333,7 @@
 - type: entity
   id: RMCSoroStairsRight
   parent: RMCStairs
-  suffix: ent-RMCSoroStairsRight-suffix
+  suffix: Right
   components:
   - type: Sprite
     state: p_stair_right_cap
@@ -342,7 +342,7 @@
 - type: entity
   id: RMCSoroStairsSolo
   parent: RMCStairs
-  suffix: ent-RMCSoroStairsSolo-suffix
+  suffix: Solo
   components:
   - type: Sprite
     state: p_stair_solo_cap

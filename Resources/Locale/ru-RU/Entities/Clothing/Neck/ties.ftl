@@ -7,11 +7,3 @@ ent-ClothingNeckTieDet-desc = Свободно завязанный галсту
 ent-ClothingNeckTieSci-name = галстук ученого
 ent-ClothingNeckTieSci-desc = Почему мы все должны носить эти нелепые галстуки?
 
-ent-ClothingNeckTieDet = галстук детектива
-    .desc = Свободно завязанный галстук — идеальный аксессуар для переутомленного детектива.
-
-ent-ClothingNeckTieRed = красный галстук
-    .desc = Красный галстук из неошелка с клипсой.
-
-ent-ClothingNeckTieSci = галстук ученого
-    .desc = Почему мы все должны носить эти нелепые галстуки?

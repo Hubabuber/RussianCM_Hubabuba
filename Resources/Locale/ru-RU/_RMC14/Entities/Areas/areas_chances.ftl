@@ -1,204 +1,204 @@
 ent-RMCAreaLv522AtmosReactorGarage = Атмосферный процессор — Гараж
-    .suffix = область
+
 ent-RMCAreaLv522AtmosSewer = Атмосферный процессор — канализация
-    .suffix = область
+
 ent-RMCAreaLv522AtmosWayInCommandCentre = Атмосферный процессор — вход в реактор Северного корпуса
-    .suffix = область
+
 ent-RMCAreaLv522AtmosFilt = Атмосферный процессор — система фильтрации
-    .suffix = область
+
 ent-RMCAreaLv522AtmosNorthCommandCentre = Атмосферный процессор — контрольно-пропускной пункт Северного командного центра
-    .suffix = область
+
 ent-RMCAreaLv522AtmosCommandCentre = Атмосферный процессор — Центральное командование
-    .suffix = область
+
 ent-RMCAreaLv522AtmosCargoIntake = Атмосферный процессор — прием груза
-    .suffix = область
+
 ent-RMCAreaLv522AtmosWestReactor = Атмосферный процессор – Западный реактор
-    .suffix = область
+
 ent-RMCAreaLv522AtmosEastReactorWest = Атмосферный процессор — Внешний восточный реактор — запад
-    .suffix = область
+
 ent-RMCAreaLv522AtmosEastReactorEast = Атмосферный процессор — Внешний восточный реактор — восток
-    .suffix = область
+
 ent-RMCAreaLv522AtmosEastReactorSouth = Атмосферный процессор — Внешний восточный реактор — юг
-    .suffix = область
+
 ent-RMCAreaLv522AtmosEastReactorNorth = Атмосферный процессор — Внешний восточный реактор — Север
-    .suffix = область
+
 ent-RMCAreaLv522AtmosEastReactor = Атмосферный процессор – Восточный реактор
-    .suffix = область
+
 ent-RMCAreaLv522AtmosOutdoor = Атмосферный процессор — на открытом воздухе
-    .suffix = область
+
 ent-RMCAreaLv522Atmos = Атмосферный процессор
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsPERockies = Восточный процессор - Скалистые горы
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsPWRockies = Западный процессор - Скалистые горы
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsPNwRockies = Северо-западный процессор — Скалистые горы
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsPNRockies = Северный процессор - Скалистые горы
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsWRockies = Западная колония – Скалистые горы
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsNwRockies = Северо-западная колония — Скалистые горы
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsNRockies = Северная колония – Скалистые горы
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsCBlockTComm = Блок C — Т-коммуникации Западного гаража
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsCBlockBridge = C-блок — мост для груза в гараж
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsCBlockCasino = C-Блок — Казино
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsCBlockGarage = C-Блок — Гараж
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsCBlockMining = C-Блок — Горное дело
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsCBlockCargo = C-блок — грузовой
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsCBlock = C-блок
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsBBlockBridge = B-Block — Сеть гидропонных мостов
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsBBlockBar = Блок Б - Бар
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsBBlockHydro = B-Блок — Гидропоника
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsBBlock = B-Блок
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockGarden = Блок А — Западный операционный сад
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockCorpo = А-Блок - Корпоративный офис
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockBridgesGardenBridge = Блок А – Садовый мост
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockBridgesOpCentre = A-Block — мост безопасности к операционному центру
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockBridgesCorpo = A-Block — безопасность для корпоративного моста
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockBridgesCorpoFitness = A-Block - Западные общежития и фитнес
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockBridgesDormsFitness = A-Block - Мост от корпоративного к фитнесу
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockBridges = Блок А — западные общежития к мосту безопасности
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockDormNorth = Блок А – Северные общие общежития
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockExecutive = Блок А — Представительский люкс
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockKitchen = А-Блок – Кухня и Столовая
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockSecurity = А-Блок – Безопасность
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockMedical = А-Блок - Медицинский
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockHallway = Блок А — Южный операционный коридор
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockFitness = А-Блок - Фитнес-центр
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockDorms = A-Block - Западные общежития и офисы
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockAdmin = Блок А — Операционный центр колонии
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlock = А-Блок
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsLoneBuildingsChunk = Чанк и дамп
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsLoneBuildingsStorageBlocks = Открытое хранение
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsLoneBuildingsOutdoorBot = East LZ1 — наружная телекоммуникационная связь
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsLoneBuildingsSpaceport = Северная LZ1 — космопорт
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsLoneBuildingsEngineering = Аварийная инженерия
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsToilet = LV522 - Уличные туалеты
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsLoneBuildings = LV522 - Одинокие здания
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsWinde = Улицы колонии — северо-запад
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsNorthStreet = Улицы колонии — север
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsNorthEastStreet = Улицы колонии — северо-восток
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsNorthWestStreet = Улицы колонии — северо-запад
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsSouthWestStreet = Улицы колонии — юго-запад
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsSouthEastStreet = Улицы колонии — юго-восток
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsSouthStreet = Улицы колонии — юг
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsEastCentralStreet = Центральные улицы - Восток
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsCentralStreets = Центральные улицы - Запад
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsWindbreakerObservation = Ветровки колонии — наблюдение
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsWindbreaker = Колониальные ветровки
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreetsContainers = Улицы Колонии — Контейнерный двор
-    .suffix = область
+
 ent-RMCAreaLv522OutdoorsColonyStreets = Улицы колонии
-    .suffix = область
+
 ent-RMCAreaLv522LandingZoneForeconUD6Tornado = Претензия Шанса - UD6 Торнадо
-    .suffix = область
+
 ent-RMCAreaLv522LandingZoneForeconUD6Typhoon = Претензия Шанса - UD6 Тайфун
-    .suffix = область
+
 ent-RMCAreaLv522LandingZoneForeconLandingZone4 = Заявление Ченса - Зона приземления 4
-    .suffix = область
+
 ent-RMCAreaLv522LandingZoneForeconLandingZone3 = Претензия Ченса - Зона приземления 3
-    .suffix = область
+
 ent-RMCAreaLv522LandingZoneForecon = Претензия Шанса - FORECON Shuttle
-    .suffix = область
+
 ent-RMCAreaLv522LandingZone2Lz2Console = Претензия Шанса — Консоль Dropship Normandy
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2Lv522 = Претензия Шанса — Зона высадки десантного корабля в Нормандии
-    .suffix = область
+
 ent-RMCAreaLv522LandingZone2 = Претензия Шанса - Вторая зона приземления
-    .suffix = область
+
 ent-RMCAreaLv522LandingZone1Lz1Console = Претензия Шанса — Консоль Dropship Alamo
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1Lv522 = Претензия Шанса — Зона приземления десантного корабля Аламо
-    .suffix = область
+
 ent-RMCAreaLv522LandingZone1TunnelFar = Претензия Шанса - Туннели первой зоны приземления
-    .suffix = область
+
 ent-RMCAreaLv522LandingZone1Tunnel = Претензия Шанса - Туннели первой зоны приземления
-    .suffix = область
+
 ent-RMCAreaLv522LandingZone1 = Претензия Шанса - Первая зона приземления
-    .suffix = область
+
 ent-RMCAreaLv522OobWYVault = LV522 - Безопасное хранилище WEYA
-    .suffix = область
+
 ent-RMCAreaLv522Oob = LV522 - За пределами поля
-    .suffix = область
+
 ent-RMCAreaLv522Outdoors = Претензия Шанса — на открытом воздухе
-    .suffix = область
+
 ent-RMCAreaLv522Indoors = Претензия Шанса — в помещении
-    .suffix = область
+
 ent-RMCAreaLv522 = область
-    .suffix = область
+
 ent-RMCAreaLv522LandingZone1Ceiling = Претензия Шанса - Первая зона приземления
-    .suffix = область
+
 ent-RMCAreaLv522LandingZone2Ceiling = Претензия Шанса - Вторая зона приземления
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockDormsGlass = A-Block - Западные общежития и офисы
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockFitnessGlass = А-Блок - Фитнес-центр
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockHallwayDamage = Блок А — Южный операционный коридор
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockMedicalGlass = А-Блок - Медицинский
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockSecurityGlass = А-Блок – Безопасность
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockKitchenGlass = А-Блок – Кухня и Столовая
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockKitchenDamage = А-Блок – Кухня и Столовая
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockExecutiveGlass = Блок А — Представительский люкс
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsABlockCorpoGlass = А-Блок - Корпоративный офис
-    .suffix = область
+
 ent-RMCAreaLv522IndoorsBBlockHydroGlass = B-Блок — Гидропоника
-    .suffix = область
+
 ent-RMCAreaLv522AtmosEastReactorSouthCas = Атмосферный процессор — Внешний восточный реактор — юг
-    .suffix = область
+

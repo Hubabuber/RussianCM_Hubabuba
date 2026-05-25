@@ -1,22 +1,22 @@
 ent-RMCTriggerTeleporterViewer = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporter = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterDamage50 = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterDamage400 = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterViewerMPStairs = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterViewerBriefingStairs = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterViewerFarNSWStairs = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterViewerFarNSWWStairs = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterViewerSLBriefStairs = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterViewerSOStairs = телепортатор
-    .suffix = телепортатор
+
 ent-RMCTriggerTeleporterViewerAIStairs = телепортатор
-    .suffix = телепортатор
+

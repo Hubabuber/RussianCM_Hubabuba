@@ -2,8 +2,8 @@
   parent: CMSatchel
   id: RMCSmartpackBase
   abstract: true
-  name: ent-RMCSmartpackBase
-  description: ent-RMCSmartpackBase-desc
+  name: S-V42 backpack
+  description: A joint project between the USCM and Weyland-Yutani. It is said to be top-class engineering and state of the art technology with a built in shoulder-lamp.
   components:
   - type: Item
     heldPrefix: off
@@ -92,8 +92,9 @@
   parent: RMCSmartpackBase
   id: RMCSmartpackA1Base
   abstract: true
-  name: ent-RMCSmartpackA1Base
-  description: ent-RMCSmartpackA1Base-desc
+  name: S-V42A1 backpack
+  description: A revised joint project between the USCM and Weyland-Yutani. It is said to be top-class engineering and state of the art technology with a built in shoulder-lamp.
+
 # V42
 
 - type: entity
@@ -171,7 +172,7 @@
 - type: entity
   parent: RMCSmartpackA1White
   id: RMCPMCSyntheticSmartpack
-  suffix: ent-RMCPMCSyntheticSmartpack-suffix
+  suffix: Filled, PMC Synthetic
   components:
   - type: StorageFill
     contents:

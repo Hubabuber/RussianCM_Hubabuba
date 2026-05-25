@@ -34,8 +34,8 @@
 - type: entity
   id: MobGoliath
   parent: [ BaseMobAsteroid, MobBloodstream ]
-  name: ent-MobGoliath
-  description: ent-MobGoliath-desc
+  name: goliath
+  description: A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/goliath.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: BaseAction
   id: ActionGoliathTentacle
-  name: "ent-ActionGoliathTentacle"
-  description: ent-ActionGoliathTentacle-desc
+  name: "[color=red]Tentacle Slam[/color]"
+  description: Use your tentacles to grab and stun a target player!
   components:
   - type: Action
     raiseOnUser: true
@@ -121,7 +121,7 @@
 
 - type: entity
   id: GoliathTentacle
-  name: ent-GoliathTentacle
+  name: tentacle
   components:
   - type: Transform
     anchored: True
@@ -156,7 +156,7 @@
 - type: entity
   id: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: ent-BaseEffectGoliathTentacleSpawn
+  name: tentacle
   abstract: true
   components:
   - type: Transform
@@ -174,7 +174,7 @@
   id: EffectGoliathTentacleSpawn
   parent: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: ent-EffectGoliathTentacleSpawn
+  name: tentacle
   components:
     - type: Sprite
       state: goliath_tentacle_spawn
@@ -194,8 +194,8 @@
 - type: entity
   id: MobHivelord
   parent: [ BaseMobAsteroid, FlyingMobBase ]
-  name: ent-MobHivelord
-  description: ent-MobHivelord-desc
+  name: hivelord
+  description: A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi
@@ -254,8 +254,8 @@
 - type: entity
   id: MobHivelordBrood
   parent: [ BaseMobAsteroid, FlyingMobBase ]
-  name: ent-MobHivelordBrood
-  description: ent-MobHivelordBrood-desc
+  name: hivelord brood
+  description: A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi
@@ -307,8 +307,8 @@
 - type: entity
   id: FoodHivelordRemains
   parent: FoodBase
-  name: ent-FoodHivelordRemains
-  description: ent-FoodHivelordRemains-desc
+  name: hivelord remains
+  description: All that remains of a hivelord, it seems to be what allows it to break pieces of itself off without being hurt... its healing properties will soon become inert if not used quickly. Try not to think about what you're eating.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -338,8 +338,8 @@
 - type: entity
   id: FoodHivelordRemainsInert
   parent: BaseItem
-  name: ent-FoodHivelordRemainsInert
-  description: ent-FoodHivelordRemainsInert-desc
+  name: inert hivelord remains
+  description: All that remains of a hivelord... Now all is truly lost.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/rorocore.rsi
@@ -358,8 +358,8 @@
 - type: entity
   id: MobBasilisk
   parent: [ BaseMobAsteroid, MobBloodstream ]
-  name: ent-MobBasilisk
-  description: ent-MobBasilisk-desc
+  name: basilisk
+  description: A territorial beast, covered in a thick shell that absorbs energy. Its stare causes victims to freeze from the inside.
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/basilisk.rsi

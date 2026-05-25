@@ -1,8 +1,8 @@
 - type: entity
   id: ToolboxEmergencyFilled
-  name: ent-ToolboxEmergencyFilled
+  name: emergency toolbox
   parent: ToolboxEmergency
-  suffix: ent-ToolboxEmergencyFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -25,8 +25,8 @@
 
 - type: entity
   id: ToolboxElectricalFilled
-  name: ent-ToolboxElectricalFilled
-  suffix: ent-ToolboxElectricalFilled-suffix
+  name: electrical toolbox
+  suffix: Filled
   parent: ToolboxElectrical
   components:
   - type: StorageFill
@@ -46,8 +46,8 @@
 
 - type: entity
   id: ToolboxElectricalTurretFilled
-  name: ent-ToolboxElectricalTurretFilled
-  suffix: ent-ToolboxElectricalTurretFilled-suffix
+  name: electrical toolbox
+  suffix: Syndicate, Turret, Filled
   parent: ToolboxElectricalTurret
   components:
   - type: StorageFill
@@ -67,8 +67,8 @@
 
 - type: entity
   id: ToolboxArtisticFilled
-  name: ent-ToolboxArtisticFilled
-  suffix: ent-ToolboxArtisticFilled-suffix
+  name: artistic toolbox
+  suffix: Filled
   parent: ToolboxArtistic
   components:
   - type: StorageFill
@@ -88,8 +88,8 @@
 
 - type: entity
   id: ToolboxMechanicalFilled
-  name: ent-ToolboxMechanicalFilled
-  suffix: ent-ToolboxMechanicalFilled-suffix
+  name: mechanical toolbox
+  suffix: Filled
   parent: ToolboxMechanical
   components:
   - type: StorageFill
@@ -107,8 +107,8 @@
 
 - type: entity
   id: ToolboxMechanicalFilledAllTools
-  name: ent-ToolboxMechanicalFilledAllTools
-  suffix: ent-ToolboxMechanicalFilledAllTools-suffix
+  name: mechanical toolbox
+  suffix: Filled, all tools
   parent: ToolboxMechanical
   components:
   - type: StorageFill
@@ -123,7 +123,7 @@
 - type: entity
   parent: ToolboxSyndicate
   id: ToolboxSyndicateFilled
-  suffix: ent-ToolboxSyndicateFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -140,9 +140,9 @@
 
 - type: entity
   id: ToolboxGoldFilled
-  name: ent-ToolboxGoldFilled
+  name: golden toolbox
   parent: ToolboxGolden
-  suffix: ent-ToolboxGoldFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:

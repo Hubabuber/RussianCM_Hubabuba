@@ -16,20 +16,3 @@ ent-AsteroidSalvageLarge-name = Спасательный большой асте
 
 ent-AsteroidSalvageHuge-name = Спасенный огромный астероид
 
-ent-AsteroidDebrisLarge = обломки астероида большие
-
-ent-AsteroidDebrisLarger = обломки астероида крупнее
-
-ent-AsteroidDebrisMedium = среда обломков астероида
-
-ent-AsteroidDebrisSmall = обломки астероида маленькие
-
-ent-AsteroidSalvageHuge = Спасенный огромный астероид
-
-ent-AsteroidSalvageLarge = Спасательный большой астероид
-
-ent-AsteroidSalvageMedium = Спасательная среда астероида
-
-ent-AsteroidSalvageSmall = Спасательный астероид маленький
-
-ent-BaseAsteroidDebris = обломки астероида

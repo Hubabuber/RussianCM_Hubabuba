@@ -42,9 +42,9 @@
 - type: entity
   parent: RMCUniversalRecorderBase
   id: RMCUniversalRecorderEmpty
-  name: ent-RMCUniversalRecorderEmpty
-  description: ent-RMCUniversalRecorderEmpty-desc
-  suffix: ent-RMCUniversalRecorderEmpty-suffix
+  name: universal recorder
+  description: A device that can record dialogue on magnetic tape and play it back. Good for appeals or witness statements.
+  suffix: Empty
   components:
   - type: Sprite
     layers:
@@ -54,8 +54,8 @@
 - type: entity
   parent: RMCUniversalRecorderBase
   id: RMCUniversalRecorder
-  name: ent-RMCUniversalRecorder
-  description: ent-RMCUniversalRecorder-desc
+  name: universal recorder
+  description: A device that can record dialogue on magnetic tape and play it back. Good for appeals or witness statements.
   components:
   - type: UniversalRecorder
     tapeSlot:
@@ -108,13 +108,14 @@
 - type: entity
   parent: RMCUniversalRecorderTapeBase
   id: RMCUniversalRecorderTape
-  name: ent-RMCUniversalRecorderTape
-  description: ent-RMCUniversalRecorderTape-desc
+  name: regulation tape
+  description: A magnetic tape that can hold up to twenty minutes of content on either side.
+
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxRegulationTapesEmpty
-  name: ent-RMCBoxRegulationTapesEmpty
-  description: ent-RMCBoxRegulationTapesEmpty-desc
+  name: box of regulation tapes (x5)
+  description: A box of regulation tapes for universal recorders.
   components:
   - type: Sprite
     state: box
@@ -122,7 +123,7 @@
 - type: entity
   parent: RMCBoxRegulationTapesEmpty
   id: RMCBoxRegulationTapes
-  suffix: ent-RMCBoxRegulationTapes-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:

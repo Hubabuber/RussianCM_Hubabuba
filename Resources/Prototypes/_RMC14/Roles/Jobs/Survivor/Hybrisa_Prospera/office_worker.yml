@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivor
   id: RMCSurvivorHybrisaOfficeWorker
-  name: job-rmcsurvivorhybrisaofficeworker-name
-  description: job-rmcsurvivorhybrisaofficeworker-desc
+  name: rmc-job-name-survivor-hybrisa-office-worker
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaOfficeWorker
-  spawnMenuRoleName: job-rmcsurvivorhybrisaofficeworker-spawnmenurolename
+  spawnMenuRoleName: Civilian - Office Worker (Hybrisa Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaOfficeWorker
-  name: ent-RMCSpawnPointSurvivorHybrisaOfficeWorker
+  name: hybrisa office worker spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -44,7 +44,7 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetHybrisaOfficeWorker
-  name: ent-RMCGearSurvivorPresetHybrisaOfficeWorker
+  name: hybrisa office worker preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

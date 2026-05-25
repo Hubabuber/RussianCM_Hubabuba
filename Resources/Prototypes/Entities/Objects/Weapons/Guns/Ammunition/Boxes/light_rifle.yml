@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxLightRifle
-  name: ent-BaseMagazineBoxLightRifle
+  name: ammunition box (.30 rifle)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleBig
-  name: ent-MagazineBoxLightRifleBig
-  suffix: ent-MagazineBoxLightRifleBig-suffix
+  name: ammunition box (.30 rifle)
+  suffix: Big
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifle
-  name: ent-MagazineBoxLightRifle
-  description: ent-MagazineBoxLightRifle-desc
+  name: ammunition box (.30 rifle)
+  description: A cardboard box of .30 rifle rounds. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRiflePractice
-  name: ent-MagazineBoxLightRiflePractice
-  description: ent-MagazineBoxLightRiflePractice-desc
+  name: ammunition box (.30 rifle practice)
+  description: A cardboard box of .30 rifle rounds. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -75,8 +75,8 @@
 - type: entity
   id: MagazineBoxLightRifleIncendiary
   parent: BaseMagazineBoxLightRifle
-  name: ent-MagazineBoxLightRifleIncendiary
-  description: ent-MagazineBoxLightRifleIncendiary-desc
+  name: ammunition box (.30 rifle incendiary)
+  description: A cardboard box of .30 rifle rounds. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
@@ -91,8 +91,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleUranium
-  name: ent-MagazineBoxLightRifleUranium
-  description: ent-MagazineBoxLightRifleUranium-desc
+  name: ammunition box (.30 rifle uranium)
+  description: A cardboard box of .30 rifle rounds. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium

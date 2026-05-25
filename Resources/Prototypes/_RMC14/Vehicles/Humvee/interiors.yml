@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleHumveeInteriorBase
-  name: ent-VehicleHumveeInteriorBase
-  description: ent-VehicleHumveeInteriorBase-desc
+  name: humvee interior piece
+  description: A decorative interior piece for the humvee.
   placement:
     mode: PlaceFree
   components:
@@ -14,8 +14,8 @@
 - type: entity
   abstract: true
   id: VehicleHumveeChassisBase
-  name: ent-VehicleHumveeChassisBase
-  description: ent-VehicleHumveeChassisBase-desc
+  name: humvee interior chassis
+  description: A chassis segment for the humvee interior.
   placement:
     mode: PlaceFree
   components:
@@ -77,8 +77,8 @@
   abstract: true
   parent: VehicleHumveeInteriorBase
   id: VehicleHumveeRoofBase
-  name: ent-VehicleHumveeRoofBase
-  description: ent-VehicleHumveeRoofBase-desc
+  name: humvee interior roof
+  description: A removable roof section for the humvee interior.
   placement:
     mode: PlaceFree
   components:
@@ -115,7 +115,7 @@
 - type: entity
   parent: VehicleHumveeInteriorBase
   id: VehicleHumveeSeatDestroyed
-  name: ent-VehicleHumveeSeatDestroyed
+  name: humvee seat (destroyed)
   components:
   - type: Sprite
     state: car_seat_destroyed
@@ -123,8 +123,8 @@
 - type: entity
   parent: VehicleHumveeWallMountedBase
   id: VehicleHumveeAmmoLoader
-  name: ent-VehicleHumveeAmmoLoader
-  description: ent-VehicleHumveeAmmoLoader-desc
+  name: humvee ammo loader
+  description: A loader for humvee hardpoint ammunition.
   components:
   - type: Sprite
     state: weapons_loader
@@ -203,8 +203,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleHumveeLockerBase
-  name: ent-VehicleHumveeLockerBase
-  description: ent-VehicleHumveeLockerBase-desc
+  name: humvee interior locker
+  description: A storage locker for humvee interiors.
   placement:
     mode: PlaceFree
   components:
@@ -231,7 +231,7 @@
 - type: entity
   parent: VehicleHumveeLockerBase
   id: VehicleHumveeLockerMedical
-  name: ent-VehicleHumveeLockerMedical
+  name: humvee locker (medical)
 
 - type: entity
   abstract: true

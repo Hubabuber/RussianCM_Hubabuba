@@ -1,6 +1,6 @@
 - type: entity
   id: LockerWardenFilledHardsuit
-  suffix: ent-LockerWardenFilledHardsuit-suffix
+  suffix: Filled, Hardsuit
   parent: LockerWarden
   components:
   - type: StorageFill
@@ -26,7 +26,7 @@
 
 - type: entity
   id: LockerWardenFilled
-  suffix: ent-LockerWardenFilled-suffix
+  suffix: Filled
   parent: LockerWarden
   components:
   - type: StorageFill
@@ -52,7 +52,7 @@
 
 - type: entity
   id: LockerSecurityFilled
-  suffix: ent-LockerSecurityFilled-suffix
+  suffix: Filled
   parent: LockerSecurity
   components:
   - type: StorageFill
@@ -80,7 +80,7 @@
 
 - type: entity
   id: LockerBrigmedicFilled
-  suffix: ent-LockerBrigmedicFilled-suffix
+  suffix: Brigmedic, Filled
   parent: LockerBrigmedic
   components:
   - type: StorageFill
@@ -115,7 +115,7 @@
 
 - type: entity
   id: LockerDetectiveFilled
-  suffix: ent-LockerDetectiveFilled-suffix
+  suffix: Filled
   parent: LockerDetective
   components:
   - type: StorageFill
@@ -140,7 +140,7 @@
 - type: entity
   id: ClosetBombFilled
   parent: ClosetBomb
-  suffix: ent-ClosetBombFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -154,7 +154,7 @@
 - type: entity
   parent: [GunSafeBaseSecure, BaseSecurityContraband]
   id: GunSafeDisabler
-  name: ent-GunSafeDisabler
+  name: disabler safe
   components:
   - type: StorageFill
     contents:
@@ -164,7 +164,7 @@
 - type: entity
   parent: [GunSafeBaseSecure, BaseSecurityContraband]
   id: GunSafePistolMk58
-  name: ent-GunSafePistolMk58
+  name: mk58 safe
   components:
   - type: StorageFill
     contents:
@@ -176,7 +176,7 @@
 - type: entity
   parent: [GunSafeBaseSecure, BaseSecurityContraband]
   id: GunSafeRifleLecter
-  name: ent-GunSafeRifleLecter
+  name: lecter safe
   components:
   - type: StorageFill
     contents:
@@ -188,7 +188,7 @@
 - type: entity
   parent: [GunSafeBaseSecure, BaseSecurityContraband]
   id: GunSafeSubMachineGunDrozd
-  name: ent-GunSafeSubMachineGunDrozd
+  name: drozd safe
   components:
   - type: StorageFill
     contents:
@@ -200,7 +200,7 @@
 - type: entity
   parent: [GunSafeBaseSecure, BaseSecurityContraband]
   id: GunSafeShotgunEnforcer
-  name: ent-GunSafeShotgunEnforcer
+  name: enforcer safe
   components:
   - type: StorageFill
     contents:
@@ -212,7 +212,7 @@
 - type: entity
   parent: [GunSafeBaseSecure, BaseSecurityContraband]
   id: GunSafeShotgunKammerer
-  name: ent-GunSafeShotgunKammerer
+  name: kammerer safe
   components:
   - type: StorageFill
     contents:
@@ -223,9 +223,9 @@
 
 - type: entity
   id: GunSafeSubMachineGunWt550
-  suffix: ent-GunSafeSubMachineGunWt550-suffix
+  suffix: Wt550
   parent: [GunSafeBaseSecure, BaseSecurityContraband]
-  name: ent-GunSafeSubMachineGunWt550
+  name: wt550 safe
   components:
   - type: StorageFill
     contents:
@@ -237,7 +237,7 @@
 - type: entity
   parent: [GunSafeBaseSecure, BaseSecurityContraband]
   id: GunSafeLaserCarbine
-  name: ent-GunSafeLaserCarbine
+  name: laser safe
   components:
   - type: StorageFill
     contents:

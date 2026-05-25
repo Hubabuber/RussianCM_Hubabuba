@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   id: RMCLadder
-  name: ent-RMCLadder
-  description: ent-RMCLadder-desc
+  name: ladder
+  description: A sturdy metal ladder.
   placement:
     mode: SnapgridCenter
   components:
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCLadder
   id: RMCLadderUp
-  suffix: ent-RMCLadderUp-suffix
+  suffix: Up
   components:
   - type: Sprite
     state: ladderup
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCLadder
   id: RMCLadderThrough
-  suffix: ent-RMCLadderThrough-suffix
+  suffix: Through
   components:
   - type: Sprite
     state: ladder11
@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCLadder
   id: RMCLadderHatch
-  suffix: ent-RMCLadderHatch-suffix
+  suffix: Hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_tunnel.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: RMCLadder
   id: RMCLadderRope
-  name: ent-RMCLadderRope
-  description: ent-RMCLadderRope-desc
+  name: rope
+  description: A sturdy rope.
   components:
   - type: Sprite
     state: rope
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCLadderRope
   id: RMCLadderRopeAltDrawdepth
-  suffix: ent-RMCLadderRopeAltDrawdepth-suffix
+  suffix: Layers over Platforms
   components:
     - type: Sprite
       drawdepth: SmallObjects
@@ -69,8 +69,8 @@
 - type: entity
   id: CMUZLevelLadderBase
   abstract: true
-  name: ent-CMUZLevelLadderBase
-  description: ent-CMUZLevelLadderBase-desc
+  name: z-level ladder
+  description: A sturdy metal ladder that passes between Z-levels.
   placement:
     mode: SnapgridCenter
   components:
@@ -94,7 +94,7 @@
 - type: entity
   parent: CMUZLevelLadderBase
   id: CMUZLevelLadderThrough
-  suffix: ent-CMUZLevelLadderThrough-suffix
+  suffix: Z-Level, Up
   components:
   - type: CMUZLevelLadder
     offset: 1
@@ -109,7 +109,7 @@
 - type: entity
   parent: CMUZLevelLadderBase
   id: CMUZLevelLadderThroughDown
-  suffix: ent-CMUZLevelLadderThroughDown-suffix
+  suffix: Z-Level, Down
   components:
   - type: CMUZLevelLadder
     offset: -1

@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   id: RMCOverheadSign
   abstract: true
-  name: ent-RMCOverheadSign
+  name: sign
   placement:
     mode: SnapgridCenter
     snap:
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCOverheadSign
   id: RMCOverheadSignBarCrow
-  name: ent-RMCOverheadSignBarCrow
-  description: ent-RMCOverheadSignBarCrow-desc
+  name: The Drowning Crow Bar
+  description: A sign for 'The Drowning Crow' bar. The sign is old and delapitated.
   components:
   - type: Sprite
     state: crow_bar
@@ -364,7 +364,7 @@
 - type: entity
   parent: RMCOverheadSignNeonWeYaMart
   id: RMCOverheadSignNeonWeYaMartOffset
-  suffix: ent-RMCOverheadSignNeonWeYaMartOffset-suffix
+  suffix: Offset
   components:
   - type: Sprite
     offset: -0.07,0.45

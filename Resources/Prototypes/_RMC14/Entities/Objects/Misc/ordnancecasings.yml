@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: RMCCasingBase
-  name: ent-RMCCasingBase
-  description: ent-RMCCasingBase-desc
+  name: base casing
+  description:  An empty casing.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/CustomOrdnance/m40grenadecasing.rsi
@@ -12,8 +12,8 @@
     size: Small
 
 - type: entity
-  name: ent-RMCM40GrenadeCasing
-  description: ent-RMCM40GrenadeCasing-desc
+  name: 30mm grenade casing
+  description: A casing for an 30mm Grenade.
   parent: RMCCasingBase
   id: RMCM40GrenadeCasing
   components:
@@ -24,8 +24,8 @@
       CMSteel: 4250
 
 - type: entity
-  name: ent-RMCM15GrenadeCasing
-  description: ent-RMCM15GrenadeCasing-desc
+  name: M15 grenade casing
+  description: A casing for an M15 Grenade.
   parent: RMCCasingBase
   id: RMCM15GrenadeCasing
   components:
@@ -36,8 +36,8 @@
       CMSteel: 7000
 
 - type: entity
-  name: ent-RMCM20MineCasing
-  description: ent-RMCM20MineCasing-desc
+  name: M20 mine casing
+  description: A casing for an M20 Claymore mine.
   parent: RMCCasingBase
   id: RMCM20MineCasing
   components:
@@ -48,8 +48,8 @@
       CMSteel: 3750
 
 - type: entity
-  name: ent-RMCC4PlasticCasing
-  description: ent-RMCC4PlasticCasing-desc
+  name: C4 plastic casing
+  description: A casing for a plastic explosive.
   parent: RMCCasingBase
   id: RMCC4PlasticCasing
   components:
@@ -61,8 +61,8 @@
       RMCPlastic: 2000
 
 - type: entity
-  name: ent-RMC84mmRocketTube
-  description: ent-RMC84mmRocketTube-desc
+  name: 84mm rocket tube
+  description: A tube for a 84mm rocket.
   parent: RMCCasingBase
   id: RMC84mmRocketTube
   components:
@@ -73,8 +73,8 @@
       CMSteel: 7500
 
 - type: entity
-  name: ent-RMC84mmRocketWarhead
-  description: ent-RMC84mmRocketWarhead-desc
+  name: 84mm rocket warhead
+  description: A warhead for a 84mm rocket.
   parent: RMCCasingBase
   id: RMC84mmRocketWarhead
   components:
@@ -85,8 +85,8 @@
       CMSteel: 11250
 
 - type: entity
-  name: ent-RMC80mmMortarShell
-  description: ent-RMC80mmMortarShell-desc
+  name: 80mm mortar shell casing
+  description: A shell for a 84mm mortar.
   parent: RMCCasingBase
   id: RMC80mmMortarShell
   components:
@@ -97,8 +97,8 @@
       CMSteel: 18750
 
 - type: entity
-  name: ent-RMC80mmMortarWarhead
-  description: ent-RMC80mmMortarWarhead-desc
+  name: 80mm mortar shell warhead
+  description: A warhead for a 84mm mortar.
   parent: RMCCasingBase
   id: RMC80mmMortarWarhead
   components:
@@ -109,8 +109,8 @@
       CMSteel: 11250
 
 - type: entity
-  name: ent-RMC80mmMortarCameraWarhead
-  description: ent-RMC80mmMortarCameraWarhead-desc
+  name: 80mm mortar shell camera warhead
+  description: A camera warhead for a 84mm mortar.
   parent: RMCCasingBase
   id: RMC80mmMortarCameraWarhead
   components:
@@ -121,8 +121,8 @@
       CMSteel: 15000
 
 - type: entity
-  name: ent-RMCCustomM34A1SmokeTankCase
-  description: ent-RMCCustomM34A1SmokeTankCase-desc
+  name: Custom M34 smoke tank
+  description: An incomplete fuel tank used to store smoke for use in the M34 incinerator unit.
   parent: RMCCasingBase
   id: RMCCustomM34A1SmokeTankCase
   components:

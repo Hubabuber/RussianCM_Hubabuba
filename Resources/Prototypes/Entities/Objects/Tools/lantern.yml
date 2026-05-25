@@ -1,8 +1,8 @@
-- type: entity
-  name: ent-Lantern
+﻿- type: entity
+  name: lantern
   parent: BaseItem
   id: Lantern
-  description: ent-Lantern-desc
+  description: The holy light guides the way.
   components:
     - type: HandheldLight
       addPrefix: true
@@ -72,7 +72,7 @@
 - type: entity
   parent: Lantern
   id: LanternFlash
-  suffix: ent-LanternFlash-suffix
+  suffix: Flash
   components:
     - type: Sprite
       sprite: Objects/Tools/lantern.rsi

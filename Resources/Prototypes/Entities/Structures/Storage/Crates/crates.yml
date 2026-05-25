@@ -1,7 +1,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CrateGenericSteel
-  name: ent-CrateGenericSteel
+  name: crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/generic.rsi
@@ -18,7 +18,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CratePlastic
-  name: ent-CratePlastic
+  name: plastic crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/plastic.rsi
@@ -35,7 +35,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateFreezer
-  name: ent-CrateFreezer
+  name: freezer
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/freezer.rsi
@@ -53,7 +53,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateHydroponics
-  name: ent-CrateHydroponics
+  name: hydroponics crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/hydroponics.rsi
@@ -63,7 +63,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateMedical
-  name: ent-CrateMedical
+  name: medical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/medical.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateRadiation
-  name: ent-CrateRadiation
-  description: ent-CrateRadiation-desc
+  name: radiation gear crate
+  description: Is not actually lead lined. Do not store your plutonium in this.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/radiation.rsi
@@ -84,7 +84,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateInternals
-  name: ent-CrateInternals
+  name: oxygen crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/o2.rsi
@@ -94,7 +94,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateElectrical
-  name: ent-CrateElectrical
+  name: electrical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/electrical.rsi
@@ -104,7 +104,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateEngineering
-  name: ent-CrateEngineering
+  name: engineering crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/engineering.rsi
@@ -114,7 +114,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateScience
-  name: ent-CrateScience
+  name: science crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/science.rsi
@@ -124,7 +124,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSurgery
-  name: ent-CrateSurgery
+  name: surgery crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/surgery.rsi
@@ -134,7 +134,7 @@
 - type: entity
   parent: CrateGeneric
   id: CrateWeb
-  name: ent-CrateWeb
+  name: web crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/web.rsi
@@ -189,7 +189,7 @@
 - type: entity
   parent: [ CrateBaseSecure, BaseSecurityContraband ]
   id: CrateSecgear
-  name: ent-CrateSecgear
+  name: secgear crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/sec_gear.rsi
@@ -201,7 +201,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateEngineeringSecure
-  name: ent-CrateEngineeringSecure
+  name: secure engineering crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/engicrate_secure.rsi
@@ -213,7 +213,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateMedicalSecure
-  name: ent-CrateMedicalSecure
+  name: secure medical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/medicalcrate_secure.rsi
@@ -225,7 +225,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateChemistrySecure
-  name: ent-CrateChemistrySecure
+  name: secure chemistry crate
   components:
     - type: Icon
       sprite: Structures/Storage/Crates/chemcrate_secure.rsi
@@ -237,7 +237,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CratePrivateSecure
-  name: ent-CratePrivateSecure
+  name: private crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/privatecrate_secure.rsi
@@ -247,7 +247,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateScienceSecure
-  name: ent-CrateScienceSecure
+  name: secure science crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/scicrate_secure.rsi
@@ -259,7 +259,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CratePlasma
-  name: ent-CratePlasma
+  name: plasma crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/plasma.rsi
@@ -271,7 +271,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateSecure
-  name: ent-CrateSecure
+  name: secure crate
   components:
     - type: Icon
       sprite: Structures/Storage/Crates/secure.rsi
@@ -281,7 +281,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateHydroSecure
-  name: ent-CrateHydroSecure
+  name: secure hydroponics crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/hydro_secure.rsi
@@ -293,7 +293,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateWeaponSecure
-  name: ent-CrateWeaponSecure
+  name: secure weapon crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/weapon.rsi
@@ -304,10 +304,10 @@
 
 - type: entity
   parent: [ CrateBaseSecure, BaseSecurityContraband ]
-  suffix: ent-CrateContrabandStorageSecure-suffix
+  suffix: Armory, Secure
   id: CrateContrabandStorageSecure
-  name: ent-CrateContrabandStorageSecure
-  description: ent-CrateContrabandStorageSecure-desc
+  name: contraband storage crate
+  description: An armory access locked crate for storing contraband confiscated from suspects or prisoners.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/sec_gear.rsi
@@ -317,7 +317,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateCommandSecure
-  name: ent-CrateCommandSecure
+  name: command crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/command.rsi
@@ -329,7 +329,7 @@
 - type: entity
   parent: CrateGeneric
   id: CrateLivestock
-  name: ent-CrateLivestock
+  name: livestock crate
   components:
   - type: EntityStorage
     airtight: false
@@ -386,7 +386,7 @@
 - type: entity
   parent: CrateGeneric
   id: CrateRodentCage
-  name: ent-CrateRodentCage
+  name: hamster cage
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/cage.rsi
@@ -447,8 +447,8 @@
 - type: entity
   id: CrateBaseLockBox
   parent: CrateBaseSecure
-  name: ent-CrateBaseLockBox
-  description: "ent-CrateBaseLockBox-desc"
+  name: lock box
+  description: "A secure lock box. Funds from its sale will be distributed back to the department. Just remember: Cargo always takes a cut."
   abstract: true
   components:
   - type: Sprite
@@ -485,7 +485,7 @@
 - type: entity
   id: CrateLockBoxEngineering
   parent: CrateBaseLockBox
-  name: ent-CrateLockBoxEngineering
+  name: engineering lock box
   components:
   - type: Sprite
     layers:
@@ -515,7 +515,7 @@
 - type: entity
   id: CrateLockBoxMedical
   parent: CrateBaseLockBox
-  name: ent-CrateLockBoxMedical
+  name: medical lock box
   components:
   - type: Sprite
     layers:
@@ -545,7 +545,7 @@
 - type: entity
   id: CrateLockBoxScience
   parent: CrateBaseLockBox
-  name: ent-CrateLockBoxScience
+  name: science lock box
   components:
   - type: Sprite
     layers:
@@ -575,7 +575,7 @@
 - type: entity
   id: CrateLockBoxSecurity
   parent: CrateBaseLockBox
-  name: ent-CrateLockBoxSecurity
+  name: security lock box
   components:
   - type: Sprite
     layers:
@@ -605,7 +605,7 @@
 - type: entity
   id: CrateLockBoxService
   parent: CrateBaseLockBox
-  name: ent-CrateLockBoxService
+  name: service lock box
   components:
   - type: Sprite
     layers:
@@ -635,8 +635,8 @@
 - type: entity
   parent: CrateGeneric
   id: CratePirate
-  name: ent-CratePirate
-  description: ent-CratePirate-desc
+  name: pirate chest
+  description: A space pirate chest, not for station lubbers.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/piratechest.rsi
@@ -663,9 +663,9 @@
 - type: entity
   parent: CratePirate
   id: CrateToyBox
-  name: ent-CrateToyBox
-  suffix: ent-CrateToyBox-suffix
-  description: ent-CrateToyBox-desc
+  name: toy box
+  suffix: Empty
+  description: A box overflowing with fun.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/toybox.rsi
@@ -686,8 +686,8 @@
 - type: entity
   parent: CrateGeneric
   id: CrateCoffin
-  name: ent-CrateCoffin
-  description: ent-CrateCoffin-desc
+  name: coffin
+  description: A comfy coffin, excellent place for the vampires and corpses.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/coffin.rsi
@@ -734,9 +734,9 @@
 - type: entity
   parent: CrateGeneric
   id: CrateWoodenGrave
-  name: ent-CrateWoodenGrave
-  suffix: ent-CrateWoodenGrave-suffix
-  description: ent-CrateWoodenGrave-desc
+  name: grave
+  suffix: wooden
+  description: Someone died here...
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/wooden_grave.rsi
@@ -793,9 +793,9 @@
 - type: entity
   parent: CrateWoodenGrave
   id: CrateStoneGrave
-  name: ent-CrateStoneGrave
-  suffix: ent-CrateStoneGrave-suffix
-  description: ent-CrateStoneGrave-desc
+  name: grave
+  suffix: stone
+  description: Someone died here...
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/stone_grave.rsi
@@ -814,8 +814,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSyndicate
-  name: ent-CrateSyndicate
-  description: ent-CrateSyndicate-desc
+  name: Syndicate crate
+  description: A dark steel crate with red bands and a letter S embossed on the front.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/syndicate.rsi
@@ -825,7 +825,7 @@
 - type: entity
   parent: [StructureWheeled, CrateBaseWeldable]
   id: CrateTrashCart
-  name: ent-CrateTrashCart
+  name: trash cart
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashcart.rsi
@@ -846,7 +846,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateTrashCartJani
-  name: ent-CrateTrashCartJani
+  name: janitorial trash cart
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashcart_jani.rsi
@@ -872,7 +872,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: InvisibleCrate
-  suffix: ent-InvisibleCrate-suffix
+  suffix: Stealth
   components:
   - type: Stealth
     hadOutline: true

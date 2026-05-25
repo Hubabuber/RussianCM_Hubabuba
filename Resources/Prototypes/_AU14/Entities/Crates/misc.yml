@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   parent: RMCCrateBase
   id: AU14CrateFOBTentCrate
-  name: ent-AU14CrateFOBTentCrate
+  name: forward operating base tent crate
   components:
   - type: StorageFill
     contents:
@@ -18,7 +18,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateMotionDetectors
-  name: ent-AU14CrateMotionDetectors
+  name: motion detectors crate (x2 motion detector, x2 pocket motion detector)
   components:
   - type: StorageFill
     contents:
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateTacticalMonocular
-  name: ent-AU14CrateTacticalMonocular
+  name: tactical monocular crate (x5 tactical monocular)
   components:
   - type: StorageFill
     contents:
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateTacticalMonocularDesignator
-  name: ent-AU14CrateTacticalMonocularDesignator
+  name: tactical monocular designator crate (x4 tactical monocular designator)
   components:
   - type: StorageFill
     contents:
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCSecureCaseMedicalBig #Medical Vendor Crate
   id: AU14CrateMedicalVendor
-  name: ent-AU14CrateMedicalVendor
-  description: ent-AU14CrateMedicalVendor-desc
+  name: We-Yu-Med Vendor crate
+  description: A crate containing one We-Yu-Med vendor.
   components:
   - type: SpawnOnTerminate
     spawn: AU14GeneralMedicalVendor
@@ -57,8 +57,8 @@
 - type: entity
   parent: RMCSecureCaseMedicalBig #Medical Vendor Crate
   id: AU14CrateMedicalBloodVendor
-  name: ent-AU14CrateMedicalBloodVendor
-  description: ent-AU14CrateMedicalBloodVendor-desc
+  name: WeYu blood dispenser crate
+  description: A crate containing one We-Yu-Med vendor.
   components:
   - type: SpawnOnTerminate
     spawn: AU14VendorBlood
@@ -75,7 +75,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateM5A1SLAW
-  name: ent-AU14CrateM5A1SLAW
+  name: M5A1 SLAW anti-tank launcher crate (x4 M5A1 SLAW)
   components:
   - type: StorageFill
     contents:
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateM7SLAW
-  name: ent-AU14CrateM7SLAW
+  name: M7-SMAW anti-tank launcher crate (x1 M7-SMAW, x2 84mm AP rocket, x2 84mm HE rocket)
   components:
   - type: StorageFill
     contents:
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateM7SLAWMixedRocket
-  name: ent-AU14CrateM7SLAWMixedRocket
+  name: 84mm mixed rocket crate (x2 84mm HE rocket, x2 84mm AP rocket)
   components:
   - type: StorageFill
     contents:
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateM7SLAWAPRocket
-  name: ent-AU14CrateM7SLAWAPRocket
+  name: 84mm AP rocket crate (x4 84mm AP rocket)
   components:
   - type: StorageFill
     contents:
@@ -121,7 +121,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateM7SLAWHERocket
-  name: ent-AU14CrateM7SLAWHERocket
+  name: 84mm HE rocket crate (x4 84mm HE rocket)
   components:
   - type: StorageFill
     contents:
@@ -131,7 +131,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateCASNapalm
-  name: ent-AU14CrateCASNapalm
+  name: AGM-99 'Napalm' Munition
   components:
   - type: StorageFill
     contents:
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateHJRA12
-  name: ent-AU14CrateHJRA12
+  name: HJRA-12 anti-tank launcher crate (x1 HJRA-12, x2 AT rocket, x2 HE rocket)
   components:
   - type: StorageFill
     contents:
@@ -155,7 +155,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateHJRA12MixedRocket
-  name: ent-AU14CrateHJRA12MixedRocket
+  name: HJRA-12 mixed rocket crate (x2 HE rocket, x2 AT rocket)
   components:
   - type: StorageFill
     contents:
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateHJRA12ATRocket
-  name: ent-AU14CrateHJRA12ATRocket
+  name: HJRA-12 AT rocket crate (x4 AT rocket)
   components:
   - type: StorageFill
     contents:
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateHJRA12HERocket
-  name: ent-AU14CrateHJRA12HERocket
+  name: HJRA-12 HE rocket crate (x4 HE rocket)
   components:
   - type: StorageFill
     contents:
@@ -187,7 +187,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateHJRA12EIIRocket
-  name: ent-AU14CrateHJRA12EIIRocket
+  name: HJRA-12 Extreme-Intensity Incendiary rocket crate (x4 EI-I rocket)
   components:
   - type: StorageFill
     contents:
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateOG60
-  name: ent-AU14CrateOG60
+  name: OG60 rotary launcher crate (x1 OG60, x1 Frag Box, x1 Incend Box)
   components:
   - type: StorageFill
     contents:
@@ -213,8 +213,8 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateM41AMK2
-  name: ent-AU14CrateM41AMK2
-  description: ent-AU14CrateM41AMK2-desc
+  name: M41A MK2 crate (1x M41A MK2, 3x magazines M41A MK2)
+  description: A crate containing one M41A MK2 rifles and three magazines.
   components:
   - type: StorageFill
     contents:
@@ -226,8 +226,8 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateM240A1
-  name: ent-AU14CrateM240A1
-  description: ent-AU14CrateM240A1-desc
+  name: M240A1 incinerator crate (1x M240A1 incinerator unit, 2x fuel tanks)
+  description: A crate containing one M240A1 incinerator units and two fuel tanks.
   components:
   - type: StorageFill
     contents:
@@ -239,8 +239,8 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateFP9000
-  name: ent-AU14CrateFP9000
-  description: ent-AU14CrateFP9000-desc
+  name: FP9000/2 crate (1x FP9000/2, 3x FP9000/2 magazines)
+  description: A crate containing one FP9000/2 rifle and three magazines.
   components:
   - type: StorageFill
     contents:
@@ -252,8 +252,8 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateSSG45
-  name: ent-AU14CrateSSG45
-  description: ent-AU14CrateSSG45-desc
+  name: SSG-45 assault rifle crate (1x SSG-45 assault rifle, 3x SSG-45 magazines)
+  description: A crate containing one SSG-45 assault rifle and three magazines.
   components:
   - type: StorageFill
     contents:
@@ -265,8 +265,8 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateM5A1SLAW_We-Yu
-  name: ent-AU14CrateM5A1SLAW_We-Yu
-  description: ent-AU14CrateM5A1SLAW_We-Yu-desc
+  name: M5A1 SLAW anti-tank launcher crate (x2)
+  description: A crate containing four M5A1 SLAW anti-tank launchers.
   components:
   - type: StorageFill
     contents:
@@ -276,8 +276,8 @@
 - type: entity
   parent: RMCCrateWeapons
   id: AU14CrateM39B2
-  name: ent-AU14CrateM39B2
-  description: ent-AU14CrateM39B2-desc
+  name: M39B/2 SMG crate (1x M39B/2 SMG, 4 M39B/2 magazines)
+  description: A crate containing one M39B/2 submachine gun and four magazines.
   components:
   - type: StorageFill
     contents:
@@ -303,8 +303,8 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateM41AMK2Ammo
-  name: ent-AU14CrateM41AMK2Ammo
-  description: ent-AU14CrateM41AMK2Ammo-desc
+  name: M41A MK2 magazine crate (x4)
+  description: A crate containing four M41A MK2 magazines.
   components:
   - type: StorageFill
     contents:
@@ -314,8 +314,8 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateM240A1Ammo
-  name: ent-AU14CrateM240A1Ammo
-  description: ent-AU14CrateM240A1Ammo-desc
+  name: M240A1 incinerator tank crate (x2)
+  description: A crate containing two incinerator fuel tanks.
   components:
   - type: StorageFill
     contents:
@@ -325,8 +325,8 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateFP9000Ammo
-  name: ent-AU14CrateFP9000Ammo
-  description: ent-AU14CrateFP9000Ammo-desc
+  name: FP9000/2 magazine crate (x4)
+  description: A crate containing four FP9000/2 magazines.
   components:
   - type: StorageFill
     contents:
@@ -336,8 +336,8 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateSSG45Ammo
-  name: ent-AU14CrateSSG45Ammo
-  description: ent-AU14CrateSSG45Ammo-desc
+  name: SSG-45 magazine crate (x4)
+  description: A crate containing four SSG-45 magazines.
   components:
   - type: StorageFill
     contents:
@@ -347,8 +347,8 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateM39B2Ammo
-  name: ent-AU14CrateM39B2Ammo
-  description: ent-AU14CrateM39B2Ammo-desc
+  name: M39B/2 magazine crate (x5)
+  description: A crate containing five M39B/2 magazines.
   components:
   - type: StorageFill
     contents:

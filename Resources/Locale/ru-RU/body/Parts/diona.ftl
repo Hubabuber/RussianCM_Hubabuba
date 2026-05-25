@@ -20,24 +20,3 @@ ent-LeftFootDiona-name = левая нога Дионы
 
 ent-RightFootDiona-name = правая нога Дионы
 
-ent-HeadDiona = голова дионы
-
-ent-LeftArmDiona = левая рука Дионы
-
-ent-LeftFootDiona = левая нога Дионы
-
-ent-LeftHandDiona = левая рука Дионы
-
-ent-LeftLegDiona = левая нога Дионы
-
-ent-PartDiona = часть тела дионы
-
-ent-RightArmDiona = правая рука Дионы
-
-ent-RightFootDiona = правая нога Дионы
-
-ent-RightHandDiona = правая рука Дионы
-
-ent-RightLegDiona = правая нога Дионы
-
-ent-TorsoDiona = туловище дионы

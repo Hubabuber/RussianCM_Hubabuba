@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: RMCWeaponPistolHoldout
-  name: ent-RMCWeaponPistolHoldout
-  description: ent-RMCWeaponPistolHoldout-desc
-  suffix: ent-RMCWeaponPistolHoldout-suffix
+  name: holdout pistol
+  description: A tiny pistol meant for hiding in hard-to-reach areas. Best not ask where it came from.
+  suffix: Filled
   components:
   - type: Item
     size: Tiny
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolHoldout
-  name: ent-RMCMagazinePistolHoldout
-  description: ent-RMCMagazinePistolHoldout-desc
+  name: holdout pistol magazine (.22)
+  description: A surprisingly small magazine, holding .22 bullets. No Kolibri, but it's getting there.
   components:
   - type: Tag
     tags:
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol22mm
-  name: ent-CMBulletPistol22mm
+  name: bullet (.22)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -97,7 +97,7 @@
 
 - type: entity
   id: CMCartridgePistol22mm
-  name: ent-CMCartridgePistol22mm
+  name: cartridge (.22)
   parent: CMCartridgePistolBase
   components:
   - type: Tag

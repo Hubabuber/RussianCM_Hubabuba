@@ -4,8 +4,3 @@ ent-BaseXenoArtifact-desc = Странный артефакт неизвестн
 ent-ActionArtifactActivate-name = Активировать Артефакт
 ent-ActionArtifactActivate-desc = Активируйте себя, вызывая хаос среди тех, кто рядом с вами.
 
-ent-ActionArtifactActivate = Активировать Артефакт
-    .desc = Активируйте себя, вызывая хаос среди тех, кто рядом с вами.
-
-ent-BaseXenoArtifact = артефакт
-    .desc = Странный артефакт неизвестного времени. Похоже, хорошо провести время.

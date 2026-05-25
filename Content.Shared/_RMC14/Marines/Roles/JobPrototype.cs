@@ -43,10 +43,6 @@ public sealed partial class JobPrototype : IInheritingPrototype, ICMSpecific
     [DataField]
     public string? SpawnMenuRoleName;
 
-    public string? LocalizedSpawnMenuRoleName => SpawnMenuRoleName is { } roleName
-        ? Loc.TryGetString(roleName, out var localized) ? localized : roleName
-        : null;
-
     [DataField]
     public string? NewToJobInfo;
 

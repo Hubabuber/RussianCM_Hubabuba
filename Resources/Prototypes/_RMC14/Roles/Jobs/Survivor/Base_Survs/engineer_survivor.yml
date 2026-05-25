@@ -1,8 +1,8 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorEngineer
-  name: job-cmsurvivorengineer-name
-  description: job-cmsurvivorengineer-desc
+  name: cm-job-name-survivor-engineer
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorEngineer
   startingGear: RMCGearSurvivorEngineer
   accessGroups:
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorEngineer
-  name: ent-RMCSpawnPointSurvivorEngineer
+  name: survivor engineer spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetEngineer
-  name: ent-RMCSurvivorPresetEngineer
+  name: engineer colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -76,7 +76,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorEngineer
-  name: ent-RMCRandomHumanoidSurvivorEngineer
+  name: engineer colonist ghost role
   components:
   - type: Sprite
     layers:

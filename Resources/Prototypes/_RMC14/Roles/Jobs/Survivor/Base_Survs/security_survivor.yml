@@ -1,8 +1,8 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorSecurity
-  name: job-cmsurvivorsecurity-name
-  description: job-cmsurvivorsecurity-desc
+  name: cm-job-name-survivor-security
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorSecurity
   ranks:
     RMCRankCivilianSeniorOfficer:
@@ -47,7 +47,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSecurity
-  name: ent-RMCSpawnPointSurvivorSecurity
+  name: survivor security spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetSecurity
-  name: ent-RMCSurvivorPresetSecurity
+  name: security colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -78,7 +78,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorSecurity
-  name: ent-RMCRandomHumanoidSurvivorSecurity
+  name: security colonist ghost role
   components:
   - type: Sprite
     layers:

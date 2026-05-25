@@ -1,28 +1,28 @@
 ent-RMCAreaEndeavourOOB = За пределами границ
-    .suffix = область
+
 ent-RMCAreaEndeavourSyntheticStorage = Синтетическое хранилище
-    .suffix = область
+
 ent-RMCAreaEndeavourAICore = Ядро ИИ АРЕС
-    .suffix = область
+
 ent-RMCAreaEndeavourSupply = Отсек снабжения
-    .suffix = область
+
 ent-RMCAreaEndeavourHangar = Ангар
-    .suffix = область
+
 ent-RMCAreaEndeavourMedical = Лазарет
-    .suffix = область
+
 ent-RMCAreaEndeavourPrep = Стойки для передач
-    .suffix = область
+
 ent-RMCAreaEndeavourMaintenance = Обслуживание
-    .suffix = область
+
 ent-RMCAreaEndeavourHypersleepStorage = Гиперсонное хранилище
-    .suffix = область
+
 ent-RMCAreaEndeavourMess = Столовая
-    .suffix = область
+
 ent-RMCAreaEndeavourCommandDeck = Командная колода
-    .suffix = область
+
 ent-RMCAreaEndeavourDormitory = Общежитие
-    .suffix = область
+
 ent-RMCAreaEndeavourBrief = Зал для брифингов
-    .suffix = область
+
 ent-RMCAreaEndeavour = УНС Индевор
-    .suffix = область
+

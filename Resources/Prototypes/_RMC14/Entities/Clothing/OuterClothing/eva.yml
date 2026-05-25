@@ -1,9 +1,9 @@
-# Bases
+﻿# Bases
 - type: entity
   parent: RMCBaseArmor
   id: RMCSuitEVABase
-  name: ent-RMCSuitEVABase
-  description: ent-RMCSuitEVABase-desc
+  name: pressure suit
+  description: A heavy and bulky space suit.
   abstract: true
   components:
   - type: Sprite
@@ -35,8 +35,8 @@
   parent: RMCHardHat
   id: RMCHelmetEVABase
   categories: [ HideSpawnMenu ]
-  name: ent-RMCHelmetEVABase
-  description: ent-RMCHelmetEVABase-desc
+  name: pressure helmet
+  description: A heavy space helmet, designed to be coupled with a pressure suit.
   abstract: true
   components:
   - type: Sprite
@@ -77,9 +77,9 @@
 - type: entity
   parent: RMCSuitEVABase
   id: RMCSuitEVASGO
-  name: ent-RMCSuitEVASGO
-  suffix: ent-RMCSuitEVASGO-suffix
-  description: ent-RMCSuitEVASGO-desc
+  name: smart gun compatable pressure suit
+  suffix: Smart Gun harness
+  description: A heavy and bulky space suit. For whatever reason, it seems this suit has the fittings for a smart weapon system.
   abstract: true
   components:
   - type: ClothingBlockBackpack
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCSuitEVABase
   id: RMCSuitEVAUNMC
-  name: ent-RMCSuitEVAUNMC
-  description: ent-RMCSuitEVAUNMC-desc
+  name: UNMC MK.35 pressure suit
+  description: A heavy and bulky military-grade space suit utilized by the United Nations Marine Corps and a few other UN organizations.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: RMCSuitEVASGO
   id: RMCSuitEVAUNMCSGO
-  name: ent-RMCSuitEVAUNMCSGO
-  description: ent-RMCSuitEVAUNMCSGO-desc
+  name: UNMC MK.35 ML66A compatable pressure suit
+  description: A heavy and bulky military-grade space suit utilized by the United Nations Marine Corps and a few other UN organizations. Seems this suit has the required fittings to be compatable with an ML66A Smart Gun.
   components:
   - type: ClothingRequireEquipped
     denyReason: rmc-armor-not-marine-jumpsuit
@@ -122,8 +122,8 @@
   parent: RMCHelmetEVABase
   id: RMCHelmetEVAUNMC
   categories: [ HideSpawnMenu ]
-  name: ent-RMCHelmetEVAUNMC
-  description: ent-RMCHelmetEVAUNMC-desc
+  name: UNMC MK.35 pressure helmet
+  description: A heavy space helmet, designed to be coupled with the MK.35 pressure suit utilized by the United Nations Marine Corps and a few other UN organizations.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCSuitEVABase
   id: RMCSuitEVASPP
-  name: ent-RMCSuitEVASPP
-  description: ent-RMCSuitEVASPP-desc
+  name: SPP Type 2 pressure suit
+  description: A heavy and bulky military-grade space suit utilized by the Socialist Progressive People and a few other SPP organizations.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/spp.rsi
@@ -162,8 +162,8 @@
   parent: RMCHelmetEVABase
   id: RMCHelmetEVASPP
   categories: [ HideSpawnMenu ]
-  name: ent-RMCHelmetEVASPP
-  description: ent-RMCHelmetEVASPP-desc
+  name: SPP Type 2 pressure helmet
+  description: A heavy space helmet, designed to be coupled with the Type 2 pressure suit utilized by the Socialist Progressive People and a few other SPP organizations.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/spp.rsi
@@ -181,7 +181,7 @@
 - type: entity
   parent: RMCSuitEVABase
   id: RMCSuitEVACivilian
-  name: ent-RMCSuitEVACivilian
+  name: white pressure suit
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/white.rsi # TODO
@@ -198,7 +198,7 @@
   parent: RMCHelmetEVABase
   id: RMCHelmetEVACivilian
   categories: [ HideSpawnMenu ]
-  name: ent-RMCHelmetEVACivilian
+  name: white pressure helmet
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/white.rsi # TODO

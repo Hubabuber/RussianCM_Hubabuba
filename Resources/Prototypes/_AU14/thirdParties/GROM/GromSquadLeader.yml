@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14UPPGROMSquadleader
-  name: job-au14uppgromsquadleader-name
-  description: job-au14uppgromsquadleader-desc
+  name: au-14-job-name-uppgrom-squadleader
+  description: au14-uppgrom-description
   playTimeTracker: AU14JobUPPGROMSquadLeader
   ranks:
     UPP_SeniorLieutenant:
@@ -14,12 +14,12 @@
       role: AU14JobUPPGROMSquadLeader
       time: 18000 #5 hours
     UPP_JuniorLieutenant: []
-  spawnMenuRoleName: job-au14uppgromsquadleader-spawnmenurolename
+  spawnMenuRoleName: UPP GROM Squad Leader (Survivor)
   startingGear: AU14GearUPPGROMSquadleader
   greeting: au14-uppgrom-greeting
   icon: "AU14JobIconUPPGROMSquadLeader"
   joinNotifyCrew: false
-  supervisors: job-au14uppgromsquadleader-supervisors
+  supervisors: au-14-job-name-uppgrom-commander
   accessGroups:
   - AU14GovforCommand
   special:
@@ -58,7 +58,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMSquadleader
-  name: ent-AU14JobUPPGROMSquadleader
+  name: UPP GROM Squad Leader
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

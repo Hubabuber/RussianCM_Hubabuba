@@ -1,6 +1,6 @@
 - type: entity
-  name: ent-Dart
-  description: ent-Dart-desc
+  name: dart
+  description: Light throwing dart for playing darts. Don't get in the eye!
   parent: BaseItem
   id: Dart
   components:
@@ -116,7 +116,7 @@
 - type: entity
   parent: Dart
   id: HypoDart
-  suffix: ent-HypoDart-suffix
+  suffix: HypoDart
   components:
   - type: SolutionContainerManager
     solutions:
@@ -130,10 +130,10 @@
     maxTransferAmount: 7
 
 - type: entity
-  name: ent-TargetDarts
+  name: dartboard
   id: TargetDarts
   parent: BaseStructureDynamic
-  description: ent-TargetDarts-desc
+  description: A target for playing darts.
   components:
   - type: Sprite
     sprite: Objects/Fun/Darts/target.rsi
@@ -193,9 +193,9 @@
 - type: entity
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: HypoDartBox
-  name: ent-HypoDartBox
-  suffix: ent-HypoDartBox-suffix
-  description: ent-HypoDartBox-desc
+  name: hypodart box
+  suffix: HypoDart
+  description: A small box containing a hypodart. Packaging disintegrates when opened, leaving no evidence behind.
   components:
   - type: Sprite
     sprite: Objects/Fun/Darts/dartbox.rsi

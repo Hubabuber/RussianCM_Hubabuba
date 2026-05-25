@@ -58,7 +58,7 @@
 - type: entity
   parent: BaseDelivery
   id: PackageDelivery
-  name: ent-PackageDelivery
+  name: package
   components:
   - type: Sprite
     sprite: Objects/Specific/Cargo/mail_large.rsi
@@ -108,7 +108,7 @@
 - type: entity
   parent: BaseDelivery
   id: LetterDelivery
-  name: ent-LetterDelivery
+  name: letter
   components:
   - type: Sprite
     sprite: Objects/Specific/Cargo/mail.rsi
@@ -167,14 +167,14 @@
 
 - type: entity
   id: DeliveryModifierPriority
-  description: ent-DeliveryModifierPriority-desc
+  description: Components to add when a delivery is rolled as priority.
   categories: [ HideSpawnMenu ]
   components:
   - type: DeliveryPriority
 
 - type: entity
   id: DeliveryModifierFragile
-  description: ent-DeliveryModifierFragile-desc
+  description: Components to add when a delivery is rolled as fragile.
   categories: [ HideSpawnMenu ]
   components:
   - type: DeliveryFragile
@@ -205,7 +205,7 @@
 
 - type: entity
   id: DeliveryModifierBomb
-  description: ent-DeliveryModifierBomb-desc
+  description: Components to add when a delivery is rolled as a bomb.
   categories: [ HideSpawnMenu ]
   components:
   - type: DeliveryBomb

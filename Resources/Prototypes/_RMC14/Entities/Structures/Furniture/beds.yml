@@ -1,9 +1,9 @@
 - type: entity
   parent: Bed
   id: CMBed
-  name: ent-CMBed
-  suffix: ent-CMBed-suffix
-  description: ent-CMBed-desc
+  name: bed
+  suffix: RMC
+  description: A mattress seated on a rectangular metallic frame. This is used to support a lying person in a comfortable manner, notably for regular sleep. Ancient technology, but still useful.
   components:
   - type: VehicleSmashable
   - type: Transform
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMBed
   id: RMCBedAlien
-  name: ent-RMCBedAlien
-  suffix: ent-RMCBedAlien-suffix
+  name: alien bed
+  suffix: RMC|Alien
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunk
-  name: ent-RMCBedBunk
+  name: black bunk-bed
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkBlue
-  name: ent-RMCBedBunkBlue
+  name: blue bunk-bed
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkGreen
-  name: ent-RMCBedBunkGreen
+  name: green bunk-bed
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCBedBunkGreen
   id: RMCBedBunkGreenUnanchored
-  suffix: ent-RMCBedBunkGreenUnanchored-suffix
+  suffix: RMC|Unanchored
   components:
   - type: Transform
     anchored: false
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkRed
-  name: ent-RMCBedBunkRed
+  name: red bunk-bed
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -142,9 +142,9 @@
 - type: entity
   parent: [BaseItem, BaseFoldable]
   id: Bedroll
-  name: ent-Bedroll
-  suffix: ent-Bedroll-suffix
-  description: ent-Bedroll-desc
+  name: bedroll
+  suffix: RMC
+  description: A foldable bedroll, just about the only thing of comfort in the field. You're generally supposed to unroll it before sleeping, but who needs rules?
   components:
   - type: Transform
     noRot: true
@@ -210,7 +210,7 @@
 - type: entity
   parent: Bedroll
   id: BedrollFolded
-  suffix: ent-BedrollFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true

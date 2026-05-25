@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMChiefEngineer
-  name: job-cmchiefengineer-name
-  description: job-cmchiefengineer-desc
+  name: cm-job-name-chief-engineer
+  description: cm-job-description-chief-engineer
   setPreference: false
   playTimeTracker: CMJobChiefEngineer
   requirements:
@@ -21,7 +21,7 @@
   requireAdminNotify: true
   joinNotifyCrew: false
   marineAuthorityLevel: 9
-  supervisors: job-cmchiefengineer-supervisors
+  supervisors: cm-job-supervisors-aso
   accessGroups:
   - CMCE
   roleWeight: 0.25
@@ -78,7 +78,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointChiefEngineer
-  name: ent-CMSpawnPointChiefEngineer
+  name: chief engineer spawn point
   components:
   - type: SpawnPoint
     job_id: CMChiefEngineer
@@ -92,8 +92,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleCE
-  name: ent-RMCGuidebookRoleCE
-  description: ent-RMCGuidebookRoleCE-desc
+  name: The CE
+  description: The Chief Engineer.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

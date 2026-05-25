@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseMachinePowered
   id: RMCMedilathe
-  name: ent-RMCMedilathe
-  suffix: ent-RMCMedilathe-suffix
-  description: ent-RMCMedilathe-desc
+  name: medilathe
+  suffix: Right Output
+  description: A specialized autolathe made for printing medical items.
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -90,7 +90,7 @@
 - type: entity
   parent: RMCMedilathe
   id: RMCMedilatheLeft
-  suffix: ent-RMCMedilatheLeft-suffix
+  suffix: Left Output
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/medilathe.rsi

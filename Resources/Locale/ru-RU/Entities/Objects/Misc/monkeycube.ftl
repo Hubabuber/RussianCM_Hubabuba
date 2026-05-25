@@ -21,30 +21,3 @@ ent-SyndicateSpongeWrapped-desc = Разверните это, чтобы пол
 
 ent-BaseWrappedCube-name = элемент
 
-ent-BaseWrappedCube = item
-    .suffix = завернутый
-
-ent-KoboldCubeBox = коробка для кубиков кобольда
-    .desc = Конденсированные кобольды в кубе. Просто добавьте воды!
-
-ent-KoboldCubeWrapped = кобольд куб
-    .desc = Разверните это, чтобы получить куб кобольда.
-    .suffix = завернутый
-
-ent-MonkeyCubeBox = коробка для кубиков обезьяны
-    .desc = Кубики обезьянки торговой марки Drymate. Просто добавьте воды!
-
-ent-MonkeyCubeWrapped = обезьяний куб
-    .desc = Разверните это, чтобы получить кубик обезьяны.
-    .suffix = завернутый
-
-ent-SyndicateSpongeBox = коробка для кубиков обезьяны
-    .desc = Кубики обезьянки торговой марки Drymate. Просто добавьте воды!
-    .suffix = Синдикат
-
-ent-SyndicateSpongeWrapped = обезьяний куб
-    .desc = Разверните это, чтобы получить кубик обезьяны.
-    .suffix = Завернутый, Синдикат
-
-ent-VariantCubeBox = вариант коробки для кубиков
-    .desc = И кубики кобольдов, и кубики обезьян. Просто добавьте воды!

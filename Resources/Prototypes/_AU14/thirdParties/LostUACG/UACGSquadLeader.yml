@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14UACGSquadleader
-  name: job-au14uacgsquadleader-name
-  description: job-au14uacgsquadleader-desc
+  name: au-14-job-name-uacg-squadleader
+  description: au14-uacg-description
   playTimeTracker: AU14JobUACGSquadLeader
   ranks:
     RMCRankSergeant:
@@ -10,12 +10,12 @@
       role: AU14JobUACGSquadLeader
       time: 18000 #5 hours
     RMCRankCorporal: []
-  spawnMenuRoleName: job-au14uacgsquadleader-spawnmenurolename
+  spawnMenuRoleName: UACG Squad Leader (3rd party)
   startingGear: AU14GearUACGLostSquadLeader
   greeting: au14-uacg-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14uacgsquadleader-supervisors
+  supervisors: au14-job-supervisors-platco
   accessGroups:
   - AU14GovforFTL
   special:
@@ -56,7 +56,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUACG
   id: AU14JobUACGLostSquadLeader
-  name: ent-AU14JobUACGLostSquadLeader
+  name: Lost Squad Leader
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

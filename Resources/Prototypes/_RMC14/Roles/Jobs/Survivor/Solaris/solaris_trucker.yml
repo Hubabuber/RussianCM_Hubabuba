@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorTrucker
   id: CMSurvivorSolarisTrucker
-  name: job-cmsurvivorsolaristrucker-name
-  description: job-cmsurvivorsolaristrucker-desc
+  name: rmc-job-name-survivor-solaris-trucker
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorSolarisTrucker
-  spawnMenuRoleName: job-cmsurvivorsolaristrucker-spawnmenurolename
+  spawnMenuRoleName: Solaris Heavy Vehicle Operator (Solaris Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisTrucker
-  name: ent-RMCSpawnPointSurvivorSolarisTrucker
+  name: solaris trucker spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorSolarisTrucker

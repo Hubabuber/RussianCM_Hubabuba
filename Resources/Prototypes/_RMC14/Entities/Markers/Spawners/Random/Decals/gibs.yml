@@ -2,7 +2,7 @@
   abstract: true
   parent: DecalSpawnerBase
   id: RMCDecalSpawnerGibsBase
-  suffix: ent-RMCDecalSpawnerGibsBase-suffix
+  suffix: RMC14, Gibs
   components:
   - type: RandomDecalSpawner
     radius: 0
@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCDecalSpawnerGibsBase
   id: RMCDecalSpawnerGibsDrone
-  name: ent-RMCDecalSpawnerGibsDrone
-  suffix: ent-RMCDecalSpawnerGibsDrone-suffix
+  name: gibs spawner
+  suffix: RMC14, Drone
   components:
   - type: RandomDecalSpawner
     decals:
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCDecalSpawnerGibsBase
   id: RMCDecalSpawnerGibsLesserDrone
-  name: ent-RMCDecalSpawnerGibsLesserDrone
-  suffix: ent-RMCDecalSpawnerGibsLesserDrone-suffix
+  name: gibs spawner
+  suffix: RMC14, Lesser Drone
   components:
   - type: RandomDecalSpawner
     decals:

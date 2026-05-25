@@ -12,16 +12,3 @@ ent-TorsoBorg-name = киборг туловище
 
 ent-PartSilicon-name = элемент
 
-ent-LeftArmBorg = левая рука киборга
-
-ent-LeftLegBorg = киборг левая нога
-
-ent-LightHeadBorg = голова киборга
-
-ent-PartSilicon = item
-
-ent-RightArmBorg = правая рука киборга
-
-ent-RightLegBorg = правая нога киборга
-
-ent-TorsoBorg = киборг туловище

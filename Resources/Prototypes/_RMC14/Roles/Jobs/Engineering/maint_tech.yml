@@ -1,15 +1,15 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMMaintTech
-  name: job-cmmainttech-name
-  description: job-cmmainttech-desc
+  name: cm-job-name-maint-tech
+  description: cm-job-description-maint-tech
   setPreference: false
   playTimeTracker: CMJobMaintTech
   requirements: []
   startingGear: CMGearMaintTech
   icon: "CMJobIconMaintTech"
   joinNotifyCrew: false
-  supervisors: job-cmmainttech-supervisors
+  supervisors: cm-job-supervisors-ce
   ranks:
     RMCRankLanceCorporal:
     - !type:RoleTimeRequirement
@@ -59,7 +59,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointMaintTech
-  name: ent-CMSpawnPointMaintTech
+  name: maint tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMMaintTech

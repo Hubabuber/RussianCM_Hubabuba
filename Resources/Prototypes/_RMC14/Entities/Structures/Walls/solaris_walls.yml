@@ -1,9 +1,9 @@
-
+﻿
 - type: entity
   parent: CMWallMetal
   id: CMWallSolaris
-  name: ent-CMWallSolaris
-  description: ent-CMWallSolaris-desc
+  name: colony wall
+  description: Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/solaris_wall.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: CMWallSolarisReinforced
-  name: ent-CMWallSolarisReinforced
-  description: ent-CMWallSolarisReinforced-desc
+  name: reinforced colony wall
+  description: Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/solaris_rwall.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallSolarisHull
-  name: ent-CMWallSolarisHull
-  description: ent-CMWallSolarisHull-desc
+  name: heavy reinforced colony wall
+  description: Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/solaris_rwall.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallSolarisRock
-  name: ent-CMWallSolarisRock
-  description: ent-CMWallSolarisRock-desc
+  name: rock wall
+  description: Tough looking walls that have been blasted by sand since the day they were erected. A testament to human willpower.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/solaris_rock.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: CMWallSolarisRock
   id: RMCWallSolarisRockTimed
-  suffix: ent-RMCWallSolarisRockTimed-suffix
+  suffix: Timed
   components:
   - type: TimedDespawn
     lifetime: 2400

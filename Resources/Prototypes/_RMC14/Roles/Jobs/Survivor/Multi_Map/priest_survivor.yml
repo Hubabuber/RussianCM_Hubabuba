@@ -2,11 +2,11 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorPriest
-  name: job-cmsurvivorpriest-name
-  description: job-cmsurvivorpriest-desc
+  name: cm-job-name-surivor-priest
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
   startingGear: RMCGearSurvivorPriest
-  spawnMenuRoleName: job-cmsurvivorpriest-spawnmenurolename
+  spawnMenuRoleName: Priest (Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMSatchelFillSurvivor
   id: CMSatchelFillSurvivorPriest
-  suffix: ent-CMSatchelFillSurvivorPriest-suffix
+  suffix: Survivor
   components:
   - type: StorageFill
     contents:
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorPriest
-  name: ent-RMCSpawnPointSurvivorPriest
+  name: survivor priest spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -74,5 +74,5 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetPriest
-  name: ent-RMCGearSurvivorPresetPriest
+  name: priest colonist preset
   categories: [ HideSpawnMenu ]

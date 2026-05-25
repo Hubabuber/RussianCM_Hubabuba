@@ -1,16 +1,2 @@
 ent-RMCCableCoil = катушка кабеля
   .desc = Катушка силового кабеля.
-    .suffix = катушка кабеля
-ent-RMCCableCoil1 = кабельная катушка
-    .desc = Моток силового кабеля.
-    .suffix = Одинокий
-ent-RMCCableCoil10 = кабельная катушка
-    .desc = Моток силового кабеля.
-    .suffix = Полный
-ent-RMCCableCoil20 = кабельная катушка
-    .desc = Моток силового кабеля.
-    .suffix = Полный
-ent-RMCCableCoil30 = кабельная катушка
-    .desc = Моток силового кабеля.
-    .suffix = Полный
-stack-rmccable-name = кабельная катушка

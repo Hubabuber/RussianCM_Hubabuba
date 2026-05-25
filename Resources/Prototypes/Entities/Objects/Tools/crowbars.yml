@@ -1,5 +1,5 @@
 - type: entity
-  name: ent-BaseCrowbar
+  name: crowbar
   parent: BaseItem
   id: BaseCrowbar
   abstract: true
@@ -53,7 +53,7 @@
 - type: entity
   parent: BaseCrowbar
   id: Crowbar
-  description: ent-Crowbar-desc
+  description: A multipurpose tool to pry open doors and fight interdimensional invaders.
   components:
   - type: Sprite
     state: icon
@@ -64,10 +64,10 @@
 
 # Emergency (red) Crowbar
 - type: entity
-  name: ent-CrowbarRed
+  name: emergency crowbar
   parent: BaseCrowbar
   id: CrowbarRed
-  description: ent-CrowbarRed-desc
+  description: An emergency crowbar designed to pry open doors and firelocks during power outages.
   components:
   - type: Tag
     tags:
@@ -102,7 +102,7 @@
 - type: entity
   parent: BaseCrowbar
   id: CrowbarGreen
-  description: ent-CrowbarGreen-desc
+  description: A multipurpose tool to pry open doors and fight interdimensional invaders, printed from an autolathe.
   components:
   - type: Sprite
     layers:
@@ -133,7 +133,7 @@
 - type: entity
   parent: BaseCrowbar
   id: CrowbarOrange
-  description: ent-CrowbarOrange-desc
+  description: A multipurpose tool to pry open doors and fight interdimensional invaders, found in toolboxes.
   components:
   - type: Sprite
     layers:
@@ -164,7 +164,7 @@
 - type: entity
   parent: BaseCrowbar
   id: CrowbarYellow
-  description: ent-CrowbarYellow-desc
+  description: A multipurpose tool to pry open doors and fight interdimensional invaders, dispensed from Engineering.
   components:
   - type: Sprite
     layers:

@@ -13,22 +13,3 @@ ent-MobWatcherPride-desc = Этот редкий подвид появляетс
 ent-MobWatcherLavaland-name = наблюдатель
 ent-MobWatcherLavaland-desc = Как будто оно смотрит сквозь тебя.
 
-ent-MobWatcherBase = наблюдатель
-    .desc = Как будто оно смотрит сквозь тебя.
-    .suffix = AI
-
-ent-MobWatcherIcewing = наблюдатель ледяного крыла
-    .desc = Как будто оно смотрит сквозь тебя.
-    .suffix = AI
-
-ent-MobWatcherLavaland = наблюдатель
-    .desc = Как будто оно смотрит сквозь тебя.
-    .suffix = AI
-
-ent-MobWatcherMagmawing = наблюдатель за магматизмом
-    .desc = Как будто оно смотрит сквозь тебя.
-    .suffix = AI
-
-ent-MobWatcherPride = наблюдатель за гордостью
-    .desc = Этот редкий подвид появляется только в июне.
-    .suffix = Адмеме

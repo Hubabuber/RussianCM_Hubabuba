@@ -1,3 +1,0 @@
-construction-lightswitchdirectionalrecipe-name = конструкция-рецепт-переключатель света-направленный
-construction-signalbuttondirectionalrecipe-name = кнопка-сигнал-рецепта строительства-направленная
-construction-signalswitchdirectionalrecipe-name = конструкция-рецепт-сигнал-переключатель-направленный

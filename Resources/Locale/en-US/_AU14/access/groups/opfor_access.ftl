@@ -1,9 +1,0 @@
-accesslevel-au14accessopfor-name = Opfor
-accesslevel-au14accessopforcommand-name = Opfor Command
-accesslevel-au14accessopforengineering-name = Opfor Engineering
-accesslevel-au14accessopforftl-name = Opfor Squad Sergeant
-accesslevel-au14accessopforgunner-name = Opfor Smart Gun Operator
-accesslevel-au14accessopformedical-name = Opfor Medical
-accesslevel-au14accessopforpilot-name = Opfor Pilot
-accesslevel-au14accessopforsecurity-name = Opfor Security
-accesslevel-au14accessopforsquad-name = Opfor Squad

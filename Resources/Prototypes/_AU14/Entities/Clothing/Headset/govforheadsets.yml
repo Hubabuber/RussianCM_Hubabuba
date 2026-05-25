@@ -2,14 +2,14 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyGovfor # blank key, channel set by SquadSystem.cs
-  name: ent-AU14EncryptionKeyGovfor
-  description: ent-AU14EncryptionKeyGovfor-desc
+  name: GOVFOR encryption key
+  description: An encryption key used to communicate on the GOVFOR channel, it is automatically assigned the right channel.
 
 - type: entity
   parent: AU14EncryptionKeyGovfor
   id: AU14EncryptionKeyGovforBravo
-  name: ent-AU14EncryptionKeyGovforBravo
-  description: ent-AU14EncryptionKeyGovforBravo-desc
+  name: GOVFOR Bravo encryption key
+  description: An encryption key used to communicate on the GOVFOR Bravo channel.
   components:
   - type: EncryptionKey
     channels:
@@ -19,8 +19,8 @@
 - type: entity
   parent: AU14EncryptionKeyGovfor
   id: AU14EncryptionKeyGovforCharlie
-  name: ent-AU14EncryptionKeyGovforCharlie
-  description: ent-AU14EncryptionKeyGovforCharlie-desc
+  name: GOVFOR Charlie encryption key
+  description: An encryption key used to communicate on the GOVFOR Charlie channel.
   components:
   - type: EncryptionKey
     channels:
@@ -30,8 +30,8 @@
 - type: entity
   parent: AU14EncryptionKeyGovfor
   id: AU14EncryptionKeyGovforCommand
-  name: ent-AU14EncryptionKeyGovforCommand
-  description: ent-AU14EncryptionKeyGovforCommand-desc
+  name: GOVFOR Command encryption key
+  description: An encryption key used to communicate on all available GOVFOR channels.
   components:
   - type: EncryptionKey
     channels:
@@ -47,8 +47,8 @@
 - type: entity
   parent: AU14EncryptionKeyGovfor
   id: AU14EncryptionKeyGovforCommandOnly
-  name: ent-AU14EncryptionKeyGovforCommandOnly
-  description: ent-AU14EncryptionKeyGovforCommandOnly-desc
+  name: GOVFOR Command-only encryption key
+  description: An encryption key used to communicate on the GOVFOR Command channels.
   components:
   - type: EncryptionKey
     channels:
@@ -58,8 +58,8 @@
 - type: entity
   parent: AU14EncryptionKeyGovfor
   id: AU14EncryptionKeyGovforIntel
-  name: ent-AU14EncryptionKeyGovforIntel
-  description: ent-AU14EncryptionKeyGovforIntel-desc
+  name: GOVFOR Intel encryption key
+  description: An encryption key used to communicate on the GOVFOR Intel channel.
   components:
   - type: EncryptionKey
     channels:
@@ -69,8 +69,8 @@
 - type: entity
   parent: AU14EncryptionKeyGovfor
   id: AU14EncryptionKeyGovforJTAC
-  name: ent-AU14EncryptionKeyGovforJTAC
-  description: ent-AU14EncryptionKeyGovforJTAC-desc
+  name: GOVFOR JTAC encryption key
+  description: An encryption key used to communicate on the GOVFOR ATC channel.
   components:
   - type: EncryptionKey
     channels:
@@ -79,8 +79,8 @@
 - type: entity
   parent: AU14EncryptionKeyGovfor
   id: AU14EncryptionKeyGovforMILP
-  name: ent-AU14EncryptionKeyGovforMILP
-  description: ent-AU14EncryptionKeyGovforMILP-desc
+  name: GOVFOR MP encryption key
+  description: An encryption key used to communicate on the GOVFOR MP channel.
   components:
   - type: EncryptionKey
     channels:
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: AU14HeadsetGovforMarine
-  name: ent-AU14HeadsetGovforMarine
-  description: ent-AU14HeadsetGovforMarine-desc
+  name: GOVFOR section radio headset
+  description: This is used by GOVFOR personnel to communicate on the radio.
   components:
   - type: Sprite
     state: generic_headset
@@ -111,8 +111,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetGovforCommand
-  name: ent-AU14HeadsetGovforCommand
-  description: ent-AU14HeadsetGovforCommand-desc
+  name: GOVFOR Command radio headset
+  description: This is used by GOVFOR command members to communicate on the radio.
   components:
   - type: ContainerFill
     containers:
@@ -128,8 +128,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetGovforMarineSL
-  name: ent-AU14HeadsetGovforMarineSL
-  description: ent-AU14HeadsetGovforMarineSL-desc
+  name: GOVFOR SL radio headset
+  description: This is used by GOVFOR section leaders to communicate on the radio.
   components:
   - type: ContainerFill
     containers:
@@ -141,8 +141,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetGovforMarineFTL
-  name: ent-AU14HeadsetGovforMarineFTL
-  description: ent-AU14HeadsetGovforMarineFTL-desc
+  name: GOVFOR FTL radio headset
+  description: This is used by GOVFOR fireteam leaders to communicate on the radio.
   components:
   - type: ContainerFill
     containers:
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: AU14HeadsetGovforAuxiliary
-  name: ent-AU14HeadsetGovforAuxiliary
-  description: ent-AU14HeadsetGovforAuxiliary-desc
+  name: GOVFOR Auxiliary support headset
+  description: This is used by GOVFOR auxiliary support members to communicate on the radio.
   components:
   - type: ContainerFill
     containers:
@@ -166,8 +166,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetGovforMarineMP
-  name: ent-AU14HeadsetGovforMarineMP
-  description: ent-AU14HeadsetGovforMarineMP-desc
+  name: GOVFOR MP radio headset
+  description: This is used by GOVFOR military police to communicate on the radio.
   components:
   - type: ContainerFill
     containers:

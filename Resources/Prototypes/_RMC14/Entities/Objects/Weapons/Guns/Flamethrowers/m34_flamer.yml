@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponFlamer
-  name: ent-RMCWeaponFlamer
-  description: ent-RMCWeaponFlamer-desc
+  name: M240 incinerator unit
+  description: M240 incinerator unit has proven to be one of the most effective weapons at clearing out soft-targets. This is a weapon to be feared and respected as it is quite deadly.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/m34.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: RMCWeaponFlamer
   id: RMCWeaponFlamerPVE
-  suffix: ent-RMCWeaponFlamerPVE-suffix
+  suffix: PVE
   components:
   - type: Gun
     fireRate: 2
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCWeaponFlamer
   id: RMCWeaponFlamerUnloaded
-  suffix: ent-RMCWeaponFlamerUnloaded-suffix
+  suffix: Unloaded
   components:
   - type: ItemSlots
     slots:
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCBaseTankFlamer
   id: RMCTankFlamer
-  name: ent-RMCTankFlamer
-  description: ent-RMCTankFlamer-desc
+  name: incinerator tank
+  description: A fuel tank used to store fuel for use in the M240 incinerator unit. Handle with care.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/flamethrower.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerCustom
-  name: ent-RMCTankFlamerCustom
-  description: ent-RMCTankFlamerCustom-desc
+  name: M34 custom incinerator tank
+  description: A fuel tank for use in the M34 incinerator unit.
   # description: A fuel tank for use in the M34 incinerator unit. This one has been modified with a pressure regulator and an internal propellant tank.
   components:
   - type: RMCFlamerTank
@@ -208,8 +208,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerBGel
-  name: ent-RMCTankFlamerBGel
-  description: ent-RMCTankFlamerBGel-desc
+  name: M34 incinerator tank (B-Gel)
+  description: A fuel tank full of specialized Ultra Thick Napthal Fuel type B-Gel, a gelled variant of napalm that is easily extinguished, but shoots further and lingers for longer. Handle with exceptional care.
   components:
   - type: RMCFlamerTank
     maxRange: 7
@@ -225,8 +225,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerUpgraded
-  name: ent-RMCTankFlamerUpgraded
-  description: ent-RMCTankFlamerUpgraded-desc
+  name: M34 upgraded incinerator tank
+  description: A fuel tank for use in the M34 incinerator unit. This one has been modified with a larger and more sophisticated internal propellant tank, allowing for larger capacity and stronger fuels.
   components:
   - type: RMCFlamerTank
     maxIntensity: 60
@@ -244,8 +244,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCCaseFlamer
-  name: ent-RMCCaseFlamer
-  description: ent-RMCCaseFlamer-desc
+  name: M34 incinerator case
+  description: A gun case containing the M240 incinerator unit. It does come loaded, but you'll still have to find extra tanks as you go.
   components:
   - type: Storage
     maxItemSize: Huge

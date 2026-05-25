@@ -1,81 +1,81 @@
 ent-RMCPropVehicleVanCandy = фургон
   .desc = Старый фургон, кажется, наполнен... конфетами?
-    .suffix = фургон
+
 ent-RMCPropVehicleVanSnow = фургон
   .desc = Старый фургон, кажется, сломанный.
-    .suffix = фургон
+
 ent-RMCPropVehicleVanDamaged = фургон
   .desc = Старый фургон, кажется, сломанный.
-    .suffix = фургон
+
 ent-RMCPropVehicleVan = фургон
   .desc = Старый фургон, кажется, сломанный.
-    .suffix = фургон
+
 ent-RMCPropVehicleTractorSnow = трактор
   .desc = Старый грузовой грузовик, кажется, сломался.
-    .suffix = грузовик
+
 ent-RMCPropVehicleTractorDamaged = трактор
   .desc = Старый грузовой грузовик, кажется, сломался.
-    .suffix = грузовик
+
 ent-RMCPropVehicleTractor = трактор
   .desc = Старый трактор, кажется, сломался.
-    .suffix = трактор
+
 ent-RMCPropVehicleTruckCargoSnow = грузовик
   .desc = Старый грузовой грузовик, кажется, сломался.
-    .suffix = грузовик
+
 ent-RMCPropVehicleTruckSnow = грузовик
   .desc = Старый грузовик, кажется, сломанный.
-    .suffix = грузовик
+
 ent-RMCPropVehicleTruckBroken = грузовик
   .desc = Старый грузовик, кажется, сломанный.
-    .suffix = грузовик
+
 ent-RMCPropVehicleTruckMining = грузовик
   .desc = Старый карьерный самосвал, кажется, сломался.
-    .suffix = грузовик
+
 ent-RMCPropVehicleTruckCargo = грузовик
   .desc = Старый грузовой грузовик, кажется, сломался.
-    .suffix = грузовик
+
 ent-RMCPropVehicleTruck = грузовик
   .desc = Старый грузовик, кажется, сломанный.
-    .suffix = грузовик
+
 ent-RMCPropVehicleCrawlerFuel = колониальный гусеничный робот
   .desc = Это гусеничный транспортер с протектором, используемый в суровых условиях. 
-    .suffix = колониальный гусеничный робот
+
 ent-RMCPropVehicleCrawlerCrateWY = колониальный гусеничный робот
   .desc = Это гусеничный транспортер с протектором, используемый в суровых условиях. 
-    .suffix = колониальный гусеничный робот
+
 ent-RMCPropVehicleCrawlerCrate3 = колониальный гусеничный робот
   .desc = Это гусеничный транспортер с протектором, используемый в суровых условиях. 
-    .suffix = колониальный гусеничный робот
+
 ent-RMCPropVehicleCrawlerCrate2 = колониальный гусеничный робот
   .desc = Это гусеничный транспортер с протектором, используемый в суровых условиях. 
-    .suffix = колониальный гусеничный робот
+
 ent-RMCPropVehicleCrawlerCrate = колониальный гусеничный робот
   .desc = Это гусеничный транспортер с протектором, используемый в суровых условиях. 
-    .suffix = колониальный гусеничный робот
+
 ent-RMCPropVehicleCrawlerCovered = колониальный гусеничный робот
   .desc = Это гусеничный транспортер с протектором, используемый в суровых условиях. 
-    .suffix = колониальный гусеничный робот
+
 ent-RMCPropVehicleCrawler = колониальный гусеничный робот
   .desc = Это гусеничный транспортер с протектором, используемый в суровых условиях. 
-    .suffix = колониальный гусеничный робот
+
 ent-RMCPropVehicleCargoCraneDestroyed = грузовой кран
   .desc = Кран, используемый для погрузки и разгрузки грузов.
-    .suffix = грузовой кран
+
 ent-RMCPropVehicleCargoCraneSnow = грузовой кран
   .desc = Кран, используемый для погрузки и разгрузки грузов.
-    .suffix = грузовой кран
+
 ent-RMCPropVehicleCargoCraneCargoSnow = грузовой кран
   .desc = Кран, используемый для погрузки и разгрузки грузов.
-    .suffix = грузовой кран
+
 ent-RMCPropVehicleCargoCraneCargo = грузовой кран
   .desc = Кран, используемый для погрузки и разгрузки грузов.
-    .suffix = грузовой кран
+
 ent-RMCPropVehicleCargoCrane = грузовой кран
   .desc = Кран, используемый для погрузки и разгрузки грузов.
-    .suffix = грузовой кран
+
 ent-RMCPropVehicleCargoCraneAltHitbox = грузовой кран
   .desc = Кран, используемый для погрузки и разгрузки грузов.
-    .suffix = грузовой кран
+
 ent-RMCPropVehicleCargoCraneAltHitboxWest = грузовой кран
   .desc = Кран, используемый для погрузки и разгрузки грузов.
-    .suffix = грузовой кран
+

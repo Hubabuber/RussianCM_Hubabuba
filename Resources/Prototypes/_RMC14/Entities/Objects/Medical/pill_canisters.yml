@@ -1,9 +1,9 @@
 - type: entity
   parent: PillCanister
   id: RMCPillCanisterNoSkill
-  name: ent-RMCPillCanisterNoSkill
-  description: ent-RMCPillCanisterNoSkill-desc
-  suffix: ent-RMCPillCanisterNoSkill-suffix
+  name: pill bottle
+  description: It's an airtight container for storing medication.
+  suffix: No Skill
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/pill_canister.rsi
@@ -89,7 +89,7 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: CMPillCanister
-  suffix: ent-CMPillCanister-suffix
+  suffix: Skill Required
   components:
   - type: StorageSkillRequired
     skills:
@@ -98,9 +98,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterBicaridineNoSkill
-  name: ent-RMCPillCanisterBicaridineNoSkill
-  description: ent-RMCPillCanisterBicaridineNoSkill-desc
-  suffix: ent-RMCPillCanisterBicaridineNoSkill-suffix
+  name: bicaridine pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Bicaridine (15u, 2 pill OD) Used to treat brute damage."
+  suffix: Bicaridine, 16, No Skill
   components:
   - type: Item
     heldPrefix: 11
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCPillCanisterBicaridineNoSkill
   id: CMPillCanisterBicaridine
-  suffix: ent-CMPillCanisterBicaridine-suffix
+  suffix: Bicaridine, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -131,9 +131,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterMeralyneBicaridineNoSkill
-  name: ent-RMCPillCanisterMeralyneBicaridineNoSkill
-  description: ent-RMCPillCanisterMeralyneBicaridineNoSkill-desc
-  suffix: ent-RMCPillCanisterMeralyneBicaridineNoSkill-suffix
+  name: meralyne-bicaridine pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Meralyne-Bicaridine (7.5u/7.5u, 2 pill OD) Rapidly treats brute damage."
+  suffix: Meralyne-Bicaridine, 16, No Skill
   components:
   - type: Item
     heldPrefix: 2
@@ -155,7 +155,7 @@
 - type: entity
   parent: RMCPillCanisterMeralyneBicaridineNoSkill
   id: RMCPillCanisterMeralyneBicaridine
-  suffix: ent-RMCPillCanisterMeralyneBicaridine-suffix
+  suffix: Meralyne-Bicaridine, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -164,9 +164,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterDexalinNoSkill
-  name: ent-RMCPillCanisterDexalinNoSkill
-  description: ent-RMCPillCanisterDexalinNoSkill-desc
-  suffix: ent-RMCPillCanisterDexalinNoSkill-suffix
+  name: dexalin pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Dexalin (15u, 2 pill OD) Used to treat oxygen deprivation."
+  suffix: Dexalin, 16, No Skill
   components:
   - type: Item
     heldPrefix: 1
@@ -188,7 +188,7 @@
 - type: entity
   parent: RMCPillCanisterDexalinNoSkill
   id: CMPillCanisterDexalin
-  suffix: ent-CMPillCanisterDexalin-suffix
+  suffix: Dexaline, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -197,9 +197,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterDyloveneNoSkill
-  name: ent-RMCPillCanisterDyloveneNoSkill
-  description: ent-RMCPillCanisterDyloveneNoSkill-desc
-  suffix: ent-RMCPillCanisterDyloveneNoSkill-suffix
+  name: dylovene pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Dylovene (15u, 2 pill OD) An anti-toxin medication. It neutralizes many common toxins, as well as treating toxin damage."
+  suffix: Dylovene, 16, No Skill
   components:
   - type: Item
     heldPrefix: 6
@@ -221,7 +221,7 @@
 - type: entity
   parent: RMCPillCanisterDyloveneNoSkill
   id: CMPillCanisterDylovene
-  suffix: ent-CMPillCanisterDylovene-suffix
+  suffix: Dylovene, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -230,9 +230,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterInaprovalineNoSkill
-  name: ent-RMCPillCanisterInaprovalineNoSkill
-  description: ent-RMCPillCanisterInaprovalineNoSkill-desc
-  suffix: ent-RMCPillCanisterInaprovalineNoSkill-suffix
+  name: inaprovaline pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Inaprovaline (15u, 4 pill OD) Used to stabilize patients."
+  suffix: Inaprovaline, 16, No Skill
   components:
   - type: Item
     heldPrefix: 3
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCPillCanisterInaprovalineNoSkill
   id: CMPillCanisterInaprovaline
-  suffix: ent-CMPillCanisterInaprovaline-suffix
+  suffix: Inaprovaline, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -263,9 +263,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterKelotaneNoSkill
-  name: ent-RMCPillCanisterKelotaneNoSkill
-  description: ent-RMCPillCanisterKelotaneNoSkill-desc
-  suffix: ent-RMCPillCanisterKelotaneNoSkill-suffix
+  name: kelotane pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Kelotane (15u, 2 pill OD) Used to treat burns."
+  suffix: Kelotane, 16, No Skill
   components:
   - type: Item
     heldPrefix: 2
@@ -287,7 +287,7 @@
 - type: entity
   parent: RMCPillCanisterKelotaneNoSkill
   id: CMPillCanisterKelotane
-  suffix: ent-CMPillCanisterKelotane-suffix
+  suffix: Kelotane, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -296,9 +296,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterKelotaneDermalineNoSkill
-  name: ent-RMCPillCanisterKelotaneDermalineNoSkill
-  description: ent-RMCPillCanisterKelotaneDermalineNoSkill-desc
-  suffix: ent-RMCPillCanisterKelotaneDermalineNoSkill-suffix
+  name: kelotane-dermaline pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Kelotane-Dermaline (7.5u/7.5u, 2 pill OD) Rapidly treats burn damage."
+  suffix: Kelotane-Dermaline, 16, No Skill
   components:
   - type: Item
     heldPrefix: 2
@@ -320,7 +320,7 @@
 - type: entity
   parent: RMCPillCanisterKelotaneDermalineNoSkill
   id: CMPillCanisterKelotaneDermaline
-  suffix: ent-CMPillCanisterKelotaneDermaline-suffix
+  suffix: Kelotane-Dermaline, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -329,9 +329,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterTricordrazineNoSkill
-  name: ent-RMCPillCanisterTricordrazineNoSkill
-  description: ent-RMCPillCanisterTricordrazineNoSkill-desc
-  suffix: ent-RMCPillCanisterTricordrazineNoSkill-suffix
+  name: tricordrazine pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Tricordrazine (15u, 2 pill OD) A weak general use medication for treating damage."
+  suffix: Tricordrazine, 16, No Skill
   components:
   - type: Item
     heldPrefix: 7
@@ -353,7 +353,7 @@
 - type: entity
   parent: RMCPillCanisterTricordrazineNoSkill
   id: CMPillCanisterTricordrazine
-  suffix: ent-CMPillCanisterTricordrazine-suffix
+  suffix: Tricordrazine, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -362,9 +362,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterRussianRedNoSkill
-  name: ent-RMCPillCanisterRussianRedNoSkill
-  description: ent-RMCPillCanisterRussianRedNoSkill-desc
-  suffix: ent-RMCPillCanisterRussianRedNoSkill-suffix
+  name: russian red pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Russian Red (10u, 2 pill OD) A very dangerous radiation-countering substance."
+  suffix: Russian Red, 16, No Skill
   components:
   - type: Sprite
     layers:
@@ -384,7 +384,7 @@
 - type: entity
   parent: RMCPillCanisterRussianRedNoSkill
   id: RMCPillCanisterRussianRed
-  suffix: ent-RMCPillCanisterRussianRed-suffix
+  suffix: Russian Red, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -393,9 +393,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterImidazolineNoSkill
-  name: ent-RMCPillCanisterImidazolineNoSkill
-  description: ent-RMCPillCanisterImidazolineNoSkill-desc
-  suffix: ent-RMCPillCanisterImidazolineNoSkill-suffix
+  name: imidazoline pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Imidazoline (1u, 30 pill OD) Used to restore vision from non-congenital eye damage."
+  suffix: Imidazoline, 16, No Skill
   components:
   - type: Item
     heldPrefix: 7
@@ -417,7 +417,7 @@
 - type: entity
   parent: RMCPillCanisterImidazolineNoSkill
   id: RMCPillCanisterImidazoline
-  suffix: ent-RMCPillCanisterImidazoline-suffix
+  suffix: Imidazoline, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -428,9 +428,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterDexalinPlusNoSkill
-  name: ent-RMCPillCanisterDexalinPlusNoSkill
-  description: ent-RMCPillCanisterDexalinPlusNoSkill-desc
-  suffix: ent-RMCPillCanisterDexalinPlusNoSkill-suffix
+  name: dexalin plus pill bottle
+  description: It's an airtight container for storing medication. It's labeled "Dexalin Plus (10u, 15u OD) Used to instantly treat oxygen deprivation."
+  suffix: DexalinPlus, 16, No Skill
   components:
   - type: Item
     heldPrefix: 3
@@ -452,7 +452,7 @@
 - type: entity
   parent: RMCPillCanisterDexalinPlusNoSkill
   id: RMCPillCanisterDexalinPlus
-  suffix: ent-RMCPillCanisterDexalinPlus-suffix
+  suffix: DexalinPlus, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -461,9 +461,9 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterIronNoSkill
-  name: ent-RMCPillCanisterIronNoSkill
-  description: ent-RMCPillCanisterIronNoSkill-desc
-  suffix: ent-RMCPillCanisterIronNoSkill-suffix
+  name: iron pill bottle
+  description: It's an airtight container for storing medication. It's labeled "FN (Iron 10u, Nutriment 5u, No OD) Used to quickly restore blood."
+  suffix: Iron, 16, No Skill
   components:
   - type: Item
     heldPrefix: 3
@@ -485,7 +485,7 @@
 - type: entity
   parent: RMCPillCanisterIronNoSkill
   id: RMCPillCanisterIron
-  suffix: ent-RMCPillCanisterIron-suffix
+  suffix: Iron, 16
   components:
   - type: StorageSkillRequired
     skills:

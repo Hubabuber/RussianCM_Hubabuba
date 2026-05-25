@@ -1,8 +1,8 @@
 - type: entity
   id: CMCarpetBase
   parent: BaseStructure
-  name: ent-CMCarpetBase
-  description: "ent-CMCarpetBase-desc"
+  name: carpet
+  description: "Fancy walking surface."
   abstract: true
   components:
   - type: Sprite
@@ -31,8 +31,8 @@
 - type: entity
   id: RMCCarpetBaseNonIconsmooth
   parent: BaseStructure
-  name: ent-RMCCarpetBaseNonIconsmooth
-  description: ent-RMCCarpetBaseNonIconsmooth-desc
+  name: carpet
+  description: Fancy walking surface.
   abstract: true
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   id: RMCCarpetBlue1
   parent: RMCCarpetBaseNonIconsmooth
-  name: ent-RMCCarpetBlue1
+  name: blue carpet
   components:
   - type: Clickable
   - type: Sprite
@@ -153,7 +153,7 @@
 - type: entity
   id: RMCCarpetBeige1
   parent: RMCCarpetBaseNonIconsmooth
-  name: ent-RMCCarpetBeige1
+  name: beige carpet
   components:
   - type: Clickable
   - type: Sprite
@@ -238,7 +238,7 @@
 - type: entity
   id: RMCCarpetGreyBlue1
   parent: RMCCarpetBaseNonIconsmooth
-  name: ent-RMCCarpetGreyBlue1
+  name: grey blue carpet
   components:
   - type: Clickable
   - type: Sprite
@@ -323,7 +323,7 @@
 - type: entity
   id: RMCCarpetPink1
   parent: RMCCarpetBaseNonIconsmooth
-  name: ent-RMCCarpetPink1
+  name: pink carpet
   components:
   - type: Clickable
   - type: Sprite
@@ -408,7 +408,7 @@
 - type: entity
   id: RMCCarpetBlack1
   parent: RMCCarpetBaseNonIconsmooth
-  name: ent-RMCCarpetBlack1
+  name: black carpet
   components:
   - type: Clickable
   - type: Sprite
@@ -494,7 +494,7 @@
 - type: entity
   id: RMCBaseColourableRug
   abstract: true
-  name: ent-RMCBaseColourableRug
+  name: rug
   components:
   - type: Transform
     anchored: false
@@ -520,8 +520,8 @@
 - type: entity
   parent: RMCBaseColourableRug
   id: RMCColourableRugGrey
-  name: ent-RMCColourableRugGrey
-  suffix: ent-RMCColourableRugGrey-suffix
+  name: rubber mat
+  suffix: Grey
   components:
   - type: Sprite
     color: "#3d3d3d"
@@ -529,8 +529,8 @@
 - type: entity
   parent: RMCBaseColourableRug
   id: RMCColourableRugRed
-  name: ent-RMCColourableRugRed
-  suffix: ent-RMCColourableRugRed-suffix
+  name: rug
+  suffix: Red
   components:
   - type: Sprite
     color: "#8c3c3c"
@@ -538,8 +538,8 @@
 - type: entity
   parent: RMCBaseColourableRug
   id: RMCColourableRugBlue
-  name: ent-RMCColourableRugBlue
-  suffix: ent-RMCColourableRugBlue-suffix
+  name: rug
+  suffix: Blue
   components:
   - type: Sprite
     color: "#3c588c"

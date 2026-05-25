@@ -1,9 +1,9 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomPillBase
-  name: ent-RMCSpawnerRandomPillBase
-  description: ent-RMCSpawnerRandomPillBase-desc
-  suffix: ent-RMCSpawnerRandomPillBase-suffix
+  name: pill bottle loot spawner
+  description: This is a random pill bottle, for survivors.
+  suffix: Base
   abstract: true
   components:
   - type: Sprite
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCSpawnerRandomPillBase
   id: RMCSpawnerRandomPillBottle
-  suffix: ent-RMCSpawnerRandomPillBottle-suffix
+  suffix: Guaranteed
   components:
   - type: RandomSpawner
     offset: 0
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCSpawnerRandomPillBottle
   id: RMCSpawnerRandomPillBottleLowChance
-  suffix: ent-RMCSpawnerRandomPillBottleLowChance-suffix
+  suffix: Low Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCSpawnerRandomPillBottle
   id: RMCSpawnerRandomPillBottleMidChance
-  suffix: ent-RMCSpawnerRandomPillBottleMidChance-suffix
+  suffix: Mid Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCSpawnerRandomPillBottle
   id: RMCSpawnerRandomPillBottleHighChance
-  suffix: ent-RMCSpawnerRandomPillBottleHighChance-suffix
+  suffix: High Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

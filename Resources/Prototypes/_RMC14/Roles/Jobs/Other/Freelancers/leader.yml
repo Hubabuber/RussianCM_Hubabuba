@@ -2,8 +2,8 @@
 - type: job
   parent: CMJobBase
   id: CMFreelancerLeader
-  name: job-cmfreelancerleader-name
-  description: job-cmfreelancerleader-desc
+  name: rmc-job-name-freelancer-leader
+  description: rmc-ghost-role-information-freelancer-friendly-description
   playTimeTracker: RMCJobFreelancerLeader
   ranks:
     RMCRankFLLeader: []
@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: job-cmfreelancerleader-spawnmenurolename
+  spawnMenuRoleName: Freelancer Leader
   special:
   - !type:AddComponentSpecial
     components:
@@ -61,8 +61,8 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerLeaderHostile
-  name: ent-RMCRandomHumanoidFreelancerLeaderHostile
-  suffix: ent-RMCRandomHumanoidFreelancerLeaderHostile-suffix
+  name: freelancer ghost role leader
+  suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_freelancer.rsi
@@ -72,8 +72,8 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerLeaderFriendly
-  name: ent-RMCRandomHumanoidFreelancerLeaderFriendly
-  suffix: ent-RMCRandomHumanoidFreelancerLeaderFriendly-suffix
+  name: freelancer ghost role leader
+  suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_freelancer.rsi

@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseStructureDynamic
   id: PaperBin
-  name: ent-PaperBin
-  description: ent-PaperBin-desc
-  suffix: ent-PaperBin-suffix
+  name: paper bin
+  description: What secrets lie at the bottom of its endless stack?
+  suffix: Empty
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: PaperBin
   id: PaperBin5
-  suffix: ent-PaperBin5-suffix
+  suffix: 5
   components:
   - type: Bin
     initialContents:
@@ -58,7 +58,7 @@
 - type: entity
   parent: PaperBin
   id: PaperBin10
-  suffix: ent-PaperBin10-suffix
+  suffix: 10
   components:
   - type: Bin
     initialContents:
@@ -80,7 +80,7 @@
 - type: entity
   parent: PaperBin
   id: PaperBin20
-  suffix: ent-PaperBin20-suffix
+  suffix: 20
   components:
   - type: Bin
     initialContents:

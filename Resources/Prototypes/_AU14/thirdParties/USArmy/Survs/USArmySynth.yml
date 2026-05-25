@@ -1,8 +1,8 @@
 - type: job
   parent: AU14USArmySynthBase
   id: AU14USArmySynth
-  name: job-au14usarmysynth-name
-  description: job-au14usarmysynth-desc
+  name: rmc-job-name-forecon-synth
+  description: au14-job-description-usarmy
   ranks:
     USArmy_ChiefWarrantOfficer5:
     - !type:RoleTimeRequirement
@@ -21,12 +21,12 @@
       role: AU14JobUSArmySynth
       time: 18000 #5 hours
     USArmy_WarrantOfficer1: []
-  spawnMenuRoleName: job-au14usarmysynth-spawnmenurolename
+  spawnMenuRoleName: US Army Synthetic (AU14, surv)
   startingGear: AU14GearUSArmySynth
   greeting: au14-usarmy-greeting
   icon: "AU14JobIconUSArmySynth"
   joinNotifyCrew: false
-  supervisors: job-au14usarmysynth-supervisors
+  supervisors: rmc-job-name-forecon-commander
   accessGroups:
   - AU14GovforCommand
   special:
@@ -85,7 +85,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmySynth
-  name: ent-AU14JobUSArmySynth
+  name: US Army Synthetic (Surv)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

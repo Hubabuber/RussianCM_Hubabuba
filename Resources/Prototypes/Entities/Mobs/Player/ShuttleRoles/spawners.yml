@@ -5,7 +5,7 @@
 # Command
 
 - type: entity
-  name: ent-CommandVisitorSpawner
+  name: command visitor spawner
   id: CommandVisitorSpawner
   parent: MarkerBase
   components:
@@ -25,7 +25,7 @@
     - RandomHumanoidVisitorRD
 
 - type: entity
-  name: ent-VisitorCaptainSpawner
+  name: visiting captain spawner
   id: VisitorCaptainSpawner
   parent: MarkerBase
   components:
@@ -39,7 +39,7 @@
     - RandomHumanoidVisitorCaptain
 
 - type: entity
-  name: ent-VisitorCESpawner
+  name: visiting chief engineer spawner
   id: VisitorCESpawner
   parent: MarkerBase
   components:
@@ -53,7 +53,7 @@
     - RandomHumanoidVisitorCE
 
 - type: entity
-  name: ent-VisitorCMOSpawner
+  name: visiting chief medical officer spawner
   id: VisitorCMOSpawner
   parent: MarkerBase
   components:
@@ -67,7 +67,7 @@
     - RandomHumanoidVisitorCMO
 
 - type: entity
-  name: ent-VisitorHOPSpawner
+  name: visiting head of personnel spawner
   id: VisitorHOPSpawner
   parent: MarkerBase
   components:
@@ -81,7 +81,7 @@
     - RandomHumanoidVisitorHOP
 
 - type: entity
-  name: ent-VisitorHOSSpawner
+  name: visiting head of security spawner
   id: VisitorHOSSpawner
   parent: MarkerBase
   components:
@@ -95,7 +95,7 @@
     - RandomHumanoidVisitorHOS
 
 - type: entity
-  name: ent-VisitorRDSpawner
+  name: visiting research director spawner
   id: VisitorRDSpawner
   parent: MarkerBase
   components:
@@ -109,7 +109,7 @@
     - RandomHumanoidVisitorRD
 
 - type: entity
-  name: ent-VisitorQMSpawner
+  name: visiting quartermaster spawner
   id: VisitorQMSpawner
   parent: MarkerBase
   components:
@@ -125,7 +125,7 @@
 # Security
 
 - type: entity
-  name: ent-SecurityVisitorSpawner
+  name: security visitor spawner
   id: SecurityVisitorSpawner
   parent: MarkerBase
   components:
@@ -145,7 +145,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: ent-VisitorSecurityCadetSpawner
+  name: visiting security cadet spawner
   id: VisitorSecurityCadetSpawner
   parent: MarkerBase
   components:
@@ -159,7 +159,7 @@
     - RandomHumanoidVisitorSecurityCadet
 
 - type: entity
-  name: ent-VisitorSecurityOfficerSpawner
+  name: visiting security officer spawner
   id: VisitorSecurityOfficerSpawner
   parent: MarkerBase
   components:
@@ -173,7 +173,7 @@
     - RandomHumanoidVisitorSecurityOfficer
 
 - type: entity
-  name: ent-VisitorDetective
+  name: visiting detective spawner
   id: VisitorDetective
   parent: MarkerBase
   components:
@@ -187,7 +187,7 @@
     - RandomHumanoidVisitorDetective
 
 - type: entity
-  name: ent-VisitorWarden
+  name: visiting warden spawner
   id: VisitorWarden
   parent: MarkerBase
   components:
@@ -203,7 +203,7 @@
 # Cargo
 
 - type: entity
-  name: ent-VisitingCargonianSpawner
+  name: cargonian visitor spawner
   id: VisitingCargonianSpawner
   parent: MarkerBase
   components:
@@ -221,7 +221,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: ent-VisitorCargoTechnicianSpawner
+  name: visiting cargo technician spawner
   id: VisitorCargoTechnicianSpawner
   parent: MarkerBase
   components:
@@ -235,7 +235,7 @@
     - RandomHumanoidVisitorCargoTechnician
 
 - type: entity
-  name: ent-VisitorSalvageSpecialistSpawner
+  name: visiting salvage specialist spawner
   id: VisitorSalvageSpecialistSpawner
   parent: MarkerBase
   components:
@@ -251,7 +251,7 @@
 # Engineering
 
 - type: entity
-  name: ent-EngineeringVisitorSpawner
+  name: engineering visitor spawner
   id: EngineeringVisitorSpawner
   parent: MarkerBase
   components:
@@ -270,7 +270,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: ent-VisitorAtmosTechSpawner
+  name: visiting atmospheric technician spawner
   id: VisitorAtmosTechSpawner
   parent: MarkerBase
   components:
@@ -284,7 +284,7 @@
     - RandomHumanoidVisitorAtmosTech
 
 - type: entity
-  name: ent-VisitorTechnicalAssistantSpawner
+  name: visiting technical assistant spawner
   id: VisitorTechnicalAssistantSpawner
   parent: MarkerBase
   components:
@@ -298,7 +298,7 @@
     - RandomHumanoidVisitorTechnicalAssistant
 
 - type: entity
-  name: ent-VisitorEngineerSpawner
+  name: visiting engineer spawner
   id: VisitorEngineerSpawner
   parent: MarkerBase
   components:
@@ -314,7 +314,7 @@
 # Medical
 
 - type: entity
-  name: ent-VisitingMedicalSpawner
+  name: medical visitor spawner
   id: VisitingMedicalSpawner
   parent: MarkerBase
   components:
@@ -338,7 +338,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: ent-VisitorChemistSpawner
+  name: visiting chemist spawner
   id: VisitorChemistSpawner
   parent: MarkerBase
   components:
@@ -352,7 +352,7 @@
     - RandomHumanoidVisitorChemist
 
 - type: entity
-  name: ent-VisitorMedicalInternSpawner
+  name: visiting medical intern spawner
   id: VisitorMedicalInternSpawner
   parent: MarkerBase
   components:
@@ -366,7 +366,7 @@
     - RandomHumanoidVisitorMedicalIntern
 
 - type: entity
-  name: ent-VisitorMedicalDoctorSpawner
+  name: visiting medical doctor spawner
   id: VisitorMedicalDoctorSpawner
   parent: MarkerBase
   components:
@@ -380,7 +380,7 @@
     - RandomHumanoidVisitorMedicalDoctor
 
 - type: entity
-  name: ent-VisitorParamedicSpawner
+  name: visiting paramedic spawner
   id: VisitorParamedicSpawner
   parent: MarkerBase
   components:
@@ -394,7 +394,7 @@
     - RandomHumanoidVisitorParamedic
 
 - type: entity
-  name: ent-VisitorVirologistSpawner
+  name: visiting virologist spawner
   id: VisitorVirologistSpawner
   parent: MarkerBase
   components:
@@ -408,7 +408,7 @@
     - RandomHumanoidVisitorVirologist
 
 - type: entity
-  name: ent-VisitorGeneticistSpawner
+  name: visiting geneticist spawner
   id: VisitorGeneticistSpawner
   parent: MarkerBase
   components:
@@ -422,7 +422,7 @@
     - RandomHumanoidVisitorGeneticist
 
 - type: entity
-  name: ent-VisitorPsychologistSpawner
+  name: visiting psychologist spawner
   id: VisitorPsychologistSpawner
   parent: MarkerBase
   components:
@@ -436,7 +436,7 @@
     - RandomHumanoidVisitorPsychologist
 
 - type: entity
-  name: ent-VisitorDentistSpawner
+  name: visiting dentist spawner
   id: VisitorDentistSpawner
   parent: MarkerBase
   components:
@@ -452,7 +452,7 @@
 # Science
 
 - type: entity
-  name: ent-VisitingScientistSpawner
+  name: scientific visitor spawner
   id: VisitingScientistSpawner
   parent: MarkerBase
   components:
@@ -470,7 +470,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: ent-VisitorScientistSpawner
+  name: visiting scientist spawner
   id: VisitorScientistSpawner
   parent: MarkerBase
   components:
@@ -484,7 +484,7 @@
     - RandomHumanoidVisitorScientist
 
 - type: entity
-  name: ent-VisitorResearchAssistantSpawner
+  name: visiting research assistant spawner
   id: VisitorResearchAssistantSpawner
   parent: MarkerBase
   components:
@@ -500,7 +500,7 @@
 # Civilian
 
 - type: entity
-  name: ent-VisitingCivilianSpawner
+  name: civilian visitor spawner
   id: VisitingCivilianSpawner
   parent: MarkerBase
   components:
@@ -530,7 +530,7 @@
     rareChance: 0.03
 
 - type: entity
-  name: ent-VisitorBartenderSpawner
+  name: visiting bartender spawner
   id: VisitorBartenderSpawner
   parent: MarkerBase
   components:
@@ -544,7 +544,7 @@
     - RandomHumanoidVisitorBartender
 
 - type: entity
-  name: ent-VisitorBotanistSpawner
+  name: visiting botanist spawner
   id: VisitorBotanistSpawner
   parent: MarkerBase
   components:
@@ -558,7 +558,7 @@
     - RandomHumanoidVisitorBotanist
 
 - type: entity
-  name: ent-VisitorBoxerSpawner
+  name: visiting boxer spawner
   id: VisitorBoxerSpawner
   parent: MarkerBase
   components:
@@ -572,7 +572,7 @@
     - RandomHumanoidVisitorBoxer
 
 - type: entity
-  name: ent-VisitorChaplainSpawner
+  name: visiting chaplain spawner
   id: VisitorChaplainSpawner
   parent: MarkerBase
   components:
@@ -586,7 +586,7 @@
     - RandomHumanoidVisitorChaplain
 
 - type: entity
-  name: ent-VisitorChefSpawner
+  name: visiting chef spawner
   id: VisitorChefSpawner
   parent: MarkerBase
   components:
@@ -600,7 +600,7 @@
     - RandomHumanoidVisitorChef
 
 - type: entity
-  name: ent-VisitorClownSpawner
+  name: visiting clown spawner
   id: VisitorClownSpawner
   parent: MarkerBase
   components:
@@ -614,7 +614,7 @@
     - RandomHumanoidVisitorClown
 
 - type: entity
-  name: ent-VisitorJanitorSpawner
+  name: visiting janitor spawner
   id: VisitorJanitorSpawner
   parent: MarkerBase
   components:
@@ -628,7 +628,7 @@
     - RandomHumanoidVisitorJanitor
 
 - type: entity
-  name: ent-VisitorLawyerSpawner
+  name: visiting lawyer spawner
   id: VisitorLawyerSpawner
   parent: MarkerBase
   components:
@@ -642,7 +642,7 @@
     - RandomHumanoidVisitorLawyer
 
 - type: entity
-  name: ent-VisitorLawyerCentcomSpawner
+  name: visiting centcom lawyer spawner
   id: VisitorLawyerCentcomSpawner
   parent: MarkerBase
   components:
@@ -656,7 +656,7 @@
     - RandomHumanoidVisitorLawyerCentcom
 
 - type: entity
-  name: ent-VisitorLibrarianSpawner
+  name: visiting librarian spawner
   id: VisitorLibrarianSpawner
   parent: MarkerBase
   components:
@@ -670,7 +670,7 @@
     - RandomHumanoidVisitorLibrarian
 
 - type: entity
-  name: ent-VisitorMusicianSpawner
+  name: visiting musician spawner
   id: VisitorMusicianSpawner
   parent: MarkerBase
   components:
@@ -684,7 +684,7 @@
     - RandomHumanoidVisitorMusician
 
 - type: entity
-  name: ent-VisitorMusicianFancySpawner
+  name: visiting fancy musician spawner
   id: VisitorMusicianFancySpawner
   parent: MarkerBase
   components:
@@ -698,7 +698,7 @@
     - RandomHumanoidVisitorMusicianFancy
 
 - type: entity
-  name: ent-VisitorMusicianRelaxedSpawner
+  name: visiting relaxed musician spawner
   id: VisitorMusicianRelaxedSpawner
   parent: MarkerBase
   components:
@@ -712,7 +712,7 @@
     - RandomHumanoidVisitorMusicianRelaxed
 
 - type: entity
-  name: ent-VisitorMimeSpawner
+  name: visiting mime spawner
   id: VisitorMimeSpawner
   parent: MarkerBase
   components:
@@ -726,7 +726,7 @@
     - RandomHumanoidVisitorMime
 
 - type: entity
-  name: ent-VisitorReporterSpawner
+  name: visiting reporter spawner
   id: VisitorReporterSpawner
   parent: MarkerBase
   components:
@@ -740,7 +740,7 @@
     - RandomHumanoidVisitorReporter
 
 - type: entity
-  name: ent-VisitorServiceWorkerSpawner
+  name: visiting service worker spawner
   id: VisitorServiceWorkerSpawner
   parent: MarkerBase
   components:
@@ -754,7 +754,7 @@
     - RandomHumanoidVisitorServiceWorker
 
 - type: entity
-  name: ent-VisitorZookeeperSpawner
+  name: visiting zookeeper spawner
   id: VisitorZookeeperSpawner
   parent: MarkerBase
   components:
@@ -772,10 +772,10 @@
 # Command
 
 - type: entity
-  name: ent-ChallengeVictimSpawner
+  name: disaster victim spawner
   id: ChallengeVictimSpawner
   parent: MarkerBase
-  suffix: ent-ChallengeVictimSpawner-suffix
+  suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
   - type: Sprite
@@ -800,10 +800,10 @@
 # Cargo
 
 - type: entity
-  name: ent-ChallengeCargoTechnicianSpawner
+  name: challenge cargo technician spawner
   id: ChallengeCargoTechnicianSpawner
   parent: MarkerBase
-  suffix: ent-ChallengeCargoTechnicianSpawner-suffix
+  suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
   - type: Sprite
@@ -827,7 +827,7 @@
 ### Misc
 
 - type: entity
-  name: ent-NTVisitorSpawner
+  name: NanoTrasen visitor spawner
   id: NTVisitorSpawner
   parent: MarkerBase
   components:
@@ -881,8 +881,8 @@
     - MobSkeletonCloset
 
 - type: entity
-  name: ent-NTVisitorSpawner50
-  suffix: ent-NTVisitorSpawner50-suffix
+  name: NanoTrasen visitor spawner
+  suffix: 50
   id: NTVisitorSpawner50
   parent: MarkerBase
   components:
@@ -897,8 +897,8 @@
     chance: 0.5
 
 - type: entity
-  name: ent-NTVisitorSpawner33
-  suffix: ent-NTVisitorSpawner33-suffix
+  name: NanoTrasen visitor spawner
+  suffix: 33
   id: NTVisitorSpawner33
   parent: NTVisitorSpawner50
   components:
@@ -908,8 +908,8 @@
     chance: 0.33
 
 - type: entity
-  name: ent-NTVisitorSpawner25
-  suffix: ent-NTVisitorSpawner25-suffix
+  name: NanoTrasen visitor spawner
+  suffix: 25
   id: NTVisitorSpawner25
   parent: NTVisitorSpawner50
   components:
@@ -919,8 +919,8 @@
     chance: 0.25
 
 - type: entity
-  name: ent-NTVisitorSpawner20
-  suffix: ent-NTVisitorSpawner20-suffix
+  name: NanoTrasen visitor spawner
+  suffix: 20
   id: NTVisitorSpawner20
   parent: NTVisitorSpawner50
   components:
@@ -930,8 +930,8 @@
     chance: 0.20
 
 - type: entity
-  name: ent-NTVisitorSpawner10
-  suffix: ent-NTVisitorSpawner10-suffix
+  name: NanoTrasen visitor spawner
+  suffix: 10
   id: NTVisitorSpawner10
   parent: NTVisitorSpawner50
   components:
@@ -943,7 +943,7 @@
 ### Syndicate & Hostiles
 
 - type: entity
-  name: ent-SyndieSoldierTeamLeaderSpawner
+  name: syndicate team leader spawner
   id: SyndieSoldierTeamLeaderSpawner
   parent: MarkerBase
   components:
@@ -957,7 +957,7 @@
     - RandomHumanoidSyndieSoldierTeamLeader
 
 - type: entity
-  name: ent-SyndieSoldierSpawner
+  name: syndicate soldier spawner
   id: SyndieSoldierSpawner
   parent: MarkerBase
   components:
@@ -971,7 +971,7 @@
     - RandomHumanoidSyndieSoldier
 
 - type: entity
-  name: ent-SyndieVisitorSpawner
+  name: syndie disaster victim spawner
   id: SyndieVisitorSpawner
   parent: MarkerBase
   components:
@@ -985,8 +985,8 @@
     - RandomHumanoidSyndieVisitor
 
 - type: entity
-  name: ent-PirateScoonerSpawner
-  suffix: ent-PirateScoonerSpawner-suffix
+  name: pirate crewman spawner
+  suffix: scooner
   id: PirateScoonerSpawner
   parent: MarkerBase
   components:
@@ -1000,8 +1000,8 @@
     - RandomHumanoidPirateScooner
 
 - type: entity
-  name: ent-PirateCaptainScoonerSpawner
-  suffix: ent-PirateCaptainScoonerSpawner-suffix
+  name: pirate captain spawner
+  suffix: scooner
   id: PirateCaptainScoonerSpawner
   parent: MarkerBase
   components:
@@ -1017,7 +1017,7 @@
 ### Other
 
 - type: entity
-  name: ent-VisitorBlackmarketeerSpawner
+  name: Blackmarketeer spawner
   id: VisitorBlackmarketeerSpawner
   parent: MarkerBase
   components:
@@ -1031,7 +1031,7 @@
     - RandomHumanoidVisitorBlackmarketeer
 
 - type: entity
-  name: ent-CossackSpawner
+  name: cossack spawner
   id: CossackSpawner
   parent: MarkerBase
   components:

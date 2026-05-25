@@ -1,6 +1,6 @@
 - type: entity
   id: PlasmaWindow
-  name: ent-PlasmaWindow
+  name: plasma window
   parent: WindowRCDResistant
   components:
   - type: Sprite
@@ -56,8 +56,8 @@
 - type: entity
   id: PlasmaWindowDirectional
   parent: WindowDirectionalRCDResistant
-  name: ent-PlasmaWindowDirectional
-  description: ent-PlasmaWindowDirectional-desc
+  name: directional plasma window
+  description: Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
     snap:
@@ -112,7 +112,7 @@
 - type: entity
   parent: PlasmaWindow
   id: PlasmaWindowDiagonal
-  suffix: ent-PlasmaWindowDiagonal-suffix
+  suffix: diagonal
   placement:
     mode: SnapgridCenter
     snap:

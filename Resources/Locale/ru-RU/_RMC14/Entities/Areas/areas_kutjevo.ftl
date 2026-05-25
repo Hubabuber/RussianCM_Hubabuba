@@ -1,132 +1,132 @@
 ent-RMCAreaKutjevoInteriorColonySouthPower2 = Кутьево - Южные очистные сооружения колонии - Север
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonySouth = Кутьево - Пещеры Южной Колонии
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonyNEast = Кутьево - Пещеры северо-восточной колонии
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonySEast = Кутьево - Пещеры юго-восточной колонии
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonyNorth = Кутьево - Пещеры Северной Колонии
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonyCentralMineElevator = Кутьево - Элеватор Центральной колонии
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonyCentral = Кутьево - Пещеры Центральной Колонии
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColony = Кутьево - Интерьер здания колонии
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorPowerPt2ElectricBoogaloo = Кутьево - Электростанция
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorBotanyBayInt = Кутьево — Интерьер фермы космических сорняков
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorForemansOffice = Кутьево - кабинет мастера
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorConstruction = Кутьево - интерьер заброшенной стройки
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorPowerComms = Кутьево - Реле связи плотины ГЭС
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorPower = Кутьево - Подстанция плотины ГЭС
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexNorthwestSecurityCheckpoint = Комплекс Кутьево - Северо-Западный КПП
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexNorthwestFlightControl = Комплекс Кутьево - Северо-западный диспетчерский пункт
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexNorthwestDorms = Комплекс Кутьево - Общежития Северо-Западной колонии
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexMedLocks = Комплекс Кутьево - Медицинские Штормлоксы
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexMedPano = Кутьевский Комплекс - Медицинский Паноптикум
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexMedCells = Кутьево Комплекс - Медицинские криоэлементы
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexMedTriage = Комплекс Кутьево - Коридор медицинской сортировки
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexMedOperating = Комплекс Кутьево - Операционный зал
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexMedAutoDoc = Комплекс Кутьево - Медицинский автодок-холл
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexMed = Комплекс Кутьево - Медицинский фойе
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexBotanyLocks = Комплекс Кутьево - Ботаника Штормлокс
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexBotanyEastTech = Комплекс Кутьево - Зал доступа к электростанции
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexBotanyEast = Комплекс Кутьево - Ботаника Восточный зал
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplexBotany = Комплекс Кутьево - Бухта Ботани
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorComplex = Кутьево Комплекс
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorTelecommLz2South = Кутьево - Южное реле связи LZ2
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorTelecommLz2North = Кутьево - Реле связи Северная LZ2
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorTelecommLz1South = Кутьево - Южное реле связи LZ1
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorTelecommLz1North = Кутьево - Реле связи Северная LZ1
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorTelecomm = Кутьево - Реле связи
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorComplexBorderMedRec = Комплекс Кутьево - Пещера с резервуаром для воды
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorComplexBorderMedPark = Комплекс Кутьево - Медикал Парк
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorComplexBorderBotanyMedicalCave = Комплекс Кутьево - Ботаника - Медицинская пещера
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorComplexBorder = Комплекс Кутьево - Внешний вид
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorConstruction = Кутьево - Заброшенная постройка
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorBotanyBayExt = Кутьево: внешний вид фермы космических сорняков
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorOverlook = Кутьево - вид на стоковую реку
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorRunoffBridge = Кутьево - Стоковый мост
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorRunoffRiver = Кутьево - Сток реки
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorRunoffDunes = Кутьево - Сток Дюны
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorNorthwestColony = Кутьево - Северо-Западная колония
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorStonyfields = Кутьево - Каменистые поля
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorScrublandSouth = Кутьево - Южный кустарник
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorScrubland = Кутьево - Северный кустарник
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorSpring = Кутьево - Южный источник
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorLzRiver = Кутьево - Речная Электростанция
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorLzDunes = Кутьево - Дюны зоны приземления
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorLzPad = Вспомогательная посадочная зона Кутьево
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorOobDevRoom = Кутьево — Комната кредитов
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorOob = Кутьево - За пределами поля
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInterior = Кутьево - Интерьер
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExterior = Кутьево - Внешний вид
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaShuttleDrop2Kutjevo = Кутьево - Зона высадки десантного корабля в Нормандии
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1Kutjevo = Кутьево - Зона приземления десантного корабля Аламо
-    .suffix = область
+
 ent-RMCAreaKutjevo = Кутьевский НПЗ
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorConstructionNorth = Кутьево - интерьер северной заброшенной постройки
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorConstructionEast = Кутьево - Восточный интерьер заброшенной постройки
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorConstructionSignalTower = Кутьево - Заброшенная сигнальная башня
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonySouthPower2South = Кутьево - Южные очистные сооружения колонии - Юг
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonyLandingZoneCheckpoint = Кутьево - КПП зоны приземления
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoInteriorColonyCLFShuttle = Кутьево - незарегистрированное грузовое судно
-    .suffix = Кутьевский НПЗ
+
 ent-RMCAreaKutjevoExteriorCLFLZ = Кутьево - Третичная зона высадки
-    .suffix = Кутьевский НПЗ
+

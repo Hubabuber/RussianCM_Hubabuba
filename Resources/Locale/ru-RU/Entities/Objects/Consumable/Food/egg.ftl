@@ -10,14 +10,3 @@ ent-FoodEgg-desc = Яйцо!
 ent-FoodEggBoiled-name = вареное яйцо
 ent-FoodEggBoiled-desc = Вкусное яйцо вкрутую.
 
-ent-Eggshells = яичная скорлупа
-    .desc = Ты идешь по ним, приятель.
-
-ent-FoodEgg = egg
-    .desc = Яйцо!
-
-ent-FoodEggBase = item
-    .desc = Яйцо!
-
-ent-FoodEggBoiled = вареное яйцо
-    .desc = Вкусное яйцо вкрутую.

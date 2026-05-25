@@ -1,120 +1,120 @@
 ent-RMCDoubleDoorAlmayerGlassRequisitions = Заявки на двойную дверь
   .desc = Стеклянная дверь, запертая на Реквизиции.
-    .suffix = Заявки на двойную дверь
+
 ent-RMCDoubleDoorAlmayerGlassCommand = Командная двойная дверь
   .desc = Стеклянная дверь заперта для командования.
-    .suffix = Командная двойная дверь
+
 ent-RMCDoubleDoorAlmayerGlassSEA = Двойная дверь
   .desc = Стеклянная дверь закрыта для старших рядовых советников.
-    .suffix = Двойная дверь
+
 ent-RMCDoubleDoorAlmayerSolidRequisitions = Заявки на двойную дверь
   .desc = Дверь заперта на Реквизиции.
-    .suffix = Заявки на двойную дверь
+
 ent-RMCDoubleDoorAlmayerSolidCommand = Командная двойная дверь
   .desc = Дверь заперта для командования.
-    .suffix = Командная двойная дверь
+
 ent-RMCDoubleDoorAlmayerSolidSEA = Двойная дверь
   .desc = Дверь заперта для старших рядовых советников.
-    .suffix = Двойная дверь
+
 ent-RMCDoubleDoorAlmayerGlassCO = Двойная дверь для командиров
   .desc = Стеклянная дверь заперта перед командиром.
-    .suffix = Двойная дверь для командиров
+
 ent-RMCDoubleDoorAlmayerSolidCO = Двойная дверь для командиров
   .desc = Дверь заперта перед командиром.
-    .suffix = Двойная дверь для командиров
+
 ent-RMCDoubleDoorAlmayerGlassHC = Двойная дверь Верховного командования
   .desc = Стеклянная дверь, запертая перед Верховным командованием.
-    .suffix = Двойная дверь Верховного командования
+
 ent-RMCDoubleDoorAlmayerSolidHC = Двойная дверь Верховного командования
   .desc = Дверь заперта для высшего командования
-    .suffix = Двойная дверь Верховного командования
+
 ent-RMCDoubleDoorAlmayerGlassSynth = Двойная дверь из синтетики
   .desc = Стеклянная дверь, запертая на Синтов.
-    .suffix = Двойная дверь из синтетики
+
 ent-RMCDoubleDoorAlmayerSolidSynth = Двойная дверь из синтетики
   .desc = Дверь, запертая для синтов.
-    .suffix = Двойная дверь из синтетики
+
 ent-RMCDoubleDoorCommandGlassCommand = Командная двойная дверь
   .desc = Стеклянная дверь заперта для командования.
-    .suffix = Командная двойная дверь
+
 ent-RMCDoubleDoorCommandSolidCommand = дверь
   .desc = Дверь заперта для командования.
-    .suffix = дверь
+
 ent-RMCDoubleDoorCommandGlassSeniorCommand = Командная двойная дверь
   .desc = Стеклянная дверь заперта перед старшим командованием.
-    .suffix = Командная двойная дверь
+
 ent-RMCDoubleDoorCommandSolidSeniorCommand = Двойная дверь
   .desc = Дверь заперта перед старшим командованием.
-    .suffix = Двойная дверь
+
 ent-RMCDoubleDoorCommandGlassCO = Двойная дверь для командиров
   .desc = Стеклянная дверь заперта перед командиром.
-    .suffix = Двойная дверь для командиров
+
 ent-RMCDoubleDoorCommandSolidCO = Двойная дверь для командиров
   .desc = Дверь заперта перед командиром.
-    .suffix = Двойная дверь для командиров
+
 ent-RMCDoubleDoorEngineerGlassEngineering = Инженерная двойная дверь
   .desc = Стеклянная дверь, запертая в инженерный отдел.
-    .suffix = Инженерная двойная дверь
+
 ent-RMCDoubleDoorEngineerSolidEngineering = Инженерная двойная дверь
   .desc = Дверь в инженерное заперта.
-    .suffix = Инженерная двойная дверь
+
 ent-RMCDoubleDoorEngineerGlassSeniorCommand = Старший командир, двойная дверь
   .desc = Стеклянная дверь заперта перед старшим командованием.
-    .suffix = Старший командир, двойная дверь
+
 ent-RMCDoubleDoorEngineerSolidSeniorCommand = Старший командир, двойная дверь
   .desc = Дверь заперта перед старшим командованием.
-    .suffix = Старший командир, двойная дверь
+
 ent-RMCDoubleDoorGenericGlassPress = Нажмите двойную дверь
   .desc = Стеклянная дверь закрыта для Прессы.
-    .suffix = Нажмите двойную дверь
+
 ent-RMCDoubleDoorGenericSolidPress = Нажмите двойную дверь
   .desc = Дверь заперта для Пресса.
-    .suffix = Нажмите двойную дверь
+
 ent-RMCDoubleDoorMedicalGlassMedical = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorMedicalSolidMedical = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorMedicalSolidMorgue = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorMedicalGlassResearch = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorMedicalSolidResearch = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsReq = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsPrep = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsMeetingRoom = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsAlphaPrep = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsBravoPrep = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsCharliePrep = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsDeltaPrep = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsAlphaAlpha = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsBravoBravo = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsCharlieCharlie = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorPreparationsDeltaDelta = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecurityGlassBrigCommand = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecuritySolidBrigCommand = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecurityGlassBrig = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecuritySolidBrig = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecurityGlassArmory = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecuritySolidArmory = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecurityGlassSeniorCommand = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecuritySolidSeniorCommand = дверь
-    .suffix = дверь
+

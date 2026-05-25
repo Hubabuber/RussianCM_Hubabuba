@@ -1,16 +1,16 @@
-- type: job
+﻿- type: job
   parent: RMCSurvivorForeconBase
   id: RMCSurvivorForeconCommander
-  name: job-rmcsurvivorforeconcommander-name
-  description: job-rmcsurvivorforeconcommander-desc
+  name: rmc-job-name-forecon-commander
+  description: cm-job-description-commanding-officer
   playTimeTracker: RMCJobSurvivorCO
   ranks:
     RMCRankMajor: []
   accessGroups:
   - ColonistEngi
   startingGear: RMCGearForeconCommander
-  spawnMenuRoleName: job-rmcsurvivorforeconcommander-spawnmenurolename
-  supervisors: job-rmcsurvivorforeconcommander-supervisors
+  spawnMenuRoleName: FORECON Commander (Survivor)
+  supervisors: cm-job-supervisors-marine-high-command
   roleWeight: 0.25
   icon: "RMCJobIconForeconCommander"
   special:
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconCommander
-  name: ent-CMSpawnPointForeconCommander
+  name: FORECON Commander spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconCommander

@@ -98,8 +98,8 @@
 # Wreckages
 - type: entity
   id: RMCMechPowerLoaderWreckage
-  name: ent-RMCMechPowerLoaderWreckage
-  description: ent-RMCMechPowerLoaderWreckage-desc
+  name: Caterpillar P-5000 Work Loader wreckage
+  description: Remains of some unfortunate Power Loader. Completely unrepairable.
   components:
   - type: Corrodible
     isCorrodible: true
@@ -136,8 +136,7 @@
 - type: entity
   parent: RMCMechPowerLoaderWreckage
   id: RMCMechPowerLoaderWreckageGreen
-  name: ent-RMCMechPowerLoaderWreckageGreen
-  description: ent-RMCMechPowerLoaderWreckageGreen-desc
+  name: John Deere 4300 Power Loader wreckage
   components:
   - type: Sprite
     drawdepth: BelowMobs
@@ -149,8 +148,7 @@
 - type: entity
   parent: RMCMechPowerLoaderWreckage
   id: RMCMechPowerLoaderWreckageBlue
-  name: ent-RMCMechPowerLoaderWreckageBlue
-  description: ent-RMCMechPowerLoaderWreckageBlue-desc
+  name: Caterpillar P-5200 Work Loader wreckage
   components:
   - type: Sprite
     drawdepth: BelowMobs
@@ -162,8 +160,8 @@
 - type: entity
   parent: RMCMechBase
   id: RMCMechPowerLoader
-  name: ent-RMCMechPowerLoader
-  description: ent-RMCMechPowerLoader-desc # TODO RMC14 BETTER DESCRIPTION
+  name: Caterpillar P-5000 Work Loader
+  description: The Caterpillar P-5000 Work Loader is a commercial mechanized exoskeleton used for lifting heavy materials and objects, first designed in January 29, 2025 by Weyland Corporation. An old but trusted design used in warehouses, constructions and military ships everywhere.
   components:
   - type: PowerLoader
     skills:
@@ -187,8 +185,8 @@
 - type: entity
   parent: RMCMechPowerLoader
   id: RMCMechPowerLoaderGreen
-  name: ent-RMCMechPowerLoaderGreen
-  description: ent-RMCMechPowerLoaderGreen-desc # TODO RMC14 BETTER DESCRIPTION
+  name: John Deere 4300 Power Loader
+  description: John Deere 4300 Work Loader is a commercial mechanized exoskeleton used for lifting heavy materials and objects based on the Caterpillar P-5000, first designed in January 29, 2025 by Weyland Corporation. An old but trusted design used in warehouses, constructions and military ships everywhere. This one has a signature green and yellow livery.
   components:
   - type: Sprite
     layers:
@@ -206,8 +204,8 @@
 - type: entity
   parent: RMCMechPowerLoader
   id: RMCMechPowerLoaderBlue
-  name: ent-RMCMechPowerLoaderBlue
-  description: ent-RMCMechPowerLoaderBlue-desc # TODO RMC14 BETTER DESCRIPTION
+  name: Caterpillar P-5200 Work Loader
+  description: A modernized design made to outdo the older models once used in fancy ports and facilities.
   components:
   - type: Sprite
     layers:

@@ -1,15 +1,15 @@
 ent-RMCHeadsetHvHWeYaPMC = Корпоративная гарнитура WeYa
   .desc = Специальная гарнитура, используемая корпоративным персоналом.
-    .suffix = Корпоративная гарнитура WeYa
+
 ent-RMCHeadsetHvHWeYaPMCMedic = ПМК-МЕД гарнитура
   .desc = Специальная гарнитура, используемая корпоративным персоналом.
-    .suffix = Корпоративная гарнитура WeYa
+
 ent-RMCHeadsetHvHWeYaPMCEngineer = PMC-CCT гарнитура
   .desc = Специальная гарнитура, используемая корпоративным персоналом.
-    .suffix = Корпоративная гарнитура WeYa
+
 ent-RMCHeadsetHvHWeYaPMCLeader = PMC-CMD гарнитура
   .desc = Специальная гарнитура, используемая корпоративным персоналом.
-    .suffix = Корпоративная гарнитура WeYa
+
 ent-RMCHeadsetHvHWeYaPMCCommando = Гарнитура We-Ya Commando
   .desc = Специальная гарнитура, используемая неизвестными оперативниками.
-    .suffix = Гарнитура We-Ya Commando
+

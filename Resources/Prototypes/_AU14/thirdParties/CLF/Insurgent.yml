@@ -12,11 +12,11 @@
   ranks:
     RMCRankCivilian: []
   startingGear: AU14GearCLFGuerilla
-  spawnMenuRoleName: job-au14jobclfguerillareinforcement-spawnmenurolename
+  spawnMenuRoleName: CLF Guerilla Fighter (Reinforcements)
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobclfguerillareinforcement-supervisors
+  supervisors: au14-job-supervisors-clflrs
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -51,7 +51,7 @@
 
 - type: entity
   id: AU14CLFGuerillaReinforcement
-  name: ent-AU14CLFGuerillaReinforcement
+  name: returning colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -73,7 +73,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicBaseMilitary
   id: AU14IntelThirdPartyCLFInsurgentReinforcements
-  name: ent-AU14IntelThirdPartyCLFInsurgentReinforcements
+  name: Insurgent Reinforcements
   components:
   - type: GhostRoleApplySpecial
   - type: GhostRole

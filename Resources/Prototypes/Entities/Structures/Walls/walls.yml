@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseStructureWall
-  name: ent-BaseStructureWall
-  description: ent-BaseStructureWall-desc
+  name: basewall
+  description: Keeps the air in and the greytide out.
   placement:
     mode: SnapgridCenter
     snap:
@@ -63,7 +63,7 @@
   abstract: true
   parent: BaseStructureWall
   id: WallDiagonalBase
-  suffix: ent-WallDiagonalBase-suffix
+  suffix: Diagonal
   components:
   - type: Tag
     tags:
@@ -95,7 +95,7 @@
 - type: entity
   parent: BaseWall
   id: WallBrick
-  name: ent-WallBrick
+  name: brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/brick.rsi
@@ -125,7 +125,7 @@
 - type: entity
   parent: BaseWall
   id: WallClock
-  name: ent-WallClock
+  name: clock wall
   components:
   - type: Sprite
     sprite: Structures/Walls/clock.rsi
@@ -154,7 +154,7 @@
 - type: entity
   parent: BaseWall
   id: WallClown
-  name: ent-WallClown
+  name: bananium wall
   components:
   - type: Sprite
     sprite: Structures/Walls/clown.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: BaseWall
   id: WallMeat
-  name: ent-WallMeat
-  description: ent-WallMeat-desc
+  name: meat wall
+  description: Sticky.
   components:
   - type: Tag
     tags:
@@ -232,7 +232,7 @@
 - type: entity
   parent: BaseWall
   id: WallCult
-  name: ent-WallCult
+  name: cult wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cult.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: BaseWall
   id: WallDebug
-  name: ent-WallDebug
-  suffix: ent-WallDebug-suffix
+  name: debug wall
+  suffix: DEBUG
   components:
   - type: Tag
     tags:
@@ -289,7 +289,7 @@
 - type: entity
   parent: BaseWall
   id: WallDiamond
-  name: ent-WallDiamond
+  name: diamond wall
   components:
   - type: Sprite
     sprite: Structures/Walls/diamond.rsi
@@ -319,7 +319,7 @@
 - type: entity
   parent: BaseWall
   id: WallGold
-  name: ent-WallGold
+  name: gold wall
   components:
   - type: Sprite
     sprite: Structures/Walls/gold.rsi
@@ -372,7 +372,7 @@
 - type: entity
   parent: BaseWall
   id: WallIce
-  name: ent-WallIce
+  name: ice wall
   components:
   - type: Sprite
     sprite: Structures/Walls/ice.rsi
@@ -398,7 +398,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlasma
-  name: ent-WallPlasma
+  name: plasma wall
   components:
   - type: Sprite
     sprite: Structures/Walls/plasma.rsi
@@ -442,7 +442,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlastic
-  name: ent-WallPlastic
+  name: plastic wall
   components:
   - type: Sprite
     sprite: Structures/Walls/plastic.rsi
@@ -484,8 +484,8 @@
 - type: entity
   parent: BaseWall
   id: WallPlastitaniumIndestructible
-  name: ent-WallPlastitaniumIndestructible
-  suffix: ent-WallPlastitaniumIndestructible-suffix
+  name: plastitanium wall
+  suffix: indestructible
   components:
     - type: Sprite
       sprite: Structures/Walls/plastitanium.rsi
@@ -514,8 +514,8 @@
 - type: entity
   parent: WallPlastitaniumIndestructible
   id: WallPlastitanium
-  name: ent-WallPlastitanium
-  suffix: "ent-WallPlastitanium-suffix"
+  name: plastitanium wall
+  suffix: ""
   components:
     - type: Destructible
       thresholds:
@@ -534,8 +534,8 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallPlastitaniumDiagonalIndestructible
-  name: ent-WallPlastitaniumDiagonalIndestructible
-  suffix: ent-WallPlastitaniumDiagonalIndestructible-suffix
+  name: plastitanium wall
+  suffix: diagonal, indestructible
   components:
   - type: Sprite
     drawdepth: Walls
@@ -553,8 +553,8 @@
 - type: entity
   parent: WallPlastitaniumDiagonalIndestructible
   id: WallPlastitaniumDiagonal
-  name: ent-WallPlastitaniumDiagonal
-  suffix: ent-WallPlastitaniumDiagonal-suffix
+  name: plastitanium wall
+  suffix: diagonal
   components:
   - type: Sprite
     drawdepth: Walls
@@ -583,7 +583,7 @@
 - type: entity
   parent: BaseWall
   id: WallReinforced
-  name: ent-WallReinforced
+  name: reinforced wall
   components:
   - type: Sprite
     sprite: Structures/Walls/solid.rsi
@@ -653,7 +653,7 @@
 - type: entity
   parent: WallReinforced
   id: WallReinforcedRust
-  suffix: ent-WallReinforcedRust-suffix
+  suffix: rusted
   components:
   - type: Sprite
     sprite: Structures/Walls/solid_rust.rsi
@@ -692,7 +692,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallReinforcedDiagonal
-  name: ent-WallReinforcedDiagonal
+  name: reinforced wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -733,7 +733,7 @@
 - type: entity
   parent: BaseWall
   id: WallRiveted
-  name: ent-WallRiveted
+  name: riveted wall
   components:
   - type: Sprite
     sprite: Structures/Walls/riveted.rsi
@@ -764,7 +764,7 @@
 - type: entity
   parent: BaseWall
   id: WallSandstone
-  name: ent-WallSandstone
+  name: sandstone wall
   components:
   - type: Sprite
     sprite: Structures/Walls/sandstone.rsi
@@ -794,7 +794,7 @@
 - type: entity
   parent: BaseWall
   id: WallSilver
-  name: ent-WallSilver
+  name: silver wall
   components:
   - type: Sprite
     sprite: Structures/Walls/silver.rsi
@@ -837,7 +837,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallShuttleDiagonal
-  name: ent-WallShuttleDiagonal
+  name: shuttle wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -904,7 +904,7 @@
 - type: entity
   parent: BaseWall
   id: WallShuttle
-  name: ent-WallShuttle
+  name: shuttle wall
   components:
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -975,7 +975,7 @@
 - type: entity
   parent: BaseWall
   id: WallSolid
-  name: ent-WallSolid
+  name: solid wall
   components:
   - type: Sprite
     sprite: Structures/Walls/solid.rsi
@@ -1018,7 +1018,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallSolidDiagonal
-  name: ent-WallSolidDiagonal
+  name: solid wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -1053,7 +1053,7 @@
 - type: entity
   parent: WallSolid
   id: WallSolidRust
-  suffix: ent-WallSolidRust-suffix
+  suffix: rusted
   components:
   - type: Sprite
     sprite: Structures/Walls/solid_rust.rsi
@@ -1092,7 +1092,7 @@
 - type: entity
   parent: BaseWall
   id: WallSolidChitin
-  name: ent-WallSolidChitin
+  name: solid chitin
   components:
   - type: Tag
     tags:
@@ -1137,7 +1137,7 @@
 - type: entity
   parent: BaseWall
   id: WallReinforcedChitin
-  name: ent-WallReinforcedChitin
+  name: reinforced chitin
   components:
   - type: Sprite
     sprite: Structures/Walls/xeno.rsi
@@ -1195,7 +1195,7 @@
 - type: entity
   parent: BaseWall
   id: WallUranium
-  name: ent-WallUranium
+  name: uranium wall
   components:
   - type: Sprite
     sprite: Structures/Walls/uranium.rsi
@@ -1246,8 +1246,8 @@
 - type: entity
   parent: BaseWall
   id: WallWood
-  name: ent-WallWood
-  description: ent-WallWood-desc
+  name: wood wall
+  description: The traditional greytide defense.
   components:
   - type: Sprite
     sprite: Structures/Walls/wood.rsi
@@ -1285,8 +1285,8 @@
 - type: entity
   parent: BaseWall
   id: WallWeb
-  name: ent-WallWeb
-  description: ent-WallWeb-desc
+  name: web wall
+  description: Keeps the spiders in and the greytide out.
   components:
   - type: MeleeSound
     soundGroups:
@@ -1337,7 +1337,7 @@
 - type: entity
   parent: BaseWall
   id: WallNecropolis
-  name: ent-WallNecropolis
+  name: stone wall
   components:
   - type: Sprite
     sprite: Structures/Walls/necropolis.rsi
@@ -1358,7 +1358,7 @@
 - type: entity
   parent: BaseWall
   id: WallMining
-  name: ent-WallMining
+  name: mining wall
   components:
   - type: Sprite
     sprite: Structures/Walls/mining.rsi
@@ -1384,7 +1384,7 @@
 - type: entity
   parent: WallDiagonalBase
   id: WallMiningDiagonal
-  name: ent-WallMiningDiagonal
+  name: mining wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -1428,8 +1428,8 @@
 - type: entity
   parent: BaseWall
   id: WallVaultAlien
-  name: ent-WallVaultAlien
-  description: ent-WallVaultAlien-desc
+  name: alien vault wall
+  description: A mysterious ornate looking wall. There may be ancient dangers inside.
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1449,7 +1449,7 @@
 - type: entity
   parent: WallVaultAlien
   id: WallVaultRock
-  name: ent-WallVaultRock
+  name: rock vault wall
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1461,7 +1461,7 @@
 - type: entity
   parent: WallVaultAlien
   id: WallVaultSandstone
-  name: ent-WallVaultSandstone
+  name: sandstone vault wall
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1474,7 +1474,7 @@
 
 - type: entity
   id: WallInvisible
-  name: ent-WallInvisible
+  name: invisible wall
   components:
   - type: TimedDespawn
     lifetime: 15
@@ -1497,7 +1497,7 @@
 
 - type: entity
   id: WallForce
-  name: ent-WallForce
+  name: force wall
   components:
   - type: TimedDespawn
     lifetime: 10
@@ -1527,8 +1527,8 @@
 - type: entity
   parent: BaseWall
   id: WallCobblebrick
-  name: ent-WallCobblebrick
-  description: ent-WallCobblebrick-desc
+  name: cobblestone brick wall
+  description: Stone by stone, perfectly fitted together to form a wall.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick.rsi
@@ -1553,7 +1553,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallBasaltCobblebrick
-  name: ent-WallBasaltCobblebrick
+  name: basalt brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_basalt.rsi
@@ -1566,8 +1566,8 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSnowCobblebrick
-  name: ent-WallSnowCobblebrick
-  description: ent-WallSnowCobblebrick-desc
+  name: snow brick wall
+  description: A cold, not-so-impenetrable wall.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_snow.rsi
@@ -1580,7 +1580,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAsteroidCobblebrick
-  name: ent-WallAsteroidCobblebrick
+  name: asteroid stone brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_asteroid.rsi
@@ -1593,7 +1593,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSandCobblebrick
-  name: ent-WallSandCobblebrick
+  name: sandstone brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_sand.rsi
@@ -1606,7 +1606,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallChromiteCobblebrick
-  name: ent-WallChromiteCobblebrick
+  name: chromite brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_chromite.rsi
@@ -1619,7 +1619,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAndesiteCobblebrick
-  name: ent-WallAndesiteCobblebrick
+  name: andesite brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_andesite.rsi

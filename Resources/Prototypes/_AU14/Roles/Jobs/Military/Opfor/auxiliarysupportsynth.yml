@@ -3,8 +3,8 @@
   id: AU14JobOPFORAuxSupportSynth
   whitelisted: true
   whitelistParent: RMCWhitelistMedium
-  name: job-au14jobopforauxsupportsynth-name
-  description: job-au14jobopforauxsupportsynth-desc
+  name: au14-job-name-opforauxsupportsynth
+  description: au14-job-description-opforauxsupportsynth
   setPreference: false
   canBeAntag: false
   requirements:
@@ -39,9 +39,9 @@
   dummyStartingGear: AU14GearOPFORAuxSupportSynthDummy
   icon: "AU14JobIconOPFORSynth"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobopforauxsupportsynth-spawnmenurolename
+  spawnMenuRoleName: Support Synth (OPFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobopforauxsupportsynth-supervisors
+  supervisors: au14-job-supervisors-opforplatco
   accessGroups:
   - AU14OpforCommand
   - CMCargoTech
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORAuxSupportSynth
-  name: ent-AU14SpawnPointOPFORAuxSupportSynth
+  name: Spawn Point OPFOR Support Synth
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORAuxSupportSynth

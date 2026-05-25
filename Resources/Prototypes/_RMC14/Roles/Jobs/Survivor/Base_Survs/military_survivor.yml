@@ -1,13 +1,13 @@
 - type: job
   parent: CMSurvivor
   id: RMCSurvivorMilitary
-  name: job-rmcsurvivormilitary-name
-  description: job-rmcsurvivormilitary-desc
+  name: rmc-job-name-survivor-military
+  description: rmc-job-description-survivor-military
   playTimeTracker: RMCJobSurvivorMilitary
   startingGear: RMCGearMilitarySurvivor
   joinNotifyCrew: false
-  supervisors: job-rmcsurvivormilitary-supervisors
-  spawnMenuRoleName: job-rmcsurvivormilitary-spawnmenurolename
+  supervisors: cm-job-supervisors-nobody
+  spawnMenuRoleName: Military Survivor (Base)
   useLoadoutOfJob: CMSurvivor
   basePlaytimeTracker: true
   hidden: true # Keep hidden, this role exists as a base for other military survivor roles and so playtimes are visible in the character stats menu

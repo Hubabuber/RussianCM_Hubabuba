@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseRubberToy
   id: ToyRubberDuck
-  name: ent-ToyRubberDuck
-  description: ent-ToyRubberDuck-desc
+  name: rubber ducky
+  description: Not carried here by ocean currents.
   components:
   - type: Sprite
     sprite: Objects/Fun/ducky.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: BaseRubberToy
   id: RubberChicken
-  name: ent-RubberChicken
-  description: ent-RubberChicken-desc
+  name: rubber chicken
+  description: A stress inducing parody of nature's most delectable avian.
   components:
   - type: Sprite
     sprite: Objects/Fun/rubber_chicken.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFigurineCheapo
-  name: ent-BaseFigurineCheapo
-  description: ent-BaseFigurineCheapo-desc
+  name: figurine
+  description: A small miniature.
   abstract: true
   components:
   - type: PhysicalComposition
@@ -149,8 +149,8 @@
 - type: entity
   parent: BaseFigurineCheapo
   id: ToyAi
-  name: ent-ToyAi
-  description: ent-ToyAi-desc
+  name: AI toy
+  description: A scaled-down toy AI core.
   components:
   - type: Sprite
     sprite: Objects/Fun/AI.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: BaseFigurineCheapo
   id: ToyNuke
-  name: ent-ToyNuke
-  description: ent-ToyNuke-desc
+  name: nuke toy
+  description: A plastic model of a Nuclear Fission Explosive. No uranium included... probably.
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_nuke.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyIan
-  name: ent-ToyIan
-  description: ent-ToyIan-desc
+  name: ian toy
+  description: Unable to eat, but just as fluffy as the real guy!
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_ian.rsi
@@ -268,8 +268,8 @@
 - type: entity
   parent: FoamWeaponBase
   id: FoamCrossbow
-  name: ent-FoamCrossbow
-  description: ent-FoamCrossbow-desc
+  name: foam crossbow
+  description: Aiming this at Security may get you filled with lead.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_crossbow.rsi
@@ -299,8 +299,8 @@
 - type: entity
   parent: BaseItem
   id: ToyGunBase
-  name: ent-ToyGunBase
-  description: ent-ToyGunBase-desc
+  name: ToyGunBase
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -308,8 +308,8 @@
 - type: entity
   parent: ToyGunBase
   id: RevolverCapGun
-  name: ent-RevolverCapGun
-  description: ent-RevolverCapGun-desc
+  name: cap gun
+  description: Looks almost like the real thing! Ages 8 and up.
   components:
   - type: Sprite
     sprite: Objects/Fun/capgun.rsi
@@ -350,9 +350,9 @@
 - type: entity
   parent: RevolverCapGun
   id: RevolverCapGunFake
-  name: ent-RevolverCapGunFake
-  suffix: ent-RevolverCapGunFake-suffix
-  description: ent-RevolverCapGunFake-desc
+  name: cap gun
+  suffix: Fake
+  description: Looks almost like the real thing! Ages 8 and up.
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -366,8 +366,8 @@
 - type: entity
   parent: BaseItem
   id: FoamBlade
-  name: ent-FoamBlade
-  description: ent-FoamBlade-desc
+  name: foamblade
+  description: It says "Sternside Changs number 1 fan" on it.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_blade.rsi
@@ -390,8 +390,8 @@
 - type: entity
   parent: BaseItem
   id: Basketball
-  name: ent-Basketball
-  description: ent-Basketball-desc
+  name: basketball
+  description: Where dah courts at?
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/basketball.rsi
@@ -422,8 +422,8 @@
 - type: entity
   parent: BaseItem
   id: Football
-  name: ent-Football
-  description: ent-Football-desc
+  name: football
+  description: Otherwise known as a handegg.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/football.rsi
@@ -452,8 +452,8 @@
 - type: entity
   parent: BaseItem
   id: BeachBall
-  name: ent-BeachBall
-  description: ent-BeachBall-desc
+  name: beach ball
+  description: The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/beach_ball.rsi
@@ -485,8 +485,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonSyn
-  name: ent-BalloonSyn
-  description: ent-BalloonSyn-desc
+  name: syndie balloon
+  description: Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/syndicate.rsi
@@ -505,8 +505,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonNT
-  name: ent-BalloonNT
-  description: ent-BalloonNT-desc
+  name: nanotrasen balloon
+  description: Specially designed to inflict maximum psychological damage to Syndicate operatives.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/nanotrasen.rsi
@@ -523,8 +523,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonCorgi
-  name: ent-BalloonCorgi
-  description: ent-BalloonCorgi-desc
+  name: corgi balloon
+  description: Just like owning a real dog - but a lot floatier.
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/corgi.rsi
@@ -541,8 +541,8 @@
 - type: entity
   parent: BaseItem
   id: SingularityToy
-  name: ent-SingularityToy
-  description: ent-SingularityToy-desc
+  name: singuloth-brand toy
+  description: Mass-produced by a sadistic corporate conglomerate!
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_singularity.rsi
@@ -566,8 +566,8 @@
 - type: entity
   parent: BaseItem
   id: TeslaToy
-  name: ent-TeslaToy
-  description: ent-TeslaToy-desc
+  name: Teddy Tesla
+  description: The favorite toy of the great engineer Nikola Tesla.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi
@@ -600,8 +600,8 @@
 - type: entity
   parent: [ BaseItem, BaseMagicalContraband ]
   id: PonderingOrb
-  name: ent-PonderingOrb
-  description: ent-PonderingOrb-desc
+  name: pondering orb
+  description: Ponderous, man... Really ponderous.
   components:
   - type: Sprite
     sprite: Objects/Fun/pondering_orb.rsi
@@ -619,9 +619,9 @@
 - type: entity
   parent: PonderingOrb
   id: PonderingOrbWizard
-  name: ent-PonderingOrbWizard
-  description: ent-PonderingOrbWizard-desc
-  suffix: ent-PonderingOrbWizard-suffix
+  name: pondering orb
+  description: Ponderous, man... Really ponderous. Magically shows the station's camera network.
+  suffix: Wizard
   components:
   - type: ActivatableUI
     requireActiveHand: false
@@ -641,8 +641,8 @@
 - type: entity
   parent: BaseItem
   id: ToySword
-  name: ent-ToySword
-  description: ent-ToySword-desc
+  name: toy sword
+  description: New Sandy-Cat plastic sword! Comes with realistic sound and full color! Looks almost like the real thing!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
@@ -710,8 +710,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyAmongPequeno
-  name: ent-ToyAmongPequeno
-  description: ent-ToyAmongPequeno-desc
+  name: among pequeño
+  description: Sus!
   components:
   - type: Sprite
     sprite: Objects/Fun/pequeno.rsi
@@ -747,8 +747,8 @@
 - type: entity
   parent: BaseItem
   id: FoamCutlass
-  name: ent-FoamCutlass
-  description: ent-FoamCutlass-desc
+  name: foam cutlass
+  description: Cosplay as a pirate and force your friends to walk the plank.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cutlass.rsi
@@ -771,8 +771,8 @@
 - type: entity
   parent: BaseItem
   id: ClownRecorder
-  name: ent-ClownRecorder
-  description: ent-ClownRecorder-desc
+  name: clown recorder
+  description: When you just can't get those laughs coming the natural way!
   components:
   - type: Sprite
     sprite: Objects/Fun/clownrecorder.rsi
@@ -802,8 +802,8 @@
 - type: entity
   parent: BaseItem
   id: ToyHammer
-  name: ent-ToyHammer
-  description: ent-ToyHammer-desc
+  name: rubber hammer
+  description: A brightly colored hammer made of rubber.
   components:
   - type: Sprite
     sprite: Objects/Fun/rubber_hammer.rsi
@@ -839,8 +839,8 @@
 - type: entity
   parent: BaseItem
   id: WhoopieCushion
-  name: ent-WhoopieCushion
-  description: ent-WhoopieCushion-desc
+  name: whoopie cushion
+  description: A practical joke device involving flatulence humour.
   components:
   - type: Sprite
     sprite: Objects/Fun/whoopie.rsi
@@ -914,11 +914,11 @@
         - ItemMask
 
 - type: entity
-  name: ent-PlasticBanana
+  name: banana
   parent: FoodProduceBase
   id: PlasticBanana
-  description: ent-PlasticBanana-desc
-  suffix: ent-PlasticBanana-suffix
+  description: A plastic banana.
+  suffix: Plastic
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -939,8 +939,8 @@
 - type: entity
   parent: DrinkBase
   id: CrazyGlue
-  name: ent-CrazyGlue
-  description: ent-CrazyGlue-desc
+  name: crazy glue
+  description:  A bottle of crazy glue manufactured by Honk! Co.
   components:
   - type: Sprite
     sprite: Objects/Fun/glue.rsi
@@ -978,8 +978,8 @@
 - type: entity
   parent: BaseItem
   id: NewtonCradle
-  name: ent-NewtonCradle
-  description: ent-NewtonCradle-desc
+  name: newton cradle
+  description: A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
   components:
   - type: Sprite
     sprite: Objects/Fun/newton_cradle.rsi

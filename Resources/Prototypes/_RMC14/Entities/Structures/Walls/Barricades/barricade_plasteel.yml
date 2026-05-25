@@ -2,8 +2,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadePlasteel
-  name: ent-RMCBarricadePlasteel
-  description: ent-RMCBarricadePlasteel-desc
+  name: plasteel barricade
+  description: A sturdy and easily assembled barricade made of reinforced plasteel plates, the pinnacle of strongpoints. Use a blowtorch to repair.
   components:
   - type: Climbable
   - type: Anchorable
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeBurnPlasteel
-  suffix: ent-RMCBarricadeBurnPlasteel-suffix
+  suffix: Biohazard
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeBrutePlasteel
-  suffix: ent-RMCBarricadeBrutePlasteel-suffix
+  suffix: Reinforced
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeExplosivePlasteel
-  suffix: ent-RMCBarricadeExplosivePlasteel-suffix
+  suffix: Composite
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -170,8 +170,8 @@
 - type: entity
   parent: CMBarricadeMetalDoor
   id: CMBarricadePlasteelDoor
-  name: ent-CMBarricadePlasteelDoor
-  description: ent-CMBarricadePlasteelDoor-desc
+  name: folding plasteel barricade
+  description: A tough folding plasteel barricade stronger than its metal counterpart. Can be closed and opened at a moment's notice. Repair with a welder.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi

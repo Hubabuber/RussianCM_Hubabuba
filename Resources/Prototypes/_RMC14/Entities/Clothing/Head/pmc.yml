@@ -2,8 +2,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: ArmorHelmetPMC
-  name: ent-ArmorHelmetPMC
-  description: ent-ArmorHelmetPMC-desc
+  name: PMC tactical cap
+  description: A protective cap made from flexible kevlar. Standard issue for most security forms in the place of a helmet.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/cap.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetPMCBlack
-  name: ent-RMCArmorHelmetPMCBlack
+  name: PMC black tactical cap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/black_cap.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: [ArmorHelmetPMC, RMCMarineHelmetWithLightBase]
   id: RMCArmorHelmetPMCTactical
-  name: ent-RMCArmorHelmetPMCTactical
-  description: ent-RMCArmorHelmetPMCTactical-desc
+  name: tactical helmet
+  description: A contender for service with the Royal Crown Marines, it is presently, exclusively, field tested by Weyland-Yutani mercenaries. Features a ballistic mask and integrated display connected to the visor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/helmet.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCOfficer
-  name: ent-ArmorHelmetPMCOfficer
-  description: ent-ArmorHelmetPMCOfficer-desc
+  name: PMC beret
+  description: The pinnacle of fashion for any aspiring mercenary leader. Designed to protect the head from light impacts.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/officer.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCFieldOfficer
-  name: ent-ArmorHelmetPMCFieldOfficer
-  description: ent-ArmorHelmetPMCFieldOfficer-desc
+  name: PMC field officer beret
+  description: The pinnacle of fashion for any aspiring mercenary leader. Designed to protect the head from light impacts.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/field_officer.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCArmorHelmetPMCTactical
   id: ArmorHelmetPMCGunner
-  name: ent-ArmorHelmetPMCGunner
-  description: ent-ArmorHelmetPMCGunner-desc
+  name: PMC specialist operator helmet
+  description: A modification of the standard PMC tactical helmet, featuring a frontal shield to protect the user's from shrapnel and small arms fire while operating heavy weaponry.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/heavy.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: ArmorHelmetPMCCommandoSurvivor
-  name: ent-ArmorHelmetPMCCommandoSurvivor
-  description: ent-ArmorHelmetPMCCommandoSurvivor-desc
+  name: damaged We-Ya Commando helmet
+  description: A standard enclosed helmet utilized by Weyland-Yutani Commandos. Has been through a lot of wear and tear.
   components:
   - type: ItemCamouflage
     camouflageVariations: { }
@@ -122,8 +122,8 @@
 - type: entity
   parent: RMCArmorHelmetPMCTactical
   id: ArmorHelmetPMCCommando
-  name: ent-ArmorHelmetPMCCommando
-  description: ent-ArmorHelmetPMCCommando-desc
+  name: PMC M5X helmet
+  description: A fully enclosed, armored helmet made to complete the M5X exoskeleton armor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/commando.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: ArmorHelmetPMCCommando
   id: RMCArmorHelmetPMCCommandoAlt
-  suffix: ent-RMCArmorHelmetPMCCommandoAlt-suffix
-  description: ent-RMCArmorHelmetPMCCommandoAlt-desc
+  suffix: Alt
+  description: A fully enclosed, armored helmet made to complete the M5X exoskeleton armor. This one has had a skull scratched into the visor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/commando_alt.rsi
@@ -159,7 +159,7 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetPMCDark
-  name: ent-RMCArmorHelmetPMCDark
+  name: We-Ya armored cap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/hybrisa_cap.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCCorporate
-  name: ent-ArmorHelmetPMCCorporate
-  description: ent-ArmorHelmetPMCCorporate-desc
+  name: WY corporate security helmet
+  description: A basic skull-helm worn by corporate security assets, graded to protect your head from an unruly scientist armed with a crowbar.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/corporate.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: ArmorHelmetPMCCorporate
   id: ArmorHelmetPMCCorporateLead
-  description: ent-ArmorHelmetPMCCorporateLead-desc
+  description: A basic skull-helm worn by corporate security assets. This variant is worn by low-level guards that have too much brainmatter to fit into the old one. Or so they say.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/corporate_lead.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCRiot
-  name: ent-ArmorHelmetPMCRiot
-  description: ent-ArmorHelmetPMCRiot-desc
+  name: RC6 helmet
+  description: The standard UA Riot Control 6 helmet is of odd design, lacking a face shield by default (mounting points are available). The distinct white pattern and red emblem are synonymous with oppression throughout the rim.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/riot.rsi
@@ -209,9 +209,9 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCKutjevo
-  name: ent-ArmorHelmetPMCKutjevo
-  description: ent-ArmorHelmetPMCKutjevo-desc
-  suffix: ent-ArmorHelmetPMCKutjevo-suffix
+  name: kutjevo helmet
+  description: Standard issued helmet for the workers of Kutjevo. Contains a small webbing to hold small items like pens, oil or even a photo of a loved one.
+  suffix: Kutjevo
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/kutjevo.rsi
@@ -221,9 +221,9 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetPMCKutjevoSecurity
-  name: ent-RMCArmorHelmetPMCKutjevoSecurity
-  description: ent-RMCArmorHelmetPMCKutjevoSecurity-desc
-  suffix: ent-RMCArmorHelmetPMCKutjevoSecurity-suffix
+  name: We-Ya corporate security helmet
+  description: A basic skull-helm worn by corporate security assets. This variant comes with a wider brim to protect the user from the harsh climate of the desert.
+  suffix: Kutjevo
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/kutjevo_security.rsi
@@ -233,9 +233,9 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetPMCKutjevoMedical
-  name: ent-RMCArmorHelmetPMCKutjevoMedical
-  description: ent-RMCArmorHelmetPMCKutjevoMedical-desc
-  suffix: ent-RMCArmorHelmetPMCKutjevoMedical-suffix
+  name: We-Ya corporate medic helmet
+  description: A basic skull-helm worn by corporate security assets. This variant comes with a wider brim to protect the user from the harsh climate of the desert and has a medical cross across the front.
+  suffix: Kutjevo
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/kutjevo_medical.rsi
@@ -245,8 +245,8 @@
 - type: entity
   parent: RMCArmorHelmetPMCTactical
   id: ArmorHelmetPMCEngineer
-  name: ent-ArmorHelmetPMCEngineer
-  description: ent-ArmorHelmetPMCEngineer-desc
+  name: pmc engineer helmet
+  description: An advanced technician helmet with a black finish, including advanced welding protection and resistance to the potential industrial hazards, but has less kevlar against potential firefights.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/engineer.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: CMHeadCap
   id: ArmorHelmetPMCDirector
-  name: ent-ArmorHelmetPMCDirector
-  description: ent-ArmorHelmetPMCDirector-desc
+  name: director's hat
+  description: Belongs to someone very important. Has minor protection to all damage types.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/director.rsi
@@ -279,8 +279,8 @@
 - type: entity
   parent: ArmorHelmetPMCDirector
   id: RMCHeadCapManager
-  name: ent-RMCHeadCapManager
-  description: ent-RMCHeadCapManager-desc
+  name: manager's hat
+  description: Belongs to someone very important. Has minor protection to all damage types.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/manager.rsi
@@ -293,8 +293,8 @@
 - type: entity
   parent: RMCHeadCapFlippable
   id: RMCHeadCapWestonYamadaDark
-  name: ent-RMCHeadCapWestonYamadaDark
-  description: ent-RMCHeadCapWestonYamadaDark-desc
+  name: Weyland-Yutani cap
+  description: A dark cap enscribed with the Weyland-Yutani 'Wings' logo, representing corporate justice.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/hybrisa_cap.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: ArmorHelmetPMCCorporate
   id: RMCArmorHelmetPMCCorporateHybrisa
-  description: ent-RMCArmorHelmetPMCCorporateHybrisa-desc
-  suffix: ent-RMCArmorHelmetPMCCorporateHybrisa-suffix
+  description: A basic skull-helm with a orange safety visor fitted. Worn by corporate security assets, graded to protect your head from an unruly scientist armed with a crowbar.
+  suffix: Hybrisa
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/hybrisa.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: ArmorHelmetPMCCorporate
   id: RMCArmorHelmetPMCCorporateLeadHybrisa
-  description: ent-RMCArmorHelmetPMCCorporateLeadHybrisa-desc
-  suffix: ent-RMCArmorHelmetPMCCorporateLeadHybrisa-suffix
+  description: A basic skull-helm with a orange safety visor fitted. Worn by corporate security assets. This variant is worn by low-level guards that have too much brainmatter to fit into the old one. Or so they say.
+  suffix: Hybrisa
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/hybrisa_lead.rsi
@@ -328,8 +328,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretWeYa
-  name: ent-RMCHeadBeretWeYa
-  description: ent-RMCHeadBeretWeYa-desc
+  name: Weyland-Yutani beret
+  description: Show off your megacorp pride with this stylish beret!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/weya_beret.rsi

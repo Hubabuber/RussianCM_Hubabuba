@@ -1,8 +1,8 @@
 - type: entity
   id: BodyBag
   parent: BaseDeployFoldable
-  name: ent-BodyBag
-  description: ent-BodyBag-desc
+  name: body bag
+  description: A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
   components:
   - type: Item
     size: Small
@@ -98,10 +98,10 @@
 
 - type: entity
   id: BodyBagFolded
-  name: ent-BodyBagFolded
-  description: ent-BodyBagFolded-desc
+  name: body bag
+  description: A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
   parent: BodyBag
-  suffix: ent-BodyBagFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -113,8 +113,8 @@
 - type: entity
   parent: BaseItem
   id: Ash
-  name: ent-Ash
-  description: ent-Ash-desc
+  name: ash
+  description: This used to be something, but now it's not.
   components:
   - type: Item
     size: Tiny
@@ -142,8 +142,8 @@
 - type: entity
   parent: Ash
   id: Ectoplasm
-  name: ent-Ectoplasm
-  description: ent-Ectoplasm-desc
+  name: ectoplasm
+  description: Much less deadly in this form.
   components:
     - type: Sprite
       sprite: Mobs/Ghosts/revenant.rsi

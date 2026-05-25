@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPVanRoofBase
-  name: ent-VehicleSPPVanRoofBase
-  description: ent-VehicleSPPVanRoofBase-desc
+  name: SPP van interior roof
+  description: Side door
   placement:
     mode: PlaceFree
   components:
@@ -29,8 +29,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPVanInteriorBase
-  name: ent-VehicleSPPVanInteriorBase
-  description: ent-VehicleSPPVanInteriorBase-desc
+  name: SPP van interior piece
+  description: A decorative interior piece for an SPP van.
   placement:
     mode: PlaceFree
   components:
@@ -42,8 +42,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPVanChassisBase
-  name: ent-VehicleSPPVanChassisBase
-  description: ent-VehicleSPPVanChassisBase-desc
+  name: SPP van interior chassis
+  description: A chassis segment for an SPP van interior.
   placement:
     mode: PlaceFree
   components:
@@ -179,7 +179,7 @@
 - type: entity
   parent: VehicleSPPVanInteriorDoor
   id: VehicleSPPVanInteriorDoorRoof
-  name: ent-VehicleSPPVanInteriorDoorRoof
+  name: SPP van interior roof door
   components:
   - type: Sprite
     drawdepth: BelowMobs
@@ -206,8 +206,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleSPPVanStorageBase
-  name: ent-VehicleSPPVanStorageBase
-  description: ent-VehicleSPPVanStorageBase-desc
+  name: SPP van storage
+  description: A small storage locker for an SPP van interior.
   placement:
     mode: PlaceFree
   components:
@@ -234,13 +234,13 @@
 - type: entity
   parent: VehicleSPPVanStorageBase
   id: VehicleSPPVanSmallStorage
-  name: ent-VehicleSPPVanSmallStorage
+  name: SPP van small storage
 
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleSPPVanAmmoLoader
-  name: ent-VehicleSPPVanAmmoLoader
-  description: ent-VehicleSPPVanAmmoLoader-desc
+  name: SPP van ammo loader
+  description: A loader for SPP vehicle hardpoint ammunition.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/Interiors/sppvan.rsi

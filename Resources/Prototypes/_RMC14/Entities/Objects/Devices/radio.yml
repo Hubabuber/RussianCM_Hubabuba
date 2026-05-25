@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: RadioHandheld
   id: RMCRadioHandheldColonyBase
-  name: ent-RMCRadioHandheldColonyBase
-  description: "ent-RMCRadioHandheldColonyBase-desc"
+  name: shortwave radio
+  description: ""
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/radio.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCRadioHandheldColonyBase
   id: RMCRadioHandheldColony
-  suffix: ent-RMCRadioHandheldColony-suffix
+  suffix: On
   components:
   - type: ActiveListener
     range: 4
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCRadioHandheldColonyBase
   id: RMCRadioHandheldColonyOff
-  suffix: ent-RMCRadioHandheldColonyOff-suffix
+  suffix: Off
   components:
   - type: RadioMicrophone
     enabled: false
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCRadioHandheldColonyBase
   id: RMCRadioHandheldAlmayer
-  suffix: ent-RMCRadioHandheldAlmayer-suffix
+  suffix: On
   components:
   - type: ActiveListener
     range: 4

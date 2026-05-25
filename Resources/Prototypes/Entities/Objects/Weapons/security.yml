@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-Stunbaton
+  name: stun baton
   parent: [BaseItem, BaseSecurityContraband]
   id: Stunbaton
-  description: ent-Stunbaton-desc
+  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunbaton.rsi
@@ -93,10 +93,10 @@
     - Antagonists
 
 - type: entity
-  name: ent-Truncheon
+  name: truncheon
   parent: [BaseItem, BaseSecurityContraband]
   id: Truncheon
-  description: ent-Truncheon-desc
+  description: A rigid, steel-studded baton, meant to harm.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/truncheon.rsi
@@ -130,10 +130,10 @@
     - Antagonists
 
 - type: entity
-  name: ent-Flash
+  name: flash
   parent: [BaseItem, BaseSecurityScienceCommandContraband]
   id: Flash
-  description: ent-Flash-desc
+  description: An ultrabright flashbulb with a trigger, which causes the victim to be dazed and lose their eyesight for a moment. Useless when burnt out.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/flash.rsi
@@ -177,19 +177,19 @@
       - Antagonists
 
 - type: entity
-  name: ent-SciFlash
+  name: flash
   parent: Flash
-  suffix: ent-SciFlash-suffix
+  suffix: 2 charges
   id: SciFlash
   components:
     - type: LimitedCharges
       maxCharges: 2
 
 - type: entity
-  name: ent-PortableFlasher
+  name: portable flasher
   parent: [BaseMachine, BaseSecurityContraband]
   id: PortableFlasher
-  description: ent-PortableFlasher-desc
+  description: An ultrabright flashbulb with a proximity trigger, useful for making an area security-only.
   components:
     - type: EmitSoundOnTrigger
       sound:

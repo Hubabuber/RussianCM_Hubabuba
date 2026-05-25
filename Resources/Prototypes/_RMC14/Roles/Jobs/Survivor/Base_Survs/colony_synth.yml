@@ -1,8 +1,8 @@
 - type: job
   parent: CMSurvivor
   id: RMCJobSyntheticColony
-  name: job-rmcjobsyntheticcolony-name
-  description: job-rmcjobsyntheticcolony-desc
+  name: rmc-job-name-synth-colony
+  description: rmc-job-description-synth-colony
   playTimeTracker: RMCJobSyntheticColony
   ranks:
     RMCRankSyntheticColonist: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: true
   whitelisted: true
   whitelistParent: RMCWhitelistMedium
-  supervisors: job-rmcjobsyntheticcolony-supervisors
+  supervisors: cm-job-supervisors-colonists
   accessGroups:
   - Colony # Colony All Access
   - ColonistSynthShipside # Med, Engi, Synth
@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSynthColonist
-  name: ent-RMCSpawnPointSynthColonist
+  name: synthetic colonist spawn point
   components:
   - type: SpawnPoint
     job_id: RMCJobSyntheticColony

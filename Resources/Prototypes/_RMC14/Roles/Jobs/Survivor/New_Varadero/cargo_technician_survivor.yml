@@ -1,11 +1,11 @@
 - type: job
   parent: CMSurvivorEngineer
   id: CMSurvivorCargoTechnician
-  name: job-cmsurvivorcargotechnician-name
-  description: job-cmsurvivorcargotechnician-desc
+  name: cm-job-name-survivor-cargo-technician
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorEngineer
   startingGear: RMCGearSurvivorCargoTechnician
-  spawnMenuRoleName: job-cmsurvivorcargotechnician-spawnmenurolename
+  spawnMenuRoleName: Cargo Technician (NV Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorCargoTechnician
-  name: ent-RMCSpawnPointSurvivorCargoTechnician
+  name: survivor cargo technician spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,5 +50,5 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetCargoTechnician
-  name: ent-RMCGearSurvivorPresetCargoTechnician
+  name: cargo technician colonist preset
   categories: [ HideSpawnMenu ]

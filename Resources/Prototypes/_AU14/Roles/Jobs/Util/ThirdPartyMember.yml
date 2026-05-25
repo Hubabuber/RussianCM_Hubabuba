@@ -1,12 +1,12 @@
 - type: job
   parent: CMJobXenoBase
   id: AU14JobThirdPartyMember
-  name: job-au14jobthirdpartymember-name
-  description: job-au14jobthirdpartymember-desc
+  name: au-job-name-third-party-member
+  description: au-job-description-third-party-member
   setPreference: true
   playTimeTracker: AUThirdPartyMember
   hidden: false
-  supervisors: job-au14jobthirdpartymember-supervisors
+  supervisors: nobody
   icon: "AU14JobIconThirdPartyMember"
   jobPreviewEntity: RMCPlayerXenoQueenPreview
   accessGroups:
@@ -21,10 +21,10 @@
   abstract: true
   parent: CMJobBase
   id: AUThirdPartyJobBase
-  description: job-authirdpartyjobbase-desc
+  description: null
   joinNotifyCrew: false
   icon: "AU14JobIconThirdPartyMember"
-  supervisors: job-authirdpartyjobbase-supervisors
+  supervisors: au-job-name-third-party-leader
   accessGroups:
   - CMAccessXeno
   hasIcon: false

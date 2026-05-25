@@ -7,11 +7,3 @@ ent-OrganDwarfLiver-desc = Рекомендуемое сочетание: кья
 ent-OrganDwarfStomach-name = карликовый желудок
 ent-OrganDwarfStomach-desc = Валовой. Это тяжело переварить.
 
-ent-OrganDwarfHeart = карликовое сердце
-    .desc = I feel bad for the heartless bastard who lost this.
-
-ent-OrganDwarfLiver = карликовая печень
-    .desc = Pairing suggestion: chianti and fava beans.
-
-ent-OrganDwarfStomach = карликовый желудок
-    .desc = Gross. This is hard to stomach.

@@ -1,9 +1,9 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerShuttle
-  name: ent-RMCSpawnerShuttle
-  suffix: ent-RMCSpawnerShuttle-suffix
-  description: ent-RMCSpawnerShuttle-desc
+  name: shuttle spawner
+  suffix: Generic
+  description: Defines a location to spawn a shuttle in.
   placement:
     mode: SnapgridCenter
   components:
@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCSpawnerShuttle
   id: RMCSpawnerPVEAlamo
-  suffix: ent-RMCSpawnerPVEAlamo-suffix
+  suffix: PVE Alamo
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/dropship_alamo_pve.yml"
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCSpawnerShuttle
   id: RMCSpawnerPVENormandy
-  suffix: ent-RMCSpawnerPVENormandy-suffix
+  suffix: PVE Normandy
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/dropship_normandy_pve.yml"
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCSpawnerShuttle
   id: RMCSpawnerERTShuttle
-  suffix: ent-RMCSpawnerERTShuttle-suffix
+  suffix: ERT Generic
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/ert_response_shuttle.yml"
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCSpawnerERTShuttle
   id: RMCSpawnerERTShuttleWeYa
-  suffix: ent-RMCSpawnerERTShuttleWeYa-suffix
+  suffix: ERT PMC
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/ert_pmc_shuttle.yml"
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCSpawnerERTShuttle
   id: RMCSpawnerERTShuttleSPP
-  suffix: ent-RMCSpawnerERTShuttleSPP-suffix
+  suffix: ERT SPP
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/ert_spp_shuttle.yml"
@@ -56,7 +56,7 @@
 - type: entity
   parent: RMCSpawnerERTShuttle
   id: RMCSpawnerERTShuttleTSE
-  suffix: ent-RMCSpawnerERTShuttleTSE-suffix
+  suffix: ERT TSE
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/ert_tse_shuttle.yml"
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCSpawnerERTShuttle
   id: RMCSpawnerERTShuttleCMB
-  suffix: ent-RMCSpawnerERTShuttleCMB-suffix
+  suffix: CMB
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/ert_cmb_shuttle.yml"
@@ -72,7 +72,7 @@
 - type: entity
   parent: RMCSpawnerERTShuttle
   id: RMCSpawnerERTShuttleTSEPA
-  suffix: ent-RMCSpawnerERTShuttleTSEPA-suffix
+  suffix: TSEPA, ERT
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/ert_zspa_shuttle.yml"
@@ -80,7 +80,7 @@
 - type: entity
   parent: RMCSpawnerERTShuttle
   id: RMCSpawnerShuttleCMB
-  suffix: ent-RMCSpawnerShuttleCMB-suffix
+  suffix: cmb
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/cmb_shuttle.yml"
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCSpawnerERTShuttle
   id: RMCSpawnerShuttleTSEPA
-  suffix: ent-RMCSpawnerShuttleTSEPA-suffix
+  suffix: TSEPA
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/zspa_shuttle.yml"

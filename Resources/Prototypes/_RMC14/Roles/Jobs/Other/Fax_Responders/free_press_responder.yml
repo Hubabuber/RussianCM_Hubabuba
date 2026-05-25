@@ -3,15 +3,15 @@
   id: CMFreePressResponder
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-cmfreepressresponder-name
-  description: job-cmfreepressresponder-desc
+  name: rmc-job-name-free-press-responder
+  description: rmc-job-description-free-press-responder
   playTimeTracker: CMJobFreePressResponder
   ranks:
     RMCRankCivilian: []
   startingGear: RMCGearFreePressResponder
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-cmfreepressresponder-supervisors
+  supervisors: cm-job-supervisors-staff
   accessGroups:
   - ShipMasterAccess
   - RMCWeYa
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardFreePressResponder
-  name: ent-RMCIDCardFreePressResponder
-  description: ent-RMCIDCardFreePressResponder-desc
+  name: Free Press ID card
+  description: A common ID card. This one seems to be well traveled.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/silver_id.rsi

@@ -1,8 +1,8 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorMiner
-  name: job-cmsurvivorminer-name
-  description: job-cmsurvivorminer-desc
+  name: cm-job-name-survivor-miner
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
   startingGear: RMCGearSurvivorMiner
   special:
@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorMiner
-  name: ent-RMCSpawnPointSurvivorMiner
+  name: survivor miner spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,13 +50,13 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCSurvivorPresetMiner
-  name: ent-RMCSurvivorPresetMiner
+  name: miner colonist preset
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorMiner
-  name: ent-RMCRandomHumanoidSurvivorMiner
+  name: miner colonist ghost role
   components:
   - type: Sprite
     layers:

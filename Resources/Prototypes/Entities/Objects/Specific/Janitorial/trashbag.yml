@@ -1,5 +1,5 @@
 - type: entity
-  name: ent-TrashBag
+  name: trash bag
   id: TrashBag
   parent: BaseStorageItem
   components:
@@ -39,7 +39,7 @@
     size: Normal
 
 - type: entity
-  name: ent-TrashBagBlue
+  name: trash bag
   id: TrashBagBlue
   parent: TrashBag
   components:
@@ -53,7 +53,7 @@
     fillBaseName: blue-icon
 
 - type: entity
-  name: ent-BagOfSummoningGarbage
+  name: spell of all-consuming cleanliness
   id: BagOfSummoningGarbage
   parent: TrashBagBlue
   components:
@@ -68,8 +68,8 @@
 - type: entity
   parent: TrashBag
   id: BorgTrashBag
-  name: ent-BorgTrashBag
-  description: ent-BorgTrashBag-desc
+  name: internal trash bag
+  description: An upgraded trash bag with a larger internal volume, installed directly into a custodial cyborg.
   components:
   - type: Storage
     maxItemSize: Huge

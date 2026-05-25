@@ -1,56 +1,53 @@
 ent-CMAirlockLiaisonLocked = Комната корпоративных связей
-    .suffix = Комната корпоративных связей
+
 ent-CMAirlockRequisitionsLocked = шлюз поставок
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = шлюз поставок
+
 ent-CMAirlockMaintRequisitionsLocked = шлюз обслуживания
-    .suffix = шлюз обслуживания
+
 ent-CMAirlockGlassKitchenLocked = стеклянный шлюзовой шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = стеклянный шлюзовой шлюз
+
 ent-CMAirlockMaintKitchenLocked = люк для обслуживания
-    .suffix = люк для обслуживания
+
 ent-CMAirlockEngineerLocked = инженерный шлюз
-    .suffix = инженерный шлюз
+
 ent-CMAirlockGlassEngineerLocked = инженерный шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = инженерный шлюз
+
 ent-CMAirlockMaintEngineerLocked = технический шлюз
-    .suffix = технический шлюз
+
 ent-CMAirlockOrdnanceLocked = инженерный шлюз
-    .suffix = инженерный шлюз
+
 ent-CMAirlockMedicalLocked = медицинский шлюз
-    .suffix = медицинский шлюз
+
 ent-CMAirlockGlassMedicalLocked = медицинский шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = медицинский шлюз
+
 ent-CMAirlockMaintMedicalLocked = люк для обслуживания
-    .suffix = люк для обслуживания
+
 ent-CMAirlockMorgueLocked = медицинский шлюз
-    .suffix = медицинский шлюз
+
 ent-CMAirlockChemistryLocked = медицинский шлюз
-    .suffix = медицинский шлюз
+
 ent-CMAirlockResearchLocked = медицинский шлюз
-    .suffix = медицинский шлюз
+
 ent-CMAirlockMedicalCMOLocked = медицинский шлюз
+
 ent-CMAirlockGlassMedicalCMOLocked = медицинский шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
+
 ent-CMAirlockGlassPressLocked = стеклянный шлюзовой шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = стеклянный шлюзовой шлюз
+
 ent-CMAirlockMaintPressLocked = люк для обслуживания
-    .suffix = люк для обслуживания
+
 ent-CMAirlockSecurityLocked = шлюз безопасности
-    .suffix = шлюз безопасности
+
 ent-CMAirlockGlassSecurityLocked = шлюз безопасности
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = шлюз безопасности
+
 ent-CMAirlockMaintLiaisonLocked = люк для обслуживания
-    .suffix = люк для обслуживания
+
 ent-CMAirlockHC = Высшая командная дверь
-ent-AUAirlockPrisonStaffLocked = Дверь для персонала
-    .suffix = Связь, Заблокировано
-ent-CMAirlockKitchenLocked = шлюзовая камера
-    .suffix = Кухня, Заперто
-ent-CMAirlockPressLocked = шлюзовая камера
-    .suffix = Нажмите, Заблокировано
+

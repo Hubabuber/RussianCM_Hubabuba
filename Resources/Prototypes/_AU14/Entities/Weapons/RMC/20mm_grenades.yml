@@ -3,7 +3,7 @@
   abstract: true
   parent: BaseItem
   id: AU14BaseAirBurstGrenadeRMC
-  name: ent-AU14BaseAirBurstGrenadeRMC
+  name: 20-mm air burst grenade
   components:
   - type: Appearance
   - type: Sprite
@@ -35,8 +35,8 @@
   - CMGrenadeBase
   - AU14L103A1Tags
   id: AU1420MMGrenadeL103A1
-  name: ent-AU1420MMGrenadeL103A1
-  description: ent-AU1420MMGrenadeL103A1-desc
+  name: L103A1 20mm HE grenade
+  description: A 20mm grenade that explodes upon impact. Less powerful than full-sized grenades.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Ammo/Explosives/RMC/grenade_launcher.rsi
@@ -69,8 +69,8 @@
   - CMGrenadeBase
   - AU14L103A1Tags
   id: AU1420MMGrenadeL108A1
-  name: ent-AU1420MMGrenadeL108A1
-  description: ent-AU1420MMGrenadeL108A1-desc
+  name: L108A1 20mm HESH grenade
+  description: High-Explosive Dual-Purpose. A small, but deceptively strong blast grenade that has been phasing out the M15 HE grenades alongside the 30mm HEFA. Capable of being loaded in grenade launchers, or thrown by hand.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Ammo/Explosives/RMC/grenade_launcher.rsi
@@ -103,8 +103,8 @@
   - CMGrenadeBase
   - AU14L103A1Tags
   id: AU1420MMGrenadeL101A2
-  name: ent-AU1420MMGrenadeL101A2
-  description: ent-AU1420MMGrenadeL101A2-desc
+  name: L101A2 20mm nerve-agent grenade
+  description: A 20mm grenade that explodes into a voluminous cloud of nerve gas upon impact.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Ammo/Explosives/RMC/grenade_launcher.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: AU14BaseAirBurstGrenadeRMC
   id: AU1420MMGrenadeL104A1
-  name: ent-AU1420MMGrenadeL104A1
-  description: ent-AU1420MMGrenadeL104A1-desc
+  name: L104A1 20mm fragmentation grenade
+  description: A 20mm grenade that explodes into shrapnel upon impact.
   components:
   - type: Tag
     tags:
@@ -152,8 +152,8 @@
 - type: entity
   parent: RMC40MMGrenadeM74AGMF
   id: AU1420MMGrenadeL103A1I
-  name: ent-AU1420MMGrenadeL103A1I
-  description: ent-AU1420MMGrenadeL103A1I-desc
+  name: L103A1/I 20mm incendiary grenade
+  description: A 20mm grenade that explodes into flaming shrapnel & a pool of incendiary compound upon impact.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Ammo/Explosives/RMC/grenade_launcher.rsi
@@ -172,8 +172,8 @@
 - type: entity
   parent: AU1420MMGrenadeL104A1
   id: AU14HornetShellL104A1H
-  name: ent-AU14HornetShellL104A1H
-  description: ent-AU14HornetShellL104A1H-desc
+  name: L104A1/H 20mm holo-targetting grenade
+  description: A 20mm grenade that explodes into shrapnel upon impact. The shrapenl of this one douses the target in a chemical compound which aids in target acquisition by sensors.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Ammo/Explosives/RMC/grenade_launcher.rsi
@@ -230,7 +230,7 @@
 - type: entity
   parent: AU14BaseAirBurstProjectileRMC
   id: AU14AirBurstProjectileFragRMC
-  name: ent-AU14AirBurstProjectileFragRMC
+  name: L104A1 20mm grenade
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectileGrenade
@@ -247,7 +247,7 @@
 - type: entity
   parent: AU14BaseAirBurstProjectileRMC
   id: AU14AirBurstProjectileIncendiaryRMC
-  name: ent-AU14AirBurstProjectileIncendiaryRMC
+  name: L103A1/I 20mm grenade
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -269,7 +269,7 @@
 - type: entity
   parent: AU14BaseAirBurstProjectileRMC
   id: AU14AirBurstProjectileHornetRMC
-  name: ent-AU14AirBurstProjectileHornetRMC
+  name: L104A1/H 20mm grenade
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -288,7 +288,7 @@
 - type: entity
   parent: RMCBaseAirburstRound
   id: AU14ShrapnelJaggedRMC
-  name: ent-AU14ShrapnelJaggedRMC
+  name: jagged shrapnel
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

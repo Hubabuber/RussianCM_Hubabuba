@@ -41,10 +41,10 @@
   - type: DeleteOnExplosion
 
 - type: entity
-  name: ent-KitchenKnife
+  name: kitchen knife
   parent: BaseKnife
   id: KitchenKnife
-  description: ent-KitchenKnife-desc
+  description: A general purpose Chef's Knife made by Asters Merchant Guild. Guaranteed to stay sharp for years to come..
   components:
   - type: Tag
     tags:
@@ -61,10 +61,10 @@
     - FoodRecipes
 
 - type: entity
-  name: ent-ButchCleaver
+  name: butcher's cleaver
   parent: BaseKnife
   id: ButchCleaver
-  description: ent-ButchCleaver-desc
+  description: A huge blade used for chopping and chopping up meat. This includes clowns and clown-by-products.
   components:
   - type: Tag
     tags:
@@ -88,10 +88,10 @@
     - FoodRecipes
 
 - type: entity
-  name: ent-CombatKnife
+  name: combat knife
   parent: [BaseKnife, BaseSecurityContraband]
   id: CombatKnife
-  description: ent-CombatKnife-desc
+  description: A deadly knife intended for melee confrontations.
   components:
   - type: Tag
     tags:
@@ -125,10 +125,10 @@
     angle: 225
 
 - type: entity
-  name: ent-SurvivalKnife
+  name: survival knife
   parent: [BaseSecurityCargoContraband, CombatKnife]
   id: SurvivalKnife
-  description: ent-SurvivalKnife-desc
+  description: Weapon of first and last resort for combatting space carp.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/survival_knife.rsi
@@ -140,10 +140,10 @@
       sprite: Objects/Weapons/Melee/survival_knife.rsi
 
 - type: entity
-  name: ent-KukriKnife
+  name: kukri knife
   parent: [BaseSecurityCargoContraband, CombatKnife]
   id: KukriKnife
-  description: ent-KukriKnife-desc
+  description: Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/kukri_knife.rsi
@@ -160,9 +160,9 @@
 - type: entity
   parent: [ClothingHeadHatGreyFlatcap, BaseMinorContraband]
   id: BladedFlatcapGrey
-  name: ent-BladedFlatcapGrey
-  description: ent-BladedFlatcapGrey-desc
-  suffix: ent-BladedFlatcapGrey-suffix
+  name: grey flatcap
+  description: Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim.
+  suffix: Bladed
   components:
   - type: Construction
     graph: BladedFlatcapGrey
@@ -186,8 +186,8 @@
 - type: entity
   parent: BladedFlatcapGrey
   id: BladedFlatcapBrown
-  name: ent-BladedFlatcapBrown
-  description: "ent-BladedFlatcapBrown-desc"
+  name: brown flatcap
+  description: "\"Stupid clown! You made me look bad!\" It has glass shards hidden in the brim."
   components:
   - type: Construction
     graph: BladedFlatcapBrown
@@ -197,10 +197,10 @@
     sprite: Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
-  name: ent-Shiv
+  name: shiv
   parent: [BaseKnife, BaseMinorContraband]
   id: Shiv
-  description: ent-Shiv-desc
+  description: A crude weapon fashioned from a piece of cloth and a glass shard.
   components:
   - type: Tag
     tags:
@@ -224,10 +224,10 @@
     malus: 0.225
 
 - type: entity
-  name: ent-ReinforcedShiv
+  name: reinforced shiv
   parent: Shiv
   id: ReinforcedShiv
-  description: ent-ReinforcedShiv-desc
+  description: A crude weapon fashioned from a piece of cloth and a reinforced glass shard.
   components:
   - type: Construction
     graph: ReinforcedShiv
@@ -243,10 +243,10 @@
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
 
 - type: entity
-  name: ent-PlasmaShiv
+  name: plasma shiv
   parent: Shiv
   id: PlasmaShiv
-  description: ent-PlasmaShiv-desc
+  description: A crude weapon fashioned from a piece of cloth and a plasma glass shard.
   components:
   - type: Construction
     graph: PlasmaShiv
@@ -262,10 +262,10 @@
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
 
 - type: entity
-  name: ent-UraniumShiv
+  name: uranium shiv
   parent: Shiv
   id: UraniumShiv
-  description: ent-UraniumShiv-desc
+  description: A crude weapon fashioned from a piece of cloth and a uranium glass shard. Violates the geneva convention!
   components:
   - type: Construction
     graph: UraniumShiv
@@ -282,10 +282,10 @@
     sprite: Objects/Weapons/Melee/uranium_shiv.rsi
 
 - type: entity
-  name: ent-ThrowingKnife
+  name: throwing knife
   parent: [BaseKnife, BaseSyndicateContraband]
   id: ThrowingKnife
-  description: ent-ThrowingKnife-desc
+  description: This blood-red knife is very aerodynamic and easy to throw, but good luck trying to fight someone hand-to-hand.
   components:
   - type: Tag
     tags:

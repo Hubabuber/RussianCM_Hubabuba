@@ -8,8 +8,8 @@
 - type: entity
   id: ActionXenoPlantWeeds
   parent: ActionXenoBase
-  name: ent-ActionXenoPlantWeeds # TODO RMC14 proper plasma costs
-  description: ent-ActionXenoPlantWeeds-desc
+  name: Plant Weeds (75) # TODO RMC14 proper plasma costs
+  description: Plant a weed node that will spread more weeds.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -23,8 +23,8 @@
 - type: entity
   id: ActionXenoChooseStructure
   parent: ActionXenoBase
-  name: ent-ActionXenoChooseStructure
-  description: "ent-ActionXenoChooseStructure-desc"
+  name: Choose Resin Structure
+  description: "Choose a structure to secrete with the 'Secrete Resin' action."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -47,8 +47,8 @@
 - type: entity
   id: ActionXenoSecreteStructure
   parent: ActionXenoBase
-  name: ent-ActionXenoSecreteStructure
-  description: "ent-ActionXenoSecreteStructure-desc"
+  name: Secrete Resin
+  description: "Builds the structure chosen with the 'Choose Resin Structure' action."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -79,8 +79,8 @@
 - type: entity
   id: ActionXenoCoerceResin
   parent: ActionXenoBase
-  name: ent-ActionXenoCoerceResin
-  description: "ent-ActionXenoCoerceResin-desc"
+  name: Coerce Resin
+  description: "Builds the structure chosen with the 'Choose Resin Structure' action. You may also build within line of sight if you are on weeds."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -103,8 +103,8 @@
 - type: entity
   id: ActionXenoOrderConstruction
   parent: ActionXenoBase
-  name: ent-ActionXenoOrderConstruction
-  description: ent-ActionXenoOrderConstruction-desc
+  name: Order Construction
+  description: Starts construction of an important hive structure.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -118,8 +118,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoOrderConstruction
-  name: ent-RMCGuidebookActionXenoOrderConstruction
-  description: ent-RMCGuidebookActionXenoOrderConstruction-desc
+  name: Order Construction
+  description: Starts construction of an important hive structure.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -128,8 +128,8 @@
 - type: entity
   id: ActionXenoResinHole
   parent: ActionXenoBase
-  name: ent-ActionXenoResinHole
-  description: ent-ActionXenoResinHole-desc
+  name: Plant Resin Hole (200)
+  description: Places a resin hole on weeds. It can be filled with boiler gas, acid, or parasites.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -153,8 +153,8 @@
 - type: entity
   id: ActionXenoFruitChoose
   parent: ActionXenoBase
-  name: ent-ActionXenoFruitChoose
-  description: ent-ActionXenoFruitChoose-desc
+  name: Change Fruit
+  description: Choose a fruit to be planted with 'Plant Resin Fruit' action.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -168,8 +168,8 @@
 - type: entity
   id: ActionXenoFruitPlant
   parent: ActionXenoBase
-  name: ent-ActionXenoFruitPlant
-  description: ent-ActionXenoFruitPlant-desc
+  name: Plant Resin Fruit (100)
+  description: Plant chosen resin fruit on weeds at the cost of health and plasma. Xenos can pick these fruits once they're mature, you can also pick a plant early to get rid of it. Xenos can use them in hand or eat them on the ground to gain their effects. They can also be used on other xenos to feed them. You can only have 6 fruits planted and picked at a time.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -183,8 +183,8 @@
 - type: entity
   id: ActionXenoPlantWeedsHardy
   parent: ActionXenoBase
-  name: ent-ActionXenoPlantWeedsHardy # TODO RMC14 proper plasma costs
-  description: ent-ActionXenoPlantWeedsHardy-desc
+  name: Plant Hardy Weeds (125) # TODO RMC14 proper plasma costs
+  description: Plant a weed node that will spread hardier weeds, which grow fruit 25% faster, have slightly more health, and can be spread on some surfaces where normal weeds won't grow.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -201,8 +201,8 @@
 - type: entity
   id: ActionXenoFruitPlantLesser
   parent: ActionXenoFruitPlant
-  name: ent-ActionXenoFruitPlantLesser
-  description: ent-ActionXenoFruitPlantLesser-desc
+  name: Plant Resin Fruit (50)
+  description: Plant resin fruit on weeds at the cost of health and plasma.
   components:
   - type: InstantAction
     event: !type:XenoFruitPlantActionEvent
@@ -211,8 +211,8 @@
 - type: entity
   id: ActionXenoDigTunnel
   parent: ActionXenoBase
-  name: ent-ActionXenoDigTunnel
-  description: ent-ActionXenoDigTunnel-desc
+  name: Dig Tunnel (200)
+  description: Dig a tunnel for speedy transportation across the hive.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -251,8 +251,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoExpandWeeds
-  name: ent-ActionXenoExpandWeeds # TODO RMC14 proper plasma costs
-  description: ent-ActionXenoExpandWeeds-desc
+  name: Expand Weeds (50) # TODO RMC14 proper plasma costs
+  description: Expand existing weeds or turn a weed tile into a node.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -270,8 +270,8 @@
 - type: entity
   id: ActionXenoDesignerSelectedDesign
   parent: ActionXenoBase
-  name: ent-ActionXenoDesignerSelectedDesign
-  description: ent-ActionXenoDesignerSelectedDesign-desc
+  name: Selected Design
+  description: Toggle whether newly placed design nodes are wall or door nodes.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -286,8 +286,8 @@
 - type: entity
   id: ActionXenoDesignerGreaterResinSurge
   parent: ActionXenoBase
-  name: ent-ActionXenoDesignerGreaterResinSurge
-  description: ent-ActionXenoDesignerGreaterResinSurge-desc
+  name: Greater Resin Surge (250)
+  description: Consumes nearby design nodes to create temporary thick resin walls.
   components:
   - type: Action
     itemIconStyle: NoItem

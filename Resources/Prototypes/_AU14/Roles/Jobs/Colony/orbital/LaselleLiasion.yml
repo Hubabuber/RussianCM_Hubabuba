@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianLaselleLiaison
-  name: job-au14jobcivilianlaselleliaison-name
-  description: job-au14jobcivilianlaselleliaison-desc
+  name: au14-job-name-civilianlaselleliaison
+  description: au14-job-description-civilianlaselleliaison
   playTimeTracker: AU14JobCivilianLaselleLiaison
   setPreference: true
   ranks:
@@ -19,7 +19,7 @@
   icon: "AU14JobIconLaselleLiaison"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianlaselleliaison-supervisors
+  supervisors: au14-job-supervisors-orbital
   accessGroups:
   - Colonist
   - auadmin
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianLaselleLiaison
-  name: ent-AU14SpawnPointCivilianLaselleLiaison
+  name: Spawn Point Civilian Laselle Liaison
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianLaselleLiaison

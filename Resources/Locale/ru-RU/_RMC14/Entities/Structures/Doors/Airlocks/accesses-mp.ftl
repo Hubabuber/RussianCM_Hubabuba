@@ -1,12 +1,12 @@
 ent-CMAirlockBrigLocked = шлюз безопасности
-    .suffix = шлюз безопасности
+
 ent-CMAirlockGlassBrigLocked = шлюз безопасности
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = шлюз безопасности
+
 ent-CMAirlockMaintBrigLocked = люк для обслуживания
-    .suffix = люк для обслуживания
+
 ent-CMAirlockArmoryLocked = шлюз безопасности
-    .suffix = шлюз безопасности
+
 ent-CMAirlockGlassArmoryLocked = шлюз безопасности
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = шлюз безопасности
+

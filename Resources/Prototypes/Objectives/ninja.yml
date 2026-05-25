@@ -29,7 +29,7 @@
 - type: entity
   parent: BaseNinjaObjective
   id: StealResearchObjective
-  description: ent-StealResearchObjective-desc
+  description: Your gloves can be used to hack a research server and steal its precious data. If science has been slacking you'll have to get to work.
   components:
   - type: Objective
     icon:
@@ -44,7 +44,7 @@
 - type: entity
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: SpiderChargeObjective
-  description: ent-SpiderChargeObjective-desc
+  description: This bomb can be detonated in a specific location. Note that the bomb will not work anywhere else!
   components:
   - type: Objective
     icon:
@@ -55,8 +55,8 @@
 - type: entity
   parent: [BaseNinjaObjective, BaseSurviveObjective]
   id: NinjaSurviveObjective
-  name: ent-NinjaSurviveObjective
-  description: ent-NinjaSurviveObjective-desc
+  name: Survive
+  description: You wouldn't be a very good ninja if you died, now would you?
   components:
   - type: Objective
     icon:
@@ -66,8 +66,8 @@
 - type: entity
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: TerrorObjective
-  name: ent-TerrorObjective
-  description: ent-TerrorObjective-desc
+  name: Call in a threat
+  description: Use your gloves on a communication console in order to bring another threat to the station.
   components:
   - type: Objective
     icon:
@@ -77,8 +77,8 @@
 - type: entity
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: MassArrestObjective
-  name: ent-MassArrestObjective
-  description: ent-MassArrestObjective-desc
+  name: Set everyone to wanted
+  description: Use your gloves to hack a criminal records console, setting the entire station to be wanted!
   components:
   - type: Objective
     icon:

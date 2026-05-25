@@ -3,6 +3,3 @@ ent-RMCFigurineXenoWarrior616 = Статуэтка Воин (XX-616)
 ent-RMCFigurineXenoXippy = Фигурка Зиппи
   .desc = Всегда есть полезный архив для нуждающихся сестер.
 ent-RMCSpawnerFigurineXeno = спаунер фигурок ксено
-
-ent-RMCBaseFigurineXeno = фигурка
-    .desc = Небольшая, детализированная миниатюра.

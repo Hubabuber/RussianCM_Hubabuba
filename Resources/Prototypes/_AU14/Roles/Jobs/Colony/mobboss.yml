@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobMobBoss
-  name: job-au14jobmobboss-name
-  description: job-au14jobmobboss-desc
+  name: au14-job-name-mobboss
+  description: au14-job-description-mobboss
   setPreference: true
   playTimeTracker: AU14JobMobBoss
   startingGear: AU14GearMobBoss
@@ -10,7 +10,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobmobboss-supervisors
+  supervisors: au14-job-supervisors-mobboss
   accessGroups:
   - aumob
   roleWeight: 0.25
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointMobBoss
-  name: ent-AU14SpawnPointMobBoss
+  name: Spawn Point Mob Boss
   components:
   - type: SpawnPoint
     job_id: AU14JobMobBoss

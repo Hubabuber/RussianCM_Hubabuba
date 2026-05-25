@@ -23,7 +23,7 @@
 
 - type: entity
   id: LockerQuarterMasterFilled
-  suffix: ent-LockerQuarterMasterFilled-suffix
+  suffix: Filled
   parent: LockerQuarterMaster
   components:
   - type: EntityTableContainerFill
@@ -80,7 +80,7 @@
 # No laser locker, used when the antique laser is placed in the special display crate
 - type: entity
   id: LockerCaptainFilledNoLaser
-  suffix: ent-LockerCaptainFilledNoLaser-suffix
+  suffix: Filled
   parent: LockerCaptain
   components:
   - type: EntityTableContainerFill
@@ -91,7 +91,7 @@
 # No Laser + Laser locker
 - type: entity
   id: LockerCaptainFilled
-  suffix: ent-LockerCaptainFilled-suffix
+  suffix: Filled, AntiqueLaser
   parent: LockerCaptain
   components:
   - type: EntityTableContainerFill
@@ -102,7 +102,7 @@
 # No Laser + Laser + Hardsuit locker
 - type: entity
   id: LockerCaptainFilledHardsuit
-  suffix: ent-LockerCaptainFilledHardsuit-suffix
+  suffix: Filled, Hardsuit
   parent: LockerCaptain
   components:
   - type: EntityTableContainerFill
@@ -145,7 +145,7 @@
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
-  suffix: ent-LockerHeadOfPersonnelFilled-suffix
+  suffix: Filled
   parent: LockerHeadOfPersonnel
   components:
   - type: EntityTableContainerFill
@@ -187,7 +187,7 @@
 # No hardsuit locker
 - type: entity
   id: LockerChiefEngineerFilled
-  suffix: ent-LockerChiefEngineerFilled-suffix
+  suffix: Filled
   parent: LockerChiefEngineer
   components:
   - type: EntityTableContainerFill
@@ -198,7 +198,7 @@
 # No hardsuit + hardsuit locker
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
-  suffix: ent-LockerChiefEngineerFilledHardsuit-suffix
+  suffix: Filled, Hardsuit
   parent: LockerChiefEngineer
   components:
   - type: EntityTableContainerFill
@@ -244,7 +244,7 @@
 # No hardsuit locker
 - type: entity
   id: LockerChiefMedicalOfficerFilled
-  suffix: ent-LockerChiefMedicalOfficerFilled-suffix
+  suffix: Filled
   parent: LockerChiefMedicalOfficer
   components:
   - type: EntityTableContainerFill
@@ -255,7 +255,7 @@
 # No hardsuit + Hardsuit locker
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit
-  suffix: ent-LockerChiefMedicalOfficerFilledHardsuit-suffix
+  suffix: Filled, Hardsuit
   parent: LockerChiefMedicalOfficer
   components:
   - type: EntityTableContainerFill
@@ -296,7 +296,7 @@
 # No hardsuit locker
 - type: entity
   id: LockerResearchDirectorFilled
-  suffix: ent-LockerResearchDirectorFilled-suffix
+  suffix: Filled
   parent: LockerResearchDirector
   components:
   - type: EntityTableContainerFill
@@ -307,7 +307,7 @@
 # No hardsuit + Hardsuit locker
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
-  suffix: ent-LockerResearchDirectorFilledHardsuit-suffix
+  suffix: Filled, Hardsuit
   parent: LockerResearchDirector
   components:
   - type: EntityTableContainerFill
@@ -357,7 +357,7 @@
 # No hardsuit locker
 - type: entity
   id: LockerHeadOfSecurityFilled
-  suffix: ent-LockerHeadOfSecurityFilled-suffix
+  suffix: Filled
   parent: LockerHeadOfSecurity
   components:
   - type: EntityTableContainerFill
@@ -368,7 +368,7 @@
 # No hardsuit + Hardsuit locker
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
-  suffix: ent-LockerHeadOfSecurityFilledHardsuit-suffix
+  suffix: Filled, Hardsuit
   parent: LockerHeadOfSecurity
   components:
   - type: EntityTableContainerFill
@@ -382,7 +382,7 @@
 
 - type: entity
   id: LockerFreezerVaultFilled
-  suffix: ent-LockerFreezerVaultFilled-suffix
+  suffix: Vault, Locked
   parent: LockerFreezerBase
   components:
   - type: AccessReader

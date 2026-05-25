@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ent-AU14WeaponRifleAG80
+  name: AG80 pulse rifle
   id: AU14WeaponRifleAG80
-  description: ent-AU14WeaponRifleAG80-desc
+  description: Pulse action 9.7x16mm caseless assault rifle of the UPPAC Naval Infantry. Only recently entered service and has yet to see full integration.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/UPP/ag80.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14MagazineRifleAG80
-  name: "ent-AU14MagazineRifleAG80"
-  description: "ent-AU14MagazineRifleAG80-desc"
+  name: "AG80 magazine (9.7x16mm)"
+  description: "A magazine of 9.7x16mm rounds for the AG80 rifle."
   components:
   - type: Tag
     tags:
@@ -174,9 +174,9 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: AU14MagazineRifleAG80AP
-  name: "ent-AU14MagazineRifleAG80AP"
-  description: "ent-AU14MagazineRifleAG80AP-desc"
-  suffix: ent-AU14MagazineRifleAG80AP-suffix
+  name: "AG80 AP magazine (9.7x16mm)"
+  description: "A magazine of armor-piercing 9.7x16mm rounds for the AG80 rifle."
+  suffix: AP
   components:
   - type: Tag
     tags:
@@ -202,8 +202,8 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: AU14MagazineRifleAG80Ext
-  name: "ent-AU14MagazineRifleAG80Ext"
-  description: "ent-AU14MagazineRifleAG80Ext-desc"
+  name: "AG80 extended magazine (9.7x16mm)"
+  description: "An extended magazine of 9.7x16mm rounds for the AG80 rifle."
   components:
   - type: Tag
     tags:
@@ -234,8 +234,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: AU14CartridgeRifle97x16mm
-  name: ent-AU14CartridgeRifle97x16mm
-  description: "ent-AU14CartridgeRifle97x16mm-desc"
+  name: cartridge (9.7x16mm)
+  description: "A 9.7x16mm cartridge for the AG80 rifle."
   components:
   - type: Tag
     tags:
@@ -247,8 +247,8 @@
 - type: entity
   parent: AU14CartridgeRifle97x16mm
   id: AU14CartridgeRifle97x16mmAP
-  name: ent-AU14CartridgeRifle97x16mmAP
-  description: "ent-AU14CartridgeRifle97x16mmAP-desc"
+  name: AP cartridge (9.7x16mm)
+  description: "A 9.7x16mm armor-piercing cartridge for the AG80 rifle."
   components:
   - type: Tag
     tags:
@@ -296,8 +296,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: AU14AttachmentAG80StockCollapsible
-  name: ent-AU14AttachmentAG80StockCollapsible
-  description: ent-AU14AttachmentAG80StockCollapsible-desc
+  name: AG80 folding stock
+  description: The standard back end of any gun starting with AG80. Compatible with the AG80 series, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Attachments/upp_attachments.rsi
@@ -356,8 +356,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: AU14AttachmentGP45GrenadeLauncher
-  name: ent-AU14AttachmentGP45GrenadeLauncher
-  description: ent-AU14AttachmentGP45GrenadeLauncher-desc
+  name: GP-45 grenade launcher
+  description: A weapon-mounted, reloadable grenade launcher.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Attachments/upp_attachments.rsi

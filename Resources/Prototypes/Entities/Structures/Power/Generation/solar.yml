@@ -1,7 +1,7 @@
 - type: entity
   id: SolarPanelBasePhysSprite
   categories: [ HideSpawnMenu ]
-  name: ent-SolarPanelBasePhysSprite
+  name: solar panel
   placement:
     mode: SnapgridCenter
   components:
@@ -57,8 +57,8 @@
 - type: entity
   id: SolarPanelPlasma
   parent: SolarPanelBasePhysSprite
-  name: ent-SolarPanelPlasma
-  description: ent-SolarPanelPlasma-desc
+  name: solar panel plasma
+  description: A few sheets of plasma glass that generate electricity when hit by photons.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -100,8 +100,8 @@
 - type: entity
   id: SolarPanelUranium
   parent: SolarPanelBasePhysSprite
-  name: ent-SolarPanelUranium
-  description: ent-SolarPanelUranium-desc
+  name: solar panel uranium
+  description: A few sheets of uranium glass that generate electricity when hit by photons.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -143,8 +143,8 @@
 - type: entity
   id: SolarPanel
   parent: SolarPanelBasePhysSprite
-  name: ent-SolarPanel
-  description: ent-SolarPanel-desc
+  name: solar panel
+  description: A few sheets of glass that generate electricity when hit by photons.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -183,9 +183,9 @@
 - type: entity
   id: SolarPanelBroken
   parent: SolarPanelBasePhysSprite
-  name: ent-SolarPanelBroken
-  description: ent-SolarPanelBroken-desc
-  suffix: ent-SolarPanelBroken-suffix
+  name: solar panel
+  description: A broken solar panel.
+  suffix: Broken
   components:
   - type: Sprite
     state: solar_panel_glass_broken
@@ -224,9 +224,9 @@
 - type: entity
   id: SolarPanelPlasmaBroken
   parent: SolarPanelBasePhysSprite
-  name: ent-SolarPanelPlasmaBroken
-  description: ent-SolarPanelPlasmaBroken-desc
-  suffix: ent-SolarPanelPlasmaBroken-suffix
+  name: plasma solar panel
+  description: A broken plasma solar panel.
+  suffix: Broken
   components:
   - type: Sprite
     state: solar_panel_plasma_broken
@@ -265,9 +265,9 @@
 - type: entity
   id: SolarPanelUraniumBroken
   parent: SolarPanelBasePhysSprite
-  name: ent-SolarPanelUraniumBroken
-  description: ent-SolarPanelUraniumBroken-desc
-  suffix: ent-SolarPanelUraniumBroken-suffix
+  name: uranium solar panel
+  description: A broken uranium solar panel.
+  suffix: Broken
   components:
   - type: Sprite
     state: solar_panel_uranium_broken
@@ -305,8 +305,8 @@
 
 - type: entity
   id: SolarAssembly
-  name: ent-SolarAssembly
-  description: ent-SolarAssembly-desc
+  name: solar assembly
+  description: A solar assembly. Anchor to a wire to start building a solar panel.
   placement:
     mode: SnapgridCenter
   components:
@@ -361,8 +361,8 @@
 
 - type: entity
   id: SolarTracker
-  name: ent-SolarTracker
-  description: ent-SolarTracker-desc
+  name: solar tracker
+  description: A solar tracker. Tracks the nearest star.
   placement:
     mode: SnapgridCenter
   components:

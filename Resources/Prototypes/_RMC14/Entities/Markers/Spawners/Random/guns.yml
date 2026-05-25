@@ -1,9 +1,9 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomGunBase
-  name: ent-RMCSpawnerRandomGunBase
-  description: ent-RMCSpawnerRandomGunBase-desc
-  suffix: ent-RMCSpawnerRandomGunBase-suffix
+  name: gun spawner
+  description: hi this will spawn a random gun
+  suffix: Base
   abstract: true
   components:
   - type: Sprite
@@ -15,9 +15,9 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunPistol
-  name: ent-RMCSpawnerRandomGunPistol
-  description: ent-RMCSpawnerRandomGunPistol-desc
-  suffix: ent-RMCSpawnerRandomGunPistol-suffix
+  name: pistol loot spawner
+  description: spawns a surv pistol and some ammo
+  suffix: Guaranteed
   components:
   - type: GunSpawner
     minMagazines: 1
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunPistol
   id: RMCSpawnerRandomGunPistolLow
-  suffix: ent-RMCSpawnerRandomGunPistolLow-suffix
+  suffix: Low Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunPistol
   id: RMCSpawnerRandomGunPistolMed
-  suffix: ent-RMCSpawnerRandomGunPistolMed-suffix
+  suffix: Medium Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunPistol
   id: RMCSpawnerRandomGunPistolHigh
-  suffix: ent-RMCSpawnerRandomGunPistolHigh-suffix
+  suffix: High Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -80,9 +80,9 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunRifle
-  name: ent-RMCSpawnerRandomGunRifle
-  description: ent-RMCSpawnerRandomGunRifle-desc
-  suffix: ent-RMCSpawnerRandomGunRifle-suffix
+  name: rifle loot spawner
+  description: spawns a surv rifle and some ammo
+  suffix: Guaranteed
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunRifle
   id: RMCSpawnerRandomGunRifleLow
-  suffix: ent-RMCSpawnerRandomGunRifleLow-suffix
+  suffix: Low Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunRifle
   id: RMCSpawnerRandomGunRifleMed
-  suffix: ent-RMCSpawnerRandomGunRifleMed-suffix
+  suffix: Medium Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunRifle
   id: RMCSpawnerRandomGunRifleHigh
-  suffix: ent-RMCSpawnerRandomGunRifleHigh-suffix
+  suffix: High Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -148,9 +148,9 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunShotgun
-  name: ent-RMCSpawnerRandomGunShotgun
-  description: ent-RMCSpawnerRandomGunShotgun-desc
-  suffix: ent-RMCSpawnerRandomGunShotgun-suffix
+  name: shotgun loot spawner
+  description: spawns a surv shotgun and some ammo
+  suffix: Guaranteed
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunShotgun
   id: RMCSpawnerRandomGunShotgunLow
-  suffix: ent-RMCSpawnerRandomGunShotgunLow-suffix
+  suffix: Low Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -185,7 +185,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunShotgun
   id: RMCSpawnerRandomGunShotgunMed
-  suffix: ent-RMCSpawnerRandomGunShotgunMed-suffix
+  suffix: Medium Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunShotgun
   id: RMCSpawnerRandomGunShotgunHigh
-  suffix: ent-RMCSpawnerRandomGunShotgunHigh-suffix
+  suffix: High Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -210,9 +210,9 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunSMG
-  name: ent-RMCSpawnerRandomGunSMG
-  description: ent-RMCSpawnerRandomGunSMG-desc
-  suffix: ent-RMCSpawnerRandomGunSMG-suffix
+  name: smg loot spawner
+  description: spawns a surv smg and some ammo
+  suffix: Guaranteed
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -240,7 +240,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunSMG
   id: RMCSpawnerRandomGunSMGLow
-  suffix: ent-RMCSpawnerRandomGunSMGLow-suffix
+  suffix: Low Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -252,7 +252,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunSMG
   id: RMCSpawnerRandomGunSMGMed
-  suffix: ent-RMCSpawnerRandomGunSMGMed-suffix
+  suffix: Medium Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -264,7 +264,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunSMG
   id: RMCSpawnerRandomGunSMGHigh
-  suffix: ent-RMCSpawnerRandomGunSMGHigh-suffix
+  suffix: High Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -278,9 +278,9 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunSpecial
-  name: ent-RMCSpawnerRandomGunSpecial
-  description: ent-RMCSpawnerRandomGunSpecial-desc
-  suffix: ent-RMCSpawnerRandomGunSpecial-suffix
+  name: special gun loot spawner
+  description: spawns a surv special gun and some ammo
+  suffix: Guaranteed
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -300,7 +300,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunSpecial
   id: RMCSpawnerRandomGunSpecialLow
-  suffix: ent-RMCSpawnerRandomGunSpecialLow-suffix
+  suffix: Low Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -312,7 +312,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunSpecial
   id: RMCSpawnerRandomGunSpecialMed
-  suffix: ent-RMCSpawnerRandomGunSpecialMed-suffix
+  suffix: Medium Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -324,7 +324,7 @@
 - type: entity
   parent: RMCSpawnerRandomGunSpecial
   id: RMCSpawnerRandomGunSpecialHigh
-  suffix: ent-RMCSpawnerRandomGunSpecialHigh-suffix
+  suffix: High Chance
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -338,9 +338,9 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomAttachment
-  name: ent-RMCSpawnerRandomAttachment
-  description: ent-RMCSpawnerRandomAttachment-desc
-  suffix: ent-RMCSpawnerRandomAttachment-suffix
+  name: random attachment
+  description: This is a random attachment
+  suffix: Guaranteed
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -378,8 +378,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomShotgunBoxes
-  name: ent-RMCSpawnerRandomShotgunBoxes
-  description: ent-RMCSpawnerRandomShotgunBoxes-desc
+  name: shotgun shell box spawner
+  description: This is a shotgun shell box.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -398,8 +398,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomGrenadePackets
-  name: ent-RMCSpawnerRandomGrenadePackets
-  description: ent-RMCSpawnerRandomGrenadePackets-desc
+  name: random grenade packets spawner
+  description: This is a random grenade packet.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -426,8 +426,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomRockets
-  name: ent-RMCSpawnerRandomRockets
-  description: ent-RMCSpawnerRandomRockets-desc
+  name: random rockets spawner
+  description: This is a random rocket.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

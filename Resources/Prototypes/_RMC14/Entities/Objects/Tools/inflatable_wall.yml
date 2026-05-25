@@ -1,6 +1,6 @@
 - type: stack
   id: RMCInflatableWall
-  name: stack-rmcinflatablewall-name
+  name: inflatable wall
   icon: { sprite: _RMC14/Objects/Misc/inflatable_wall.rsi, state: folded_wall }
   spawn: RMCInflatableWallFolded1
   maxCount: 10
@@ -8,9 +8,9 @@
 - type: entity
   parent: BaseItem
   id: RMCInflatableWallFolded
-  name: ent-RMCInflatableWallFolded
-  description: ent-RMCInflatableWallFolded-desc
-  suffix: ent-RMCInflatableWallFolded-suffix
+  name: inflatable wall
+  description: A folded membrane which rapidly expands into a large cubical shape on activation.
+  suffix: Full
   components:
     - type: Stack
       stackType: RMCInflatableWall
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCInflatableWallFolded
   id: RMCInflatableWallFolded1
-  suffix: ent-RMCInflatableWallFolded1-suffix
+  suffix: Single
   components:
     - type: Sprite
       state: folded_wall
@@ -39,7 +39,7 @@
 
 - type: stack
   id: RMCInflatableDoor
-  name: stack-rmcinflatabledoor-name
+  name: inflatable door
   icon: { sprite: _RMC14/Objects/Misc/inflatable_door.rsi, state: folded_door }
   spawn: RMCInflatableDoorFolded1
   maxCount: 4
@@ -47,9 +47,9 @@
 - type: entity
   parent: BaseItem
   id: RMCInflatableDoorFolded
-  name: ent-RMCInflatableDoorFolded
-  description: ent-RMCInflatableDoorFolded-desc
-  suffix: ent-RMCInflatableDoorFolded-suffix
+  name: inflatable door
+  description: A folded membrane which rapidly expands into a simple door on activation.
+  suffix: Full
   components:
     - type: Stack
       stackType: RMCInflatableDoor
@@ -69,7 +69,7 @@
 - type: entity
   parent: RMCInflatableDoorFolded
   id: RMCInflatableDoorFolded1
-  suffix: ent-RMCInflatableDoorFolded1-suffix
+  suffix: Single
   components:
     - type: Sprite
       state: folded_door

@@ -1,8 +1,8 @@
 - type: entity
   id: Joint
   parent: BaseCigar
-  name: ent-Joint
-  description: ent-Joint-desc
+  name: joint
+  description: A roll of dried plant matter wrapped in thin paper.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cannabis/joint.rsi
@@ -34,9 +34,9 @@
 - type: entity
   id: JointRainbow
   parent: Joint
-  name: ent-JointRainbow
-  suffix: ent-JointRainbow-suffix
-  description: ent-JointRainbow-desc
+  name: joint
+  suffix: Rainbow
+  description: A roll of dried plant matter wrapped in thin paper. Seems to be colorful inside.
   components:
   - type: Construction
     graph: smokeableJointRainbow
@@ -62,8 +62,8 @@
 - type: entity
   id: Blunt
   parent: BaseCigar
-  name: ent-Blunt
-  description: ent-Blunt-desc
+  name: blunt
+  description: A roll of dried plant matter wrapped in a dried tobacco leaf.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cannabis/blunt.rsi
@@ -95,9 +95,9 @@
 - type: entity
   id: BluntRainbow
   parent: Blunt
-  name: ent-BluntRainbow
-  suffix: ent-BluntRainbow-suffix
-  description: ent-BluntRainbow-desc
+  name: blunt
+  suffix: Rainbow
+  description: A roll of dried plant matter wrapped in a dried tobacco leaf. Seems to be colorful inside.
   components:
   - type: Construction
     graph: smokeableBluntRainbow

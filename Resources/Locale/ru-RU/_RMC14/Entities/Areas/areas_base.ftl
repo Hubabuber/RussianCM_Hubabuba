@@ -1,36 +1,36 @@
 ent-RMCAreaMax = Макс
-    .suffix = область
+
 ent-RMCAreaResin = смола
-    .suffix = область
+
 ent-RMCAreaReinforcedMetal = армированный металл
-    .suffix = область
+
 ent-RMCAreaDeepUndergroundMetal = глубокий подземный металл
-    .suffix = область
+
 ent-RMCAreaDeepUnderground = глубоко под землей
-    .suffix = область
+
 ent-RMCAreaProtectionFour = защита 4
-    .suffix = область
+
 ent-RMCAreaUndergroundMetalBlockCAS = подземный металлический блок КАС
-    .suffix = область
+
 ent-RMCAreaUndergroundBlockCAS = подземный блок КАС
-    .suffix = область
+
 ent-RMCAreaProtectionThree = защита 3
-    .suffix = область
+
 ent-RMCAreaUndergroundMetalAllowCAS = подземное металлическое разрешение cas
-    .suffix = область
+
 ent-RMCAreaUndergroundAllowCAS = подземное разрешение cas
-    .suffix = область
+
 ent-RMCAreaProtectionTwo = защита 2
-    .suffix = область
+
 ent-RMCAreaProtectionMetal = металл
-    .suffix = область
+
 ent-RMCAreaProtectionOne = защита 1
-    .suffix = область
+
 ent-RMCAreaGlass = стекло
-    .suffix = область
+
 ent-RMCAreaNone = никто
-    .suffix = область
+
 ent-RMCAreaProtectionZero = защита 0
-    .suffix = область
+
 ent-RMCAreaBase = область
-    .suffix = область
+

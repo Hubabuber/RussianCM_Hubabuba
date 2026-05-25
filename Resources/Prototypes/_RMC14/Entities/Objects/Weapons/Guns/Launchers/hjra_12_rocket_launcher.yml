@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-RMCWeaponLauncherHJRA12
+  name: HJRA-12 Handheld Anti-Tank Grenade Launcher
   parent: [BaseWeaponLauncher, CMBaseWeaponGun, RMCBaseAttachableHolder]
   id: RMCWeaponLauncherHJRA12
-  description: "ent-RMCWeaponLauncherHJRA12-desc"
+  description: "The HJRA-12 Handheld Anti-Tank Grenade Launcher is the standard Anti-Armor weapon of the UPP. It is designed to be easy to use and to take out or disable armored vehicles."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/hjra12/hjra12_inhands.rsi
@@ -75,9 +75,9 @@
 
 - type: entity
   id: RMCRocketHJRA12AT
-  name: ent-RMCRocketHJRA12AT
+  name: HJRA-12 Anti-Tank Rocket
   parent: BaseItem
-  description: ent-RMCRocketHJRA12AT-desc
+  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard Anti-Tank rocket designed to disable or destroy hostile vehicles.
   components:
   - type: Tag
     tags:
@@ -100,9 +100,9 @@
 
 - type: entity
   id: RMCRocketHJRA12HE
-  name: ent-RMCRocketHJRA12HE
+  name: HJRA-12 High-Explosive Rocket
   parent: BaseItem
-  description: ent-RMCRocketHJRA12HE-desc
+  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard high-explosive rocket for use against light vehicles or as an anti-personnel grenade.
   components:
   - type: Tag
     tags:
@@ -125,9 +125,9 @@
 
 - type: entity
   id: RMCRocketHJRA12Incen
-  name: ent-RMCRocketHJRA12Incen
+  name: HJRA-12 Extreme-Intensity Incendiary Rocket
   parent: BaseItem
-  description: ent-RMCRocketHJRA12Incen-desc
+  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is an extreme-intensity incendiary rocket.
   components:
   - type: Tag
     tags:
@@ -154,8 +154,8 @@
   parent: RMCProjectileRocket84mmAntiArmor
   categories: [ HideSpawnMenu ]
   id: RMCProjectileRocketHJRA12AT
-  name: ent-RMCProjectileRocketHJRA12AT
-  description: ent-RMCProjectileRocketHJRA12AT-desc
+  name: HJRA-12 Anti-Tank Rocket
+  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard Anti-Tank rocket designed to disable or destroy hostile vehicles.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mmAntiArmor
@@ -171,8 +171,8 @@
   parent: RMCProjectileRocket84mm
   categories: [ HideSpawnMenu ]
   id: RMCProjectileRocketHJRA12HE
-  name: ent-RMCProjectileRocketHJRA12HE
-  description: ent-RMCProjectileRocketHJRA12HE-desc
+  name: HJRA-12 High-Explosive Rocket
+  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard high-explosive rocket for use against light vehicles or as an anti-personnel grenade.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mm
@@ -187,8 +187,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: RMCProjectileRocketHJRA12Incen
-  name: ent-RMCProjectileRocketHJRA12Incen
-  description: ent-RMCProjectileRocketHJRA12Incen-desc
+  name: HJRA-12 Extreme-Intensity Incendiary Rocket
+  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is an extreme-intensity incendiary rocket.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/hjra.rsi

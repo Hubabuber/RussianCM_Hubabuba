@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   id: RMCOrbitalCannonDerelict
-  name: ent-RMCOrbitalCannonDerelict
-  description: "ent-RMCOrbitalCannonDerelict-desc"
+  name: orbital cannon
+  description: "The USCMC Orbital Cannon System. Used for shooting large targets on the planet that is orbited. It accelerates its payload with solid fuel for devastating results upon impact."
   placement:
     mode: SnapgridCenter
   components:
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCOrbitalCannonDerelict
   id: RMCOrbitalCannon
-  name: ent-RMCOrbitalCannon
-  description: "ent-RMCOrbitalCannon-desc"
+  name: orbital cannon
+  description: "The UNMC Orbital Cannon System. Used for shooting large targets on the planet that is orbited. It accelerates its payload with solid fuel for devastating results upon impact."
   components:
   - type: OrbitalCannon
     warheadTypes:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: RMCOrbitalCannonFuel
-  name: ent-RMCOrbitalCannonFuel
+  name: solid fuel
   placement:
     mode: SnapgridCenter
   components:
@@ -72,7 +72,7 @@
 - type: entity
   abstract: true
   id: RMCOrbitalCannonWarheadBase
-  name: ent-RMCOrbitalCannonWarheadBase
+  name: orbital warhead
   placement:
     mode: SnapgridCenter
   components:
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadExplosive
-  description: "ent-RMCOrbitalCannonWarheadExplosive-desc"
-  name: ent-RMCOrbitalCannonWarheadExplosive
+  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for use in heavily-fortified areas, and causes a large circular explosion if it manages to reach the ground."
+  name: HE orbital warhead
   components:
   - type: Sprite
     state: ob_warhead_1
@@ -107,8 +107,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadIncendiary
-  description: "ent-RMCOrbitalCannonWarheadIncendiary-desc"
-  name: ent-RMCOrbitalCannonWarheadIncendiary
+  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for cutting off enemy forces, and creates a large diamond of ultra-hot blue fire."
+  name: incendiary orbital warhead
   components:
   - type: Sprite
     state: ob_warhead_2
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadCluster
-  description: "ent-RMCOrbitalCannonWarheadCluster-desc"
-  name: ent-RMCOrbitalCannonWarheadCluster
+  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for use in cramped heavily-fortified areas, and causes multiple explosions in a vaguely rectangular shape."
+  name: cluster orbital warhead
   components:
   - type: Sprite
     state: ob_warhead_3
@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadAegis
-  description: "ent-RMCOrbitalCannonWarheadAegis-desc"
-  name: ent-RMCOrbitalCannonWarheadAegis
+  description: "AEG-328-KRA, or KRAKEN, an experimental phoron-based orbital warhead, straight from the R&D Division of AEGIS. Designed to be used against targets where a single orbital warhead is simply not enough."
+  name:  AEG-328-KRA
   components:
   - type: WarpPoint
   - type: TacticalMapIcon
@@ -156,8 +156,8 @@
 
 - type: entity
   id: RMCOrbitalCannonWarheadSpawner
-  name: ent-RMCOrbitalCannonWarheadSpawner
-  description: "ent-RMCOrbitalCannonWarheadSpawner-desc"
+  name: random orbital warhead
+  description: "This is a random orbital warhead."
   placement:
     mode: SnapgridCenter
   components:
@@ -174,8 +174,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionExplosive
-  name: ent-RMCOrbitalCannonExplosionExplosive
-  suffix: ent-RMCOrbitalCannonExplosionExplosive-suffix
+  name: explosive OB explosion
+  suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
   components:
@@ -203,8 +203,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionAegis
-  name: ent-RMCOrbitalCannonExplosionAegis
-  suffix: ent-RMCOrbitalCannonExplosionAegis-suffix
+  name: explosive Aegis OB explosion
+  suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
   components:
@@ -233,8 +233,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionIncendiary
-  name: ent-RMCOrbitalCannonExplosionIncendiary
-  suffix: ent-RMCOrbitalCannonExplosionIncendiary-suffix
+  name: incendiary OB explosion
+  suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
   components:
@@ -253,8 +253,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionCluster
-  name: ent-RMCOrbitalCannonExplosionCluster
-  suffix: ent-RMCOrbitalCannonExplosionCluster-suffix
+  name: cluster OB explosion
+  suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
   components:
@@ -276,8 +276,8 @@
 
 - type: entity
   id: RMCOrbitalCannonComputer
-  name: ent-RMCOrbitalCannonComputer
-  description: "ent-RMCOrbitalCannonComputer-desc"
+  name: orbital cannon console
+  description: "The console controlling the orbital cannon loading systems."
   placement:
     mode: SnapgridCenter
   components:
@@ -304,8 +304,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCOrbitalCannonChair
-  name: ent-RMCOrbitalCannonChair
-  description: "ent-RMCOrbitalCannonChair-desc"
+  name: seat
+  description: "A comfortable seat."
   placement:
     mode: SnapgridCenter
   components:
@@ -321,8 +321,8 @@
 
 - type: entity
   id: RMCOrbitalCannonCableConnector
-  name: ent-RMCOrbitalCannonCableConnector
-  description: "ent-RMCOrbitalCannonCableConnector-desc"
+  name: cannon cable connector
+  description: "A connector for the large cannon cables."
   placement:
     mode: SnapgridCenter
   components:
@@ -347,8 +347,8 @@
 
 - type: entity
   id: RMCOrbitalCannonCable
-  name: ent-RMCOrbitalCannonCable
-  description: "ent-RMCOrbitalCannonCable-desc"
+  name: cannon cables
+  description: "Some large cables."
   placement:
     mode: SnapgridCenter
   components:
@@ -386,9 +386,9 @@
 # Tray
 - type: entity
   id: RMCOrbitalCannonTray
-  name: ent-RMCOrbitalCannonTray
-  description: "ent-RMCOrbitalCannonTray-desc"
-  suffix: ent-RMCOrbitalCannonTray-suffix
+  name: loading tray
+  description: "The orbital cannon's loading tray."
+  suffix: Cannon spawns with one that's linked to it.
   placement:
     mode: SnapgridCenter
   components:

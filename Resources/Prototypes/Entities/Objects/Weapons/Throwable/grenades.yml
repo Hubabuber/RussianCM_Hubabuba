@@ -40,8 +40,8 @@
     - HandGrenade
 
 - type: entity
-  name: ent-ExGrenade
-  description: ent-ExGrenade-desc
+  name: explosive grenade
+  description: Grenade that creates a small but devastating explosion.
   parent: [GrenadeBase, BaseSyndicateContraband]
   id: ExGrenade
   components:
@@ -61,8 +61,8 @@
     beepInterval: 2 # 2 beeps total (at 0 and 2)
 
 - type: entity
-  name: ent-GrenadeFlashBang
-  description: ent-GrenadeFlashBang-desc
+  name: flashbang
+  description: Eeeeeeeeeeeeeeeeeeeeee.
   parent: [ GrenadeBase, BaseSecurityContraband ]
   id: GrenadeFlashBang
   components:
@@ -106,8 +106,8 @@
 #The explosive values for these are pretty god damn mediocre, but SS14's explosion system is hard to understand - this is a good enough approximation of how it was in SS13.
 #Ideally, there should be a weak radius around the bomb outside of its gibbing / spacing range capable of dealing fair damage to players / structures.
 - type: entity
-  name: ent-SyndieMiniBomb
-  description: ent-SyndieMiniBomb-desc
+  name: syndicate minibomb
+  description: A syndicate-manufactured explosive used to stow destruction and cause chaos.
   parent: [GrenadeBase, BaseSyndicateContraband]
   id: SyndieMiniBomb
   components:
@@ -147,8 +147,8 @@
     price: 2000
 
 - type: entity
-  name: ent-SelfDestructSeq
-  description: ent-SelfDestructSeq-desc
+  name: self destruct
+  description: Go out on your own terms!
   parent: GrenadeBase
   id: SelfDestructSeq
   categories: [ HideSpawnMenu ]
@@ -173,8 +173,8 @@
 - type: entity
   parent: [ GrenadeBase, BaseSyndicateContraband ]
   id: SingularityGrenade
-  name: ent-SingularityGrenade
-  description: ent-SingularityGrenade-desc
+  name: singularity grenade
+  description: Grenade that simulates the power of a singularity, pulling things in a heap.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/singularitygrenade.rsi
@@ -231,8 +231,8 @@
     price: 1000
 
 - type: entity
-  name: ent-WhiteholeGrenade
-  description: ent-WhiteholeGrenade-desc
+  name: whitehole grenade
+  description: Grenade that repulses everything around for some time.
   parent: SingularityGrenade
   id: WhiteholeGrenade
   components:
@@ -280,8 +280,8 @@
     price: 1000
 
 - type: entity
-  name: ent-NuclearGrenade
-  description: ent-NuclearGrenade-desc
+  name: the nuclear option
+  description: Please don't throw it, think of the children.
   parent: GrenadeBase
   id: NuclearGrenade
   components:
@@ -310,8 +310,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: ent-ModularGrenade
-  description: ent-ModularGrenade-desc
+  name: modular grenade
+  description: A grenade casing. Requires a trigger and a payload.
   parent: BaseItem
   id: ModularGrenade
   components:
@@ -358,8 +358,8 @@
     price: 75
 
 - type: entity
-  name: ent-EmpGrenade
-  description: ent-EmpGrenade-desc
+  name: EMP grenade
+  description: A grenade designed to wreak havoc on electronic systems.
   parent: [GrenadeBase, BaseSyndicateContraband]
   id: EmpGrenade
   components:
@@ -377,8 +377,8 @@
     price: 666 # 2000 for 3, I love fractions
 
 - type: entity
-  name: ent-HolyHandGrenade
-  description: ent-HolyHandGrenade-desc
+  name: holy hand grenade
+  description: O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
   parent: [GrenadeBase, BaseSyndicateContraband]
   id: HolyHandGrenade
   components:
@@ -406,8 +406,8 @@
 - type: entity
   parent: [ GrenadeBase, BaseSecurityContraband ]
   id: SmokeGrenade
-  name: ent-SmokeGrenade
-  description: ent-SmokeGrenade-desc
+  name: smoke grenade
+  description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/smoke.rsi
@@ -424,8 +424,8 @@
 - type: entity
   parent: [ BaseCivilianContraband, SmokeGrenade ]
   id: CleanerGrenade
-  name: ent-CleanerGrenade
-  description: ent-CleanerGrenade-desc
+  name: cleanade
+  description: Special grenade for janitors, releasing large cloud of space cleaner foam.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/janitor.rsi
@@ -441,8 +441,8 @@
 - type: entity
   parent: SmokeGrenade
   id: TearGasGrenade
-  name: ent-TearGasGrenade
-  description: ent-TearGasGrenade-desc
+  name: tear gas grenade
+  description: A riot control tear gas grenade. Causes irritation, pain and makes you cry your eyes out.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
@@ -458,8 +458,8 @@
 - type: entity
   parent: [ BaseEngineeringContraband, SmokeGrenade ]
   id: MetalFoamGrenade
-  name: ent-MetalFoamGrenade
-  description: ent-MetalFoamGrenade-desc
+  name: metal foam grenade
+  description: An emergency tool used for patching hull breaches with special quick-set metal foam. Almost as good as real floors!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/metalfoam.rsi
@@ -475,8 +475,8 @@
 - type: entity
   parent: [ BaseEngineeringContraband, GrenadeBase ] # Prevent inheriting DeleteOnTrigger from SmokeGrenade
   id: AirGrenade
-  name: ent-AirGrenade
-  description: ent-AirGrenade-desc
+  name: air grenade
+  description: A special solid state chemical grenade used for quickly releasing standard air into a spaced area. Fills up to 30 tiles!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/airboom.rsi
@@ -507,8 +507,8 @@
 # Non-explosive "dummy" grenades to use as a distraction.
 
 - type: entity
-  name: ent-GrenadeDummy
-  description: ent-GrenadeDummy-desc
+  name: trick grenade
+  description: All the grenade without any of the boom.
   parent: GrenadeBase
   id: GrenadeDummy
   components:
@@ -526,8 +526,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: ent-SyndieTrickyBomb
-  description: ent-SyndieTrickyBomb-desc
+  name: syndicate trickybomb
+  description: A syndicate-manufactured explosive used to make an excellent distraction.
   parent: [GrenadeDummy, BaseSyndicateContraband]
   id: SyndieTrickyBomb
   components:

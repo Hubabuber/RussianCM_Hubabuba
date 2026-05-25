@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPPlatCoPVE
-  name: job-rmcsppplatcopve-name
-  description: job-rmcsppplatcopve-desc
+  name: rmc-job-name-spp-overwatch
+  description: rmc-ghost-role-information-spp-pve-description
   playTimeTracker: RMCJobSPPPlatCoPVE
   requirements:
   - !type:RoleTimeRequirement
@@ -15,7 +15,7 @@
   joinNotifyCrew: false
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: job-rmcsppplatcopve-spawnmenurolename
+  spawnMenuRoleName: SPP Platoon Commander (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -68,8 +68,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPPlatCoPVE
-  name: ent-RMCSpawnPointSPPPlatCoPVE
-  suffix: ent-RMCSpawnPointSPPPlatCoPVE-suffix
+  name: spp platoon commander spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: RMCSPPPlatCoPVE

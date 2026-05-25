@@ -1,74 +1,74 @@
 ent-RMCAreaShuttleDistressArriveSEngi = VIP-шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDistressArriveNEngi = VIP-шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDistressTransitSmall = VIP-трансфер
-    .suffix = область
+
 ent-RMCAreaShuttleDistressStartSmall = VIP-шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDistressArriveSHangar = Аварийный шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDistressArriveNHangar = Аварийный шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDistressArrive3 = Аварийный шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDistressArrive2 = Аварийный шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDistressArrive1 = Аварийный шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDistressTransitBig = Аварийный шаттл «Большой транзит»
-    .suffix = область
+
 ent-RMCAreaShuttleDistressStartBig = Аварийный шаттл Большой
-    .suffix = область
+
 ent-RMCAreaShuttleDistressTransitUpp = Аварийный шаттл СПП Транзит
-    .suffix = область
+
 ent-RMCAreaShuttleDistressStartUpp = Аварийный шаттл СПП
-    .suffix = область
+
 ent-RMCAreaShuttleDistressTransitPmc = Аварийный шаттл ЧВК Транзит
-    .suffix = область
+
 ent-RMCAreaShuttleDistressStartPmc = Аварийный шаттл ЧВК
-    .suffix = область
+
 ent-RMCAreaShuttleDistressTransit = Транзит аварийного шаттла
-    .suffix = область
+
 ent-RMCAreaShuttleDistressStart = Аварийный шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2Lz2 = Зона высадки в Нормандии
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2Transit = Транзит Нормандия
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2DesertDam = Дропшиппинг Нормандия
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2IceColony = Дропшиппинг Нормандия
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2BigRed = Дропшиппинг Нормандия
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2Prison = Дропшиппинг Нормандия
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2LV624 = Дропшиппинг Нормандия
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2Sulaco = Дропшиппинг Нормандия
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1Lz1 = Зона приземления Аламо
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1Transit = Dropship Аламо Транзит
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1DesertDam = Дропшиппинг Аламо
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1IceColony = Дропшиппинг Аламо
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1BigRed = Дропшиппинг Аламо
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1Prison = Дропшиппинг Аламо
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1LV624 = Дропшиппинг Аламо
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1Sulaco = Дропшиппинг Аламо
-    .suffix = область
+
 ent-RMCAreaShuttle = область
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1 = область
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2 = область
-    .suffix = область
+
 ent-RMCAreaShuttleDistress = область
-    .suffix = область
+

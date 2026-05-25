@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMinorContraband
   id: ThiefBeacon
-  name: ent-ThiefBeacon
-  description: ent-ThiefBeacon-desc
+  name: thieving beacon
+  description: A device that will teleport everything around it to the thief's vault at the end of the shift.
   components:
     - type: ThiefBeacon
     - type: StealArea
@@ -41,8 +41,8 @@
 
 - type: entity
   id: ToolboxThief
-  name: ent-ToolboxThief
-  description: ent-ToolboxThief-desc
+  name: undetermined thieving toolbox
+  description: This is where your favorite thief's supplies lie. Try to remember which ones.
   parent: [ BaseItem, BaseMinorContraband ]
   components:
   - type: Sprite
@@ -67,8 +67,8 @@
 
 - type: entity
   id: SatchelThief
-  name: ent-SatchelThief
-  description: ent-SatchelThief-desc
+  name: undetermined thieving satchel
+  description: This is where your favorite thief's supplies lie. Folded for your convenience.
   parent: ToolboxThief
   components:
   - type: Sprite

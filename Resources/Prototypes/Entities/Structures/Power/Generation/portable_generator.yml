@@ -128,11 +128,13 @@
         enabled: false
 
 - type: entity
-  name: ent-PortableGeneratorPacman
-  description: ent-PortableGeneratorPacman-desc
+  name: P.A.C.M.A.N.-type portable generator
+  description: |-
+    A flexible backup generator for powering a variety of equipment.
+    Runs off solid plasma sheets and is rated for up to 30 kW.
   parent: PortableGeneratorSwitchableBase
   id: PortableGeneratorPacman
-  suffix: ent-PortableGeneratorPacman-suffix
+  suffix: Plasma, 30 kW
   components:
     - type: Sprite
       layers:
@@ -187,11 +189,13 @@
       supplyRampTolerance: 1500
 
 - type: entity
-  name: ent-PortableGeneratorSuperPacman
-  description: ent-PortableGeneratorSuperPacman-desc
+  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator
+  description: |-
+    An advanced generator for powering departments.
+    Runs off uranium sheets and is rated for up to 50 kW.
   parent: PortableGeneratorSwitchableBase
   id: PortableGeneratorSuperPacman
-  suffix: ent-PortableGeneratorSuperPacman-suffix
+  suffix: Uranium, 50 kW
   components:
     - type: Sprite
       layers:
@@ -241,11 +245,14 @@
       supplyRampTolerance: 2500
 
 - type: entity
-  name: ent-PortableGeneratorJrPacman
-  description: ent-PortableGeneratorJrPacman-desc
+  name: J.R.P.A.C.M.A.N.-type portable generator
+  description: |-
+    A small generator capable of powering individual rooms, in case of emergencies.
+    Runs off welding fuel and is rated for up to 8 kW.
+    Rated ages 3 and up.
   parent: PortableGeneratorBase
   id: PortableGeneratorJrPacman
-  suffix: ent-PortableGeneratorJrPacman-suffix
+  suffix: Welding Fuel, 8 kW
   components:
     - type: AmbientSound
       range: 4

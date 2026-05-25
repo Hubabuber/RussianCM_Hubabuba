@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurret
-  name: ent-BaseWeaponTurret
+  name: turret
   abstract: true
   components:
   - type: Clickable
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseWeaponTurret
   id: BaseWeaponBallisticTurret
-  description: ent-BaseWeaponBallisticTurret-desc
-  name: ent-BaseWeaponBallisticTurret
+  description: A ballistic machine gun auto-turret.
+  name: ballistic turret
   abstract: true
   components:
   - type: ContainerContainer
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseWeaponTurret
   id: BaseWeaponEnergyTurret
-  name: ent-BaseWeaponEnergyTurret
-  description: ent-BaseWeaponEnergyTurret-desc
+  name: laser turret
+  description: An auto-turret armed with a heavy laser. Its weapon will recharge while connected to an active power grid.
   abstract: true
   components:
   - type: Sprite

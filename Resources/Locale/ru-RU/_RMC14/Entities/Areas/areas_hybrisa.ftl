@@ -1,572 +1,572 @@
 ent-RMCAreaLv759IndoorsWyResearchComplexHeadResearchOffice = Уэстон-Ямада - Комплекс перспективных биогеномных исследований - руководитель исследовательского отдела
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexChangingroom = Уэстон-Ямада — Комплекс передовых биогеномных исследований — Раздевалка
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexSoutheastexit = Уэстон-Ямада — Комплекс передовых биогеномных исследований — Юго-восточное техническое обслуживание и аварийный выход
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexHallwaysoutheast = Уэстон-Ямада — Комплекс передовых биогеномных исследований — Юго-восточный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexHallwaysouthwest = Уэстон-Ямада — Комплекс передовых биогеномных исследований — Юго-западный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexHallwaycentral = Уэстон-Ямада — Комплекс передовых биогеномных исследований — Центральный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexHallwayeast = Уэстон-Ямада — Комплекс передовых биогеномных исследований — Восточный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexHallwaynorthexit = Уэстон-Ямада — Комплекс передовых биогеномных исследований — Северный коридор — Восточный выход для персонала
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexHallwaynorth = Уэстон-Ямада — Комплекс передовых биогеномных исследований — Северный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexHangarbayshuttle = Уэстон-Ямада - Комплекс перспективных биогеномных исследований - Ангарный залив - Шаттл PMC ERT Уэстон-Ямада
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexHangarbay = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Ангар-Бей
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexSecurityarmory = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Оружейная палата
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexSecuritycommand = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Центр управления безопасностью и развертывание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexDormsbedroom = Уэстон-Ямада - Комплекс передовых биогеномных исследований - общежития
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexDormsfoyer = Уэстон-Ямада — Комплекс перспективных биогеномных исследований — фойе общежития
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexCafeteriakitchen = Уэстон-Ямада — Комплекс перспективных биогеномных исследований — Кафетерий — Кухня
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexCafeteria = Уэстон-Ямада — Комплекс перспективных биогеномных исследований — Кафетерий
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexJanitor = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Хранение хозяйственных принадлежностей
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexVehicledeploymentbay = Уэстон-Ямада - Комплекс перспективных биогеномных исследований - отсек для развертывания и технического обслуживания транспортных средств
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexXenoarcheology = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Лаборатория ксеноархеологических исследований
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexWeaponresearchlabtesting = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Лаборатория перспективных исследований оружия - Полигон для испытаний оружия
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexWeaponresearchlab = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Лаборатория перспективных исследований оружия
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexXenobiology = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Лаборатория передовой ксенобиологии
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexMainlabs = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Лаборатория передовых химических испытаний и исследований
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexResearchanddevelopment = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Лаборатория технологических исследований и разработок
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexCargo = Уэстон-Ямада — Комплекс перспективных биогеномных исследований — Реквизиты и груз
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexReception = Уэстон-Ямада - Комплекс передовых биогеномных исследований - прием и администрация
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplexMedicalAnnex = Уэстон-Ямада - Комплекс передовых биогеномных исследований - Здание медицинского пристройки
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWyResearchComplex = Уэстон-Ямада - Комплекс передовых биогеномных исследований
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHobosecret = Скрытое убежище бродяг
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWySecurityCheckpointNorthwest = Контрольно-пропускной пункт Уэстон-Ямада — Северо-Запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWySecurityCheckpointWestCaves = Контрольно-пропускной пункт Уэстон-Ямада — вход в пещеры
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWySecurityCheckpointWest = Контрольно-пропускной пункт Уэстон-Ямада — Запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWySecurityCheckpointCentral = Контрольно-пропускной пункт Уэстон-Ямада — центральный
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWySecurityCheckpointEast = Контрольно-пропускной пункт Уэстон-Ямада — восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWySecurityCheckpointNortheast = Контрольно-пропускной пункт Уэстон-Ямада — северо-восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeymartMaintenance = Веймарт - Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeymartBackrooms = Веймарт – Подсобные помещения
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeymart = Веймарт
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsTcommsNorthwest = Телекоммуникационная подстанция - Запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPizzaria = Пицца Гэлакси - Аванпост Зета
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCasinoCasinoVault = Казино Night Gold - Хранилище
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCasinoCasinoRestroom = Казино Night Gold - Туалет
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCasinoCasinoOffice = Казино Night Gold - Офис менеджера
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCasino = Казино Ночное Золото
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSouthwestPublicRestroom = Общественный туалет — юго-запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSouthPublicRestroom = Общественный туалет — юг
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsRecyclingPlantWasteDisposalIncinerator = Уэстон-Ямада — Завод по восстановлению ресурсов — Комната для сжигания отходов
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsRecyclingPlantOffice = Уэстон-Ямада — Центр восстановления ресурсов — Офис
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsRecyclingPlantSyntheticStorage = Синтетическое хранилище
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsRecyclingPlantGarage = Уэстон-Ямада — Центр восстановления ресурсов — Гараж
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsRecyclingPlant = Уэстон-Ямада — Центр восстановления ресурсов
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsJacksSurplus = Военные излишки Джека
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsSouthwestMaintenance = TSEPA — округ Айронбридж — техническое обслуживание — юго-запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsNorthMaintenance = TSEPA — округ Айронбридж — техническое обслуживание — север
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsSouthMaintenance = TSEPA — округ Айронбридж — техническое обслуживание — юг
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsRestroom = TSEPA — округ Айронбридж — туалет и душевые
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsChangingRoom = ЦЭПА — округ Айронбридж — раздевалка
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsPressRoom = ЦЭПА — Округ Айронбридж — Зал суда
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsInterrogation = ЦЭПА — участок Айронбридж — допрос
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsWardensOffice = TSEPA — округ Айронбридж — офис надзирателя
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsNorthOffice = TSEPA — округ Айронбридж — северный офис
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsHeadOffice = TSEPA - участок Айронбридж - бюро судебно-медицинской экспертизы
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsHoldingCells = TSEPA — Округ Айронбридж — Камеры предварительного заключения
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsHallwayNorthLocker = ЦЭПА — округ Айронбридж — северный коридор — раздевалка
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsHallwayNorth = TSEPA — округ Айронбридж — северный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsHallwayReception = ЦЭПА — Округ Айронбридж — Прихожая
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsHallwaySouth = TSEPA — округ Айронбридж — Южный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsHallwayCentral = ЦЭПА — округ Айронбридж — центральный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsReception = TSEPA — округ Айронбридж — приемная
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsOffice = ЦЭПА — округ Айронбридж — офис
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsArmoryEvidenceroom = ЦЭПА — участок Айронбридж — комната для улик
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsArmoryFiringrange = ЦЭПА — участок Айронбридж — полигон
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsArmory = ЦЭПА — Округ Айронбридж — Оружейная палата
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsArmoryFoyer = ЦЭПА — округ Айронбридж — фойе Оружейной палаты
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsGarage = TSEPA — округ Айронбридж — размещение и обслуживание транспортных средств
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsPrisonersRecreationArea = ЦЭПА — участок Айронбридж — палата строгого режима — зона отдыха и душевая комната
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsPrisonersFoyer = ЦЭПА — участок Айронбридж — палата строгого режима — холл
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshalsPrisonersCells = TSEPA — участок Айронбридж — палата строгого режима — камеры
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsColonialMarshals = ЦЭПА - округ Айронбридж
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantEquipmentWest = Weston-Yamada DynaGrid Nexus — Складское помещение для оборудования — Запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantEquipmentEast = Weston-Yamada DynaGrid Nexus — Складское помещение для оборудования — Восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantWorkersCanteenKitchen = Weston-Yamada DynaGrid Nexus — Столовая для рабочих — Кухня
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantWorkersCanteen = Weston-Yamada DynaGrid Nexus — столовая для рабочих
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantTelecomms = Weston-Yamada DynaGrid Nexus – Телекоммуникации
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantFusionGenerators = Weston-Yamada DynaGrid Nexus — Центр управления
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantGasGenerators = Weston-Yamada DynaGrid Nexus – смешивание и хранение газа
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantTransformersSouth = Weston-Yamada DynaGrid Nexus — Трансформаторы — Юг
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantTransformersNorth = Weston-Yamada DynaGrid Nexus - Трансформеры - Север
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsPowerPlantTransformersSouth = Weston-Yamada DynaGrid Nexus — Трансформаторы — Юг
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsPowerPlantTransformersNorth = Weston-Yamada DynaGrid Nexus - Трансформеры - Север
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantPowerStorage = Weston-Yamada DynaGrid Nexus — помещение для хранения электроэнергии
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantGeothermalGenerators = Weston-Yamada DynaGrid Nexus — Зал геотермальных генераторов
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantSouthHallway = Weston-Yamada DynaGrid Nexus — Южный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlantHallwayEast = Weston-Yamada DynaGrid Nexus — Восточный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsPowerPlant = Weston-Yamada DynaGrid Nexus — Центральный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsElecticalSystemsSubstation3 = Электрические системы – Подстанция №3
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsElecticalSystemsSubstation2 = Электрические системы — Вторая подстанция
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsElecticalSystemsSubstation1 = Электрические системы — Первая подстанция — Диспетчерская
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsMiningOutpostSouthEntrance = TMCC — Горнодобывающая застава — Юг — Вход для размещения транспортных средств
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostCargoMaint = TMCC — Горнодобывающая застава — Восток — Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostEastCommand = TMCC — Горнодобывающая застава — Восток — Командный центр
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostEastDeploymentbay = TMCC — Горнодобывающая застава — Восток — Отсек развертывания
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostEastDorms = TMCC — Горнодобывающая застава — Восток — Общежития
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostEast = TMCC — Горнодобывающая застава — Восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostProcessing = TMCC - Горнодобывающий аванпост - Юг - Переработка и хранение
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostVehicledeployment = TMCC — Горнодобывающая застава — Юг — Развертывание техники
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostSouth = TMCC — Горнодобывающая застава — Юго-восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostNortheast = TMCC — Горнодобывающая застава — Северо-восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostNorthMaint = TMCC — Горнодобывающая застава — Север — Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpostNorth = TMCC — Горнодобывающая застава — Север
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalJanitor = Больничный комплекс Нова Медика - Гардероб дворников
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalMaintenanceSouth = Больничный комплекс Нова Медика - Унисекс-туалет
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalMaintenanceNorth = Больничный Комплекс Нова Медика - Техническое обслуживание Север
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalStorage = Больничный комплекс Нова Медика - Офис
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalIcu = Больничный комплекс Нова Медика - Палата интенсивной терапии
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalMorgue = Больничный комплекс Нова Медика - Морг
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalVirology = Больничный комплекс Нова Медика - Вирусология
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalPatientWard = Больничный комплекс Нова Медика - Палата пациентов
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalOperation = Больничный комплекс Нова Медика – операционные и смотровые площадки
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalMedicalStorage = Больничный комплекс Нова Медика - Медицинский склад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalEastHallway = Больничный комплекс Нова Медика — Восточный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalCentralHallway = Больничный комплекс Нова Медика – Центральный коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalOutgoing = Больничный комплекс Нова Медика - Выпускное отделение
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalPharmacy = Больничный комплекс Нова Медика – аптека и вестибюль
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalBreakRoom = Больничный комплекс Нова Медика - Комната отдыха
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalMaintenance = Больничный комплекс Нова Медика — Подпространственные коммуникации и электрические системы
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalCmoOffice = Больничный комплекс Нова Медика - Кабинет главного врача
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalReception = Больничный комплекс Нова Медика - Приемная
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalEmergencyRoom = Больничный комплекс Нова Медика - отделение неотложной помощи
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalCryoRoom = Больничный комплекс Нова Медика - Крио-отделение
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospitalParamedicsGarage = Больничный комплекс Нова Медика - Гараж фельдшера
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHotelHotelRooms = Проспера Гранд Отель - Номер
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHotelHotelHallway = Проспера Гранд Отель - Коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBotanyBotanyMainroom = Ботаника — Главный зал
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBotanyBotanyMaintenance = Ботаника – Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBotanyBotanyHallway = Ботаника - Прихожая
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBotanyBotanyGreenhouse = Ботаника - Теплица
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBarKitchen = Бар - Кухня
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBarMaintenance = Бар - Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBarBathroom = Бар - Туалеты
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBarEntertainment = Бар – подраздел Развлечения
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBar = Бар
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeyaOfficeSupervisor = Офисы Уэстон-Ямада - Офис надзирателей колонии
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeyaOfficePressroom = Офисы Weston-Yamada – Актовый зал
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeyaOfficeVip = Офисы Weston-Yamada - Конференц-зал
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeyaOfficeBreakroom = Офисы Weston-Yamada – Комната отдыха
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeyaOfficeFloor = Офисы Weston-Yamada — главный офисный этаж
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeyaOfficeHallway = Офисы Weston-Yamada – Западное фойе
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWeyaOffice = Офисы Weston-Yamada – Прихожая
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentNorthapartments = Жилой комплекс Вестхейвен - Норт - Апартаменты
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentNorthhallway = Жилой комплекс Westhaven — Север — Коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentNorthfoyer = Жилой комплекс Westhaven — Север — Фойе
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentEastbedroomsstorage = Жилой комплекс Westhaven – Восток – Спальни – Кладовая
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentEastbedrooms = Комплекс апартаментов Westhaven - Восток - Спальни
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentEastrestroomsshower = Жилой комплекс Westhaven – Восток – Туалеты и душевые
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentEastfoyer = Жилой комплекс Westhaven — Восток — Фойе
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentEastentrance = Комплекс апартаментов Westhaven — Восток — Прихожая
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentWestentertainment = Жилой комплекс Вестхейвен - Запад - Центр отдыха
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentWestrestroom = Жилой комплекс Вестхейвен - Запад - Туалеты
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentWestshowers = Жилой комплекс Westhaven - Запад - Душевые
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentWestbedrooms = Жилой комплекс Вестхейвен - Вест - Апартаменты
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentWesthallway = Жилой комплекс Westhaven — Запад — Коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartmentWestfoyer = Жилой комплекс Westhaven — Запад — Фойе
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridianMeridianMaintenanceEast = Меридиан — Заводской цех — Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridianMeridianMaintenance = Меридиан - Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridianMeridianRestroom = Меридиан - Туалет
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridianMeridianFactory = Меридиан — Заводской цех
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridianMeridianManagersoffice = Меридиан - Офис менеджера
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridianMeridianOffice = Меридиан - Офисы
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridianMeridianShowroom = Меридиан - Выставочный зал
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridianMeridianFoyer = Меридиан - Фойе
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsGarageRestroom = Гараж - Туалет
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsGarageManagersoffice = Гараж - Офис менеджера
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsGarageWorkshopStorage = Гараж – Мастерская – Кладовая
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsGarageWorkshop = Гараж - Мастерская
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsGarageReception = Гараж - Стойка регистрации
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportHorizonRunner = WY-LWI Горизонт Бегун HR-150
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportStarglider = WY-LWI StarGlider SG-200
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportDockingBay1 = Космический порт «Врата Селестии» Уэстон-Ямада — стыковочный отсек: 1
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportDockingBay2 = Космический порт Уэстон-Ямада Селестия — стыковочный отсек: 2 — дозаправка и обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportKitchen = Космопорт Уэстон-Ямада Селестия Ворота — Кухня
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportCuppajoes = Космический порт Уэстон-Ямада Ворота Селестия - Cuppa Joe's
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportBaggagehandling = Космический порт Уэстон-Ямада Селестия Шлюз — Хранение и обработка багажа
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportCargoMaintenance = Космический порт Уэстон-Ямада Селестия Шлюз — Груз — Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportCargo = Космический порт Уэстон-Ямада Селестия — грузовой отсек
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportSecurityOffice = Космопорт Уэстон-Ямада Селестия Шлюз — Офис
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportSecurity = Космический порт Уэстон-Ямада, шлюз Селестия — охрана, наблюдение и офис
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportFlightControlRoom = Космопорт Уэстон-Ямада Селестия Шлюз — Комната управления полетом
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportCommunicationsOffice = Космический порт Уэстон-Ямада Селестия Шлюз — Офис связи и администрирования
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportMaintenanceEast = Космический порт Уэстон-Ямада Ворота Селестия — Техническое обслуживание — Восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportJanitor = Космический порт «Врата Селестии» Уэстон-Ямада — подсобное помещение
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportEngineering = Космический порт Уэстон-Ямада Селестия — Хранение и переработка топлива
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportHeavyequip = Космический порт «Врата Селестии» Уэстон-Ямада — хранилище тяжелого оборудования
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportHallwayEast = Космопорт Уэстон-Ямада Ворота Селестии — Коридор — Восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportHallwayNorthwest = Космопорт Уэстон-Ямада Ворота Селестии — Коридор — Северо-Запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportHallwayNorth = Космопорт Уэстон-Ямада Ворота Селестии — Коридор — Север
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportHallwayNortheast = Космопорт Уэстон-Ямада Ворота Селестии — Коридор — Северо-восток
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsNorthStreet = Улицы колонии — север
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsNorthEastStreetLZ = Улицы колонии — северо-восток
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsNorthEastStreet = Улицы колонии — северо-восток
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsNorthWestStreet = Улицы колонии — северо-запад
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsSouthEastStreetComms = Улицы Колонии — Юго-восток — Подпространственные коммуникации
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsSouthWestStreet = Улицы Колонии — юго-запад — проход через контрольно-пропускной пункт штата Вайоминг
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsSouthEastStreet = Улицы колонии — юго-восток
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsSouthStreet = Улицы колонии — юг
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsEastCentralStreetLeft = Центральная улица - Восток
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsEastCentralStreet = Центральная улица - Восток
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreetsCentralStreets = Центральная улица - Запад
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsColonyStreets = Улицы колонии
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsCaveplateau = Пещеры - Плато
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesNorthEastCavesComms2 = NMHC - Экстренное реагирование - Первая зона приземления - Пещеры - Северо-восток - Подпространственные коммуникации
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesNorthEastCavesComms = TMCC — Горнодобывающий аванпост — Восток — Подпространственные коммуникации
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesCentralCavesNorth = Пещеры – Центральный
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesCentralCaves = Пещеры – Центральный
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesNorthCaves = Пещеры — Север
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesNorthEastCaves = Пещеры – северо-восток
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsCavesNorthWestCavesOutdoors = Пещеры — северо-запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesNorthWestCaves = Пещеры — северо-запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesSouthWestCavesAlarm = Пещеры — юго-запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesSouthWestCaves = Пещеры — юго-запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesSouthEastCaves = Пещеры – юго-восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesSouthCavesDerelictShip = Пещеры — Юг
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesSouthCaves = Пещеры — Юг
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesEastCavesNorth = Пещеры - Восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesEastCaves = Пещеры - Восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesWestCavesAlarm = Пещеры — Запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesSensoryTower = Сенсорная башня - Пещеры Плато
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesCommsTower = Башня связи — Центральные пещеры
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesElectricFence3 = Электрический забор — Центральные пещеры
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesElectricFence2 = Электрический забор — Восточные пещеры
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesElectricFence1 = Электрический забор — Западные пещеры
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesWestCaves = Пещеры — Запад
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesWyResearchComplexEntrance = Уэстон-Ямада — Комплекс передовых биогеномных исследований — северный главный вход
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCaves = Пещеры
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsDerelictShip = Заброшенный корабль
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsLandingZone2KmccHubCargoEntranceSouth = Межзвездный грузовой узел TMCC — Центр обработки грузов — главный вход и южная разгрузочная платформа
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubMaintenanceNorth = Межзвездный грузовой узел TMCC — Центр обработки грузов — Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubCargo = Межзвездный грузовой узел TMCC — Центр обработки грузов
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubLz2Console = Межзвездный грузовой узел TMCC — консоль десантного корабля «Нормандия»
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubMaintenance = Межзвездный грузовой узел TMCC – Отправление пассажиров – Техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubSouthOffice = Межзвездный грузовой узел TMCC — Отправление пассажиров — Южный офис
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubLoungeHallway = Межзвездный грузовой узел TMCC — Отделение отправления пассажиров — Коридор
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubLoungeSouth = Межзвездный грузовой узел TMCC — Отделение отправления пассажиров — Южный зал ожидания
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubFuel = Межзвездный грузовой узел TMCC — Хранение и обслуживание топлива — Север
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubLoungeNorth = Межзвездный грузовой узел TMCC — Отделение отправления пассажиров — Северный зал ожидания
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubSecurity = Межзвездный грузовой узел TMCC — Офис контрольно-пропускного пункта безопасности
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHubFlightControlRoom = Межзвездный грузовой узел TMCC — Комната управления полетом
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsLandingZone2 = Межзвездный грузовой узел TMCC — вторая зона приземления
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone1Lz1Console = Больничный комплекс Нова Медика – Экстренное реагирование – Первая зона приземления – Консоль десантного корабля Аламо
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone1FlightControlRoom = Больничный комплекс Нова Медика – Экстренное реагирование – Первая зона приземления – Диспетчерская
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsLandingZone1 = Больничный комплекс Нова Медика - Экстренная помощь - Первая зона приземления
-    .suffix = область
+
 ent-RMCAreaLv759BunkerCheckpoint = Контрольно-пропускной пункт и скрытый бункер — вход
-    .suffix = область
+
 ent-RMCAreaLv759BunkerGonzo = Укрытие Гонзо
-    .suffix = область
+
 ent-RMCAreaLv759Bunker = За пределами границ
-    .suffix = область
+
 ent-RMCAreaLv759Oob = За пределами границ
-    .suffix = область
+
 ent-RMCAreaLv759Outdoors = Гибриса - На открытом воздухе
-    .suffix = область
+
 ent-RMCAreaLv759Indoors = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759 = LV-759 Гибриза Проспера
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone1 = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2 = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsLandingZone2KmccHub = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsCaves = Гибриса - На открытом воздухе
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesNorthEastCavesSouth = Пещеры – северо-восток
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsCavesNorthCavesEast = Пещеры — Север
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceport = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsSpaceportDogbite = Транспортный десантный корабль УД-9М «Собачий укус»
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMeridian = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsApartment = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsBotany = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHotel = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsHospital = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsMiningOutpost = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsMiningOutpost = Гибриса - На открытом воздухе
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsElecticalSystems = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759OutdoorsPowerPlant = Гибриса - На открытом воздухе
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsWySecurity = Гибриса - В помещении
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterMainHall = RCM-P Outpost Souther — Главный зал
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterDorms = RCM-P Outpost Souter — общежития
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterArmoury = RCM-P Outpost Souter — Оружейная
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterFlightMaints = RCM-P Outpost Souter — помещение летного обслуживания
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterHangar = RCM-P Outpost Souter - Ангар
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterReception = RCM-P Outpost Souter - приемная
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterEntrance = RCM-P Outpost Souter — вход
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterFlightControl = RCM-P Outpost Souter — Управление полетом
-    .suffix = область
+
 ent-RMCAreaLv759IndoorsOutpostSouterUD4UK = ТСЕ UD4-UK
-    .suffix = область
+

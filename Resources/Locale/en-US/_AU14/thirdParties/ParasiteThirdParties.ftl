@@ -1,2 +1,0 @@
-ent-CMUXenoParasiteRunner = ???
-    .suffix = Runner

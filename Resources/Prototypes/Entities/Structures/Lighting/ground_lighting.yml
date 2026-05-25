@@ -1,8 +1,8 @@
 - type: entity
   id: LightPostSmall
-  name: ent-LightPostSmall
-  description: "ent-LightPostSmall-desc"
-  suffix: ent-LightPostSmall-suffix
+  name: post light
+  description: "An always powered light."
+  suffix: Always Powered
   parent: BaseStructure
   components:
   - type: Sprite
@@ -69,9 +69,9 @@
 
 - type: entity
   id: PoweredLightPostSmallEmpty
-  name: ent-PoweredLightPostSmallEmpty
-  description: "ent-PoweredLightPostSmallEmpty-desc"
-  suffix: ent-PoweredLightPostSmallEmpty-suffix
+  name: post light
+  description: "A small light post."
+  suffix: Empty
   parent: LightPostSmall
   components:
   - type: Sprite
@@ -117,9 +117,9 @@
 
 - type: entity
   id: PoweredLightPostSmall
-  name: ent-PoweredLightPostSmall
-  description: "ent-PoweredLightPostSmall-desc"
-  suffix: "ent-PoweredLightPostSmall-suffix"
+  name: post light
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  suffix: ""
   parent: PoweredLightPostSmallEmpty
   components:
   - type: Sprite
@@ -142,9 +142,9 @@
 
 - type: entity
   id: PoweredLEDLightPostSmall
-  name: ent-PoweredLEDLightPostSmall
-  description: "ent-PoweredLEDLightPostSmall-desc"
-  suffix: ent-PoweredLEDLightPostSmall-suffix
+  name: post light
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  suffix: LED
   parent: PoweredLightPostSmallEmpty
   components:
   - type: Sprite

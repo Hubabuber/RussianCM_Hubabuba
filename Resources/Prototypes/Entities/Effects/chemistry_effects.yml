@@ -34,7 +34,7 @@
 - type: entity
   parent: BaseFoam
   id: Smoke
-  name: ent-Smoke
+  name: smoke
   categories: [ HideSpawnMenu ]
   components:
   - type: Occluder
@@ -50,7 +50,7 @@
 - type: entity
   parent: BaseFoam
   id: TearGasSmoke
-  name: ent-TearGasSmoke
+  name: tear gas
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 - type: entity
   parent: Smoke
   id: WizardSmoke
-  name: ent-WizardSmoke
+  name: smoke
   categories: [ HideSpawnMenu ]
   components:
   - type: Smoke
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseFoam
   id: Foam
-  name: ent-Foam
+  name: foam
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 
 - type: entity
   id: MetalFoam
-  name: ent-MetalFoam
+  name: metal foam
   categories: [ HideSpawnMenu ]
   parent: Foam
   components:
@@ -139,7 +139,7 @@
 
 - type: entity
   id: IronMetalFoam
-  name: ent-IronMetalFoam
+  name: iron metal foam
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -148,7 +148,7 @@
 
 - type: entity
   id: AluminiumMetalFoam
-  name: ent-AluminiumMetalFoam
+  name: aluminium metal foam
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -157,7 +157,7 @@
 
 - type: entity
   id: BaseFoamedMetal
-  name: ent-BaseFoamedMetal
+  name: base foamed metal
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -212,8 +212,8 @@
 
 - type: entity
   id: FoamedIronMetal
-  name: ent-FoamedIronMetal
-  description: "ent-FoamedIronMetal-desc"
+  name: foamed iron metal
+  description: "For sealing hull breaches."
   parent: BaseFoamedMetal
   components:
   - type: Sprite
@@ -234,8 +234,8 @@
 
 - type: entity
   id: FoamedAluminiumMetal
-  name: ent-FoamedAluminiumMetal
-  description: "ent-FoamedAluminiumMetal-desc"
+  name: foamed aluminium metal
+  description: "Leftover sparse foam from an aluminum foam grenade. Easily destroyed."
   parent: BaseFoamedMetal
   components:
   - type: Sprite

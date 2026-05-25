@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: RMCSPPCommandoLeader
-  name: job-rmcsppcommandoleader-name
-  description: job-rmcsppcommandoleader-desc
+  name: rmc-job-name-spp-commando-leader
+  description: rmc-ghost-role-information-deathsquad-description
   playTimeTracker: CMJobSPPCommmandoLeader
   ranks:
     RMCRankSPP1stKommando: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: job-rmcsppcommandoleader-spawnmenurolename
+  spawnMenuRoleName: SPP Commando Leader (!DEATHSQUAD!)
   special:
   - !type:AddComponentSpecial
     components:
@@ -57,8 +57,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPCommandoLeader
-  name: ent-RMCRandomHumanoidSPPCommandoLeader
-  suffix: ent-RMCRandomHumanoidSPPCommandoLeader-suffix
+  name: DEATHSQUAD spp ghost role commando leader
+  suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

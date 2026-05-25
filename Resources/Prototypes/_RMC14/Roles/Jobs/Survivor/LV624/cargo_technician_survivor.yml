@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorEngineer
   id: CMSurvivorLV624CargoTechnician
-  name: job-cmsurvivorlv624cargotechnician-name
-  description: job-cmsurvivorlv624cargotechnician-desc
+  name: rmc-job-name-survivor-lv624-cargo-technician
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorLV624CargoTechnician
-  spawnMenuRoleName: job-cmsurvivorlv624cargotechnician-spawnmenurolename
+  spawnMenuRoleName: Cargo Technician (LV624 Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -36,7 +36,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CargoTechnician
-  name: ent-RMCSpawnPointSurvivorLV624CargoTechnician
+  name: survivor lv624 archeologist spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,4 +50,4 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetLV624CargoTechnician
-  name: ent-RMCGearSurvivorPresetLV624CargoTechnician # TODO RMC14 random research notes
+  name: lv624 cargo technician colonist preset # TODO RMC14 random research notes

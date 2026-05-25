@@ -2,8 +2,8 @@
   abstract: true
   parent: CMBaseStructure
   id: RMCGrassTallBase
-  name: ent-RMCGrassTallBase
-  suffix: ent-RMCGrassTallBase-suffix
+  name: tallgrass
+  suffix: Centre
   components:
   # make this slashable by only machete
   - type: Sprite
@@ -34,7 +34,7 @@
   abstract: true
   parent: RMCGrassTallBase
   id: RMCGrassTallSidesBase
-  suffix: ent-RMCGrassTallSidesBase-suffix
+  suffix: Sides
   components:
   - type: Sprite
     state: tallgrass_sides
@@ -43,7 +43,7 @@
   abstract: true
   parent: RMCGrassTallBase
   id: RMCGrassTallCornerBase
-  suffix: ent-RMCGrassTallCornerBase-suffix
+  suffix: Corner
   components:
   - type: Sprite
     state: tallgrass_corner

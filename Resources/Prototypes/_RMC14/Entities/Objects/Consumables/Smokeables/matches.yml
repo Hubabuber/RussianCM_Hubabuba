@@ -1,6 +1,6 @@
 - type: entity
-  name: ent-RMCMatchbox
-  description: ent-RMCMatchbox-desc
+  name: match box
+  description: A small box of 'Space-Proof' premium matches.
   parent: [ SmallboxItem, BaseBagOpenClose ]
   id: RMCMatchbox
   components:
@@ -52,10 +52,10 @@
       state: helmet
 
 - type: entity
-  name: ent-RMCMatchboxFull
+  name: match box
   parent: RMCMatchbox
   id: RMCMatchboxFull
-  suffix: ent-RMCMatchboxFull-suffix
+  suffix: Full
   components:
   - type: StorageFill
     contents:
@@ -63,8 +63,8 @@
       amount: 14
 
 - type: entity
-  name: ent-RMCMatchstick
-  description: ent-RMCMatchstick-desc
+  name: match
+  description: A simple match stick, used for lighting fine smokables.
   parent: Matchstick
   id: RMCMatchstick
   components:
@@ -73,8 +73,8 @@
     state: match_unlit
 
 - type: entity
-  name: ent-RMCMatchstickPaper
-  description: ent-RMCMatchstickPaper-desc
+  name: paper match
+  description: A simple match stick, used for lighting fine smokables.
   parent: RMCMatchstick
   id: RMCMatchstickPaper
   components:

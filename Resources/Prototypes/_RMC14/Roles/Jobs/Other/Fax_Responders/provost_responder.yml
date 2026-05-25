@@ -3,15 +3,15 @@
   id: CMProvostResponder
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-cmprovostresponder-name
-  description: job-cmprovostresponder-desc
+  name: rmc-job-name-provost-responder
+  description: rmc-job-description-provost-responder
   playTimeTracker: CMJobProvostResponder
   ranks:
     RMCRankProvostCommunicationsOfficer: []
   startingGear: RMCGearProvostResponder
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-cmprovostresponder-supervisors
+  supervisors: cm-job-supervisors-staff
   accessGroups:
   - ShipMasterAccess
   - RMCWeYa
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardProvostResponder
-  name: ent-RMCIDCardProvostResponder
-  description: ent-RMCIDCardProvostResponder-desc
+  name: provost responder ID card
+  description: Issued to members of the Provost Marshal Office.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

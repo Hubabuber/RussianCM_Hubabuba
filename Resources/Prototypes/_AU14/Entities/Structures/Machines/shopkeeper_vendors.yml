@@ -5,8 +5,8 @@
   id: AU14ShopkeeperVendorBase
   abstract: true
   parent: CMBaseStructureCorrodible
-  name: ent-AU14ShopkeeperVendorBase
-  description: ent-AU14ShopkeeperVendorBase-desc
+  name: shop counter
+  description: A customisable vendor. Authorized staff can stock it with items and set prices.
   components:
   - type: AU14ShopkeeperVendor
   - type: ItemSlots
@@ -53,6 +53,6 @@
 - type: entity
   id: AU14ShopkeeperVendor
   parent: AU14ShopkeeperVendorBase
-  name: ent-AU14ShopkeeperVendor
-  description: ent-AU14ShopkeeperVendor-desc
-  suffix: ent-AU14ShopkeeperVendor-suffix
+  name: shop counter
+  description: A customisable counter. The shopkeeper can stock it with any items and set prices. Prices are subject to the colony sales tax.
+  suffix: Shopkeeper

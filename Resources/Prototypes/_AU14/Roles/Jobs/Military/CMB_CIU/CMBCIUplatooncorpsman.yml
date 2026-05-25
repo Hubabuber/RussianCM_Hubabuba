@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobGOVFORPlatoonCorpsmanCMBCIU
-  name: job-au14jobgovforplatooncorpsmancmbciu-name
-  description: job-au14jobgovforplatooncorpsmancmbciu-desc
+  name: Tactical Medic
+  description: au14-job-description-govforplatooncorpsman
   setPreference: false
   ranks:
     AU14RankCMBSrDeputy:
@@ -14,14 +14,14 @@
   dummyStartingGear: AU14GearGOVFORCorpsmanDummy
   icon: "AU14JobIconCorpsman"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobgovforplatooncorpsmancmbciu-spawnmenurolename
+  spawnMenuRoleName: Hospital Corpsman (CMBCIU)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforplatooncorpsmancmbciu-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCorpsman
   - AU14GovforSquad
   overwatchSortPriority: -2
-  overwatchRoleName: job-au14jobgovforplatooncorpsmancmbciu-overwatchrolename
+  overwatchRoleName: au14-job-name-govforplatooncorpsman-plural
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

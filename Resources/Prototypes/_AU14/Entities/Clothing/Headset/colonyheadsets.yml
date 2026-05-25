@@ -10,8 +10,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyAdmin
-  name: ent-AU14EncryptionKeyAdmin
-  description: ent-AU14EncryptionKeyAdmin-desc
+  name: colony admin encryption key
+  description: An encryption key used to communicate on colony and CMB radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -22,8 +22,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyWEYU
-  name: ent-AU14EncryptionKeyWEYU
-  description: ent-AU14EncryptionKeyWEYU-desc
+  name: Weyland colonial encryption key
+  description: An encryption key used to communicate on colony and weyland radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -34,9 +34,9 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyCMB
-  name: ent-AU14EncryptionKeyCMB
-  suffix: ent-AU14EncryptionKeyCMB-suffix
-  description: ent-AU14EncryptionKeyCMB-desc
+  name: CMB encryption key
+  suffix: Colony, CMB
+  description: An encryption key used to communicate on colony and CMB radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -47,8 +47,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyCMBOnly
-  name: ent-AU14EncryptionKeyCMBOnly
-  description: ent-AU14EncryptionKeyCMBOnly-desc
+  name: CMB encryption key
+  description: An encryption key used to communicate the CMB radio channel.
   components:
   - type: EncryptionKey
     channels:
@@ -66,9 +66,9 @@
 - type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyAdminHeadset
-  name: ent-AU14ColonyAdminHeadset
-  description: ent-AU14ColonyAdminHeadset-desc
-  suffix: ent-AU14ColonyAdminHeadset-suffix
+  name: colony administration headset
+  description: A headset used by the colony administration to communicate.
+  suffix: CMB, Colony
   components:
   - type: ContainerFill
     containers:
@@ -78,9 +78,9 @@
 - type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyWeylandHeadset
-  name: ent-AU14ColonyWeylandHeadset
-  description: ent-AU14ColonyWeylandHeadset-desc
-  suffix: ent-AU14ColonyWeylandHeadset-suffix
+  name: colony weyland yutani headset
+  description: A headset used by weyland yutani to communicate.
+  suffix: Colony, WEYU
   components:
   - type: ContainerFill
     containers:
@@ -90,9 +90,9 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadset
-  name: ent-AU14CMBHeadset
-  description: ent-AU14CMBHeadset-desc
-  suffix: ent-AU14CMBHeadset-suffix
+  name: CMB headset
+  description: A headset used by the CMB to communicate.
+  suffix: CMB, Colony
   components:
   - type: ContainerFill
     containers:
@@ -102,9 +102,9 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadsetOnlyCMB
-  name: ent-AU14CMBHeadsetOnlyCMB
-  description: ent-AU14CMBHeadsetOnlyCMB-desc
-  suffix: ent-AU14CMBHeadsetOnlyCMB-suffix
+  name: CMB Earpiece
+  description: A headset used by the CMB to communicate.
+  suffix: CMB
   components:
   - type: ContainerFill
     containers:
@@ -117,8 +117,8 @@
 - type: entity
   parent: AU14HeadsetColonist
   id: AU14HeadsetWorkingJoe
-  name: ent-AU14HeadsetWorkingJoe
-  description: ent-AU14HeadsetWorkingJoe-desc
+  name: Working Joe headset
+  description: A common headset used by Working Joes.
   components:
   - type: Sprite
     state: generic_headset
@@ -127,9 +127,9 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14ColonyAmbassadorTWEHeadset
-  name: ent-AU14ColonyAmbassadorTWEHeadset
-  description: ent-AU14ColonyAmbassadorTWEHeadset-desc
-  suffix: ent-AU14ColonyAmbassadorTWEHeadset-suffix
+  name: twe commissioner headset
+  description: A headset used by TWE's commissioners to communicate.
+  suffix: Colony
   components:
   - type: RMCHeadset
     channels:
@@ -138,9 +138,9 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorUAHeadset
-  name: ent-AU14AmbassadorUAHeadset
-  description: ent-AU14AmbassadorUAHeadset-desc
-  suffix: ent-AU14AmbassadorUAHeadset-suffix
+  name: ua ambassador headset
+  description: A headset used by UA's ambassadors to communicate.
+  suffix: Colony
   components:
   - type: RMCHeadset
     channels:
@@ -150,9 +150,9 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorUPPHeadset
-  name: ent-AU14AmbassadorUPPHeadset
-  description: ent-AU14AmbassadorUPPHeadset-desc
-  suffix: ent-AU14AmbassadorUPPHeadset-suffix
+  name: upp ambassador headset
+  description: A headset used by UPP's ambassadors to communicate.
+  suffix: Colony
   components:
   - type: RMCHeadset
     channels:
@@ -161,9 +161,9 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorICSCHeadset
-  name: ent-AU14AmbassadorICSCHeadset
-  description: ent-AU14AmbassadorICSCHeadset-desc
-  suffix: ent-AU14AmbassadorICSCHeadset-suffix
+  name: icsc ambassador headset
+  description: A headset used by ICSC' ambassadors to communicate.
+  suffix: Colony
   components:
   - type: RMCHeadset
     channels:

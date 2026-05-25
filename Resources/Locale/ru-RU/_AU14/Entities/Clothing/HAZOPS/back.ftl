@@ -1,5 +1,2 @@
 ent-AU14HAZOPSBatteryMinigunGAU19Backpack-name = Аккумуляторный блок GAU-19/H
 ent-AU14HAZOPSBatteryMinigunGAU19Backpack-desc = Массивный аккумуляторный блок, предназначенный для питания минигана GAU-19/H. Необходим для использования.
-
-ent-AU14HAZOPSBatteryMinigunGAU19Backpack = Аккумуляторный блок ГАУ-19/Н
-    .desc = Здоровенный аккумуляторный блок, предназначенный для питания минигана GAU-19/H. Требуется для использования.

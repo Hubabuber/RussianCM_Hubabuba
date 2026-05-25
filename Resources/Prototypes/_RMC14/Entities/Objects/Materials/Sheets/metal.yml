@@ -3,14 +3,14 @@
 - type: material
   id: CMSteel
   stackEntity: CMSheetMetal
-  name: material-cmsteel-name
+  name: materials-metal
   icon: { sprite: _RMC14/Objects/Materials/Sheets/metal.rsi, state: metal }
   price: 0.00133
   
 
 - type: stack
   id: CMSteel
-  name: stack-cmsteel-name
+  name: metal
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/metal.rsi, state: metal }
   spawn: CMSheetMetal
   maxCount: 50
@@ -37,9 +37,9 @@
 - type: entity
   parent: CMSheetMetalBase
   id: CMSheetMetal
-  name: ent-CMSheetMetal
-  description: ent-CMSheetMetal-desc
-  suffix: ent-CMSheetMetal-suffix
+  name: metal sheets
+  description: Sheets made out of metal. They have been dubbed Metal Sheets.
+  suffix: Filled
   components:
     - type: RMCConstructionItem
       buildable:
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMSheetMetal
   id: CMSheetMetal10
-  suffix: "ent-CMSheetMetal10-suffix"
+  suffix: "10"
   components:
     - type: Sprite
       state: metal_2
@@ -121,7 +121,7 @@
 - type: entity
   parent: CMSheetMetal
   id: CMSheetMetal20
-  suffix: "ent-CMSheetMetal20-suffix"
+  suffix: "20"
   components:
     - type: Sprite
       state: metal_3
@@ -132,7 +132,7 @@
 - type: entity
   parent: CMSheetMetal
   id: CMSheetMetal30
-  suffix: "ent-CMSheetMetal30-suffix"
+  suffix: "30"
   components:
     - type: Sprite
       state: metal_3
@@ -143,7 +143,7 @@
 - type: entity
   parent: CMSheetMetal
   id: CMSheetMetal40
-  suffix: "ent-CMSheetMetal40-suffix"
+  suffix: "40"
   components:
     - type: Sprite
       state: metal_3
@@ -154,7 +154,7 @@
 - type: entity
   parent: CMSheetMetal
   id: CMSheetMetal50
-  suffix: "ent-CMSheetMetal50-suffix"
+  suffix: "50"
   components:
     - type: Sprite
       state: metal_4
@@ -165,7 +165,7 @@
 - type: entity
   parent: CMSheetMetal
   id: CMSheetMetal1
-  suffix: ent-CMSheetMetal1-suffix
+  suffix: Single
   components:
     - type: Sprite
       state: metal
@@ -176,7 +176,7 @@
 - type: entity
   parent: CMSheetMetal
   id: CMSheetMetal2
-  suffix: "ent-CMSheetMetal2-suffix"
+  suffix: "2"
   components:
     - type: Sprite
       state: metal
@@ -189,14 +189,14 @@
 - type: material
   id: CMPlasteel
   stackEntity: CMSheetPlasteel
-  name: material-cmplasteel-name
+  name: materials-plasteel
   icon: { sprite: _RMC14/Objects/Materials/Sheets/plasteel.rsi, state: plasteel }
   color: "#696969"
   price: 0.00746
 
 - type: stack
   id: CMPlasteel
-  name: stack-cmplasteel-name
+  name: plasteel
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/plasteel.rsi, state: plasteel }
   spawn: CMSheetPlasteel
   maxCount: 50
@@ -204,9 +204,9 @@
 - type: entity
   parent: CMSheetMetalBase
   id: CMSheetPlasteel
-  name: ent-CMSheetPlasteel
-  description: ent-CMSheetPlasteel-desc
-  suffix: ent-CMSheetPlasteel-suffix
+  name: plasteel sheet
+  description: Plasteel is an expensive, durable material made from combining platinum, steel, and advanced polymers to create a metal that is corrosion-resistant, highly durable, and lightweight. The only reason this isn't used more often is because of how damn costly it is.
+  suffix: Filled
   components:
     - type: RMCConstructionItem
       buildable:
@@ -251,8 +251,8 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel10
-  name: ent-CMSheetPlasteel10
-  suffix: "ent-CMSheetPlasteel10-suffix"
+  name: plasteel
+  suffix: "10"
   components:
     - type: Sprite
       state: plasteel_2
@@ -263,8 +263,8 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel15
-  name: ent-CMSheetPlasteel15
-  suffix: "ent-CMSheetPlasteel15-suffix"
+  name: plasteel
+  suffix: "15"
   components:
     - type: Sprite
       state: plasteel_2
@@ -275,7 +275,7 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel20
-  suffix: "ent-CMSheetPlasteel20-suffix"
+  suffix: "20"
   components:
     - type: Sprite
       state: plasteel_2
@@ -286,8 +286,8 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel30
-  name: ent-CMSheetPlasteel30
-  suffix: "ent-CMSheetPlasteel30-suffix"
+  name: plasteel
+  suffix: "30"
   components:
     - type: Sprite
       state: plasteel_2
@@ -298,8 +298,8 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel40
-  name: ent-CMSheetPlasteel40
-  suffix: "ent-CMSheetPlasteel40-suffix"
+  name: plasteel
+  suffix: "40"
   components:
     - type: Sprite
       state: plasteel_2
@@ -310,8 +310,8 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel50
-  name: ent-CMSheetPlasteel50
-  suffix: "ent-CMSheetPlasteel50-suffix"
+  name: plasteel
+  suffix: "50"
   components:
     - type: Sprite
       state: plasteel_2
@@ -322,8 +322,8 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel1
-  name: ent-CMSheetPlasteel1
-  suffix: ent-CMSheetPlasteel1-suffix
+  name: plasteel
+  suffix: Single
   components:
     - type: Sprite
       state: plasteel

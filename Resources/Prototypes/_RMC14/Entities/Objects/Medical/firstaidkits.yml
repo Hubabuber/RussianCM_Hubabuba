@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMFirstAidKit
-  name: ent-CMFirstAidKit
-  description: ent-CMFirstAidKit-desc
+  name: first-aid kit
+  description: It's an emergency medical kit for those serious boo-boos. With medical training you can fit this in a backpack.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/first_aid_kits.rsi
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidKitSurgery
-  name: ent-CMFirstAidKitSurgery
+  name: basic field surgery kit
   components:
   - type: Storage
     maxItemSize: Small
@@ -119,8 +119,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidKitFilled
-  description: ent-CMFirstAidKitFilled-desc
-  suffix: ent-CMFirstAidKitFilled-suffix
+  description: It's an emergency medical kit containing basic medication and equipment. No training required to use. With medical training you can fit this in a backpack.
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -135,7 +135,7 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidKitFilledRobust
-  suffix: ent-CMFirstAidKitFilledRobust-suffix
+  suffix: Filled, Robust
   components:
   - type: StorageFill
     contents:
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMFirstAidKitSurgery
   id: CMFirstAidKitSurgeryFilled
-  description: ent-CMFirstAidKitSurgeryFilled-desc
-  suffix: ent-CMFirstAidKitSurgeryFilled-suffix
+  description: Contains a surgical line, cautery, scalpel, hemostat, retractor, drapes and an oxycodone injector for tending wounds surgically. With medical training you can fit this in a backpack.
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMBurnAidKit
-  name: ent-CMBurnAidKit
-  description: ent-CMBurnAidKit-desc
+  name: fire first-aid kit
+  description: It's an emergency medical kit for when the dropship ammo storage spontaneously burns down. With medical training you can fit this in a backpack.
   components:
   - type: Sprite
     layers:
@@ -181,7 +181,7 @@
 - type: entity
   parent: CMBurnAidKit
   id: CMBurnAidKitFilled
-  suffix: ent-CMBurnAidKitFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -195,8 +195,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidO2Kit
-  name: ent-CMFirstAidO2Kit
-  description: ent-CMFirstAidO2Kit-desc
+  name: oxygen deprivation first-aid kit
+  description: A box full of reoxygenating goodies. With medical training you can fit this in a backpack.
   components:
   - type: Sprite
     layers:
@@ -210,7 +210,7 @@
 - type: entity
   parent: CMFirstAidO2Kit
   id: CMFirstAidO2KitFilled
-  suffix: ent-CMFirstAidO2KitFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -224,8 +224,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMAdvFirstAidKit
-  name: ent-CMAdvFirstAidKit
-  description: ent-CMAdvFirstAidKit-desc
+  name: advanced first-aid kit
+  description: Contains more effective methods of medical treatment than a basic first-aid kit, such as burn and trauma kits. With medical training you can fit this in a backpack.
   components:
   - type: Sprite
     layers:
@@ -239,7 +239,7 @@
 - type: entity
   parent: CMAdvFirstAidKit
   id: CMAdvFirstAidKitFilled
-  suffix: ent-CMAdvFirstAidKitFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -253,8 +253,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMToxinAidKit
-  name: ent-CMToxinAidKit
-  description: ent-CMToxinAidKit-desc
+  name: toxin first-aid kit
+  description: It's an emergency medical kit containing lifesaving anti-toxic medication. With medical training you can fit this in a backpack.
   components:
   - type: Sprite
     layers:
@@ -268,7 +268,7 @@
 - type: entity
   parent: CMToxinAidKit
   id: CMToxinAidKitFilled
-  suffix: ent-CMToxinAidKitFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -280,8 +280,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: RMCRadiationAidKit
-  name: ent-RMCRadiationAidKit
-  description: ent-RMCRadiationAidKit-desc
+  name: radiation first-aid kit
+  description: Contains treatment for radiation exposure. With medical training you can fit this in a backpack.
   components:
   - type: Sprite
     layers:
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCRadiationAidKit
   id: RMCRadiationAidKitFilled
-  suffix: ent-RMCRadiationAidKitFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -307,9 +307,9 @@
 - type: entity
   parent: CMFirstAidKit
   id: RMCStandardAidKitPVE
-  name: ent-RMCStandardAidKitPVE
-  description: ent-RMCStandardAidKitPVE-desc
-  suffix: ent-RMCStandardAidKitPVE-suffix
+  name: standard-issue first-aid pack
+  description: A soft first-aid pack typically containing essential medical supplies for use in the field.
+  suffix: PVE
   components:
   - type: Sprite
     layers:
@@ -321,7 +321,7 @@
 - type: entity
   parent: RMCStandardAidKitPVE
   id: RMCStandardAidKitFilledPVE
-  suffix: ent-RMCStandardAidKitFilledPVE-suffix
+  suffix: Filled, PVE
   components:
   - type: StorageFill
     contents:
@@ -336,9 +336,9 @@
 - type: entity
   parent: CMFirstAidKit
   id: RMCBruteAidKitPVE
-  name: ent-RMCBruteAidKitPVE
-  description: ent-RMCBruteAidKitPVE-desc
-  suffix: ent-RMCBruteAidKitPVE-suffix
+  name: brute first-aid pack
+  description: A soft first-aid pack containing equipment for physical treatment in the field.
+  suffix: PVE
   components:
   - type: Sprite
     layers:
@@ -350,7 +350,7 @@
 - type: entity
   parent: RMCBruteAidKitPVE
   id: RMCBruteAidKitFilledPVE
-  suffix: ent-RMCBruteAidKitFilledPVE-suffix
+  suffix: Filled, PVE
   components:
   - type: StorageFill
     contents:
@@ -365,9 +365,9 @@
 - type: entity
   parent: CMFirstAidKit
   id: RMCBurnAidKitPVE
-  name: ent-RMCBurnAidKitPVE
-  description: ent-RMCBurnAidKitPVE-desc
-  suffix: ent-RMCBurnAidKitPVE-suffix
+  name: burn first-aid pack
+  description: A soft first-aid pack containing equipment for burns treatment in the field.
+  suffix: PVE
   components:
   - type: Sprite
     layers:
@@ -379,7 +379,7 @@
 - type: entity
   parent: RMCBurnAidKitPVE
   id: RMCBurnAidKitFilledPVE
-  suffix: ent-RMCBurnAidKitFilledPVE-suffix
+  suffix: Filled, PVE
   components:
   - type: StorageFill
     contents:

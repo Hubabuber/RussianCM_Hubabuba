@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: OreBase
-  description: ent-OreBase-desc
+  description: A piece of unrefined ore.
   components:
   - type: Sprite
     sprite: Objects/Materials/ore.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: OreBase
   id: GoldOre
-  name: ent-GoldOre
-  suffix: ent-GoldOre-suffix
+  name: gold ore
+  suffix: Full
   components:
   - type: Stack
     stackType: GoldOre
@@ -56,7 +56,7 @@
 - type: entity
   parent: GoldOre
   id: GoldOre1
-  suffix: ent-GoldOre1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -64,8 +64,8 @@
 - type: entity
   parent: OreBase
   id: DiamondOre
-  name: ent-DiamondOre
-  suffix: ent-DiamondOre-suffix
+  name: diamond ore
+  suffix: Full
   components:
   - type: Stack
     stackType: DiamondOre
@@ -89,7 +89,7 @@
 - type: entity
   parent: DiamondOre
   id: DiamondOre1
-  suffix: ent-DiamondOre1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -97,8 +97,8 @@
 - type: entity
   parent: OreBase
   id: SteelOre
-  name: ent-SteelOre
-  suffix: ent-SteelOre-suffix
+  name: iron ore
+  suffix: Full
   components:
   - type: Stack
     stackType: SteelOre
@@ -126,7 +126,7 @@
 - type: entity
   id: SteelOre1
   parent: SteelOre
-  suffix: ent-SteelOre1-suffix
+  suffix: Single
   components:
     - type: Stack
       count: 1
@@ -134,8 +134,8 @@
 - type: entity
   parent: OreBase
   id: PlasmaOre
-  name: ent-PlasmaOre
-  suffix: ent-PlasmaOre-suffix
+  name: plasma ore
+  suffix: Full
   components:
   - type: Stack
     stackType: PlasmaOre
@@ -168,7 +168,7 @@
 - type: entity
   parent: PlasmaOre
   id: PlasmaOre1
-  suffix: ent-PlasmaOre1-suffix
+  suffix: Single
   components:
     - type: Stack
       count: 1
@@ -176,8 +176,8 @@
 - type: entity
   parent: OreBase
   id: SilverOre
-  name: ent-SilverOre
-  suffix: ent-SilverOre-suffix
+  name: silver ore
+  suffix: Full
   components:
   - type: Stack
     stackType: SilverOre
@@ -205,7 +205,7 @@
 - type: entity
   parent: SilverOre
   id: SilverOre1
-  suffix: ent-SilverOre1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -213,8 +213,8 @@
 - type: entity
   parent: OreBase
   id: SpaceQuartz
-  name: ent-SpaceQuartz
-  suffix: ent-SpaceQuartz-suffix
+  name: space quartz
+  suffix: Full
   components:
   - type: Stack
     stackType: SpaceQuartz
@@ -238,7 +238,7 @@
 - type: entity
   parent: SpaceQuartz
   id: SpaceQuartz1
-  suffix: ent-SpaceQuartz1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -246,8 +246,8 @@
 - type: entity
   parent: OreBase
   id: UraniumOre
-  name: ent-UraniumOre
-  suffix: ent-UraniumOre-suffix
+  name: uranium ore
+  suffix: Full
   components:
   - type: Stack
     stackType: UraniumOre
@@ -283,7 +283,7 @@
 - type: entity
   parent: UraniumOre
   id: UraniumOre1
-  suffix: ent-UraniumOre1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -291,8 +291,8 @@
 - type: entity
   parent: OreBase
   id: BananiumOre
-  name: ent-BananiumOre
-  suffix: ent-BananiumOre-suffix
+  name: bananium ore
+  suffix: Full
   components:
   - type: Stack
     stackType: BananiumOre
@@ -329,7 +329,7 @@
 - type: entity
   parent: BananiumOre
   id: BananiumOre1
-  suffix: ent-BananiumOre1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -337,8 +337,8 @@
 - type: entity
   parent: OreBase
   id: Coal
-  name: ent-Coal
-  suffix: ent-Coal-suffix
+  name: coal
+  suffix: Full
   components:
   - type: Stack
     stackType: Coal
@@ -370,7 +370,7 @@
 - type: entity
   parent: Coal
   id: Coal1
-  suffix: ent-Coal1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -378,7 +378,7 @@
 - type: entity
   parent: Coal
   id: Coal5
-  suffix: ent-Coal5-suffix
+  suffix: Five
   components:
   - type: Stack
     count: 5
@@ -386,7 +386,7 @@
 - type: entity
   parent: Coal
   id: Coal10
-  suffix: ent-Coal10-suffix
+  suffix: Ten
   components:
   - type: Stack
     count: 10
@@ -394,7 +394,7 @@
 - type: entity
   parent: Coal
   id: Coal15
-  suffix: ent-Coal15-suffix
+  suffix: Fifteen
   components:
   - type: Stack
     count: 15
@@ -402,8 +402,8 @@
 - type: entity
   parent: OreBase
   id: SaltOre
-  name: ent-SaltOre
-  suffix: ent-SaltOre-suffix
+  name: salt
+  suffix: Full
   components:
   - type: Stack
     stackType: SaltOre
@@ -429,7 +429,7 @@
 - type: entity
   parent: SaltOre
   id: Salt1
-  suffix: ent-Salt1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1

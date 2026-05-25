@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: ActionMarineBase
   id: ActionMarineToggleable
@@ -19,8 +19,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleAmmo
-  name: ent-RMCActionToggleAmmo
-  description: ent-RMCActionToggleAmmo-desc
+  name: Toggle Ammo Type
+  description: Switch the ammo type fired by this gun. [color=red]You can activate this by pressing the unique gun action keybind, Spacebar by default![/color]
   components:
   - type: Action
     icon:
@@ -34,8 +34,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleRecoil
-  name: ent-RMCActionToggleRecoil
-  description: ent-RMCActionToggleRecoil-desc
+  name: Toggle Recoil Compensation
+  description: Removes all recoil when firing this gun.
   components:
   - type: Action
     icon:
@@ -49,8 +49,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleAutoFire
-  name: ent-RMCActionToggleAutoFire
-  description: ent-RMCActionToggleAutoFire-desc
+  name: Toggle Auto Fire
+  description: Makes the gun automatically shoot a single shot towards a target every couple seconds.
   components:
   - type: Action
     icon:
@@ -64,8 +64,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleFarSight
-  name: ent-RMCActionToggleFarSight
-  description: ent-RMCActionToggleFarSight-desc
+  name: Toggle Far Sight
+  description: Lets you see slightly farther away.
   components:
   - type: Action
     icon:
@@ -79,8 +79,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleMotionDetector
-  name: ent-RMCActionToggleMotionDetector
-  description: ent-RMCActionToggleMotionDetector-desc
+  name: Toggle Motion Detector
+  description: Periodically pings any unknown movement near you.
   components:
   - type: Action
     icon:

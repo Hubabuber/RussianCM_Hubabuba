@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCFORECONPVECorpsman
-  name: job-rmcforeconpvecorpsman-name
-  description: job-rmcforeconpvecorpsman-desc
+  name: rmc-job-name-pve-forecon-corpsman
+  description: cm-job-description-corpsman
   playTimeTracker: CMJobFORECONPVECorpsman
   requirements:
   - !type:TotalJobsTimeRequirement
@@ -15,7 +15,7 @@
   joinNotifyCrew: false
   accessGroups:
   - HospitalCorpsman
-  spawnMenuRoleName: job-rmcforeconpvecorpsman-spawnmenurolename
+  spawnMenuRoleName: FORECON Corpsman (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVECorpsman
-  name: ent-RMCSpawnPointFORECONPVECorpsman
-  suffix: ent-RMCSpawnPointFORECONPVECorpsman-suffix
+  name: forecon corpsman spawn point
+  suffix: PVE
   components:
   - type: Sprite
     state: medic_spawn

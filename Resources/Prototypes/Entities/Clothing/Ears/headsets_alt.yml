@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: ClothingHeadset
   id: ClothingHeadsetAlt
-  name: ent-ClothingHeadsetAlt
-  description: ent-ClothingHeadsetAlt-desc
+  name: headset
+  description: An updated, modular intercom that fits over the head. Takes encryption keys.
   components:
   - type: Sprite
     state: icon_alt
@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCargo
-  name: ent-ClothingHeadsetAltCargo
+  name: quartermaster's over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCentCom
-  name: ent-ClothingHeadsetAltCentCom
+  name: CentComm over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -44,7 +44,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltCommand
-  name: ent-ClothingHeadsetAltCommand
+  name: command over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -58,7 +58,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltEngineering
-  name: ent-ClothingHeadsetAltEngineering
+  name: chief engineer's over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -74,7 +74,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltMedical
-  name: ent-ClothingHeadsetAltMedical
+  name: chief medical officer's over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -92,7 +92,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltSecurity
-  name: ent-ClothingHeadsetAltSecurity
+  name: head of security's over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -108,7 +108,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltScience
-  name: ent-ClothingHeadsetAltScience
+  name: research director's over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -124,8 +124,8 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltSyndicate
-  name: ent-ClothingHeadsetAltSyndicate
-  description: ent-ClothingHeadsetAltSyndicate-desc
+  name: blood-red over-ear headset
+  description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
   components:
   - type: Headset
   - type: EncryptionKeyHolder
@@ -142,7 +142,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltFreelancer
-  name: ent-ClothingHeadsetAltFreelancer
+  name: freelancer's over-ear headset
   components:
     - type: Headset
     - type: EncryptionKeyHolder
@@ -159,7 +159,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseMagicalContraband]
   id: ClothingHeadsetAltWizard
-  name: ent-ClothingHeadsetAltWizard
+  name: wizard's over-ear headset
   components:
     - type: Headset
     - type: EncryptionKeyHolder

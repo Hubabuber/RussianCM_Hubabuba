@@ -4,10 +4,3 @@ ent-AirAlarmElectronics-desc = Электронная плата, использ
 ent-FireAlarmElectronics-name = электроника пожарной сигнализации
 ent-FireAlarmElectronics-desc = Электронная плата, используемая в пожарной сигнализации.
 
-ent-AirAlarmElectronics = электроника воздушной сигнализации
-    .desc = Электронная плата, используемая в воздушной сигнализации.
-    .suffix = Электроника
-
-ent-FireAlarmElectronics = электроника пожарной сигнализации
-    .desc = Электронная плата, используемая в пожарной сигнализации.
-    .suffix = Электроника

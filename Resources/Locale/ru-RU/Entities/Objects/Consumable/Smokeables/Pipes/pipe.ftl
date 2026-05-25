@@ -10,17 +10,3 @@ ent-SmokingPipeFilledCannabis-desc = Точно так же, как дедушк
 ent-SmokingPipeFilledCannabisRainbow-name = труба
 ent-SmokingPipeFilledCannabisRainbow-desc = Точно так же, как дедушка курил.
 
-ent-SmokingPipe = трубка
-    .desc = Точно так же, как дедушка курил.
-
-ent-SmokingPipeFilledCannabis = трубка
-    .desc = Точно так же, как дедушка курил.
-    .suffix = Каннабис
-
-ent-SmokingPipeFilledCannabisRainbow = трубка
-    .desc = Точно так же, как дедушка курил.
-    .suffix = Радужный каннабис
-
-ent-SmokingPipeFilledTobacco = трубка
-    .desc = Точно так же, как дедушка курил.
-    .suffix = Табак

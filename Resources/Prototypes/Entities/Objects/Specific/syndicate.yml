@@ -1,10 +1,10 @@
 
 - type: entity
-  name: ent-Telecrystal
+  name: telecrystal
   parent: [BaseItem, BaseSyndicateContraband]
   id: Telecrystal
-  suffix: ent-Telecrystal-suffix
-  description: ent-Telecrystal-desc
+  suffix: 20 TC
+  description: It seems to be pulsing with suspiciously enticing energies.
   components:
   - type: Sprite
     sprite: Objects/Specific/Syndicate/telecrystal.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: Telecrystal
   id: Telecrystal1
-  suffix: ent-Telecrystal1-suffix
+  suffix: 1 TC
   components:
   - type: Stack
     count: 1
@@ -34,7 +34,7 @@
 - type: entity
   parent: Telecrystal
   id: Telecrystal5
-  suffix: ent-Telecrystal5-suffix
+  suffix: 5 TC
   components:
   - type: Stack
     count: 5
@@ -42,7 +42,7 @@
 - type: entity
   parent: Telecrystal
   id: Telecrystal10
-  suffix: ent-Telecrystal10-suffix
+  suffix: 10 TC
   components:
   - type: Stack
     count: 10
@@ -51,9 +51,9 @@
 - type: entity
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]
   id: BaseUplinkRadio
-  name: ent-BaseUplinkRadio
-  description: ent-BaseUplinkRadio-desc
-  suffix: ent-BaseUplinkRadio-suffix
+  name: syndicate uplink
+  description: Suspiciously looking old radio...
+  suffix: Empty
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio20TC
-  suffix: ent-BaseUplinkRadio20TC-suffix
+  suffix: 20 TC
   components:
   - type: Store
     balance:
@@ -84,7 +84,7 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio25TC
-  suffix: ent-BaseUplinkRadio25TC-suffix
+  suffix: 25 TC
   components:
   - type: Store
     balance:
@@ -94,7 +94,7 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio40TC
-  suffix: ent-BaseUplinkRadio40TC-suffix
+  suffix: 40 TC, NukeOps
   components:
   - type: Store
     balance:
@@ -106,7 +106,7 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio60TC
-  suffix: ent-BaseUplinkRadio60TC-suffix
+  suffix: 60 TC, LoneOps
   components:
   - type: Store
     balance:
@@ -118,7 +118,7 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadioDebug
-  suffix: ent-BaseUplinkRadioDebug-suffix
+  suffix: DEBUG
   components:
   - type: Store
     balance:

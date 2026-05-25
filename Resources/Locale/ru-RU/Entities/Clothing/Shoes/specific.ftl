@@ -43,54 +43,5 @@ ent-ClothingShoesClownLarge-desc = Когда нужно выделиться в
 ent-ClothingShoesSkates-name = роликовые коньки
 ent-ClothingShoesSkates-desc = Надевайте коньки!
 
-ent-ClothingShoesClownBase-name = Одежда
+ent-ClothingShoesClownBase-name = lathe-category-clothing
 
-ent-ClothingShoesBling = блестящие туфли клоуна
-    .desc = Изготовлен из изысканного банана и сияет мякотью свежей банановой кожуры. Они делают яркое заявление.
-
-ent-ClothingShoesChameleon = черные туфли
-    .desc = Стильные черные туфли.
-    .suffix = Хамелеон
-
-ent-ClothingShoesChameleonNoSlips = черные туфли
-    .desc = Стильные черные туфли.
-    .suffix = Нескользящая, Хамелеон
-
-ent-ClothingShoesChef = обувь шеф-повара
-    .desc = Прочная обувь, которая сводит к минимуму травмы от падающих предметов или ножей.
-
-ent-ClothingShoesClown = клоунские туфли
-    .desc = Стандартные клоунские туфли шутника. Черт, они огромные!
-
-ent-ClothingShoesClownBanana = банановые туфли клоуна
-    .desc = Когда юмор и обувь объединяются в новый уровень абсурда.
-
-ent-ClothingShoesClownBase = item
-
-ent-ClothingShoesClownLarge = большие клоунские туфли
-    .desc = Когда нужно выделиться в комнате полной клоунов!
-
-ent-ClothingShoesCluwne = туфли-лодочки
-    .desc = Проклятая пара клунов.
-    .suffix = Несъемный
-
-ent-ClothingShoesCult = культовая обувь
-    .desc = Пара ботинок, которые носят последователи Нар'Си.
-
-ent-ClothingShoesGaloshes = галоши
-    .desc = Резиновые сапоги.
-
-ent-ClothingShoesJester = шутовские туфли
-    .desc = Туфли придворного шута, обновленные с использованием современной технологии скрипа.
-
-ent-ClothingShoesSkates = роликовые коньки
-    .desc = Надевайте коньки!
-
-ent-ClothingShoesSpaceNinja = обувь космического ниндзя
-    .desc = Пара нано-усиленных ботинок со встроенными магнитными присосками.
-
-ent-ClothingShoesSwat = обувь для шлепанцев
-    .desc = Когда хочешь прибавить тепла.
-
-ent-ClothingShoesWizard = волшебная обувь
-    .desc = Пара волшебных туфель.

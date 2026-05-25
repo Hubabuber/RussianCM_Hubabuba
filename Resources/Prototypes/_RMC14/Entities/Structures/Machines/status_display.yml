@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   id: RMCStatusDisplay
-  name: ent-RMCStatusDisplay
-  description: ent-RMCStatusDisplay-desc
+  name: status display
+  description: A monitor depicting the ship's current status. It flickers every so often.
   placement:
     mode: SnapgridCenter
   components:
@@ -60,9 +60,9 @@
 
 - type: entity
   id: RMCStatusDisplayProp
-  name: ent-RMCStatusDisplayProp
-  description: ent-RMCStatusDisplayProp-desc
-  suffix: ent-RMCStatusDisplayProp-suffix
+  name: status display
+  description: A monitor depicting the ship's current status. It flickers every so often.
+  suffix: Prop
   placement:
     mode: SnapgridCenter
   components:
@@ -78,8 +78,8 @@
 
 - type: entity
   id: RMCStatusDisplayLarge
-  name: ent-RMCStatusDisplayLarge
-  description: ent-RMCStatusDisplayLarge-desc
+  name: large status display
+  description: A large wall mounted monitor. It doesnt seem to work properly.
   placement:
     mode: SnapgridCenter
   components:

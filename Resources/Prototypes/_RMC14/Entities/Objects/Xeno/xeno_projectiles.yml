@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   id: XenoBaseProjectile
-  name: ent-XenoBaseProjectile
+  name: projectile
   components:
   - type: Clickable
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   parent: [ XenoSpitImpactSounds, XenoBaseProjectile ]
   id: XenoSpitProjectile
-  name: ent-XenoSpitProjectile
+  name: spit
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   id: XenoSlowingSpitProjectile
   parent: XenoBaseProjectile
-  name: ent-XenoSlowingSpitProjectile
+  name: slowing spit
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   id: XenoQueenNeuroSpitProjectile
   parent: [ XenoSpitImpactSounds, XenoBaseProjectile ]
-  name: ent-XenoQueenNeuroSpitProjectile
+  name: neurotoxic spit
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -143,7 +143,7 @@
 - type: entity
   id: XenoScatteredSpitProjectile
   parent: XenoBaseProjectile
-  name: ent-XenoScatteredSpitProjectile
+  name: scattered spit
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -163,7 +163,7 @@
 - type: entity
   id: XenoAcidShotgunProjectile
   parent: XenoBaseProjectile
-  name: ent-XenoAcidShotgunProjectile
+  name: shotgun spit
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -185,7 +185,7 @@
 - type: entity
   id: XenoBoneChipsProjectile
   parent: XenoBaseProjectile
-  name: ent-XenoBoneChipsProjectile
+  name: bone chips
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -225,7 +225,7 @@
 - type: entity
   parent: XenoHedgehogSpikeProjectile
   id: XenoHedgehogSpikeProjectileSpread
-  name: ent-XenoHedgehogSpikeProjectileSpread
+  name: small bone chips
   components:
   - type: ProjectileMaxRange
     max: 4
@@ -233,7 +233,7 @@
 - type: entity
   parent: XenoHedgehogSpikeProjectileSpread
   id: XenoHedgehogSpikeProjectileSpreadShort
-  name: ent-XenoHedgehogSpikeProjectileSpreadShort
+  name: small bone chips
   components:
   - type: ProjectileMaxRange
     max: 2
@@ -241,7 +241,7 @@
 - type: entity
   parent: XenoBaseProjectile
   id: XenoBombardAcidProjectile
-  name: ent-XenoBombardAcidProjectile
+  name: glob of acid gas
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -285,7 +285,7 @@
 
 - type: entity
   id: CMGuidebookXenoBombardAcidProjectile
-  name: ent-CMGuidebookXenoBombardAcidProjectile
+  name: Acid Glob
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -297,7 +297,7 @@
 - type: entity
   parent: XenoBaseProjectile
   id: XenoBombardNeurotoxinProjectile
-  name: ent-XenoBombardNeurotoxinProjectile
+  name: glob of neurotoxin gas
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -344,7 +344,7 @@
 
 - type: entity
   id: CMGuidebookXenoBombardNeurotoxinProjectile
-  name: ent-CMGuidebookXenoBombardNeurotoxinProjectile
+  name: Neurotoxin Glob
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -414,8 +414,8 @@
 
 - type: entity
   id: XenoAcidBallProjectile
-  name: ent-XenoAcidBallProjectile
-  description: ent-XenoAcidBallProjectile-desc
+  name: acid ball
+  description: A small, pulsating ball of gas.
   categories: [ HideSpawnMenu ]
   components:
   - type: Clickable
@@ -469,7 +469,7 @@
 - type: entity
   parent: XenoBaseProjectile
   id: XenoOppressorTailHook
-  name: ent-XenoOppressorTailHook
+  name: tail hook
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

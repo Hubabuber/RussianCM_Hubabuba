@@ -42,12 +42,13 @@
 - type: entity
   parent: RMCStreamerBase
   id: RMCStreamerPole
-  name: ent-RMCStreamerPole
-  description: ent-RMCStreamerPole-desc
+  name: pole
+  description: It connects streamer to streamer.
+
 - type: entity
   parent: RMCStreamerPole
   id: RMCStreamerPoleOffset1
-  suffix: ent-RMCStreamerPoleOffset1-suffix
+  suffix: Offset
   components:
   - type: Sprite
     offset: 0, 0.5
@@ -56,7 +57,7 @@
 - type: entity
   parent: RMCStreamerPoleOffset1
   id: RMCStreamerPoleOffset2
-  suffix: ent-RMCStreamerPoleOffset2-suffix
+  suffix: Offset, Connected
   components:
   - type: Sprite
     state: post_off2
@@ -71,7 +72,7 @@
 - type: entity
   parent: RMCStreamerPoleOffset1
   id: RMCStreamerPoleOffset4
-  suffix: ent-RMCStreamerPoleOffset4-suffix
+  suffix: Offset, Connected
   components:
   - type: Sprite
     state: post_off4
@@ -79,8 +80,8 @@
 - type: entity
   parent: RMCStreamerBase
   id: RMCStreamerOrange
-  name: ent-RMCStreamerOrange
-  description: ent-RMCStreamerOrange-desc
+  name: orange streamer
+  description: They flutter softly. Poignant.
   components:
   - type: Sprite
     state: streamer
@@ -88,7 +89,7 @@
 - type: entity
   parent: RMCStreamerOrange
   id: RMCStreamerOrangeOffset
-  suffix: ent-RMCStreamerOrangeOffset-suffix
+  suffix: Offset
   components:
   - type: Sprite
     offset: 0, 0.5
@@ -105,7 +106,7 @@
 - type: entity
   parent: RMCStreamerPoleOffset1
   id: RMCStreamerPoleHorizonOffset1
-  suffix: ent-RMCStreamerPoleHorizonOffset1-suffix
+  suffix: Offset
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/horizon_streamers.rsi
@@ -113,7 +114,7 @@
 - type: entity
   parent: RMCStreamerPoleOffset2
   id: RMCStreamerPoleHorizonOffset2
-  suffix: ent-RMCStreamerPoleHorizonOffset2-suffix
+  suffix: Offset, Connected
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/horizon_streamers.rsi
@@ -128,7 +129,7 @@
 - type: entity
   parent: RMCStreamerPoleOffset4
   id: RMCStreamerPoleHorizonOffset4
-  suffix: ent-RMCStreamerPoleHorizonOffset4-suffix
+  suffix: Offset, Connected
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/horizon_streamers.rsi
@@ -136,7 +137,7 @@
 - type: entity
   parent: RMCStreamerOrange
   id: RMCStreamerHorizon
-  name: ent-RMCStreamerHorizon
+  name: horizon streamer
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/horizon_streamers.rsi
@@ -144,8 +145,8 @@
 - type: entity
   parent: RMCStreamerOrangeOffset
   id: RMCStreamerHorizonOffset
-  name: ent-RMCStreamerHorizonOffset
-  suffix: ent-RMCStreamerHorizonOffset-suffix
+  name: horizon streamer
+  suffix: Offset
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/horizon_streamers.rsi

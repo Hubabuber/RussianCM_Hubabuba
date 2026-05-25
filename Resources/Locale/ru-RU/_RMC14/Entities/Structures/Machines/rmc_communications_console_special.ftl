@@ -1,36 +1,24 @@
 ent-RMCOverwatchConsoleSPP = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
-    .suffix = консоль наблюдения
+
 ent-RMCOverwatchConsoleSPPRotating = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
-    .suffix = консоль наблюдения
+
 ent-RMCOverwatchConsoleAdmin = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
-    .suffix = консоль наблюдения
+
 ent-RMCOverwatchConsoleAdminRotating = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
-    .suffix = консоль наблюдения
+
 ent-RMCOverwatchConsoleWeYa = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
-    .suffix = консоль наблюдения
+
 ent-RMCOverwatchConsoleWeYaRotating = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
-    .suffix = консоль наблюдения
+
 ent-RMCOverwatchConsoleRCM = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
-    .suffix = консоль наблюдения
+
 ent-RMCOverwatchConsoleRCMRotating = консоль наблюдения
   .desc = Современная техника для отдачи приказов отряду.
-    .suffix = консоль наблюдения
-ent-RMCOverwatchConsoleGovfor = консоль наблюдения
-    .desc = Современная техника для подачи заказов в отделение.
-    .suffix = Правительство
-ent-RMCOverwatchConsoleGovforRotating = консоль наблюдения
-    .desc = Современная техника для подачи заказов в отделение.
-    .suffix = Правительство, Ротация
-ent-RMCOverwatchConsoleOpfor = консоль наблюдения
-    .desc = Современная техника для подачи заказов в отделение.
-    .suffix = Опфор
-ent-RMCOverwatchConsoleOpforRotating = консоль наблюдения
-    .desc = Современная техника для подачи заказов в отделение.
-    .suffix = Опфор, Вращающийся
+

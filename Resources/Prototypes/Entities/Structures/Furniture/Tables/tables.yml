@@ -2,8 +2,8 @@
   id: TableFrame
   # BaseStructure and not BaseTable, since these shouldn't be climbable/placeable.
   parent: BaseStructure
-  name: ent-TableFrame
-  description: ent-TableFrame-desc
+  name: table frame
+  description: Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -58,8 +58,8 @@
 - type: entity
   id: CounterWoodFrame
   parent: BaseStructure
-  name: ent-CounterWoodFrame
-  description: ent-CounterWoodFrame-desc
+  name: wooden counter frame
+  description: Pieces of wood that make the frame of a table.
   components:
   - type: SpriteFade
   - type: Sprite
@@ -113,8 +113,8 @@
 - type: entity
   id: CounterMetalFrame
   parent: CounterWoodFrame
-  name: ent-CounterMetalFrame
-  description: ent-CounterMetalFrame-desc
+  name: metal counter frame
+  description: Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -158,8 +158,8 @@
 - type: entity
   id: Table
   parent: TableBase
-  name: ent-Table
-  description: ent-Table-desc
+  name: table
+  description: A square piece of metal standing on four metal legs.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/generic.rsi
@@ -202,8 +202,8 @@
 - type: entity
   id: TableReinforced
   parent: TableBase
-  name: ent-TableReinforced
-  description: ent-TableReinforced-desc
+  name: reinforced table
+  description: A square piece of metal standing on four metal legs. Extra robust.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/reinforced.rsi
@@ -249,8 +249,8 @@
 - type: entity
   id: TableGlass
   parent: TableBase
-  name: ent-TableGlass
-  description: ent-TableGlass-desc
+  name: glass table
+  description: A square piece of glass, standing on four metal legs.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/glass.rsi
@@ -303,8 +303,8 @@
 - type: entity
   id: TableReinforcedGlass
   parent: TableBase
-  name: ent-TableReinforcedGlass
-  description: ent-TableReinforcedGlass-desc
+  name: reinforced glass table
+  description: A square piece of glass, standing on four metal legs. Extra robust.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/r_glass.rsi
@@ -360,8 +360,8 @@
 - type: entity
   id: TablePlasmaGlass
   parent: TableBase
-  name: ent-TablePlasmaGlass
-  description: ent-TablePlasmaGlass-desc
+  name: plasma glass table
+  description: A square piece of plasma glass, standing on four metal legs. Pretty!
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/plasma.rsi
@@ -417,8 +417,8 @@
 - type: entity
   id: TableBrass
   parent: TableBase
-  name: ent-TableBrass
-  description: ent-TableBrass-desc
+  name: brass table
+  description: A shiny, corrosion resistant brass table. Steampunk!
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/brass.rsi
@@ -460,8 +460,8 @@
 - type: entity
   id: TableWood
   parent: TableBase
-  name: ent-TableWood
-  description: ent-TableWood-desc
+  name: wood table
+  description: Do not apply fire to this. Rumour says it burns easily.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/wood.rsi
@@ -509,8 +509,8 @@
 - type: entity
   id: TableCarpet
   parent: TableBase
-  name: ent-TableCarpet
-  description: ent-TableCarpet-desc
+  name: gambling table
+  description: Play em' cowboy.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/carpet.rsi
@@ -561,8 +561,8 @@
 - type: entity
   id: TableStone
   parent: TableBase
-  name: ent-TableStone
-  description: ent-TableStone-desc
+  name: stone table
+  description: Literally the sturdiest thing you have ever seen.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/stone.rsi
@@ -588,8 +588,8 @@
 - type: entity
   id: TableWeb
   parent: TableBase
-  name: ent-TableWeb
-  description: ent-TableWeb-desc
+  name: web table
+  description: Really smooth and surprisingly durable.
   components:
   - type: Damageable
     damageModifierSet: Web
@@ -622,8 +622,8 @@
 - type: entity
   parent: TableBase
   id: TableXeno
-  name: ent-TableXeno
-  description: ent-TableXeno-desc
+  name: xeno table
+  description: I wouldn't put the silverware on it.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/xeno.rsi
@@ -653,8 +653,8 @@
   id: TableFancyBase
   abstract: true
   parent: TableBase
-  name: ent-TableFancyBase
-  description: ent-TableFancyBase-desc
+  name: fancy table
+  description: Expensive and rich.
   components:
   - type: Damageable
     damageModifierSet: Wood
@@ -689,7 +689,7 @@
 - type: entity
   id: TableFancyBlue
   parent: TableFancyBase
-  suffix: ent-TableFancyBlue-suffix
+  suffix: Blue
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/blue.rsi
@@ -704,7 +704,7 @@
 - type: entity
   id: TableFancyCyan
   parent: TableFancyBase
-  suffix: ent-TableFancyCyan-suffix
+  suffix: Cyan
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/cyan.rsi
@@ -719,7 +719,7 @@
 - type: entity
   id: TableFancyBlack
   parent: TableFancyBase
-  suffix: ent-TableFancyBlack-suffix
+  suffix: Black
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/black.rsi
@@ -734,7 +734,7 @@
 - type: entity
   id: TableFancyRed
   parent: TableFancyBase
-  suffix: ent-TableFancyRed-suffix
+  suffix: Red
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/red.rsi
@@ -749,7 +749,7 @@
 - type: entity
   id: TableFancyPurple
   parent: TableFancyBase
-  suffix: ent-TableFancyPurple-suffix
+  suffix: Purple
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/purple.rsi
@@ -764,7 +764,7 @@
 - type: entity
   id: TableFancyPink
   parent: TableFancyBase
-  suffix: ent-TableFancyPink-suffix
+  suffix: Pink
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/pink.rsi
@@ -779,7 +779,7 @@
 - type: entity
   id: TableFancyGreen
   parent: TableFancyBase
-  suffix: ent-TableFancyGreen-suffix
+  suffix: Green
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/green.rsi
@@ -794,7 +794,7 @@
 - type: entity
   id: TableFancyOrange
   parent: TableFancyBase
-  suffix: ent-TableFancyOrange-suffix
+  suffix: Orange
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/orange.rsi
@@ -809,7 +809,7 @@
 - type: entity
   id: TableFancyWhite
   parent: TableFancyBase
-  suffix: ent-TableFancyWhite-suffix
+  suffix: White
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/Fancy/white.rsi
@@ -826,9 +826,9 @@
 - type: entity
   id: TableDebug
   parent: TableBase
-  name: ent-TableDebug
-  description: ent-TableDebug-desc
-  suffix: ent-TableDebug-suffix
+  name: table
+  description: PUT ON THEM CODERSOCKS!!
+  suffix: DEBUG
   components:
   - type: Tag
     tags:
@@ -851,8 +851,8 @@
 - type: entity
   id: TableCounterWood
   parent: CounterBase
-  name: ent-TableCounterWood
-  description: ent-TableCounterWood-desc
+  name: wood counter
+  description: Do not apply fire to this. Rumour says it burns easily.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/counterwood.rsi
@@ -897,8 +897,8 @@
 - type: entity
   id: TableCounterMetal
   parent: CounterBase
-  name: ent-TableCounterMetal
-  description: ent-TableCounterMetal-desc
+  name: metal counter
+  description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/countermetal.rsi

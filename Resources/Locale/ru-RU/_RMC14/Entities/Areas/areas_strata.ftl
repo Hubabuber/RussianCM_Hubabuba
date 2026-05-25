@@ -1,202 +1,202 @@
 ent-RMCAreaStrataInteriorOutpostClfOffice = Крайний Северный офис
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostClfDorms = Общежитие Крайнего Севера
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorCheckpointsClf = Бронированный блокпост Крайнего Севера
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorRestricted = Суперсекретная комната кредитов
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorResearch = Глубокие джунгли — секретная исследовательская станция
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorPlanetCoreResearchStation = Глубокие джунгли — исследовательская станция мониторинга ядра планеты
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleTearlake = Глубокие джунгли – Плачущий пруд
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleRuin = Глубокие джунгли — древние общежития
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJunglePlanetCoreResearchStationExterior = Глубокие джунгли — исследовательская станция мониторинга ядра планеты
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleEast = Глубокие джунгли — к востоку от мониторинга ядра планеты.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleSouth = Глубокие джунгли — к югу от мониторинга ядра планеты
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleWest = Глубокие джунгли — к западу от мониторинга ядра планеты.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleNorth = Глубокие джунгли — к югу от секретной исследовательской станции.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleOldTunnels = Глубокие джунгли – Старый путь – к западу от секретной исследовательской станции.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleHotSprings = Глубокие джунгли – Горячие источники
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJunglePlatformEast = Глубокие джунгли — к востоку от платформы.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJunglePlatform = Глубокие джунгли — к югу от платформы.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleCarplakeEast = Глубокие джунгли — к востоку от Карпового озера.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungleCarplakeNorth = Глубокие джунгли — к северу от Карпового озера.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorDeepJungle = Не используйте.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorCarplakeCenter = Глубокие джунгли — остров Лейк-Центр
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorOutpostPlatform = Глубокие джунгли — Платформа
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsBotany = Ботаническая исследовательская станция
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsMed2 = Глубокие джунгли — Медицинское общежитие \#2
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsMed1 = Глубокие джунгли — Медицинское общежитие \#1
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsAdmin4 = Глубокие джунгли — Общежитие Генерального штаба \#4
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsAdmin3 = Глубокие джунгли — Общежитие Генерального штаба \#3
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsAdmin2 = Глубокие джунгли — Общежитие Генерального штаба \#2
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsAdmin1 = Глубокие джунгли — Общежитие Генерального штаба \#1
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsSec2 = Глубокие джунгли — общежитие охраны \#2
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDormsSec1 = Глубокие джунгли — общежитие охраны \#1
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorUndergroundDorms = Не используйте.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorSecureCheckpoint = Безопасный проход через контрольно-пропускной пункт
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorBballCave = Аванпост — Пещеры Би-Болл
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorBball = Outpost – баскетбольная площадка
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorPartsStorageCave = Инженерное дело – Складирование деталей снаружи
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorPartsStorageExterior = Инженерное дело – Складирование деталей снаружи
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorGeneratorSubstation = Инжиниринг - Генераторная Подстанция
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorPartsStorage = Инженерное дело – Хранение деталей
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorCheckpointsOutpost = Аванпост — контрольно-пропускной пункт безопасности палубы
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorCheckpointsSouth = Южный контрольно-пропускной пункт зоны приземления
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorCheckpointsWest = Западный контрольно-пропускной пункт зоны приземления
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorCheckpointsNorth = Северный контрольно-пропускной пункт зоны приземления
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorCheckpointsNorthArmor = Бронированный контрольно-пропускной пункт Северной охраны
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorWoodenRuins = Старое деревянное здание
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorWoodenHospital = Деревянная больница - Собственно больница
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorAdministration = Офисы управления полетами
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorMiningOutpostFlightControl = Горнодобывающая застава — Управление полетом
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorMiningOutpostCanteen = Шахтерская застава – столовая общежития
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorMiningOutpostHive = Горнодобывающая застава — общежитие, геотермальное хранилище
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorMiningOutpostMaintenance = Горнодобывающая застава – Обслуживание общежития
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorMiningOutpostSouthDormitories = Горнодобывающая застава – Южные общежития
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorMiningOutpost = Горнодобывающая застава — Центральный
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostCanteenBar = Аванпост - Бар
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostCanteen = Застава - Столовая
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostAdmin = Аванпост - Администрация
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostSecurity = Аванпост - Безопасность
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorSupplyShuttleSof = СПП-ДС-3 «Волк»
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorShuttleSof = СПП-ДС-3 «Ворон»
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3 = ВДВК Орел Мк 3
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostEngiDromeShuttle = Разобранный ВДВК Eagle Mk 4
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostEngiDrome = Аванпост - Аэродом
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostEngi = Аванпост – Инженерное дело
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostMed = Аванпост - Медицинский
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostMaint = Застава – Столовая – Восточное обслуживание
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpostFoyer = Аванпост – Главное фойе
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutpost = Сорокинская застава
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorSouthOutpost = К югу от заставы
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorFarNorthOutpost = Крайний север заставы
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorNorthOutpost = Аванпост — Северный канал доступа
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMiningOutpostExterior = Горнодобывающая застава — внешний вид
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorFlightControlExterior = Экстерьер управления полетом
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorOutpostDecks = Аванпост - Колоды
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorTcommsVehicleYard = Реле автомобильного двора
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorTcommsMiningCaves = Реле горного пути
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorVanyard = Склад транспортных средств управления полетом
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarshWater = Геотермальная вода
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarshCrash = Геотермальный разбившийся десантный корабль
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarshRiver = Геотермальная река
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarshCenter = Геотермальные источники
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarshRelayMarshes = Геотермальные релейные болота
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarshIslandMarshes = Геотермальные островные болота
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarshWaterMarshes = Геотермальные воды болот
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarshSpringMarshes = Геотермальные источники Болота
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorMarsh = Не используйте.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorLzCaves = Путь внешнего горнодобывающего аэродрома
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorShedFiveCaves = Тропа наверху терминала номер пять
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorLandingZonesNearLz1 = Зона приземления 1 — Шахтный аэродром
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorLandingZonesLz1 = Площадка посадочной зоны 1 — шахтерский аэродром
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorLandingZonesNearLz2 = Зона приземления 2 — Скалистые поля
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorLandingZonesLz2 = Площадка посадочной зоны 2 — Скалистые поля
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorLandingZones = Не используйте.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorLandingZones = Не используйте.
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInterior = Интерьер
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExterior = Экстерьер
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorOutOfBounds = За пределами границ
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrata = Сорокинские пласты
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorTcommsCrashedDropship = Разбившееся реле десантного корабля
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorTcommsGeosprings = Реле геотермальных источников
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataExteriorTcommsEngineeringPartsStorage = Инженерное дело — Реле платформы хранения деталей
-    .suffix = Сорокинские пласты
+
 ent-RMCAreaStrataInteriorCheckpoints = Интерьер
-    .suffix = Сорокинские пласты
+

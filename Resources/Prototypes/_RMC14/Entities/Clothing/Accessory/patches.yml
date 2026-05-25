@@ -2,8 +2,8 @@
   abstract: true
   parent: RMCBaseUniformAccessory
   id: RMCPatchBase
-  name: ent-RMCPatchBase
-  description: ent-RMCPatchBase-desc
+  name: patch
+  description: An abstract patch.
   components:
   - type: UniformAccessory
     category: Patch
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchUnitedNations
-  name: ent-RMCPatchUnitedNations
-  description: ent-RMCPatchUnitedNations-desc
+  name: United Nations patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the United Nations, an economic and political giant throughout the colonies, the military might of the UN is unparalleled..
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/un_patch.rsi
@@ -32,7 +32,7 @@
 - type: entity
   parent: RMCPatchUnitedNations
   id: RMCPatchUnitedNationsSquare
-  suffix: ent-RMCPatchUnitedNationsSquare-suffix
+  suffix: Square
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/un_patch_square.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchUNMC
-  name: ent-RMCPatchUNMC
-  description: ent-RMCPatchUNMC-desc
+  name: UNMC patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the United Nations Marine Corps.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/unmc_patch.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchFallingFalcons
-  name: ent-RMCPatchFallingFalcons
-  description: ent-RMCPatchFallingFalcons-desc
+  name: UNMC Falling Falcons patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the Falling Falcons, the 2nd battalion of the 4th brigade of the UNMC.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_patch.rsi
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsAlt
-  suffix: ent-RMCPatchFallingFalconsAlt-suffix
+  suffix: Alt
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_patch_alt.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsLarge
-  suffix: ent-RMCPatchFallingFalconsLarge-suffix
+  suffix: Large
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_patch_large.rsi
@@ -119,7 +119,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsAlpha
-  suffix: ent-RMCPatchFallingFalconsAlpha-suffix
+  suffix: Alpha
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_alpha_patch.rsi
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsBravo
-  suffix: ent-RMCPatchFallingFalconsBravo-suffix
+  suffix: Bravo
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_bravo_patch.rsi
@@ -153,7 +153,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsCharlie
-  suffix: ent-RMCPatchFallingFalconsCharlie-suffix
+  suffix: Charlie
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_charlie_patch.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsDelta
-  suffix: ent-RMCPatchFallingFalconsDelta-suffix
+  suffix: Delta
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_delta_patch.rsi
@@ -187,7 +187,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsEcho
-  suffix: ent-RMCPatchFallingFalconsEcho-suffix
+  suffix: Echo
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_echo_patch.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsFoxtrot
-  suffix: ent-RMCPatchFallingFalconsFoxtrot-suffix
+  suffix: Foxtrot
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_foxtrot_patch.rsi
@@ -221,7 +221,7 @@
 - type: entity
   parent: RMCPatchFallingFalcons
   id: RMCPatchFallingFalconsSquad
-  suffix: ent-RMCPatchFallingFalconsSquad-suffix
+  suffix: Squad, DO NOT MAP
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/FallingFalcons/falcons_squad_patch.rsi
@@ -246,8 +246,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchSEA
-  name: ent-RMCPatchSEA
-  description: ent-RMCPatchSEA-desc
+  name: UNMC Senior Enlisted Advisor patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the Falling Falcons, the 2nd battalion of the 4th brigade of the UNMC. The bottom reads "THIS WE'LL DEFEND" in silver embroidery.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/sea_patch.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchFORECON
-  name: ent-RMCPatchFORECON
-  description: ent-RMCPatchFORECON-desc
+  name: USCM Force Reconnaissance patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the UNS Hanyut, USCMC FORECON.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/forecon_patch.rsi
@@ -284,8 +284,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchSolarDevils
-  name: ent-RMCPatchSolarDevils
-  description: ent-RMCPatchSolarDevils-desc
+  name: UNMC Solar Devils patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the 3rd Battalion 'Solar Devils', part of the UNMC 2nd Division, 1st Regiment.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/solar_devil_patch.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchWeYa
-  name: ent-RMCPatchWeYa
-  description: ent-RMCPatchWeYa-desc
+  name: Weyland-Yutani patch
+  description: A fire-resistant white shoulder patch featuring the Weyland-Yutani logo. A symbol of loyalty to the corporation, or perhaps ironic mockery, depending on your viewpoint.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/WeYa/weya_patch.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: RMCPatchWeYa
   id: RMCPatchWeYaBlack
-  description: ent-RMCPatchWeYaBlack-desc
-  suffix: ent-RMCPatchWeYaBlack-suffix
+  description: A fire-resistant black shoulder patch featuring the Weyland-Yutani logo. A symbol of loyalty to the corporation, or perhaps ironic mockery, depending on your viewpoint.
+  suffix: Black
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/WeYa/weya_patch_black.rsi
@@ -331,7 +331,7 @@
 - type: entity
   parent: RMCPatchWeYaBlack
   id: RMCPatchWeYaBlackSquare
-  suffix: ent-RMCPatchWeYaBlackSquare-suffix
+  suffix: Black, Square
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/WeYa/weya_patch_square.rsi
@@ -344,8 +344,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchWeYaFury161
-  name: ent-RMCPatchWeYaFury161
-  description: ent-RMCPatchWeYaFury161-desc
+  name: Weyland-Yutani Fury '161' patch
+  description: A fire-resistant shoulder patch. Was worn by workers and then later prisoners on the Fiorina 'Fury' 161 facility, a rare relic, after the facility went dark in 2079.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/WeYa/weya_patch_fury.rsi
@@ -363,8 +363,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchSPP
-  name: ent-RMCPatchSPP
-  description: ent-RMCPatchSPP-desc
+  name: UPP patch
+  description: An old fire-resistant shoulder patch, worn by the men and women of the Union of Progressive Peoples Armed Vanguard.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/SPP/spp_patch.rsi
@@ -381,8 +381,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchSPPVDV
-  name: ent-RMCPatchSPPVDV
-  description: ent-RMCPatchSPPVDV-desc
+  name: UPP Airborne Reconnaissance patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the 173rd Airborne Reconnaissance Platoon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/SPP/spp_vdv_patch.rsi
@@ -399,8 +399,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchSPPNaval
-  name: ent-RMCPatchSPPNaval
-  description: ent-RMCPatchSPPNaval-desc
+  name: UPP Naval Infantry patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the UPP Naval Infantry.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/SPP/spp_naval_patch.rsi
@@ -417,7 +417,7 @@
 - type: entity
   parent: RMCPatchSPP
   id: RMCPatchSPPAlt
-  suffix: ent-RMCPatchSPPAlt-suffix
+  suffix: Alt
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/SPP/spp_patch_alt.rsi
@@ -434,7 +434,7 @@
 - type: entity
   parent: RMCPatchSPPVDV
   id: RMCPatchSPPVDVAlt
-  suffix: ent-RMCPatchSPPVDVAlt-suffix
+  suffix: Alt
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/SPP/spp_vdv_patch_alt.rsi
@@ -451,7 +451,7 @@
 - type: entity
   parent: RMCPatchSPPNaval
   id: RMCPatchSPPNavalAlt
-  suffix: ent-RMCPatchSPPNavalAlt-suffix
+  suffix: Alt
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/SPP/spp_naval_patch_alt.rsi
@@ -468,8 +468,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchSPPCEC
-  name: ent-RMCPatchSPPCEC
-  description: ent-RMCPatchSPPCEC-desc
+  name: Exploration Corps patch
+  description: An old, worn and faded fire-resistant circular patch with a gold star on a split orange and red background. Once worn by members of the Exploration Corps, a division of the UPP dedicated to exploration, resource assessment, and establishing colonies on new worlds. The patch serves as a reminder of the EC's daring missions aboard aging starships, a symbol of perseverance in the face of adversity.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/SPP/cec_patch.rsi
@@ -487,8 +487,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchTSEMarines
-  name: ent-RMCPatchTSEMarines
-  description: ent-RMCPatchTSEMarines-desc
+  name: TSE Royal Crown Marines patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the royal crown marines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/TSE/crown_patch.rsi
@@ -505,8 +505,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchTSE
-  name: ent-RMCPatchTSE
-  description: ent-RMCPatchTSE-desc
+  name: Three Suns Empire patch
+  description: A fire-resistant shoulder patch, worn by the men and women loyal to the Three Suns Empire, An older style symbol of the TSE.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/TSE/tse_patch.rsi
@@ -524,8 +524,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchTSEPara
-  name: ent-RMCPatchTSEPara
-  description: ent-RMCPatchTSEPara-desc
+  name: TSE RCM Paramarines patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the RCM's Paramarine regiments. The patch proudly boasts a silver knife with forest green wings, overlaid on a red background.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/TSE/para_patch.rsi
@@ -543,8 +543,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchCLF
-  name: ent-RMCPatchCLF
-  description: "ent-RMCPatchCLF-desc"
+  name: CLF patch
+  description: "A circular, fire-resistant patch with a white border. The design features three white stars and a tricolor background: green, black, and red, symbolizing the Colonial Liberation Front's fight for independence and unity. This patch is worn by CLF fighters as a badge of defiance against corporate and governmental oppression, representing their struggle for a free and self-determined colonial future. Though feared and reviled by some, it remains a powerful symbol of resistance and revolution."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/CLF/clf_patch.rsi
@@ -562,8 +562,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchFreelancer
-  name: ent-RMCPatchFreelancer
-  description: "ent-RMCPatchFreelancer-desc"
+  name: Freelancer's Guild patch
+  description: "A fire-resistant circular patch featuring a white skull on a vertically split black and blue background. Worn by a skilled mercenary of the Freelancers, a well-equipped group for hire across the outer colonies, known for their professionalism and neutrality. This patch is a personal memento from the wearer’s time with the group, representing a life spent navigating the dangerous world of mercenary contracts."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/Misc/merc_patch.rsi
@@ -596,8 +596,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchMedic
-  name: ent-RMCPatchMedic
-  description: ent-RMCPatchMedic-desc
+  name: Field Medic patch
+  description: A circular patch featuring a blue cross on a white background with a bold blue outline. Universally recognized as a symbol of aid and neutrality, it is worn by medics across the colonies. Whether a sign of true medical expertise, a keepsake, or merely a decoration, its presence offers a glimmer of hope in dire times.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/Misc/medic_patch.rsi
@@ -614,8 +614,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchOliveBranch
-  name: ent-RMCPatchOliveBranch
-  description: ent-RMCPatchOliveBranch-desc
+  name: Interstellar Peace patch
+  description: A patch adorned with an olive branch, worn by those who believe in a better way forward. It stands for galactic peace, and universal empathy.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/Misc/olive_branch_patch.rsi
@@ -628,8 +628,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchPeace
-  name: ent-RMCPatchPeace
-  description: ent-RMCPatchPeace-desc
+  name: peace symbol sticker
+  description: This planet is made of LOVE AND PEACE!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/Misc/peace_patch.rsi

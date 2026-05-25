@@ -19,27 +19,3 @@ ent-PlastitaniumWindowDiagonalIndestructible-desc = Не испачкай там
 ent-PlastitaniumWindowDiagonal-name = пластитановое окно
 ent-PlastitaniumWindowDiagonal-desc = Не испачкай там стекло.
 
-ent-PlastitaniumWindow = пластитановое окно
-    .desc = Не испачкай там стекло.
-
-ent-PlastitaniumWindowBase = пластитановое окно
-    .desc = Не испачкай там стекло.
-
-ent-PlastitaniumWindowDiagonal = пластитановое окно
-    .desc = Не испачкай там стекло.
-    .suffix = диагональ
-
-ent-PlastitaniumWindowDiagonalBase = пластитановое окно
-    .desc = Не испачкай там стекло.
-    .suffix = диагональ
-
-ent-PlastitaniumWindowDiagonalIndestructible = пластитановое окно
-    .desc = Не испачкай там стекло.
-    .suffix = диагональный, неразрушимый
-
-ent-PlastitaniumWindowIndestructible = пластитановое окно
-    .desc = Не испачкай там стекло.
-    .suffix = неразрушимый
-
-ent-PlastitaniumWindowSquareBase = пластитановое окно
-    .desc = Не испачкай там стекло.

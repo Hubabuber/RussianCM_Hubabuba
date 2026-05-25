@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMPilotDropship
-  name: job-cmpilotdropship-name
-  description: job-cmpilotdropship-desc
+  name: cm-job-name-dropship-pilot
+  description: cm-job-description-dropship-pilot
   setPreference: false
   playTimeTracker: CMJobPilotDropship
   requirements:
@@ -23,7 +23,7 @@
   icon: "CMJobIconPilotDropship"
   joinNotifyCrew: false
   marineAuthorityLevel: 7
-  supervisors: job-cmpilotdropship-supervisors
+  supervisors: cm-job-supervisors-aso
   accessGroups:
   - Pilot
   roleWeight: 0.25
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointPilotDropship
-  name: ent-CMSpawnPointPilotDropship
+  name: dropship pilot spawn point
   components:
   - type: SpawnPoint
     job_id: CMPilotDropship

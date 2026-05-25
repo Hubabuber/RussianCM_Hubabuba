@@ -1,10 +1,10 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGunPVENoCamo
   abstract: true
-  name: ent-RMCSmartGunPVENoCamo
-  description: ent-RMCSmartGunPVENoCamo-desc
-  suffix: ent-RMCSmartGunPVENoCamo-suffix
+  name: ML66A heavy support gun
+  description: The actual firearm in the Support Gun System. Essentially a heavy, mobile machinegun.
+  suffix: PVE
   components:
   - type: Wieldable
   - type: Item
@@ -183,9 +183,9 @@
 - type: entity
   parent: RMCSmartGunPVENoCamo
   id: RMCSmartGunPMCPVE
-  name: ent-RMCSmartGunPMCPVE
-  description: ent-RMCSmartGunPMCPVE-desc
-  suffix: ent-RMCSmartGunPMCPVE-suffix
+  name: ML79A heavy support gun
+  description: The actual firearm in the Support Gun System, modified for We-Ya PMCs. Essentially a heavy, mobile machinegun.
+  suffix: PVE, PMC
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml79a.rsi
@@ -220,9 +220,9 @@
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentSmartgunHarness # TODO RMC14 - This should remove GunRequiresWield when active
   categories: [ HideSpawnMenu ]
-  name: ent-RMCAttachmentSmartgunHarness
-  description: ent-RMCAttachmentSmartgunHarness-desc
-  suffix: ent-RMCAttachmentSmartgunHarness-suffix
+  name: ML66A heavy support gun harness
+  description: A specialized harness for the ML66A heavy support gun, assisting with recoil control and stability, while also allowing for easy manuvering of the weapon and even suspending it without a grip.
+  suffix: PVE
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_stock.rsi
@@ -258,9 +258,9 @@
 - type: entity
   parent: RMCSmartGunPVENoCamo
   id: RMCSmartGunRCMPVE
-  name: ent-RMCSmartGunRCMPVE
-  description: ent-RMCSmartGunRCMPVE-desc # In parity this is 10x28 HT but I don't want to make more unnecessary duplicate gear
-  suffix: ent-RMCSmartGunRCMPVE-suffix
+  name: ML66C general purpose machine gun
+  description: A heavy, mobile machinegun used by the Royal Crown Marines. Heavily modified from the UN's ML66A platform, it fires 10x30mm holotargeting rounds. # In parity this is 10x28 HT but I don't want to make more unnecessary duplicate gear
+  suffix: PVE, RCM
   components:
   - type: Gun
     selectedMode: FullAuto

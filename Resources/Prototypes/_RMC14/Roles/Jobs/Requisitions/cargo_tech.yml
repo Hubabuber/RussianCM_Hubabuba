@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMCargoTech
-  name: job-cmcargotech-name
-  description: job-cmcargotech-desc
+  name: cm-job-name-cargotech
+  description: cm-job-description-cargotech
   setPreference: false
   playTimeTracker: CMJobCargoTech
   requirements: []
@@ -19,7 +19,7 @@
   startingGear: CMGearCargoTech
   icon: "CMJobIconCargoTech"
   joinNotifyCrew: false
-  supervisors: job-cmcargotech-supervisors
+  supervisors: cm-job-supervisors-qm
   accessGroups:
   - CMCargoTech
   roleWeight: 0.25
@@ -59,7 +59,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCargoTech
-  name: ent-CMSpawnPointCargoTech
+  name: req tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMCargoTech

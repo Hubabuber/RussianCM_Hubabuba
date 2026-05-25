@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: BaseItem
   id: XenoEgg
-  name: ent-XenoEgg
-  description: ent-XenoEgg-desc
+  name: egg
+  description: It looks like a weird egg.
   placement:
     mode: SnapgridCenter
     snap:
@@ -89,8 +89,8 @@
   parent: BaseItem
   categories: [ HideSpawnMenu ]
   id: XenoEggDestroyed
-  name: ent-XenoEggDestroyed
-  description: ent-XenoEggDestroyed-desc
+  name: destroyed egg
+  description: A mess of... something.
   placement:
     mode: SnapgridCenter
     snap:
@@ -155,7 +155,7 @@
   parent: XenoEggDestroyed
   categories: [ HideSpawnMenu ]
   id: XenoEggDestroyedFragile
-  name: ent-XenoEggDestroyedFragile
+  name: fragile egg
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_egg_fragile.rsi
@@ -164,7 +164,7 @@
   parent: XenoEggDestroyed
   categories: [ HideSpawnMenu ]
   id: XenoEggDestroyedFragileSustained
-  name: ent-XenoEggDestroyedFragileSustained
+  name: fragile egg
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_egg_fragile_eggsac.rsi

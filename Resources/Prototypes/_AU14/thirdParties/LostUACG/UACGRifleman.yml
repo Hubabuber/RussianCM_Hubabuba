@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobUACGRiflemanBase
-  name: job-au14jobuacgriflemanbase-name
-  description: job-au14jobuacgriflemanbase-desc
+  name: au-14-job-name-uacg-rifleman
+  description: au14-uacg-description
   playTimeTracker: AU14JobUACGRifleman
   basePlaytimeTracker: true
   hidden: true
@@ -10,20 +10,20 @@
 - type: job
   parent: AU14JobUACGRiflemanBase
   id: AU14UACGRifleman
-  name: job-au14uacgrifleman-name
-  description: job-au14uacgrifleman-desc
+  name: au-14-job-name-uacg-rifleman
+  description: au14-uacg-description
   ranks:
     RMCRankPrivateFirstClass:
     - !type:RoleTimeRequirement
       role: AU14JobUACGRifleman
       time: 18000 #5 hours
     RMCRankPrivate: []
-  spawnMenuRoleName: job-au14uacgrifleman-spawnmenurolename
+  spawnMenuRoleName: UACG Rifleman (3rd party)
   startingGear: AU14GearUACGLostRifleman
   greeting: au14-uacg-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14uacgrifleman-supervisors
+  supervisors: au-14-job-name-uacg-squadleader
   accessGroups:
   - AU14GovforFTL
   special:
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUACG
   id: AU14JobUACGLostRifleman
-  name: ent-AU14JobUACGLostRifleman
+  name: Lost Rifleman
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

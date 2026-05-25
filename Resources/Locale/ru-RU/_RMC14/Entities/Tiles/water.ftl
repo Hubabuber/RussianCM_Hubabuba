@@ -1,12 +1,10 @@
 ent-RMCRiverSorokyne = река
-    .desc = мелководье
+
 ent-CMFloorDeepWaterEntity = глубокая вода
-    .desc = глубокая вода
+
 ent-CMFloorShallowWaterEntity = мелководье
-    .desc = мелководье
+
 ent-RMCFloorShallowWaterEntityRed = мелководье
-    .desc = мелководье
-    .suffix = мелководье
+
 ent-RMCFloorShallowWaterEntityDarkRed = мелководье
-    .desc = мелководье
-    .suffix = мелководье
+

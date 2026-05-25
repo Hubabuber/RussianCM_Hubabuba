@@ -1,59 +1,69 @@
 ent-RMCPodDoorAlmayerContainmentIndestructible = клеточная стенка
   .desc = Металлическая стена, используемая для разделения комнат и создания корабля.
-    .suffix = клеточная стенка
+
 ent-RMCPodDoorNonOccluderIndestructible = подлок
   .desc = Похоже, он не открывается легко.
+
 ent-RMCPodDoorIndestructible = подлок
   .desc = Похоже, он не открывается легко.
+
 ent-RMCPodDoor = подлок
   .desc = Похоже, он не открывается легко. 
+
 ent-RMCPodDoorAlmayer = подлок
   .desc = Похоже, он не открывается легко. 
+
 ent-RMCPodDoorHybrisaWhite = подлок
   .desc = Похоже, он не открывается легко. 
+
 ent-RMCPodDoorHybrisaRed = подлок
   .desc = Похоже, он не открывается легко. 
+
 ent-RMCPodDoorHybrisaRedOpen = подлок
   .desc = Похоже, он не открывается легко. 
-    .suffix = подлок
+
 ent-RMCPodDoorAlmayerIndestructible = подлок
   .desc = Похоже, он не открывается легко.
-    .suffix = подлок
+
 ent-RMCPodDoorHybrisaIndestructible = подлок
   .desc = Похоже, он не открывается легко.
-    .suffix = подлок
+
 ent-RMCPodDoorHybrisaIndestructibleUltra = подлок
   .desc = Сильно усиленная дверь из металлического сплава практически неуязвима — ничто не может пробить ее защиту.
-    .suffix = подлок
+
 ent-RMCPodDoorHybrisaIndestructibleUltraOpen = подлок
   .desc = Сильно усиленная дверь из металлического сплава практически неуязвима — ничто не может пробить ее защиту.
-    .suffix = подлок
+
 ent-RMCPodDoorAlmayerLocked = подлок
   .desc = Похоже, он не открывается легко. 
-    .suffix = подлок
+
 ent-RMCPodDoorAlmayerOpen = подлок
   .desc = Похоже, он не открывается легко. 
-    .suffix = подлок
+
 ent-RMCPodDoorBrigLockdown = подлок
   .desc = Похоже, он не открывается легко. 
-    .suffix = подлок
+
 ent-RMCPodDoorHangerLockdown = подлок
   .desc = Похоже, он не открывается легко. 
-    .suffix = подлок
+
 ent-RMCPodDoorAlmayerBlack = подлок
   .desc = Похоже, он не открывается легко. 
+
 ent-RMCPodDoorAIBlackLockdown = подлок
   .desc = Похоже, он не открывается легко. 
-    .suffix = подлок
+
 ent-RMCPodDoorAlmayerWhite = подлок
   .desc = Похоже, он не открывается легко. 
+
 ent-RMCPodDoorAI = подлок
   .desc = Похоже, он не открывается легко. 
+
 ent-RMCPodDoorAILockdown = подлок
   .desc = Похоже, он не открывается легко. 
-    .suffix = подлок
+
 ent-RMCPodDoorAIWhite = подлок
   .desc = Похоже, он не открывается легко. 
+
 ent-RMCPodDoorAIWhiteOpen = подлок
-  .desc = Похоже, он не открывается легко.
-    .suffix = подлок
+  .desc = Похоже, он не открывается легко. 
+

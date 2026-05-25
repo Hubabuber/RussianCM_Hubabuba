@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14FORECONSynth
-  name: job-au14foreconsynth-name
-  description: job-au14foreconsynth-desc
+  name: rmc-job-name-forecon-synth
+  description: rmc-job-description-forecon
   playTimeTracker: AU14JobFORECONSynth
   ranks:
     RMCRankChiefWarrantOfficer5:
@@ -22,12 +22,12 @@
       role: AU14JobFORECONSynth
       time: 18000 #5 hours
     RMCRankWarrantOfficer: []
-  spawnMenuRoleName: job-au14foreconsynth-spawnmenurolename
+  spawnMenuRoleName: FORECON Synthetic (AU14, surv)
   startingGear: AU14GearFORECONSynth
   greeting: au14-forecon-greeting
   icon: "RMCJobIconReconSynthetic"
   joinNotifyCrew: false
-  supervisors: job-au14foreconsynth-supervisors
+  supervisors: rmc-job-name-forecon-commander
   accessGroups:
   - AU14GovforCommand
   special:
@@ -89,7 +89,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicFORECON
   id: AU14JobFORECONSynth
-  name: ent-AU14JobFORECONSynth
+  name: FORECON Synthetic (Surv)
   components:
   - type: Threat
   - type: GhostTakeoverAvailable

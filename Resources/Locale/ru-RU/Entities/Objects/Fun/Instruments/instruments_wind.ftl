@@ -25,29 +25,3 @@ ent-BagpipeInstrument-desc = Прекрасно сочетается с килт
 ent-BaseWoodwindInstrument-name = элемент
 ent-BaseWoodwindInstrument-desc = Это инструмент.
 
-ent-BagpipeInstrument = волынка
-    .desc = Прекрасно сочетается с килтом.
-
-ent-BaseWoodwindInstrument = item
-    .desc = Это инструмент.
-
-ent-ClarinetInstrument = кларнет
-    .desc = Сквидвард тинтаклей.
-
-ent-FluteInstrument = флейта
-    .desc = Достижение новых высот ужасающе пронзительного поведения.
-
-ent-HarmonicaInstrument = губная гармошка
-    .desc = Это инструмент.
-
-ent-OcarinaInstrument = окарина
-    .desc = Хорошо подходит для воспроизведения колыбельных.
-
-ent-PanFluteInstrument = пан-флейта
-    .desc = Идеально подходит для того, чтобы заманить древних мифических существ танцевать с вами.
-
-ent-RecorderInstrument = диктофон
-    .desc = Выпускается в различных цветах из модного пластика!
-
-ent-SaxophoneInstrument = саксофон
-    .desc = Инструмент. Вероятно, вы могли бы превратить это в сырой джаз.

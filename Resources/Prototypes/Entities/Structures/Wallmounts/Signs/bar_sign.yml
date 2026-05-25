@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   id: BaseBarSign
   parent: BaseStructure
-  name: ent-BaseBarSign
+  name: bar sign
   abstract: true
   components:
   - type: MeleeSound
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSign
-  name: ent-BarSign
-  suffix: ent-BarSign-suffix
+  name: bar sign
+  suffix: Random
 
 # Missing appearance components & various other sprite issues.
 #- type: entity
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignComboCafe
-  name: ent-BarSignComboCafe
-  description: ent-BarSignComboCafe-desc
+  name: Combo Cafe
+  description: Renowned system-wide for their utterly uncreative drink combinations.
   components:
   - type: BarSign
     current: ComboCafe
@@ -84,8 +84,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEmergencyRumParty
-  name: ent-BarSignEmergencyRumParty
-  description: ent-BarSignEmergencyRumParty-desc
+  name: Emergency Rum Party
+  description: Recently relicensed after a long closure.
   components:
   - type: BarSign
     current: EmergencyRumParty
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignLV426
-  name: ent-BarSignLV426
-  description: ent-BarSignLV426-desc
+  name: LV426
+  description: Drinking with fancy facemasks is clearly more important than going to medbay.
   components:
   - type: BarSign
     current: LV426
@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignMaidCafe
-  name: ent-BarSignMaidCafe
-  description: ent-BarSignMaidCafe-desc
+  name: Maid Cafe
+  description: Welcome back, master!
   components:
   - type: BarSign
     current: MaidCafe
@@ -111,8 +111,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignMalteseFalcon
-  name: ent-BarSignMalteseFalcon
-  description: ent-BarSignMalteseFalcon-desc
+  name: Maltese Falcon
+  description: Play it again, sam.
   components:
   - type: BarSign
     current: MalteseFalcon
@@ -120,8 +120,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignOfficerBeersky
-  name: ent-BarSignOfficerBeersky
-  description: ent-BarSignOfficerBeersky-desc
+  name: Officer Beersky
+  description: Man eat a dong, these drinks are great.
   components:
   - type: BarSign
     current: OfficerBeersky
@@ -129,8 +129,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignRobustaCafe
-  name: ent-BarSignRobustaCafe
-  description: ent-BarSignRobustaCafe-desc
+  name: Robusta Cafe
+  description: Holder of the 'Most Lethal Barfights' record 5 years uncontested.
   components:
   - type: BarSign
     current: RobustaCafe
@@ -138,8 +138,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheAleNath
-  name: ent-BarSignTheAleNath
-  description: ent-BarSignTheAleNath-desc
+  name: The Ale Nath
+  description: All right, buddy. I think you've had EI NATH. Time to get a cab.
   components:
   - type: BarSign
     current: TheAleNath
@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheBirdCage
-  name: ent-BarSignTheBirdCage
-  description: ent-BarSignTheBirdCage-desc
+  name: The Bird Cage
+  description: Caw caw!
   components:
   - type: BarSign
     current: TheBirdCage
@@ -156,8 +156,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheCoderbus
-  name: ent-BarSignTheCoderbus
-  description: ent-BarSignTheCoderbus-desc
+  name: The Coderbus
+  description: A very controversial bar known for its wide variety of constantly-changing drinks.
   components:
   - type: BarSign
     current: TheCoderbus
@@ -165,8 +165,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheDrunkCarp
-  name: ent-BarSignTheDrunkCarp
-  description: ent-BarSignTheDrunkCarp-desc
+  name: The Drunk Carp
+  description: Don't drink and swim.
   components:
   - type: BarSign
     current: TheDrunkCarp
@@ -174,8 +174,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEngineChange
-  name: ent-BarSignEngineChange
-  description: ent-BarSignEngineChange-desc
+  name: The Engine Change
+  description: Still waiting.
   components:
   - type: BarSign
     current: EngineChange
@@ -183,8 +183,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheHarmbaton
-  name: ent-BarSignTheHarmbaton
-  description: ent-BarSignTheHarmbaton-desc
+  name: The Harmbaton
+  description: A great dining experience for both security members and passengers.
   components:
   - type: BarSign
     current: Harmbaton
@@ -192,8 +192,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheLightbulb
-  name: ent-BarSignTheLightbulb
-  description: ent-BarSignTheLightbulb-desc
+  name: The Lightbulb
+  description: A cafe popular among moths and moffs. Once shut down for a week after the bartender used mothballs to protect her spare uniforms.
   components:
   - type: BarSign
     current: TheLightbulb
@@ -201,8 +201,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheLooseGoose
-  name: ent-BarSignTheLooseGoose
-  description: ent-BarSignTheLooseGoose-desc
+  name: The Loose Goose
+  description: Drink till you puke and/or break the laws of reality!
   components:
   - type: BarSign
     current: Goose
@@ -210,8 +210,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheNet
-  name: ent-BarSignTheNet
-  description: ent-BarSignTheNet-desc
+  name: The Net
+  description: You just seem to get caught up in it for hours.
   components:
   - type: BarSign
     current: TheNet
@@ -219,8 +219,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheOuterSpess
-  name: ent-BarSignTheOuterSpess
-  description: ent-BarSignTheOuterSpess-desc
+  name: The Outer Spess
+  description: This bar isn't actually located in outer space.
   components:
   - type: BarSign
     current: TheOuterSpess
@@ -228,8 +228,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheSingulo
-  name: ent-BarSignTheSingulo
-  description: ent-BarSignTheSingulo-desc
+  name: The Singulo
+  description: Where people go that'd rather not be called by their name.
   components:
   - type: BarSign
     current: TheSingulo
@@ -237,8 +237,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheSun
-  name: ent-BarSignTheSun
-  description: ent-BarSignTheSun-desc
+  name: The Sun
+  description: Ironically bright for such a shady bar.
   components:
   - type: BarSign
     current: TheSun
@@ -246,8 +246,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignWiggleRoom
-  name: ent-BarSignWiggleRoom
-  description: ent-BarSignWiggleRoom-desc
+  name: Wiggle Room
+  description: MoMMIs got moves.
   components:
   - type: BarSign
     current: WiggleRoom
@@ -255,8 +255,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignZocalo
-  name: ent-BarSignZocalo
-  description: ent-BarSignZocalo-desc
+  name: Zocalo
+  description: Anteriormente ubicado en Spessmerica.
   components:
   - type: BarSign
     current: Zocalo
@@ -264,8 +264,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEmprah
-  name: ent-BarSignEmprah
-  description: ent-BarSignEmprah-desc
+  name: 4 The Emprah
+  description: Enjoyed by fanatics, heretics, and brain-damaged patrons alike.
   components:
   - type: BarSign
     current: Emprah
@@ -273,8 +273,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignSpacebucks
-  name: ent-BarSignSpacebucks
-  description: ent-BarSignSpacebucks-desc
+  name: Spacebucks
+  description: You can't get away from them, even in space, and even after we started calling them 'spesos' instead.
   components:
   - type: BarSign
     current: Spacebucks
@@ -282,8 +282,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignMaltroach
-  name: ent-BarSignMaltroach
-  description: ent-BarSignMaltroach-desc
+  name: The Maltroach
+  description: Squeak!
   components:
   - type: BarSign
     current: Maltroach
@@ -291,8 +291,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignWhiskeyEchoes
-  name: ent-BarSignWhiskeyEchoes
-  description: ent-BarSignWhiskeyEchoes-desc
+  name: Whiskey Echoes
+  description: An elite bar for elite oper-wait, this is a Nanotrasen station. Why's this sign in the database?
   components:
   - type: BarSign
     current: WhiskeyEchoes

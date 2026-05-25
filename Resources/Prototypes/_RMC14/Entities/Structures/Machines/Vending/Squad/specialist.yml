@@ -138,8 +138,8 @@
 - type: entity
   parent: [ColMarTechBase, RMCVendorWeaponsSpecialistGearBase]
   id: ColMarTechSWSGear
-  name: ent-ColMarTechSWSGear
-  description: ent-ColMarTechSWSGear-desc
+  name: ColMarTech squad weapons specialist gear rack
+  description: An automated gear rack for Squad Weapons Specialists.
   components:
   - type: RMCVendorSpecialist
   - type: AccessReader
@@ -151,8 +151,8 @@
 - type: entity
   parent: [BaseItem, RMCVendorWeaponsSpecialistGearBase]
   id: RMCKitWeaponsSpecialist
-  name: ent-RMCKitWeaponsSpecialist
-  description: ent-RMCKitWeaponsSpecialist-desc
+  name: specialist kit
+  description: A paper box. Open it and get a specialist kit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/loadout_kits.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSWSEquipment
-  name: ent-ColMarTechSWSEquipment
-  description: ent-ColMarTechSWSEquipment-desc
+  name: ColMarTech squad weapons specialist equipment rack
+  description: An automated rack hooked up to a colossal storage of Squad Weapons Specialist standard-issue equipment.
   components:
   - type: AccessReader
     access:

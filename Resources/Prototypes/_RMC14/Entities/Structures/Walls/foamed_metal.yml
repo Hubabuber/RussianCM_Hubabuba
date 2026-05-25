@@ -1,6 +1,6 @@
 - type: entity
   id: RMCBaseFoamedMetal
-  name: ent-RMCBaseFoamedMetal
+  name: RMC base foamed metal
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -59,7 +59,7 @@
 - type: entity
   parent: MetalFoam
   id: RMCAluminiumMetalFoamEffect
-  name: ent-RMCAluminiumMetalFoamEffect
+  name: aluminium metal foam
   categories: [ HideSpawnMenu ]
   components:
   - type: SpawnOnDespawn
@@ -68,7 +68,7 @@
 - type: entity
   parent: MetalFoam
   id: RMCIronMetalFoamEffect
-  name: ent-RMCIronMetalFoamEffect
+  name: iron metal foam
   categories: [ HideSpawnMenu ]
   components:
   - type: SpawnOnDespawn
@@ -77,9 +77,9 @@
 - type: entity
   parent: RMCBaseFoamedMetal
   id: RMCFoamedAluminiumMetal
-  name: ent-RMCFoamedAluminiumMetal
-  description: ent-RMCFoamedAluminiumMetal-desc
-  suffix: ent-RMCFoamedAluminiumMetal-suffix
+  name: foamed aluminium metal
+  description: A lightweight foamed metal wall.
+  suffix: RMC
   components:
   - type: Sprite
     drawdepth: Effects
@@ -100,9 +100,9 @@
 - type: entity
   parent: RMCBaseFoamedMetal
   id: RMCFoamedIronMetal
-  name: ent-RMCFoamedIronMetal
-  description: ent-RMCFoamedIronMetal-desc
-  suffix: ent-RMCFoamedIronMetal-suffix
+  name: foamed iron metal
+  description: A slightly stronger lightweight foamed iron wall.
+  suffix: RMC
   components:
   - type: Sprite
     drawdepth: Effects

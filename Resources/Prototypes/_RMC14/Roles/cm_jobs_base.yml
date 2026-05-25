@@ -1,4 +1,4 @@
-
+﻿
 - type: job
   abstract: true
   id: CMJobBase
@@ -31,10 +31,10 @@
   abstract: true
   parent: CMJobBase
   id: CMJobXenoBase
-  description: job-cmjobxenobase-desc
+  description: null
   joinNotifyCrew: false
   icon: "CMJobIconEmpty"
-  supervisors: job-cmjobxenobase-supervisors
+  supervisors: cm-job-supervisors-queen
   accessGroups:
   - CMAccessXeno
   hasIcon: false
@@ -44,8 +44,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnPointXeno
-  name: ent-CMSpawnPointXeno
-  description: ent-CMSpawnPointXeno-desc
+  name: xeno spawn point
+  description: A RMC14 spawner. Used for xenos.
   components:
   - type: XenoSpawnPoint
   - type: Sprite
@@ -55,8 +55,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnPointXenoLeader
-  name: ent-CMSpawnPointXenoLeader
-  description: ent-CMSpawnPointXenoLeader-desc
+  name: xeno leader spawn point
+  description: A RMC14 spawner. Used for xenos Queens.
   components:
   - type: XenoLeaderSpawnPoint
   - type: Sprite

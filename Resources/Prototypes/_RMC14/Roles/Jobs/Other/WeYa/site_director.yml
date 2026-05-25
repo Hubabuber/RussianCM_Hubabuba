@@ -2,8 +2,8 @@
 - type: job
   parent: CMJobBase
   id: RMCPMCDirector
-  name: job-rmcpmcdirector-name
-  description: job-rmcpmcdirector-desc
+  name: rmc-job-name-pmc-director
+  description: rmc-ghost-role-information-pmc-description
   playTimeTracker: RMCJobPMCDirector
   ranks:
     RMCRankWeYaSiteDirector: []
@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: job-rmcpmcdirector-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Site Director
   special:
   - !type:AddComponentSpecial
     components:
@@ -61,8 +61,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCDirector
-  name: ent-RMCRandomHumanoidPMCDirector
-  suffix: ent-RMCRandomHumanoidPMCDirector-suffix
+  name: weya pmc ghost role director
+  suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCSiteDirector
-  name: ent-RMCSpawnPointPMCSiteDirector
+  name: weya pmc director spawn point
   components:
   - type: SpawnPoint
     job_id: RMCPMCDirector

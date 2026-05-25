@@ -9,13 +9,3 @@ ent-MechEquipmentHorn-desc = Усовершенствованный велоси
 
 ent-BaseMechEquipment-name = элемент
 
-ent-BaseMechEquipment = item
-
-ent-MechEquipmentGrabber = гидравлический зажим
-    .desc = Дает меху возможность хватать предметы и перетаскивать их.
-
-ent-MechEquipmentGrabberSmall = небольшой гидравлический зажим
-    .desc = Дает меху возможность хватать предметы и перетаскивать их.
-
-ent-MechEquipmentHorn = механический гудок
-    .desc = Усовершенствованный велосипедный сигнал, который воспроизводит множество веселых звуков для удовольствия экипажа. ГУДОК!

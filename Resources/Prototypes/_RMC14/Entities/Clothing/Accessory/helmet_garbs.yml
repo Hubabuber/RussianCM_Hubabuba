@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: BaseItem
   id: RMCHelmetGarbBase
   abstract: true
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCHelmetGarbToggleableBase
   id: RMCHelmetGarbNightVision
-  name: ent-RMCHelmetGarbNightVision
-  description: ent-RMCHelmetGarbNightVision-desc
+  name: old M2 night vision goggles
+  description: This pair has been gutted of all electronics and therefore not working. But hey, they make you feel tacticool, and that's all that matters, right?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCHelmetGarbToggleableBase
   id: RMCHelmetGarbNightVisionPVE
-  name: ent-RMCHelmetGarbNightVisionPVE
-  description: ent-RMCHelmetGarbNightVisionPVE-desc
+  name: old M1 multi-spectrum visor
+  description: A failed prototype for next generation HUD optics for the Marine Corps that was surpassed by the current issue integrated IR optic, this flip down visor offers a full visor suite with multi-spectrum capabilities. A really cool piece until you realize you are one headbang away from losing night capability.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles_alt.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbNetting
-  name: ent-RMCHelmetGarbNetting
-  description: ent-RMCHelmetGarbNetting-desc
+  name: combat netting
+  description: Probably combat netting for a helmet. Probably just an extra hairnet that got ordered for the phantom Almayer cooking staff. Probably useless.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: RMCHelmetGarbNetting
   id: RMCHelmetGarbNettingUrban
-  name: ent-RMCHelmetGarbNettingUrban
+  name: urban combat netting
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_urban.rsi
@@ -95,7 +95,7 @@
 - type: entity
   parent: RMCHelmetGarbNetting
   id: RMCHelmetGarbNettingDesert
-  name: ent-RMCHelmetGarbNettingDesert
+  name: desert combat netting
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_desert.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCHelmetGarbNetting
   id: RMCHelmetGarbNettingJungle
-  name: ent-RMCHelmetGarbNettingJungle
+  name: jungle combat netting
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_jungle.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbRainCover
-  name: ent-RMCHelmetGarbRainCover
-  description: ent-RMCHelmetGarbRainCover-desc
+  name: raincover
+  description: The standard M10 combat helmet is already water-resistant at depths of up to 10 meters. This makes the top potentially water-proof. At least it's something.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover.rsi
@@ -143,7 +143,7 @@
 - type: entity
   parent: RMCHelmetGarbRainCover
   id: RMCHelmetGarbRainCoverUrban
-  name: ent-RMCHelmetGarbRainCoverUrban
+  name: urban raincover
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_urban.rsi
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCHelmetGarbRainCover
   id: RMCHelmetGarbRainCoverDesert
-  name: ent-RMCHelmetGarbRainCoverDesert
+  name: desert raincover
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_desert.rsi
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCHelmetGarbRainCover
   id: RMCHelmetGarbRainCoverJungle
-  name: ent-RMCHelmetGarbRainCoverJungle
+  name: jungle raincover
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_jungle.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbBuckshot
-  name: ent-RMCHelmetGarbBuckshot
-  description: ent-RMCHelmetGarbBuckshot-desc
+  name: spent buckshot
+  description: Three spent rounds of good ol' buckshot. You know they used to paint these green? Strange times.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/buckshot.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbFlechette
-  name: ent-RMCHelmetGarbFlechette
-  description: ent-RMCHelmetGarbFlechette-desc
+  name: spent flechette
+  description: The more you fire these, the more you're reminded that a fragmentation grenade is probably more effective at fulfilling the same purpose. Say, aren't these supposed to eject from your gun?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/flechette.rsi
@@ -222,8 +222,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbSlug
-  name: ent-RMCHelmetGarbSlug
-  description: ent-RMCHelmetGarbSlug-desc
+  name: spent slugs
+  description: For when you need to knock your target down with superior stopping power. These three have already been fired.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/slug.rsi
@@ -238,8 +238,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbCartridge
-  name: ent-RMCHelmetGarbCartridge
-  description: ent-RMCHelmetGarbCartridge-desc
+  name: cartridge
+  description: This is the bullet from a Type 54 Assault Rifle. It is deformed from impact against an armored surface. It's been reduced to a lucky keepsake now.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/cartridge.rsi
@@ -256,8 +256,8 @@
 - type: entity
   parent: [RMCHelmetGarbBase, CMUBaseGasMaskFilterSlot]
   id: RMCHelmetGarbGasmask
-  name: ent-RMCHelmetGarbGasmask
-  description: ent-RMCHelmetGarbGasmask-desc
+  name: M5 integrated gasmask
+  description: The UNMC had its funding pulled for these when it became apparent that not every deployed enlisted was wearing a helmet 24/7; much to the bafflement of UN High Command.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask.rsi
@@ -272,7 +272,7 @@
 - type: entity
   parent: RMCHelmetGarbGasmask
   id: RMCHelmetGarbGasmaskDesert
-  name: ent-RMCHelmetGarbGasmaskDesert
+  name: Desert M5 integrated gasmask
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_desert.rsi
@@ -288,7 +288,7 @@
 - type: entity
   parent: RMCHelmetGarbGasmask
   id: RMCHelmetGarbGasmaskJungle
-  name: ent-RMCHelmetGarbGasmaskJungle
+  name: Jungle M5 integrated gasmask
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_jungle.rsi
@@ -303,7 +303,7 @@
 - type: entity
   parent: RMCHelmetGarbGasmask
   id: RMCHelmetGarbGasmaskUrban
-  name: ent-RMCHelmetGarbGasmaskUrban
+  name: Urban M5 integrated gasmask
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_urban.rsi
@@ -318,8 +318,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCRC6RiotShield
-  name: ent-RMCRC6RiotShield
-  description: ent-RMCRC6RiotShield-desc
+  name: RC6 riot shield
+  description: The complimentary, but sold separate face shield associated with the RC6 riot helmet.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/riot_shield.rsi
@@ -336,8 +336,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbFeather
-  name: ent-RMCHelmetGarbFeather
-  description: ent-RMCHelmetGarbFeather-desc
+  name: lucky white feather
+  description: A sniper's greatest asset is his mind, not his rifle.
   components:
   - type: Sprite
     sprite:  _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather.rsi
@@ -352,8 +352,8 @@
 - type: entity
   parent: RMCHelmetGarbFeather
   id: RMCHelmetGarbFeatherRed
-  name: ent-RMCHelmetGarbFeatherRed
-  description: ent-RMCHelmetGarbFeatherRed-desc
+  name: lucky red feather
+  description: It is a riotous red color, made of really crummy plastic and synthetic threading, you know, the same sort of material every Corporate Liaison's spine is made of.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_red.rsi
@@ -368,8 +368,8 @@
 - type: entity
   parent: RMCHelmetGarbFeather
   id: RMCHelmetGarbFeatherBlue
-  name: ent-RMCHelmetGarbFeatherBlue
-  description: ent-RMCHelmetGarbFeatherBlue-desc
+  name: lucky blue feather
+  description: It is a brilliant blue color. You think you might have seen a bluejay in a holo-theatre once.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_blue.rsi
@@ -384,8 +384,8 @@
 - type: entity
   parent: RMCHelmetGarbFeather
   id: RMCHelmetGarbFeatherPurple
-  name: ent-RMCHelmetGarbFeatherPurple
-  description: ent-RMCHelmetGarbFeatherPurple-desc
+  name: lucky purple feather
+  description: It is a plucky purple color. Legend has it a station AI known as Shakespeare simulated 1000 monkeys typing gibberish in order to replicate the actual works of Shakespeare. Art critics are on the fence if this is the first instance of true artificial abstract art.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_purple.rsi
@@ -400,8 +400,8 @@
 - type: entity
   parent: RMCHelmetGarbFeather
   id: RMCHelmetGarbFeatherYellow
-  name: ent-RMCHelmetGarbFeatherYellow
-  description: ent-RMCHelmetGarbFeatherYellow-desc
+  name: lucky yellow feather
+  description: It is an unyielding yellow color. They say the New Kansas colony produces more carpenters per capita than any other colony in all of UN controlled space.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_yellow.rsi
@@ -418,8 +418,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbGunOil
-  name: ent-RMCHelmetGarbGunOil
-  description: "ent-RMCHelmetGarbGunOil-desc"
+  name: CLP weapon lubricant
+  description: "A standardized cleaner, lubricant and preservative issued to maintain small arms and crew-served weapons. Removes carbon fouling, reduces friction and protects metal surfaces from corrosion. Reliable in most environments, though not specialized for extreme conditions. Also collectively known as 'rifle piss'."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/gun_oil.rsi
@@ -434,8 +434,8 @@
 - type: entity
   parent: [RMCHelmetGarbBase, RMCUtilityBase]
   id: RMCHelmetGarbRosary
-  name: ent-RMCHelmetGarbRosary
-  description: ent-RMCHelmetGarbRosary-desc
+  name: rosary
+  description: Jesus Saves Lives!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/rosary.rsi
@@ -454,8 +454,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbPrescription
-  name: ent-RMCHelmetGarbPrescription
-  description: ent-RMCHelmetGarbPrescription-desc
+  name: prescription medication
+  description: Anti-anxiety meds? Amphetamines? The cure for Sudden Sleep Disorder? The label can't be read, leaving the now absent contents forever a mystery. The cap is screwed on tighter than any ID lock.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/prescription.rsi
@@ -470,8 +470,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbWire
-  name: ent-RMCHelmetGarbWire
-  description: ent-RMCHelmetGarbWire-desc
+  name: trimmed barbed wire
+  description: It is a length of barbed wire that's had most of the sharp points filed down so that it is safe to handle.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/trimmed_barb_wire.rsi
@@ -486,8 +486,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbChaplainPatch
-  name: ent-RMCHelmetGarbChaplainPatch
-  description: ent-RMCHelmetGarbChaplainPatch-desc
+  name: UNMC chaplain helmet patch
+  description: This patch is all that remains of the Chaplaincy of the UNS Almayer, along with the Chaplains themselves. Both no longer exist as a result of losses suffered during Tychon Tackle.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/chaplain_patch.rsi
@@ -502,8 +502,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbPeaceFlair
-  name: ent-RMCHelmetGarbPeaceFlair
-  description: ent-RMCHelmetGarbPeaceFlair-desc
+  name: peace flair
+  description: Doesn't matter when it's Arcturian, baby..
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/peace_flair.rsi
@@ -518,8 +518,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbIoFlair
-  name: ent-RMCHelmetGarbIoFlair
-  description: ent-RMCHelmetGarbIoFlair-desc
+  name: io flair
+  description: The Arcturians might be our allies now, but Io is forever a stain on trans-species relations. Never forget those who gave their lives aboard the UNS Doramin..
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/io_flair.rsi
@@ -534,8 +534,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbTerraTekFlair
-  name: ent-RMCHelmetGarbTerraTekFlair
-  description: ent-RMCHelmetGarbTerraTekFlair-desc
+  name: TerraTek flair
+  description: Flair for some weird tech company back on Earth. How did they get promotional material this far out in the rim?.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/terratek_flair.rsi
@@ -550,8 +550,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbUNMCFlair
-  name: ent-RMCHelmetGarbUNMCFlair
-  description: ent-RMCHelmetGarbUNMCFlair-desc
+  name: UNMC flair
+  description: These pins get handed out like candy at enlistment offices. Wear it with pride marine.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/unmc_flair.rsi
@@ -566,8 +566,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbMovieTicket
-  name: ent-RMCHelmetGarbMovieTicket
-  description: ent-RMCHelmetGarbMovieTicket-desc
+  name: movie ticket
+  description: A pair of red movie tickets. It reminds you of a time you could watch more than the same 5 or so VHS films the Almayer has.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/movie_ticket.rsi

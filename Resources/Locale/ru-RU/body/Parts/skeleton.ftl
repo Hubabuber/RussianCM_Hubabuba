@@ -21,25 +21,3 @@ ent-LeftFootSkeleton-name = скелет левой стопы
 
 ent-RightFootSkeleton-name = скелет правой стопы
 
-ent-HeadSkeleton = череп
-    .desc = Увы, бедный Йорик...
-
-ent-LeftArmSkeleton = левая скелетная рука
-
-ent-LeftFootSkeleton = скелет левой стопы
-
-ent-LeftHandSkeleton = левая скелетная рука
-
-ent-LeftLegSkeleton = левая скелетная нога
-
-ent-PartSkeleton = часть тела скелета
-
-ent-RightArmSkeleton = правая скелетная рука
-
-ent-RightFootSkeleton = скелет правой стопы
-
-ent-RightHandSkeleton = правая скелетная рука
-
-ent-RightLegSkeleton = правая скелетная нога
-
-ent-TorsoSkeleton = скелет туловища

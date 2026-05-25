@@ -1,8 +1,8 @@
 - type: entity
   id: Cigarette
   parent: BaseCigar
-  name: ent-Cigarette
-  description: ent-Cigarette-desc
+  name: cigarette
+  description: A roll of tobacco and nicotine.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
@@ -37,9 +37,9 @@
 - type: entity
   id: SoakedCigarette
   parent: BaseCigar
-  name: ent-SoakedCigarette
-  suffix: ent-SoakedCigarette-suffix
-  description: ent-SoakedCigarette-desc
+  name: cigarette
+  suffix: Soaked
+  description: A roll of tobacco and nicotine soaked in some chemical.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
@@ -62,7 +62,7 @@
 - type: entity
   id: CigaretteSpent
   parent: Cigarette
-  suffix: ent-CigaretteSpent-suffix
+  suffix: spent
   components:
   - type: Sprite
     state: burnt-icon
@@ -80,9 +80,9 @@
 
 - type: entity
   id: CigaretteSyndicate
-  suffix: ent-CigaretteSyndicate-suffix
+  suffix: syndicate
   parent: Cigarette
-  name: ent-CigaretteSyndicate
+  name: cigarette
   components:
   - type: SolutionContainerManager
     solutions:
@@ -97,7 +97,7 @@
 - type: entity
   id: CigaretteOmnizine
   parent: SoakedCigarette
-  name: ent-CigaretteOmnizine
+  name: Hot Dog Water Flavor Explosion
   components:
   - type: SolutionContainerManager
     solutions:
@@ -112,7 +112,7 @@
 - type: entity
   id: CigaretteIron
   parent: SoakedCigarette
-  name: ent-CigaretteIron
+  name: Rusty Orange Baja Blast
   components:
   - type: SolutionContainerManager
     solutions:
@@ -127,7 +127,7 @@
 - type: entity
   id: CigaretteTricordrazine
   parent: SoakedCigarette
-  name: ent-CigaretteTricordrazine
+  name: Licorice Allsorts
   components:
   - type: SolutionContainerManager
     solutions:
@@ -142,7 +142,7 @@
 - type: entity
   id: CigaretteDylovene
   parent: SoakedCigarette
-  name: ent-CigaretteDylovene
+  name: Urinal Cake Dissolver
   components:
   - type: SolutionContainerManager
     solutions:
@@ -157,7 +157,7 @@
 - type: entity
   id: CigaretteDermaline
   parent: SoakedCigarette
-  name: ent-CigaretteDermaline
+  name: Aloe Peanut Butter Medley
   components:
   - type: SolutionContainerManager
     solutions:
@@ -172,7 +172,7 @@
 - type: entity
   id: CigaretteArithrazine
   parent: SoakedCigarette
-  name: ent-CigaretteArithrazine
+  name: Roman Pipe Works
   components:
   - type: SolutionContainerManager
     solutions:
@@ -187,7 +187,7 @@
 - type: entity
   id: CigaretteNutriment
   parent: SoakedCigarette
-  name: ent-CigaretteNutriment
+  name: Grandma's Christmas Fruitcake
   components:
   - type: SolutionContainerManager
     solutions:
@@ -202,7 +202,7 @@
 - type: entity
   id: CigaretteBicaridine
   parent: SoakedCigarette
-  name: ent-CigaretteBicaridine
+  name: Wet Dog Enhanced Cigarette
   components:
   - type: SolutionContainerManager
     solutions:
@@ -217,7 +217,7 @@
 - type: entity
   id: CigaretteDexalin
   parent: SoakedCigarette
-  name: ent-CigaretteDexalin
+  name: Rocky Mountain Musk
   components:
   - type: SolutionContainerManager
     solutions:
@@ -232,7 +232,7 @@
 - type: entity
   id: CigaretteSaline
   parent: SoakedCigarette
-  name: ent-CigaretteSaline
+  name: North Atlantic Cruise
   components:
   - type: SolutionContainerManager
     solutions:
@@ -247,7 +247,7 @@
 - type: entity
   id: CigaretteBbqSauce
   parent: SoakedCigarette
-  name: ent-CigaretteBbqSauce
+  name: Spicy Wood Aroma
   components:
   - type: SolutionContainerManager
     solutions:
@@ -262,7 +262,7 @@
 - type: entity
   id: CigaretteFrezon
   parent: SoakedCigarette
-  name: ent-CigaretteFrezon
+  name: Atmospheric Adventure
   components:
   - type: SolutionContainerManager
     solutions:
@@ -277,7 +277,7 @@
 - type: entity
   id: CigaretteCapsaicinOil
   parent: SoakedCigarette
-  name: ent-CigaretteCapsaicinOil
+  name: Chilly P
   components:
   - type: SolutionContainerManager
     solutions:
@@ -292,7 +292,7 @@
 - type: entity
   id: CigaretteRadium
   parent: SoakedCigarette
-  name: ent-CigaretteRadium
+  name: Ex Ray
   components:
   - type: SolutionContainerManager
     solutions:
@@ -307,7 +307,7 @@
 - type: entity
   id: CigaretteHaloperidol
   parent: SoakedCigarette
-  name: ent-CigaretteHaloperidol
+  name: Warm Bovine Extract
   components:
   - type: SolutionContainerManager
     solutions:
@@ -322,7 +322,7 @@
 - type: entity
   id: CigaretteLaughter
   parent: SoakedCigarette
-  name: ent-CigaretteLaughter
+  name: Clown Adjacency Bonus
   components:
   - type: SolutionContainerManager
     solutions:
@@ -337,7 +337,7 @@
 - type: entity
   id: CigaretteLipolicide
   parent: SoakedCigarette
-  name: ent-CigaretteLipolicide
+  name: 80's Workout Routine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -352,7 +352,7 @@
 - type: entity
   id: CigaretteSodiumPolyacrylate
   parent: SoakedCigarette
-  name: ent-CigaretteSodiumPolyacrylate
+  name: Unhealthy Habits
   components:
   - type: SolutionContainerManager
     solutions:
@@ -367,7 +367,7 @@
 - type: entity
   id: CigaretteMold
   parent: SoakedCigarette
-  name: ent-CigaretteMold
+  name: Beneath The Sink Experience
   components:
   - type: SolutionContainerManager
     solutions:
@@ -382,7 +382,7 @@
 - type: entity
   id: CigaretteLicoxide
   parent: SoakedCigarette
-  name: ent-CigaretteLicoxide
+  name: Wake Up Call
   components:
   - type: SolutionContainerManager
     solutions:
@@ -397,7 +397,7 @@
 - type: entity
   id: CigaretteWeldingFuel
   parent: SoakedCigarette
-  name: ent-CigaretteWeldingFuel
+  name: Plasma Sauce
   components:
   - type: SolutionContainerManager
     solutions:
@@ -412,7 +412,7 @@
 - type: entity
   id: CigaretteRobustHarvest
   parent: SoakedCigarette
-  name: ent-CigaretteRobustHarvest
+  name: Hippie Romance Novel
   components:
   - type: SolutionContainerManager
     solutions:
@@ -427,7 +427,7 @@
 - type: entity
   id: CigarettePhlogiston
   parent: SoakedCigarette
-  name: ent-CigarettePhlogiston
+  name: Dragon Dating Sim
   components:
   - type: SolutionContainerManager
     solutions:
@@ -442,7 +442,7 @@
 - type: entity
   id: CigaretteBanana
   parent: SoakedCigarette
-  name: ent-CigaretteBanana
+  name: Pun Pun's Tropical Getaway
   components:
   - type: SolutionContainerManager
     solutions:
@@ -457,7 +457,7 @@
 - type: entity
   id: CigaretteBlackPepper
   parent: SoakedCigarette
-  name: ent-CigaretteBlackPepper
+  name: English Spice
   components:
   - type: SolutionContainerManager
     solutions:

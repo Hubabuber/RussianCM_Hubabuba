@@ -2,8 +2,8 @@
   abstract: true
   parent: RMCBaseUniformAccessory
   id: RMCUtilityBase
-  name: ent-RMCUtilityBase
-  description: ent-RMCUtilityBase-desc
+  name: utility accessory
+  description: An abstract utility accessory.
   components:
   - type: UniformAccessory
     category: Utility
@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCUtilityBase
   id: RMCStethoscope
-  name: ent-RMCStethoscope
-  description: ent-RMCStethoscope-desc
+  name: stethoscope
+  description: An outdated, but still useful medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
   components:
   - type: Item
     size: Small
@@ -30,8 +30,8 @@
 - type: entity
   parent: RMCUtilityBase
   id: RMCHorizonFlower
-  name: ent-RMCHorizonFlower
-  description: ent-RMCHorizonFlower-desc
+  name: blue horizon flower
+  description: A beautiful blue flower that symbolizes hope and rememberance.
   components:
   - type: Item
     size: Small

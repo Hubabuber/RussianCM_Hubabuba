@@ -2,8 +2,8 @@
 - type: entity
   parent: CMAirlockPrep
   id: CMAirlockRequisitionsLocked
-  name: ent-CMAirlockRequisitionsLocked
-  suffix: ent-CMAirlockRequisitionsLocked-suffix
+  name: requisitions bay
+  suffix: Requisitions, Locked
   components:
   - type: AccessReader
     access: [ ["CMAccessRequisitions"] ]
@@ -13,7 +13,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintRequisitionsLocked
-  suffix: ent-CMAirlockMaintRequisitionsLocked-suffix
+  suffix: Requisitions, Locked, Maint
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ] ]
@@ -23,7 +23,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockKitchenLocked
-  suffix: ent-CMAirlockKitchenLocked-suffix
+  suffix: Kitchen, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessKitchen" ] ]
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockGlassKitchenLocked
-  suffix: ent-CMAirlockGlassKitchenLocked-suffix
+  suffix: Kitchen, Locked, Glass
   components:
   - type: AccessReader
     access: [ [ "CMAccessKitchen" ] ]
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintKitchenLocked
-  suffix: ent-CMAirlockMaintKitchenLocked-suffix
+  suffix: Kitchen, Locked, Maint
   components:
   - type: AccessReader
     access: [ [ "CMAccessKitchen" ] ]
@@ -54,7 +54,7 @@
 - type: entity
   parent: CMAirlockEngineer
   id: CMAirlockEngineerLocked
-  suffix: ent-CMAirlockEngineerLocked-suffix
+  suffix: Engineering, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ] ]
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMAirlockGlassEngineer
   id: CMAirlockGlassEngineerLocked
-  suffix: ent-CMAirlockGlassEngineerLocked-suffix
+  suffix: Engineering, Locked, Glass
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ] ]
@@ -70,7 +70,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintEngineerLocked
-  suffix: ent-CMAirlockMaintEngineerLocked-suffix
+  suffix: Engineering, Locked, Maint
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ] ]
@@ -80,7 +80,7 @@
 - type: entity
   parent: CMAirlockEngineer
   id: CMAirlockOrdnanceLocked
-  suffix: ent-CMAirlockOrdnanceLocked-suffix
+  suffix: Ordnance, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessOT" ] ]
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMAirlockMedical
   id: CMAirlockMedicalLocked
-  suffix: ent-CMAirlockMedicalLocked-suffix
+  suffix: Medical, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ] ]
@@ -97,7 +97,7 @@
 - type: entity
   parent: CMAirlockGlassMedical
   id: CMAirlockGlassMedicalLocked
-  suffix: ent-CMAirlockGlassMedicalLocked-suffix
+  suffix: Medical, Locked, Glass
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ] ]
@@ -105,7 +105,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintMedicalLocked
-  suffix: ent-CMAirlockMaintMedicalLocked-suffix
+  suffix: Medical, Locked, Maint
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ] ]
@@ -115,7 +115,7 @@
 - type: entity
   parent: CMAirlockMedical
   id: CMAirlockMorgueLocked
-  suffix: ent-CMAirlockMorgueLocked-suffix
+  suffix: Morgue, Locked
   components:
   - type: AccessReader
     access: [ [ "RMCAccessMorgue" ] ]
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMAirlockMedical
   id: CMAirlockChemistryLocked
-  suffix: ent-CMAirlockChemistryLocked-suffix
+  suffix: Chemistry, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessChemistry" ] ]
@@ -131,7 +131,7 @@
 - type: entity
   parent: CMAirlockMedical
   id: CMAirlockResearchLocked
-  suffix: ent-CMAirlockResearchLocked-suffix
+  suffix: Research, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessResearch" ] ]
@@ -140,7 +140,7 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockPressLocked
-  suffix: ent-CMAirlockPressLocked-suffix
+  suffix: Press, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessPress" ] ]
@@ -150,7 +150,7 @@
 - type: entity
   parent: CMAirlockGlass
   id: CMAirlockGlassPressLocked
-  suffix: ent-CMAirlockGlassPressLocked-suffix
+  suffix: Press, Locked, Glass
   components:
   - type: AccessReader
     access: [ [ "CMAccessPress" ] ]
@@ -160,7 +160,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintPressLocked
-  suffix: ent-CMAirlockMaintPressLocked-suffix
+  suffix: Press, Locked, Maint
   components:
   - type: AccessReader
     access: [ [ "CMAccessPress" ] ]
@@ -171,7 +171,7 @@
 - type: entity
   parent: CMAirlockSecurity
   id: CMAirlockSecurityLocked
-  suffix: ent-CMAirlockSecurityLocked-suffix
+  suffix: Security, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessBrig" ]]
@@ -179,7 +179,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: CMAirlockGlassSecurityLocked
-  suffix: ent-CMAirlockGlassSecurityLocked-suffix
+  suffix: Security, Locked
   components:
   - type: AccessReader
     access: [ [ "CMAccessBrig" ] ]
@@ -188,8 +188,8 @@
 - type: entity
   parent: CMAirlock
   id: CMAirlockLiaisonLocked
-  name: ent-CMAirlockLiaisonLocked
-  suffix: ent-CMAirlockLiaisonLocked-suffix
+  name: Corporate Liaison's Quarters
+  suffix: Liaison, Locked
   components:
   - type: AccessReader
     access: [ [ "AU14AccessCorporateWEYU" ] ]
@@ -197,7 +197,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintLiaisonLocked
-  suffix: ent-CMAirlockMaintLiaisonLocked-suffix
+  suffix: Liaison, Locked, Maint
   components:
   - type: AccessReader
     access: [ [ "AU14AccessCorporateWEYU" ] ]
@@ -206,8 +206,8 @@
 - type: entity
   parent: CMAirlock
   id: AUAirlockPrisonStaffLocked
-  name: ent-AUAirlockPrisonStaffLocked
-  suffix: ent-AUAirlockPrisonStaffLocked-suffix
+  name: Staff Door
+  suffix: Liaison, Locked
   components:
   - type: AccessReader
     access: [ [ "AUAccessPrison" ] ]

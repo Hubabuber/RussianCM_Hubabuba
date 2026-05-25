@@ -1,8 +1,8 @@
-# Random spawner
+﻿# Random spawner
 - type: entity
   parent: PottedPlantRandom
   id: CMPottedPlantRandom
-  name: ent-CMPottedPlantRandom
+  name: random potted plant spawner
   components:
   - type: RandomSpawner
     offset: 0
@@ -45,9 +45,9 @@
   parent: PottedPlantBase
   id: CMPottedPlantBase
   abstract: true
-  name: ent-CMPottedPlantBase
-  description: "ent-CMPottedPlantBase-desc"
-  suffix: ent-CMPottedPlantBase-suffix
+  name: potted plant
+  description: ""
+  suffix: RMC
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/potted_plants.rsi

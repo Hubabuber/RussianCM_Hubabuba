@@ -20,24 +20,3 @@ ent-LeftFootSlime-name = левая нога слизи
 
 ent-RightFootSlime-name = правая скользкая нога
 
-ent-HeadSlime = голова слизи
-
-ent-LeftArmSlime = левая рука слизи
-
-ent-LeftFootSlime = левая нога слизи
-
-ent-LeftHandSlime = левая рука слизи
-
-ent-LeftLegSlime = левая нога слизи
-
-ent-PartSlime = часть тела слизи
-
-ent-RightArmSlime = правая рука слизи
-
-ent-RightFootSlime = правая скользкая нога
-
-ent-RightHandSlime = правая рука слизи
-
-ent-RightLegSlime = правая нога слизи
-
-ent-TorsoSlime = слизь туловища

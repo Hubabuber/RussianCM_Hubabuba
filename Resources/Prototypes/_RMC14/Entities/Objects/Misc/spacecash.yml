@@ -4,8 +4,8 @@
 - type: entity
   parent: SpaceCash
   id: RMCSpaceCash
-  name: ent-RMCSpaceCash
-  description: ent-RMCSpaceCash-desc
+  name: dollars
+  description: Ten hundred-dollar bills, minted by the United Nations Treasury. Each are adorned with the face of a long-forgotten diplomat of a once-powerful planet. These bills are more than mere currency, they feel alive, as though they carry the weight of ancient history and the judgments of those who once controlled vast empires. The faces on each bill seem to watch you with silent intensity, as if each one believes it alone should be in your possession..
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/spacecash.rsi
@@ -43,11 +43,12 @@
 - type: entity
   parent: RMCSpaceCash
   id: RMCSpaceCash1
-  name: ent-RMCSpaceCash1
-  description: ent-RMCSpaceCash1-desc
+  name: 1 dollar bill
+  description: A single one-dollar bill, minted by the United States Treasury. Its design features the image of a long-forgotten figure from a bygone era, a leader whose legacy now means little to the US populace. While it holds sentimental value for those from certain parts of the country, its actual worth is minimal. In most places, it might fetch you half a hot-dog or a similar low-value snack.
+
 - type: material
   id: Dollar
-  name: material-dollar-name
+  name: 1 dollar bill
   unit: materials-unit-bill
   stackEntity: RMCSpaceCash1
   icon: { sprite: /Textures/_RMC14/Objects/Misc/spacecash.rsi, state: spacecash }
@@ -55,7 +56,7 @@
 
 - type: stack
   id: Dollar
-  name: stack-dollar-name
+  name: 1 dollar bill
   icon: { sprite: /Textures/_RMC14/Objects/Misc/spacecash.rsi, state: spacecash }
   spawn: RMCSpaceCash1
 
@@ -65,7 +66,7 @@
 - type: entity
   parent: RMCSpaceCash1
   id: RMCSpaceCash10
-  suffix: ent-RMCSpaceCash10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: spacecash_10
@@ -76,7 +77,7 @@
 - type: entity
   parent: RMCSpaceCash1
   id: RMCSpaceCash20
-  suffix: ent-RMCSpaceCash20-suffix
+  suffix: 20
   components:
   - type: Sprite
     state: spacecash_20
@@ -86,7 +87,7 @@
 - type: entity
   parent: RMCSpaceCash1
   id: RMCSpaceCash50
-  suffix: ent-RMCSpaceCash50-suffix
+  suffix: 50
   components:
   - type: Sprite
     state: spacecash_50
@@ -96,7 +97,7 @@
 - type: entity
   parent: RMCSpaceCash1
   id: RMCSpaceCash100
-  suffix: ent-RMCSpaceCash100-suffix
+  suffix: 100
   components:
   - type: Sprite
     state: spacecash_100
@@ -106,7 +107,7 @@
 - type: entity
   parent: RMCSpaceCash1
   id: RMCSpaceCash200
-  suffix: ent-RMCSpaceCash200-suffix
+  suffix: 200
   components:
   - type: Sprite
     state: spacecash_200
@@ -116,7 +117,7 @@
 - type: entity
   parent: RMCSpaceCash1
   id: RMCSpaceCash500
-  suffix: ent-RMCSpaceCash500-suffix
+  suffix: 500
   components:
   - type: Sprite
     state: spacecash_500
@@ -126,7 +127,7 @@
 - type: entity
   parent: RMCSpaceCash1
   id: RMCSpaceCash1000
-  suffix: ent-RMCSpaceCash1000-suffix
+  suffix: 1000
   components:
   - type: Sprite
     state: spacecash_1000

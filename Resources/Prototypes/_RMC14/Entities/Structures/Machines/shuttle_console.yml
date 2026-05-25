@@ -13,8 +13,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigation
-  name: ent-CMComputerDropshipNavigation
-  description: ent-CMComputerDropshipNavigation-desc
+  name: dropship navigation computer
+  description: A flight computer that can be used for autopilot or long-range flights.
   components:
   - type: Sprite
     state: console
@@ -34,8 +34,8 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationOpfor
-  name: ent-CMComputerDropshipNavigationOpfor
-  suffix: ent-CMComputerDropshipNavigationOpfor-suffix
+  name: dropship navigation computer
+  suffix: Opfor
   components:
   - type: AccessReader
     access: [ ]
@@ -46,8 +46,8 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationERT
-  name: ent-CMComputerDropshipNavigationERT
-  description: ent-CMComputerDropshipNavigationERT-desc
+  name: transport shuttle
+  description: A transport shuttle flight computer.
   components:
   - type: Sprite
     state: syndishuttle
@@ -57,9 +57,9 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigationPlanetside
-  name: ent-CMComputerDropshipNavigationPlanetside
-  description: ent-CMComputerDropshipNavigationPlanetside-desc
-  suffix: ent-CMComputerDropshipNavigationPlanetside-suffix
+  name: dropship navigation computer
+  description: A flight computer that can be used to direct linked dropships.
+  suffix: Planetside
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/dropship_nav_computer.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCComputerDropshipNavigationSmall
-  name: ent-RMCComputerDropshipNavigationSmall
-  description: ent-RMCComputerDropshipNavigationSmall-desc
+  name: dropship navigation computer
+  description: A flight computer that can be used for autopilot or long-range flights.
   components:
   - type: Transform
     anchored: false
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCComputerDropshipWeaponsSmall
-  name: ent-RMCComputerDropshipWeaponsSmall
-  description: ent-RMCComputerDropshipWeaponsSmall-desc
+  name: dropship weapons computer
+  description: A compact computer that can manage equipment, weapons and simulations installed on the dropship.
   components:
   - type: Transform
     anchored: false
@@ -170,8 +170,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipCamerasAlamo
-  name: ent-CMComputerDropshipCamerasAlamo
-  description: ent-CMComputerDropshipCamerasAlamo-desc
+  name: camera controls
+  description: A computer to monitor cameras linked to the dropship.
   components:
   - type: GuideHelp
     guides:
@@ -194,9 +194,9 @@
 - type: entity
   parent: CMComputerDropshipCamerasAlamo
   id: RMCComputerDropshipCamerasNormandy
-  name: ent-RMCComputerDropshipCamerasNormandy
-  description: ent-RMCComputerDropshipCamerasNormandy-desc
-  suffix: ent-RMCComputerDropshipCamerasNormandy-suffix
+  name: camera controls
+  description: A computer to monitor cameras linked to the dropship.
+  suffix: Normandy
   components:
   - type: RMCCameraComputer
     protoIds:
@@ -208,8 +208,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeapons
-  name: ent-CMComputerDropshipWeapons
-  description: ent-CMComputerDropshipWeapons-desc
+  name: weapons controls
+  description: A computer to manage equipment, weapons and simulations installed on the dropship.
   components:
   - type: Sprite
     state: consoleright
@@ -231,9 +231,9 @@
 - type: entity
   parent: CMBaseStructure
   id: AU14GovforComputerDropshipWeaponsSmall
-  name: ent-AU14GovforComputerDropshipWeaponsSmall
-  suffix: ent-AU14GovforComputerDropshipWeaponsSmall-suffix
-  description: ent-AU14GovforComputerDropshipWeaponsSmall-desc
+  name: dropship weapons computer
+  suffix: Govfor, small
+  description: A compact computer that can manage equipment, weapons and simulations installed on the dropship.
   components:
   - type: Transform
     anchored: false
@@ -286,9 +286,9 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeaponsGovfor
-  name: ent-CMComputerDropshipWeaponsGovfor
-  description: ent-CMComputerDropshipWeaponsGovfor-desc
-  suffix: ent-CMComputerDropshipWeaponsGovfor-suffix
+  name: weapons controls
+  description: A computer to manage equipment, weapons and simulations installed on the govfor dropship.
+  suffix: Govfor
   components:
   - type: Sprite
     state: consoleright
@@ -315,9 +315,9 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeaponsOpfor
-  name: ent-CMComputerDropshipWeaponsOpfor
-  description: ent-CMComputerDropshipWeaponsOpfor-desc
-  suffix: ent-CMComputerDropshipWeaponsOpfor-suffix
+  name: weapons controls
+  description: A computer to manage equipment, weapons and simulations installed on the opfor dropship.
+  suffix: Opfor
   components:
   - type: Sprite
     state: consoleright
@@ -344,8 +344,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestination
-  name: ent-CMDropshipDestination
-  description: ent-CMDropshipDestination-desc
+  name: dropship destination
+  description: Defines a valid location for the dropships to FTL to when piloted.
   placement:
     mode: SnapgridCenter
   components:
@@ -359,8 +359,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestinationHome
-  name: ent-CMDropshipDestinationHome
-  description: ent-CMDropshipDestinationHome-desc
+  name: dropship destination(home)
+  description: Defines a valid location for the dropships to FTL to when piloted. (home)
   placement:
     mode: SnapgridCenter
   components:
@@ -375,8 +375,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestinationOpforWhitelist
-  name: ent-CMDropshipDestinationOpforWhitelist
-  description: ent-CMDropshipDestinationOpforWhitelist-desc
+  name: dropship destination
+  description: Defines a valid location for the dropships to FTL to when piloted.
   placement:
     mode: SnapgridCenter
   components:
@@ -391,8 +391,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipHijackDestination
-  name: ent-CMDropshipHijackDestination
-  description: ent-CMDropshipHijackDestination-desc
+  name: hijack destination
+  description: Defines a valid location for the dropships to FTL to when hijacked.
   placement:
     mode: SnapgridCenter
   components:
@@ -406,8 +406,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestinationThirdPartyWhitelist
-  name: ent-CMDropshipDestinationThirdPartyWhitelist
-  description: ent-CMDropshipDestinationThirdPartyWhitelist-desc
+  name: dropship destination (third party)
+  description: Defines a valid location for third party dropships to FTL to when piloted.
   placement:
     mode: SnapgridCenter
   components:
@@ -422,13 +422,14 @@
 - type: entity
   parent: CMDropshipDestinationThirdPartyWhitelist
   id: CMDropshipDestinationThirdPartyReturn
-  name: ent-CMDropshipDestinationThirdPartyReturn
-  description: ent-CMDropshipDestinationThirdPartyReturn-desc
+  name: Return to Deep Space
+  description: Sends a third party dropship back to its holding pattern.
+
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestinationGovforWhitelist
-  name: ent-CMDropshipDestinationGovforWhitelist
-  description: ent-CMDropshipDestinationGovforWhitelist-desc
+  name: dropship destination (govfor)
+  description: Defines a valid location for third party dropships to FTL to when piloted.
   placement:
     mode: SnapgridCenter
   components:
@@ -443,7 +444,7 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationGovfor
-  name: ent-CMComputerDropshipNavigationGovfor
+  name: dropship navigation computer (govfor)
   components:
   - type: AccessReader
     access: [ ]
@@ -454,9 +455,9 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: AU14GovforComputerDropshipPilotSmall
-  name: ent-AU14GovforComputerDropshipPilotSmall
-  suffix: ent-AU14GovforComputerDropshipPilotSmall-suffix
-  description: ent-AU14GovforComputerDropshipPilotSmall-desc
+  name: dropship navigation computer
+  suffix: Govfor, small
+  description: A compact computer that can pilot the dropship and designate tactical landings.
   components:
   - type: Transform
     anchored: false
@@ -495,7 +496,7 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationThirdParty
-  name: ent-CMComputerDropshipNavigationThirdParty
+  name: dropship navigation computer (Third Party)
   components:
   - type: WhitelistedShuttle
     faction: thirdparty

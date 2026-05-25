@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmyTrooperBase
-  name: job-au14usarmytrooperbase-name
-  description: job-au14usarmytrooperbase-desc
+  name: au14-job-name-usarmy-trooper
+  description: au14-job-description-usarmy
   playTimeTracker: AU14JobUSArmyTrooper
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14USArmyTrooperBase
   id: AU14JobUSArmyTrooperArmored
-  name: job-au14jobusarmytrooperarmored-name
-  description: job-au14jobusarmytrooperarmored-desc
+  name: au14-job-name-usarmy-trooper
+  description: au14-job-description-usarmy
   ranks:
     USArmy_Specialist:
     - !type:RoleTimeRequirement
@@ -22,12 +22,12 @@
       role: AU14JobUSArmyTrooper
       time: 18000 #5 hours
     USArmy_Private2: []
-  spawnMenuRoleName: job-au14jobusarmytrooperarmored-spawnmenurolename
+  spawnMenuRoleName: US Army Trooper (AU14, 3rd Party)
   startingGear: AU14GearUSArmyTrooperArmored
   greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyTrooper"
   joinNotifyCrew: false
-  supervisors: job-au14jobusarmytrooperarmored-supervisors
+  supervisors: cm-job-name-squad-leader
   accessGroups:
   - AU14GovforSquad
   special:
@@ -54,7 +54,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTrooperArmored
-  name: ent-AU14JobUSArmyTrooperArmored
+  name: US Army Trooper (ERT)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

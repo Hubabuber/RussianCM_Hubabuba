@@ -1,59 +1,59 @@
-- type: accessLevel
+﻿- type: accessLevel
   id: RMCAccessCommand
   parent: RMCBaseCommandAccess
-  name: accesslevel-rmcaccesscommand-name
+  name: id-card-access-level-command
 
 - type: accessLevel
   id: CMAccessCMP
   parent: RMCBaseMPAccess
-  name: accesslevel-cmaccesscmp-name
+  name: cm-job-name-chief-mp
 
 - type: accessLevel
   id: CMAccessQM
   parent: RMCBaseCommandAccess
-  name: accesslevel-cmaccessqm-name
+  name: id-card-access-level-quartermaster
 
 - type: accessLevel
   id: CMAccessSEA
   parent: RMCBaseHidden
-  name: accesslevel-cmaccesssea-name
+  name: cm-job-name-senior-enlisted-advisor
 
 - type: accessLevel
   id: CMAccessCO
   parent: RMCBaseHidden
-  name: accesslevel-cmaccessco-name
+  name: cm-job-name-commanding-officer
 
 - type: accessLevel
   id: CMAccessCMO
   parent: RMCBaseMedicalAccess
-  name: accesslevel-cmaccesscmo-name
+  name: rmc-job-name-cmo
 
 - type: accessLevel
   id: CMAccessCE
   parent: RMCBaseEngineeringAccess
-  name: accesslevel-cmaccessce-name
+  name: Chief Engineer
 
 - type: accessLevel
   id: CMAccessASO
   parent: RMCBaseHidden
-  name: accesslevel-cmaccessaso-name
+  name: cm-job-name-aso
 
 - type: accessLevel
   id: CMAccessCorp
   parent: RMCBaseHidden
-  name: accesslevel-cmaccesscorp-name
+  name: cm-job-name-corp
 
 - type: accessLevel
   id: RMCAccessDatabase
   parent: RMCBaseCommandAccess
-  name: accesslevel-rmcaccessdatabase-name
+  name: Database
 
 - type: accessLevel
   id: RMCAccessSeniorCommand
   parent: RMCBaseCommandAccess
-  name: accesslevel-rmcaccessseniorcommand-name
+  name: Senior Command
 
 # Admin only.
 - type: accessLevel
   id: CMAccessHighCommand
-  name: accesslevel-cmaccesshighcommand-name
+  name: cm-job-name-high-command

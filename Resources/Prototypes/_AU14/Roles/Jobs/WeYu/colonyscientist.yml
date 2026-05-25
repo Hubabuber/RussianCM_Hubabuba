@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianScientistBase
-  name: job-au14jobcivilianscientistbase-name
-  description: job-au14jobcivilianscientistbase-desc
+  name: au14-job-name-civilianscientist
+  description: au14-job-description-civilianscientist
   playTimeTracker: AU14JobCivilianScientist
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobCivilianScientistBase
   id: AU14JobCivilianScientist
-  name: job-au14jobcivilianscientist-name
-  description: job-au14jobcivilianscientist-desc
+  name: au14-job-name-civilianscientist
+  description: au14-job-description-civilianscientist
   setPreference: true
   canBeAntag: true
   playTimeTracker: AU14JobCivilianScientist
@@ -29,8 +29,8 @@
   icon: "RMCJobIconPMCScientist"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianscientist-supervisors
-  spawnMenuRoleName: job-au14jobcivilianscientist-spawnmenurolename
+  supervisors: au14-job-supervisors-colonycivilian
+  spawnMenuRoleName: WY Scientist (CMU)
   accessGroups:
   - Colonist
   - auwy
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianScientist
-  name: ent-AU14SpawnPointCivilianScientist
+  name: Spawn Point Civilian Scientist
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianScientist

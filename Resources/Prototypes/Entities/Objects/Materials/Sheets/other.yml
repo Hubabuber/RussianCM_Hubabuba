@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: SheetOtherBase
-  description: ent-SheetOtherBase-desc
+  description: A sheet of material, used often on the station in various applications.
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/other.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPaper
-  name: ent-SheetPaper
-  suffix: ent-SheetPaper-suffix
+  name: paper
+  suffix: Full
   components:
   - type: Stack
     stackType: Paper
@@ -65,8 +65,8 @@
 - type: entity
   parent: SheetPaper
   id: SheetPaper1
-  name: ent-SheetPaper1
-  suffix: ent-SheetPaper1-suffix
+  name: paper
+  suffix: Single
   components:
   - type: Sprite
     state: paper
@@ -76,8 +76,8 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlasma
-  name: ent-SheetPlasma
-  suffix: ent-SheetPlasma-suffix
+  name: plasma
+  suffix: Full
   components:
   - type: Material
   - type: PhysicalComposition
@@ -114,7 +114,7 @@
 - type: entity
   parent: SheetPlasma
   id: SheetPlasma10
-  suffix: ent-SheetPlasma10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: plasma
@@ -124,8 +124,8 @@
 - type: entity
   parent: SheetPlasma
   id: SheetPlasma1
-  name: ent-SheetPlasma1
-  suffix: ent-SheetPlasma1-suffix
+  name: plasma
+  suffix: Single
   components:
   - type: Sprite
     state: plasma
@@ -135,8 +135,8 @@
 - type: entity
   parent: SheetPlasma
   id: SheetPlasmaLingering0
-  name: ent-SheetPlasmaLingering0
-  suffix: ent-SheetPlasmaLingering0-suffix
+  name: plasma
+  suffix: 0, Lingering
   components:
   - type: Stack
     lingering: true
@@ -145,8 +145,8 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlastic
-  name: ent-SheetPlastic
-  suffix: ent-SheetPlastic-suffix
+  name: plastic
+  suffix: Full
   components:
   - type: Tag
     tags:
@@ -186,8 +186,8 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic10
-  name: ent-SheetPlastic10
-  suffix: ent-SheetPlastic10-suffix
+  name: plastic
+  suffix: 10
   components:
   - type: Sprite
     state: plastic
@@ -197,8 +197,8 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic1
-  name: ent-SheetPlastic1
-  suffix: ent-SheetPlastic1-suffix
+  name: plastic
+  suffix: Single
   components:
   - type: Sprite
     state: plastic
@@ -208,8 +208,8 @@
 - type: entity
   parent: [SheetOtherBase, EdibleBase]
   id: SheetUranium
-  name: ent-SheetUranium
-  suffix: ent-SheetUranium-suffix
+  name: uranium
+  suffix: Full
   components:
   - type: Material
   - type: Food
@@ -248,8 +248,8 @@
 - type: entity
   parent: SheetUranium
   id: SheetUranium1
-  name: ent-SheetUranium1
-  suffix: ent-SheetUranium1-suffix
+  name: uranium
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -257,8 +257,8 @@
 - type: entity
   parent: SheetOtherBase
   id: MaterialSheetMeat
-  name: ent-MaterialSheetMeat
-  suffix: ent-MaterialSheetMeat-suffix
+  name: meat sheet
+  suffix: Full
   components:
     - type: Sprite
       sprite: Objects/Materials/Sheets/meaterial.rsi
@@ -297,7 +297,7 @@
 - type: entity
   parent: MaterialSheetMeat
   id: MaterialSheetMeat1
-  suffix: ent-MaterialSheetMeat1-suffix
+  suffix: Single
   components:
     - type: Sprite
       state: meat

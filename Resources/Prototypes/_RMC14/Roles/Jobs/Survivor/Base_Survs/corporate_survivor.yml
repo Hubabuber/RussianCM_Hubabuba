@@ -1,8 +1,8 @@
 - type: job
   parent: [ RMCJobNametagBase, CMSurvivor ]
   id: CMSurvivorCorporate
-  name: job-cmsurvivorcorporate-name
-  description: job-cmsurvivorcorporate-desc
+  name: cm-job-name-survivor-corporate
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorCorporate
   icon: "CMJobIconLiaison"
   hasIcon: true
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorCorporate
-  name: ent-RMCSpawnPointSurvivorCorporate
+  name: survivor corporate spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -77,13 +77,13 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetCorporate
-  name: ent-RMCSurvivorPresetCorporate
+  name: corporate colonist preset
   categories: [ HideSpawnMenu ]   # TODO RMC14 random research notes
 
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorCorporate
-  name: ent-RMCRandomHumanoidSurvivorCorporate
+  name: corporate colonist ghost role
   components:
   - type: Sprite
     layers:

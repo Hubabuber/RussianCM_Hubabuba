@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorDoctor
   id: RMCSurvivorHybrisaEMTParamedic
-  name: job-rmcsurvivorhybrisaemtparamedic-name
-  description: job-rmcsurvivorhybrisaemtparamedic-desc
+  name: rmc-job-name-survivor-emt-paramedic
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaEMTParamedic
-  spawnMenuRoleName: job-rmcsurvivorhybrisaemtparamedic-spawnmenurolename
+  spawnMenuRoleName: EMT Paramedic (Hybrisa Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaEMTParamedic
-  name: ent-RMCSpawnPointSurvivorHybrisaEMTParamedic
+  name: emt paramedic spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetHybrisaEMTParamedic
-  name: ent-RMCGearSurvivorPresetHybrisaEMTParamedic
+  name: emt paramedic preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,39 +1,39 @@
 ent-RMCHybrisaRainLightProp = небольшой дождь
   .desc = Это небольшой дождь, падающий с неба.
-    .suffix = небольшой дождь
+
 ent-RMCHybrisaRainVeryLightProp = очень легкий дождь
   .desc = Это очень небольшой дождь, падающий с неба.
-    .suffix = очень легкий дождь
+
 ent-RMCHybrisaRainProp = дождь
   .desc = Это дождь, падающий с неба.
-    .suffix = дождь
+
 ent-RMCTrijentRainLightProp = небольшой дождь
   .desc = Это небольшой дождь, падающий с неба.
-    .suffix = небольшой дождь
+
 ent-RMCStrataStormVeryLightProp = очень легкий дождь
   .desc = Это очень небольшой дождь, падающий с неба.
-    .suffix = очень легкий дождь
+
 ent-RMCStrataStormLightProp = небольшой дождь
   .desc = Это небольшой дождь, падающий с неба.
-    .suffix = небольшой дождь
+
 ent-RMCStrataStormProp = дождь
   .desc = Это дождь, падающий с неба.
-    .suffix = дождь
+
 ent-RMCBigRedDustProp = пыльная буря
   .desc = Это пыль, падающая с неба.
-    .suffix = пыльная буря
+
 ent-RMCBigRedSandProp = песчаная буря
   .desc = Это песок, падающий с неба.
-    .suffix = песчаная буря
+
 ent-RMCBigRedRocksProp = каменная буря
   .desc = Это камни, падающие с неба.
-    .suffix = каменная буря
+
 ent-RMCStrataClearskyProp = легкий снег
   .desc = Это снег, падающий с неба.
-    .suffix = легкий снег
+
 ent-RMCStrataSnowingProp = метель
   .desc = Это снег, падающий с неба.
-    .suffix = метель
+
 ent-RMCStrataBlizzardProp = метель
   .desc = С неба падает много снега.
-    .suffix = метель
+

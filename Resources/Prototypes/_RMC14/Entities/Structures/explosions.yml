@@ -3,8 +3,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCMortarExplosionHE
-  name: ent-RMCMortarExplosionHE
-  suffix: ent-RMCMortarExplosionHE-suffix
+  name: he mortar explosion
+  suffix: Fires a mortar shell!
   placement:
     mode: SnapgridCenter
   components:
@@ -22,8 +22,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCMortarExplosionIncendiary
-  name: ent-RMCMortarExplosionIncendiary
-  suffix: ent-RMCMortarExplosionIncendiary-suffix
+  name: incendiary mortar explosion
+  suffix: Fires a mortar shell!
   placement:
     mode: SnapgridCenter
   components:
@@ -44,8 +44,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCMortarExplosionFlare
-  name: ent-RMCMortarExplosionFlare
-  suffix: ent-RMCMortarExplosionFlare-suffix
+  name: mortar flare/camera
+  suffix: Fires a mortar shell!
   placement:
     mode: SnapgridCenter
   components:
@@ -58,8 +58,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCDropshipGauBurst
-  name: ent-RMCDropshipGauBurst
-  suffix: ent-RMCDropshipGauBurst-suffix
+  name: dropship Multi-Purpose GAU burst
+  suffix: Fires a GAU burst!
   placement:
     mode: SnapgridCenter
   components:
@@ -85,8 +85,8 @@
 - type: entity
   parent: RMCDropshipGauBurst
   id: RMCDropshipGauBurstAntiTank
-  name: ent-RMCDropshipGauBurstAntiTank
-  suffix: ent-RMCDropshipGauBurstAntiTank-suffix
+  name: dropship Anti-Tank GAU burst
+  suffix: Fires a GAU burst!
   placement:
     mode: SnapgridCenter
   components:
@@ -101,8 +101,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCDropshipLaserFire
-  name: ent-RMCDropshipLaserFire
-  suffix: ent-RMCDropshipLaserFire-suffix
+  name: dropship laser
+  suffix: Fires a laser!
   placement:
     mode: SnapgridCenter
   components:
@@ -131,7 +131,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCDropshipMissileExplosionBase
-  suffix: ent-RMCDropshipMissileExplosionBase-suffix
+  suffix: Fires a missle!
   abstract: true
   components:
   - type: ActivateDropshipWeaponOnSpawn
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionWidowmaker
-  name: ent-RMCDropshipMissileExplosionWidowmaker
+  name: AIM-224B 'Widowmaker' explosion
   components:
   - type: DropshipAmmo
     travelTime: 3
@@ -161,7 +161,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionKeeper
-  name: ent-RMCDropshipMissileExplosionKeeper
+  name: GBU-67 'Keeper II' explosion
   components:
   - type: DropshipAmmo
     travelTime: 2
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionNapalm
-  name: ent-RMCDropshipMissileExplosionNapalm
+  name: AGM-99 'Napalm' explosion
   components:
   - type: DropshipAmmo
     travelTime: 6
@@ -189,7 +189,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionHarpoon
-  name: ent-RMCDropshipMissileExplosionHarpoon
+  name: AGM-184 'Harpoon II' explosion
   components:
   - type: DropshipAmmo
     travelTime: 5
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionThermobaric
-  name: ent-RMCDropshipMissileExplosionThermobaric
+  name: BLU-200 'Dragon's Breath' explosion
   components:
   - type: DropshipAmmo
     travelTime: 5
@@ -220,7 +220,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionBanshee
-  name: ent-RMCDropshipMissileExplosionBanshee
+  name: AGM-227 'Banshee' explosion
   components:
   - type: DropshipAmmo
     travelTime: 6
@@ -238,7 +238,7 @@
   parent: MarkerBase
   id: RMCDropshipMiniRocketExplosionBase
   abstract: true
-  suffix: ent-RMCDropshipMiniRocketExplosionBase-suffix
+  suffix: Fires a mini rocket!
   components:
   - type: ActivateDropshipWeaponOnSpawn
   - type: DropshipAmmo
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCDropshipMiniRocketExplosionBase
   id: RMCDropshipMiniRocketExplosionMiniMike
-  name: ent-RMCDropshipMiniRocketExplosionMiniMike
+  name: AGR-59 'Mini-Mike' explosion
   components:
   - type: DropshipAmmo
     explosion:
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCDropshipMiniRocketExplosionMiniMike
   id: RMCDropshipMiniRocketExplosionMiniMikeIncindiary
-  name: ent-RMCDropshipMiniRocketExplosionMiniMikeIncindiary
+  name: AGR-59-I 'Mini-Mike' explosion
   components:
   - type: DropshipAmmo
     fire:
@@ -278,7 +278,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionBurningPostman
-  name: ent-RMCDropshipMissileExplosionBurningPostman
+  name: GBU-89B NT 'Burning Postman' explosion
   components:
   - type: DropshipAmmo
     travelTime: 11
@@ -297,7 +297,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionPostman
-  name: ent-RMCDropshipMissileExplosionPostman
+  name: GBU-89B 'Postman' explosion
   components:
   - type: DropshipAmmo
     travelTime: 12
@@ -312,7 +312,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionDoubleWidow
-  name: ent-RMCDropshipMissileExplosionDoubleWidow
+  name: AIM-224A 'Double Widow' explosion
   components:
   - type: DropshipAmmo
     rounds: 2
@@ -328,7 +328,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionDoubleWidowADMIN
-  name: "ent-RMCDropshipMissileExplosionDoubleWidowADMIN"
+  name: "AIM-224A 'Octuple Widow' explosion (DO NOT ABUSE)"
   components:
   - type: DropshipAmmo
     rounds: 8
@@ -344,7 +344,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionCBU250
-  name: "ent-RMCDropshipMissileExplosionCBU250"
+  name: "CBU-250 'Dinner Spread'"
   components:
   - type: DropshipAmmo
     travelTime: 6
@@ -363,7 +363,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionOverpressure
-  name: ent-RMCDropshipMissileExplosionOverpressure
+  name: BLU-176 'Overpressure' explosion
   components:
   - type: DropshipAmmo
     travelTime: 5
@@ -384,7 +384,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionBansheeHorde
-  name: ent-RMCDropshipMissileExplosionBansheeHorde
+  name: CBU-607 'Skeet Shooter' Rack explosion
   components:
   - type: DropshipAmmo
     travelTime: 4

@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: CMUIEDBase
-  name: ent-CMUIEDBase
-  description: ent-CMUIEDBase-desc
+  name: grenade
+  description: Duck and cover.
   components:
   - type: Explosive
     explosionType: RMC
@@ -29,8 +29,8 @@
 - type: entity
   parent: CMUIEDBase
   id: CMUPipeBomb
-  name: ent-CMUPipeBomb
-  description: ent-CMUPipeBomb-desc
+  name: pipe bomb
+  description: A cheap way to injure someone. Designed by your local insurgent’s.
   components:
   - type: Sprite
     sprite: _CMU14/Items/pipebomb.rsi
@@ -65,9 +65,9 @@
 - type: entity
   parent: BaseItem
   id: CMUPipeBombFuse
-  name: ent-CMUPipeBombFuse
-  description: ent-CMUPipeBombFuse-desc
-  suffix: ent-CMUPipeBombFuse-suffix
+  name: pipe bomb
+  description: Incomplete. Seems like it need’s Cable as the fuse
+  suffix: Fuse
   components:
   - type: Sprite
     sprite: _CMU14/Items/pipebomb.rsi
@@ -81,9 +81,9 @@
 - type: entity
   parent: BaseItem
   id: CMUPipeBombCasing
-  name: ent-CMUPipeBombCasing
-  description: ent-CMUPipeBombCasing-desc
-  suffix: ent-CMUPipeBombCasing-suffix
+  name: pipe bomb
+  description: Empty casing. Seems like it need a Lighter.
+  suffix: Casing
   components:
   - type: Sprite
     sprite: _CMU14/Items/pipebomb.rsi

@@ -1,11 +1,11 @@
-- type: job
+﻿- type: job
   parent: CMSurvivorScientist
   id: CMSurvivorChancesEnvironmentalResearcher
-  name: job-cmsurvivorchancesenvironmentalresearcher-name
-  description: job-cmsurvivorchancesenvironmentalresearcher-desc
+  name: rmc-job-name-colonist-environmental-researcher
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorChancesEnvironmentalResearcher
   startingGear: RMCGearSurvivorChancesEnvironmentalResearcher
-  spawnMenuRoleName: job-cmsurvivorchancesenvironmentalresearcher-spawnmenurolename
+  spawnMenuRoleName: Environmental Researcher (Chance's Colonist)
   greeting: rmc-job-greeting-chances-colonist
   special:
   - !type:AddComponentSpecial
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesEnvironmentalResearcher
-  name: ent-RMCSpawnPointSurvivorChancesEnvironmentalResearcher
+  name: enviromental researcher spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -61,7 +61,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesEnvironmentalResearcher
-  name: ent-RMCRandomHumanoidSurvivorChancesEnvironmentalResearcher
+  name: chances environmental researcher ghost role
   components:
   - type: Sprite
     layers:

@@ -10,29 +10,9 @@ ent-FenceMetalGate-desc = Вы могли бы использовать двер
 ent-FenceMetalStraight-name = сетчатый забор
 ent-FenceMetalStraight-desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
 
-ent-FenceMetalCorner-name = сетка-рабица (угол)
+ent-FenceMetalCorner-name = construction-recipe-fence-metal-corner
 ent-FenceMetalCorner-desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
 
-ent-FenceMetalEnd-name = сетка-рабица (конец)
+ent-FenceMetalEnd-name = construction-recipe-fence-metal-end
 ent-FenceMetalEnd-desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
 
-ent-BaseFenceMetal = сетчатый забор
-    .desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
-
-ent-FenceMetalBroken = сломанная цепь забора
-    .desc = Кто-то очень разозлился на неодушевленный предмет.
-
-ent-FenceMetalCorner = сетчатый забор
-    .desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
-    .suffix = Угол
-
-ent-FenceMetalEnd = сетчатый забор
-    .desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
-    .suffix = Конец
-
-ent-FenceMetalGate = ворота для забора из звеньев цепи
-    .desc = Вы могли бы использовать дверь вместо того, чтобы перепрыгивать через нее - конечно, если вы ТРУС.
-
-ent-FenceMetalStraight = сетчатый забор
-    .desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
-    .suffix = Прямой

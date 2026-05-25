@@ -1,47 +1,48 @@
 ent-CMDoubleDoorBase = дверь
+
 ent-CMDoubleDoorAlmayerGlass = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorAlmayerSolid = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorCommandGlass = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorCommandSolid = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorEngineerGlass = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorEngineerSolid = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorGenericGlass = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorGlassHybrisa = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSolidHybrisa = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorHybrisaMecical = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorHybrisaGlassMecical = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorGenericSolid = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorMedicalGlass = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorMedicalSolid = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPersonalGlass = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPersonalSolid = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPreparations = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPreparationsAlpha = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPreparationsBravo = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPreparationsCharlie = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPreparationsDelta = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorSecurityGlass = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorSecuritySolid = дверь
-    .suffix = дверь
+

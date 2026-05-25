@@ -1,9 +1,9 @@
 - type: entity
   id: MineralScannerUnpowered
   parent: BaseItem
-  name: ent-MineralScannerUnpowered
-  description: ent-MineralScannerUnpowered-desc
-  suffix: ent-MineralScannerUnpowered-suffix
+  name: mineral scanner
+  description: A scanner that checks surrounding rock for useful minerals. It must be in your hand or pocket to work.
+  suffix: Always Powered
   components:
   - type: Sprite
     sprite: Objects/Specific/Mining/mineral_scanner.rsi
@@ -42,7 +42,7 @@
 - type: entity
   id: MineralScanner
   parent: [ MineralScannerUnpowered, PowerCellSlotMediumItem ]
-  suffix: "ent-MineralScanner-suffix"
+  suffix: ""
   components:
   - type: ToggleCellDraw
   - type: PowerCellDraw
@@ -52,7 +52,7 @@
 - type: entity
   id: MineralScannerEmpty
   parent: MineralScanner
-  suffix: ent-MineralScannerEmpty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -62,9 +62,9 @@
 - type: entity
   id: AdvancedMineralScannerUnpowered
   parent: MineralScannerUnpowered
-  name: ent-AdvancedMineralScannerUnpowered
-  description: ent-AdvancedMineralScannerUnpowered-desc
-  suffix: ent-AdvancedMineralScannerUnpowered-suffix
+  name: advanced mineral scanner
+  description: A scanner that checks surrounding rock for useful minerals. It must be in your hand or pocket to work. This one has an extended range.
+  suffix: Always Powered
   components:
   - type: Sprite
     layers:
@@ -86,7 +86,7 @@
 - type: entity
   id: AdvancedMineralScanner
   parent: [ AdvancedMineralScannerUnpowered, PowerCellSlotMediumItem ]
-  suffix: "ent-AdvancedMineralScanner-suffix"
+  suffix: ""
   components:
   - type: ToggleCellDraw
   - type: PowerCellDraw
@@ -96,7 +96,7 @@
 - type: entity
   id: AdvancedMineralScannerEmpty
   parent: AdvancedMineralScanner
-  suffix: ent-AdvancedMineralScannerEmpty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:

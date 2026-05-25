@@ -1,14 +1,14 @@
 ent-RMCRandomHumanoidEchoWeaponsSpecialist = Эхо-призрак, специалист по оружию
-    .suffix = Эхо-призрак, специалист по оружию
+
 ent-RMCRandomHumanoidEchoSquadLeader = Эхо-призрак, роль лидера отряда
-    .suffix = Эхо-призрак, роль лидера отряда
+
 ent-RMCRandomHumanoidEchoSmartGunOperator = роль эха-призрака, оператор умного оружия
-    .suffix = роль эха-призрака, оператор умного оружия
+
 ent-RMCRandomHumanoidEchoRifleman = эхо призрак роль стрелок
-    .suffix = эхо призрак роль стрелок
+
 ent-RMCRandomHumanoidEchoHospitalCorpsman = эхо-призрак роль санитара больницы
-    .suffix = эхо-призрак роль санитара больницы
+
 ent-RMCRandomHumanoidEchoFireteamLeader = Эхо-призрак, роль лидера боевой группы
-    .suffix = Эхо-призрак, роль лидера боевой группы
+
 ent-RMCRandomHumanoidEchoCombatTech = роль эха-призрака, боевой техник
-    .suffix = роль эха-призрака, боевой техник
+

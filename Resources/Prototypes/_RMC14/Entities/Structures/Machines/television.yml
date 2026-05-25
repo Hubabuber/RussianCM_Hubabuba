@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [ BaseMachinePowered, RMCConstructibleMachine ]
   id: RMCTelevision
-  name: ent-RMCTelevision
-  description: ent-RMCTelevision-desc
+  name: television set
+  description: An old TV hooked up to a video cassette recorder, you can even use it to time shift WOW.
   components:
   - type: Transform
     anchored: true
@@ -47,8 +47,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCCircuitboardTelevision
-  name: ent-RMCCircuitboardTelevision
-  description: ent-RMCCircuitboardTelevision-desc
+  name: circuit board (television set)
+  description: A machine printed circuit board for a television set.
   components:
   - type: MachineBoard
     prototype: RMCTelevision
@@ -56,7 +56,7 @@
 - type: entity
   parent: RMCTelevision
   id: RMCTelevisionWallMount
-  suffix: ent-RMCTelevisionWallMount-suffix
+  suffix: Wall Mount
   components:
   - type: WallMount
     arc: 360

@@ -1,18 +1,19 @@
 - type: job
   parent: CMSurvivorGoon
   id: CMSurvivorLV624CorporateDomeGoon
-  name: job-cmsurvivorlv624corporatedomegoon-name
-  description: job-cmsurvivorlv624corporatedomegoon-desc
+  name: rmc-job-name-pmc-corporate-goon
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
-  spawnMenuRoleName: job-cmsurvivorlv624corporatedomegoon-spawnmenurolename
+  spawnMenuRoleName: We-Ya Goon (Survivor Special)
   icon: "RMCJobIconPMCGoonStandard"
   ranks:
     RMCRankCivilianOfficer: []
   greeting: rmc-job-greeting-corporate-dome-goon
+
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CorporateDomeGoon
-  name: ent-RMCSpawnPointSurvivorLV624CorporateDomeGoon
+  name: special survivor lv624 goon spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorLV624CorporateDomeGoon
@@ -26,4 +27,4 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetLV624CorporateDomeGoon
-  name: ent-RMCGearSurvivorPresetLV624CorporateDomeGoon
+  name: lv624 colonist preset

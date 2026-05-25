@@ -3,19 +3,19 @@
   id: CMWeYaresponder
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-cmweyaresponder-name
-  description: job-cmweyaresponder-desc
+  name: rmc-job-name-weya-responder
+  description: rmc-job-description-weya-responder
   playTimeTracker: CMJobWeYaResponder
   ranks:
     RMCRankWeYaExecutiveSpecialist: []
   startingGear: RMCGearWeYaResponder
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-cmweyaresponder-supervisors
+  supervisors: cm-job-supervisors-staff
   accessGroups:
   - ShipMasterAccess
   - RMCWeYa
-  spawnMenuRoleName: job-cmweyaresponder-spawnmenurolename
+  spawnMenuRoleName: WEYA Communications Executive
   special:
   - !type:AddComponentSpecial
     components:
@@ -60,8 +60,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardWeYaResponder
-  name: ent-RMCIDCardWeYaResponder
-  description: ent-RMCIDCardWeYaResponder-desc
+  name: We-Ya Communications Executive ID card
+  description: A fancy, faux gold plated ID card. One of many given to Weyland-Yutani's army of fax operators.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/gold_id.rsi

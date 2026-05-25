@@ -1,9 +1,0 @@
-accessgroup-rmcbaseauxiliaryjob-name = protobaseaccess ККМ ООН Вспомогательный
-accessgroup-rmcbasecommandjob-name = protobaseaccess ККМ Командование ООН
-accessgroup-rmcbaseengineeringjob-name = protobaseaccess ККМ ООН Инжиниринг
-accessgroup-rmcbasehidden-name = protobaseaccess ККМ ООН Скрытый
-accessgroup-rmcbasemarinesjob-name = protobaseaccess ККМ ООН морпехи
-accessgroup-rmcbasemedicaljob-name = protobaseaccess ККМ ООН Medical
-accessgroup-rmcbasemiscellaneousjob-name = protobaseaccess ККМ ООН Разное
-accessgroup-rmcbasempjob-name = protobaseaccess ККМ Военная полиция ООН
-accessgroup-rmcbaserequisitionsjob-name = protobaseaccess ККМ ООН Реквизиты

@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: AirSensorBase
   id: AirSensorFreezerBase
-  suffix: ent-AirSensorFreezerBase-suffix
+  suffix: Freezer Atmosphere
   components:
   - type: AtmosMonitor
     temperatureThresholdId: freezerTemperature
@@ -23,7 +23,7 @@
 - type: entity
   parent: AirAlarm
   id: AirAlarmFreezer
-  suffix: ent-AirAlarmFreezer-suffix
+  suffix: Freezer Atmosphere, auto mode disabled
   components:
   - type: AirAlarm
     autoMode: false

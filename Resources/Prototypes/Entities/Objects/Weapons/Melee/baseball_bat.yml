@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-BaseBallBat
+  name: baseball bat
   parent: [BaseItem, BaseMinorContraband]
   id: BaseBallBat
-  description: ent-BaseBallBat-desc
+  description: A robust baseball bat.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/baseball_bat.rsi
@@ -44,10 +44,10 @@
     - BaseballBat
 
 - type: entity
-  name: ent-IncompleteBaseBallBat
+  name: incomplete baseball bat
   parent: BaseItem
   id: IncompleteBaseBallBat
-  description: ent-IncompleteBaseBallBat-desc
+  description: A few planks of wood stuck together.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/incomplete_bat.rsi
@@ -60,10 +60,10 @@
     node: incompleteBat
 
 - type: entity
-  name: ent-WeaponMeleeKnockbackStick
+  name: knockback stick
   parent: BaseBallBat
   id: WeaponMeleeKnockbackStick
-  description: ent-WeaponMeleeKnockbackStick-desc
+  description: And then he spleefed all over.
   categories: [ DoNotMap ]
   components:
   - type: MeleeThrowOnHit

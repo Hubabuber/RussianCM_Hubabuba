@@ -3,13 +3,13 @@
 - type: material
   id: RMCPlastic
   stackEntity: RMCSheetPlastic
-  name: material-rmcplastic-name
+  name: materials-plastic
   icon: { sprite: _RMC14/Objects/Materials/Sheets/plastic.rsi, state: plastic }
   price: 0.01
 
 - type: stack
   id: RMCPlastic
-  name: stack-rmcplastic-name
+  name: plastic
   icon: { sprite: _RMC14/Objects/Materials/Sheets/plastic.rsi, state: plastic }
   spawn: RMCSheetPlastic
   maxCount: 50
@@ -17,9 +17,9 @@
 - type: entity
   parent: SheetOtherBase
   id: RMCSheetPlastic
-  name: ent-RMCSheetPlastic
-  description: ent-RMCSheetPlastic-desc
-  suffix: ent-RMCSheetPlastic-suffix
+  name: plastic
+  description: Plastic is a synthetic polymer, manufactured from organic and inorganic components into a malleable and light fabric. It can be used for a wide range of objects.
+  suffix: Full
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Materials/Sheets/plastic.rsi
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCSheetPlastic
   id: RMCSheetPlastic10
-  suffix: ent-RMCSheetPlastic10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: plastic_2
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCSheetPlastic
   id: RMCSheetPlastic1
-  suffix: ent-RMCSheetPlastic1-suffix
+  suffix: Single
   components:
   - type: Sprite
     state: plastic

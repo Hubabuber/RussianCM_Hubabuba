@@ -16,23 +16,3 @@ ent-ParticleAcceleratorEmitterForeUnfinished-desc = Это запускает а
 ent-ParticleAcceleratorEmitterStarboardUnfinished-name = Излучатель сдерживания правого борта PA
 ent-ParticleAcceleratorEmitterStarboardUnfinished-desc = Это запускает альфа-частицы, возможно, они не захотят стоять возле этого конца. Выглядит незавершенным.
 
-ent-ParticleAcceleratorEmitterFore = Передний излучатель защитной оболочки PA
-    .desc = Это запускает альфа-частицы, возможно, они не захотят стоять возле этого конца.
-
-ent-ParticleAcceleratorEmitterForeUnfinished = Передний излучатель защитной оболочки PA
-    .desc = Это запускает альфа-частицы, возможно, они не захотят стоять возле этого конца. Выглядит незавершенным.
-    .suffix = Незаконченный, Передний
-
-ent-ParticleAcceleratorEmitterPort = Эмиттер сдерживания порта PA
-    .desc = Это запускает альфа-частицы, возможно, они не захотят стоять возле этого конца.
-
-ent-ParticleAcceleratorEmitterPortUnfinished = Эмиттер сдерживания порта PA
-    .desc = Это запускает альфа-частицы, возможно, они не захотят стоять возле этого конца. Выглядит незавершенным.
-    .suffix = Незаконченный, Порт
-
-ent-ParticleAcceleratorEmitterStarboard = Излучатель сдерживания правого борта PA
-    .desc = Это запускает альфа-частицы, возможно, они не захотят стоять возле этого конца.
-
-ent-ParticleAcceleratorEmitterStarboardUnfinished = Излучатель сдерживания правого борта PA
-    .desc = Это запускает альфа-частицы, возможно, они не захотят стоять возле этого конца. Выглядит незавершенным.
-    .suffix = Незаконченный, правый борт

@@ -1,9 +1,9 @@
-# Bases
+﻿# Bases
 
 - type: entity
   id: RMCMarkerSoundBase
   abstract: true
-  name: ent-RMCMarkerSoundBase
+  name: sound marker
   placement:
     mode: SnapgridCenter
   components:
@@ -27,7 +27,7 @@
   parent: RMCMarkerSoundBase
   id: RMCMarkerSoundAmbientBase
   abstract: true
-  name: ent-RMCMarkerSoundAmbientBase
+  name: ambient sound marker
   components:
   - type: AmbientSound
     enabled: true
@@ -40,7 +40,7 @@
   parent: RMCMarkerSoundBase
   id: RMCMarkerSoundSingleBase
   abstract: true
-  name: ent-RMCMarkerSoundSingleBase
+  name: non-loop sound marker
   components:
   - type: RMCEmitSoundOnSpawn
 
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundRoar
-  suffix: ent-RMCMarkerSoundRoar-suffix
+  suffix: Xenonid Roar
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundDenyBuzz
-  suffix: ent-RMCMarkerSoundDenyBuzz-suffix
+  suffix: Deny Buzz
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundShortBeep
-  suffix: ent-RMCMarkerSoundShortBeep-suffix
+  suffix: Short Beep
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundAnalogRelease
-  suffix: ent-RMCMarkerSoundAnalogRelease-suffix
+  suffix: Analog Release
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundMachinePowerUp
-  suffix: ent-RMCMarkerSoundMachinePowerUp-suffix
+  suffix: Machine Power Up
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundMachineBootUp
-  suffix: ent-RMCMarkerSoundMachineBootUp-suffix
+  suffix: Machine Boot Up
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundBlastdoor
-  suffix: ent-RMCMarkerSoundBlastdoor-suffix
+  suffix: Blastdoor
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundCrateOpen
-  suffix: ent-RMCMarkerSoundCrateOpen-suffix
+  suffix: Crate Open
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -121,7 +121,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundCrateHit
-  suffix: ent-RMCMarkerSoundCrateHit-suffix
+  suffix: Crate Hit
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundCrateLanding
-  suffix: ent-RMCMarkerSoundCrateLanding-suffix
+  suffix: Crate Landing
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -139,7 +139,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundMetalThud
-  suffix: ent-RMCMarkerSoundMetalThud-suffix
+  suffix: Metal Thud
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -148,7 +148,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundXenoVentCrawl
-  suffix: ent-RMCMarkerSoundXenoVentCrawl-suffix
+  suffix: Vent Crawl
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -157,7 +157,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundXenoVentPass
-  suffix: ent-RMCMarkerSoundXenoVentPass-suffix
+  suffix: Vent Pass
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCMarkerSoundSingleBase
   id: RMCMarkerSoundXenoDoorPry
-  suffix: ent-RMCMarkerSoundXenoDoorPry-suffix
+  suffix: Xeno Door Pry
   components:
   - type: RMCEmitSoundOnSpawn
     sound:
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundPump
-  suffix: ent-RMCMarkerSoundPump-suffix
+  suffix: Pump
   components:
   - type: AmbientSound
     sound:
@@ -186,7 +186,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundMachineBuzz
-  suffix: ent-RMCMarkerSoundMachineBuzz-suffix
+  suffix: Machine Buzz
   components:
   - type: AmbientSound
     sound:
@@ -195,7 +195,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundHijackAlarm
-  suffix: ent-RMCMarkerSoundHijackAlarm-suffix
+  suffix: Hijack Alarm
   components:
   - type: AmbientSound
     sound:
@@ -204,7 +204,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundScaryWhispers
-  suffix: ent-RMCMarkerSoundScaryWhispers-suffix
+  suffix: Scary Whispers
   components:
   - type: AmbientSound
     sound:
@@ -213,7 +213,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundAlienDrone
-  suffix: ent-RMCMarkerSoundAlienDrone-suffix
+  suffix: Alien Drone
   components:
   - type: AmbientSound
     sound:
@@ -222,7 +222,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundGeneric
-  suffix: ent-RMCMarkerSoundGeneric-suffix
+  suffix: Generic Ambience
   components:
   - type: AmbientSound
     sound:
@@ -231,7 +231,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundAlienRuin
-  suffix: ent-RMCMarkerSoundAlienRuin-suffix
+  suffix: Alien Ruin
   components:
   - type: AmbientSound
     sound:
@@ -240,7 +240,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundHoly
-  suffix: ent-RMCMarkerSoundHoly-suffix
+  suffix: Holy
   components:
   - type: AmbientSound
     sound:
@@ -249,7 +249,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundHymms
-  suffix: ent-RMCMarkerSoundHymms-suffix
+  suffix: Hymms
   components:
   - type: AmbientSound
     sound:
@@ -258,7 +258,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundDanger
-  suffix: ent-RMCMarkerSoundDanger-suffix
+  suffix: Danger
   components:
   - type: AmbientSound
     sound:
@@ -267,7 +267,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundCaves
-  suffix: ent-RMCMarkerSoundCaves-suffix
+  suffix: Caves
   components:
   - type: AmbientSound
     sound:
@@ -276,7 +276,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundMaintenanceShaft
-  suffix: ent-RMCMarkerSoundMaintenanceShaft-suffix
+  suffix: Maintenance Shaft
   components:
   - type: AmbientSound
     sound:
@@ -285,7 +285,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundWar
-  suffix: ent-RMCMarkerSoundWar-suffix
+  suffix: War Ambience
   components:
   - type: AmbientSound
     sound:
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundWeakSnowstorm
-  suffix: ent-RMCMarkerSoundWeakSnowstorm-suffix
+  suffix: Weak Snowstorm
   components:
   - type: AmbientSound
     sound:
@@ -304,7 +304,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundSnowstorm
-  suffix: ent-RMCMarkerSoundSnowstorm-suffix
+  suffix: Snowstorm
   components:
   - type: AmbientSound
     sound:
@@ -313,7 +313,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundRain
-  suffix: ent-RMCMarkerSoundRain-suffix
+  suffix: Rain
   components:
   - type: AmbientSound
     sound:
@@ -322,7 +322,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundRain2
-  suffix: ent-RMCMarkerSoundRain2-suffix
+  suffix: Rain 2
   components:
   - type: AmbientSound
     sound:
@@ -331,7 +331,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundRainHeavy
-  suffix: ent-RMCMarkerSoundRainHeavy-suffix
+  suffix: Heavy Rain
   components:
   - type: AmbientSound
     sound:
@@ -340,7 +340,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundWind21
-  suffix: ent-RMCMarkerSoundWind21-suffix
+  suffix: Wind 2-1
   components:
   - type: AmbientSound
     sound:
@@ -349,7 +349,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundWind22
-  suffix: ent-RMCMarkerSoundWind22-suffix
+  suffix: Wind 2-2
   components:
   - type: AmbientSound
     sound:
@@ -358,7 +358,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundWind31
-  suffix: ent-RMCMarkerSoundWind31-suffix
+  suffix: Wind 3-1
   components:
   - type: AmbientSound
     sound:
@@ -367,7 +367,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundWind41
-  suffix: ent-RMCMarkerSoundWind41-suffix
+  suffix: Wind 4-1
   components:
   - type: AmbientSound
     sound:
@@ -376,7 +376,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundWind42
-  suffix: ent-RMCMarkerSoundWind42-suffix
+  suffix: Wind 4-2
   components:
   - type: AmbientSound
     sound:
@@ -385,7 +385,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundWind51
-  suffix: ent-RMCMarkerSoundWind51-suffix
+  suffix: Wind 5-1
   components:
   - type: AmbientSound
     sound:
@@ -394,7 +394,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundThunderclap1
-  suffix: ent-RMCMarkerSoundThunderclap1-suffix
+  suffix: Thunderclap 1
   components:
   - type: AmbientSound
     sound:
@@ -403,7 +403,7 @@
 - type: entity
   parent: RMCMarkerSoundAmbientBase
   id: RMCMarkerSoundThunderclap2
-  suffix: ent-RMCMarkerSoundThunderclap2-suffix
+  suffix: Thunderclap 2
   components:
   - type: AmbientSound
     sound:

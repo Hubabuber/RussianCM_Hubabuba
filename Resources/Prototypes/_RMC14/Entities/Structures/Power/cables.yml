@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: CableHV
   id: RMCCableBase
@@ -15,8 +15,8 @@
 - type: entity
   parent: RMCCableBase
   id: RMCCableHeavy
-  name: ent-RMCCableHeavy
-  description: ent-RMCCableHeavy-desc
+  name: large power cable
+  description: This cable is tough. It cannot be cut with simple hand tools.
   components:
   - type: Cable
     cuttingQuality: null
@@ -30,9 +30,9 @@
 - type: entity
   parent: RMCCableTerminal
   id: RMCCableBlue
-  name: ent-RMCCableBlue
-  suffix: ent-RMCCableBlue-suffix
-  description: ent-RMCCableBlue-desc
+  name: power cable
+  suffix: Blue
+  description: This cable is tough. It cannot be cut with simple hand tools.
   components:
   - type: Cable
     cuttingQuality: null
@@ -46,8 +46,8 @@
 - type: entity
   parent: RMCCableBlue
   id: RMCCableRed
-  name: ent-RMCCableRed
-  suffix: ent-RMCCableRed-suffix
+  name: power cable
+  suffix: Red
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Power/cables_thin.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: RMCCableBlue
   id: RMCCableYellow
-  name: ent-RMCCableYellow
-  suffix: ent-RMCCableYellow-suffix
+  name: power cable
+  suffix: Yellow
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Power/cables_thin.rsi
@@ -72,7 +72,7 @@
 - type: entity
   parent: CableTerminal
   id: RMCCableTerminal
-  suffix: ent-RMCCableTerminal-suffix
+  suffix: RMC
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Power/cable_terminal.rsi

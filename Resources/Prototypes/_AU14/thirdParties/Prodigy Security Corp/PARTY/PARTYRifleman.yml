@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyPartyRUBase
-  name: job-au14jobprodigypartyrubase-name
-  description: job-au14jobprodigypartyrubase-desc
+  name: PMC Contractor Base
+  description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPartyRU
   basePlaytimeTracker: true
   hidden: true
@@ -10,16 +10,16 @@
 - type: job
   parent: AU14JobProdigyPartyRUBase
   id: AU14JobProdigyPartyRU #m41a/2
-  name: job-au14jobprodigypartyru-name
-  description: job-au14jobprodigypartyru-desc
+  name: PART Response Unit (M41A/2)
+  description: au14-prodigyparty-description
   ranks:
     AU14RankWeYuRecruit: []
-  spawnMenuRoleName: job-au14jobprodigypartyru-spawnmenurolename
+  spawnMenuRoleName: Prodigy PART (3rd party, M41A/2)
   startingGear: AU14GearPARTYPartyRifleman
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCStandard"
   joinNotifyCrew: false
-  supervisors: job-au14jobprodigypartyru-supervisors
+  supervisors: au14-job-supervisors-psc
   accessGroups:
   - auwy
   - AUPrisonStaff

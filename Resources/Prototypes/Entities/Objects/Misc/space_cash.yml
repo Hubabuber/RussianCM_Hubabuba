@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SpaceCash
-  name: ent-SpaceCash
-  description: ent-SpaceCash-desc
+  name: spesos
+  description: You gotta have money.
   components:
   - type: Cash
   - type: Item
@@ -55,7 +55,7 @@
 
 - type: material
   id: Credit
-  name: material-credit-name
+  name: speso
   unit: materials-unit-bill
   stackEntity: SpaceCash
   icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
@@ -70,7 +70,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash10
-  suffix: ent-SpaceCash10-suffix
+  suffix: 10
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -81,7 +81,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash100
-  suffix: ent-SpaceCash100-suffix
+  suffix: 100
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash500
-  suffix: ent-SpaceCash500-suffix
+  suffix: 500
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -103,7 +103,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash1000
-  suffix: ent-SpaceCash1000-suffix
+  suffix: 1000
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -114,7 +114,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash2500
-  suffix: ent-SpaceCash2500-suffix
+  suffix: 2500
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -125,7 +125,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash5000
-  suffix: ent-SpaceCash5000-suffix
+  suffix: 5000
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -136,7 +136,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash10000
-  suffix: ent-SpaceCash10000-suffix
+  suffix: 10000
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -147,7 +147,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash20000
-  suffix: ent-SpaceCash20000-suffix
+  suffix: 20000
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -158,7 +158,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash30000
-  suffix: ent-SpaceCash30000-suffix
+  suffix: 30000
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi
@@ -169,7 +169,7 @@
 - type: entity
   parent: SpaceCash
   id: SpaceCash1000000
-  suffix: ent-SpaceCash1000000-suffix
+  suffix: 1000000
   components:
   - type: Icon
     sprite: Objects/Economy/cash.rsi

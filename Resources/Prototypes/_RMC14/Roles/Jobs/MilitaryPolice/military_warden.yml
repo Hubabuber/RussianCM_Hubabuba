@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMMilitaryWarden
-  name: job-cmmilitarywarden-name
-  description: job-cmmilitarywarden-desc
+  name: cm-job-name-militarywarden
+  description: cm-job-description-militarywarden
   setPreference: false
   playTimeTracker: CMJobMilitaryWarden
   requirements:
@@ -24,7 +24,7 @@
   icon: "CMJobIconMilitaryWarden"
   joinNotifyCrew: false
   marineAuthorityLevel: 4
-  supervisors: job-cmmilitarywarden-supervisors
+  supervisors: cm-job-supervisors-cmp
   accessGroups:
   - CMWarden
   roleWeight: 0.25
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointMilitaryWarden
-  name: ent-CMSpawnPointMilitaryWarden
+  name: military warden spawn point
   components:
   - type: SpawnPoint
     job_id: CMMilitaryWarden
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleMW
-  name: ent-RMCGuidebookRoleMW
-  description: ent-RMCGuidebookRoleMW-desc
+  name: Military Warden
+  description: Military Warden
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-BaseWeaponRevolver
+  name: BaseWeaponRevolver
   parent: BaseItem
   id: BaseWeaponRevolver
-  description: ent-BaseWeaponRevolver-desc
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -51,10 +51,10 @@
     price: 500
 
 - type: entity
-  name: ent-WeaponRevolverDeckard
+  name: Deckard
   parent: [BaseWeaponRevolver, BaseSecurityCommandContraband]
   id: WeaponRevolverDeckard
-  description: ent-WeaponRevolverDeckard-desc
+  description: A beautifully machined, custom-built revolver. Used when there is no time for the Voight-Kampff test. Loads 5 rounds of .45 magnum.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
@@ -79,10 +79,10 @@
     price: 1500
 
 - type: entity
-  name: ent-WeaponRevolverInspector
+  name: Inspector
   parent: [BaseWeaponRevolver, BaseSecurityContraband]
   id: WeaponRevolverInspector
-  description: ent-WeaponRevolverInspector-desc
+  description: A single-action revolver manufactured by various companies. It is readily available on the civilian market, making it a popular choice among private investigators. You feel lucky just holding it. Loads 6 rounds of .45 magnum.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
@@ -94,10 +94,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: ent-WeaponRevolverMateba
+  name: Mateba
   parent: [BaseWeaponRevolver, BaseMajorContraband]
   id: WeaponRevolverMateba
-  description: ent-WeaponRevolverMateba-desc
+  description: A modern revolver used by Nanotrasen’s elite, near mythical ‘Death Squad’ task force. Its unique trigger action and barrel placement enable a high fire rate with minimal muzzle flip. Many have looked down this barrel, but few have lived to tell of it. Loads 6 rounds of .45 magnum.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
@@ -117,10 +117,10 @@
     proto: CartridgeMagnumAP
 
 - type: entity
-  name: ent-WeaponRevolverPython
+  name: Python
   parent: [BaseWeaponRevolver, BaseSyndicateContraband]
   id: WeaponRevolverPython
-  description: ent-WeaponRevolverPython-desc
+  description: A powerful double-action revolver manufactured by the Syndicate. Loud and flashy, perfect for any agent looking to make a statement. Loads 6 rounds of .45 magnum.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -152,10 +152,10 @@
 
 
 - type: entity
-  name: ent-WeaponRevolverPirate
+  name: pirate revolver
   parent: [BaseWeaponRevolver, BaseMajorContraband]
   id: WeaponRevolverPirate
-  description: ent-WeaponRevolverPirate-desc
+  description: A crude single-action revolver handmade by a space pirate. Old and covered in rust, it somehow still works. Loads 5 rounds of .45 magnum.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
@@ -174,7 +174,7 @@
 - type: entity
   parent: WeaponRevolverPirate
   id: WeaponRevolverPirateEmpty
-  suffix: ent-WeaponRevolverPirateEmpty-suffix
+  suffix: Empty
   components:
   - type: RevolverAmmoProvider
     proto: null

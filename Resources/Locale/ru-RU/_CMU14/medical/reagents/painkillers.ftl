@@ -1,9 +1,0 @@
-reagent-cmuoxycodone-desc = Тяжелый опиоид от сильной боли. Может полностью маскировать болевой шок, пока он длится.
-reagent-cmuoxycodone-name = Оксикодон
-reagent-cmuoxycodone-physicaldesc = масляное
-reagent-cmuparacetamol-desc = Легкое обезболивающее. Подавляет накопление боли, маскирует один уровень боли и помогает угаснуть избыточной боли.
-reagent-cmuparacetamol-name = Парацетамол
-reagent-cmuparacetamol-physicaldesc = шипучее
-reagent-cmutramadol-desc = Умеренное опиоидное обезболивающее. Сильно маскирует боль и способствует ее исчезновению.
-reagent-cmutramadol-name = Трамадол
-reagent-cmutramadol-physicaldesc = едкое

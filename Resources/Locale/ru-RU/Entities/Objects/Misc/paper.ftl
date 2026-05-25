@@ -41,58 +41,7 @@ ent-Envelope-desc = Небольшой конверт, который защит
 
 ent-BasePaper-name = элемент
 
-ent-PaperWritten-name = { $amount ->
+ent-PaperWritten-name = stack-paper
 
 ent-NukeCodePaperStation-name = коды ядерной аутентификации
 
-ent-AllTraitorCodesPaper = реестр кодовых слов синдиката
-    .desc = Реестр всех активных кодовых слов Syndicate.
-    .suffix = Адмеме
-
-ent-BasePaper = item
-
-ent-Envelope = конверт
-    .desc = Небольшой конверт, который защитит ваши конфиденциальные документы от посторонних глаз.
-
-ent-NukeCodePaper = коды ядерной аутентификации
-    .desc = Кусок белой бумаги.
-
-ent-NukeCodePaperStation = коды ядерной аутентификации
-    .desc = Кусок белой бумаги.
-    .suffix = Только станция
-
-ent-Paper = бумага
-    .desc = Кусок белой бумаги.
-
-ent-PaperArtifactAnalyzer = распечатка анализатора артефактов
-    .desc = Показания забытого во времени устройства.
-
-ent-PaperCNCSheet = лист персонажа
-    .desc = Лист для ваших персонажей Carps and Crypts.
-
-ent-PaperCaptainsThoughts = мысли капитана
-    .desc = Страница капитанского журнала. В роскошной лаванде.
-
-ent-PaperCargoBountyManifest = манифест награды
-    .desc = Бумажная этикетка, обозначающая ящик с наградой. Продажа ящика с этой этикеткой принесет награду.
-
-ent-PaperCargoInvoice = грузовая накладная
-    .desc = Единая бюрократическая единица.
-
-ent-PaperNanoTaskItem = Элемент NanoTask
-    .desc = Распечатанный элемент NanoTask. Может быть вставлен в ваш КПК, чтобы добавить его к вашим задачам.
-
-ent-PaperOffice = офисная бумага
-    .desc = Обычный лист офисной бумаги.
-
-ent-PaperSalvageJobLabel = Этикетка для перевозки аварийных работ
-    .desc = Бумажная этикетка, обозначающая ящик как содержащий груз для выполнения работ по спасению. Продажа ящика с этим выполнит задание.
-
-ent-PaperScrap = бумажный обрывок
-    .desc = Смятый лист белой бумаги.
-
-ent-PaperWritten = бумага
-    .desc = Кусок белой бумаги.
-
-ent-TraitorCodePaper = кодовое слово синдиката
-    .desc = Утечка кодового слова, позволяющего связаться с Синдикатом.

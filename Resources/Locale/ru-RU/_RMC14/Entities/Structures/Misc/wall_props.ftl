@@ -1,32 +1,35 @@
 ent-RMCWallPropBloodWallFloor = кровь
-    .suffix = кровь
+
 ent-RMCWallPropBloodWall = кровь
-    .suffix = кровь
+
 ent-RMCWallPropBloodWallAlt = кровь
-    .suffix = кровь
+
 ent-RMCWallPropGraffiti = граффити
-    .suffix = граффити
+
 ent-RMCWallPropDeadPilot = обезглавленный пилот Уэстон-Ямада
   .desc = То, что осталось от пилота Уэстон-Ямада.
-    .suffix = обезглавленный пилот Уэстон-Ямада
+
 ent-RMCWallPropDeadTrooper = Неизвестный солдат
   .desc = Что осталось от неизвестного солдата.
+
 ent-RMCWallPropDeadSteven = Представитель Стив Хайфиш
   .desc = Карта лежит у него на коленях.
+
 ent-RMCWallPropGraffitiTwo = граффити
-    .suffix = граффити
+
 ent-RMCWallPropGraffitiThree = граффити
-    .suffix = граффити
+
 ent-RMCWallPropGraffitiFour = граффити
-    .suffix = граффити
+
 ent-RMCWallPropGraffitiFive = граффити
-    .suffix = граффити
+
 ent-RMCWallPropGraffitiSix = граффити
-    .suffix = граффити
+
 ent-RMCWallPropGraffitiSeven = граффити
-    .suffix = граффити
+
 ent-RMCWallPropDeadPilotAlt = обезглавленный пилот Уэстон-Ямада
   .desc = То, что осталось от пилота Уэстон-Ямада. 
-    .suffix = обезглавленный пилот Уэстон-Ямада
+
 ent-RMCWallPropDeadTrooperCabinet = Неизвестный солдат
-  .desc = Что осталось от неизвестного солдата.
+  .desc = Что осталось от неизвестного солдата. 
+

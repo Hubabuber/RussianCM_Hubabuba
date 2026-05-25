@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyPartyLeader #m41a/2
-  name: job-au14jobprodigypartyleader-name
-  description: job-au14jobprodigypartyleader-desc
+  name: Prodigy Leader
+  description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPartyLeader
   ranks:
     AU14RankWeYuEnforcerLead: []
-  spawnMenuRoleName: job-au14jobprodigypartyleader-spawnmenurolename
+  spawnMenuRoleName: Prodigy Leader (3rd party, M41A/2)
   startingGear: AU14GearPARTPartyLeader
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCLeader"
   joinNotifyCrew: false
-  supervisors: job-au14jobprodigypartyleader-supervisors
+  supervisors: au14-job-supervisors-psc
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobProdigyPartyLeader
-  name: ent-AU14JobProdigyPartyLeader
+  name: Prodigy PARTY Party Leader (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

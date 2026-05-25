@@ -1,13 +1,13 @@
 - type: job
   parent: CMSurvivorSecurity
   id: CMSurvivorFiorinaRiotOfficer
-  name: job-cmsurvivorfiorinariotofficer-name
-  description: job-cmsurvivorfiorinariotofficer-desc
+  name: cm-job-name-survivor-riot-officer
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorSecurity
   startingGear: RMCGearSurvivorFiorinaRiotOfficer
   accessGroups:
   - ColonistSec
-  spawnMenuRoleName: job-cmsurvivorfiorinariotofficer-spawnmenurolename
+  spawnMenuRoleName: Fiorina Riot Officer (Survivor)
   icon: "RMCJobIconBureauRCO"
   hasIcon: true
   special:
@@ -51,7 +51,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFiorinaRiotOfficer
-  name: ent-RMCSpawnPointSurvivorFiorinaRiotOfficer
+  name: survivor fiorina riot officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorFiorinaRiotOfficer

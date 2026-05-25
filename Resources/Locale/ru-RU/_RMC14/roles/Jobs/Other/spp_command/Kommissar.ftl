@@ -1,28 +1,10 @@
 ent-RMCRandomHumanoidSPPKommissarNeutral = роль призрака комиссара
-    .suffix = роль призрака комиссара
+
 ent-RMCRandomHumanoidSPPBattalionKommissarNeutral = Роль призрака батальонного комиссара
-    .suffix = Роль призрака батальонного комиссара
+
 ent-RMCRandomHumanoidSPPSrBattalionKommissarNeutral = Старший батальон.
-    .suffix = Старший батальон.
+
 ent-RMCRandomHumanoidSPPRegimentalKommissarNeutral = Роль призрака полкового комиссара
-    .suffix = Роль призрака полкового комиссара
+
 ent-RMCRandomHumanoidSPPBrigadeKommissarNeutral = Роль призрака бригадного комиссара
-    .suffix = Роль призрака бригадного комиссара
-job-rmcsppbattalionkommissar-desc = Вы политрук батальонного звена. Выполняйте партийные приказы и будьте авторитетом в политических вопросах подразделения. Для вечеринки!
-job-rmcsppbattalionkommissar-name = Батальон Комиссар
-job-rmcsppbattalionkommissar-spawnmenurolename = Комиссар батальона СПП
-job-rmcsppbrigadekommissar-desc = Вы политрук бригадного уровня. Выполняйте партийные приказы или отдавайте их и выполняйте функции руководителя подразделения по политическим вопросам. Для вечеринки!
-job-rmcsppbrigadekommissar-name = бригадный комиссар
-job-rmcsppbrigadekommissar-spawnmenurolename = Комиссар бригады СПП
-job-rmcsppdivisionkommissar-desc = Вы – политрук дивизионного уровня. Ваше слово считается словом стороны, если не указано иное. Вы являетесь главным политическим советником полповников и генеральных мэров. Для вечеринки!
-job-rmcsppdivisionkommissar-name = Комиссар дивизии
-job-rmcsppdivisionkommissar-spawnmenurolename = Комиссар дивизии СЭС
-job-rmcsppkommissar-desc = Вы прямой агент партии. Обеспечьте соблюдение партийной линии и соблюдение интересов партии.
-job-rmcsppkommissar-name = Политический комиссар
-job-rmcsppkommissar-spawnmenurolename = СПП Комиссар
-job-rmcsppregimentalkommissar-desc = Вы политрук полкового уровня. Выполняйте партийные приказы или отдавайте их и выполняйте функции руководителя подразделения по политическим вопросам. Для вечеринки!
-job-rmcsppregimentalkommissar-name = Полковой комиссар
-job-rmcsppregimentalkommissar-spawnmenurolename = Полковой комиссар СПП
-job-rmcsppsrbattalionkommissar-desc = Вы старший политрук батальонного звена. Выполняйте партийные приказы и будьте авторитетом в политических вопросах подразделения. Для вечеринки!
-job-rmcsppsrbattalionkommissar-name = Старший батальонный комиссар
-job-rmcsppsrbattalionkommissar-spawnmenurolename = Старший комиссар батальона СПП
+

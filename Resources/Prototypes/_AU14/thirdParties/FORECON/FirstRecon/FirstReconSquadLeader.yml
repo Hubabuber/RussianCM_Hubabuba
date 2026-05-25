@@ -1,20 +1,20 @@
 - type: job
   parent: AU14FORECONSquadleaderBase
   id: AU14FORECONFirstReconSquadleader
-  name: job-au14foreconfirstreconsquadleader-name
-  description: job-au14foreconfirstreconsquadleader-desc
+  name: cm-job-name-squad-leader
+  description: au14-job-description-forecon-firstrecon
   ranks:
     RMCRankStaffSergeant:
     - !type:RoleTimeRequirement
       role: AU14JobFORECONSquadLeader
       time: 36000 #10 hours
     RMCRankSergeant: []
-  spawnMenuRoleName: job-au14foreconfirstreconsquadleader-spawnmenurolename
+  spawnMenuRoleName: FORECON Section Leader (AU14, 3rd party)
   startingGear: AU14GearFORECONFirstReconSquadleader
   greeting: au14-job-description-forecon-firstrecon-greeting
   icon: "CMJobIconSquadLeader"
   joinNotifyCrew: false
-  supervisors: job-au14foreconfirstreconsquadleader-supervisors
+  supervisors: au14-job-supervisors-loner
   special:
   - !type:AddComponentSpecial
     components:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicFORECON
   id: AU14JobFORECONFirstReconSquadleader
-  name: ent-AU14JobFORECONFirstReconSquadleader
+  name: FORECON Section Leader (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

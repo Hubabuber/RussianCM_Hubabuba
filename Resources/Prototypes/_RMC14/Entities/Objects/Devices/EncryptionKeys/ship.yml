@@ -3,8 +3,8 @@
   abstract: true
   parent: BaseItem
   id: CMEncryptionKey
-  name: ent-CMEncryptionKey
-  description: ent-CMEncryptionKey-desc
+  name: standard encryption key
+  description: An encryption key for a radio headset.
   components:
   - type: EncryptionKey
   - type: Item
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyCommon
-  name: ent-CMEncryptionKeyCommon
+  name: public radio encryption key
   components:
   - type: EncryptionKey
   - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyColony
-  name: ent-CMEncryptionKeyColony
+  name: colony encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyWEYA
-  name: ent-CMEncryptionKeyWEYA
+  name: we-yu encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyWEYAColony
-  name: ent-CMEncryptionKeyWEYAColony
+  name: we-ya colony encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyICB
-  name: ent-CMEncryptionKeyICB
+  name: ICB encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -91,7 +91,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyCommand
-  name: ent-CMEncryptionKeyCommand
+  name: command encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -104,7 +104,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyHighCommand
-  name: ent-RMCEncryptionKeyHighCommand
+  name: high command encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -118,7 +118,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyJTAC
-  name: ent-CMEncryptionKeyJTAC
+  name: JTAC radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -132,7 +132,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyIntel
-  name: ent-CMEncryptionKeyIntel
+  name: intel radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -146,7 +146,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeySeniorCommand
-  name: ent-RMCEncryptionKeySeniorCommand
+  name: marine senior command radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -171,7 +171,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyMarineCommand
-  name: ent-RMCEncryptionKeyMarineCommand
+  name: marine command radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -195,7 +195,7 @@
 - type: entity
   parent: RMCEncryptionKeyMarineCommand
   id: RMCEncryptionKeyMarineCommandAlternative
-  suffix: ent-RMCEncryptionKeyMarineCommandAlternative-suffix
+  suffix: Alternative
   components:
   - type: EncryptionKey
     channels:
@@ -219,7 +219,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyEngineer
-  name: ent-CMEncryptionKeyEngineer
+  name: engineering encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -232,7 +232,7 @@
 - type: entity
   parent: CMEncryptionKeyEngineer
   id: CMEncryptionKeyCE
-  name: ent-CMEncryptionKeyCE
+  name: chief engineer's encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -256,7 +256,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyMedical
-  name: ent-CMEncryptionKeyMedical
+  name: medical encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -269,7 +269,7 @@
 - type: entity
   parent: CMEncryptionKeyMedical
   id: CMEncryptionKeyCMO
-  name: ent-CMEncryptionKeyCMO
+  name: chief medical officer's encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -289,7 +289,7 @@
 - type: entity
   parent: CMEncryptionKeyMedical
   id: CMEncryptionKeyResearcher
-  name: ent-CMEncryptionKeyResearcher
+  name: researcher's encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -303,7 +303,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyMilitaryPolice
-  name: ent-CMEncryptionKeyMilitaryPolice
+  name: military police encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -316,7 +316,7 @@
 - type: entity
   parent: CMEncryptionKeyMilitaryPolice
   id: CMEncryptionKeyCMP
-  name: ent-CMEncryptionKeyCMP
+  name: chief military police encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -339,7 +339,7 @@
 - type: entity
   parent: CMEncryptionKeyMilitaryPolice
   id: CMEncryptionKeyMPO
-  name: ent-CMEncryptionKeyMPO
+  name: military police officer's encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -361,7 +361,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyRequisition
-  name: ent-CMEncryptionKeyRequisition
+  name: requisition encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -373,7 +373,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyCargotech
-  name: ent-RMCEncryptionKeyCargotech
+  name: req tech encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -388,7 +388,7 @@
 - type: entity
   parent: CMEncryptionKeyRequisition
   id: RMCEncryptionKeyQuartermaster
-  name: ent-RMCEncryptionKeyQuartermaster
+  name: requisition encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -411,7 +411,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyLiaison
-  name: ent-RMCEncryptionKeyLiaison
+  name: corporate liaison radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -434,7 +434,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyCorrespondent
-  name: ent-RMCEncryptionKeyCorrespondent
+  name: correspondent radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -463,7 +463,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyPilot
-  name: ent-CMEncryptionKeyPilot
+  name: pilot's encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -480,7 +480,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyIntelOfficer
-  name: ent-CMEncryptionKeyIntelOfficer
+  name: intel officer's encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -504,7 +504,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyCrewman
-  name: ent-CMEncryptionKeyCrewman
+  name: vehicle crewman's encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -521,7 +521,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyMasterSquad
-  name: ent-CMEncryptionKeyMasterSquad
+  name: master squad encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -537,7 +537,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: CMEncryptionKeyMasterShip
-  name: ent-CMEncryptionKeyMasterShip
+  name: master ship encryption key
   components:
   - type: EncryptionKey
     channels:

@@ -3,8 +3,8 @@
 - type: entity
   parent: [RMCBaseTSEArmor, RMCArmorM4PMCNoLight, RMCBaseMarineArmorLight, RMCAllowSuitStorageClothingArmorRoyal]
   id: RMCArmorRoyal
-  name: ent-RMCArmorRoyal
-  description: ent-RMCArmorRoyal-desc
+  name: kestrel armoured vest
+  description: A suit of armor designed by the Royal Crown Marines to be modular, flexible, and lightweight.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/light.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalLight
-  name: ent-RMCArmorRoyalLight
+  name: kestrel light armoured vest
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/light.rsi
@@ -29,7 +29,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalPadded
-  name: ent-RMCArmorRoyalPadded
+  name: kestrel armoured carry vest
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/padded.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalHarness
-  name: ent-RMCArmorRoyalHarness
+  name: kestrel armoured smart gun harness
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/padded.rsi
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCArmorRoyalHarness
   id: RMCArmorRoyalHarnessFilled
-  suffix: ent-RMCArmorRoyalHarnessFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCArmorRoyalPadded
   id: RMCArmorRoyalPointman
-  name: ent-RMCArmorRoyalPointman
+  name: kestrel pointman armour
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/pointman.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: RMCArmorRoyalLight
   id: RMCArmorRoyalLightFilled
-  suffix: ent-RMCArmorRoyalLightFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -89,7 +89,7 @@
 - type: entity
   parent: RMCArmorRoyalLight
   id: RMCArmorRoyalLightFilledMedic
-  suffix: ent-RMCArmorRoyalLightFilledMedic-suffix
+  suffix: Filled, Medic
   components:
   - type: StorageFill
     contents:
@@ -100,7 +100,7 @@
 - type: entity
   parent: RMCArmorRoyalPointman
   id: RMCArmorRoyalPointmanFilled
-  suffix: ent-RMCArmorRoyalPointmanFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCArmorRoyalPadded
   id: RMCArmorRoyalPaddedFilled
-  suffix: ent-RMCArmorRoyalPaddedFilled-suffix
+  suffix: Filled, Team Leader
   components:
   - type: StorageFill
     contents:
@@ -128,7 +128,7 @@
 - type: entity
   parent: RMCArmorRoyalPadded
   id: RMCArmorRoyalPaddedFilledCO
-  suffix: ent-RMCArmorRoyalPaddedFilledCO-suffix
+  suffix: Filled, Major
   components:
   - type: StorageFill
     contents:
@@ -145,9 +145,9 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorParaVest
-  name: ent-RMCArmorParaVest
-  description: ent-RMCArmorParaVest-desc
-  suffix: ent-RMCArmorParaVest-suffix
+  name: goshawk airborne vest
+  description: A lightweight, high-mobility flak vest designed for the RCM's Paramarines. Developed by Weyland-Yutani, the Goshawk offers crucial protection while ensuring paratroopers retain full freedom of movement during high-risk insertions. Advanced composite plating and reinforced webbing make it effective against shrapnel and small-arms fire, striking the perfect balance between defense and agility for those who strike fast and strike hard.
+  suffix: Survivor, Paramarine
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/para_vest.rsi
@@ -167,9 +167,9 @@
 - type: entity
   parent: RMCArmorParaVest
   id: RMCArmorParaSynthVest
-  name: ent-RMCArmorParaSynthVest
-  description: ent-RMCArmorParaSynthVest-desc
-  suffix: ent-RMCArmorParaSynthVest-suffix
+  name: goshawk airborne synthetic vest
+  description: A lightweight, high-mobility flak vest designed for synthetic units attached to the RCM's Paramarine regiments. Developed by Weyland-Yutani, the Goshawk offers crucial protection while ensuring paratroopers retain full freedom of movement during high-risk insertions. Advanced composite plating and reinforced webbing make it effective against shrapnel and small-arms fire, striking the perfect balance between defense and agility for those who strike fast and strike hard.
+  suffix: Survivor, Paramarine. Synth
   components:
     - type: CMArmor
       melee: 0 # CLOTHING_ARMOR_NONE
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCArmorParaSynthVest
   id: RMCArmorParaSynthVestFill
-  suffix: ent-RMCArmorParaSynthVestFill-suffix
+  suffix: Survivor, Paramarine, Filled, Synth
   components:
     - type: StorageFill
       contents:

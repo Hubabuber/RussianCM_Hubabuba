@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMSoap
-  name: ent-CMSoap
-  description: ent-CMSoap-desc
+  name: soap
+  description: A cheap bar of soap. Doesn't smell.
   components:
   - type: Tag
     tags:
@@ -44,10 +44,10 @@
     residueColor: residue-green
     
 - type: entity
-  name: ent-CMSoapDeluxe
+  name: soap
   id: CMSoapDeluxe
   parent: CMSoap
-  description: ent-CMSoapDeluxe-desc
+  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
   components:
   - type: Sprite
     state: soap_deluxe
@@ -60,10 +60,10 @@
     residueColor: residue-brown
     
 - type: entity
-  name: ent-CMSoapSyndie
+  name: soap
   id: CMSoapSyndie
   parent: CMSoap
-  description: ent-CMSoapSyndie-desc
+  description: An untrustworthy bar of soap. Smells of fear.
   components:
   - type: Sprite
     state: soap_syndie
@@ -80,10 +80,10 @@
       - punishment
     
 - type: entity
-  name: ent-CMSoapNT
+  name: soap
   id: CMSoapNT
   parent: CMSoap
-  description: ent-CMSoapNT-desc
+  description: A WeYa brand bar of soap. Smells of phoron.
   components:
   - type: Sprite
     state: soap_nt

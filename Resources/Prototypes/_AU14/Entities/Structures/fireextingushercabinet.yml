@@ -1,10 +1,10 @@
-# TODO: this could probably use some kind of base structure prototype
+﻿# TODO: this could probably use some kind of base structure prototype
 # every wallmount cabinet copypastes placement and like 8 components
 - type: entity
   parent: BaseItemCabinet
   id: AU14HybrisaExtinguisherCabinet
-  name: ent-AU14HybrisaExtinguisherCabinet
-  description: ent-AU14HybrisaExtinguisherCabinet-desc
+  name: extinguisher cabinet
+  description: A small wall mounted cabinet designed to hold a fire extinguisher.
   placement:
     mode: SnapgridCenter
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   parent: AU14HybrisaExtinguisherCabinet
-  suffix: ent-CMUHybrisaExtinguisherCabinetFilled-suffix
+  suffix: Filled, CMU14
   id: CMUHybrisaExtinguisherCabinetFilled
   components:
   - type: ContainerFill
@@ -68,7 +68,7 @@
 - type: entity
   parent: ExtinguisherCabinet
   id: AU14ExtinguisherCabinetOpen
-  suffix: ent-AU14ExtinguisherCabinetOpen-suffix
+  suffix: Open
   components:
   - type: Openable
     opened: true
@@ -76,7 +76,7 @@
 - type: entity
   parent: ExtinguisherCabinet
   id: AU14ExtinguisherCabinetFilled
-  suffix: ent-AU14ExtinguisherCabinetFilled-suffix
+  suffix: Filled
   components:
   - type: ContainerFill
     containers:
@@ -86,4 +86,4 @@
 - type: entity
   parent: [ExtinguisherCabinetFilled, ExtinguisherCabinetOpen]
   id: AU14ExtinguisherCabinetFilledOpen
-  suffix: ent-AU14ExtinguisherCabinetFilledOpen-suffix
+  suffix: Filled, Open

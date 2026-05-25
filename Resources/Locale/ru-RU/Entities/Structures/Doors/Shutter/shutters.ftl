@@ -22,29 +22,3 @@ ent-ShuttersRadiationOpen-desc = Страшно подумать о том, чт
 ent-ShuttersWindowOpen-name = затвор
 ent-ShuttersWindowOpen-desc = Страшно подумать о том, что может скрываться за этой ставеню.
 
-ent-BaseShutter = затвор
-    .desc = Страшно подумать о том, что может скрываться за этой ставеню.
-
-ent-ShuttersFrame = рама затвора
-    .desc = Каркас для изготовления ставен.
-
-ent-ShuttersNormal = затвор
-    .desc = Страшно подумать о том, что может скрываться за этой ставеню.
-
-ent-ShuttersNormalOpen = затвор
-    .desc = Страшно подумать о том, что может скрываться за этой ставеню.
-    .suffix = Open
-
-ent-ShuttersRadiation = радиационные жалюзи
-    .desc = Почему они сделали эти ставни радиоактивными?
-
-ent-ShuttersRadiationOpen = радиационные жалюзи
-    .desc = Почему они сделали эти ставни радиоактивными?
-    .suffix = Open
-
-ent-ShuttersWindow = оконные ставни
-    .desc = Лучшее (TM) место, где можно увидеть, как взрываются твои друзья!
-
-ent-ShuttersWindowOpen = оконные ставни
-    .desc = Лучшее (TM) место, где можно увидеть, как взрываются твои друзья!
-    .suffix = Open

@@ -67,7 +67,7 @@
 - type: entity
   id: DisposalHolder
   categories: [ HideSpawnMenu ]
-  name: ent-DisposalHolder
+  name: disposal holder
   components:
   - type: DisposalHolder
   - type: ContainerContainer
@@ -79,8 +79,8 @@
 - type: entity
   id: DisposalPipeBroken
   parent: DisposalPipeBase
-  name: ent-DisposalPipeBroken
-  description: ent-DisposalPipeBroken-desc
+  name: broken disposal pipe
+  description: A BBP (big broken pipe).
   components:
   - type: Sprite
     layers:
@@ -93,8 +93,8 @@
 - type: entity
   id: DisposalPipe
   parent: DisposalPipeBase
-  name: ent-DisposalPipe
-  description: ent-DisposalPipe-desc
+  name: disposal pipe segment
+  description: A huge pipe segment used for constructing disposal systems.
   components:
   - type: Sprite
     layers:
@@ -121,8 +121,8 @@
 - type: entity
   id: DisposalTagger
   parent: DisposalPipeBase
-  name: ent-DisposalTagger
-  description: ent-DisposalTagger-desc
+  name: disposal pipe tagger
+  description: A pipe that tags entities for routing.
   components:
   - type: Sprite
     layers:
@@ -155,8 +155,8 @@
 - type: entity
   id: DisposalSignaller
   parent: DisposalPipeBase
-  name: ent-DisposalSignaller
-  description: ent-DisposalSignaller-desc
+  name: disposal signaller
+  description: A pipe that emits a signal when in item goes through it.
   components:
   - type: Sprite
     layers:
@@ -192,8 +192,8 @@
 - type: entity
   id: DisposalTrunk
   parent: DisposalPipeBase
-  name: ent-DisposalTrunk
-  description: ent-DisposalTrunk-desc
+  name: disposal trunk
+  description: A pipe trunk used as an entry point for disposal systems.
   components:
   - type: Sprite
     layers:
@@ -228,8 +228,8 @@
 - type: entity
   id: DisposalRouter
   parent: DisposalPipeBase
-  name: ent-DisposalRouter
-  description: ent-DisposalRouter-desc
+  name: disposal router
+  description: A three-way router. Entities with matching tags get routed to the side via configurable filters.
   components:
   - type: Sprite
     layers:
@@ -275,9 +275,9 @@
 
 - type: entity
   id: DisposalRouterFlipped
-  description: ent-DisposalRouterFlipped-desc
+  description: A three-way router. Entities with matching tags get routed to the side.
   parent: DisposalRouter
-  suffix: ent-DisposalRouterFlipped-suffix
+  suffix: flipped
   components:
   - type: Sprite
     layers:
@@ -317,8 +317,8 @@
 - type: entity
   id: DisposalJunction
   parent: DisposalPipeBase
-  name: ent-DisposalJunction
-  description: ent-DisposalJunction-desc
+  name: disposal junction
+  description: A three-way junction. The arrow indicates where items exit.
   components:
   - type: Sprite
     layers:
@@ -359,9 +359,9 @@
 
 - type: entity
   id: DisposalJunctionFlipped
-  description: ent-DisposalJunctionFlipped-desc
+  description: A three-way junction. The arrow indicates where items exit.
   parent: DisposalJunction
-  suffix: ent-DisposalJunctionFlipped-suffix
+  suffix: flipped
   components:
   - type: Sprite
     layers:
@@ -402,8 +402,8 @@
 - type: entity
   id: DisposalYJunction
   parent: DisposalPipeBase
-  name: ent-DisposalYJunction
-  description: ent-DisposalYJunction-desc
+  name: disposal y-junction
+  description: A three-way junction with another exit point.
   components:
   - type: Sprite
     layers:
@@ -442,8 +442,8 @@
 - type: entity
   id: DisposalXJunction
   parent: DisposalPipeBase
-  name: ent-DisposalXJunction
-  description: ent-DisposalXJunction-desc
+  name: disposal x-junction
+  description: A four-way junction. The arrow indicates where items exit.
   components:
   - type: Sprite
     layers:
@@ -484,8 +484,8 @@
 - type: entity
   id: DisposalBend
   parent: DisposalPipeBase
-  name: ent-DisposalBend
-  description: ent-DisposalBend-desc
+  name: disposal bend
+  description: A tube bent at a 90 degree angle.
   components:
   - type: Sprite
     layers:
@@ -520,8 +520,8 @@
 - type: entity
   parent: DisposalJunction
   id: DisposalSignalRouter
-  name: ent-DisposalSignalRouter
-  description: ent-DisposalSignalRouter-desc
+  name: disposal signal router
+  description: A signal-controlled three-way router.
   components:
   - type: Sprite
     layers:
@@ -560,7 +560,7 @@
 - type: entity
   parent: DisposalSignalRouter
   id: DisposalSignalRouterFlipped
-  suffix: ent-DisposalSignalRouterFlipped-suffix
+  suffix: flipped
   components:
   - type: Sprite
     layers:

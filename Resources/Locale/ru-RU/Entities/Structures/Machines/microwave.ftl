@@ -4,8 +4,3 @@ ent-KitchenMicrowave-desc = Это волшебство.
 ent-SyndicateMicrowave-name = Донк Ко. микроволновая печь
 ent-SyndicateMicrowave-desc = Он настолько продвинут, что готовит пончики всего за 2,5 секунды!
 
-ent-KitchenMicrowave = микроволновая печь
-    .desc = Это волшебство.
-
-ent-SyndicateMicrowave = Донк Ко. микроволновая печь
-    .desc = Он настолько продвинут, что готовит пончики всего за 2,5 секунды!

@@ -2,8 +2,8 @@
 - type: job
   parent: CMJobBase
   id: RMCPMCEngineer
-  name: job-rmcpmcengineer-name
-  description: job-rmcpmcengineer-desc
+  name: rmc-job-name-pmc-engineer
+  description: rmc-ghost-role-information-pmc-description
   playTimeTracker: RMCJobPMCEngineer
   ranks:
     RMCRankWeYaCorporateTechnician: []
@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: job-rmcpmcengineer-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Engineer
   special:
   - !type:AddComponentSpecial
     components:
@@ -45,8 +45,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCEngineer
-  name: ent-RMCRandomHumanoidPMCEngineer
-  suffix: ent-RMCRandomHumanoidPMCEngineer-suffix
+  name: weya pmc ghost role engineer
+  suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCEngineer
-  name: ent-RMCSpawnPointPMCEngineer
+  name: weya pmc engineer spawn point
   components:
   - type: SpawnPoint
     job_id: RMCPMCEngineer

@@ -2,8 +2,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechGuns
-  name: ent-ColMarTechGuns
-  description: ent-ColMarTechGuns-desc
+  name: ColMarTech automated weapons rack
+  description: An automated weapon rack hooked up to a big storage of standard-issue weapons.
   components:
   - type: AccessReader
     access:
@@ -142,8 +142,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSurplus
-  name: ent-ColMarTechSurplus
-  description: ent-ColMarTechSurplus-desc
+  name: ColMarTech surplus uniform vendor
+  description: An automated rack hooked up to a small storage of standard marine uniforms.
   components:
   - type: AccessReader
     access:
@@ -379,8 +379,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMunitions
-  name: ent-ColMarTechMunitions
-  description: ent-ColMarTechMunitions-desc
+  name: ColMarTech automated munition squad vendor
+  description: An automated supply rack hooked up to a small storage of various ammunition types. Can be accessed by any Marine Rifleman.
   components:
   - type: AccessReader
     access:
@@ -450,8 +450,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechUtilities
-  name: ent-ColMarTechUtilities
-  description: ent-ColMarTechUtilities-desc
+  name: ColMarTech automated utilities squad vendor
+  description: An automated supply rack hooked up to a small storage of various utilities and tools. Can be accessed by any Marine Rifleman.
   components:
   - type: AccessReader
     access:
@@ -528,8 +528,8 @@
 - type: entity
   parent: ColMarTechBase
   id: CMVendorAttachments
-  name: ent-CMVendorAttachments
-  description: ent-CMVendorAttachments-desc
+  name: ARMAT Battlefield Systems squad attachments vendor
+  description: An automated supply rack hooked up to a small storage of weapons attachments. Can be accessed by any Marine Rifleman.
   components:
   - type: AccessReader
     access:

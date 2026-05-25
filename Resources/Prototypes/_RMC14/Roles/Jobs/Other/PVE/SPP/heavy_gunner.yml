@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPHeavyGunnerPVE
-  name: job-rmcsppheavygunnerpve-name
-  description: job-rmcsppheavygunnerpve-desc
+  name: rmc-job-name-spp-gunner
+  description: rmc-ghost-role-information-spp-pve-description
   playTimeTracker: RMCJobSPPHeavyGunnerPVE
   ranks:
     RMCRankSPPMladshiySerzhant: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - SmartGunOperator
-  spawnMenuRoleName: job-rmcsppheavygunnerpve-spawnmenurolename
+  spawnMenuRoleName: SPP Heavy Gunner (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -44,8 +44,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPGunnerPVE
-  name: ent-RMCSpawnPointSPPGunnerPVE
-  suffix: ent-RMCSpawnPointSPPGunnerPVE-suffix
+  name: spp heavy gunner spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: RMCSPPHeavyGunnerPVE

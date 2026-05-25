@@ -2,7 +2,7 @@
   abstract: true
   parent: MarkerBase
   id: BaseAntagSpawner
-  name: ent-BaseAntagSpawner
+  name: ghost role spawn point
   components:
   - type: GhostRole
     raffle:
@@ -11,8 +11,8 @@
 
 - type: entity
   id: SpawnPointGhostRatKing
-  name: ent-SpawnPointGhostRatKing
-  suffix: ent-SpawnPointGhostRatKing-suffix
+  name: ghost role spawn point
+  suffix: rat king
   parent: MarkerBase
   components:
   - type: GhostRole
@@ -34,8 +34,8 @@
 
 - type: entity
   id: SpawnPointGhostRemilia
-  name: ent-SpawnPointGhostRemilia
-  suffix: ent-SpawnPointGhostRemilia-suffix
+  name: ghost role spawn point
+  suffix: Remilia
   parent: MarkerBase
   components:
   - type: GhostRole
@@ -57,8 +57,8 @@
 
 - type: entity
   id: SpawnPointGhostCerberus
-  name: ent-SpawnPointGhostCerberus
-  suffix: ent-SpawnPointGhostCerberus-suffix
+  name: ghost role spawn point
+  suffix: cerberus
   parent: MarkerBase
   components:
   - type: GhostRole
@@ -81,8 +81,8 @@
 - type: entity
   categories: [ HideSpawnMenu, Spawner ]
   id: SpawnPointGhostNukeOperative
-  name: ent-SpawnPointGhostNukeOperative
-  suffix: ent-SpawnPointGhostNukeOperative-suffix
+  name: ghost role spawn point
+  suffix: nukeops
   parent: MarkerBase
   components:
   - type: GhostRole
@@ -233,8 +233,8 @@
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseAntagSpawner
   id: SpawnPointGhostWizard
-  name: ent-SpawnPointGhostWizard
-  suffix: ent-SpawnPointGhostWizard-suffix
+  name: ghost role spawn point
+  suffix: wizard
   components:
   - type: GhostRole
     name: ghost-role-information-wizard-name

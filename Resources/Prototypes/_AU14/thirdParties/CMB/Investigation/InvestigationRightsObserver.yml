@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobInvestigationCMBRightsObserver
-  name: job-au14jobinvestigationcmbrightsobserver-name
-  description: job-au14jobinvestigationcmbrightsobserver-desc
+  name: au14-job-name-civilianrightsobserver
+  description: au14-job-description-investigationrightsobserver
   playTimeTracker: AU14JobInvestigationCMBRightsObserver
   setPreference: false
   canBeAntag: false
@@ -13,7 +13,7 @@
   icon: "RMCJobIconBureauObserver"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobinvestigationcmbrightsobserver-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - aucmb
   - Colonist
@@ -61,7 +61,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCMB
   id: CMBInvestigationPartyJobRightsObserver
-  name: ent-CMBInvestigationPartyJobRightsObserver
+  name: Interstellar Human Rights Observer
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

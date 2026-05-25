@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPAPThirdpartyInvestigatorBase
-  name: job-au14jobpapthirdpartyinvestigatorbase-name
-  description: job-au14jobpapthirdpartyinvestigatorbase-desc
+  name: au-14-job-name-papthirdparty-investigator
+  description: au14-papthirdparty-description
   playTimeTracker: AU14JobPaPThirdpartyInvestigator
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobPAPThirdpartyInvestigatorBase
   id: AU14PAPThirdpartyInvestigator
-  name: job-au14papthirdpartyinvestigator-name
-  description: job-au14papthirdpartyinvestigator-desc
+  name: au-14-job-name-papthirdparty-investigator
+  description: au14-papthirdparty-description
   ranks:
     UPP_SeniorLieutenant:
     - !type:RoleTimeRequirement
@@ -22,12 +22,12 @@
       role: AU14JobPaPThirdpartyInvestigator
       time: 18000 #5 hours
     UPP_JuniorLieutenant: []
-  spawnMenuRoleName: job-au14papthirdpartyinvestigator-spawnmenurolename
+  spawnMenuRoleName: UPP PaP Investigator (3rd party)
   startingGear: AU14GearPAPThirdpartyInvestigator
   greeting: au14-papthirdparty-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14papthirdpartyinvestigator-supervisors
+  supervisors: au-14-job-name-papthirdparty-captain
   accessGroups:
   - aucmb
   - Colonist
@@ -56,7 +56,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicPAPThirdparty
   id: AU14JobPaPThirdpartyInvestigator
-  name: ent-AU14JobPaPThirdpartyInvestigator
+  name: UPP PAP Investigator
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

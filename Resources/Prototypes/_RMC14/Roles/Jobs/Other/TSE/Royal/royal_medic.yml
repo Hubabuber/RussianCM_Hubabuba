@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesMedic
-  name: job-cmroyalmarinesmedic-name
-  description: job-cmroyalmarinesmedic-desc
+  name: rmc-job-name-rcm-medic
+  description: rmc-ghost-role-information-rcm-description
   playTimeTracker: RMCJobRoyalMedic
   ranks:
     RMCRankTSECorporal: [ ]
   startingGear: RMCGearRoyalMedic
   icon: "RMCJobIconRoyalMedic"
   joinNotifyCrew: false
-  supervisors: job-cmroyalmarinesmedic-supervisors
-  spawnMenuRoleName: job-cmroyalmarinesmedic-spawnmenurolename
+  supervisors: cm-job-supervisors-royal-tl
+  spawnMenuRoleName: RCM Medical Technician
   special:
   - !type:AddComponentSpecial
     components:
@@ -45,8 +45,8 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesMedic
-  name: ent-RMCRandomHumanoidRoyalMarinesMedic
-  suffix: ent-RMCRandomHumanoidRoyalMarinesMedic-suffix
+  name: royal crown marines ghost role medic
+  suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/ballistic.rsi

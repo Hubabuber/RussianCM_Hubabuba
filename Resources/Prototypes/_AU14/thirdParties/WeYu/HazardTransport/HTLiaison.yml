@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobCivilianCorporateLiaisonBase
   id: AU14JobWYHTCorporateLiaison
-  name: job-au14jobwyhtcorporateliaison-name
-  description: job-au14jobwyhtcorporateliaison-desc
+  name: au14-job-name-civiliancorporateliaison
+  description: au14-wyht-description
   ranks:
     RMCRankWeYaAssistantManager:
     - !type:RoleTimeRequirement
@@ -17,12 +17,12 @@
       role: AU14JobCivilianCorporateLiaison
       time: 180000 # 50 hours
     RMCRankWeYaSeniorExecutive: []
-  spawnMenuRoleName: job-au14jobwyhtcorporateliaison-spawnmenurolename
+  spawnMenuRoleName: WY HT Liaison (3rd party)
   startingGear: AU14GearWYHTLiaison
   greeting: au14-wyht-greeting
   icon: "CMJobIconLiaison"
   joinNotifyCrew: false
-  supervisors: job-au14jobwyhtcorporateliaison-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - Colonist
   - auadmin
@@ -60,7 +60,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYHTLiaison
-  name: ent-AU14JobWYHTLiaison
+  name: WY Hazard Transport Liaison (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

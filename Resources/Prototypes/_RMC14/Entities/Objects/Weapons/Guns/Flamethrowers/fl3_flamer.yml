@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: RMCWeaponFlamer
   id: RMCWeaponFL3Flamer
-  name: ent-RMCWeaponFL3Flamer
-  description: ent-RMCWeaponFL3Flamer-desc
+  name: flammenwerfer 3 heavy incineration unit
+  description: A heavy industrial incineration unit produced by the Weyland Corporation and later by Weyland-Yutani. Often found among foliage cleaning missions on frontier colonies, it usually isn't seen in combat, but is devastating when actually used.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/FL3/fl3_inhands.rsi
@@ -53,7 +53,7 @@
 - type: entity
   parent: RMCWeaponFL3Flamer
   id: RMCWeaponFL3FlamerPVE
-  suffix: ent-RMCWeaponFL3FlamerPVE-suffix
+  suffix: PVE
   components:
   - type: RMCMagneticItem
   - type: Gun
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCWeaponFL3Flamer
   id: RMCWeaponFL3FlamerWhiteout
-  suffix: ent-RMCWeaponFL3FlamerWhiteout-suffix
+  suffix: Whiteout
   components:
   - type: RMCMagneticItem
   - type: ItemSlots
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerFL3
-  name: ent-RMCTankFlamerFL3
-  description: ent-RMCTankFlamerFL3-desc
+  name: FW3 heavy incinerator tank
+  description: A heavy, high capacity tank utilized by the Flammenwerfer 3 Heavy Incineration Unit. This one has a blue, heat-resistant Weyland-Yutani logo on it.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/fl3.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCTankFlamerFL3
   id: RMCTankFlamerFL3Whiteout
-  name: ent-RMCTankFlamerFL3Whiteout
-  description: ent-RMCTankFlamerFL3Whiteout-desc
+  name: FW3 heavy incinerator tank (EX)
+  description: A heavy fuel tank of Ultra Thick Napthal Fuel type EX, a sticky combustible liquid chemical that burns so hot it melts straight through most flame-resistant materials, utilized by the Flammenwerfer 3 Heavy Incineration Unit. This has a blue, heat-resistant Weyland-Yutani logo on it. Handle with care.
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: RMCSPPSO
-  name: job-rmcsppso-name
-  description: job-rmcsppso-desc
+  name: rmc-job-name-spp-so
+  description: rmc-job-description-spp-so
   playTimeTracker: CMJobSPPSO
   ranks:
     RMCRankSPPStarshiyLeytenant: []
@@ -13,7 +13,7 @@
   - Colonist
   - HospitalCorpsman
   - CombatTech
-  spawnMenuRoleName: job-rmcsppso-spawnmenurolename
+  spawnMenuRoleName: SPP SO
   special:
   - !type:AddComponentSpecial
     components:

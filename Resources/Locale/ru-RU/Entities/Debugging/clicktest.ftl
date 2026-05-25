@@ -10,20 +10,3 @@ ent-ClickTestFixedCornerVisible-name = КликТестФикседКорнер�
 
 ent-ClickTestFixedCornerInvisible-name = НажмитеTestFixedCornerInvisible
 
-ent-ClickTestFixedCornerInvisible = НажмитеTestFixedCornerInvisible
-    .suffix = ОТЛАЖИВАТЬ
-
-ent-ClickTestFixedCornerVisible = КликТестФикседКорнерВидимый
-    .suffix = ОТЛАЖИВАТЬ
-
-ent-ClickTestRotatingCornerInvisible = НажмитеТестRotatingCornerInvisible
-    .suffix = ОТЛАЖИВАТЬ
-
-ent-ClickTestRotatingCornerInvisibleNoRot = НажмитеТестRotatingCornerInvisibleNoRot
-    .suffix = ОТЛАЖИВАТЬ
-
-ent-ClickTestRotatingCornerVisible = НажмитеТестRotatingCornerVisible
-    .suffix = ОТЛАЖИВАТЬ
-
-ent-ClickTestRotatingCornerVisibleNoRot = НажмитеТестRotatingCornerVisibleNoRot
-    .suffix = ОТЛАЖИВАТЬ

@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStorageItem
   id: CMPacketBase
-  name: ent-CMPacketBase
+  name: packet
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/packets.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeHighExplosive
-  name: ent-CMPacketGrenadeHighExplosive
-  description: ent-CMPacketGrenadeHighExplosive-desc
+  name: HEDP grenade packet
+  description: It contains three HEDP high explosive grenades.
   components:
   - type: Sprite
     layers:
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMPacketGrenadeHighExplosive
   id: CMPacketGrenadeHighExplosiveFilled
-  suffix: ent-CMPacketGrenadeHighExplosiveFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeFrag
-  name: ent-CMPacketGrenadeFrag
-  description: ent-CMPacketGrenadeFrag-desc
+  name: HEFA grenade packet
+  description: It contains three HEFA grenades. Don't tell the HEFA order.
   components:
   - type: Sprite
     layers:
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMPacketGrenadeFrag
   id: CMPacketGrenadeFragFilled
-  suffix: ent-CMPacketGrenadeFragFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -81,8 +81,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCPacketGrenadeFlashBang
-  name: ent-RMCPacketGrenadeFlashBang
-  suffix: ent-RMCPacketGrenadeFlashBang-suffix
+  name: box of flashbangs (WARNING)
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/flashbangs.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeSmoke
-  name: ent-RMCPacketGrenadeSmoke
-  description: ent-RMCPacketGrenadeSmoke-desc
+  name: HSDP grenade packet
+  description: It contains three HSDP smoke grenades.
   components:
   - type: Sprite
     layers:
@@ -133,7 +133,7 @@
 - type: entity
   parent: RMCPacketGrenadeSmoke
   id: RMCPacketGrenadeSmokeFilled
-  suffix: ent-RMCPacketGrenadeSmokeFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -143,8 +143,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMF
-  name: ent-RMCPacketGrenadeM74AGMF
-  description: ent-RMCPacketGrenadeM74AGMF-desc
+  name: M74 AGM-F grenade packet
+  description: It contains three M74AGM-Frag airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -156,7 +156,7 @@
 - type: entity
   parent: RMCPacketGrenadeM74AGMF
   id: RMCPacketGrenadeM74AGMFFilled
-  suffix: ent-RMCPacketGrenadeM74AGMFFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMI
-  name: ent-RMCPacketGrenadeM74AGMI
-  description: ent-RMCPacketGrenadeM74AGMI-desc
+  name: M74AGM-I grenade packet
+  description: It contains three M74AGM-Incendiary airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -179,7 +179,7 @@
 - type: entity
   parent: RMCPacketGrenadeM74AGMI
   id: RMCPacketGrenadeM74AGMIFilled
-  suffix: ent-RMCPacketGrenadeM74AGMIFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMS
-  name: ent-RMCPacketGrenadeM74AGMS
-  description: ent-RMCPacketGrenadeM74AGMS-desc
+  name: M74AGM-S grenade packet
+  description: It contains three M74AGM-Smoke airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -202,7 +202,7 @@
 - type: entity
   parent: RMCPacketGrenadeM74AGMS
   id: RMCPacketGrenadeM74AGMSFilled
-  suffix: ent-RMCPacketGrenadeM74AGMSFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -212,8 +212,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMSHornet
-  name: ent-RMCPacketGrenadeM74AGMSHornet
-  description: ent-RMCPacketGrenadeM74AGMSHornet-desc
+  name: M74AGM-S Hornet grenade packet
+  description: It contains three M74AGM-S Hornet airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -225,7 +225,7 @@
 - type: entity
   parent: RMCPacketGrenadeM74AGMSHornet
   id: RMCPacketGrenadeM74AGMSHornetFilled
-  suffix: ent-RMCPacketGrenadeM74AGMSHornetFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -235,8 +235,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMSStarShell
-  name: ent-RMCPacketGrenadeM74AGMSStarShell
-  description: ent-RMCPacketGrenadeM74AGMSStarShell-desc
+  name: M74AGM-S Starshell grenade packet
+  description: It contains three M74AGM-S Starshell airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -248,7 +248,7 @@
 - type: entity
   parent: RMCPacketGrenadeM74AGMSStarShell
   id: RMCPacketGrenadeM74AGMSStarShellFilled
-  suffix: ent-RMCPacketGrenadeM74AGMSStarShellFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -258,8 +258,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeBatonSlugHIRR
-  name: ent-RMCPacketGrenadeBatonSlugHIRR
-  description: ent-RMCPacketGrenadeBatonSlugHIRR-desc
+  name: HIRR Baton Slug packet
+  description: It contains three HIRR Baton Slug rounds.
   components:
   - type: Sprite
     layers:
@@ -271,7 +271,7 @@
 - type: entity
   parent: RMCPacketGrenadeBatonSlugHIRR
   id: RMCPacketGrenadeBatonSlugHIRRFilled
-  suffix: ent-RMCPacketGrenadeBatonSlugHIRRFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -281,8 +281,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeIncendiary
-  name: ent-RMCPacketGrenadeIncendiary
-  description: ent-RMCPacketGrenadeIncendiary-desc
+  name: HIAM grenade packet
+  description: It contains three M77 High-explosive-Incendiary, Anti-Mobility grenades.
   components:
   - type: Sprite
     layers:
@@ -294,7 +294,7 @@
 - type: entity
   parent: RMCPacketGrenadeIncendiary
   id: RMCPacketGrenadeIncendiaryFilled
-  suffix: ent-RMCPacketGrenadeIncendiaryFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -304,8 +304,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeWhitePhosphorus
-  name: ent-RMCPacketGrenadeWhitePhosphorus
-  description: ent-RMCPacketGrenadeWhitePhosphorus-desc
+  name: WPDP grenade packet
+  description: It contains three WPDP white phosphorus grenades.
   components:
   - type: Sprite
     layers:
@@ -317,7 +317,7 @@
 - type: entity
   parent: RMCPacketGrenadeWhitePhosphorus
   id: RMCPacketGrenadeWhitePhosphorusFilled
-  suffix: ent-RMCPacketGrenadeWhitePhosphorusFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -327,8 +327,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeWhitePhosphorusCompound
-  name: ent-RMCPacketGrenadeWhitePhosphorusCompound
-  description: ent-RMCPacketGrenadeWhitePhosphorusCompound-desc
+  name: CCDP grenade packet
+  description: It contains three CCDP chemical compound grenades.
   components:
   - type: Sprite
     layers:
@@ -340,7 +340,7 @@
 - type: entity
   parent: RMCPacketGrenadeWhitePhosphorusCompound
   id: RMCPacketGrenadeWhitePhosphorusCompoundFilled
-  suffix: ent-RMCPacketGrenadeWhitePhosphorusCompoundFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -350,8 +350,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeFragOld
-  name: ent-CMPacketGrenadeFragOld
-  description: ent-CMPacketGrenadeFragOld-desc
+  name: M15 frag grenade packet
+  description: It contains three M15 fragmentation grenades. Handle with care.
   components:
   - type: Sprite
     layers:
@@ -363,7 +363,7 @@
 - type: entity
   parent: CMPacketGrenadeFragOld
   id: CMPacketGrenadeFragOldFilled
-  suffix: ent-CMPacketGrenadeFragOldFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -377,8 +377,8 @@
   abstract: true
   parent: CMPacketBase
   id: RMCBoxBase
-  name: ent-RMCBoxBase
-  description: ent-RMCBoxBase-desc
+  name: grenade box
+  description: A secure box holding grenades. High explosive, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -403,8 +403,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxHEDP
-  name: ent-RMCBoxHEDP
-  description: ent-RMCBoxHEDP-desc
+  name: 30mm HEDP grenade box
+  description: A secure box holding 25 30mm High-Explosive Dual-Purpose grenades. High explosive, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -426,8 +426,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxHEFA
-  name: ent-RMCBoxHEFA
-  description: ent-RMCBoxHEFA-desc
+  name: 30mm HEFA grenade box
+  description: A secure box holding 25 30mm High-Explosive Fragmenting-Antipersonnel grenades. High explosive, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -449,8 +449,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxAGMF
-  name: ent-RMCBoxAGMF
-  description: ent-RMCBoxAGMF-desc
+  name: M74 AGM-F grenade box
+  description: A secure box holding 25 M74 AGM Fragmentation grenades. Explosive, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -472,8 +472,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxAGMI
-  name: ent-RMCBoxAGMI
-  description: ent-RMCBoxAGMI-desc
+  name: M74 AGM-I grenade box
+  description: A secure box holding 25 M74 AGM Incendiary grenades. Highly flammable, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -495,8 +495,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxWPDP
-  name: ent-RMCBoxWPDP
-  description: ent-RMCBoxWPDP-desc
+  name: 30mm WPDP grenade box
+  description: A secure box holding 25 30mm WPDP White Phosphorus grenades. Highly flammable, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -518,8 +518,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxCCDP
-  name: ent-RMCBoxCCDP
-  description: ent-RMCBoxCCDP-desc
+  name: 30mm CCDP grenade box
+  description: A secure box holding 25 30mm CCDP Chemical Compound grenades. Highly flammable, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -541,9 +541,9 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenade20mmHE
-  name: ent-RMCPacketGrenade20mmHE
-  suffix: ent-RMCPacketGrenade20mmHE-suffix
-  description: ent-RMCPacketGrenade20mmHE-desc
+  name: L109A1 HE grenade packet
+  suffix: PVE
+  description: It contains eight L109A1 20mm HE grenades.
   components:
   - type: Tag
     tags:
@@ -565,7 +565,7 @@
 - type: entity
   parent: RMCPacketGrenade20mmHE
   id: RMCPacketGrenade20mmHEFilled
-  suffix: ent-RMCPacketGrenade20mmHEFilled-suffix
+  suffix: PVE, Filled
   components:
   - type: StorageFill
     contents:
@@ -575,9 +575,9 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenade20mmIncendiary
-  name: ent-RMCPacketGrenade20mmIncendiary
-  suffix: ent-RMCPacketGrenade20mmIncendiary-suffix
-  description: ent-RMCPacketGrenade20mmIncendiary-desc
+  name: L109A2 Incendiary grenade packet
+  suffix: PVE
+  description: It contains eight L109A2 20mm incendiary grenades.
   components:
   - type: Tag
     tags:
@@ -599,7 +599,7 @@
 - type: entity
   parent: RMCPacketGrenade20mmIncendiary
   id: RMCPacketGrenade20mmIncendiaryFilled
-  suffix: ent-RMCPacketGrenade20mmIncendiaryFilled-suffix
+  suffix: PVE, Filled
   components:
   - type: StorageFill
     contents:

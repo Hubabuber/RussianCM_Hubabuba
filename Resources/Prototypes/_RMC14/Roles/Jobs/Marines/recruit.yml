@@ -1,14 +1,14 @@
 - type: job
   parent: CMJobSquadBase
   id: RMCRecruit
-  name: job-rmcrecruit-name
-  description: job-rmcrecruit-desc
+  name: rmc-job-name-recruit
+  description: rmc-job-description-recruit
   playTimeTracker: RMCJobRecruit
   startingGear: RMCGearRecruit
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
   marineAuthorityLevel: 0
-  supervisors: job-rmcrecruit-supervisors
+  supervisors: job-supervisors-everyone
   ranks:
     RMCRankRecruit: []
   accessGroups:
@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointRecruit
-  name: ent-RMCSpawnPointRecruit
+  name: recruit spawn point
   components:
   - type: SpawnPoint
     job_id: RMCRecruit

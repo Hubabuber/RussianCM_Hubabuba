@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCPhoneboxBase
-  name: ent-RMCPhoneboxBase
-  description: ent-RMCPhoneboxBase-desc
+  name: phonebox
+  description: It's a phonebox, outdated but realiable technology. These are used to communicate throughout the colony and connected colonies without interference. As reliable as they are, it seems the line is down.
   abstract: true
   components:
   - type: Transform
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCPhoneboxBrokenBase
-  name: ent-RMCPhoneboxBrokenBase
-  description: ent-RMCPhoneboxBrokenBase-desc
+  name: wrecked phonebox
+  description: It's a phonebox, outdated but realiable technology. These are used to communicate throughout the colony and connected colonies without interference. It seems it's completely wrecked, covered in blood and the glass is smashed. Hiding inside would be pointless.
   abstract: true
   components:
   - type: Transform
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCPhoneboxBase
   id: RMCPhoneboxOff
-  suffix: ent-RMCPhoneboxOff-suffix
+  suffix: Off
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/phonebox_off.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: RMCPhoneboxBase
   id: RMCPhoneboxOn
-  suffix: ent-RMCPhoneboxOn-suffix
+  suffix: On
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/phonebox_on.rsi

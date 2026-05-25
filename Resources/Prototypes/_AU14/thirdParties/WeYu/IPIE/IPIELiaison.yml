@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobIPIELawyer
-  name: job-au14jobipielawyer-name
-  description: job-au14jobipielawyer-desc
+  name: IPIE Lawyer
+  description: au14-ipie-lawyer-description
   playTimeTracker: AU14JobIPIELawyer
   ranks:
     RMCRankWeYaLegalSpecialist: []
-  spawnMenuRoleName: job-au14jobipielawyer-spawnmenurolename
+  spawnMenuRoleName: WY IPIE Lawyer (3rd party)
   startingGear: AU14GearIPIELawyer
   greeting: au14-ipie-lawyer-greeting
   icon: "CMJobIconLiaison"
   joinNotifyCrew: false
-  supervisors: job-au14jobipielawyer-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - Colonist
   - auadmin
@@ -51,7 +51,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobIPIELawyer
-  name: ent-AU14JobIPIELawyer
+  name: WY IPIE Lawyer (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -71,7 +71,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobIPIELawyerSynth
-  name: ent-AU14JobIPIELawyerSynth
+  name: WY IPIE Lawyer (3rd party, synth)
   components:
   - type: Synth
     changeBrain: false

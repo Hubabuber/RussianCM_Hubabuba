@@ -1,9 +1,0 @@
-guideentry-anomalousresearch-name = руководство-вход-аномальное-исследование
-guideentry-ape-name = гид-вход-обезьяна
-guideentry-artifactreports-name = отчеты-записи-руководства-артефакты
-guideentry-cyborgs-name = гид-вход-киборги
-guideentry-robotics-name = гид-вход-робототехника
-guideentry-scannersandvessels-name = направляющие-сканеры-входа-и-сосуды
-guideentry-science-name = гид-вход-наука
-guideentry-technologies-name = гид-вход-технологии
-guideentry-xenoarchaeology-name = гид-вход-ксеноархеология

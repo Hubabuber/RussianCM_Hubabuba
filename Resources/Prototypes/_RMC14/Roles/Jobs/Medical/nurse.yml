@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMNurse
-  name: job-cmnurse-name
-  description: job-cmnurse-desc
+  name: rmc-job-name-nurse
+  description: rmc-job-description-nurse
   setPreference: false
   playTimeTracker: CMJobNurse
   requirements:
@@ -18,7 +18,7 @@
   startingGear: CMGearNurse
   icon: "CMJobIconNurse"
   joinNotifyCrew: false
-  supervisors: job-cmnurse-supervisors
+  supervisors: cm-job-supervisors-cmo
   accessGroups:
   - CMMedbay
   roleWeight: 0.25
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointNurse
-  name: ent-CMSpawnPointNurse
+  name: nurse spawn point
   components:
   - type: SpawnPoint
     job_id: CMNurse

@@ -16,22 +16,3 @@ ent-DefibrillatorEmpty-desc = ЯСНО! Зззат!
 ent-DefibrillatorOneHandedUnpowered-name = дефибриллятор
 ent-DefibrillatorOneHandedUnpowered-desc = ЯСНО! Зззат!
 
-ent-BaseDefibrillator = дефибриллятор
-    .desc = ПРОЗРАЧНЫЙ! Зззат!
-
-ent-Defibrillator = дефибриллятор
-    .desc = ПРОЗРАЧНЫЙ! Зззат!
-
-ent-DefibrillatorCompact = компактный дефибриллятор
-    .desc = Теперь в забавном размере!
-
-ent-DefibrillatorEmpty = дефибриллятор
-    .desc = ПРОЗРАЧНЫЙ! Зззат!
-    .suffix = Пустой
-
-ent-DefibrillatorOneHandedUnpowered = дефибриллятор
-    .desc = ПРОЗРАЧНЫЙ! Зззат!
-    .suffix = Одной рукой, всегда включен
-
-ent-DefibrillatorSyndicate = интердинный дефибриллятор
-    .desc = Используется как оружие самообороны против приливов, склонных к военным преступлениям.

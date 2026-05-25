@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseItem
   id: DrinkBaseCup
-  name: ent-DrinkBaseCup
+  name: base cup
   abstract: true
   components:
   - type: SolutionContainerManager
@@ -46,8 +46,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkGoldenCup
-  name: ent-DrinkGoldenCup
-  description: ent-DrinkGoldenCup-desc
+  name: golden cup
+  description: A golden cup.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/golden_cup.rsi
@@ -61,8 +61,8 @@
   parent: DrinkBaseCup
   id: DrinkBaseMug
   abstract: true
-  name: ent-DrinkBaseMug
-  description: ent-DrinkBaseMug-desc
+  name: mug
+  description: A mug.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMug
-  name: ent-DrinkMug
-  description: ent-DrinkMug-desc
+  name: mug
+  description: A plain white mug.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugBlack
-  name: ent-DrinkMugBlack
-  description: ent-DrinkMugBlack-desc
+  name: black mug
+  description: A sleek black mug.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_black.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugBlue
-  name: ent-DrinkMugBlue
-  description: ent-DrinkMugBlue-desc
+  name: blue mug
+  description: A blue and black mug.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_blue.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugGreen
-  name: ent-DrinkMugGreen
-  description: ent-DrinkMugGreen-desc
+  name: green mug
+  description: A pale green and pink mug.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_green.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugDog
-  name: ent-DrinkMugDog
-  description: ent-DrinkMugDog-desc
+  name: funny dog mug
+  description: It looks like a cartoon beagle.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_dog.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugHeart
-  name: ent-DrinkMugHeart
-  description: ent-DrinkMugHeart-desc
+  name: heart mug
+  description: A white mug, it prominently features a red heart.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_heart.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugMetal
-  name: ent-DrinkMugMetal
-  description: ent-DrinkMugMetal-desc
+  name: metal mug
+  description: A metal mug. You're not sure which metal.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_metal.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugMoebius
-  name: ent-DrinkMugMoebius
-  description: ent-DrinkMugMoebius-desc
+  name: moebius mug
+  description: A mug with a Moebius Laboratories logo on it. Not even your morning coffee is safe from corporate advertising.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_moebius.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugOne
-  name: "ent-DrinkMugOne"
-  description: ent-DrinkMugOne-desc #1."
+  name: "#1 mug"
+  description: "A white mug, it prominently features a #1."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_one.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugRainbow
-  name: ent-DrinkMugRainbow
-  description: ent-DrinkMugRainbow-desc
+  name: rainbow mug
+  description: A rainbow mug. The colors are almost as blinding as a welder.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_rainbow.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugRed
-  name: ent-DrinkMugRed
-  description: ent-DrinkMugRed-desc
+  name: red mug
+  description: A red and black mug.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_red.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkHotCoco
-  name: ent-DrinkHotCoco
-  description: ent-DrinkHotCoco-desc
+  name: hot chocolate
+  description: A heated drink consisting melted chocolate and heated milk.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -212,8 +212,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkHotCoffee
-  name: ent-DrinkHotCoffee
-  description: ent-DrinkHotCoffee-desc
+  name: coffee
+  description: Coffee is a brewed drink prepared from roasted seeds, commonly called coffee beans, of the coffee plant.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -240,8 +240,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkCafeLatte
-  name: ent-DrinkCafeLatte
-  description: ent-DrinkCafeLatte-desc
+  name: cafe latte
+  description: A nice, strong and tasty beverage while you are reading.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -266,8 +266,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkTeacup
-  name: ent-DrinkTeacup
-  description: ent-DrinkTeacup-desc
+  name: teacup
+  description: A plain white porcelain teacup.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -294,8 +294,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkGreenTea
-  name: ent-DrinkGreenTea
-  description: ent-DrinkGreenTea-desc
+  name: green tea
+  description: A plain white porcelain teacup.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -322,8 +322,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkLean
-  name: ent-DrinkLean
-  description: ent-DrinkLean-desc
+  name: grape juice
+  description: Damn, no fun allowed.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -342,8 +342,8 @@
 - type: entity
   parent: DrinkBaseCup
   id: DrinkWaterCup
-  name: ent-DrinkWaterCup
-  description: ent-DrinkWaterCup-desc
+  name: water cup
+  description: A paper water cup.
   components:
   - type: Drink
   - type: Sprite

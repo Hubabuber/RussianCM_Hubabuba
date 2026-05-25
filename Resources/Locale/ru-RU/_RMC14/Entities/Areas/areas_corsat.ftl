@@ -1,262 +1,262 @@
 ent-RMCAreaCorsatInaccessible = Неизвестное местоположение
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaControl = Модуль управления куполом Omega
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaAirlocknorthId = Контрольно-пропускной пункт Omega North ID
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaAirlocknorth = Северный шлюзовой шлюз Omega Dome
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaMaint = Омега Техническое обслуживание
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaCargo = Омега Карго
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaOffices = Офисы Омеги
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaCheckpoint = Контрольно-пропускной пункт Омега-доступа
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaSecurity = Центр безопасности Омега
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaContainment = Сдерживание исследований Омеги
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaComplex = Исследовательский Комплекс Омега
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaHallways = Коридоры сектора Омега
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaHangarCorporate_shuttle = Омега Ангар Корпоративный шаттл
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaHangarSecurity = Охрана ангара Омега
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaHangarOffice = Омега Ангар Офис
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaHangar = Лендинг Бэй Омега
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmegaBiodome = Биодом Омега
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatOmega = Сектор Омега
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaAirlockControl = Модуль управления куполом Тета
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaAirlockEastId = Контрольно-пропускной пункт Тета Ист
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaAirlockEast = Восточный шлюз Тета Доум
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaAirlockWestId = Контрольно-пропускной пункт Тета Вест
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaAirlockWest = Западный шлюз Тета Доум
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaBiodomeHydrowest = Крыло гидропоники Тета Вест
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaBiodomeHydroeast = Восточное крыло гидропоники Тета
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaBiodomeComplex = Тета Исследовательский Комплекс
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatThetaBiodome = Биодом Тета
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatTheta = Тета-сектор
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaBiodomeToxins = Крыло гамма-токсинов
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaBiodomeVirology = Отделение гамма-вирусологии
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaBiodomeComplex = Гамма-исследовательский комплекс
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaBiodome = Биодом Гамма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaAirlockControl = Модуль управления гамма-куполом
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaAirlockSouthId = Контрольно-пропускной пункт Гамма Юг
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaAirlockSouth = Южный шлюз Гамма-Купола
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaAirlockNorthId = Контрольно-пропускной пункт Гамма-Север
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaAirlockNorth = Северный шлюз Гамма-Купола
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaSigmaremoteTeleporter = Удаленный телепорт Сигмы
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaSigmaremote = Удаленный комплекс Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaEngineeringCore = Ядро генератора КОРСАТ
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaEngineeringAtmos = КОРСАТ Атмосфера
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaEngineeringLobby = Гамма Инжиниринговый Лобби
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaEngineering = Гамма Инжиниринг
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaRnrLibrary = Библиотека КОРСАТ
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaRnrArcade = КОРСАТ Аркады
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaRnrBar = КОРСАТ Бар
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaRnr = КОРСАТ R&R
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaSecurityArmory = КОРСАТ Оружейная
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaSecurityCells = Ячейки безопасности КОРСАТ
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaSecurity = Центр безопасности CORSAT
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaAdministration = Центр администрирования КОРСАТ
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaFreezer = КОРСАТ Хранение продуктов питания
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaKitchen = КОРСАТ Кухня
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaCanteen = КОРСАТ Столовая
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHydroponics = КОРСАТ Гидропоника
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaMedbayLobby = КОРСАТ Медицинский отсек, вестибюль
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaMedbaySurgery = КОРСАТ Хирургия
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaMedbayChemistry = КОРСАТ Химия
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaMedbayMorgue = КОРСАТ Морг
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaMedbay = КОРСАТ Медбэй
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaCargoDisposal = Гамма-захоронения
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaCargoLobby = Гамма Грузовой вестибюль
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaCargo = Гамма Карго
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidentialLaundry = Гамма Прачечная
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidentialShowers = Гамма-ливни
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidentialLavatory = Гамма Туалет
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidentialLounge = Исследовательская гостиная
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidentialResearcher = Исследовательские кварталы
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidentialMaint = Гамма Жилищное Обслуживание
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidentialEast = Гамма Норт Жилой
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidentialWest = Академия КОРСАТ
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaResidential = Жилой коридор Гамма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHallwaysouth = Южные коридоры сектора Гамма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHallwaymain = Западный коридор сектора Гамма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaFoyer = Гамма Фойе
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarArrivals = Гамма Прибытие
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarSecurity = Гамма Ангар Охрана
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarFlightcontrol = Центр управления полетами КОРСАТ
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarOffice = Гамма Ангар Офис
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarCheckpoint = Контрольно-пропускной пункт Гамма-ангара
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarCargo = Грузовой контрольно-пропускной пункт Гамма-ангара
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarMonorailRailcart = КОРСАТ Железнодорожная тележка
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarMonorailControl = Гамма-монорельсовое управление
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangarMonorail = Станция монорельсовой дороги «Гамма»
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGammaHangar = Лендинг Бэй Гамма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatGamma = Гамма-сектор
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaBiodomeScrapyard = Свалка биокупола Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaBiodomeGunrange = Стрельбище «Сигма Биодом»
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaBiodomeTestgrounds = Испытательный полигон Сигма Биодом
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaBiodomeIce = Биодом Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaBiodome = Биодом Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSouthOffices = Офисы Сигмы
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSouthSecurity = Центр безопасности Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSouthEngineering = Сигма Инжиниринг
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSouthRobotics = Лаборатория робототехники Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSouthComplexTeleporter = Сигма-телепорт
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSouthComplex = Исследовательский комплекс Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSouth = Южные коридоры сектора Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSoutheastDatamaint = Обслуживание данных Сигмы
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSoutheastDataoffice = Офис данных Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSoutheastDatalab = Лаборатория данных Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSoutheastTelecomm = КОРСАТ Телекоммуникации
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSoutheastGenerator = Вторичные генераторы CORSAT
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaSoutheast = Юго-восточные коридоры сектора Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaCheckpoint = Контрольно-пропускной пункт Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaDorms = Жилой модуль Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaCafe = Кафе Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaLavatory = Сигма Туалет
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaLaundry = Сигма Прачечная
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaCargo = Сигма Карго
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaAirlockControl = Модуль управления куполом Sigma
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaAirlockSouthId = Контрольно-пропускной пункт Sigma South ID
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaAirlockSouth = Южный шлюз Sigma Dome
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaAirlockEastId = Контрольно-пропускной пункт Sigma East ID
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaAirlockEast = Восточный шлюз Sigma Dome
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarSecurity = Сигма Ангар Охрана
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarOffice = Офис ангара Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarArrivals = Прибытие Сигмы
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarId = Контрольно-пропускной пункт с идентификатором ангара Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarCheckpoint = Контрольно-пропускной пункт ангара Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarCargo = Грузовой контрольно-пропускной пункт ангара Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarMonorailRailcart_transit = КОРСАТ Монорельсовый транспорт
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarMonorailRailcart = КОРСАТ Монорельсовая дорога
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarMonorailControl = Управление монорельсовой дорогой Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangarMonorail = Станция монорельсовой дороги Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaHangar = Лендинг Бэй Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigmaNorth = Северный коридор сектора Сигма
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatSigma = Сигма Сектор
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatEmergencyAccess = Неизвестный район
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatLandingConsole2 = LZ2 'Сигма'
-    .suffix = Зона КОРСАТ
+
 ent-RMCAreaCorsatLandingConsole = ЛЗ1 'Гамма'
-    .suffix = Зона КОРСАТ
+

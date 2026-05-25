@@ -1,7 +1,7 @@
 - type: entity
   id: WeaponEnergyTurretControlPanelFrame
-  name: ent-WeaponEnergyTurretControlPanelFrame
-  description: ent-WeaponEnergyTurretControlPanelFrame-desc
+  name: sentry turret control panel assembly
+  description: An incomplete wall-mounted assembly for a sentry turret control panel.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -48,8 +48,8 @@
   abstract: true
   parent: WeaponEnergyTurretControlPanelFrame
   id: WeaponEnergyTurretStationControlPanelBase
-  name: ent-WeaponEnergyTurretStationControlPanelBase
-  description: ent-WeaponEnergyTurretStationControlPanelBase-desc
+  name: sentry turret control panel
+  description: A wall-mounted interface for remotely configuring the operational parameters of linked sentry turrets.
   components:
   - type: Appearance
   - type: Sprite
@@ -168,7 +168,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationControlPanelBase
   id: WeaponEnergyTurretAIControlPanel
-  suffix: ent-WeaponEnergyTurretAIControlPanel-suffix
+  suffix: AI, Silicon
   components:
   - type: AccessReader
     access: [["StationAi"], ["ResearchDirector"]]
@@ -193,7 +193,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationControlPanelBase
   id: WeaponEnergyTurretSecurityControlPanel
-  suffix: ent-WeaponEnergyTurretSecurityControlPanel-suffix
+  suffix: Security
   components:
   - type: AccessReader
     access: [["StationAi"], ["Security"]]
@@ -210,7 +210,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationControlPanelBase
   id: WeaponEnergyTurretCommandControlPanel
-  suffix: ent-WeaponEnergyTurretCommandControlPanel-suffix
+  suffix: Command
   components:
   - type: AccessReader
     access: [["StationAi"], ["Command"]]

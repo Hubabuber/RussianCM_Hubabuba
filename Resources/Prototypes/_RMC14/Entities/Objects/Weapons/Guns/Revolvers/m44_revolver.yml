@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [RMCBaseSlideMagazineVisualsBallistic, RMCWeaponRevolverBase]
   id: RMCWeaponRevolverM44
-  name: ent-RMCWeaponRevolverM44
-  description: ent-RMCWeaponRevolverM44-desc
+  name: M44 combat revolver
+  description: A bulky revolver, occasionally carried by assault troops and officers in the Marine Corps, as well as civilian law enforcement. Fires .44 Magnum rounds.
   components:
   - type: Tag
     tags:
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCWeaponRevolverM44
   id: RMCWeaponRevolverM44Marksman
-  suffix: ent-RMCWeaponRevolverM44Marksman-suffix
+  suffix: Marksman
   components:
   - type: RevolverAmmoProvider
     proto: RMCCartridgeRevolver44Marksman
@@ -72,7 +72,7 @@
 - type: entity
   parent: RMCWeaponRevolverM44
   id: RMCWeaponRevolverM44Empty
-  suffix: ent-RMCWeaponRevolverM44Empty-suffix
+  suffix: Empty
   components:
   - type: RevolverAmmoProvider
     proto: null
@@ -80,7 +80,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoader44
-  name: "ent-RMCBaseSpeedLoader44"
+  name: "M44 speed loader (.44)"
   parent: BaseItem
   abstract: true
   components:
@@ -105,8 +105,8 @@
 - type: entity
   parent: RMCBaseSpeedLoader44
   id: RMCSpeedLoaderM44
-  name: "ent-RMCSpeedLoaderM44"
-  description: ent-RMCSpeedLoaderM44-desc
+  name: "M44 speed loader (.44)"
+  description: A revolver speed loader.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/m44.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCSpeedLoaderM44
   id: RMCSpeedLoader44Marksman
-  name: "ent-RMCSpeedLoader44Marksman"
-  description: ent-RMCSpeedLoader44Marksman-desc
+  name: "M44 marksman speed loader (.44)"
+  description: A revolver speed loader filled with Marksman ammo.
   components:
   - type: Tag
     tags:
@@ -150,7 +150,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44
-  name: ent-RMCCartridgeRevolver44
+  name: cartridge (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -162,7 +162,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44Marksman
-  name: ent-RMCCartridgeRevolver44Marksman
+  name: cartridge (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -175,7 +175,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletRevolver44
-  name: ent-CMBulletRevolver44
+  name: bullet (.44)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -190,7 +190,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver44Marksman
-  name: ent-RMCBulletRevolver44Marksman
+  name: bullet (.44 Marksman)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

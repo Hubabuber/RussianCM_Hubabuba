@@ -31,38 +31,3 @@ ent-SpaceCash30000-desc = У тебя должны быть деньги.
 ent-SpaceCash1000000-name = песо
 ent-SpaceCash1000000-desc = У тебя должны быть деньги.
 
-ent-SpaceCash = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash10 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash100 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash1000 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash10000 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash1000000 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash20000 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash2500 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash30000 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash500 = песо
-    .desc = У тебя должны быть деньги.
-
-ent-SpaceCash5000 = песо
-    .desc = У тебя должны быть деньги.
-
-material-credit-name = спесо
-stack-credit-name = стек-кредит

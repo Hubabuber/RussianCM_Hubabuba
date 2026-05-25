@@ -1,1 +1,0 @@
-ent-MobMoth = Urist McFluff

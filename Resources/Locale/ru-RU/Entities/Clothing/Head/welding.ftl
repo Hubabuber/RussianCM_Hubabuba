@@ -12,16 +12,3 @@ ent-ClothingHeadHatWeldingMaskFlameBlue-desc = Раскрашенный свар
 ent-ClothingHeadHatWeldingMaskPainted-name = окрашенная сварочная маска
 ent-ClothingHeadHatWeldingMaskPainted-desc = Сварочный шлем, окрашенный в малиновый цвет.
 
-ent-ClothingHeadHatWelding = сварочная маска
-    .desc = Крепящаяся на голову маска для лица, предназначенная для полной защиты владельца от глаз космической дуги.
-
-ent-ClothingHeadHatWeldingMaskFlame = маска для сварки пламенем
-    .desc = Раскрашенный сварочный шлем, на нем пламя.
-
-ent-ClothingHeadHatWeldingMaskFlameBlue = сварочная маска синего пламени
-    .desc = Раскрашенный сварочный шлем с голубым пламенем.
-
-ent-ClothingHeadHatWeldingMaskPainted = окрашенная сварочная маска
-    .desc = Сварочный шлем, окрашенный в малиновый цвет.
-
-ent-WeldingMaskBase = сварочная маска

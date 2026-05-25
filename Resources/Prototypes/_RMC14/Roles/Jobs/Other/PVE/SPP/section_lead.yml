@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPSectionLeadPVE
-  name: job-rmcsppsectionleadpve-name
-  description: job-rmcsppsectionleadpve-desc
+  name: rmc-job-name-spp-sectionsergeant
+  description: rmc-ghost-role-information-spp-pve-description
   playTimeTracker: RMCJobSPPSectionLeadPVE
   ranks:
     RMCRankSPPStarshiySerzhant: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - SquadLeader
-  spawnMenuRoleName: job-rmcsppsectionleadpve-spawnmenurolename
+  spawnMenuRoleName: SPP Section Sergeant (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPSectionLeadPVE
-  name: ent-RMCSpawnPointSPPSectionLeadPVE
-  suffix: ent-RMCSpawnPointSPPSectionLeadPVE-suffix
+  name: spp section lead spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: RMCSPPSectionLeadPVE

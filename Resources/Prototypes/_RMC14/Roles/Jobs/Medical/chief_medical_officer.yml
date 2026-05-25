@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMCMO
-  name: job-cmcmo-name
-  description: job-cmcmo-desc
+  name: rmc-job-name-cmo
+  description: rmc-job-description-cmo
   setPreference: false
   playTimeTracker: CMJobCMO
   requirements:
@@ -24,7 +24,7 @@
   requireAdminNotify: true
   joinNotifyCrew: false
   marineAuthorityLevel: 10
-  supervisors: job-cmcmo-supervisors
+  supervisors: rmc-job-supervisors-commander
   accessGroups:
   - CMCMO
   roleWeight: 0.25
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCMO
-  name: ent-CMSpawnPointCMO
+  name: chief medical officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMCMO
@@ -110,8 +110,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleCMO
-  name: ent-RMCGuidebookRoleCMO
-  description: ent-RMCGuidebookRoleCMO-desc
+  name: The CMO
+  description: The Chief Medical Officer.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

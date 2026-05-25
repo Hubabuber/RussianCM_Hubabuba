@@ -32,7 +32,7 @@
 - type: entity
   parent: RMCOverwatchConsole
   id: RMCOverwatchConsoleRotating
-  suffix: ent-RMCOverwatchConsoleRotating-suffix
+  suffix: Rotating
   components:
   - type: Sprite
     overrideDir: South
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCOverwatchConsoleRotating
   id: RMCOverwatchConsoleRotatingPowered
-  suffix: ent-RMCOverwatchConsoleRotatingPowered-suffix
+  suffix: Rotating, Powered
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCGroundsideOperationsConsole
-  name: ent-RMCGroundsideOperationsConsole
-  description: ent-RMCGroundsideOperationsConsole-desc
+  name: groundside operations console
+  description: This can be used for various important functions.
   components:
   - type: ActivatableUI
     key: enum.MarineCommunicationsComputerUI.Key
@@ -75,7 +75,7 @@
 - type: entity
   parent: RMCGroundsideOperationsConsole
   id: RMCGroundsideOperationsConsoleGovfor
-  suffix: ent-RMCGroundsideOperationsConsoleGovfor-suffix
+  suffix: Govfor
   components:
   - type: OverwatchConsole
     canMessageSquad: false
@@ -86,8 +86,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCWarshipControlConsole
-  name: ent-RMCWarshipControlConsole
-  description: ent-RMCWarshipControlConsole-desc
+  name: almayer control console
+  description: This is used for controlling ship and its related functions.
   components:
   - type: ActivatableUI
     key: enum.MarineControlComputerUi.Key
@@ -107,8 +107,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCOverwatchConsole
-  name: ent-RMCOverwatchConsole
-  description: ent-RMCOverwatchConsole-desc
+  name: overwatch console
+  description: State of the art machinery for giving orders to a squad.
   components:
   - type: Transform
     anchored: false
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTacticalMapTable
-  name: ent-RMCTacticalMapTable
-  description: ent-RMCTacticalMapTable-desc
+  name: map table
+  description: A table that displays a map of the current operation location.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/map_table.rsi
@@ -217,7 +217,7 @@
 - type: entity
   parent: RMCTacticalMapTable
   id: RMCTacticalMapTableGovfor
-  suffix: ent-RMCTacticalMapTableGovfor-suffix
+  suffix: Govfor
   components:
   - type: TacticalMapComputer
     faction: govfor
@@ -225,7 +225,7 @@
 - type: entity
   parent: RMCTacticalMapTableLarge
   id: RMCTacticalMapTableLargeGovfor
-  suffix: ent-RMCTacticalMapTableLargeGovfor-suffix
+  suffix: Govfor, Large
   components:
   - type: TacticalMapComputer
     faction: govfor
@@ -233,12 +233,12 @@
 - type: entity
   parent: RMCTacticalMapTableLarge
   id: RMCTacticalMapTableLargeSquare
-  suffix: ent-RMCTacticalMapTableLargeSquare-suffix
+  suffix: Square
 
 - type: entity
   parent: RMCTacticalMapTableLarge
   id: RMCTacticalMapTableLargeRotated
-  suffix: ent-RMCTacticalMapTableLargeRotated-suffix
+  suffix: Rotated
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/large_map_table_rotated.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCEscapePodController
-  name: ent-RMCEscapePodController
-  description: ent-RMCEscapePodController-desc
+  name: escape pod controller
+  description: A shuttle control computer.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/escape_pod_panel.rsi
@@ -291,8 +291,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCLifeboatConsole
-  name: ent-RMCLifeboatConsole
-  description: ent-RMCLifeboatConsole-desc
+  name: lifeboat console
+  description: A lifeboat control computer.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi

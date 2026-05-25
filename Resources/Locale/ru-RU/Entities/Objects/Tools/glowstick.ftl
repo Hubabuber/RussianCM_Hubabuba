@@ -24,29 +24,3 @@ ent-LightBehaviourTest5-name = тест радиуса светового имп
 
 ent-LightBehaviourTest6-name = Легкий рандомизирующий тест на радиус
 
-ent-GlowstickBase = зеленая светящаяся палочка
-    .desc = Полезно для рейвов и чрезвычайных ситуаций.
-
-ent-GlowstickBlue = синяя светящаяся палочка
-    .desc = Полезно для рейвов и чрезвычайных ситуаций.
-
-ent-GlowstickPurple = Фиолетовая светящаяся палочка
-    .desc = Полезно для рейвов и чрезвычайных ситуаций.
-
-ent-GlowstickRed = красная светящаяся палочка
-    .desc = Полезно для рейвов и чрезвычайных ситуаций.
-
-ent-GlowstickYellow = желтая светящаяся палочка
-    .desc = Полезно для рейвов и чрезвычайных ситуаций.
-
-ent-LightBehaviourTest1 = световой импульсный тест
-
-ent-LightBehaviourTest2 = тест цветового цикла
-
-ent-LightBehaviourTest3 = мультиповеденческий световой тест
-
-ent-LightBehaviourTest4 = затухание света в тесте
-
-ent-LightBehaviourTest5 = тест радиуса светового импульса
-
-ent-LightBehaviourTest6 = Легкий рандомизирующий тест на радиус

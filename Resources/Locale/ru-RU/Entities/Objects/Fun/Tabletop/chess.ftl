@@ -27,31 +27,3 @@ ent-BlackKnight-name = черный рыцарь
 
 ent-BlackPawn-name = черная пешка
 
-ent-BlackBishop = черный слон
-
-ent-BlackKing = черный король
-
-ent-BlackKnight = черный рыцарь
-
-ent-BlackPawn = черная пешка
-
-ent-BlackQueen = черная королева
-
-ent-BlackRook = черная ладья
-
-ent-ChessBoard = шахматная доска
-    .desc = Шахматная доска. Детали включены!
-
-ent-ChessBoardTabletop = шахматная доска
-
-ent-WhiteBishop = белый слон
-
-ent-WhiteKing = белый король
-
-ent-WhiteKnight = белый рыцарь
-
-ent-WhitePawn = белая пешка
-
-ent-WhiteQueen = белая королева
-
-ent-WhiteRook = белая ладья

@@ -1,15 +1,15 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: RMCCLFEngineer
-  name: job-rmcclfengineer-name
-  description: job-rmcclfengineer-desc
+  name: rmc-clf-engineer
+  description: rmc-ghost-role-information-clf-description
   playTimeTracker: RMCJobCLFEngineer
   ranks:
     RMCRankCLFRebel: [ ]
   startingGear: RMCGearCLFEngineer
   icon: RMCJobIconCLFEngineer
   joinNotifyCrew: false
-  spawnMenuRoleName: job-rmcclfengineer-spawnmenurolename
+  spawnMenuRoleName: CLF Engineer
   special:
   - !type:AddComponentSpecial
     components:
@@ -34,8 +34,8 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFEngineer
-  name: ent-RMCRandomHumanoidCLFEngineer
-  suffix: ent-RMCRandomHumanoidCLFEngineer-suffix
+  name: clf ghost role engineer
+  suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi

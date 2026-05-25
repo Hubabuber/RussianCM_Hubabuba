@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaBigred
-  suffix: ent-RMCAreaBigred-suffix
+  suffix: Deprecated Solaris Area
   components:
   - type: Area
     buildSpecial: true
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCAreaBigred
   id: RMCAreaBigredGround
-  name: ent-RMCAreaBigredGround
+  name: ground
   components:
   - type: Sprite
     state: blue
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCAreaBigred
   id: RMCAreaBigredUground
-  name: ent-RMCAreaBigredUground
+  name: uground
   components:
   - type: Sprite
     state: blue
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundGarageWorkshop
-  name: ent-RMCAreaBigredGroundGarageWorkshop
+  name: Garage Workshop
   components:
   - type: Sprite
     state: green
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundShip
-  name: ent-RMCAreaBigredGroundShip
+  name: Crashed Vessel
   components:
   - type: Sprite
     state: syndie-ship
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundNexus
-  name: ent-RMCAreaBigredGroundNexus
+  name: Central Nexus
   components:
   - type: Sprite
     state: hallc1
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringEngineeringHall
-  name: ent-RMCAreaBigredGroundEngineeringEngineeringHall
+  name: Engineering Hallway
   components:
   - type: Sprite
     state: engine_hallway
@@ -78,7 +78,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCentralHall
-  name: ent-RMCAreaBigredGroundCentralHall
+  name: Central Hallway
   components:
   - type: Sprite
     state: hallc2
@@ -86,7 +86,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCanteen
-  name: ent-RMCAreaBigredGroundCanteen
+  name: Cafeteria
   components:
   - type: Sprite
     state: cafeteria
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundKitchen
-  name: ent-RMCAreaBigredGroundKitchen
+  name: Kitchen
   components:
   - type: Sprite
     state: kitchen
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundSecurity
-  name: ent-RMCAreaBigredGroundSecurity
+  name: Security Module
   components:
   - type: Sprite
     state: security
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundBridge
-  name: ent-RMCAreaBigredGroundBridge
+  name: Command Room
   components:
   - type: Sprite
     state: bridge
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundMedbay
-  name: ent-RMCAreaBigredGroundMedbay
+  name: Medical Bay
   components:
   - type: Sprite
     state: medbay
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMedical
   id: RMCAreaBigredGroundMedicalLobby
-  name: ent-RMCAreaBigredGroundMedicalLobby
+  name: Medical Lobby
   components:
   - type: Sprite
     state: medbay2
@@ -138,7 +138,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCentralHall3
-  name: ent-RMCAreaBigredGroundCentralHall3
+  name: Central Hallway
   components:
   - type: Sprite
     state: hallc3
@@ -146,7 +146,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundGarden
-  name: ent-RMCAreaBigredGroundGarden
+  name: Garden
   components:
   - type: Sprite
     state: garden
@@ -154,7 +154,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCryogenics
-  name: ent-RMCAreaBigredGroundCryogenics
+  name: Cryogenic Vault
   components:
   - type: Sprite
     state: auxstorage
@@ -162,7 +162,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundLaundry
-  name: ent-RMCAreaBigredGroundLaundry
+  name: Laundrette
   components:
   - type: Sprite
     state: green
@@ -170,7 +170,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundHanger
-  name: ent-RMCAreaBigredGroundHanger
+  name: Hanger
   components:
   - type: Sprite
     state: storage
@@ -178,7 +178,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCrewQuarters
-  name: ent-RMCAreaBigredGroundCrewQuarters
+  name: Crew Dormitories
   components:
   - type: Sprite
     state: crew_quarters
@@ -186,7 +186,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundForehall
-  name: ent-RMCAreaBigredGroundForehall
+  name: Fore Hallway
   components:
   - type: Sprite
     state: hallf
@@ -194,7 +194,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundChapel
-  name: ent-RMCAreaBigredGroundChapel
+  name: Chapel
   components:
   - type: Sprite
     state: chapel
@@ -202,7 +202,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringSmesRoom
-  name: ent-RMCAreaBigredGroundEngineeringSmesRoom
+  name: Power Storage
   components:
   - type: Sprite
     state: engine_storage
@@ -210,7 +210,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringEngineControl
-  name: ent-RMCAreaBigredGroundEngineeringEngineControl
+  name: Core Control
   components:
   - type: Sprite
     state: engine_control
@@ -218,7 +218,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringEngine
-  name: ent-RMCAreaBigredGroundEngineeringEngine
+  name: Engine Room
   components:
   - type: Sprite
     state: engine
@@ -226,7 +226,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringCustodial
-  name: ent-RMCAreaBigredGroundEngineeringCustodial
+  name: Custodial Storage
   components:
   - type: Sprite
     state: janitor
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineering
   id: RMCAreaBigredGroundEngineeringAtmospherics
-  name: ent-RMCAreaBigredGroundEngineeringAtmospherics
+  name: Atmospherics
   components:
   - type: Sprite
     state: atmos
@@ -242,7 +242,7 @@
 - type: entity
   parent: RMCAreaBigredGroundEngineeringAtmospherics
   id: RMCAreaBigredGroundEngineeringAtmosphericsGenerator
-  name: ent-RMCAreaBigredGroundEngineeringAtmosphericsGenerator
+  name: Terraforming Processor
   components:
   - type: Sprite
     state: atmos
@@ -255,7 +255,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceDecon
-  name: ent-RMCAreaBigredGroundScienceDecon
+  name: Decontamination
   components:
   - type: Sprite
     state: decontamination
@@ -263,7 +263,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceHall
-  name: ent-RMCAreaBigredGroundScienceHall
+  name: Science Hallway
   components:
   - type: Sprite
     state: blue-red2
@@ -271,7 +271,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceRobotics
-  name: ent-RMCAreaBigredGroundScienceRobotics
+  name: Robotics Laboratory
   components:
   - type: Sprite
     state: mechbay
@@ -279,7 +279,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceAssembly
-  name: ent-RMCAreaBigredGroundScienceAssembly
+  name: Assembly room
   components:
   - type: Sprite
     state: mechbay
@@ -287,7 +287,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceOffice
-  name: ent-RMCAreaBigredGroundScienceOffice
+  name: Administration
   components:
   - type: Sprite
     state: mechbay
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCAreaBigredGroundScience
   id: RMCAreaBigredGroundScienceResearch
-  name: ent-RMCAreaBigredGroundScienceResearch
+  name: Research Lab
   components:
   - type: Sprite
     state: research
@@ -303,7 +303,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundToilet
-  name: ent-RMCAreaBigredGroundToilet
+  name: Toilets
   components:
   - type: Sprite
     state: yellow
@@ -311,7 +311,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundHr
-  name: ent-RMCAreaBigredGroundHr
+  name: Human Resources Office
   components:
   - type: Sprite
     state: head_quarters
@@ -324,7 +324,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintCentral
-  name: ent-RMCAreaBigredGroundMaintCentral
+  name: Central Maintenance Shaft
   components:
   - type: Sprite
     state: maintcentral
@@ -332,7 +332,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintScience
-  name: ent-RMCAreaBigredGroundMaintScience
+  name: Science Maintenance
   components:
   - type: Sprite
     state: maint_research_starboard
@@ -340,7 +340,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintCommand
-  name: ent-RMCAreaBigredGroundMaintCommand
+  name: Command Maintenance
   components:
   - type: Sprite
     state: maintcentral
@@ -348,7 +348,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintEngineering
-  name: ent-RMCAreaBigredGroundMaintEngineering
+  name: Engineering Maintenance
   components:
   - type: Sprite
     state: maint_engine
@@ -356,7 +356,7 @@
 - type: entity
   parent: RMCAreaBigredGroundMaint
   id: RMCAreaBigredGroundMaintAtmos
-  name: ent-RMCAreaBigredGroundMaintAtmos
+  name: Atmospherics Maintenance
   components:
   - type: Sprite
     state: asmaint
@@ -364,7 +364,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundExterior
-  name: ent-RMCAreaBigredGroundExterior
+  name: Underground
   components:
   - type: Sprite
     state: blue-red
@@ -372,7 +372,7 @@
 - type: entity
   parent: RMCAreaBigredGroundExterior
   id: RMCAreaBigredGroundExteriorNorth
-  name: ent-RMCAreaBigredGroundExteriorNorth
+  name: Northern Facility Exterior
   components:
   - type: Sprite
     state: north
@@ -380,7 +380,7 @@
 - type: entity
   parent: RMCAreaBigredGroundExterior
   id: RMCAreaBigredGroundExteriorSouth
-  name: ent-RMCAreaBigredGroundExteriorSouth
+  name: Southern Facility Exterior
   components:
   - type: Sprite
     state: south
@@ -388,7 +388,7 @@
 - type: entity
   parent: RMCAreaBigredGroundExterior
   id: RMCAreaBigredGroundExteriorWest
-  name: ent-RMCAreaBigredGroundExteriorWest
+  name: Western Facility Exterior
   components:
   - type: Sprite
     state: west
@@ -396,7 +396,7 @@
 - type: entity
   parent: RMCAreaBigredGroundExterior
   id: RMCAreaBigredGroundExteriorEast
-  name: ent-RMCAreaBigredGroundExteriorEast
+  name: Eastern Facility Exterior
   components:
   - type: Sprite
     state: east
@@ -404,7 +404,7 @@
 - type: entity
   parent: RMCAreaBigredGround
   id: RMCAreaBigredGroundCargo
-  name: ent-RMCAreaBigredGroundCargo
+  name: Cargo Bay
   components:
   - type: Sprite
     state: primarystorage
@@ -412,7 +412,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundLobby
-  name: ent-RMCAreaBigredUgroundLobby
+  name: Research Lobby
   components:
   - type: Sprite
     state: research
@@ -420,7 +420,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundHallway
-  name: ent-RMCAreaBigredUgroundHallway
+  name: Research Hallway
   components:
   - type: Sprite
     state: research
@@ -428,7 +428,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundXeno
-  name: ent-RMCAreaBigredUgroundXeno
+  name: Xenobiology Lab
   components:
   - type: Sprite
     state: xeno_lab
@@ -436,7 +436,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundXenoFlora
-  name: ent-RMCAreaBigredUgroundXenoFlora
+  name: Xeno-Flora Lab
   components:
   - type: Sprite
     state: xeno_f_lab
@@ -444,7 +444,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundChemistry
-  name: ent-RMCAreaBigredUgroundChemistry
+  name: Chemistry Lab
   components:
   - type: Sprite
     state: chem
@@ -452,7 +452,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundDisection
-  name: ent-RMCAreaBigredUgroundDisection
+  name: Dissection Lab
   components:
   - type: Sprite
     state: observatory
@@ -460,7 +460,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundMiscLab
-  name: ent-RMCAreaBigredUgroundMiscLab
+  name: Miscellaneous Lab
   components:
   - type: Sprite
     state: toxmisc
@@ -468,7 +468,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundAnomalyLab
-  name: ent-RMCAreaBigredUgroundAnomalyLab
+  name: Anomalous Materials Lab
   components:
   - type: Sprite
     state: blueold
@@ -476,7 +476,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundTeleporter
-  name: ent-RMCAreaBigredUgroundTeleporter
+  name: Teleportation Lab
   components:
   - type: Sprite
     state: teleporter
@@ -484,7 +484,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundVirology
-  name: ent-RMCAreaBigredUgroundVirology
+  name: Virology Laboratory
   components:
   - type: Sprite
     state: blue2
@@ -492,7 +492,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundQuarantine
-  name: ent-RMCAreaBigredUgroundQuarantine
+  name: Quarantine Zone
   components:
   - type: Sprite
     state: red2
@@ -500,7 +500,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundCargoElevator
-  name: ent-RMCAreaBigredUgroundCargoElevator
+  name: Cargo Elevator
   components:
   - type: Sprite
     state: primarystorage
@@ -508,7 +508,7 @@
 - type: entity
   parent: RMCAreaBigredUground
   id: RMCAreaBigredUgroundSafeRoom
-  name: ent-RMCAreaBigredUgroundSafeRoom
+  name: Corporate Saferoom
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -534,7 +534,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesLambda
   id: RMCAreaBigredv2CavesLambdaVirology
-  name: ent-RMCAreaBigredv2CavesLambdaVirology
+  name: Lambda Virology
   components:
   - type: Sprite
     state: lam_virology
@@ -542,7 +542,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesLambda
   id: RMCAreaBigredv2CavesLambdaResearch
-  name: ent-RMCAreaBigredv2CavesLambdaResearch
+  name: Lambda Research
   components:
   - type: Sprite
     state: lam_research
@@ -550,7 +550,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesLambda
   id: RMCAreaBigredv2CavesLambdaBreakroom
-  name: ent-RMCAreaBigredv2CavesLambdaBreakroom
+  name: Lambda Breakroom
   components:
   - type: Sprite
     state: lam_break
@@ -558,7 +558,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesLambda
   id: RMCAreaBigredv2CavesLambdaXenobiology
-  name: ent-RMCAreaBigredv2CavesLambdaXenobiology
+  name: Lambda Xenobiology
   components:
   - type: Sprite
     state: lam_xeno
@@ -566,7 +566,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2LambdaCaves
-  name: ent-RMCAreaBigredv2LambdaCaves
+  name: Lambda Lab Caves
   components:
   - type: Sprite
     state: caves_lambda
@@ -585,7 +585,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLambdaCaveCas
-  name: ent-RMCAreaBigredv2OutsideLambdaCaveCas
+  name: Lambda Lockdown Caves Entrance
   components:
   - type: Sprite
     state: decontamination
@@ -605,7 +605,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaBigredv2
-  suffix: ent-RMCAreaBigredv2-suffix
+  suffix: Solaris Area
   components:
   - type: Area
     buildSpecial: true
@@ -613,7 +613,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2Oob
-  name: ent-RMCAreaBigredv2Oob
+  name: Big Red Out of Bounds
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi
@@ -639,7 +639,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2Outside
-  name: ent-RMCAreaBigredv2Outside
+  name: Colony Grounds
   components:
   - type: Sprite
     state: red
@@ -657,7 +657,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideNe
-  name: ent-RMCAreaBigredv2OutsideNe
+  name: Northeast Colony Grounds
   components:
   - type: Sprite
     state: northeast
@@ -665,7 +665,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideNw
-  name: ent-RMCAreaBigredv2OutsideNw
+  name: Northwest Colony Grounds
   components:
   - type: Sprite
     state: northwest
@@ -691,7 +691,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideC
-  name: ent-RMCAreaBigredv2OutsideC
+  name: Central Colony Grounds
   components:
   - type: Sprite
     state: purple
@@ -699,7 +699,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideN
-  name: ent-RMCAreaBigredv2OutsideN
+  name: Northern Colony Grounds
   components:
   - type: Sprite
     state: north
@@ -707,7 +707,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideW
-  name: ent-RMCAreaBigredv2OutsideW
+  name: Western Colony Grounds
   components:
   - type: Sprite
     state: west
@@ -717,7 +717,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideE
-  name: ent-RMCAreaBigredv2OutsideE
+  name: Eastern Colony Grounds
   components:
   - type: Sprite
     state: east
@@ -725,7 +725,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSe
-  name: ent-RMCAreaBigredv2OutsideSe
+  name: Southeast Colony Grounds
   components:
   - type: Sprite
     state: southeast
@@ -733,7 +733,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideS
-  name: ent-RMCAreaBigredv2OutsideS
+  name: Southern Colony Grounds
   components:
   - type: Sprite
     state: south
@@ -741,7 +741,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSw
-  name: ent-RMCAreaBigredv2OutsideSw
+  name: Southwest Colony Grounds
   components:
   - type: Sprite
     state: southwest
@@ -751,7 +751,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2Caves
-  name: ent-RMCAreaBigredv2Caves
+  name: Unknown Area
   components:
   - type: Sprite
     state: bluenew
@@ -771,7 +771,7 @@
 - type: entity
   parent: RMCAreaBigredv2Caves
   id: RMCAreaBigredv2CavesMining
-  name: ent-RMCAreaBigredv2CavesMining
+  name: Southwest Abandoned Mining Caves
   components:
   - type: Sprite
     state: bluenew
@@ -794,7 +794,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideEta
-  name: ent-RMCAreaBigredv2OutsideEta
+  name: Eta Labs Compound
   components:
   - type: Sprite
     state: yellow
@@ -812,7 +812,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesEta
   id: RMCAreaBigredv2CavesEtaLiving
-  name: ent-RMCAreaBigredv2CavesEtaLiving
+  name: Eta Living Quarters
   components:
   - type: Sprite
     state: eta_living
@@ -820,7 +820,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesEta
   id: RMCAreaBigredv2CavesEtaXenobiology
-  name: ent-RMCAreaBigredv2CavesEtaXenobiology
+  name: Eta Xenobiology
   components:
   - type: Sprite
     state: eta_xeno
@@ -828,7 +828,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesEta
   id: RMCAreaBigredv2CavesEtaStorage
-  name: ent-RMCAreaBigredv2CavesEtaStorage
+  name: Eta Storage
   components:
   - type: Sprite
     state: eta_storage
@@ -836,7 +836,7 @@
 - type: entity
   parent: RMCAreaBigredv2CavesEta
   id: RMCAreaBigredv2CavesEtaResearch
-  name: ent-RMCAreaBigredv2CavesEtaResearch
+  name: Eta Research
   components:
   - type: Sprite
     state: eta_research
@@ -844,7 +844,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideCargo
-  name: ent-RMCAreaBigredv2OutsideCargo
+  name: Cargo
   components:
   - type: Sprite
     state: storage
@@ -864,7 +864,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideGeneralStore
-  name: ent-RMCAreaBigredv2OutsideGeneralStore
+  name: General Store
   components:
   - type: Sprite
     state: blueold
@@ -884,7 +884,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideMarshalOffice
-  name: ent-RMCAreaBigredv2OutsideMarshalOffice
+  name: Marshal Offices
   components:
   - type: Sprite
     state: brig
@@ -905,7 +905,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideMedical
-  name: ent-RMCAreaBigredv2OutsideMedical
+  name: Hospital
   components:
   - type: Sprite
     state: cmo
@@ -926,7 +926,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideAdminBuilding
-  name: ent-RMCAreaBigredv2OutsideAdminBuilding
+  name: Administration
   components:
   - type: Sprite
     state: bridge
@@ -946,7 +946,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideFiltrationPlant
-  name: ent-RMCAreaBigredv2OutsideFiltrationPlant
+  name: Filtration Plant
   components:
   - type: Sprite
     state: atmos
@@ -966,7 +966,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideVirology
-  name: ent-RMCAreaBigredv2OutsideVirology
+  name: Virology Lab
   components:
   - type: Sprite
     state: lp
@@ -987,7 +987,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideDorms
-  name: ent-RMCAreaBigredv2OutsideDorms
+  name: Dormitories
   components:
   - type: Sprite
     state: fitness
@@ -1006,7 +1006,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideBar
-  name: ent-RMCAreaBigredv2OutsideBar
+  name: Bar
   components:
   - type: Sprite
     state: bar
@@ -1025,7 +1025,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideChapel
-  name: ent-RMCAreaBigredv2OutsideChapel
+  name: Chapel
   components:
   - type: Sprite
     state: courtroom
@@ -1044,7 +1044,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideHydroponics
-  name: ent-RMCAreaBigredv2OutsideHydroponics
+  name: Hydroponics
   components:
   - type: Sprite
     state: garden
@@ -1063,7 +1063,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLibrary
-  name: ent-RMCAreaBigredv2OutsideLibrary
+  name: Library
   components:
   - type: Sprite
     state: library
@@ -1082,7 +1082,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideOfficeComplex
-  name: ent-RMCAreaBigredv2OutsideOfficeComplex
+  name: Office Complex
   components:
   - type: Sprite
     state: explored
@@ -1101,7 +1101,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSpacePort
-  name: ent-RMCAreaBigredv2OutsideSpacePort
+  name: Space Port
   components:
   - type: Sprite
     state: green
@@ -1122,7 +1122,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSpacePortLz2
-  name: ent-RMCAreaBigredv2OutsideSpacePortLz2
+  name: Cargo Landing Pad
   components:
   - type: Sprite
     state: green
@@ -1143,7 +1143,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideTelecomm
-  name: ent-RMCAreaBigredv2OutsideTelecomm
+  name: LZ1 Communications Relay
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
@@ -1165,7 +1165,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommLz2Cave
-  name: ent-RMCAreaBigredv2OutsideTelecommLz2Cave
+  name: Central Grounds Communications Relay
   components:
   - type: Area
     landingZone: false
@@ -1174,7 +1174,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommNCave
-  name: ent-RMCAreaBigredv2OutsideTelecommNCave
+  name: North Cave Communications Relay
   components:
   - type: Area
     landingZone: false
@@ -1183,7 +1183,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommWarehouse
-  name: ent-RMCAreaBigredv2OutsideTelecommWarehouse
+  name: Warehouse Communications Relay
   components:
   - type: Area
     landingZone: false
@@ -1191,7 +1191,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommSecurity
-  name: ent-RMCAreaBigredv2OutsideTelecommSecurity
+  name: Security Communications Relay
   components:
   - type: Area
     landingZone: false
@@ -1199,7 +1199,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommStore
-  name: ent-RMCAreaBigredv2OutsideTelecommStore
+  name: General Store Communications Relay
   components:
   - type: Area
     landingZone: false
@@ -1207,7 +1207,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommAdmin
-  name: ent-RMCAreaBigredv2OutsideTelecommAdmin
+  name: Administrative Communications Relay
   components:
   - type: Area
     landingZone: false
@@ -1215,7 +1215,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideTelecomm
   id: RMCAreaBigredv2OutsideTelecommEngi
-  name: ent-RMCAreaBigredv2OutsideTelecommEngi
+  name: Engineering Communications Relay
   components:
   - type: Area
     landingZone: false
@@ -1223,7 +1223,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideEngineering
-  name: ent-RMCAreaBigredv2OutsideEngineering
+  name: Engineering Complex
   components:
   - type: Sprite
     state: engine
@@ -1243,7 +1243,7 @@
 - type: entity
   parent: RMCAreaBigredv2OutsideEngineering
   id: RMCAreaBigredv2OutsideEngineeringReactor
-  name: ent-RMCAreaBigredv2OutsideEngineeringReactor
+  name: Main Reactor
   components:
   - type: Area
     linkedLz: null
@@ -1251,7 +1251,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideStorage
-  name: ent-RMCAreaBigredv2OutsideStorage
+  name: Storage
   components:
   - type: Sprite
     state: storage
@@ -1270,7 +1270,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideSolarPlant
-  name: ent-RMCAreaBigredv2OutsideSolarPlant
+  name: Solar Power Plant
   components:
   - type: Sprite
     state: substation
@@ -1289,7 +1289,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideAtmos
-  name: ent-RMCAreaBigredv2OutsideAtmos
+  name: Atmospheric Stabilizer
   components:
   - type: Sprite
     state: party
@@ -1308,7 +1308,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideGeneralOffices
-  name: ent-RMCAreaBigredv2OutsideGeneralOffices
+  name: General Offices
   components:
   - type: Sprite
     state: storage
@@ -1327,7 +1327,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesVirology
-  name: ent-RMCAreaBigredv2CavesVirology
+  name: Virology Caves
   components:
   - type: Sprite
     state: caves_virology
@@ -1346,7 +1346,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesSw
-  name: ent-RMCAreaBigredv2CavesSw
+  name: Southwestern Caves
   components:
   - type: Sprite
     state: caves_sw
@@ -1365,7 +1365,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesResearch
-  name: ent-RMCAreaBigredv2CavesResearch
+  name: We-Yu Research Lab Caves
   components:
   - type: Sprite
     state: caves_research
@@ -1385,7 +1385,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesSe
-  name: ent-RMCAreaBigredv2CavesSe
+  name: Southeastern Caves
   components:
   - type: Sprite
     state: caves_se
@@ -1404,7 +1404,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesEast
-  name: ent-RMCAreaBigredv2CavesEast
+  name: Eastern Caves
   components:
   - type: Sprite
     state: caves_east
@@ -1423,7 +1423,7 @@
 - type: entity
   parent: RMCAreaBigredv2
   id: RMCAreaBigredv2CavesNorth
-  name: ent-RMCAreaBigredv2CavesNorth
+  name: Northern Caves
   components:
   - type: Sprite
     state: caves_north
@@ -1452,7 +1452,7 @@
 - type: entity
   parent: RMCAreaBigredv2Landing
   id: RMCAreaBigredv2LandingConsole
-  name: ent-RMCAreaBigredv2LandingConsole
+  name: LZ1 'Telecomms'
   components:
   - type: Area
     weatherEnabled: false
@@ -1460,7 +1460,7 @@
 - type: entity
   parent: RMCAreaBigredv2Landing
   id: RMCAreaBigredv2LandingConsole2
-  name: ent-RMCAreaBigredv2LandingConsole2
+  name: LZ2 'Cargo'
   components:
   - type: Area
     weatherEnabled: false
@@ -1468,7 +1468,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLz1NorthCas
-  name: ent-RMCAreaBigredv2OutsideLz1NorthCas
+  name: Northern Caves Entrance
   components:
   - type: Sprite
     state: garden
@@ -1488,7 +1488,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLz1TelecommCas
-  name: ent-RMCAreaBigredv2OutsideLz1TelecommCas
+  name: Virology Caves Entrance
   components:
   - type: Sprite
     state: garden
@@ -1508,7 +1508,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLz2WestCas
-  name: ent-RMCAreaBigredv2OutsideLz2WestCas
+  name: Southwestern Caves Entrance
   components:
   - type: Sprite
     state: garden
@@ -1528,7 +1528,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideLz2SouthCas
-  name: ent-RMCAreaBigredv2OutsideLz2SouthCas
+  name: ETA Lockdown Caves Entrance
   components:
   - type: Sprite
     state: garden
@@ -1548,7 +1548,7 @@
 - type: entity
   parent: RMCAreaBigredv2Outside
   id: RMCAreaBigredv2OutsideFiltrationCaveCas
-  name: ent-RMCAreaBigredv2OutsideFiltrationCaveCas
+  name: Filtration Lockdown Caves Entrance
   components:
   - type: Sprite
     state: garden

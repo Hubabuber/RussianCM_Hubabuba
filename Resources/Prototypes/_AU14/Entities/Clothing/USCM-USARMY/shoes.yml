@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBootsBlack
   id: AU14BootsJungle
-  name: ent-AU14BootsJungle
-  description: ent-AU14BootsJungle-desc
+  name: jungle boots
+  description: Standard issue USCM jungle boots.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Shoes/jungleboots.rsi
@@ -12,17 +12,18 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsJungle]
   id: AU14BootsJungleFilled
-  suffix: ent-AU14BootsJungleFilled-suffix
+  suffix: Filled
 
 - type: entity
   parent: AU14BootsJungle
   id: AU14BootsUSArmy
-  name: ent-AU14BootsUSArmy
-  description: ent-AU14BootsUSArmy-desc
+  name: army combat boots
+  description: Standard issue combat boots for combat scenarios or combat situations. All combat, all the time.
+
 - type: entity
   parent: [RMCItemSlotM5Bayonet, AU14BootsUSArmy]
   id: AU14BootsUSArmyFilled
-  suffix: ent-AU14BootsUSArmyFilled-suffix
+  suffix: Filled
 
 - type: entity
   parent: RMCBootsCBRN

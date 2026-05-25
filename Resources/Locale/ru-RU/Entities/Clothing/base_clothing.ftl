@@ -1,3 +1,2 @@
-ent-Clothing-name = Одежда
+ent-Clothing-name = lathe-category-clothing
 
-ent-Clothing = item

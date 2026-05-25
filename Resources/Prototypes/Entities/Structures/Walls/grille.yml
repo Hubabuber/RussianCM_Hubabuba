@@ -1,8 +1,8 @@
 - type: entity
   id: Grille
   parent: BaseStructure
-  name: ent-Grille
-  description: ent-Grille-desc
+  name: grille
+  description: A flimsy framework of iron rods.
   components:
     - type: MeleeSound
       soundGroups:
@@ -89,8 +89,8 @@
 - type: entity
   id: ClockworkGrille
   parent: Grille
-  name: ent-ClockworkGrille
-  description: ent-ClockworkGrille-desc
+  name: clockwork grille
+  description: A flimsy framework of iron rods assembled in traditional Ratvarian fashion.
   components:
   - type: Sprite
     drawdepth: Walls
@@ -109,8 +109,8 @@
 - type: entity
   id: GrilleBroken
   parent: BaseStructure
-  name: ent-GrilleBroken
-  description: ent-GrilleBroken-desc
+  name: grille
+  description: A flimsy framework of iron rods. It has seen better days.
   components:
   - type: Sprite
     drawdepth: Walls
@@ -151,8 +151,8 @@
 - type: entity
   id: ClockworkGrilleBroken
   parent: GrilleBroken
-  name: ent-ClockworkGrilleBroken
-  description: ent-ClockworkGrilleBroken-desc
+  name: clockwork grille
+  description: A flimsy framework of iron rods assembled in traditional Ratvarian fashion. It has seen better days.
   components:
   - type: Sprite
     drawdepth: Walls
@@ -168,7 +168,7 @@
 - type: entity
   id: GrilleDiagonal
   parent: Grille
-  name: ent-GrilleDiagonal
+  name: diagonal grille
   components:
   - type: Sprite
     drawdepth: Walls
@@ -206,7 +206,7 @@
 - type: entity
   id: ClockworkGrilleDiagonal
   parent: ClockworkGrille
-  name: ent-ClockworkGrilleDiagonal
+  name: diagonal clockwork grille
   components:
   - type: Sprite
     drawdepth: Walls

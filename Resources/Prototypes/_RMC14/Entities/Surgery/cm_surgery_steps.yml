@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: CMSurgeryStepBase
   categories: [ HideSpawnMenu ]
   components:
@@ -7,7 +7,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepOpenIncisionScalpel
-  name: ent-CMSurgeryStepOpenIncisionScalpel
+  name: Cut with a scalpel
   components:
   - type: CMSurgeryStep
     tool:
@@ -24,7 +24,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepClampBleeders
-  name: ent-CMSurgeryStepClampBleeders
+  name: Clamp the bleeders
   components:
   - type: CMSurgeryStep
     tool:
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepRetractSkin
-  name: ent-CMSurgeryStepRetractSkin
+  name: Retract the skin
   components:
   - type: CMSurgeryStep
     tool:
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepSawBones
-  name: ent-CMSurgeryStepSawBones
+  name: Saw through bones
   components:
   - type: CMSurgeryStep
     tool:
@@ -68,7 +68,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepPriseOpenBones
-  name: ent-CMSurgeryStepPriseOpenBones
+  name: Prise the bones open
   components:
   - type: CMSurgeryStep
     tool:
@@ -82,7 +82,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepCutLarvaRoots
-  name: ent-CMSurgeryStepCutLarvaRoots
+  name: Cut larva roots
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -97,7 +97,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepRemoveLarva
-  name: ent-CMSurgeryStepRemoveLarva
+  name: Remove larva
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -114,7 +114,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepCloseBones
-  name: ent-CMSurgeryStepCloseBones
+  name: Close bones
   components:
   - type: CMSurgeryStep
     tool:
@@ -128,7 +128,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepMendRibcage
-  name: ent-CMSurgeryStepMendRibcage
+  name: Mend ribcage
   components:
   - type: CMSurgeryStep
     tool:
@@ -142,7 +142,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepCloseIncision
-  name: ent-CMSurgeryStepCloseIncision
+  name: Close incision
   components:
   - type: CMSurgeryStep
     tool:
@@ -159,7 +159,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: RMCSurgeryCutExoskeleton
-  name: ent-RMCSurgeryCutExoskeleton
+  name: Cut exoskeleton carapace
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -174,7 +174,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: RMCSurgeryOpenExoskeleton
-  name: ent-RMCSurgeryOpenExoskeleton
+  name: Pry exoskeleton open
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -189,7 +189,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: RMCSurgerySevereXenoConnections
-  name: ent-RMCSurgerySevereXenoConnections
+  name: Sever organ connections
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -204,7 +204,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: RMCSurgeryRemoveXenoOrgan
-  name: ent-RMCSurgeryRemoveXenoOrgan
+  name: Remove xenonid organ
   components:
   - type: CMSurgeryStep
     skill: 2

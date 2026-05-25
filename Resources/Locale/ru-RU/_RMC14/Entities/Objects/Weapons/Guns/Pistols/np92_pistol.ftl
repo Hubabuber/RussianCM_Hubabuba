@@ -1,11 +1,12 @@
 ent-RMCCartridgePistolNP92 = патрон (9мм)
+
 ent-RMCBulletPistolNP92 = пуля (9мм)
-    .desc = Если ты это видишь, ты, вероятно, мертв!
+
 ent-RMCMagazinePistolNP92Extended = расширенный магазин NP92 (9мм)
-    .desc = Пистолетный магазин.
+
 ent-RMCMagazinePistolNP92 = магазин NP92 (9мм)
-    .desc = Пистолетный магазин.
+
 ent-RMCWeaponPistolNPZ92 = пистолет NPZ92
-    .desc = пистолет NPZ92
+
 ent-RMCWeaponPistolNP92 = пистолет NP92
-    .desc = пистолет NP92
+

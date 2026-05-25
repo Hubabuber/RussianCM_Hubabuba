@@ -27,10 +27,10 @@
       - id: FoodBowlBigTrash
 
 - type: entity
-  name: ent-RandomSpawner
+  name: Trash Spawner
   id: RandomSpawner
   parent: MarkerBase
-  suffix: ent-RandomSpawner-suffix
+  suffix: 50
   components:
     - type: Sprite
       layers:
@@ -48,7 +48,7 @@
 - type: entity
   parent: RandomSpawner
   id: RandomSpawner100
-  suffix: ent-RandomSpawner100-suffix
+  suffix: 100
   placement:
     mode: AlignTileAny
   components:

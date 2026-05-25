@@ -5,7 +5,7 @@
   id: FoodBagelBase
   parent: FoodInjectableBase
   abstract: true
-  description: ent-FoodBagelBase-desc
+  description: A delicious bagel.
   components:
   - type: FlavorProfile
     flavors:
@@ -23,14 +23,14 @@
 
 - type: entity
   id: FoodBagel
-  name: ent-FoodBagel
+  name: bagel
   parent: FoodBagelBase
 
 - type: entity
   id: FoodBagelPoppy
   parent: FoodBagelBase
-  name: ent-FoodBagelPoppy
-  description: ent-FoodBagelPoppy-desc
+  name: poppy seed bagel
+  description: A delicious bagel topped with bicaridine-infused poppy seeds.
   components:
   - type: FlavorProfile
     flavors:
@@ -51,8 +51,8 @@
 - type: entity
   id: FoodBagelCotton
   parent: FoodBagelBase
-  name: ent-FoodBagelCotton
-  description: ent-FoodBagelCotton-desc
+  name: cotton bagel
+  description: A delicious bagel made with cotton dough.
   components:
   - type: FlavorProfile
     flavors:

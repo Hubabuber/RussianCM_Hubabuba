@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   id: RMCMachineScreenBase
-  name: ent-RMCMachineScreenBase
-  description: "ent-RMCMachineScreenBase-desc"
+  name: monitor
+  description: ""
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCMachineScreenBase
   id: RMCTelescreenBroken
-  suffix: ent-RMCTelescreenBroken-suffix
+  suffix: broken
   components:
   - type: Sprite
     state: telescreenb
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCMachineScreenBase
   id: RMCTelescreenBrokenSparks
-  suffix: ent-RMCTelescreenBrokenSparks-suffix
+  suffix: sparks
   components:
   - type: Sprite
     state: telescreenbspark

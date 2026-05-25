@@ -1,10 +1,10 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMProvostTeamLeader
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-cmprovostteamleader-name
-  description: job-cmprovostteamleader-desc
+  name: rmc-job-name-corp-provost-team-leader
+  description: rmc-ghost-role-information-provost-squad-description
   playTimeTracker: CMJobProvostTeamLeader
   ranks:
     RMCRankProvostProvostTeamLeader: []
@@ -13,7 +13,7 @@
   joinNotifyCrew: false
   accessGroups:
   - ShipMasterAccess
-  spawnMenuRoleName: job-cmprovostteamleader-spawnmenurolename
+  spawnMenuRoleName: Provost Team Leader
   special:
   - !type:AddComponentSpecial
     components:
@@ -57,8 +57,8 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostTeamLeader
-  name: ent-RMCRandomHumanoidProvostTeamLeader
-  suffix: ent-RMCRandomHumanoidProvostTeamLeader-suffix
+  name: provost ghost role team leader
+  suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

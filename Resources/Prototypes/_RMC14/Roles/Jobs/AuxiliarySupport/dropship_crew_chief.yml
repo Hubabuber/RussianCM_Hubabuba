@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMDropshipCrewChief
-  name: job-cmdropshipcrewchief-name
-  description: job-cmdropshipcrewchief-desc
+  name: cm-job-name-dcc
+  description: cm-job-description-dcc
   setPreference: false
   playTimeTracker: CMJobDropshipCrewChief
   ranks:
@@ -22,7 +22,7 @@
   startingGear: CMGearDCC
   icon: "CMJobIconDCC"
   joinNotifyCrew: false
-  supervisors: job-cmdropshipcrewchief-supervisors
+  supervisors: cm-job-supervisors-po
   accessGroups:
   - DropshipCrewChief
   roleWeight: 0.25
@@ -68,7 +68,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointDCC
-  name: ent-CMSpawnPointDCC
+  name: dropship crew chief spawn point
   components:
   - type: SpawnPoint
     job_id: CMDropshipCrewChief

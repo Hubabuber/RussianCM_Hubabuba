@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMSurvivor
   id: CMSurvivorTrucker
-  name: job-cmsurvivortrucker-name
-  description: job-cmsurvivortrucker-desc
+  name: cm-job-name-survivor-trucker
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorTrucker
   playTimeTracker: CMJobSurvivorEngineer
   special:
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrucker
-  name: ent-RMCSpawnPointSurvivorTrucker
+  name: survivor trucker spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -47,13 +47,13 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetTrucker
-  name: ent-RMCSurvivorPresetTrucker
+  name: trucker colonist preset
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorTrucker
-  name: ent-RMCRandomHumanoidSurvivorTrucker
+  name: trucker colonist ghost role
   components:
   - type: Sprite
     layers:

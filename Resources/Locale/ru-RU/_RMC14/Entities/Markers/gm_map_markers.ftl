@@ -1,19 +1,20 @@
 ent-RMCMarkerGM = ГМ-маркер
+
 ent-RMCMarkerGMExclamation = ГМ-маркер
-    .suffix = ГМ-маркер
+
 ent-RMCMarkerGMQuestion = ГМ-маркер
-    .suffix = ГМ-маркер
+
 ent-RMCMarkerGMCircle = ГМ-маркер
-    .suffix = ГМ-маркер
+
 ent-RMCMarkerGMX = ГМ-маркер
-    .suffix = ГМ-маркер
+
 ent-RMCMarkerGMDollar = ГМ-маркер
-    .suffix = ГМ-маркер
+
 ent-RMCMarkerGMSword = ГМ-маркер
-    .suffix = ГМ-маркер
+
 ent-RMCMarkerGMShield = ГМ-маркер
-    .suffix = ГМ-маркер
+
 ent-RMCMarkerGMHash = ГМ-маркер
-    .suffix = ГМ-маркер
+
 ent-RMCMarkerGMStar = ГМ-маркер
-    .suffix = ГМ-маркер
+

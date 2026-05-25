@@ -35,8 +35,8 @@
   - type: Riggable
 
 - type: entity
-  name: ent-PowerCellPotato
-  description: ent-PowerCellPotato-desc
+  name: potato battery
+  description: Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
   id: PowerCellPotato
   parent: BasePowerCell
   components:
@@ -54,10 +54,10 @@
     node: potatobattery
 
 - type: entity
-  name: ent-PowerCellSmall
-  description: ent-PowerCellSmall-desc
+  name: small-capacity power cell
+  description: A rechargeable power cell. This is the cheapest kind you can find.
   id: PowerCellSmall
-  suffix: ent-PowerCellSmall-suffix
+  suffix: Full
   parent: BasePowerCell
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 
 - type: entity
   id: PowerCellSmallPrinted
-  suffix: ent-PowerCellSmallPrinted-suffix
+  suffix: Empty
   parent: PowerCellSmall
   components:
   - type: Sprite
@@ -94,8 +94,8 @@
 - type: entity
   parent: PowerCellSmall
   id: PowerCellSmallNuclear
-  name: ent-PowerCellSmallNuclear
-  description: ent-PowerCellSmallNuclear-desc
+  name: small-capacity nuclear power cell
+  description: A self rechargeable power cell, designed for fast recharge rate at the expense of capacity.
   components:
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -104,10 +104,10 @@
     autoRechargePauseTime: 30
 
 - type: entity
-  name: ent-PowerCellMedium
-  description: ent-PowerCellMedium-desc
+  name: medium-capacity power cell
+  description: A rechargeable power cell. This is the popular and reliable version.
   id: PowerCellMedium
-  suffix: ent-PowerCellMedium-suffix
+  suffix: Full
   parent: BasePowerCell
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 
 - type: entity
   id: PowerCellMediumPrinted
-  suffix: ent-PowerCellMediumPrinted-suffix
+  suffix: Empty
   parent: PowerCellMedium
   components:
   - type: Sprite
@@ -139,10 +139,10 @@
     startingCharge: 0
 
 - type: entity
-  name: ent-PowerCellHigh
-  description: ent-PowerCellHigh-desc
+  name: high-capacity power cell
+  description: A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
   id: PowerCellHigh
-  suffix: ent-PowerCellHigh-suffix
+  suffix: Full
   parent: BasePowerCell
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
 
 - type: entity
   id: PowerCellHighPrinted
-  suffix: ent-PowerCellHighPrinted-suffix
+  suffix: Empty
   parent: PowerCellHigh
   components:
   - type: Sprite
@@ -174,10 +174,10 @@
     startingCharge: 0
 
 - type: entity
-  name: ent-PowerCellHyper
-  description: ent-PowerCellHyper-desc
+  name: hyper-capacity power cell
+  description: A rechargeable standardized power cell. This iteration pushes the upper limits of portable power storage, boasting 66% more capacity than its predecessor.
   id: PowerCellHyper
-  suffix: ent-PowerCellHyper-suffix
+  suffix: Full
   parent: BasePowerCell
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 
 - type: entity
   id: PowerCellHyperPrinted
-  suffix: ent-PowerCellHyperPrinted-suffix
+  suffix: Empty
   parent: PowerCellHyper
   components:
   - type: Sprite
@@ -211,9 +211,9 @@
 - type: entity
   parent: BasePowerCell
   id: PowerCellMicroreactor
-  name: ent-PowerCellMicroreactor
-  description: ent-PowerCellMicroreactor-desc
-  suffix: ent-PowerCellMicroreactor-suffix
+  name: microreactor power cell
+  description: A rechargeable standardized microreactor cell. Has lower capacity but slowly recharges by itself.
+  suffix: Full
   components:
   - type: Sprite
     layers:
@@ -232,7 +232,7 @@
 - type: entity
   parent: PowerCellMicroreactor
   id: PowerCellMicroreactorPrinted
-  suffix: ent-PowerCellMicroreactorPrinted-suffix
+  suffix: Empty
   components:
   - type: Sprite
     layers:
@@ -246,8 +246,8 @@
     startingCharge: 0
 
 - type: entity
-  name: ent-PowerCellAntiqueProto
-  description: ent-PowerCellAntiqueProto-desc
+  name: antique power cell prototype
+  description: A small cell that self recharges. Used in old laser arms research.
   id: PowerCellAntiqueProto
   parent: BasePowerCell
   components:
@@ -295,8 +295,8 @@
 - type: entity
   id: PowerCageSmall
   parent: BasePowerCage
-  name: ent-PowerCageSmall
-  description: ent-PowerCageSmall-desc
+  name: small-capacity power cage
+  description: A rechargeable power cage for big devices. This is the cheapest kind you can find.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -313,8 +313,8 @@
 - type: entity
   id: PowerCageMedium
   parent: BasePowerCage
-  name: ent-PowerCageMedium
-  description: ent-PowerCageMedium-desc
+  name: medium-capacity power cage
+  description: A rechargeable power cage for big devices. The gold standard of capacity and cost.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -331,8 +331,8 @@
 - type: entity
   id: PowerCageHigh
   parent: BasePowerCage
-  name: ent-PowerCageHigh
-  description: ent-PowerCageHigh-desc
+  name: high-capacity power cage
+  description: A rechargeable power cage for big devices. Increased capacity for increased power levels.
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -349,7 +349,7 @@
 - type: entity
   id: PowerCageSmallEmpty
   parent: PowerCageSmall
-  suffix: ent-PowerCageSmallEmpty-suffix
+  suffix: Empty
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -367,7 +367,7 @@
 - type: entity
   id: PowerCageMediumEmpty
   parent: PowerCageMedium
-  suffix: ent-PowerCageMediumEmpty-suffix
+  suffix: Empty
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -384,7 +384,7 @@
 - type: entity
   id: PowerCageHighEmpty
   parent: PowerCageHigh
-  suffix: ent-PowerCageHighEmpty-suffix
+  suffix: Empty
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi

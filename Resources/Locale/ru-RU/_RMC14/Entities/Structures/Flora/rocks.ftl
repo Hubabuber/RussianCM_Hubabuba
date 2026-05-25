@@ -1,42 +1,42 @@
 ent-RMCBaseRockNonCollide = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCBaseRockNonCollideStrata = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable1 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable2 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable3 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable4 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable5 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable6 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable7 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable8 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable9 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable10 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable11 = скалы
   .desc = Застывшая коллекция местных минералов. 
-    .suffix = скалы
+
 ent-RMCRockColourable12 = скалы
-  .desc = Застывшая коллекция местных минералов.
-    .suffix = скалы
+  .desc = Застывшая коллекция местных минералов. 
+

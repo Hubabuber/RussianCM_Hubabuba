@@ -2,9 +2,9 @@
   abstract: true
   parent: [ BaseItem, BaseBagOpenClose ]
   id: RMCBeerCoolerBase
-  name: ent-RMCBeerCoolerBase
-  description: ent-RMCBeerCoolerBase-desc
-  suffix: ent-RMCBeerCoolerBase-suffix
+  name: freezer crate
+  description: A cozy cooler for your beer and other beverages.
+  suffix: Empty
   components:
   - type: Storage
     grid:
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCBeerCooler
   id: RMCBeerCoolerFilled
-  suffix: ent-RMCBeerCoolerFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:

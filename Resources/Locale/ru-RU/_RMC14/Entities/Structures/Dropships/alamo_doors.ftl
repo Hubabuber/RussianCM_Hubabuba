@@ -1,11 +1,10 @@
 ent-CMAlamoDoorStarboard = люк для экипажа Аламо
-    .suffix = люк экипажа
+
 ent-CMAlamoDoorPort = люк для экипажа Аламо
-    .suffix = люк экипажа
+
 ent-CMAlamoDoorAft = грузовая дверь Аламо
-    .suffix = люк экипажа
+
 ent-CMAlamoDoor = люк для экипажа Аламо
+
 ent-CMAlamoCockpit = кабина
-    .suffix = кабина
-ent-CMAlamoCockpitOpfor = кабина
-    .suffix = Аламо, Опфор
+

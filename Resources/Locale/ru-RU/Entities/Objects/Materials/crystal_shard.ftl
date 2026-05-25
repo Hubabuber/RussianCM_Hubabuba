@@ -28,32 +28,3 @@ ent-ShardCrystalRed-desc = Маленький кусочек хрусталя.
 ent-ShardCrystalRandom-name = случайный осколок кристалла
 ent-ShardCrystalRandom-desc = Маленький кусочек хрусталя.
 
-ent-ShardCrystalBase = осколок кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalBlack = осколок черного кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalBlue = осколок синего кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalCyan = осколок голубого кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalGreen = осколок зеленого кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalOrange = осколок оранжевого кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalPink = осколок розового кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalRandom = случайный осколок кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalRed = осколок красного кристалла
-    .desc = Маленький кусочек хрусталя.
-
-ent-ShardCrystalYellow = осколок желтого кристалла
-    .desc = Маленький кусочек хрусталя.

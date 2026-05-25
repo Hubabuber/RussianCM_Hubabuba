@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobMobGoon
-  name: job-au14jobmobgoon-name
-  description: job-au14jobmobgoon-desc
+  name: au14-job-name-mobgoon
+  description: au14-job-description-mobgoon
   setPreference: true
   playTimeTracker: AU14JobMobGoon
   startingGear: AU14GearMobGoon
@@ -10,7 +10,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobmobgoon-supervisors
+  supervisors: au14-job-supervisors-mobgoon
   accessGroups:
   - aumob
   roleWeight: 0.25
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointMobGoon
-  name: ent-AU14SpawnPointMobGoon
+  name: Spawn Point Mob Goon
   components:
   - type: SpawnPoint
     job_id: AU14JobMobGoon

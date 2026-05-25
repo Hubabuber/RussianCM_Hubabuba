@@ -1,9 +1,9 @@
-# Components
+﻿# Components
 - type: entity
   abstract: true
   parent: CMMREComponentBase
   id: CMMREDessertComponentBase
-  description: ent-CMMREDessertComponentBase-desc
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious).
   components:
   - type: Sprite
     state: dessert
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentSpicedApples
-  name: ent-CMMREComponentSpicedApples
-  description: ent-CMMREComponentSpicedApples-desc
+  name: MRE component (spiced apples)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is spiced apples.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentChocolateBrownie
-  name: ent-CMMREComponentChocolateBrownie
-  description: ent-CMMREComponentChocolateBrownie-desc
+  name: MRE component (chocolate brownie)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a chocolate brownie.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentSugarCookie
-  name: ent-CMMREComponentSugarCookie
-  description: ent-CMMREComponentSugarCookie-desc
+  name: MRE component (sugar cookie)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a sugar cookie.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentCocoBar
-  name: ent-CMMREComponentCocoBar
-  description: ent-CMMREComponentCocoBar-desc
+  name: MRE component (coco bar)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a coco bar.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentFlan
-  name: ent-CMMREComponentFlan
-  description: ent-CMMREComponentFlan-desc
+  name: MRE component (flan)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is flan.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentHoneyFlan
-  name: ent-CMMREComponentHoneyFlan
-  description: ent-CMMREComponentHoneyFlan-desc
+  name: MRE component (honey flan)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is honey flan.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodSpicedApples
-  name: ent-CMMREFoodSpicedApples
-  description: ent-CMMREFoodSpicedApples-desc
+  name: spiced apples
+  description: The contents of a Marine Standard issue MRE. This one is spiced apples.
   components:
   - type: Sprite
     state: spiced_apples
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodChocolateBrownie
-  name: ent-CMMREFoodChocolateBrownie
-  description: ent-CMMREFoodChocolateBrownie-desc
+  name: chocolate brownie
+  description: The contents of a Marine Standard issue MRE. This one is a chocolate brownie.
   components:
   - type: Sprite
     state: chocolate_brownie
@@ -115,8 +115,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodSugarCookie
-  name: ent-CMMREFoodSugarCookie
-  description: ent-CMMREFoodSugarCookie-desc
+  name: sugar cookie
+  description: The contents of a Marine Standard issue MRE. This one is a sugar cookie.
   components:
   - type: Sprite
     state: sugar_cookie
@@ -127,8 +127,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodCocoBar
-  name: ent-CMMREFoodCocoBar
-  description: ent-CMMREFoodCocoBar-desc
+  name: coco bar
+  description: The contents of a Marine Standard issue MRE. This one is a coco bar.
   components:
   - type: Sprite
     state: coco_bar
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodFlan
-  name: ent-CMMREFoodFlan
-  description: ent-CMMREFoodFlan-desc
+  name: flan
+  description: The contents of a Marine Standard issue MRE. This one is flan.
   components:
   - type: Sprite
     state: flan
@@ -151,8 +151,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodHoneyFlan
-  name: ent-CMMREFoodHoneyFlan
-  description: ent-CMMREFoodHoneyFlan-desc
+  name: honey flan
+  description: The contents of a Marine Standard issue MRE. This one is honey flan.
   components:
   - type: Sprite
     state: honey_flan

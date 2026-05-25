@@ -109,8 +109,8 @@
 - type: entity
   id: MechRipley
   parent: BaseMech
-  name: ent-MechRipley
-  description: ent-MechRipley-desc
+  name: Ripley APLU
+  description: Versatile and lightly armored, the Ripley is useful for almost any heavy work scenario. The "APLU" stands for Autonomous Power Loading Unit.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -143,7 +143,7 @@
 - type: entity
   id: MechRipleyBattery
   parent: MechRipley
-  suffix: ent-MechRipleyBattery-suffix
+  suffix: Battery
   components:
   - type: ContainerFill
     containers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: BaseMech
   id: MechHonker
-  name: ent-MechHonker
-  description: "ent-MechHonker-desc"
+  name: H.O.N.K.
+  description: "Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. Used to spread the fun and joy of life. HONK!"
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -181,7 +181,7 @@
 - type: entity
   parent: MechHonker
   id: MechHonkerBattery
-  suffix: ent-MechHonkerBattery-suffix
+  suffix: Battery
   components:
   - type: ContainerFill
     containers:
@@ -191,8 +191,8 @@
 - type: entity
   parent: BaseMech
   id: MechHamtr
-  name: ent-MechHamtr
-  description: "ent-MechHamtr-desc"
+  name: HAMTR
+  description: "An experimental mech which uses a brain–computer interface to connect directly to a hamsters brain."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -231,7 +231,7 @@
 - type: entity
   parent: MechHamtr
   id: MechHamtrBattery
-  suffix: ent-MechHamtrBattery-suffix
+  suffix: Battery
   components:
   - type: ContainerFill
     containers:
@@ -243,8 +243,8 @@
 - type: entity
   parent: BaseMech
   id: MechVim
-  name: ent-MechVim
-  description: ent-MechVim-desc
+  name: Vim
+  description: A miniature exosuit from Nanotrasen, developed to let the irreplaceable station pets live a little longer.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -299,7 +299,7 @@
 - type: entity
   parent: MechVim
   id: MechVimBattery
-  suffix: ent-MechVimBattery-suffix
+  suffix: Battery
   components:
   - type: ContainerFill
     containers:

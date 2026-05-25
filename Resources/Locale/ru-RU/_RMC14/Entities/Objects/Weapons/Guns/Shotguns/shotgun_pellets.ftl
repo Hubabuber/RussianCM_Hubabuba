@@ -1,16 +1,7 @@
 ent-RMCPelletShotgunBreaching = лёгкий штурмовой патрон
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-CMPelletShotgunIncendiaryBuckshot = зажигательный картечный патрон
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-CMPelletShotgunFlechette = патрон с оперёнными стрелами
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-CMPelletShotgunBeanbag = травматическая пуля
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-CMPelletShotgunIncendiary = зажигательная пуля
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-CMPelletShotgunSlug = пуля
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-CMPelletShotgunBuckshot = картечь
-    .desc = Если ты это видишь, ты, вероятно, мертв!
-ent-CMPelletShotgunBase = BaseBullet
-    .desc = If you can see this you're probably dead!

@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: CMFence
-  name: ent-CMFence
-  description: ent-CMFence-desc
+  name: fence
+  description: A large metal mesh strewn between two poles. Intended as a cheap way to separate areas, while allowing one to see through it.
   components:
   - type: Transform
     anchored: true
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCFenceBroken
-  name: ent-RMCFenceBroken
-  description: ent-RMCFenceBroken-desc
+  name: broken fence
+  description: A mess of broken wire strewn between two poles, it's not blocking anyone's way through.
   components:
   - type: Transform
     anchored: true
@@ -126,7 +126,7 @@
 - type: entity
   parent: CMFence
   id: RMCFenceHybrisaElectric
-  suffix: ent-RMCFenceHybrisaElectric-suffix
+  suffix: electric
   components:
   - type: Sprite
     sprite: _RMC14/Structures/hybrisa_fences_electric.rsi
@@ -144,7 +144,7 @@
 - type: entity
   parent: RMCFenceBroken
   id: RMCFenceHybrisaElectricBroken
-  suffix: ent-RMCFenceHybrisaElectricBroken-suffix
+  suffix: electric
   components:
   - type: Sprite
     sprite: _RMC14/Structures/hybrisa_fences_electric.rsi

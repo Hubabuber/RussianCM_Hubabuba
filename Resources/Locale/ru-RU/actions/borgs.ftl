@@ -3,7 +3,3 @@ ent-ActionViewLaws-desc = Ознакомьтесь с законами, кото
 
 ent-ActionSelectBorgType-name = Выберите тип киборга
 
-ent-ActionSelectBorgType = Выберите тип киборга
-
-ent-ActionViewLaws = Посмотреть законы
-    .desc = Ознакомьтесь с законами, которым вы должны следовать.

@@ -1,11 +1,11 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMStaffOfficer
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-cmstaffofficer-name
-  description: job-cmstaffofficer-desc
-  newToJobInfo: job-cmstaffofficer-newtojobinfo
+  name: cm-job-name-staff-officer
+  description: cm-job-description-staff-officer
+  newToJobInfo: rmc-new-to-job-staff-officer
   playTimeTracker: CMJobStaffOfficer
   setPreference: false
   requirements: []
@@ -21,7 +21,7 @@
   requireAdminNotify: true
   joinNotifyCrew: false
   marineAuthorityLevel: 13
-  supervisors: job-cmstaffofficer-supervisors
+  supervisors: rmc-job-supervisors-commander
   accessGroups:
   - SO
   roleWeight: 0.25
@@ -91,7 +91,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointStaffOfficer
-  name: ent-CMSpawnPointStaffOfficer
+  name: staff officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMStaffOfficer
@@ -105,8 +105,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSO
-  name: ent-RMCGuidebookRoleSO
-  description: ent-RMCGuidebookRoleSO-desc
+  name: A Staff Officer
+  description: A Staff Officer.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobLEOBase
   id: AU14JobInvestigationCMBDeputy
-  name: job-au14jobinvestigationcmbdeputy-name
-  description: job-au14jobinvestigationcmbdeputy-desc
+  name: au14-job-name-civiliancmbdeputy
+  description: You have been sent by the Colonial Administration to investigate unspecified occurrences on this planet. Investigate the area under the orders of your marshal and ensure that the laws of Sol extend far beyond the Solar System.
   setPreference: false
   canBeAntag: false
   requirements:
@@ -10,10 +10,10 @@
     AU14RankCMBDeputy: []
   startingGear: AU14GearCMBDeputyInvestigation
   icon: "RMCJobIconBureauDeputy"
-  spawnMenuRoleName: job-au14jobinvestigationcmbdeputy-spawnmenurolename
+  spawnMenuRoleName: CMB Deputy (3rd party)
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobinvestigationcmbdeputy-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - aucmb
   - Colonist
@@ -62,7 +62,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCMB
   id: CMBInvestigationPartyJobDeputy
-  name: ent-CMBInvestigationPartyJobDeputy
+  name: CMB Deputy
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

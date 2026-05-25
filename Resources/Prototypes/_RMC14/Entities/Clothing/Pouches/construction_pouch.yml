@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchConstruction
-  name: ent-RMCPouchConstruction
-  description: ent-RMCPouchConstruction-desc
+  name: construction pouch
+  description: It's designed to hold construction materials - glass/metal sheets, metal rods, barbed wire, cable coil, and empty sandbags. It also has two hooks for an entrenching tool and light replacer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/construction.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCPouchConstruction
   id: RMCPouchConstructionFillLowGrade
-  suffix: ent-RMCPouchConstructionFillLowGrade-suffix
+  suffix: Low grade full
   components:
   - type: StorageFill
     contents:
@@ -37,7 +37,7 @@
 - type: entity
   parent: RMCPouchConstruction
   id: RMCPouchConstructionFillFull
-  suffix: ent-RMCPouchConstructionFillFull-suffix
+  suffix: Full
   components:
   - type: StorageFill
     contents:

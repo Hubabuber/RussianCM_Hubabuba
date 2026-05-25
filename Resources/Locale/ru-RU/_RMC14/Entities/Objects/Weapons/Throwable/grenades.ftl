@@ -20,35 +20,3 @@ ent-RMCGrenadeFlashBang = светошумовая граната
   .desc = Отлично подходит для остановки групп бунтовщиков. Не надейтесь, что солнцезащитные очки защитят вас...
 ent-CMGrenadeBase = граната
   .desc = Пригнись и найди укрытие.
-
-ent-RMCGrenade20mmHE = L109A1 20-мм осколочно-фугасная граната
-    .desc = 20-мм граната, взрывающаяся при ударе. Менее мощная, чем полноразмерные гранаты. Будьте осторожны, как вы справляетесь с этим.
-    .suffix = ПВЕ
-
-ent-RMCGrenade20mmIncendiary = 20-мм зажигательная граната L109A2
-    .desc = 20-мм граната, при ударе создающая пламя. Менее мощная, чем полноразмерные гранаты. Будьте осторожны, как вы справляетесь с этим.
-    .suffix = ПвЕ
-
-ent-RMCGrenadeWhitePhosphorus = 30-мм граната с белым фосфором WPDP
-    .desc = 30-мм WPDP — небольшая, но мощная фосфорная граната. Он настроен на детонацию через 2 секунды.
-
-ent-RMCGrenadeWhitePhosphorusCompound = 30-мм граната CCDP с химическим соединением
-    .desc = 30-мм CCDP — это небольшая, но мощная граната с химическим соединением, по действию аналогичная WPDP. На блоке написано, что CCDP на самом деле выпускает не белый фосфор, а какое-то другое химическое вещество, разработанное в лабораториях We-Ya.
-
-ent-RMCSmoke = курить
-
-ent-RMCSmokeExplosionProof = курить
-
-ent-RMCSmokeExplosionProofSmall = курить
-
-ent-RMCSmokeFireSentry = курить
-
-ent-RMCSmokePhosphorus = курить
-
-ent-RMCSmokePhosphorusNoSpread = курить
-
-ent-RMCSmokePhosphorusNoSpreadStrong = курить
-
-ent-RMCSmokePhosphorusNoSpreadWeak = курить
-
-ent-RMCSmokePhosphorusWeak = курить

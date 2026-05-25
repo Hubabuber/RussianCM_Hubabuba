@@ -1,9 +1,9 @@
 - type: entity
-  name: ent-BaseChemistryEmptyBottle
+  name: bottle
   parent: BaseItem
   id: BaseChemistryEmptyBottle
   abstract: true
-  description: ent-BaseChemistryEmptyBottle-desc
+  description: A small bottle.
   components:
   - type: Tag
     tags:
@@ -149,7 +149,7 @@
 
 - type: entity
   id: ChemistryBottleEpinephrine
-  suffix: ent-ChemistryBottleEpinephrine-suffix
+  suffix: epinephrine
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -164,7 +164,7 @@
 
 - type: entity
   id: ChemistryBottleRobustHarvest
-  suffix: ent-ChemistryBottleRobustHarvest-suffix
+  suffix: robust harvest
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -179,7 +179,7 @@
 
 - type: entity
   id: ChemistryBottleEZNutrient
-  suffix: ent-ChemistryBottleEZNutrient-suffix
+  suffix: ez nutrient
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -209,7 +209,7 @@
 
 - type: entity
   id: ChemistryBottleUnstableMutagen
-  suffix: ent-ChemistryBottleUnstableMutagen-suffix
+  suffix: unstable mutagen
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -224,7 +224,7 @@
 
 - type: entity
   id: ChemistryBottleNocturine
-  suffix: ent-ChemistryBottleNocturine-suffix
+  suffix: nocturine
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -239,7 +239,7 @@
 
 - type: entity
   id: ChemistryBottleEphedrine
-  suffix: ent-ChemistryBottleEphedrine-suffix
+  suffix: ephedrine
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -254,7 +254,7 @@
 
 - type: entity
   id: ChemistryBottleOmnizine
-  suffix: ent-ChemistryBottleOmnizine-suffix
+  suffix: omnizine
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -270,7 +270,7 @@
 - type: entity
   parent: BaseChemistryBottleFilled
   id: ChemistryBottleCognizine
-  suffix: ent-ChemistryBottleCognizine-suffix
+  suffix: cognizine
   components:
   - type: Label
     currentLabel: reagent-name-cognizine
@@ -284,7 +284,7 @@
 
 - type: entity
   id: ChemistryBottlePax
-  suffix: ent-ChemistryBottlePax-suffix
+  suffix: pax
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -299,7 +299,7 @@
 
 - type: entity
   id: ChemistryBottleMuteToxin
-  suffix: ent-ChemistryBottleMuteToxin-suffix
+  suffix: mute toxin
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -314,7 +314,7 @@
 
 - type: entity
   id: ChemistryBottleLead
-  suffix: ent-ChemistryBottleLead-suffix
+  suffix: lead
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -329,7 +329,7 @@
 
 - type: entity
   id: ChemistryBottleToxin
-  suffix: ent-ChemistryBottleToxin-suffix
+  suffix: toxin
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -345,7 +345,7 @@
 # Base reagent bottles
 - type: entity
   id: ChemistryBottleAluminium
-  suffix: ent-ChemistryBottleAluminium-suffix
+  suffix: aluminium
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -360,7 +360,7 @@
 
 - type: entity
   id: ChemistryBottleCarbon
-  suffix: ent-ChemistryBottleCarbon-suffix
+  suffix: carbon
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -375,7 +375,7 @@
 
 - type: entity
   id: ChemistryBottleChlorine
-  suffix: ent-ChemistryBottleChlorine-suffix
+  suffix: chlorine
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -390,7 +390,7 @@
 
 - type: entity
   id: ChemistryBottleCopper
-  suffix: ent-ChemistryBottleCopper-suffix
+  suffix: copper
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -405,7 +405,7 @@
 
 - type: entity
   id: ChemistryBottleEthanol
-  suffix: ent-ChemistryBottleEthanol-suffix
+  suffix: ethanol
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -420,7 +420,7 @@
 
 - type: entity
   id: ChemistryBottleFluorine
-  suffix: ent-ChemistryBottleFluorine-suffix
+  suffix: fluorine
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -435,7 +435,7 @@
 
 - type: entity
   id: ChemistryBottleHydrogen
-  suffix: ent-ChemistryBottleHydrogen-suffix
+  suffix: hydrogen
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -450,7 +450,7 @@
 
 - type: entity
   id: ChemistryBottleIodine
-  suffix: ent-ChemistryBottleIodine-suffix
+  suffix: iodine
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -465,7 +465,7 @@
 
 - type: entity
   id: ChemistryBottleIron
-  suffix: ent-ChemistryBottleIron-suffix
+  suffix: iron
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -480,7 +480,7 @@
 
 - type: entity
   id: ChemistryBottleLithium
-  suffix: ent-ChemistryBottleLithium-suffix
+  suffix: lithium
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -495,7 +495,7 @@
 
 - type: entity
   id: ChemistryBottleMercury
-  suffix: ent-ChemistryBottleMercury-suffix
+  suffix: mercury
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -510,7 +510,7 @@
 
 - type: entity
   id: ChemistryBottleNitrogen
-  suffix: ent-ChemistryBottleNitrogen-suffix
+  suffix: nitrogen
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -525,7 +525,7 @@
 
 - type: entity
   id: ChemistryBottleOxygen
-  suffix: ent-ChemistryBottleOxygen-suffix
+  suffix: oxygen
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -540,7 +540,7 @@
 
 - type: entity
   id: ChemistryBottlePhosphorus
-  suffix: ent-ChemistryBottlePhosphorus-suffix
+  suffix: phosphorus
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -555,7 +555,7 @@
 
 - type: entity
   id: ChemistryBottlePotassium
-  suffix: ent-ChemistryBottlePotassium-suffix
+  suffix: potassium
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -570,7 +570,7 @@
 
 - type: entity
   id: ChemistryBottleRadium
-  suffix: ent-ChemistryBottleRadium-suffix
+  suffix: radium
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -585,7 +585,7 @@
 
 - type: entity
   id: ChemistryBottleSilicon
-  suffix: ent-ChemistryBottleSilicon-suffix
+  suffix: silicon
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -600,7 +600,7 @@
 
 - type: entity
   id: ChemistryBottleSodium
-  suffix: ent-ChemistryBottleSodium-suffix
+  suffix: sodium
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -615,7 +615,7 @@
 
 - type: entity
   id: ChemistryBottleSugar
-  suffix: ent-ChemistryBottleSugar-suffix
+  suffix: sugar
   parent: BaseChemistryBottleFilled
   components:
   - type: Label
@@ -630,7 +630,7 @@
 
 - type: entity
   id: ChemistryBottleSulfur
-  suffix: ent-ChemistryBottleSulfur-suffix
+  suffix: sulfur
   parent: BaseChemistryBottleFilled
   components:
   - type: Label

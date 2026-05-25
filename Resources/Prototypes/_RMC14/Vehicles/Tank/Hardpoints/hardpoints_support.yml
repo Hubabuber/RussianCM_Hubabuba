@@ -1,8 +1,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankWarningArray
-  name: ent-VehicleTankWarningArray
-  description: ent-VehicleTankWarningArray-desc
+  name: integrated weapons sensor array
+  description: An integrated sensor array that improves accuracy and fire rate of onboard weapons.
   components:
   - type: Sprite
     state: warray
@@ -23,8 +23,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankOverdriveEnhancer
-  name: ent-VehicleTankOverdriveEnhancer
-  description: ent-VehicleTankOverdriveEnhancer-desc
+  name: overdrive enhancer
+  description: An overdrive enhancer support attachment for a tank.
   components:
   - type: Sprite
     state: odrive_enhancer
@@ -44,8 +44,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankRocketLauncher
-  name: ent-VehicleTankRocketLauncher
-  description: ent-VehicleTankRocketLauncher-desc
+  name: smoke launcher
+  description: A smoke launcher support attachment for a tank.
   components:
   - type: Sprite
     state: slauncher_0
@@ -101,8 +101,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankFlareModule
-  name: ent-VehicleTankFlareModule
-  description: ent-VehicleTankFlareModule-desc
+  name: flare module
+  description: A flare launcher support attachment for a tank.
   components:
   - type: Sprite
     state: slauncher_1
@@ -161,8 +161,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankArtilleryModule
-  name: ent-VehicleTankArtilleryModule
-  description: ent-VehicleTankArtilleryModule-desc
+  name: artillery module
+  description: An artillery support module for a tank.
   components:
   - type: Sprite
     state: artillery

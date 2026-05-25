@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianPrisoner
-  name: job-au14jobcivilianprisoner-name
-  description: job-au14jobcivilianprisoner-desc
+  name: au14-job-name-civilianprisoner
+  description: au14-job-description-civilianprisoner
   setPreference: true
   playTimeTracker: AU14JobCivilianPrisoner
   startingGear: AU14GearCivilianPrisoner
@@ -12,8 +12,8 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianprisoner-supervisors
-  spawnMenuRoleName: job-au14jobcivilianprisoner-spawnmenurolename
+  supervisors: au14-job-supervisors-loner
+  spawnMenuRoleName: Colony Prisoner (CMU)
   roleWeight: 0.6
   special:
   - !type:AddComponentSpecial
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianPrisoner
-  name: ent-AU14SpawnPointCivilianPrisoner
+  name: Spawn Point Civilian Prisoner
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianPrisoner
@@ -51,7 +51,7 @@
 - type: entity
   parent: MarkerBase
   id: auprisonerghost
-  name: ent-auprisonerghost
+  name: Prisoner colonist ghost role
   components:
   - type: Sprite
     layers:

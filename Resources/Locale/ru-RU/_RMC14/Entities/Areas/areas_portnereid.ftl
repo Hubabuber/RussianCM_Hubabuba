@@ -1,58 +1,58 @@
 ent-RMCAreaShuttleDrop1PortNereid = Грузовое депо Порт-Нереида AC-170 - LZ1
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2PortNereid = Международный космодром Порт-Нереид - LZ2
-    .suffix = область
+
 ent-RMCAreaPortNereidCargo = Порт Нереида - Грузовое депо AC-170
-    .suffix = область
+
 ent-RMCAreaPortNereidMining = Порт-Нереид — горнодобывающая застава TMCC
-    .suffix = область
+
 ent-RMCAreaPortNereidDeepsiteUAS1 = Порт Нереида - Deepsite UAS-1
-    .suffix = область
+
 ent-RMCAreaPortNereidSecurity = Порт-Нереида — штаб-квартира безопасности
-    .suffix = область
+
 ent-RMCAreaPortNereidEngineering = Порт Нереида – Инженерная бухта
-    .suffix = область
+
 ent-RMCAreaPortNereidSpaceport = Порт Нереид - Международный космодром Порт Нереид
-    .suffix = область
+
 ent-RMCAreaPortNereidHeavyHaulter = Порт Нереида - WEYA Hauler
-    .suffix = область
+
 ent-RMCAreaPortNereidShack = Порт Нереида - Хижина на берегу озера
-    .suffix = область
+
 ent-RMCAreaPortNereidStorage = Порт Нереида — Хранилище
-    .suffix = область
+
 ent-RMCAreaPortNereidCargoComms = Порт Нереида — грузовая связь
-    .suffix = область
+
 ent-RMCAreaPortNereidSouthWestJungle = Порт Нереида – Юго-западные джунгли
-    .suffix = область
+
 ent-RMCAreaPortNereidSouthEastJungle = Порт Нереида - Юго-восточные джунгли
-    .suffix = область
+
 ent-RMCAreaPortNereidWeymart = Порт Нереид - Веймарт
-    .suffix = область
+
 ent-RMCAreaPortNereidHabitationEast = Порт Нереида - Восточный жилой комплекс
-    .suffix = область
+
 ent-RMCAreaPortNereidHabitationWest = Порт Нереида - Западный жилой комплекс
-    .suffix = область
+
 ent-RMCAreaPortNereidMedical = Порт Нереида - Медицинская клиника
-    .suffix = область
+
 ent-RMCAreaPortNereidBotany = Порт-Нереида - залив Ботани
-    .suffix = область
+
 ent-RMCAreaPortNereidDisposals = Порт Нереида - Утилизация и переработка отходов
-    .suffix = область
+
 ent-RMCAreaPortNereidDam = Порт Нереида - Плотина реки
-    .suffix = область
+
 ent-RMCAreaPortNereidNorthWestJungle = Порт Нереида – Северо-Западные джунгли
-    .suffix = область
+
 ent-RMCAreaPortNereidNorthEastJungle = Порт Нереида – Северо-восточные джунгли
-    .suffix = область
+
 ent-RMCAreaPortNereidCentralAtmosphericProcessor = Порт Нереида - Центральный процессор тяжелой атмосферы ПАЭК-500 (двигатель обработки атмосферы дуэльного синтеза)
-    .suffix = область
+
 ent-RMCAreaPortNereidWestAtmosphericProcessor = Порт Нереида - Западный процессор тяжелой атмосферы ПАЭК-500 (запасы и управление теплоносителем реактора)
-    .suffix = область
+
 ent-RMCAreaPortNereidEastAtmosphericProcessor = Порт Нереида - Восточный процессор тяжелой атмосферы ПАЭК-500 (основная энергогенераторная сеть)
-    .suffix = область
+
 ent-RMCAreaPortNereidRoadSystem = Порт Нереида - Дорожная система
-    .suffix = область
+
 ent-RMCAreaPortNereidPort = Порт Нереида - Порт на берегу океана
-    .suffix = область
+
 ent-RMCAreaPortNereidOob = Порт-Нереида - за пределами границ
-    .suffix = область
+

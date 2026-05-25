@@ -2,7 +2,7 @@
   id: BaseLathe
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   abstract: true
-  name: ent-BaseLathe
+  name: lathe
   components:
   - type: Appearance
   - type: WiresVisuals
@@ -88,8 +88,8 @@
 - type: entity
   id: Autolathe
   parent: BaseLatheLube
-  name: ent-Autolathe
-  description: ent-Autolathe-desc
+  name: autolathe
+  description: It produces basic items using metal and glass. Has the ability to process blueprints to print new recipes.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe.rsi
@@ -150,8 +150,8 @@
 - type: entity
   id: AutolatheHyperConvection
   parent: [Autolathe, BaseHyperlathe]
-  name: ent-AutolatheHyperConvection
-  description: ent-AutolatheHyperConvection-desc
+  name: hyper convection autolathe
+  description: A highly-experimental autolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe_hypercon.rsi
@@ -161,8 +161,8 @@
 - type: entity
   id: Protolathe
   parent: BaseLatheLube
-  name: ent-Protolathe
-  description: ent-Protolathe-desc
+  name: protolathe
+  description: Converts raw materials into advanced items.
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe.rsi
@@ -219,8 +219,8 @@
 - type: entity
   id: ProtolatheHyperConvection
   parent: [Protolathe, BaseHyperlathe]
-  name: ent-ProtolatheHyperConvection
-  description: ent-ProtolatheHyperConvection-desc
+  name: hyper convection protolathe
+  description: A highly-experimental protolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe_hypercon.rsi
@@ -230,8 +230,8 @@
 - type: entity
   id: CircuitImprinter
   parent: BaseLatheLube
-  name: ent-CircuitImprinter
-  description: ent-CircuitImprinter-desc
+  name: circuit imprinter
+  description: Prints circuit boards for machines.
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter.rsi
@@ -281,8 +281,8 @@
 - type: entity
   id: CircuitImprinterHyperConvection
   parent: [CircuitImprinter, BaseHyperlathe]
-  name: ent-CircuitImprinterHyperConvection
-  description: ent-CircuitImprinterHyperConvection-desc
+  name: hyper convection circuit imprinter
+  description: A highly-experimental circuit imprinter that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter_hypercon.rsi
@@ -292,8 +292,8 @@
 - type: entity
   id: ExosuitFabricator
   parent: BaseLatheLube
-  name: ent-ExosuitFabricator
-  description: ent-ExosuitFabricator-desc
+  name: exosuit fabricator
+  description: Creates parts for robotics and other mechanical needs.
   components:
   - type: Sprite
     sprite: Structures/Machines/exosuit_fabricator.rsi
@@ -332,8 +332,8 @@
 - type: entity
   id: Biofabricator
   parent: BaseLathe
-  name: ent-Biofabricator
-  description: ent-Biofabricator-desc
+  name: biocube fabricator
+  description: Produces animal cubes using biomass.
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -371,8 +371,8 @@
 - type: entity
   id: SecurityTechFab
   parent: BaseLatheLube
-  name: ent-SecurityTechFab
-  description: ent-SecurityTechFab-desc
+  name: security techfab
+  description: Prints equipment for use by security crew.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -419,8 +419,8 @@
 - type: entity
   id: AmmoTechFab
   parent: BaseLatheLube
-  name: ent-AmmoTechFab
-  description: ent-AmmoTechFab-desc
+  name: ammo techfab
+  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
   components:
     - type: Sprite
       sprite: Structures/Machines/techfab.rsi
@@ -453,8 +453,8 @@
 - type: entity
   id: MedicalTechFab
   parent: BaseLatheLube
-  name: ent-MedicalTechFab
-  description: ent-MedicalTechFab-desc
+  name: medical techfab
+  description: Prints equipment for use by the medbay.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -493,8 +493,8 @@
 - type: entity
   parent: BaseLathe
   id: UniformPrinter
-  name: ent-UniformPrinter
-  description: ent-UniformPrinter-desc
+  name: uniform printer
+  description: Prints new or replacement uniforms.
   components:
   - type: Transform
     noRot: false
@@ -539,8 +539,8 @@
 - type: entity
   id: Biogenerator
   parent: BaseLathe
-  name: ent-Biogenerator
-  description: ent-Biogenerator-desc
+  name: biogenerator
+  description: Converts plants into biomass, which can be used to construct useful items.
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -582,8 +582,8 @@
 - type: entity
   parent: BaseLathe
   id: OreProcessor
-  name: ent-OreProcessor
-  description: ent-OreProcessor-desc
+  name: ore processor
+  description: It produces sheets and ingots using ores.
   components:
     - type: Sprite
       sprite: Structures/Machines/ore_processor.rsi
@@ -615,8 +615,8 @@
 - type: entity
   parent: OreProcessor
   id: OreProcessorIndustrial
-  name: ent-OreProcessorIndustrial
-  description: ent-OreProcessorIndustrial-desc
+  name: industrial ore processor
+  description: An ore processor specifically designed for mass-producing metals in industrial applications.
   components:
   - type: Sprite
     sprite: Structures/Machines/ore_processor_industrial.rsi
@@ -633,8 +633,8 @@
 - type: entity
   parent: BaseLathe
   id: Sheetifier
-  name: ent-Sheetifier
-  description: ent-Sheetifier-desc
+  name: sheet-meister 2000
+  description: A very sheety machine.
   components:
   - type: Sprite
     sprite: Structures/Machines/sheetifier.rsi
@@ -664,8 +664,8 @@
 - type: entity
   parent: BaseLathe
   id: CutterMachine
-  name: ent-CutterMachine
-  description: ent-CutterMachine-desc
+  name: cutter machine
+  description: This is a cutter. It cuts. Add variety to your station floor with eye-pleasing patterns! Don't stick your fingers in.
   components:
   - type: Transform
     noRot: false

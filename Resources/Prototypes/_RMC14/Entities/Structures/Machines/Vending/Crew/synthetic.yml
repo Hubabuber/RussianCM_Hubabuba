@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCrewSynthetic
-  name: ent-ColMarTechCrewSynthetic
-  description: ent-ColMarTechCrewSynthetic-desc
+  name: ColMarTech Synthetic Equipment Rack
+  description: An automated rack hooked up to a colossal storage of various equipment. Can be accessed only by synthetic units.
   components:
   - type: AccessReader
     access:
@@ -170,14 +170,14 @@
 - type: entity
   parent: ColMarTechCrewSynthetic
   id: ColMarTechCrewSyntheticColony
-  name: ent-ColMarTechCrewSyntheticColony
-  suffix: ent-ColMarTechCrewSyntheticColony-suffix
+  name: ColMarTech Synthetic Equipment Rack
+  suffix: Colony Synth Access
 
 - type: entity
   parent: ColMarTechBase
   id: WeYaK9SynthVendor
-  name: ent-WeYaK9SynthVendor
-  description: ent-WeYaK9SynthVendor-desc
+  name: Wey-Yu Synthetic K9 Equipment Requisitions
+  description: A vendor specially designed to dispense Synthetic K9 equipment.
   components:
   - type: AccessReader
     access:
@@ -207,8 +207,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCrewSyntheticGear
-  name: ent-ColMarTechCrewSyntheticGear
-  description: ent-ColMarTechCrewSyntheticGear-desc
+  name: ColMarTech Synthetic Auxiliary Gear Rack
+  description: An automated gear rack hooked up to a colossal storage of various medical and engineering supplies. Can be accessed only by synthetic units.
   components:
   - type: AccessReader
     access:
@@ -355,8 +355,8 @@
 - type: entity
   parent: ColMarTechBase
   id: WeYaExperimentalToolsVendor
-  name: ent-WeYaExperimentalToolsVendor
-  description: ent-WeYaExperimentalToolsVendor-desc
+  name: We-Yu Experimental Tools Vendor
+  description: A smaller vendor hooked up to a cache of specially provisioned, experimental tools and equipment provided by the We-Yu Research and Development Division(TM). Handle with care.
   components:
   - type: AccessReader
     access:
@@ -400,8 +400,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleCompactNailgunKit
-  name: ent-RMCVendorBundleCompactNailgunKit
-  description: ent-RMCVendorBundleCompactNailgunKit-desc
+  name: compact nailgun kit
+  description: Contains a compact nailgun, two magazines and a nailgun holster.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/nailgun_compact.rsi
@@ -416,8 +416,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleK9HandlerCorpsman
-  name: ent-RMCVendorBundleK9HandlerCorpsman
-  description: ent-RMCVendorBundleK9HandlerCorpsman-desc
+  name: K9 corpsman handler kit
+  description: Contains a medical headset and K9 handler instructional pamphlet.
   components:
   - type: CMVendorBundle
     bundle:
@@ -426,8 +426,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleK9HandlerMP
-  name: ent-RMCVendorBundleK9HandlerMP
-  description: ent-RMCVendorBundleK9HandlerMP-desc
+  name: K9 MP handler kit
+  description: Contains a military police headset and K9 handler instructional pamphlet.
   components:
   - type: CMVendorBundle
     bundle:

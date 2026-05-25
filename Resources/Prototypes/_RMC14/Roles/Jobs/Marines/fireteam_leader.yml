@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMFireteamLeader
-  name: job-cmfireteamleader-name
-  description: job-cmfireteamleader-desc
+  name: cm-job-name-fireteam-leader
+  description: cm-job-description-fireteam-leader
   setPreference: false
   playTimeTracker: CMJobFireteamLeader
   requirements: []
@@ -21,7 +21,7 @@
   icon: "CMJobIconFireteamLeader"
   joinNotifyCrew: false
   marineAuthorityLevel: 1
-  supervisors: job-cmfireteamleader-supervisors
+  supervisors: cm-job-supervisors-sl
   accessGroups:
   - FTL
  # overwatchSortPriority: -5
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointFireteamLeader
-  name: ent-CMSpawnPointFireteamLeader
+  name: fireteam leader spawn point
   components:
   - type: SpawnPoint
     job_id: CMFireteamLeader
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMSpawnPointFireteamLeader
   id: CMSpawnPointFireteamLeaderAlpha
-  suffix: ent-CMSpawnPointFireteamLeaderAlpha-suffix
+  suffix: Alpha
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSpawnPointFireteamLeader
   id: CMSpawnPointFireteamLeaderBravo
-  suffix: ent-CMSpawnPointFireteamLeaderBravo-suffix
+  suffix: Bravo
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMSpawnPointFireteamLeader
   id: CMSpawnPointFireteamLeaderCharlie
-  suffix: ent-CMSpawnPointFireteamLeaderCharlie-suffix
+  suffix: Charlie
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -118,7 +118,7 @@
 - type: entity
   parent: CMSpawnPointFireteamLeader
   id: CMSpawnPointFireteamLeaderDelta
-  suffix: ent-CMSpawnPointFireteamLeaderDelta-suffix
+  suffix: Delta
   components:
   - type: SquadSpawner
     squad: SquadDelta

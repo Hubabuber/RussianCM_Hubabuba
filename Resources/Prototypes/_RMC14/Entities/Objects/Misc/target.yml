@@ -1,9 +1,9 @@
 - type: entity
-  name: ent-RMCTargetHuman
+  name: human target
   id: RMCTargetHuman
   parent: BaseStructureDynamic
-  description: ent-RMCTargetHuman-desc
-  suffix: ent-RMCTargetHuman-suffix
+  description: A shooting target. This one is a Human.
+  suffix: RMC
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
@@ -80,10 +80,10 @@
   - type: CanBeFirePatted
 
 - type: entity
-  name: ent-RMCTargetXeno
+  name: xenonid target
   id: RMCTargetXeno
   parent: RMCTargetHuman
-  description: ent-RMCTargetXeno-desc
+  description: A shooting target. This one is a xenonid.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/target.rsi
@@ -92,38 +92,38 @@
 - type: entity
   id: RMCTargetArmored
   parent: RMCTargetHuman
-  name: ent-RMCTargetArmored
-  description: ent-RMCTargetArmored-desc
+  name: shooting target
+  description: A shooting target. This one is an armored human.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/target.rsi
     state: target_a
 
 - type: entity
-  name: ent-RMCTargetSyndicate
+  name: syndicate target
   id: RMCTargetSyndicate
   parent: RMCTargetHuman
-  description: ent-RMCTargetSyndicate-desc
+  description: A shooting target. This one is a syndicate agent.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
     state: target_s
 
 - type: entity
-  name: ent-RMCTargetClown
+  name: clown target
   id: RMCTargetClown
   parent: RMCTargetHuman
-  description: ent-RMCTargetClown-desc
+  description: A shooting target. This one is a clown.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
     state: target_c
 
 - type: entity
-  name: ent-RMCTargetStrange
+  name: felinid target
   id: RMCTargetStrange
   parent: RMCTargetHuman
-  description: ent-RMCTargetStrange-desc
+  description: A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi

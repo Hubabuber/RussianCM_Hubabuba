@@ -1,19 +1,18 @@
 ent-RMCAlienTank = крио-танк
   .desc = Внутри есть что-то большое...
-    .suffix = крио-танк
+
 ent-RMCResearchThingies = полка для банок
-    .desc = полка для банок
+
 ent-RMCBaseAlienTank = крио-танк
-    .desc = полка для банок
+
 ent-RMCAlienTankEmpty = крио-танк
   .desc = Он пуст.
-    .suffix = крио-танк
+
 ent-RMCAlienTankBroken = крио-танк
-    .desc = полка для банок
-    .suffix = крио-танк
+
 ent-RMCAlienTankParasite = крио-танк
   .desc = Внутри что-то похожее на паука...
-    .suffix = крио-танк
+
 ent-RMCAlienTankLarva = крио-танк
   .desc = Внутри что-то червеобразное...
-    .suffix = крио-танк
+

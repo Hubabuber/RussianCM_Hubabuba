@@ -1,7 +1,7 @@
 - type: entity
   id: BaseMeteor
-  name: ent-BaseMeteor
-  description: ent-BaseMeteor-desc
+  name: meteor
+  description: You prefer them when they're burning up in the atmosphere.
   abstract: true
   components:
   - type: Sprite
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorSpaceDust
-  name: ent-MeteorSpaceDust
-  description: ent-MeteorSpaceDust-desc
+  name: space dust
+  description: Makes a station sneeze.
   components:
   - type: Sprite
     state: space_dust
@@ -86,7 +86,7 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorSmall
-  suffix: ent-MeteorSmall-suffix
+  suffix: Small
   components:
   - type: Sprite
     state: small
@@ -126,7 +126,7 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorMedium
-  suffix: ent-MeteorMedium-suffix
+  suffix: Medium
   components:
   - type: Sprite
     state: medium
@@ -167,7 +167,7 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorLarge
-  suffix: ent-MeteorLarge-suffix
+  suffix: Large
   components:
   - type: Sprite
     state: big
@@ -195,9 +195,9 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorUrist
-  name: ent-MeteorUrist
-  description: ent-MeteorUrist-desc
-  suffix: ent-MeteorUrist-suffix
+  name: Urist McMeteor
+  description: As a successful member of society with a stable unflinching psyche and limitless drive, natural affinity for finance and domination, you have been selected, no, you have been effortlessly guided by divine (biological) trauma towards this moment. The gates of destiny fling open, and once again you're left standing on pulsating nothingness. A strobing headache of the soul.
+  suffix: Meteor
   components:
   - type: Sprite
     state: human_pixel
@@ -236,9 +236,9 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorCow
-  name: ent-MeteorCow
-  description: ent-MeteorCow-desc
-  suffix: ent-MeteorCow-suffix
+  name: Cosmic cow
+  description: Moo-ving at relativistic speeds!
+  suffix: Meteor
   components:
   - type: Sprite
     state: cow_pixel
@@ -278,9 +278,9 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorClown
-  name: ent-MeteorClown
-  description: ent-MeteorClown-desc
-  suffix: ent-MeteorClown-suffix
+  name: Honksteroid
+  description: The final honkening!
+  suffix: Meteor
   components:
   - type: Sprite
     state: clown_pixel
@@ -323,8 +323,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorPotato
-  name: ent-MeteorPotato
-  description: ent-MeteorPotato-desc
+  name: Space potato
+  description: A starchy threat from the depths of the space. Contains 200% of your daily sodium intake!
   components:
   - type: Sprite
     state: potato

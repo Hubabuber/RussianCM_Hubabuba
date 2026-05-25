@@ -1,5 +1,5 @@
 - type: entity
-  name: ent-BaseLamp
+  name: lantern
   parent: BaseItem
   id: BaseLamp
   abstract: true
@@ -55,10 +55,10 @@
     stealGroup: LAMP
 
 - type: entity
-  name: ent-Lamp
+  name: lamp
   id: Lamp
   parent: BaseLamp
-  description: ent-Lamp-desc
+  description: A light emitting device.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -84,10 +84,10 @@
           festive: { state: christmaslamp-on }
 
 - type: entity
-  name: ent-LampBanana
+  name: banana lamp
   id: LampBanana
   parent: BaseLamp
-  description: ent-LampBanana-desc
+  description: A light emitting device, shaped like a banana.
   components:
   - type: Sprite
     layers:
@@ -98,10 +98,10 @@
         map: [ "light" ]
 
 - type: entity
-  name: ent-LampGold
+  name: desk lamp
   id: LampGold
   parent: BaseLamp
-  description: ent-LampGold-desc
+  description: A light emitting device that would look great on a desk.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampgreen.rsi
@@ -131,10 +131,10 @@
             state: christmaslamp-on
 
 - type: entity
-  name: ent-LampInterrogator
+  name: interrogator lamp
   id: LampInterrogator
   parent: [ BaseLamp, BaseSecurityContraband ]
-  description: ent-LampInterrogator-desc
+  description: Ultra-bright lamp for the bad cop.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampint.rsi
@@ -188,10 +188,10 @@
           False: {visible: false}
 
 - type: entity
-  name: ent-Floodlight
+  name: floodlight
   id: Floodlight
   parent: BaseLamp
-  description: ent-Floodlight-desc
+  description: A pole with powerful mounted lights on it.
   components:
   - type: Item
     size: Normal
@@ -249,10 +249,10 @@
       Glass: 500
       Steel: 200
 - type: entity
-  name: ent-FloodlightBroken
+  name: broken floodlight
   id: FloodlightBroken
   parent: BaseItem
-  description: ent-FloodlightBroken-desc
+  description: A pole with powerful mounted lights on it. It's broken.
   components:
   - type: Item
     size: Normal

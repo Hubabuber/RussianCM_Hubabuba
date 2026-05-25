@@ -178,8 +178,7 @@ ent-RMCWeyaWallStandard7 = стена HR-150
 ent-RMCWeyaWallStandard8 = стена HR-150
   .desc = Огромный кусок металла, используемый для разделения комнат.
 
-ent-RMCWeyaWallStandard18 = стена HR-150
-  .desc = Огромный кусок металла, используемый для разделения комнат.
+ent-RMCWeyaWallStandard18 = -desc = Огромный кусок металла, используемый для разделения комнат.
 
 ent-RMCWeyaWallStandard19 = стена HR-150
   .desc = Огромный кусок металла, используемый для разделения комнат.
@@ -270,3 +269,4 @@ ent-RMCWeyaWallStandardwyleftengine = стена HR-150
 
 ent-RMCWeyaWallStandardwyrightengine = стена HR-150
   .desc = Огромный кусок металла, используемый для разделения комнат.
+

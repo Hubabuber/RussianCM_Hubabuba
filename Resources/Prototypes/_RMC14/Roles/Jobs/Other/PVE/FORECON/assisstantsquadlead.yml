@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCFORECONPVEAssistantSL
-  name: job-rmcforeconpveassistantsl-name
-  description: job-rmcforeconpveassistantsl-desc
+  name: rmc-job-name-pve-forecon-assistant-lead
+  description: cm-job-description-fireteam-leader
   playTimeTracker: CMJobFORECONPVEAssistantSL
   ranks:
    RMCRankStaffSergeant: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - FTL
-  spawnMenuRoleName: job-rmcforeconpveassistantsl-spawnmenurolename
+  spawnMenuRoleName: FORECON Assistant Squad Lead (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -68,8 +68,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVEAssistantSL
-  name: ent-RMCSpawnPointFORECONPVEAssistantSL
-  suffix: ent-RMCSpawnPointFORECONPVEAssistantSL-suffix
+  name: forecon assistant squad lead spawn point
+  suffix: PVE
   components:
   - type: Sprite
     state: leader_spawn

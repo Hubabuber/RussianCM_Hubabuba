@@ -1,32 +1,32 @@
 ent-RMCAreaTdomeTdomeobserve = заброшенный Громовой Купол (Наблюдатель.)
-    .suffix = область
+
 ent-RMCAreaTdomeTdomeadmin = заброшенный Громовой Купол (Админ.)
-    .suffix = область
+
 ent-RMCAreaTdomeTdome2 = заброшенный Громовой Купол (Команда 2)
-    .suffix = область
+
 ent-RMCAreaTdomeTdome1 = заброшенный Громовой Купол (Команда 1)
-    .suffix = область
+
 ent-RMCAreaTdome = заброшенный Громовой Купол
-    .suffix = область
+
 ent-RMCAreaCentcomLiving = заброшенные жилые помещения Центкома
-    .suffix = область
+
 ent-RMCAreaCentcomControl = заброшенный Centcom Control
-    .suffix = область
+
 ent-RMCAreaCentcom = заброшенный Центком
-    .suffix = область
+
 ent-RMCAreaStart = стартовая зона
-    .suffix = область
+
 ent-RMCAreaSpaceHighalt = Большая высота
-    .suffix = Космос
+
 ent-RMCAreaAdminDroppodLoading = Административные поставки снижают загрузку
-    .suffix = область
+
 ent-RMCAreaAdminDroppodHolding = Административные поставки Droppod
-    .suffix = область
+
 ent-RMCAreaAdmin = Комната администратора
-    .suffix = область
+
 ent-RMCAreaSpace = Космос
-    .suffix = Космос
+
 ent-RMCAreaEngine = область
-    .suffix = область
+
 ent-RMCAreaAdminDroppod = Комната администратора
-    .suffix = область
+

@@ -2,9 +2,9 @@
   id: ForceOnForce
   alias:
     - forceonforce
-  name: gamepreset-forceonforce-name
+  name: Force on Force
   showInVote: true
-  description: gamepreset-forceonforce-desc
+  description: Two units face each other in combat.
   minPlayers: 140
   requiresOpforVote: true
   requiresGovforVote: true
@@ -30,9 +30,9 @@
   id: Insurgency
   alias:
     - insurgency
-  name: gamepreset-insurgency-name
+  name: Insurgency
   showInVote: true
-  description: gamepreset-insurgency-desc
+  description: Insurgency mode
   minPlayers: 40
   requiresGovforVote: true
   supportedPlanets:
@@ -53,9 +53,9 @@
 
 - type: gamePreset
   id: DistressSignal
-  name: gamepreset-distresssignal-name
+  name: Distress Signal
   showInVote: true
-  description: gamepreset-distresssignal-desc
+  description: Investigate a mysterious distress signal as government forces.
   requiresGovforVote: true
   supportedPlanets:
 #  - AUPlanetLV747
@@ -75,10 +75,10 @@
   id: ColonyFall
   alias:
     - colonyfall
-  name: gamepreset-colonyfall-name
+  name: Colony Fall
   showInVote: true
   minPlayers: 0
-  description: gamepreset-colonyfall-desc
+  description: Live in an offworld colony as it falls into chaos.
   rules:
     - AuVoteRule
     - ColonyAntags
@@ -92,9 +92,9 @@
   id: Jailbreak
   alias:
     - jailbreak
-  name: gamepreset-jailbreak-name
+  name: Jailbreak
   showInVote: false
-  description: gamepreset-jailbreak-desc
+  description: Jailbreak mode
   rules:
     - AuVoteRule
 
@@ -102,9 +102,9 @@
   id: Prometheus
   alias:
     - prometheus
-  name: gamepreset-prometheus-name
+  name: Prometheus
   showInVote: false
-  description: gamepreset-prometheus-desc
+  description: Prometheus mode
   rules:
     - AuVoteRule
 
@@ -112,9 +112,9 @@
   id: Criminal
   alias:
     - criminal
-  name: gamepreset-criminal-name
+  name: Criminal
   showInVote: false
-  description: gamepreset-criminal-desc
+  description: Criminal mode
   rules:
     - AuVoteRule
 
@@ -192,8 +192,8 @@
 - type: entity
   id: ColonyAntags
   parent: BaseGameRule
-  name: ent-ColonyAntags
-  description: ent-ColonyAntags-desc
+  name: Colony Antags
+  description: Randomly rolls for each colony antag to be present this round.
   components:
   - type: GameRule
   - type: ColonyAntagsRule
@@ -202,8 +202,8 @@
 - type: entity
   id: AuVoteRule
   parent: BaseGameRule
-  name: ent-AuVoteRule
-  description: ent-AuVoteRule-desc
+  name: Colony Antags
+  description: If you want your mode to load planets and platoons automatically
   components:
   - type: AuVoteRule
   - type: Bioscan
@@ -214,8 +214,8 @@
 - type: entity
   id: RemoveAllJobs
   parent: BaseGameRule
-  name: ent-RemoveAllJobs
-  description: ent-RemoveAllJobs-desc
+  name: Remove All Jobs
+  description: Removes all jobs on the planet's main station prior to round start. Optionally removes jobs on ship stations.
   components:
   - type: RemoveJobsRule
 

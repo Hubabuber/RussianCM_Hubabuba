@@ -1,24 +1,18 @@
 ent-RMCLadder = лестница
   .desc = Прочная металлическая лестница.
+
 ent-RMCLadderUp = лестница
   .desc = Прочная металлическая лестница.
-    .suffix = лестница
+
 ent-RMCLadderThrough = лестница
   .desc = Прочная металлическая лестница.
-    .suffix = лестница
+
 ent-RMCLadderHatch = лестница
   .desc = Прочная металлическая лестница.
-    .suffix = лестница
+
 ent-RMCLadderRope = веревка
   .desc = Прочная веревка.
+
 ent-RMCLadderRopeAltDrawdepth = веревка
   .desc = Прочная веревка.
-    .suffix = веревка
-ent-CMUZLevelLadderBase = лестница уровня z
-    .desc = Прочная металлическая лестница, проходящая между Z-уровнями.
-ent-CMUZLevelLadderThrough = лестница уровня z
-    .desc = Прочная металлическая лестница, проходящая между Z-уровнями.
-    .suffix = Z-уровень, вверх
-ent-CMUZLevelLadderThroughDown = лестница уровня z
-    .desc = Прочная металлическая лестница, проходящая между Z-уровнями.
-    .suffix = Z-уровень, вниз
+

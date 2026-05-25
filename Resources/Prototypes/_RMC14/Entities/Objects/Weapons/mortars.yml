@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: RMCMortarKit
-  name: ent-RMCMortarKit
-  suffix: ent-RMCMortarKit-suffix
-  description: ent-RMCMortarKit-desc
+  name: M402 mortar portable kit
+  suffix: Classic
+  description: A manual, crew-operated mortar system intended to rain down 80mm goodness on anything it's aimed at. Uses an advanced targeting computer, which can toggle between coordinate and laser targeting. Needs to be set down first.
   components:
   - type: GuideHelp
     guides:
@@ -107,8 +107,8 @@
   abstract: true
   parent: BaseItem
   id: RMCMortarShellBase
-  name: ent-RMCMortarShellBase
-  description: ent-RMCMortarShellBase-desc
+  name: 80mm mortar shell
+  description: An unlabeled 80mm mortar shell, probably a casing.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellHE
-  name: ent-RMCMortarShellHE
-  description: ent-RMCMortarShellHE-desc
+  name: M889 HE mortar shell
+  description: An 80mm mortar shell loaded with an high explosive charge.
   components:
   - type: Item
     heldPrefix: he
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: AU14MortarShellHEATMP
-  name: ent-AU14MortarShellHEATMP
-  description: ent-AU14MortarShellHEATMP-desc
+  name: M971 HEAT-MP mortar shell
+  description: An 80mm mortar shell loaded with an high explosive anti tank multi purpose charge. It has a smaller blast radius than an HE round, but a devastating effect.
   components:
   - type: Item
     heldPrefix: heat
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellIncendiary
-  name: ent-RMCMortarShellIncendiary
-  description: ent-RMCMortarShellIncendiary-desc
+  name: M902 HE-INC mortar shell
+  description: An 80mm mortar shell loaded with an high explosive incendiary charge. Perfect for long-range area denial.
   components:
   - type: Item
     heldPrefix: inc
@@ -186,8 +186,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellFlare
-  name: ent-RMCMortarShellFlare
-  description: ent-RMCMortarShellFlare-desc
+  name: M853 ILLUM-OBS mortar shell
+  description: An 80mm mortar shell, loaded with an illumination flare and observation camera, attached to a parachute.
   components:
   - type: Item
     heldPrefix: flr
@@ -199,8 +199,8 @@
 
 - type: entity
   id: RMCMortarFlare
-  name: ent-RMCMortarFlare
-  description: ent-RMCMortarFlare-desc
+  name: illumination flare
+  description: It's really bright, and unreachable.
   components:
   - type: ExpendableLight
     startsActivated: true
@@ -237,8 +237,8 @@
 
 - type: entity
   id: AU14MortarFlareRed
-  name: ent-AU14MortarFlareRed
-  description: ent-AU14MortarFlareRed-desc
+  name: red illumination flare
+  description: It's really bright, and unreachable.
   components:
   - type: ExpendableLight
     startsActivated: true
@@ -275,8 +275,8 @@
 
 - type: entity
   id: AU14MortarFlareGreen
-  name: ent-AU14MortarFlareGreen
-  description: ent-AU14MortarFlareGreen-desc
+  name: green illumination flare
+  description: It's really bright, and unreachable.
   components:
   - type: ExpendableLight
     startsActivated: true
@@ -313,7 +313,7 @@
 
 - type: entity
   id: RMCMortarCamera
-  name: ent-RMCMortarCamera
+  name: para-cam
   components:
   - type: Transform
     anchored: true

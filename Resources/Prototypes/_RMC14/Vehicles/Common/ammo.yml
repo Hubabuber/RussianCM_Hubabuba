@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: VehicleAmmoBoxBase
-  name: ent-VehicleAmmoBoxBase
-  description: ent-VehicleAmmoBoxBase-desc
+  name: vehicle ammunition crate
+  description: A bulky ammunition container for vehicle weapons.
   components:
   - type: Item
     size: Huge
@@ -34,8 +34,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxFrontal
-  name: ent-VehicleAmmoBoxFrontal
-  description: ent-VehicleAmmoBoxFrontal-desc
+  name: frontal cannon ammo crate
+  description: Ammunition for frontal vehicle cannons.
   components:
   - type: Sprite
     layers:
@@ -58,8 +58,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxCupola
-  name: ent-VehicleAmmoBoxCupola
-  description: ent-VehicleAmmoBoxCupola-desc
+  name: cupola cannon ammo crate
+  description: Ammunition for cupola-mounted vehicle cannons.
   components:
   - type: Sprite
     layers:
@@ -83,8 +83,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxGrenadeLauncher
-  name: ent-VehicleAmmoBoxGrenadeLauncher
-  description: ent-VehicleAmmoBoxGrenadeLauncher-desc
+  name: grenade launcher ammo crate
+  description: Ammunition for vehicle grenade launchers.
   components:
   - type: Sprite
     layers:
@@ -108,8 +108,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxSmokeLauncher
-  name: ent-VehicleAmmoBoxSmokeLauncher
-  description: ent-VehicleAmmoBoxSmokeLauncher-desc
+  name: smoke launcher ammo crate
+  description: Ammunition for vehicle smoke launchers.
   components:
   - type: Sprite
     layers:
@@ -133,8 +133,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxFlareLauncher
-  name: ent-VehicleAmmoBoxFlareLauncher
-  description: ent-VehicleAmmoBoxFlareLauncher-desc
+  name: flare launcher ammo crate
+  description: Ammunition for vehicle flare launchers.
   components:
   - type: Sprite
     layers:
@@ -158,8 +158,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxLTBCannon
-  name: ent-VehicleAmmoBoxLTBCannon
-  description: ent-VehicleAmmoBoxLTBCannon-desc
+  name: LTB cannon ammo crate
+  description: Ammunition for light tank cannons.
   components:
   - type: Sprite
     layers:
@@ -183,8 +183,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxRocketLauncher
-  name: ent-VehicleAmmoBoxRocketLauncher
-  description: ent-VehicleAmmoBoxRocketLauncher-desc
+  name: rocket launcher ammo crate
+  description: Ammunition for vehicle rocket launchers.
   components:
   - type: Sprite
     layers:
@@ -208,8 +208,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxAceAutocannon
-  name: ent-VehicleAmmoBoxAceAutocannon
-  description: ent-VehicleAmmoBoxAceAutocannon-desc
+  name: ACE autocannon ammo crate
+  description: Ammunition for ACE autocannons.
   components:
   - type: Sprite
     layers:
@@ -233,8 +233,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxRERotaryCannon
-  name: ent-VehicleAmmoBoxRERotaryCannon
-  description: ent-VehicleAmmoBoxRERotaryCannon-desc
+  name: RE700 rotary cannon ammo crate
+  description: Ammunition for RE700 rotary cannons.
   components:
   - type: Sprite
     layers:
@@ -258,8 +258,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxDragonFlameTank
-  name: ent-VehicleAmmoBoxDragonFlameTank
-  description: ent-VehicleAmmoBoxDragonFlameTank-desc
+  name: DRGN flame tank
+  description: Fuel for DRGN flamethrower systems.
   components:
   - type: Sprite
     layers:
@@ -283,8 +283,8 @@
 - type: entity
   parent: VehicleAmmoBoxBase
   id: VehicleAmmoBoxLTAA
-  name: ent-VehicleAmmoBoxLTAA
-  description: ent-VehicleAmmoBoxLTAA-desc
+  name: LTAA ammo crate
+  description: Ammunition for LTAA systems.
   components:
   - type: Sprite
     layers:
@@ -308,7 +308,7 @@
 - type: entity
   parent: CMCartridgeSentry10x50mm
   id: VehicleCartridgeAPCFrontalCannon10x50mm
-  name: ent-VehicleCartridgeAPCFrontalCannon10x50mm
+  name: cartridge (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: CartridgeAmmo
@@ -318,7 +318,7 @@
 - type: entity
   parent: CMCartridgeSentry10x50mm
   id: VehicleCartridgeSentry10x50mm
-  name: ent-VehicleCartridgeSentry10x50mm
+  name: cartridge (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: CartridgeAmmo
@@ -328,7 +328,7 @@
 - type: entity
   parent: CMCartridgeSentry10x50mm
   id: VehicleCartridgeBoyarsDualCannon10x50mm
-  name: ent-VehicleCartridgeBoyarsDualCannon10x50mm
+  name: cartridge (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: CartridgeAmmo
@@ -338,7 +338,7 @@
 - type: entity
   parent: CMCartridgeSentry10x50mm
   id: VehicleCartridgeRERotaryCannon10x50mm
-  name: ent-VehicleCartridgeRERotaryCannon10x50mm
+  name: cartridge (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: CartridgeAmmo
@@ -348,7 +348,7 @@
 - type: entity
   parent: CMBulletSentry10x50mm
   id: VehicleBulletAPCFrontalCannon10x50mm
-  name: ent-VehicleBulletAPCFrontalCannon10x50mm
+  name: bullet (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -359,7 +359,7 @@
 - type: entity
   parent: CMBulletSentry10x50mm
   id: VehicleBulletAPCFrontCannon10x50mm
-  name: ent-VehicleBulletAPCFrontCannon10x50mm
+  name: bullet (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -372,7 +372,7 @@
 - type: entity
   parent: CMBulletSentry10x50mm
   id: VehicleBulletBoyarsDualCannon10x50mm
-  name: ent-VehicleBulletBoyarsDualCannon10x50mm
+  name: bullet (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -385,7 +385,7 @@
 - type: entity
   parent: CMBulletSentry10x50mm
   id: VehicleBulletRERotaryCannon10x50mm
-  name: ent-VehicleBulletRERotaryCannon10x50mm
+  name: bullet (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

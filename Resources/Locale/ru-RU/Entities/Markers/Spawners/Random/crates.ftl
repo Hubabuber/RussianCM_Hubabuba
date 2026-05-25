@@ -8,14 +8,3 @@ ent-LootSpawnerRandomCrateSecurity-name = генератор случайных 
 
 ent-LootSpawnerRandomLockbox-name = случайный спаунер сундуков
 
-ent-CrateEmptySpawner = Создатель пустых ящиков
-
-ent-CrateFilledSpawner = Создатель заполненных ящиков
-    .suffix = Низкая стоимость
-
-ent-LootSpawnerRandomCrateEngineering = Случайный генератор инженерных ящиков
-
-ent-LootSpawnerRandomCrateSecurity = генератор случайных ящиков с ценными бумагами
-
-ent-LootSpawnerRandomLockbox = случайный спаунер сундуков
-    .suffix = 90%

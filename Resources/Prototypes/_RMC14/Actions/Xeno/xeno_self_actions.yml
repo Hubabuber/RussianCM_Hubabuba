@@ -1,8 +1,8 @@
 - type: entity
   id: ActionXenoRest
   parent: ActionXenoBase
-  name: ent-ActionXenoRest
-  description: ent-ActionXenoRest-desc
+  name: Rest
+  description: Lie down to regenerate health more quickly while on weeds. [color=red]Your rest keybind will also activate this action, Shift+R by default.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoRest
-  name: ent-RMCGuidebookActionXenoRest
-  description: ent-RMCGuidebookActionXenoRest-desc
+  name: Rest
+  description: Lie down to regenerate health more quickly while on weeds. [color=red]Your rest keybind will also activate this action, Shift+R by default.[/color]
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   id: ActionXenoWatch
   parent: ActionXenoBase
-  name: ent-ActionXenoWatch
+  name: Watch Xenonid
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoWatch
-  name: ent-RMCGuidebookActionXenoWatch
+  name: Watch Xenonid
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -48,8 +48,8 @@
 - type: entity
   id: ActionXenoPheromones
   parent: ActionXenoBase
-  name: ent-ActionXenoPheromones # TODO RMC14 proper plasma costs
-  description: ent-ActionXenoPheromones-desc
+  name: Emit Pheromones (35) # TODO RMC14 proper plasma costs
+  description: Gives a buff to nearby xenonids. [color=cyan]Consumes 2.5 plasma per second.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoPheromones
-  name: ent-RMCGuidebookActionXenoPheromones
-  description: ent-RMCGuidebookActionXenoPheromones-desc
+  name: Emit Pheromones
+  description: Gives a buff to nearby xenonids.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -73,8 +73,8 @@
 - type: entity
   id: ActionXenoHide
   parent: ActionXenoBase
-  name: ent-ActionXenoHide
-  description: ent-ActionXenoHide-desc
+  name: Hide
+  description: Hide under tables and other objects.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -96,8 +96,8 @@
 - type: entity
   id: ActionXenoToggleCrest
   parent: ActionXenoBase
-  name: ent-ActionXenoToggleCrest
-  description: ent-ActionXenoToggleCrest-desc
+  name: Toggle Crest Defense
+  description: Increases your resistance to direct damage but slows you down. You count as one size bigger while you're crest is lowered.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -119,8 +119,8 @@
 - type: entity
   id: ActionXenoFortify
   parent: ActionXenoBase
-  name: ent-ActionXenoFortify
-  description: ent-ActionXenoFortify-desc
+  name: Fortify
+  description: Become immobile and impassable to mobs, dramatically increasing your resistance to direct damage and explosions. Damage is further reduced from the direction you are facing. You can't be stunned by minor explosions. You count as two sizes bigger while fortified and still can attack structures or use tail slam.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -142,13 +142,14 @@
 - type: entity
   id: ActionXenoFortifySteelcrest
   parent: ActionXenoFortify
-  name: ent-ActionXenoFortifySteelcrest
-  description: ent-ActionXenoFortifySteelcrest-desc
+  name: Fortify
+  description: Become much slower, increasing your resistance to direct damage and explosions. Damage is greatly reduced from the direction you are facing. You count as two sizes bigger while fortified and still can attack structures or use tail slam, but your slashes do less damage.
+
 - type: entity
   id: ActionXenoResinWalker
   parent: ActionXenoBase
-  name: ent-ActionXenoResinWalker # TODO RMC14 proper plasma costs
-  description: ent-ActionXenoResinWalker-desc
+  name: Resin Walker (50) # TODO RMC14 proper plasma costs
+  description: Run faster on weeds. [color=cyan]Consumes 30 plasma per second.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -170,7 +171,7 @@
 - type: entity
   id: ActionXenoZoom
   parent: ActionXenoBase
-  name: ent-ActionXenoZoom
+  name: Toggle Long-Range Sight
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -192,8 +193,8 @@
 - type: entity
   id: ActionXenoWordQueen
   parent: ActionXenoBase
-  name: ent-ActionXenoWordQueen # TODO RMC14 proper plasma costs
-  description: ent-ActionXenoWordQueen-desc
+  name: Word of the Queen (50) # TODO RMC14 proper plasma costs
+  description: Sends a message to all members of your hive.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -209,8 +210,8 @@
 - type: entity
   id: ActionXenoGrowOvipositor
   parent: ActionXenoBase
-  name: ent-ActionXenoGrowOvipositor # TODO RMC14 proper plasma costs
-  description: ent-ActionXenoGrowOvipositor-desc
+  name: Grow Ovipositor (700) # TODO RMC14 proper plasma costs
+  description: Become immobile and start laying eggs which will produce children. Has a 5 minute cooldown. [color=red]You must be in ovipositor mode for other xenonids to gain evolution points after round-start![/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -224,8 +225,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoGrowOvipositor
-  name: ent-RMCGuidebookActionXenoGrowOvipositor
-  description: ent-RMCGuidebookActionXenoGrowOvipositor-desc
+  name: Grow Ovipositor
+  description: Become immobile and start laying eggs which will produce parasites.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -234,8 +235,8 @@
 - type: entity
   id: ActionXenoTurnInvisible
   parent: ActionXenoBase
-  name: ent-ActionXenoTurnInvisible # TODO RMC14 proper plasma costs
-  description: ent-ActionXenoTurnInvisible-desc
+  name: Turn Invisible (20) # TODO RMC14 proper plasma costs
+  description: Become partially invisible for 30 seconds, or until you either damage or attempt to devour an enemy. Can be toggled off to become visible again, with a refund of 90% remaining cloak time. Increases your movement speed by 15% until the ability expires.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -256,8 +257,8 @@
 - type: entity
   id: ActionXenoDefensiveShield
   parent: ActionXenoBase
-  name: ent-ActionXenoDefensiveShield
-  description: ent-ActionXenoDefensiveShield-desc
+  name: Defensive Shield (50)
+  description: Gain a temporary shield that blocks the next 200 damage (and is immune to explosive damage) that lasts 7 seconds. Any damage that impacts the shield is reduced by 10 before processing. [color=green]Cooldown is partially refunded upon attacking an enemy.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -279,8 +280,8 @@
 - type: entity
   id: ActionXenoRetrieveEgg
   parent: ActionXenoBase
-  name: ent-ActionXenoRetrieveEgg
-  description: ent-ActionXenoRetrieveEgg-desc
+  name: Retrieve Egg
+  description: Retrieves an egg from your storage if you have an empty hand. Using this on an unplanted egg will pick up all nearby unplanted eggs. Using an egg in hand will put it into your storage.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -306,8 +307,8 @@
 - type: entity
   id: ActionXenoThrowParasite
   parent: ActionXenoBase
-  name: ent-ActionXenoThrowParasite
-  description: ent-ActionXenoThrowParasite-desc
+  name: Carrier's Bond
+  description: Retrieves a child from your storage if you have an empty hand. Using this on a child on the ground will pickup all nearby children. Targeting a tile with a child in hand will throw it up to 4 tiles away, where the child will be stunned for 5 seconds. Using a child in hand will add it to your storage. [color=green]Children won't die due to time while you hold or carry them.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -334,8 +335,8 @@
 - type: entity
   id: ActionXenoParasiteReserve
   parent: ActionXenoBase
-  name: ent-ActionXenoParasiteReserve
-  description: ent-ActionXenoParasiteReserve-desc
+  name: Set Child Reserve
+  description: Sets your child Reserves. Observers cannot join as a stored child if your children stored is less than or equal to your reserve.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -357,7 +358,7 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoManageHive
-  name: ent-ActionXenoManageHive
+  name: Manage The Hive
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -371,8 +372,8 @@
 - type: entity
   id: ActionXenoDodge
   parent: ActionXenoBase
-  name: ent-ActionXenoDodge
-  description: ent-ActionXenoDodge-desc
+  name: Dodge (200)
+  description: Gain a speed boost for 7 seconds and move through allies and enemies unimpeded. Your speed is doubled near standing enemies.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -386,8 +387,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoBurrow
-  name: ent-ActionXenoBurrow
-  description: ent-ActionXenoBurrow-desc
+  name: Burrow
+  description: Burrow underground preventing you from getting hit from all sources. Once burrowed click a tile to move to it and resurface after a doafter that depends on distance.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -415,8 +416,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSoak
-  name: ent-ActionXenoSoak
-  description: ent-ActionXenoSoak-desc
+  name: Soak (20)
+  description: Soak in damage for 6 seconds. If you take 140 damage or higher, you regen 75 health and your tail slam gets refreshed.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -431,8 +432,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoEmpower
-  name: ent-ActionXenoEmpower
-  description: ent-ActionXenoEmpower-desc
+  name: Empower (50)
+  description: On first activation it, gain a small amount of shield. After 6 seconds or using it again, get empowered based on surrounding enemies (max 6), gaining shield from each. If you empowered from at least 3 targets, you become Super-Empowered, gaing additional damage on melee attacks, and changing how some of your other abilities work.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -454,8 +455,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoGenerateEggs
-  name: ent-ActionXenoGenerateEggs
-  description: ent-ActionXenoGenerateEggs-desc
+  name: Generate Eggs (50)
+  description: Generate an egg every 30 seconds, which goes into your storage. [color=cyan]Consumes 15 plasma every 2 seconds.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem

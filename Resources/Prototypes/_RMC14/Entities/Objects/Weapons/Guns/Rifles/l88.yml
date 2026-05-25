@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleL88A1
-  name: ent-RMCWeaponRifleL88A1
-  description: ent-RMCWeaponRifleL88A1-desc
+  name: L88A1 bullpup rifle
+  description: The L88A1 is the standard-issue rifle of the RCM's Paramarine regiments, the first iteration in a series of innovative rifle designs offering a lightweight, accurate, and reliable option for the armed forces of the TSE.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/l88.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: RMCWeaponRifleL88A1
   id: RMCWeaponRifleL88A2
-  name: ent-RMCWeaponRifleL88A2
-  description: ent-RMCWeaponRifleL88A2-desc
+  name: L88A2 bullpup rifle
+  description: The L88A2 is the second iteration in the L88 series of rifles. The A2 variant offers greater modularity with a rail spanning the underside of the handguard.
   components:
   - type: ItemSlots
     slots:
@@ -150,7 +150,7 @@
 - type: entity
   parent: RMCWeaponRifleL88A1
   id: RMCWeaponRifleL88A1Filled
-  suffix: ent-RMCWeaponRifleL88A1Filled-suffix
+  suffix: Filled
   components:
   - type: ItemSlots
     slots:
@@ -191,7 +191,7 @@
 - type: entity
   parent: RMCWeaponRifleL88A2
   id: RMCWeaponRifleL88A2Filled
-  suffix: ent-RMCWeaponRifleL88A2Filled-suffix
+  suffix: Filled
   components:
   - type: ItemSlots
     slots:
@@ -241,8 +241,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL88
-  name: ent-RMCMagazineRifleL88
-  description: "ent-RMCMagazineRifleL88-desc"
+  name: L88 magazine (10x24mm)
+  description: "A magazine of 10x24mm rounds for use in L88 pattern rifles."
   components:
   - type: Tag
     tags:
@@ -267,9 +267,9 @@
 - type: entity
   parent: RMCMagazineRifleL88
   id: RMCMagazineRifleL88AP
-  name: ent-RMCMagazineRifleL88AP
-  description: "ent-RMCMagazineRifleL88AP-desc"
-  suffix: ent-RMCMagazineRifleL88AP-suffix
+  name: L88 AP magazine (10x24mm)
+  description: "A magazine of armor-piercing 10x24mm rounds for use in L88 pattern rifles."
+  suffix: AP
   components:
   - type: Tag
     tags:

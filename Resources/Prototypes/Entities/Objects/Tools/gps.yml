@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-HandheldGPSBasic
+  name: global positioning system
   parent: BaseItem
   id: HandheldGPSBasic
-  description: ent-HandheldGPSBasic-desc
+  description: Helping lost spacemen find their way through the planets since 2016.
   components:
   - type: Sprite
     sprite: Objects/Devices/gps.rsi
@@ -21,7 +21,7 @@
     - GPS
 
 - type: entity #why does this exist? Well, "global positioning system" is too long to fit in the cyborg's hand slot.
-  name: ent-HandheldGPSBasic
+  name: Integrated GPS
   parent: HandheldGPSBasic
   id: BorgHandheldGPSBasic
-  description: ent-HandheldGPSBasic-desc
+  description: A miniaturized Global Positioning System for use in cyborg units.

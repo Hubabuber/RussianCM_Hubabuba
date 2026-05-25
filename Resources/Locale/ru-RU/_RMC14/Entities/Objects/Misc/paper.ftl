@@ -1,12 +1,8 @@
 ent-RMCPaperRequisitionInvoice = накладная на запрос
   .desc = Единица бюрократии, ожидающая одобрения.
 ent-RMCPaperAegisInfoFax = передача Высшего Командования
-    .desc = Лист белой бумаги.
 ent-CMPaperAlmayerStorage = записка об аварийном хранилище «Альмайер»
-    .desc = Лист белой бумаги.
 ent-CMPaperJudgement = приговор
-    .desc = Лист белой бумаги.
 ent-CMPaper = бумага
-    .desc = Лист белой бумаги.
 ent-CMBasePaper = бумага
   .desc = Лист белой бумаги.

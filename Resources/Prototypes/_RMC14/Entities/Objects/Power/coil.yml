@@ -1,6 +1,6 @@
 - type: stack
   id: RMCCable
-  name: stack-rmccable-name
+  name: cable coil
   icon: { sprite: _RMC14/Objects/Power/coil.rsi, state: coil1 }
   spawn: RMCCableCoil
   maxCount: 30
@@ -8,9 +8,9 @@
 - type: entity
   parent: BaseItem
   id: RMCCableCoil
-  name: ent-RMCCableCoil
-  description: ent-RMCCableCoil-desc
-  suffix: ent-RMCCableCoil-suffix
+  name: cable coil
+  description: A coil of power cable.
+  suffix: Full
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Power/coil.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCCableCoil
   id: RMCCableCoil30
-  suffix: ent-RMCCableCoil30-suffix
+  suffix: 30
   components:
   - type: Stack
     count: 30
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCCableCoil
   id: RMCCableCoil20
-  suffix: ent-RMCCableCoil20-suffix
+  suffix: 20
   components:
   - type: Stack
     count: 20
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCCableCoil
   id: RMCCableCoil10
-  suffix: ent-RMCCableCoil10-suffix
+  suffix: 10
   components:
   - type: Stack
     count: 10
@@ -82,7 +82,7 @@
 - type: entity
   parent: RMCCableCoil
   id: RMCCableCoil1
-  suffix: ent-RMCCableCoil1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1

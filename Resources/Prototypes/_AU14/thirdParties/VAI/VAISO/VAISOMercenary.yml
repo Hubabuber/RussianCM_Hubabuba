@@ -1,7 +1,7 @@
 - type: job
   parent: AU14VAIMercenaryBase
   id: AU14VAISOMercenary
-  spawnMenuRoleName: job-au14vaisomercenary-spawnmenurolename
+  spawnMenuRoleName: VAISO Contractor
   playTimeTracker: AU14VAISOMercenary
   icon: "CMJobIconEmpty"
   greeting: au14-vaiso-greeting
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAISOMercenary
-  name: ent-AU14VAISOMercenary
+  name: VAISO Mercenary
   components:
   - type: EquipEntityPreset
     preset: AU14VAISOPreset
@@ -60,7 +60,7 @@
 
 - type: entity
   id: AU14VAISOPreset
-  name: ent-AU14VAISOPreset
+  name: vaiso mercenary preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

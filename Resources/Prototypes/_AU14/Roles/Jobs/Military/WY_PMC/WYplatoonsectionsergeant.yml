@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantWYPMC
-  name: job-au14jobgovforsectionsergeantwypmc-name
-  description: job-au14jobgovforsectionsergeantwypmc-desc
+  name: PMC Platoon Leader
+  description: au14-job-description-govforSSG
   setPreference: false
   ranks:
     AU14RankWeYuEnforcerLead: []
@@ -10,14 +10,14 @@
   dummyStartingGear: AU14GearGOVFORPlatoonSergantDummy
   icon: "AU14JobIconPlatoonSarge"
   requireAdminNotify: true
-  spawnMenuRoleName: job-au14jobgovforsectionsergeantwypmc-spawnmenurolename
+  spawnMenuRoleName: Platoon Sergeant (WYPMC)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforsectionsergeantwypmc-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCommand
   overwatchSortPriority: -6
   overwatchShowName: true
-  overwatchRoleName: job-au14jobgovforsectionsergeantwypmc-overwatchrolename
+  overwatchRoleName: Platoon Sergeant
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

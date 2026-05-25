@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPCorpsmanPVE
-  name: job-rmcsppcorpsmanpve-name
-  description: job-rmcsppcorpsmanpve-desc
+  name: rmc-job-name-spp-corpsman
+  description: rmc-ghost-role-information-spp-pve-description
   playTimeTracker: RMCJobSPPCorpsmanPVE
   requirements:
   - !type:TotalJobsTimeRequirement
@@ -15,7 +15,7 @@
   joinNotifyCrew: false
   accessGroups:
   - HospitalCorpsman
-  spawnMenuRoleName: job-rmcsppcorpsmanpve-spawnmenurolename
+  spawnMenuRoleName: SPP Corpsman (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPCorpsmanPVE
-  name: ent-RMCSpawnPointSPPCorpsmanPVE
-  suffix: ent-RMCSpawnPointSPPCorpsmanPVE-suffix
+  name: spp corpsman spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: RMCSPPCorpsmanPVE

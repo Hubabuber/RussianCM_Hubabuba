@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaLv759
-  name: ent-RMCAreaLv759
+  name: LV-759 Hybrisa Prospera
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCAreaLv759
   id: RMCAreaLv759Indoors
-  name: ent-RMCAreaLv759Indoors
+  name: Hybrisa - Indoors
   components:
   - type: Area
     CAS: true
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCAreaLv759
   id: RMCAreaLv759Outdoors
-  name: ent-RMCAreaLv759Outdoors
+  name: Hybrisa - Outdoors
   components:
   - type: Area
     CAS: true
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCAreaLv759
   id: RMCAreaLv759Oob
-  name: ent-RMCAreaLv759Oob
+  name: Out Of Bounds
   components:
   - type: Sprite
     state: oob
@@ -72,7 +72,7 @@
 - type: entity
   parent: RMCAreaLv759
   id: RMCAreaLv759Bunker
-  name: ent-RMCAreaLv759Bunker
+  name: Out Of Bounds
   components:
   - type: Sprite
     state: oob
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCAreaLv759Bunker
   id: RMCAreaLv759BunkerGonzo
-  name: ent-RMCAreaLv759BunkerGonzo
+  name: Gonzo's hide-out
   components:
   - type: Area
     CAS: false
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCAreaLv759Bunker
   id: RMCAreaLv759BunkerCheckpoint
-  name: ent-RMCAreaLv759BunkerCheckpoint
+  name: Checkpoint & Hidden Bunker - Entrance
   components:
   - type: Area
     CAS: false
@@ -139,7 +139,7 @@
 - type: entity
   parent: RMCAreaLv759Outdoors
   id: RMCAreaLv759OutdoorsLandingZone1
-  name: ent-RMCAreaLv759OutdoorsLandingZone1
+  name: Nova Medica Hospital Complex - Emergency Response - Landing Zone One
   components:
   - type: Sprite
     state: medical_lz1
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone1
   id: RMCAreaLv759IndoorsLandingZone1FlightControlRoom
-  name: ent-RMCAreaLv759IndoorsLandingZone1FlightControlRoom
+  name: Nova Medica Hospital Complex - Emergency Response - Landing Zone One - Flight Control Room
   components:
   - type: Sprite
     state: hybrisa
@@ -186,7 +186,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone1
   id: RMCAreaLv759IndoorsLandingZone1Lz1Console
-  name: ent-RMCAreaLv759IndoorsLandingZone1Lz1Console
+  name: Nova Medica Hospital Complex - Emergency Response - Landing Zone One - Dropship Alamo Console
   components:
   - type: Sprite
     state: hybrisa
@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCAreaLv759Outdoors
   id: RMCAreaLv759OutdoorsLandingZone2
-  name: ent-RMCAreaLv759OutdoorsLandingZone2
+  name: TMCC Interstellar Freight Hub - Landing Zone Two
   components:
   - type: Sprite
     state: mining_lz2
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubFlightControlRoom
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubFlightControlRoom
+  name: TMCC Interstellar Freight Hub - Flight Control Room
   components:
   - type: Sprite
     state: hybrisa
@@ -253,7 +253,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubSecurity
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubSecurity
+  name: TMCC Interstellar Freight Hub - Security Checkpoint Office
   components:
   - type: Sprite
     state: security_checkpoint
@@ -272,7 +272,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubLoungeNorth
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubLoungeNorth
+  name: TMCC Interstellar Freight Hub - Passenger Departures - Lounge North
   components:
   - type: Sprite
     state: hybrisa
@@ -291,7 +291,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubFuel
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubFuel
+  name: TMCC Interstellar Freight Hub - Fuel Storage & Maintenance - North
   components:
   - type: Sprite
     state: hybrisa
@@ -310,7 +310,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubLoungeSouth
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubLoungeSouth
+  name: TMCC Interstellar Freight Hub - Passenger Departures - Lounge South
   components:
   - type: Sprite
     state: hybrisa
@@ -329,7 +329,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubLoungeHallway
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubLoungeHallway
+  name: TMCC Interstellar Freight Hub - Passenger Departures - Hallway
   components:
   - type: Sprite
     state: hybrisa
@@ -348,7 +348,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubSouthOffice
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubSouthOffice
+  name: TMCC Interstellar Freight Hub - Passenger Departures - South Office
   components:
   - type: Sprite
     state: hybrisa
@@ -367,7 +367,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubMaintenance
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubMaintenance
+  name: TMCC Interstellar Freight Hub - Passenger Departures - Maintenance
   components:
   - type: Sprite
     state: hybrisa
@@ -391,7 +391,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2KmccHub
   id: RMCAreaLv759IndoorsLandingZone2KmccHubLz2Console
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubLz2Console
+  name: TMCC Interstellar Freight Hub - Dropship Normandy Console
   components:
   - type: Sprite
     state: hybrisa
@@ -411,7 +411,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubCargo
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubCargo
+  name: TMCC Interstellar Freight Hub - Cargo Processing Center
   components:
   - type: Sprite
     state: mining_cargo
@@ -431,7 +431,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubMaintenanceNorth
-  name: ent-RMCAreaLv759IndoorsLandingZone2KmccHubMaintenanceNorth
+  name: TMCC Interstellar Freight Hub - Cargo Processing Center - Maintenance
   components:
   - type: Sprite
     state: mining
@@ -451,7 +451,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsLandingZone2
   id: RMCAreaLv759OutdoorsLandingZone2KmccHubCargoEntranceSouth
-  name: ent-RMCAreaLv759OutdoorsLandingZone2KmccHubCargoEntranceSouth
+  name: TMCC Interstellar Freight Hub - Cargo Processing Center - Main Entrance & South Unloading Platform
   components:
   - type: Sprite
     state: mining
@@ -471,7 +471,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsDerelictShip
-  name: ent-RMCAreaLv759IndoorsDerelictShip
+  name: Derelict Ship
   components:
   - type: Sprite
     state: derelictship
@@ -493,7 +493,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsCaves
-  name: ent-RMCAreaLv759IndoorsCaves
+  name: Caves
   components:
   - type: Sprite
     state: caves_plateau
@@ -512,7 +512,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesWyResearchComplexEntrance
-  name: ent-RMCAreaLv759IndoorsCavesWyResearchComplexEntrance
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - North Main Entrance
   components:
   - type: Sprite
     state: wylab
@@ -531,7 +531,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesWestCaves
-  name: ent-RMCAreaLv759IndoorsCavesWestCaves
+  name: Caverns - West
   components:
   - type: Sprite
     state: caves_west
@@ -550,7 +550,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesElectricFence1
-  name: ent-RMCAreaLv759IndoorsCavesElectricFence1
+  name: Electrical Fence - West Caves
   components:
   - type: Sprite
     state: power0
@@ -558,7 +558,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesElectricFence2
-  name: ent-RMCAreaLv759IndoorsCavesElectricFence2
+  name: Electrical Fence - East Caves
   components:
   - type: Sprite
     state: power0
@@ -566,7 +566,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesElectricFence3
-  name: ent-RMCAreaLv759IndoorsCavesElectricFence3
+  name: Electrical Fence - Central Caves
   components:
   - type: Sprite
     state: power0
@@ -574,7 +574,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesCommsTower
-  name: ent-RMCAreaLv759IndoorsCavesCommsTower
+  name: Comms Tower - Central Caves
   components:
   - type: Sprite
     state: power0
@@ -582,7 +582,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSensoryTower
-  name: ent-RMCAreaLv759IndoorsCavesSensoryTower
+  name: Sensory Tower - Plateau Caves
   components:
   - type: Sprite
     state: power0
@@ -590,7 +590,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesWestCavesAlarm
-  name: ent-RMCAreaLv759IndoorsCavesWestCavesAlarm
+  name: Caverns - West
   components:
   - type: Sprite
     state: caves_west
@@ -609,7 +609,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesEastCaves
-  name: ent-RMCAreaLv759IndoorsCavesEastCaves
+  name: Caverns - East
   components:
   - type: Sprite
     state: caves_east
@@ -628,7 +628,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCavesEastCaves
   id: RMCAreaLv759IndoorsCavesEastCavesNorth
-  name: ent-RMCAreaLv759IndoorsCavesEastCavesNorth
+  name: Caverns - East
   components:
   - type: Sprite
     state: caves_east
@@ -636,7 +636,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSouthCaves
-  name: ent-RMCAreaLv759IndoorsCavesSouthCaves
+  name: Caverns - South
   components:
   - type: Sprite
     state: caves_south
@@ -655,7 +655,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCavesSouthCaves
   id: RMCAreaLv759IndoorsCavesSouthCavesDerelictShip
-  name: ent-RMCAreaLv759IndoorsCavesSouthCavesDerelictShip
+  name: Caverns - South
   components:
   - type: Sprite
     state: caves_south
@@ -663,7 +663,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSouthEastCaves
-  name: ent-RMCAreaLv759IndoorsCavesSouthEastCaves
+  name: Caverns - Southeast
   components:
   - type: Sprite
     state: caves_southeast
@@ -682,7 +682,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSouthWestCaves
-  name: ent-RMCAreaLv759IndoorsCavesSouthWestCaves
+  name: Caverns - Southwest
   components:
   - type: Sprite
     state: caves_southwest
@@ -701,7 +701,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSouthWestCavesAlarm
-  name: ent-RMCAreaLv759IndoorsCavesSouthWestCavesAlarm
+  name: Caverns - Southwest
   components:
   - type: Sprite
     state: wylab
@@ -720,7 +720,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthWestCaves
-  name: ent-RMCAreaLv759IndoorsCavesNorthWestCaves
+  name: Caverns - Northwest
   components:
   - type: Sprite
     state: caves_northwest
@@ -744,7 +744,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsCaves
   id: RMCAreaLv759OutdoorsCavesNorthWestCavesOutdoors
-  name: ent-RMCAreaLv759OutdoorsCavesNorthWestCavesOutdoors
+  name: Caverns - Northwest
   components:
   - type: Sprite
     state: caves_northwest
@@ -763,7 +763,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthEastCaves
-  name: ent-RMCAreaLv759IndoorsCavesNorthEastCaves
+  name: Caverns - Northeast
   components:
   - type: Sprite
     state: caves_northeast
@@ -790,7 +790,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthCaves
-  name: ent-RMCAreaLv759IndoorsCavesNorthCaves
+  name: Caverns - North
   components:
   - type: Sprite
     state: caves_north
@@ -816,7 +816,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesCentralCaves
-  name: ent-RMCAreaLv759IndoorsCavesCentralCaves
+  name: Caverns - Central
   components:
   - type: Sprite
     state: caves_central
@@ -835,7 +835,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesCentralCavesNorth
-  name: ent-RMCAreaLv759IndoorsCavesCentralCavesNorth
+  name: Caverns - Central
   components:
   - type: Sprite
     state: caves_central
@@ -854,7 +854,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthEastCavesComms
-  name: ent-RMCAreaLv759IndoorsCavesNorthEastCavesComms
+  name: TMCC - Mining Outpost - East - Subspace-Communications
   components:
   - type: Sprite
     state: comms_1
@@ -874,7 +874,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthEastCavesComms2
-  name: ent-RMCAreaLv759IndoorsCavesNorthEastCavesComms2
+  name: NMHC - Emergency Response - Landing Zone One - Caverns - Northeast - Subspace-Communications
   components:
   - type: Sprite
     state: comms_1
@@ -885,7 +885,7 @@
 - type: entity
   parent: RMCAreaLv759Outdoors
   id: RMCAreaLv759OutdoorsCaveplateau
-  name: ent-RMCAreaLv759OutdoorsCaveplateau
+  name: Caverns - Plateau
   components:
   - type: Sprite
     state: caves_plateau
@@ -904,7 +904,7 @@
 - type: entity
   parent: RMCAreaLv759Outdoors
   id: RMCAreaLv759OutdoorsColonyStreets
-  name: ent-RMCAreaLv759OutdoorsColonyStreets
+  name: Colony Streets
   components:
   - type: Sprite
     state: colonystreets_north
@@ -923,7 +923,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsCentralStreets
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsCentralStreets
+  name: Central Street - West
   components:
   - type: Sprite
     state: colonystreets_west
@@ -931,7 +931,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsEastCentralStreet
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsEastCentralStreet
+  name: Central Street - East
   components:
   - type: Sprite
     state: colonystreets_east
@@ -941,7 +941,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsEastCentralStreetLeft
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsEastCentralStreetLeft
+  name: Central Street - East
   components:
   - type: Sprite
     state: colonystreets_east
@@ -949,7 +949,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsSouthStreet
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsSouthStreet
+  name: Colony Streets - South
   components:
   - type: Sprite
     state: colonystreets_south
@@ -957,7 +957,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsSouthEastStreet
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsSouthEastStreet
+  name: Colony Streets - Southeast
   components:
   - type: Sprite
     state: colonystreets_southeast
@@ -967,7 +967,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsSouthWestStreet
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsSouthWestStreet
+  name: Colony Streets - Southwest - WY Checkpoint Passthrough
   components:
   - type: Sprite
     state: colonystreets_southwest
@@ -985,7 +985,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsSouthEastStreetComms
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsSouthEastStreetComms
+  name: Colony Streets - Southeast - Subspace-Communications
   components:
   - type: Sprite
     state: comms_1
@@ -1005,7 +1005,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsNorthWestStreet
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsNorthWestStreet
+  name: Colony Streets - Northwest
   components:
   - type: Sprite
     state: colonystreets_northwest
@@ -1013,7 +1013,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsNorthEastStreet
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsNorthEastStreet
+  name: Colony Streets - Northeast
   components:
   - type: Sprite
     state: colonystreets_northeast
@@ -1023,7 +1023,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsNorthEastStreetLZ
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsNorthEastStreetLZ
+  name: Colony Streets - Northeast
   components:
   - type: Sprite
     state: colonystreets_northeast
@@ -1034,7 +1034,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsNorthStreet
-  name: ent-RMCAreaLv759OutdoorsColonyStreetsNorthStreet
+  name: Colony Streets - North
   components:
   - type: Sprite
     state: colonystreets_north
@@ -1049,7 +1049,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHallwayNortheast
-  name: ent-RMCAreaLv759IndoorsSpaceportHallwayNortheast
+  name: Weyland-Yutani Celestia Gateway Space-Port - Hallway - Northeast
   components:
   - type: Sprite
     state: wyspaceport
@@ -1057,7 +1057,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHallwayNorth
-  name: ent-RMCAreaLv759IndoorsSpaceportHallwayNorth
+  name: Weyland-Yutani Celestia Gateway Space-Port - Hallway - North
   components:
   - type: Sprite
     state: wyspaceport
@@ -1065,7 +1065,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHallwayNorthwest
-  name: ent-RMCAreaLv759IndoorsSpaceportHallwayNorthwest
+  name: Weyland-Yutani Celestia Gateway Space-Port - Hallway - Northwest
   components:
   - type: Sprite
     state: wyspaceport
@@ -1073,7 +1073,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHallwayEast
-  name: ent-RMCAreaLv759IndoorsSpaceportHallwayEast
+  name: Weyland-Yutani Celestia Gateway Space-Port - Food Court - East
   components:
   - type: Sprite
     state: wyspaceport
@@ -1081,7 +1081,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHeavyequip
-  name: ent-RMCAreaLv759IndoorsSpaceportHeavyequip
+  name: Weyland-Yutani Celestia Gateway Space-Port - Heavy Equipment Storage
   components:
   - type: Sprite
     state: wyspaceport
@@ -1089,7 +1089,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportEngineering
-  name: ent-RMCAreaLv759IndoorsSpaceportEngineering
+  name: Weyland-Yutani Celestia Gateway Space-Port - Fuel Storage & Processing
   components:
   - type: Sprite
     state: wyspaceport
@@ -1097,7 +1097,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportJanitor
-  name: ent-RMCAreaLv759IndoorsSpaceportJanitor
+  name: Weyland-Yutani Celestia Gateway Space-Port - Janitorial Storage Room
   components:
   - type: Sprite
     state: wyspaceport
@@ -1105,7 +1105,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportMaintenanceEast
-  name: ent-RMCAreaLv759IndoorsSpaceportMaintenanceEast
+  name: Weyland-Yutani Celestia Gateway Space-Port - Maintenance - East
   components:
   - type: Sprite
     state: wyspaceport
@@ -1113,7 +1113,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportCommunicationsOffice
-  name: ent-RMCAreaLv759IndoorsSpaceportCommunicationsOffice
+  name: Weyland-Yutani Celestia Gateway Space-Port - Communications & Administration Office
   components:
   - type: Sprite
     state: wyspaceportadmin
@@ -1121,7 +1121,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportFlightControlRoom
-  name: ent-RMCAreaLv759IndoorsSpaceportFlightControlRoom
+  name: Weyland-Yutani Celestia Gateway Space-Port - Flight Control Room
   components:
   - type: Sprite
     state: wyspaceportadmin
@@ -1129,7 +1129,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportSecurity
-  name: ent-RMCAreaLv759IndoorsSpaceportSecurity
+  name: Weyland-Yutani Celestia Gateway Space-Port - Security- Observation & Office
   components:
   - type: Sprite
     state: security_checkpoint
@@ -1137,7 +1137,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportSecurityOffice
-  name: ent-RMCAreaLv759IndoorsSpaceportSecurityOffice
+  name: Weyland-Yutani Celestia Gateway Space-Port - Office
   components:
   - type: Sprite
     state: security_checkpoint
@@ -1145,7 +1145,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportCargo
-  name: ent-RMCAreaLv759IndoorsSpaceportCargo
+  name: Weyland-Yutani Celestia Gateway Space-Port - Cargo Bay
   components:
   - type: Sprite
     state: wyspaceportcargo
@@ -1153,7 +1153,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportCargoMaintenance
-  name: ent-RMCAreaLv759IndoorsSpaceportCargoMaintenance
+  name: Weyland-Yutani Celestia Gateway Space-Port - Cargo - Maintenance
   components:
   - type: Sprite
     state: wyspaceportcargo
@@ -1161,7 +1161,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportBaggagehandling
-  name: ent-RMCAreaLv759IndoorsSpaceportBaggagehandling
+  name: Weyland-Yutani Celestia Gateway Space-Port - Baggage Storage & Handling
   components:
   - type: Sprite
     state: wyspaceportbaggage
@@ -1169,7 +1169,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportCuppajoes
-  name: ent-RMCAreaLv759IndoorsSpaceportCuppajoes
+  name: Weyland-Yutani Celestia Gateway Space-Port - Cuppa Joe's
   components:
   - type: Sprite
     state: cuppajoes
@@ -1177,7 +1177,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportKitchen
-  name: ent-RMCAreaLv759IndoorsSpaceportKitchen
+  name: Weyland-Yutani Celestia Gateway Space-Port - Kitchen
   components:
   - type: Sprite
     state: wyspaceportblue
@@ -1185,7 +1185,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportDockingBay2
-  name: 'ent-RMCAreaLv759IndoorsSpaceportDockingBay2'
+  name: 'Weyland-Yutani Celestia Gateway Space-Port - Docking Bay: 2 - Refueling and Maintenance'
   components:
   - type: Sprite
     state: wyspaceportblue
@@ -1193,7 +1193,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportDockingBay1
-  name: 'ent-RMCAreaLv759IndoorsSpaceportDockingBay1'
+  name: 'Weyland-Yutani Celestia Gateway Space-Port - Docking Bay: 1'
   components:
   - type: Sprite
     state: wyspaceport
@@ -1201,7 +1201,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportStarglider
-  name: ent-RMCAreaLv759IndoorsSpaceportStarglider
+  name: WY-LWI StarGlider SG-200
   components:
   - type: Sprite
     state: wydropship
@@ -1212,7 +1212,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHorizonRunner
-  name: ent-RMCAreaLv759IndoorsSpaceportHorizonRunner
+  name: WY-LWI Horizon Runner HR-150
   components:
   - type: Sprite
     state: wydropship
@@ -1223,7 +1223,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportDogbite
-  name: ent-RMCAreaLv759IndoorsSpaceportDogbite
+  name: UD-9M 'Dogbite' Utility Dropship
   components:
   - type: Sprite
     state: wydropship
@@ -1234,7 +1234,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageReception
-  name: ent-RMCAreaLv759IndoorsGarageReception
+  name: Garage - Reception
   components:
   - type: Sprite
     state: garage
@@ -1242,7 +1242,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageWorkshop
-  name: ent-RMCAreaLv759IndoorsGarageWorkshop
+  name: Garage - Workshop
   components:
   - type: Sprite
     state: garage
@@ -1250,7 +1250,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageWorkshopStorage
-  name: ent-RMCAreaLv759IndoorsGarageWorkshopStorage
+  name: Garage - Workshop - Storage Room
   components:
   - type: Sprite
     state: garage
@@ -1258,7 +1258,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageManagersoffice
-  name: ent-RMCAreaLv759IndoorsGarageManagersoffice
+  name: Garage - Managers Office
   components:
   - type: Sprite
     state: garage
@@ -1266,7 +1266,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageRestroom
-  name: ent-RMCAreaLv759IndoorsGarageRestroom
+  name: Garage - Restroom
   components:
   - type: Sprite
     state: garage
@@ -1279,7 +1279,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianFoyer
-  name: ent-RMCAreaLv759IndoorsMeridianMeridianFoyer
+  name: Meridian - Foyer
   components:
   - type: Sprite
     state: meridian
@@ -1287,7 +1287,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianShowroom
-  name: ent-RMCAreaLv759IndoorsMeridianMeridianShowroom
+  name: Meridian - Showroom
   components:
   - type: Sprite
     state: meridian
@@ -1295,7 +1295,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianOffice
-  name: ent-RMCAreaLv759IndoorsMeridianMeridianOffice
+  name: Meridian - Offices
   components:
   - type: Sprite
     state: meridian
@@ -1303,7 +1303,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianManagersoffice
-  name: ent-RMCAreaLv759IndoorsMeridianMeridianManagersoffice
+  name: Meridian - Manager's Office
   components:
   - type: Sprite
     state: meridian
@@ -1311,7 +1311,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianFactory
-  name: ent-RMCAreaLv759IndoorsMeridianMeridianFactory
+  name: Meridian - Factory Floor
   components:
   - type: Sprite
     state: meridian_factory
@@ -1319,7 +1319,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianRestroom
-  name: ent-RMCAreaLv759IndoorsMeridianMeridianRestroom
+  name: Meridian - Restroom
   components:
   - type: Sprite
     state: meridian
@@ -1327,7 +1327,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianMaintenance
-  name: ent-RMCAreaLv759IndoorsMeridianMeridianMaintenance
+  name: Meridian - Maintenance
   components:
   - type: Sprite
     state: meridian
@@ -1335,7 +1335,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianMaintenanceEast
-  name: ent-RMCAreaLv759IndoorsMeridianMeridianMaintenanceEast
+  name: Meridian - Factory Floor - Maintenance
   components:
   - type: Sprite
     state: meridian
@@ -1350,7 +1350,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestfoyer
-  name: ent-RMCAreaLv759IndoorsApartmentWestfoyer
+  name: Westhaven Apartment Complex - West - Foyer
   components:
   - type: Sprite
     state: apartments
@@ -1358,7 +1358,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWesthallway
-  name: ent-RMCAreaLv759IndoorsApartmentWesthallway
+  name: Westhaven Apartment Complex - West - Hallway
   components:
   - type: Sprite
     state: apartments
@@ -1366,7 +1366,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestbedrooms
-  name: ent-RMCAreaLv759IndoorsApartmentWestbedrooms
+  name: Westhaven Apartment Complex - West - Apartments
   components:
   - type: Sprite
     state: apartments
@@ -1374,7 +1374,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestshowers
-  name: ent-RMCAreaLv759IndoorsApartmentWestshowers
+  name: Westhaven Apartment Complex - West - Showers
   components:
   - type: Sprite
     state: apartments
@@ -1382,7 +1382,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestrestroom
-  name: ent-RMCAreaLv759IndoorsApartmentWestrestroom
+  name: Westhaven Apartment Complex - West - Restrooms
   components:
   - type: Sprite
     state: apartments
@@ -1390,7 +1390,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestentertainment
-  name: ent-RMCAreaLv759IndoorsApartmentWestentertainment
+  name: Westhaven Apartment Complex - West - Recreation Hub
   components:
   - type: Sprite
     state: apartments
@@ -1398,7 +1398,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastentrance
-  name: ent-RMCAreaLv759IndoorsApartmentEastentrance
+  name: Westhaven Apartment Complex - East - Entrance Room
   components:
   - type: Sprite
     state: apartments
@@ -1406,7 +1406,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastfoyer
-  name: ent-RMCAreaLv759IndoorsApartmentEastfoyer
+  name: Westhaven Apartment Complex - East - Foyer
   components:
   - type: Sprite
     state: apartments
@@ -1414,7 +1414,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastrestroomsshower
-  name: ent-RMCAreaLv759IndoorsApartmentEastrestroomsshower
+  name: Westhaven Apartment Complex - East - Restrooms & Showers
   components:
   - type: Sprite
     state: apartments
@@ -1422,7 +1422,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastbedrooms
-  name: ent-RMCAreaLv759IndoorsApartmentEastbedrooms
+  name: Westhaven Apartment Complex - East - Bedrooms
   components:
   - type: Sprite
     state: apartments
@@ -1430,7 +1430,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastbedroomsstorage
-  name: ent-RMCAreaLv759IndoorsApartmentEastbedroomsstorage
+  name: Westhaven Apartment Complex - East - Bedrooms - Storage Room
   components:
   - type: Sprite
     state: apartments
@@ -1438,7 +1438,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentNorthfoyer
-  name: ent-RMCAreaLv759IndoorsApartmentNorthfoyer
+  name: Westhaven Apartment Complex - North - Foyer
   components:
   - type: Sprite
     state: apartments
@@ -1446,7 +1446,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentNorthhallway
-  name: ent-RMCAreaLv759IndoorsApartmentNorthhallway
+  name: Westhaven Apartment Complex - North - Hallway
   components:
   - type: Sprite
     state: apartments
@@ -1454,7 +1454,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentNorthapartments
-  name: ent-RMCAreaLv759IndoorsApartmentNorthapartments
+  name: Westhaven Apartment Complex - North - Apartments
   components:
   - type: Sprite
     state: apartments
@@ -1462,7 +1462,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsWeyaOffice
-  name: ent-RMCAreaLv759IndoorsWeyaOffice
+  name: Weyland-Yutani Offices - Reception Hallway
   components:
   - type: Sprite
     state: wyoffice
@@ -1472,7 +1472,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeHallway
-  name: ent-RMCAreaLv759IndoorsWeyaOfficeHallway
+  name: Weyland-Yutani Offices - West Foyer
   components:
   - type: Sprite
     state: wyoffice
@@ -1480,32 +1480,32 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeFloor
-  name: ent-RMCAreaLv759IndoorsWeyaOfficeFloor
+  name: Weyland-Yutani Offices - Main Office Floor
 
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeBreakroom
-  name: ent-RMCAreaLv759IndoorsWeyaOfficeBreakroom
+  name: Weyland-Yutani Offices - Breakroom
 
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeVip
-  name: ent-RMCAreaLv759IndoorsWeyaOfficeVip
+  name: Weyland-Yutani Offices - Conference Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficePressroom
-  name: ent-RMCAreaLv759IndoorsWeyaOfficePressroom
+  name: Weyland-Yutani Offices - Assembly Hall
 
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeSupervisor
-  name: ent-RMCAreaLv759IndoorsWeyaOfficeSupervisor
+  name: Weyland-Yutani Offices - Colony Supervisors Office
 
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsBar
-  name: ent-RMCAreaLv759IndoorsBar
+  name: Bar
   components:
   - type: Sprite
     state: bar
@@ -1513,22 +1513,22 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBar
   id: RMCAreaLv759IndoorsBarEntertainment
-  name: ent-RMCAreaLv759IndoorsBarEntertainment
+  name: Bar - Entertainment Subsection
 
 - type: entity
   parent: RMCAreaLv759IndoorsBar
   id: RMCAreaLv759IndoorsBarBathroom
-  name: ent-RMCAreaLv759IndoorsBarBathroom
+  name: Bar - Restrooms
 
 - type: entity
   parent: RMCAreaLv759IndoorsBar
   id: RMCAreaLv759IndoorsBarMaintenance
-  name: ent-RMCAreaLv759IndoorsBarMaintenance
+  name: Bar - Maintenance
 
 - type: entity
   parent: RMCAreaLv759IndoorsBar
   id: RMCAreaLv759IndoorsBarKitchen
-  name: ent-RMCAreaLv759IndoorsBarKitchen
+  name: Bar - Kitchen
 
 - type: entity
   abstract: true
@@ -1538,7 +1538,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBotany
   id: RMCAreaLv759IndoorsBotanyBotanyGreenhouse
-  name: ent-RMCAreaLv759IndoorsBotanyBotanyGreenhouse
+  name: Botany - Greenhouse
   components:
   - type: Sprite
     state: botany
@@ -1546,7 +1546,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBotany
   id: RMCAreaLv759IndoorsBotanyBotanyHallway
-  name: ent-RMCAreaLv759IndoorsBotanyBotanyHallway
+  name: Botany - Hallway
   components:
   - type: Sprite
     state: botany
@@ -1554,7 +1554,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBotany
   id: RMCAreaLv759IndoorsBotanyBotanyMaintenance
-  name: ent-RMCAreaLv759IndoorsBotanyBotanyMaintenance
+  name: Botany - Maintenance
   components:
   - type: Sprite
     state: botany
@@ -1562,7 +1562,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBotany
   id: RMCAreaLv759IndoorsBotanyBotanyMainroom
-  name: ent-RMCAreaLv759IndoorsBotanyBotanyMainroom
+  name: Botany - Main Room
   components:
   - type: Sprite
     state: botany
@@ -1577,7 +1577,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsHotel
   id: RMCAreaLv759IndoorsHotelHotelHallway
-  name: ent-RMCAreaLv759IndoorsHotelHotelHallway
+  name: Prospera Grand Hotel - Hallway
   components:
   - type: Sprite
     state: apartments
@@ -1585,7 +1585,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsHotel
   id: RMCAreaLv759IndoorsHotelHotelRooms
-  name: ent-RMCAreaLv759IndoorsHotelHotelRooms
+  name: Prospera Grand Hotel - Room
   components:
   - type: Sprite
     state: apartments
@@ -1603,32 +1603,32 @@
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalParamedicsGarage
-  name: ent-RMCAreaLv759IndoorsHospitalParamedicsGarage
+  name: Nova Medica Hospital Complex - Paramedic's Garage
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalCryoRoom
-  name: ent-RMCAreaLv759IndoorsHospitalCryoRoom
+  name: Nova Medica Hospital Complex - Cryo Ward
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalEmergencyRoom
-  name: ent-RMCAreaLv759IndoorsHospitalEmergencyRoom
+  name: Nova Medica Hospital Complex - Emergency Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalReception
-  name: ent-RMCAreaLv759IndoorsHospitalReception
+  name: Nova Medica Hospital Complex - Reception
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalCmoOffice
-  name: ent-RMCAreaLv759IndoorsHospitalCmoOffice
+  name: Nova Medica Hospital Complex - Chief Medical Officer's Office
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMaintenance
-  name: ent-RMCAreaLv759IndoorsHospitalMaintenance
+  name: Nova Medica Hospital Complex - Subspace Communications & Electrical Systems
   components:
   - type: Sprite
     state: comms_1
@@ -1638,77 +1638,77 @@
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalBreakRoom
-  name: ent-RMCAreaLv759IndoorsHospitalBreakRoom
+  name: Nova Medica Hospital Complex - Breakroom
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalPharmacy
-  name: ent-RMCAreaLv759IndoorsHospitalPharmacy
+  name: Nova Medica Hospital Complex - Pharmacy & Outgoing Foyer
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalOutgoing
-  name: ent-RMCAreaLv759IndoorsHospitalOutgoing
+  name: Nova Medica Hospital Complex - Outgoing Ward
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalCentralHallway
-  name: ent-RMCAreaLv759IndoorsHospitalCentralHallway
+  name: Nova Medica Hospital Complex - Central Hallway
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalEastHallway
-  name: ent-RMCAreaLv759IndoorsHospitalEastHallway
+  name: Nova Medica Hospital Complex - East Hallway
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMedicalStorage
-  name: ent-RMCAreaLv759IndoorsHospitalMedicalStorage
+  name: Nova Medica Hospital Complex - Medical Storage
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalOperation
-  name: ent-RMCAreaLv759IndoorsHospitalOperation
+  name: Nova Medica Hospital Complex - Operation Theatres & Observation
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalPatientWard
-  name: ent-RMCAreaLv759IndoorsHospitalPatientWard
+  name: Nova Medica Hospital Complex - Patient Ward
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalVirology
-  name: ent-RMCAreaLv759IndoorsHospitalVirology
+  name: Nova Medica Hospital Complex - Virology
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMorgue
-  name: ent-RMCAreaLv759IndoorsHospitalMorgue
+  name: Nova Medica Hospital Complex - Morgue
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalIcu
-  name: ent-RMCAreaLv759IndoorsHospitalIcu
+  name: Nova Medica Hospital Complex - Intensive Care Ward
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalStorage
-  name: ent-RMCAreaLv759IndoorsHospitalStorage
+  name: Nova Medica Hospital Complex - Office
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMaintenanceNorth
-  name: ent-RMCAreaLv759IndoorsHospitalMaintenanceNorth
+  name: Nova Medica Hospital Complex - Maintenance North
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMaintenanceSouth
-  name: ent-RMCAreaLv759IndoorsHospitalMaintenanceSouth
+  name: Nova Medica Hospital Complex - Unisex-Restroom
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalJanitor
-  name: ent-RMCAreaLv759IndoorsHospitalJanitor
+  name: Nova Medica Hospital Complex - Janitors Closet
 
 - type: entity
   parent: RMCAreaLv759Indoors
@@ -1722,7 +1722,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostNorth
-  name: ent-RMCAreaLv759IndoorsMiningOutpostNorth
+  name: TMCC - Mining Outpost - North
   components:
   - type: Sprite
     state: mining
@@ -1730,7 +1730,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostNorthMaint
-  name: ent-RMCAreaLv759IndoorsMiningOutpostNorthMaint
+  name: TMCC - Mining Outpost - North - Maintenance
   components:
   - type: Sprite
     state: mining
@@ -1738,7 +1738,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostNortheast
-  name: ent-RMCAreaLv759IndoorsMiningOutpostNortheast
+  name: TMCC - Mining Outpost - Northeast
   components:
   - type: Sprite
     state: mining
@@ -1749,7 +1749,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostSouth
-  name: ent-RMCAreaLv759IndoorsMiningOutpostSouth
+  name: TMCC - Mining Outpost - Southeast
   components:
   - type: Sprite
     state: mining
@@ -1757,7 +1757,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostVehicledeployment
-  name: ent-RMCAreaLv759IndoorsMiningOutpostVehicledeployment
+  name: TMCC - Mining Outpost - South - Vehicle Deployment
   components:
   - type: Sprite
     state: mining
@@ -1767,7 +1767,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostProcessing
-  name: ent-RMCAreaLv759IndoorsMiningOutpostProcessing
+  name: TMCC - Mining Outpost - South - Processing & Storage
   components:
   - type: Sprite
     state: mining
@@ -1777,7 +1777,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostEast
-  name: ent-RMCAreaLv759IndoorsMiningOutpostEast
+  name: TMCC - Mining Outpost - East
   components:
   - type: Sprite
     state: mining
@@ -1787,7 +1787,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostEastDorms
-  name: ent-RMCAreaLv759IndoorsMiningOutpostEastDorms
+  name: TMCC - Mining Outpost - East - Dorms
   components:
   - type: Sprite
     state: mining
@@ -1797,7 +1797,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostEastDeploymentbay
-  name: ent-RMCAreaLv759IndoorsMiningOutpostEastDeploymentbay
+  name: TMCC - Mining Outpost - East - Deployment Bay
   components:
   - type: Sprite
     state: mining
@@ -1807,7 +1807,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostEastCommand
-  name: ent-RMCAreaLv759IndoorsMiningOutpostEastCommand
+  name: TMCC - Mining Outpost - East - Command Center
   components:
   - type: Sprite
     state: mining
@@ -1817,7 +1817,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostCargoMaint
-  name: ent-RMCAreaLv759IndoorsMiningOutpostCargoMaint
+  name: TMCC - Mining Outpost - East - Maintenance
   components:
   - type: Sprite
     state: mining
@@ -1830,7 +1830,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsMiningOutpost
   id: RMCAreaLv759OutdoorsMiningOutpostSouthEntrance
-  name: ent-RMCAreaLv759OutdoorsMiningOutpostSouthEntrance
+  name: TMCC - Mining Outpost - South - Vehicle Deployment Entrance
   components:
   - type: Sprite
     state: mining
@@ -1856,7 +1856,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsElecticalSystems
   id: RMCAreaLv759IndoorsElecticalSystemsSubstation1
-  name: ent-RMCAreaLv759IndoorsElecticalSystemsSubstation1
+  name: Electrical Systems - Substation One - Control Room
   components:
   - type: Sprite
     state: power0
@@ -1864,7 +1864,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsElecticalSystems
   id: RMCAreaLv759IndoorsElecticalSystemsSubstation2
-  name: ent-RMCAreaLv759IndoorsElecticalSystemsSubstation2
+  name: Electrical Systems - Substation Two
   components:
   - type: Sprite
     state: power0
@@ -1874,7 +1874,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsElecticalSystems
   id: RMCAreaLv759IndoorsElecticalSystemsSubstation3
-  name: ent-RMCAreaLv759IndoorsElecticalSystemsSubstation3
+  name: Electrical Systems - Substation Three
   components:
   - type: Sprite
     state: power0
@@ -1884,7 +1884,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsPowerPlant
-  name: ent-RMCAreaLv759IndoorsPowerPlant
+  name: Weyland-Yutani DynaGrid Nexus - Central Hallway
   components:
   - type: Sprite
     state: power0
@@ -1894,7 +1894,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantHallwayEast
-  name: ent-RMCAreaLv759IndoorsPowerPlantHallwayEast
+  name: Weyland-Yutani DynaGrid Nexus - East Hallway
   components:
   - type: Sprite
     state: power0
@@ -1905,17 +1905,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantSouthHallway
-  name: ent-RMCAreaLv759IndoorsPowerPlantSouthHallway
+  name: Weyland-Yutani DynaGrid Nexus - South Hallway
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantGeothermalGenerators
-  name: ent-RMCAreaLv759IndoorsPowerPlantGeothermalGenerators
+  name: Weyland-Yutani DynaGrid Nexus - Geothermal Generators Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantPowerStorage
-  name: ent-RMCAreaLv759IndoorsPowerPlantPowerStorage
+  name: Weyland-Yutani DynaGrid Nexus - Power Storage Room
 
 - type: entity
   abstract: true
@@ -1925,7 +1925,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsPowerPlant
   id: RMCAreaLv759OutdoorsPowerPlantTransformersNorth
-  name: ent-RMCAreaLv759OutdoorsPowerPlantTransformersNorth
+  name: Weyland-Yutani DynaGrid Nexus - Transformers - North
   components:
   - type: Area
     minimapColor: '#91BDCFE7'
@@ -1934,7 +1934,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsPowerPlant
   id: RMCAreaLv759OutdoorsPowerPlantTransformersSouth
-  name: ent-RMCAreaLv759OutdoorsPowerPlantTransformersSouth
+  name: Weyland-Yutani DynaGrid Nexus - Transformers - South
   components:
   - type: Area
     minimapColor: '#91BDCFE7'
@@ -1943,27 +1943,27 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantTransformersNorth
-  name: ent-RMCAreaLv759IndoorsPowerPlantTransformersNorth
+  name: Weyland-Yutani DynaGrid Nexus - Transformers - North
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantTransformersSouth
-  name: ent-RMCAreaLv759IndoorsPowerPlantTransformersSouth
+  name: Weyland-Yutani DynaGrid Nexus - Transformers - South
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantGasGenerators
-  name: ent-RMCAreaLv759IndoorsPowerPlantGasGenerators
+  name: Weyland-Yutani DynaGrid Nexus - Gas Mixing & Storage
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantFusionGenerators
-  name: ent-RMCAreaLv759IndoorsPowerPlantFusionGenerators
+  name: Weyland-Yutani DynaGrid Nexus - Control Center
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantTelecomms
-  name: ent-RMCAreaLv759IndoorsPowerPlantTelecomms
+  name: Weyland-Yutani DynaGrid Nexus - Telecommunications
   components:
   - type: Sprite
     state: comms_1
@@ -1974,7 +1974,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantWorkersCanteen
-  name: ent-RMCAreaLv759IndoorsPowerPlantWorkersCanteen
+  name: Weyland-Yutani DynaGrid Nexus - Worker's Canteen
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -1982,7 +1982,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantWorkersCanteenKitchen
-  name: ent-RMCAreaLv759IndoorsPowerPlantWorkersCanteenKitchen
+  name: Weyland-Yutani DynaGrid Nexus - Worker's Canteen - Kitchen
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -1990,17 +1990,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantEquipmentEast
-  name: ent-RMCAreaLv759IndoorsPowerPlantEquipmentEast
+  name: Weyland-Yutani DynaGrid Nexus - Equipment Storage Room - East
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantEquipmentWest
-  name: ent-RMCAreaLv759IndoorsPowerPlantEquipmentWest
+  name: Weyland-Yutani DynaGrid Nexus - Equipment Storage Room - West
 
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsColonialMarshals
-  name: ent-RMCAreaLv759IndoorsColonialMarshals
+  name: TSEPA - Ironbridge Precinct
   components:
   - type: Sprite
     state: security_hub
@@ -2010,22 +2010,22 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsPrisonersCells
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsPrisonersCells
+  name: TSEPA - Ironbridge Precinct - Maximum Security Ward - Cells
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsPrisonersFoyer
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsPrisonersFoyer
+  name: TSEPA - Ironbridge Precinct - Maximum Security Ward - Foyer
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsPrisonersRecreationArea
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsPrisonersRecreationArea
+  name: TSEPA - Ironbridge Precinct - Maximum Security Ward - Recreation Area & Shower Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsGarage
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsGarage
+  name: TSEPA - Ironbridge Precinct - Vehicle Deployment & Maintenace
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2033,32 +2033,32 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsArmoryFoyer
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsArmoryFoyer
+  name: TSEPA - Ironbridge Precinct - Armory Foyer
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsArmory
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsArmory
+  name: TSEPA - Ironbridge Precinct - Armory
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsArmoryFiringrange
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsArmoryFiringrange
+  name: TSEPA - Ironbridge Precinct - Firing Range
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsArmoryEvidenceroom
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsArmoryEvidenceroom
+  name: TSEPA - Ironbridge Precinct - Evidence Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsOffice
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsOffice
+  name: TSEPA - Ironbridge Precinct - Office
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsReception
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsReception
+  name: TSEPA - Ironbridge Precinct - Reception Office
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2066,7 +2066,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwayCentral
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsHallwayCentral
+  name: TSEPA - Ironbridge Precinct - Central Hallway
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2074,12 +2074,12 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwaySouth
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsHallwaySouth
+  name: TSEPA - Ironbridge Precinct - South Hallway
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwayReception
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsHallwayReception
+  name: TSEPA - Ironbridge Precinct - Reception Hallway
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2087,7 +2087,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwayNorth
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsHallwayNorth
+  name: TSEPA - Ironbridge Precinct - North Hallway
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2095,12 +2095,12 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwayNorthLocker
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsHallwayNorthLocker
+  name: TSEPA - Ironbridge Precinct - North Hallway - Locker Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHoldingCells
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsHoldingCells
+  name: TSEPA - Ironbridge Precinct - Holding Cells
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2108,7 +2108,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHeadOffice
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsHeadOffice
+  name: TSEPA - Ironbridge Precinct - Forensics Office
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2116,7 +2116,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsNorthOffice
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsNorthOffice
+  name: TSEPA - Ironbridge Precinct - North Office
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2124,17 +2124,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsWardensOffice
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsWardensOffice
+  name: TSEPA - Ironbridge Precinct - Wardens Office
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsInterrogation
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsInterrogation
+  name: TSEPA - Ironbridge Precinct - Interrogation
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsPressRoom
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsPressRoom
+  name: TSEPA - Ironbridge Precinct - Court Room
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2142,17 +2142,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsChangingRoom
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsChangingRoom
+  name: TSEPA - Ironbridge Precinct - Changing Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsRestroom
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsRestroom
+  name: TSEPA - Ironbridge Precinct - Restroom & Showers
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsSouthMaintenance
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsSouthMaintenance
+  name: TSEPA - Ironbridge Precinct - Maintenance - South
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2160,17 +2160,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsNorthMaintenance
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsNorthMaintenance
+  name: TSEPA - Ironbridge Precinct - Maintenance - North
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsSouthwestMaintenance
-  name: ent-RMCAreaLv759IndoorsColonialMarshalsSouthwestMaintenance
+  name: TSEPA - Ironbridge Precinct - Maintenance - Southwest
 
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsJacksSurplus
-  name: ent-RMCAreaLv759IndoorsJacksSurplus
+  name: Jack's Military Surplus
   components:
   - type: Sprite
     state: jacks
@@ -2181,7 +2181,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsRecyclingPlant
-  name: ent-RMCAreaLv759IndoorsRecyclingPlant
+  name: Weyland-Yutani - Resource Recovery Facility
   components:
   - type: Sprite
     state: recycling
@@ -2192,7 +2192,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsRecyclingPlant
   id: RMCAreaLv759IndoorsRecyclingPlantGarage
-  name: ent-RMCAreaLv759IndoorsRecyclingPlantGarage
+  name: Weyland-Yutani - Resource Recovery Facility - Garage
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -2200,7 +2200,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsRecyclingPlant
   id: RMCAreaLv759IndoorsRecyclingPlantSyntheticStorage
-  name: ent-RMCAreaLv759IndoorsRecyclingPlantSyntheticStorage
+  name: Synthetic Storage
   components:
   - type: Sprite
     state: synthetic
@@ -2210,7 +2210,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsRecyclingPlantOffice
-  name: ent-RMCAreaLv759IndoorsRecyclingPlantOffice
+  name: Weyland-Yutani - Resource Recovery Facility - Office
   components:
   - type: Sprite
     state: recycling
@@ -2220,7 +2220,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsRecyclingPlantWasteDisposalIncinerator
-  name: ent-RMCAreaLv759IndoorsRecyclingPlantWasteDisposalIncinerator
+  name: Weyland-Yutani - Resource Recovery Facility - Waste Disposal Incinerating Room
   components:
   - type: Sprite
     state: recycling
@@ -2230,7 +2230,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsSouthPublicRestroom
-  name: ent-RMCAreaLv759IndoorsSouthPublicRestroom
+  name: Public Restroom - South
   components:
   - type: Sprite
     state: restroom
@@ -2241,7 +2241,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsSouthwestPublicRestroom
-  name: ent-RMCAreaLv759IndoorsSouthwestPublicRestroom
+  name: Public Restroom - Southwest
   components:
   - type: Sprite
     state: restroom
@@ -2252,7 +2252,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsCasino
-  name: ent-RMCAreaLv759IndoorsCasino
+  name: Night Gold Casino
   components:
   - type: Sprite
     state: nightgold
@@ -2262,7 +2262,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCasino
   id: RMCAreaLv759IndoorsCasinoCasinoOffice
-  name: ent-RMCAreaLv759IndoorsCasinoCasinoOffice
+  name: Night Gold Casino - Managers Office
   components:
   - type: Sprite
     state: nightgold
@@ -2270,7 +2270,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCasino
   id: RMCAreaLv759IndoorsCasinoCasinoRestroom
-  name: ent-RMCAreaLv759IndoorsCasinoCasinoRestroom
+  name: Night Gold Casino - Restroom
   components:
   - type: Sprite
     state: nightgold
@@ -2278,7 +2278,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCasino
   id: RMCAreaLv759IndoorsCasinoCasinoVault
-  name: ent-RMCAreaLv759IndoorsCasinoCasinoVault
+  name: Night Gold Casino - Vault
   components:
   - type: Sprite
     state: nightgold
@@ -2286,7 +2286,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsPizzaria
-  name: ent-RMCAreaLv759IndoorsPizzaria
+  name: Pizza Galaxy - Outpost Zeta
   components:
   - type: Sprite
     state: pizza
@@ -2296,7 +2296,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsTcommsNorthwest
-  name: ent-RMCAreaLv759IndoorsTcommsNorthwest
+  name: Telecommunications Substation - West
   components:
   - type: Sprite
     state: comms_1
@@ -2306,7 +2306,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsWeymart
-  name: ent-RMCAreaLv759IndoorsWeymart
+  name: Weymart
   components:
   - type: Sprite
     state: weymart
@@ -2316,7 +2316,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWeymart
   id: RMCAreaLv759IndoorsWeymartBackrooms
-  name: ent-RMCAreaLv759IndoorsWeymartBackrooms
+  name: Weymart - Backrooms
   components:
   - type: Sprite
     state: weymartbackrooms
@@ -2324,7 +2324,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWeymart
   id: RMCAreaLv759IndoorsWeymartMaintenance
-  name: ent-RMCAreaLv759IndoorsWeymartMaintenance
+  name: Weymart - Maintenance
   components:
   - type: Sprite
     state: weymartbackrooms
@@ -2339,7 +2339,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointNortheast
-  name: ent-RMCAreaLv759IndoorsWySecurityCheckpointNortheast
+  name: Weyland-Yutani Security Checkpoint - North East
   components:
   - type: Sprite
     state: security_checkpoint_northeast
@@ -2350,7 +2350,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointEast
-  name: ent-RMCAreaLv759IndoorsWySecurityCheckpointEast
+  name: Weyland-Yutani Security Checkpoint - East
   components:
   - type: Sprite
     state: security_checkpoint_east
@@ -2360,7 +2360,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointCentral
-  name: ent-RMCAreaLv759IndoorsWySecurityCheckpointCentral
+  name: Weyland-Yutani Security Checkpoint - Central
   components:
   - type: Sprite
     state: security_checkpoint_central
@@ -2368,7 +2368,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointWest
-  name: ent-RMCAreaLv759IndoorsWySecurityCheckpointWest
+  name: Weyland-Yutani Security Checkpoint - West
   components:
   - type: Sprite
     state: security_checkpoint_west
@@ -2376,12 +2376,12 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurityCheckpointWest
   id: RMCAreaLv759IndoorsWySecurityCheckpointWestCaves
-  name: ent-RMCAreaLv759IndoorsWySecurityCheckpointWestCaves
+  name: Weyland-Yutani Security Checkpoint - Caverns Entrance
 
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointNorthwest
-  name: ent-RMCAreaLv759IndoorsWySecurityCheckpointNorthwest
+  name: Weyland-Yutani Security Checkpoint - North West
   components:
   - type: Sprite
     state: security_checkpoint_northwest
@@ -2389,7 +2389,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsHobosecret
-  name: ent-RMCAreaLv759IndoorsHobosecret
+  name: Hidden Hobo Haven
   components:
   - type: Sprite
     state: hobo
@@ -2412,7 +2412,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsWyResearchComplex
-  name: ent-RMCAreaLv759IndoorsWyResearchComplex
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex
   components:
   - type: Sprite
     state: wylab
@@ -2431,7 +2431,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexMedicalAnnex
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexMedicalAnnex
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Medical Annex Building
   components:
   - type: Sprite
     state: wylab
@@ -2439,7 +2439,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexReception
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexReception
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Reception & Administration
   components:
   - type: Sprite
     state: wylab
@@ -2447,7 +2447,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexCargo
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexCargo
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Requisitions & Cargo
   components:
   - type: Sprite
     state: wylab
@@ -2455,7 +2455,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexResearchanddevelopment
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexResearchanddevelopment
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Technology Research & Development Lab
   components:
   - type: Sprite
     state: wylab
@@ -2463,7 +2463,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexMainlabs
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexMainlabs
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Advanced Chemical Testing & Research Lab
   components:
   - type: Sprite
     state: wylab
@@ -2471,7 +2471,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexXenobiology
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexXenobiology
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Advanced Xenobiology Lab
   components:
   - type: Sprite
     state: wylab
@@ -2479,7 +2479,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexWeaponresearchlab
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexWeaponresearchlab
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Advanced Weapon Research Lab
   components:
   - type: Sprite
     state: wylab
@@ -2487,7 +2487,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexWeaponresearchlabtesting
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexWeaponresearchlabtesting
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Advanced Weapon Research Lab - Weapons Testing Range
   components:
   - type: Sprite
     state: wylab
@@ -2495,7 +2495,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexXenoarcheology
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexXenoarcheology
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Xenoarcheology Research Lab
   components:
   - type: Sprite
     state: wylab
@@ -2503,7 +2503,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexVehicledeploymentbay
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexVehicledeploymentbay
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Vehicle Deployment & Maintenance Bay
   components:
   - type: Sprite
     state: wylab
@@ -2511,7 +2511,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexJanitor
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexJanitor
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Janitorial Supplies Storage
   components:
   - type: Sprite
     state: wylab
@@ -2519,7 +2519,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexCafeteria
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexCafeteria
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Cafeteria
   components:
   - type: Sprite
     state: wylab
@@ -2527,7 +2527,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexCafeteriakitchen
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexCafeteriakitchen
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Cafeteria - Kitchen
   components:
   - type: Sprite
     state: wylab
@@ -2535,7 +2535,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexDormsfoyer
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexDormsfoyer
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Dorms Foyer
   components:
   - type: Sprite
     state: wylab
@@ -2543,7 +2543,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexDormsbedroom
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexDormsbedroom
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Dorms
   components:
   - type: Sprite
     state: wylab
@@ -2551,7 +2551,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexSecuritycommand
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexSecuritycommand
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Security Command Center & Deployment
   components:
   - type: Sprite
     state: wylab
@@ -2559,7 +2559,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexSecurityarmory
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexSecurityarmory
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Armory
   components:
   - type: Sprite
     state: wylab
@@ -2567,7 +2567,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHangarbay
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHangarbay
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Hangar Bay
   components:
   - type: Sprite
     state: wylab
@@ -2575,7 +2575,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHangarbayshuttle
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHangarbayshuttle
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Hangar Bay - Weyland-Yutani PMC ERT Shuttle
   components:
   - type: Sprite
     state: wylab
@@ -2586,7 +2586,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaynorth
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHallwaynorth
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - North Hallway
   components:
   - type: Sprite
     state: wylab
@@ -2594,7 +2594,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaynorthexit
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHallwaynorthexit
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - North Hallway - Personnel Exit East
   components:
   - type: Sprite
     state: wylab
@@ -2602,7 +2602,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwayeast
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHallwayeast
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Hallway East
   components:
   - type: Sprite
     state: wylab
@@ -2610,7 +2610,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaycentral
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHallwaycentral
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Central Hallway
   components:
   - type: Sprite
     state: wylab
@@ -2618,7 +2618,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaysouthwest
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHallwaysouthwest
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - South West Hallway
   components:
   - type: Sprite
     state: wylab
@@ -2626,7 +2626,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaysoutheast
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHallwaysoutheast
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - South East Hallway
   components:
   - type: Sprite
     state: wylab
@@ -2634,7 +2634,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexSoutheastexit
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexSoutheastexit
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - South East Maintenace & Emergency Exit
   components:
   - type: Sprite
     state: wylab
@@ -2642,7 +2642,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexChangingroom
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexChangingroom
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Locker Room
   components:
   - type: Sprite
     state: wylab
@@ -2650,7 +2650,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHeadResearchOffice
-  name: ent-RMCAreaLv759IndoorsWyResearchComplexHeadResearchOffice
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Head of Research's Office
   components:
   - type: Sprite
     state: wylab
@@ -2659,7 +2659,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsOutpostSouterMainHall
-  name: ent-RMCAreaLv759IndoorsOutpostSouterMainHall
+  name: RCM-P Outpost Souter - Main Hall
   components:
   - type: Sprite
     state: security_checkpoint_central
@@ -2669,7 +2669,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterDorms
-  name: ent-RMCAreaLv759IndoorsOutpostSouterDorms
+  name: RCM-P Outpost Souter - Dormitories
   components:
   - type: Sprite
     state: security_hub
@@ -2677,7 +2677,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterArmoury
-  name: ent-RMCAreaLv759IndoorsOutpostSouterArmoury
+  name: RCM-P Outpost Souter - Armoury
   components:
   - type: Sprite
     state: security_hub
@@ -2685,7 +2685,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterFlightMaints
-  name: ent-RMCAreaLv759IndoorsOutpostSouterFlightMaints
+  name: RCM-P Outpost Souter - Flight Maintenance Room
   components:
   - type: Sprite
     state: security_hub
@@ -2693,7 +2693,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterHangar
-  name: ent-RMCAreaLv759IndoorsOutpostSouterHangar
+  name: RCM-P Outpost Souter - Hangar
   components:
   - type: Sprite
     state: security_checkpoint_east
@@ -2701,7 +2701,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterReception
-  name: ent-RMCAreaLv759IndoorsOutpostSouterReception
+  name: RCM-P Outpost Souter - Reception Office
   components:
   - type: Sprite
     state: security_hub
@@ -2709,7 +2709,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterEntrance
-  name: ent-RMCAreaLv759IndoorsOutpostSouterEntrance
+  name: RCM-P Outpost Souter - Entrance
   components:
   - type: Sprite
     state: security_checkpoint_west
@@ -2717,7 +2717,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterFlightControl
-  name: ent-RMCAreaLv759IndoorsOutpostSouterFlightControl
+  name: RCM-P Outpost Souter - Flight Control
   components:
   - type: Sprite
     state: security_hub
@@ -2725,7 +2725,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterUD4UK
-  name: ent-RMCAreaLv759IndoorsOutpostSouterUD4UK
+  name: TSE UD4-UK
   components:
   - type: Sprite
     state: wydropship

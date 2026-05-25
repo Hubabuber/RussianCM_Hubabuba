@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorSecurity
   id: CMSurvivorLV624CorporateDomeGoonEngineer
-  name: job-cmsurvivorlv624corporatedomegoonengineer-name
-  description: job-cmsurvivorlv624corporatedomegoonengineer-desc
+  name: rmc-job-name-pmc-corporate-goon-engi
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorEngineer
-  spawnMenuRoleName: job-cmsurvivorlv624corporatedomegoonengineer-spawnmenurolename
+  spawnMenuRoleName: We-Ya Goon Engineer (Survivor Special)
   startingGear: RMCGearSurvivorGoon
   icon: "RMCJobIconPMCGoonEngi"
   hasIcon: true
@@ -31,10 +31,11 @@
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: background_goon
   greeting: rmc-job-greeting-corporate-dome-goon-engi
+
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CorporateDomeGoonEngineer
-  name: ent-RMCSpawnPointSurvivorLV624CorporateDomeGoonEngineer
+  name: special survivor lv624 goon engineer spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorLV624CorporateDomeGoonEngineer
@@ -48,7 +49,7 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetLV624CorporateDomeGoonEngineer
-  name: ent-RMCGearSurvivorPresetLV624CorporateDomeGoonEngineer
+  name: lv624 colonist preset
 
 - type: jobIcon
   parent: CMJobIconBase

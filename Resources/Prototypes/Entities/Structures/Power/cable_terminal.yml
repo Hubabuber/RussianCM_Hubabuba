@@ -1,7 +1,7 @@
 - type: entity
   id: CableTerminal
-  name: ent-CableTerminal
-  description: ent-CableTerminal-desc
+  name: cable terminal
+  description: You see a small warning on the red cables in grungy black ink. "CONNECT RED TO BATTERY FOR CHARGE."
   placement:
     mode: SnapgridCenter
   components:
@@ -52,7 +52,7 @@
 - type: entity
   id: CableTerminalUncuttable
   parent: CableTerminal
-  suffix: ent-CableTerminalUncuttable-suffix
+  suffix: uncuttable
   components:
   - type: Cable
     cuttingQuality: null

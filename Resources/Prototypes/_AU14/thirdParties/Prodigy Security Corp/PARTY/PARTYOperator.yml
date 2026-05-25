@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYProdigyPartySmartgunner
-  name: job-au14jobwyprodigypartysmartgunner-name
-  description: job-au14jobwyprodigypartysmartgunner-desc
+  name: PMC Smartgun Operator
+  description: au14-prodigyparty-description
   playTimeTracker: AU14JobWYProdigyPartySmartgunner
   ranks:
     AU14RankWeYuSeniorOperator: []
-  spawnMenuRoleName: job-au14jobwyprodigypartysmartgunner-spawnmenurolename
+  spawnMenuRoleName: WY PMC Smartgun Operator (3rd party)
   startingGear: AU14GearWYPMCPartySmartgunner
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCGunner"
   joinNotifyCrew: false
-  supervisors: job-au14jobwyprodigypartysmartgunner-supervisors
+  supervisors: au14-job-supervisors-psc
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYProdigyPartySmartgunner
-  name: ent-AU14JobWYProdigyPartySmartgunner
+  name: WY PMC Party Smartgun Operator (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

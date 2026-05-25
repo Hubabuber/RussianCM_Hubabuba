@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: CMBaseStructureCorrodible
   id: CMWindoorAssembly
-  name: ent-CMWindoorAssembly
-  description: ent-CMWindoorAssembly-desc
+  name: windoor assembly
+  description: It opens, it closes, and you can see through it!
   placement:
     mode: SnapgridCenter
   components:
@@ -52,8 +52,8 @@
 - type: entity
   parent: CMWindoorAssembly
   id: CMWindoorAssemblySecure
-  name: ent-CMWindoorAssemblySecure
-  description: ent-CMWindoorAssemblySecure-desc
+  name: secure windoor assembly
+  description: It opens, it closes, and you can see through it! This one looks tough.
   components:
   - type: Sprite
     state: secure_assembly01

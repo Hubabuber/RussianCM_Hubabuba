@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolM1984
   id: RMCWeaponPistolL54
-  name: ent-RMCWeaponPistolL54 # TSE service pistol - same stats as the M1984
-  description: ent-RMCWeaponPistolL54-desc
+  name: L54A2 service pistol # TSE service pistol - same stats as the M1984
+  description: Standard issue semi-automatic service pistol of the NSPA. Chambered in 9mm, it is comparable to the popular M1984 pistol utilized by the UNCMC.  Until recently, it was also the standard issue pistol for the RMC before being replace by the L165A1.
   components:
   - type: Tag
     tags:
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCWeaponPistolL54
   id: RMCWeaponPistolL54Empty
-  suffix: ent-RMCWeaponPistolL54Empty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolL54
-  name: ent-RMCMagazinePistolL54
+  name: L54 magazine (9mm)
   components:
   - type: Tag
     tags:

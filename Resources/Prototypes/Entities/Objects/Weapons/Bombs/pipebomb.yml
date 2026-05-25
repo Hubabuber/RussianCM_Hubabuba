@@ -1,8 +1,8 @@
 - type: entity
   parent: [ GrenadeBase, BaseMinorContraband ]
   id: PipeBomb
-  name: ent-PipeBomb
-  description: ent-PipeBomb-desc
+  name: pipe bomb
+  description: An improvised explosive made from pipes and wire.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/pipebomb.rsi
@@ -34,9 +34,9 @@
 - type: entity
   parent: [ BaseItem, BaseMinorContraband ]
   id: PipeBombGunpowder
-  name: ent-PipeBombGunpowder
-  description: ent-PipeBombGunpowder-desc
-  suffix: ent-PipeBombGunpowder-suffix
+  name: pipe bomb
+  description: An improvised explosive made from a pipe. This one has no gunpowder.
+  suffix: Gunpowder
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/pipebomb.rsi
@@ -49,9 +49,9 @@
 - type: entity
   parent: [ BaseItem, BaseMinorContraband ]
   id: PipeBombCable
-  name: ent-PipeBombCable
-  description: ent-PipeBombCable-desc
-  suffix: ent-PipeBombCable-suffix
+  name: pipe bomb
+  description: An improvised explosive made from a pipe. This one has no cable.
+  suffix: Cable
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/pipebomb.rsi

@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesTeamlead
-  name: job-cmroyalmarinesteamlead-name
-  description: job-cmroyalmarinesteamlead-desc
+  name: rmc-job-name-rcm-teamlead
+  description: rmc-ghost-role-information-rcm-description
   playTimeTracker: RMCJobRoyalTeamlead
   ranks:
     RMCRankTSESergeant: [ ]
   startingGear: RMCGearRoyalTeamlead
   icon: "RMCJobIconRoyalTeamlead"
   joinNotifyCrew: false
-  supervisors: job-cmroyalmarinesteamlead-supervisors
-  spawnMenuRoleName: job-cmroyalmarinesteamlead-spawnmenurolename
+  supervisors: cm-job-supervisors-royal-lieutenant
+  spawnMenuRoleName: RCM Team Leader
   special:
   - !type:AddComponentSpecial
     components:
@@ -68,8 +68,8 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesTeamlead
-  name: ent-RMCRandomHumanoidRoyalMarinesTeamlead
-  suffix: ent-RMCRandomHumanoidRoyalMarinesTeamlead-suffix
+  name: royal crown marines ghost role team leader
+  suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/ballistic.rsi

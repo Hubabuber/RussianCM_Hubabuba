@@ -1,7 +1,7 @@
 - type: entity
   id: RMCPodDoorButton
-  name: ent-RMCPodDoorButton
-  description: ent-RMCPodDoorButton-desc
+  name: button
+  description: A remote control-switch for a door.
   placement:
     mode: SnapgridCenter
     snap:
@@ -43,14 +43,15 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonShip
-  name: ent-RMCPodDoorButtonShip
-  description: ent-RMCPodDoorButtonShip-desc
+  name: button
+  description: A basic button that does basic things.
+
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonMP
-  name: ent-RMCPodDoorButtonMP
-  description: ent-RMCPodDoorButtonMP-desc
-  suffix: ent-RMCPodDoorButtonMP-suffix
+  name: button
+  description: A button locked to Military Police.
+  suffix: Locked, Brig & Command
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ], [ "CMAccessBrig" ] ]
@@ -58,9 +59,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonCommand
-  name: ent-RMCPodDoorButtonCommand
-  description: ent-RMCPodDoorButtonCommand-desc
-  suffix: ent-RMCPodDoorButtonCommand-suffix
+  name: button
+  description: A basic button locked to Command.
+  suffix: Locked, Command
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ] ]
@@ -68,9 +69,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonSeniorCommand
-  name: ent-RMCPodDoorButtonSeniorCommand
-  description: ent-RMCPodDoorButtonSeniorCommand-desc
-  suffix: ent-RMCPodDoorButtonSeniorCommand-suffix
+  name: button
+  description: A basic button locked to Senior Command.
+  suffix: Locked, Senior Command
   components:
   - type: AccessReader
     access: [ [ "RMCAccessSeniorCommand" ] ]
@@ -78,9 +79,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonPilot
-  name: ent-RMCPodDoorButtonPilot
-  description: ent-RMCPodDoorButtonPilot-desc
-  suffix: ent-RMCPodDoorButtonPilot-suffix
+  name: button
+  description: A basic button locked to pilots and crew chiefs.
+  suffix: Locked, Dropship & Command
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ], ["CMAccessDropship"] ]
@@ -88,9 +89,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonRequisitions
-  name: ent-RMCPodDoorButtonRequisitions
-  description: ent-RMCPodDoorButtonRequisitions-desc
-  suffix: ent-RMCPodDoorButtonRequisitions-suffix
+  name: button
+  description: A basic button locked to requisitions staff.
+  suffix: Locked, Requisitions & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ], [ "RMCAccessCommand" ] ]
@@ -98,9 +99,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonKitchen
-  name: ent-RMCPodDoorButtonKitchen
-  description: ent-RMCPodDoorButtonKitchen-desc
-  suffix: ent-RMCPodDoorButtonKitchen-suffix
+  name: button
+  description: A basic button locked to kitchen staff.
+  suffix: Locked, Kitchen & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessKitchen" ], [ "RMCAccessCommand" ] ]
@@ -108,9 +109,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonEngineering
-  name: ent-RMCPodDoorButtonEngineering
-  description: ent-RMCPodDoorButtonEngineering-desc
-  suffix: ent-RMCPodDoorButtonEngineering-suffix
+  name: button
+  description: A basic button locked to engineering staff.
+  suffix: Locked, Engineering & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ], [ "RMCAccessCommand" ] ]
@@ -118,9 +119,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonVehicle
-  name: ent-RMCPodDoorButtonVehicle
-  description: ent-RMCPodDoorButtonVehicle-desc
-  suffix: ent-RMCPodDoorButtonVehicle-suffix
+  name: button
+  description: A basic button locked to Vehicle Crewmen.
+  suffix: Locked, Vehicle Crewmen & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ], [ "RMCAccessCommand" ] ]
@@ -128,9 +129,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonOrdnance
-  name: ent-RMCPodDoorButtonOrdnance
-  description: ent-RMCPodDoorButtonOrdnance-desc
-  suffix: ent-RMCPodDoorButtonOrdnance-suffix
+  name: button
+  description: A basic button locked to Ordnance Techs.
+  suffix: Locked, Ordnance & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessOT" ], [ "RMCAccessCommand" ] ]
@@ -138,9 +139,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonMedical
-  name: ent-RMCPodDoorButtonMedical
-  description: ent-RMCPodDoorButtonMedical-desc
-  suffix: ent-RMCPodDoorButtonMedical-suffix
+  name: button
+  description: A basic button locked to medical staff.
+  suffix: Locked, Medical & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ], [ "RMCAccessCommand" ] ]
@@ -148,9 +149,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonMorgue
-  name: ent-RMCPodDoorButtonMorgue
-  description: ent-RMCPodDoorButtonMorgue-desc
-  suffix: ent-RMCPodDoorButtonMorgue-suffix
+  name: button
+  description: A basic button locked to medical staff.
+  suffix: Locked, Morgue
   components:
   - type: AccessReader
     access: [ [ "RMCAccessMorgue" ] ]
@@ -158,9 +159,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonChemistry
-  name: ent-RMCPodDoorButtonChemistry
-  description: ent-RMCPodDoorButtonChemistry-desc
-  suffix: ent-RMCPodDoorButtonChemistry-suffix
+  name: button
+  description: A basic button locked to chemistry.
+  suffix: Locked, Chemistry & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessChemistry" ], [ "RMCAccessCommand" ] ]
@@ -168,9 +169,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonResearch
-  name: ent-RMCPodDoorButtonResearch
-  description: ent-RMCPodDoorButtonResearch-desc
-  suffix: ent-RMCPodDoorButtonResearch-suffix
+  name: button
+  description: A basic button locked to research staff.
+  suffix: Locked, Research & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessResearch" ], [ "RMCAccessCommand" ] ]
@@ -178,9 +179,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonSynth
-  name: ent-RMCPodDoorButtonSynth
-  description: ent-RMCPodDoorButtonSynth-desc
-  suffix: ent-RMCPodDoorButtonSynth-suffix
+  name: button
+  description: A basic button locked to Synthetics.
+  suffix: Locked, Synthetic
   components:
   - type: AccessReader
     access: [ [ "RMCAccessSynth" ] ]
@@ -188,9 +189,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonCMO
-  name: ent-RMCPodDoorButtonCMO
-  description: ent-RMCPodDoorButtonCMO-desc
-  suffix: ent-RMCPodDoorButtonCMO-suffix
+  name: button
+  description: A basic button locked to the Chief Medical Officer.
+  suffix: Locked, CMO
   components:
   - type: AccessReader
     access: [ [ "CMAccessCMO" ] ]
@@ -198,9 +199,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonCE
-  name: ent-RMCPodDoorButtonCE
-  description: ent-RMCPodDoorButtonCE-desc
-  suffix: ent-RMCPodDoorButtonCE-suffix
+  name: button
+  description: A basic button locked to the Chief Engineer.
+  suffix: Locked, CE
   components:
   - type: AccessReader
     access: [ [ "CMAccessCE" ] ]
@@ -208,9 +209,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonCO
-  name: ent-RMCPodDoorButtonCO
-  description: ent-RMCPodDoorButtonCO-desc
-  suffix: ent-RMCPodDoorButtonCO-suffix
+  name: button
+  description: A basic button locked to the Commanding Officer.
+  suffix: Locked, CO
   components:
   - type: AccessReader
     access: [ [ "CMAccessCO" ] ]
@@ -218,9 +219,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonSEA
-  name: ent-RMCPodDoorButtonSEA
-  description: ent-RMCPodDoorButtonSEA-desc
-  suffix: ent-RMCPodDoorButtonSEA-suffix
+  name: button
+  description: A basic button locked to Senior Enlisted Advisors.
+  suffix: Locked, SEA
   components:
   - type: AccessReader
     access: [ [ "CMAccessSEA" ] ]
@@ -228,9 +229,9 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonArmory
-  name: ent-RMCPodDoorButtonArmory
-  description: ent-RMCPodDoorButtonArmory-desc
-  suffix: ent-RMCPodDoorButtonArmory-suffix
+  name: button
+  description: A basic button locked to Armory.
+  suffix: Locked, Armory
   components:
   - type: AccessReader
     access: [ [ "CMAccessArmory" ] ]
@@ -240,8 +241,8 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonBigRed
-  name: ent-RMCPodDoorButtonBigRed
-  description: ent-RMCPodDoorButtonBigRed-desc
+  name: button
+  description: A remote control-switch for a door.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/door_button_br.rsi
@@ -254,14 +255,15 @@
 - type: entity
   parent: RMCPodDoorButtonBigRed
   id: RMCPodDoorButtonBigRedShip
-  name: ent-RMCPodDoorButtonBigRedShip
-  description: ent-RMCPodDoorButtonBigRedShip-desc
+  name: button
+  description: A basic button that does basic things.
+
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedMP
-  name: ent-RMCPodDoorButtonBigRedMP
-  description: ent-RMCPodDoorButtonBigRedMP-desc
-  suffix: ent-RMCPodDoorButtonBigRedMP-suffix
+  name: button
+  description: A button locked to Military Police.
+  suffix: Locked, Brig & Command
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ], [ "CMAccessBrig" ] ]
@@ -269,9 +271,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedCommand
-  name: ent-RMCPodDoorButtonBigRedCommand
-  description: ent-RMCPodDoorButtonBigRedCommand-desc
-  suffix: ent-RMCPodDoorButtonBigRedCommand-suffix
+  name: button
+  description: A basic button locked to Command.
+  suffix: Locked, Command
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ] ]
@@ -279,9 +281,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedSeniorCommand
-  name: ent-RMCPodDoorButtonBigRedSeniorCommand
-  description: ent-RMCPodDoorButtonBigRedSeniorCommand-desc
-  suffix: ent-RMCPodDoorButtonBigRedSeniorCommand-suffix
+  name: button
+  description: A basic button locked to Senior Command.
+  suffix: Locked, Senior Command
   components:
   - type: AccessReader
     access: [ [ "RMCAccessSeniorCommand" ] ]
@@ -289,9 +291,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedPilot
-  name: ent-RMCPodDoorButtonBigRedPilot
-  description: ent-RMCPodDoorButtonBigRedPilot-desc
-  suffix: ent-RMCPodDoorButtonBigRedPilot-suffix
+  name: button
+  description: A basic button locked to pilots and crew chiefs.
+  suffix: Locked, Dropship & Command
   components:
   - type: AccessReader
     access: [ [ "RMCAccessCommand" ], ["CMAccessDropship"] ]
@@ -299,9 +301,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedRequisitions
-  name: ent-RMCPodDoorButtonBigRedRequisitions
-  description: ent-RMCPodDoorButtonBigRedRequisitions-desc
-  suffix: ent-RMCPodDoorButtonBigRedRequisitions-suffix
+  name: button
+  description: A basic button locked to requisitions staff.
+  suffix: Locked, Requisitions & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ], [ "RMCAccessCommand" ] ]
@@ -309,9 +311,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedKitchen
-  name: ent-RMCPodDoorButtonBigRedKitchen
-  description: ent-RMCPodDoorButtonBigRedKitchen-desc
-  suffix: ent-RMCPodDoorButtonBigRedKitchen-suffix
+  name: button
+  description: A basic button locked to kitchen staff.
+  suffix: Locked, Kitchen & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessKitchen" ], [ "RMCAccessCommand" ] ]
@@ -319,9 +321,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedEngineering
-  name: ent-RMCPodDoorButtonBigRedEngineering
-  description: ent-RMCPodDoorButtonBigRedEngineering-desc
-  suffix: ent-RMCPodDoorButtonBigRedEngineering-suffix
+  name: button
+  description: A basic button locked to engineering staff.
+  suffix: Locked, Engineering & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ], [ "RMCAccessCommand" ] ]
@@ -329,9 +331,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedVehicle
-  name: ent-RMCPodDoorButtonBigRedVehicle
-  description: ent-RMCPodDoorButtonBigRedVehicle-desc
-  suffix: ent-RMCPodDoorButtonBigRedVehicle-suffix
+  name: button
+  description: A basic button locked to Vehicle Crewmen.
+  suffix: Locked, Vehicle Crewmen & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessEngineering" ], [ "RMCAccessCommand" ] ]
@@ -339,9 +341,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedOrdnance
-  name: ent-RMCPodDoorButtonBigRedOrdnance
-  description: ent-RMCPodDoorButtonBigRedOrdnance-desc
-  suffix: ent-RMCPodDoorButtonBigRedOrdnance-suffix
+  name: button
+  description: A basic button locked to Ordnance Techs.
+  suffix: Locked, Ordnance & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessOT" ], [ "RMCAccessCommand" ] ]
@@ -349,9 +351,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedMedical
-  name: ent-RMCPodDoorButtonBigRedMedical
-  description: ent-RMCPodDoorButtonBigRedMedical-desc
-  suffix: ent-RMCPodDoorButtonBigRedMedical-suffix
+  name: button
+  description: A basic button locked to medical staff.
+  suffix: Locked, Medical & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessMedical" ], [ "RMCAccessCommand" ] ]
@@ -359,9 +361,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedChemistry
-  name: ent-RMCPodDoorButtonBigRedChemistry
-  description: ent-RMCPodDoorButtonBigRedChemistry-desc
-  suffix: ent-RMCPodDoorButtonBigRedChemistry-suffix
+  name: button
+  description: A basic button locked to chemistry.
+  suffix: Locked, Chemistry & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessChemistry" ], [ "RMCAccessCommand" ] ]
@@ -369,9 +371,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedResearch
-  name: ent-RMCPodDoorButtonBigRedResearch
-  description: ent-RMCPodDoorButtonBigRedResearch-desc
-  suffix: ent-RMCPodDoorButtonBigRedResearch-suffix
+  name: button
+  description: A basic button locked to research staff.
+  suffix: Locked, Research & Command
   components:
   - type: AccessReader
     access: [ [ "CMAccessResearch" ], [ "RMCAccessCommand" ] ]
@@ -379,9 +381,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedSynth
-  name: ent-RMCPodDoorButtonBigRedSynth
-  description: ent-RMCPodDoorButtonBigRedSynth-desc
-  suffix: ent-RMCPodDoorButtonBigRedSynth-suffix
+  name: button
+  description: A basic button locked to Synthetics.
+  suffix: Locked, Synthetic
   components:
   - type: AccessReader
     access: [ [ "RMCAccessSynth" ] ]
@@ -389,9 +391,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedCMO
-  name: ent-RMCPodDoorButtonBigRedCMO
-  description: ent-RMCPodDoorButtonBigRedCMO-desc
-  suffix: ent-RMCPodDoorButtonBigRedCMO-suffix
+  name: button
+  description: A basic button locked to the Chief Medical Officer.
+  suffix: Locked, CMO
   components:
   - type: AccessReader
     access: [ [ "CMAccessCMO" ] ]
@@ -399,9 +401,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedCE
-  name: ent-RMCPodDoorButtonBigRedCE
-  description: ent-RMCPodDoorButtonBigRedCE-desc
-  suffix: ent-RMCPodDoorButtonBigRedCE-suffix
+  name: button
+  description: A basic button locked to the Chief Engineer.
+  suffix: Locked, CE
   components:
   - type: AccessReader
     access: [ [ "CMAccessCE" ] ]
@@ -409,9 +411,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedCO
-  name: ent-RMCPodDoorButtonBigRedCO
-  description: ent-RMCPodDoorButtonBigRedCO-desc
-  suffix: ent-RMCPodDoorButtonBigRedCO-suffix
+  name: button
+  description: A basic button locked to the Commanding Officer.
+  suffix: Locked, CO
   components:
   - type: AccessReader
     access: [ [ "CMAccessCO" ] ]
@@ -419,9 +421,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedSEA
-  name: ent-RMCPodDoorButtonBigRedSEA
-  description: ent-RMCPodDoorButtonBigRedSEA-desc
-  suffix: ent-RMCPodDoorButtonBigRedSEA-suffix
+  name: button
+  description: A basic button locked to Senior Enlisted Advisors.
+  suffix: Locked, SEA
   components:
   - type: AccessReader
     access: [ [ "CMAccessSEA" ] ]
@@ -429,9 +431,9 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedArmory
-  name: ent-RMCPodDoorButtonBigRedArmory
-  description: ent-RMCPodDoorButtonBigRedArmory-desc
-  suffix: ent-RMCPodDoorButtonBigRedArmory-suffix
+  name: button
+  description: A basic button locked to Armory.
+  suffix: Locked, Armory
   components:
   - type: AccessReader
     access: [ [ "CMAccessArmory" ] ]
@@ -441,7 +443,7 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonWeYa
-  suffix: ent-RMCPodDoorButtonWeYa-suffix
+  suffix: Locked, We-Yu
   components:
   - type: AccessReader
     access: [ [ "AU14AccessCorporateWEYU" ] ]
@@ -449,7 +451,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeDoor
-  name: ent-RMCPodDoorButtonWeYaOfficeDoor
+  name: Office Door Shutter
   components:
   - type: RMCDoorButton
     id: cl_office_door
@@ -457,7 +459,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeWindows
-  name: ent-RMCPodDoorButtonWeYaOfficeWindows
+  name: Office Windows Shutters
   components:
   - type: RMCDoorButton
     id: cl_office_windows
@@ -465,7 +467,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeRoomDivider
-  name: ent-RMCPodDoorButtonWeYaOfficeRoomDivider
+  name: Room Divider
   components:
   - type: RMCDoorButton
     id: RoomDivider
@@ -473,7 +475,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeEvacPod
-  name: ent-RMCPodDoorButtonWeYaOfficeEvacPod
+  name: Evac Pod Door Control
   components:
   - type: RMCDoorButton
     id: cl_evac
@@ -481,7 +483,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeQuarterDoor
-  name: ent-RMCPodDoorButtonWeYaOfficeQuarterDoor
+  name: Quarter Door Shutter
   components:
   - type: RMCDoorButton
     id: cl_quarter_door
@@ -489,7 +491,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeMaintenanceDoor
-  name: ent-RMCPodDoorButtonWeYaOfficeMaintenanceDoor
+  name: Maintenance Door Shutter
   components:
   - type: RMCDoorButton
     id: cl_quarter_maintenance
@@ -497,7 +499,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeQuarterWindows
-  name: ent-RMCPodDoorButtonWeYaOfficeQuarterWindows
+  name: Quarter Windows Shutters
   components:
   - type: RMCDoorButton
     id: cl_quarter_windows
@@ -505,7 +507,7 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonSPP
-  suffix: ent-RMCPodDoorButtonSPP-suffix
+  suffix: Locked, SPP
   components:
   - type: AccessReader
     access: [ [ "RMCAccessSPPGeneral" ] ]
@@ -513,8 +515,8 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonHybrisaCavesLockdown
-  name: ent-RMCPodDoorButtonHybrisaCavesLockdown
-  suffix: ent-RMCPodDoorButtonHybrisaCavesLockdown-suffix
+  name: Caves Lockdown
+  suffix: Hybrisa
   components:
   - type: RMCDoorButton
     marineAnnouncement: rmc-machines-button-marine-announcement-weya

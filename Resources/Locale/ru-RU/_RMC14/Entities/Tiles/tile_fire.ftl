@@ -1,50 +1,60 @@
 ent-RMCTileFire = огонь
+
 ent-RMCTileFireGreen = огонь
+
 ent-RMCTileFireBlue = огонь
+
 ent-RMCTileFireOB = огонь
+
 ent-RMCTileFireOBAegis = огонь
+
 ent-RMCTileFireLaser = огонь
+
 ent-RMCTileFireNapalm = огонь
+
 ent-RMCTileFireBanshee = огонь
+
 ent-RMCTileFireThermobaric = огонь
+
 ent-RMCTileFireMiniMike = огонь
+
 ent-RMCTileFireForever = огонь
   .desc = Это не выйдет в ближайшее время!!
-    .suffix = огонь
+
 ent-RMCTileFireForeverStrong = огонь
   .desc = Это не выйдет в ближайшее время!!
-    .suffix = огонь
+
 ent-RMCTileFireForeverNormal = огонь
   .desc = Это не выйдет в ближайшее время!!
-    .suffix = огонь
+
 ent-RMCTileFireForeverWeak = огонь
   .desc = Это не выйдет в ближайшее время!!
-    .suffix = огонь
+
 ent-RMCTileFireForeverOrange = огонь
   .desc = Это не выйдет в ближайшее время!!
-    .suffix = огонь
+
 ent-RMCTileFireForeverStrongOrange = огонь
   .desc = Это не выйдет в ближайшее время!!
-    .suffix = огонь
+
 ent-RMCTileFireForeverNormalOrange = огонь
   .desc = Это не выйдет в ближайшее время!!
-    .suffix = огонь
+
 ent-RMCTileFireForeverWeakOrange = огонь
   .desc = Это не выйдет в ближайшее время!!
-    .suffix = огонь
+
 ent-RMCTileFireStickyNapalm = огонь
-    .suffix = огонь
+
 ent-RMCTileFireHCNapalm = огонь
-    .suffix = огонь
+
 ent-RMCTileFireNapalmE = огонь
-    .suffix = огонь
+
 ent-RMCTileFireNapalmEX = огонь
-    .suffix = огонь
+
 ent-RMCTileFireR189 = огонь
-    .suffix = огонь
+
 ent-RMCTileFireNapalmBase = огонь
-    .suffix = огонь
+
 ent-RMCTileFireEthanol = огонь
-    .suffix = огонь
+
 ent-RMCTileFireWeldingFuel = огонь
-ent-RMCTileFireBrute = огонь
+

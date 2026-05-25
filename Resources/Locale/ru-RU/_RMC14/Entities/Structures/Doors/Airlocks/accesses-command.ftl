@@ -1,22 +1,22 @@
 ent-CMAirlockSecureLockedCommand = безопасный шлюз
-    .suffix = Команда, Заблокировано
+
 ent-CMAirlockCommandLocked = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockMaintCommandLocked = люк для обслуживания
-    .suffix = люк для обслуживания
+
 ent-CMAirlockCMPLocked = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockQuartermasterLocked = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockSEALocked = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockCOLocked = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockCMOLocked = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockCELocked = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockASOLocked = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockHighCommandLocked = командный шлюз
-    .suffix = командный шлюз
+

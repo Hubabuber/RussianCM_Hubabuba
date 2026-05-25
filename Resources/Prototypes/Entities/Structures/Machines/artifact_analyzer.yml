@@ -1,8 +1,8 @@
 - type: entity
   id: MachineArtifactAnalyzer
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  name: ent-MachineArtifactAnalyzer
-  description: ent-MachineArtifactAnalyzer-desc
+  name: artifact analyzer
+  description: A platform capable of performing analysis on various types of artifacts.
   components:
   - type: Sprite
     noRot: true
@@ -83,8 +83,8 @@
 - type: entity
   id: MachineArtifactCrusher
   parent: [ ConstructibleMachine, BaseMachinePowered ]
-  name: ent-MachineArtifactCrusher
-  description: ent-MachineArtifactCrusher-desc
+  name: artifact crusher
+  description: Best not to let your fingers get stuck...
   components:
   - type: ArtifactCrusher
     crushingWhitelist:

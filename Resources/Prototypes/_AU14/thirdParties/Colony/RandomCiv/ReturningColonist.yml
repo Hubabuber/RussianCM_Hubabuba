@@ -1,18 +1,18 @@
 - type: job
   parent: CMJobBase
   id: AU14JobReturningColonist
-  name: job-au14jobreturningcolonist-name
-  description: job-au14jobreturningcolonist-desc
+  name: au14-job-name-civiliancolonist
+  description: au14-job-description-civiliancolonist
   setPreference: true
   playTimeTracker: AU14JobReturningColonist
   ranks:
     RMCRankCivilian: []
   startingGear: AU14GearCivilianColonist
-  spawnMenuRoleName: job-au14jobreturningcolonist-spawnmenurolename
+  spawnMenuRoleName: Colonist (3rd party)
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobreturningcolonist-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -38,7 +38,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobReturningColonist
-  name: ent-AU14JobReturningColonist
+  name: Returning Colonist (civilian)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -56,7 +56,7 @@
 
 - type: entity
   id: AU14ReturningColonistPreset
-  name: ent-AU14ReturningColonistPreset
+  name: returning colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

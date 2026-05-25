@@ -2,8 +2,8 @@
 - type: entity
   id: RMCAirScrubberPortable
   parent: BaseStructureDynamic
-  name: ent-RMCAirScrubberPortable
-  description: ent-RMCAirScrubberPortable-desc
+  name: portable air scrubber
+  description: It scrubs, portably!
   components:
   - type: Transform
   - type: Physics
@@ -64,8 +64,8 @@
 - type: entity
   id: RMCAirScrubberStationary
   parent: RMCAirScrubberPortable
-  name: ent-RMCAirScrubberStationary
-  description: ent-RMCAirScrubberStationary-desc
+  name: stationary air scrubber
+  description: It's large and securely attached.
   components:
   - type: Physics
     bodyType: Static
@@ -83,8 +83,8 @@
 - type: entity
   id: RMCAirPumpPortable
   parent: RMCAirScrubberPortable
-  name: ent-RMCAirPumpPortable
-  description: ent-RMCAirPumpPortable-desc
+  name: portable air pump
+  description: A movable pump that can move air around.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -106,8 +106,8 @@
 - type: entity
   id: RMCAirPumpStationary
   parent: RMCAirPumpPortable
-  name: ent-RMCAirPumpStationary
-  description: ent-RMCAirPumpStationary-desc
+  name: stationary air pump
+  description: It's large and securely attached.
   components:
   - type: Physics
     bodyType: Static
@@ -124,8 +124,8 @@
 # Heaters
 - type: entity
   id: RMCRadiator
-  name: ent-RMCRadiator
-  description: ent-RMCRadiator-desc
+  name: radiator
+  description: It's a radiator. It heats the room through convection with hot water.
   components:
   - type: Transform
   - type: Physics
@@ -160,8 +160,8 @@
 - type: entity
   id: RMCRadiatorRed
   parent: RMCRadiator
-  name: ent-RMCRadiatorRed
-  description: ent-RMCRadiatorRed-desc
+  name: radiator
+  description: It's a radiator. It heats the room through convection with hot water. This one has a red handle.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -170,8 +170,8 @@
 - type: entity
   id: RMCSpaceHeater
   parent: BaseStructureDynamic
-  name: ent-RMCSpaceHeater
-  description: ent-RMCSpaceHeater-desc
+  name: space heater
+  description: It's an electric space heater. It heats the room through radiation with electricity.
   components:
   - type: VehicleSmashable
   - type: Transform

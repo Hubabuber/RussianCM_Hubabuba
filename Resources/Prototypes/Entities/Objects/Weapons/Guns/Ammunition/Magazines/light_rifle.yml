@@ -1,7 +1,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazineLightRifle
-  name: "ent-BaseMagazineLightRifle"
+  name: "magazine (.30 rifle)"
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -36,9 +36,9 @@
 # Magazines
 - type: entity
   id: MagazineLightRifleBox
-  name: "ent-MagazineLightRifleBox"
+  name: "L6 SAW magazine box (.30 rifle)"
   parent: BaseMagazineLightRifle
-  description: ent-MagazineLightRifleBox-desc
+  description: Box containing a 100-round belt of linked .30 rifle rounds, used by light machine guns such as the L6. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: Tag
     tags:
@@ -57,9 +57,9 @@
 
 - type: entity
   id: MagazineLightRifle
-  name: "ent-MagazineLightRifle"
+  name: "magazine (.30 rifle)"
   parent: BaseMagazineLightRifle
-  description: ent-MagazineLightRifle-desc
+  description: Curved 30-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
@@ -78,10 +78,10 @@
 
 - type: entity
   id: MagazineLightRifleEmpty
-  name: "ent-MagazineLightRifleEmpty"
-  suffix: ent-MagazineLightRifleEmpty-suffix
+  name: "magazine (.30 rifle any)"
+  suffix: empty
   parent: MagazineLightRifle
-  description: ent-MagazineLightRifleEmpty-desc
+  description: Curved 30-round double stack magazine for combat rifles.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -100,9 +100,9 @@
 
 - type: entity
   id: MagazineLightRiflePractice
-  name: "ent-MagazineLightRiflePractice"
+  name: "magazine (.30 rifle practice)"
   parent: BaseMagazineLightRifle
-  description: ent-MagazineLightRiflePractice-desc
+  description: Curved 30-round double stack magazine for combat rifles. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -127,9 +127,9 @@
 
 - type: entity
   id: MagazineLightRifleUranium
-  name: "ent-MagazineLightRifleUranium"
+  name: "magazine (.30 rifle uranium)"
   parent: BaseMagazineLightRifle
-  description: ent-MagazineLightRifleUranium-desc
+  description: Curved 30-round double stack magazine for combat rifles. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium
@@ -154,9 +154,9 @@
 
 - type: entity
   id: MagazineLightRifleIncendiary
-  name: "ent-MagazineLightRifleIncendiary"
+  name: "magazine (.30 rifle incendiary)"
   parent: MagazineLightRifle
-  description: ent-MagazineLightRifleIncendiary-desc
+  description: Curved 30-round double stack magazine for combat rifles. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
@@ -181,7 +181,7 @@
 
 - type: entity
   id: MagazineLightRifleMaxim
-  name: "ent-MagazineLightRifleMaxim"
+  name: "pan magazine (.30 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
@@ -195,7 +195,7 @@
 
 - type: entity
   id: MagazineLightRiflePkBox
-  name: "ent-MagazineLightRiflePkBox"
+  name: "PK munitions box (.30 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag

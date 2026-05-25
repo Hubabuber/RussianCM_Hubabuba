@@ -1,10 +1,10 @@
-# Prefabs
+﻿# Prefabs
 
 - type: entity
   abstract: true
   id: RMCPrefabBase
-  name: ent-RMCPrefabBase
-  description: ent-RMCPrefabBase-desc
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, USCMC and UPP uniforms. The loose walls roll with each gust of wind.
   placement:
     mode: SnapgridCenter
   components:
@@ -30,8 +30,8 @@
 - type: entity
   abstract: true
   id: RMCPrefabBaseTop
-  name: ent-RMCPrefabBaseTop
-  description: ent-RMCPrefabBaseTop-desc
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, USCMC and UPP uniforms. The loose walls roll with each gust of wind.
   placement:
     mode: SnapgridCenter
   components:
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCPrefabBase
   id: RMCPrefabBlueBase
-  suffix: ent-RMCPrefabBlueBase-suffix
+  suffix: Blue, Base
   components:
   - type: Sprite
     state: blu
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCPrefabBaseTop
   id: RMCPrefabBlueTop
-  suffix: ent-RMCPrefabBlueTop-suffix
+  suffix: Blue, Top
   components:
   - type: Sprite
     state: blu_trim
@@ -71,7 +71,7 @@
 - type: entity
   parent: RMCPrefabBase
   id: RMCPrefabOrangeBase
-  suffix: ent-RMCPrefabOrangeBase-suffix
+  suffix: Orange, Base
   components:
   - type: Sprite
     state: orange
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCPrefabBaseTop
   id: RMCPrefabOrangeTop
-  suffix: ent-RMCPrefabOrangeTop-suffix
+  suffix: Orange, Top
   components:
   - type: Sprite
     state: orange_trim
@@ -87,7 +87,7 @@
 - type: entity
   parent: RMCPrefabBase
   id: RMCPrefabPinkBase
-  suffix: ent-RMCPrefabPinkBase-suffix
+  suffix: Pink, Base
   components:
   - type: Sprite
     state: pink
@@ -95,7 +95,7 @@
 - type: entity
   parent: RMCPrefabBaseTop
   id: RMCPrefabPinkTop
-  suffix: ent-RMCPrefabPinkTop-suffix
+  suffix: Pink, Top
   components:
   - type: Sprite
     state: pink_trim
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCPrefabBase
   id: RMCPrefabRedBase
-  suffix: ent-RMCPrefabRedBase-suffix
+  suffix: Red, Base
   components:
   - type: Sprite
     state: red
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCPrefabBaseTop
   id: RMCPrefabRedTop
-  suffix: ent-RMCPrefabRedTop-suffix
+  suffix: Red, Top
   components:
   - type: Sprite
     state: red_trim
@@ -119,7 +119,7 @@
 - type: entity
   parent: RMCPrefabBase
   id: RMCPrefabWhiteBase
-  suffix: ent-RMCPrefabWhiteBase-suffix
+  suffix: White, Base
   components:
   - type: Sprite
     state: white
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCPrefabBaseTop
   id: RMCPrefabWhiteTop
-  suffix: ent-RMCPrefabWhiteTop-suffix
+  suffix: White, Top
   components:
   - type: Sprite
     state: white_trim
@@ -135,8 +135,8 @@
 - type: entity
   abstract: true
   id: RMCPrefab32BaseTop
-  name: ent-RMCPrefab32BaseTop
-  description: ent-RMCPrefab32BaseTop-desc
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, USCMC and UPP uniforms. The loose walls roll with each gust of wind.
   placement:
     mode: SnapgridCenter
   components:
@@ -161,8 +161,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallPrefabOrange
-  name: ent-RMCWallPrefabOrange
-  description: ent-RMCWallPrefabOrange-desc
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, USCMC and UPP uniforms. The loose walls roll with each gust of wind.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/prefab_tileset.rsi
@@ -293,9 +293,9 @@
 - type: entity
   abstract: true
   id: RMCPrefabGreebleBase
-  name: ent-RMCPrefabGreebleBase
-  description: ent-RMCPrefabGreebleBase-desc
-  suffix: ent-RMCPrefabGreebleBase-suffix
+  name: prefabricated structure
+  description: Windsocks, Air-Con units, solarpanels, oh my!
+  suffix: Greeble
   placement:
     mode: SnapgridCenter
   components:

@@ -2,8 +2,8 @@
   parent: BaseMachinePowered
   abstract: true
   id: RMCBasePhotocopier
-  name: ent-RMCBasePhotocopier
-  description: ent-RMCBasePhotocopier-desc
+  name: Photocopier
+  description: A photocopier used for copying... you know, photos! Also useful for copying documents on paper. This specific model has been manufactured by AEGIS Armaments in a cheaper frame than most modern photocopiers. It uses more primitive copying technology resulting in more toner waste and less printing capabilities. Nonetheless, its cheap construction means cheaper costs, and for people that only need to print a paper or two most of the time, it becomes cost-effective.
   components:
   - type: Transform
     anchored: false
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopier
-  name: ent-RMCPhotocopier
+  name: Photocopier
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCPhotocopier
   id: RMCPhotocopierSmallHitbox
-  suffix: ent-RMCPhotocopierSmallHitbox-suffix
+  suffix: Smaller
   components:
   - type: Fixtures
     fixtures:
@@ -63,8 +63,8 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopierPro
-  name: ent-RMCPhotocopierPro
-  description: ent-RMCPhotocopierPro-desc
+  name: We-Yu Photocopier
+  description: A photocopier used for copying... you know, photos! Also useful for copying documents on paper. This specific model has been manufactured by We-Yu in a more modern and robust frame than the average photocopiers you see from smaller companies. It uses some of the most advanced technologies in the area of paper-printing such as bigger toner economy and much higher printing capabilities. All that makes it the favorite among consumers that need to print high amounts of paperwork for their daily duties.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi

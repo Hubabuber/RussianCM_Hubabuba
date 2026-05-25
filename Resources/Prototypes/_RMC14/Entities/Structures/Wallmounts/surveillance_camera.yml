@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   id: RMCSurveillanceCameraAlmayer
-  name: ent-RMCSurveillanceCameraAlmayer
-  description: ent-RMCSurveillanceCameraAlmayer-desc
+  name: ship-grade camera
+  description: It's used to monitor rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -63,9 +63,9 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCMonitorCameraAlmayer
-  name: ent-RMCMonitorCameraAlmayer
-  description: ent-RMCMonitorCameraAlmayer-desc
-  suffix: ent-RMCMonitorCameraAlmayer-suffix
+  name: ship security cameras
+  description: Used to access the various cameras on the station.
+  suffix: Almayer
   components:
   - type: Transform
     anchored: false
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: RMCMonitorCameraAlamo
-  description: ent-RMCMonitorCameraAlamo-desc
-  suffix: "ent-RMCMonitorCameraAlamo-suffix"
+  description: It's used to monitor the dropship.
+  suffix: "Alamo"
   components:
   - type: RMCCamera
     id: RMCMonitorCameraAlamo
@@ -103,8 +103,8 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: RMCMonitorCameraNormandy
-  description: ent-RMCMonitorCameraNormandy-desc
-  suffix: "ent-RMCMonitorCameraNormandy-suffix"
+  description: It's used to monitor the dropship.
+  suffix: "Normandy"
   components:
   - type: RMCCamera
     id: RMCMonitorCameraNormandy
@@ -112,8 +112,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCMonitorCameraLandingZone
-  name: ent-RMCMonitorCameraLandingZone
-  suffix: "ent-RMCMonitorCameraLandingZone-suffix"
+  name: landing zone camera
+  suffix: "LZ Detector"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Wallmounts/camera.rsi

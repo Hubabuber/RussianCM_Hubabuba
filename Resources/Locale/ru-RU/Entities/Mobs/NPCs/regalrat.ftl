@@ -25,32 +25,3 @@ ent-ActionRatKingOrderLoose-desc = Прикажите своей армии де
 ent-MobRatKingBuff-name = крысиный король
 ent-MobRatKingBuff-desc = Он крыса. Он делает да рулз.
 
-ent-ActionRatKingDomain = Владения Крысиного короля
-    .desc = Потратьте немного голода, чтобы выпустить в воздух облако аммиака.
-
-ent-ActionRatKingOrderCheeseEm = Сыр 'Эм
-    .desc = Прикажите своей армии атаковать любого, на кого вы укажете.
-
-ent-ActionRatKingOrderFollow = Следовать
-    .desc = Прикажите своей армии следовать за вами.
-
-ent-ActionRatKingOrderLoose = Свободный
-    .desc = Прикажите своей армии действовать по своему усмотрению.
-
-ent-ActionRatKingOrderStay = Оставаться
-    .desc = Прикажите своей армии стоять на месте.
-
-ent-ActionRatKingRaiseArmy = Поднять армию
-    .desc = Потратьте немного голода, чтобы вызвать союзную крысу, которая поможет защитить вас.
-
-ent-MobRatKing = крысиный король
-    .desc = Он крыса. Он делает да рулз.
-    .suffix = AI
-
-ent-MobRatKingBuff = крысиный король
-    .desc = Он крыса. Он делает да рулз.
-    .suffix = Бафф
-
-ent-MobRatServant = крыса-слуга
-    .desc = Он маленькая крыса. Он не делает да рулз.
-    .suffix = AI

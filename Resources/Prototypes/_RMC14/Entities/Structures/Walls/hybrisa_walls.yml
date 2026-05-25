@@ -3,8 +3,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHybrisaRock
-  name: ent-RMCWallHybrisaRock
-  description: ent-RMCWallHybrisaRock-desc
+  name: rock wall
+  description: Massive columns comprised of anicent sedimentary rocks loom before you.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rock.rsi
@@ -22,7 +22,7 @@
 - type: entity
   parent: RMCWallHybrisaRock
   id: RMCWallHybrisaRockBorder
-  suffix: ent-RMCWallHybrisaRockBorder-suffix
+  suffix: border
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rock.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCWallHybrisaRock
   id: RMCWallHybrisaRockTimed
-  suffix: ent-RMCWallHybrisaRockTimed-suffix
+  suffix: TIMED
   components:
   - type: TimedDespawn
     lifetime: 2400
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallEngineer
-  name: ent-RMCWallEngineer
-  description: ent-RMCWallEngineer-desc
+  name: strange metal wall
+  description: Nigh indestructible walls that make up the hull of an unknown ancient ship, looks like nothing you can do will penetrate the hull.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_engineership.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallHybrisa
-  name: ent-RMCWallHybrisa
-  description: ent-RMCWallHybrisa-desc
+  name: bare metal walls
+  description: A thick and chunky metal wall. The surface is barren and imposing.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_wall.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallHybrisaReinforced
-  name: ent-RMCWallHybrisaReinforced
-  description: ent-RMCWallHybrisaReinforced-desc
+  name: ribbed metal walls
+  description: A thick and chunky metal wall covered in jagged ribs.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall.rsi
@@ -109,9 +109,9 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHybrisaHull
-  name: ent-RMCWallHybrisaHull
-  suffix: ent-RMCWallHybrisaHull-suffix
-  description: ent-RMCWallHybrisaHull-desc
+  name: ribbed metal walls
+  suffix: hull
+  description: A thick and chunky metal wall that is, just by virtue of its placement and imposing presence, entirely indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall.rsi
@@ -131,7 +131,7 @@
 - type: entity
   parent: RMCWallHybrisa
   id: RMCWallHybrisaMedical
-  suffix: ent-RMCWallHybrisaMedical-suffix
+  suffix: medical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_wall_medical.rsi
@@ -143,7 +143,7 @@
 - type: entity
   parent: RMCWallHybrisaReinforced
   id: RMCWallHybrisaMedicalReinforced
-  suffix: ent-RMCWallHybrisaMedicalReinforced-suffix
+  suffix: medical
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall_medical.rsi
@@ -155,7 +155,7 @@
 - type: entity
   parent: RMCWallHybrisaHull
   id: RMCWallHybrisaMedicalHull
-  suffix: ent-RMCWallHybrisaMedicalHull-suffix
+  suffix: medical, hull
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall_medical.rsi
@@ -169,7 +169,7 @@
 - type: entity
   parent: RMCWallHybrisa
   id: RMCWallHybrisaEngi
-  suffix: ent-RMCWallHybrisaEngi-suffix
+  suffix: engineering
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_wall_engineering.rsi
@@ -181,7 +181,7 @@
 - type: entity
   parent: RMCWallHybrisaReinforced
   id: RMCWallHybrisaEngiReinforced
-  suffix: ent-RMCWallHybrisaEngiReinforced-suffix
+  suffix: engineering
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall_engineering.rsi
@@ -193,7 +193,7 @@
 - type: entity
   parent: RMCWallHybrisaHull
   id: RMCWallHybrisaEngiHull
-  suffix: ent-RMCWallHybrisaEngiHull-suffix
+  suffix: engineering, hull
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall_engineering.rsi
@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCWallHybrisa
   id: RMCWallHybrisaOffice
-  suffix: ent-RMCWallHybrisaOffice-suffix
+  suffix: office
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_wall_office.rsi
@@ -221,9 +221,9 @@
 - type: entity
   parent: RMCWallHybrisa
   id: RMCWallHybrisaSpacePort
-  name: ent-RMCWallHybrisaSpacePort
-  description: ent-RMCWallHybrisaSpacePort-desc
-  suffix: ent-RMCWallHybrisaSpacePort-suffix
+  name: metal wall
+  description: A huge chunk of metal used to separate rooms.
+  suffix: space port
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_spaceport.rsi
@@ -241,9 +241,9 @@
 - type: entity
   parent: RMCWallHybrisaReinforced
   id: RMCWallHybrisaSpacePortReinforced
-  suffix: ent-RMCWallHybrisaSpacePortReinforced-suffix
-  name: ent-RMCWallHybrisaSpacePortReinforced
-  description: ent-RMCWallHybrisaSpacePortReinforced-desc
+  suffix: space port
+  name: reinforced metal wall
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_spaceport_reinforced.rsi
@@ -261,9 +261,9 @@
 - type: entity
   parent: RMCWallHybrisaHull
   id: RMCWallHybrisaSpacePortHull
-  suffix: ent-RMCWallHybrisaSpacePortHull-suffix
-  name: ent-RMCWallHybrisaSpacePortHull
-  description: ent-RMCWallHybrisaSpacePortHull-desc
+  suffix: space port, hull
+  name: heavy reinforced wall
+  description: A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_spaceport_reinforced.rsi
@@ -283,7 +283,7 @@
 - type: entity
   parent: RMCWallHybrisa
   id: RMCWallHybrisaResearch
-  suffix: ent-RMCWallHybrisaResearch-suffix
+  suffix: research
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_wall_research.rsi
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCWallHybrisaReinforced
   id: RMCWallHybrisaResearchReinforced
-  suffix: ent-RMCWallHybrisaResearchReinforced-suffix
+  suffix: research
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall_research.rsi
@@ -307,7 +307,7 @@
 - type: entity
   parent: RMCWallHybrisaHull
   id: RMCWallHybrisaResearchHull
-  suffix: ent-RMCWallHybrisaResearchHull-suffix
+  suffix: research, hull
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall_research.rsi

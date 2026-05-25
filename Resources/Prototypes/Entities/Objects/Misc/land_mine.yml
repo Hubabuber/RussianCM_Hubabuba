@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: BaseLandMine
   abstract: true
   components:
@@ -61,7 +61,7 @@
 
 - type: entity
   id: LandMineKickUnarmed
-  name: ent-LandMineKickUnarmed
+  name: kick mine
   parent: BaseLandMine
   components:
   - type: GhostKickUserOnTrigger
@@ -69,7 +69,7 @@
 
 - type: entity
   id: LandMineKick
-  suffix: ent-LandMineKick-suffix
+  suffix: armed
   parent: LandMineKickUnarmed
   components:
   - type: ItemToggle
@@ -78,8 +78,8 @@
   - type: Armable
 
 - type: entity
-  name: ent-LandMineModularUnarmed
-  description: ent-LandMineModularUnarmed-desc
+  name: modular mine
+  description: This bad boy could be packing any number of dangers. Or a bike horn.
   parent: BaseLandMine
   id: LandMineModularUnarmed
   components:
@@ -90,7 +90,7 @@
 
 - type: entity
   id: LandMineModular
-  suffix: ent-LandMineModular-suffix
+  suffix: armed
   parent: LandMineModularUnarmed
   components:
   - type: ItemToggle
@@ -99,7 +99,7 @@
   - type: Armable
 
 - type: entity
-  name: ent-LandMineExplosiveUnarmed
+  name: explosive mine
   parent: BaseLandMine
   id: LandMineExplosiveUnarmed
   components:
@@ -112,7 +112,7 @@
     canCreateVacuum: false
 
 - type: entity
-  suffix: ent-LandMineExplosive-suffix
+  suffix: armed
   parent: LandMineExplosiveUnarmed
   id: LandMineExplosive
   components:

@@ -2,8 +2,8 @@
 - type: job
   parent: CMJobBase
   id: RMCPMCSniper
-  name: job-rmcpmcsniper-name
-  description: job-rmcpmcsniper-desc
+  name: rmc-job-name-pmc-sniper
+  description: rmc-ghost-role-information-pmc-description
   playTimeTracker: RMCJobPMCSniper
   ranks:
     RMCRankWeYaWeaponSpecialist: []
@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: job-rmcpmcsniper-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Sniper Specialist
   special:
   - !type:AddComponentSpecial
     components:
@@ -46,8 +46,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCSniper
-  name: ent-RMCRandomHumanoidPMCSniper
-  suffix: ent-RMCRandomHumanoidPMCSniper-suffix
+  name: weya pmc ghost role sniper
+  suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCSniper
-  name: ent-RMCSpawnPointPMCSniper
+  name: weya pmc sniper spawn point
   components:
   - type: SpawnPoint
     job_id: RMCPMCSniper

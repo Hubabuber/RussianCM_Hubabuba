@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobOpforPlatoonCorpsman
-  name: job-au14jobopforplatooncorpsman-name
-  description: job-au14jobopforplatooncorpsman-desc
+  name: au14-job-name-opforplatooncorpsman
+  description: au14-job-description-opforplatooncorpsman
   setPreference: false
   playTimeTracker: AU14JobGOVFORPlatoonCorpsman
   requirements:
@@ -21,14 +21,14 @@
   dummyStartingGear: AU14GearopforCorpsmanDummy
   icon: "AU14JobIconOPFORCorpsman"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobopforplatooncorpsman-spawnmenurolename
+  spawnMenuRoleName: Hospital Coprsman (OPFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobopforplatooncorpsman-supervisors
+  supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforCorpsman
   - AU14OpforSquad
   overwatchSortPriority: -2
-  overwatchRoleName: job-au14jobopforplatooncorpsman-overwatchrolename
+  overwatchRoleName: au14-job-name-govforplatooncorpsman-plural
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforPlatoonCorpsman
-  name: ent-AU14SpawnPointopforPlatoonCorpsman
+  name: Spawn Point opfor Squad Sergeant
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforPlatoonCorpsman

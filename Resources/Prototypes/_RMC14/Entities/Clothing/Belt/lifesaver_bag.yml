@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBeltMedical
   id: CMBeltMedicBag
-  name: ent-CMBeltMedicBag
-  description: ent-CMBeltMedicBag-desc
+  name: M276 pattern lifesaver bag
+  description: The M276 is the standard load-bearing equipment of the USCM. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/medicbag/jungle-classic.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: CMBeltMedicBag
   id: RMCBeltMedicBagSPP
-  name: ent-RMCBeltMedicBagSPP
-  description: ent-RMCBeltMedicBagSPP-desc
+  name: Type 41 pattern lifesaver bag
+  description: The Type 41 load rig is the standard load-bearing equipment of the UPP military. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics.
   components:
   # TODO RMC14 - Sprites
   - type: ItemCamouflage
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCBeltMedicBagSPP
   id: RMCBeltMedicBagSPPCommandoFilled
-  suffix: ent-RMCBeltMedicBagSPPCommandoFilled-suffix
+  suffix: Commando, Filled
   components:
   - type: StorageFill
     contents:
@@ -135,8 +135,8 @@
 - type: entity
   parent: RMCBeltMedicBagSPP
   id: RMCBeltMedicBagPMC
-  name: ent-RMCBeltMedicBagPMC
-  description: ent-RMCBeltMedicBagPMC-desc
+  name: WY-TM625 pattern medical bag
+  description: The WY-TM625 is the standard load-bearing equipment of the W-Y security forces. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/medicbag/snow-urban.rsi
@@ -146,7 +146,7 @@
 - type: entity
   parent: RMCBeltMedicBagPMC
   id: RMCBeltMedicBagPMCFilled
-  suffix: ent-RMCBeltMedicBagPMCFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -171,7 +171,7 @@
 - type: entity
   parent: CMBeltMedicBag
   id: RMCBeltMedicBagRoyal
-  suffix: ent-RMCBeltMedicBagRoyal-suffix
+  suffix: Filled, Royal
   components:
   - type: StorageFill
     contents:

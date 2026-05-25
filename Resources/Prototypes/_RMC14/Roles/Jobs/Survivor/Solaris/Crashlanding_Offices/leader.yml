@@ -1,17 +1,17 @@
 - type: job
   parent: RMCSurvivorPMCBase
   id: RMCSurvivorSolarisPMCLeader
-  name: job-rmcsurvivorsolarispmcleader-name
+  name: rmc-job-name-pmc-leader
   ranks:
     RMCRankWeYaTeamLeader: []
-  supervisors: job-rmcsurvivorsolarispmcleader-supervisors
+  supervisors: cm-job-supervisors-we-ya
   accessGroups:
   - ColonistPMC
   startingGear: RMCGearSurvivorPMCLeader
   icon: RMCJobIconPMCLeader
   greeting: rmc-job-greeting-solaris-pmc-leader
   playTimeTracker: RMCJobSurvivorMilitary
-  spawnMenuRoleName: job-rmcsurvivorsolarispmcleader-spawnmenurolename
+  spawnMenuRoleName: Survivor — PMC Leader (Solaris Ridge special survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorCrashlandingOfficesLeader
-  name: ent-RMCSpawnPointSurvivorCrashlandingOfficesLeader
+  name: special survivor crashlanding offices pmc leader spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorSolarisPMCLeader

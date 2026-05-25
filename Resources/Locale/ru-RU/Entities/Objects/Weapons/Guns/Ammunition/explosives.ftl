@@ -26,33 +26,3 @@ ent-CannonBallGrapeshot-name = картечь
 
 ent-CannonBallGlassshot-name = выстрел из стекла
 
-ent-BaseCannonBall = базовое пушечное ядро
-
-ent-BaseGrenade = базовая граната
-
-ent-CannonBall = пушечное ядро
-    .suffix = Пират
-
-ent-CannonBallGlassshot = выстрел из стекла
-    .suffix = Пират
-
-ent-CannonBallGrapeshot = картечь
-    .suffix = Пират
-
-ent-CartridgeRocket = Граната ПГ-7ВЛ
-    .desc = Боевая часть калибра 1,5 мм предназначена для пусковой установки РПГ-7. Имеет трубчатую форму.
-
-ent-CartridgeRocketSlow = Граната ПГ-7ВЛ «Улитка-Ракета»
-    .desc = Боевая часть калибра 1,5 мм предназначена для пусковой установки РПГ-7. Это необычно медленно.
-
-ent-GrenadeBaton = дубинка граната
-
-ent-GrenadeBlast = взрывная граната
-
-ent-GrenadeCleanade = круглая граната Cleanade
-
-ent-GrenadeEMP = ЭМИ-граната
-
-ent-GrenadeFlash = светошумовая граната
-
-ent-GrenadeFrag = осколочная граната

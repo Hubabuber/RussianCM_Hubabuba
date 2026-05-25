@@ -1,10 +1,10 @@
 ent-RMCAreaShuttleERT = ЭРТ Шаттл
-    .suffix = область
+
 ent-RMCAreaShuttleNS = Трансфер
-    .suffix = область
+
 ent-RMCAreaERTFaxExterior = Реле связи сектора
-    .suffix = Реле связи сектора
+
 ent-RMCAreaERTFax = Реле связи сектора
-    .suffix = Реле связи сектора
+
 ent-RMCAreaERT = станция ERT
-    .suffix = область
+

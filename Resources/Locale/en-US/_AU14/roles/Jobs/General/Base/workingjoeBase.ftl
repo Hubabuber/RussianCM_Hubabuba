@@ -1,2 +1,0 @@
-job-au14jobworkingjoebase-desc = You are a Working Joe! You are held to a higher standard and are required to obey not only the Server Rules but Law and Synthetic Rules. Your primary job is to maintain the cleanliness of the ship, putting things in their proper place. Your capacities are limited, but you have all the equipment you need, and the central AI has a plan! (WARNING: THIS ROLE REQUIRES HIGH ROLEPLAY PROWESS)
-job-au14jobworkingjoebase-name = Working Joe

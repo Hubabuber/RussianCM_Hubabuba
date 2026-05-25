@@ -1,68 +1,68 @@
 ent-RMCSpawnMobDoc = спаунер документов
-    .suffix = спаунер документов
+
 ent-RMCSpawnMobGarry = Гарри Спаунер
-    .suffix = Гарри спаунер
+
 ent-CMSpawnMobOrion = Производитель Ориона
-    .suffix = Производитель Ориона
+
 ent-CMSpawnMobJones = Джонс Спаунер
-    .suffix = Джонс спаунер
+
 ent-CMSpawnMobWiggles = Мистер Вигглс Спаунер
-    .suffix = Мистер Вигглс спаунер
+
 ent-RMCSpawnRatBlack = заводчик крыс
-    .suffix = заводчик крыс
+
 ent-CMSpawnMobKobold = спаунер кобольдов
-    .suffix = спаунер кобольдов
+
 ent-CMSpawnMobMonkey = спаунер обезьян
-    .suffix = спаунер обезьян
+
 ent-RMCMobGarry = Гарри
   .desc = Ее мех на вид похож на бархат, а хвост время от времени подрагивает.
-    .suffix = AI
+
 ent-RMCMobOrion = Орион
   .desc = Домашний кошачий питомец. 
-    .suffix = AI
+
 ent-CMMobJones = Джонс
   .desc = Крепкий старый бездомный, чье происхождение, кажется, никто не знает.
-    .suffix = AI
+
 ent-CMMobWiggles = Мистер Вигглс
   .desc = Это щенок корги. 
-    .suffix = AI
+
 ent-RMCMobRatBrown = крыса
   .desc = Это большой, больной грызун.
-    .suffix = крыса
+
 ent-RMCMobRat = крыса
   .desc = Это маленькая лабораторная крыса.
-    .suffix = крыса
+
 ent-RMCMobMouseDoc = Док
   .desc = Старший исследователь мышей в Олмайере. 
-    .suffix = абстрактный простой моб
+
 ent-CMMobKobold = кобольд
-    .desc = Двоюродные братья разумной расы людей-ящериц, кобольды сливаются с их естественной средой обитания и столь же противны, как обезьяны; готов вырвать тебе волосы и заколоть тебя до смерти.
-    .suffix = кобольд
+
 ent-CMMobMonkey = обезьяна
-    .desc = Новая церковь неодарвинистов фактически верит, что КАЖДОЕ животное произошло от обезьяны. На вкус они напоминают свинину, и убивать их одновременно весело и расслабляюще.
-    .suffix = обезьяна
+
 ent-RMCSmallHost = абстрактный маленький хост
+
 ent-RMCSimpleMob = абстрактный простой моб
+
 ent-CMMobMouse = мышь
   .desc = Писк!
-    .suffix = мышь
+
 ent-CMMobMouse1 = мышь
   .desc = Писк!
-    .suffix = мышь
+
 ent-CMMobMouse2 = мышь
   .desc = Писк!
-    .suffix = мышь
+
 ent-RMCMobRatGray = крыса
   .desc = Это большой, больной грызун.
-    .suffix = крыса
+
 ent-RMCMobRatBlack = крыса
   .desc = Это большой, больной грызун.
-    .suffix = крыса
+
 ent-CMSpawnMobMouse = Создатель мыши
-    .suffix = Создатель мыши
+
 ent-RMCSpawnRatGray = заводчик крыс
-    .suffix = заводчик крыс
+
 ent-RMCSpawnRatBrown = заводчик крыс
-    .suffix = заводчик крыс
+
 ent-RMCSpawnRatWhite = заводчик крыс
-    .suffix = заводчик крыс
+

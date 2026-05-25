@@ -1,8 +1,8 @@
-- type: entity
-  name: ent-RMCWeaponRifleM54CE2
+﻿- type: entity
+  name: M41AE2 heavy pulse rifle
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleM54CE2
-  description: ent-RMCWeaponRifleM54CE2-desc
+  description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2/desert.rsi
@@ -121,7 +121,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CE2
-  name: "ent-CMMagazineRifleM54CE2"
+  name: "M41AE2 magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -159,7 +159,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2HT
-  name: "ent-CMMagazineRifleM54CE2HT"
+  name: "M41AE2 HT magazine (10x24mm)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -181,8 +181,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmHT
-  name: ent-CMCartridgeRifle10x24mmHT
-  description: ent-CMCartridgeRifle10x24mmHT-desc
+  name: cartridge (10x24mm)
+  description: A 10x24mm HT cartridge. Fits in 10x24mm holo targeting magazines.
   components:
   - type: Tag
     tags:
@@ -205,7 +205,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2AP
-  name: "ent-CMMagazineRifleM54CE2AP"
+  name: "M41AE2 AP magazine (10x24mm)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -227,7 +227,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: RMCMagazineRifleM54CE2HEAP
-  name: "ent-RMCMagazineRifleM54CE2HEAP"
+  name: "M41AE2 HEAP magazine (10x24mm)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -249,7 +249,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: RMCMagazineRifleM54CE2WP
-  name: "ent-RMCMagazineRifleM54CE2WP"
+  name: "M41AE2 WP magazine (10x24mm)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -271,7 +271,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: RMCMagazineRifleM54CE2Incendiary
-  name: "ent-RMCMagazineRifleM54CE2Incendiary"
+  name: "M41AE2 incendiary magazine (10x24mm)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True

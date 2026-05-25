@@ -1,10 +1,5 @@
 ent-RMCPelletHeavyShotgunIncendiaryBuckshot = картечь «Дыхание дракона»
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-RMCPelletHeavyShotgunFlechette = Тяжёлая флешетта
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-RMCPelletHeavyShotgunBeanbag = Тяжёлая травматическая пуля
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-RMCPelletHeavyShotgunSlug = Тяжёлая пуля
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-RMCPelletHeavyShotgunBuckshot = Тяжёлая картечь
-    .desc = Если ты это видишь, ты, вероятно, мертв!

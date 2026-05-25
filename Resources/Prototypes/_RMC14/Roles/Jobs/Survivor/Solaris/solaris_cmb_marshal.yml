@@ -1,8 +1,8 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorSolarisCMBMarshal
-  name: job-cmsurvivorsolariscmbmarshal-name
-  description: job-cmsurvivorsolariscmbmarshal-desc
+  name: rmc-job-name-survivor-bureau-marshal
+  description: cm-job-description-commanding-officer
   playTimeTracker: RMCJobSurvivorCO
   ranks:
     RMCRankCMBMarshal: []
@@ -12,7 +12,7 @@
   roleWeight: 0.25
   icon: "RMCJobIconBureauMarshal"
   hasIcon: true
-  spawnMenuRoleName: job-cmsurvivorsolariscmbmarshal-spawnmenurolename
+  spawnMenuRoleName: CMB Marshal (Solaris Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -86,7 +86,7 @@
 - type: entity
   parent: RMCMarshalCMBUniform
   id: RMCMarshalCMBUniformSurvivorMarshal
-  suffix: ent-RMCMarshalCMBUniformSurvivorMarshal-suffix
+  suffix: Webbing
   components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingSurvivorCMBMarshal
@@ -94,7 +94,7 @@
 - type: entity
   parent: CMWebbingHolster
   id: RMCWebbingSurvivorCMBMarshal
-  suffix: ent-RMCWebbingSurvivorCMBMarshal-suffix
+  suffix: Marshal, Survivor, Filled
   components:
   - type: StorageFill
     contents:
@@ -105,7 +105,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSolarisCMBMarshal
-  name: ent-CMSpawnPointSolarisCMBMarshal
+  name: solaris cmb marshal spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorSolarisCMBMarshal

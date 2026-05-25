@@ -10,28 +10,7 @@ ent-PaperRolling-desc = Тонкий лист бумаги, используем
 ent-CigaretteFilter-name = сигаретный фильтр
 ent-CigaretteFilter-desc = Полоска твердой бумаги, используемая в качестве фильтра для сигарет ручной работы.
 
-ent-PaperRolling1-name = { $amount ->
+ent-PaperRolling1-name = stack-rolling-paper
 
-ent-CigaretteFilter1-name = { $amount ->
+ent-CigaretteFilter1-name = stack-cigarette-filter
 
-ent-CigaretteFilter = сигаретный фильтр
-    .desc = Полоска твердой бумаги, используемая в качестве фильтра для сигарет ручной работы.
-    .suffix = Полный
-
-ent-CigaretteFilter1 = сигаретный фильтр
-    .desc = Полоска твердой бумаги, используемая в качестве фильтра для сигарет ручной работы.
-    .suffix = Одинокий
-
-ent-PackPaperRolling = пачка рулонной бумаги
-    .desc = Пачка тонких листов бумаги, из которых делают хорошие курительные трубки.
-
-ent-PackPaperRollingFilters = упаковка рулонной бумаги с фильтрами
-    .desc = Пакет фильтров и тонкие кусочки бумаги, используемые для изготовления качественных курительных сигарет.
-
-ent-PaperRolling = рулонная бумага
-    .desc = Тонкий лист бумаги, используемый для изготовления хороших курительных сигарет.
-    .suffix = Полный
-
-ent-PaperRolling1 = рулонная бумага
-    .desc = Тонкий лист бумаги, используемый для изготовления хороших курительных сигарет.
-    .suffix = Одинокий

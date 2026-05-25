@@ -1,28 +1,20 @@
 ent-RMCSpawnPointSurvivorPanicRoomCommando = Специальная точка появления коммандос в комнате паники для выживших
   .desc = Создатель заданий RMC14. 
-    .suffix = Создание вакансий
+
 ent-CMArmorM4PMCCommandoSurvivorFilled = поврежденный рисунок MY7 Commando Броня
   .desc = Модификация лекал W-Y PMC Броня. 
-    .suffix = поврежденный рисунок MY7 Commando Броня
+
 ent-CMFirstAidKitFilledCommando = предмет хранения
-    .desc = Это экстренный медицинский набор для серьёзных травм. При наличии медицинской подготовки её можно поместить в рюкзак.
-    .suffix = предмет хранения
+
 ent-RMCSurgicalCaseFilledCommandoElite = предмет хранения
-    .desc = Медицинский чемодан для хранения базовых хирургических инструментов.
-    .suffix = предмет хранения
+
 ent-RMCSyringeCaseFilledCommando = предмет хранения
-    .desc = Медицинский футляр для хранения шприцев и флаконов.
-    .suffix = предмет хранения
+
 ent-CMMedicalUpgradeKitFilledCommando = предмет хранения
-    .desc = В этот комплект входят улучшенные комплекты для травм и ожогов для тяжелых травм.
-    .suffix = предмет хранения
+
 ent-RMCBeltPMCFilledCommando = Установка для загрузки боеприпасов модели М305
   .desc = М305 является штатной несущей техникой ЧВК Weston-Yamada. 
-    .suffix = Установка для загрузки боеприпасов модели М305
+
 ent-RMCSatchelPMCCommandoFilled = Боевой рюкзак We-Ya Commando
   .desc = Эргономичный, защищенный, большой вместительный рюкзак, разработанный для коммандос Weston-Yamada.
-    .suffix = Боевой рюкзак We-Ya Commando
-job-rmcsurvivorpmccommandoshivas-desc = Пережить катастрофу. Работайте со всеми, кому доверяете, и постарайтесь выбраться из колонии живым.
-job-rmcsurvivorpmccommandoshivas-name = Вейланд-Ютани Коммандос
-job-rmcsurvivorpmccommandoshivas-spawnmenurolename = Выживший — Ве-Я Коммандос (Шивас)
-job-rmcsurvivorpmccommandoshivas-supervisors = см-работа-руководители-мы-я
+

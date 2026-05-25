@@ -1,26 +1,26 @@
 ent-RMCAreaHFOOB = За пределами границ
-    .suffix = область
+
 ent-RMCAreaHFHangar = Ангар
-    .suffix = область
+
 ent-RMCAreaHFArmoury = Силовой арсенал
-    .suffix = область
+
 ent-RMCAreaHFPrep = Силовая подготовка
-    .suffix = область
+
 ent-RMCAreaHFCommandDeck = Командная колода сил
-    .suffix = область
+
 ent-RMCAreaHFBriefRoom = Комната для брифингов
-    .suffix = область
+
 ent-RMCAreaHFMedical = Медицинский
-    .suffix = область
+
 ent-RMCAreaHFDisposals = Выбытия
-    .suffix = область
+
 ent-RMCAreaHFBathroom = Ванная комната
-    .suffix = область
+
 ent-RMCAreaHFMessHall = Столовая
-    .suffix = область
+
 ent-RMCAreaHFHypersleepGearLockers = Шкафчики для снаряжения Hypersleep
-    .suffix = область
+
 ent-RMCAreaHFHypersleepStorageA = Гиперсонное хранилище
-    .suffix = область
+
 ent-RMCAreaHF = Хауршефант
-    .suffix = область
+

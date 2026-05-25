@@ -1,8 +1,8 @@
 - type: entity
   parent: CMMRE
   id: AU14MRETWERMC
-  name: ent-AU14MRETWERMC
-  description: ent-AU14MRETWERMC-desc
+  name: RMC ration pack
+  description: An Operation Ration Pack. Uses similar to USCM MRE format, but utilizes expensive preserving materials and methods and not less expensive meals from TWE cuisine.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_tse.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: CMMRE
   id: AU14MREUPP
-  name: ent-AU14MREUPP
-  description: ent-AU14MREUPP-desc
+  name: UPP ration pack
+  description: An Individual Meal Ration, mainly composed of a selection of canned food, despite being heavier, it has proven to be a lot more reliable.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_spp.rsi
@@ -19,13 +19,13 @@
 - type: entity
   parent: RMCBoxMREEmpty
   id: AU14BoxMREUPPEmpty
-  name: ent-AU14BoxMREUPPEmpty
+  name: box of UPP MREs (x12)
 
 - type: entity
   parent: RMCBoxMREEmpty
   id: AU14BoxMREUPP
-  name: ent-AU14BoxMREUPP
-  suffix: ent-AU14BoxMREUPP-suffix
+  name: box of UPP MREs (x12)
+  suffix: Filled
   components:
   - type: CMItemSlots
     startingItem: AU14MREUPP
@@ -33,13 +33,13 @@
 - type: entity
   parent: RMCBoxMREEmpty
   id: AU14BoxMRETWERMCEmpty
-  name: ent-AU14BoxMRETWERMCEmpty
+  name: box of RMC MREs (x12)
 
 - type: entity
   parent: AU14BoxMRETWERMCEmpty
   id: AU14BoxMRETWERMC
-  name: ent-AU14BoxMRETWERMC
-  suffix: ent-AU14BoxMRETWERMC-suffix
+  name: box of RMC MREs (x12)
+  suffix: Filled
   components:
   - type: CMItemSlots
     startingItem: AU14MRETWERMC

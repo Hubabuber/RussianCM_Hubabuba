@@ -1,1 +1,0 @@
-ent-BaseMobSlimePerson = Urist McSlime

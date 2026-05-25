@@ -1,13 +1,13 @@
 - type: job
   parent: RMCSurvivorParaBase
   id: RMCSurvivorParaTeamLeader
-  name: job-rmcsurvivorparateamleader-name
+  name: rmc-job-name-para-team-leader
   ranks:
     RMCRankParaSergeant: [ ]
-  supervisors: job-rmcsurvivorparateamleader-supervisors
+  supervisors: rmc-job-supervisors-commander
   startingGear: RMCGearParaTeamLeader
   icon: RMCJobIconParaTeamLeader
-  spawnMenuRoleName: job-rmcsurvivorparateamleader-spawnmenurolename
+  spawnMenuRoleName: Royal Paramarine Team Leader (Survivor)
   special:
     - !type:AddComponentSpecial
       components:
@@ -50,7 +50,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointParaTeamLeader
-  name: ent-RMCSpawnPointParaTeamLeader
+  name: paramarine team leader spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorParaTeamLeader

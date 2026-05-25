@@ -1,178 +1,204 @@
 ent-RMCPropVehicleSmallTruckRedF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckRed = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleSmallTruckMiningF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckMining = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleSmallTruckMedicalF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckMedical = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleSmallTruckGreenF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckGreen = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleSmallTruckGarbageF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckGarbage = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleSmallTruckBrownCargoAltF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckBrownCargoAlt = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckBrownCargoF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckBrownCargo = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckBrownF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckBrown = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleSmallTruckBlueCargoF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckBlueCargo = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckBlueF = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = маленький грузовик
+
 ent-RMCPropVehicleSmallTruckBlue = маленький грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLongTruckWeYaBlueF = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = дальнобойный грузовик
+
 ent-RMCPropVehicleLongTruckWeYaBlue = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLongTruckRedF = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = дальнобойный грузовик
+
 ent-RMCPropVehicleLongTruckRed = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLongTruckMiningF = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = дальнобойный грузовик
+
 ent-RMCPropVehicleLongTruckMining = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLongTruckDonkF = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = дальнобойный грузовик
+
 ent-RMCPropVehicleLongTruckDonk = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLongTruckBrownF = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = дальнобойный грузовик
+
 ent-RMCPropVehicleLongTruckBrown = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLongTruckBlueF = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = дальнобойный грузовик
+
 ent-RMCPropVehicleLongTruckBlue = дальнобойный грузовик
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleBoxVanWhiteF = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = фургон с закрытым кузовом
+
 ent-RMCPropVehicleBoxVanWhite = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleBoxVanRedF = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = фургон с закрытым кузовом
+
 ent-RMCPropVehicleBoxVanRed = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleBoxVanPizzaF = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = фургон с закрытым кузовом
+
 ent-RMCPropVehicleBoxVanPizza = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleBoxVanMiningF = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = фургон с закрытым кузовом
+
 ent-RMCPropVehicleBoxVanMining = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleBoxVanMaintWhiteF = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = фургон с закрытым кузовом
+
 ent-RMCPropVehicleBoxVanMaintWhite = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleBoxVanMaintGreyF = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = фургон с закрытым кузовом
+
 ent-RMCPropVehicleBoxVanMaintGrey = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleBoxVanBlueGreyF = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = фургон с закрытым кузовом
+
 ent-RMCPropVehicleBoxVanBlueGrey = фургон с закрытым кузовом
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLoaderTruckWhiteWeYaFilledF = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckWhiteWeYaFilled = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckWhiteWeYaF = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckWhiteWeYa = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLoaderTruckBlackFilledF = Грузовик службы безопасности Уэстон-Ямада
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = Грузовик службы безопасности Уэстон-Ямада
+
 ent-RMCPropVehicleLoaderTruckBlackFilled = Грузовик службы безопасности Уэстон-Ямада
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = Грузовик службы безопасности Уэстон-Ямада
+
 ent-RMCPropVehicleLoaderTruckBlackF = Грузовик службы безопасности Уэстон-Ямада
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = Грузовик службы безопасности Уэстон-Ямада
+
 ent-RMCPropVehicleLoaderTruckBlack = Грузовик службы безопасности Уэстон-Ямада
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLoaderTruckWhiteFilledF = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckWhiteFilled = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckWhiteF = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckWhite = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLoaderTruckTealFilledF = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckTealFilled = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckTealF = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckTeal = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleLoaderTruckBlueFilledF = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckBlueFilled = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckBlueF = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = грузовик-тяжеловоз
+
 ent-RMCPropVehicleLoaderTruckBlue = грузовик-тяжеловоз
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+
 ent-RMCPropVehicleAmbulanceF = машина скорой помощи
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
-    .suffix = машина скорой помощи
+
 ent-RMCPropVehicleAmbulance = машина скорой помощи
   .desc = Он заперт и, кажется, сломан, забудьте о вождении.
+

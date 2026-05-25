@@ -1,15 +1,15 @@
 - type: job
   parent: CMSurvivor
   id: CMJobSurvivorCECResearcher
-  name: job-cmjobsurvivorcecresearcher-name
-  description: job-cmjobsurvivorcecresearcher-desc
+  name: rmc-job-name-survivor-cec-researcher
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorScientist
   ranks:
     RMCRankCivilianDoctor: []
   startingGear: RMCGearSurvivorCECResearcher
   accessGroups:
   - ColonistMedical
-  spawnMenuRoleName: job-cmjobsurvivorcecresearcher-spawnmenurolename
+  spawnMenuRoleName: EC Researcher (Sorokyne Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorCECResearcher
-  name: ent-RMCSpawnPointSurvivorCECResearcher
+  name: exploration corps researcher spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCSurvivorPresetScientist
   id: RMCGearSurvivorPresetCECResearcher
-  name: ent-RMCGearSurvivorPresetCECResearcher
+  name: exploration corps researcher preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

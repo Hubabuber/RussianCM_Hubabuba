@@ -1,128 +1,128 @@
 ent-RMCAreaBosenmoriBashoOob = За пределами границ
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoLZ1 = Босенмори Басё — Площадка Нексуса
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoLZ2 = Босенмори Басё - Корпоративный лендинг
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoLZ3 = Босенмори басё — вход в пещеру
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoUnknownCaves = Неизвестный
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoFirstLevelCaves = Сеть подземных пещер
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoRuinsInternal = Руины Интерала
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoAbandonedSector = Заброшенный сектор
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoAbandonedDome = Заброшенный купол
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoPilgrimPath = Путь паломника
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoDrowningCrow = Тонущая ворона
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoFieldResearchSite = Сайт полевых исследований
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoFieldResearchSiteInside = Сайт полевых исследований
-    .suffix = Сайт полевых исследований
+
 ent-RMCAreaBosenmoriBashoNorthBarrens = Северные Степи
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoFiltration = Сектор фильтрации
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoFiltrationInside = Отделение фильтрации
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoCavernRiver = Река Каверн
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoRiver = Река Босенмори
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoWestSector = Западный сектор
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoWestBarrens = Западные Степи
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoSecuredArmory = Безопасная арсенал
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoSouthWestSector = Юго-западный сектор
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoSouthEastSector = Юго-восточный сектор
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoEastSector = Восточный сектор
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoNorthSector = Северный сектор
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoMountainClearing = Горная поляна
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoCorporateDome = Корпоративный купол Уэстон-Ямада
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoTelecomms = Департамент телекоммуникаций
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoEngineering = Инженерный отдел
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoHumanResources = Отдел кадров
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoTerrarnium = Террариум
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoLivingSector = Живой сектор
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoResearch = Исследовательский отдел
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoGym = Спортзал
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoMedical = Медицинский
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoFoodProcessing = Отдел производства пищевых продуктов
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoConstruction = Строительная площадка
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoCargo = Грузовой отдел
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoShipment = Отдел отгрузки
-    .suffix = область
+
 ent-RMCAreaBosenmoriKitchen = Кухонный отдел
-    .suffix = область
+
 ent-RMCAreaBosenmoriNexusMain = Главный зал Нексуса
-    .suffix = область
+
 ent-RMCAreaBosenmoriSecurityDepartment = Отдел безопасности
-    .suffix = область
+
 ent-RMCAreaBosenmoriArmory = Оружейная палата
-    .suffix = область
+
 ent-RMCAreaBosenmoriSurplusStore = Магазин излишков
-    .suffix = область
+
 ent-RMCAreaBosenmoriColonyOperation = Операционный центр колонии
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoMaintenanceSegment = Сегмент технического обслуживания
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoCorporateLow = Корпоративный нижний уровень
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoSecuredArmoryLow = Охраняемый нижний уровень арсенала
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoEngineeringLow = Инженерный нижний уровень
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoUndergroundCaveNetwork = Подземная локальная сеть пещер
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoShipmentLow = Нижний уровень отгрузки
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoNexusLow = Нижний уровень Нексуса
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoArmoryLow = Нижний уровень Оружейной
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoEmergencyOpLow = Чрезвычайные операции нижнего уровня
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoSewageSystem = Канализационная система Босенмори
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoResearchLow = Исследование нижнего уровня
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoTerraniumLow = Нижний уровень террариума
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoFoodLow = Пищевая промышленность Нижний уровень
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoCargoLow = Нижний уровень груза
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoSandTemple = Песчаный храм
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoRuinsPerimeter = Руины Периметра
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoMining = Горнодобывающий сектор
-    .suffix = область
+
 ent-RMCAreaBosenmoriBasho = область
-    .suffix = область
+
 ent-RMCAreaBosenmoriBashoUnknownTemple = Неизвестный
-    .suffix = область
+

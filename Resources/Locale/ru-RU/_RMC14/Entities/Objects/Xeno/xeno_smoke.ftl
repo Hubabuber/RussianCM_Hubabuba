@@ -4,5 +4,3 @@ ent-RMCSmokeAcidShroud = кислотный газ
 ent-RMCSmokeRunner = кислотный дым
 ent-RMCSmokeNeurotoxin = нейротоксичный газ
 ent-RMCSmokeAcid = кислотный газ
-
-ent-RMCSmokeKingDoom = король гибели

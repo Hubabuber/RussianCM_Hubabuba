@@ -1,9 +1,9 @@
 - type: entity
-  name: ent-BaseMobBehonker
+  name: behonker
   parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
   id: BaseMobBehonker
   abstract: true
-  description: ent-BaseMobBehonker-desc
+  description: A floating demon aspect of the honkmother.
   components:
     - type: GhostRole
       allowMovement: true
@@ -119,10 +119,10 @@
       bloodReagent: Laughter
 
 - type: entity
-  name: ent-MobBehonkerElectrical
+  name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerElectrical
-  suffix: "ent-MobBehonkerElectrical-suffix"
+  suffix: "Pyro"
   components:
     - type: PyroclasticAnomaly
     - type: TempAffectingAnomaly
@@ -134,27 +134,27 @@
       spawnRadius: 0
 
 - type: entity
-  name: ent-MobBehonkerPyro
+  name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerPyro
-  suffix: "ent-MobBehonkerPyro-suffix"
+  suffix: "Electrical"
   components:
   - type: ElectricityAnomaly
   - type: Electrified
 
 - type: entity
-  name: ent-MobBehonkerGrav
+  name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerGrav
-  suffix: "ent-MobBehonkerGrav-suffix"
+  suffix: "Grav"
   components:
   - type: GravityAnomaly
 
 - type: entity
-  name: ent-MobBehonkerIce
+  name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerIce
-  suffix: "ent-MobBehonkerIce-suffix"
+  suffix: "Ice"
   components:
   - type: Anomaly
   - type: ExplosionAnomaly

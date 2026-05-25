@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMCombatTech
-  name: job-cmcombattech-name
-  description: job-cmcombattech-desc
+  name: cm-job-name-combat-tech
+  description: cm-job-description-combat-tech
   setPreference: false
   playTimeTracker: CMJobCombatTech
   requirements:
@@ -24,7 +24,7 @@
   icon: "CMJobIconCombatTech"
   joinNotifyCrew: false
   marineAuthorityLevel: 1
-  supervisors: job-cmcombattech-supervisors
+  supervisors: cm-job-supervisors-sl
   accessGroups:
   - CombatTech
  # overwatchSortPriority: -1
@@ -79,7 +79,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCombatTech
-  name: ent-CMSpawnPointCombatTech
+  name: combat tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMCombatTech
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMSpawnPointCombatTech
   id: CMSpawnPointCombatTechAlpha
-  suffix: ent-CMSpawnPointCombatTechAlpha-suffix
+  suffix: Alpha
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMSpawnPointCombatTech
   id: CMSpawnPointCombatTechBravo
-  suffix: ent-CMSpawnPointCombatTechBravo-suffix
+  suffix: Bravo
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -111,7 +111,7 @@
 - type: entity
   parent: CMSpawnPointCombatTech
   id: CMSpawnPointCombatTechCharlie
-  suffix: ent-CMSpawnPointCombatTechCharlie-suffix
+  suffix: Charlie
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -122,7 +122,7 @@
 - type: entity
   parent: CMSpawnPointCombatTech
   id: CMSpawnPointCombatTechDelta
-  suffix: ent-CMSpawnPointCombatTechDelta-suffix
+  suffix: Delta
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -151,8 +151,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleCT
-  name: ent-RMCGuidebookRoleCT
-  description: ent-RMCGuidebookRoleCT-desc
+  name: Combat Technician
+  description: Combat Technician
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

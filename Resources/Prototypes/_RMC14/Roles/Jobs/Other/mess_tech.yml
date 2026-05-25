@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMMessTech
-  name: job-cmmesstech-name
-  description: job-cmmesstech-desc
+  name: cm-job-name-messtech
+  description: cm-job-description-messtech
   playTimeTracker: CMJobMessTech
   requirements:
   - !type:DepartmentTimeRequirement
@@ -21,7 +21,7 @@
   startingGear: CMGearMessTech
   icon: "CMJobIconMessTech"
   joinNotifyCrew: false
-  supervisors: job-cmmesstech-supervisors
+  supervisors: cm-job-supervisors-qm
   accessGroups:
   - MessTech
   roleWeight: 0.25
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointMessTech
-  name: ent-CMSpawnPointMessTech
+  name: mess tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMMessTech

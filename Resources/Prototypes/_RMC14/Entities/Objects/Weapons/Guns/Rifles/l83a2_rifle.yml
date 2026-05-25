@@ -1,9 +1,9 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleL83A2
-  name: ent-RMCWeaponRifleL83A2
-  description: ent-RMCWeaponRifleL83A2-desc
-  suffix: ent-RMCWeaponRifleL83A2-suffix
+  name: L83A2 rifle
+  description: A civilian grade caseless rifle utilised by TSEPA officers.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/l83a2.rsi
@@ -134,7 +134,7 @@
 - type: entity
   parent: RMCWeaponRifleL83A2
   id: RMCWeaponRifleL83A2Stripped
-  suffix: ent-RMCWeaponRifleL83A2Stripped-suffix
+  suffix: Stripped
   components:
   - type: ItemSlots
     slots:
@@ -195,8 +195,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL83A2
-  name: ent-RMCMagazineRifleL83A2
-  description: "ent-RMCMagazineRifleL83A2-desc"
+  name: L83A2 Magazine (5.56x45mm)
+  description: "A magazine of 5.56x45mm rounds for the L83A2 rifle."
   components:
   - type: Tag
     tags:
@@ -221,8 +221,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL83A
-  name: ent-RMCCartridgeRifleL83A
-  description: "ent-RMCCartridgeRifleL83A-desc"
+  name: cartridge (5.56x45mm)
+  description: "A 5.56x45mm cartridge for the L83A2/L83A3 rifles."
   components:
   - type: Tag
     tags:
@@ -234,9 +234,9 @@
 - type: entity
   parent: RMCMagazineRifleL83A2
   id: RMCMagazineRifleL83A2AP
-  name: ent-RMCMagazineRifleL83A2AP
-  description: "ent-RMCMagazineRifleL83A2AP-desc"
-  suffix: ent-RMCMagazineRifleL83A2AP-suffix
+  name: L83A2 AP Magazine (5.56x45mm)
+  description: "A magazine of armor-piercing 5.56x45mm rounds for the L83A2 rifle."
+  suffix: AP
   components:
   - type: Tag
     tags:
@@ -263,9 +263,9 @@
 - type: entity
   parent: RMCMagazineRifleL83A2
   id: RMCMagazineRifleL83A2Extended
-  name: ent-RMCMagazineRifleL83A2Extended
-  description: "ent-RMCMagazineRifleL83A2Extended-desc"
-  suffix: ent-RMCMagazineRifleL83A2Extended-suffix
+  name: L83A2 Extended Magazine (5.56x45mm)
+  description: "An extended magazine of 5.56x45mm rounds for the L83A2 rifle."
+  suffix: Extended
   components:
   - type: Tag
     tags:
@@ -290,9 +290,9 @@
 - type: entity
   parent: RMCMagazineRifleL83A2
   id: RMCMagazineRifleL83A2HEAP
-  name: ent-RMCMagazineRifleL83A2HEAP
-  description: "ent-RMCMagazineRifleL83A2HEAP-desc"
-  suffix: ent-RMCMagazineRifleL83A2HEAP-suffix
+  name: L83A2 HEAP Magazine (5.56x45mm)
+  description: "A magazine of HEAP 5.56x45mm rounds for the L83A2 rifle."
+  suffix: HEAP
   components:
   - type: Tag
     tags:
@@ -318,9 +318,9 @@
 - type: entity
   parent: RMCMagazineRifleL83A2
   id: RMCMagazineRifleL83A2Incendiary
-  name: ent-RMCMagazineRifleL83A2Incendiary
-  description: "ent-RMCMagazineRifleL83A2Incendiary-desc"
-  suffix: ent-RMCMagazineRifleL83A2Incendiary-suffix
+  name: L83A2 Incendiary Magazine (5.56x45mm)
+  description: "A magazine of incendiary 5.56x45mm rounds for the L83A2 rifle."
+  suffix: Incendiary
   components:
   - type: Tag
     tags:
@@ -347,8 +347,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL83AAP
-  name: ent-RMCCartridgeRifleL83AAP
-  description: "ent-RMCCartridgeRifleL83AAP-desc"
+  name: AP cartridge (5.56x45mm)
+  description: "A 5.56x45mm armor-piercing cartridge for the L83A2/L83A3 rifles."
   components:
   - type: Tag
     tags:

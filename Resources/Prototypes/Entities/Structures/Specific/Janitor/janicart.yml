@@ -1,9 +1,9 @@
 # Mop Bucket
 - type: entity
-  name: ent-MopBucket
+  name: mop bucket
   id: MopBucket
   parent: [BaseStructureDynamic, StructureWheeled]
-  description: ent-MopBucket-desc
+  description: Holds water and the tears of the janitor.
   components:
   - type: Clickable
   - type: Sprite
@@ -107,10 +107,10 @@
         - MachineMask
 
 - type: entity
-  name: ent-MopBucketFull
+  name: mop bucket
   id: MopBucketFull
   parent: MopBucket
-  suffix: ent-MopBucketFull-suffix
+  suffix: full
   components:
     - type: Sprite
       layers:
@@ -127,9 +127,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: ent-MopBucketCubeWrapped
+  name: mop bucket cube
   id: MopBucketCubeWrapped
-  description: ent-MopBucketCubeWrapped-desc
+  description: Unwrap this to get a mop bucket cube.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -139,10 +139,10 @@
 
 # Janicart
 - type: entity
-  name: ent-JanitorialTrolley
+  name: janitorial trolley
   id: JanitorialTrolley
   parent: [BaseStructureDynamic, StructureWheeled]
-  description: ent-JanitorialTrolley-desc
+  description: This is the alpha and omega of sanitation.
   components:
     - type: Sprite
       noRot: true

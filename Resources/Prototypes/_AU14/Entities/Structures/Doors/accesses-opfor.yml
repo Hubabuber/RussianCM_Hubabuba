@@ -1,7 +1,7 @@
 - type: entity
   parent: CMAirlockGovforLocked
   id: CMAirlockOpforLocked
-  suffix: ent-CMAirlockOpforLocked-suffix
+  suffix: Opfor, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMAirlockGovforGlassLocked
   id: CMAirlockOpforGlassLocked
-  suffix: ent-CMAirlockOpforGlassLocked-suffix
+  suffix: Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMDoubleDoorGovforLocked
   id: CMDoubleDoorOpforLocked
-  suffix: ent-CMDoubleDoorOpforLocked-suffix
+  suffix: Opfor, Solid, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMDoubleDoorGovforGlassLocked
   id: CMDoubleDoorOpforGlassLocked
-  suffix: ent-CMDoubleDoorOpforGlassLocked-suffix
+  suffix: Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMAirlockOpforLocked
   id: CMAirlockOpforLockedFTL
-  suffix: ent-CMAirlockOpforLockedFTL-suffix
+  suffix: FTL, Opfor, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforFTL"]]
@@ -41,12 +41,12 @@
 - type: entity
   parent: CMAirlockOpforLockedFTL
   id: CMAirlockOpforGlassLockedFTL
-  suffix: ent-CMAirlockOpforGlassLockedFTL-suffix
+  suffix: FTL, Opfor, Glass, Locked
 
 - type: entity
   parent: CMAirlockCommandGovforLocked
   id: CMAirlockCommandOpforLocked
-  suffix: ent-CMAirlockCommandOpforLocked-suffix
+  suffix: Command, Opfor, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforCommand"]]
@@ -54,7 +54,7 @@
 - type: entity
   parent: CMAirlockCommandGovforGlassLocked
   id: CMAirlockCommandOpforGlassLocked
-  suffix: ent-CMAirlockCommandOpforGlassLocked-suffix
+  suffix: Command, Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforCommand"]]
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMDoubleDoorCommandGovforLocked
   id: CMDoubleDoorCommandOpforLocked
-  suffix: ent-CMDoubleDoorCommandOpforLocked-suffix
+  suffix: Command, Opfor, Solid, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforCommand"]]
@@ -70,7 +70,7 @@
 - type: entity
   parent: CMDoubleDoorCommandGovforGlassLocked
   id: CMDoubleDoorCommandOpforGlassLocked
-  suffix: ent-CMDoubleDoorCommandOpforGlassLocked-suffix
+  suffix: Command, Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforCommand"]]
@@ -78,7 +78,7 @@
 - type: entity
   parent: CMAirlockSecurityGovforLocked
   id: CMAirlockSecurityOpforLocked
-  suffix: ent-CMAirlockSecurityOpforLocked-suffix
+  suffix: Security, Opfor, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforSecurity"]]
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMAirlockSecurityGovforGlassLocked
   id: CMAirlockSecurityOpforGlassLocked
-  suffix: ent-CMAirlockSecurityOpforGlassLocked-suffix
+  suffix: Security, Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforSecurity"]]
@@ -94,7 +94,7 @@
 - type: entity
   parent: CMDoubleDoorSecurityGovforLocked
   id: CMDoubleDoorSecurityOpforLocked
-  suffix: ent-CMDoubleDoorSecurityOpforLocked-suffix
+  suffix: Security, Opfor, Solid, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforSecurity"]]
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMDoubleDoorSecurityGovforGlassLocked
   id: CMDoubleDoorSecurityOpforGlassLocked
-  suffix: ent-CMDoubleDoorSecurityOpforGlassLocked-suffix
+  suffix: Security, Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpforSecurity"]]
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMAirlockMedicalGovforLocked
   id: CMAirlockMedicalOpforLocked
-  suffix: ent-CMAirlockMedicalOpforLocked-suffix
+  suffix: Medical, Opfor, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -118,7 +118,7 @@
 - type: entity
   parent: CMAirlockMedicalGovforGlassLocked
   id: CMAirlockMedicalOpforGlassLocked
-  suffix: ent-CMAirlockMedicalOpforGlassLocked-suffix
+  suffix: Medical, Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -126,7 +126,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalGovforLocked
   id: CMDoubleDoorMedicalOpforLocked
-  suffix: ent-CMDoubleDoorMedicalOpforLocked-suffix
+  suffix: Medical, Opfor, Solid, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -134,7 +134,7 @@
 - type: entity
   parent: CMDoubleDoorMedicalGovforGlassLocked
   id: CMDoubleDoorMedicalOpforGlassLocked
-  suffix: ent-CMDoubleDoorMedicalOpforGlassLocked-suffix
+  suffix: Medical, Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -142,7 +142,7 @@
 - type: entity
   parent: CMAirlockEngineerGovforLocked
   id: CMAirlockEngineerOpforLocked
-  suffix: ent-CMAirlockEngineerOpforLocked-suffix
+  suffix: Engineer, Opfor, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -150,7 +150,7 @@
 - type: entity
   parent: CMAirlockEngineerGovforGlassLocked
   id: CMAirlockEngineerOpforGlassLocked
-  suffix: ent-CMAirlockEngineerOpforGlassLocked-suffix
+  suffix: Engineer, Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -158,7 +158,7 @@
 - type: entity
   parent: CMDoubleDoorEngineerGovforLocked
   id: CMDoubleDoorEngineerOpforLocked
-  suffix: ent-CMDoubleDoorEngineerOpforLocked-suffix
+  suffix: Engineer, Opfor, Solid, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]
@@ -166,7 +166,7 @@
 - type: entity
   parent: CMDoubleDoorEngineerGovforGlassLocked
   id: CMDoubleDoorEngineerOpforGlassLocked
-  suffix: ent-CMDoubleDoorEngineerOpforGlassLocked-suffix
+  suffix: Engineer, Opfor, Glass, Locked
   components:
   - type: AccessReader
     access: [["AU14AccessOpfor"]]

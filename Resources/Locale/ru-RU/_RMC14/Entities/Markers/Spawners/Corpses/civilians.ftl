@@ -1,46 +1,46 @@
 ent-RMCSpawnerCorpseWeYaManager = Создатель трупов - Корпоративный супервайзер
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseWeYaPMCStandardBurst = Создатель трупов - Стандарт We-Ya PMC
-    .suffix = Создатель трупов - Стандарт We-Ya PMC
+
 ent-RMCSpawnerCorpseWeYaPMC = Создатель трупов - Стандарт We-Ya PMC
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseWeYaGoonKutjevo = Создатель трупов - We-Ya Goon Kutjevo
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseWeYaGoon = Создатель трупов - We-Ya Goon
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseColonistKutjevoBust = Создатель трупов - Колонист Кутьево
-    .suffix = Создатель трупов - Колонист Кутьево
+
 ent-RMCSpawnerCorpseColonistKutjevo = Создатель трупов - Колонист Кутьево
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseColonistBust = Создатель трупов - Колонист
-    .suffix = Создатель трупов - Колонист
+
 ent-RMCSpawnerCorpseColonist = Создатель трупов - Колонист
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpsePrisonGuard = Создатель трупов - Тюремный охранник
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseLiaison = Создатель трупов — корпоративная связь
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseDeputy = Создатель трупов - заместитель CMB
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseSecurity = Создатель трупов — офицер службы безопасности
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseMiner = Создатель трупов - Шахтёр
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseScientistAegis = Создатель трупов — учёный Эгиды
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseScientist = Создатель трупов — учёный
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseEngineer = Создатель трупов — Инженер
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseDoctor = Создатель трупов - Доктор
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseChef = Создатель трупов - Шеф-повар
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpsePrisoner = Создатель трупов - Узник
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseUNRiotOfficer = Создатель трупов - офицер CMB по борьбе с беспорядками
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseUNRiotOfficerBurst = Создатель трупов - офицер CMB по борьбе с беспорядками
-    .suffix = Создатель трупов - офицер CMB по борьбе с беспорядками
+
 ent-RMCSpawnerCorpseCLF = Создатель трупов - Солдат CLF
-    .suffix = Создатель трупов — неизвестно
+

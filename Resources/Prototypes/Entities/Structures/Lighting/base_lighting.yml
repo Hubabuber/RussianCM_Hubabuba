@@ -6,9 +6,9 @@
 #Basic lights
 - type: entity
   id: AlwaysPoweredWallLight
-  name: ent-AlwaysPoweredWallLight
-  description: "ent-AlwaysPoweredWallLight-desc"
-  suffix: ent-AlwaysPoweredWallLight-suffix
+  name: light
+  description: "An always powered light."
+  suffix: Always powered
   components:
   - type: MeleeSound
     soundGroups:
@@ -89,10 +89,10 @@
     - Wallmount
 
 - type: entity
-  name: ent-PoweredlightEmpty
-  description: "ent-PoweredlightEmpty-desc"
+  name: light
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
   id: PoweredlightEmpty
-  suffix: ent-PoweredlightEmpty-suffix
+  suffix: Empty
   parent: AlwaysPoweredWallLight
   components:
   - type: Sprite
@@ -135,8 +135,8 @@
 
 - type: entity
   id: Poweredlight
-  description: "ent-Poweredlight-desc"
-  suffix: "ent-Poweredlight-suffix"
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  suffix: ""
   parent: PoweredlightEmpty
   components:
   - type: Sprite
@@ -160,8 +160,8 @@
 #LED lights
 - type: entity
   id: PoweredlightLED
-  description: "ent-PoweredlightLED-desc"
-  suffix: ent-PoweredlightLED-suffix
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  suffix: LED
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -180,7 +180,7 @@
 - type: entity
   parent: AlwaysPoweredWallLight
   id: AlwaysPoweredLightLED
-  suffix: ent-AlwaysPoweredLightLED-suffix
+  suffix: Always Powered, LED
   components:
   - type: PointLight
     radius: 10
@@ -191,8 +191,8 @@
 #Exterior lights
 - type: entity
   id: PoweredlightExterior
-  description: "ent-PoweredlightExterior-desc"
-  suffix: ent-PoweredlightExterior-suffix
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  suffix: Exterior
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -206,7 +206,7 @@
 - type: entity
   parent: AlwaysPoweredWallLight
   id: AlwaysPoweredLightExterior
-  suffix: ent-AlwaysPoweredLightExterior-suffix
+  suffix: Always Powered, Exterior
   components:
   - type: PointLight
     radius: 12
@@ -217,8 +217,8 @@
 #Sodium lights
 - type: entity
   id: PoweredlightSodium
-  description: "ent-PoweredlightSodium-desc"
-  suffix: ent-PoweredlightSodium-suffix
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  suffix: Sodium
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -237,7 +237,7 @@
 - type: entity
   parent: AlwaysPoweredWallLight
   id: AlwaysPoweredLightSodium
-  suffix: ent-AlwaysPoweredLightSodium-suffix
+  suffix: Always Powered, Sodium
   components:
   - type: PointLight
     radius: 10
@@ -247,10 +247,10 @@
 
 #Small lights
 - type: entity
-  name: ent-SmallLight
-  description: "ent-SmallLight-desc"
+  name: small light
+  description: "An always powered light."
   id: SmallLight
-  suffix: ent-SmallLight-suffix
+  suffix: Always Powered
   parent: AlwaysPoweredWallLight
   components:
     - type: AmbientSound
@@ -306,10 +306,10 @@
       node: bulbLight
 
 - type: entity
-  name: ent-PoweredSmallLightEmpty
-  description: "ent-PoweredSmallLightEmpty-desc"
+  name: small light
+  description: "A light fixture. Draws power and produces light when equipped with a light bulb."
   id: PoweredSmallLightEmpty
-  suffix: ent-PoweredSmallLightEmpty-suffix
+  suffix: Empty
   parent: SmallLight
   components:
   - type: Sprite
@@ -353,7 +353,7 @@
 
 - type: entity
   id: PoweredLEDSmallLight
-  suffix: ent-PoweredLEDSmallLight-suffix
+  suffix: LED
   parent: PoweredSmallLightEmpty
   components:
   - type: Sprite
@@ -374,7 +374,7 @@
 
 - type: entity
   id: PoweredDimSmallLight
-  suffix: ent-PoweredDimSmallLight-suffix
+  suffix: Dim
   parent: PoweredSmallLightEmpty
   components:
   - type: Sprite
@@ -395,7 +395,7 @@
 
 - type: entity
   id: PoweredWarmSmallLight
-  suffix: ent-PoweredWarmSmallLight-suffix
+  suffix: Warm
   parent: PoweredSmallLightEmpty
   components:
   - type: Sprite
@@ -416,7 +416,7 @@
 
 - type: entity
   id: PoweredSmallLight
-  suffix: "ent-PoweredSmallLight-suffix"
+  suffix: ""
   parent: PoweredSmallLightEmpty
   components:
   - type: Sprite
@@ -434,10 +434,10 @@
 #Emergency Lights
 - type: entity
   id: EmergencyLight
-  name: ent-EmergencyLight
-  description: ent-EmergencyLight-desc
+  name: emergency light
+  description: A small light with an internal battery that turns on as soon as it stops receiving any power. Nanotrasen technology allows it to adapt its color to alert crew to the conditions of the station.
   parent: AlwaysPoweredWallLight
-  suffix: "ent-EmergencyLight-suffix"
+  suffix: ""
   components:
   - type: PointLight
     enabled: false
@@ -508,7 +508,7 @@
 
 - type: entity
   id: PoweredlightCyan
-  suffix: ent-PoweredlightCyan-suffix
+  suffix: Cyan
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -526,7 +526,7 @@
 
 - type: entity
   id: AlwaysPoweredlightCyan
-  suffix: ent-AlwaysPoweredlightCyan-suffix
+  suffix: Always Powered, Cyan
   parent: AlwaysPoweredWallLight
   components:
   - type: PointLight
@@ -537,7 +537,7 @@
 
 - type: entity
   id: PoweredlightBlue
-  suffix: ent-PoweredlightBlue-suffix
+  suffix: Blue
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -555,7 +555,7 @@
 
 - type: entity
   id: AlwaysPoweredlightBlue
-  suffix: ent-AlwaysPoweredlightBlue-suffix
+  suffix: Always Powered, Blue
   parent: AlwaysPoweredWallLight
   components:
   - type: PointLight
@@ -566,7 +566,7 @@
 
 - type: entity
   id: PoweredlightYellow
-  suffix: ent-PoweredlightYellow-suffix
+  suffix: Yellow
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -584,7 +584,7 @@
 
 - type: entity
   id: AlwaysPoweredlightYellow
-  suffix: ent-AlwaysPoweredlightYellow-suffix
+  suffix: Always Powered, Yellow
   parent: AlwaysPoweredWallLight
   components:
   - type: PointLight
@@ -595,7 +595,7 @@
 
 - type: entity
   id: PoweredlightPink
-  suffix: ent-PoweredlightPink-suffix
+  suffix: Pink
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -613,7 +613,7 @@
 
 - type: entity
   id: AlwaysPoweredlightPink
-  suffix: ent-AlwaysPoweredlightPink-suffix
+  suffix: Always Powered, Pink
   parent: AlwaysPoweredWallLight
   components:
   - type: PointLight
@@ -624,7 +624,7 @@
 
 - type: entity
   id: PoweredlightOrange
-  suffix: ent-PoweredlightOrange-suffix
+  suffix: Orange
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -642,7 +642,7 @@
 
 - type: entity
   id: AlwaysPoweredlightOrange
-  suffix: ent-AlwaysPoweredlightOrange-suffix
+  suffix: Always Powered, Orange
   parent: AlwaysPoweredWallLight
   components:
   - type: PointLight
@@ -653,7 +653,7 @@
 
 - type: entity
   id: PoweredlightBlack
-  suffix: ent-PoweredlightBlack-suffix
+  suffix: Black
   parent: Poweredlight
   description:
   components:
@@ -672,7 +672,7 @@
 
 - type: entity
   id: AlwaysPoweredlightBlack
-  suffix: ent-AlwaysPoweredlightBlack-suffix
+  suffix: Always Powered, Black
   parent: AlwaysPoweredWallLight
   components:
   - type: PointLight
@@ -683,7 +683,7 @@
 
 - type: entity
   id: PoweredlightRed
-  suffix: ent-PoweredlightRed-suffix
+  suffix: Red
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -701,7 +701,7 @@
 
 - type: entity
   id: AlwaysPoweredlightRed
-  suffix: ent-AlwaysPoweredlightRed-suffix
+  suffix: Always Powered, Red
   parent: AlwaysPoweredWallLight
   components:
   - type: PointLight
@@ -712,7 +712,7 @@
 
 - type: entity
   id: PoweredlightGreen
-  suffix: ent-PoweredlightGreen-suffix
+  suffix: Green
   parent: Poweredlight
   components:
   - type: PoweredLight
@@ -730,7 +730,7 @@
 
 - type: entity
   id: AlwaysPoweredlightGreen
-  suffix: ent-AlwaysPoweredlightGreen-suffix
+  suffix: Always Powered, Green
   parent: AlwaysPoweredWallLight
   components:
   - type: PointLight

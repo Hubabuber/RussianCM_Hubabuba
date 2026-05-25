@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianColonyPilot
-  name: job-au14jobciviliancolonypilot-name
-  description: job-au14jobciviliancolonypilot-desc
+  name: au14-job-name-civiliancolonypilot
+  description: au14-job-description-civiliancolonypilot
   playTimeTracker: AU14JobCivilianColonyPilot
   setPreference: true
   canBeAntag: false
@@ -34,9 +34,9 @@
   dummyStartingGear: AU14GearCivilianColonyPilotDummy
   icon: "AU14JobIconCivilianColonyPilot"
   requireAdminNotify: true
-  spawnMenuRoleName: job-au14jobciviliancolonypilot-spawnmenurolename
+  spawnMenuRoleName: Commercial Pilot (Orbital)
   joinNotifyCrew: false
-  supervisors: job-au14jobciviliancolonypilot-supervisors
+  supervisors: au14-job-supervisors-orbital
   accessGroups:
   - auwy
   - Colonist
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianColonyPilot
-  name: ent-AU14SpawnPointCivilianColonyPilot
+  name: Spawn Point Commercial Pilot
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianColonyPilot

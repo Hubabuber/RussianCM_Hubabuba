@@ -9,16 +9,3 @@ ent-MopBucketCubeWrapped-desc = Разверните это, чтобы полу
 ent-JanitorialTrolley-name = уборочная тележка
 ent-JanitorialTrolley-desc = Это альфа и омега санитарии.
 
-ent-JanitorialTrolley = уборочная тележка
-    .desc = Это альфа и омега санитарии.
-
-ent-MopBucket = ведро для швабры
-    .desc = Держит воду и слезы дворника.
-
-ent-MopBucketCubeWrapped = кубик ведра для швабры
-    .desc = Разверните это, чтобы получить куб ведра для швабры.
-    .suffix = завернутый
-
-ent-MopBucketFull = ведро для швабры
-    .desc = Держит воду и слезы дворника.
-    .suffix = полный

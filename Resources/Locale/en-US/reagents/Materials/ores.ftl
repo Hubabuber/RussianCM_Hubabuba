@@ -1,9 +1,0 @@
-material-rawbananium-name = materials-raw-bananium
-material-rawdiamond-name = materials-raw-diamond
-material-rawgold-name = materials-raw-gold
-material-rawiron-name = materials-raw-iron
-material-rawplasma-name = materials-raw-plasma
-material-rawquartz-name = materials-raw-quartz
-material-rawsalt-name = materials-raw-salt
-material-rawsilver-name = materials-raw-silver
-material-rawuranium-name = materials-raw-uranium

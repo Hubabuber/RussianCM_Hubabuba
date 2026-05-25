@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
-  name: ent-GasMinerBase
-  description: ent-GasMinerBase-desc
+  name: gas miner
+  description: Gases mined from the gas giant below (above?) flow out through this massive vent.
   id: GasMinerBase
   placement:
     mode: SnapgridCenter
@@ -37,10 +37,10 @@
       - GasMiningAndStorage
 
 - type: entity
-  name: ent-GasMinerOxygen
+  name: O2 gas miner
   parent: GasMinerBase
   id: GasMinerOxygen
-  suffix: ent-GasMinerOxygen-suffix
+  suffix: Shuttle, 300kPa
   placement:
     mode: SnapgridCenter
   components:
@@ -48,52 +48,52 @@
       spawnGas: Oxygen
 
 - type: entity
-  name: ent-GasMinerOxygenStation
+  name: O2 gas miner
   parent: GasMinerOxygen
   id: GasMinerOxygenStation
-  suffix: ent-GasMinerOxygenStation-suffix
+  suffix: Station, 1000kPa
   components:
     - type: GasMiner
       maxExternalPressure: 1000
 
 - type: entity
-  name: ent-GasMinerOxygenStationLarge
+  name: O2 gas miner
   parent: GasMinerOxygen
   id: GasMinerOxygenStationLarge
-  suffix: ent-GasMinerOxygenStationLarge-suffix
+  suffix: Large Station, 4500kPa
   components:
     - type: GasMiner
       maxExternalPressure: 4500
 
 - type: entity
-  name: ent-GasMinerNitrogen
+  name: N2 gas miner
   parent: GasMinerBase
   id: GasMinerNitrogen
-  suffix: ent-GasMinerNitrogen-suffix
+  suffix: Shuttle, 300kPa
   components:
     - type: GasMiner
       spawnGas: Nitrogen
 
 - type: entity
-  name: ent-GasMinerNitrogenStation
+  name: N2 gas miner
   parent: GasMinerNitrogen
   id: GasMinerNitrogenStation
-  suffix: ent-GasMinerNitrogenStation-suffix
+  suffix: Station, 1000kPa
   components:
     - type: GasMiner
       maxExternalPressure: 1000
 
 - type: entity
-  name: ent-GasMinerNitrogenStationLarge
+  name: N2 gas miner
   parent: GasMinerNitrogen
   id: GasMinerNitrogenStationLarge
-  suffix: ent-GasMinerNitrogenStationLarge-suffix
+  suffix: Large Station, 4500kPa
   components:
     - type: GasMiner
       maxExternalPressure: 4500
 
 - type: entity
-  name: ent-GasMinerCarbonDioxide
+  name: CO2 gas miner
   parent: GasMinerBase
   id: GasMinerCarbonDioxide
   components:
@@ -101,7 +101,7 @@
       spawnGas: CarbonDioxide
 
 - type: entity
-  name: ent-GasMinerPlasma
+  name: plasma gas miner
   parent: GasMinerBase
   id: GasMinerPlasma
   components:
@@ -109,7 +109,7 @@
       spawnGas: Plasma
 
 - type: entity
-  name: ent-GasMinerTritium
+  name: tritium gas miner
   parent: GasMinerBase
   id: GasMinerTritium
   components:
@@ -117,7 +117,7 @@
       spawnGas: Tritium
 
 - type: entity
-  name: ent-GasMinerFrezon
+  name: frezon gas miner
   parent: GasMinerBase
   id: GasMinerFrezon
   components:
@@ -125,7 +125,7 @@
       spawnGas: Frezon
 
 - type: entity
-  name: ent-GasMinerWaterVapor
+  name: water vapor gas miner
   parent: GasMinerBase
   id: GasMinerWaterVapor
   components:
@@ -133,7 +133,7 @@
       spawnGas: WaterVapor
 
 - type: entity
-  name: ent-GasMinerAmmonia
+  name: ammonia gas miner
   parent: GasMinerBase
   id: GasMinerAmmonia
   components:
@@ -141,7 +141,7 @@
       spawnGas: Ammonia
 
 - type: entity
-  name: ent-GasMinerNitrousOxide
+  name: nitrous oxide gas miner
   parent: GasMinerBase
   id: GasMinerNitrousOxide
   components:

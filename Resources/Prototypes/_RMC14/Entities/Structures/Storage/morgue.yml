@@ -32,8 +32,8 @@
 - type: entity
   parent: RMCMorgueBase
   id: CMMorgue
-  name: ent-CMMorgue
-  description: ent-CMMorgue-desc
+  name: morgue
+  description: Used to store bodies until someone fetches them.
   components:
   - type: Pullable
   - type: Clickable
@@ -104,8 +104,8 @@
 - type: entity
   parent: [ Crematorium, RMCMorgueBase ]
   id: CMCrematorium
-  name: ent-CMCrematorium
-  description: ent-CMCrematorium-desc
+  name: crematorium
+  description: A human incinerator. Works well on barbecue nights.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/morgue.rsi

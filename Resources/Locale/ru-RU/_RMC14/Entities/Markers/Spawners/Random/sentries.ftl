@@ -1,12 +1,12 @@
 ent-RMCSpawnerRandomSentry = сторожевой генератор добычи
   .desc = Это случайный часовой, для выживших.
-    .suffix = сторожевой генератор добычи
+
 ent-RMCSpawnerRandomSentryLowChance = сторожевой генератор добычи
   .desc = Это случайный часовой, для выживших.
-    .suffix = сторожевой генератор добычи
+
 ent-RMCSpawnerRandomSentryMidChance = сторожевой генератор добычи
   .desc = Это случайный часовой, для выживших.
-    .suffix = сторожевой генератор добычи
+
 ent-RMCSpawnerRandomSentryHighChance = сторожевой генератор добычи
   .desc = Это случайный часовой, для выживших.
-    .suffix = сторожевой генератор добычи
+

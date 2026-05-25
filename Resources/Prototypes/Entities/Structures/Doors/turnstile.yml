@@ -1,8 +1,8 @@
 - type: entity
   id: Turnstile
   parent: BaseStructure
-  name: ent-Turnstile
-  description: ent-Turnstile-desc
+  name: turnstile
+  description: A mechanical door that permits one-way access and prevents tailgating.
   components:
   - type: Sprite
     sprite: Structures/Doors/turnstile.rsi
@@ -82,7 +82,7 @@
 - type: entity
   id: TurnstileGenpopEnter
   parent: Turnstile
-  suffix: ent-TurnstileGenpopEnter-suffix
+  suffix: Genpop Enter
   components:
   - type: AccessReader
     access: [["GenpopEnter"], ["Security"]]
@@ -90,7 +90,7 @@
 - type: entity
   id: TurnstileGenpopLeave
   parent: Turnstile
-  suffix: ent-TurnstileGenpopLeave-suffix
+  suffix: Genpop Leave
   components:
   - type: AccessReader
     access: [["GenpopLeave"], ["Security"]]

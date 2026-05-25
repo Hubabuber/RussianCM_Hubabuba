@@ -1,9 +1,9 @@
 - type: entity
   parent: BasePlushie
   id: CMPlushieBase
-  name: ent-CMPlushieBase
-  description: ent-CMPlushieBase-desc
-  suffix: ent-CMPlushieBase-suffix
+  name: generic plushie
+  description: perfectly generic
+  suffix: RMC
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Fun/plushies.rsi
@@ -24,12 +24,12 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieBaseAdmin
-  suffix: ent-RMCPlushieBaseAdmin-suffix
+  suffix: RMC, DO NOT MAP.
 
 - type: entity
   parent: PlushieMoth
   id: RMCPlushieMoth
-  suffix: ent-RMCPlushieMoth-suffix
+  suffix: RMC
   components:
   - type: UseDelay
     delay: 120
@@ -43,7 +43,7 @@
 - type: entity
   parent: PlushieSharkGrey
   id: RMCPlushieSharkGrey
-  suffix: ent-RMCPlushieSharkGrey-suffix
+  suffix: RMC
   components:
   - type: UseDelay
     delay: 120
@@ -57,7 +57,7 @@
 - type: entity
   parent: PlushieSharkBlue
   id: RMCPlushieSharkBlue
-  suffix: ent-RMCPlushieSharkBlue-suffix
+  suffix: RMC
   components:
   - type: UseDelay
     delay: 120
@@ -71,7 +71,7 @@
 - type: entity
   parent: PlushieSharkPink
   id: RMCPlushieSharkPink
-  suffix: ent-RMCPlushieSharkPink-suffix
+  suffix: RMC
   components:
   - type: UseDelay
     delay: 120
@@ -85,9 +85,9 @@
 - type: entity
   parent: RMCPlushieSharkBlue
   id: RMCShorkMedicalOfficer
-  name: ent-RMCShorkMedicalOfficer
-  description: ent-RMCShorkMedicalOfficer-desc
-  suffix: ent-RMCShorkMedicalOfficer-suffix
+  name: Shork medical officer plushie
+  description: The Shork Medical Officer is disappointed to see you in surgery yet again. Maybe you should take better care of yourself?
+  suffix: RMC
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Fun/smo.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieFarwa
-  name: ent-CMPlushieFarwa
-  description: ent-CMPlushieFarwa-desc
+  name: Farwa plush
+  description: A Farwa plush doll. It's soft and comforting!
   components:
   - type: Sprite
     state: farwa
@@ -111,8 +111,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieBarricade
-  name: ent-CMPlushieBarricade
-  description: ent-CMPlushieBarricade-desc
+  name: plushie barricade
+  description: Great for squeezing whenever you're scared. Or lightly hurt. Or in any other situation.
   components:
   - type: Sprite
     state: barricade
@@ -120,8 +120,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieBee
-  name: ent-CMPlushieBee
-  description: ent-CMPlushieBee-desc
+  name: bee plush
+  description: A cute toy that awakens the warrior spirit in the most reserved marine.
   components:
   - type: Sprite
     state: bee
@@ -129,8 +129,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRock
-  name: ent-CMPlushieRock
-  description: ent-CMPlushieRock-desc
+  name: rock plush
+  description: It says it is a plush on the tag, at least.
   components:
   - type: Sprite
     state: rock
@@ -138,8 +138,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieTherapy
-  name: ent-CMPlushieTherapy
-  description: ent-CMPlushieTherapy-desc
+  name: therapy plush
+  description: A therapeutic toy to assist marines in recovering from mental and behavioral disorders after experiencing the trauma of battles.
   components:
   - type: Sprite
     layers:
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRunnerBeret
-  name: ent-CMPlushieRunnerBeret
-  description: ent-CMPlushieRunnerBeret-desc
+  name: XX therapy plush
+  description: Don't be sad! Be glad (that you're alive)!
   components:
   - type: Sprite
     state: runner_beret
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RCMPlushieRounyLizard
-  name: ent-RCMPlushieRounyLizard
-  description: ent-RCMPlushieRounyLizard-desc
+  name: silly rouny plushie
+  description: A silly rouny plushie produced by the UNMC to reduce stress in marines, shown to be highly effective when thrown into walls.
   components:
   - type: Sprite
     state: rouny_plushie
@@ -172,8 +172,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieAlec
-  name: ent-RMCPlushieAlec
-  description: ent-RMCPlushieAlec-desc
+  name: conspicuous plush
+  description: You can almost feel spite emanating from it. On it's back is a small tag listing the several cheap and hypoallergenic textiles it's made of. At the very bottom is the name of the maker, Drake Industries.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Fun/alec_plushie.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieNyx
-  name: ent-RMCPlushieNyx
-  description: ent-RMCPlushieNyx-desc
+  name: accursed plush
+  description: It's rumoured if you ask this plushie for metal, your soul gets trapped in the pit. It's also rumoured that this plushie was made with 99% cotton.
   components:
   - type: Sprite
     state: plushie_moth
@@ -218,9 +218,9 @@
 - type: entity
   parent: RMCPlushieNyx
   id: RMCPlushieMotivationalMoth
-  name: ent-RMCPlushieMotivationalMoth
-  description: ent-RMCPlushieMotivationalMoth-desc
-  suffix: ent-RMCPlushieMotivationalMoth-suffix
+  name: motivational marine moth
+  description: A soft, fluffy little marine companion for those who just need a little motivation to make it across the finish line. You can do it, yesyes! It chitters happily when squeezed!
+  suffix: DO NOT MAP
   components:
   - type: Sprite
     state: plushie_wawa
@@ -228,8 +228,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieXippy
-  name: ent-RMCPlushieXippy
-  description: ent-RMCPlushieXippy-desc
+  name: xippy
+  description: An accursed agent of chaos and violence.
   components:
   - type: Sprite
     state: xippy
@@ -252,8 +252,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieGnarpGnarp
-  name: ent-RMCPlushieGnarpGnarp
-  description: ent-RMCPlushieGnarpGnarp-desc
+  name: gnarp plush
+  description: gnarp gnarp.
   components:
   - type: Sprite
     state: gnarp
@@ -261,9 +261,9 @@
 - type: entity
   parent: RMCPlushieGnarpGnarp
   id: RMCPlushieGnarpGnarpAlt
-  name: ent-RMCPlushieGnarpGnarpAlt
-  suffix: ent-RMCPlushieGnarpGnarpAlt-suffix
-  description: ent-RMCPlushieGnarpGnarpAlt-desc
+  name: gnarp plush
+  suffix: Alternate
+  description: gnarp gnarp.
   components:
   - type: Sprite
     state: gnarp_alt
@@ -271,8 +271,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieProvost
-  name: ent-RMCPlushieProvost
-  description: ent-RMCPlushieProvost-desc
+  name: intimidating plush
+  description: An icon for all avid tax payers and law enforcement personnel - Don't let anyone know that this plushie is actually behind on their taxes.
   components:
   - type: Sprite
     state: provost
@@ -304,8 +304,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieCrow
-  name: ent-RMCPlushieCrow
-  description: ent-RMCPlushieCrow-desc
+  name: crow plushie
+  description: hello cro
   components:
   - type: Sprite
     state: crow

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCCLFDoctorPVE
-  name: job-rmcclfdoctorpve-name
-  description: job-rmcclfdoctorpve-desc
+  name: rmc-job-name-clf-pve-doctor
+  description: rmc-ghost-role-information-clf-pve-description
   playTimeTracker: CMJobCLFDoctorPVE
   ranks:
     RMCRankCivilianDoctor: []
@@ -12,7 +12,7 @@
   accessGroups:
   - Colony
   - HospitalCorpsman
-  spawnMenuRoleName: job-rmcclfdoctorpve-spawnmenurolename
+  spawnMenuRoleName: CLF Doctor (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -48,8 +48,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointCLFDoctorPVE
-  name: ent-RMCSpawnPointCLFDoctorPVE
-  suffix: ent-RMCSpawnPointCLFDoctorPVE-suffix
+  name: clf doctor spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: RMCCLFDoctorPVE

@@ -10,8 +10,8 @@
 - type: entity
   parent: BaseCritAction
   id: ActionCritSuccumb
-  name: ent-ActionCritSuccumb
-  description: ent-ActionCritSuccumb-desc
+  name: Succumb
+  description: Accept your fate.
   components:
   - type: Action
     startDelay: true
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseCritAction
   id: ActionCritFakeDeath
-  name: ent-ActionCritFakeDeath
-  description: ent-ActionCritFakeDeath-desc
+  name: Fake Death
+  description: Pretend to take your final breath while staying alive.
   components:
   - type: Action
     useDelay: 30
@@ -39,8 +39,8 @@
 - type: entity
   parent: ActionCritSuccumb # for use delay
   id: ActionCritLastWords
-  name: ent-ActionCritLastWords
-  description: ent-ActionCritLastWords-desc
+  name: Say Last Words
+  description: Whisper your last words to anyone nearby, and then succumb to your fate. You only have 30 characters to work with.
   components:
   - type: Action
     icon:

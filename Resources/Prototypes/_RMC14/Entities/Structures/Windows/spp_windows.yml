@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCWindowFrameSPPReinforced
   id: RMCWindowFrameSPPReinforcedGrey
-  suffix: ent-RMCWindowFrameSPPReinforcedGrey-suffix
+  suffix: Grey
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/spp_grey_frame.rsi
@@ -32,7 +32,7 @@
 - type: entity
   parent: RMCWindowFrameSPPReinforced
   id: RMCWindowFrameSPPReinforcedWhite
-  suffix: ent-RMCWindowFrameSPPReinforcedWhite-suffix
+  suffix: White
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/spp_white_frame.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowSPPReinforced
-  name: ent-RMCWindowSPPReinforced
-  description: ent-RMCWindowSPPReinforced-desc
+  name: military grade window
+  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/spp_window.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: RMCWindowSPPReinforced
   id: RMCWindowSPPReinforcedGrey
-  suffix: ent-RMCWindowSPPReinforcedGrey-suffix
+  suffix: Grey
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/spp_grey_window.rsi
@@ -145,7 +145,7 @@
 - type: entity
   parent: RMCWindowSPPReinforced
   id: RMCWindowSPPReinforcedWhite
-  suffix: ent-RMCWindowSPPReinforcedWhite-suffix
+  suffix: White
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/spp_white_window.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowSPPHull
-  name: ent-RMCWindowSPPHull
-  description: ent-RMCWindowSPPHull-desc
+  name: hull window
+  description: A glass window. Something tells you this one is somehow indestructible.
   components:
   - type: Corrodible
     isCorrodible: false
@@ -209,7 +209,7 @@
 - type: entity
   parent: RMCWindowSPPHull
   id: RMCWindowSPPHullGrey
-  suffix: ent-RMCWindowSPPHullGrey-suffix
+  suffix: Grey
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/spp_grey_window.rsi
@@ -219,7 +219,7 @@
 - type: entity
   parent: RMCWindowSPPHull
   id: RMCWindowSPPHullWhite
-  suffix: ent-RMCWindowSPPHullWhite-suffix
+  suffix: White
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/spp_white_window.rsi

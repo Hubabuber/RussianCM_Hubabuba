@@ -1,10 +1,10 @@
 # Leaves
 
 - type: entity
-  name: ent-LeavesCannabis
+  name: cannabis leaves
   parent: ProduceBase
   id: LeavesCannabis
-  description: "ent-LeavesCannabis-desc"
+  description: "Recently legalized in most galaxies."
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/cannabis.rsi
@@ -20,10 +20,10 @@
 
 
 - type: entity
-  name: ent-LeavesCannabisDried
+  name: dried cannabis leaves
   parent: BaseItem
   id: LeavesCannabisDried
-  description: "ent-LeavesCannabisDried-desc"
+  description: "Dried cannabis leaves, ready to be ground."
   components:
   - type: Stack
     stackType: LeavesCannabisDried
@@ -39,10 +39,10 @@
     state: dried
 
 - type: entity
-  name: ent-GroundCannabis
+  name: ground cannabis
   parent: BaseItem
   id: GroundCannabis
-  description: "ent-GroundCannabis-desc"
+  description: "Ground cannabis, ready to take you on a trip."
   components:
   - type: Stack
     stackType: GroundCannabis
@@ -67,10 +67,10 @@
     size: Tiny
 
 - type: entity
-  name: ent-LeavesCannabisRainbow
+  name: rainbow cannabis leaves
   parent: LeavesCannabis
   id: LeavesCannabisRainbow
-  description: "ent-LeavesCannabisRainbow-desc"
+  description: "Is it supposed to be glowing like that...?"
   components:
   - type: Sprite
     layers:
@@ -103,10 +103,10 @@
           Quantity: 0.6
 
 - type: entity
-  name: ent-LeavesCannabisRainbowDried
+  name: dried rainbow cannabis leaves
   parent: LeavesCannabisDried
   id: LeavesCannabisRainbowDried
-  description: "ent-LeavesCannabisRainbowDried-desc"
+  description: "Dried rainbow cannabis leaves, ready to be ground."
   components:
   - type: Stack
     stackType: LeavesCannabisRainbowDried
@@ -133,10 +133,10 @@
     state: dried
 
 - type: entity
-  name: ent-GroundCannabisRainbow
+  name: ground rainbow cannabis
   parent: GroundCannabis
   id: GroundCannabisRainbow
-  description: "ent-GroundCannabisRainbow-desc"
+  description: "Ground rainbow cannabis, ready to take you on a trip."
   components:
   - type: Stack
     stackType: GroundCannabisRainbow
@@ -166,10 +166,10 @@
     node: groundRainbow
 
 - type: entity
-  name: ent-LeavesTea
+  name: tea leaves
   parent: ProduceBase
   id: LeavesTea
-  description: "ent-LeavesTea-desc"
+  description: "Can be dried out to make tea."
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tea_plant.rsi
@@ -183,10 +183,10 @@
           Quantity: 2
 
 - type: entity
-  name: ent-LeavesTeaDried
+  name: dried tea leaves
   parent: ProduceBase
   id: LeavesTeaDried
-  description: "ent-LeavesTeaDried-desc"
+  description: "Dried tea leaves, ready to be ground."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -199,10 +199,10 @@
     state: dried
 
 - type: entity
-  name: ent-LeavesTobacco
+  name: tobacco leaves
   parent: ProduceBase
   id: LeavesTobacco
-  description: "ent-LeavesTobacco-desc"
+  description: "Dry them out to make some smokes."
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tobacco.rsi
@@ -210,10 +210,10 @@
     seedId: tobacco
 
 - type: entity
-  name: ent-LeavesTobaccoDried
+  name: dried tobacco leaves
   parent: BaseItem
   id: LeavesTobaccoDried
-  description: "ent-LeavesTobaccoDried-desc"
+  description: "Dried tobacco leaves, ready to be ground."
   components:
   - type: Stack
     stackType: LeavesTobaccoDried
@@ -229,10 +229,10 @@
     state: dried
 
 - type: entity
-  name: ent-GroundTobacco
+  name: ground tobacco
   parent: BaseItem
   id: GroundTobacco
-  description: "ent-GroundTobacco-desc"
+  description: "Ground tobacco, perfect for hand-rolled cigarettes."
   components:
   - type: Stack
     stackType: GroundTobacco

@@ -38,8 +38,8 @@
     state: health_1
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_health.rsi
     state: health_0
-  name: alert-xenohealth-name
-  description: alert-xenohealth-desc
+  name: alerts-health-name
+  description: alerts-health-desc
   minSeverity: 0
   maxSeverity: 17
 
@@ -49,13 +49,14 @@
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_health.rsi
     state: health_critical
-  name: alert-xenocrit-name
-  description: alert-xenocrit-desc
+  name: alerts-crit-name
+  description: alerts-crit-desc
+
 - type: alert
   id: XenoDead
   category: Health
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_health.rsi
     state: health_dead
-  name: alert-xenodead-name
-  description: alert-xenodead-desc
+  name: alerts-dead-name
+  description: alerts-dead-desc

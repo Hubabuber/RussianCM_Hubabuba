@@ -1,18 +1,18 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesBombSpecPVE
-  name: job-cmroyalmarinesbombspecpve-name
-  description: job-cmroyalmarinesbombspecpve-desc
+  name: rmc-job-name-rcm-pve-bombardment-specialist
+  description: rmc-ghost-role-information-rcm-description
   playTimeTracker: RMCJobRoyalBombSpecPVE
   ranks:
     RMCRankTSELanceCorporal: [ ]
   startingGear: RMCGearRoyalBombSpecPVE
   icon: "RMCJobIconRoyalBombSpecPVE"
   joinNotifyCrew: false
-  supervisors: job-cmroyalmarinesbombspecpve-supervisors
+  supervisors: cm-job-supervisors-royal-tl
   accessGroups:
   - WeaponSpec
-  spawnMenuRoleName: job-cmroyalmarinesbombspecpve-spawnmenurolename
+  spawnMenuRoleName: RCM Bombardment Specialist (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -58,7 +58,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVEBombSpec
-  name: ent-CMSpawnPointRCMPVEBombSpec
+  name: RCM bombardment specialist spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesBombSpecPVE

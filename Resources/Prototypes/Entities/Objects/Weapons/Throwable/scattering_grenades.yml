@@ -1,4 +1,4 @@
-# ScatteringGrenade is intended for grenades that spawn entities, especially those with timers
+﻿# ScatteringGrenade is intended for grenades that spawn entities, especially those with timers
 - type: entity
   abstract: true
   parent: BaseItem
@@ -27,8 +27,8 @@
 - type: entity
   parent: [ScatteringGrenadeBase, BaseSecurityContraband]
   id: ClusterBang
-  name: ent-ClusterBang
-  description: ent-ClusterBang-desc
+  name: clusterbang
+  description: Can be used only with flashbangs. Explodes several times.
   components:
   - type: ScatteringGrenade
     whitelist:
@@ -45,9 +45,9 @@
 - type: entity
   parent: ClusterBang
   id: ClusterBangFull
-  name: ent-ClusterBangFull
-  description: ent-ClusterBangFull-desc
-  suffix: ent-ClusterBangFull-suffix
+  name: ClusterBang
+  description: Launches three flashbangs after the timer runs out.
+  suffix: Full
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbang.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: [ScatteringGrenadeBase, BaseSyndicateContraband]
   id: ClusterGrenade
-  name: ent-ClusterGrenade
-  description: ent-ClusterGrenade-desc
+  name: clustergrenade
+  description: Why use one grenade when you can use three at once!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbomb.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: [ScatteringGrenadeBase, BaseSyndicateContraband]
   id: ClusterBananaPeel
-  name: ent-ClusterBananaPeel
-  description: ent-ClusterBananaPeel-desc
+  name: cluster banana peel
+  description: Splits into 6 explosive banana peels after throwing, guaranteed fun!
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: [SoapSyndie, ScatteringGrenadeBase, BaseSyndicateContraband]
   id: SlipocalypseClusterSoap
-  name: ent-SlipocalypseClusterSoap
-  description: ent-SlipocalypseClusterSoap-desc
+  name: slipocalypse clustersoap
+  description: Spreads small pieces of syndicate soap over an area upon landing on the floor.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/soap.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: ScatteringGrenadeBase
   id: GrenadeFoamDart
-  name: ent-GrenadeFoamDart
-  description: ent-GrenadeFoamDart-desc
+  name: foam dart grenade
+  description: Releases a bothersome spray of foam darts that cause severe welching.
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_grenade.rsi

@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: ArcadeBase
-  description: ent-ArcadeBase-desc
-  name: ent-ArcadeBase
+  description: An arcade cabinet.
+  name: arcade
   parent: BaseComputer
   components:
   - type: ApcPowerReceiver
@@ -56,7 +56,7 @@
 
 - type: entity
   id: SpaceVillainArcade
-  name: ent-SpaceVillainArcade
+  name: space villain arcade
   parent: ArcadeBase
   components:
   - type: Sprite
@@ -180,7 +180,7 @@
 - type: entity
   id: SpaceVillainArcadeFilled
   parent: SpaceVillainArcade
-  suffix: ent-SpaceVillainArcadeFilled-suffix
+  suffix: Filled
   components:
   - type: SpaceVillainArcade
     rewardMinAmount: 5
@@ -188,8 +188,8 @@
 
 - type: entity
   id: BlockGameArcade
-  description: ent-BlockGameArcade-desc
-  name: ent-BlockGameArcade
+  description: An arcade cabinet with a strangely familiar game.
+  name: NT block game
   parent: ArcadeBase
   components:
   - type: Sprite

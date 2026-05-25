@@ -1,7 +1,7 @@
 # Be careful with these as they get removed on shutdown too!
 - type: entity
   id: AiHeld
-  description: ent-AiHeld-desc
+  description: Components added / removed from an entity that gets inserted into an AI core.
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -74,7 +74,7 @@
 
 - type: entity
   id: AiHeldIntellicard
-  description: ent-AiHeldIntellicard-desc
+  description: Components added / removed from an entity that gets inserted into an Intellicard.
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -98,7 +98,7 @@
 - type: entity
   id: AiHolder
   abstract: true
-  description: ent-AiHolder-desc
+  description: Handles AI interactions across holocards + AI cores
   components:
   - type: ItemSlots
   - type: Tag
@@ -124,12 +124,12 @@
 # Items
 - type: entity
   id: Intellicard
-  name: ent-Intellicard
-  description: ent-Intellicard-desc
+  name: intellicard
+  description: A storage device for AIs.
   parent:
   - BaseItem
   - AiHolder
-  suffix: ent-Intellicard-suffix
+  suffix: Empty
   components:
   - type: ContainerComp
     proto: AiHeldIntellicard
@@ -163,12 +163,12 @@
 
 - type: entity
   id: PlayerStationAiEmpty
-  name: ent-PlayerStationAiEmpty
-  description: ent-PlayerStationAiEmpty-desc
+  name: AI Core
+  description: The latest in Artificial Intelligences.
   parent:
   - BaseStructure
   - AiHolder
-  suffix: ent-PlayerStationAiEmpty-suffix
+  suffix: Empty
   components:
   - type: WarpPoint
     blacklist:
@@ -234,7 +234,7 @@
 - type: entity
   id: PlayerStationAi
   parent: PlayerStationAiEmpty
-  suffix: ent-PlayerStationAi-suffix
+  suffix: Job spawn
   components:
   - type: ContainerSpawnPoint
     containerId: station_ai_mind_slot
@@ -300,8 +300,8 @@
   - Incorporeal
   - BaseMob
   id: StationAiHolo
-  name: ent-StationAiHolo
-  description: ent-StationAiHolo-desc
+  name: AI eye
+  description: The AI's viewer.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: NoFTL
@@ -327,8 +327,8 @@
 # The holographic representation of the AI that is projected from a holopad.
 - type: entity
   id: StationAiHoloLocal
-  name: ent-StationAiHoloLocal
-  description: ent-StationAiHoloLocal-desc
+  name: AI hologram
+  description: A holographic representation of an AI.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Transform
@@ -355,7 +355,7 @@
 - type: entity
   id: PlayerBorgBattery
   parent: BorgChassisSelectable
-  suffix: ent-PlayerBorgBattery-suffix
+  suffix: Battery
   components:
   - type: ContainerFill
     containers:
@@ -373,7 +373,7 @@
 - type: entity
   id: PlayerBorgSyndicateAssaultBattery
   parent: BorgChassisSyndicateAssault
-  suffix: ent-PlayerBorgSyndicateAssaultBattery-suffix
+  suffix: Battery, Module, Operative
   components:
   - type: NukeOperative
   - type: ContainerFill
@@ -393,7 +393,7 @@
 - type: entity
   id: PlayerBorgSyndicateAssaultGhostRole
   parent: PlayerBorgSyndicateAssaultBattery
-  suffix: ent-PlayerBorgSyndicateAssaultGhostRole-suffix
+  suffix: Ghost role
   components:
     - type: GhostRole
       name: ghost-role-information-syndicate-cyborg-assault-name
@@ -406,7 +406,7 @@
 - type: entity
   id: PlayerBorgSyndicateSaboteurBattery
   parent: BorgChassisSyndicateSaboteur
-  suffix: ent-PlayerBorgSyndicateSaboteurBattery-suffix
+  suffix: Battery, Module, Operative
   components:
   - type: NukeOperative
   - type: ContainerFill
@@ -426,7 +426,7 @@
 - type: entity
   id: PlayerBorgSyndicateSaboteurGhostRole
   parent: PlayerBorgSyndicateSaboteurBattery
-  suffix: ent-PlayerBorgSyndicateSaboteurGhostRole-suffix
+  suffix: Ghost role
   components:
     - type: GhostRole
       name: ghost-role-information-syndicate-cyborg-saboteur-name
@@ -437,7 +437,7 @@
     - type: GhostTakeoverAvailable
 
 - type: entity
-  name: ent-PlayerBorgSyndicateInvasionGhostRoleSpawner
+  name: syndicate invasion borg spawner
   id: PlayerBorgSyndicateInvasionGhostRoleSpawner
   parent: MarkerBase
   components:
@@ -455,7 +455,7 @@
 - type: entity
   id: PlayerBorgDerelict
   parent: BorgChassisDerelict
-  suffix: ent-PlayerBorgDerelict-suffix
+  suffix: Battery, Module
   components:
   - type: ContainerFill
     containers:
@@ -475,7 +475,7 @@
 - type: entity
   id: PlayerBorgDerelictGhostRole
   parent: PlayerBorgDerelict
-  suffix: ent-PlayerBorgDerelictGhostRole-suffix
+  suffix: Ghost role
   components:
     - type: GhostRole
       name: ghost-role-information-derelict-cyborg-name

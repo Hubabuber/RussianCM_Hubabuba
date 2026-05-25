@@ -1,10 +1,10 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: CMBaseStructure
   id: RMCPropComputerBase
-  name: ent-RMCPropComputerBase
-  description: ent-RMCPropComputerBase-desc
-  suffix: ent-RMCPropComputerBase-suffix
+  name: terminal
+  description: This can be used for various functions.
+  suffix: Prop
   components:
   - type: Transform
     anchored: false
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropCommunicationsConsole
-  name: ent-RMCPropCommunicationsConsole
+  name: communications console
   components:
   - type: Sprite
     state: comm
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCPropCommunicationsConsole
   id: RMCPropCommunicationsConsoleAlt
-  suffix: ent-RMCPropCommunicationsConsoleAlt-suffix
+  suffix: Prop, Alt
   components:
   - type: Sprite
     state: comm_alt
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPersonalDesktop
-  name: ent-RMCPersonalDesktop
+  name: personal desktop
   components:
   - type: Sprite
     state: terminal1
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCSecurityCameraConsole
-  name: ent-RMCSecurityCameraConsole
+  name: security cameras console
   components:
   - type: Sprite
     state: security_cam
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCSecurityCameraConsole
   id: RMCDropshipWeaponsConsoleProp
-  name: ent-RMCDropshipWeaponsConsoleProp
+  name: dropship weapons controls
   components:
   - type: Sprite
     drawdepth: Objects
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCSecurityRecordsConsole
-  name: ent-RMCSecurityRecordsConsole
+  name: security records
   components:
   - type: Sprite
     state: jas
@@ -100,7 +100,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCSecurityRecordsConsoleAlt
-  name: ent-RMCSecurityRecordsConsoleAlt
+  name: security records
   components:
   - type: Sprite
     state: security
@@ -108,7 +108,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCIdentificationComputer
-  name: ent-RMCIdentificationComputer
+  name: identification computer
   components:
   - type: Sprite
     state: engineering_terminal
@@ -116,7 +116,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCStationAlertComputer
-  name: ent-RMCStationAlertComputer
+  name: station alert computer
   components:
   - type: Sprite
     state: atmos
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCSystemsComputer
-  name: ent-RMCSystemsComputer
+  name: systems computer
   components:
   - type: Sprite
     state: terminal

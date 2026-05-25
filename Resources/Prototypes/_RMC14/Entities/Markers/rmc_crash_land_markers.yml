@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: MarkerBase
   id: RMCBarrierBase
   components:
@@ -24,13 +24,13 @@
 - type: entity
   parent: RMCBarrierBase
   id: RMCCrashLandBarrier
-  name: ent-RMCCrashLandBarrier
+  name: crash land on touch barrier
   components:
   - type: CrashLandOnTouch
 
 - type: entity
   parent: RMCBarrierBase
   id: RMCDeleteCrashLandBarrier
-  name: ent-RMCDeleteCrashLandBarrier
+  name: delete crash landable on touch barrier
   components:
   - type: DeleteCrashLandableOnTouch

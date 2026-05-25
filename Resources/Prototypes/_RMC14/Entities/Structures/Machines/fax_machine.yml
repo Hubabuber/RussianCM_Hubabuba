@@ -1,8 +1,8 @@
 - type: entity
   parent: FaxMachineBase
   id: CMFax
-  name: ent-CMFax
-  description: ent-CMFax-desc
+  name: fax machine
+  description: Liaison's best and only friend.
   components:
   - type: ApcPowerReceiver
     needsPower: false # TODO RMC14
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMFax
   id: CMFaxCMB
-  name: ent-CMFaxCMB
-  suffix: ent-CMFaxCMB-suffix
+  name: colony marshal bureau fax machine
+  suffix: CMB
   components:
   - type: FaxMachine
     name: "Colony Marshal Bureau"
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMFax
   id: CMFaxWY
-  name: ent-CMFaxWY
-  suffix: ent-CMFaxWY-suffix
+  name: WY fax machine
+  suffix: WEYA
   components:
   - type: FaxMachine
     name: "Weyland-Yutani"
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMFax
   id: CMFaxHighCom
-  name: ent-CMFaxHighCom
-  suffix: ent-CMFaxHighCom-suffix
+  name: marine high command fax machine
+  suffix: Marine HC
   components:
   - type: FaxMachine
     name: "Marine High Command"
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxProvost
-  suffix: ent-CMFaxProvost-suffix
+  suffix: Provost
   components:
   - type: FaxMachine
     name: "Marine Provost Office"
@@ -74,7 +74,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxPress
-  suffix: ent-CMFaxPress-suffix
+  suffix: Press
   components:
   - type: FaxMachine
     name: "Various Press Organizations"
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxSPP
-  suffix: ent-CMFaxSPP-suffix
+  suffix: SPP
   components:
   - type: FaxMachine
     name: "Union of Progressive Peoples"
@@ -93,7 +93,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxTSE
-  suffix: ent-CMFaxTSE-suffix
+  suffix: TSE
   components:
   - type: FaxMachine
     name: "Three World Empire"
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMFax
   id: CMFaxColonyAdmin
-  name: ent-CMFaxColonyAdmin
-  suffix: ent-CMFaxColonyAdmin-suffix
+  name: colony administrator fax machine
+  suffix: Admin
   components:
   - type: FaxMachine
     name: "Colony Administrator"
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMFax
   id: RMCFaxLiaison
-  suffix: ent-RMCFaxLiaison-suffix
+  suffix: Corporate Liaison
   components:
   - type: FaxMachine
     name: "Corporate Liaison"
@@ -122,8 +122,8 @@
 - type: entity
   parent: CMFax
   id: RMCFaxColony #todo for RMC: Colony Fax machine that can only fax We-Ya and cannot be faxed by Marines.
-  suffix: ent-RMCFaxColony-suffix
-  description: ent-RMCFaxColony-desc
+  suffix: Colony, Unusable
+  description: This won't be much help to anyone.
   components:
   - type: RemoveComponents
     components:

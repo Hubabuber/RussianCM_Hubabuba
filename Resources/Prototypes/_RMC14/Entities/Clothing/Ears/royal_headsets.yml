@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: RMCHeadsetIconsTSE
   id: RMCHeadsetRoyalMarine
-  name: ent-RMCHeadsetRoyalMarine
-  description: ent-RMCHeadsetRoyalMarine-desc
+  name: royal marine headset
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets.
   components:
   - type: GrantSquadLeaderTracker
     defaultMode: RCMTeamLead
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCHeadsetRoyalMarine
   id: RMCHeadsetRoyalMarineLeader
-  name: ent-RMCHeadsetRoyalMarineLeader
-  description: ent-RMCHeadsetRoyalMarineLeader-desc
+  name: royal marine leader's headset
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets.
   components:
   - type: ContainerFill
     containers:
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCHeadsetRoyalMarine
   id: RMCHeadsetRoyalMarineOfficer
-  name: ent-RMCHeadsetRoyalMarineOfficer
-  description: ent-RMCHeadsetRoyalMarineOfficer-desc
+  name: royal marine officer's headset
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets. This one is heavier with the weight of responsibility.
   components:
   - type: ContainerFill
     containers:
@@ -51,9 +51,9 @@
 - type: entity
   parent: RMCHeadsetRoyalMarine
   id: RMCHeadsetRoyalMarinePVE
-  name: ent-RMCHeadsetRoyalMarinePVE
-  suffix: ent-RMCHeadsetRoyalMarinePVE-suffix
-  description: ent-RMCHeadsetRoyalMarinePVE-desc
+  name: royal marine's headset
+  suffix: PVE
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets.
   components:
   - type: GrantSquadLeaderTracker
     defaultMode: RCMPVETroopCommander
@@ -70,9 +70,9 @@
 - type: entity
   parent: RMCHeadsetRoyalMarinePVE
   id: RMCHeadsetRoyalMarineLeaderPVE
-  name: ent-RMCHeadsetRoyalMarineLeaderPVE
-  suffix: ent-RMCHeadsetRoyalMarineLeaderPVE-suffix
-  description: ent-RMCHeadsetRoyalMarineLeaderPVE-desc
+  name: royal marine leader's headset
+  suffix: PVE
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets. This one is heavier with the weight of responsibility.
   components:
   - type: ContainerFill
     containers:
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyRoyalMarine
-  name: ent-RMCEncryptionKeyRoyalMarine
+  name: royal marine radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -98,7 +98,7 @@
 - type: entity
   parent: RMCEncryptionKeyRoyalMarine
   id: RMCEncryptionKeyRoyalMarineCommand
-  name: ent-RMCEncryptionKeyRoyalMarineCommand
+  name: royal marine command radio encryption key
   components:
   - type: EncryptionKey
     channels:

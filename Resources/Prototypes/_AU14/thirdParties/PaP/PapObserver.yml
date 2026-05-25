@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14PAPThirdpartyObserver
-  name: job-au14papthirdpartyobserver-name
-  description: job-au14papthirdpartyobserver-desc
+  name: au-14-job-name-papthirdparty-observer
+  description: au14-papthirdparty-description-observer
   playTimeTracker: AU14JobPaPThirdpartyObserver
   ranks:
     UPP_SeniorLieutenant:
@@ -10,12 +10,12 @@
       role: AU14JobPaPThirdpartyObserver
       time: 18000 #5 hours
     UPP_Lieutenant: []
-  spawnMenuRoleName: job-au14papthirdpartyobserver-spawnmenurolename
+  spawnMenuRoleName: UPP PaP Observer (3rd party)
   startingGear: AU14GearPAPThirdpartyObserver
   greeting: au14-papthirdparty-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14papthirdpartyobserver-supervisors
+  supervisors: au-14-job-name-papthirdparty-captain
   accessGroups:
   - aucmb
   - Colonist
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicPAPThirdparty
   id: AU14JobPAPThirdpartyObserver
-  name: ent-AU14JobPAPThirdpartyObserver
+  name: UPP PAP Observer
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

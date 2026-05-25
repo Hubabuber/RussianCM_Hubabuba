@@ -2,8 +2,8 @@
   abstract: true
   parent: GrenadeBase
   id: CMGrenadeBase
-  name: ent-CMGrenadeBase
-  description: ent-CMGrenadeBase-desc
+  name: grenade
+  description: Duck and cover.
   components:
   - type: Explosive
     explosionType: RMC
@@ -38,8 +38,8 @@
     - RMCGrenadeM40
 
 - type: entity
-  name: ent-RMCGrenadeFlashBang
-  description: ent-RMCGrenadeFlashBang-desc
+  name: flashbang
+  description: Excellent for stopping groups of Rioters. Don't expect sunglasses to protect you...
   parent: CMGrenadeBase
   id: RMCGrenadeFlashBang
   components:
@@ -69,8 +69,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: CMGrenadeHighExplosive
-  name: ent-CMGrenadeHighExplosive
-  description: ent-CMGrenadeHighExplosive-desc
+  name: 30mm HEDP grenade
+  description: High-Explosive Dual-Purpose. A small, but deceptively strong blast grenade that has been phasing out the M15 HE grenades alongside the 30mm HEFA. Capable of being loaded in grenade launchers, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hedp.rsi
@@ -96,8 +96,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: CMGrenadeSmoke
-  name: ent-CMGrenadeSmoke
-  description: ent-CMGrenadeSmoke-desc
+  name: 30mm HSDP smoke grenade
+  description: The 30mm HSDP is a small, but powerful smoke grenade. Based off the same platform as the 30mm HEDP. It is set to detonate in 1 second.
   components:
   - type: OnUseTimerTrigger
     delay: 1
@@ -231,8 +231,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFrag
-  name: ent-CMGrenadeFrag
-  description: ent-CMGrenadeFrag-desc
+  name: 30mm HEFA grenade
+  description: High-Explosive Fragmenting-Antipersonnel. A small, but deceptively strong fragmentation grenade that has been phasing out the M15 fragmentation grenades alongside the 30mm HEDP. Capable of being loaded in grenade launchers, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hefa.rsi
@@ -264,8 +264,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFragOld
-  name: ent-CMGrenadeFragOld
-  description: ent-CMGrenadeFragOld-desc
+  name: M15 fragmentation grenade
+  description: An outdated UNMC Fragmentation Grenade. With decades of service in the UNMC, the old M15 Fragmentation Grenade is slowly being replaced by the slightly safer 30mm-series grenades. It is set to detonate in 4 seconds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m15frag.rsi
@@ -295,8 +295,8 @@
 - type: entity
   parent: CMGrenadeFragOld
   id: RMCGrenadeBlastM12
-  name: ent-RMCGrenadeBlastM12
-  description: ent-RMCGrenadeBlastM12-desc
+  name: M12 blast grenade
+  description: A high-explosive grenade produced for private security firms. It explodes around 4 seconds after the pin has been pulled.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m12blast.rsi
@@ -324,8 +324,8 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenadeTraining
-  name: ent-RMCGrenadeTraining
-  description: ent-RMCGrenadeTraining-desc
+  name: M07 Training Grenade
+  description: A harmless reusable version of the 30mm HEDP, used for training. Capable of being loaded into a grenade launcher, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m07training.rsi
@@ -344,8 +344,8 @@
   - RMCM40DPTags
   - CMGrenadeBase
   id: RMCGrenadeIncendiary
-  name: ent-RMCGrenadeIncendiary
-  description: ent-RMCGrenadeIncendiary-desc
+  name: 30mm HIAM grenade
+  description: The 30mm High-explosive-Incendiary, Anti-Mobility grenade is a small, but deceptively strong incendiary grenade designed to disrupt enemy mobility with long-lasting Type B napalm. It is set to detonate in 4 seconds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hidp.rsi
@@ -362,8 +362,8 @@
   - RMCM40DPTags
   - CMGrenadeBase
   id: RMCGrenadeWhitePhosphorus
-  name: ent-RMCGrenadeWhitePhosphorus
-  description: ent-RMCGrenadeWhitePhosphorus-desc
+  name: 30mm WPDP white phosphorus grenade
+  description: The 30mm WPDP is a small, but powerful phosphorus grenade. It is set to detonate in 2 seconds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40wpdp.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: RMCGrenadeWhitePhosphorus
   id: RMCGrenadeWhitePhosphorusCompound
-  name: ent-RMCGrenadeWhitePhosphorusCompound
-  description: ent-RMCGrenadeWhitePhosphorusCompound-desc
+  name: 30mm CCDP chemical compound grenade
+  description: The 30mm CCDP is a small, but powerful chemical compound grenade, similar in effect to WPDP. Word on the block says that the CCDP doesn't actually release White Phosphorus, but some other chemical developed in We-Ya labs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/ied.rsi
@@ -394,8 +394,8 @@
 - type: entity
   parent: CMUIEDBase
   id: RMCGrenadeMolotov
-  name: ent-RMCGrenadeMolotov
-  description: ent-RMCGrenadeMolotov-desc
+  name: improvised firebomb
+  description: A potent, improvised firebomb, coupled with a pinch of gunpowder. Cheap, very effective, and deadly in confined spaces. Commonly found in the hands of rebels and terrorists. It can be difficult to predict how many seconds you have before it goes off, so be careful. Chances are, it might explode in your face.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/molotov.rsi
@@ -421,8 +421,8 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenadeIED
-  name: ent-RMCGrenadeIED
-  description: ent-RMCGrenadeIED-desc
+  name: throwable improvised explosive device
+  description: An improvised chemical explosive grenade. Designed to kill through fragmentation.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/ied.rsi
@@ -450,9 +450,9 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenade20mmIncendiary
-  name: ent-RMCGrenade20mmIncendiary
-  suffix: ent-RMCGrenade20mmIncendiary-suffix
-  description: ent-RMCGrenade20mmIncendiary-desc
+  name: L109A2 20mm incendiary grenade
+  suffix: PvE
+  description: A 20mm grenade that creates flames upon impact. Less powerful than full-sized grenades. Be careful how you handle these.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/rcm20mm/incend.rsi
@@ -472,9 +472,9 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenade20mmHE
-  name: ent-RMCGrenade20mmHE
-  suffix: ent-RMCGrenade20mmHE-suffix
-  description: ent-RMCGrenade20mmHE-desc
+  name: L109A1 20mm HE grenade
+  suffix: PVE
+  description: A 20mm grenade that explodes upon impact. Less powerful than full-sized grenades. Be careful how you handle these.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/rcm20mm/he.rsi

@@ -18,24 +18,3 @@ ent-FireballSpellbook-name = книга заклинаний огненного 
 
 ent-ScrollRunes-name = свиток с рунами
 
-ent-BaseSpellbook = книга заклинаний
-
-ent-BlinkBook = мигающая книга заклинаний
-
-ent-FireballSpellbook = книга заклинаний огненного шара
-
-ent-ForceWallSpellbook = книга заклинаний силовой стены
-
-ent-KnockSpellbook = стук в книгу заклинаний
-
-ent-ScrollRunes = свиток с рунами
-
-ent-SmiteBook = поразить книгу заклинаний
-
-ent-SpawnSpellbook = вызвать книгу заклинаний
-
-ent-WizardsGrimoire = гримуар волшебника
-    .suffix = Волшебник
-
-ent-WizardsGrimoireNoRefund = гримуар волшебника
-    .suffix = Мастер, без возврата

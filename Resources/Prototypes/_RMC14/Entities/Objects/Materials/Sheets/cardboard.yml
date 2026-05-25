@@ -3,14 +3,14 @@
 - type: material
   id: RMCSheetCardboard
   stackEntity: RMCSheetCardboard
-  name: material-rmcsheetcardboard-name
+  name: materials-cardboard
   icon: { sprite: _RMC14/Objects/Materials/Sheets/rmc_cardboard.rsi, state: icon }
   color: "#70736C"
   price: 0.00026
 
 - type: stack
   id: RMCSheetCardboard
-  name: stack-rmcsheetcardboard-name
+  name: materials-cardboard
   icon: { sprite: _RMC14/Objects/Materials/Sheets/rmc_cardboard.rsi, state: icon }
   spawn: RMCSheetCardboard
   maxCount: 50
@@ -18,8 +18,8 @@
 - type: entity
   parent: SheetOtherBase
   id: RMCSheetCardboard
-  name: ent-RMCSheetCardboard
-  suffix: ent-RMCSheetCardboard-suffix
+  name: cardboard
+  suffix: Full, RMC
   components:
   - type: RMCConstructionItem
     buildable:
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCSheetCardboard
   id: RMCSheetCardboard30
-  suffix: ent-RMCSheetCardboard30-suffix
+  suffix: 30, RMC
   components:
   - type: Stack
     stackType: RMCSheetCardboard
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCSheetCardboard
   id: RMCSheetCardboard25
-  suffix: ent-RMCSheetCardboard25-suffix
+  suffix: 25, RMC
   components:
   - type: Stack
     stackType: RMCSheetCardboard
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCSheetCardboard
   id: RMCSheetCardboard10
-  suffix: ent-RMCSheetCardboard10-suffix
+  suffix: 10, RMC
   components:
   - type: Stack
     stackType: RMCSheetCardboard
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCSheetCardboard
   id: RMCSheetCardboard1
-  suffix: ent-RMCSheetCardboard1-suffix
+  suffix: Single, RMC
   components:
   - type: Stack
     stackType: RMCSheetCardboard

@@ -1,10 +1,10 @@
 ent-RMCDecalSpawnerAcidBloodSplash = спаунер брызг ксенокислоты
-    .suffix = спаунер брызг ксенокислоты
+
 ent-RMCDecalSpawnerOilSplatters = производитель нефти
-    .suffix = производитель нефти
+
 ent-RMCDecalSpawnerXenoSplatters = ксеногенератор крови
-    .suffix = ксеногенератор крови
+
 ent-RMCDecalSpawnerBloodSplatters = генератор крови
-    .suffix = генератор крови
+
 ent-RMCDecalSpawnerBase = Создатель декалей
-    .suffix = Создатель декалей
+

@@ -1,7 +1,7 @@
 - type: job
   parent: CMSurvivorCorporate
   id: RMCSurvivorSolarisCorporateSupervisor
-  name: job-rmcsurvivorsolariscorporatesupervisor-name
+  name: rmc-job-name-survivor-solaris-corporate-supervisor
   ranks:
     RMCRankWeYaAssistantManager: []
   accessGroups:
@@ -10,7 +10,7 @@
   - CMAccessIllegal
   icon: "CMJobIconExecAssMan"
   greeting: rmc-job-greeting-solaris-pmc-supervisor
-  spawnMenuRoleName: job-rmcsurvivorsolariscorporatesupervisor-spawnmenurolename
+  spawnMenuRoleName: Survivor — Corporate Supervisor (Solaris Ridge special survivor)
   startingGear: RMCGearSurvivorSolarisCorporateSupervisor
   special:
   - !type:AddComponentSpecial
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisCorporateSupervisor
-  name: ent-RMCSpawnPointSurvivorSolarisCorporateSupervisor
+  name: special survivor crashlanding offices coporate supervisor spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorSolarisCorporateSupervisor

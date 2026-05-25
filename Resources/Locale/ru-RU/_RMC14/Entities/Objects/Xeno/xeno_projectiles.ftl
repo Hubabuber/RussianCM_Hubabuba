@@ -11,13 +11,3 @@ ent-XenoQueenNeuroSpitProjectile = нейротоксичный плевок
 ent-XenoSlowingSpitProjectile = замедляющий плевок
 ent-XenoSpitProjectile = плевок
 ent-XenoBaseProjectile = снаряд
-ent-XenoAcidBallSpitProjectile = плевать
-ent-XenoAcidShotgunProjectile = дробовик плевать
-ent-XenoChargedSpitProjectile = плевать
-ent-XenoHedgehogSpikeProjectile = костные чипсы
-ent-XenoHedgehogSpikeProjectileSpread = мелкие костные чипсы
-ent-XenoHedgehogSpikeProjectileSpreadShort = мелкие костные чипсы
-ent-XenoSpitProjectilePraetorian = плевать
-ent-XenoSpitProjectilePraetorianWarden = плевать
-
-ent-XenoQueenSpitProjectile = плевок

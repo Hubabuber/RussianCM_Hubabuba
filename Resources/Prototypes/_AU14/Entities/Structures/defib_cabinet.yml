@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItemCabinet
   id: AU14DefibrillatorCabinet
-  name: ent-AU14DefibrillatorCabinet
-  description: ent-AU14DefibrillatorCabinet-desc
+  name: LifePak 15 Cabinet
+  description: A wall mounted cabinet designed to hold a LifePak 15.
   placement:
     mode: SnapgridCenter
   components:
@@ -52,7 +52,7 @@
 - type: entity
   parent: AU14DefibrillatorCabinet
   id: CMUDefibrillatorCabinetFilled
-  suffix: ent-CMUDefibrillatorCabinetFilled-suffix
+  suffix: Filled, CMU14
   components:
   - type: ContainerFill
     containers:
@@ -62,7 +62,7 @@
 - type: entity
   parent: DefibrillatorCabinet
   id: AU14DefibrillatorCabinetOpen
-  suffix: ent-AU14DefibrillatorCabinetOpen-suffix
+  suffix: Open
   components:
   - type: Openable
     opened: true
@@ -70,7 +70,7 @@
 - type: entity
   parent: DefibrillatorCabinet
   id: AU14DefibrillatorCabinetFilled
-  suffix: ent-AU14DefibrillatorCabinetFilled-suffix
+  suffix: Filled
   components:
   - type: ContainerFill
     containers:
@@ -80,4 +80,4 @@
 - type: entity
   parent: [DefibrillatorCabinetFilled, DefibrillatorCabinetOpen]
   id: AU14DefibrillatorCabinetFilledOpen
-  suffix: ent-AU14DefibrillatorCabinetFilledOpen-suffix
+  suffix: Filled, Open

@@ -3,8 +3,8 @@
   parent: BaseToolSurgery
   id: CMBaseToolSurgery
   abstract: true
-  name: ent-CMBaseToolSurgery
-  description: ent-CMBaseToolSurgery-desc
+  name: retractor
+  description: Retracts stuff.
   components:
   - type: Item
     size: Small
@@ -20,8 +20,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMRetractor
-  name: ent-CMRetractor
-  description: ent-CMRetractor-desc
+  name: retractor
+  description: Retracts stuff.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMRetractor
   id: CMRetractorPredator
-  name: ent-CMRetractorPredator
+  name: opener
   components:
   - type: Sprite
     state: predator_retractor
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMHemostat
-  name: ent-CMHemostat
-  description: ent-CMHemostat-desc
+  name: hemostat
+  description: You think you have seen this before.
   components:
   - type: CMSurgeryTool
     endSound:
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMHemostat
   id: CMHemostatPredator
-  name: ent-CMHemostatPredator
+  name: pincher
   components:
   - type: Sprite
     state: predator_hemostat
@@ -92,8 +92,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMCautery
-  name: ent-CMCautery
-  description: ent-CMCautery-desc
+  name: cautery
+  description: This stops bleeding.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -122,7 +122,7 @@
 - type: entity
   parent: CMCautery
   id: CMCauteryPredator
-  name: ent-CMCauteryPredator
+  name: cauterizer
   components:
   - type: Sprite
     state: predator_cautery
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMSurgicalDrill
-  name: ent-CMSurgicalDrill
-  description: ent-CMSurgicalDrill-desc
+  name: surgical drill
+  description: You can drill using this item. You dig?
   components:
   - type: CMSurgeryTool
     startSound:
@@ -165,7 +165,7 @@
 - type: entity
   parent: CMSurgicalDrill
   id: CMSurgicalDrillPredator
-  name: ent-CMSurgicalDrillPredator
+  name: bone drill
   components:
   - type: Sprite
     state: predator_drill
@@ -176,8 +176,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMScalpel
-  name: ent-CMScalpel
-  description: ent-CMScalpel-desc
+  name: scalpel
+  description: Cut, cut, and once more cut.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -218,7 +218,7 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelPredator
-  name: ent-CMScalpelPredator
+  name: cutter
   components:
   - type: Sprite
     state: predator_scalpel
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelLaser
-  name: ent-CMScalpelLaser
-  description: ent-CMScalpelLaser-desc
+  name: prototype laser scalpel
+  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks like an unreliable early model.
   components:
   - type: Sprite
     layers:
@@ -262,8 +262,8 @@
 - type: entity
   parent: CMScalpelLaser
   id: CMScalpelLaserImproved
-  name: ent-CMScalpelLaserImproved
-  description: ent-CMScalpelLaserImproved-desc
+  name: laser scalpel
+  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks trustworthy, though it could be better.
   components:
   - type: Sprite
     layers:
@@ -280,8 +280,8 @@
 - type: entity
   parent: CMScalpelLaser
   id: CMScalpelLaserAdvanced
-  name: ent-CMScalpelLaserAdvanced
-  description: ent-CMScalpelLaserAdvanced-desc
+  name: advanced laser scalpel
+  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks to be the pinnacle of precision energy cutlery!
   components:
   - type: Sprite
     layers:
@@ -298,8 +298,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelPICT
-  name: ent-CMScalpelPICT
-  description: ent-CMScalpelPICT-desc
+  name: PICT system
+  description: The Precision Incision and Cauterization Tool uses a high-frequency vibrating blade, laser cautery, and suction liquid control system to precisely sever target tissues while preventing all fluid leakage. Despite its troubled development program and horrifying price tag, outside of complex experimental surgeries it isn't any better than an ordinary twenty-dollar scalpel and can't create a full-length incision bloodlessly.
   components:
   - type: Sprite
     state: pict_system
@@ -309,8 +309,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelManager
-  name: ent-CMScalpelManager
-  description: ent-CMScalpelManager-desc
+  name: incision management system
+  description: A true extension of the surgeon's body, this marvel instantly and completely prepares an incision allowing for the immediate commencement of therapeutic steps.
   components:
   - type: Sprite
     state: scalpel_manager
@@ -322,8 +322,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMCircularSaw
-  name: ent-CMCircularSaw
-  description: ent-CMCircularSaw-desc
+  name: circular saw
+  description: For heavy-duty cutting.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -358,7 +358,7 @@
 - type: entity
   parent: CMCircularSaw
   id: CMCircularSawPredator
-  name: ent-CMCircularSawPredator
+  name: bone saw
   components:
   - type: Sprite
     state: predator_bonesaw
@@ -369,8 +369,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMBonesetter
-  name: ent-CMBonesetter
-  description: ent-CMBonesetter-desc
+  name: bone setter
+  description: Used for setting bones back into place.
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/bonesetter.rsi
@@ -391,7 +391,7 @@
 - type: entity
   parent: CMBonesetter
   id: CMBonesetterPredator
-  name: ent-CMBonesetterPredator
+  name: bone placer
   components:
   - type: Sprite
     state: predator_bonesetter
@@ -403,8 +403,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMWoundClamp
-  name: ent-CMWoundClamp
-  description: ent-CMWoundClamp-desc
+  name: wound clamp
+  description: Used for clamping wounds after treatment.
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/wound_clamp.rsi
@@ -418,8 +418,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMAutopsy
-  name: ent-CMAutopsy
-  description: ent-CMAutopsy-desc
+  name: We-Ya Brand Automatic Autopsy System(TM)
+  description: Putting the FUN back in Autopsy.  This little gadget performs an entire autopsy of whatever strange life form you've found in about 30 seconds.
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/scalpel.rsi
@@ -433,8 +433,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMBoneGel
-  name: ent-CMBoneGel
-  description: ent-CMBoneGel-desc
+  name: bottle of bone gel
+  description: A container for bone gel that often needs to be refilled from a specialized machine.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/bone_gel.rsi
@@ -454,7 +454,7 @@
 - type: entity
   parent: CMBoneGel
   id: RMCBoneGelEmpty
-  suffix: ent-RMCBoneGelEmpty-suffix # TODO RMC14
+  suffix: Empty # TODO RMC14
 
 
 

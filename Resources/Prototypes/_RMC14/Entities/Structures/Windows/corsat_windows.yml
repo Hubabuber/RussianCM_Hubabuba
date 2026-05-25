@@ -21,8 +21,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowCorsatReinforced
-  name: ent-RMCWindowCorsatReinforced
-  description: ent-RMCWindowCorsatReinforced-desc
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/corsat_rwindow.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: RMCWindowCorsatReinforced
   id: RMCWindowCorsatReinforcedSecurity
-  description: ent-RMCWindowCorsatReinforcedSecurity-desc
+  description: A red tinted glass window with a special rod matrix inside a wall frame. It looks very strong.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/corsat_rwindow_sec.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCWindowCorsatReinforced
   id: RMCWindowCorsatReinforcedResearch
-  description: ent-RMCWindowCorsatReinforcedResearch-desc
+  description: A purple tinted glass window with a special rod matrix inside a wall frame. It looks quite strong. Might take some good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/corsat_rwindow_sci.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowCorsatHull
-  name: ent-RMCWindowCorsatHull
-  description: ent-RMCWindowCorsatHull-desc
+  name: hull window
+  description: A glass window with a special rod matrix inside a wall frame. This one has an automatic shutter system to prevent any atmospheric breach.
   components:
   - type: Corrodible
     isCorrodible: false

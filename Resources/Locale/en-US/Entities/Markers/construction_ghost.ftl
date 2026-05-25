@@ -1,1 +1,0 @@
-ent-constructionghost = construction ghost

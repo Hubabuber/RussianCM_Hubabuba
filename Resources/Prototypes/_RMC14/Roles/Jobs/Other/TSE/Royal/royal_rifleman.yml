@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesCommando
-  name: job-cmroyalmarinescommando-name
-  description: job-cmroyalmarinescommando-desc
+  name: rmc-job-name-rcm-commando
+  description: rmc-ghost-role-information-rcm-description
   playTimeTracker: RMCJobRoyalCommando
   ranks:
     RMCRankTSEMarine: [ ]
   startingGear: RMCGearRoyalCommando
   icon: "RMCJobIconRoyalCommando"
   joinNotifyCrew: false
-  supervisors: job-cmroyalmarinescommando-supervisors
-  spawnMenuRoleName: job-cmroyalmarinescommando-spawnmenurolename
+  supervisors: cm-job-supervisors-royal-tl
+  spawnMenuRoleName: RCM Rifleman
   special:
   - !type:AddComponentSpecial
     components:
@@ -44,8 +44,8 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesCommando
-  name: ent-RMCRandomHumanoidRoyalMarinesCommando
-  suffix: ent-RMCRandomHumanoidRoyalMarinesCommando-suffix
+  name: royal crown marines ghost role rifleman
+  suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/ballistic.rsi

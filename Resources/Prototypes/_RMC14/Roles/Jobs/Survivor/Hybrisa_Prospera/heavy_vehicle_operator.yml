@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorEngineer
   id: RMCSurvivorHybrisaHeavyVehicleOperator
-  name: job-rmcsurvivorhybrisaheavyvehicleoperator-name
-  description: job-rmcsurvivorhybrisaheavyvehicleoperator-desc
+  name: rmc-job-name-survivor-heavy-vehicle-operator
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaHeavyVehicleOperator
-  spawnMenuRoleName: job-rmcsurvivorhybrisaheavyvehicleoperator-spawnmenurolename
+  spawnMenuRoleName: Heavy Vehicle Operator (Hybrisa Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetHybrisaHeavyVehicleOperator
-  name: ent-RMCGearSurvivorPresetHybrisaHeavyVehicleOperator
+  name: hybrisa vehicle operator colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

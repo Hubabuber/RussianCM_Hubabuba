@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMRifleman
-  name: job-cmrifleman-name
-  description: job-cmrifleman-desc
+  name: cm-job-name-rifleman
+  description: cm-job-description-rifleman
   setPreference: false
   playTimeTracker: CMJobRifleman
   startingGear: CMGearRifleman
@@ -10,7 +10,7 @@
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
   marineAuthorityLevel: 1
-  supervisors: job-cmrifleman-supervisors
+  supervisors: cm-job-supervisors-sl
   ranks:
     RMCRankPrivateFirstClass: []
     RMCRankPrivate: []
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRifleman
-  name: ent-CMSpawnPointRifleman
+  name: rifleman spawn point
   components:
   - type: SpawnPoint
     job_id: CMRifleman
@@ -70,7 +70,7 @@
 - type: entity
   parent: CMSpawnPointRifleman
   id: CMSpawnPointRiflemanAlpha
-  suffix: ent-CMSpawnPointRiflemanAlpha-suffix
+  suffix: Alpha
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMSpawnPointRifleman
   id: CMSpawnPointRiflemanBravo
-  suffix: ent-CMSpawnPointRiflemanBravo-suffix
+  suffix: Bravo
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMSpawnPointRifleman
   id: CMSpawnPointRiflemanCharlie
-  suffix: ent-CMSpawnPointRiflemanCharlie-suffix
+  suffix: Charlie
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -103,7 +103,7 @@
 - type: entity
   parent: CMSpawnPointRifleman
   id: CMSpawnPointRiflemanDelta
-  suffix: ent-CMSpawnPointRiflemanDelta-suffix
+  suffix: Delta
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -114,7 +114,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleYou
-  name: ent-CMGuidebookRoleYou
+  name: You?
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

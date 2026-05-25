@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatCorrespondent
-  name: ent-RMCCoatCorrespondent
-  description: ent-RMCCoatCorrespondent-desc
+  name: combat correspondent jacket
+  description: A jacket for the most fashionable war correspondents.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Correspondent/brown.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
   id: RMCHazardVest
-  name: ent-RMCHazardVest
-  description: ent-RMCHazardVest-desc
+  name: orange hazard vest
+  description: An orange high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/orange.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestBlue
-  name: ent-RMCHazardVestBlue
-  description: ent-RMCHazardVestBlue-desc
+  name: blue hazard vest
+  description: A blue high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/blue.rsi
@@ -62,9 +62,9 @@
 
 - type: entity
   parent: RMCHazardVest
-  name: ent-RMCHazardVestYellow
+  name: yellow hazard vest
   id: RMCHazardVestYellow
-  description: ent-RMCHazardVestYellow-desc
+  description: A yellow high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/yellow.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestBlack
-  name: ent-RMCHazardVestBlack
-  description: ent-RMCHazardVestBlack-desc
+  name: black hazard vest
+  description: A niche-market, black, allegedly high-visibility vest supposedly used in work zones. Features extra-reflective tapes. The etiquette on the vest insists that it's fully compliant with all the United Nations workplace safety standards.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/black.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestGreen
-  name: ent-RMCHazardVestGreen
-  description: ent-RMCHazardVestGreen-desc
+  name: green hazard vest
+  description: A green and white high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/green.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestWeyamart
-  name: ent-RMCHazardVestWeyamart
-  description: ent-RMCHazardVestWeyamart-desc
+  name: weyamart vest
+  description: A blue 'Weyamart' employee vest, with name tag and all.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/weyamart.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestTMCC
-  name: ent-RMCHazardVestTMCC
-  description: ent-RMCHazardVestTMCC-desc
+  name: Tartarus-Mining hazard vest
+  description: A black high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/tmcc.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestEMT
-  name: ent-RMCHazardVestEMT
-  description: ent-RMCHazardVestEMT-desc
+  name: EMT - red hazard vest
+  description: A red and white EMT high-visibility hazard vest used in work zones.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/emt.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestEMTGreen
-  name: ent-RMCHazardVestEMTGreen
-  description: ent-RMCHazardVestEMTGreen-desc
+  name: EMT - green hazard vest
+  description: A green and white EMT high-visibility hazard vest used in work zones.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/emt_green.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingLabcoat, RMCBaseJacketButtonable]
   id: RMCLabcoat
-  name: ent-RMCLabcoat
-  description: ent-RMCLabcoat-desc
+  name: labcoat
+  description: A suit that protects against minor chemical spills.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/labcoat.rsi
@@ -154,13 +154,13 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoat]
   id: RMCLabcoatOpened
-  name: ent-RMCLabcoatOpened
+  name: labcoat
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatCMO
-  name: ent-RMCLabcoatCMO
-  description: ent-RMCLabcoatCMO-desc
+  name: chief medical officer's labcoat
+  description: A green sleek long labcoat, designed to distinguish a higher ranking medical personnel. Fabric has a better protection against chemical hazards.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/cmolabcoat.rsi
@@ -172,12 +172,12 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatCMO]
   id: RMCLabcoatCMOOpened
-  name: ent-RMCLabcoatCMOOpened
+  name: chief medical officer's labcoat
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatLong
-  suffix: ent-RMCLabcoatLong-suffix
+  suffix: Long
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/long.rsi
@@ -187,12 +187,12 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatLong]
   id: RMCLabcoatLongOpened
-  name: ent-RMCLabcoatLongOpened
+  name: labcoat
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatShort
-  suffix: ent-RMCLabcoatShort-suffix
+  suffix: Short
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/short.rsi
@@ -202,12 +202,12 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatShort]
   id: RMCLabcoatShortOpened
-  name: ent-RMCLabcoatShortOpened
+  name: labcoat
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatBrown
-  suffix: ent-RMCLabcoatBrown-suffix
+  suffix: Brown
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/brown.rsi
@@ -217,14 +217,14 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatBrown]
   id: RMCLabcoatBrownOpened
-  name: ent-RMCLabcoatBrownOpened
+  name: labcoat
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatVirology
-  suffix: ent-RMCLabcoatVirology-suffix
-  name: ent-RMCLabcoatVirology
-  description: ent-RMCLabcoatVirology-desc
+  suffix: Virology
+  name: Virologist labcoat
+  description: A suit that protects against minor chemical spills. Offers slightly more protection against biohazards than the standard model. Has a green stripe on the shoulder.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/virology.rsi
@@ -234,13 +234,13 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatVirology]
   id: RMCLabcoatVirologyOpened
-  name: ent-RMCLabcoatVirologyOpened
+  name: labcoat
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatScience
-  name: ent-RMCLabcoatScience
-  description: ent-RMCLabcoatScience-desc
+  name: researcher's labcoat
+  description: A high-quality labcoat, seemingly worn by scholars and researchers alike. It has a distinct leathery feel to it, and goads you towards adventure.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/sciencecoat.rsi
@@ -252,13 +252,13 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatScience]
   id: RMCLabcoatScienceOpened
-  name: ent-RMCLabcoatScienceOpened
+  name: researcher's labcoat
 
 - type: entity
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCMedicalApron
-  name: ent-RMCMedicalApron
-  description: ent-RMCMedicalApron-desc
+  name: medical apron
+  description: A basic and sterile white apron, good for surgical and, of course, other medical practices.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/medicalapron.rsi
@@ -268,8 +268,8 @@
 - type: entity
   parent: RMCMedicalApron
   id: RMCHydroApron
-  name: ent-RMCHydroApron
-  description: ent-RMCHydroApron-desc
+  name: apron
+  description: A basic blue apron.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronbotanist.rsi
@@ -279,13 +279,14 @@
 - type: entity
   parent: RMCMedicalApron
   id: RMCChefApron
-  name: ent-RMCChefApron
-  description: ent-RMCChefApron-desc
+  name: A classic chef's apron
+  description: A basic, dull, white chef's apron.
+
 - type: entity
   parent: RMCMedicalApron
   id: RMCDailyGrindApron
-  name: ent-RMCDailyGrindApron
-  description: ent-RMCDailyGrindApron-desc
+  name: red apron
+  description: A basic red apron.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/apron_daily_grind.rsi
@@ -295,8 +296,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCOuterEngineeringUtilityOversuit
-  name: ent-RMCOuterEngineeringUtilityOversuit
-  description: ent-RMCOuterEngineeringUtilityOversuit-desc
+  name: Weyland-Yutani engineer utility oversuit
+  description: A Weyland-Yutani engineer utility uniform. Used as a general purpose utility oversuit by Weyland-Yutani colony engineers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/weya_engineer_jacket.rsi
@@ -306,7 +307,7 @@
 - type: entity
   parent: RMCOuterEngineeringUtilityOversuit
   id: RMCOuterEngineeringUtilityOversuitAlt
-  suffix: ent-RMCOuterEngineeringUtilityOversuitAlt-suffix
+  suffix: Alternate
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/weya_engineer_jacket_alt.rsi

@@ -2,8 +2,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPclothingapparelvendor
-  name: ent-AU14UPPclothingapparelvendor
-  description: ent-AU14UPPclothingapparelvendor-desc
+  name: UPP apparel vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Union of Progressive Peoples apparel.
+    Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
+    Manufactured to outfit personnel rapidly following cryogenic hypersleep or emergency mobilization.
+
+    For full operational readiness, select one item from each section: fatigues with a webbing, footwear, gloves, headgear, armor, backpack, belt and a pouch.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -211,8 +216,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPequipmentvendor
-  name: ent-AU14UPPequipmentvendor
-  description: ent-AU14UPPequipmentvendor-desc
+  name: UPP equipment vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Union of Progressive Peoples equipment.
+    Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
+    The interface is intentionally simple, even someone with tunnel-vision and frostbite can operate it.
+
+    Rapid-issue protocol: prioritize medical supplies, a ration pack, an e-tool and sandbags.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -343,8 +353,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPMedicalVendor
-  name: ent-AU14UPPMedicalVendor
-  description: ent-AU14UPPMedicalVendor-desc
+  name: UPP medical vendor
+  description: >-
+    An automated medical rack, hooked up to a compact stock of Union of Progressive Peoples trauma supplies.
+    Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
+    Designed for rapid reconstitution of combat medics following cryogenic hypersleep or emergency call-up.
+
+    Corpsman protocol: select the essential equipment set, storage and limited medications.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
@@ -464,8 +479,12 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPaircrewvendor
-  name: ent-AU14UPPaircrewvendor
-  description: ent-AU14UPPaircrewvendor-desc
+  name: UPP aircrew vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Union of Progressive Peoples aircrew flight and support gear.
+    Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
+
+    Aircrew protocol: select a set of fatigues, the essential medical equipment and storage kit.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
@@ -640,8 +659,10 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPcommandvendor
-  name: ent-AU14UPPcommandvendor
-  description: ent-AU14UPPcommandvendor-desc
+  name: UPP command vendor
+  description: >-
+    An automated command rack, hooked up to a restricted storage of Union of Progressive Peoples command-leadership equipment.
+    Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforCommand" ], [ "AU14AccessOpforCommand" ] ]
@@ -719,8 +740,11 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPgunnerequipment
-  name: ent-AU14UPPgunnerequipment
-  description: ent-AU14UPPgunnerequipment-desc
+  name: UPP automatic rifleman equipment vendor
+  description: >-
+    An automated weapons rack, hooked up to a small armory of Union of Progressive Peoples light-machine gun equipment.
+    Standard issue for designated LMG crews on naval vessels and outposts.
+    Built to bring fire support online rapidly after cryogenic hypersleep or emergency mobilization.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforGunner" ], [ "AU14AccessOpforGunner" ] ]
@@ -745,8 +769,10 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPSectionLeaderVendor
-  name: ent-AU14UPPSectionLeaderVendor
-  description: ent-AU14UPPSectionLeaderVendor-desc
+  name: UPP section leader vendor
+  description: >-
+    An automated equipment rack, hooked up to a compact storage of Union of Progressive Peoples section-leadership equipment.
+    Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforFTL" ], [ "AU14AccessOpforFTL" ] ]
@@ -768,8 +794,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPWeaponsVendor
-  name: ent-AU14UPPWeaponsVendor
-  description: ent-AU14UPPWeaponsVendor-desc
+  name: UPP weapons rack
+  description: >-
+    An automated weapons rack, hooked up to a small armory of Union of Progressive Peoples weaponry.
+    Standard issue across the frontier where threats can appear without warning.
+    Engineered to arm personnel in seconds following cryogenic hypersleep or emergency mobilization.
+
+    For immediate combat readiness: select a primary weapon kit and a sidearm.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -806,8 +837,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPSpecialWeaponsVendor
-  name: ent-AU14UPPSpecialWeaponsVendor
-  description: ent-AU14UPPSpecialWeaponsVendor-desc
+  name: UPP special weapons rack
+  description: >-
+    An automated special weapons rack, hooked up to a restricted armory of Union of Progressive Peoples heavy and breaching ordnance.
+    Standard issue only for qualified operators.
+    Engineered to deliver overwhelming firepower the instant cryogenic hypersleep ends or an emergency mobilization is called.
+
+    Special weapons protocol: one weapon system of choice with a full ammunition loadout and explosives.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -872,8 +908,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPAirCrewWeaponsVendor
-  name: ent-AU14UPPAirCrewWeaponsVendor
-  description: ent-AU14UPPAirCrewWeaponsVendor-desc
+  name: UPP aircrew weapons rack
+  description: An automated rack hooked up to a small storage of aircrew weapons.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
@@ -898,8 +934,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14ComtechGearVendorUPP
-  name: ent-AU14ComtechGearVendorUPP
-  description: ent-AU14ComtechGearVendorUPP-desc
+  name: UPP combat technicians gear rack
+  description: An automated gear rack for combat technicians.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforEngineering" ], [ "AU14AccessOpforEngineering" ] ]
@@ -983,8 +1019,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14MilitaryPolicemanVendorUPP
-  name: ent-AU14MilitaryPolicemanVendorUPP
-  description: ent-AU14MilitaryPolicemanVendorUPP-desc
+  name: UPP commissariat police equipment rack
+  description: An automated rack hooked up to a small storage of military police equipment.
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
@@ -1040,8 +1076,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14UPPRequisitionVendor
-  name: ent-AU14UPPRequisitionVendor
-  description: ent-AU14UPPRequisitionVendor-desc
+  name: UPP automated requisitions vendor
+  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

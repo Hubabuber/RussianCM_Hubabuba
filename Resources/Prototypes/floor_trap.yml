@@ -26,7 +26,7 @@
 - type: entity
   parent: CollideFloorTrap
   id: CollideFloorTrapSpawn
-  name: ent-CollideFloorTrapSpawn
+  name: floor trap spawn
   abstract: true
   components:
     - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: CollideFloorTrap
   id: FloorTrapExplosion
-  name: ent-FloorTrapExplosion
+  name: explosion floor trap
   components:
     - type: TriggerOnCollide
       fixtureID: floortrap
@@ -63,7 +63,7 @@
 - type: entity
   parent: CollideFloorTrapSpawn
   id: SpawnFloorTrapCarp
-  suffix: ent-SpawnFloorTrapCarp-suffix
+  suffix: Carp
   components:
     - type: TriggerOnCollide
       fixtureID: floortrap
@@ -74,7 +74,7 @@
 - type: entity
   parent: CollideFloorTrapSpawn
   id: SpawnFloorTrapBear
-  suffix: ent-SpawnFloorTrapBear-suffix
+  suffix: Bear
   components:
     - type: TriggerOnCollide
       fixtureID: floortrap
@@ -85,7 +85,7 @@
 - type: entity
   parent: CollideFloorTrapSpawn
   id: SpawnFloorTrapKangaroo
-  suffix: ent-SpawnFloorTrapKangaroo-suffix
+  suffix: Kangaroo
   components:
     - type: TriggerOnCollide
       fixtureID: floortrap
@@ -96,7 +96,7 @@
 - type: entity
   parent: CollideFloorTrapSpawn
   id: SpawnFloorTrapXenoDrone
-  suffix: ent-SpawnFloorTrapXenoDrone-suffix
+  suffix: Xeno. Drone
   components:
     - type: TriggerOnCollide
       fixtureID: floortrap
@@ -107,7 +107,7 @@
 - type: entity
   parent: CollideFloorTrapSpawn
   id: SpawnFloorTrapXenoBurrower
-  suffix: ent-SpawnFloorTrapXenoBurrower-suffix
+  suffix: Xeno. Burrower
   components:
     - type: TriggerOnCollide
       fixtureID: floortrap

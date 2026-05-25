@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesLieutenant
-  name: job-cmroyalmarineslieutenant-name
-  description: job-cmroyalmarineslieutenant-desc
+  name: rmc-job-name-rcm-lieutenant
+  description: rmc-ghost-role-information-rcm-description
   playTimeTracker: RMCJobRoyalLieutenant
   ranks:
     RMCRankTSESecondLieutenant: [ ]
   startingGear: RMCGearRoyalLieutenant
   icon: "RMCJobIconRoyalLieutenant"
   joinNotifyCrew: false
-  supervisors: job-cmroyalmarineslieutenant-supervisors
-  spawnMenuRoleName: job-cmroyalmarineslieutenant-spawnmenurolename
+  supervisors: cm-job-supervisors-royal-captain
+  spawnMenuRoleName: RCM Lieutenant
   special:
   - !type:AddComponentSpecial
     components:

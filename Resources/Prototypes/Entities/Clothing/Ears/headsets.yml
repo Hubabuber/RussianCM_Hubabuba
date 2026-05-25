@@ -2,8 +2,8 @@
   abstract: true
   parent: Clothing
   id: ClothingHeadset
-  name: ent-ClothingHeadset
-  description: ent-ClothingHeadset-desc
+  name: headset
+  description: An updated, modular intercom that fits over the head. Takes encryption keys.
   components:
   - type: ContainerContainer
     containers:
@@ -30,7 +30,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetGrey
-  name: ent-ClothingHeadsetGrey
+  name: passenger headset
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/base.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetCargo
-  name: ent-ClothingHeadsetCargo
-  description: ent-ClothingHeadsetCargo-desc
+  name: cargo headset
+  description: A headset used by supply employees.
   components:
   - type: ContainerFill
     containers:
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetMining
-  name: ent-ClothingHeadsetMining
-  description: ent-ClothingHeadsetMining-desc
+  name: mining headset
+  description: Headset used by shaft miners.
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/mining.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: [ClothingHeadsetCargo, BaseCommandContraband]
   id: ClothingHeadsetQM
-  name: ent-ClothingHeadsetQM
-  description: ent-ClothingHeadsetQM-desc
+  name: qm headset
+  description: A headset used by the quartermaster.
   components:
   - type: ContainerFill
     containers:
@@ -78,8 +78,8 @@
 - type: entity
   parent: [ ClothingHeadset, BaseCentcommContraband ]
   id: ClothingHeadsetCentCom
-  name: ent-ClothingHeadsetCentCom
-  description: ent-ClothingHeadsetCentCom-desc
+  name: CentComm headset
+  description: A headset used by the upper echelons of Nanotrasen.
   components:
   - type: ContainerFill
     containers:
@@ -94,8 +94,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseCommandContraband]
   id: ClothingHeadsetCommand
-  name: ent-ClothingHeadsetCommand
-  description: ent-ClothingHeadsetCommand-desc
+  name: command headset
+  description: A headset with a commanding channel.
   components:
   - type: ContainerFill
     containers:
@@ -109,8 +109,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetEngineering
-  name: ent-ClothingHeadsetEngineering
-  description: ent-ClothingHeadsetEngineering-desc
+  name: engineering headset
+  description: A headset for engineers to chat while the station burns around them.
   components:
   - type: ContainerFill
     containers:
@@ -125,8 +125,8 @@
 - type: entity
   parent: [ClothingHeadsetEngineering, BaseCommandContraband]
   id: ClothingHeadsetCE
-  name: ent-ClothingHeadsetCE
-  description: ent-ClothingHeadsetCE-desc
+  name: ce headset
+  description: A headset for the chief engineer to ignore all emergency calls on.
   components:
   - type: ContainerFill
     containers:
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetMedical
-  name: ent-ClothingHeadsetMedical
-  description: ent-ClothingHeadsetMedical-desc
+  name: medical headset
+  description: A headset for the trained staff of the medbay.
   components:
   - type: ContainerFill
     containers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: [ClothingHeadsetMedical, BaseCommandContraband]
   id: ClothingHeadsetCMO
-  name: ent-ClothingHeadsetCMO
-  description: ent-ClothingHeadsetCMO-desc
+  name: cmo headset
+  description: A headset used by the CMO.
   components:
   - type: ContainerFill
     containers:
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetScience
-  name: ent-ClothingHeadsetScience
-  description: ent-ClothingHeadsetScience-desc
+  name: science headset
+  description: A sciency headset. Like usual.
   components:
   - type: ContainerFill
     containers:
@@ -183,8 +183,8 @@
 - type: entity
   parent: ClothingHeadsetScience
   id: ClothingHeadsetMedicalScience
-  name: ent-ClothingHeadsetMedicalScience
-  description: ent-ClothingHeadsetMedicalScience-desc
+  name: medical research headset
+  description: A headset that is a result of the mating between medical and science.
   components:
   - type: ContainerFill
     containers:
@@ -199,8 +199,8 @@
 - type: entity
   parent: ClothingHeadsetScience
   id: ClothingHeadsetRobotics
-  name: ent-ClothingHeadsetRobotics
-  description: ent-ClothingHeadsetRobotics-desc
+  name: robotics headset
+  description: Made specifically for the roboticists, who cannot decide between departments.
   components:
   - type: ContainerFill
     containers:
@@ -215,8 +215,8 @@
 - type: entity
   parent: [ClothingHeadsetScience, BaseCommandContraband]
   id: ClothingHeadsetRD
-  name: ent-ClothingHeadsetRD
-  description: ent-ClothingHeadsetRD-desc
+  name: rd headset
+  description: Lamarr used to love chewing on this...
   components:
   - type: ContainerFill
     containers:
@@ -228,8 +228,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseSecurityLawyerContraband]
   id: ClothingHeadsetSecurity
-  name: ent-ClothingHeadsetSecurity
-  description: ent-ClothingHeadsetSecurity-desc
+  name: security headset
+  description: This is used by your elite security force.
   components:
   - type: ContainerFill
     containers:
@@ -244,8 +244,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseSecurityContraband]
   id: ClothingHeadsetBrigmedic
-  name: ent-ClothingHeadsetBrigmedic
-  description: ent-ClothingHeadsetBrigmedic-desc
+  name: brigmedic headset
+  description: A headset that helps to hear the death cries.
   components:
   - type: ContainerFill
     containers:
@@ -261,8 +261,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetService
-  name: ent-ClothingHeadsetService
-  description: ent-ClothingHeadsetService-desc
+  name: service headset
+  description: Headset used by the service staff, tasked with keeping the station full, happy and clean.
   components:
   - type: ContainerFill
     containers:
@@ -277,8 +277,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetFreelance
-  name: ent-ClothingHeadsetFreelance
-  description: ent-ClothingHeadsetFreelance-desc
+  name: freelancer headset
+  description: This is used by a roaming group of freelancers.
   components:
     - type: ContainerFill
       containers:
@@ -292,8 +292,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseMagicalContraband]
   id: ClothingHeadsetWizard
-  name: ent-ClothingHeadsetWizard
-  description: ent-ClothingHeadsetWizard-desc
+  name: wizard headset
+  description: A headset used by the dreaded space wizards.
   components:
     - type: ContainerFill
       containers:

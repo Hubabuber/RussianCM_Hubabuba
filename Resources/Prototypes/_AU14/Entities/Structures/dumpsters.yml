@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructureDynamic, BaseBagOpenClose, StructureWheeled ]
   id: AU14Dumpster
-  name: ent-AU14Dumpster
-  description: ent-AU14Dumpster-desc
+  name: dumpster
+  description: Filled with what you hope is just trash, but you know isn't.
   abstract: true
   components:
   - type: Storage
@@ -55,7 +55,7 @@
 - type: entity
   parent: AU14Dumpster
   id: AU14DumpsterBlue
-  suffix: ent-AU14DumpsterBlue-suffix
+  suffix: Blue
   components:
   - type: Sprite
     state: blue
@@ -67,7 +67,7 @@
 - type: entity
   parent: AU14Dumpster
   id: AU14DumpsterYellow
-  suffix: ent-AU14DumpsterYellow-suffix
+  suffix: Yellow
   components:
   - type: Sprite
     state: yellow
@@ -79,7 +79,7 @@
 - type: entity
   parent: AU14Dumpster
   id: AU14DumpsterRed
-  suffix: ent-AU14DumpsterRed-suffix
+  suffix: Red
   components:
   - type: Sprite
     state: red
@@ -91,7 +91,7 @@
 - type: entity
   parent: AU14Dumpster
   id: AU14DumpsterGreen
-  suffix: ent-AU14DumpsterGreen-suffix
+  suffix: Green
   components:
   - type: Sprite
     state: green
@@ -103,7 +103,7 @@
 - type: entity
   parent: AU14Dumpster
   id: AU14DumpsterOrange
-  suffix: ent-AU14DumpsterOrange-suffix
+  suffix: Orange
   components:
   - type: Sprite
     state: orange
@@ -115,7 +115,7 @@
 - type: entity
   parent: AU14Dumpster
   id: AU14DumpsterPurple
-  suffix: ent-AU14DumpsterPurple-suffix
+  suffix: Purple
   components:
   - type: Sprite
     state: purple
@@ -127,7 +127,7 @@
 - type: entity
   parent: AU14Dumpster
   id: AU14DumpsterWeYu
-  suffix: ent-AU14DumpsterWeYu-suffix
+  suffix: We-Yu
   components:
   - type: Sprite
     state: we-yu

@@ -2,9 +2,9 @@
 - type: entity
   parent: [RMCBaseArmorPVE, RMCBaseUniformAccessoryItemArmorPVE]
   id: RMCArmorM3PVE
-  suffix: ent-RMCArmorM3PVE-suffix
-  name: ent-RMCArmorM3PVE
-  description: ent-RMCArmorM3PVE-desc
+  suffix: PVE, Standard
+  name: M3 pattern marine armor
+  description: Standard UNMC issue M3 Pattern Personal Armor. Composite ballistic armor, integral biomonitoring system, and brackets for the IMP system as well as the TNR Shoulder Lamp.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PVE/Marines/standard/jungle.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCArmorM3PVE
   id: RMCArmorM3PVESmooth
-  suffix: ent-RMCArmorM3PVESmooth-suffix
+  suffix: PVE, Smooth
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PVE/Marines/smooth/jungle.rsi
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCArmorM3PVE
   id: RMCArmorM3PVERidged
-  suffix: ent-RMCArmorM3PVERidged-suffix
+  suffix: PVE, Ridged
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PVE/Marines/ridged/jungle.rsi
@@ -70,9 +70,9 @@
 - type: entity
   parent: RMCArmorM3PVE
   id: RMCArmorB12PVE
-  suffix: ent-RMCArmorB12PVE-suffix
-  name: ent-RMCArmorB12PVE
-  description: ent-RMCArmorB12PVE-desc
+  suffix: PVE, B12
+  name: B12 pattern marine armor
+  description: Semi-experimental body armor system similar to M3, incorporating primarily carbon fiber instead of boron carbide.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PVE/Marines/b12/jungle.rsi
@@ -95,9 +95,9 @@
 - type: entity
   parent: RMCArmorM3PVE
   id: RMCArmorM3PVESGO
-  suffix: ent-RMCArmorM3PVESGO-suffix
-  name: ent-RMCArmorM3PVESGO
-  description: ent-RMCArmorM3PVESGO-desc
+  suffix: PVE, Smart Gun harness
+  name: ML66A combat harness
+  description: Lightweight vest composed of ballistic micromesh and a ceramic composite chestplate for practical protection, as well as the computers, straps, and armature required for operating the ML66A Smart Gun itself.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PVE/Marines/sg/jungle.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVEArmorCaseBase
-  name: ent-RMCPVEArmorCaseBase
-  description: ent-RMCPVEArmorCaseBase-desc
+  name: base armor case
+  description: An armor set case.
   components:
   - type: Icon
     sprite: _RMC14/Objects/Storage/PVE_Cases/Armor/marine.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: RMCPVEArmorCaseBase
   id: RMCPVEArmorCaseM3
-  name: ent-RMCPVEArmorCaseM3
-  description: ent-RMCPVEArmorCaseM3-desc
+  name: standard M3 pattern marine armor set
+  description: A case containing standard M3 pattern marine armor, an M10 helmet, and attachable armor pieces.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/Armor/marine.rsi
@@ -213,8 +213,8 @@
 - type: entity
   parent: RMCPVEArmorCaseBase
   id: RMCPVEArmorCaseM3Smooth
-  name: ent-RMCPVEArmorCaseM3Smooth
-  description: ent-RMCPVEArmorCaseM3Smooth-desc
+  name: smooth M3 pattern marine armor set
+  description: A case containing smooth M3 pattern marine armor, an M10 helmet, and attachable armor pieces.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/Armor/marine.rsi
@@ -245,8 +245,8 @@
 - type: entity
   parent: RMCPVEArmorCaseBase
   id: RMCPVEArmorCaseM3Ridged
-  name: ent-RMCPVEArmorCaseM3Ridged
-  description: ent-RMCPVEArmorCaseM3Ridged-desc
+  name: ridged M3 pattern marine armor set
+  description: A case containing ridged M3 pattern marine armor, an M10 helmet, and attachable armor pieces.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/Armor/marine.rsi
@@ -277,8 +277,8 @@
 - type: entity
   parent: RMCPVEArmorCaseBase
   id: RMCPVEArmorCaseB12
-  name: ent-RMCPVEArmorCaseB12
-  description: ent-RMCPVEArmorCaseB12-desc
+  name: B12 pattern marine armor set
+  description: A case containing B12 pattern marine armor, an M10 helmet, and attachable armor pieces.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/Armor/marine.rsi
@@ -309,8 +309,8 @@
 - type: entity
   parent: RMCPVEArmorCaseBase
   id: RMCPVEArmorCaseM3SGO
-  name: ent-RMCPVEArmorCaseM3SGO
-  description: ent-RMCPVEArmorCaseM3SGO-desc
+  name: ML66A combat harness set
+  description: A case containing an ML66A combat harness, an M10 helmet, and attachable armor pieces.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/Armor/marine.rsi

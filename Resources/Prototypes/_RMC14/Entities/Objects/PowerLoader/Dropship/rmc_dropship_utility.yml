@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentMedevac
-  name: ent-RMCDropshipAttachmentMedevac
-  description: ent-RMCDropshipAttachmentMedevac-desc
+  name: RMU-4M medevac system
+  description: A winch system to lift injured marines on medical stretchers onto the dropship. Attaches to the crew served attach point at the back of the drop-ship.
   components:
   - type: Sprite
     layers:
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentFulton
-  name: ent-RMCDropshipAttachmentFulton
-  description: ent-RMCDropshipAttachmentFulton-desc
+  name: RMU-19 fulton recovery system
+  description: A winch system to collect any fulton recovery balloons in high altitude. Make sure you turn it on!
   components:
   - type: Sprite
     layers:
@@ -69,7 +69,7 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentParaDrop
-  name: ent-RMCDropshipAttachmentParaDrop
+  name: HPU-1 paradrop deployment system
   components:
   - type: Sprite
     layers:
@@ -86,8 +86,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentDoorGun
-  name: ent-RMCDropshipAttachmentDoorGun
-  description: ent-RMCDropshipAttachmentDoorGun-desc
+  name: MTU-4B Door Gunner Hardpoint System
+  description: A box that deploys a crew-served scoped M56D heavy machine gun. Fits on both the external weapon and crew compartment attach points of dropships.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/dropship_utility_attachments.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentSentryDefenseSystem
-  name: ent-RMCDropshipAttachmentSentryDefenseSystem
-  description: ent-RMCDropshipAttachmentSentryDefenseSystem-desc
+  name: A/A-32-P Sentry Defense System
+  description: A box that deploys a sentry turret. Fits on both the external weapon and crew compartment attach points of dropships.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/dropship_utility_attachments.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentLaunchBay
-  name: ent-RMCDropshipAttachmentLaunchBay
-  description: ent-RMCDropshipAttachmentLaunchBay-desc
+  name: LAG-14 internal sentry launcher
+  description: A launch bay to drop special ordnance. Fits inside the dropship's crew weapon emplacement. Moving this will require some sort of lifter. Accepts the A/C-49-P Air Deployable Sentry as ammunition.
   components:
   - type: Sprite
     layers:

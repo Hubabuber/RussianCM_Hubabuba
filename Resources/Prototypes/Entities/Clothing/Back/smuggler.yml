@@ -35,9 +35,9 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, ClothingBackpackSatchel, BaseMinorContraband ]
   id: ClothingBackpackSatchelSmuggler
-  name: ent-ClothingBackpackSatchelSmuggler
-  suffix: ent-ClothingBackpackSatchelSmuggler-suffix
-  description: ent-ClothingBackpackSatchelSmuggler-desc
+  name: smuggler's satchel
+  suffix: Empty
+  description: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/smuggler.rsi
@@ -46,9 +46,9 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorage, ClothingBackpackSatchel, BaseMinorContraband ]
   id: ClothingBackpackSatchelSmugglerUnanchored
-  name: ent-ClothingBackpackSatchelSmugglerUnanchored
-  suffix: ent-ClothingBackpackSatchelSmugglerUnanchored-suffix
-  description: ent-ClothingBackpackSatchelSmugglerUnanchored-desc
+  name: smuggler's satchel
+  suffix: Empty, Unanchored
+  description: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/smuggler.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, BriefcaseSyndie, BaseMinorContraband ]
   id: BriefcaseSmugglerCash
-  name: ent-BriefcaseSmugglerCash
-  suffix: ent-BriefcaseSmugglerCash-suffix
+  name: smuggler's briefcase
+  suffix: Smuggler, Do Not Map
   components:
   - type: EntityTableContainerFill
     containers:
@@ -71,8 +71,8 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, ClothingBackpackDuffelClown, BaseMinorContraband ]
   id: ClothingBackpackDuffelClownSmuggler
-  name: ent-ClothingBackpackDuffelClownSmuggler
-  suffix: ent-ClothingBackpackDuffelClownSmuggler-suffix
+  name: smuggler's clown duffel bag
+  suffix: Smuggler, Do Not Map
   components:
   - type: EntityTableContainerFill
     containers:
@@ -95,7 +95,7 @@
 - type: entity
   parent: ClothingBackpackSatchelSmuggler
   id: ClothingBackpackSatchelSmugglerFilled
-  suffix: ent-ClothingBackpackSatchelSmugglerFilled-suffix
+  suffix: Smuggler, Do Not Map
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/smuggler.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: MarkerBase
   id: RandomSatchelSpawner
-  name: ent-RandomSatchelSpawner
-  suffix: ent-RandomSatchelSpawner-suffix
+  name: random smuggler's satchel spawner
+  suffix: Do Not Map
   components:
   - type: Sprite
     layers:

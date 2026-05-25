@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DiseaseSwab
-  name: ent-DiseaseSwab
-  description: ent-DiseaseSwab-desc
+  name: sterile swab
+  description: Used for taking and transferring samples. Sterile until open. Single use only.
   components:
   - type: Item
     size: Tiny
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseAmmoProvider # this is for cycling swabs out and not spawning 30 entities, trust
   id: BoxMouthSwab
-  name: ent-BoxMouthSwab
-  description: ent-BoxMouthSwab-desc
+  name: sterile swab dispenser
+  description: Dispenses 30 sterile swabs, extremely useful for botany.
   components:
   - type: Sprite
     layers:
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseItem
   id: Vaccine
-  name: ent-Vaccine
-  description: ent-Vaccine-desc
+  name: vaccine
+  description: Prevents people who DON'T already have a disease from catching it.
   components:
   - type: Item
     size: Tiny

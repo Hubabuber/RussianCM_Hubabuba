@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobRedCrossNurse
-  name: job-au14jobredcrossnurse-name
-  description: job-au14jobredcrossnurse-desc
+  name: ICRC Medical Staff Nurse
+  description: You are a member of the medical staff assigned to an International Committee of the Red Cross relief mission, traveling from colony to colony to provide vaccines, medical aid and humanitarian assistance. Provide care to those you encounter and help the people of the Neroid Sector.
   setPreference: true
   canBeAntag: false
   playTimeTracker: AU14JobRedCrossNurse
@@ -12,7 +12,7 @@
   icon: "AU14JobIconColonyICRCNurse"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobredcrossnurse-supervisors
+  supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:
   - Colonist
   - aumed
@@ -61,7 +61,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicRedCross
   id: AU14PartyJobICRCNurse
-  name: ent-AU14PartyJobICRCNurse
+  name: ICRC Medical Staff Nurse
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

@@ -1,18 +1,18 @@
 ent-RMCPVEArmorPadsKestrel = Наплечье пустельги
   .desc = Прикрепляемая дополнительная Броня для модульных жилетов L3 Kestrel.
-    .suffix = Броня аксессуар
+
 ent-RMCPVEArmorBracersKestrel = Наручи пустельги
   .desc = Прикрепляемая дополнительная Броня для модульных жилетов L3 Kestrel.
-    .suffix = Броня аксессуар
+
 ent-RMCPVEArmorNeckGuardKestrel = Пустельга Горжет
   .desc = Прикрепляемая дополнительная Броня для модульных жилетов L3 Kestrel.
-    .suffix = Броня аксессуар
+
 ent-RMCPVEArmorGroinPlateKestrel = Панель Kestrel Lap
   .desc = Прикрепляемая дополнительная Броня для модульных жилетов L3 Kestrel.
-    .suffix = Броня аксессуар
+
 ent-RMCPVEArmorShinGuardKestrel = Наголенники пустельги
   .desc = Прикрепляемая дополнительная Броня для модульных жилетов L3 Kestrel.
-    .suffix = Броня аксессуар
+
 ent-RMCPVEArmorKneeGuardKestrel = Наколенники пустельги
   .desc = Прикрепляемая дополнительная Броня для модульных жилетов L3 Kestrel.
-    .suffix = Броня аксессуар
+

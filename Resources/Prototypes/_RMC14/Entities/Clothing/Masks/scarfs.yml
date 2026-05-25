@@ -24,7 +24,7 @@
 - type: entity
   parent: RMCBaseScarfMask
   id: RMCBaseScarfDown
-  suffix: ent-RMCBaseScarfDown-suffix
+  suffix: down
   abstract: true
   components:
   - type: Foldable
@@ -47,8 +47,8 @@
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfSquad
-  name: ent-RMCMaskScarfSquad
-  suffix: ent-RMCMaskScarfSquad-suffix
+  name: UNMC squad tactical wrap
+  suffix: DO NOT MAP
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/squad.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCBaseScarfMask
   id: RMCMaskScarfAlpha
-  name: ent-RMCMaskScarfAlpha
-  description: ent-RMCMaskScarfAlpha-desc
+  name: alpha tactical wrap
+  description: A tactical wrap used by soldiers to conceal their face.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/alpha.rsi
@@ -79,12 +79,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfAlpha]
   id: RMCMaskScarfAlphaDown
-  name: ent-RMCMaskScarfAlphaDown
+  name: alpha tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfBravo
-  name: ent-RMCMaskScarfBravo
+  name: bravo tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/bravo.rsi
@@ -94,12 +94,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfBravo]
   id: RMCMaskScarfBravoDown
-  name: ent-RMCMaskScarfBravoDown
+  name: bravo tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfCharlie
-  name: ent-RMCMaskScarfCharlie
+  name: charlie tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/charlie.rsi
@@ -109,12 +109,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfCharlie]
   id: RMCMaskScarfCharlieDown
-  name: ent-RMCMaskScarfCharlieDown
+  name: charlie tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfDelta
-  name: ent-RMCMaskScarfDelta
+  name: delta tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/delta.rsi
@@ -124,12 +124,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfDelta]
   id: RMCMaskScarfDeltaDown
-  name: ent-RMCMaskScarfDeltaDown
+  name: delta tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfEcho
-  name: ent-RMCMaskScarfEcho
+  name: echo tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/echo.rsi
@@ -139,12 +139,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfEcho]
   id: RMCMaskScarfEchoDown
-  name: ent-RMCMaskScarfEchoDown
+  name: echo tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfFoxtrot
-  name: ent-RMCMaskScarfFoxtrot
+  name: foxtrot tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/foxtrot.rsi
@@ -154,14 +154,14 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfFoxtrot]
   id: RMCMaskScarfFoxtrotDown
-  name: ent-RMCMaskScarfFoxtrotDown
+  name: foxtrot tactical wrap
 
 # COLOURS
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfRed
-  name: ent-RMCMaskScarfRed
+  name: red tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/alpha.rsi
@@ -171,12 +171,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfRed]
   id: RMCMaskScarfRedDown
-  name: ent-RMCMaskScarfRedDown
+  name: red tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfBlack
-  name: ent-RMCMaskScarfBlack
+  name: black tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/black.rsi
@@ -186,12 +186,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfBlack]
   id: RMCMaskScarfBlackDown
-  name: ent-RMCMaskScarfBlackDown
+  name: black tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfGray
-  name: ent-RMCMaskScarfGray
+  name: grey tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/gray.rsi
@@ -201,12 +201,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfGray]
   id: RMCMaskScarfGrayDown
-  name: ent-RMCMaskScarfGrayDown
+  name: grey tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfGreen
-  name: ent-RMCMaskScarfGreen
+  name: green tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/green.rsi
@@ -216,12 +216,12 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfGreen]
   id: RMCMaskScarfGreenDown
-  name: ent-RMCMaskScarfGreenDown
+  name: green tactical wrap
 
 - type: entity
   parent: RMCMaskScarfAlpha
   id: RMCMaskScarfTan
-  name: ent-RMCMaskScarfTan
+  name: tan tactical wrap
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Scarfs/tan.rsi
@@ -231,7 +231,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskScarfTan]
   id: RMCMaskScarfTanDown
-  name: ent-RMCMaskScarfTanDown
+  name: tan tactical wrap
 
 # Torn Scarf
 - type: entity
@@ -249,8 +249,8 @@
 - type: entity
   parent: RMCMaskTornScarfBase
   id: RMCMaskTornScarfBlack
-  name: ent-RMCMaskTornScarfBlack
-  description: ent-RMCMaskTornScarfBlack-desc
+  name: tactical scarf
+  description: A tactical scarf used to keep warm in the cold.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/black.rsi
@@ -260,7 +260,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfDesert
-  name: ent-RMCMaskTornScarfDesert
+  name: desert tactical scarf
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/desert.rsi
@@ -270,7 +270,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfGreen
-  name: ent-RMCMaskTornScarfGreen
+  name: green tactical scarf
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/green.rsi
@@ -280,7 +280,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfGrey
-  name: ent-RMCMaskTornScarfGrey
+  name: grey tactical scarf
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/grey.rsi
@@ -290,7 +290,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfUrban
-  name: ent-RMCMaskTornScarfUrban
+  name: urban tactical scarf
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/urban.rsi
@@ -300,7 +300,7 @@
 - type: entity
   parent: RMCMaskTornScarfBlack
   id: RMCMaskTornScarfSnow
-  name: ent-RMCMaskTornScarfSnow
+  name: snow tactical scarf
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/TornScarfs/snow.rsi
@@ -312,8 +312,8 @@
 - type: entity
   parent: RMCMaskTornScarfBase
   id: RMCMaskSmockBlack
-  name: ent-RMCMaskSmockBlack
-  description: ent-RMCMaskSmockBlack-desc
+  name: tactical smock
+  description: A tactical smock used to keep warm in the cold, and provide increased camouflage.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Smock/black.rsi
@@ -323,7 +323,7 @@
 - type: entity
   parent: RMCMaskSmockBlack
   id: RMCMaskSmockCamo
-  suffix: ent-RMCMaskSmockCamo-suffix
+  suffix: camo
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Smock/jungle.rsi
@@ -341,8 +341,8 @@
 - type: entity
   parent: RMCBaseScarfMask
   id: RMCMaskNeckerchiefAlpha
-  name: ent-RMCMaskNeckerchiefAlpha
-  description: ent-RMCMaskNeckerchiefAlpha-desc
+  name: neckerchief
+  description: A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
   components:
   - type: IdentityBlocker
     coverage: MOUTH
@@ -354,7 +354,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefAlpha]
   id: RMCMaskNeckerchiefAlphaDown
-  name: ent-RMCMaskNeckerchiefAlphaDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -368,7 +368,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefBravo]
   id: RMCMaskNeckerchiefBravoDown
-  name: ent-RMCMaskNeckerchiefBravoDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -382,7 +382,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefCharlie]
   id: RMCMaskNeckerchiefCharlieDown
-  name: ent-RMCMaskNeckerchiefCharlieDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -396,7 +396,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefDelta]
   id: RMCMaskNeckerchiefDeltaDown
-  name: ent-RMCMaskNeckerchiefDeltaDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -410,7 +410,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefEcho]
   id: RMCMaskNeckerchiefEchoDown
-  name: ent-RMCMaskNeckerchiefEchoDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -424,7 +424,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefFoxtrot]
   id: RMCMaskNeckerchiefFoxtrotDown
-  name: ent-RMCMaskNeckerchiefFoxtrotDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -438,7 +438,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefTan]
   id: RMCMaskNeckerchiefTanDown
-  name: ent-RMCMaskNeckerchiefTanDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -452,7 +452,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefBlack]
   id: RMCMaskNeckerchiefBlackDown
-  name: ent-RMCMaskNeckerchiefBlackDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -466,7 +466,7 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefGray]
   id: RMCMaskNeckerchiefGrayDown
-  name: ent-RMCMaskNeckerchiefGrayDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
@@ -480,13 +480,13 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefGreen]
   id: RMCMaskNeckerchiefGreenDown
-  name: ent-RMCMaskNeckerchiefGreenDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
   id: RMCMaskNeckerchiefSquad
-  name: ent-RMCMaskNeckerchiefSquad
-  suffix: ent-RMCMaskNeckerchiefSquad-suffix
+  name: UNMC squad neckerchief
+  suffix: DO NOT MAP
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Neckerchief/squad.rsi
@@ -513,13 +513,13 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefWhite]
   id: RMCMaskNeckerchiefWhiteDown
-  name: ent-RMCMaskNeckerchiefWhiteDown
+  name: neckerchief
 
 - type: entity
   parent: RMCMaskNeckerchiefAlpha
   id: RMCMaskNeckerchiefRed
-  name: ent-RMCMaskNeckerchiefRed
-  description: ent-RMCMaskNeckerchiefRed-desc
+  name: neckerchief
+  description: A simple cloth worn around the neck, adjustable between a loose fit or a more tightly secured style.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/Neckerchief/red.rsi
@@ -529,4 +529,4 @@
 - type: entity
   parent: [RMCBaseScarfDown, RMCMaskNeckerchiefRed]
   id: RMCMaskNeckerchiefRedDown
-  name: ent-RMCMaskNeckerchiefRedDown
+  name: neckerchief

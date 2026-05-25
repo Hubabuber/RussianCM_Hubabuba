@@ -1,23 +1,2 @@
-rmc-reagent-name-cyanide = Цианид
+﻿rmc-reagent-name-cyanide = Цианид
 rmc-reagent-desc-cyanide = Цианид — это токсичное химическое вещество природного происхождения, которое веками использовалось в качестве средства убийства из-за его немедленного воздействия. Симптомы включают тошноту, слабость и затрудненное дыхание.
-
-reagent-rmcblackgoo-desc = Странное вещество неизвестного происхождения. . .
-reagent-rmcblackgoo-name = Черная слизь
-reagent-rmcblackgoo-physicaldesc = неидентифицируемое
-reagent-rmcchloralhydrate-desc = реагент-desc-rmc-хлорал-гидрат
-reagent-rmcchloralhydrate-name = название-реагента-rmc-хлорал-гидрат
-reagent-rmcchloralhydrate-physicaldesc = реагент-физический-описание-неописаемый
-reagent-rmccyanide-desc = Цианид — это токсичное химическое вещество природного происхождения, которое веками использовалось в качестве средства убийства из-за его немедленного воздействия. Симптомы включают тошноту, слабость и затрудненное дыхание.
-reagent-rmccyanide-name = Цианид
-reagent-rmccyanide-physicaldesc = реагент-физический-острый
-reagent-rmcgenerictoxin-desc = реагент-деск-rmcgenerictoxin
-reagent-rmcgenerictoxin-name = имя-реагента-rmcgenerictoxin
-reagent-rmcgenerictoxin-physicaldesc = реагент-физический-острый
-reagent-rmclexorin-desc = реагент-деск-rmclexorin
-reagent-rmclexorin-name = название реагента-rmclexorin
-reagent-rmclexorin-physicaldesc = реагент-физический-острый
-reagent-rmcmindbreakertoxin-desc = реагент-деск-rmcmindbreakertoxin
-reagent-rmcmindbreakertoxin-name = имя-реагента-rmcmindbreakertoxin
-reagent-rmcmolecularacid-desc = реагент-десс-rmcmolecularacid
-reagent-rmcmolecularacid-name = имя-реагента-rmcmolecularacid
-reagent-rmcmolecularacid-physicaldesc = реагент-физический-дескат-кислотный

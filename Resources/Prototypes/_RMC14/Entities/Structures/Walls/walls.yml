@@ -2,8 +2,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallMetal
-  name: ent-CMWallMetal
-  description: ent-CMWallMetal-desc
+  name: wall
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/metal.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallMetalAlmayer
-  name: ent-CMWallMetalAlmayer
-  description: ent-CMWallMetalAlmayer-desc
+  name: wall
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallAlmayerDeco1
-  name: ent-RMCWallAlmayerDeco1
+  name: wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallMetalAlmayerWhite
-  name: ent-CMWallMetalAlmayerWhite
-  description: ent-CMWallMetalAlmayerWhite-desc
+  name: wall
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMBaseWall
   id: RMCBaseWallReinforced
-  name: ent-RMCBaseWallReinforced
-  description: ent-RMCBaseWallReinforced-desc
+  name: reinforced wall
+  description: A huge chunk of reinforced metal used to separate rooms.
   abstract: true
   components:
   - type: Sprite
@@ -201,8 +201,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: CMWallReinforcedAlmayer
-  name: ent-CMWallReinforcedAlmayer
-  description: ent-CMWallReinforcedAlmayer-desc
+  name: reinforced hull
+  description: A reinforced metal wall used to separate rooms and make up the ship.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -219,7 +219,7 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallAlmayerReinforcedDeco1
-  name: ent-RMCWallAlmayerReinforcedDeco1
+  name: reinforced hull
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: CMWallReinforcedAlmayerWhite
-  name: ent-CMWallReinforcedAlmayerWhite
-  description: ent-CMWallReinforcedAlmayerWhite-desc
+  name: reinforced hull
+  description: A reinforced metal wall used to separate rooms and make up the ship.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -312,8 +312,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: CMWallReinforcedAlmayerAI
-  name: ent-CMWallReinforcedAlmayerAI
-  description: ent-CMWallReinforcedAlmayerAI-desc
+  name: reinforced hull
+  description: A reinforced metal wall used to isolate potentially dangerous areas.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallReinforcedHeavy
-  name: ent-CMWallReinforcedHeavy
-  description: ent-CMWallReinforcedHeavy-desc
+  name: heavy reinforced hull
+  description: A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/rwall.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayer
-  name: ent-CMWallReinforcedHeavyAlmayer
-  description: ent-CMWallReinforcedHeavyAlmayer-desc
+  name: heavy reinforced hull
+  description: A highly reinforced metal wall used to separate rooms and make up the ship. It would take a great impact to weaken this wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -369,7 +369,7 @@
 - type: entity
   parent: CMWallReinforcedHeavyAlmayer
   id: RMCWallAlmayerReinforcedHeavyDeco1
-  name: ent-RMCWallAlmayerReinforcedHeavyDeco1
+  name: heavy reinforced hull
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -444,8 +444,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerWhite
-  name: ent-CMWallReinforcedHeavyAlmayerWhite
-  description: ent-CMWallReinforcedHeavyAlmayerWhite-desc
+  name: heavy reinforced hull
+  description: A highly reinforced metal wall used to separate rooms and make up the ship. It would take a great impact to weaken this wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -462,8 +462,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerAI
-  name: ent-CMWallReinforcedHeavyAlmayerAI
-  description: ent-CMWallReinforcedHeavyAlmayerAI-desc
+  name: heavy reinforced hull
+  description: An extremely reinforced metal wall used to isolate potentially dangerous areas. Looks virtually indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
@@ -480,8 +480,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerAINoLights
-  name: ent-CMWallReinforcedHeavyAlmayerAINoLights
-  description: ent-CMWallReinforcedHeavyAlmayerAINoLights-desc
+  name: heavy reinforced hull
+  description: An extremely reinforced metal wall used to isolate potentially dangerous areas. Looks virtually indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_aicore_nolights.rsi
@@ -531,8 +531,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallRock
-  name: ent-CMWallRock
-  description: ent-CMWallRock-desc
+  name: rock wall
+  description: A rough wall of hardened rock.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/cave.rsi
@@ -551,8 +551,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallCult
-  name: ent-CMWallCult
-  description: ent-CMWallCult-desc
+  name: wall
+  description: The patterns engraved on the wall seem to shift as you try to focus on them. You feel sick.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/cult.rsi
@@ -584,8 +584,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallWood
-  name: ent-CMWallWood
-  description: ent-CMWallWood-desc
+  name: wood wall
+  description: A wooden wall used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/wood.rsi
@@ -616,8 +616,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallJungle
-  name: ent-CMWallJungle
-  description: ent-CMWallJungle-desc
+  name: jungle vegetation
+  description: Exceptionally dense vegetation that you can't see through.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/jungle.rsi
@@ -637,7 +637,7 @@
 - type: entity
   parent: CMWallJungle
   id: RMCWallJungleStrata
-  suffix: ent-RMCWallJungleStrata-suffix
+  suffix: Strata
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_jungle.rsi
@@ -656,7 +656,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallElevator
-  name: ent-RMCWallElevator
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -676,7 +676,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallElevatorBroken
-  name: ent-RMCWallElevatorBroken
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -690,7 +690,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallElevatorNoConnect1
-  name: ent-RMCWallElevatorNoConnect1
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -702,7 +702,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect2
-  name: ent-RMCWallElevatorNoConnect2
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -714,7 +714,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect3
-  name: ent-RMCWallElevatorNoConnect3
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -726,7 +726,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect4
-  name: ent-RMCWallElevatorNoConnect4
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -738,7 +738,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect5
-  name: ent-RMCWallElevatorNoConnect5
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -750,7 +750,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect6
-  name: ent-RMCWallElevatorNoConnect6
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -762,7 +762,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect7
-  name: ent-RMCWallElevatorNoConnect7
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -774,7 +774,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect8
-  name: ent-RMCWallElevatorNoConnect8
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -786,7 +786,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorButtonArrivals
-  name: ent-RMCWallElevatorButtonArrivals
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -798,7 +798,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorButtonDorm
-  name: ent-RMCWallElevatorButtonDorm
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -810,7 +810,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorButtonFreight
-  name: ent-RMCWallElevatorButtonFreight
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -822,7 +822,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorButtonResearch
-  name: ent-RMCWallElevatorButtonResearch
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -834,7 +834,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorArrivals
-  name: ent-RMCWallElevatorArrivals
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -846,7 +846,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorDorm
-  name: ent-RMCWallElevatorDorm
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -858,7 +858,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorFreight
-  name: ent-RMCWallElevatorFreight
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -870,7 +870,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorResearch
-  name: ent-RMCWallElevatorResearch
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -882,7 +882,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorGear
-  name: ent-RMCWallElevatorGear
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -894,8 +894,8 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorGearAnimated
-  name: ent-RMCWallElevatorGearAnimated
-  suffix: ent-RMCWallElevatorGearAnimated-suffix
+  name: elevator wall
+  suffix: animated
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -909,8 +909,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallContainment
-  name: ent-RMCWallContainment
-  description: ent-RMCWallContainment-desc
+  name: cell wall
+  description : A metal wall used to separate rooms and make up the ship
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/containment.rsi
@@ -1021,7 +1021,7 @@
 - type: entity
   parent: RMCWallContainment
   id: RMCWallContainmentWindow
-  name: ent-RMCWallContainmentWindow
+  name: cell window
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/containment.rsi
@@ -1045,8 +1045,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHunter
-  name: ent-RMCWallHunter
-  description: ent-RMCWallHunter-desc
+  name: hunter wall
+  description: Nigh indestructible walls that make up the hull of a hunter ship.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hunter.rsi
@@ -1066,8 +1066,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHunterDegraded
-  name: ent-RMCWallHunterDegraded
-  description: ent-RMCWallHunterDegraded-desc
+  name: degraded hunter wall
+  description: Ancient beyond measure, these walls make up the hull of a vessel of non human origin. Despite this, they can be felled with plastic explosives like any other opaque blocker.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hunter_degraded.rsi

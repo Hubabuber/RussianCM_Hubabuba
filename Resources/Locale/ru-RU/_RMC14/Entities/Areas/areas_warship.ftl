@@ -1,398 +1,398 @@
 ent-RMCAreaWarship = Военный корабль
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipASOsOffice = Офис ASO
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipIOPreparations = Препараты для ввода-вывода
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipIntelligenceLab = Разведывательная лаборатория
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDropshipPreparations = Подготовка к дропшиппингу
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDropshipCrewQuarters = Каюты экипажа десантного корабля
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipHangerCrewLounge = Ангар, комната отдыха для экипажа
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipVehicleCrewQuarters = Помещения для экипажа транспортных средств
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipVehicleCrewPreparations = Подготовка экипажа автомобиля
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipHangerConstruction = Строительство ангаров
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipHangerBriefing = Брифинг в ангаре
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipHangerHallwaySouth = Южный коридор ангара
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDropshipHanger = Ангар для десантных кораблей
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipIntelligenceMaintenance = Техническое обслуживание разведки
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEastEngineeringReactors = Восточные инженерные реакторы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEastEngineeringReactorsMaintenance = Восточное инженерное обслуживание реакторов
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMemorialandChapel = Мемориал и часовня
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMorguePreparation = Подготовка к моргу
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMorgue = Морг
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFieldDoctorsPreparations = Препараты полевых врачей
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalORs = Медицинские операционные
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedialORLobby = Медицинский ИЛИ Лобби
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCMOsOffice = Офис директора по маркетингу
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalJanitorial = Медицинский Уборочный
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipChemistry = Химия
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalBreakRoom = Комната медицинского отдыха
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalArmory = Медицинский арсенал
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipNursePrep = Подготовка медсестры
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalMaintenance = Медицинское обслуживание
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalCheckpoint = Медицинский контрольно-пропускной пункт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalHallway = Медицинский коридор
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalRecovery = Медицинское восстановление
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipResearchChemistry = Исследования химии
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipResearchLaboratories = Исследовательские лаборатории
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipResearchContainment = Сдерживание исследований
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipResearchHallway = Исследовательский коридор
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFiringRangeHallway = Прихожая на стрельбище
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSouthBriefingHallway = Южный коридор для брифингов
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipNorthBriefingHallway = Северный коридор для брифингов
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSouthRequisitionsHallway = Южный коридор заявок
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipNorthRequisitionsHallway = Северный коридор заявок
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipRearDeltaPreparations = Подготовка Восточной Дельты
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFrontDeltaPreparations = Препараты передней дельты
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipRearCharliePreparations = Подготовка Ист-Чарли
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFrontCharliePreparations = Подготовка Фронта Чарли
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFrontBravoPreparations = Подготовка Фронта Браво
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipRearBravoPreparations = Подготовка к Ист Браво
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFrontAlphaPreparations = Препараты Фронт Альфа
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipRearAlphaPreparations = Препараты Восток Альфа
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEchoPreparations = Эхопрепараты
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFoxtrotPreparations = Препараты для фокстрота
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSEATrainingRange = Учебный полигон SEA
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSEAOfficeOne = Офис СЭО Один
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSEAOfficeTwo = Офис СЭО №2
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipLowerEngineering = Нижнее машиностроение
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipLowerEngineeringAtmospherics = Нижняя техническая атмосфера
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipOrbitalCannonStorage = Орбитальное пушечное хранилище
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipRequisitionsExternal = Заявки внешние
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipRequisitionsInternal = Заявки внутренние
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipRequisitionsArmory = Оружейная Реквизитов
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFiringRange = Дальность стрельбы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMPFiringRangeOffice = Управление полигона МП
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipNCOLounge = Зал ожидания унтер-офицера
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSquadBriefing = Брифинг отряда
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMessHall = Столовая
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMessHallKitchen = Кухня-столовая
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipLowerCentralCheckpoint = Нижний центральный КПП
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFiringRangeCheckpoint = Контрольно-пропускной пункт полигона
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipAlphaBravoMaintenance = Техническое обслуживание Альфа Браво
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCharlieDeltaMaintenance = Чарли Дельта Техническое обслуживание
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFiringRangeMaintenance = Обслуживание стрельбища
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipResearchMaintenance = Поддержание исследований
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipLowerSecureBunker = Нижний безопасный бункер
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipAEGISTargetedRailgun = Нацеленный рельсотрон AEGIS
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckEngineeringSouth = Верхняя палуба Инжиниринг Юг
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckEngineeringNorth = Верхняя палуба Инжиниринг Норт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEngineeringHypersleep = Инженерный гиперсон
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEngineeringArmory = Инженерный арсенал
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEngineeringArmorer = Инженер-оружейник
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipOrdnance = Артиллерийское вооружение
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEngineeringStorage = Инженерное хранилище
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipChiefEngineersOffice = Офис главного инженера
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBasketBallandGym = Баскетбол и Тренажерный зал
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipExecutiveChefsOffice = Офис шеф-повара
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperWestNorthCheckpoint = Контрольно-пропускной пункт Верхняя палуба Запад-Север
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperWestSouthCheckpoint = Контрольно-пропускной пункт Верхней палубы Запад-Юг
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperWestNorthPump = Насос верхней палубы, запад, север
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperWestSouthPump = Насос верхней палубы Запад-Юг
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperEastNorthPump = Насос верхней палубы Восток-Север
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperEastSouthPump = Насос верхней палубы Восток-Юг
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipLaundryRoom = Прачечная
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperNorthEngineeringMaintenance = Инженерное обслуживание верхней палубы Северная
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperNorthEngineeringHallway = Северный инженерный коридор верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperSouthEngineeringHallway = Южный инженерный коридор верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperSouthEngineeringMaintenance = Инженерное обслуживание верхней палубы юга
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUNMCRecruitment = Набор персонала UNMC
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipTemporaryCrewQuarters = Временные помещения для экипажа
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUNMCRecruitmentMaintenance = Служба набора персонала UNMC
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperNorthMilitaryPoliceMaintenance = Техническое обслуживание военной полиции верхней палубы Северной
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperSouthMilitaryPoliceMaintenance = Техническое обслуживание Южной военной полиции верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEvacuationNorthMaintenance = Эвакуация Севера Техническое обслуживание
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEvacuationSouthMaintenance = Эвакуация Юг Техническое обслуживание
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEvacuation = Эвакуация
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipNorthEvacuationCheckpoint = Северный эвакуационный контрольно-пропускной пункт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCentralEvacuationCheckpoint = Центральный эвакуационный контрольно-пропускной пункт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSouthEvacuationCheckpoint = Южный эвакуационный контрольно-пропускной пункт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMPFiringRange = Дальность стрельбы МП
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMPBunks = МП Банкс
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipExecutionChamber = Палата казней
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipExecutionChamberEngineering = Проектирование камеры исполнения
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipPermanentConfinementMaintenance = Постоянное содержание под стражей
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipPermanentConfinement = Постоянное заключение
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipPermanentConfinementHallway = Коридор постоянного заключения
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigHolding = Бриг Холдинг
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigHoldingHallway = Бриговый коридор
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigHoldingObservation = Бриг Холдинг Наблюдение
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigMedical = Бриг Медикал
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigLobby = Бриг Лобби
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMilitaryWardensOffice = Офис военного начальника
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCMPsOffice = Офис CMP
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigReception = Бриговый прием
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDrunkTank = Пьяный Танк
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMPPrep = Подготовка к депутату
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMPArmory = Оружейная палата МП
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigEvidence = Бриг Доказательства
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigInterview = Бриг Интервью
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigSecureHallway = Бриг Безопасный коридор
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigEntranceHallway = Входной коридор брига
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperNorthBrigHallway = Коридор северного брига верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperSouthBrigHallway = Коридор южного брига верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperNorthCentralHallway = Северный центральный коридор верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperCentralHallway = Центральный коридор верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperSouthCentralHallway = Южный центральный коридор верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipPressBriefing = Пресс-брифинг
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipHighCommandAdjutantsOffice = Управление адъютантов высшего командования
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipPressHallway = Пресс-холл
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipPressMeetingRoom = Комната для пресс-конференций
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipPressQuarters = Пресс-центр
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSquadLeaderBriefing = Брифинг командира отряда
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipWardroomHallway = Кладовая Прихожая
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipWardroom = Кают-компания
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipWardroomKitchen = Кают-компания Кухня
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipStaffOfficersQuarters = Штабные офицерские помещения
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipWardroomReception = Приемная в кают-компании
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckSouthViewingRoom = Номер на верхней палубе с видом на южную сторону
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckNorthViewingRoom = Номер с видом на северную верхнюю палубу
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckMedical = Медицинский центр Верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckMasterWashroom = Главный туалет на верхней палубе
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCorporateHallway = Корпоративный коридор
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCorporateLiaisonsMainOffice = Главный офис корпоративных связей
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCorporateLiaisonsQuarters = Отдел корпоративных связей
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCorporateLiaisonsResearch = Исследование корпоративных связей
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCorporateMeetingRoom = Корпоративный конференц-зал
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCorporateMaintenance = Корпоративное обслуживание
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCorporateMeetingRoomMaintenance = Обслуживание зала корпоративных конференций
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSecureRelay = Безопасное реле
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipTelecommunications = Телекоммуникации
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipTelecommunicationsEntrance = Телекоммуникационный вход
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSyntheticPreparations = Синтетические препараты
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipARESBase = База АРЕС
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipARESReception = АРЕС Прием
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipARESCore = АРЕС Ядро
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipARESHallway = АРЕС Прихожая
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipARESStorage = АРЕС Хранилище
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipARESSecureStorage = Безопасное хранилище ARES
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCommandingOfficersQuarters = Комнаты командиров
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipExecutiveOfficersQuarters = Квартиры исполнительных директоров
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCombatInformationCenter = Боевой информационный центр
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCICArmory = Оружейная палата CIC
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipStaffOfficerPrep = Подготовка штабного офицера
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCICReception = Приемная ЦИК
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCICWarRoom = Военная комната CIC
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCICHallwayNorth = CIC коридор север
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipCICHallwaySouth = CIC Коридор Юг
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipAstroNav = АстроНав
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipEscapePod = Спасательная капсула
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipLifeBoat = Спасательная шлюпка
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipNoEntry = Неизвестный
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipLaundryHallway = Прачечная Прихожая
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckNorthCentralHallway = Северный центральный коридор верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckSouthCentralHallway = Южный центральный коридор верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDockingPort = Стыковочный порт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDockingPortLE = Нижний восточный стыковочный порт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDockingPortLN = Нижний Северный стыковочный порт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDockingPortLS = Нижний Южный стыковочный порт
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDockingPortUNW = Северо-западный стыковочный порт верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipDockingPortUSE = Юго-восточный стыковочный порт верхней палубы
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipWestNorthStairwell = Западно-Северная Лестница
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipWestSouthStairwell = Западно-Южная Лестница
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipSouthCentralStairwell = Южная центральная лестница
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipNorthCentralStairwell = Северная Центральная Лестница
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipMedicalStairwell = Медицинская лестница
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipFiringRangeStairwell = Стрельбище
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipBrigStairwell = Бриг Лестничный колодец
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckCICStairwell = Лестница CIC на верхней палубе
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckStaffOfficerStairwell = Верхняя палуба SO, лестничная клетка
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipUpperDeckWardroomStairwell = Кают-компания на верхней палубе, лестница
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipWardroomMaints = Техническое обслуживание кают-компании на верхней палубе
-    .suffix = Военный корабль
+
 ent-RMCAreaWarshipLateWakeCryo = Криоподы позднего пробуждения
-    .suffix = Военный корабль
+

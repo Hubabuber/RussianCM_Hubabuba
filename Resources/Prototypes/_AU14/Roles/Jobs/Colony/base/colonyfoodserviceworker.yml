@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianFoodServiceWorker
-  name: job-au14jobcivilianfoodserviceworker-name
-  description: job-au14jobcivilianfoodserviceworker-desc
+  name: au14-job-name-civilianfoodserviceworker
+  description: au14-job-description-civilianfoodserviceworker
   setPreference: true
   playTimeTracker: AU14JobCivilianFoodServiceWorker
   ranks:
@@ -12,7 +12,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianfoodserviceworker-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   access:
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianFoodServiceWorker
-  name: ent-AU14SpawnPointCivilianFoodServiceWorker
+  name: Spawn Point Food Service Worker
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianFoodServiceWorker

@@ -1,9 +1,0 @@
-guideentry-rumc14-name = Руководство RMC14
-guideentry-rumcchemicals-name = направляющие химикаты
-guideentry-rumcguidenewplayer-name = Руководство для начинающих
-guideentry-rumcguideroledrone-name = Руководство дрона
-guideentry-rumcguiderolerifleman-name = Руководство стрелка
-guideentry-rumcintel-name = Разведка
-guideentry-rumcmedical-name = Медицина
-guideentry-rumcmedicine-name = гид-вход-медицина
-guideentry-rumcsurvivor-name = Выживший

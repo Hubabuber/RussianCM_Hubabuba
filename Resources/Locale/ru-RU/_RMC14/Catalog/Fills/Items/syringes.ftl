@@ -1,9 +1,9 @@
 ent-RMCSyringeInaprovaline = шприц
   .desc = Содержит инапровалин – используется для стабилизации состояния пациентов.
-    .suffix = шприц
+
 ent-RMCSyringeDylovene = шприц
   .desc = Содержит антитоксины.
-    .suffix = шприц
+
 ent-RMCSyringeDrugs = шприц
   .desc = Содержит агрессивные наркотики, предназначенные для пыток.
-    .suffix = шприц
+

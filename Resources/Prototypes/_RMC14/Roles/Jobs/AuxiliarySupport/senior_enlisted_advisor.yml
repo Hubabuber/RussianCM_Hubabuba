@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMSeniorEnlistedAdvisor
-  name: job-cmseniorenlistedadvisor-name
-  description: job-cmseniorenlistedadvisor-desc
+  name: cm-job-name-senior-enlisted-advisor
+  description: cm-job-description-senior-enlisted-advisor
   setPreference: false
   playTimeTracker: CMJobSeniorEnlistedAdvisor
   requirements:
@@ -40,7 +40,7 @@
   latejoinArrivalSound:
     path: /Audio/_RMC14/Announcements/ARES/attention_jingle.ogg
   marineAuthorityLevel: 5
-  supervisors: job-cmseniorenlistedadvisor-supervisors
+  supervisors: rmc-job-supervisors-commander
   whitelisted: true
   whitelistParent: RMCWhitelistHard
   accessGroups:
@@ -105,7 +105,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSeniorEnlistedAdvisor
-  name: ent-CMSpawnPointSeniorEnlistedAdvisor
+  name: senior enlisted advisor spawn point
   components:
   - type: SpawnPoint
     job_id: CMSeniorEnlistedAdvisor
@@ -115,8 +115,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleSEA
-  name: ent-CMGuidebookRoleSEA
-  description: ent-CMGuidebookRoleSEA-desc
+  name: Senior Enlisted Advisor
+  description: Mentor for the Marines!
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

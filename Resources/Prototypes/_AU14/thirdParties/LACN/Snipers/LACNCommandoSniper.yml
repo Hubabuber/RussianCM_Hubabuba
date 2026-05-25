@@ -1,21 +1,21 @@
 - type: job
   parent: CMJobBase
   id: AU14LACNCommandoSniper
-  name: job-au14lacncommandosniper-name
+  name: rmc-job-name-forecon-sniper
   playTimeTracker: AU14LACNCommandoSniper
-  description: job-au14lacncommandosniper-desc
+  description: au14-lacncommando-description
   ranks:
     RMCRankChiefWarrantOfficer:
     - !type:RoleTimeRequirement
       role: AU14LACNCommandoSniper
       time: 18000 #5 hours
     RMCRankWarrantOfficer: []
-  spawnMenuRoleName: job-au14lacncommandosniper-spawnmenurolename
+  spawnMenuRoleName: LACN Commando Sniper (AU14, 3rd Party)
   icon: "CMJobIconEmpty"
   startingGear: AU14GearLACNCommandoSniperTeamSniper
   greeting: au14-lacncommando-description
   joinNotifyCrew: false
-  supervisors: job-au14lacncommandosniper-supervisors
+  supervisors: au14-job-supervisors-loner
   special:
   - !type:AddComponentSpecial
     components:
@@ -33,9 +33,9 @@
 
 - type: entity
   parent: AU14BaseMobSpeciesOrganicLACN
-  suffix: ent-AU14JobCommandoSniperTeamSniper-suffix
+  suffix: AU14, LACN
   id: AU14JobCommandoSniperTeamSniper
-  name: ent-AU14JobCommandoSniperTeamSniper
+  name: LACN Commando Sniper (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

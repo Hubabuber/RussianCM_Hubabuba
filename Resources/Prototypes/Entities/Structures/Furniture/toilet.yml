@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-BaseToilet
+  name: toilet
   id: BaseToilet
   parent: [ DisposalUnitBase, SeatBase ]
-  description: ent-BaseToilet-desc
+  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   abstract: true
   components:
   - type: Sprite
@@ -127,11 +127,11 @@
     - Anchorable
 
 - type: entity
-  name: ent-ToiletEmpty
-  description: ent-ToiletEmpty-desc
+  name: toilet
+  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   id: ToiletEmpty
   parent: BaseToilet
-  suffix: ent-ToiletEmpty-suffix
+  suffix: Empty
   components:
   - type: Construction
     graph: Toilet
@@ -140,7 +140,7 @@
 - type: entity
   id: ToiletDirtyWater
   parent: ToiletEmpty
-  suffix: ent-ToiletDirtyWater-suffix
+  suffix: Dirty Water
   components:
   - type: SolutionContainerManager
     solutions:
@@ -157,9 +157,9 @@
 - type: entity
   id: ToiletGoldenEmpty
   parent: BaseToilet
-  name: ent-ToiletGoldenEmpty
-  description: ent-ToiletGoldenEmpty-desc
-  suffix: ent-ToiletGoldenEmpty-suffix
+  name: golden toilet
+  description: The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
+  suffix: Empty
   components:
   - type: Sprite
     sprite: Structures/Furniture/golden_toilet.rsi
@@ -193,7 +193,7 @@
 - type: entity
   id: ToiletGoldenDirtyWater
   parent: ToiletGoldenEmpty
-  suffix: ent-ToiletGoldenDirtyWater-suffix
+  suffix: Dirty Water, StealTarget
   components:
   - type: StealTarget
     stealGroup: ToiletGoldenDirtyWater

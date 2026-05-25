@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianHeadOfEngineering
-  name: job-au14jobcivilianheadofengineering-name
-  description: job-au14jobcivilianheadofengineering-desc
+  name: au14-job-name-civilianheadofengineering
+  description: au14-job-description-civilianheadofengineering
   setPreference: true
   canBeAntag: false
   playTimeTracker: AU14JobCivilianHeadOfEngineering
@@ -25,7 +25,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianheadofengineering-supervisors
+  supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:
   - Colonist
   - auengi
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianHeadOfEngineering
-  name: ent-AU14SpawnPointCivilianHeadOfEngineering
+  name: Spawn Point Head of Engineering
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianHeadOfEngineering

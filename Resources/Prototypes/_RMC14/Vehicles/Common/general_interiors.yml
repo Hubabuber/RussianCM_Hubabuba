@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleInteriorGeneralBase
-  name: ent-VehicleInteriorGeneralBase
-  description: ent-VehicleInteriorGeneralBase-desc
+  name: vehicle interior piece
+  description: A decorative vehicle interior fixture.
   placement:
     mode: SnapgridCenter
   components:
@@ -17,8 +17,8 @@
   abstract: true
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorWallMountedBase
-  name: ent-VehicleInteriorWallMountedBase
-  description: ent-VehicleInteriorWallMountedBase-desc
+  name: vehicle interior wall mount
+  description: A wall-mounted vehicle interior fixture.
   placement:
     mode: PlaceFree
   components:
@@ -29,8 +29,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleInteriorLockerBase
-  name: ent-VehicleInteriorLockerBase
-  description: ent-VehicleInteriorLockerBase-desc
+  name: vehicle interior locker
+  description: A storage locker for vehicle interiors.
   placement:
     mode: PlaceFree
   components:
@@ -57,8 +57,8 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleAmmoLoader
-  name: ent-VehicleAmmoLoader
-  description: ent-VehicleAmmoLoader-desc
+  name: vehicle ammo loader
+  description: A loader for vehicle hardpoint ammunition.
   components:
   - type: Sprite
     state: weapons_loader
@@ -76,7 +76,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorArmorChairOld
-  name: ent-VehicleInteriorArmorChairOld
+  name: armor chair (old)
   components:
   - type: Sprite
     state: armor_chair_old
@@ -87,7 +87,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorArmorChairUnfold
-  name: ent-VehicleInteriorArmorChairUnfold
+  name: armor chair (unfolded)
   components:
   - type: Sprite
     state: armor_chair_unfold
@@ -98,7 +98,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorArmorChair
-  name: ent-VehicleInteriorArmorChair
+  name: armor chair
   components:
   - type: Sprite
     state: armor_chair
@@ -109,7 +109,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorArmorChairBuckled
-  name: ent-VehicleInteriorArmorChairBuckled
+  name: armor chair (buckled)
   components:
   - type: Sprite
     state: armor_chair_buckled
@@ -120,7 +120,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorVehicleSeat
-  name: ent-VehicleInteriorVehicleSeat
+  name: vehicle seat
   components:
   - type: Sprite
     state: vehicle_seat
@@ -128,7 +128,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorVehicleSeatBuckled
-  name: ent-VehicleInteriorVehicleSeatBuckled
+  name: vehicle seat (buckled)
   components:
   - type: Sprite
     state: vehicle_seat_buckled
@@ -136,7 +136,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorVehicleBars
-  name: ent-VehicleInteriorVehicleBars
+  name: vehicle bars
   components:
   - type: Sprite
     state: vehicle_bars
@@ -144,7 +144,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorVehicleSeatDestroyed
-  name: ent-VehicleInteriorVehicleSeatDestroyed
+  name: vehicle seat (destroyed)
   components:
   - type: Sprite
     state: vehicle_seat_destroyed
@@ -152,7 +152,7 @@
 - type: entity
   parent: VehicleInteriorLockerBase
   id: VehicleInteriorLockerOpen
-  name: ent-VehicleInteriorLockerOpen
+  name: interior locker (open)
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: locker_open
@@ -161,12 +161,12 @@
 - type: entity
   parent: VehicleInteriorLockerBase
   id: VehicleInteriorLocker
-  name: ent-VehicleInteriorLocker
+  name: interior locker
 
 - type: entity
   parent: VehicleInteriorLockerBase
   id: VehicleInteriorLockerMedical
-  name: ent-VehicleInteriorLockerMedical
+  name: interior locker (medical)
   components:
   - type: Sprite
     layers:
@@ -182,8 +182,8 @@
   abstract: true
   parent: RMCExtinguisherCabinet
   id: VehicleInteriorExtinguisherCabinetBase
-  name: ent-VehicleInteriorExtinguisherCabinetBase
-  description: ent-VehicleInteriorExtinguisherCabinetBase-desc
+  name: interior extinguisher cabinet
+  description: A wall-mounted fire extinguisher cabinet for vehicle interiors.
   placement:
     mode: PlaceFree
   components:
@@ -213,7 +213,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisher
-  name: ent-VehicleInteriorExtinguisher
+  name: interior extinguisher
   components:
   - type: ContainerFill
     containers:
@@ -223,7 +223,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisherClosed
-  name: ent-VehicleInteriorExtinguisherClosed
+  name: interior extinguisher (closed)
   components:
   - type: ContainerFill
     containers:
@@ -233,7 +233,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisherFull
-  name: ent-VehicleInteriorExtinguisherFull
+  name: interior extinguisher (full)
   components:
   - type: Openable
     opened: true
@@ -245,7 +245,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisherMini
-  name: ent-VehicleInteriorExtinguisherMini
+  name: interior extinguisher (mini)
   components:
   - type: Openable
     opened: true
@@ -273,7 +273,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisherEmpty
-  name: ent-VehicleInteriorExtinguisherEmpty
+  name: interior extinguisher (empty)
   components:
   - type: Openable
     opened: true
@@ -281,7 +281,7 @@
 - type: entity
   parent: RMCNanoMed
   id: VehicleInteriorNanomed
-  name: ent-VehicleInteriorNanomed
+  name: nanomed
   placement:
     mode: PlaceFree
   components:
@@ -305,17 +305,17 @@
 - type: entity
   parent: VehicleInteriorNanomed
   id: VehicleInteriorNanomedVend
-  name: ent-VehicleInteriorNanomedVend
+  name: nanomed (vend)
 
 - type: entity
   parent: VehicleInteriorNanomed
   id: VehicleInteriorNanomedDeny
-  name: ent-VehicleInteriorNanomedDeny
+  name: nanomed (deny)
 
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendor
-  name: ent-VehicleInteriorMedVendor
+  name: medical vendor
   components:
   - type: Sprite
     state: med
@@ -323,7 +323,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorVend
-  name: ent-VehicleInteriorMedVendorVend
+  name: medical vendor (vend)
   components:
   - type: Sprite
     state: med_vend
@@ -331,7 +331,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorDeny
-  name: ent-VehicleInteriorMedVendorDeny
+  name: medical vendor (deny)
   components:
   - type: Sprite
     state: med_deny
@@ -339,7 +339,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorOff
-  name: ent-VehicleInteriorMedVendorOff
+  name: medical vendor (off)
   components:
   - type: Sprite
     state: med_off
@@ -347,7 +347,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorBroken
-  name: ent-VehicleInteriorMedVendorBroken
+  name: medical vendor (broken)
   components:
   - type: Sprite
     state: med_broken
@@ -355,7 +355,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorPanel
-  name: ent-VehicleInteriorMedVendorPanel
+  name: medical vendor (panel)
   components:
   - type: Sprite
     state: med_panel
@@ -363,7 +363,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendor
-  name: ent-VehicleInteriorBloodVendor
+  name: blood vendor
   components:
   - type: Sprite
     state: blood
@@ -371,7 +371,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorVend
-  name: ent-VehicleInteriorBloodVendorVend
+  name: blood vendor (vend)
   components:
   - type: Sprite
     state: blood_vend
@@ -379,7 +379,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorDeny
-  name: ent-VehicleInteriorBloodVendorDeny
+  name: blood vendor (deny)
   components:
   - type: Sprite
     state: blood_deny
@@ -387,7 +387,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorOff
-  name: ent-VehicleInteriorBloodVendorOff
+  name: blood vendor (off)
   components:
   - type: Sprite
     state: blood_off
@@ -395,7 +395,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorBroken
-  name: ent-VehicleInteriorBloodVendorBroken
+  name: blood vendor (broken)
   components:
   - type: Sprite
     state: blood_broken
@@ -403,7 +403,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorPanel
-  name: ent-VehicleInteriorBloodVendorPanel
+  name: blood vendor (panel)
   components:
   - type: Sprite
     state: blood_panel
@@ -411,7 +411,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorSupplyVendor
-  name: ent-VehicleInteriorSupplyVendor
+  name: supply vendor
   components:
   - type: Sprite
     state: supply
@@ -419,7 +419,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorSupplyVendorOff
-  name: ent-VehicleInteriorSupplyVendorOff
+  name: supply vendor (off)
   components:
   - type: Sprite
     state: supply_off
@@ -427,7 +427,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorSupplyVendorBroken
-  name: ent-VehicleInteriorSupplyVendorBroken
+  name: supply vendor (broken)
   components:
   - type: Sprite
     state: supply_broken
@@ -435,7 +435,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorSupplyVendorPanel
-  name: ent-VehicleInteriorSupplyVendorPanel
+  name: supply vendor (panel)
   components:
   - type: Sprite
     state: supply_panel
@@ -443,7 +443,7 @@
 - type: entity
   parent: RMCRotaryPhoneWallmount
   id: VehicleInteriorWallPhone
-  name: ent-VehicleInteriorWallPhone
+  name: wall phone
   placement:
     mode: PlaceFree
   components:
@@ -464,17 +464,17 @@
 - type: entity
   parent: VehicleInteriorWallPhone
   id: VehicleInteriorWallPhoneRing
-  name: ent-VehicleInteriorWallPhoneRing
+  name: wall phone (ringing)
 
 - type: entity
   parent: VehicleInteriorWallPhone
   id: VehicleInteriorWallPhoneEar
-  name: ent-VehicleInteriorWallPhoneEar
+  name: wall phone (off hook)
 
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: VehicleInteriorCamera
-  name: ent-VehicleInteriorCamera
+  name: vehicle camera
   placement:
     mode: PlaceFree
   components:
@@ -497,7 +497,7 @@
 - type: entity
   parent: VehicleInteriorCamera
   id: VehicleInteriorCameraEMP
-  name: ent-VehicleInteriorCameraEMP
+  name: vehicle camera (EMP)
   components:
   - type: SurveillanceCameraVisuals
     sprites:
@@ -509,8 +509,8 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInvisibleWall
-  name: ent-VehicleInvisibleWall
-  description: ent-VehicleInvisibleWall-desc
+  name: invisible wall (blocks vision)
+  description: An invisible blocking wall for vehicle interiors.
   placement:
     mode: PlaceFree
   components:
@@ -542,8 +542,8 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInvisibleWallNoVision
-  name: ent-VehicleInvisibleWallNoVision
-  description: ent-VehicleInvisibleWallNoVision-desc
+  name: invisible wall (no vision block)
+  description: An invisible blocking wall for vehicle interiors that does not block vision or light.
   placement:
     mode: PlaceFree
   components:

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianEmergencyResponseOfficer
-  name: job-au14jobcivilianemergencyresponseofficer-name
-  description: job-au14jobcivilianemergencyresponseofficer-desc
+  name: au14-job-name-colonyemergencyresponseofficer
+  description: au14-job-description-colonyemergencyresponseofficer
   setPreference: true
   playTimeTracker: AU14JobCivilianEmergencyResponseOfficer
   ranks:
@@ -16,7 +16,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianemergencyresponseofficer-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   - aumed
@@ -50,7 +50,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianEmergencyResponseOfficer
-  name: ent-AU14SpawnPointCivilianEmergencyResponseOfficer
+  name: Spawn Point Civilian Emergency Response Officer
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianEmergencyResponseOfficer

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWindow
   id: AU14WindowTintedWhite
-  name: ent-AU14WindowTintedWhite
-  description: ent-AU14WindowTintedWhite-desc
+  name: tinted window
+  description: A tinted glass window with an impact resistant coating. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _AU14/Structures/Windows/white_tinted_window.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: MarkerBase
   id: AU14LadderExit
-  name: ent-AU14LadderExit
+  name: ladder exit
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: MarkerBase
   id: AU14WallInvisible
-  name: ent-AU14WallInvisible
-  suffix: ent-AU14WallInvisible-suffix
+  name: invisible wall
+  suffix: AU14
   placement:
     mode: SnapgridCenter
   components:
@@ -203,8 +203,8 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: AU14TriggerTeleporterViewer
-  name: ent-AU14TriggerTeleporterViewer
-  suffix: ent-AU14TriggerTeleporterViewer-suffix
+  name: teleporter viewer
+  suffix: AU14
   components:
   - type: BarricadeBlock
     bidirectional: true
@@ -213,7 +213,7 @@
 - type: tile
   parent: RMCFloorEmpty
   id: CMUFloorEmpty
-  name: tile-cmufloorempty-name
+  name: tiles-cmu-empty-subfloor
   isSpace: true
   transparent: true
   weather: true
@@ -223,7 +223,7 @@
 - type: tile
   parent: RMCFloorPlatingNoBuild
   id: CMUFlightPlatingNoBuild
-  name: tile-cmuflightplatingnobuild-name
+  name: tiles-cmu-plating
   sprite: /Textures/_RMC14/Tiles/almayer/plating.png
   isSubfloor: false
   indestructible: true
@@ -231,7 +231,7 @@
 - type: entity
   parent: MarkerBase
   id: CMUFlightFall
-  suffix: ent-CMUFlightFall-suffix
+  suffix: 5
   components:
   - type: FTLSmashImmune
   - type: NoFTL
@@ -265,7 +265,7 @@
 - type: entity
   parent: CMUFlightFall
   id: CMUFlightFall10
-  suffix: ent-CMUFlightFall10-suffix
+  suffix: 10
   components:
   - type: CMUFalling
     adjust: 0,-140
@@ -276,7 +276,7 @@
 - type: entity
   parent: CMUFlightFall
   id: CMUFlightFall25
-  suffix: ent-CMUFlightFall25-suffix
+  suffix: 25
   components:
   - type: CMUFalling
     adjust: 0,-210
@@ -287,7 +287,7 @@
 - type: entity
   parent: CMUFlightFall
   id: CMUFlightFall45
-  suffix: ent-CMUFlightFall45-suffix
+  suffix: 45
   components:
   - type: CMUFalling
     adjust: 0,-280
@@ -298,7 +298,7 @@
 - type: entity
   parent: CMUFlightFall
   id: CMUFlightFall70
-  suffix: ent-CMUFlightFall70-suffix
+  suffix: 70
   components:
   - type: CMUFalling
     adjust: 0,-350
@@ -309,7 +309,7 @@
 - type: entity
   parent: CMUFlightFall
   id: CMUFlightFall100
-  suffix: ent-CMUFlightFall100-suffix
+  suffix: 100
   components:
   - type: CMUFalling
     adjust: 0,-420
@@ -320,7 +320,7 @@
 - type: entity
   parent: CMUFlightFall
   id: CMUFlightFall135
-  suffix: ent-CMUFlightFall135-suffix
+  suffix: 135
   components:
   - type: CMUFalling
     adjust: 0,-490
@@ -331,7 +331,7 @@
 - type: entity
   parent: CMUFlightFall
   id: CMUFlightFall175
-  suffix: ent-CMUFlightFall175-suffix
+  suffix: 175
   components:
   - type: CMUFalling
     adjust: 0,-560
@@ -342,7 +342,7 @@
 - type: entity
   parent: CMUFlightFall
   id: CMUFlightFall220
-  suffix: ent-CMUFlightFall220-suffix
+  suffix: 220
   components:
   - type: CMUFalling
     adjust: 0,-630
@@ -353,7 +353,7 @@
 - type: entity
   parent:  MarkerBase
   id: CMUFlightDisposalPipe
-  suffix: ent-CMUFlightDisposalPipe-suffix
+  suffix: Flight
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi
@@ -376,7 +376,7 @@
 - type: entity
   parent: MarkerBase
   id: CMUFlightDisposalBend
-  suffix: ent-CMUFlightDisposalBend-suffix
+  suffix: Flight
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi

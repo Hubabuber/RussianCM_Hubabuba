@@ -1,9 +1,9 @@
 - type: entity
   id: AU14AICoreFARTHURGOVFOR
   parent: AU14AICoreApolloGOVFOR
-  name: ent-AU14AICoreFARTHURGOVFOR
-  description: ent-AU14AICoreFARTHURGOVFOR-desc
-  suffix: ent-AU14AICoreFARTHURGOVFOR-suffix
+  name: FAR/TH/UR 2600 A.I.
+  description: This is the artificial intelligence system for monitoring the space ships, colonies or stations. It is manufactured by Weyland-Yutani.
+  suffix: AU14, GOVFOR
   components:
   - type: NameModifier
     baseName: "FAR/TH/UR 2600 A.I."
@@ -11,9 +11,9 @@
 - type: entity
   id: AU14AICoreFARTHUROPFOR
   parent: AU14AICoreApolloOPFOR
-  name: ent-AU14AICoreFARTHUROPFOR
-  description: ent-AU14AICoreFARTHUROPFOR-desc
-  suffix: ent-AU14AICoreFARTHUROPFOR-suffix
+  name: FAR/TH/UR 2600 A.I.
+  description: This is the artificial intelligence system for monitoring the space ships, colonies or stations. It is manufactured by Weyland-Yutani.
+  suffix: AU14, OPFOR
   components:
   - type: NameModifier
     baseName: "FAR/TH/UR 2600 A.I."
@@ -21,22 +21,25 @@
 - type: entity
   id: AU14AICoreCPUFARTHUR
   parent: AU14AICoreCPU
-  name: ent-AU14AICoreCPUFARTHUR
-  description: ent-AU14AICoreCPUFARTHUR-desc
+  name: FAR/TH/UR 2600 A.I. CPU
+  description: This is FAR/TH/UR's central processor. Made of a casing designed to withstand nuclear blasts, the CPU also contains FAR/TH/UR's blackbox recorder.
+
 - type: entity
   id: AU14AICoreSubstrateFARTHUR
   parent: AU14AICoreSubstrate
-  name: ent-AU14AICoreSubstrateFARTHUR
-  description: ent-AU14AICoreSubstrateFARTHUR-desc
+  name: FAR/TH/UR 2600 A.I. Substrate
+  description: The memory substrate of FAR/TH/UR, containing complex protocols and information. Limited capabilities can operate on substrate alone, without the main FAR/TH/UR Unit operational.
+
 - type: entity
   parent: APOLLOAICoreProcessor
   id: FARTHURAICoreProcessor
-  name: ent-FARTHURAICoreProcessor
-  description: ent-FARTHURAICoreProcessor-desc
+  name: FAR/TH/UR 2600 A.I. Processor
+  description: An external processor for FAR/TH/UR, used to process vast amounts of information.
+
 - type: entity
   parent: RMCAreaGA
   id: AU14AreaGAAIFARTHUR
-  name: ent-AU14AreaGAAIFARTHUR
+  name: FAR/TH/UR 2600 A.I. Interface
   components:
   - type: Sprite
     state: wylab
@@ -44,8 +47,8 @@
 - type: entity
   parent: CMChairComfyARES
   id: AU14ChairComfyAIFARTHUR
-  name: ent-AU14ChairComfyAIFARTHUR
-  suffix: ent-AU14ChairComfyAIFARTHUR-suffix
+  name: FAR/TH/UR 2600 A.I. interface chair
+  suffix: AU14, FARTHUR
   components:
   - type: Sprite
     state: ai_interface_chair

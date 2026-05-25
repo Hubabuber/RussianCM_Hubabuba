@@ -1,14 +1,14 @@
 ent-RMCRandomHumanoidFoxtrotWeaponsSpecialist = фокстрот специалист по оружию в роли призрака
-    .suffix = фокстрот специалист по оружию в роли призрака
+
 ent-RMCRandomHumanoidFoxtrotSquadLeader = фокстрот роль призрака командир отряда
-    .suffix = фокстрот роль призрака командир отряда
+
 ent-RMCRandomHumanoidFoxtrotSmartGunOperator = фокстрот роль призрака оператор умного оружия
-    .suffix = фокстрот роль призрака оператор умного оружия
+
 ent-RMCRandomHumanoidFoxtrotRifleman = фокстрот роль призрака стрелок
-    .suffix = фокстрот роль призрака стрелок
+
 ent-RMCRandomHumanoidFoxtrotHospitalCorpsman = фокстрот роль призрака санитар больницы
-    .suffix = фокстрот роль призрака санитар больницы
+
 ent-RMCRandomHumanoidFoxtrotFireteamLeader = фокстрот роль призрака командир боевой группы
-    .suffix = фокстрот роль призрака командир боевой группы
+
 ent-RMCRandomHumanoidFoxtrotCombatTech = фокстрот роль призрака боевой техник
-    .suffix = фокстрот роль призрака боевой техник
+

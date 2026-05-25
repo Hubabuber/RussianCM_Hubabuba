@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: SurveillanceCameraRouterBase
-  name: ent-SurveillanceCameraRouterBase
-  description: ent-SurveillanceCameraRouterBase-desc
+  name: camera router
+  description: A surveillance camera router. It routes. Perhaps.
   components:
     - type: DeviceNetwork
       deviceNetId: Wired
@@ -47,7 +47,7 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterConstructed
-  suffix: ent-SurveillanceCameraRouterConstructed-suffix
+  suffix: Constructed
   components:
     - type: SurveillanceCameraRouter
       setupAvailableNetworks:
@@ -63,8 +63,8 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterEngineering
-  name: ent-SurveillanceCameraRouterEngineering
-  suffix: ent-SurveillanceCameraRouterEngineering-suffix
+  name: engineering camera router
+  suffix: Engineering
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraEngineering
@@ -72,8 +72,8 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterSecurity
-  name: ent-SurveillanceCameraRouterSecurity
-  suffix: ent-SurveillanceCameraRouterSecurity-suffix
+  name: security camera router
+  suffix: Security
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraSecurity
@@ -81,8 +81,8 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterScience
-  name: ent-SurveillanceCameraRouterScience
-  suffix: ent-SurveillanceCameraRouterScience-suffix
+  name: science camera router
+  suffix: Science
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraScience
@@ -90,8 +90,8 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterSupply
-  name: ent-SurveillanceCameraRouterSupply
-  suffix: ent-SurveillanceCameraRouterSupply-suffix
+  name: supply camera router
+  suffix: Supply
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraSupply
@@ -99,8 +99,8 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterCommand
-  name: ent-SurveillanceCameraRouterCommand
-  suffix: ent-SurveillanceCameraRouterCommand-suffix
+  name: command camera router
+  suffix: Command
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraCommand
@@ -108,8 +108,8 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterService
-  name: ent-SurveillanceCameraRouterService
-  suffix: ent-SurveillanceCameraRouterService-suffix
+  name: service camera router
+  suffix: Service
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraService
@@ -117,8 +117,8 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterMedical
-  name: ent-SurveillanceCameraRouterMedical
-  suffix: ent-SurveillanceCameraRouterMedical-suffix
+  name: medical camera router
+  suffix: Medical
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraMedical
@@ -126,8 +126,8 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterGeneral
-  name: ent-SurveillanceCameraRouterGeneral
-  suffix: ent-SurveillanceCameraRouterGeneral-suffix
+  name: general camera router
+  suffix: General
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraGeneral
@@ -136,8 +136,8 @@
   abstract: true
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: SurveillanceCameraWirelessRouterBase
-  name: ent-SurveillanceCameraWirelessRouterBase
-  description: ent-SurveillanceCameraWirelessRouterBase-desc
+  name: wireless camera router
+  description: A wireless surveillance camera router. It routes. Perhaps.
   components:
     - type: DeviceNetwork
       deviceNetId: Wireless
@@ -181,7 +181,7 @@
 - type: entity
   parent: SurveillanceCameraWirelessRouterBase
   id: SurveillanceCameraWirelessRouterConstructed
-  suffix: ent-SurveillanceCameraWirelessRouterConstructed-suffix
+  suffix: Constructed
   components:
     - type: SurveillanceCameraRouter
       setupAvailableNetworks:
@@ -190,8 +190,8 @@
 - type: entity
   parent: SurveillanceCameraWirelessRouterBase
   id: SurveillanceCameraWirelessRouterEntertainment
-  name: ent-SurveillanceCameraWirelessRouterEntertainment
-  suffix: ent-SurveillanceCameraWirelessRouterEntertainment-suffix
+  name: entertainment camera router
+  suffix: Entertainment
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraEntertainment

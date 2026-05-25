@@ -12,16 +12,3 @@ ent-LeftHandSmartCorgi-name = рука корги
 
 ent-RightHandSmartCorgi-name = рука корги
 
-ent-FeetAnimal = ноги животных
-
-ent-HandsAnimal = руки животных
-
-ent-LeftHandSmartCorgi = рука корги
-
-ent-LegsAnimal = ноги животных
-
-ent-PartAnimal = часть тела животного
-
-ent-RightHandSmartCorgi = рука корги
-
-ent-TorsoAnimal = туловище животного

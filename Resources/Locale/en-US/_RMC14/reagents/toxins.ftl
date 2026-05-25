@@ -1,23 +1,2 @@
-rmc-reagent-name-cyanide = Cyanide
+﻿rmc-reagent-name-cyanide = Cyanide
 rmc-reagent-desc-cyanide = Cyanide is a naturally occurring toxic chemical, that has been used as a mean of killing for centuries because of its immediate effects. Symptoms include nausea, weakness, and difficulty breathing.
-
-reagent-rmcblackgoo-desc = A strange substance of unknown origin. . .
-reagent-rmcblackgoo-name = Black Goo
-reagent-rmcblackgoo-physicaldesc = unidentifiable
-reagent-rmcchloralhydrate-desc = Chloral hydrate was the first synthetically produced sedative-hypnotic drug. It is a powerful sedative which causes near instant sleepiness, but can be deadly in large quantities. Often used together with other anesthetics for surgical procedures.
-reagent-rmcchloralhydrate-name = Chloral Hydrate
-reagent-rmcchloralhydrate-physicaldesc = nondescript
-reagent-rmccyanide-desc = Cyanide is a naturally occurring toxic chemical, that has been used as a mean of killing for centuries because of its immediate effects. Symptoms include nausea, weakness, and difficulty breathing.
-reagent-rmccyanide-name = Cyanide
-reagent-rmccyanide-physicaldesc = pungent
-reagent-rmcgenerictoxin-desc = General identification for many similar toxins, sometimes created as a byproduct through chemical reactions.
-reagent-rmcgenerictoxin-name = Generic Toxin
-reagent-rmcgenerictoxin-physicaldesc = pungent
-reagent-rmclexorin-desc = Lexorin is an extremely dangerous compound that damages tissue and paralyzes the lungs, effectively stopping respiration. Can be deadly in even small doses. Lexorin is effectively countered by variants of dexalin.
-reagent-rmclexorin-name = Lexorin
-reagent-rmclexorin-physicaldesc = pungent
-reagent-rmcmindbreakertoxin-desc = A powerful hallucinogenic compound that is illegal under Marine Law. Causes extreme hallucinations and is very addictive. Formerly known as LSD.
-reagent-rmcmindbreakertoxin-name = Mindbreaker Toxin
-reagent-rmcmolecularacid-desc = An acid of unknown composition, this sample doesn't seem to be as dangerous those found within Xenonid bloodstreams.
-reagent-rmcmolecularacid-name = Diluted Molecular Acid
-reagent-rmcmolecularacid-physicaldesc = acidic

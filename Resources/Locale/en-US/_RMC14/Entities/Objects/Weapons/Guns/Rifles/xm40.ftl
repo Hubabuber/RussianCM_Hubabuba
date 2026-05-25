@@ -1,6 +1,0 @@
-ent-RMCMagazineRifleXM40AP = XM40 AP magazine (10x24mm)
-
-ent-RMCMagazineRifleXM40HEAP = XM40 HEAP magazine (10x24mm)
-
-ent-RMCWeaponRifleXM40 = XM40 assault rifle
-    .desc = One of the experimental predecessors to the M41A line that never saw widespread adoption beyond elite marine units. Of the rifles in the USCM inventory that are still in production, this is the only one to feature an integrated suppressor. It can accept M41A MK2 magazines, but also features its own proprietary magazine system. Extremely lethal in burstfire mode.

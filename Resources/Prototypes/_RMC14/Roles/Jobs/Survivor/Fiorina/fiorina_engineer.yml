@@ -1,13 +1,13 @@
 - type: job
   parent: CMSurvivorEngineer
   id: CMSurvivorFiorinaEngineer
-  name: job-cmsurvivorfiorinaengineer-name
-  description: job-cmsurvivorfiorinaengineer-desc
+  name: cm-job-name-survivor-fiorina-engineer
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorEngineer
   startingGear: RMCGearSurvivorFiorinaEngineer
   accessGroups:
   - ColonistEngi
-  spawnMenuRoleName: job-cmsurvivorfiorinaengineer-spawnmenurolename
+  spawnMenuRoleName: Fiorina Engineer (Fiorina Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFiorinaEngineer
-  name: ent-RMCSpawnPointSurvivorFiorinaEngineer
+  name: survivor fiorina engineer spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorFiorinaEngineer

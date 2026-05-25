@@ -1,182 +1,182 @@
 ent-RMCAreaLv624LazarusCrashedShipContainers = Разбившиеся корабельные контейнеры
-    .suffix = область
+
 ent-RMCAreaLv624LazarusCrashedShip = Разбившийся корабль
-    .suffix = область
+
 ent-RMCAreaLv624LandingConsole2 = LZ2 «Робототехника»
-    .suffix = область
+
 ent-RMCAreaLv624LandingConsole = LZ1 'Нексус'
-    .suffix = область
+
 ent-RMCAreaLv624LazarusHydroponics = Гидропоника
-    .suffix = область
+
 ent-RMCAreaLv624LazarusFitness = Фитнес-зал
-    .suffix = область
+
 ent-RMCAreaLv624LazarusResearch = Исследовательская лаборатория
-    .suffix = область
+
 ent-RMCAreaLv624LazarusRobotics = Робототехника
-    .suffix = область
+
 ent-RMCAreaLv624LazarusSecureStorage = Безопасное хранение
-    .suffix = область
+
 ent-RMCAreaLv624LazarusComms = Реле связи
-    .suffix = область
+
 ent-RMCAreaLv624LazarusEngineering = Инженерное дело
-    .suffix = область
+
 ent-RMCAreaLv624LazarusQuartstorageOutdoors = Зона грузового отсека
-    .suffix = область
+
 ent-RMCAreaLv624LazarusQuartstorage = Грузовой отсек
-    .suffix = область
+
 ent-RMCAreaLv624LazarusQuart = интенданты
-    .suffix = область
+
 ent-RMCAreaLv624LazarusSleepFemale = Женское общежитие
-    .suffix = область
+
 ent-RMCAreaLv624LazarusSleepMale = Мужское общежитие
-    .suffix = область
+
 ent-RMCAreaLv624LazarusChapel = Часовня
-    .suffix = область
+
 ent-RMCAreaLv624LazarusToilet = Общий туалет
-    .suffix = область
+
 ent-RMCAreaLv624LazarusMainHall = Главный коридор
-    .suffix = область
+
 ent-RMCAreaLv624LazarusCanteen = Столовая
-    .suffix = область
+
 ent-RMCAreaLv624LazarusKitchen = Кухня
-    .suffix = область
+
 ent-RMCAreaLv624LazarusHop = Начальник отдела кадров
-    .suffix = область
+
 ent-RMCAreaLv624LazarusCaptain = Комендантские помещения
-    .suffix = область
+
 ent-RMCAreaLv624LazarusSecurity = Безопасность
-    .suffix = область
+
 ent-RMCAreaLv624LazarusArmory = Оружейная палата
-    .suffix = область
+
 ent-RMCAreaLv624LazarusMedbay = Медбэй
-    .suffix = область
+
 ent-RMCAreaLv624LazarusYggdrasil = Дерево Иггдрасиль
-    .suffix = область
+
 ent-RMCAreaLv624LazarusCorporateDome = Корпоративный купол
-    .suffix = область
+
 ent-RMCAreaLv624LazarusLandingZonesLz2 = Зона высадки в Нормандии
-    .suffix = область
+
 ent-RMCAreaLv624LazarusLandingZonesLz1 = Зона приземления Аламо
-    .suffix = область
+
 ent-RMCAreaLv624Lazarus = Лазарь
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesSandTemplePowered = Храм песка - Работает
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesSandTemple = Песчаный храм
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesSouthEastCaves = Юго-восточные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesSouthCentralCaves = Южно-центральные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesNorthCentralCavesLakeHouseTower = Реле связи дома у озера
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesNorthCentralCaves = Северо-центральные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesNorthEastCaves = Северо-восточные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesNorthWestCaves = Северо-западные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesCentralCaves = Центральные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesEastCaves = Восточные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesSouthWestCaves = Юго-западные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCavesWestCaves = Западные пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundCaves = Пещеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyTelecommSwLz2 = Юго-западное реле связи LZ2
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyTelecommTcommdomeSouth = Реле связи купола South Telecomms
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyTelecommTcommdome = Реле телекоммуникационной купольной связи
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyTelecommSwLz1 = Юго-западное реле связи LZ1
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyTelecommCargo = Реле связи купольного хранилища Крайнего Севера
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyTelecomm = Реле связи LZ1
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyWestTcommsRoad = Вест Т-Коммс Роуд
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyNorthTcommsRoad = Норт-Т-Коммс Роуд
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyWestNexusRoad = Вест-Нексус-роуд
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonySouthNexusRoad = Саут-Нексус-роуд
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonySouthMedbayRoad = Саут-Медбей-роуд
-    .suffix = область
+
 ent-RMCAreaLv624GroundColonyNorthNexusRoad = Норт-Нексус-роуд
-    .suffix = область
+
 ent-RMCAreaLv624GroundColony = Комплекс Уэстон-Ямада
-    .suffix = область
+
 ent-RMCAreaLv624GroundRiverEastRiver = Восточная река
-    .suffix = область
+
 ent-RMCAreaLv624GroundRiverCentralRiver = Центральная река
-    .suffix = область
+
 ent-RMCAreaLv624GroundRiverWestRiver = Западная река
-    .suffix = область
+
 ent-RMCAreaLv624GroundRiver = Река
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensSouthEasternJungleBarrens = Юго-восточные пустоши джунглей
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensSouthEasternBarrens = Юго-Восточные Степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensCentralBarrens = Центральные Степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensSouthWestBarrens = Юго-Западные Степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensNorthEastBarrens = Северо-Восточные Степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensContainers = Контейнеры
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensEastBarrens = Восточные степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensWestBarrens = Западные Степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrens = Степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleEastCentralJungle = Восточно-центральные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleWestCentralJungle = Западно-центральные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleCentralJungle = Центральные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleNorthEastJungle = Северо-восточные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleNorthJungle = Северные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleNorthWestJungle = Северо-западные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleEastJungle = Восточные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleWestJungle = Западные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleSouthWestJungle = Юго-западные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleSouthCentralJungle = Южные центральные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleSouthEastJungle = Юго-восточные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624Ground = Земля
-    .suffix = область
+
 ent-RMCAreaLv624 = область
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungle = Земля
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleSouthWestJungleCeiling = Юго-западные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundJungleWestJungleCeiling = Западные джунгли
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensWestBarrensCeiling = Западные Степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensEastBarrensCeiling = Восточные степи
-    .suffix = область
+
 ent-RMCAreaLv624GroundBarrensNorthEastBarrensCeiling = Северо-Восточные Степи
-    .suffix = область
+
 ent-RMCAreaLv624LazarusLandingZones = Лазарь
-    .suffix = область
+
 ent-RMCAreaLv624Landing = область
-    .suffix = область
+

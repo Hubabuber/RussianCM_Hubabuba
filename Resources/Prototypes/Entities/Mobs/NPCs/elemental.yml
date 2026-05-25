@@ -77,7 +77,7 @@
 - type: entity
   abstract: true
   id: MobOreCrab
-  name: ent-MobOreCrab
+  name: ore crab
   parent: [ MobElementalBase, MobCombat ]
   components:
   - type: Sprite
@@ -105,8 +105,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobQuartzCrab
-  description: ent-MobQuartzCrab-desc
-  suffix: ent-MobQuartzCrab-suffix
+  description: An ore crab made from Quartz.
+  suffix: Quartz
   components:
   - type: Sprite
     state: quartz_crab
@@ -130,8 +130,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobIronCrab
-  description: ent-MobIronCrab-desc
-  suffix: ent-MobIronCrab-suffix
+  description: An ore crab made from iron.
+  suffix: Iron
   components:
   - type: Sprite
     state: iron_crab
@@ -162,8 +162,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobCoalCrab
-  description: ent-MobCoalCrab-desc
-  suffix: ent-MobCoalCrab-suffix
+  description: An ore crab made from coal.
+  suffix: Coal
   components:
   - type: Sprite
     state: coal_crab
@@ -194,8 +194,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobUraniumCrab
-  description: ent-MobUraniumCrab-desc
-  suffix: ent-MobUraniumCrab-suffix
+  description: An ore crab made from uranium.
+  suffix: Uranium
   components:
   - type: FactionException
   - type: NPCRetaliation
@@ -230,8 +230,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobBananiumCrab
-  description: ent-MobBananiumCrab-desc
-  suffix: ent-MobBananiumCrab-suffix
+  description: An ore crab made from bananium.
+  suffix: Bananium
   components:
   - type: Sprite
     state: bananium_crab
@@ -286,8 +286,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobSilverCrab
-  description: ent-MobSilverCrab-desc
-  suffix: ent-MobSilverCrab-suffix
+  description: An ore crab made from silver.
+  suffix: Silver
   components:
   - type: Sprite
     state: silver_crab
@@ -315,8 +315,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobGoldCrab
-  description: ent-MobGoldCrab-desc
-  suffix: ent-MobGoldCrab-suffix
+  description: An ore crab made from gold.
+  suffix: Gold
   components:
   - type: Sprite
     state: gold_crab
@@ -342,11 +342,11 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: ent-ReagentSlime
+  name: reagent slime
   id: ReagentSlime
-  suffix: ent-ReagentSlime-suffix
+  suffix: Water
   parent: [ MobAdultSlimes, MobCombat ]
-  description: ent-ReagentSlime-desc
+  description: It consists of a liquid, and it wants to dissolve you in itself.
   components:
   - type: GhostRole
     prob: 0
@@ -420,7 +420,7 @@
     solution: bloodstream
 
 - type: entity
-  name: ent-ReagentSlimeSpawner
+  name: Reagent Slime Spawner
   id: ReagentSlimeSpawner
   parent: MarkerBase
   components:
@@ -449,7 +449,7 @@
 - type: entity
   id: ReagentSlimeBeer
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeBeer-suffix
+  suffix: Beer
   components:
   - type: Bloodstream
     bloodReagent: Beer
@@ -466,7 +466,7 @@
 - type: entity
   id: ReagentSlimePax
   parent: ReagentSlime
-  suffix: ent-ReagentSlimePax-suffix
+  suffix: Pax
   components:
   - type: Bloodstream
     bloodReagent: Pax
@@ -486,7 +486,7 @@
 - type: entity
   id: ReagentSlimeNocturine
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeNocturine-suffix
+  suffix: Nocturine
   components:
   - type: Bloodstream
     bloodReagent: Nocturine
@@ -506,7 +506,7 @@
 - type: entity
   id: ReagentSlimeTHC
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeTHC-suffix
+  suffix: THC
   components:
   - type: Bloodstream
     bloodReagent: THC
@@ -523,7 +523,7 @@
 - type: entity
   id: ReagentSlimeBicaridine
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeBicaridine-suffix
+  suffix: Bicaridine
   components:
   - type: Bloodstream
     bloodReagent: Bicaridine
@@ -540,7 +540,7 @@
 - type: entity
   id: ReagentSlimeToxin
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeToxin-suffix
+  suffix: Toxin
   components:
   - type: Bloodstream
     bloodReagent: Toxin
@@ -557,7 +557,7 @@
 - type: entity
   id: ReagentSlimeNapalm
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeNapalm-suffix
+  suffix: Napalm
   components:
   - type: Bloodstream
     bloodReagent: Napalm
@@ -574,7 +574,7 @@
 - type: entity
   id: ReagentSlimeOmnizine
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeOmnizine-suffix
+  suffix: Omnizine
   components:
   - type: Bloodstream
     bloodReagent: Omnizine
@@ -591,7 +591,7 @@
 - type: entity
   id: ReagentSlimeMuteToxin
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeMuteToxin-suffix
+  suffix: Mute Toxin
   components:
   - type: Bloodstream
     bloodReagent: MuteToxin
@@ -608,7 +608,7 @@
 - type: entity
   id: ReagentSlimeNorepinephricAcid
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeNorepinephricAcid-suffix
+  suffix: Norepinephric Acid
   components:
   - type: Bloodstream
     bloodReagent: NorepinephricAcid
@@ -625,7 +625,7 @@
 - type: entity
   id: ReagentSlimeEphedrine
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeEphedrine-suffix
+  suffix: Ephedrine
   components:
   - type: Bloodstream
     bloodReagent: Ephedrine
@@ -642,7 +642,7 @@
 - type: entity
   id: ReagentSlimeRobustHarvest
   parent: ReagentSlime
-  suffix: ent-ReagentSlimeRobustHarvest-suffix
+  suffix: Robust Harvest
   components:
   - type: Bloodstream
     bloodReagent: RobustHarvest

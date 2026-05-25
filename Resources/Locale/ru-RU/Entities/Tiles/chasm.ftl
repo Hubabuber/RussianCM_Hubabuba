@@ -10,17 +10,3 @@ ent-FloorDesertChasm-desc = Даже дна не видно.
 ent-FloorSnowChasm-name = пропасть
 ent-FloorSnowChasm-desc = Даже дна не видно.
 
-ent-FloorChasmEntity = пропасть
-    .desc = Даже дна не видно.
-
-ent-FloorChromiteChasm = пропасть
-    .desc = Даже дна не видно.
-    .suffix = Хромит
-
-ent-FloorDesertChasm = пропасть
-    .desc = Даже дна не видно.
-    .suffix = Desert
-
-ent-FloorSnowChasm = пропасть
-    .desc = Даже дна не видно.
-    .suffix = Snow

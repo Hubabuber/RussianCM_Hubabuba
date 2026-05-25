@@ -6,8 +6,8 @@
   abstract: true
   parent: SeatBase
   id: CMSeatBase
-  name: ent-CMSeatBase
-  suffix: ent-CMSeatBase-suffix
+  name: abstract chair
+  suffix: RMC
   components:
   - type: Corrodible
     timeToApply: 4
@@ -47,8 +47,8 @@
 - type: entity
   parent: [ CMSeatBase, ChairFolding ]
   id: CMChair
-  name: ent-CMChair
-  description: ent-CMChair-desc
+  name: chair
+  description: A rectangular metallic frame sitting on four legs with a back panel. Designed to fit the sitting position, more or less comfortably.
   components:
   - type: Transform
     anchored: true
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMChair
   id: CMChairFolded
-  suffix: ent-CMChairFolded-suffix
+  suffix: RMC|folded
   components:
   - type: Foldable
     folded: true
@@ -96,8 +96,8 @@
   parent: CMSeatBase
   id: CMChairNonFold
   abstract: true
-  name: ent-CMChairNonFold
-  description: ent-CMChairNonFold-desc
+  name: chair
+  description: A rectangular metallic frame sitting on four legs with a back panel. Designed to fit the sitting position, more or less comfortably.
   components:
   - type: Transform
     anchored: false
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMChairNonFold
   id: RMCStool
-  name: ent-RMCStool
-  description: ent-RMCStool-desc
+  name: stool
+  description: Apply butt.
   components:
   - type: Sprite
     state: stool
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairComfy
-  name: ent-CMChairComfy
-  description: ent-CMChairComfy-desc
+  name: comfy chair
+  description: A chair with leather padding and adjustable headrest. You could probably sit in one of these for ages.
   placement:
     mode: SnapgridCenter
   components:
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyARES
-  description: ent-CMChairComfyARES-desc
-  suffix: ent-CMChairComfyARES-suffix
+  description: A functional chair designed for comfortably sitting a single person with intent to facilitate interactions with the ship AI.
+  suffix: RMC|ARES
   components:
   - type: Sprite
     state: comfychair_ares
@@ -161,8 +161,8 @@
 - type: entity
   parent: CMChairComfyARES
   id: RMCChairComfyAI
-  name: ent-RMCChairComfyAI
-  suffix: ent-RMCChairComfyAI-suffix
+  name: AI interface chair
+  suffix: RMC|AI
   components:
   - type: Sprite
     state: ai_interface_chair
@@ -170,7 +170,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBeige
-  suffix: ent-CMChairComfyBeige-suffix
+  suffix: RMC|Beige
   components:
   - type: Sprite
     state: comfychair_beige
@@ -178,7 +178,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBlack
-  suffix: ent-CMChairComfyBlack-suffix
+  suffix: RMC|Black
   components:
   - type: Sprite
     state: comfychair_black
@@ -186,7 +186,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBlue
-  suffix: ent-CMChairComfyBlue-suffix
+  suffix: RMC|Blue
   components:
   - type: Sprite
     state: comfychair_blue
@@ -194,7 +194,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyLime
-  suffix: ent-CMChairComfyLime-suffix
+  suffix: RMC|Lime
   components:
   - type: Sprite
     state: comfychair_lime
@@ -202,7 +202,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyOrange
-  suffix: ent-CMChairComfyOrange-suffix
+  suffix: RMC|Orange
   components:
   - type: Sprite
     state: comfychair_orange
@@ -210,7 +210,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyTeal
-  suffix: ent-CMChairComfyTeal-suffix
+  suffix: RMC|Teal
   components:
   - type: Sprite
     state: comfychair_teal
@@ -218,8 +218,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyAlpha
-  description: ent-CMChairComfyAlpha-desc
-  suffix: ent-CMChairComfyAlpha-suffix
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Alpha squad red. Only for the bravest and freshest Marine recruits.
+  suffix: RMC|Alpha
   components:
   - type: Sprite
     state: comfychair_alpha
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBravo
-  description: ent-CMChairComfyBravo-desc
-  suffix: ent-CMChairComfyBravo-suffix
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Bravo squad brown. Certified fortified on all sides from enemy incursion.
+  suffix: RMC|Bravo
   components:
   - type: Sprite
     state: comfychair_bravo
@@ -236,8 +236,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyCharlie
-  description: ent-CMChairComfyCharlie-desc
-  suffix: ent-CMChairComfyCharlie-suffix
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Charlie squad purple. Feels out of place without a full breakfast to accompany it.
+  suffix: RMC|Charlie
   components:
   - type: Sprite
     state: comfychair_charlie
@@ -245,8 +245,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyDelta
-  description: ent-CMChairComfyDelta-desc
-  suffix: ent-CMChairComfyDelta-suffix
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Delta squad blue. This chair is most likely to be the first to fight and first to die.
+  suffix: RMC|Delta
   components:
   - type: Sprite
     state: comfychair_delta
@@ -254,8 +254,8 @@
 - type: entity
   parent: CMChairComfy
   id: RMCChairComfyAlien
-  name: ent-RMCChairComfyAlien
-  suffix: ent-RMCChairComfyAlien-suffix
+  name: alien chair
+  suffix: RMC|Alien
   components:
   - type: Sprite
     state: comfychair_alien
@@ -264,7 +264,7 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairOfficeDark
-  name: ent-CMChairOfficeDark
+  name: dark office chair
   components: # RMC14 Non-parity: Not rotatable
   - type: Sprite
     state: officechair_dark
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMChairOfficeDark
   id: CMChairOfficeWhite
-  name: ent-CMChairOfficeWhite
+  name: white office chair
   components:
   - type: Sprite
     state: officechair_white
@@ -291,8 +291,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairWood
-  name: ent-CMChairWood
-  description: ent-CMChairWood-desc
+  name: wooden chair
+  description: Old is never too old to not be in fashion.
   components:
   - type: Sprite
     state: wooden_chair
@@ -328,7 +328,7 @@
 - type: entity
   parent: CMChairWood
   id: CMChairWoodWings
-  description: ent-CMChairWoodWings-desc
+  description: Old is never too old to not be in fashion.
   components:
   - type: Sprite
     state: wooden_chair_wings

@@ -1,8 +1,8 @@
 # Normal materials spawners
 - type: entity
-  name: ent-LootSpawnerMaterials
+  name: materials spawner
   id: LootSpawnerMaterials
-  suffix: ent-LootSpawnerMaterials-suffix
+  suffix: Construction Materials
   parent: MarkerBase
   components:
     - type: Sprite
@@ -16,8 +16,8 @@
         prob: 0.8
 
 - type: entity
-  name: ent-LootSpawnerMaterialsSupplementary
-  suffix: ent-LootSpawnerMaterialsSupplementary-suffix
+  name: materials spawner
+  suffix: Supplementary Materials
   id: LootSpawnerMaterialsSupplementary
   parent: MarkerBase
   components:
@@ -34,8 +34,8 @@
 # High-value materials spawners
 # Maybe these should use the 10-in-stack variants?
 - type: entity
-  name: ent-LootSpawnerMaterialsHighValueConstruction
-  suffix: ent-LootSpawnerMaterialsHighValueConstruction-suffix
+  name: high-value materials spawner
+  suffix: Construction Materials
   id: LootSpawnerMaterialsHighValueConstruction
   parent: MarkerBase
   components:
@@ -50,7 +50,7 @@
         prob: 0.8
 
 - type: entity
-  name: ent-LootSpawnerMaterialsHighValue
+  name: high-value materials spawner
   id: LootSpawnerMaterialsHighValue
   parent: MarkerBase
   components:
@@ -68,7 +68,7 @@
 # Intended use case: randomly place in maintenance or in storage areas.
 # Does not include weirdo stuff like Bronze or Paper since those are intended to be gimmicks.
 - type: entity
-  name: ent-LootSpawnerMaterialsSurplus
+  name: surplus materials spawner
   id: LootSpawnerMaterialsSurplus
   parent: MarkerBase
   components:
@@ -84,7 +84,7 @@
 
 # Cable coil spawner
 - type: entity
-  name: ent-LootSpawnerCableCoil
+  name: cable coil spawner
   id: LootSpawnerCableCoil
   parent: MarkerBase
   components:

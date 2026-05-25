@@ -1,30 +1,30 @@
 ent-CMWardrobeYellow = желтый шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobeWhite = белый шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobeRed = красный шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobePurple = фиолетовый гардероб
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobePink = розовый шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobeOrange = оранжевый шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobeGreen = зеленый шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobeBlue = синий шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobeBlack = черный шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+
 ent-CMWardrobeBase = шкаф
   .desc = Это хранилище для стандартной одежды.
-    .suffix = шкаф
+

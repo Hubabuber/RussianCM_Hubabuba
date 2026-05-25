@@ -1,10 +1,10 @@
 ent-RMCAreaPVEShuttle = Трансфер
-    .suffix = область
+
 ent-RMCAreaPVEIndoors = В помещении
-    .suffix = область
+
 ent-RMCAreaPVELZ = Зона приземления
-    .suffix = область
+
 ent-RMCAreaPVEOutdoors = на открытом воздухе
-    .suffix = область
+
 ent-RMCAreaPVEOOB = За пределами границ
-    .suffix = область
+

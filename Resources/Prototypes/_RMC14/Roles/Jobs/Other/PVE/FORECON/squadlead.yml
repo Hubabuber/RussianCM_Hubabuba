@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCFORECONPVESquadLead
-  name: job-rmcforeconpvesquadlead-name
-  description: job-rmcforeconpvesquadlead-desc
+  name: rmc-job-name-pve-forecon-squad-lead
+  description: cm-job-description-squad-leader
   playTimeTracker: CMJobFORECONPVESquadLead
   ranks:
    RMCRankMasterSergeant: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - SquadLeader
-  spawnMenuRoleName: job-rmcforeconpvesquadlead-spawnmenurolename
+  spawnMenuRoleName: FORECON Squad Lead (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVESquadLead
-  name: ent-RMCSpawnPointFORECONPVESquadLead
-  suffix: ent-RMCSpawnPointFORECONPVESquadLead-suffix
+  name: forecon squad lead spawn point
+  suffix: PVE
   components:
   - type: Sprite
     state: so_spawn

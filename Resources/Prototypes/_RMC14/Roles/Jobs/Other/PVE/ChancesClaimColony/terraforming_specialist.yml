@@ -1,11 +1,11 @@
-- type: job
+﻿- type: job
   parent: CMSurvivorScientist
   id: CMSurvivorChancesTerraformingSpecialist
-  name: job-cmsurvivorchancesterraformingspecialist-name
-  description: job-cmsurvivorchancesterraformingspecialist-desc
+  name: rmc-job-name-colonist-terraforming-specialist
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorChancesTerraformingSpecialist
   startingGear: RMCGearSurvivorChancesTerraformingSpecialist
-  spawnMenuRoleName: job-cmsurvivorchancesterraformingspecialist-spawnmenurolename
+  spawnMenuRoleName: Terraforming Specialist (Chance's Colonist)
   greeting: rmc-job-greeting-chances-colonist
   special:
   - !type:AddComponentSpecial
@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesTerraformingSpecialist
-  name: ent-RMCSpawnPointSurvivorChancesTerraformingSpecialist
+  name: terraforming specialist spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -60,7 +60,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesTerraformingSpecialist
-  name: ent-RMCRandomHumanoidSurvivorChancesTerraformingSpecialist
+  name: terraforming specialist ghost role
   components:
   - type: Sprite
     layers:

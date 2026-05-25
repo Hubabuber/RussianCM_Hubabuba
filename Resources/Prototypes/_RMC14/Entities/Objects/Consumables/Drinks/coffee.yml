@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: RMCDrinkCoffee
-  name: ent-RMCDrinkCoffee
-  description: ent-RMCDrinkCoffee-desc
+  name: coffee
+  description: Careful, the beverage you're about to enjoy is extremely hot.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -39,8 +39,8 @@
 - type: entity
   parent: RMCDrinkCoffee
   id: RMCDrinkCoffeeGrind
-  name: "ent-RMCDrinkCoffeeGrind"
-  description: "ent-RMCDrinkCoffeeGrind-desc"
+  name: "Cuppa Joe's Dark Roast Coffee"
+  description: "Rise and Shine! Time to drink your Cuppa Joe's!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/coffee_joe.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: RMCDrinkCoffee
   id: RMCDrinkTea
-  name: ent-RMCDrinkTea
-  description: ent-RMCDrinkTea-desc
+  name: Duke Purple tea
+  description: An insult to Duke Purple is an insult to the Space Queen! Any proper gentleman will fight you, if you sully this tea.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/tea.rsi
@@ -68,9 +68,9 @@
 - type: entity
   parent: RMCDrinkTea
   id: RMCDrinkTeaSPP
-  name: ent-RMCDrinkTeaSPP
-  suffix: ent-RMCDrinkTeaSPP-suffix
-  description: ent-RMCDrinkTeaSPP-desc
+  name: insulated container
+  suffix: Tea
+  description: A small, reusable, insulated container for holding liquids with a sip lid.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/tea.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: RMCDrinkTeaSPP
   id: RMCDrinkWaterSPP
-  name: ent-RMCDrinkWaterSPP
-  suffix: ent-RMCDrinkWaterSPP-suffix
+  name: insulated container
+  suffix: Water
   components:
   - type: SolutionContainerManager
     solutions:
@@ -101,8 +101,8 @@
 - type: entity
   parent: RMCDrinkCoffee
   id: RMCDrinkHotCocoa
-  name: ent-RMCDrinkHotCocoa
-  description: ent-RMCDrinkHotCocoa-desc
+  name: dutch hot cocoa
+  description: Made in Space South America.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/hot_cocoa.rsi

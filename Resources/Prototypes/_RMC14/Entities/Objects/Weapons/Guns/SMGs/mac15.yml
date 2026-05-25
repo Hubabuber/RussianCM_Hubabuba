@@ -1,9 +1,9 @@
 - type: entity
   parent: CMBaseWeaponSMG
-  name: ent-WeaponSMGMAC15
+  name: MAC-15 submachinegun
   id: WeaponSMGMAC15 # TODO RMC14 10% chance to have an underbarrel grenade launcher
-  description: ent-WeaponSMGMAC15-desc
-  suffix: ent-WeaponSMGMAC15-suffix
+  description: A cheap, reliable design and manufacture make this ubiquitous submachinegun useful despite the age.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/mac15.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGMAC15
-  name: ent-RMCMagazineSMGMAC15
-  description: ent-RMCMagazineSMGMAC15-desc
+  name: MAC-15 magazine (9mm)
+  description: A 9mm magazine for the MAC-15.
   components:
   - type: Tag
     tags:
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCMagazineSMGMAC15
   id: RMCMagazineSMGMAC15Ext
-  name: ent-RMCMagazineSMGMAC15Ext
+  name: MAC-15 extended magazine (9mm)
   components:
   - type: BallisticAmmoProvider
     capacity: 50
@@ -139,7 +139,7 @@
 - type: entity
   parent: CMCartridge9mmSMG
   id: RMCCartridge9mmSMGMAC15
-  description: ent-RMCCartridge9mmSMGMAC15-desc
+  description: A 9mm cartridge for the mac-15 submachinegun.
   components:
   - type: Tag
     tags:

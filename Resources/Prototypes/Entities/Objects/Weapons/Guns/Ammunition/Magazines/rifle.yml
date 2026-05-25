@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineRifle
-  name: "ent-BaseMagazineRifle"
+  name: "magazine (.20 rifle)"
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: MagazineRifle
-  name: "ent-MagazineRifle"
+  name: "magazine (.20 rifle)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -53,8 +53,8 @@
 
 - type: entity
   id: MagazineRifleEmpty
-  name: "ent-MagazineRifleEmpty"
-  suffix: ent-MagazineRifleEmpty-suffix
+  name: "magazine (.20 rifle any)"
+  suffix: empty
   parent: MagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -74,7 +74,7 @@
 
 - type: entity
   id: MagazineRifleIncendiary
-  name: "ent-MagazineRifleIncendiary"
+  name: "magazine (.20 rifle incendiary)"
   parent: MagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -100,7 +100,7 @@
 
 - type: entity
   id: MagazineRiflePractice
-  name: "ent-MagazineRiflePractice"
+  name: "magazine (.20 rifle practice)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -126,7 +126,7 @@
 
 - type: entity
   id: MagazineRifleUranium
-  name: "ent-MagazineRifleUranium"
+  name: "magazine (.20 rifle uranium)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider

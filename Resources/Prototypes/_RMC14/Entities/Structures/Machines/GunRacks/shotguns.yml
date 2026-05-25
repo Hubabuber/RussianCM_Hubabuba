@@ -1,9 +1,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackM42A2Empty
-  name: ent-RMCGunRackM42A2Empty
-  suffix: ent-RMCGunRackM42A2Empty-suffix
-  description: ent-RMCGunRackM42A2Empty-desc
+  name: M42A2 gun rack
+  suffix: M42A2, Empty
+  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, UNMC commissioned racks with fixed slots which only fit M42A2 shotguns. Some say they were cheaper, and some say the main reason was marine's ability to easily break anything more complex than a tungsten ball.
   components:
   - type: ContainerContainer
     containers:
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCGunRackM42A2Empty
   id: RMCGunRackM42A2Filled
-  suffix: ent-RMCGunRackM42A2Filled-suffix
+  suffix: M42A2, Filled
   components:
   - type: ContainerFill
     containers:
@@ -57,9 +57,9 @@
 - type: entity
   parent: RMCGunRackM42A2Empty
   id: RMCGunRackType23Empty
-  name: ent-RMCGunRackType23Empty
-  suffix: ent-RMCGunRackType23Empty-suffix
-  description: ent-RMCGunRackType23Empty-desc
+  name: Type 23 gun rack
+  suffix: Type 23, Empty
+  description: Some off-branded gun rack. Per SOF and UPP Army regulations, weapons should be stored in secure safes and only given out when necessary. Of course, most (but not all!) units overlook this regulation, only storing their firearms in safes when inspection arrives.
   components:
   - type: ItemSlots
     slots:
@@ -89,7 +89,7 @@
 - type: entity
   parent: RMCGunRackType23Empty
   id: RMCGunRackType23Filled
-  suffix: ent-RMCGunRackType23Filled-suffix
+  suffix: Type 23, Filled
   components:
   - type: ContainerFill
     containers:

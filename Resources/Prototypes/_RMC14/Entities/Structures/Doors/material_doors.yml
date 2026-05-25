@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: BaseMaterialDoor
   id: RMCBaseMaterialDoor
-  name: ent-RMCBaseMaterialDoor
+  name: door
   placement:
     mode: SnapgridCenter
   components:
@@ -42,9 +42,9 @@
 
 - type: entity
   id: RMCSandstoneDoor
-  name: ent-RMCSandstoneDoor
+  name: sandstone door
   parent: RMCBaseMaterialDoor
-  description: ent-RMCSandstoneDoor-desc
+  description: It opens and closes.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/doorrunedsand.rsi

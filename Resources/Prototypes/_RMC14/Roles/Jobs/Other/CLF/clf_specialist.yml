@@ -1,15 +1,15 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: RMCCLFSpecialist
-  name: job-rmcclfspecialist-name
-  description: job-rmcclfspecialist-desc
+  name: rmc-clf-specialist
+  description: rmc-ghost-role-information-clf-description
   playTimeTracker: RMCJobCLFSpecialist
   ranks:
     RMCRankCLFRebel: [ ]
   startingGear: RMCGearCLFSpecialist
   icon: RMCJobIconCLFSpecialist
   joinNotifyCrew: false
-  spawnMenuRoleName: job-rmcclfspecialist-spawnmenurolename
+  spawnMenuRoleName: CLF Specialist
   special:
   - !type:AddComponentSpecial
     components:
@@ -51,8 +51,8 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFSpecialist
-  name: ent-RMCRandomHumanoidCLFSpecialist
-  suffix: ent-RMCRandomHumanoidCLFSpecialist-suffix
+  name: clf ghost role specialist
+  suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi

@@ -3,7 +3,7 @@
 - type: entity
   id: ShuttleGunBase
   parent: BaseStructure
-  name: ent-ShuttleGunBase
+  name: shittle gun
   abstract: true
   components:
   - type: Appearance
@@ -41,8 +41,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: ent-ShuttleGunSvalinnMachineGun
-  description: ent-ShuttleGunSvalinnMachineGun-desc
+  name: LSE-400c "Svalinn machine gun"
+  description: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -99,8 +99,8 @@
 - type: entity
   id: ShuttleGunPerforator
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: ent-ShuttleGunPerforator
-  description: ent-ShuttleGunPerforator-desc
+  name: LSE-1200c "Perforator"
+  description: Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -159,8 +159,8 @@
 - type: entity
   id: ShuttleGunFriendship
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: ent-ShuttleGunFriendship
-  description: ent-ShuttleGunFriendship-desc
+  name: EXP-320g "Friendship"
+  description: A small stationary grenade launcher that holds 2 grenades.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -213,8 +213,8 @@
 - type: entity
   id: ShuttleGunDuster
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: ent-ShuttleGunDuster
-  description: ent-ShuttleGunDuster-desc
+  name: EXP-2100g "Duster"
+  description: A powerful stationary grenade launcher. A cartridge is required for use.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -274,8 +274,8 @@
 - type: entity
   id: ShuttleGunPirateCannon
   parent: ShuttleGunBase
-  name: ent-ShuttleGunPirateCannon
-  description: ent-ShuttleGunPirateCannon-desc
+  name: pirate ship cannon
+  description: Kaboom!
   components:
   - type: ContainerContainer
     containers:
@@ -311,8 +311,8 @@
 - type: entity
   id: ShuttleGunKinetic
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: ent-ShuttleGunKinetic
-  description: ent-ShuttleGunKinetic-desc
+  name: PTK-800 "Matter Dematerializer"
+  description: Salvage stationary mining turret. Gradually accumulates charges on its own, extremely effective for asteroid excavation.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -364,8 +364,8 @@
 - type: entity
   parent: ShuttleGunBase
   id: ShuttleGunKineticOld
-  name: ent-ShuttleGunKineticOld
-  description: ent-ShuttleGunKineticOld-desc
+  name: exomorphic dematerializer
+  description: An ancient ship gun, utilizing biomechanical systems to store and release energy. While unique in its design, it has been rendered obsolete due to its inferior charging and firing speed compared to mechanical constructions.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/xeno.rsi

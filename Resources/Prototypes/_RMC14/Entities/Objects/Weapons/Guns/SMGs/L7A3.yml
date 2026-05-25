@@ -1,9 +1,9 @@
 - type: entity
   parent: CMBaseWeaponSMG
-  name: "ent-RMCWeaponSMGL7A3"   #CM name is L6A2
-  suffix: ent-RMCWeaponSMGL7A3-suffix
+  name: "L7A3 Submachine Gun"   #CM name is L6A2
+  suffix: PVE, Filled
   id: RMCWeaponSMGL7A3
-  description: ent-RMCWeaponSMGL7A3-desc
+  description: RCM adopted variant of the M63 SMG, re-engineered for better weight, handling and accuracy. Typically used in CQB engagements such as building-clearance, where the L24A1 proved a tad too unwieldy. Sometimes referred to as the "Little Armat" by Royal Marines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/L7A3.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGL7A3SquashHead
-  name: "ent-RMCMagazineSMGL7A3SquashHead"
+  name: "L7A3 Magazine Squash-Head (9mm)"
   components:
   - type: Tag
     tags:
@@ -139,7 +139,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridgeSMG9mmSquashHead
-  name: ent-RMCCartridgeSMG9mmSquashHead
+  name: 9mm Squash-Head Cartridge
   components:
   - type: Tag
     tags:
@@ -151,7 +151,7 @@
 - type: entity # todo rmc14 this is missing a lot of effects, shrapnel, debilitate etc
   parent: CMBulletBase
   id: RMCBulletSMG9mmSquashHead
-  name: ent-RMCBulletSMG9mmSquashHead
+  name: 9mmSquash-HeadBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

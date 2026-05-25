@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   id: BasePortal
   abstract: true
-  name: ent-BasePortal
-  description: ent-BasePortal-desc
+  name: bluespace portal
+  description: Transports you to a linked destination!
   components:
   - type: Transform
     anchored: True
@@ -28,7 +28,7 @@
 - type: entity
   id: PortalRed
   parent: BasePortal
-  description: ent-PortalRed-desc
+  description: This one looks more like a redspace portal.
   components:
   - type: Sprite
     layers:
@@ -103,8 +103,8 @@
 
 - type: entity
   id: ShadowPortal
-  name: ent-ShadowPortal
-  description: ent-ShadowPortal-desc
+  name: shadow rift
+  description: Looks unstable.
   parent: [ BasePortal, BaseShadow ]
   components:
   - type: Portal

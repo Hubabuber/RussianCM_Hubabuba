@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: AU14RMCRRTCommander
-  name: job-au14rmcrrtcommander-name
-  description: job-au14rmcrrtcommander-desc
+  name: au-14-job-name-rmcrrt-commander
+  description: au14-rmcert-rules
   playTimeTracker: AU14JobRMCRRTCommander
   ranks:
     RMC_2Lieutenant: []
-  spawnMenuRoleName: job-au14rmcrrtcommander-spawnmenurolename
+  spawnMenuRoleName: RMC RRT Commander
   startingGear: AU14GearRMCRRTCommander
   icon: "RMCJobIconRoyalLieutenant"
   joinNotifyCrew: false
-  supervisors: job-au14rmcrrtcommander-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCommand
   special:
@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicRMCRRT
   id: AU14JobRMCRRTCommander
-  name: ent-AU14JobRMCRRTCommander
+  name: RMC reaction troop commander
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

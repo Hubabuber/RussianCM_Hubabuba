@@ -1,24 +1,22 @@
 ent-RMCMachineScreenBase = монитор
-    .desc = монитор
+
 ent-RMCMachineScreenBasePowered = монитор
-    .desc = монитор
+
 ent-RMCBlueMultiMonitorBig = монитор
-    .desc = монитор
+
 ent-RMCBlueMultiMonitorMedium = монитор
-    .desc = монитор
+
 ent-RMCBlueMultiMonitorSmall = монитор
-    .desc = монитор
+
 ent-RMCMultiMonitorBig = монитор
-    .desc = монитор
+
 ent-RMCMultiMonitorMedium = монитор
-    .desc = монитор
+
 ent-RMCMultiMonitorSmall = монитор
-    .desc = монитор
+
 ent-RMCTelescreen = монитор
-    .desc = монитор
+
 ent-RMCTelescreenBroken = монитор
-    .desc = монитор
-    .suffix = монитор
+
 ent-RMCTelescreenBrokenSparks = монитор
-    .desc = монитор
-    .suffix = монитор
+

@@ -1,8 +1,8 @@
 - type: job
   parent: CMSurvivor
   id: CMJobSurvivorArmyReservist
-  name: job-cmjobsurvivorarmyreservist-name
-  description: job-cmjobsurvivorarmyreservist-desc
+  name: rmc-job-name-survivor-army-reservist
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorSecurity
   ranks:
     RMCRankSPPStrsh:
@@ -17,7 +17,7 @@
   startingGear: RMCGearSurvivorArmyReservist
   accessGroups:
   - ColonistSec
-  spawnMenuRoleName: job-cmjobsurvivorarmyreservist-spawnmenurolename
+  spawnMenuRoleName: Army Reservist (Sorokyne Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorArmyReservist
-  name: ent-RMCSpawnPointSurvivorArmyReservist
+  name: army reservist spawn point
   components:
   - type: SpawnPoint
     job_id: CMJobSurvivorArmyReservist
@@ -78,7 +78,7 @@
 
 - type: entity
   id: RMCGearSurvivorPresetArmyReservist
-  name: ent-RMCGearSurvivorPresetArmyReservist
+  name: people's armed police officer preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

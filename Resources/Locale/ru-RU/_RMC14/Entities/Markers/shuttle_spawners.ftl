@@ -1,33 +1,33 @@
 ent-RMCSpawnerShuttle = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerPVEAlamo = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerPVENormandy = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerERTShuttle = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerERTShuttleWeYa = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerERTShuttleSPP = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerERTShuttleTSE = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerERTShuttleCMB = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerERTShuttleTSEPA = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerShuttleCMB = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+
 ent-RMCSpawnerShuttleTSEPA = спаунер шаттла
   .desc = Определяет место появления шаттла.
-    .suffix = спаунер шаттла
+

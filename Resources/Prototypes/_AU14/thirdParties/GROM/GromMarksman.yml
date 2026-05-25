@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14UPPGROMMarksman
-  name: job-au14uppgrommarksman-name
-  description: job-au14uppgrommarksman-desc
+  name: au14-job-name-govforspecialist-marksmanRMC
+  description: au14-uppgrom-description
   playTimeTracker: AU14JobUPPGROMMarksman
   ranks:
     UPP_Chotar:
@@ -14,12 +14,12 @@
       role: AU14JobUPPGROMMarksman
       time: 18000 #5 hours
     UPP_Sergeant: []
-  spawnMenuRoleName: job-au14uppgrommarksman-spawnmenurolename
+  spawnMenuRoleName: UPP GROM Marksman (Survivor)
   startingGear: AU14GearUPPGROMMarksman
   greeting: au14-uppgrom-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14uppgrommarksman-supervisors
+  supervisors: au-14-job-name-uppgrom-squadleader
   accessGroups:
   - AU14GovforCommand
   special:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMMarksman
-  name: ent-AU14JobUPPGROMMarksman
+  name: UPP GROM Marksman
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

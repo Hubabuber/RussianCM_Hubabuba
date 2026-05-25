@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCCLFHeavyGunnerPVE
-  name: job-rmcclfheavygunnerpve-name
-  description: job-rmcclfheavygunnerpve-desc
+  name: rmc-job-name-clf-pve-heavy-gunner
+  description: rmc-ghost-role-information-clf-pve-description
   playTimeTracker: CMJobCLFHeavyGunnerPVE
   ranks:
     RMCRankCivilian: []
@@ -12,7 +12,7 @@
   accessGroups:
   - Colony
   - SmartGunOperator
-  spawnMenuRoleName: job-rmcclfheavygunnerpve-spawnmenurolename
+  spawnMenuRoleName: CLF Heavy Gunner (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointCLFCHeavyGunnerPVE
-  name: ent-RMCSpawnPointCLFCHeavyGunnerPVE
-  suffix: ent-RMCSpawnPointCLFCHeavyGunnerPVE-suffix
+  name: clf heavy gunner spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: RMCCLFHeavyGunnerPVE

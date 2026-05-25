@@ -1,9 +1,0 @@
-accessgroup-rmcbaseauxiliaryjob-name = protobaseaccess UNMC Auxiliary
-accessgroup-rmcbasecommandjob-name = protobaseaccess UNMC Command
-accessgroup-rmcbaseengineeringjob-name = protobaseaccess UNMC Engineering
-accessgroup-rmcbasehidden-name = protobaseaccess UNMC Hidden
-accessgroup-rmcbasemarinesjob-name = protobaseaccess UNMC Marines
-accessgroup-rmcbasemedicaljob-name = protobaseaccess UNMC Medical
-accessgroup-rmcbasemiscellaneousjob-name = protobaseaccess UNMC Miscellaneous
-accessgroup-rmcbasempjob-name = protobaseaccess UNMC Military Police
-accessgroup-rmcbaserequisitionsjob-name = protobaseaccess UNMC Requisitions

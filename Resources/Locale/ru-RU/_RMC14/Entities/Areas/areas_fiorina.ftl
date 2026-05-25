@@ -1,98 +1,98 @@
 ent-RMCAreaFiorinaStationTelecommLz2Maint = Фиорина — резервное реле связи
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationTelecommLz2North = Фиорина - Реле связи LZ2 North
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationTelecommLz2Engineering = Фиорина — инженерное вторичное реле связи
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationTelecommLz1Engineering = Фиорина — инженерное первичное реле связи
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationTelecommLz1Tram = Fiorina - Реле связи дополнительного порта LZ1
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationTelecommLz1Containers = Fiorina - Реле связи контейнеров LZ1
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationTelecommLz1Cargo = Фиорина - Реле грузовой связи LZ1
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationTelecomm = Фиорина — Реле связи
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationResearchCellsBasketball = Фиорина - Баскетбольная площадка
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationResearchCellsEast = Фиорина — Восточный исследовательский тюремный блок
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationResearchCellsWest = Фиорина — Западный исследовательский тюремный блок
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationResearchCells = Фиорина — исследовательский тюремный блок
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationMedbay = Фиорина - Медикал Бэй
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationCivresBlue = Фиорина - Резиденции Blue Block
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationChapel = Фиорина - Часовня
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationCentralRing = Фиорина - Центральное кольцо
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationTransitHub = Фиорина – транзитный узел
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationPark = Фиорина - Парк
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationBotany = Fiorina - лотки для выращивания ботаники
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationSecurityWardens = Фиорина — кабинет смотрителя
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationSecurity = Фиорина — Центр безопасности
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationFlightDeck = Фиорина — кабина экипажа
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationDiscoEastDisco = Фиорина - East Disco Storage
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationDisco = Фиорина - Вест Дискотека Склад
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationPowerRingReactor = Фиорина — Инженерный реактор
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationPowerRing = Фиорина — Инженерное кольцо
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationLowsecEast = Фиорина — Восточная сторона строгого режима
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationLowsecShowersLaundry = Фиорина – душевые и прачечная строгого режима
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationLowsec = Фиорина — камеры строгого режима
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStation = Фиорина — Интерьер вокзала
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaShuttleDrop2PrisonV3 = Фиорина - Зона высадки в Нормандии
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1PrisonV3 = Фиорина - Зона приземления десантного корабля Аламо
-    .suffix = область
+
 ent-RMCAreaFiorinaLzConsoleII = Фиорина — Консоль управления LZ2
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaLzConsoleI = Fiorina — Консоль управления LZ1
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaLzNearLzII = Фиорина — Тюремный порт LZ2
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaLzNearLzI = Фиорина — дополнительный порт LZ1
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaLz = Фиорина – LZ
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaTumorIceLab = Фиорина - Криогенные исследовательские лаборатории
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaTumorServers = Фиорина — исследовательские серверы
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaTumorAuxEngi = Фиорина – инженерный сектор
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaTumorCivres = Фиорина - Резиденции Green Block
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaTumorShip = Фиорина — Корабль-мусорщик «NSV Renault»
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaTumorFiberbush = Фиорина - Заражение Фибербушем
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaTumor = Фиорина - смоляная опухоль
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaMaintenance = Фиорина - Техническое обслуживание
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaOob = Фиорина - за пределами поля
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorina = Орбитальная тюрьма Фиорина — Научное приложение
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaTumorDeep = Фиорина - смоляная опухоль
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+
 ent-RMCAreaFiorinaStationRocinante = Бродяга-грузовик Росинант
-    .suffix = Орбитальная тюрьма Фиорина — Научное приложение
+

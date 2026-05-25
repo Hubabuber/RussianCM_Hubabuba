@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCLFGuerilla
-  name: job-au14jobclfguerilla-name
-  description: job-au14jobclfguerilla-desc
+  name: au14-job-name-clfguerilla
+  description: au14-job-description-clfguerilla
   setPreference: true
   ignoreAllegiance: true
   playTimeTracker: AU14JobCLFGuerilla
@@ -38,7 +38,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobclfguerilla-supervisors
+  supervisors: au14-job-supervisors-clflrs
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -82,7 +82,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCLFGuerilla
-  name: ent-AU14SpawnPointCLFGuerilla
+  name: Spawn Point CLF Guerilla
   components:
   - type: SpawnPoint
     job_id: AU14JobCLFGuerilla

@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorDoctor
   id: RMCSurvivorHybrisaMedicalDoctor
-  name: job-rmcsurvivorhybrisamedicaldoctor-name
-  description: job-rmcsurvivorhybrisamedicaldoctor-desc
+  name: rmc-job-name-survivor-medical-doctor
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaMedicalDoctor
-  spawnMenuRoleName: job-rmcsurvivorhybrisamedicaldoctor-spawnmenurolename
+  spawnMenuRoleName: Medical Doctor (Hybrisa Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaMedicalDoctor
-  name: ent-RMCSpawnPointSurvivorHybrisaMedicalDoctor
+  name: medical doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetHybrisaMedicalDoctor
-  name: ent-RMCGearSurvivorPresetHybrisaMedicalDoctor
+  name: medical doctor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

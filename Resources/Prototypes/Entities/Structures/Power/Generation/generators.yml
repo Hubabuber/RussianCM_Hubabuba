@@ -3,8 +3,8 @@
 - type: entity
   abstract: true
   id: BaseGenerator
-  description: ent-BaseGenerator-desc
-  name: ent-BaseGenerator
+  description: A high efficiency thermoelectric generator.
+  name: generator
   placement:
     mode: SnapgridCenter
   components:
@@ -97,8 +97,8 @@
   abstract: true
   id: BaseGeneratorWallmount
   parent: BaseGenerator
-  name: ent-BaseGeneratorWallmount
-  description: ent-BaseGeneratorWallmount-desc
+  name: wallmount generator
+  description: A high efficiency thermoelectric generator stuffed in a wall cabinet.
   placement:
     mode: SnapgridCenter
   components:
@@ -152,8 +152,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: BaseGeneratorWallmountFrame
-  name: ent-BaseGeneratorWallmountFrame
-  description: ent-BaseGeneratorWallmountFrame-desc
+  name: wallmount generator frame
+  description: A construction frame for a wallmount generator.
   placement:
     mode: SnapgridCenter
   components:
@@ -179,7 +179,7 @@
 - type: entity
   parent: BaseGenerator
   id: GeneratorBasic
-  suffix: ent-GeneratorBasic-suffix
+  suffix: Basic, 3kW
   components:
   - type: PowerSupplier
     supplyRate: 3000
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseGenerator
   id: GeneratorBasic15kW
-  suffix: ent-GeneratorBasic15kW-suffix
+  suffix: Basic, 15kW
   components:
     - type: PowerSupplier
       supplyRate: 15000
@@ -195,7 +195,7 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountBasic
-  suffix: ent-GeneratorWallmountBasic-suffix
+  suffix: Basic, 3kW
   components:
   - type: PowerSupplier
     supplyRate: 3000
@@ -214,9 +214,9 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPU
-  name: ent-GeneratorWallmountAPU
-  description: ent-GeneratorWallmountAPU-desc
-  suffix: ent-GeneratorWallmountAPU-suffix
+  name: shuttle APU
+  description: An auxiliary power unit for a shuttle - 6kW.
+  suffix: APU, 6kW
   components:
   - type: PowerSupplier
     supplyRate: 6000
@@ -240,9 +240,9 @@
 - type: entity
   parent: BaseGenerator
   id: GeneratorRTG
-  name: ent-GeneratorRTG
-  description: ent-GeneratorRTG-desc
-  suffix: ent-GeneratorRTG-suffix
+  name: RTG
+  description: A Radioisotope Thermoelectric Generator for long term power.
+  suffix: 10kW
   components:
   - type: PowerSupplier
     supplyRate: 10000 # supposed to be low power at no fuel cost to power derelicts
@@ -288,9 +288,9 @@
 - type: entity
   parent: GeneratorRTG
   id: GeneratorRTGDamaged
-  name: ent-GeneratorRTGDamaged
-  description: ent-GeneratorRTGDamaged-desc
-  suffix: ent-GeneratorRTGDamaged-suffix
+  name: damaged RTG
+  description: A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
+  suffix: 10kW
   components:
   - type: PowerSupplier
     supplyRate: 10000

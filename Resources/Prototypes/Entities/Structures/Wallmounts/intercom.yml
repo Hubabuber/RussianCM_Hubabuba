@@ -1,7 +1,7 @@
 - type: entity
   id: BaseIntercom
-  name: ent-BaseIntercom
-  description: ent-BaseIntercom-desc
+  name: intercom
+  description: An intercom. For when the station just needs to know something.
   abstract: true
   components:
   - type: StationAiWhitelist
@@ -130,8 +130,8 @@
 
 - type: entity
   id: IntercomAssembly
-  name: ent-IntercomAssembly
-  description: ent-IntercomAssembly-desc
+  name: intercom assembly
+  description: An intercom. It doesn't seem very helpful right now.
   components:
   - type: WallMount
   - type: Clickable
@@ -165,7 +165,7 @@
 - type: entity
   id: IntercomConstructed
   parent: BaseIntercom
-  suffix: ent-IntercomConstructed-suffix
+  suffix: Empty, Panel Open
   components:
   - type: Sprite
     layers:
@@ -190,7 +190,7 @@
 - type: entity
   id: Intercom
   parent: IntercomConstructed
-  suffix: "ent-Intercom-suffix"
+  suffix: ""
   components:
   - type: Sprite
     layers:
@@ -227,7 +227,7 @@
 - type: entity
   id: IntercomCommon
   parent: Intercom
-  suffix: ent-IntercomCommon-suffix
+  suffix: Common
   components:
   - type: ContainerFill
     containers:
@@ -239,8 +239,8 @@
 - type: entity
   id: IntercomCommand
   parent: BaseIntercomSecure
-  suffix: ent-IntercomCommand-suffix
-  description: ent-IntercomCommand-desc
+  suffix: Command
+  description: An intercom. It's been reinforced with metal.
   components:
   - type: ContainerFill
     containers:
@@ -253,7 +253,7 @@
 - type: entity
   id: IntercomEngineering
   parent: Intercom
-  suffix: ent-IntercomEngineering-suffix
+  suffix: Engineering
   components:
   - type: ContainerFill
     containers:
@@ -266,7 +266,7 @@
 - type: entity
   id: IntercomMedical
   parent: Intercom
-  suffix: ent-IntercomMedical-suffix
+  suffix: Medical
   components:
   - type: ContainerFill
     containers:
@@ -279,7 +279,7 @@
 - type: entity
   id: IntercomScience
   parent: Intercom
-  suffix: ent-IntercomScience-suffix
+  suffix: Science
   components:
   - type: ContainerFill
     containers:
@@ -292,8 +292,8 @@
 - type: entity
   id: IntercomSecurity
   parent: BaseIntercomSecure
-  suffix: ent-IntercomSecurity-suffix
-  description: ent-IntercomSecurity-desc
+  suffix: Security
+  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
   components:
   - type: ContainerFill
     containers:
@@ -306,7 +306,7 @@
 - type: entity
   id: IntercomService
   parent: Intercom
-  suffix: ent-IntercomService-suffix
+  suffix: Service
   components:
   - type: ContainerFill
     containers:
@@ -319,7 +319,7 @@
 - type: entity
   id: IntercomSupply
   parent: Intercom
-  suffix: ent-IntercomSupply-suffix
+  suffix: Supply
   components:
   - type: ContainerFill
     containers:
@@ -332,7 +332,7 @@
 - type: entity
   id: IntercomAll
   parent: Intercom
-  suffix: ent-IntercomAll-suffix
+  suffix: All
   components:
   - type: ContainerFill
     containers:
@@ -345,7 +345,7 @@
 - type: entity
   id: IntercomFreelance
   parent: Intercom
-  suffix: ent-IntercomFreelance-suffix
+  suffix: Freelance
   components:
   - type: ContainerFill
     containers:

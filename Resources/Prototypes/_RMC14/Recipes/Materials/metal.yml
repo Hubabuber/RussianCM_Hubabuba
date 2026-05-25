@@ -1,12 +1,12 @@
 - type: rmcConstruction
   id: RMCDividerConstruction
-  name: rmcconstruction-rmcdividerconstruction-name
+  name: divider
   isDivider: true
   prototype: Error
 
 - type: rmcConstruction
   id: RMCBarbedWireBuild
-  name: rmcconstruction-rmcbarbedwirebuild-name
+  name: barbed wire
   prototype: BarbedWire1
   doAfterTime: 1
   doAfterTimeMin: 1
@@ -21,7 +21,7 @@
 
 - type: rmcConstruction
   id: RMCMetalBarricadeBuild
-  name: rmcconstruction-rmcmetalbarricadebuild-name
+  name: metal barricade
   prototype: CMBarricadeMetal
   doAfterTime: 2
   doAfterTimeMin: 1
@@ -31,7 +31,7 @@
 
 - type: rmcConstruction
   id: RMCMetalBarricadeFoldableBuild
-  name: rmcconstruction-rmcmetalbarricadefoldablebuild-name
+  name: folding metal barricade
   prototype: CMBarricadeMetalDoor
   doAfterTime: 3
   doAfterTimeMin: 1.5
@@ -41,7 +41,7 @@
 
 - type: rmcConstruction
   id: RMCHandrailBuild
-  name: rmcconstruction-rmchandrailbuild-name
+  name: handrail
   prototype: RMCBarricadeHandrail
   doAfterTime: 2
   doAfterTimeMin: 1
@@ -51,7 +51,7 @@
 
 - type: rmcConstruction
   id: RMCFloorTileBuild
-  name: rmcconstruction-rmcfloortilebuild-name
+  name: floor tile (x4)
   prototype: CMTileItemSteel
   doAfterTime: 0
   doAfterTimeMin: 0
@@ -64,7 +64,7 @@
 
 - type: rmcConstruction
   id: RMCMetalRodBuild
-  name: rmcconstruction-rmcmetalrodbuild-name
+  name: metal rod (x2)
   prototype: CMRodMetal1
   doAfterTime: 0
   doAfterTimeMin: 0
@@ -80,7 +80,7 @@
 
 - type: rmcConstruction
   id: RMCWallGirderBuild
-  name: rmcconstruction-rmcwallgirderbuild-name
+  name: wall girder
   prototype: CMGirder
   noRotate: true
   doAfterTime: 5
@@ -90,7 +90,7 @@
 
 - type: rmcConstruction
   id: RMCWindowFrameBuild
-  name: rmcconstruction-rmcwindowframebuild-name
+  name: window frame
   prototype: RMCWindowFrameAlmayer
   noRotate: true
   doAfterTime: 5
@@ -101,7 +101,7 @@
 # Bed
 - type: rmcConstruction
   id: RMCBedBuild
-  name: rmcconstruction-rmcbedbuild-name
+  name: bed
   prototype: CMBed
   noRotate: true
   doAfterTime: 0.5
@@ -111,7 +111,7 @@
 # Foldable Chair
 - type: rmcConstruction
   id: RMCChairBuild
-  name: rmcconstruction-rmcchairbuild-name
+  name: chair
   prototype: CMChair
   materialCost: 1
   restrictedTags: [RMCSeat]
@@ -119,7 +119,7 @@
 # Comfy Chairs
 - type: rmcConstruction
   id: RMCComfyChairList
-  name: rmcconstruction-rmccomfychairlist-name #material cost written manually since the lists won't show costs
+  name: comfy chairs (2 metal sheets) #material cost written manually since the lists won't show costs
   prototype: CMChairComfy
   listed:
   - RMCComfyChairBeigeBuild
@@ -130,35 +130,35 @@
 
 - type: rmcConstruction
   id: RMCComfyChairBeigeBuild
-  name: rmcconstruction-rmccomfychairbeigebuild-name
+  name: beige comfy chair
   prototype: CMChairComfyBeige
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairBlackBuild
-  name: rmcconstruction-rmccomfychairblackbuild-name
+  name: black comfy chair
   prototype: CMChairComfyBlack
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairBrownBuild
-  name: rmcconstruction-rmccomfychairbrownbuild-name
+  name: brown comfy chair
   prototype: CMChairComfy
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairLimeBuild
-  name: rmcconstruction-rmccomfychairlimebuild-name
+  name: lime comfy chair
   prototype: CMChairComfyLime
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairTealBuild
-  name: rmcconstruction-rmccomfychairtealbuild-name
+  name: teal comfy chair
   prototype: CMChairComfyTeal
   materialCost: 2
   restrictedTags: [RMCSeat]
@@ -166,7 +166,7 @@
 # Squad Chairs
 - type: rmcConstruction
   id: RMCSquadChairList
-  name: rmcconstruction-rmcsquadchairlist-name #material cost written manually since the lists won't show costs
+  name: squad chairs (2 metal sheets) #material cost written manually since the lists won't show costs
   prototype: CMChairComfy
   listed:
   - RMCComfyChairAlphaBuild
@@ -176,28 +176,28 @@
 
 - type: rmcConstruction
   id: RMCComfyChairAlphaBuild
-  name: rmcconstruction-rmccomfychairalphabuild-name
+  name: alpha squad chair
   prototype: CMChairComfyAlpha
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairBravoBuild
-  name: rmcconstruction-rmccomfychairbravobuild-name
+  name: bravo squad chair
   prototype: CMChairComfyBravo
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairCharlieBuild
-  name: rmcconstruction-rmccomfychaircharliebuild-name
+  name: charlie squad chair
   prototype: CMChairComfyCharlie
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairDeltaBuild
-  name: rmcconstruction-rmccomfychairdeltabuild-name
+  name: delta squad chair
   prototype: CMChairComfyDelta
   materialCost: 2
   restrictedTags: [RMCSeat]
@@ -205,7 +205,7 @@
 # Office Chairs
 - type: rmcConstruction
   id: RMCOfficeChairList
-  name: rmcconstruction-rmcofficechairlist-name #material cost written manually since the lists won't show costs
+  name: office chairs (5 metal sheets) #material cost written manually since the lists won't show costs
   prototype: CMChairOfficeDark
   listed:
   - RMCOfficeChairDarkBuild
@@ -213,21 +213,21 @@
 
 - type: rmcConstruction
   id: RMCOfficeChairDarkBuild
-  name: rmcconstruction-rmcofficechairdarkbuild-name
+  name: dark office chair
   prototype: CMChairOfficeDark
   materialCost: 5
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCOfficeChairWhiteBuild
-  name: rmcconstruction-rmcofficechairwhitebuild-name
+  name: white office chair
   prototype: CMChairOfficeWhite
   materialCost: 5
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCMachineFrameBuild
-  name: rmcconstruction-rmcmachineframebuild-name
+  name: machine frame
   prototype: CMMachineFrameUnfinished
   noRotate: true
   doAfterTime: 2.5

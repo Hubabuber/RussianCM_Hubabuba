@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMPMCForceLeadPVE
-  name: job-cmpmcforceleadpve-name
-  description: job-cmpmcforceleadpve-desc
+  name: rmc-job-name-pmc-pve-force-leader
+  description: rmc-job-description-pmc-pve-force-leader
   playTimeTracker: CMJobPMCForceLeadPVE
   ranks:
     RMCRankWeYaForceLeader: []
@@ -13,7 +13,7 @@
   - Colony
   - RMCWeYa
   - SquadLeader
-  spawnMenuRoleName: job-cmpmcforceleadpve-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Force Lead (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCForceLeadPVE
-  name: ent-RMCSpawnPointPMCForceLeadPVE
-  suffix: ent-RMCSpawnPointPMCForceLeadPVE-suffix
+  name: weya pmc force lead spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: CMPMCForceLeadPVE

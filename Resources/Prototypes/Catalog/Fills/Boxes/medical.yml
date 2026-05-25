@@ -1,9 +1,9 @@
 
 - type: entity
-  name: ent-BoxSterileMask
+  name: sterile mask box
   parent: BoxCardboard
   id: BoxSterileMask
-  description: ent-BoxSterileMask-desc
+  description: This box contains sterile medical masks.
   components:
   - type: StorageFill
     contents:
@@ -15,10 +15,10 @@
       - state: sterile
 
 - type: entity
-  name: ent-BoxLatexGloves
+  name: latex gloves box
   parent: BoxCardboard
   id: BoxLatexGloves
-  description: ent-BoxLatexGloves-desc
+  description: Contains sterile latex gloves.
   components:
   - type: StorageFill
     contents:
@@ -30,10 +30,10 @@
       - state: latex
 
 - type: entity
-  name: ent-BoxNitrileGloves
+  name: nitrile gloves box
   parent: BoxCardboard
   id: BoxNitrileGloves
-  description: ent-BoxNitrileGloves-desc
+  description: Contains sterile nitrile gloves. Better than latex.
   components:
   - type: StorageFill
     contents:
@@ -45,10 +45,10 @@
       - state: nitrile
 
 - type: entity
-  name: ent-BoxBodyBag
+  name: body bag box
   parent: BoxCardboard
   id: BoxBodyBag
-  description: ent-BoxBodyBag-desc
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:
@@ -63,10 +63,10 @@
         - BodyBag
 
 - type: entity
-  name: ent-BoxVial
+  name: vial box
   parent: BoxCardboard
   id: BoxVial
-  description: ent-BoxVial-desc
+  description: A box full of vials.
   components:
   - type: Storage
     grid:
@@ -81,10 +81,10 @@
       - state: vials
 
 - type: entity
-  name: ent-BoxBottle
+  name: bottle box
   parent: BoxCardboard
   id: BoxBottle
-  description: ent-BoxBottle-desc
+  description: A box full of empty bottles.
   components:
   - type: Storage
     grid:

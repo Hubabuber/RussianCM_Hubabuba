@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolM77
-  name: ent-RMCWeaponPistolM77 # TODO RMC14 sounds
-  description: ent-RMCWeaponPistolM77-desc
+  name: Mod 88 combat pistol # TODO RMC14 sounds
+  description: Standard issue Marine firearm. Also found in the hands of We-Yu PMC teams. Fires 9mm armor shredding rounds and is capable of 3-round burst.
   components:
   - type: Tag
     tags:
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCWeaponPistolM77
   id: RMCWeaponPistolM77Empty
-  suffix: ent-RMCWeaponPistolM77Empty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM77AP
-  name: ent-CMMagazinePistolM77AP
-  description: ent-CMMagazinePistolM77AP-desc
+  name: Mod 88 AP magazine (9mm)
+  description: A 19-round armor-piercing magazine for the Mod 88 combat pistol. It has found common use with We-Yu PMC operators to defeat armored threats when terminal effect is authorized.
   components:
   - type: Tag
     tags:
@@ -129,7 +129,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistolM77AP
-  name: ent-CMBulletPistolM77AP
+  name: bullet (9mm AP)
   components:
   - type: Projectile
     damage:
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMCartridgePistolBase
   id: CMCartridgePistolM77AP
-  name: ent-CMCartridgePistolM77AP
-  description: ent-CMCartridgePistolM77AP-desc
+  name: cartridge (9mm AP)
+  description: A 9mm armor-piercing cartridge for the Mod 88 combat pistol.
   components:
   - type: Tag
     tags:
@@ -154,8 +154,8 @@
 - type: entity
   parent: RMCMagazinePistolM77Rubber
   id: CMMagazinePistolM88Rubber
-  name: ent-CMMagazinePistolM88Rubber
-  description: ent-CMMagazinePistolM88Rubber-desc
+  name: Mod 88 rubber magazine (9mm)
+  description: A 19-round rubber magazine for the Mod 88 combat pistol. The blue stripe and safety markings designate the non-lethal load designed to deform and deliver blunt-force trauma on impact. Standard issue to leverage security and suppression without creating unnecessary casualties.
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgePistolM88Rubber
@@ -163,7 +163,7 @@
 - type: entity
   parent: RMCCartridgePistol9mmRubber
   id: CMCartridgePistolM88Rubber
-  description: ent-CMCartridgePistolM88Rubber-desc
+  description: A 9mm rubber projectile for the Mod 88 combat pistol.
   # TODO: rubber sprite
 
 - type: Tag

@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: CMApcBase
-  name: ent-CMApcBase
-  description: ent-CMApcBase-desc
+  name: area power controller
+  description: A control terminal for the area electrical systems.
   categories: [ HideSpawnMenu ]
   components:
   - type: GuideHelp
@@ -178,7 +178,7 @@
 - type: entity
   parent: CMApcBase
   id: CMApc
-  suffix: ent-CMApc-suffix
+  suffix: Power
   components:
   - type: RMCApc
     startingCell: RMCPowerCellAPC
@@ -186,7 +186,7 @@
 - type: entity
   parent: CMApcBase
   id: CMApcNoPower
-  suffix: ent-CMApcNoPower-suffix
+  suffix: No Power
   components:
   - type: RMCApc
     startingCell: RMCPowerCellAPCNoPower
@@ -194,7 +194,7 @@
 - type: entity
   parent: CMApcBase
   id: CMApcAlmayer
-  suffix: ent-CMApcAlmayer-suffix
+  suffix: Almayer
   components:
   - type: RMCApc
     startingCell: RMCPowerCellHigh
@@ -208,7 +208,7 @@
 - type: entity
   parent: CMApcBase
   id: CMApcLowCapacity
-  suffix: ent-CMApcLowCapacity-suffix
+  suffix: APC, Small powercell, 50kW
   components: # TODO RMC14 / TODO RMC14 make apc use powercells
   - type: Battery
     maxCharge: 50000
@@ -217,7 +217,7 @@
 - type: entity
   parent: CMApcBase
   id: CMApcMediumCapacity
-  suffix: ent-CMApcMediumCapacity-suffix
+  suffix: APC, Medium powercell, 100kW
   components:
   - type: Battery
     maxCharge: 100000
@@ -226,7 +226,7 @@
 - type: entity
   parent: CMApcBase
   id: CMApcHighCapacity
-  suffix: ent-CMApcHighCapacity-suffix
+  suffix: APC, High powercell, 150kW
   components:
   - type: Battery
     maxCharge: 150000

@@ -2,7 +2,7 @@
 - type: entity
   id: PartSkeleton
   parent: BaseItem
-  name: "ent-PartSkeleton"
+  name: "skeleton body part"
   abstract: true
   components:
   - type: Damageable
@@ -20,7 +20,7 @@
 
 - type: entity
   id: TorsoSkeleton
-  name: "ent-TorsoSkeleton"
+  name: "skeleton torso"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -34,8 +34,8 @@
 
 - type: entity
   id: HeadSkeleton
-  name: "ent-HeadSkeleton"
-  description: ent-HeadSkeleton-desc
+  name: "skull"
+  description: Alas poor Yorick...
   parent: [ PartSkeleton, BaseMob ]
   components:
     - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: LeftArmSkeleton
-  name: "ent-LeftArmSkeleton"
+  name: "left skeleton arm"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -90,7 +90,7 @@
 
 - type: entity
   id: RightArmSkeleton
-  name: "ent-RightArmSkeleton"
+  name: "right skeleton arm"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -105,7 +105,7 @@
 
 - type: entity
   id: LeftHandSkeleton
-  name: "ent-LeftHandSkeleton"
+  name: "left skeleton hand"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -120,7 +120,7 @@
 
 - type: entity
   id: RightHandSkeleton
-  name: "ent-RightHandSkeleton"
+  name: "right skeleton hand"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -135,7 +135,7 @@
 
 - type: entity
   id: LeftLegSkeleton
-  name: "ent-LeftLegSkeleton"
+  name: "left skeleton leg"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -151,7 +151,7 @@
 
 - type: entity
   id: RightLegSkeleton
-  name: "ent-RightLegSkeleton"
+  name: "right skeleton leg"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -167,7 +167,7 @@
 
 - type: entity
   id: LeftFootSkeleton
-  name: "ent-LeftFootSkeleton"
+  name: "left skeleton foot"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -182,7 +182,7 @@
 
 - type: entity
   id: RightFootSkeleton
-  name: "ent-RightFootSkeleton"
+  name: "right skeleton foot"
   parent: PartSkeleton
   components:
     - type: Sprite

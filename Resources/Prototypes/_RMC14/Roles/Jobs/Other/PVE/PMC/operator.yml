@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMPMCOperatorPVE
-  name: job-cmpmcoperatorpve-name
-  description: job-cmpmcoperatorpve-desc
+  name: rmc-job-name-pmc-standard
+  description: rmc-job-description-pmc-pve-standard
   playTimeTracker: CMJobPMCOperativePVE
   ranks:
     RMCRankWeYaOperator: []
@@ -12,7 +12,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: job-cmpmcoperatorpve-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Operator (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCOperatorPVE
-  name: ent-RMCSpawnPointPMCOperatorPVE
-  suffix: ent-RMCSpawnPointPMCOperatorPVE-suffix
+  name: weya pmc operator spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: CMPMCOperatorPVE

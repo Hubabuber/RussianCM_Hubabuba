@@ -2,7 +2,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsCaptain
-  suffix: ent-DoorElectronicsCaptain-suffix
+  suffix: Captain, Locked
   components:
   - type: AccessReader
     access: [["Captain"]]
@@ -10,7 +10,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsHeadOfPersonnel
-  suffix: ent-DoorElectronicsHeadOfPersonnel-suffix
+  suffix: HeadOfPersonnel, Locked
   components:
   - type: AccessReader
     access: [["HeadOfPersonnel"]]
@@ -18,7 +18,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsCommand
-  suffix: ent-DoorElectronicsCommand-suffix
+  suffix: Command, Locked
   components:
   - type: AccessReader
     access: [["Command"]]
@@ -27,7 +27,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsBar
-  suffix: ent-DoorElectronicsBar-suffix
+  suffix: Bar, Locked
   components:
   - type: AccessReader
     access: [["Bar"]]
@@ -35,7 +35,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsBarKitchen
-  suffix: ent-DoorElectronicsBarKitchen-suffix
+  suffix: Bar, Locked
   components:
   - type: AccessReader
     access: [["Bar"], ["Kitchen"]]
@@ -43,7 +43,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsHydroponics
-  suffix: ent-DoorElectronicsHydroponics-suffix
+  suffix: Hydroponics, Locked
   components:
   - type: AccessReader
     access: [["Hydroponics"]]
@@ -51,7 +51,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsChapel
-  suffix: ent-DoorElectronicsChapel-suffix
+  suffix: Chapel, Locked
   components:
   - type: AccessReader
     access: [["Chapel"]]
@@ -59,7 +59,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsTheatre
-  suffix: ent-DoorElectronicsTheatre-suffix
+  suffix: Theatre, Locked
   components:
   - type: AccessReader
     access: [["Theatre"]]
@@ -67,7 +67,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsKitchen
-  suffix: ent-DoorElectronicsKitchen-suffix
+  suffix: Kitchen, Locked
   components:
   - type: AccessReader
     access: [["Kitchen"]]
@@ -75,7 +75,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsKitchenHydroponics
-  suffix: ent-DoorElectronicsKitchenHydroponics-suffix
+  suffix: Kitchen/Hydroponics, Locked
   components:
   - type: AccessReader
     access: [["Kitchen"], ["Hydroponics"]]
@@ -83,7 +83,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsJanitor
-  suffix: ent-DoorElectronicsJanitor-suffix
+  suffix: Janitor, Locked
   components:
   - type: AccessReader
     access: [["Janitor"]]
@@ -91,7 +91,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsLawyer
-  suffix: ent-DoorElectronicsLawyer-suffix
+  suffix: Lawyer, Locked
   components:
   - type: AccessReader
     access: [["Lawyer"]]
@@ -99,7 +99,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsService
-  suffix: ent-DoorElectronicsService-suffix
+  suffix: Service, Locked
   components:
   - type: AccessReader
     access: [["Service"]]
@@ -107,7 +107,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsServiceTheatre
-  suffix: ent-DoorElectronicsServiceTheatre-suffix
+  suffix: Service, Theatre, Locked
   components:
   - type: AccessReader
     access: [["Service"], ["Theatre"]]
@@ -116,7 +116,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsQuartermaster
-  suffix: ent-DoorElectronicsQuartermaster-suffix
+  suffix: Quartermaster, Locked
   components:
   - type: AccessReader
     access: [["Quartermaster"]]
@@ -124,7 +124,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSalvage
-  suffix: ent-DoorElectronicsSalvage-suffix
+  suffix: Salvage, Locked
   components:
   - type: AccessReader
     access: [["Salvage"]]
@@ -132,7 +132,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsCargo
-  suffix: ent-DoorElectronicsCargo-suffix
+  suffix: Cargo, Locked
   components:
   - type: AccessReader
     access: [["Cargo"]]
@@ -141,7 +141,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsChiefEngineer
-  suffix: ent-DoorElectronicsChiefEngineer-suffix
+  suffix: ChiefEngineer, Locked
   components:
   - type: AccessReader
     access: [["ChiefEngineer"]]
@@ -149,7 +149,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsAtmospherics
-  suffix: ent-DoorElectronicsAtmospherics-suffix
+  suffix: Atmospherics, Locked
   components:
   - type: AccessReader
     access: [["Atmospherics"]]
@@ -157,7 +157,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsEngineering
-  suffix: ent-DoorElectronicsEngineering-suffix
+  suffix: Engineering, Locked
   components:
   - type: AccessReader
     access: [["Engineering"]]
@@ -166,7 +166,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsMorgue
-  suffix: ent-DoorElectronicsMorgue-suffix
+  suffix: Morgue, Locked
   components:
   - type: AccessReader
     access: [["Medical"], ["Detective"], ["Chapel"]]
@@ -174,7 +174,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsResearchDirector
-  suffix: ent-DoorElectronicsResearchDirector-suffix
+  suffix: ResearchDirector, Locked
   components:
   - type: AccessReader
     access: [["ResearchDirector"]]
@@ -182,7 +182,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsMedicalResearch
-  suffix: ent-DoorElectronicsMedicalResearch-suffix
+  suffix: Medical/Science, Locked
   components:
   - type: AccessReader
     access: [["Research"], ["Medical"]]
@@ -190,7 +190,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsResearch
-  suffix: ent-DoorElectronicsResearch-suffix
+  suffix: Research, Locked
   components:
   - type: AccessReader
     access: [["Research"]]
@@ -199,7 +199,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsHeadOfSecurity
-  suffix: ent-DoorElectronicsHeadOfSecurity-suffix
+  suffix: HeadOfSecurity, Locked
   components:
   - type: AccessReader
     access: [["HeadOfSecurity"]]
@@ -207,7 +207,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsArmory
-  suffix: ent-DoorElectronicsArmory-suffix
+  suffix: Armory, Locked
   components:
   - type: AccessReader
     access: [["Armory"]]
@@ -215,7 +215,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsDetective
-  suffix: ent-DoorElectronicsDetective-suffix
+  suffix: Detective, Locked
   components:
   - type: AccessReader
     access: [["Detective"]]
@@ -223,7 +223,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSecurity
-  suffix: ent-DoorElectronicsSecurity-suffix
+  suffix: Security, Locked
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -231,7 +231,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSecurityLawyer
-  suffix: ent-DoorElectronicsSecurityLawyer-suffix
+  suffix: Security/Lawyer, Locked
   components:
   - type: AccessReader
     access: [["Security"], ["Lawyer"]]
@@ -239,7 +239,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsBrig
-  suffix: ent-DoorElectronicsBrig-suffix
+  suffix: Brig, Locked
   components:
   - type: AccessReader
     access: [["Brig"]]
@@ -248,7 +248,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsChiefMedicalOfficer
-  suffix: ent-DoorElectronicsChiefMedicalOfficer-suffix
+  suffix: ChiefMedicalOfficer, Locked
   components:
   - type: AccessReader
     access: [["ChiefMedicalOfficer"]]
@@ -256,7 +256,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsChemistry
-  suffix: ent-DoorElectronicsChemistry-suffix
+  suffix: Chemistry, Locked
   components:
   - type: AccessReader
     access: [["Chemistry"]]
@@ -264,7 +264,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsMedical
-  suffix: ent-DoorElectronicsMedical-suffix
+  suffix: Medical, Locked
   components:
   - type: AccessReader
     access: [["Medical"]]
@@ -273,7 +273,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsNukeop
-  suffix: ent-DoorElectronicsNukeop-suffix
+  suffix: Nukeop, Locked
   components:
   - type: AccessReader
     access: [["NuclearOperative"]]
@@ -281,7 +281,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSyndicateAgent
-  suffix: ent-DoorElectronicsSyndicateAgent-suffix
+  suffix: SyndicateAgent, Locked
   components:
   - type: AccessReader
     access: [["SyndicateAgent"]]
@@ -290,7 +290,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsCentralCommand
-  suffix: ent-DoorElectronicsCentralCommand-suffix
+  suffix: CentralCommand, Locked
   components:
   - type: AccessReader
     access: [["CentralCommand"]]
@@ -298,7 +298,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsExternal
-  suffix: ent-DoorElectronicsExternal-suffix
+  suffix: External, Locked
   components:
   - type: AccessReader
     access: [["External"]]
@@ -306,7 +306,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsMaintenance
-  suffix: ent-DoorElectronicsMaintenance-suffix
+  suffix: Maintenance, Locked
   components:
   - type: AccessReader
     access: [["Maintenance"]]
@@ -314,7 +314,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsVault
-  suffix: ent-DoorElectronicsVault-suffix
+  suffix: Vault, Locked
   components:
   - type: AccessReader
     access: [["Security"], ["Command"]]

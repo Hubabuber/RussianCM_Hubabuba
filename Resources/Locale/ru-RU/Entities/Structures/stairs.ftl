@@ -22,34 +22,3 @@ ent-StairWood-desc = Величайшее изобретение со време
 ent-StairStageWood-name = лестница
 ent-StairStageWood-desc = Величайшее изобретение со времен реактивных гранат.
 
-ent-StairDark = stairs
-    .desc = The greatest invention since rocket-propelled grenades.
-    .suffix = Темный
-
-ent-StairStage = stairs
-    .desc = The greatest invention since rocket-propelled grenades.
-    .suffix = Сталь, сцена
-
-ent-StairStageDark = stairs
-    .desc = The greatest invention since rocket-propelled grenades.
-    .suffix = Темно, сцена
-
-ent-StairStageWhite = stairs
-    .desc = The greatest invention since rocket-propelled grenades.
-    .suffix = Белый, сцена
-
-ent-StairStageWood = stairs
-    .desc = The greatest invention since rocket-propelled grenades.
-    .suffix = Дерево, сцена
-
-ent-StairWhite = stairs
-    .desc = The greatest invention since rocket-propelled grenades.
-    .suffix = Белый
-
-ent-StairWood = stairs
-    .desc = The greatest invention since rocket-propelled grenades.
-    .suffix = Древесина
-
-ent-Stairs = stairs
-    .desc = The greatest invention since rocket-propelled grenades.
-    .suffix = Сталь

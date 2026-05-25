@@ -1,9 +1,9 @@
-- type: entity
-  name: ent-BaseMobJaunt
+﻿- type: entity
+  name: jaunt
   parent: [Incorporeal, BaseMob]
   id: BaseMobJaunt
-  description: ent-BaseMobJaunt-desc
-  suffix: ent-BaseMobJaunt-suffix
+  description: Faint traces of a humanoid figure linger here
+  suffix: Ethereal
   components:
   - type: ContentEye
     maxZoom: 1.44,1.44
@@ -21,10 +21,10 @@
 
 # Should be slow, for balance
 - type: entity
-  name: ent-EtherealJaunt
+  name: jaunt
   parent: BaseMobJaunt
   id: EtherealJaunt
-  suffix: ent-EtherealJaunt-suffix
+  suffix: Wizard
   components:
   - type: Sprite
     sprite: Mobs/Ghosts/ghost_human.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: [Incorporeal, BaseMob]
   id: DesynchronizedPocket
-  name: ent-DesynchronizedPocket
-  description: ent-DesynchronizedPocket-desc
+  name: desynchronized pocket
+  description: A pocket in spacetime, keeping the user a fraction of a second in the future.
   components:
   - type: Spectral
   - type: MovementSpeedModifier

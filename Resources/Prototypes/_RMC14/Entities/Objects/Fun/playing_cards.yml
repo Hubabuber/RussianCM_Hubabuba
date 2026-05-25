@@ -3,8 +3,8 @@
   parent: BaseItem
   id: RMCPlayingCardBase
   categories: [ HideSpawnMenu ]
-  name: ent-RMCPlayingCardBase
-  description: ent-RMCPlayingCardBase-desc
+  name: Playing card
+  description: A standard playing card.
   components:
   - type: PlayingCard
   - type: Sprite
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPlayingCardHand
-  name: ent-RMCPlayingCardHand
-  description: ent-RMCPlayingCardHand-desc
+  name: Hand of cards
+  description: A hand of playing cards.
   categories: [ HideSpawnMenu ]
   components:
   - type: PlayingCardHand
@@ -43,9 +43,9 @@
 - type: entity
   parent: BaseItem
   id: RMCPlayingCardDeck
-  name: ent-RMCPlayingCardDeck
-  suffix: ent-RMCPlayingCardDeck-suffix
-  description: ent-RMCPlayingCardDeck-desc
+  name: Deck of cards
+  suffix: RMC
+  description: I swear the game was called Goldfish!
   components:
   - type: PlayingCardDeck
     cardPrototype: RMCPlayingCard

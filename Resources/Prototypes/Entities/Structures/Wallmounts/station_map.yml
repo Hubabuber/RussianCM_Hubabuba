@@ -1,8 +1,8 @@
 - type: entity
   id: StationMapBroken
-  name: ent-StationMapBroken
-  description: ent-StationMapBroken-desc
-  suffix: ent-StationMapBroken-suffix
+  name: station map
+  description: A virtual map of the surrounding station.
+  suffix: Wall broken
   placement:
     mode: SnapgridCenter
   components:
@@ -31,10 +31,10 @@
 
 - type: entity
   id: StationMap
-  name: ent-StationMap
+  name: station map
   parent: BaseComputer
-  description: ent-StationMap-desc
-  suffix: ent-StationMap-suffix
+  description: A virtual map of the surrounding station.
+  suffix: Wall
   placement:
     mode: SnapgridCenter
   components:
@@ -100,8 +100,8 @@
 
 - type: entity
   id: StationMapAssembly
-  name: ent-StationMapAssembly
-  description: ent-StationMapAssembly-desc
+  name: station map assembly
+  description: A station map assembly.
   components:
   - type: WallMount
   - type: Clickable

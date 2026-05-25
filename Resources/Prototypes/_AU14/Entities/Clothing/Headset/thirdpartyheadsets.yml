@@ -1,9 +1,9 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetUSArmy
-  name: ent-AU14HeadsetUSArmy
-  description: ent-AU14HeadsetUSArmy-desc
-  suffix: ent-AU14HeadsetUSArmy-suffix
+  name: US Army headset
+  description: Issued to US Army units.
+  suffix: US Army
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/headsets.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: AU14HeadsetGovforCommand
   id: AU14HeadsetUSArmyERT
-  name: ent-AU14HeadsetUSArmyERT
-  description: ent-AU14HeadsetUSArmyERT-desc
+  name: US Army ERT radio headset
+  description: Issued to US Army units.
   components:
   - type: RMCHeadset
     channels:
@@ -34,13 +34,14 @@
 - type: entity
   parent: AU14HeadsetUSArmyERT
   id: AU14HeadsetFORECONERT
-  name: ent-AU14HeadsetFORECONERT
-  description: ent-AU14HeadsetFORECONERT-desc
+  name: UNMC SOF headset
+  description: Issued exclusively to Marine Raiders and members of the UNMC's Force Reconnaissance.
+
 - type: entity
   parent: AU14HeadsetGovforCommand
   id: AU14HeadsetRMCRRT
-  name: ent-AU14HeadsetRMCRRT
-  description: ent-AU14HeadsetRMCRRT-desc
+  name: RMC RRT radio headset
+  description: Issued to Royal Commandos units.
   components:
   - type: RMCHeadset
     channels:
@@ -49,9 +50,9 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetVAI
-  name: ent-AU14HeadsetVAI
-  description: ent-AU14HeadsetVAI-desc
-  suffix: ent-AU14HeadsetVAI-suffix
+  name: vanguard's arrow headset
+  description: A special headset used by Vanguard's Arrow Incorporated mercenaries, features a non-standard brace.
+  suffix: VAI, Ambassador
   components:
   - type: ContainerFill
     containers:
@@ -68,9 +69,9 @@
 - type: entity
   parent: AU14HeadsetGovforCommand
   id: AU14HeadsetVAIERT
-  name: ent-AU14HeadsetVAIERT
-  suffix: ent-AU14HeadsetVAIERT-suffix
-  description: ent-AU14HeadsetVAIERT-desc
+  name: vanguard's arrow headset
+  suffix: VAI, GOVFOR
+  description: A special headset used by Vanguard's Arrow Incorporated mercenaries, features a non-standard brace.
   components:
   - type: RMCHeadset
     channels:
@@ -79,9 +80,9 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14HeadsetVAIColony
-  name: ent-AU14HeadsetVAIColony
-  description: ent-AU14HeadsetVAIColony-desc
-  suffix: ent-AU14HeadsetVAIColony-suffix
+  name: vanguard's arrow headset
+  description: A special headset used by Vanguard's Arrow Incorporated mercenaries, features a non-standard brace.
+  suffix: VAI, Colony
   components:
   - type: RMCHeadset
     channels:
@@ -90,9 +91,9 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetPART
-  name: ent-AU14HeadsetPART
-  description: ent-AU14HeadsetPART-desc
-  suffix: ent-AU14HeadsetPART-suffix
+  name: Prodigy Armed Repair Team headset
+  description: A special headset used by Prodigy Armed Repair Team, features a unique brace.
+  suffix: PART, 3rd Party
   components:
   - type: ContainerFill
     containers:

@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: RMCSPPLeader
-  name: job-rmcsppleader-name
-  description: job-rmcsppleader-desc
+  name: rmc-job-name-spp-leader
+  description: rmc-job-description-spp-leader
   playTimeTracker: CMJobSPPLeader
   ranks:
     RMCRankSPPSerzhant: []
@@ -12,7 +12,7 @@
   accessGroups:
   - Colonist
   - HospitalCorpsman
-  spawnMenuRoleName: job-rmcsppleader-spawnmenurolename
+  spawnMenuRoleName: SPP Squad Leader
   special:
   - !type:AddComponentSpecial
     components:
@@ -60,8 +60,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPLeaderHostile
-  name: ent-RMCRandomHumanoidSPPLeaderHostile
-  suffix: ent-RMCRandomHumanoidSPPLeaderHostile-suffix
+  name: spp ghost role leader
+  suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -71,8 +71,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPLeaderFriendly
-  name: ent-RMCRandomHumanoidSPPLeaderFriendly
-  suffix: ent-RMCRandomHumanoidSPPLeaderFriendly-suffix
+  name: spp ghost role leader
+  suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

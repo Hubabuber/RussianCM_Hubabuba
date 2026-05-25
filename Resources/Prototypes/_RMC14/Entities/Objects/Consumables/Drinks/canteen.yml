@@ -53,8 +53,8 @@
 - type: entity
   parent: CMCanteenBase
   id: CMCanteen
-  name: ent-CMCanteen
-  description: ent-CMCanteen-desc
+  name: canteen
+  description: You take a sip from your trusty Marine canteen...
   components:
   - type: Sprite
     state: canteen
@@ -62,9 +62,9 @@
 - type: entity
   parent: CMCanteenBase
   id: CMMetalFlask
-  name: ent-CMMetalFlask
-  description: ent-CMMetalFlask-desc
-  suffix: ent-CMMetalFlask-suffix
+  name: metal flask
+  description: A metal flask with a decent liquid capacity.
+  suffix: Empty
   components:
   - type: Sprite
     state: flask
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMCanteenBase
   id: CMMarineFlask
-  name: ent-CMMarineFlask
-  description: ent-CMMarineFlask-desc
+  name: Marine flask
+  description: A metal flask embossed with the United States Marine Corps logo and probably filled with a slurry of water, motor oil, and medicinal alcohol.
   components:
   - type: Sprite
     state: flask_marine
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMCanteenBase
   id: CMWEYAFlask
-  name: ent-CMWEYAFlask
-  description: ent-CMWEYAFlask-desc
+  name: We-Ya flask
+  description: A metal flask embossed with We-Yu's signature logo that some corporate bootlicker probably ordered to be stocked in UA military vessels' canteen vendors.
   components:
   - type: Sprite
     state: flask_we_ya
@@ -94,8 +94,8 @@
 - type: entity
   parent: [CMCanteenBase, DrinkFlaskVisualsOpenable]
   id: RMCWeYaThermos
-  name: ent-RMCWeYaThermos
-  description: ent-RMCWeYaThermos-desc
+  name: We-Ya thermos
+  description: A sleek metal thermos, decorated with the colours of the Weyland-Yutani Corporation. The marketing claims it can withstands equivalent to a nuclear blast, though that's probably just PR talking.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/weya_thermos.rsi

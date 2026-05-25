@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmySquadLeaderBase
-  name: job-au14usarmysquadleaderbase-name
-  description: job-au14usarmysquadleaderbase-desc
+  name: cm-job-name-squad-leader
+  description: au14-job-description-usarmy
   playTimeTracker: AU14JobUSArmySquadLeader
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14USArmySquadLeaderBase
   id: AU14JobUSArmySquadleaderArmored
-  name: job-au14jobusarmysquadleaderarmored-name
-  description: job-au14jobusarmysquadleaderarmored-desc
+  name: cm-job-name-squad-leader
+  description: au14-job-description-usarmy
   ranks:
     USArmy_FirstSergeant:
     - !type:RoleTimeRequirement
@@ -22,12 +22,12 @@
       role: AU14JobUSArmySquadLeader
       time: 18000 #5 hours
     USArmy_SergeantFirstClass: []
-  spawnMenuRoleName: job-au14jobusarmysquadleaderarmored-spawnmenurolename
+  spawnMenuRoleName: US Army Squad Leader (AU14, 3rd Party)
   startingGear: AU14GearUSArmySquadleaderArmored
   greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmySL"
   joinNotifyCrew: false
-  supervisors: job-au14jobusarmysquadleaderarmored-supervisors
+  supervisors: au14-job-supervisors-platco
   accessGroups:
   - AU14GovforCommand
   special:
@@ -70,7 +70,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmySquadLeaderArmored
-  name: ent-AU14JobUSArmySquadLeaderArmored
+  name: US Army Squad Leader (ERT)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

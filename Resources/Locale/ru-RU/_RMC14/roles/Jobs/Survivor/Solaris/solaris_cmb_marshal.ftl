@@ -1,12 +1,9 @@
 ent-CMSpawnPointSolarisCMBMarshal = точка спавна маршала Solaris CMB
   .desc = Создатель заданий RMC14. 
-    .suffix = Создание вакансий
+
 ent-RMCMarshalCMBUniformSurvivorMarshal = униформа маршала колонии
   .desc = Пара не совсем белых брюк, синяя рубашка на пуговицах и темно-коричневый галстук; 
-    .suffix = униформа маршала колонии
+
 ent-RMCWebbingSurvivorCMBMarshal = плечевая кобура
   .desc = Кобура для пистолета с прикрепленным подсумком, позволяющая хранить вместе два магазина или спидлоадера.
-    .suffix = плечевая кобура
-job-cmsurvivorsolariscmbmarshal-desc = Возглавьте свою компанию и выполните миссию.
-job-cmsurvivorsolariscmbmarshal-name = ЦМВ Маршал
-job-cmsurvivorsolariscmbmarshal-spawnmenurolename = Маршал CMB (Выживший в Солярисе)
+

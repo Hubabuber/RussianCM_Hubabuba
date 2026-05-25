@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMHyperSleepChamber
-  name: ent-CMHyperSleepChamber
-  description: ent-CMHyperSleepChamber-desc
+  name: hypersleep chamber
+  description: A large automated capsule with LED displays intended to put anyone inside into 'hypersleep', a form of non-cryogenic statis used on most ships, linked to a long-term hypersleep bay on a lower level.
   components:
   - type: Transform
     anchored: true
@@ -59,7 +59,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberAlpha
-  suffix: ent-CMHyperSleepChamberAlpha-suffix
+  suffix: Alpha
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberBravo
-  suffix: ent-CMHyperSleepChamberBravo-suffix
+  suffix: Bravo
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberCharlie
-  suffix: ent-CMHyperSleepChamberCharlie-suffix
+  suffix: Charlie
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -83,7 +83,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberDelta
-  suffix: ent-CMHyperSleepChamberDelta-suffix
+  suffix: Delta
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -91,7 +91,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: RMCHyperSleepChamberPVE
-  suffix: ent-RMCHyperSleepChamberPVE-suffix
+  suffix: PVE, East
   components:
   - type: PointLight
     radius: 1.5
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCHyperSleepChamberPVE
   id: RMCHyperSleepChamberPVEWest
-  suffix: ent-RMCHyperSleepChamberPVEWest-suffix
+  suffix: PVE, West
   components:
   - type: Sprite
     offset: -0.25, 0.25
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCHyperSleepChamberPVE
   id: RMCHyperSleepChamberPVEAltRot
-  suffix: ent-RMCHyperSleepChamberPVEAltRot-suffix
+  suffix: PVE, North/South
   components:
   - type: Sprite
     offset: 0, 0.25

@@ -1,11 +1,11 @@
-- type: job
+﻿- type: job
   parent: CMSurvivorDoctor
   id: CMSurvivorChancesMedic
-  name: job-cmsurvivorchancesmedic-name
-  description: job-cmsurvivorchancesmedic-desc
+  name: rmc-job-name-colonist-chances-medic
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorChancesMedic
   startingGear: RMCGearSurvivorChancesMedic
-  spawnMenuRoleName: job-cmsurvivorchancesmedic-spawnmenurolename
+  spawnMenuRoleName: Chance's Claim Medic (Chances Colonist)
   greeting: rmc-job-greeting-chances-colonist
   special:
   - !type:AddComponentSpecial
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesMedic
-  name: ent-RMCSpawnPointSurvivorChancesMedic
+  name: chances medic spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesMedic
-  name: ent-RMCRandomHumanoidSurvivorChancesMedic
+  name: chances medic ghost role
   components:
   - type: Sprite
     layers:

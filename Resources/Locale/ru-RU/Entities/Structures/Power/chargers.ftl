@@ -12,16 +12,3 @@ ent-WallWeaponCapacitorRecharger-name = настенное зарядное ус
 ent-BorgCharger-name = Киборг-заправочная станция
 ent-BorgCharger-desc = Стационарное зарядное устройство для различных роботов и киборгов. На удивление просторный.
 
-ent-BorgCharger = Киборг-заправочная станция
-    .desc = Стационарное зарядное устройство для различных роботов и киборгов. На удивление просторный.
-
-ent-PowerCageRecharger = зарядное устройство для клетки
-
-ent-PowerCellRecharger = зарядное устройство для ячеек
-
-ent-TurboItemRecharger = турбо зарядное устройство
-    .desc = Разогнанное зарядное устройство с глобальным портом.
-
-ent-WallWeaponCapacitorRecharger = настенное зарядное устройство
-
-ent-WeaponCapacitorRecharger = зарядное устройство

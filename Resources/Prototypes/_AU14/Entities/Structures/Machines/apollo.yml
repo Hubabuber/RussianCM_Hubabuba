@@ -1,9 +1,9 @@
 - type: entity
   id: AU14AICoreApolloCivilian
   parent: RMCAICore
-  name: ent-AU14AICoreApolloCivilian
-  description: ent-AU14AICoreApolloCivilian-desc
-  suffix: ent-AU14AICoreApolloCivilian-suffix
+  name: APOLLO Central A.I.
+  description: This is the artificial intelligence system for monitoring the Working Joes. It is manufactured by Seegson Corporation.
+  suffix: AU14, Colony
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicore.rsi
@@ -58,8 +58,8 @@
 - type: entity
   id: AU14AICoreApolloGOVFOR
   parent: AU14AICoreApolloCivilian
-  name: ent-AU14AICoreApolloGOVFOR
-  suffix: ent-AU14AICoreApolloGOVFOR-suffix
+  name: APOLLO Central A.I.
+  suffix: AU14, GOVFOR
   components:
   - type: IntrinsicRadioTransmitter
     channels:
@@ -83,8 +83,8 @@
 - type: entity
   id: AU14AICoreApolloOPFOR
   parent: AU14AICoreApolloCivilian
-  name: ent-AU14AICoreApolloOPFOR
-  suffix: ent-AU14AICoreApolloOPFOR-suffix
+  name: APOLLO Central A.I.
+  suffix: AU14, OPFOR
   components:
   - type: IntrinsicRadioTransmitter
     channels:
@@ -108,8 +108,8 @@
 - type: entity
   id: AU14AICoreCPU
   parent: RMCAICoreProcessor
-  name: ent-AU14AICoreCPU
-  description: ent-AU14AICoreCPU-desc
+  name: APOLLO CPU
+  description: This is APOLLO's central processor. Made of a casing designed to withstand nuclear blasts, the CPU also contains APOLLO's blackbox recorder.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -121,8 +121,8 @@
 - type: entity
   id: AU14AICoreSubstrate
   parent: RMCAICoreProcessor
-  name: ent-AU14AICoreSubstrate
-  description: ent-AU14AICoreSubstrate-desc
+  name: APOLLO Substrate
+  description: The memory substrate of APOLLO, containing complex protocols and information. Limited capabilities can operate on substrate alone, without the main APOLLO Unit operational.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -133,8 +133,8 @@
 
 - type: entity
   id: APOLLOAICoreProcessor
-  name: ent-APOLLOAICoreProcessor
-  description: ent-APOLLOAICoreProcessor-desc
+  name: APOLLO Processor
+  description: An external processor for APOLLO, used to process vast amounts of information.
   placement:
     mode: SnapgridCenter
   components: #has no collission in 13 they have invisible walls behind it
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCAreaGA
   id: AU14AreaGAAI
-  name: ent-AU14AreaGAAI
+  name: APOLLO Central A.I. Interface
   components:
   - type: Sprite
     state: wylab
@@ -198,8 +198,8 @@
 - type: entity
   parent: CMChairComfyARES
   id: AU14ChairComfyAI
-  name: ent-AU14ChairComfyAI
-  suffix: ent-AU14ChairComfyAI-suffix
+  name: APOLLO Central A.I. interface chair
+  suffix: AU14, APOLLO
   components:
   - type: Sprite
     state: ai_interface_chair

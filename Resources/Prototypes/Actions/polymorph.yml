@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevertPolymorph
-  name: ent-ActionRevertPolymorph
-  description: ent-ActionRevertPolymorph-desc
+  name: Revert
+  description: Revert back into your original form.
   components:
   - type: ConfirmableAction
     popup: revert-polymorph-action-popup
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseActionPolymorph
   id: ActionPolymorphWizardSpider
-  name: ent-ActionPolymorphWizardSpider
-  description: ent-ActionPolymorphWizardSpider-desc
+  name: Spider Polymorph
+  description: Polymorphs you into a Spider.
   components:
   - type: Action
     icon:
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseActionPolymorph
   id: ActionPolymorphWizardRod
-  name: ent-ActionPolymorphWizardRod
-  description: ent-ActionPolymorphWizardRod-desc
+  name: Rod Form
+  description: CLANG!
   components:
   - type: Action
     icon:
@@ -51,8 +51,8 @@
 - type: entity
   parent: BaseActionPolymorph
   id: ActionPolymorphJaunt
-  name: ent-ActionPolymorphJaunt
-  description: ent-ActionPolymorphJaunt-desc
+  name: Ethereal Jaunt
+  description: Melt into the Ethereal Plane for a quick getaway!
   components:
   - type: Magic
   - type: Action
@@ -72,8 +72,8 @@
 - type: entity
   parent: ActionPolymorphJaunt
   id: ActionPolymorphJauntII
-  name: ent-ActionPolymorphJauntII
-  description: ent-ActionPolymorphJauntII-desc
+  name: Ethereal Jaunt II
+  description: Melt into the Ethereal Plane for an even quicker getaway!
   components:
   - type: Action
     useDelay: 25
@@ -81,8 +81,8 @@
 - type: entity
   parent: ActionPolymorphJaunt
   id: ActionPolymorphJauntIII
-  name: ent-ActionPolymorphJauntIII
-  description: ent-ActionPolymorphJauntIII-desc
+  name: Ethereal Jaunt III
+  description: Are you even tangible anymore?
   components:
   - type: Action
     useDelay: 20

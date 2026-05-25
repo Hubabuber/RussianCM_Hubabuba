@@ -16,20 +16,3 @@ ent-ShardGlassUranium-desc = Небольшой кусок уранового с
 ent-ShardGlassClockwork-name = осколок заводного стекла
 ent-ShardGlassClockwork-desc = Небольшой кусок стекла, инкрустированного латунью.
 
-ent-ShardBase = item
-    .desc = Это осколок какого-то неизвестного материала.
-
-ent-ShardGlass = осколок стекла
-    .desc = Небольшой кусок стекла.
-
-ent-ShardGlassClockwork = осколок заводного стекла
-    .desc = Небольшой кусок стекла, инкрустированного латунью.
-
-ent-ShardGlassPlasma = плазменный осколок стекла
-    .desc = Небольшой кусок плазменного стекла.
-
-ent-ShardGlassReinforced = усиленный осколок стекла
-    .desc = Небольшой кусок армированного стекла.
-
-ent-ShardGlassUranium = осколок уранового стекла
-    .desc = Небольшой кусок уранового стекла.

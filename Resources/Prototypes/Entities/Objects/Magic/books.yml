@@ -1,6 +1,6 @@
-- type: entity
+﻿- type: entity
   id: BaseSpellbook
-  name: ent-BaseSpellbook
+  name: spellbook
   parent: [ BaseItem, BaseMagicalContraband ]
   abstract: true
   components:
@@ -23,8 +23,8 @@
 # Do not add discounts or price inflation
 - type: entity
   id: WizardsGrimoire
-  name: ent-WizardsGrimoire
-  suffix: ent-WizardsGrimoire-suffix
+  name: wizards grimoire
+  suffix: Wizard
   parent: [ BaseItem, StorePresetSpellbook, BaseMagicalContraband ]
   components:
     - type: Sprite
@@ -52,8 +52,8 @@
 # Not meant for wizard antag but meant for spawning, so people can't abuse refund if they were given a tome
 - type: entity
   id: WizardsGrimoireNoRefund
-  name: ent-WizardsGrimoireNoRefund
-  suffix: ent-WizardsGrimoireNoRefund-suffix
+  name: wizards grimoire
+  suffix: Wizard, No Refund
   parent: [ WizardsGrimoire, StorePresetSpellbook ]
   components:
     - type: Store
@@ -64,7 +64,7 @@
 
 - type: entity
   id: SpawnSpellbook
-  name: ent-SpawnSpellbook
+  name: spawn spellbook
   parent: BaseSpellbook
   components:
     - type: Spellbook
@@ -73,7 +73,7 @@
 
 - type: entity
   id: ForceWallSpellbook
-  name: ent-ForceWallSpellbook
+  name: force wall spellbook
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -96,7 +96,7 @@
 
 - type: entity
   id: BlinkBook
-  name: ent-BlinkBook
+  name: blink spellbook
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -117,7 +117,7 @@
 
 - type: entity
   id: SmiteBook
-  name: ent-SmiteBook
+  name: smite spellbook
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -140,7 +140,7 @@
 
 - type: entity
   id: KnockSpellbook
-  name: ent-KnockSpellbook
+  name: knock spellbook
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -162,7 +162,7 @@
 
 - type: entity
   id: FireballSpellbook
-  name: ent-FireballSpellbook
+  name: fireball spellbook
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -186,7 +186,7 @@
 
 - type: entity
   id: ScrollRunes
-  name: ent-ScrollRunes
+  name: scroll of runes
   parent: BaseSpellbook
   components:
   - type: Item

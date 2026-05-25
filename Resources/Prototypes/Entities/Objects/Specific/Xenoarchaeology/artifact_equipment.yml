@@ -1,8 +1,8 @@
 - type: entity
   id: CrateArtifactContainer
   parent: BaseStructureDynamic
-  name: ent-CrateArtifactContainer
-  description: ent-CrateArtifactContainer-desc
+  name: artifact container
+  description: Used to safely contain and move artifacts.
   components:
     - type: Transform
       noRot: true
@@ -106,8 +106,8 @@
 - type: entity
   parent: BaseStorageItem
   id: HandheldArtifactContainer
-  name: ent-HandheldArtifactContainer
-  description: ent-HandheldArtifactContainer-desc
+  name: handheld artifact container
+  description: A handheld case used to safely contain and move small artifacts.
   components:
   - type: Sprite
     sprite: Objects/Storage/artifact_container.rsi

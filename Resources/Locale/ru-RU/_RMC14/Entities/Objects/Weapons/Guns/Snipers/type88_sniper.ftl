@@ -1,5 +1,4 @@
 ent-RMCBulletSniperType88 = пуля (7.62x54ммR)
-    .desc = Если ты это видишь, ты, вероятно, мертв!
 ent-RMCCartridgeSniperType88 = патрон (7.62x54ммR)
 ent-RMCMagazineSniperType88 = Марксманский магазин Тип 88 (7.62x54ммR)
   .desc = Магазин с марксманскими патронами Тип 88.

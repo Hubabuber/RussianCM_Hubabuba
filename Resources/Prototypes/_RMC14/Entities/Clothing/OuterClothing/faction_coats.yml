@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCOuterClothingExternalWebbing
   id: RMCCoatBureauTrenchCoatBrown
-  name: ent-RMCCoatBureauTrenchCoatBrown
-  description: ent-RMCCoatBureauTrenchCoatBrown-desc
+  name: brown trench-coat
+  description: A worn, brown, old style trench-coat. When a bum sees a cop coming, he don't stick around.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/trench_brown.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCCoatBureauTrenchCoatBrown
   id: RMCCoatBureauTrenchCoatGrey
-  name: ent-RMCCoatBureauTrenchCoatGrey
-  description: ent-RMCCoatBureauTrenchCoatGrey-desc
+  name: grey trench-coat
+  description: A worn, grey, old style trench-coat. When a bum sees a cop coming, he don't stick around.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/trench_grey.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: RMCCoatBureauTrenchCoatBrown
   id: RMCCoatBureauTrenchCoatBeige
-  name: ent-RMCCoatBureauTrenchCoatBeige
-  description: ent-RMCCoatBureauTrenchCoatBeige-desc
+  name: beige trench-coat
+  description: A worn, tan, old style trench-coat. A classic of noir-style apparel.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/trench_beige.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCOuterClothingExternalWebbing
   id: RMCCoatBureauDeputy
-  name: ent-RMCCoatBureauDeputy
-  description: ent-RMCCoatBureauDeputy-desc
+  name: CMB deputy jacket
+  description: A thick and stylish black leather jacket with a Marshal's Deputy badge pinned to it. The back is enscribed with the powerful letters of 'DEPUTY' representing justice, authority, and protection in the outer rim.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/deputy.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatBureauMarshal
-  name: ent-RMCCoatBureauMarshal
-  description: ent-RMCCoatBureauMarshal-desc
+  name: CMB marshal jacket
+  description: A thick and stylish black leather jacket with a Marshal's badge pinned to it. The back is enscribed with the powerful letters of 'MARSHAL' representing justice, authority, and protection in the outer rim.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/marshal.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatExpensiveFur
-  name: ent-RMCCoatExpensiveFur
-  description: ent-RMCCoatExpensiveFur-desc
+  name: expensive fur-lined trench-coat
+  description: A luxurious fur-lined, antique-styled trench coat that exudes classic noir elegance. This exquisite garment is far beyond the average person's budget, accessible only to high-level executives and elite military personnel.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/FurCoat/fur_coat.rsi
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCCoatExpensiveFur
   id: RMCCoatExpensiveFurAlt
-  suffix: ent-RMCCoatExpensiveFurAlt-suffix
+  suffix: Alternative
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/FurCoat/fur_coat_alt.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatJacketGeneral
-  name: ent-RMCCoatJacketGeneral
-  description: ent-RMCCoatJacketGeneral-desc
+  name: general's jacket
+  description: A black trench coat with gold metallic trim. Flashy, highly protective, and over-the-top. Fit for a king - or, in this case, a General. Has quite a few pockets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/jacket_general.rsi
@@ -116,7 +116,7 @@
 - type: entity
   parent: RMCCoatJacketGeneral
   id: RMCCoatJacketGeneralFilled
-  suffix: ent-RMCCoatJacketGeneralFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -131,8 +131,8 @@
 - type: entity
   parent: RMCOuterClothingExternalWebbing
   id: RMCCoatTSEPA
-  name: ent-RMCCoatTSEPA
-  description: ent-RMCCoatTSEPA-desc
+  name: NSPA police jacket
+  description: A black polyester jacket with a silver Sakura emblem of the Neroid Sector Policing Authority pinned to it. Empire and Honor, Bound by Duty. Duty Beyond Borders, Justice Across Worlds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/jacket.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: RMCCoatTSEPA
   id: RMCCoatTSEPAFormal
-  name: ent-RMCCoatTSEPAFormal
-  description: ent-RMCCoatTSEPAFormal-desc
+  name: NSPA police formal jacket
+  description: A heavy woolen formal coat commonly used by Neroid Sector Policing Authority Constables. Empire and Honor, Bound by Duty. Duty Beyond Borders, Justice Across Worlds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/formal_jacket.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: RMCCoatTSEPA
   id: RMCCoatTSEPAHighVis
-  name: ent-RMCCoatTSEPAHighVis
-  description: ent-RMCCoatTSEPAHighVis-desc
+  name: NSPA high-vis jacket
+  description: A green and white striped (high-visibility) polyester vest commonly used by Neroid Sector Policing Authority personnel.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/highvis_jacket.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: RMCCoatTSEPA
   id: RMCCoatTSEPAHighVisVest
-  name: ent-RMCCoatTSEPAHighVisVest
-  description: ent-RMCCoatTSEPAHighVisVest-desc
+  name: NSPA hazard vest
+  description: A green and white striped (high-visibility) polyester vest commonly used by Neroid Sector Policing Authority personnel.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/highvis_vest.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatPaP
-  name: ent-RMCCoatPaP
-  description: ent-RMCCoatPaP-desc
+  name: PaP uniform jacket
+  description: A People's Armed Police service jacket featuring small dispersed para-aramid inserts providing the barest of defensive functionality, and a Personal Light Unit rig.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/pap.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatWeYaPilot
-  name: ent-RMCCoatWeYaPilot
-  description: ent-RMCCoatWeYaPilot-desc
+  name: Weyland-Yutani Pilot formal-jacket
+  description: A suit-style jacket with a fur lined collar and golden epaulettes signifying rank. Worn by Weyland-Yutani qualified civilian Pilots, akin to old Earth formal Pilots-wear.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/weya_pilot.rsi

@@ -1,7 +1,7 @@
 - type: entity # TODO RMC14 sound
   id: XenoWeeds
-  name: ent-XenoWeeds
-  description: ent-XenoWeeds-desc
+  name: weeds
+  description: Weird black weeds...
   placement:
     mode: SnapgridCenter
     snap:
@@ -137,8 +137,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoWeedsSource
-  name: ent-XenoWeedsSource
-  description: ent-XenoWeedsSource-desc
+  name: weed node
+  description: A weird, pulsating node
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -178,7 +178,7 @@
 - type: entity
   parent: XenoWeeds
   id: XenoWeedsSourceHidden
-  suffix: ent-XenoWeedsSourceHidden-suffix
+  suffix: Hidden Node
   components:
   - type: Sprite
     layers:
@@ -202,7 +202,7 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoHiveWeeds
-  name: ent-XenoHiveWeeds
+  name: hive weeds
   placement:
     mode: SnapgridCenter
     snap:
@@ -296,8 +296,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHiveWeeds
   id: XenoHiveWeedsSource
-  name: ent-XenoHiveWeedsSource
-  description: ent-XenoHiveWeedsSource-desc
+  name: hive weed node
+  description: A weird, pulsating node
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -333,7 +333,7 @@
 - type: entity
   parent: XenoHiveWeeds
   id: XenoHiveWeedsSourceHidden
-  suffix: ent-XenoHiveWeedsSourceHidden-suffix
+  suffix: Hidden Node
   components:
   - type: Sprite
     layers:
@@ -357,7 +357,7 @@
 
 - type: entity
   id: XenoWeedsWall
-  name: ent-XenoWeedsWall
+  name: weeds
   placement:
     mode: SnapgridCenter
     snap:
@@ -436,8 +436,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHardyWeeds
   id: XenoHardyWeedsSource
-  name: ent-XenoHardyWeedsSource
-  description: ent-XenoHardyWeedsSource-desc
+  name: hardy weed node
+  description: A weird, pulsating node
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -473,7 +473,7 @@
 - type: entity
   parent: XenoHardyWeeds
   id: XenoHardyWeedsSourceHidden
-  suffix: ent-XenoHardyWeedsSourceHidden-suffix
+  suffix: Hidden Node
   components:
   - type: Sprite
     layers:

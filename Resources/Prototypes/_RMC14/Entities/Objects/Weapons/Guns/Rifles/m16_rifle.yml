@@ -1,9 +1,9 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: WeaponRifleM16 # TODO: Make the M16 grenadier rifle when impact nades exist
-  name: ent-WeaponRifleM16
-  description: ent-WeaponRifleM16-desc
-  suffix: ent-WeaponRifleM16-suffix
+  name: M16 rifle
+  description: An old, reliable design first adopted by the U.N. military in the 1960s. Something like this belongs in a museum of war history. It is chambered in 5.56x45mm.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m16.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: WeaponRifleM16
   id: RMCWeaponRifleM16A5
-  name: ent-RMCWeaponRifleM16A5
-  description: ent-RMCWeaponRifleM16A5-desc
+  name: M16A5 Rifle
+  description: Modernized version of M16 platform rifle, probably originated from bottomless stockpiles of the United Nations when they switched to more modern rifles. It is chambered in 5.56x45mm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m16a5.rsi
@@ -208,7 +208,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM16
-  name: "ent-RMCMagazineRifleM16"
+  name: "M16 Magazine (5.56x45mm)"
   components:
   - type: Tag
     tags:
@@ -233,8 +233,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM16
-  name: ent-RMCCartridgeRifleM16
-  description: "ent-RMCCartridgeRifleM16-desc"
+  name: cartridge (5.56x45mm)
+  description: "A 5.56x45mm cartridge for the M16 rifle."
   components:
   - type: Tag
     tags:

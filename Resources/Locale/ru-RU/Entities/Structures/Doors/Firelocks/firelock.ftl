@@ -10,14 +10,3 @@ ent-FirelockEdge-desc = Примените лом.
 ent-Firelock-name = огневой шлюз
 ent-Firelock-desc = Примените лом.
 
-ent-BaseFirelock = огневой шлюз
-    .desc = Примените лом.
-
-ent-Firelock = огневой шлюз
-    .desc = Примените лом.
-
-ent-FirelockEdge = огневой шлюз
-    .desc = Примените лом.
-
-ent-FirelockGlass = стеклянный противопожарный замок
-    .desc = Примените лом.

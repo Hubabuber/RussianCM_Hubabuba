@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianProfessorVonBandolier
-  name: job-au14jobcivilianprofessorvonbandolier-name
-  description: job-au14jobcivilianprofessorvonbandolier-desc
+  name: Professor Von Bandolier
+  description: Find the biggest and most dangerous game, whether that is space alien or a man with a gun and eloquently shoot them.
   setPreference: true
   playTimeTracker: AU14JobCivilianProfessorVonBandolier
   ranks:
@@ -11,7 +11,7 @@
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianprofessorvonbandolier-supervisors
+  supervisors: au14-job-supervisors-loner
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14PartyJobProfessorVonBandolier
-  name: ent-AU14PartyJobProfessorVonBandolier
+  name: Professor Von Bandolier
   components:
   - type: GhostTakeoverAvailable
   - type: RandomHumanoidAppearanceWhitelisted #civilian type
@@ -109,7 +109,7 @@
 - type: entity
   parent: AU14M276ShotgunShellLoadingRigBlack
   id: AU14M276ShotgunShellLoadingRigBlackVonBandolier
-  suffix: ent-AU14M276ShotgunShellLoadingRigBlackVonBandolier-suffix
+  suffix: Filled, Professor Von Bandolier
   components:
   - type: StorageFill
     contents:
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMArmorDutchJacket
   id: CMArmorDutchJacketVonBandolier
-  suffix: ent-CMArmorDutchJacketVonBandolier-suffix
+  suffix: Filled, Professor Von Bandolier
   components:
   - type: StorageFill
     contents:
@@ -129,7 +129,7 @@
 - type: entity
   parent: RMCPouchMedkit
   id: RMCPouchMedkitVonBandolier
-  suffix: ent-RMCPouchMedkitVonBandolier-suffix
+  suffix: Filled, Professor Von Bandolier
   components:
   - type: StorageFill
     contents:
@@ -144,7 +144,7 @@
 - type: entity
   parent: RMCPouchMagazinePistolLarge
   id: RMCPouchMagazinePistolLargeVonBandolier
-  suffix: ent-RMCPouchMagazinePistolLargeVonBandolier-suffix
+  suffix: Filled, Professor Von Bandolier
   components:
   - type: StorageFill
     contents:
@@ -155,7 +155,7 @@
 - type: entity
   parent: RMCBeltHolsterRevolver
   id: RMCBeltHolsterRevolverVonBandolier
-  suffix: ent-RMCBeltHolsterRevolverVonBandolier-suffix
+  suffix: Filled, Professor Von Bandolier
   components:
   - type: StorageFill
     contents:

@@ -1,9 +1,6 @@
 ent-RMCHoodBioWeYaAlt = биокапюшон WeYa-TSS MK I
   .desc = «Биокостюм Weston-Yamada TerraScientia MK I». Продвинутый облегчённый биокостюм, разработанный внутри компании Weston-Yamada. Это капюшон, защищающий голову и лицо от биологических загрязнителей.
-    .suffix = биокапюшон WeYa-TSS MK I
 ent-RMCHoodBioWeYa = биокапюшон WeYa-TSS MK II
   .desc = «Биокостюм Weston-Yamada TerraScientia MK II». Продвинутый облегчённый биокостюм, разработанный внутри компании Weston-Yamada. Это капюшон, защищающий голову и лицо от биологических загрязнителей, совместим с синтетиками. Не обеспечивает реальной защиты.
-    .suffix = биокапюшон WeYa-TSS MK II
 ent-RMCHoodBioGeneral = биокапюшон
   .desc = Капюшон, защищающий голову и лицо от биологических загрязнителей.
-    .suffix = биокапюшон

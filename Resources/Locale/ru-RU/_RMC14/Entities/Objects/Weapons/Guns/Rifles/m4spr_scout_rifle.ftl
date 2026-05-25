@@ -12,12 +12,3 @@ ent-RMCMagazineRifleM4SPRA19 = магазин A19 ВС (10x24мм)
   .desc = Магазин патронов A19 высокой скорости для кастомной боевой винтовки M4SPR. Кастомная боевая винтовка M4SPR — единственное оружие, которое может использовать эти патроны.
 ent-WeaponRifleM4SPRCustom = кастомная боевая винтовка M4SPR
   .desc = Улучшение уже отличной M4SPR. Способна использовать патроны A19, а также имеет лучший контроль и точность ценой большей сложности в использовании. Может принимать стандартные магазины M4SPR, но с меньшим уроном.
-
-ent-BulletRifleM4SPRA19 = BaseBullet
-    .desc = If you can see this you're probably dead!
-
-ent-BulletRifleM4SPRA19Impact = BaseBullet
-    .desc = If you can see this you're probably dead!
-
-ent-BulletRifleM4SPRA19Incendiary = BaseBullet
-    .desc = If you can see this you're probably dead!

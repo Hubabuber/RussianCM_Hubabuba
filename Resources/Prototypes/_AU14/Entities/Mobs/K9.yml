@@ -10,8 +10,8 @@
   - BaseMob
   - MobDamageable
   id: AU14MobK9
-  name: ent-AU14MobK9
-  description: "ent-AU14MobK9-desc"
+  name: Synthetic K9
+  description: "A Weyland-Yutani produced synthetic dog."
   components:
   - type: RandomMetadata
     nameSegments:
@@ -126,7 +126,7 @@
 - type: entity
   parent: AU14MobK9
   id: AU14MobK9GhostRole
-  suffix: "ent-AU14MobK9GhostRole-suffix"
+  suffix: "Ghost Role"
   components:
   - type: GhostRole
     name: Synthetic K9
@@ -138,9 +138,9 @@
 - type: entity
   parent: AU14MobK9
   id: AU14MobK9BagMedic
-  name: ent-AU14MobK9BagMedic
-  description: "ent-AU14MobK9BagMedic-desc"
-  suffix: "ent-AU14MobK9BagMedic-suffix"
+  name: Search and Rescue K9
+  description: "A Weyland-Yutani produced synthetic dog. This model is designed to aid in search and rescue and comes equipped with medical equipment storage."
+  suffix: "S&R"
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -224,7 +224,7 @@
 - type: entity
   parent: AU14MobK9BagMedic
   id: AU14MobK9BagMedicGhostRole
-  suffix: "ent-AU14MobK9BagMedicGhostRole-suffix"
+  suffix: "S&R, Ghost Role"
   components:
   - type: GhostRole
     makeSentient: true
@@ -242,9 +242,9 @@
 - type: entity
   parent: AU14MobK9
   id: AU14MobK9Bag
-  name: ent-AU14MobK9Bag
-  description: "ent-AU14MobK9Bag-desc"
-  suffix: ent-AU14MobK9Bag-suffix
+  name: Synthetic K9
+  description: "A Weyland-Yutani produced synthetic dog. This one comes equipped with general equipment storage."
+  suffix: Backpack
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -279,7 +279,7 @@
 - type: entity
   parent: AU14MobK9Bag
   id: AU14MobK9BagGhostRole
-  suffix: "ent-AU14MobK9BagGhostRole-suffix"
+  suffix: "Backpack, Ghost Role"
   components:
   - type: GhostRole
     name: Synthetic K9
@@ -291,9 +291,9 @@
 - type: entity
   parent: AU14MobK9
   id: AU14MobK9MP
-  name: ent-AU14MobK9MP
-  description: "ent-AU14MobK9MP-desc"
-  suffix: ent-AU14MobK9MP-suffix
+  name: Synthetic K9
+  description: "A Weyland-Yutani produced synthetic dog designed to support Military Police personnel."
+  suffix: MP
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -313,7 +313,7 @@
 - type: entity
   parent: AU14MobK9MP
   id: AU14MobK9MPGhostRole
-  suffix: "ent-AU14MobK9MPGhostRole-suffix"
+  suffix: "MP, Ghost Role"
   components:
   - type: GhostRole
     name: Synthetic Military Police K9

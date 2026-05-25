@@ -22,26 +22,3 @@ ent-FoamedAluminiumMetal-desc = Остатки редкой пены от алю
 
 ent-TearGasSmokeWhite-name = слезоточивый газ
 
-ent-AluminiumMetalFoam = алюминиевая металлическая пена
-
-ent-BaseFoamedMetal = основание из вспененного металла
-
-ent-Foam = мыло
-
-ent-FoamedAluminiumMetal = вспененный алюминий из металла
-    .desc = Остатки редкой пены от алюминиевой пенной гранаты. Легко разрушается.
-
-ent-FoamedIronMetal = вспененное железо металл
-    .desc = Для герметизации пробоин в корпусе.
-
-ent-IronMetalFoam = железо металл пена
-
-ent-MetalFoam = металлическая пена
-
-ent-Smoke = курить
-
-ent-TearGasSmoke = слезоточивый газ
-
-ent-TearGasSmokeWhite = слезоточивый газ
-
-ent-WizardSmoke = курить

@@ -1,15 +1,15 @@
 - type: job
   parent: CMSurvivor
   id: CMJobSurvivorMoHDoctor
-  name: job-cmjobsurvivormohdoctor-name
-  description: job-cmjobsurvivormohdoctor-desc
+  name: rmc-job-name-survivor-moh-doctor
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorDoctor
   ranks:
     RMCRankCivilianDoctor: []
   startingGear: RMCGearSurvivorMoHDoctor
   accessGroups:
   - ColonistMedical
-  spawnMenuRoleName: job-cmjobsurvivormohdoctor-spawnmenurolename
+  spawnMenuRoleName: MoH Doctor (Sorokyne Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorMoHDoctor
-  name: ent-RMCSpawnPointSurvivorMoHDoctor
+  name: ministry of health doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetMoHDoctor
-  name: ent-RMCGearSurvivorPresetMoHDoctor
+  name: ministry of health doctor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

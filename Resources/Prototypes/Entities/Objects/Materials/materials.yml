@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: MaterialBase
-  description: ent-MaterialBase-desc
+  description: A raw material.
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCardboard
-  name: ent-MaterialCardboard
-  suffix: ent-MaterialCardboard-suffix
+  name: cardboard
+  suffix: Full
   components:
   - type: Material
   - type: PhysicalComposition
@@ -60,7 +60,7 @@
 - type: entity
   parent: MaterialCardboard
   id: MaterialCardboard10
-  suffix: ent-MaterialCardboard10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: cardboard
@@ -70,7 +70,7 @@
 - type: entity
   parent: MaterialCardboard
   id: MaterialCardboard1
-  suffix: ent-MaterialCardboard1-suffix
+  suffix: Single
   components:
   - type: Sprite
     state: cardboard
@@ -80,8 +80,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCloth
-  name: ent-MaterialCloth
-  suffix: ent-MaterialCloth-suffix
+  name: cloth
+  suffix: Full
   components:
   - type: Healing
     damageContainers:
@@ -149,7 +149,7 @@
 - type: entity
   parent: MaterialCloth
   id: MaterialCloth10
-  suffix: ent-MaterialCloth10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: cloth
@@ -159,7 +159,7 @@
 - type: entity
   parent: MaterialCloth
   id: MaterialCloth1
-  suffix: ent-MaterialCloth1-suffix
+  suffix: Single
   components:
   - type: Sprite
     state: cloth
@@ -169,8 +169,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDurathread
-  name: ent-MaterialDurathread
-  suffix: ent-MaterialDurathread-suffix
+  name: durathread
+  suffix: Full
   components:
   - type: Stack
     stackType: Durathread
@@ -211,7 +211,7 @@
 - type: entity
   parent: MaterialDurathread
   id: MaterialDurathread1
-  suffix: ent-MaterialDurathread1-suffix
+  suffix: Single
   components:
   - type: Sprite
     state: durathread
@@ -228,8 +228,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWoodPlank
-  name: ent-MaterialWoodPlank
-  suffix: ent-MaterialWoodPlank-suffix
+  name: wood
+  suffix: Full
   components:
   - type: Material
   - type: PhysicalComposition
@@ -266,7 +266,7 @@
 - type: entity
   parent: MaterialWoodPlank
   id: MaterialWoodPlank10
-  suffix: ent-MaterialWoodPlank10-suffix
+  suffix: 10
   components:
   - type: Stack
     count: 10
@@ -274,7 +274,7 @@
 - type: entity
   parent: MaterialWoodPlank
   id: MaterialWoodPlank1
-  suffix: ent-MaterialWoodPlank1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -282,8 +282,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBiomass
-  name: ent-MaterialBiomass
-  suffix: ent-MaterialBiomass-suffix
+  name: biomass
+  suffix: Full
   components:
   - type: Material
   - type: PhysicalComposition
@@ -303,7 +303,7 @@
 - type: entity
   parent: MaterialBiomass
   id: MaterialBiomass1
-  suffix: ent-MaterialBiomass1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -312,7 +312,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideBear
-  name: ent-MaterialHideBear
+  name: bear hide
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -339,8 +339,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideCorgi
-  name: ent-MaterialHideCorgi
-  description: ent-MaterialHideCorgi-desc
+  name: corgi hide
+  description: Luxury pelt used in only the most elite fashion. Rumors say this is found when a corgi is sent to the nice farm.
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -359,8 +359,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDiamond
-  name: ent-MaterialDiamond
-  suffix: ent-MaterialDiamond-suffix
+  name: refined diamond
+  suffix: Full
   components:
   - type: Stack
     stackType: Diamond
@@ -397,7 +397,7 @@
 - type: entity
   parent: MaterialDiamond
   id: MaterialDiamond1
-  suffix: ent-MaterialDiamond1-suffix
+  suffix: Single
   components:
   - type: Stack
     count: 1
@@ -405,8 +405,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCotton
-  name: ent-MaterialCotton
-  suffix: ent-MaterialCotton-suffix
+  name: cotton
+  suffix: Full
   components:
   - type: Stack
     stackType: Cotton
@@ -454,7 +454,7 @@
 - type: entity
   parent: MaterialCotton
   id: MaterialCotton1
-  suffix: ent-MaterialCotton1-suffix
+  suffix: Single
   components:
   - type: Sprite
     state: cotton
@@ -464,8 +464,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialPyrotton
-  name: ent-MaterialPyrotton
-  suffix: ent-MaterialPyrotton-suffix
+  name: pyrotton
+  suffix: Full
   components:
   - type: Stack
     stackType: Pyrotton
@@ -508,7 +508,7 @@
 - type: entity
   parent: MaterialPyrotton
   id: MaterialPyrotton1
-  suffix: ent-MaterialPyrotton1-suffix
+  suffix: Single
   components:
   - type: Sprite
     state: pyrotton
@@ -518,8 +518,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBananium
-  name: ent-MaterialBananium
-  suffix: ent-MaterialBananium-suffix
+  name: bananium
+  suffix: Full
   components:
   - type: Material
   - type: PhysicalComposition
@@ -569,7 +569,7 @@
 - type: entity
   parent: MaterialBananium
   id: MaterialBananium1
-  suffix: ent-MaterialBananium1-suffix
+  suffix: Single
   components:
   - type: Sprite
     state: bananium
@@ -579,9 +579,9 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWebSilk
-  name: ent-MaterialWebSilk
-  description: ent-MaterialWebSilk-desc
-  suffix: ent-MaterialWebSilk-suffix
+  name: silk
+  description: A webby material.
+  suffix: Full
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -622,7 +622,7 @@
 - type: entity
   parent: MaterialWebSilk
   id: MaterialWebSilk25
-  suffix: ent-MaterialWebSilk25-suffix
+  suffix: 25
   components:
   - type: Stack
     count: 25
@@ -630,7 +630,7 @@
 - type: entity
   parent: MaterialWebSilk
   id: MaterialWebSilk1
-  suffix: ent-MaterialWebSilk1-suffix
+  suffix: 1
   components:
   - type: Stack
     count: 1
@@ -638,9 +638,9 @@
 - type: entity
   parent: MaterialBase
   id: MaterialToothSpaceCarp
-  name: ent-MaterialToothSpaceCarp
-  description: ent-MaterialToothSpaceCarp-desc
-  suffix: ent-MaterialToothSpaceCarp-suffix
+  name: space carp tooth
+  description: Pretty small but plenty nasty. You like them best when they're not sinking into you.
+  suffix: Full
   components:
   - type: Sprite
     sprite: Objects/Materials/Mob/carptooth.rsi
@@ -668,7 +668,7 @@
 - type: entity
   parent: MaterialToothSpaceCarp
   id: MaterialToothSpaceCarp1
-  suffix: ent-MaterialToothSpaceCarp1-suffix
+  suffix: 1
   components:
   - type: Stack
     count: 1
@@ -676,9 +676,9 @@
 - type: entity
   parent: [ MaterialBase, BaseKnife ]
   id: MaterialToothSharkminnow
-  name: ent-MaterialToothSharkminnow
-  description: ent-MaterialToothSharkminnow-desc
-  suffix: ent-MaterialToothSharkminnow-suffix
+  name: sharkminnow tooth
+  description: Looks sharp. Sharp enough to poke someone's eye out. Holy fuck it's big.
+  suffix: Full
   components:
   - type: MeleeWeapon
     damage:
@@ -711,7 +711,7 @@
 - type: entity
   parent: MaterialToothSharkminnow
   id: MaterialToothSharkminnow1
-  suffix: ent-MaterialToothSharkminnow1-suffix
+  suffix: 1
   components:
   - type: Stack
     count: 1
@@ -719,8 +719,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBones
-  name: ent-MaterialBones
-  suffix: ent-MaterialBones-suffix
+  name: bones
+  suffix: Full
   components:
   - type: Stack
     stackType: Bones
@@ -750,7 +750,7 @@
 - type: entity
   parent: MaterialBones
   id: MaterialBones1
-  suffix: ent-MaterialBones1-suffix
+  suffix: 1
   components:
   - type: Stack
     count: 1
@@ -758,8 +758,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialGunpowder
-  name: ent-MaterialGunpowder
-  description: ent-MaterialGunpowder-desc
+  name: gunpowder
+  description: An explosive compound.
   components:
   - type: Stack
     stackType: Gunpowder
@@ -777,9 +777,9 @@
 - type: entity
   parent: MaterialBase
   id: MaterialGoliathHide
-  name: ent-MaterialGoliathHide
-  description: ent-MaterialGoliathHide-desc
-  suffix: ent-MaterialGoliathHide-suffix
+  name: goliath hide plates
+  description: Pieces of a goliath's rocky hide, these might be able to make your suit a bit more durable to attack from the local fauna.
+  suffix: Full
   components:
   - type: Sprite
     sprite: Objects/Materials/hide.rsi
@@ -811,7 +811,7 @@
 - type: entity
   parent: MaterialGoliathHide
   id: MaterialGoliathHide1
-  suffix: ent-MaterialGoliathHide1-suffix
+  suffix: 1
   components:
   - type: Stack
     count: 1

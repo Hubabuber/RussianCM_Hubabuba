@@ -1,8 +1,8 @@
 - type: entity
   id: VehicleHumveeBase
   abstract: true
-  name: ent-VehicleHumveeBase
-  description: ent-VehicleHumveeBase-desc
+  name: humvee
+  description: A fast armored utility vehicle outfitted for patrols and support.
   components:
   - type: Vehicle
     movementKind: Grid
@@ -209,8 +209,8 @@
 - type: entity
   parent: VehicleHumveeBase
   id: VehicleHumveeMedical
-  name: ent-VehicleHumveeMedical
-  description: ent-VehicleHumveeMedical-desc
+  name: humvee (medical)
+  description: A medical-configured humvee outfitted for field triage.
   components:
   - type: Damageable
     damageContainer: StructuralMarine
@@ -280,8 +280,8 @@
 - type: entity
   parent: VehicleHumveeBase
   id: VehicleHumveeTransport
-  name: ent-VehicleHumveeTransport
-  description: ent-VehicleHumveeTransport-desc
+  name: humvee (transport)
+  description: A transport humvee configured for passenger movement.
   components:
   - type: Damageable
     damageContainer: StructuralMarine
@@ -351,8 +351,8 @@
 - type: entity
   parent: VehicleHumveeBase
   id: VehicleHumveeARC
-  name: ent-VehicleHumveeARC
-  description: ent-VehicleHumveeARC-desc
+  name: humvee (arc)
+  description: A humvee configured for ARC interior layout.
   components:
   - type: ItemSlots
     slots:

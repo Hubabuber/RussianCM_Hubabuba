@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: BasePlasticExplosive
   parent: BaseItem
   abstract: true
@@ -36,8 +36,8 @@
           Unprimed: { state: complete }
 
 - type: entity
-  name: ent-C4
-  description: ent-C4-desc
+  name: composition C-4
+  description: Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
   parent: [BasePlasticExplosive, BaseSyndicateContraband]
   id: C4
   components:
@@ -83,8 +83,8 @@
     price: 625 # 5000 for a bundle of 8
 
 - type: entity
-  name: ent-SeismicCharge
-  description: ent-SeismicCharge-desc
+  name: seismic charge
+  description: Concussion based explosive designed to destroy large amounts of rock.
   parent: [ BasePlasticExplosive, BaseSecurityCargoContraband ]
   id: SeismicCharge
   components:

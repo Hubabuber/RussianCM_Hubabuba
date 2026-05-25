@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: CryogenicSleepUnit
-  name: ent-CryogenicSleepUnit
-  description: ent-CryogenicSleepUnit-desc
+  name: cryogenic sleep unit
+  description: A super-cooled container that keeps crewmates safe during space travel.
   components:
   - type: Sprite
     noRot: true
@@ -55,7 +55,7 @@
 - type: entity
   parent: CryogenicSleepUnit
   id: CryogenicSleepUnitSpawner
-  suffix: ent-CryogenicSleepUnitSpawner-suffix
+  suffix: Spawner, Roundstart AllJobs
   components:
   - type: ContainerSpawnPoint
     containerId: storage
@@ -64,7 +64,7 @@
 - type: entity
   parent: CryogenicSleepUnit
   id: CryogenicSleepUnitSpawnerLateJoin
-  suffix: ent-CryogenicSleepUnitSpawnerLateJoin-suffix
+  suffix: Spawner, LateJoin
   components:
     - type: ContainerSpawnPoint
       containerId: storage

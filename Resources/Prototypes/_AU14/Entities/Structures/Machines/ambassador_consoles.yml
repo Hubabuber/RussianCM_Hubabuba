@@ -6,8 +6,8 @@
   abstract: true
   parent: RMCCommunicationsConsoleBase
   id: AU14AmbassadorConsoleBase
-  name: ent-AU14AmbassadorConsoleBase
-  description: ent-AU14AmbassadorConsoleBase-desc
+  name: ambassador console
+  description: A console for diplomatic functions and third party communication.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -45,9 +45,9 @@
 - type: entity
   id: AU14AmbassadorConsoleUPP
   parent: AU14AmbassadorConsoleBase
-  name: ent-AU14AmbassadorConsoleUPP
-  description: ent-AU14AmbassadorConsoleUPP-desc
-  suffix: ent-AU14AmbassadorConsoleUPP-suffix
+  name: UPP diplomatic console
+  description: A Union of Progressive Peoples diplomatic console. Can request GROM special forces support.
+  suffix: UPP, GROM
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -66,9 +66,9 @@
 - type: entity
   id: AU14AmbassadorConsoleUA
   parent: AU14AmbassadorConsoleBase
-  name: ent-AU14AmbassadorConsoleUA
-  description: ent-AU14AmbassadorConsoleUA-desc
-  suffix: ent-AU14AmbassadorConsoleUA-suffix
+  name: UA diplomatic console
+  description: A United Americas diplomatic console. Can request US Army or VAI support.
+  suffix: UA, Army
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -86,9 +86,9 @@
 - type: entity
   id: AU14AmbassadorConsoleTWE
   parent: AU14AmbassadorConsoleBase
-  name: ent-AU14AmbassadorConsoleTWE
-  description: ent-AU14AmbassadorConsoleTWE-desc
-  suffix: ent-AU14AmbassadorConsoleTWE-suffix
+  name: TWE diplomatic console
+  description: A Three World Empire diplomatic console. Can request NSPA or Royal Marines' support.
+  suffix: TWE, PMC
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -106,9 +106,9 @@
 - type: entity
   id: AU14AmbassadorConsoleIS
   parent: AU14AmbassadorConsoleBase
-  name: ent-AU14AmbassadorConsoleIS
-  description: ent-AU14AmbassadorConsoleIS-desc
-  suffix: ent-AU14AmbassadorConsoleIS-suffix
+  name: ICSC diplomatic console
+  description: An Independent Core System Colonies diplomatic console.
+  suffix: ICSC, PMC
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi

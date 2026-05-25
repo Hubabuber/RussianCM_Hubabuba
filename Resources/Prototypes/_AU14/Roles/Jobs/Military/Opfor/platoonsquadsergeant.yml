@@ -1,11 +1,11 @@
 - type: job
   parent: AU14JobSquadSergeantBase
   id: AU14JobOpforSquadSergeant
-  name: job-au14jobopforsquadsergeant-name
-  description: job-au14jobopforsquadsergeant-desc
+  name: au14-job-name-opforsquadsergeant
+  description: au14-job-description-opforsquadsergeant
   icon: "AU14JobIconOPFORPlatoonSarge"
-  spawnMenuRoleName: job-au14jobopforsquadsergeant-spawnmenurolename
-  supervisors: job-au14jobopforsquadsergeant-supervisors
+  spawnMenuRoleName: Squad Sergeant (OPFOR)
+  supervisors: au14-job-supervisors-opfor
   startingGear: AU14GearOpforSquadSergeant
   dummyStartingGear: AU14GearOpforSquadSergeantDummy
   accessGroups:
@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforSquadSergeant
-  name: ent-AU14SpawnPointopforSquadSergeant
+  name: Spawn Point opfor Squad Sergeant
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforSquadSergeant

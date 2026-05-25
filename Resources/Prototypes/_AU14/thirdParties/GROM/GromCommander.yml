@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14UPPGROMCommander
-  name: job-au14uppgromcommander-name
-  description: job-au14uppgromcommander-desc
+  name: au-14-job-name-rmcrrt-commander
+  description: au14-uppgrom-description
   playTimeTracker: AU14JobUPPGROMCommander
   ranks:
     UPP_Major:
@@ -10,12 +10,12 @@
       role: AU14JobUPPGROMCommander
       time: 18000 # 5 hours
     UPP_Captain: []
-  spawnMenuRoleName: job-au14uppgromcommander-spawnmenurolename
+  spawnMenuRoleName: UPP GROM Commander (Survivor)
   startingGear: AU14GearUPPGROMCommander
   greeting: au14-uppgrom-greeting
   icon: "AU14JobIconUPPGROMCommander"
   joinNotifyCrew: false
-  supervisors: job-au14uppgromcommander-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCommand
   special:
@@ -53,7 +53,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMCommander
-  name: ent-AU14JobUPPGROMCommander
+  name: UPP GROM Commander
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

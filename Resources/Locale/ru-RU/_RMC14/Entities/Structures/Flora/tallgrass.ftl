@@ -1,30 +1,30 @@
 ent-RMCGrassTallBase = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallSidesBase = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallCornerBase = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallDesert = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallSidesDesert = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallCornerDesert = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallIce = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallSidesIce = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallCornerIce = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallJungle = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallSidesJungle = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallCornerJungle = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallStrata = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallSidesStrata = высокая трава
-    .suffix = высокая трава
+
 ent-RMCGrassTallCornerStrata = высокая трава
-    .suffix = высокая трава
+

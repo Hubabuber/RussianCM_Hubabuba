@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTSPartyEngineer
-  name: job-au14jobpartspartyengineer-name
-  description: job-au14jobpartspartyengineer-desc
+  name: Prodigy Sierra Combat Engineer
+  description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTSPartyEngineer
   ranks:
     AU14RankWeYuOperator: []
-  spawnMenuRoleName: job-au14jobpartspartyengineer-spawnmenurolename
+  spawnMenuRoleName: Prodigy Sierra Combat Engineer (3rd party, M41A/2)
   startingGear: AU14GearPARTSPartyEngineer
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCEngineer"
   joinNotifyCrew: false
-  supervisors: job-au14jobpartspartyengineer-supervisors
+  supervisors: au14-job-supervisors-psc
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -31,7 +31,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobPARTSPartyEngineer
-  name: ent-AU14JobPARTSPartyEngineer
+  name: Prodigy Sierra Party Combat Engineer (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

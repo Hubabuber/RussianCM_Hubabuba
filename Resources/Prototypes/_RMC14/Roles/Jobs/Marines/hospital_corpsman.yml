@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMHospitalCorpsman
-  name: job-cmhospitalcorpsman-name
-  description: job-cmhospitalcorpsman-desc
+  name: cm-job-name-hospital-corpsman
+  description: cm-job-description-hospital-corpsman
   setPreference: false
   playTimeTracker: CMJobHospitalCorpsman
   ranks:
@@ -13,7 +13,7 @@
   icon: "CMJobIconHospitalCorpsman"
   joinNotifyCrew: false
   marineAuthorityLevel: 1
-  supervisors: job-cmhospitalcorpsman-supervisors
+  supervisors: cm-job-supervisors-sl
   accessGroups:
   - HospitalCorpsman
   #overwatchSortPriority: -2
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointHospitalCorpsman
-  name: ent-CMSpawnPointHospitalCorpsman
+  name: hospital corpsman spawn point
   components:
   - type: SpawnPoint
     job_id: CMHospitalCorpsman
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMSpawnPointHospitalCorpsman
   id: CMSpawnPointHospitalCorpsmanAlpha
-  suffix: ent-CMSpawnPointHospitalCorpsmanAlpha-suffix
+  suffix: Alpha
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMSpawnPointHospitalCorpsman
   id: CMSpawnPointHospitalCorpsmanBravo
-  suffix: ent-CMSpawnPointHospitalCorpsmanBravo-suffix
+  suffix: Bravo
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -103,7 +103,7 @@
 - type: entity
   parent: CMSpawnPointHospitalCorpsman
   id: CMSpawnPointHospitalCorpsmanCharlie
-  suffix: ent-CMSpawnPointHospitalCorpsmanCharlie-suffix
+  suffix: Charlie
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -114,7 +114,7 @@
 - type: entity
   parent: CMSpawnPointHospitalCorpsman
   id: CMSpawnPointHospitalCorpsmanDelta
-  suffix: ent-CMSpawnPointHospitalCorpsmanDelta-suffix
+  suffix: Delta
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -143,8 +143,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleHM
-  name: ent-RMCGuidebookRoleHM
-  description: ent-RMCGuidebookRoleHM-desc
+  name: Hospital Corpsman
+  description: Hospital Corpsman
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

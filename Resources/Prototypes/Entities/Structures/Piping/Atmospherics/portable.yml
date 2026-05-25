@@ -1,8 +1,8 @@
 - type: entity
   id: PortableScrubber
   parent: [BaseMachinePowered, SmallConstructibleMachine, StructureWheeled]
-  name: ent-PortableScrubber
-  description: ent-PortableScrubber-desc
+  name: portable scrubber
+  description: It scrubs, portably!
   components:
   - type: Transform
     anchored: false
@@ -102,9 +102,9 @@
 - type: entity
   id: SpaceHeater
   parent: [BaseMachinePowered, ConstructibleMachine]
-  name: ent-SpaceHeater
-  description: ent-SpaceHeater-desc
-  suffix: ent-SpaceHeater-suffix
+  name: space heater
+  description: A bluespace technology device that alters local temperature. Commonly referred to as a "Space Heater".
+  suffix: Unanchored
   components:
   - type: StationAiWhitelist
   - type: Transform
@@ -194,7 +194,7 @@
 - type: entity
   parent: SpaceHeater
   id: SpaceHeaterAnchored
-  suffix: ent-SpaceHeaterAnchored-suffix
+  suffix: Anchored
   components:
   - type: Transform
     anchored: true
@@ -204,7 +204,7 @@
 - type: entity
   parent: SpaceHeaterAnchored
   id: SpaceHeaterEnabled
-  suffix: ent-SpaceHeaterEnabled-suffix
+  suffix: Anchored, Enabled
   components:
   - type: ApcPowerReceiver
     powerDisabled: false

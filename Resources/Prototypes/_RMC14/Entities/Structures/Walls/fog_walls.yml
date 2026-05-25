@@ -1,9 +1,9 @@
-# TODO RMC14 make a central system to manage these instead of ticking them all separately
+﻿# TODO RMC14 make a central system to manage these instead of ticking them all separately
 - type: entity
   id: RMCFogWallPermanent
-  name: ent-RMCFogWallPermanent
-  description: ent-RMCFogWallPermanent-desc
-  suffix: ent-RMCFogWallPermanent-suffix
+  name: dense fog
+  description: It looks way too dangerous to traverse.
+  suffix: Permanent
   placement:
     mode: SnapgridCenter
     snap:
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCFogWallPermanent
   id: RMCFogWall25
-  description: ent-RMCFogWall25-desc
-  suffix: ent-RMCFogWall25-suffix
+  description: It looks way too dangerous to traverse. Best wait until it has cleared up.
+  suffix: 25 minutes
   components:
   - type: TimedDespawn
     lifetime: 1500
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCFogWall25
   id: RMCFogWall15
-  suffix: ent-RMCFogWall15-suffix
+  suffix: 15 minutes
   components:
   - type: TimedDespawn
     lifetime: 900
@@ -53,9 +53,9 @@
 - type: entity
   parent: MarkerBase
   id: RMCFogWallRemoverOne
-  name: ent-RMCFogWallRemoverOne
-  description: ent-RMCFogWallRemoverOne-desc
-  suffix: ent-RMCFogWallRemoverOne-suffix
+  name: random fog remover
+  description: Marks this fog for random removal at round-start.
+  suffix: group one
   components:
   - type: Sprite
     drawdepth: Overdoors
@@ -70,9 +70,9 @@
 - type: entity
   parent: MarkerBase
   id: RMCFogWallAdderOne
-  name: ent-RMCFogWallAdderOne
-  description: ent-RMCFogWallAdderOne-desc
-  suffix: ent-RMCFogWallAdderOne-suffix
+  name: random fog spawner
+  description: Marks a spot for random fog spawning at round-start.
+  suffix: group one, 25 minutes
   components:
   - type: Sprite
     drawdepth: Overdoors
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCFogWallRemoverOne
   id: RMCFogWallRemoverTwo
-  suffix: ent-RMCFogWallRemoverTwo-suffix
+  suffix: group two
   components:
   - type: RandomAnchoredRemover
     group: RMCFogWallRemoverTwo
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCFogWallAdderOne
   id: RMCFogWallAdderTwo
-  suffix: ent-RMCFogWallAdderTwo-suffix
+  suffix: group two, 25 minutes
   components:
   - type: RandomAnchoredSpawner
     group: RMCFogWallRemoverTwo
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCFogWallRemoverOne
   id: RMCFogWallRemoverThree
-  suffix: ent-RMCFogWallRemoverThree-suffix
+  suffix: group three
   components:
   - type: RandomAnchoredRemover
     group: RMCFogWallRemoverThree
@@ -109,14 +109,14 @@
 - type: entity
   parent: RMCFogWallAdderOne
   id: RMCFogWallAdderThree
-  suffix: ent-RMCFogWallAdderThree-suffix
+  suffix: group three, 25 minutes
   components:
   - type: RandomAnchoredSpawner
     group: RMCFogWallRemoverThree
 
 - type: entity
   id: RMCFogShockwave
-  name: ent-RMCFogShockwave
+  name: shockwave smoke
   components:
   - type: Transform
     anchored: true
@@ -133,8 +133,8 @@
 - type: entity
   id: RMCFogSpawner15
   parent: MarkerBase
-  name: ent-RMCFogSpawner15
-  suffix: ent-RMCFogSpawner15-suffix
+  name: fog blocker
+  suffix: 15 minutes
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

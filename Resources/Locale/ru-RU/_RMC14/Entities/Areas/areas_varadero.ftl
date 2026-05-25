@@ -1,126 +1,126 @@
 ent-RMCAreaVaraderoInteriorProtectedVessel = Новый Варадеро – неизвестное судно
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorProtectedMaintenanceSouth = Новый Варадеро – Южное обслуживание
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorProtectedCavesSwcaves = Новый Варадеро – Юго-западные пещеры
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorProtectedCavesDigsite = Новый Варадеро — место раскопок
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorProtectedCavesCentral = Новый Варадеро – Травяные пещеры
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorProtectedCaves = Новый Варадеро — Южные исследовательские пещеры
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorCavesEast = Новый Варадеро – пляжные пещеры
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorCavesNorthResearch = Новый Варадеро – Северные исследовательские пещеры
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorCaves = Новый Варадеро - ПЕЩЕРЫ РОДИТЕЛЬСКОГО ТИПА
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorRearElevator = Нью-Варадеро – главный подъемник
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorRecords = Нью Варадеро - Рекорды
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorSecurity = Нью-Варадеро - Офисы безопасности
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorBunks = Новый Варадеро — кварталы 1-го уровня
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMess = Новый Варадеро – Столовая
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorCourt = Нью-Варадеро - Баскетбольная площадка
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorLibrary = Новый Варадеро - Библиотека
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorAdministration = Нью-Варадеро – Административные офисы
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorDisposals = Нью-Варадеро - Утилизация
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorLaundry = Нью-Варадеро - Прачечная
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorTechnicalStorage = Нью-Варадеро – Технический склад
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorToilets = Новый Варадеро - Туалеты
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorElectrical = Новый Варадеро — электрическая пристройка
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorResearch = Нью-Варадеро – исследовательские офисы
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMaintenanceSecuritySouth = Новый Варадеро – Южный сек. 
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMaintenanceSecurityNorth = Новый Варадеро - Северный сектор. 
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMaintenanceSecurity = Новый Варадеро – сек. 
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMaintenanceResearch = Новый Варадеро — научно-исследовательское обслуживание
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMaintenanceNorth = Новый Варадеро – Северное обслуживание
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMaintenance = Новый Варадеро — центральное техническое обслуживание
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMedical = Нью-Варадеро - Медицинский
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorMorgue = Новый Варадеро - Морг
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorChapel = Нью-Вардеро - Часовня
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorHallSE = Новый Варадеро – коридор SE
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorHallN = Новый Варадеро — коридор N
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorHallNW = Новый Варадеро — коридор СЗ
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorCargo = Новый Варадеро - Груз
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorDockControl = Новый Варадеро – контроль доков
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorBeachBar = Новый Варадеро - Бар на пляже
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorFarocean = Новый Варадеро – Дальний океан
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorEastocean = Новый Варадеро – Восточный океан
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorPool = Новый Варадеро - Внутренний бассейн
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorMonsoon = Нью-Варадеро - Муссон
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorEastbeach = Нью-Варадеро – Восточный пляж
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorPontoonBeach = Новый Варадеро – пляж Рокабилли
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorLz2Near = Нью-Варадеро – аэродром Пальма
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorLz1Near = Нью-Варадеро - Понтонный аэродром
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorLz1ConsoleTwo = Нью-Варадеро – аэродром Пальма
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorLz1Console = Нью-Варадеро – Понтонный причал
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorOob = Нью-Варадеро – за пределами поля
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorComms4 = Новый Варадеро - Расширение пешеходной дорожки
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorComms3 = Нью-Варадеро – Инженерные коммуникации
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorComms2 = Новый Варадеро - Сайт коммуникационного проекта
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorComms1 = Новый Варадеро — Генератор грузов
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorProtected = Новый Варадеро - Интерьер
-    .suffix = область
+
 ent-RMCAreaVaraderoInterior = Новый Варадеро - Интерьер
-    .suffix = область
+
 ent-RMCAreaVaraderoExterior = Новый Варадеро — Внешний вид
-    .suffix = область
+
 ent-RMCAreaShuttleDrop2Varadero = Новый Варадеро — зона высадки десантного корабля в Нормандии
-    .suffix = область
+
 ent-RMCAreaShuttleDrop1Varadero = Нью-Варадеро — зона приземления десантного корабля Аламо
-    .suffix = область
+
 ent-RMCAreaVaradero = Новый Варадеро
-    .suffix = область
+
 ent-RMCAreaVaraderoExteriorPontoonBeachLz = Новый Варадеро – пляж Рокабилли
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorRestaurant = Новый Варадеро - Ресторан
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorProtectedMaintenance = Новый Варадеро - Интерьер
-    .suffix = область
+
 ent-RMCAreaVaraderoInteriorUnregisteredShuttle = Нью-Варадеро – незарегистрированный шаттл
-    .suffix = область
+

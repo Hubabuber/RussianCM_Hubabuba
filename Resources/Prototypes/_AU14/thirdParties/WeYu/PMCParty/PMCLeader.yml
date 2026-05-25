@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYPMCPartyLeader #m41a/2
-  name: job-au14jobwypmcpartyleader-name
-  description: job-au14jobwypmcpartyleader-desc
+  name: PMC Leader
+  description: au14-pmcparty-description
   playTimeTracker: AU14JobWYPMCPartyLeader
   ranks:
     AU14RankWeYuEnforcerLead: []
-  spawnMenuRoleName: job-au14jobwypmcpartyleader-spawnmenurolename
+  spawnMenuRoleName: WY PMC Leader (3rd party, M41A/2)
   startingGear: AU14GearWYPMCPartyLeader
   greeting: au14-pmcparty-greeting
   icon: "RMCJobIconPMCLeader"
   joinNotifyCrew: false
-  supervisors: job-au14jobwypmcpartyleader-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -48,7 +48,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyLeader
-  name: ent-AU14JobWYPMCPartyLeader
+  name: WY PMC Party Leader (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

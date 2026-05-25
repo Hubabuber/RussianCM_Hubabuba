@@ -122,9 +122,9 @@
 - type: entity
   parent: Multitool
   id: CMMultitool
-  name: ent-CMMultitool
-  description: ent-CMMultitool-desc
-  suffix: ent-CMMultitool-suffix
+  name: access tuner
+  description: A small handheld tool used to override or connect various machine functions.
+  suffix: Multitool
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/multitool.rsi
@@ -162,9 +162,9 @@
 - type: entity
   parent: trayScanner
   id: CMTRayScanner
-  name: ent-CMTRayScanner
-  description: ent-CMTRayScanner-desc
-  suffix: ent-CMTRayScanner-suffix
+  name: t-ray scanner
+  description: A high-tech scanning device that uses terahertz radiation to detect subfloor infrastructure.
+  suffix: trayScanner
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/t-ray.rsi
@@ -251,7 +251,7 @@
 - type: entity
   parent: CMCrowbar
   id: CMCrowbarRed
-  name: ent-CMCrowbarRed
+  name: emergency crowbar
   components:
   - type: Tag
     tags:
@@ -266,8 +266,8 @@
 - type: entity
   parent: BaseItem
   id: MaintenanceJack
-  name: ent-MaintenanceJack
-  description: ent-MaintenanceJack-desc
+  name: vehicle maintenance jack
+  description: A heavy-duty hardpoint jack for servicing armored vehicles. Works where a crowbar can't.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/maintenance_jack.rsi
@@ -304,8 +304,8 @@
 - type: entity
   parent: CMCrowbar
   id: RMCTacticalPrybar
-  name: ent-RMCTacticalPrybar
-  description: ent-RMCTacticalPrybar-desc
+  name: tactical prybar
+  description: Holding this makes you want to raid a townhouse filled with terrorists. Also doubles as a blunt weapon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/tac_prybar.rsi
@@ -323,8 +323,8 @@
 - type: entity
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCMaintenanceJack
-  name: ent-RMCMaintenanceJack
-  description: ent-RMCMaintenanceJack-desc
+  name: maintenance jack
+  description: A heavy synthetic-grade maintenance tool that can pry doors and work as a wrench.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/maintenance_jack.rsi
@@ -371,7 +371,7 @@
 - type: entity
   parent: HandLabeler
   id: CMHandLabeler
-  suffix: ent-CMHandLabeler-suffix
+  suffix: RMC14
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Tools/hand_labeler.rsi
@@ -394,7 +394,7 @@
 - type: entity
   parent: Shovel
   id: RMCShovel
-  suffix: ent-RMCShovel-suffix
+  suffix: RMC
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/shovel.rsi
@@ -420,9 +420,9 @@
 - type: entity
   parent: BaseItem
   id: RMCWireSnappers
-  name: ent-RMCWireSnappers
-  description: ent-RMCWireSnappers-desc
-  suffix: ent-RMCWireSnappers-suffix
+  name: wire snappers
+  description: The jaws are perfect for snipping large wires and other small metal bits, but are a bit too heavy for delicate work.
+  suffix: INSTANT, Repeating
   components:
   - type: RMCDeviceBreaker
     useSound: /Audio/Items/jaws_pry.ogg
@@ -464,7 +464,7 @@
 - type: entity
   parent: RMCWireSnappers
   id: RMCWireSnappersNoRepeat
-  suffix: ent-RMCWireSnappersNoRepeat-suffix
+  suffix: INSTANT
   components:
   - type: RMCDeviceBreaker
     repeat: false
@@ -472,7 +472,7 @@
 - type: entity
   parent: RMCWireSnappers
   id: RMCWireSnappersNormal
-  suffix: ent-RMCWireSnappersNormal-suffix
+  suffix: Slow
   components:
   - type: RMCDeviceBreaker
     doAfterTime: 7

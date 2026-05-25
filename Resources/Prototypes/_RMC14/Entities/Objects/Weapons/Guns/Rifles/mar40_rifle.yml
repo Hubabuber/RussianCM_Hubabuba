@@ -1,9 +1,9 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: WeaponRifleMAR40
-  name: ent-WeaponRifleMAR40
-  description: ent-WeaponRifleMAR40-desc
-  suffix: ent-WeaponRifleMAR40-suffix
+  name: MAR-40 battle rifle
+  description: A cheap, reliable assault rifle chambered in 7.62x39mm. Commonly found in the hands of criminals or mercenaries, or in the hands of the UPP or CLF.
+  suffix: Filled
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/mar40.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleMAR40
-  name: ent-RMCMagazineRifleMAR40
-  description: ent-RMCMagazineRifleMAR40-desc
+  name: MAR magazine (7.62x39mm)
+  description: A 7.62x39mm magazine for the MAR series of firearms.
   components:
   - type: Tag
     tags:
@@ -142,8 +142,8 @@
 - type: entity
   parent: RMCMagazineRifleMAR40
   id: RMCMagazineRifleMAR40Ext
-  name: ent-RMCMagazineRifleMAR40Ext
-  description: ent-RMCMagazineRifleMAR40Ext-desc
+  name: MAR extended magazine (7.62x39mm)
+  description: A 7.62x39mm MAR magazine, this one carries more rounds than the average magazine.
   components:
   - type: Tag
     tags:
@@ -172,8 +172,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineMar50LMG
-  name: ent-RMCMagazineMar50LMG
-  description: ent-RMCMagazineMar50LMG-desc
+  name: MAR drum magazine (7.62x39mm)
+  description: A 7.62x39mm drum magazine for the MAR-50 LMG.
   components:
   - type: Tag
     tags:
@@ -200,8 +200,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleMAR40
-  name: ent-RMCCartridgeRifleMAR40
-  description: ent-RMCCartridgeRifleMAR40-desc
+  name: Cartridge (7.62x39mm)
+  description: A 7.62x39mm rifle cartridge
   components:
   - type: Tag
     tags:

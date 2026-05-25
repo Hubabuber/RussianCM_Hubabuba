@@ -1,7 +1,7 @@
 - type: entity
   id: BaseSubdermalImplant
-  name: ent-BaseSubdermalImplant
-  description: ent-BaseSubdermalImplant-desc
+  name: implant
+  description: A microscopic chip that's injected under the skin.
   abstract: true
   components:
   - type: SubdermalImplant
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: SadTromboneImplant
-  name: ent-SadTromboneImplant
-  description: ent-SadTromboneImplant-desc
+  name: sad trombone implant
+  description: This implant plays a sad tune when the user dies.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: LightImplant
-  name: ent-LightImplant
-  description: ent-LightImplant-desc
+  name: light implant
+  description: This implant emits light from the user's skin on activation.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: BikeHornImplant
-  name: ent-BikeHornImplant
-  description: ent-BikeHornImplant-desc
+  name: bike horn implant
+  description: This implant lets the user honk anywhere at any time.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: TrackingImplant
-  name: ent-TrackingImplant
-  description: ent-TrackingImplant-desc
+  name: tracking implant
+  description: This implant has a tracking device attached to the suit sensor network.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -103,8 +103,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: StorageImplant
-  name: ent-StorageImplant
-  description: ent-StorageImplant-desc
+  name: storage implant
+  description: This implant grants hidden storage within a person's body using bluespace technology.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -130,8 +130,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: FreedomImplant
-  name: ent-FreedomImplant
-  description: ent-FreedomImplant-desc
+  name: freedom implant
+  description: This implant lets the user break out of hand restraints up to three times before ceasing to function anymore.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -143,8 +143,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RadioImplant
-  name: ent-RadioImplant
-  description: ent-RadioImplant-desc
+  name: radio implant
+  description: This implant grants access to the Syndicate channel without a headset.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -155,8 +155,8 @@
 - type: entity
   parent: [ BaseSubdermalImplant, StorePresetUplink ]
   id: UplinkImplant
-  name: ent-UplinkImplant
-  description: ent-UplinkImplant-desc
+  name: uplink implant
+  description: This implant lets the user access a hidden Syndicate uplink at will.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -175,8 +175,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: EmpImplant
-  name: ent-EmpImplant
-  description: ent-EmpImplant-desc
+  name: EMP implant
+  description: This implant creates an electromagnetic pulse when activated.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -190,8 +190,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: ScramImplant
-  name: ent-ScramImplant
-  description: ent-ScramImplant-desc
+  name: scram implant
+  description: This implant randomly teleports the user within a large radius when activated.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -202,8 +202,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DnaScramblerImplant
-  name: ent-DnaScramblerImplant
-  description: ent-DnaScramblerImplant-desc
+  name: DNA scrambler implant
+  description: This implant lets the user randomly change their appearance and name once.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -216,8 +216,8 @@
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseSubdermalImplant
   id: ChameleonControllerImplant
-  name: ent-ChameleonControllerImplant
-  description: ent-ChameleonControllerImplant-desc
+  name: chameleon controller implant
+  description: This implant allows you to instantly change the appearance of all worn chameleon clothing.
   components:
   - type: ChameleonControllerImplant
   - type: SubdermalImplant
@@ -234,8 +234,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MicroBombImplant
-  name: ent-MicroBombImplant
-  description: ent-MicroBombImplant-desc
+  name: micro-bomb implant
+  description: This implant detonates the user upon activation or upon death.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -264,8 +264,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MacroBombImplant
-  name: ent-MacroBombImplant
-  description: ent-MacroBombImplant-desc
+  name: macro-bomb implant
+  description: This implant creates a large explosion on death after a preprogrammed countdown.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -299,8 +299,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DeathAcidifierImplant
-  name: ent-DeathAcidifierImplant
-  description: ent-DeathAcidifierImplant-desc
+  name: death-acidifier implant
+  description: This implant melts the user and their equipment upon death.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -323,8 +323,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DeathRattleImplant
-  name: ent-DeathRattleImplant
-  description: ent-DeathRattleImplant-desc
+  name: death rattle implant
+  description: This implant will inform the Syndicate radio channel should the user fall into critical condition or die.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -341,8 +341,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: FakeMindShieldImplant
-  name: ent-FakeMindShieldImplant
-  description: ent-FakeMindShieldImplant-desc
+  name: fake mindshield implant
+  description: This implant allows the implanter to produce a fake signal that NT security huds use to identify individuals implanted with a mindshield.
   categories: [ HideSpawnMenu ]
   components:
       - type: SubdermalImplant
@@ -354,8 +354,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MindShieldImplant
-  name: ent-MindShieldImplant
-  description: ent-MindShieldImplant-desc
+  name: mindshield implant
+  description: This implant will ensure loyalty to Nanotrasen and prevent mind control devices.
   categories: [ HideSpawnMenu ]
   components:
    - type: SubdermalImplant
@@ -366,8 +366,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RadioImplantCentcomm
-  name: ent-RadioImplantCentcomm
-  description: ent-RadioImplantCentcomm-desc
+  name: radio implant
+  description: This implant grants access to the Centcomm channel without a headset. Only authorized for Centcomm employees.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -378,8 +378,8 @@
 - type: entity
   parent: DeathRattleImplant
   id: DeathRattleImplantCentcomm
-  name: ent-DeathRattleImplantCentcomm
-  description: ent-DeathRattleImplantCentcomm-desc
+  name: centcomm death rattle implant
+  description: This implant will inform the Centcomm radio channel should the user fall into critical condition or die.
   categories: [ HideSpawnMenu ]
   components:
   - type: Rattle

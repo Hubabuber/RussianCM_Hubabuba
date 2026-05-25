@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeant
-  name: job-au14jobgovforsectionsergeant-name
-  description: job-au14jobgovforsectionsergeant-desc
+  name: au14-job-name-govforSSG
+  description: au14-job-description-govforSSG
   setPreference: false
   requirements:
   - !type:OverallPlaytimeRequirement
@@ -32,14 +32,14 @@
   dummyStartingGear: AU14GearGOVFORPlatoonSergantDummy
   icon: "AU14JobIconPlatoonSarge"
   requireAdminNotify: true
-  spawnMenuRoleName: job-au14jobgovforsectionsergeant-spawnmenurolename
+  spawnMenuRoleName: Platoon Sergeant (GOVFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforsectionsergeant-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCommand
   overwatchSortPriority: -6
   overwatchShowName: true
-  overwatchRoleName: job-au14jobgovforsectionsergeant-overwatchrolename
+  overwatchRoleName: Platoon Sergeant
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -83,7 +83,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSectionSergeant
-  name: ent-AU14SpawnPointGOVFORSectionSergeant
+  name: Spawn Point GOVFOR Section Sergeant
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSectionSergeant

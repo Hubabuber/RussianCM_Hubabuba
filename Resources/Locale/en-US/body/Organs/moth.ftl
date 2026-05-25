@@ -1,1 +1,0 @@
-ent-OrganMothStomach = stomach

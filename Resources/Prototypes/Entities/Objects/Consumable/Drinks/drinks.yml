@@ -85,8 +85,8 @@
 
 # Transformable container - normal glass
 - type: entity
-  name: ent-DrinkGlass
-  description: ent-DrinkGlass-desc
+  name: metamorphic glass
+  description: A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
   parent: DrinkGlassBase
   id: DrinkGlass
   components:
@@ -115,8 +115,8 @@
   - type: TransformableContainer
 
 - type: entity
-  name: ent-DrinkGlassCoupeShaped
-  description: ent-DrinkGlassCoupeShaped-desc
+  name: coupe glass
+  description: A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
   parent: DrinkGlassBase
   id: DrinkGlassCoupeShaped
   components:
@@ -144,7 +144,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAbsintheGlass
-  suffix: ent-DrinkAbsintheGlass-suffix
+  suffix: absinthe
   components:
   - type: SolutionContainerManager
     solutions:
@@ -160,7 +160,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAcidSpitGlass
-  suffix: ent-DrinkAcidSpitGlass-suffix
+  suffix: acid spit
   components:
   - type: SolutionContainerManager
     solutions:
@@ -176,7 +176,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAleGlass
-  suffix: ent-DrinkAleGlass-suffix
+  suffix: ale
   components:
   - type: SolutionContainerManager
     solutions:
@@ -192,7 +192,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAlienBrainHemorrhage
-  suffix: ent-DrinkAlienBrainHemorrhage-suffix
+  suffix: alien brain hemorrhage
   components:
   - type: SolutionContainerManager
     solutions:
@@ -208,7 +208,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAlliesCocktail
-  suffix: ent-DrinkAlliesCocktail-suffix
+  suffix: allies cocktail
   components:
   - type: SolutionContainerManager
     solutions:
@@ -224,7 +224,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAloe
-  suffix: ent-DrinkAloe-suffix
+  suffix: aloe
   components:
   - type: SolutionContainerManager
     solutions:
@@ -240,7 +240,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAmasecGlass
-  suffix: ent-DrinkAmasecGlass-suffix
+  suffix: amasec
   components:
   - type: SolutionContainerManager
     solutions:
@@ -256,7 +256,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAndalusia
-  suffix: ent-DrinkAndalusia-suffix
+  suffix: andalusia
   components:
   - type: SolutionContainerManager
     solutions:
@@ -272,7 +272,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAntifreeze
-  suffix: ent-DrinkAntifreeze-suffix
+  suffix: antifreeze
   components:
   - type: SolutionContainerManager
     solutions:
@@ -285,7 +285,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkArnoldPalmer
-  suffix: ent-DrinkArnoldPalmer-suffix
+  suffix: arnold palmer
   components:
   - type: SolutionContainerManager
     solutions:
@@ -301,7 +301,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkAtomicBombGlass
-  suffix: ent-DrinkAtomicBombGlass-suffix
+  suffix: atomic bomb
   components:
   - type: SolutionContainerManager
     solutions:
@@ -333,7 +333,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBahamaMama
-  suffix: ent-DrinkBahamaMama-suffix
+  suffix: bahama mama
   components:
   - type: SolutionContainerManager
     solutions:
@@ -349,7 +349,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBananaHonkGlass
-  suffix: ent-DrinkBananaHonkGlass-suffix
+  suffix: banana honk
   components:
   - type: SolutionContainerManager
     solutions:
@@ -365,7 +365,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBarefootGlass
-  suffix: ent-DrinkBarefootGlass-suffix
+  suffix: barefoot
   components:
   - type: SolutionContainerManager
     solutions:
@@ -381,7 +381,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBeepskySmashGlass
-  suffix: ent-DrinkBeepskySmashGlass-suffix
+  suffix: beepsky smash
   components:
   - type: SolutionContainerManager
     solutions:
@@ -397,7 +397,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBeerglass
-  suffix: ent-DrinkBeerglass-suffix
+  suffix: beer
   components:
   - type: SolutionContainerManager
     solutions:
@@ -416,7 +416,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBerryJuice
-  suffix: ent-DrinkBerryJuice-suffix
+  suffix: berry juice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -432,7 +432,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBlackRussianGlass
-  suffix: ent-DrinkBlackRussianGlass-suffix
+  suffix: black russian
   components:
   - type: SolutionContainerManager
     solutions:
@@ -448,7 +448,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBlueCuracaoGlass
-  suffix: ent-DrinkBlueCuracaoGlass-suffix
+  suffix: blue curacao
   components:
   - type: SolutionContainerManager
     solutions:
@@ -464,7 +464,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBloodyMaryGlass
-  suffix: ent-DrinkBloodyMaryGlass-suffix
+  suffix: bloody mary
   components:
   - type: SolutionContainerManager
     solutions:
@@ -480,7 +480,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBlueHawaiianGlass
-  suffix: ent-DrinkBlueHawaiianGlass-suffix
+  suffix: blue hawaiian
   components:
   - type: SolutionContainerManager
     solutions:
@@ -496,7 +496,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBooger
-  suffix: ent-DrinkBooger-suffix
+  suffix: booger
   components:
   - type: SolutionContainerManager
     solutions:
@@ -512,7 +512,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBraveBullGlass
-  suffix: ent-DrinkBraveBullGlass-suffix
+  suffix: brave bull
   components:
   - type: SolutionContainerManager
     solutions:
@@ -528,7 +528,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBronxGlass
-  suffix: ent-DrinkBronxGlass-suffix
+  suffix: bronx
   components:
   - type: SolutionContainerManager
     solutions:
@@ -544,7 +544,7 @@
 - type: entity
   parent: DrinkGlass
   id: BudgetInsulsDrinkGlass
-  suffix: ent-BudgetInsulsDrinkGlass-suffix
+  suffix: budget insuls
   components:
   - type: SolutionContainerManager
     solutions:
@@ -560,7 +560,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCarrotJuice
-  suffix: ent-DrinkCarrotJuice-suffix
+  suffix: carrot juice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -576,7 +576,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkChocolateGlass
-  suffix: ent-DrinkChocolateGlass-suffix
+  suffix: chocolate
   components:
   - type: SolutionContainerManager
     solutions:
@@ -592,7 +592,7 @@
 - type: entity
   parent: DrinkGlass
   id: RubberneckGlass
-  suffix: ent-RubberneckGlass-suffix
+  suffix: rubberneck
   components:
   - type: SolutionContainerManager
     solutions:
@@ -608,7 +608,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCoconutRum
-  suffix: ent-DrinkCoconutRum-suffix
+  suffix: coconut rum
   components:
   - type: SolutionContainerManager
     solutions:
@@ -624,7 +624,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCoconutWaterGlass
-  suffix: ent-DrinkCoconutWaterGlass-suffix
+  suffix: coconut water
   components:
   - type: SolutionContainerManager
     solutions:
@@ -637,7 +637,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCoffee
-  suffix: ent-DrinkCoffee-suffix
+  suffix: coffee
   components:
   - type: SolutionContainerManager
     solutions:
@@ -653,7 +653,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCognacGlass
-  suffix: ent-DrinkCognacGlass-suffix
+  suffix: cognac
   components:
   - type: SolutionContainerManager
     solutions:
@@ -669,7 +669,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCosmopolitan
-  suffix: ent-DrinkCosmopolitan-suffix
+  suffix: cosmopolitan
   components:
   - type: SolutionContainerManager
     solutions:
@@ -685,7 +685,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCream
-  suffix: ent-DrinkCream-suffix
+  suffix: cream
   components:
   - type: SolutionContainerManager
     solutions:
@@ -698,7 +698,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCrushDepthGlass
-  suffix: ent-DrinkCrushDepthGlass-suffix
+  suffix: crush depth
   components:
   - type: SolutionContainerManager
     solutions:
@@ -714,7 +714,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCubaLibreGlass
-  suffix: ent-DrinkCubaLibreGlass-suffix
+  suffix: cuba libre
   components:
   - type: SolutionContainerManager
     solutions:
@@ -730,7 +730,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDarkandStormyGlass
-  suffix: ent-DrinkDarkandStormyGlass-suffix
+  suffix: dark and stormy
   components:
   - type: SolutionContainerManager
     solutions:
@@ -746,7 +746,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDeadRumGlass
-  suffix: ent-DrinkDeadRumGlass-suffix
+  suffix: dead rum
   components:
   - type: SolutionContainerManager
     solutions:
@@ -762,7 +762,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDemonsBlood
-  suffix: ent-DrinkDemonsBlood-suffix
+  suffix: demon's blood
   components:
   - type: SolutionContainerManager
     solutions:
@@ -778,7 +778,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDevilsKiss
-  suffix: ent-DrinkDevilsKiss-suffix
+  suffix: devil's kiss
   components:
   - type: SolutionContainerManager
     solutions:
@@ -794,7 +794,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDoctorsDelightGlass
-  suffix: ent-DrinkDoctorsDelightGlass-suffix
+  suffix: doctor's delight
   components:
   - type: SolutionContainerManager
     solutions:
@@ -810,7 +810,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDriestMartiniGlass
-  suffix: ent-DrinkDriestMartiniGlass-suffix
+  suffix: driest martini
   components:
   - type: SolutionContainerManager
     solutions:
@@ -826,7 +826,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDrGibbGlass
-  suffix: ent-DrinkDrGibbGlass-suffix
+  suffix: dr gibb
   components:
   - type: SolutionContainerManager
     solutions:
@@ -842,7 +842,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkEggnog
-  suffix: ent-DrinkEggnog-suffix
+  suffix: eggnog
   components:
   - type: SolutionContainerManager
     solutions:
@@ -858,7 +858,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkElectricSharkGlass
-  suffix: ent-DrinkElectricSharkGlass-suffix
+  suffix: electric shark
   components:
   - type: SolutionContainerManager
     solutions:
@@ -874,7 +874,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkErikaSurprise
-  suffix: ent-DrinkErikaSurprise-suffix
+  suffix: erika surprise
   components:
   - type: SolutionContainerManager
     solutions:
@@ -890,7 +890,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkFourteenLokoGlass
-  suffix: ent-DrinkFourteenLokoGlass-suffix
+  suffix: fourteen loko
   components:
   - type: SolutionContainerManager
     solutions:
@@ -906,7 +906,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGargleBlasterGlass
-  suffix: ent-DrinkGargleBlasterGlass-suffix
+  suffix: pan-galactic gargle blaster
   components:
   - type: SolutionContainerManager
     solutions:
@@ -922,7 +922,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGinGlass
-  suffix: ent-DrinkGinGlass-suffix
+  suffix: gin
   components:
   - type: SolutionContainerManager
     solutions:
@@ -938,7 +938,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGinFizzGlass
-  suffix: ent-DrinkGinFizzGlass-suffix
+  suffix: gin fizz
   components:
   - type: SolutionContainerManager
     solutions:
@@ -954,7 +954,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGinTonicglass
-  suffix: ent-DrinkGinTonicglass-suffix
+  suffix: gin and tonic
   components:
   - type: SolutionContainerManager
     solutions:
@@ -970,7 +970,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGildlagerGlass
-  suffix: ent-DrinkGildlagerGlass-suffix
+  suffix: gildlager
   components:
   - type: SolutionContainerManager
     solutions:
@@ -986,7 +986,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGrapeJuice
-  suffix: ent-DrinkGrapeJuice-suffix
+  suffix: grape juice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1002,7 +1002,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGrapeSodaGlass
-  suffix: ent-DrinkGrapeSodaGlass-suffix
+  suffix: grape soda
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1018,7 +1018,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGreenTeaGlass
-  suffix: ent-DrinkGreenTeaGlass-suffix
+  suffix: green tea
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1034,7 +1034,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGrenadineGlass
-  suffix: ent-DrinkGrenadineGlass-suffix
+  suffix: grenadine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1050,7 +1050,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGrogGlass
-  suffix: ent-DrinkGrogGlass-suffix
+  suffix: grog
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1066,7 +1066,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkHippiesDelightGlass
-  suffix: ent-DrinkHippiesDelightGlass-suffix
+  suffix: hippies' delight
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1082,8 +1082,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkHoochGlass
-  suffix: ent-DrinkHoochGlass-suffix
-  description: ent-DrinkHoochGlass-desc
+  suffix: hooch
+  description: You've really hit rock bottom now... your liver packed its bags and left last night.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1099,7 +1099,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIcedCoffeeGlass
-  suffix: ent-DrinkIcedCoffeeGlass-suffix
+  suffix: iced coffee
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1115,7 +1115,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIcedGreenTeaGlass
-  suffix: ent-DrinkIcedGreenTeaGlass-suffix
+  suffix: iced green tea
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1131,7 +1131,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIcedTeaGlass
-  suffix: ent-DrinkIcedTeaGlass-suffix
+  suffix: iced tea
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1147,7 +1147,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIcedBeerGlass
-  suffix: ent-DrinkIcedBeerGlass-suffix
+  suffix: iced beer
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1166,7 +1166,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIceGlass
-  suffix: ent-DrinkIceGlass-suffix
+  suffix: ice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1182,7 +1182,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIceCreamGlass
-  suffix: ent-DrinkIceCreamGlass-suffix
+  suffix: ice cream
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1198,7 +1198,7 @@
 - type: entity
   parent: DrinkGlass
   id: IrishBoolGlass
-  suffix: ent-IrishBoolGlass-suffix
+  suffix: irish bool
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1214,7 +1214,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIrishSlammer
-  suffix: ent-DrinkIrishSlammer-suffix
+  suffix: grenade penguin
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1230,7 +1230,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIrishCoffeeGlass
-  suffix: ent-DrinkIrishCoffeeGlass-suffix
+  suffix: irish coffee
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1246,7 +1246,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkIrishCreamGlass
-  suffix: ent-DrinkIrishCreamGlass-suffix
+  suffix: irish cream
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1262,7 +1262,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCoffeeLiqueurGlass
-  suffix: ent-DrinkCoffeeLiqueurGlass-suffix
+  suffix: coffee liqueur
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1278,7 +1278,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkJackRoseGlass
-  suffix: ent-DrinkJackRoseGlass-suffix
+  suffix: jack rose
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1294,7 +1294,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkJungleBirdGlass
-  suffix: ent-DrinkJungleBirdGlass-suffix
+  suffix: jungle bird
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1310,7 +1310,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkKalimotxoGlass
-  suffix: ent-DrinkKalimotxoGlass-suffix
+  suffix: kalimotxo
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1326,7 +1326,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkKiraSpecial
-  suffix: ent-DrinkKiraSpecial-suffix
+  suffix: kira special
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1343,7 +1343,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkLemonadeGlass
-  suffix: ent-DrinkLemonadeGlass-suffix
+  suffix: lemonade
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1359,7 +1359,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkLemonJuice
-  suffix: ent-DrinkLemonJuice-suffix
+  suffix: lemon juice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1375,7 +1375,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkLemonLime
-  suffix: ent-DrinkLemonLime-suffix
+  suffix: lemon lime
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1391,7 +1391,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkLimeJuice
-  suffix: ent-DrinkLimeJuice-suffix
+  suffix: lime juice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1404,7 +1404,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkLongIslandIcedTeaGlass
-  suffix: ent-DrinkLongIslandIcedTeaGlass-suffix
+  suffix: long island iced tea
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1420,7 +1420,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkManhattanGlass
-  suffix: ent-DrinkManhattanGlass-suffix
+  suffix: manhattan
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1436,7 +1436,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkManhattanProjectGlass
-  suffix: ent-DrinkManhattanProjectGlass-suffix
+  suffix: manhattan project
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1452,7 +1452,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkManlyDorfGlass
-  suffix: ent-DrinkManlyDorfGlass-suffix
+  suffix: manly dorf
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1468,7 +1468,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMargaritaGlass
-  suffix: ent-DrinkMargaritaGlass-suffix
+  suffix: margarita
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1484,7 +1484,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMartiniGlass
-  suffix: ent-DrinkMartiniGlass-suffix
+  suffix: classic martini
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1500,7 +1500,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMeadGlass
-  suffix: ent-DrinkMeadGlass-suffix
+  suffix: mead
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1516,7 +1516,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMilkshake
-  suffix: ent-DrinkMilkshake-suffix
+  suffix: milkshake
   components:
   - type: Icon
     sprite: Objects/Consumable/Drinks/milkshake.rsi
@@ -1525,7 +1525,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMojito
-  suffix: ent-DrinkMojito-suffix
+  suffix: mojito
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1541,7 +1541,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMonkeyBusinessGlass
-  suffix: ent-DrinkMonkeyBusinessGlass-suffix
+  suffix: monkey business
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1557,7 +1557,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkNeurotoxinGlass
-  suffix: ent-DrinkNeurotoxinGlass-suffix
+  suffix: neurotoxin
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1573,7 +1573,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkNothing
-  suffix: ent-DrinkNothing-suffix
+  suffix: nothing
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1589,7 +1589,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkNTCahors
-  suffix: ent-DrinkNTCahors-suffix
+  suffix: neotheology cahors whine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1605,7 +1605,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkNuclearColaGlass
-  suffix: ent-DrinkNuclearColaGlass-suffix
+  suffix: nuclear cola
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1621,7 +1621,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkOrangeJuice
-  suffix: ent-DrinkOrangeJuice-suffix
+  suffix: orange juice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1637,7 +1637,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkPainkillerGlass
-  suffix: ent-DrinkPainkillerGlass-suffix
+  suffix: painkiller
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1653,7 +1653,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkPatronGlass
-  suffix: ent-DrinkPatronGlass-suffix
+  suffix: patron
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1669,7 +1669,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkPinaColadaGlass
-  suffix: ent-DrinkPinaColadaGlass-suffix
+  suffix: piña colada
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1685,7 +1685,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkPoisonBerryJuice
-  suffix: ent-DrinkPoisonBerryJuice-suffix
+  suffix: poison berry juice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1701,7 +1701,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkPoisonWineGlass
-  suffix: ent-DrinkPoisonWineGlass-suffix
+  suffix: poison wine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1717,7 +1717,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkPoscaGlass
-  suffix: ent-DrinkPoscaGlass-suffix
+  suffix: posca
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1733,7 +1733,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkRadlerGlass
-  suffix: ent-DrinkRadlerGlass-suffix
+  suffix: radler
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1749,7 +1749,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkRedMeadGlass
-  suffix: ent-DrinkRedMeadGlass-suffix
+  suffix: red mead
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1765,7 +1765,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkRewriter
-  suffix: ent-DrinkRewriter-suffix
+  suffix: rewriter
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1781,7 +1781,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkRootBeerGlass
-  suffix: ent-DrinkRootBeerGlass-suffix
+  suffix: root beer
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1797,7 +1797,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkRootBeerFloatGlass
-  suffix: ent-DrinkRootBeerFloatGlass-suffix
+  suffix: root beer float
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1813,7 +1813,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkRumGlass
-  suffix: ent-DrinkRumGlass-suffix
+  suffix: rum
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1829,7 +1829,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkRoyRogersGlass
-  suffix: ent-DrinkRoyRogersGlass-suffix
+  suffix: roy rogers
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1845,7 +1845,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSakeGlass
-  suffix: ent-DrinkSakeGlass-suffix
+  suffix: sake
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1861,7 +1861,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSbitenGlass
-  suffix: ent-DrinkSbitenGlass-suffix
+  suffix: sbiten
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1877,7 +1877,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkScrewdriverCocktailGlass
-  suffix: ent-DrinkScrewdriverCocktailGlass-suffix
+  suffix: screwdriver
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1893,7 +1893,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCogChampBase
-  suffix: ent-DrinkCogChampBase-suffix
+  suffix: cogchamp
   components:
     - type: SolutionContainerManager
       solutions:
@@ -1909,7 +1909,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSuiDreamGlass
-  suffix: ent-DrinkSuiDreamGlass-suffix
+  suffix: sui dream
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1925,7 +1925,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkEmeraldGlass
-  suffix: ent-DrinkEmeraldGlass-suffix
+  suffix: melon liquor
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1941,7 +1941,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMoonshineGlass
-  suffix: ent-DrinkMoonshineGlass-suffix
+  suffix: moonshine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1957,7 +1957,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkGlassWhite
-  suffix: ent-DrinkGlassWhite-suffix
+  suffix: milk
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1973,7 +1973,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkShirleyTempleGlass
-  suffix: ent-DrinkShirleyTempleGlass-suffix
+  suffix: shirley temple
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1989,7 +1989,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSilencerGlass
-  suffix: ent-DrinkSilencerGlass-suffix
+  suffix: silencer
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2005,7 +2005,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSingulo
-  suffix: ent-DrinkSingulo-suffix
+  suffix: singulo
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2021,7 +2021,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSolDryGlass
-  suffix: ent-DrinkSolDryGlass-suffix
+  suffix: sol dry
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2037,7 +2037,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSnowWhite
-  suffix: ent-DrinkSnowWhite-suffix
+  suffix: snow white
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2053,7 +2053,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSoyLatte
-  suffix: ent-DrinkSoyLatte-suffix
+  suffix: soy latte
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2085,7 +2085,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSpaceMountainWindGlass
-  suffix: ent-DrinkSpaceMountainWindGlass-suffix
+  suffix: space mountain wind
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2101,7 +2101,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkSyndicatebomb
-  suffix: ent-DrinkSyndicatebomb-suffix
+  suffix: syndicate bomb
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2117,7 +2117,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTeaGlass
-  suffix: ent-DrinkTeaGlass-suffix
+  suffix: tea
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2133,8 +2133,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTeapot
-  name: ent-DrinkTeapot  # short and stout
-  description: ent-DrinkTeapot-desc
+  name: teapot  # short and stout
+  description: An elegant teapot. It simply oozes class.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2149,7 +2149,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTequilaGlass
-  suffix: ent-DrinkTequilaGlass-suffix
+  suffix: tequila
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2165,7 +2165,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTequilaSunriseGlass
-  suffix: ent-DrinkTequilaSunriseGlass-suffix
+  suffix: tequila sunrise
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2181,7 +2181,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTheMartinez
-  suffix: ent-DrinkTheMartinez-suffix
+  suffix: the martinez
   components:
     - type: SolutionContainerManager
       solutions:
@@ -2197,7 +2197,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkThreeMileIslandGlass
-  suffix: ent-DrinkThreeMileIslandGlass-suffix
+  suffix: three mile island
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2213,7 +2213,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTomatoJuice
-  suffix: ent-DrinkTomatoJuice-suffix
+  suffix: tomato juice
   components:
   - type: Drink
   - type: SolutionContainerManager
@@ -2227,7 +2227,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTortugaGlass
-  suffix: ent-DrinkTortugaGlass-suffix
+  suffix: tortuga
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2243,7 +2243,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkToxinsSpecialGlass
-  suffix: ent-DrinkToxinsSpecialGlass-suffix
+  suffix: toxins special
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2259,7 +2259,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkVampiroGlass
-  suffix: ent-DrinkVampiroGlass-suffix
+  suffix: vampiro
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2275,7 +2275,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkVermouthGlass
-  suffix: ent-DrinkVermouthGlass-suffix
+  suffix: vermouth
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2291,7 +2291,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkVodkaGlass
-  suffix: ent-DrinkVodkaGlass-suffix
+  suffix: vodka
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2307,7 +2307,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkVodkaMartiniGlass
-  suffix: ent-DrinkVodkaMartiniGlass-suffix
+  suffix: vodka martini
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2323,7 +2323,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkVodkaRedBool
-  suffix: ent-DrinkVodkaRedBool-suffix
+  suffix: vodka red bool
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2339,7 +2339,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkVodkaTonicGlass
-  suffix: ent-DrinkVodkaTonicGlass-suffix
+  suffix: vodka tonic
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2355,8 +2355,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWaterJug
-  name: ent-DrinkWaterJug
-  description: ent-DrinkWaterJug-desc
+  name: water jug
+  description: Stay hydrated.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2372,7 +2372,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWatermelonJuice
-  suffix: ent-DrinkWatermelonJuice-suffix
+  suffix: watermelon juice
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2385,7 +2385,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWatermelonWakeup
-  suffix: ent-DrinkWatermelonWakeup-suffix
+  suffix: watermelon wakeup
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2401,7 +2401,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiskeyColaGlass
-  suffix: ent-DrinkWhiskeyColaGlass-suffix
+  suffix: whiskey cola
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2417,7 +2417,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiskeyGlass
-  suffix: ent-DrinkWhiskeyGlass-suffix
+  suffix: whiskey
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2433,7 +2433,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiskeySodaGlass
-  suffix: ent-DrinkWhiskeySodaGlass-suffix
+  suffix: whiskey soda
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2449,7 +2449,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiteRussianGlass
-  suffix: ent-DrinkWhiteRussianGlass-suffix
+  suffix: white russian
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2465,7 +2465,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWineGlass
-  suffix: ent-DrinkWineGlass-suffix
+  suffix: wine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2481,7 +2481,7 @@
 - type: entity
   parent: DrinkGlass
   id: XenoBasherGlass
-  suffix: ent-XenoBasherGlass-suffix
+  suffix: xeno basher
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2497,7 +2497,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCaipirinha
-  suffix: ent-DrinkCaipirinha-suffix
+  suffix: caipirinha
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2513,7 +2513,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDaiquiri
-  suffix: ent-DrinkDaiquiri-suffix
+  suffix: daiquiri
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2529,7 +2529,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkDeathInTheAfternoon
-  suffix: ent-DrinkDeathInTheAfternoon-suffix
+  suffix: death in the afternoon
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2545,7 +2545,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkEmpress75
-  suffix: ent-DrinkEmpress75-suffix
+  suffix: empress 75
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2561,7 +2561,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkEspressoMartini
-  suffix: ent-DrinkEspressoMartini-suffix
+  suffix: espresso martini
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2577,7 +2577,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMayojito
-  suffix: ent-DrinkMayojito-suffix
+  suffix: mayojito
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2593,7 +2593,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMimeosa
-  suffix: ent-DrinkMimeosa-suffix
+  suffix: mimeosa
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2609,7 +2609,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMimosa
-  suffix: ent-DrinkMimosa-suffix
+  suffix: mimosa
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2625,7 +2625,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkMoscowMule
-  suffix: ent-DrinkMoscowMule-suffix
+  suffix: moscow mule
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2641,7 +2641,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkTheSunAlsoRises
-  suffix: ent-DrinkTheSunAlsoRises-suffix
+  suffix: the sun also rises
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2657,7 +2657,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWhiskeySour
-  suffix: ent-DrinkWhiskeySour-suffix
+  suffix: whiskey sour
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2675,8 +2675,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeBlue
-  name: ent-DrinkShakeBlue
-  description: 'ent-DrinkShakeBlue-desc'
+  name: blue milkshake
+  description: ''
   components:
   - type: Drink
   - type: Sprite
@@ -2685,8 +2685,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeEmpty
-  name: ent-DrinkShakeEmpty
-  description: 'ent-DrinkShakeEmpty-desc'
+  name: shakeempty
+  description: ''
   components:
   - type: Drink
   - type: Sprite
@@ -2695,8 +2695,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeMeat
-  name: ent-DrinkShakeMeat
-  description: 'ent-DrinkShakeMeat-desc'
+  name: meat shake
+  description: ''
   components:
   - type: Drink
   - type: Sprite
@@ -2705,8 +2705,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeRobo
-  name: ent-DrinkShakeRobo
-  description: 'ent-DrinkShakeRobo-desc'
+  name: robo shake
+  description: ''
   components:
   - type: Drink
   - type: Sprite
@@ -2715,8 +2715,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeWhite
-  name: ent-DrinkShakeWhite
-  description: 'ent-DrinkShakeWhite-desc'
+  name: white shake
+  description: ''
   components:
   - type: Drink
   - type: Sprite
@@ -2725,7 +2725,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBloodGlass
-  suffix: ent-DrinkBloodGlass-suffix
+  suffix: blood
   components:
     - type: SolutionContainerManager
       solutions:
@@ -2741,8 +2741,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBacchusBlessing
-  suffix: ent-DrinkBacchusBlessing-suffix
-  description: ent-DrinkBacchusBlessing-desc
+  suffix: bacchus blessing
+  description: You didn't think it was possible for a liquid to be so utterly revolting. Are you sure about this...?
   components:
   - type: SolutionContainerManager
     solutions:

@@ -12,8 +12,8 @@
 - type: entity
   id: FultonBeacon
   parent: BaseFoldable
-  name: ent-FultonBeacon
-  description: ent-FultonBeacon-desc
+  name: fulton beacon
+  description: Beacon to receive fulton extractions.
   components:
     - type: Physics
       bodyType: Dynamic
@@ -56,9 +56,9 @@
 - type: entity
   id: Fulton
   parent: BaseItem
-  suffix: ent-Fulton-suffix
-  name: ent-Fulton
-  description: ent-Fulton-desc
+  suffix: Full
+  name: fulton
+  description: Used to extract containers, items, or forcibly recruit people into your base of operations.
   components:
   - type: Fulton
   - type: Item
@@ -89,8 +89,8 @@
 - type: entity
   id: Fulton1
   parent: Fulton
-  name: ent-Fulton1
-  suffix: ent-Fulton1-suffix
+  name: fulton
+  suffix: One
   components:
   - type: Stack
     count: 1
@@ -98,7 +98,7 @@
 - type: entity
   id: FultonEffect
   categories: [ HideSpawnMenu ]
-  name: ent-FultonEffect
+  name: fulton effect
   components:
   - type: TimedDespawn
     lifetime: 60

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ent-AU14WeaponRifleF44AA
+  name: F44AA pulse rifle
   id: AU14WeaponRifleF44AA
-  description: ent-AU14WeaponRifleF44AA-desc
+  description: F44AA is an electronic pulse-action assault rifle. Manufactured by the Weyland-Yutani, the rifle is equipped with an amining assist computer and safety.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c/snow.rsi
@@ -110,7 +110,7 @@
 - type: entity
   parent: AU14WeaponRifleF44AA
   id: AU14WeaponRifleF44AALock
-  suffix: ent-AU14WeaponRifleF44AALock-suffix
+  suffix: ID lock
   components:
   - type: GunIDLock
 
@@ -118,7 +118,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14MagazineRifleF44AA
-  name: "ent-AU14MagazineRifleF44AA"
+  name: "F44AA magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -145,8 +145,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: AU14AttachmentF44AAStockCollapsible
-  name: ent-AU14AttachmentF44AAStockCollapsible
-  description: ent-AU14AttachmentF44AAStockCollapsible-desc
+  name: F44AA folding stock
+  description: The standard back end of any gun starting with F44AA.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/snow.rsi

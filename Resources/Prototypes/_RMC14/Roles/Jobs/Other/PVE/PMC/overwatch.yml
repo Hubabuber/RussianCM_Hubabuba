@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMPMCForceCommandPVE
-  name: job-cmpmcforcecommandpve-name
-  description: job-cmpmcforcecommandpve-desc
+  name: rmc-job-name-pmc-pve-force-command
+  description: rmc-job-description-pmc-pve-force-command
   playTimeTracker: CMJobPMCForceCommandPVE
   requirements:
   - !type:RoleTimeRequirement
@@ -16,7 +16,7 @@
   accessGroups:
   - MarineMain
   - RMCWeYa
-  spawnMenuRoleName: job-cmpmcforcecommandpve-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Force Command (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCForceCommandPVE
-  name: ent-RMCSpawnPointPMCForceCommandPVE
-  suffix: ent-RMCSpawnPointPMCForceCommandPVE-suffix
+  name: weya pmc force command spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: CMPMCForceCommandPVE

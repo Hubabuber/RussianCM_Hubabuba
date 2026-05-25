@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCEngineerKit
-  name: ent-RMCEngineerKit
-  description: ent-RMCEngineerKit-desc
+  name: engineer kit
+  description: A combat engineering toolkit intended to carry electrical and mechanical supplies into combat. With engineering training you can fit this in a backpack.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/engineer_kit.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCEngineerKit
   id: RMCEngineerKitRCMPVEFilled
-  suffix: ent-RMCEngineerKitRCMPVEFilled-suffix
+  suffix: Filled, RCM, PVE
   components:
   - type: StorageFill
     contents:

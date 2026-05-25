@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeLightRifle
-  name: ent-BaseCartridgeLightRifle
+  name: cartridge (.30 rifle)
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
@@ -20,18 +20,18 @@
 
 - type: entity
   id: CartridgeLightRifle
-  name: ent-CartridgeLightRifle
+  name: cartridge (.30 rifle)
   parent: BaseCartridgeLightRifle
-  description: ent-CartridgeLightRifle-desc
+  description: A classic intermediate cartridge used by many combat rifles and LMGs. Standard kinetic ammunition is common and useful in most situations.
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifle
 
 - type: entity
   id: CartridgeLightRiflePractice
-  name: ent-CartridgeLightRiflePractice
+  name: cartridge (.30 rifle practice)
   parent: BaseCartridgeLightRifle
-  description: ent-CartridgeLightRiflePractice-desc
+  description: A classic intermediate cartridge used by many combat rifles and LMGs. Chalk ammunition is generally non-harmful, used for practice.
   components:
   - type: CartridgeAmmo
     proto: BulletLightRiflePractice
@@ -45,9 +45,9 @@
 
 - type: entity
   id: CartridgeLightRifleIncendiary
-  name: ent-CartridgeLightRifleIncendiary
+  name: cartridge (.30 rifle incendiary)
   parent: BaseCartridgeLightRifle
-  description: ent-CartridgeLightRifleIncendiary-desc
+  description: A classic intermediate cartridge used by many combat rifles and LMGs. Incendiary ammunition contains a self-igniting compound that sets the target ablaze.
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifleIncendiary
@@ -61,9 +61,9 @@
 
 - type: entity
   id: CartridgeLightRifleUranium
-  name: ent-CartridgeLightRifleUranium
+  name: cartridge (.30 rifle uranium)
   parent: BaseCartridgeLightRifle
-  description: ent-CartridgeLightRifleUranium-desc
+  description: A classic intermediate cartridge used by many combat rifles and LMGs. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating the target from the inside.
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifleUranium

@@ -1,7 +1,7 @@
 - type: entity
   id: BaseRock
-  name: ent-BaseRock
-  description: ent-BaseRock-desc
+  name: boulder
+  description: Heavy as a really heavy thing.
   abstract: true
   components:
   - type: Clickable
@@ -35,7 +35,7 @@
 
 - type: entity
   id: BaseTree
-  description: ent-BaseTree-desc
+  description: Yep, it's a tree.
   abstract: true
   components:
   - type: SpriteFade
@@ -161,8 +161,8 @@
         rocksolid03: ""
 
 - type: entity
-  name: ent-FloraStalagmite
-  description: ent-FloraStalagmite-desc
+  name: stalagmite
+  description: Natural stone spikes.
   parent: BaseRock
   id: FloraStalagmite
   components:
@@ -214,7 +214,7 @@
 - type: entity
   parent: BaseTree
   id: FloraTree
-  name: ent-FloraTree
+  name: tree
   components:
   - type: Sprite
     layers:
@@ -233,7 +233,7 @@
 - type: entity
   parent: BaseTreeSnow
   id: FloraTreeSnow
-  name: ent-FloraTreeSnow
+  name: snowy tree
   components:
   - type: Sprite
     layers:
@@ -252,7 +252,7 @@
 - type: entity
   parent: BaseTreeSnow
   id: FloraTreeStump
-  name: ent-FloraTreeStump
+  name: tree stump
   components:
   - type: Sprite
     state: treestump
@@ -260,7 +260,7 @@
 - type: entity
   parent: BaseTreeLarge
   id: FloraTreeLarge
-  name: ent-FloraTreeLarge
+  name: large tree
   components:
   - type: Sprite
     layers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeConifer
-  name: ent-FloraTreeConifer
+  name: snowy conifer
   components:
   - type: Sprite
     layers:
@@ -295,7 +295,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeChristmas01
-  name: ent-FloraTreeChristmas01
+  name: christmas tree
   components:
   - type: Sprite
     state: treechristmas01
@@ -303,8 +303,8 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeChristmas02
-  suffix: ent-FloraTreeChristmas02-suffix
-  name: ent-FloraTreeChristmas02
+  suffix: Safe Presents
+  name: christmas tree
   components:
   - type: Sprite
     state: treechristmas02
@@ -334,8 +334,8 @@
 - type: entity
   parent: FloraTreeChristmas02
   id: FloraTreeChristmas03
-  suffix: ent-FloraTreeChristmas03-suffix
-  name: ent-FloraTreeChristmas03
+  suffix: Insane Presents
+  name: christmas tree
   components:
   - type: LimitedItemGiver
     spawnEntries:
@@ -351,7 +351,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeStumpConifer
-  name: ent-FloraTreeStumpConifer
+  name: tree stump
   components:
   - type: Sprite
     state: treestumpconifer
@@ -359,8 +359,8 @@
 - type: entity
   parent: FloraTree
   id: ShadowTree
-  name: ent-ShadowTree
-  description: ent-ShadowTree-desc
+  name: dark wood
+  description: The leaves are whispering about you.
   components:
   - type: Sprite
     sprite: Objects/Decoration/Flora/flora_shadow_trees.rsi
@@ -368,8 +368,8 @@
 - type: entity
   parent: BaseTree
   id: LightTree
-  name: ent-LightTree
-  description: ent-LightTree-desc
+  name: glowing tree
+  description: A marvelous tree filled with strange energy.
   components:
   - type: PointLight
     radius: 2.0

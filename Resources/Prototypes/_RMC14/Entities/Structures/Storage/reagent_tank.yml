@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: [StorageTank, StructureWheeled]
   id: RMCTankReagentEmpty
-  name: ent-RMCTankReagentEmpty
-  description: ent-RMCTankReagentEmpty-desc
-  suffix: ent-RMCTankReagentEmpty-suffix
+  name: reagent tank
+  description: A reagent tank, typically used to store large quantities of chemicals.
+  suffix: Empty
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/reagent_tank.rsi
@@ -69,7 +69,7 @@
 - type: entity
   parent: RMCTankReagentEmpty
   id: RMCTankReagentWater
-  suffix: ent-RMCTankReagentWater-suffix
+  suffix: Water
   components:
   - type: SolutionContainerManager
     solutions:
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCTankReagentWater
   id: RMCTankReagentWaterLocked
-  suffix: ent-RMCTankReagentWaterLocked-suffix
+  suffix: Water, Locked
   components:
   - type: Transform
     anchored: true
@@ -96,9 +96,9 @@
 - type: entity
   parent: RMCTankReagentEmpty
   id: RMCTankReagentFuel
-  name: ent-RMCTankReagentFuel
-  description: ent-RMCTankReagentFuel-desc
-  suffix: ent-RMCTankReagentFuel-suffix
+  name: fuel tank
+  description: A fuel tank, normally used to hold welding fuel. It's painted red with explosive warning labels.
+  suffix: Fuel
   components:
   - type: Sprite
     layers:
@@ -145,7 +145,7 @@
 - type: entity
   parent: RMCTankReagentEmpty
   id: RMCTankReagentMeralyne
-  suffix: ent-RMCTankReagentMeralyne-suffix
+  suffix: Meralyne
   components:
   - type: SolutionContainerManager
     solutions:
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCTankReagentEmpty
   id: RMCTankReagentDermaline
-  suffix: ent-RMCTankReagentDermaline-suffix
+  suffix: Dermaline
   components:
   - type: SolutionContainerManager
     solutions:
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCTankReagentEmpty
   id: RMCTankReagentPhoron
-  suffix: ent-RMCTankReagentPhoron-suffix
+  suffix: Phoron
   components:
   - type: SolutionContainerManager
     solutions:
@@ -187,7 +187,7 @@
 - type: entity
   parent: RMCTankReagentEmpty
   id: RMCTankReagentSulphuricAcid
-  suffix: ent-RMCTankReagentSulphuricAcid-suffix
+  suffix: SulphuricAcid
   components:
   - type: SolutionContainerManager
     solutions:

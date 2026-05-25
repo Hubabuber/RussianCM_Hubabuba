@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14UPPGROMSupportTech
-  name: job-au14uppgromsupporttech-name
-  description: job-au14uppgromsupporttech-desc
+  name: rmc-job-name-forecon-support-tech
+  description: au14-uppgrom-description
   playTimeTracker: AU14JobUPPGROMSupportTech
   ranks:
     UPP_StaffSergeant:
@@ -14,12 +14,12 @@
       role: AU14JobUPPGROMSupportTech
       time: 18000 #5 hours
     UPP_Plutonowy: []
-  spawnMenuRoleName: job-au14uppgromsupporttech-spawnmenurolename
+  spawnMenuRoleName: UPP GROM Support Tech (Survivor)
   startingGear: AU14GearUPPGROMSupportTech
   greeting: au14-uppgrom-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14uppgromsupporttech-supervisors
+  supervisors: au-14-job-name-uppgrom-squadleader
   accessGroups:
   - AU14GovforCommand
   special:
@@ -54,7 +54,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMSupportTech
-  name: ent-AU14JobUPPGROMSupportTech
+  name: UPP GROM Support Tech
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

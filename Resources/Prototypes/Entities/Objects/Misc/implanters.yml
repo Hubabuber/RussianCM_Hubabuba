@@ -1,7 +1,7 @@
 # Implanters
 
 - type: entity
-  name: ent-BaseImplanter
+  name: implanter
   id: BaseImplanter
   parent: BaseItem
   abstract: true
@@ -84,7 +84,7 @@
 - type: entity
   id: Implanter
   parent: BaseImplanter
-  description: ent-Implanter-desc
+  description: A disposable syringe exclusively designed for the injection and extraction of subdermal implants.
   components:
     - type: Tag
       tags:
@@ -93,7 +93,7 @@
 - type: entity
   parent: Implanter
   id: ImplanterAdmeme
-  suffix: ent-ImplanterAdmeme-suffix
+  suffix: Admeme
   components:
   - type: Implanter
     # go wild with sentient chairs with macrobombs
@@ -105,7 +105,7 @@
 - type: entity
   id: BaseImplantOnlyImplanter
   parent: Implanter
-  description: ent-BaseImplantOnlyImplanter-desc
+  description: A disposable syringe exclusively designed for the injection of subdermal implants.
   abstract: true
   components:
     - type: Sprite
@@ -124,8 +124,8 @@
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
   parent: [BaseImplantOnlyImplanter, BaseSyndicateContraband]
-  name: ent-BaseImplantOnlyImplanterSyndi
-  description: ent-BaseImplantOnlyImplanterSyndi-desc
+  name: syndicate implanter
+  description: A compact disposable syringe exclusively designed for the injection of subdermal implants. Make sure to scrub it with soap or a rag to remove residual DNA after use!
   abstract: true
   components:
     - type: Item
@@ -157,7 +157,7 @@
 
 - type: entity
   id: SadTromboneImplanter
-  name: ent-SadTromboneImplanter
+  name: sad trombone implanter
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -165,7 +165,7 @@
 
 - type: entity
   id: LightImplanter
-  name: ent-LightImplanter
+  name: light implanter
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -173,7 +173,7 @@
 
 - type: entity
   id: BikeHornImplanter
-  name: ent-BikeHornImplanter
+  name: bike horn implanter
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -183,7 +183,7 @@
 
 - type: entity
   id: TrackingImplanter
-  name: ent-TrackingImplanter
+  name: tracking implanter
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -193,7 +193,7 @@
 
 - type: entity
   id: StorageImplanter
-  name: ent-StorageImplanter
+  name: storage implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -201,7 +201,7 @@
 
 - type: entity
   id: FreedomImplanter
-  name: ent-FreedomImplanter
+  name: freedom implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -209,7 +209,7 @@
 
 - type: entity
   id: RadioImplanter
-  name: ent-RadioImplanter
+  name: syndicate radio implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -217,7 +217,7 @@
 
 - type: entity
   id: UplinkImplanter
-  name: ent-UplinkImplanter
+  name: uplink implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -225,7 +225,7 @@
 
 - type: entity
   id: EmpImplanter
-  name: ent-EmpImplanter
+  name: EMP implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -233,7 +233,7 @@
 
 - type: entity
   id: ScramImplanter
-  name: ent-ScramImplanter
+  name: scram implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -241,7 +241,7 @@
 
 - type: entity
   id: DnaScramblerImplanter
-  name: ent-DnaScramblerImplanter
+  name: DNA scrambler implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -249,7 +249,7 @@
 
 - type: entity
   id: ChameleonControllerImplanter
-  name: ent-ChameleonControllerImplanter
+  name: chameleon controller implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -259,7 +259,7 @@
 
 - type: entity
   id: MicroBombImplanter
-  name: ent-MicroBombImplanter
+  name: micro-bomb implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -267,7 +267,7 @@
 
 - type: entity
   id: MacroBombImplanter
-  name: ent-MacroBombImplanter
+  name: macro-bomb implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -275,7 +275,7 @@
 
 - type: entity
   id: DeathRattleImplanter
-  name: ent-DeathRattleImplanter
+  name: death rattle implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -283,7 +283,7 @@
 
 - type: entity
   id: DeathAcidifierImplanter
-  name: ent-DeathAcidifierImplanter
+  name: death acidifier implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -291,7 +291,7 @@
 
 - type: entity
   id: FakeMindShieldImplanter
-  name: ent-FakeMindShieldImplanter
+  name: fake mindshield implanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -301,7 +301,7 @@
 
 - type: entity
   id: MindShieldImplanter
-  name: ent-MindShieldImplanter
+  name: mindshield implanter
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -311,7 +311,7 @@
 
 - type: entity
   id: RadioImplanterCentcomm
-  name: ent-RadioImplanterCentcomm
+  name: centcomm radio implanter
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -319,7 +319,7 @@
 
 - type: entity
   id: DeathRattleImplanterCentcomm
-  name: ent-DeathRattleImplanterCentcomm
+  name: centcomm death rattle implanter
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter

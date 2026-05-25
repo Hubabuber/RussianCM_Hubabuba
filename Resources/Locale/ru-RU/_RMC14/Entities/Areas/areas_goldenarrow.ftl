@@ -1,48 +1,48 @@
 ent-RMCAreaGAOOB = За пределами границ
-    .suffix = область
+
 ent-RMCAreaGASupplyDrop = Отсек припасов
-    .suffix = область
+
 ent-RMCAreaGALiaisonOffice = Офис связи
-    .suffix = область
+
 ent-RMCAreaGAAI = AI-интерфейс
-    .suffix = область
+
 ent-RMCAreaGASynth = Синтетический шкаф для хранения вещей
-    .suffix = область
+
 ent-RMCAreaGAEngineering = Инженерное дело
-    .suffix = область
+
 ent-RMCAreaGAMaint = Обслуживание
-    .suffix = область
+
 ent-RMCAreaGASupply = Поставлять
-    .suffix = область
+
 ent-RMCAreaGAHangar = Ангар
-    .suffix = область
+
 ent-RMCAreaGAArmoury = Взводный арсенал
-    .suffix = область
+
 ent-RMCAreaGAPrep = Подготовка взвода
-    .suffix = область
+
 ent-RMCAreaGACommandRooms = Комнаты управления взводом
-    .suffix = область
+
 ent-RMCAreaGACommandDeck = Командная палуба взвода
-    .suffix = область
+
 ent-RMCAreaGABriefRoom = Комната для брифингов
-    .suffix = область
+
 ent-RMCAreaGAMedical = Медицинский
-    .suffix = область
+
 ent-RMCAreaGADisposals = Выбытия
-    .suffix = область
+
 ent-RMCAreaGABathroom = Ванная комната
-    .suffix = область
+
 ent-RMCAreaGAMessHall = Столовая
-    .suffix = область
+
 ent-RMCAreaGAHypersleepGearLockers = Шкафчики для снаряжения Hypersleep
-    .suffix = область
+
 ent-RMCAreaGAHypersleepStorageD = Хранилище Hypersleep D
-    .suffix = область
+
 ent-RMCAreaGAHypersleepStorageC = Хранилище Hypersleep C
-    .suffix = область
+
 ent-RMCAreaGAHypersleepStorageB = Хранилище Hypersleep B
-    .suffix = область
+
 ent-RMCAreaGAHypersleepStorageA = Хранилище Hypersleep A
-    .suffix = область
+
 ent-RMCAreaGA = Золотая Стрела
-    .suffix = область
+

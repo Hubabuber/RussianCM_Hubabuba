@@ -1,1 +1,0 @@
-ent-RMCOppressorTail = oppressor tail

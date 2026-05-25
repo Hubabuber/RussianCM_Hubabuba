@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: RMCSPPSpecialist
-  name: job-rmcsppspecialist-name
-  description: job-rmcsppspecialist-desc
+  name: rmc-job-name-spp-specialist
+  description: rmc-job-description-spp-specialist
   playTimeTracker: CMJobSPPSpecialist
   ranks:
     RMCRankSPPSerzhant: []
@@ -12,7 +12,7 @@
   accessGroups:
   - Colonist
   - HospitalCorpsman
-  spawnMenuRoleName: job-rmcsppspecialist-spawnmenurolename
+  spawnMenuRoleName: SPP Specialist
   special:
   - !type:AddComponentSpecial
     components:
@@ -37,8 +37,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPSpecialistHostile
-  name: ent-RMCRandomHumanoidSPPSpecialistHostile
-  suffix: ent-RMCRandomHumanoidSPPSpecialistHostile-suffix
+  name: spp ghost role specialist
+  suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -48,8 +48,8 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPSpecialistFriendly
-  name: ent-RMCRandomHumanoidSPPSpecialistFriendly
-  suffix: ent-RMCRandomHumanoidSPPSpecialistFriendly-suffix
+  name: spp ghost role specialist
+  suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

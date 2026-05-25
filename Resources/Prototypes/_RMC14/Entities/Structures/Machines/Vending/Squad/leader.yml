@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSLGear
-  name: ent-ColMarTechSLGear
-  description: ent-ColMarTechSLGear-desc
+  name: ColMarTech squad leader gear rack
+  description: An automated gear rack for Squad Leaders.
   components:
   - type: AccessReader
     access:
@@ -220,8 +220,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSLEquipment
-  name: ent-ColMarTechSLEquipment
-  description: ent-ColMarTechSLEquipment-desc
+  name: ColMarTech squad leader equipment rack
+  description: An automated rack hooked up to a colossal storage of Squad Leader standard-issue equipment.
   components:
   - type: AccessReader
     access:
@@ -321,8 +321,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleCrewLeader
-  name: ent-RMCVendorBundleCrewLeader
-  description: ent-RMCVendorBundleCrewLeader-desc
+  name: essential SL kit
+  description: Contains a laser designator, a pack of signal flares, a breaching charge and a fire extinguisher.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/plastic_explosives.rsi
@@ -337,8 +337,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitRifleM4SPR
-  name: ent-RMCKitRifleM4SPR
-  description: ent-RMCKitRifleM4SPR-desc
+  name: M4SPR marksman kit
+  description: Contains a M4SPR rifle, a 4x telescopic scope, a suppressor, an extended barrel and 2 AP magazines.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -356,8 +356,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitCM54C
-  name: ent-RMCKitCM54C
-  description: ent-RMCKitCM54C-desc
+  name: M54C rifle kit
+  description: Contains a M54C rifle, an angled grip, a suppressor, an extended barrel and 2 AP magazines.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -375,8 +375,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitEngineering
-  name: ent-RMCKitEngineering
-  description: ent-RMCKitEngineering-desc
+  name: engineering supply kit
+  description: Contains a construction pouch with 50 metal, 30 plasteel and 15 barbed wire, and an electronics pouch with three high-capacity power cells.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -395,8 +395,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitPyroMini
-  name: ent-RMCKitPyroMini
-  description: ent-RMCKitPyroMini-desc
+  name: M34 pyrotechnician support kit
+  description: Contains a M34 incinerator unit, a G4-1 fueltank, 3 incinerator tanks, and a portable fire extinguisher.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -418,9 +418,9 @@
 - type: entity
   parent: CMArmorB12
   id: RMCArmorB12Zipties
-  name: ent-RMCArmorB12Zipties
-  description: ent-RMCArmorB12Zipties-desc
-  suffix: ent-RMCArmorB12Zipties-suffix
+  name: leader B12 pattern marine armor
+  description: A lightweight suit of carbon fiber body armor built for quick movement. Designed in a lovely forest green. Use it to toggle the built-in flashlight. This one has a separate pouch for a ziptie box.
+  suffix: Zipties
   components:
   - type: Storage
     grid:
@@ -440,9 +440,9 @@
 - type: entity
   parent: CMArmorM4
   id: RMCArmorM4Zipties
-  name: ent-RMCArmorM4Zipties
-  description: ent-RMCArmorM4Zipties-desc
-  suffix: ent-RMCArmorM4Zipties-suffix
+  name: leader M4 pattern marine armor
+  description: A well tinkered and crafted hybrid of Smart-Gunner mesh and M3 pattern plates. Robust, yet nimble, with room for all your pouches. This one has a separate pouch for a ziptie box.
+  suffix: Zipties
   components:
   - type: Storage
     grid:

@@ -1,7 +1,7 @@
 - type: entity
   id: ActionVehicleToggleView
-  name: ent-ActionVehicleToggleView
-  description: ent-ActionVehicleToggleView-desc
+  name: Toggle View
+  description: Switch between the interior and exterior view.
   components:
   - type: InstantAction
     event: !type:VehicleToggleViewActionEvent
@@ -12,8 +12,8 @@
 
 - type: entity
   id: ActionVehicleDeploy
-  name: ent-ActionVehicleDeploy
-  description: ent-ActionVehicleDeploy-desc
+  name: Deploy Vehicle
+  description: Deploy or retract the vehicle.
   components:
   - type: InstantAction
     event: !type:VehicleDeployActionEvent
@@ -22,8 +22,8 @@
 
 - type: entity
   id: ActionVehicleLock
-  name: ent-ActionVehicleLock
-  description: ent-ActionVehicleLock-desc
+  name: Toggle Vehicle Lock
+  description: Locks or unlocks vehicle entry doors.
   components:
   - type: InstantAction
     event: !type:VehicleLockActionEvent
@@ -38,8 +38,8 @@
 
 - type: entity
   id: ActionVehicleSelectHardpoint
-  name: ent-ActionVehicleSelectHardpoint
-  description: ent-ActionVehicleSelectHardpoint-desc
+  name: Select Hardpoint
+  description: Select this hardpoint for firing.
   components:
   - type: InstantAction
     event: !type:VehicleHardpointSelectActionEvent

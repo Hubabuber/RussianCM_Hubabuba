@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: MarkerBase
   id: RMCSpawnerEvacuationPodSouth
-  name: ent-RMCSpawnerEvacuationPodSouth
-  description: ent-RMCSpawnerEvacuationPodSouth-desc
-  suffix: ent-RMCSpawnerEvacuationPodSouth-suffix
+  name: escape pod spawner
+  description: Defines a location to spawn an evacuation pod in.
+  suffix: South
   placement:
     mode: SnapgridCenter
   components:
@@ -16,7 +16,7 @@
 - type: entity
   parent: RMCSpawnerEvacuationPodSouth
   id: RMCSpawnerEvacuationPodEast
-  suffix: ent-RMCSpawnerEvacuationPodEast-suffix
+  suffix: East
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/escape_pod_east.yml"
@@ -24,7 +24,7 @@
 - type: entity
   parent: RMCSpawnerEvacuationPodSouth
   id: RMCSpawnerEvacuationPodNorth
-  suffix: ent-RMCSpawnerEvacuationPodNorth-suffix
+  suffix: North
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/escape_pod_north.yml"
@@ -32,7 +32,7 @@
 - type: entity
   parent: RMCSpawnerEvacuationPodSouth
   id: RMCSpawnerEvacuationPodWest
-  suffix: ent-RMCSpawnerEvacuationPodWest-suffix
+  suffix: West
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/escape_pod_west.yml"
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCSpawnerEvacuationPodSouth
   id: RMCSpawnerEvacuationPodEastLiaison
-  suffix: ent-RMCSpawnerEvacuationPodEastLiaison-suffix
+  suffix: East, Liaison
   components:
   - type: GridSpawner
     spawn: "/Maps/_RMC14/Shuttles/escape_pod_east_liaison.yml"
@@ -48,8 +48,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerLifeboat
-  name: ent-RMCSpawnerLifeboat
-  description: ent-RMCSpawnerLifeboat-desc
+  name: lifeboat spawner
+  description: Defines a location to spawn a lifeboat.
   placement:
     mode: SnapgridCenter
   components:
@@ -62,8 +62,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerLifeboatAthena
-  name: ent-RMCSpawnerLifeboatAthena
-  description: ent-RMCSpawnerLifeboatAthena-desc
+  name: lifeboat spawner
+  description: Defines a location to spawn a lifeboat.
   placement:
     mode: SnapgridCenter
   components:

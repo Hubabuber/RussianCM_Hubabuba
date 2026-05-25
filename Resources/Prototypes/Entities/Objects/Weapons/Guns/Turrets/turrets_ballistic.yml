@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseWeaponBallisticTurret, BaseSyndicateContraband]
   id: WeaponTurretSyndicate
-  suffix: ent-WeaponTurretSyndicate-suffix
+  suffix: Syndicate
   components:
   - type: NpcFactionMember
     factions:
@@ -10,8 +10,8 @@
 - type: entity
   parent: BaseWeaponBallisticTurret
   id: WeaponTurretSyndicateDisposable
-  name: ent-WeaponTurretSyndicateDisposable
-  suffix: ent-WeaponTurretSyndicateDisposable-suffix
+  name: disposable ballistic turret
+  suffix: Syndicate, Disposable
   components:
   - type: NpcFactionMember
     factions:
@@ -59,7 +59,7 @@
 - type: entity
   parent: BaseWeaponBallisticTurret
   id: WeaponTurretNanoTrasen
-  suffix: ent-WeaponTurretNanoTrasen-suffix
+  suffix: NanoTrasen
   components:
   - type: NpcFactionMember
     factions:
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseWeaponBallisticTurret
   id: WeaponTurretHostile
-  suffix: ent-WeaponTurretHostile-suffix
+  suffix: Hostile
   components:
   - type: NpcFactionMember
     factions:
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseWeaponBallisticTurret
   id: WeaponTurretAllHostile
-  suffix: ent-WeaponTurretAllHostile-suffix
+  suffix: All hostile
   components:
   - type: NpcFactionMember
     factions:
@@ -86,9 +86,9 @@
 - type: entity
   parent: BaseWeaponBallisticTurret
   id: WeaponTurretXeno
-  name: ent-WeaponTurretXeno
-  suffix: ent-WeaponTurretXeno-suffix
-  description: ent-WeaponTurretXeno-desc
+  name: xeno turret
+  suffix: Xeno
+  description: Shoots 9mm acid projectiles.
   components:
   - type: NpcFactionMember
     factions:

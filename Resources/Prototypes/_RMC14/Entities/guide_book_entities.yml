@@ -1,9 +1,9 @@
 - type: entity
   id: RMCBaseMapIcon
   parent: BaseItem
-  name: ent-RMCBaseMapIcon
+  name: Icon
   abstract: true
-  suffix: ent-RMCBaseMapIcon-suffix
+  suffix: GuideBookEntity
   components:
   - type: Sprite
     sprite: /Textures/_RMC14/Interface/map_blips.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCLesserMapIcon
-  name: ent-RMCLesserMapIcon
+  name: Lesser
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCParasiteMapIcon
-  name: ent-RMCParasiteMapIcon
+  name: Parasite
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCLarvaMapIcon
-  name: ent-RMCLarvaMapIcon
+  name: Larva
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCDroneMapIcon
-  name: ent-RMCDroneMapIcon
+  name: Drone
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCHivelordMapIcon
-  name: ent-RMCHivelordMapIcon
+  name: Hivelord
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCBurrowerMapIcon
-  name: ent-RMCBurrowerMapIcon
+  name: Burrower
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCCarrierMapIcon
-  name: ent-RMCCarrierMapIcon
+  name: Carrier
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCDefenderMapIcon
-  name: ent-RMCDefenderMapIcon
+  name: Defender
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCWarriorMapIcon
-  name: ent-RMCWarriorMapIcon
+  name: Warrior
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCCrusherMapIcon
-  name: ent-RMCCrusherMapIcon
+  name: Crusher
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCSentinelMapIcon
-  name: ent-RMCSentinelMapIcon
+  name: Sentinel
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCSpitterMapIcon
-  name: ent-RMCSpitterMapIcon
+  name: Spitter
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -146,7 +146,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCBoilerMapIcon
-  name: ent-RMCBoilerMapIcon
+  name: Boiler
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCRunnerMapIcon
-  name: ent-RMCRunnerMapIcon
+  name: Runner
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -169,7 +169,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCLurkerMapIcon
-  name: ent-RMCLurkerMapIcon
+  name: Lurker
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -180,7 +180,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCRavagerMapIcon
-  name: ent-RMCRavagerMapIcon
+  name: Ravager
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCPraetorianMapIcon
-  name: ent-RMCPraetorianMapIcon
+  name: Praetorian
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -204,7 +204,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCQueenMapIcon
-  name: ent-RMCQueenMapIcon
+  name: Queen
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -215,7 +215,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCLeaderMapIcon
-  name: ent-RMCLeaderMapIcon
+  name: Leader Crown
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -229,7 +229,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCHiveCoreMapIcon
-  name: ent-RMCHiveCoreMapIcon
+  name: Hive core
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -238,7 +238,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCMorpherMapIcon
-  name: ent-RMCMorpherMapIcon
+  name: Egg morpher
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -247,7 +247,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCClusterMapIcon
-  name: ent-RMCClusterMapIcon
+  name: Hive cluster
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCTunnelMapIcon
-  name: ent-RMCTunnelMapIcon
+  name: Tunnel
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -265,7 +265,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCRecovNodeMapIcon
-  name: ent-RMCRecovNodeMapIcon
+  name: Recovery node
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -274,7 +274,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCPylonMapIcon
-  name: ent-RMCPylonMapIcon
+  name: hive pylon
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -73,8 +73,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: CMWindowReinforcedAlmayerHull
-  name: ent-CMWindowReinforcedAlmayerHull
-  description: ent-CMWindowReinforcedAlmayerHull-desc
+  name: hull window
+  description: A glass window with a special rod matrix inside a wall frame. This one was made out of exotic materials to prevent hull breaches. No way to get through here.
   components:
   - type: Corrodible
     isCorrodible: false
@@ -94,8 +94,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowReinforcedAIHull
-  name: ent-RMCWindowReinforcedAIHull
-  description: ent-RMCWindowReinforcedAIHull-desc
+  name: hull window
+  description: A glass window with a special rod matrix inside a wall frame. This one was made out of exotic materials to prevent hull breaches. No way to get through here.
   components:
   - type: Corrodible
     isCorrodible: false
@@ -113,8 +113,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowReinforcedAIHullBlack
-  name: ent-RMCWindowReinforcedAIHullBlack
-  description: ent-RMCWindowReinforcedAIHullBlack-desc
+  name: hull window
+  description: A glass window with a special rod matrix inside a wall frame. This one was made out of exotic materials to prevent hull breaches. No way to get through here.
   components:
   - type: Corrodible
     isCorrodible: false
@@ -132,7 +132,7 @@
 - type: entity
   parent: CMWindowReinforcedAlmayerHull
   id: RMCWindowReinforcedAlmayerHullHijackBustable
-  suffix: ent-RMCWindowReinforcedAlmayerHullHijackBustable-suffix
+  suffix: Hijack Bustable
   components:
   - type: RMCReplaceOnHijackLand # TODO RMC14 also spawn glass
     id: RMCWindowFrameAlmayer
@@ -140,8 +140,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowReinforcedAlmayer
-  name: ent-CMWindowReinforcedAlmayer
-  description: ent-CMWindowReinforcedAlmayer-desc
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/almayer_window.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: CMWindowReinforcedWhiteHull
-  name: ent-CMWindowReinforcedWhiteHull
-  description: ent-CMWindowReinforcedWhiteHull-desc
+  name: hull window
+  description: An ultra-reinforced window designed to keep research a secure area. This one was made out of exotic materials to prevent hull breaches. No way to get through here.
   components:
   - type: Corrodible
     isCorrodible: false
@@ -219,8 +219,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowReinforcedWhite
-  name: ent-CMWindowReinforcedWhite
-  description: ent-CMWindowReinforcedWhite-desc
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/white_reinforced_window.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowWhiteColony
-  name: ent-CMWindowWhiteColony
-  description: ent-CMWindowWhiteColony-desc
+  name: window
+  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/colony_window.rsi
@@ -330,8 +330,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowWhiteColonyReinforced
-  name: ent-CMWindowWhiteColonyReinforced
-  description: ent-CMWindowWhiteColonyReinforced-desc
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/colony_rwindow.rsi
@@ -387,8 +387,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: CMWindowWhiteColonyHull
-  name: ent-CMWindowWhiteColonyHull
-  description: ent-CMWindowWhiteColonyHull-desc
+  name: hull window
+  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. No way to get through here.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/colony_rwindow.rsi
@@ -406,9 +406,9 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCHunterReinforcedWindow
-  suffix: ent-RMCHunterReinforcedWindow-suffix
-  name: ent-RMCHunterReinforcedWindow
-  description: ent-RMCHunterReinforcedWindow-desc
+  suffix: hunter
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/colony_rwindow.rsi
@@ -466,8 +466,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowWood
-  name: ent-RMCWindowWood
-  description: ent-RMCWindowWood-desc
+  name: window
+  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/wood_window.rsi
@@ -520,8 +520,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowWoodReinforced
-  name: ent-RMCWindowWoodReinforced
-  description: ent-RMCWindowWoodReinforced-desc
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/wood_rwindow.rsi
@@ -577,8 +577,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowAIReinforced
-  name: ent-RMCWindowAIReinforced
-  description: ent-RMCWindowAIReinforced-desc
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/ai_rwindow.rsi

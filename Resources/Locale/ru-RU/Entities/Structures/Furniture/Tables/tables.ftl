@@ -52,120 +52,30 @@ ent-TableCounterWood-desc = Не применяйте при этом огонь
 ent-TableCounterMetal-name = металлический счетчик
 ent-TableCounterMetal-desc = Похоже, хорошее место, чтобы выпить.
 
-ent-TableFancyBlue-name = красивый стол (синий)
+ent-TableFancyBlue-name = construction-recipe-table-fancy-blue
 ent-TableFancyBlue-desc = Дорого и богато.
 
-ent-TableFancyCyan-name = красивый стол (голубой)
+ent-TableFancyCyan-name = construction-recipe-table-fancy-cyan
 ent-TableFancyCyan-desc = Дорого и богато.
 
-ent-TableFancyBlack-name = красивый стол (чёрный)
+ent-TableFancyBlack-name = construction-recipe-table-fancy-black
 ent-TableFancyBlack-desc = Дорого и богато.
 
-ent-TableFancyRed-name = красивый стол (красный)
+ent-TableFancyRed-name = construction-recipe-table-fancy-red
 ent-TableFancyRed-desc = Дорого и богато.
 
-ent-TableFancyPurple-name = красивый стол (фиолетовый)
+ent-TableFancyPurple-name = construction-recipe-table-fancy-purple
 ent-TableFancyPurple-desc = Дорого и богато.
 
-ent-TableFancyPink-name = красивый стол (розовый)
+ent-TableFancyPink-name = construction-recipe-table-fancy-pink
 ent-TableFancyPink-desc = Дорого и богато.
 
-ent-TableFancyGreen-name = красивый стол (зелёный)
+ent-TableFancyGreen-name = construction-recipe-table-fancy-green
 ent-TableFancyGreen-desc = Дорого и богато.
 
-ent-TableFancyOrange-name = красивый стол (оранжевый)
+ent-TableFancyOrange-name = construction-recipe-table-fancy-orange
 ent-TableFancyOrange-desc = Дорого и богато.
 
-ent-TableFancyWhite-name = красивый стол (белый)
+ent-TableFancyWhite-name = construction-recipe-table-fancy-white
 ent-TableFancyWhite-desc = Дорого и богато.
 
-ent-CounterMetalFrame = металлическая стойка счетчика
-    .desc = Кусочки металла, из которых состоит каркас стола.
-
-ent-CounterWoodFrame = деревянная рама счетчика
-    .desc = Кусочки дерева, из которых состоит каркас стола.
-
-ent-Table = стол
-    .desc = Квадратный кусок металла, стоящий на четырех металлических ножках.
-
-ent-TableBrass = латунный стол
-    .desc = Блестящий, устойчивый к коррозии латунный стол. Стимпанк!
-
-ent-TableCarpet = игровой стол
-    .desc = Поиграй в ковбоя.
-
-ent-TableCounterMetal = металлический счетчик
-    .desc = Похоже, хорошее место, чтобы выпить.
-
-ent-TableCounterWood = деревянный счетчик
-    .desc = Не применяйте при этом огонь. Ходят слухи, что он легко горит.
-
-ent-TableDebug = стол
-    .desc = НАДЕВАЙТЕ НА НИХ КОДЕРСКИЕ НОСКИ!!
-    .suffix = ОТЛАЖИВАТЬ
-
-ent-TableFancyBase = необычный стол
-    .desc = Дорого и богато.
-
-ent-TableFancyBlack = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Черный
-
-ent-TableFancyBlue = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Синий
-
-ent-TableFancyCyan = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Голубой
-
-ent-TableFancyGreen = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Зеленый
-
-ent-TableFancyOrange = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Апельсин
-
-ent-TableFancyPink = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Розовый
-
-ent-TableFancyPurple = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Фиолетовый
-
-ent-TableFancyRed = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Красный
-
-ent-TableFancyWhite = необычный стол
-    .desc = Дорого и богато.
-    .suffix = Белый
-
-ent-TableFrame = каркас стола
-    .desc = Кусочки металла, из которых состоит каркас стола.
-
-ent-TableGlass = стеклянный стол
-    .desc = Квадратный кусок стекла, стоящий на четырех металлических ножках.
-
-ent-TablePlasmaGlass = плазменный стеклянный стол
-    .desc = Квадратный кусок плазменного стекла, стоящий на четырех металлических ножках. Симпатичный!
-
-ent-TableReinforced = усиленный стол
-    .desc = Квадратный кусок металла, стоящий на четырех металлических ножках. Очень прочный.
-
-ent-TableReinforcedGlass = стол из усиленного стекла
-    .desc = Квадратный кусок стекла, стоящий на четырех металлических ножках. Очень прочный.
-
-ent-TableStone = каменный стол
-    .desc = Буквально самая крепкая вещь, которую вы когда-либо видели.
-
-ent-TableWeb = веб-таблица
-    .desc = Действительно гладкий и удивительно прочный.
-
-ent-TableWood = деревянный стол
-    .desc = Не применяйте при этом огонь. Ходят слухи, что он легко горит.
-
-ent-TableXeno = ксено стол
-    .desc = Я бы не стал ставить туда столовое серебро.

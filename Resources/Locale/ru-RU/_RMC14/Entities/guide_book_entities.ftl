@@ -1,52 +1,52 @@
 ent-RMCPylonMapIcon = Пилон улья
-    .suffix = Икона
+
 ent-RMCRecovNodeMapIcon = Узел восстановления
-    .suffix = Икона
+
 ent-RMCTunnelMapIcon = Туннель
-    .suffix = Икона
+
 ent-RMCClusterMapIcon = Кластер улья
-    .suffix = Икона
+
 ent-RMCMorpherMapIcon = Морфер яиц
-    .suffix = Икона
+
 ent-RMCHiveCoreMapIcon = Ядро улья
-    .suffix = Икона
+
 ent-RMCLeaderMapIcon = Корона лидера
-    .suffix = Икона
+
 ent-RMCQueenMapIcon = Королева
-    .suffix = Икона
+
 ent-RMCPraetorianMapIcon = Преторианец
-    .suffix = Икона
+
 ent-RMCRavagerMapIcon = Разрушитель
-    .suffix = Икона
+
 ent-RMCLurkerMapIcon = Охотник
-    .suffix = Икона
+
 ent-RMCRunnerMapIcon = Бегун
-    .suffix = Икона
+
 ent-RMCBoilerMapIcon = Бойлер
-    .suffix = Икона
+
 ent-RMCSpitterMapIcon = Плеватель
-    .suffix = Икона
+
 ent-RMCSentinelMapIcon = Страж
-    .suffix = Икона
+
 ent-RMCCrusherMapIcon = Крушитель
-    .suffix = Икона
+
 ent-RMCWarriorMapIcon = Воин
-    .suffix = Икона
+
 ent-RMCDefenderMapIcon = Защитник
-    .suffix = Икона
+
 ent-RMCCarrierMapIcon = Носитель
-    .suffix = Икона
+
 ent-RMCBurrowerMapIcon = Бурильщик
-    .suffix = Икона
+
 ent-RMCHivelordMapIcon = Лорд улья
-    .suffix = Икона
+
 ent-RMCDroneMapIcon = Дрон
-    .suffix = Икона
+
 ent-RMCLarvaMapIcon = Личинка
-    .suffix = Икона
+
 ent-RMCParasiteMapIcon = Паразит
-    .suffix = Икона
+
 ent-RMCLesserMapIcon = Малый дрон
-    .suffix = Икона
+
 ent-RMCBaseMapIcon = Икона
-    .suffix = Икона
+

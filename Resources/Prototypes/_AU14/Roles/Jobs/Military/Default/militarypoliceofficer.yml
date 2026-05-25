@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobMilitaryPoliceBase
   id: AU14JobGOVFORMilitaryPoliceMan
-  name: job-au14jobgovformilitarypoliceman-name
-  description: job-au14jobgovformilitarypoliceman-desc
+  name: au14-job-name-govformilitarypoliceman
+  description: au14-job-description-govformilitarypoliceman
   setPreference: true
   canBeAntag: false
   hasSquad: false
@@ -36,9 +36,9 @@
   dummyStartingGear: AU14GearGOVFORMilitaryPoliceManDummy
   icon: "AU14JobIconRFN"
   requireAdminNotify: true
-  spawnMenuRoleName: job-au14jobgovformilitarypoliceman-spawnmenurolename
+  spawnMenuRoleName: Military Policeman (GOVFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovformilitarypoliceman-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforSecurity
   roleWeight: 0.25
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORMilitaryPoliceMan
-  name: ent-AU14SpawnPointGOVFORMilitaryPoliceMan
+  name: Spawn Point GOVFOR Military Policeman
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORMilitaryPoliceMan

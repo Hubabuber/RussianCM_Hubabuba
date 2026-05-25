@@ -1,42 +1,51 @@
 ent-RMCBarricadeMetalAltDrawdepth = Металлическая Баррикада
   .desc = Металлическая баррикада военного образца.
-    .suffix = Металлическая Баррикада
+
 ent-CMBarricadeBurn = Металлическая Баррикада
   .desc = Металлическая баррикада военного образца.
-    .suffix = Металлическая Баррикада
+
 ent-CMBarricadeBrute = Металлическая Баррикада
   .desc = Металлическая баррикада военного образца.
-    .suffix = Металлическая Баррикада
+
 ent-CMBarricadeExplosive = Металлическая Баррикада
   .desc = Металлическая баррикада военного образца.
-    .suffix = Металлическая Баррикада
+
 ent-RMCBarricadeHandrailAlt = поручень
   .desc = Перила для ваших рук. 
+
 ent-RMCBarricadeHandrailAltDrawdepth = поручень
   .desc = Перила для ваших рук. 
-    .suffix = поручень
+
 ent-RMCBarricadeHandrailMed = поручень
   .desc = Перила для ваших рук. 
+
 ent-RMCBarricadeHandrailStrata = поручень
   .desc = Перила для ваших рук. 
+
 ent-RMCBarricadeHandrailStrataAltDrawdepth = поручень
   .desc = Перила для ваших рук. 
-    .suffix = поручень
+
 ent-RMCBarricadeHandrailKutjevo = поручень
   .desc = Перила для ваших рук. 
+
 ent-RMCBarricadeWireRail = поручень
   .desc = Перила для ваших рук. 
+
 ent-RMCBarricadeWireRailAltDrawdepth = поручень
   .desc = Перила для ваших рук. 
-    .suffix = поручень
+
 ent-RMCBarricadeHybrisa = поручень
   .desc = Перила для ваших рук. 
+
 ent-RMCBarricadeHybrisaCenterRoad = поручень
   .desc = Перила для ваших рук. 
+
 ent-RMCBarricadeHybrisaCenterRoadDouble = поручень
   .desc = Перила для ваших рук. 
-    .suffix = поручень
+
 ent-RMCBarricadeHybrisaPlasticRoadBarrierBlue = пластиковый дорожный барьер
   .desc = Перила для ваших рук. 
+
 ent-RMCBarricadeHybrisaPlasticRoadBarrierBlack = пластиковый дорожный барьер
-  .desc = Перила для ваших рук.
+  .desc = Перила для ваших рук. 
+

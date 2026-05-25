@@ -8,8 +8,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxDonut
-  name: ent-FoodBoxDonut
-  description: ent-FoodBoxDonut-desc
+  name: donut box
+  description: Mmm, Donuts.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donut.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodContainerEgg
-  name: ent-FoodContainerEgg
-  description: ent-FoodContainerEgg-desc
+  name: egg carton
+  description: Don't drop 'em!
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/egg.rsi
@@ -177,7 +177,7 @@
 - type: entity
   parent: FoodContainerEgg
   id: EggBoxBroken
-  suffix: ent-EggBoxBroken-suffix
+  suffix: Broken
   components:
   - type: StorageFill
     contents:
@@ -198,7 +198,7 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxPizza
-  name: ent-FoodBoxPizza
+  name: pizza box
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/pizza.rsi
@@ -231,10 +231,10 @@
     price: 0
 
 - type: entity
-  name: ent-FoodBoxPizzaFilled
+  name: pizza box
   parent: FoodBoxPizza
   id: FoodBoxPizzaFilled
-  suffix: ent-FoodBoxPizzaFilled-suffix
+  suffix: Filled
   components:
   - type: Sprite
     layers:
@@ -279,10 +279,10 @@
     - id: KnifePlastic
 
 - type: entity
-  name: ent-FoodBoxPizzaCotton
+  name: pizza box
   parent: FoodBoxPizzaFilled
   id: FoodBoxPizzaCotton
-  suffix: ent-FoodBoxPizzaCotton-suffix
+  suffix: Cotton Pizza
   components:
   - type: StorageFill
     contents:
@@ -294,8 +294,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxNugget
-  name: ent-FoodBoxNugget
-  description: ent-FoodBoxNugget-desc
+  name: chicken nuggets
+  description: You suddenly have an urge to trade on the intergalactic stock market.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/nuggets.rsi
@@ -353,8 +353,8 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxDonkpocket
-  name: ent-FoodBoxDonkpocket
-  description: 'ent-FoodBoxDonkpocket-desc'
+  name: box of donk-pockets
+  description: 'Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.'
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
@@ -379,7 +379,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketSpicy
-  name: ent-FoodBoxDonkpocketSpicy
+  name: box of spicy-flavoured donk-pockets
   components:
   - type: Sprite
     state: spicy-box
@@ -393,7 +393,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketTeriyaki
-  name: ent-FoodBoxDonkpocketTeriyaki
+  name: box of teriyaki-flavoured donk-pockets
   components:
   - type: Sprite
     state: teriyaki-box
@@ -407,7 +407,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketPizza
-  name: ent-FoodBoxDonkpocketPizza
+  name: box of pizza-flavoured donk-pockets
   components:
   - type: Sprite
     state: pizza-box
@@ -421,7 +421,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketStonk
-  name: ent-FoodBoxDonkpocketStonk
+  name: box of limited edition stonk-pockets
   components:
   - type: Sprite
     state: stonk-box
@@ -435,7 +435,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketCarp
-  name: ent-FoodBoxDonkpocketCarp
+  name: box of carp-pockets
   components:
   - type: Sprite
     state: carp-box
@@ -447,7 +447,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketBerry
-  name: ent-FoodBoxDonkpocketBerry
+  name: box of berry-flavoured donk-pockets
   components:
   - type: Sprite
     state: berry-box
@@ -461,7 +461,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketHonk
-  name: ent-FoodBoxDonkpocketHonk
+  name: box of banana-flavoured donk-pockets
   components:
   - type: Sprite
     state: banana-box
@@ -475,8 +475,8 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketDink
-  name: ent-FoodBoxDonkpocketDink
-  description: ent-FoodBoxDonkpocketDink-desc
+  name: box of dink-pockets
+  description: Net Zero carbohydrates! No need for heating!
   components:
   - type: Sprite
     state: dink-box
@@ -490,7 +490,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketMoth
-  name: ent-FoodBoxDonkpocketMoth
+  name: box of moth-pockets
   components:
   - type: Sprite
     state: moth-box
@@ -504,9 +504,9 @@
 - type: entity
   id: HappyHonk
   parent: [ BoxCardboard, BaseBagOpenClose ]
-  name: ent-HappyHonk
-  suffix: ent-HappyHonk-suffix
-  description: ent-HappyHonk-desc
+  name: happy honk meal
+  suffix: Toy Safe
+  description: The toy is more edible than the food.
   components:
   - type: Sprite
     sprite: Objects/Storage/Happyhonk/clown.rsi
@@ -590,8 +590,8 @@
 - type: entity
   id: HappyHonkMime
   parent: HappyHonk
-  description: ent-HappyHonkMime-desc
-  suffix: ent-HappyHonkMime-suffix
+  description: A limited mime edition of the happy honk meal.
+  suffix: Toy Safe
   components:
   - type: Tag
     tags:
@@ -607,9 +607,9 @@
 - type: entity
   id: HappyHonkNukie
   parent: [HappyHonk, BaseSyndicateContraband]
-  name: ent-HappyHonkNukie
-  description: ent-HappyHonkNukie-desc
-  suffix: ent-HappyHonkNukie-suffix
+  name: robust nukie meal
+  description: A sus meal with a potentially explosive surprise.
+  suffix: Toy Unsafe
   components:
   - type: Sprite
     sprite: Objects/Storage/Happyhonk/nukie.rsi
@@ -639,8 +639,8 @@
 - type: entity
   parent: HappyHonkNukie
   id: HappyHonkNukieSnacks
-  suffix: ent-HappyHonkNukieSnacks-suffix
-  name: ent-HappyHonkNukieSnacks
+  suffix: Toy Unsafe, Snacks
+  name: syndicate snack box
   components:
   - type: Storage
     grid:
@@ -689,8 +689,8 @@
 - type: entity
   id: HappyHonkCluwne
   parent: HappyHonk
-  name: ent-HappyHonkCluwne
-  description: ent-HappyHonkCluwne-desc
+  name: woeful cluwne meal
+  description: Nothing good can come of this.
   components:
   - type: Tag
     tags:
@@ -709,7 +709,7 @@
 - type: entity
   id: FoodMealHappyHonkClown
   parent: HappyHonk
-  suffix: ent-FoodMealHappyHonkClown-suffix
+  suffix: random food spawner meal
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
@@ -790,8 +790,8 @@
 - type: entity
   id: FoodMealHappyHonkBigBite
   parent: HappyHonk
-  name: ent-FoodMealHappyHonkBigBite
-  description: ent-FoodMealHappyHonkBigBite-desc
+  name: Happy Honk Big Bite Meal
+  description: Someone paid good money to get this fast food meal shipped out this way. It smells fresh, somehow.
   components:
   - type: StorageFill
     contents:
@@ -865,8 +865,8 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxCloth
-  name: ent-FoodBoxCloth
-  description: ent-FoodBoxCloth-desc
+  name: box of FlutterSoft-brand cloth
+  description: Fiber is the most important moth meal of the day! Don't skip it or use bottom-of-the-locker junk, buy high-quality FlutterSoft-brand cloth instead.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi

@@ -1,10 +1,10 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMProvostAdvisor
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-cmprovostadvisor-name
-  description: job-cmprovostadvisor-desc
+  name: rmc-job-name-corp-provost-advisor
+  description: rmc-ghost-role-information-provost-description
   playTimeTracker: CMJobProvostAdvisor
   ranks:
     RMCRankProvostAdvisor: []
@@ -32,8 +32,8 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostAdvisor
-  name: ent-RMCRandomHumanoidProvostAdvisor
-  suffix: ent-RMCRandomHumanoidProvostAdvisor-suffix
+  name: provost ghost role advisor
+  suffix: Spawner, Player, Friendly, Low Law Understanding
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

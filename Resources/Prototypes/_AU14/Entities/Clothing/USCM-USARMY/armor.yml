@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseMarineArmorLight
   id: AU14BaseArmor
-  name: ent-AU14BaseArmor
-  description: ent-AU14BaseArmor-desc
+  name: Example
+  description: Standard Issue Armor used by many UA military organizations. Provides modest protection from bullet and melee attacks. It also has a shoulder-mounted directional flashlight for night time combat.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCBaseArmor
   id: AU14BaseArmorLight
-  name: ent-AU14BaseArmorLight
-  description: ent-AU14BaseArmorLight-desc
+  name: Example
+  description: Example
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCBaseArmor
   id: AU14BaseArmorVest # For shitty armor, f.e. 6B80 of UPP's reservists
-  name: ent-AU14BaseArmorVest
-  description: ent-AU14BaseArmorVest-desc
+  name: Example
+  description: Example
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -193,7 +193,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3JungleOne
-  name: ent-AU14ArmorM3JungleOne
+  name: M3 pattern jungle smooth USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleArmor/uscmarmorone.rsi
@@ -201,7 +201,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3JungleTwo
-  name: ent-AU14ArmorM3JungleTwo
+  name: M3 pattern jungle ribbed USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleArmor/uscmarmortwo.rsi
@@ -209,7 +209,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3JungleThree
-  name: ent-AU14ArmorM3JungleThree
+  name: M3 pattern jungle dimpled USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleArmor/uscmarmorthree.rsi
@@ -217,7 +217,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3DesertOne
-  name: ent-AU14ArmorM3DesertOne
+  name: M3 pattern desert smooth USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertArmor/uscmarmorone.rsi
@@ -225,7 +225,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3DesertTwo
-  name: ent-AU14ArmorM3DesertTwo
+  name: M3 pattern desert ribbed USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertArmor/uscmarmortwo.rsi
@@ -233,7 +233,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3DesertThree
-  name: ent-AU14ArmorM3DesertThree
+  name: M3 pattern desert dimpled USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertArmor/uscmarmorthree.rsi
@@ -241,7 +241,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3UACG
-  name: ent-AU14ArmorM3UACG
+  name: M3 pattern colonial guard armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/uacgarmor.rsi
@@ -249,8 +249,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14ArmorBallisticVest
-  description: ent-AU14ArmorBallisticVest-desc
-  name: ent-AU14ArmorBallisticVest
+  description: A light ballistic vest.
+  name: ballistic vest
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ballisticarmor.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14ArmorPilotFlakJacket
-  name: ent-AU14ArmorPilotFlakJacket
-  description: ent-AU14ArmorPilotFlakJacket-desc
+  name: aircrew flak jacket
+  description: A light flak jacket designed for USCM aircrew. Provides very little protection.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/pilotflakvest.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
   id: AU14ArmorSmartGunDesertCombatHarness
-  name: ent-AU14ArmorSmartGunDesertCombatHarness
-  description: ent-AU14ArmorSmartGunDesertCombatHarness-desc
+  name: M56 Desert Combat Harness
+  description: An M56 Combat Harness specially made for Smartgunners.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertArmor/uscmarmorsmartgunner.rsi
@@ -287,8 +287,8 @@
 - type: entity
   parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
   id: AU14ArmorSmartGunJungleCombatHarness
-  name: ent-AU14ArmorSmartGunJungleCombatHarness
-  description: ent-AU14ArmorSmartGunJungleCombatHarness-desc
+  name: M56 Jungle Harness
+  description: An M56 Combat Harness specially made for Smartgunners.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleArmor/uscmarmorsmartgunner.rsi
@@ -307,8 +307,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, RMCAllowSuitStorageClothingExternalWebbing]
   id: AU14ExternalWebbing
-  name: ent-AU14ExternalWebbing
-  description: ent-AU14ExternalWebbing-desc
+  name: external webbing
+  description: Designed to be worn over a jumpsuit rather than clipped on.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/external_webbing.rsi
@@ -328,8 +328,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14USASFICPS2
-  name: ent-AU14USASFICPS2
-  description: ent-AU14USASFICPS2-desc
+  name: USASF ICPS-2 Aircrew Armor
+  description: A set of ballistic armor used by USASF aircrew.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/armor.rsi
@@ -344,8 +344,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor, RMCHelmetBase]
   id: foldabletestarmor
-  name: ent-foldabletestarmor
-  description: ent-foldabletestarmor-desc
+  name: USASF ICPS-2 Aircrew Armor
+  description: A set of ballistic armor used by USASF aircrew.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/armor.rsi
@@ -436,8 +436,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorGhillie
-  name: ent-AU14ArmorGhillie
-  description: ent-AU14ArmorGhillie-desc
+  name: M45 pattern jungle ghillie armor
+  description: A lightweight ghillie camouflage suit, used by UA snipers on recon missions. Very lightweight, but doesn't protect much.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Armor/ghillie.rsi
@@ -466,9 +466,9 @@
 - type: entity
   parent: AU14BaseArmorVest
   id: AU14ArmorUSArmy
-  suffix: ent-AU14ArmorUSArmy-suffix
-  name: ent-AU14ArmorUSArmy
-  description: ent-AU14ArmorUSArmy-desc
+  suffix: Survivor
+  name: Personal Body Armor System
+  description: The Personnel Body Armor System is the standard issue armor of the US Army, adopted over the M4 series pattern armor during field trials. Surprisingly uncomfortable, but offering far superior protection to the M3 or M4 series armor. At four times the price.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Armor/armor.rsi
@@ -486,8 +486,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorUSArmyNormal
-  name: ent-AU14ArmorUSArmyNormal
-  description: ent-AU14ArmorUSArmyNormal-desc
+  name: Personal Body Armor System
+  description: The Personnel Body Armor System is the standard issue armor of the US Army, adopted over the M4 series pattern armor during field trials. Surprisingly uncomfortable, but offering far superior protection to the M3 or M4 series armor. At four times the price.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Armor/armor.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: CMArmorM3VLSynth
   id: AU14ArmorUSArmySynth
-  name: ent-AU14ArmorUSArmySynth
-  description: ent-AU14ArmorUSArmySynth-desc
+  name: Synthetic Body Armor System
+  description: This is a variant of the Personnel Body Armor System, it has been modified extensively to be used by US Army Synthetics. It offers light protection, maximum mobility and more internal storage than its USCM counterpart. The cost of this item could outfit an entire squad of USCM Marines, but you are worth this cost.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Armor/synth.rsi
@@ -507,7 +507,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3RForecon
-  name: ent-AU14ArmorM3RForecon
+  name: M3-R pattern light armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Armor/forecon.rsi
@@ -518,9 +518,9 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorCBRN
-  name: ent-AU14ArmorCBRN
-  description: ent-AU14ArmorCBRN-desc
-  suffix: ent-AU14ArmorCBRN-suffix
+  name: CBRN M3-M armor
+  description: While lacking the appearance of the M3 pattern armor worn in regular service, this armor piece is still a derivative of it. It has been heavily modified to fit over the MOPP suit with additional padding and Venlar composite layers removed, so as not to restrict the wearer’s movement. However, with the reduction of composite layers, the personal protection offered is less than desired with complaints having been lodged since 2165.
+  suffix: AU14
   components:
   - type: CMArmor
     bullet: 20

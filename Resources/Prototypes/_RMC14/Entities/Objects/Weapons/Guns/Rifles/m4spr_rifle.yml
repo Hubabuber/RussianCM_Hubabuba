@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ent-WeaponRifleM4SPR
+  name: M4RA battle rifle
   id: WeaponRifleM4SPR
-  description: ent-WeaponRifleM4SPR-desc
+  description: The M4RA battle rifle is a designated marksman rifle in service with the Marine. Sporting a bullpup configuration, the M4RA battle rifle is perfect for reconnaissance and fire support teams.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr/desert.rsi
@@ -107,9 +107,9 @@
 
 - type: entity
   parent: WeaponRifleM4SPR
-  name: ent-WeaponRifleM5SPR
+  name: M5RA battle rifle
   id: WeaponRifleM5SPR
-  description: ent-WeaponRifleM5SPR-desc
+  description: The M5RA battle rifle is a modified version of the M4RA, able to chamber High Velocity Piercing rounds, and equipped a two-burst configuration.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom/desert.rsi
@@ -179,8 +179,8 @@
 - type: entity
   parent: WeaponRifleM5SPR
   id: WeaponRifleM5SPR2
-  name: ent-WeaponRifleM5SPR2
-  description: ent-WeaponRifleM5SPR2-desc
+  name: M5RA/2 battle rifle
+  description: The M5RA/2 battle rifle is a modified version of the M5RA, designed for PMC Operatives to take out targets at longer ranges.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m5spr2.rsi
@@ -228,7 +228,7 @@
 - type: entity
   parent: WeaponRifleM4SPR
   id: WeaponRifleM4SPRFilled
-  suffix: ent-WeaponRifleM4SPRFilled-suffix
+  suffix: Filled
   components:
   - type: ItemSlots
     slots:
@@ -250,8 +250,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM4SPR
-  name: "ent-CMMagazineRifleM4SPR"
-  description: "ent-CMMagazineRifleM4SPR-desc"
+  name: "M4RA magazine (10x24mm)"
+  description: "A magazine of standard 10x24mm rounds for use in the M4SPR battle rifle."
   components:
   - type: Tag
     tags:
@@ -272,9 +272,9 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: RMCMagazineRifleM4SPRWP
-  name: ent-RMCMagazineRifleM4SPRWP
-  description: "ent-RMCMagazineRifleM4SPRWP-desc"
-  suffix: ent-RMCMagazineRifleM4SPRWP-suffix
+  name: M4RA WP magazine (10x24mm)
+  description: "A magazine of wall-piercing 10x24mm rounds for use in the M4RA battle rifle."
+  suffix: WP
   components:
   - type: Tag
     tags:
@@ -300,9 +300,9 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: RMCMagazineRifleM4SPRIncendiary
-  name: ent-RMCMagazineRifleM4SPRIncendiary
-  description: "ent-RMCMagazineRifleM4SPRIncendiary-desc"
-  suffix: ent-RMCMagazineRifleM4SPRIncendiary-suffix
+  name: M4RA incendiary magazine (10x24mm)
+  description: "A magazine of Incendiary 10x24mm rounds for use in the M4RA battle rifle."
+  suffix: Incendiary
   components:
   - type: Tag
     tags:
@@ -328,9 +328,9 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: RMCMagazineRifleM4SPRHEAP
-  name: ent-RMCMagazineRifleM4SPRHEAP
-  description: "ent-RMCMagazineRifleM4SPRHEAP-desc"
-  suffix: ent-RMCMagazineRifleM4SPRHEAP-suffix
+  name: M4RA HEAP magazine (10x24mm)
+  description: "A magazine of high-explosive-armor-piercing 10x24mm rounds for use in the M4RA battle rifle."
+  suffix: HEAP
   components:
   - type: Tag
     tags:
@@ -356,9 +356,9 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRAP
-  name: ent-CMMagazineRifleM4SPRAP
-  description: "ent-CMMagazineRifleM4SPRAP-desc"
-  suffix: ent-CMMagazineRifleM4SPRAP-suffix
+  name: M4RA AP magazine (10x24mm)
+  description: "A magazine of armor-piercing 10x24mm rounds for use in the M4RA battle rifle."
+  suffix: AP
   components:
   - type: Tag
     tags:
@@ -384,7 +384,7 @@
 - type: entity
   parent: CMMagazineRifleM4SPRAP
   id: RMCMagazineRifleM4SPRAPEmpty
-  suffix: ent-RMCMagazineRifleM4SPRAPEmpty-suffix
+  suffix: AP, Empty
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -392,8 +392,8 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
-  name: "ent-CMMagazineRifleM4SPRExt"
-  description: "ent-CMMagazineRifleM4SPRExt-desc"
+  name: "M4RA extended magazine (10x24mm)"
+  description: "An extended magazine of standard 10x24mm rounds for use in the M4RA battle rifle."
   components:
   - type: BallisticAmmoProvider
     capacity: 35
@@ -412,8 +412,8 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: RMCMagazineRifleM5SPRHVP
-  name: "ent-RMCMagazineRifleM5SPRHVP"
-  description: "ent-RMCMagazineRifleM5SPRHVP-desc"
+  name: "M5RA HV-Piercing magazine (10x24mm)"
+  description: "A magazine of HV-Piercing 10x24mm rounds for use in the M5RA battle rifle."
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -439,8 +439,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM5SPRHVP
-  name: ent-RMCCartridgeRifleM5SPRHVP
-  description: ent-RMCCartridgeRifleM5SPRHVP-desc
+  name: cartridge (HV-Piercing)
+  description: A high-velocity HV-Piercing cartridge. Fits in M5RA custom magazines.
   components:
   - type: Tag
     tags:
@@ -479,8 +479,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM5SPRHVHIP
-  name: ent-RMCCartridgeRifleM5SPRHVHIP
-  description: ent-RMCCartridgeRifleM5SPRHVHIP-desc
+  name: cartridge (HVHI-Piercing)
+  description: A high-velocity HVHI-Piercing cartridge. Fits in M5RA custom magazines.
   components:
   - type: Tag
     tags:
@@ -506,8 +506,8 @@
 - type: entity
   parent: RMCMagazineRifleM5SPRHVP
   id: RMCMagazineRifleM5SPRHVHIP
-  name: "ent-RMCMagazineRifleM5SPRHVHIP"
-  description: "ent-RMCMagazineRifleM5SPRHVHIP-desc"
+  name: "M5RA HVHI-Piercing magazine (10x24mm)"
+  description: "A magazine of HVHI-Piercing 10x24mm rounds for use in the M5RA battle rifle."
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianPhysician
-  name: job-au14jobcivilianphysician-name
-  description: job-au14jobcivilianphysician-desc
+  name: au14-job-name-civilianphysician
+  description: au14-job-description-civilianphysician
   setPreference: true
   playTimeTracker: AU14JobCivilianPhysician
   requirements:
@@ -17,7 +17,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianphysician-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   - aumed
@@ -51,7 +51,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianPhysician
-  name: ent-AU14SpawnPointCivilianPhysician
+  name: Spawn Point Civilian Physician
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianPhysician

@@ -1,17 +1,6 @@
 ent-RMCCrateMedicalPill = ящик флаконов с таблетками (x2 каждого)
-    .desc = Медицинский ящик.
 ent-RMCCrateMedicalFilled = медицинский ящик
-    .desc = Медицинский ящик.
-    .suffix = медицинский ящик
 ent-RMCCrateMedicalFirstAid = ящик аптечек (x2 каждого)
-    .desc = Медицинский ящик.
 ent-RMCCrateMedicalStasisBag = ящик стазис-мешков (x3)
-    .desc = Медицинский ящик.
 ent-RMCCrateMedicalBodyBag = ящик мешков для тел (x28)
-    .desc = Медицинский ящик.
 ent-RMCCrateMedicalSurgery = ящик хирургического оборудования (лоток, анестетики, инструменты)
-    .desc = Хирургический ящик.
-    .suffix = безопасный ящик
-ent-RMCCrateFieldDoctor = Ящик полевого врача (замена снаряжения полевого врача)
-    .desc = Хирургический ящик.
-    .suffix = Безопасный

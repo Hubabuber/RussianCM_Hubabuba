@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-WeaponFlareGun
+  name: flare gun
   parent: BaseItem
   id: WeaponFlareGun
-  description: ent-WeaponFlareGun-desc
+  description: A compact, single-shot pistol that fires shotgun shells. Comes with a safety feature that prevents the user from fitting lethal shells inside.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun.rsi
@@ -49,10 +49,10 @@
 
 
 - type: entity
-  name: ent-WeaponFlareGunSecurity
+  name: security shell gun
   parent: [WeaponFlareGun, BaseSecurityContraband]
   id: WeaponFlareGunSecurity
-  description: ent-WeaponFlareGunSecurity-desc
+  description: A modified flare gun originally designed to be used by security to launch non-lethal shotgun shells, however it can also fire lethal shells without risk.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun_security.rsi

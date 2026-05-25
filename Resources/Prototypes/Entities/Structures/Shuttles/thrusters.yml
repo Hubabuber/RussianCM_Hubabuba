@@ -1,8 +1,8 @@
 - type: entity
   id: BaseThruster
   parent: BaseStructureDynamic
-  name: ent-BaseThruster
-  description: ent-BaseThruster-desc
+  name: thruster
+  description: A thruster that allows a shuttle to move.
   abstract: true
   components:
     - type: Fixtures
@@ -63,7 +63,7 @@
 
 - type: entity
   id: Thruster
-  name: ent-Thruster
+  name: thruster
   parent: [ BaseThruster, ConstructibleMachine ]
   components:
   - type: Machine
@@ -105,7 +105,7 @@
 - type: entity
   id: ThrusterUnanchored
   parent: Thruster
-  suffix: ent-ThrusterUnanchored-suffix
+  suffix: Unanchored
   components:
     - type: Transform
       anchored: false
@@ -115,7 +115,7 @@
 - type: entity
   id: DebugThruster
   parent: BaseThruster
-  suffix: ent-DebugThruster-suffix
+  suffix: DEBUG
   components:
   - type: Thruster
     requireSpace: false
@@ -140,8 +140,8 @@
 - type: entity
   id: Gyroscope
   parent: [ BaseThruster, ConstructibleMachine ]
-  name: ent-Gyroscope
-  description: ent-Gyroscope-desc
+  name: gyroscope
+  description: Increases the shuttle's potential angular rotation.
   components:
   - type: Thruster
     thrusterType: Angular
@@ -204,7 +204,7 @@
 - type: entity
   id: GyroscopeUnanchored
   parent: Gyroscope
-  suffix: ent-GyroscopeUnanchored-suffix
+  suffix: Unanchored
   components:
     - type: Transform
       anchored: false
@@ -214,7 +214,7 @@
 - type: entity
   id: DebugGyroscope
   parent: BaseThruster
-  suffix: ent-DebugGyroscope-suffix
+  suffix: DEBUG
   components:
   - type: Thruster
     thrusterType: Angular
@@ -241,8 +241,8 @@
 - type: entity
   id: RustedThruster
   parent: BaseStructureDynamic
-  name: ent-RustedThruster
-  description: ent-RustedThruster-desc
+  name: rusted thruster
+  description: An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
   components:
     - type: Fixtures
       fixtures:

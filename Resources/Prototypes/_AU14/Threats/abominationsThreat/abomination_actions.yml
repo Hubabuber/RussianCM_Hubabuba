@@ -15,8 +15,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationSpiderLeap
-  name: ent-ActionAbominationSpiderLeap
-  description: ent-ActionAbominationSpiderLeap-desc
+  name: Pounce
+  description: Pounce onto a target, knocking them down briefly.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -33,8 +33,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationSpiderSpit
-  name: ent-ActionAbominationSpiderSpit
-  description: ent-ActionAbominationSpiderSpit-desc
+  name: Acid Spit
+  description: Spit a glob of acid at a target.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -53,8 +53,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationGruntSlam
-  name: ent-ActionAbominationGruntSlam
-  description: ent-ActionAbominationGruntSlam-desc
+  name: Slam
+  description: Leap to a position and slam down, knocking enemies prone.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -71,8 +71,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationGruntCharge
-  name: ent-ActionAbominationGruntCharge
-  description: ent-ActionAbominationGruntCharge-desc
+  name: Charge
+  description: Wind up and barrel forward, smashing through anything in your path.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -89,8 +89,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationGruntSpit
-  name: ent-ActionAbominationGruntSpit
-  description: ent-ActionAbominationGruntSpit-desc
+  name: Acid Spit
+  description: Hawk up a glob of corrosive acid at the target.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -107,8 +107,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationGruntAcidSpray
-  name: ent-ActionAbominationGruntAcidSpray
-  description: ent-ActionAbominationGruntAcidSpray-desc
+  name: Acid Spray
+  description: Vomit a cone of corrosive acid in the target direction.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -127,8 +127,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationPlantKudzu
-  name: ent-ActionAbominationPlantKudzu
-  description: ent-ActionAbominationPlantKudzu-desc
+  name: Spread Kudzu
+  description: Vomit out a fast-spreading kudzu source under yourself.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -142,8 +142,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationChooseStructure
-  name: ent-ActionAbominationChooseStructure
-  description: ent-ActionAbominationChooseStructure-desc
+  name: Choose Flesh Structure
+  description: Pick which structure you'll secrete with the Secrete Flesh action.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -157,8 +157,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationSecreteStructure
-  name: ent-ActionAbominationSecreteStructure
-  description: ent-ActionAbominationSecreteStructure-desc
+  name: Secrete Flesh
+  description: Secrete the chosen flesh structure on the targeted tile.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -177,8 +177,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationAssimilate
-  name: ent-ActionAbominationAssimilate
-  description: ent-ActionAbominationAssimilate-desc
+  name: Assimilate
+  description: Begin assimilating an incapacitated humanoid. They will become a mimic too.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -196,8 +196,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationMimicTransform
-  name: ent-ActionAbominationMimicTransform
-  description: ent-ActionAbominationMimicTransform-desc
+  name: Mimic
+  description: Take the shape of one of your assimilated victims for a limited time.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -214,8 +214,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationMimicRevert
-  name: ent-ActionAbominationMimicRevert
-  description: ent-ActionAbominationMimicRevert-desc
+  name: Drop Disguise
+  description: Burst out of your current form and return to your combat shape.
   components:
   - type: Action
     itemIconStyle: NoItem

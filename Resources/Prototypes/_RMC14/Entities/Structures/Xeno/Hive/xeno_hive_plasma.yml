@@ -1,8 +1,8 @@
 - type: entity
   id: HivePlasmaTreeXeno
   parent: BaseHiveStructure
-  name: ent-HivePlasmaTreeXeno
-  description: ent-HivePlasmaTreeXeno-desc
+  name: plasma tree
+  description: A tree-shaped node whose "berries" are filled with glowing blue liquid that drips from them.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/hive_structures.rsi
@@ -36,9 +36,9 @@
 - type: entity
   id: HivePlasmaTreeXenoConstructionNode
   parent: BaseHiveStructureNode
-  name: ent-HivePlasmaTreeXenoConstructionNode
-  description: ent-HivePlasmaTreeXenoConstructionNode-desc
-  suffix: ent-HivePlasmaTreeXenoConstructionNode-suffix
+  name: plasma tree
+  description: Making glowing blue "berries", replenishing plasma reserves of the sisters around it.
+  suffix: Construction
   components:
   - type: Sprite
     color: '#FFFFFFAA'

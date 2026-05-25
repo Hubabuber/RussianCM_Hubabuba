@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionBlink
-  name: ent-ActionBlink
-  description: ent-ActionBlink-desc
+  name: Blink
+  description: Teleport to the clicked location.
   components:
   - type: Action
     useDelay: 10
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseEntitySpellAction
   id: ActionVoidApplause
-  name: ent-ActionVoidApplause
-  description: ent-ActionVoidApplause-desc
+  name: Void Applause
+  description: Clap your hands and swap places with the target.
   components:
   - type: Action
     useDelay: 15

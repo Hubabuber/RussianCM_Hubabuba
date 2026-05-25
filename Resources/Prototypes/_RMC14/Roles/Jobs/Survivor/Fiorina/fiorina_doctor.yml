@@ -1,13 +1,13 @@
 - type: job
   parent: CMSurvivorDoctor
   id: CMSurvivorFiorinaDoctor
-  name: job-cmsurvivorfiorinadoctor-name
-  description: job-cmsurvivorfiorinadoctor-desc
+  name: cm-job-name-survivor-fiorina-doctor
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorDoctor
   startingGear: RMCGearSurvivorFiorinaDoctor
   accessGroups:
   - ColonistMedical
-  spawnMenuRoleName: job-cmsurvivorfiorinadoctor-spawnmenurolename
+  spawnMenuRoleName: Fiorina Doctor (Fiorina Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFiorinaDoctor
-  name: ent-RMCSpawnPointSurvivorFiorinaDoctor
+  name: survivor fiorina doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorFiorinaDoctor

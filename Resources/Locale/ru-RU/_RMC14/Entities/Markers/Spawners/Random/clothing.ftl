@@ -1,15 +1,15 @@
 ent-RMCSpawnerRandomGoggles = спавнер лута в очках
   .desc = Это случайный набор очков для выживших.
-    .suffix = спавнер лута в очках
+
 ent-RMCSpawnerRandomClothingBase = генератор оружия
   .desc = порождает случайный предмет одежды
-    .suffix = генератор оружия
+
 ent-RMCSpawnerRandomGogglesLowChance = спавнер лута в очках
   .desc = Это случайный набор очков для выживших.
-    .suffix = спавнер лута в очках
+
 ent-RMCSpawnerRandomGogglesMidChance = спавнер лута в очках
   .desc = Это случайный набор очков для выживших.
-    .suffix = спавнер лута в очках
+
 ent-RMCSpawnerRandomGogglesHighChance = спавнер лута в очках
   .desc = Это случайный набор очков для выживших.
-    .suffix = спавнер лута в очках
+

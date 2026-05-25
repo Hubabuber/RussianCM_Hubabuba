@@ -2,7 +2,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: RMCBaseERTShuttleWall
-  name: ent-RMCBaseERTShuttleWall
+  name: ERT Shuttle Wall
   components:
   - type: Corrodible
     isCorrodible: false
@@ -17,7 +17,7 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCBaseERTShuttleEngine
-  name: ent-RMCBaseERTShuttleEngine
+  name: Shuttle Engine
   components:
   - type: Occluder
     enabled: false
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCBaseERTShuttleEngine
   id: RMCERTShuttleEngineLeft01
-  suffix: ent-RMCERTShuttleEngineLeft01-suffix
+  suffix: Left 01
   components:
   - type: Sprite
     state: left_engine_01
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCBaseERTShuttleEngine
   id: RMCERTShuttleEngineLeft02
-  suffix: ent-RMCERTShuttleEngineLeft02-suffix
+  suffix: Left 02
   components:
   - type: Sprite
     state: left_engine_02
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCBaseERTShuttleEngine
   id: RMCERTShuttleEngineLeft03
-  suffix: ent-RMCERTShuttleEngineLeft03-suffix
+  suffix: Left 03
   components:
   - type: Sprite
     state: left_engine_03
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCBaseERTShuttleEngine
   id: RMCERTShuttleEngineRight01
-  suffix: ent-RMCERTShuttleEngineRight01-suffix
+  suffix: Right 01
   components:
   - type: Sprite
     state: right_engine_01
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCBaseERTShuttleEngine
   id: RMCERTShuttleEngineRight02
-  suffix: ent-RMCERTShuttleEngineRight02-suffix
+  suffix: Right 02
   components:
   - type: Sprite
     state: right_engine_02
@@ -75,7 +75,7 @@
 - type: entity
   parent: RMCBaseERTShuttleEngine
   id: RMCERTShuttleEngineRight03
-  suffix: ent-RMCERTShuttleEngineRight03-suffix
+  suffix: Right 03
   components:
   - type: Sprite
     state: right_engine_03
@@ -88,13 +88,13 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallStandard
-  name: ent-RMCERTShuttleWallStandard
+  name: Standard Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandardEngineLeft
-  name: ent-RMCERTShuttleWallStandardEngineLeft
-  suffix: ent-RMCERTShuttleWallStandardEngineLeft-suffix
+  name: Standard Shuttle Engine
+  suffix: Left
   components:
   - type: Sprite
     state: standard_left_engine
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandardEngineRight
-  name: ent-RMCERTShuttleWallStandardEngineRight
-  suffix: ent-RMCERTShuttleWallStandardEngineRight-suffix
+  name: Standard Shuttle Engine
+  suffix: Right
   components:
   - type: Sprite
     state: standard_right_engine
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard01
-  suffix: ent-RMCERTShuttleWallStandard01-suffix
+  suffix: 01
   components:
   - type: Sprite
     state: standard_t_wall
@@ -125,7 +125,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard02
-  suffix: ent-RMCERTShuttleWallStandard02-suffix
+  suffix: 02
   components:
   - type: Sprite
     state: standard_t_wall_inverted
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard03
-  suffix: ent-RMCERTShuttleWallStandard03-suffix
+  suffix: 03
   components:
   - type: Sprite
     state: standard_outer_wall
@@ -145,7 +145,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard04
-  suffix: ent-RMCERTShuttleWallStandard04-suffix
+  suffix: 04
   components:
   - type: Sprite
     state: standard_inner_southward_wall
@@ -155,7 +155,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard05
-  suffix: ent-RMCERTShuttleWallStandard05-suffix
+  suffix: 05
   components:
   - type: Sprite
     state: standard_inner_leftward_t_wall
@@ -165,7 +165,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard06
-  suffix: ent-RMCERTShuttleWallStandard06-suffix
+  suffix: 06
   components:
   - type: Sprite
     state: standard_inner_rightward_t_wall
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard07
-  suffix: ent-RMCERTShuttleWallStandard07-suffix
+  suffix: 07
   components:
   - type: Sprite
     state: standard_inner_wall_01
@@ -185,7 +185,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard08
-  suffix: ent-RMCERTShuttleWallStandard08-suffix
+  suffix: 08
   components:
   - type: Sprite
     state: standard_inner_wall_02
@@ -195,7 +195,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard09
-  suffix: ent-RMCERTShuttleWallStandard09-suffix
+  suffix: 09
   components:
   - type: Sprite
     state: standard_leftward_wall
@@ -205,7 +205,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard10
-  suffix: ent-RMCERTShuttleWallStandard10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: standard_rightward_wall
@@ -215,7 +215,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard11
-  suffix: ent-RMCERTShuttleWallStandard11-suffix
+  suffix: 11
   components:
   - type: Sprite
     state: standard_inner_t_wall
@@ -225,7 +225,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard12
-  suffix: ent-RMCERTShuttleWallStandard12-suffix
+  suffix: 12
   components:
   - type: Sprite
     state: standard_wall_01
@@ -235,7 +235,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard13
-  suffix: ent-RMCERTShuttleWallStandard13-suffix
+  suffix: 13
   components:
   - type: Sprite
     state: standard_wall_02
@@ -245,7 +245,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard14
-  suffix: ent-RMCERTShuttleWallStandard14-suffix
+  suffix: 14
   components:
   - type: Sprite
     state: standard_wall_03
@@ -255,7 +255,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard15
-  suffix: ent-RMCERTShuttleWallStandard15-suffix
+  suffix: 15
   components:
   - type: Sprite
     state: standard_wall_04
@@ -265,7 +265,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard16
-  suffix: ent-RMCERTShuttleWallStandard16-suffix
+  suffix: 16
   components:
   - type: Sprite
     state: standard_wall_05
@@ -275,7 +275,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard17
-  suffix: ent-RMCERTShuttleWallStandard17-suffix
+  suffix: 17
   components:
   - type: Sprite
     state: standard_wall_08
@@ -285,7 +285,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard18
-  suffix: ent-RMCERTShuttleWallStandard18-suffix
+  suffix: 18
   components:
   - type: Sprite
     state: standard_wall_09
@@ -295,7 +295,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard19
-  suffix: ent-RMCERTShuttleWallStandard19-suffix
+  suffix: 19
   components:
   - type: Sprite
     state: standard_wall_20
@@ -305,7 +305,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard20
-  suffix: ent-RMCERTShuttleWallStandard20-suffix
+  suffix: 20
   components:
   - type: Sprite
     state: standard_wall_21
@@ -315,7 +315,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard21
-  suffix: ent-RMCERTShuttleWallStandard21-suffix
+  suffix: 21
   components:
   - type: Sprite
     state: standard_wall_22
@@ -325,7 +325,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard22
-  suffix: ent-RMCERTShuttleWallStandard22-suffix
+  suffix: 22
   components:
   - type: Sprite
     state: standard_wall_23
@@ -335,7 +335,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard23
-  suffix: ent-RMCERTShuttleWallStandard23-suffix
+  suffix: 23
   components:
   - type: Sprite
     state: standard_wall_25
@@ -345,7 +345,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandard24
-  suffix: ent-RMCERTShuttleWallStandard24-suffix
+  suffix: 24
   components:
   - type: Sprite
     state: standard_wall_27
@@ -360,13 +360,13 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallWeYa
-  name: ent-RMCERTShuttleWallWeYa
+  name: WeYa Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYaEngineLeft
-  name: ent-RMCERTShuttleWallWeYaEngineLeft
-  suffix: ent-RMCERTShuttleWallWeYaEngineLeft-suffix
+  name: WeYa Shuttle Engine
+  suffix: Left
   components:
   - type: Sprite
     state: weya_left_engine
@@ -376,8 +376,8 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYaEngineRight
-  name: ent-RMCERTShuttleWallWeYaEngineRight
-  suffix: ent-RMCERTShuttleWallWeYaEngineRight-suffix
+  name: WeYa Shuttle Engine
+  suffix: Right
   components:
   - type: Sprite
     state: weya_right_engine
@@ -387,7 +387,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa01
-  suffix: ent-RMCERTShuttleWallWeYa01-suffix
+  suffix: 01
   components:
   - type: Sprite
     state: weya_wall_01
@@ -397,7 +397,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa02
-  suffix: ent-RMCERTShuttleWallWeYa02-suffix
+  suffix: 02
   components:
   - type: Sprite
     state: weya_wall_02
@@ -407,7 +407,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa03
-  suffix: ent-RMCERTShuttleWallWeYa03-suffix
+  suffix: 03
   components:
   - type: Sprite
     state: weya_wall_03
@@ -417,7 +417,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa04
-  suffix: ent-RMCERTShuttleWallWeYa04-suffix
+  suffix: 04
   components:
   - type: Sprite
     state: weya_wall_04
@@ -427,7 +427,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa05
-  suffix: ent-RMCERTShuttleWallWeYa05-suffix
+  suffix: 05
   components:
   - type: Sprite
     state: weya_wall_05
@@ -437,7 +437,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa06
-  suffix: ent-RMCERTShuttleWallWeYa06-suffix
+  suffix: 06
   components:
   - type: Sprite
     state: weya_wall_08
@@ -447,7 +447,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa07
-  suffix: ent-RMCERTShuttleWallWeYa07-suffix
+  suffix: 07
   components:
   - type: Sprite
     state: weya_wall_09
@@ -457,7 +457,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa08
-  suffix: ent-RMCERTShuttleWallWeYa08-suffix
+  suffix: 08
   components:
   - type: Sprite
     state: weya_wall_12
@@ -467,7 +467,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa09
-  suffix: ent-RMCERTShuttleWallWeYa09-suffix
+  suffix: 09
   components:
   - type: Sprite
     state: weya_wall_13
@@ -477,7 +477,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa10
-  suffix: ent-RMCERTShuttleWallWeYa10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: weya_wall_14
@@ -487,7 +487,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa11
-  suffix: ent-RMCERTShuttleWallWeYa11-suffix
+  suffix: 11
   components:
   - type: Sprite
     state: weya_wall_15
@@ -497,7 +497,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa12
-  suffix: ent-RMCERTShuttleWallWeYa12-suffix
+  suffix: 12
   components:
   - type: Sprite
     state: weya_wall_16
@@ -507,7 +507,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa13
-  suffix: ent-RMCERTShuttleWallWeYa13-suffix
+  suffix: 13
   components:
   - type: Sprite
     state: weya_wall_17
@@ -517,7 +517,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa14
-  suffix: ent-RMCERTShuttleWallWeYa14-suffix
+  suffix: 14
   components:
   - type: Sprite
     state: weya_wall_18
@@ -527,7 +527,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa15
-  suffix: ent-RMCERTShuttleWallWeYa15-suffix
+  suffix: 15
   components:
   - type: Sprite
     state: weya_wall_19
@@ -537,7 +537,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa16
-  suffix: ent-RMCERTShuttleWallWeYa16-suffix
+  suffix: 16
   components:
   - type: Sprite
     state: weya_wall_20
@@ -547,7 +547,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa17
-  suffix: ent-RMCERTShuttleWallWeYa17-suffix
+  suffix: 17
   components:
   - type: Sprite
     state: weya_wall_21
@@ -557,7 +557,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa18
-  suffix: ent-RMCERTShuttleWallWeYa18-suffix
+  suffix: 18
   components:
   - type: Sprite
     state: weya_wall_22
@@ -567,7 +567,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa19
-  suffix: ent-RMCERTShuttleWallWeYa19-suffix
+  suffix: 19
   components:
   - type: Sprite
     state: weya_wall_23
@@ -577,7 +577,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa20
-  suffix: ent-RMCERTShuttleWallWeYa20-suffix
+  suffix: 20
   components:
   - type: Sprite
     state: weya_wall_25
@@ -587,7 +587,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYa21
-  suffix: ent-RMCERTShuttleWallWeYa21-suffix
+  suffix: 21
   components:
   - type: Sprite
     state: weya_wall_27
@@ -602,13 +602,13 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallSPP
-  name: ent-RMCERTShuttleWallSPP
+  name: SPP Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPPEngineLeft
-  name: ent-RMCERTShuttleWallSPPEngineLeft
-  suffix: ent-RMCERTShuttleWallSPPEngineLeft-suffix
+  name: SPP Shuttle Engine
+  suffix: Left
   components:
   - type: Sprite
     state: spp_left_engine
@@ -618,8 +618,8 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPPEngineRight
-  name: ent-RMCERTShuttleWallSPPEngineRight
-  suffix: ent-RMCERTShuttleWallSPPEngineRight-suffix
+  name: SPP Shuttle Engine
+  suffix: Right
   components:
   - type: Sprite
     state: spp_right_engine
@@ -629,7 +629,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP01
-  suffix: ent-RMCERTShuttleWallSPP01-suffix
+  suffix: 01
   components:
   - type: Sprite
     state: spp_wall_01
@@ -639,7 +639,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP02
-  suffix: ent-RMCERTShuttleWallSPP02-suffix
+  suffix: 02
   components:
   - type: Sprite
     state: spp_wall_02
@@ -649,7 +649,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP03
-  suffix: ent-RMCERTShuttleWallSPP03-suffix
+  suffix: 03
   components:
   - type: Sprite
     state: spp_wall_03
@@ -659,7 +659,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP04
-  suffix: ent-RMCERTShuttleWallSPP04-suffix
+  suffix: 04
   components:
   - type: Sprite
     state: spp_wall_04
@@ -669,7 +669,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP05
-  suffix: ent-RMCERTShuttleWallSPP05-suffix
+  suffix: 05
   components:
   - type: Sprite
     state: spp_wall_05
@@ -679,7 +679,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP06
-  suffix: ent-RMCERTShuttleWallSPP06-suffix
+  suffix: 06
   components:
   - type: Sprite
     state: spp_wall_08
@@ -689,7 +689,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP07
-  suffix: ent-RMCERTShuttleWallSPP07-suffix
+  suffix: 07
   components:
   - type: Sprite
     state: spp_wall_09
@@ -699,7 +699,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP08
-  suffix: ent-RMCERTShuttleWallSPP08-suffix
+  suffix: 08
   components:
   - type: Sprite
     state: spp_wall_16
@@ -709,7 +709,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP09
-  suffix: ent-RMCERTShuttleWallSPP09-suffix
+  suffix: 09
   components:
   - type: Sprite
     state: spp_wall_20
@@ -719,7 +719,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP10
-  suffix: ent-RMCERTShuttleWallSPP10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: spp_wall_21
@@ -729,7 +729,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP11
-  suffix: ent-RMCERTShuttleWallSPP11-suffix
+  suffix: 11
   components:
   - type: Sprite
     state: spp_wall_22
@@ -739,7 +739,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP12
-  suffix: ent-RMCERTShuttleWallSPP12-suffix
+  suffix: 12
   components:
   - type: Sprite
     state: spp_wall_23
@@ -749,7 +749,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP13
-  suffix: ent-RMCERTShuttleWallSPP13-suffix
+  suffix: 13
   components:
   - type: Sprite
     state: spp_wall_25
@@ -759,7 +759,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPP14
-  suffix: ent-RMCERTShuttleWallSPP14-suffix
+  suffix: 14
   components:
   - type: Sprite
     state: spp_wall_27
@@ -774,13 +774,13 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallTSE
-  name: ent-RMCERTShuttleWallTSE
+  name: TSE Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSEEngineLeft
-  name: ent-RMCERTShuttleWallTSEEngineLeft
-  suffix: ent-RMCERTShuttleWallTSEEngineLeft-suffix
+  name: TSE Shuttle Engine
+  suffix: Left
   components:
   - type: Sprite
     state: tse_left_engine
@@ -790,8 +790,8 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSEEngineRight
-  name: ent-RMCERTShuttleWallTSEEngineRight
-  suffix: ent-RMCERTShuttleWallTSEEngineRight-suffix
+  name: TSE Shuttle Engine
+  suffix: Right
   components:
   - type: Sprite
     state: tse_right_engine
@@ -801,7 +801,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE01
-  suffix: ent-RMCERTShuttleWallTSE01-suffix
+  suffix: 01
   components:
   - type: Sprite
     state: tse_wall_01
@@ -811,7 +811,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE02
-  suffix: ent-RMCERTShuttleWallTSE02-suffix
+  suffix: 02
   components:
   - type: Sprite
     state: tse_wall_02
@@ -821,7 +821,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE03
-  suffix: ent-RMCERTShuttleWallTSE03-suffix
+  suffix: 03
   components:
   - type: Sprite
     state: tse_wall_03
@@ -831,7 +831,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE04
-  suffix: ent-RMCERTShuttleWallTSE04-suffix
+  suffix: 04
   components:
   - type: Sprite
     state: tse_wall_04
@@ -841,7 +841,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE05
-  suffix: ent-RMCERTShuttleWallTSE05-suffix
+  suffix: 05
   components:
   - type: Sprite
     state: tse_wall_05
@@ -851,7 +851,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE06
-  suffix: ent-RMCERTShuttleWallTSE06-suffix
+  suffix: 06
   components:
   - type: Sprite
     state: tse_wall_08
@@ -861,7 +861,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE07
-  suffix: ent-RMCERTShuttleWallTSE07-suffix
+  suffix: 07
   components:
   - type: Sprite
     state: tse_wall_09
@@ -871,7 +871,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE08
-  suffix: ent-RMCERTShuttleWallTSE08-suffix
+  suffix: 08
   components:
   - type: Sprite
     state: tse_wall_16
@@ -881,7 +881,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE09
-  suffix: ent-RMCERTShuttleWallTSE09-suffix
+  suffix: 09
   components:
   - type: Sprite
     state: tse_wall_20
@@ -891,7 +891,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE10
-  suffix: ent-RMCERTShuttleWallTSE10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: tse_wall_21
@@ -901,7 +901,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE11
-  suffix: ent-RMCERTShuttleWallTSE11-suffix
+  suffix: 11
   components:
   - type: Sprite
     state: tse_wall_22
@@ -911,7 +911,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE12
-  suffix: ent-RMCERTShuttleWallTSE12-suffix
+  suffix: 12
   components:
   - type: Sprite
     state: tse_wall_23
@@ -921,7 +921,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE13
-  suffix: ent-RMCERTShuttleWallTSE13-suffix
+  suffix: 13
   components:
   - type: Sprite
     state: tse_wall_25
@@ -931,7 +931,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSE14
-  suffix: ent-RMCERTShuttleWallTSE14-suffix
+  suffix: 14
   components:
   - type: Sprite
     state: tse_wall_27
@@ -946,13 +946,13 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallNightmareSPP
-  name: ent-RMCERTShuttleWallNightmareSPP
+  name: Nightmare SPP Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPPEngineLeft01
-  name: ent-RMCERTShuttleWallNightmareSPPEngineLeft01
-  suffix: ent-RMCERTShuttleWallNightmareSPPEngineLeft01-suffix
+  name: Nightmare SPP Shuttle Engine
+  suffix: Left 01
   components:
   - type: Sprite
     state: nightmare_spp_left_engine_01
@@ -962,8 +962,8 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPPEngineLeft02
-  name: ent-RMCERTShuttleWallNightmareSPPEngineLeft02
-  suffix: ent-RMCERTShuttleWallNightmareSPPEngineLeft02-suffix
+  name: Nightmare SPP Shuttle Engine
+  suffix: Left 02
   components:
   - type: Sprite
     state: nightmare_spp_left_engine_02
@@ -973,8 +973,8 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPPEngineRight01
-  name: ent-RMCERTShuttleWallNightmareSPPEngineRight01
-  suffix: ent-RMCERTShuttleWallNightmareSPPEngineRight01-suffix
+  name: Nightmare SPP Shuttle Engine
+  suffix: Right 01
   components:
   - type: Sprite
     state: nightmare_spp_right_engine_01
@@ -984,8 +984,8 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPPEngineRight02
-  name: ent-RMCERTShuttleWallNightmareSPPEngineRight02
-  suffix: ent-RMCERTShuttleWallNightmareSPPEngineRight02-suffix
+  name: Nightmare SPP Shuttle Engine
+  suffix: Right 02
   components:
   - type: Sprite
     state: nightmare_spp_right_engine_02
@@ -995,7 +995,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP01
-  suffix: ent-RMCERTShuttleWallNightmareSPP01-suffix
+  suffix: 01
   components:
   - type: Sprite
     state: nightmare_spp_wall_01
@@ -1005,7 +1005,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP02
-  suffix: ent-RMCERTShuttleWallNightmareSPP02-suffix
+  suffix: 02
   components:
   - type: Sprite
     state: nightmare_spp_wall_02
@@ -1015,7 +1015,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP03
-  suffix: ent-RMCERTShuttleWallNightmareSPP03-suffix
+  suffix: 03
   components:
   - type: Sprite
     state: nightmare_spp_wall_03
@@ -1025,7 +1025,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP04
-  suffix: ent-RMCERTShuttleWallNightmareSPP04-suffix
+  suffix: 04
   components:
   - type: Sprite
     state: nightmare_spp_wall_04
@@ -1035,7 +1035,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP05
-  suffix: ent-RMCERTShuttleWallNightmareSPP05-suffix
+  suffix: 05
   components:
   - type: Sprite
     state: nightmare_spp_wall_05
@@ -1045,7 +1045,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP06
-  suffix: ent-RMCERTShuttleWallNightmareSPP06-suffix
+  suffix: 06
   components:
   - type: Sprite
     state: nightmare_spp_wall_06
@@ -1055,7 +1055,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP07
-  suffix: ent-RMCERTShuttleWallNightmareSPP07-suffix
+  suffix: 07
   components:
   - type: Sprite
     state: nightmare_spp_wall_07
@@ -1065,7 +1065,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP08
-  suffix: ent-RMCERTShuttleWallNightmareSPP08-suffix
+  suffix: 08
   components:
   - type: Sprite
     state: nightmare_spp_wall_08
@@ -1075,7 +1075,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP09
-  suffix: ent-RMCERTShuttleWallNightmareSPP09-suffix
+  suffix: 09
   components:
   - type: Sprite
     state: nightmare_spp_wall_11
@@ -1085,7 +1085,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP10
-  suffix: ent-RMCERTShuttleWallNightmareSPP10-suffix
+  suffix: 10
   components:
   - type: Sprite
     state: nightmare_spp_wall_12
@@ -1095,7 +1095,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP11
-  suffix: ent-RMCERTShuttleWallNightmareSPP11-suffix
+  suffix: 11
   components:
   - type: Sprite
     state: nightmare_spp_wall_13
@@ -1105,7 +1105,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP12
-  suffix: ent-RMCERTShuttleWallNightmareSPP12-suffix
+  suffix: 12
   components:
   - type: Sprite
     state: nightmare_spp_wall_14
@@ -1115,7 +1115,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP13
-  suffix: ent-RMCERTShuttleWallNightmareSPP13-suffix
+  suffix: 13
   components:
   - type: Sprite
     state: nightmare_spp_wall_15
@@ -1125,7 +1125,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP14
-  suffix: ent-RMCERTShuttleWallNightmareSPP14-suffix
+  suffix: 14
   components:
   - type: Sprite
     state: nightmare_spp_wall_16
@@ -1135,7 +1135,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPP15
-  suffix: ent-RMCERTShuttleWallNightmareSPP15-suffix
+  suffix: 15
   components:
   - type: Sprite
     state: nightmare_spp_wall_20

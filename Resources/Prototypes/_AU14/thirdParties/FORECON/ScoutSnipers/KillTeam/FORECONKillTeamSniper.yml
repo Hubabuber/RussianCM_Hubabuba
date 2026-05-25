@@ -1,20 +1,20 @@
 - type: job
   parent: AU14JobFORECONSniperBase
   id: AU14FORECONKillTeamSniper
-  name: job-au14foreconkillteamsniper-name
-  description: job-au14foreconkillteamsniper-desc
+  name: rmc-job-name-forecon-sniper
+  description: au14-job-description-forecon-killteam
   ranks:
     RMCRankChiefWarrantOfficer:
     - !type:RoleTimeRequirement
       role: AU14FORECONSniperDetachment
       time: 18000 #5 hours
     RMCRankWarrantOfficer: []
-  spawnMenuRoleName: job-au14foreconkillteamsniper-spawnmenurolename
+  spawnMenuRoleName: FORECON Sniper (AU14, KillTeam)
   icon: "CMJobIconEmpty"
   startingGear: AU14GearFORECONKillTeamSniper
   greeting: au14-job-description-forecon-killteam-greeting
   joinNotifyCrew: false
-  supervisors: job-au14foreconkillteamsniper-supervisors
+  supervisors: au14-job-supervisors-loner
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,9 +32,9 @@
 
 - type: entity
   parent: AU14BaseMobSpeciesOrganicFORECON
-  suffix: ent-AU14JobFORECONKillTeamSniper-suffix
+  suffix: AU14, FORECON, KillTeam
   id: AU14JobFORECONKillTeamSniper
-  name: ent-AU14JobFORECONKillTeamSniper
+  name: FORECON Sniper (Kill Team)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

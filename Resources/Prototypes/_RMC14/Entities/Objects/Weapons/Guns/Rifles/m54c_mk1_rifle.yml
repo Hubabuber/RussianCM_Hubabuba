@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ent-RMCWeaponRifleM54CMK1
+  name: M41A pulse rifle MK1
   id: RMCWeaponRifleM54CMK1
-  description: ent-RMCWeaponRifleM54CMK1-desc
+  description: An older design of the Pulse Rifle commonly used by the Marine Corps. Uses 10x24mm caseless ammunition.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54cmk1.rsi
@@ -108,7 +108,7 @@
 - type: entity
   parent: RMCWeaponRifleM54CMK1
   id: RMCWeaponRifleM54CMK1Unloaded
-  suffix: ent-RMCWeaponRifleM54CMK1Unloaded-suffix
+  suffix: Unloaded
   components:
   - type: ItemSlots
     slots:
@@ -146,7 +146,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54CMK1
-  name: "ent-CMMagazineRifleM54CMK1"
+  name: "M41A MK1 magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -173,8 +173,8 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: CMMagazineRifleM54CMK1AP
-  name: "ent-CMMagazineRifleM54CMK1AP"
-  suffix: ent-CMMagazineRifleM54CMK1AP-suffix
+  name: "M41A MK1 AP magazine (10x24mm)"
+  suffix: AP
   components:
   - type: Tag
     tags:
@@ -200,8 +200,8 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1Incendiary
-  name: "ent-RMCMagazineRifleM54CMK1Incendiary"
-  suffix: ent-RMCMagazineRifleM54CMK1Incendiary-suffix
+  name: "M41A MK1 Incendiary magazine (10x24mm)"
+  suffix: AP
   components:
   - type: Tag
     tags:
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1HEAP
-  name: "ent-RMCMagazineRifleM54CMK1HEAP"
-  suffix: ent-RMCMagazineRifleM54CMK1HEAP-suffix
+  name: "M41A MK1 HEAP magazine (10x24mm)"
+  suffix: HEAP
   components:
   - type: Tag
     tags:
@@ -254,8 +254,8 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1WP
-  name: "ent-RMCMagazineRifleM54CMK1WP"
-  suffix: ent-RMCMagazineRifleM54CMK1WP-suffix
+  name: "M54C MK1 WP magazine (10x24mm)"
+  suffix: WP
   components:
   - type: Tag
     tags:

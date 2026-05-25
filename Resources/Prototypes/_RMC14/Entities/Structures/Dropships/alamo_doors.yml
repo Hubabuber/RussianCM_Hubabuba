@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   parent: RMCDropshipDoorBase
   id: CMAlamoDoor
-  name: ent-CMAlamoDoor
+  name: fallujah crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/alamo.rsi
@@ -9,7 +9,7 @@
 - type: entity
   parent: RMCDropshipCockpitBase
   id: CMAlamoCockpit
-  suffix: ent-CMAlamoCockpit-suffix
+  suffix: Alamo, Govfor
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/alamo.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: CMAlamoCockpit
   id: CMAlamoCockpitOpfor
-  suffix: ent-CMAlamoCockpitOpfor-suffix
+  suffix: Alamo, Opfor
   components:
   - type: AccessReader
     access: [ [ "AU14AccessOpforPilot" ] ]
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCDropshipDoorAftBase
   id: CMAlamoDoorAft
-  name: ent-CMAlamoDoorAft
+  name: fallujah cargo door
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/alamo_cargo.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: RMCDropshipDoorPortBase
   id: CMAlamoDoorPort
-  name: ent-CMAlamoDoorPort
+  name: fallujah crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/alamo_doubledoor.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCDropshipDoorStarboardBase
   id: CMAlamoDoorStarboard
-  name: ent-CMAlamoDoorStarboard
+  name: fallujah crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/alamo_doubledoor.rsi

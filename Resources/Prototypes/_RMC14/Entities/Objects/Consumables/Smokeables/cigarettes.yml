@@ -1,8 +1,8 @@
 - type: entity
   parent: CigPackBase
   id: CMCigarettePackLuckySlothsMini
-  name: ent-CMCigarettePackLuckySlothsMini
-  description: ent-CMCigarettePackLuckySlothsMini-desc
+  name: lucky strikes mini packet
+  description: These four-packs of Luckies come in every MRE. They're not as good as the Embassy Crowns found in some TWE MREs, but at least they're free.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/lucky_sloths_4.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: CigPackBase
   id: RMCCigarettePackLuckySloths
-  name: ent-RMCCigarettePackLuckySloths
-  description: ent-RMCCigarettePackLuckySloths-desc
+  name: lucky strikes packet
+  description: Lucky Strikes Means Fine Tobacco! 9/10 doctors agree on Lucky Strikes...as the leading cause of marine lung cancer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/lucky_sloths.rsi
@@ -191,7 +191,7 @@
 - type: entity
   parent: Cigarette
   id: RMCCigarette
-  description: ent-RMCCigarette-desc
+  description: An unfiltered roll of tobacco and nicotine. Smoking this releases even more tar and soot into your mouth.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/unfiltered_roll.rsi
@@ -200,7 +200,7 @@
 - type: entity
   id: RMCCigaretteSpent
   parent: RMCCigarette
-  suffix: ent-RMCCigaretteSpent-suffix
+  suffix: spent
   components:
   - type: Sprite
     state: burnt-icon
@@ -219,8 +219,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackWeYaGold
-  name: ent-RMCCigarettePackWeYaGold
-  description: ent-RMCCigarettePackWeYaGold-desc
+  name: We-Yu gold packet
+  description: Building Better Worlds, and rolling better cigarettes. These fancy cigarettes are Weyland-Yutani's entry into the market. Comes backed by a fierce legal team.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/we_ya_gold_packet.rsi
@@ -232,8 +232,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackExecutiveSelect
-  name: ent-RMCCigarettePackExecutiveSelect
-  description: ent-RMCCigarettePackExecutiveSelect-desc
+  name: executive select packet
+  description: These cigarettes are the height of luxury. They're smooth, they're cool, and they smell like victory...and cigarette smoke.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/executive_select.rsi
@@ -245,8 +245,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackArcturianAce
-  name: ent-RMCCigarettePackArcturianAce
-  description: ent-RMCCigarettePackArcturianAce-desc
+  name: arcturian ace
+  description: An entry level brand of cigarettes with a bright blue packaging. You're guessing these aren't really good for you, but it doesn't matter when it's Arcturian baby!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/arcturian_ace.rsi
@@ -254,8 +254,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackLadyFingers
-  name: ent-RMCCigarettePackLadyFingers
-  description: ent-RMCCigarettePackLadyFingers-desc
+  name: lady fingers
+  description: These intensely strong unfiltered menthol cigarettes don't seem very ladylike. They don't seem very fingerlike for that matter, either. Smoking may kill, but poor branding is almost as bad.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/lady_fingers.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackElectroGolds
-  name: ent-RMCCigarettePackElectroGolds
-  description: ent-RMCCigarettePackElectroGolds-desc
+  name: Kierlan electro golds
+  description: Lovingly machine-rolled for YOUR pleasure. For when you want to look cool and the risk of a slow horrible death isn't really a factor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/electro_golds.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackEmeraldGreens
-  name: ent-RMCCigarettePackEmeraldGreens
-  description: ent-RMCCigarettePackEmeraldGreens-desc
+  name: emerald greens
+  description: They remind you of a gross, tar-filled version of Ireland. These cheap cigarettes are Weyland-Yutani's entry into the general market.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/emerald_greens.rsi
@@ -287,8 +287,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackSolRedsTurquoise
-  name: ent-RMCCigarettePackSolRedsTurquoise
-  description: ent-RMCCigarettePackSolRedsTurquoise-desc
+  name: turquoise sol reds
+  description: Claims to be all-natural and organic, with no additives. Not much better for your health than other brands, but they taste good and are highly addictive.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/sol_reds.rsi
@@ -296,8 +296,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackSolRedsYellow
-  name: ent-RMCCigarettePackSolRedsYellow
-  description: ent-RMCCigarettePackSolRedsYellow-desc
+  name: yellow sol reds
+  description: Claims to be all-natural and organic, with no additives. Not much better for your health than other brands, but they taste good and are highly addictive. This type seems to have a more mellow flavor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/sol_reds_yellow.rsi

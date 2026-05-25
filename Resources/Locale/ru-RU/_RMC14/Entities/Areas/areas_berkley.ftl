@@ -1,68 +1,68 @@
 ent-RMCAreaBerkleyPress = Корреспондент
-    .suffix = область
+
 ent-RMCAreaBerkleySynthetic = Синтетическое хранилище
-    .suffix = область
+
 ent-RMCAreaBerkleyLifeboat = Стыковка спасательной шлюпки
-    .suffix = область
+
 ent-RMCAreaBerkleyBriefing = Брифинг
-    .suffix = область
+
 ent-RMCAreaBerkleySEA = Офис СЭО
-    .suffix = область
+
 ent-RMCAreaBerkleyCorridor = Мидель Коридор
-    .suffix = область
+
 ent-RMCAreaBerkleyPumpPortQuarter = Портовый четвертьнасос
-    .suffix = область
+
 ent-RMCAreaBerkleyPumpPortBow = Порт-носовой насос
-    .suffix = область
+
 ent-RMCAreaBerkleyPumpStarboardQuarter = Четверть насоса правого борта
-    .suffix = область
+
 ent-RMCAreaBerkleyPumpStarboardBow = Носовой насос правого борта
-    .suffix = область
+
 ent-RMCAreaBerkleyEngineering = Инженерное дело
-    .suffix = область
+
 ent-RMCAreaBerkleyDelta = Подготовка Дельты
-    .suffix = область
+
 ent-RMCAreaBerkleyCharlie = Подготовка Чарли
-    .suffix = область
+
 ent-RMCAreaBerkleyCharlieDelta = Чарли-Дельта Подготовка
-    .suffix = область
+
 ent-RMCAreaBerkleyBravo = Браво Подготовка
-    .suffix = область
+
 ent-RMCAreaBerkleyAlpha = Альфа-подготовка
-    .suffix = область
+
 ent-RMCAreaBerkleyAlphaBravo = Альфа-Браво Подготовка
-    .suffix = область
+
 ent-RMCAreaBerkleyCanteen = Столовая
-    .suffix = область
+
 ent-RMCAreaBerkleyPilotsRoom = Комната пилотов
-    .suffix = область
+
 ent-RMCAreaBerkleyHangarStarboard = Ангар по правому борту
-    .suffix = область
+
 ent-RMCAreaBerkleyHangarPort = Ангар Порт
-    .suffix = область
+
 ent-RMCAreaBerkleyRequisitions = Реквизиты
-    .suffix = область
+
 ent-RMCAreaBerkleyMedicalResearch = Исследовать
-    .suffix = область
+
 ent-RMCAreaBerkleyMedical = Медицинский
-    .suffix = область
+
 ent-RMCAreaBerkleyIO = офис ИО
-    .suffix = область
+
 ent-RMCAreaBerkleyCryo = Командный крио
-    .suffix = область
+
 ent-RMCAreaBerkleyCICingOfficer = Командир Банкс
-    .suffix = область
+
 ent-RMCAreaBerkleyLiaison = Офис связи
-    .suffix = область
+
 ent-RMCAreaBerkleyCIC = Боевой информационный центр
-    .suffix = область
+
 ent-RMCAreaBerkleyPointDefense = Точечная защита
-    .suffix = область
+
 ent-RMCAreaBerkleyBrigOB = Орбитальная пушечная комната
-    .suffix = область
+
 ent-RMCAreaBerkleyBrig = Бриг
-    .suffix = область
+
 ent-RMCAreaBerkley = область
-    .suffix = область
+
 ent-RMCAreaBerkleyPumpBase = область
-    .suffix = область
+

@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: RMCBoxBulletsBase
-  name: ent-RMCBoxBulletsBase
-  description: ent-RMCBoxBulletsBase-desc
+  name: rifle ammunition box (???)
+  description: An unknown ammunition box. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Item
     size: Huge
@@ -59,8 +59,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsRifle
-  name: ent-RMCBoxBulletsRifle
-  description: ent-RMCBoxBulletsRifle-desc
+  name: rifle ammunition box (10x24mm)
+  description: A 10x24mm ammunition box. Used to refill M54C MK1, MK2, M4SPR and M54CE2 HAR magazines. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Sprite
     layers:
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCBoxBulletsRifle
   id: RMCBoxBulletsRifleEmpty
-  suffix: ent-RMCBoxBulletsRifleEmpty-suffix
+  suffix: Empty
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -93,8 +93,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsRifleAP
-  name: ent-RMCBoxBulletsRifleAP
-  description: ent-RMCBoxBulletsRifleAP-desc
+  name: rifle ammunition box (10x24mm AP)
+  description: A 10x24mm armor-piercing ammunition box. Used to refill M54C MK2, and M4SPR AP magazines. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Sprite
     layers:
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCBoxBulletsRifleAP
   id: RMCBoxBulletsRifleAPEmpty
-  suffix: ent-RMCBoxBulletsRifleAPEmpty-suffix
+  suffix: Empty
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsSMG
-  name: ent-RMCBoxBulletsSMG
-  description: ent-RMCBoxBulletsSMG-desc
+  name: SMG ammunition box (10x20mm)
+  description: A 10x20mm ammunition box. Used to refill M63 HV and extended magazines. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Sprite
     layers:
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCBoxBulletsSMG
   id: RMCBoxBulletsSMGEmpty
-  suffix: ent-RMCBoxBulletsSMGEmpty-suffix
+  suffix: Empty
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -161,8 +161,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsSMGAP
-  name: ent-RMCBoxBulletsSMGAP
-  description: ent-RMCBoxBulletsSMGAP-desc
+  name: SMG ammunition box (10x20mm AP)
+  description: A 10x20mm armor-piercing ammunition box. Used to refill M63 AP magazines. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Sprite
     layers:
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCBoxBulletsSMGAP
   id: RMCBoxBulletsSMGAPEmpty
-  suffix: ent-RMCBoxBulletsSMGAPEmpty-suffix
+  suffix: Empty
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -195,8 +195,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsSmartGun
-  name: ent-RMCBoxBulletsSmartGun
-  description: ent-RMCBoxBulletsSmartGun-desc
+  name: smart gun ammunition box (10x30mm)
+  description: A 10x30mm ammunition box. Used to refill Smart Gun magazines. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Sprite
     layers:
@@ -217,7 +217,7 @@
 - type: entity
   parent: RMCBoxBulletsSmartGun
   id: RMCBoxBulletsSmartGunEmpty
-  suffix: ent-RMCBoxBulletsSmartGunEmpty-suffix
+  suffix: Empty
   components:
   - type: BulletBox
     bulletType: RMCBoxBulletsSmartGun
@@ -226,8 +226,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsPistol
-  name: ent-RMCBoxBulletsPistol
-  description: ent-RMCBoxBulletsPistol-desc
+  name: pistol ammunition box (10x20mm-APC)
+  description: A 10x20mm-APC ammunition box. Used to refill M13 regular, extended and drum magazines. It comes with a leather strap allowing to wear it on the back.
   components:
   - type: Sprite
     layers:
@@ -250,7 +250,7 @@
 - type: entity
   parent: RMCBoxBulletsPistol
   id: RMCBoxBulletsPistolEmpty
-  suffix: ent-RMCBoxBulletsPistolEmpty-suffix
+  suffix: Empty
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -262,8 +262,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsPistolAP
-  name: ent-RMCBoxBulletsPistolAP
-  description: ent-RMCBoxBulletsPistolAP-desc
+  name: pistol ammunition box (10x20mm-APC (AP))
+  description: A 10x20mm-APC armor-piercing ammunition box. Used to refill M13 regular, extended and drum AP magazines. It comes with a leather strap allowing to wear it on the back.
   components:
   - type: Sprite
     layers:
@@ -286,7 +286,7 @@
 - type: entity
   parent: RMCBoxBulletsPistolAP
   id: RMCBoxBulletsPistolAPEmpty
-  suffix: ent-RMCBoxBulletsPistolAPEmpty-suffix
+  suffix: Empty
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -300,8 +300,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsRifleL90
-  name: ent-RMCBoxBulletsRifleL90
-  description: ent-RMCBoxBulletsRifleL90-desc
+  name: rifle ammunition box (7x43mm)
+  description: A 7x43mm ammunition box. Used to refill L90/91 magazines. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Sprite
     layers:
@@ -322,7 +322,7 @@
 - type: entity
   parent: RMCBoxBulletsRifleL90
   id: RMCBoxBulletsRifleL90Empty
-  suffix: ent-RMCBoxBulletsRifleL90Empty-suffix
+  suffix: Empty
   components:
   - type: BulletBox
     bulletType: RMCBoxBulletsRifleL90
@@ -331,8 +331,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsRifleL90AP
-  name: ent-RMCBoxBulletsRifleL90AP
-  description: ent-RMCBoxBulletsRifleL90AP-desc
+  name: rifle ammunition box (7x43mm AP)
+  description: A 7x43mm armor-piercing ammunition box. Used to refill L90/91 AP magazines. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Sprite
     layers:
@@ -353,7 +353,7 @@
 - type: entity
   parent: RMCBoxBulletsRifleL90AP
   id: RMCBoxBulletsRifleL90APEmpty
-  suffix: ent-RMCBoxBulletsRifleL90APEmpty-suffix
+  suffix: Empty
   components:
   - type: BulletBox
     bulletType: RMCBoxBulletsRifleL90AP
@@ -362,8 +362,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsRifleL24
-  name: ent-RMCBoxBulletsRifleL24
-  description: ent-RMCBoxBulletsRifleL24-desc # TODO RMC14 rename and implement L64A3
+  name: rifle ammunition box (8.88x51mm)
+  description: An 8.88x51mm ammunition box. Used to refill L24 and L64A3 magazines. It comes with a leather strap allowing someone to wear it on their back. # TODO RMC14 rename and implement L64A3
   components:
   - type: Sprite
     layers:
@@ -384,7 +384,7 @@
 - type: entity
   parent: RMCBoxBulletsRifleL24
   id: RMCBoxBulletsRifleTSEEmpty
-  suffix: ent-RMCBoxBulletsRifleTSEEmpty-suffix
+  suffix: Empty
   components:
   - type: BulletBox
     bulletType: RMCBoxBulletsRifleL24
@@ -393,8 +393,8 @@
 - type: entity
   parent: RMCBoxBulletsBase
   id: RMCBoxBulletsRifleL24AP
-  name: ent-RMCBoxBulletsRifleL24AP
-  description: ent-RMCBoxBulletsRifleL24AP-desc
+  name: rifle ammunition box (8.88x51mm AP)
+  description: An 8.88x51mm ammunition box. Used to refill L24 and L64A3 AP magazines. It comes with a leather strap allowing someone to wear it on their back.
   components:
   - type: Sprite
     layers:
@@ -415,7 +415,7 @@
 - type: entity
   parent: RMCBoxBulletsRifleL24AP
   id: RMCBoxBulletsRifleTSEAPEmpty
-  suffix: ent-RMCBoxBulletsRifleTSEAPEmpty-suffix
+  suffix: Empty
   components:
   - type: BulletBox
     bulletType: RMCBoxBulletsRifleL24AP

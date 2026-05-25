@@ -20,24 +20,3 @@ ent-LeftFootReptilian-name = левая нога рептилии
 
 ent-RightFootReptilian-name = правая нога рептилии
 
-ent-HeadReptilian = голова рептилии
-
-ent-LeftArmReptilian = левая рука рептилии
-
-ent-LeftFootReptilian = левая нога рептилии
-
-ent-LeftHandReptilian = левая рука рептилии
-
-ent-LeftLegReptilian = левая нога рептилии
-
-ent-PartReptilian = часть тела рептилии
-
-ent-RightArmReptilian = правая рука рептилии
-
-ent-RightFootReptilian = правая нога рептилии
-
-ent-RightHandReptilian = правая рука рептилии
-
-ent-RightLegReptilian = правая нога рептилии
-
-ent-TorsoReptilian = туловище рептилии

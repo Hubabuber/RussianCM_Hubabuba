@@ -1,1 +1,0 @@
-ent-WeaponWandBase = item

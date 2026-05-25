@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechIntelGear
-  name: ent-ColMarTechIntelGear
-  description: ent-ColMarTechIntelGear-desc
+  name: ColMarTech intelligence officer gear rack
+  description: An automated gear rack for IOs.
   components:
   - type: AccessReader
     access:
@@ -112,8 +112,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechIntelEquipment
-  name: ent-ColMarTechIntelEquipment
-  description: ent-ColMarTechIntelEquipment-desc
+  name: ColMarTech intelligence officer equipment rack
+  description: An automated rack hooked up to a colossal storage of IO standard-issue equipment.
   components:
   - type: AccessReader
     access:
@@ -228,8 +228,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechIntelWeapons
-  name: ent-ColMarTechIntelWeapons
-  description: ent-ColMarTechIntelWeapons-desc
+  name: ColMarTech intelligence officer weapons rack
+  description: An automated weapon rack hooked up to a small storage of standard-issue weapons. Can be accessed only by the Intelligence Officers.
   components:
   - type: AccessReader
     access:
@@ -308,8 +308,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleIntel
-  name: ent-RMCVendorBundleIntel
-  description: ent-RMCVendorBundleIntel-desc
+  name: essential intel set
+  description: Contains a crowbar, fultons, an intel detector, and binoculars.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/intel_detector.rsi
@@ -324,7 +324,7 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitIntel
-  name: ent-RMCKitIntel
+  name: field intelligence support kit
   components:
   - type: Storage
     maxItemSize: Huge

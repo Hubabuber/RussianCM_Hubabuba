@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCalendarBase
-  name: ent-RMCCalendarBase
-  description: ent-RMCCalendarBase-desc
+  name: wall calendar
+  description: Classic office decoration and a place to stare at maniacally.
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCCalendarBase
   id: RMCCalendarColonist
-  suffix: ent-RMCCalendarColonist-suffix
+  suffix: Colony
   components:
   - type: Sprite
     state: calendar_colony
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCCalendarBase
   id: RMCCalendarWeYa
-  suffix: ent-RMCCalendarWeYa-suffix
+  suffix: WeYa
   components:
   - type: Sprite
     state: calendar_weya
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCCalendarBase
   id: RMCCalendarUNMC
-  suffix: ent-RMCCalendarUNMC-suffix
+  suffix: UNMC
   components:
   - type: Sprite
     state: calendar_unmc
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCCalendarBase
   id: RMCCalendarTWE
-  suffix: ent-RMCCalendarTWE-suffix
+  suffix: TWE
   components:
   - type: Sprite
     state: calendar_twe
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCCalendarBase
   id: RMCCalendarSPP
-  suffix: ent-RMCCalendarSPP-suffix
+  suffix: SPP
   components:
   - type: Sprite
     state: calendar_spp

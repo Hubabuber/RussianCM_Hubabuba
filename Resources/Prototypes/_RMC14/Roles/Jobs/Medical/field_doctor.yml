@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMDoctor
   id: RMCFieldDoctor
-  name: job-rmcfielddoctor-name
-  description: job-rmcfielddoctor-desc
+  name: rmc-job-name-field-doctor
+  description: rmc-job-description-field-doctor
   playTimeTracker: RMCJobFieldDoctor
   requirements:
   - !type:RoleTimeRequirement
@@ -13,7 +13,7 @@
   startingGear: CMGearFieldDoctor
   icon: "CMJobIconFieldDoctor"
   joinNotifyCrew: false
-  supervisors: job-rmcfielddoctor-supervisors
+  supervisors: cm-job-supervisors-cmo
   accessGroups:
   - CMMedbay
   roleWeight: 0.25
@@ -50,7 +50,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFieldDoctor
-  name: ent-RMCSpawnPointFieldDoctor
+  name: field doctor spawn point
   components:
   - type: SpawnPoint
     job_id: RMCFieldDoctor

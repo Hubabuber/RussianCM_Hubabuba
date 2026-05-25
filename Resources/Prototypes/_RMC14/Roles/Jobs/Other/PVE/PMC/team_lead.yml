@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMPMCTeamLeadPVE
-  name: job-cmpmcteamleadpve-name
-  description: job-cmpmcteamleadpve-desc
+  name: rmc-job-name-pmc-pve-team-leader
+  description: rmc-job-description-pmc-pve-team-leader
   playTimeTracker: CMJobPMCTeamLeadPVE
   ranks:
     RMCRankWeYaTeamLeader: []
@@ -12,7 +12,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: job-cmpmcteamleadpve-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Team Lead (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCTeamLeadPVE
-  name: ent-RMCSpawnPointPMCTeamLeadPVE
-  suffix: ent-RMCSpawnPointPMCTeamLeadPVE-suffix
+  name: weya pmc team lead spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: CMPMCTeamLeadPVE

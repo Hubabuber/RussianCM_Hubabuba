@@ -1,18 +1,18 @@
 ent-RMCLockerFridgeFish = рыба
   .desc = Это неподвижное хранилище, закрывающееся картой.
-    .suffix = шкаф
+
 ent-RMCLockerFridgeMeat = мясо
   .desc = Это неподвижное хранилище, закрывающееся картой.
-    .suffix = шкаф
+
 ent-RMCLockerFridgeDry = сухой
   .desc = Это неподвижное хранилище, закрывающееся картой.
-    .suffix = шкаф
+
 ent-RMCLockerFridgeOrganic = органический
   .desc = Это неподвижное хранилище, закрывающееся картой.
-    .suffix = шкаф
+
 ent-RMCLockerFridgeGroceries = продукты
   .desc = Это неподвижное хранилище, закрывающееся картой.
-    .suffix = шкаф
+
 ent-CMLockerFridge = холодильник
   .desc = Это неподвижное хранилище, закрывающееся картой.
-    .suffix = шкаф
+

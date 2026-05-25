@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMProvostChiefInspector
-  name: job-cmprovostchiefinspector-name
-  description: job-cmprovostchiefinspector-desc
+  name: rmc-job-name-corp-provost-chief
+  description: rmc-job-description-inspector
   whitelisted: true
   whitelistParent: RMCWhitelistHard
   playTimeTracker: CMJobProvostChiefInspector
@@ -16,7 +16,7 @@
   icon: RMCJobIconProvostChiefInspector
   joinNotifyCrew: false
   marineAuthorityLevel: 0
-  supervisors: job-cmprovostchiefinspector-supervisors
+  supervisors: cm-job-supervisors-marine-high-command
   accessGroups:
   - ShipMasterAccess
   special:
@@ -63,8 +63,8 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostChiefInspector
-  name: ent-RMCRandomHumanoidProvostChiefInspector
-  suffix: ent-RMCRandomHumanoidProvostChiefInspector-suffix
+  name: provost ghost role chief inspector
+  suffix: Spawner, Player, Friendly, High Law Understanding
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

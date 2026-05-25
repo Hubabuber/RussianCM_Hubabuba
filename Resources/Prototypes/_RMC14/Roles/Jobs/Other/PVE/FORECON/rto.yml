@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCFORECONPVERadioTelephoneOperator
-  name: job-rmcforeconpveradiotelephoneoperator-name
-  description: job-rmcforeconpveradiotelephoneoperator-desc
+  name: rmc-job-name-pve-forecon-rto
+  description: rmc-job-description-pve-forecon-rto
   playTimeTracker: CMJobFORECONPVERadioTelephoneOperator
   ranks:
    RMCRankCorporal: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - Rifleman
-  spawnMenuRoleName: job-rmcforeconpveradiotelephoneoperator-spawnmenurolename
+  spawnMenuRoleName: FORECON RTO (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -53,8 +53,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVERadioTelephoneOperator
-  name: ent-RMCSpawnPointFORECONPVERadioTelephoneOperator
-  suffix: ent-RMCSpawnPointFORECONPVERadioTelephoneOperator-suffix
+  name: forecon rto spawn point
+  suffix: PVE
   components:
   - type: Sprite
     state: tl_spawn

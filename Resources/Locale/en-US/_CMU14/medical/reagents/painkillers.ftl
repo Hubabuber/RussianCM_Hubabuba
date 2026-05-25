@@ -1,9 +1,0 @@
-reagent-cmuoxycodone-desc = A heavy opioid for severe pain. Can fully mask pain shock while it lasts.
-reagent-cmuoxycodone-name = Oxycodone
-reagent-cmuoxycodone-physicaldesc = oily
-reagent-cmuparacetamol-desc = A mild pain reliever. Suppresses pain accumulation, masks one pain tier, and helps excess pain fade.
-reagent-cmuparacetamol-name = Paracetamol
-reagent-cmuparacetamol-physicaldesc = fizzy
-reagent-cmutramadol-desc = A moderate opioid pain reliever. Strongly masks pain and helps excess pain fade.
-reagent-cmutramadol-name = Tramadol
-reagent-cmutramadol-physicaldesc = acrid

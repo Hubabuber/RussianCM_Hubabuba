@@ -1,10 +1,10 @@
-- type: job
+﻿- type: job
   parent: CMSurvivorTrucker
   id: RMCSurvivorKutjevoTrucker
-  name: job-rmcsurvivorkutjevotrucker-name
-  description: job-rmcsurvivorkutjevotrucker-desc
+  name: rmc-job-name-survivor-kutjevo-trucker
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorKutjevoTrucker
-  spawnMenuRoleName: job-rmcsurvivorkutjevotrucker-spawnmenurolename
+  spawnMenuRoleName: Kutjevo Heavy Vehicle Operator (Kutjevo Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoTrucker
-  name: ent-RMCSpawnPointSurvivorKutjevoTrucker
+  name: kutjevo trucker spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoTrucker
@@ -52,5 +52,5 @@
 - type: entity
   parent: RMCSurvivorPresetTrucker
   id: RMCGearSurvivorPresetKutjevoTrucker
-  name: ent-RMCGearSurvivorPresetKutjevoTrucker
+  name: Kutjevo trucker colonist preset
   categories: [ HideSpawnMenu ]

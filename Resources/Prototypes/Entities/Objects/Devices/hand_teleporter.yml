@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   id: HandTeleporter
   parent: [BaseItem, BaseGrandTheftContraband]
-  name: ent-HandTeleporter
-  description: "ent-HandTeleporter-desc"
+  name: hand teleporter
+  description: "A Nanotrasen signature item--only the finest bluespace tech. Instructions: Use once to create a portal which teleports at random. Use again to link it to a portal at your current location. Use again to clear all portals."
   components:
   - type: Sprite
     sprite: /Textures/Objects/Devices/hand_teleporter.rsi
@@ -17,10 +17,10 @@
 
 - type: entity
   id: HandTeleporterAdmeme
-  suffix: ent-HandTeleporterAdmeme-suffix
+  suffix: Admeme
   parent: BaseItem
-  name: ent-HandTeleporterAdmeme
-  description: ent-HandTeleporterAdmeme-desc
+  name: interdimensional teleporter
+  description: Allows you to open stable portal gates that are not limited by distance.
   components:
   - type: Sprite
     sprite: /Textures/Objects/Devices/hand_teleporter.rsi

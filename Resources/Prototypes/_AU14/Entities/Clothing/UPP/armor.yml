@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14UPPArmor
-  name: ent-AU14UPPArmor
-  description: ent-AU14UPPArmor-desc
+  name: UM5 personal armor
+  description: A set of Union of Progressive Peoples armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/armor/uppstandardarmor.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14UPPArmorMinimalistic
-  name: ent-AU14UPPArmorMinimalistic
-  description: ent-AU14UPPArmorMinimalistic-desc
+  name: UL6 personal armor
+  description: A set of Minimalistic Union of Progressive Peoples armor. This pair is quite small compared to the standard, and will provide less protection.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/armor/upplightarmor.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14UPPArmorBulky
-  name: ent-AU14UPPArmorBulky
-  description: ent-AU14UPPArmorBulky-desc
+  name: UH7 heavy plated armor
+  description: A set of quite bulky Union of Progressive Peoples armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/armor/upplargearmor.rsi
@@ -28,9 +28,9 @@
 - type: entity
   parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
   id: AU14ArmorSmartGunDesertCombatHarnessUPP
-  name: ent-AU14ArmorSmartGunDesertCombatHarnessUPP
-  suffix: ent-AU14ArmorSmartGunDesertCombatHarnessUPP-suffix
-  description: ent-AU14ArmorSmartGunDesertCombatHarnessUPP-desc
+  name: RVS-37 armoured automated machinegun harness
+  suffix: AU14
+  description: Harness harness specially made for RVS-37 automated machinegun.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/armor/upplargearmor.rsi
@@ -49,9 +49,9 @@
 - type: entity
   parent: AU14BaseArmorVest
   id: AU14ArmorArmyUPP
-  suffix: ent-AU14ArmorArmyUPP-suffix
-  name: ent-AU14ArmorArmyUPP
-  description: ent-AU14ArmorArmyUPP-desc
+  suffix: AU14
+  name: 6B80 personal armor
+  description: An older UPP personal armor system that's since been replaced by the UPP Army Standard 6B90 body armor. It is still used by certain UPP Army units that the UPP doesn't expect to see much combat.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/army.rsi
@@ -61,15 +61,17 @@
 - type: entity
   parent: RMCCoatSPP
   id: AU14CoatUPP
-  name: ent-AU14CoatUPP
-  description: ent-AU14CoatUPP-desc
+  name: UL4 officer jacket
+  description: A lightweight jacket, issued to officers of the UPP's military. Slightly protective from incoming damage, best off with proper armor however.
+
 - type: entity
   parent: RMCCoatSPPSenior
   id: AU14CoatUPPSenior
-  name: ent-AU14CoatUPPSenior
-  description: ent-AU14CoatUPPSenior-desc
+  name: UL4 senior officer jacket
+  description: A lightweight jacket, issued to senior officers of the UPP's military. Made of high-quality materials, even going as far as having the ranks and insignia of the Kapitan and their Company emblazoned on the shoulders and front of the jacket. Slightly protective from incoming damage, best off with proper armor however.
+
 - type: entity
   parent: RMCCoatSPPMP
   id: AU14CoatUPPMP
-  name: ent-AU14CoatUPPMP
-  description: ent-AU14CoatUPPMP-desc
+  name: UL4 camouflaged jacket
+  description: A lightweight jacket, issued to troops when they're not expected to engage in combat. Still studded to the brim with kevlar shards, though the synthread construction reduces its effectiveness.

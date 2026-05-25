@@ -1,15 +1,18 @@
 ent-CMBarricadeMetalDoor = складная металлическая баррикада
-    .desc = складная металлическая баррикада
+
 ent-RMCBarricadeHybrisaPlasticRoadBarrier = пластиковый дорожный барьер
-    .desc = поручень
+
 ent-RMCBarricadeHandrail = поручень
-    .desc = поручень
+
 ent-CMBarricadeTurnstileMed = турникет
-    .desc = турникет
+
 ent-CMBarricadeTurnstile = турникет
-    .desc = турникет
+
 ent-CMBarricadeMetal = металлическая баррикада
-    .desc = металлическая баррикада
+
 ent-RMCBruteUpgrade = усиленное улучшение (+Brute)
+
 ent-RMCBiohazardUpgrade = улучшение биологической опасности (+Сжечь)
+
 ent-RMCExplosiveUpgrade = составное улучшение (++Взрывчатка, ++Снаряд, ++Огонь)
+

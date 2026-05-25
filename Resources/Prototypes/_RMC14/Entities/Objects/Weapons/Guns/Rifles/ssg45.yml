@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleSSG45NoLock
-  name: ent-RMCWeaponRifleSSG45NoLock
-  description: ent-RMCWeaponRifleSSG45NoLock-desc
-  suffix: ent-RMCWeaponRifleSSG45NoLock-suffix
+  name: NSG-23 Assault Rifle
+  description: Developed by Weyland-Yutani as a modern successor to the aging M5 platform, the SpezialSturmGewehr is engineered for precision mid-to-long range combat. The primary rifle of the Weyland-Yutani PMCs.
+  suffix: No ID Lock
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/ssg45/ssg45_inhands.rsi
@@ -120,14 +120,14 @@
 - type: entity
   parent: RMCWeaponRifleSSG45NoLock
   id: RMCWeaponRifleSSG45
-  suffix: ent-RMCWeaponRifleSSG45-suffix
+  suffix: Has ID Lock
   components:
   - type: GunIDLock
 
 - type: entity
   parent: RMCWeaponRifleSSG45NoLock
   id: RMCWeaponRifleSSG45NoLockStripped
-  suffix: ent-RMCWeaponRifleSSG45NoLockStripped-suffix
+  suffix: No ID Lock, Stripped
   components:
   - type: AttachableHolder
     slots:
@@ -163,14 +163,14 @@
 - type: entity
   parent: RMCWeaponRifleSSG45NoLockStripped
   id: RMCWeaponRifleSSG45Stripped
-  suffix: ent-RMCWeaponRifleSSG45Stripped-suffix
+  suffix: Has ID Lock, Stripped
   components:
   - type: GunIDLock
 
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleSSG45
-  name: "ent-RMCMagazineRifleSSG45"
+  name: "NSG-23 magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45Extended
-  name: "ent-RMCMagazineRifleSSG45Extended"
+  name: "NSG-23 extended magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -225,7 +225,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45AP
-  name: "ent-RMCMagazineRifleSSG45AP"
+  name: "NSG-23 AP magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45HEAP
-  name: "ent-RMCMagazineRifleSSG45HEAP"
+  name: "NSG-23 HEAP magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -277,7 +277,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45HEAP
   id: RMCMagazineRifleSSG45HEAPEmpty
-  suffix: ent-RMCMagazineRifleSSG45HEAPEmpty-suffix
+  suffix: HEAP, Empty
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -285,7 +285,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45Incend
-  name: "ent-RMCMagazineRifleSSG45Incend"
+  name: "NSG-23 Incendiary magazine (10x24mm)"
   components:
   - type: Tag
     tags:

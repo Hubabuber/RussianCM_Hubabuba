@@ -2,8 +2,8 @@
   abstract: true
   parent: Paper
   id: PaperAcquisitionSlip
-  name: ent-PaperAcquisitionSlip
-  description: ent-PaperAcquisitionSlip-desc
+  name: acquisition slip
+  description: A slip with order details on it. It can be given to Cargo to complete the order.
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipMedical
-  suffix: ent-PaperAcquisitionSlipMedical-suffix
+  suffix: Medical
   components:
   - type: Sprite
     layers:
@@ -48,7 +48,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipScience
-  suffix: ent-PaperAcquisitionSlipScience-suffix
+  suffix: Science
   components:
   - type: Sprite
     layers:
@@ -67,7 +67,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipSecurity
-  suffix: ent-PaperAcquisitionSlipSecurity-suffix
+  suffix: Security
   components:
   - type: Sprite
     layers:
@@ -86,7 +86,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipService
-  suffix: ent-PaperAcquisitionSlipService-suffix
+  suffix: Service
   components:
   - type: Sprite
     layers:
@@ -105,7 +105,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipCargo
-  suffix: ent-PaperAcquisitionSlipCargo-suffix
+  suffix: Cargo
   components:
   - type: Sprite
     layers:
@@ -124,7 +124,7 @@
 - type: entity
   parent: PaperAcquisitionSlip
   id: PaperAcquisitionSlipEngineering
-  suffix: ent-PaperAcquisitionSlipEngineering-suffix
+  suffix: Engineering
   components:
   - type: Sprite
     layers:

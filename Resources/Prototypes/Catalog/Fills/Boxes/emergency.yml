@@ -1,9 +1,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvival
-  name: ent-BoxSurvival
-  description: ent-BoxSurvival-desc
-  suffix: ent-BoxSurvival-suffix
+  name: survival box
+  description: It's a box with basic internals inside.
+  suffix: Standard
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalNitrogen
-  suffix: ent-BoxSurvivalNitrogen-suffix
+  suffix: Standard N2
   components:
   - type: StorageFill
     contents:
@@ -41,9 +41,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalEngineering
-  name: ent-BoxSurvivalEngineering
-  description: ent-BoxSurvivalEngineering-desc
-  suffix: ent-BoxSurvivalEngineering-suffix
+  name: extended-capacity survival box
+  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
+  suffix: Extended
   components:
   - type: StorageFill
     contents:
@@ -61,7 +61,7 @@
 - type: entity
   parent: BoxSurvivalEngineering
   id: BoxSurvivalEngineeringNitrogen
-  suffix: ent-BoxSurvivalEngineeringNitrogen-suffix
+  suffix: Extended N2
   components:
   - type: StorageFill
     contents:
@@ -82,9 +82,9 @@
 
   parent: BoxCardboard
   id: BoxSurvivalSecurity
-  name: ent-BoxSurvivalSecurity
-  description: ent-BoxSurvivalSecurity-desc
-  suffix: ent-BoxSurvivalSecurity-suffix
+  name: survival box
+  description: It's a box with basic internals inside.
+  suffix: Security
   components:
   - type: StorageFill
     contents:
@@ -102,7 +102,7 @@
 - type: entity
   parent: BoxSurvivalSecurity
   id: BoxSurvivalSecurityNitrogen
-  suffix: ent-BoxSurvivalSecurityNitrogen-suffix
+  suffix: Security N2
   components:
   - type: StorageFill
     contents:
@@ -123,9 +123,9 @@
 
   parent: BoxCardboard
   id: BoxSurvivalMedical
-  name: ent-BoxSurvivalMedical
-  description: ent-BoxSurvivalMedical-desc
-  suffix: ent-BoxSurvivalMedical-suffix
+  name: survival box
+  description: It's a box with basic internals inside.
+  suffix: Medical
   components:
   - type: StorageFill
     contents:
@@ -143,7 +143,7 @@
 - type: entity
   parent: BoxSurvivalMedical
   id: BoxSurvivalMedicalNitrogen
-  suffix: ent-BoxSurvivalMedicalNitrogen-suffix
+  suffix: Medical N2
   components:
   - type: StorageFill
     contents:
@@ -163,9 +163,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxHug
-  name: ent-BoxHug
-  description: ent-BoxHug-desc
-  suffix: ent-BoxHug-suffix
+  name: box of hugs
+  description: A special box for sensitive people.
+  suffix: Emergency
   components:
   - type: Sprite
     layers:
@@ -188,7 +188,7 @@
 - type: entity
   parent: BoxHug
   id: BoxHugNitrogen
-  suffix: ent-BoxHugNitrogen-suffix
+  suffix: Emergency N2
   components:
   - type: StorageFill
     contents:
@@ -204,7 +204,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxMime
-  suffix: ent-BoxMime-suffix
+  suffix: Mime, Emergency
   components:
   - type: StorageFill
     contents:
@@ -218,7 +218,7 @@
 - type: entity
   parent: BoxSurvivalNitrogen
   id: BoxMimeNitrogen
-  suffix: ent-BoxMimeNitrogen-suffix
+  suffix: Mime, Emergency N2
   components:
   - type: StorageFill
     contents:
@@ -238,7 +238,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxMimeMoth
-  suffix: ent-BoxMimeMoth-suffix
+  suffix: Mime, Emergency moth
   components:
   - type: StorageFill
     contents:
@@ -252,9 +252,9 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalSyndicate
-  name: ent-BoxSurvivalSyndicate
-  description: ent-BoxSurvivalSyndicate-desc
-  suffix: ent-BoxSurvivalSyndicate-suffix
+  name: extended-capacity survival box
+  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
+  suffix: Syndicate
   components:
   - type: StorageFill
     contents:
@@ -271,7 +271,7 @@
 - type: entity
   parent: BoxSurvivalSyndicate
   id: BoxSurvivalSyndicateNitrogen
-  suffix: ent-BoxSurvivalSyndicateNitrogen-suffix
+  suffix: Syndicate N2
   components:
   - type: StorageFill
     contents:

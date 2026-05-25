@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitPizza
-  name: ent-RMCJumpsuitPizza
-  description: ent-RMCJumpsuitPizza-desc
+  name: pizza delivery uniform
+  description: An ill-fitting, slightly stained uniform for a pizza delivery pilot. Smells of cheese.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/pizza.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitCorrespondent
-  name: ent-RMCJumpsuitCorrespondent
-  description: ent-RMCJumpsuitCorrespondent-desc
+  name: correspondent uniform
+  description: Standard-issue correspondent's uniform.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Correspondent/white.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitDutch # This is technically originally split into two items, but only the sprites are different between them
-  name: ent-RMCJumpsuitDutch
-  description: ent-RMCJumpsuitDutch-desc
+  name: Dutch's Dozen uniform
+  description: A comfortable uniform worn by the Dutch's Dozen mercenaries. It's seen some definite wear and tear, but is still in good condition.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Dutch/jumpsuit.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitDutchBandolier
-  name: ent-RMCJumpsuitDutchBandolier
-  description: ent-RMCJumpsuitDutchBandolier-desc
+  name: hunting clothes
+  description: A set of tailored clothes, made from fine but sturdy reinforced fabrics. Protects from thorns, weather, and the cuts and scrapes that forever bedevil outdoorsmen.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Dutch/bandolier.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryHeavy
-  name: ent-RMCJumpsuitMercenaryHeavy
-  description: ent-RMCJumpsuitMercenaryHeavy-desc
+  name: mercenary fatigues
+  description: A thick, beige suit with a red armband. There is an unknown symbol emblazed on the suit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/heavy.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryMiner
-  name: ent-RMCJumpsuitMercenaryMiner
-  description: ent-RMCJumpsuitMercenaryMiner-desc
+  name: mercenary miner fatigues
+  description: A beige suit with a red armband. It looks a little thin, like it wasn't designed for protection. There is an unknown symbol emblazed on the suit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/miner.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryEngineer
-  name: ent-RMCJumpsuitMercenaryEngineer
-  description: ent-RMCJumpsuitMercenaryEngineer-desc
+  name: mercenary engineer fatigues
+  description: A blue suit with yellow accents, used by engineers. There is an unknown symbol emblazed on the suit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/engi.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitMarsoc
-  name: ent-RMCJumpsuitMarsoc # TODO: find more appropriate name
-  description: ent-RMCJumpsuitMarsoc-desc
+  name: special operative uniform # TODO: find more appropriate name
+  description: A black uniform for elite Marine personnel. Designed to be comfortable and help blend into dark environments.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/marsoc.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitFreelancer
-  name: ent-RMCJumpsuitFreelancer
-  description: ent-RMCJumpsuitFreelancer-desc
+  name: freelancer fatigues
+  description: A set of loose-fitting fatigues, perfect for an informal mercenary. Smells like gunpowder, apple pie, and covered in grease and sake stains.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/freelancer.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: [RMCUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitCivilian
-  name: ent-RMCJumpsuitCivilian
-  description: ent-RMCJumpsuitCivilian-desc
+  name: gray utility uniform
+  description: A stylish gray jumpsuit, popularly issued to UN contract workers on the frontier.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/gray_utility.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianBrown
-  name: ent-RMCJumpsuitCivilianBrown
-  description: ent-RMCJumpsuitCivilianBrown-desc
+  name: brown utility uniform
+  description: A stylish brown jumpsuit, popularly issued to UN contract workers on the frontier.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/brown_utility.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianGreen
-  name: ent-RMCJumpsuitCivilianGreen
-  description: ent-RMCJumpsuitCivilianGreen-desc
+  name: green utility uniform
+  description: A stylish green jumpsuit, popularly issued to UN contract workers on the frontier.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/green_utility.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianBlue
-  name: ent-RMCJumpsuitCivilianBlue
-  description: ent-RMCJumpsuitCivilianBlue-desc
+  name: blue utility uniform
+  description: A blue utility uniform with teal suspenders and rugged pants.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/blue_utility.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianRed
-  name: ent-RMCJumpsuitCivilianRed
-  description: ent-RMCJumpsuitCivilianRed-desc
+  name: red utility uniform
+  description: A grey utility uniform with red suspenders and blue jeans, the sign of a veteran laborer, or someone not paid by the hour.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/red_utility.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianYellow
-  name: ent-RMCJumpsuitCivilianYellow
-  description: ent-RMCJumpsuitCivilianYellow-desc
+  name: yellow utility uniform
+  description: A grey utility uniform with yellow suspenders, made for shipside crew.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/yellow_utility.rsi
@@ -217,8 +217,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianWhiteAlt
-  name: ent-RMCJumpsuitNormCivilianWhiteAlt
-  description: ent-RMCJumpsuitNormCivilianWhiteAlt-desc
+  name: white jumpsuit
+  description: A white jumpsuit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/white_jumpsuit_alt.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianBrown
-  name: ent-RMCJumpsuitNormCivilianBrown
-  description: ent-RMCJumpsuitNormCivilianBrown-desc
+  name: brown jumpsuit
+  description: A brown jumpsuit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/brown_jumpsuit.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianLightBrown
-  name: ent-RMCJumpsuitNormCivilianLightBrown
-  description: ent-RMCJumpsuitNormCivilianLightBrown-desc
+  name: light brown jumpsuit
+  description: A light brown jumpsuit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/lightbrown_jumpsuit.rsi
@@ -250,8 +250,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianGrey
-  name: ent-RMCJumpsuitNormCivilianGrey
-  description: ent-RMCJumpsuitNormCivilianGrey-desc
+  name: grey jumpsuit
+  description: A grey jumpsuit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/grey_jumpsuit.rsi
@@ -261,8 +261,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianYellow
-  name: ent-RMCJumpsuitNormCivilianYellow
-  description: ent-RMCJumpsuitNormCivilianYellow-desc
+  name: yellow jumpsuit
+  description: A yellow jumpsuit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/yellow_jumpsuit.rsi
@@ -279,8 +279,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianBlue
-  name: ent-RMCJumpsuitNormCivilianBlue
-  description: ent-RMCJumpsuitNormCivilianBlue-desc
+  name: blue jumpsuit
+  description: A blue jumpsuit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/blue_jumpsuit.rsi
@@ -290,8 +290,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitRedShorts
-  name: ent-RMCJumpsuitRedShorts
-  description: ent-RMCJumpsuitRedShorts-desc
+  name: red shorts
+  description: A ratty pair of red shorts. Smells of cigarettes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/varadero_shorts.rsi
@@ -301,8 +301,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitChaplain
-  name: ent-RMCJumpsuitChaplain
-  description: ent-RMCJumpsuitChaplain-desc
+  name: chaplain's jumpsuit
+  description: It's a black jumpsuit, often worn by religious folk.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/chaplain_uniform.rsi
@@ -312,8 +312,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianVirologist
-  name: ent-RMCJumpsuitCivilianVirologist
-  description: ent-RMCJumpsuitCivilianVirologist-desc
+  name: virologist's uniform
+  description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/virologists_jumpsuit.rsi
@@ -323,8 +323,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianScientist
-  name: ent-RMCJumpsuitCivilianScientist
-  description: ent-RMCJumpsuitCivilianScientist-desc
+  name: scientist's utility jumpsuit
+  description: It's made of a special fiber that provides minor protection against biohazards. It has markings that denote the wearer as a scientist.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/scientist_jumpsuit.rsi
@@ -334,8 +334,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitOrange
-  name: ent-RMCJumpsuitOrange
-  description: "ent-RMCJumpsuitOrange-desc"
+  name: orange jumpsuit
+  description: "It's standardised prisoner-wear. Its suit sensors are stuck in the \"Fully On\" position."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/orange.rsi
@@ -345,8 +345,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitSteward
-  name: ent-RMCJumpsuitSteward
-  description: ent-RMCJumpsuitSteward-desc
+  name: steward utilities
+  description: A stylish brown vest and shorts - uniforms like this are often worn by clerks and shop stewards.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/steward.rsi
@@ -356,8 +356,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitWeyamart
-  name: ent-RMCJumpsuitWeyamart
-  description: ent-RMCJumpsuitWeyamart-desc
+  name: Weyamart uniform
+  description: A pair of dark-grey slacks and an orange button-down shirt; a standard uniform for the Weyland-Yutani branded supermarket 'Weyamart'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/weyamart.rsi
@@ -367,8 +367,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitSanitation
-  name: ent-RMCJumpsuitSanitation
-  description: ent-RMCJumpsuitSanitation-desc
+  name: Weyland-Yutani RFF - sanitation uniform
+  description: A set of Weyland-Yutani RFF - Sanitation fatigues, a green pair of work slacks and a grey polo-shirt with green reflecting stripes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/sanitation.rsi
@@ -378,8 +378,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitPizzaGalaxy
-  name: ent-RMCJumpsuitPizzaGalaxy
-  description: ent-RMCJumpsuitPizzaGalaxy-desc
+  name: Pizza-Galaxy uniform
+  description: A pair of red slacks and a white button-down shirt with a large 'Pizza-Galaxy' logo on the back; a standard uniform for a Pizza-Galaxy employee. Pizza-Galaxy! To infinity and beyond!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/pizza_galaxy.rsi
@@ -389,8 +389,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitDailyGrind
-  name: ent-RMCJumpsuitDailyGrind
-  description: ent-RMCJumpsuitDailyGrind-desc
+  name: The Daily Grind uniform
+  description: A pair of black slacks and a white short-sleeved button-down shirt; a standard uniform for a 'The Daily Grind' employee. Are you ready for the daily grind?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/daily_grind.rsi
@@ -400,8 +400,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitTMCC
-  name: ent-RMCJumpsuitTMCC
-  description: ent-RMCJumpsuitTMCC-desc
+  name: tartarus-mining uniform
+  description: A set of Tartarus-Mining fatigues, a yellow pair of utility work slacks and a light-grey polo-shirt with red reflecting stripes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/tartarus_mining.rsi
@@ -411,8 +411,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitDoctor
-  name: ent-RMCJumpsuitDoctor
-  description: ent-RMCJumpsuitDoctor-desc
+  name: medical doctor's uniform
+  description: They're made of a special fiber that provides minor protection against biohazards. They have a cross on the chest denoting that the wearer is trained medical personnel.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/doctor.rsi
@@ -422,8 +422,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitEMT
-  name: ent-RMCJumpsuitEMT
-  description: ent-RMCJumpsuitEMT-desc
+  name: EMT - Paramedic uniform
+  description: A set of EMT - Paramedic fatigues, this one is red.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/emt.rsi
@@ -433,7 +433,7 @@
 - type: entity
   parent: RMCJumpsuitEMT
   id: RMCJumpsuitEMTGreen
-  description: ent-RMCJumpsuitEMTGreen-desc
+  description: A set of EMT - Paramedic fatigues, this one is green.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/emt_green.rsi
@@ -443,8 +443,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitLaborersOveralls
-  name: ent-RMCJumpsuitLaborersOveralls
-  description: ent-RMCJumpsuitLaborersOveralls-desc
+  name: laborer's overalls
+  description: A set of durable overalls for getting the job done.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/laborers_overalls.rsi
@@ -455,8 +455,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitKutjevoJumper
-  name: ent-RMCJumpsuitKutjevoJumper
-  description: ent-RMCJumpsuitKutjevoJumper-desc
+  name: kutjevo jumper
+  description: A heavy-duty jumpsuit worn by the workers on Kutjevo.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/kutjevo_jumper.rsi
@@ -466,8 +466,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitKutjevoDrysuit
-  name: ent-RMCJumpsuitKutjevoDrysuit
-  description: ent-RMCJumpsuitKutjevoDrysuit-desc
+  name: kutjevo drysuit
+  description: A heavy-duty drysuit worn by the workers on Kutjevo.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/kutjevo_drysuit.rsi
@@ -478,8 +478,8 @@
 - type: entity
   parent: RMCArmoredUniformBase
   id: RMCJumpsuitCivilianSecurity
-  name: ent-RMCJumpsuitCivilianSecurity
-  description: ent-RMCJumpsuitCivilianSecurity-desc
+  name: security officer's jumpsuit
+  description: It's made of a slightly sturdier material than standard jumpsuits, to allow for robust protection.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/security.rsi
@@ -494,8 +494,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitRiotControl
-  name: ent-RMCJumpsuitRiotControl
-  description: ent-RMCJumpsuitRiotControl-desc
+  name: riot control uniform
+  description: Overalls made of kevlar cover a snazzy blue dress shirt. Often utilized in riot control situations.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/varadero_riot.rsi
@@ -530,8 +530,8 @@
 - type: entity
   parent: [RMCUniformBase, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitCivilianJanitor
-  name: ent-RMCJumpsuitCivilianJanitor
-  description: ent-RMCJumpsuitCivilianJanitor-desc
+  name: janitor's jumpsuit
+  description: It's the official uniform of the colony's janitor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/janitor.rsi
@@ -541,8 +541,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitCivilianEngineerWorker
-  name: ent-RMCJumpsuitCivilianEngineerWorker
-  description: ent-RMCJumpsuitCivilianEngineerWorker-desc
+  name: Weyland-Yutani engineering utility uniform
+  description: A set of Weyland-Yutani engineering utility workers uniform, a orange pair of work slacks and a grey polo-shirt with orange reflecting stripes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/engineer_worker.rsi
@@ -552,8 +552,8 @@
 - type: entity
   parent: RMCJumpsuitCivilianEngineerWorker
   id: RMCJumpsuitCivilianEngineerWorkerAlt
-  description: ent-RMCJumpsuitCivilianEngineerWorkerAlt-desc
-  suffix: ent-RMCJumpsuitCivilianEngineerWorkerAlt-suffix
+  description: A set of Weyland-Yutani engineering utility workers uniform, a blue pair of work slacks and a grey polo-shirt with yellow reflecting stripes.
+  suffix: Alternative
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/engineer_worker_alt.rsi
@@ -564,8 +564,8 @@
 - type: entity
   parent: RMCArmoredUniformBase
   id: RMCJumpsuitCLFSoldier
-  name: ent-RMCJumpsuitCLFSoldier
-  description: ent-RMCJumpsuitCLFSoldier-desc
+  name: Colonial Liberation Front uniform
+  description: A stylish grey-green jumpsuit - standard issue for colonists. This version appears to have the symbol of the Colonial Liberation Front emblazoned in select areas.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/clf.rsi
@@ -580,7 +580,7 @@
 - type: entity
   parent: RMCJumpsuitCLFSoldier
   id: RMCJumpsuitCLFWebbing
-  suffix: ent-RMCJumpsuitCLFWebbing-suffix
+  suffix: Webbing, MAR
   components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingCLFMAR
@@ -588,7 +588,7 @@
 - type: entity
   parent: RMCJumpsuitCLFSoldier
   id: RMCJumpsuitCLFWebbingMAR50
-  suffix: ent-RMCJumpsuitCLFWebbingMAR50-suffix
+  suffix: Webbing, MAR50
   components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingCLFMAR50
@@ -596,7 +596,7 @@
 - type: entity
   parent: RMCJumpsuitCLFSoldier
   id: RMCJumpsuitCLFWebbingBuckshot
-  suffix: ent-RMCJumpsuitCLFWebbingBuckshot-suffix
+  suffix: Webbing, Buckshot
   components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingCLFBuckshot
@@ -604,7 +604,7 @@
 - type: entity
   parent: RMCJumpsuitCLFSoldier
   id: RMCJumpsuitCLFWebbingSurgical
-  suffix: ent-RMCJumpsuitCLFWebbingSurgical-suffix
+  suffix: Surgical Webbing
   components:
   - type: WebbingClothing
     startingWebbing: CMWebbingSurgicalGreen
@@ -613,8 +613,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitCivilianFrontier
-  name: ent-RMCJumpsuitCivilianFrontier
-  description: ent-RMCJumpsuitCivilianFrontier-desc
+  name: frontier jumpsuit
+  description: A cargo jumpsuit dressed down for full range of motion and state-of-the-art frontier temperature control. It's the best thing an engineer can wear in the Outer Veil.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/frontier.rsi

@@ -1,18 +1,18 @@
 - type: job
   parent: AU14JobLEOLeaderBase
   id: AU14JobInvestigationNSPAInspector
-  name: job-au14jobinvestigationnspainspector-name
-  description: job-au14jobinvestigationnspainspector-desc
+  name: au14-job-name-civiliannspainspector
+  description: You are an Inspector of the Neroid Sector Policing Authority on routine patrol through the sector. Patrol the area with your constables and ensure that the law is enforced.
   setPreference: false
   canBeAntag: false
   ranks:
     RMCRankTSEPAInspector: []
   startingGear: AU14GearNSPAInspectorInvestigation
   icon: "RMCJobIconTSEPAInspector"
-  spawnMenuRoleName: job-au14jobinvestigationnspainspector-spawnmenurolename
+  spawnMenuRoleName: NSPA Inspector (3rd party)
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: job-au14jobinvestigationnspainspector-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - auadmin
   - aucmb
@@ -63,7 +63,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicNSPA
   id: NSPAInvestigationPartyJobInspector
-  name: ent-NSPAInvestigationPartyJobInspector
+  name: NSPA Inspector
   components:  
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

@@ -20,24 +20,3 @@ ent-LeftFootGingerbread-name = левая имбирная ножка
 
 ent-RightFootGingerbread-name = правая имбирная ножка
 
-ent-HeadGingerbread = пряничная голова
-
-ent-LeftArmGingerbread = левая имбирная рука
-
-ent-LeftFootGingerbread = левая имбирная ножка
-
-ent-LeftHandGingerbread = левая рука с пряником
-
-ent-LeftLegGingerbread = левая пряничная ножка
-
-ent-PartGingerbread = часть тела имбирного пряника
-
-ent-RightArmGingerbread = правая пряничная рука
-
-ent-RightFootGingerbread = правая имбирная ножка
-
-ent-RightHandGingerbread = правая рука с пряником
-
-ent-RightLegGingerbread = правая ножка пряника
-
-ent-TorsoGingerbread = пряничный туловище

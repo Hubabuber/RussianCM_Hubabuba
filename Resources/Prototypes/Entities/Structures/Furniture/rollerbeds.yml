@@ -1,8 +1,8 @@
 - type: entity
   id: RollerBed
   parent: [BaseItem, BaseDeployFoldable]
-  name: ent-RollerBed
-  description: ent-RollerBed-desc
+  name: rollerbed
+  description: Used to carry patients around without damaging them.
   components:
     - type: Transform
       noRot: true
@@ -82,7 +82,7 @@
 - type: entity
   parent: RollerBed
   id: RollerBedSpawnFolded
-  suffix: ent-RollerBedSpawnFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -91,9 +91,9 @@
 
 - type: entity
   id: CheapRollerBed
-  name: ent-CheapRollerBed
+  name: rollerbed
   parent: RollerBed
-  description: ent-CheapRollerBed-desc
+  description: A run-down rollerbed. Used to carry patients around.
   components:
   - type: Item
     heldPrefix: cheap_rollerbed
@@ -112,7 +112,7 @@
 - type: entity
   parent: CheapRollerBed
   id: CheapRollerBedSpawnFolded
-  suffix: ent-CheapRollerBedSpawnFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true
@@ -121,9 +121,9 @@
 
 - type: entity
   id: EmergencyRollerBed
-  name: ent-EmergencyRollerBed
+  name: rollerbed
   parent: RollerBed
-  description: ent-EmergencyRollerBed-desc
+  description: A robust looking rollerbed used for emergencies.
   components:
   - type: Item
     heldPrefix: emergency_rollerbed
@@ -142,7 +142,7 @@
 - type: entity
   parent: EmergencyRollerBed
   id: EmergencyRollerBedSpawnFolded
-  suffix: ent-EmergencyRollerBedSpawnFolded-suffix
+  suffix: folded
   components:
   - type: Foldable
     folded: true

@@ -1,9 +1,0 @@
-guideentry-antagonists-name = Antagonists
-guideentry-minorantagonists-name = Minor Antagonists
-guideentry-nuclearoperatives-name = Nuclear Operatives
-guideentry-revolutionaries-name = Revolutionaries
-guideentry-spaceninja-name = Space Ninja
-guideentry-thieves-name = Thieves
-guideentry-traitors-name = Traitors
-guideentry-wizard-name = Wizard
-guideentry-zombies-name = Zombies

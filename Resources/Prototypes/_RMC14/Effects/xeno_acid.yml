@@ -1,7 +1,7 @@
 - type: entity
   id: XenoAcidNormal
-  name: ent-XenoAcidNormal
-  description: ent-XenoAcidNormal-desc
+  name: corrosive acid
+  description: Burbling corrosive stuff. I wouldn't want to touch it.
   components:
   - type: Transform
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: XenoAcidNormal
   id: XenoAcidWeak
-  name: ent-XenoAcidWeak
+  name: weak corrosive acid
   components:
   - type: Sprite
     layers:
@@ -34,7 +34,7 @@
 - type: entity
   parent: XenoAcidNormal
   id: XenoAcidStrong
-  name: ent-XenoAcidStrong
+  name: strong corrosive acid
   components:
   - type: Sprite
     layers:
@@ -42,8 +42,8 @@
 
 - type: entity
   id: XenoAcidSprayWeak
-  name: ent-XenoAcidSprayWeak
-  description: ent-XenoAcidSprayWeak-desc
+  name: weak splatter
+  description: It burns! It burns, but not as much!
   components:
   - type: Transform
   - type: Physics
@@ -92,8 +92,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayStrong
-  name: ent-XenoAcidSprayStrong
-  description: ent-XenoAcidSprayStrong-desc
+  name: splatter
+  description: It burns! It burns like hygiene!
   components:
   - type: Sprite
     layers:
@@ -111,8 +111,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayAcidStacks
-  name: ent-XenoAcidSprayAcidStacks
-  description: ent-XenoAcidSprayAcidStacks-desc
+  name: splatter
+  description: It burns! It burns like hygiene!
   components:
   - type: Sprite
     layers:
@@ -134,8 +134,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayTrap
-  name: ent-XenoAcidSprayTrap
-  description: ent-XenoAcidSprayTrap-desc
+  name: splatter
+  description: It burns! It burns like hygiene!
   components:
   - type: Sprite
     layers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: XenoAcidSprayTrap
   id: XenoAcidSprayTrapWeak
-  name: ent-XenoAcidSprayTrapWeak
-  description: ent-XenoAcidSprayTrapWeak-desc
+  name: weak splatter
+  description: It burns! It burns, but not as much!
   components:
   - type: Sprite
     layers:
@@ -176,8 +176,8 @@
 - type: entity
   parent: XenoAcidSprayTrap
   id: XenoAcidSprayTrapStrong
-  name: ent-XenoAcidSprayTrapStrong
-  description: ent-XenoAcidSprayTrapStrong-desc
+  name: strong splatter
+  description: It burns a lot!
   components:
   - type: Sprite
     layers:
@@ -198,7 +198,7 @@
 - type: entity
   parent: RMCBaseEffect
   id: XenoAcidExtinguishEffect
-  description: ent-XenoAcidExtinguishEffect-desc
+  description: It's cold...
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

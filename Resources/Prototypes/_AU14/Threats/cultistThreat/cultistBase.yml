@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCBaseMobSpeciesOrganic
   id: AU14BaseMobSpeciesOrganicCultist
-  suffix: ent-AU14BaseMobSpeciesOrganicCultist-suffix
+  suffix: AU14, Cultist
   components:
   - type: Threat
   - type: GhostTakeoverAvailable
@@ -73,7 +73,7 @@
 - type: entity
   parent: AU14SlingSatchelBlack
   id: AU14CultistSatchelBlack
-  suffix: ent-AU14CultistSatchelBlack-suffix
+  suffix: Cultist, Filled
   components:
   - type: Storage
     grid:
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMSatchel
   id: AU14CultistSatchelMarine
-  suffix: ent-AU14CultistSatchelMarine-suffix
+  suffix: Cultist
   components:
   - type: Storage
     grid:
@@ -99,7 +99,7 @@
 - type: entity
   parent: AU14SlingSatchelBlue
   id: AU14CultistSatchelBlue
-  suffix: ent-AU14CultistSatchelBlue-suffix
+  suffix: Cultist
   components:
   - type: Storage
     grid:
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCBeltUtilityGeneral
   id: AU14CultistBelt
-  suffix: ent-AU14CultistBelt-suffix
+  suffix: Cultist
   components:
   - type: Storage
     grid:
@@ -125,7 +125,7 @@
 - type: entity
   parent: RMCBeltHolsterPistolTSE
   id: AU14BeltHolsterPistolCultistMK45
-  suffix: ent-AU14BeltHolsterPistolCultistMK45-suffix
+  suffix: Cultist, Filled, HG45
   components:
   - type: StorageFill
     contents:
@@ -136,9 +136,9 @@
 - type: entity
   parent: RMCSynthResetKeySMART
   id: AU14SynthSubversionKeyCultist
-  name: ent-AU14SynthSubversionKeyCultist
-  suffix: ent-AU14SynthSubversionKeyCultist-suffix
-  description: ent-AU14SynthSubversionKeyCultist-desc
+  name: WY synthetic reset key
+  suffix: Cultist
+  description: This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It can only be used once before being reset. This one has been illegally modified. Who knows what it could do.
   components:
   - type: CLFSubverter
     faction: Xeno
@@ -166,9 +166,9 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorCultist
-  name: ent-AU14PortableVendorCultist
-  suffix: ent-AU14PortableVendorCultist-suffix
-  description: ent-AU14PortableVendorCultist-desc
+  name: hacked automated storage briefcase
+  suffix: Cultist
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has some occult symbols written on it.
   components:
   - type: CMAutomatedVendor
     jobs:

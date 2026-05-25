@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterBioGeneral
-  name: ent-ClothingOuterBioGeneral
-  suffix: ent-ClothingOuterBioGeneral-suffix
-  description: ent-ClothingOuterBioGeneral-desc
+  name: bio suit
+  suffix: Generic
+  description: A suit that protects against biological contamination.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/general.rsi
@@ -23,9 +23,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioCmo
-  name: ent-ClothingOuterBioCmo
-  suffix: ent-ClothingOuterBioCmo-suffix
-  description: ent-ClothingOuterBioCmo-desc
+  name: bio suit
+  suffix: CMO
+  description: An advanced suit that protects against biological contamination, in CMO colors.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/cmo.rsi
@@ -35,9 +35,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioJanitor
-  name: ent-ClothingOuterBioJanitor
-  suffix: ent-ClothingOuterBioJanitor-suffix
-  description: ent-ClothingOuterBioJanitor-desc
+  name: bio suit
+  suffix: Janitor
+  description: A suit that protects against biological contamination and caustic spills.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/janitor.rsi
@@ -51,9 +51,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioScientist
-  name: ent-ClothingOuterBioScientist
-  suffix: ent-ClothingOuterBioScientist-suffix
-  description: ent-ClothingOuterBioScientist-desc
+  name: bio suit
+  suffix: Science
+  description: A suit that protects against biological contamination, in Scientist colors.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/scientist.rsi
@@ -63,9 +63,9 @@
 - type: entity
   parent: [ClothingOuterBioGeneral, BaseSecurityContraband]
   id: ClothingOuterBioSecurity
-  name: ent-ClothingOuterBioSecurity
-  suffix: ent-ClothingOuterBioSecurity-suffix
-  description: ent-ClothingOuterBioSecurity-desc
+  name: bio suit
+  suffix: Security
+  description: A suit that protects against biological contamination, kitted out with additional armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/security.rsi
@@ -83,9 +83,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioVirology
-  name: ent-ClothingOuterBioVirology
-  suffix: ent-ClothingOuterBioVirology-suffix
-  description: ent-ClothingOuterBioVirology-desc
+  name: bio suit
+  suffix: Virology
+  description: A suit that strongly protects against biological contamination.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/virology.rsi

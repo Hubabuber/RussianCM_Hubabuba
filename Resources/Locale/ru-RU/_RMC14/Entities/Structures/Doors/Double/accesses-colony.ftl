@@ -1,12 +1,12 @@
 ent-CMDoubleDoorColonyCommandGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorColonyCommandSolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorColonyEngineerGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorColonyEngineerSolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorColonySecurityGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorColonySecuritySolidLocked = дверь
-    .suffix = дверь
+

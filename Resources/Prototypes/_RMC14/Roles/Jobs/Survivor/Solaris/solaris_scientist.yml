@@ -1,13 +1,13 @@
 - type: job
   parent: CMSurvivorScientist
   id: CMSurvivorSolarisScientist
-  name: job-cmsurvivorsolarisscientist-name
-  description: job-cmsurvivorsolarisscientist-desc
+  name: rmc-job-name-survivor-solaris-scientist
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorScientist
   startingGear: RMCGearSurvivorSolarisScientist
   accessGroups:
   - ColonistMedical
-  spawnMenuRoleName: job-cmsurvivorsolarisscientist-spawnmenurolename
+  spawnMenuRoleName: Solaris Scientist (Solaris Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisScientist
-  name: ent-RMCSpawnPointSurvivorSolarisScientist
+  name: survivor solaris scientist spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorSolarisScientist

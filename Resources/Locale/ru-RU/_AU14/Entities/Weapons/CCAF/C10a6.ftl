@@ -4,14 +4,3 @@ ent-AU14MagazineRifleC10A6BR-name = предмет
 ent-AU14CartridgeRifleC10A6BR-name = патрон
 ent-AU14BulletRifleC10A6BR-name = БазоваяПуля
 ent-AU14BulletRifleC10A6BR-desc = Если ты это видишь, ты, вероятно, мёртв!
-
-ent-AU14BulletRifleC10A6BR = BaseBullet
-    .desc = If you can see this you're probably dead!
-
-ent-AU14CartridgeRifleC10A6BR = Патрон (.25 ACP)
-    .desc = Пистолетный патрон .25 ACP
-
-ent-AU14MagazineRifleC10A6BR = Магазин C10A6BR (.25 ACP)
-
-ent-AUWeaponRifleC10A6BR = C10A6-BR 'Солнечный пес'
-    .desc = Рефлекторная винтовка, разработанная для CCAF компанией Armat Battlefield Systems. При нажатии на спусковой крючок он производит быструю очередь из трех выстрелов, причем все выстрелы производятся до того, как оператор почувствует отдачу. Оружие все еще проходит ограниченные полевые испытания среди избранных пехотных подразделений CCAF.

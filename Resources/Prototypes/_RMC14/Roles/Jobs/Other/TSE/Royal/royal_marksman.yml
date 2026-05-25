@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesMarksman
-  name: job-cmroyalmarinesmarksman-name
-  description: job-cmroyalmarinesmarksman-desc
+  name: rmc-job-name-rcm-marksman
+  description: rmc-ghost-role-information-rcm-description
   playTimeTracker: RMCJobRoyalMarksman
   ranks:
     RMCRankTSELanceCorporal: [ ]
   startingGear: RMCGearRoyalMarksman
   icon: "RMCJobIconRoyalMarinesMarksman"
   joinNotifyCrew: false
-  supervisors: job-cmroyalmarinesmarksman-supervisors
-  spawnMenuRoleName: job-cmroyalmarinesmarksman-spawnmenurolename
+  supervisors: cm-job-supervisors-royal-tl
+  spawnMenuRoleName: RCM Marksman
   special:
   - !type:AddComponentSpecial
     components:
@@ -44,8 +44,8 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesMarksman
-  name: ent-RMCRandomHumanoidRoyalMarinesMarksman
-  suffix: ent-RMCRandomHumanoidRoyalMarinesMarksman-suffix
+  name: royal crown marines ghost role marksman
+  suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/ballistic.rsi

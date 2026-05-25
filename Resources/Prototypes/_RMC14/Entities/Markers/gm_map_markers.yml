@@ -1,7 +1,7 @@
 - type: entity
   id: RMCMarkerGM
   abstract: true
-  name: ent-RMCMarkerGM
+  name: GM marker
   placement:
     mode: SnapgridCenter
   components:
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMExclamation
-  suffix: ent-RMCMarkerGMExclamation-suffix
+  suffix: Exclamation
   components:
   - type: WarpPoint
     location: GM marker (!)
@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMQuestion
-  suffix: ent-RMCMarkerGMQuestion-suffix
+  suffix: Question
   components:
   - type: WarpPoint
     location: GM marker (?)
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMCircle
-  suffix: ent-RMCMarkerGMCircle-suffix
+  suffix: Circle
   components:
   - type: WarpPoint
     location: GM marker (O)
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMX
-  suffix: ent-RMCMarkerGMX-suffix
+  suffix: X
   components:
   - type: WarpPoint
     location: GM marker (X)
@@ -90,7 +90,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMDollar
-  suffix: ent-RMCMarkerGMDollar-suffix
+  suffix: Dollar
   components:
   - type: WarpPoint
     location: GM marker ($)
@@ -106,7 +106,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMSword
-  suffix: ent-RMCMarkerGMSword-suffix
+  suffix: Sword
   components:
   - type: WarpPoint
     location: GM marker (Sword)
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMShield
-  suffix: ent-RMCMarkerGMShield-suffix
+  suffix: Shield
   components:
   - type: WarpPoint
     location: GM marker (Shield)
@@ -138,7 +138,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMHash
-  suffix: ent-RMCMarkerGMHash-suffix
+  suffix: Hash
   components:
   - type: WarpPoint
     location: GM marker (Hash)
@@ -154,7 +154,7 @@
 - type: entity
   parent: RMCMarkerGM
   id: RMCMarkerGMStar
-  suffix: ent-RMCMarkerGMStar-suffix
+  suffix: Star
   components:
   - type: WarpPoint
     location: GM marker (Star)
@@ -166,4 +166,4 @@
     icon:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: gm_star
-
+  

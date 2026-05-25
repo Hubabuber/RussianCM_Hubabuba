@@ -20,24 +20,3 @@ ent-MagazineCaselessRifleShort-name = короткий магазин (без г
 
 ent-MagazineCaselessRifleShortPractice-name = короткий магазин (безгильзовая практика .25)
 
-ent-BaseMagazineCaselessRifle = магазин (.25 без гильзы)
-
-ent-BaseMagazineCaselessRifleShort = безгильзовая винтовка с коротким магазином (безгильзовый .25)
-
-ent-BaseMagazinePistolCaselessRifle = пистолетный магазин (безгильзовый.25)
-
-ent-MagazineCaselessRifle = магазин (.25 без гильзы)
-
-ent-MagazineCaselessRifle10x24 = коробчатый магазин (безгильзовый .25)
-
-ent-MagazineCaselessRiflePractice = журнал (безгильзовая практика .25)
-
-ent-MagazineCaselessRifleShort = короткий магазин (без гильзы .25)
-
-ent-MagazineCaselessRifleShortPractice = короткий магазин (безгильзовая практика .25)
-
-ent-MagazinePistolCaselessRifle = пистолетный магазин (безгильзовый.25)
-    .desc = Магазин на 10 патронов для пистолета Кобра. Предназначен для хранения кинетических боеприпасов общего назначения.
-
-ent-MagazinePistolCaselessRiflePractice = пистолетный магазин (безгильзовый тренировочный .25)
-    .desc = Магазин на 10 патронов для пистолета Кобра. Предназначен для хранения неопасных меловых боеприпасов.

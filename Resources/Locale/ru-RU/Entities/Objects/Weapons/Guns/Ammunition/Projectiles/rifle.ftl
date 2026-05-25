@@ -10,14 +10,3 @@ ent-BulletRifleIncendiary-desc = Если ты это видишь, ты, вер
 ent-BulletRifleUranium-name = пуля (0,20 винтовочного урана)
 ent-BulletRifleUranium-desc = Если ты это видишь, ты, вероятно, мертв!
 
-ent-BulletRifle = пуля (винтовка 0,20)
-    .desc = If you can see this you're probably dead!
-
-ent-BulletRifleIncendiary = пуля (0,20 винтовочно-зажигательная)
-    .desc = If you can see this you're probably dead!
-
-ent-BulletRiflePractice = пуля (стрелковая практика 0,20)
-    .desc = If you can see this you're probably dead!
-
-ent-BulletRifleUranium = пуля (0,20 винтовочного урана)
-    .desc = If you can see this you're probably dead!

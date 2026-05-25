@@ -4,5 +4,3 @@ ent-CMSpawnPointXenoLeader = точка появления лидера ксен
 ent-CMSpawnPointXeno = точка спавна ксеносов
   .desc = Спаунер RMC14. 
 
-job-cmjobxenobase-desc = нулевой
-job-cmjobxenobase-supervisors = Королева

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCCLFCommanderPVE
-  name: job-rmcclfcommanderpve-name
-  description: job-rmcclfcommanderpve-desc
+  name: rmc-job-name-clf-pve-commander
+  description: rmc-ghost-role-information-clf-pve-description
   playTimeTracker: CMJobCLFCommanderPVE
   ranks:
     RMCRankCLFRebelCommander: []
@@ -13,7 +13,7 @@
   - Colony
   - SO
   - Rifleman
-  spawnMenuRoleName: job-rmcclfcommanderpve-spawnmenurolename
+  spawnMenuRoleName: CLF Commander (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointCLFCommanderPVE
-  name: ent-RMCSpawnPointCLFCommanderPVE
-  suffix: ent-RMCSpawnPointCLFCommanderPVE-suffix
+  name: clf commander spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: RMCCLFCommanderPVE

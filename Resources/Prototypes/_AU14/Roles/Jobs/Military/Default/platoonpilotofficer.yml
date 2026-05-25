@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilot
-  name: job-au14jobgovfordspilot-name
-  description: job-au14jobgovfordspilot-desc
+  name: au14-job-name-govfordspilot
+  description: au14-job-description-govfordspilot
   setPreference: true
   canBeAntag: false
   requirements:
@@ -37,9 +37,9 @@
   dummyStartingGear: AU14GearGOVFORDSPilotDummy
   icon: "AU14JobIconPilotOfficer"
   requireAdminNotify: true
-  spawnMenuRoleName: job-au14jobgovfordspilot-spawnmenurolename
+  spawnMenuRoleName: Pilot Officer (GOVFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovfordspilot-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforPilot
   - AU14GovforCorpsman
@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORDSPilot
-  name: ent-AU14SpawnPointGOVFORDSPilot
+  name: Spawn Point GOVFOR Dropship Pilot
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORDSPilot

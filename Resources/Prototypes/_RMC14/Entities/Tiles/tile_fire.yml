@@ -1,6 +1,6 @@
 - type: entity
   id: RMCTileFire
-  name: ent-RMCTileFire
+  name: fire
   placement:
     mode: SnapgridCenter
   components:
@@ -331,9 +331,9 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireForever
-  name: ent-RMCTileFireForever
-  description: ent-RMCTileFireForever-desc
-  suffix: ent-RMCTileFireForever-suffix
+  name: fire
+  description: That isn't going out any time soon!!
+  suffix: Undying, Very Strong
   placement:
     mode: PlaceFree
   components:
@@ -357,7 +357,7 @@
 - type: entity
   parent: RMCTileFireForever
   id: RMCTileFireForeverStrong
-  suffix: ent-RMCTileFireForeverStrong-suffix
+  suffix: Undying, Strong
   components:
   - type: TileFire
     id: RMCTileFireForeverStrong
@@ -377,7 +377,7 @@
 - type: entity
   parent: RMCTileFireForever
   id: RMCTileFireForeverNormal
-  suffix: ent-RMCTileFireForeverNormal-suffix
+  suffix: Undying
   components:
   - type: TileFire
     id: RMCTileFireForeverNormal
@@ -397,7 +397,7 @@
 - type: entity
   parent: RMCTileFireForever
   id: RMCTileFireForeverWeak
-  suffix: ent-RMCTileFireForeverWeak-suffix
+  suffix: Undying, Weak
   components:
   - type: TileFire
     id: RMCTileFireForeverWeak
@@ -457,7 +457,7 @@
 - type: entity
   parent: RMCTileFireForeverNormal
   id: RMCTileFireForeverNormalOrange
-  suffix: ent-RMCTileFireForeverNormalOrange-suffix
+  suffix: Undying
   components:
   - type: TileFire
     id: RMCTileFireForeverNormalOrange
@@ -478,7 +478,7 @@
 - type: entity
   parent: RMCTileFireForeverWeak
   id: RMCTileFireForeverWeakOrange
-  suffix: ent-RMCTileFireForeverWeakOrange-suffix
+  suffix: Undying, Weak
   components:
   - type: TileFire
     id: RMCTileFireForeverWeakOrange
@@ -499,7 +499,7 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireStickyNapalm
-  suffix: ent-RMCTileFireStickyNapalm-suffix
+  suffix: StickyNapalm
   components:
   - type: Sprite
     color: "#f8e3b2"
@@ -527,7 +527,7 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireHCNapalm
-  suffix: ent-RMCTileFireHCNapalm-suffix
+  suffix: HC Napalm
   components:
   - type: Sprite
     color: "#c51c1c"
@@ -555,7 +555,7 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireNapalmE
-  suffix: ent-RMCTileFireNapalmE-suffix
+  suffix: Napalm E
   components:
   - type: Sprite
     color: "#800080"
@@ -584,7 +584,7 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireNapalmEX
-  suffix: ent-RMCTileFireNapalmEX-suffix
+  suffix: Napalm EX
   components:
   - type: Sprite
     color: "#641dd6"
@@ -613,7 +613,7 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireR189
-  suffix: ent-RMCTileFireR189-suffix
+  suffix: R189
   components:
   - type: Sprite
     color: "#ffe49c"
@@ -642,7 +642,7 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireNapalmBase
-  suffix: ent-RMCTileFireNapalmBase-suffix
+  suffix: Base Napalm
   components:
   - type: Sprite
     color: "#D05006"
@@ -668,7 +668,7 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireEthanol
-  suffix: ent-RMCTileFireEthanol-suffix
+  suffix: Ethanol
   components:
   - type: Sprite
     color: "#6897f7"

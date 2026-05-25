@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCLFCellLeader
-  name: job-au14jobclfcellleader-name
-  description: job-au14jobclfcellleader-desc
+  name: au14-job-name-clfcellleader
+  description: au14-job-description-clfcellleader
   setPreference: true
   ignoreAllegiance: true
   playTimeTracker: AU14JobCLFCellLeader
@@ -24,8 +24,8 @@
   hasIcon: false
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: job-au14jobclfcellleader-supervisors
-  spawnMenuRoleName: job-au14jobclfcellleader-spawnmenurolename
+  supervisors: au14-job-supervisors-clfcellleader
+  spawnMenuRoleName: CLF Cell Leader (CMU)
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCLFCellLeader
-  name: ent-AU14SpawnPointCLFCellLeader
+  name: Spawn Point CLF Cell Leader
   components:
   - type: SpawnPoint
     job_id: AU14JobCLFCellLeader

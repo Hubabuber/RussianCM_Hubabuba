@@ -10,8 +10,8 @@
 - type: entity
   parent: BaseItem
   id: TimerTrigger
-  name: ent-TimerTrigger
-  description: ent-TimerTrigger-desc
+  name: timer trigger
+  description: A configurable timer.
   components:
   - type: Sprite
     sprite: Objects/Devices/timer.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: TimerTrigger
   id: SignalTrigger
-  name: ent-SignalTrigger
-  description: ent-SignalTrigger-desc
+  name: signal trigger
+  description: Adds a machine link that is triggered by signals.
   components:
   - type: Sprite
     sprite: Objects/Devices/signaltrigger.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseItem
   id: VoiceTrigger
-  name: ent-VoiceTrigger
-  description: ent-VoiceTrigger-desc
+  name: voice trigger
+  description: Adds a machine link that is triggered by vocal keywords.
   components:
   - type: Sprite
     sprite: Objects/Devices/voice.rsi

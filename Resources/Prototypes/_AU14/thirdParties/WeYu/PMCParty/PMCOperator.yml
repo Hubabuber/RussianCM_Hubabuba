@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYPMCPartyContractorBase
-  name: job-au14jobwypmcpartycontractorbase-name
-  description: job-au14jobwypmcpartycontractorbase-desc
+  name: PMC Contractor
+  description: au14-pmcparty-description
   playTimeTracker: AU14JobWYPMCPartyContractor
   basePlaytimeTracker: true
   hidden: true
@@ -10,16 +10,16 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYPMCPartyContractor #m41a/2
-  name: job-au14jobwypmcpartycontractor-name
-  description: job-au14jobwypmcpartycontractor-desc
+  name: PMC Contractor
+  description: au14-pmcparty-description
   ranks:
     AU14RankWeYuRecruit: []
-  spawnMenuRoleName: job-au14jobwypmcpartycontractor-spawnmenurolename
+  spawnMenuRoleName: WY PMC Contractor (3rd party, M41A/2)
   startingGear: AU14GearWYPMCPartyContractor
   greeting: au14-pmcparty-greeting
   icon: "RMCJobIconPMCStandard"
   joinNotifyCrew: false
-  supervisors: job-au14jobwypmcpartycontractor-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -46,16 +46,16 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYPMCPartyContractorM39B2
-  name: job-au14jobwypmcpartycontractorm39b2-name
-  description: job-au14jobwypmcpartycontractorm39b2-desc
+  name: PMC Contractor
+  description: au14-pmcparty-description
   ranks:
     AU14RankWeYuRecruit: []
-  spawnMenuRoleName: job-au14jobwypmcpartycontractorm39b2-spawnmenurolename
+  spawnMenuRoleName: WY PMC Contractor (3rd party, M39B/2)
   startingGear: AU14GearWYPMCPartyContractorM39B2
   greeting: au14-pmcparty-greeting
   icon: "RMCJobIconPMCStandard"
   joinNotifyCrew: false
-  supervisors: job-au14jobwypmcpartycontractorm39b2-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -82,16 +82,16 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYPMCPartyContractorNSG23
-  name: job-au14jobwypmcpartycontractornsg23-name
-  description: job-au14jobwypmcpartycontractornsg23-desc
+  name: PMC Contractor
+  description: au14-pmcparty-description
   ranks:
     AU14RankWeYuRecruit: []
-  spawnMenuRoleName: job-au14jobwypmcpartycontractornsg23-spawnmenurolename
+  spawnMenuRoleName: WY PMC Contractor (3rd party, NSG-23)
   startingGear: AU14GearWYPMCPartyContractorNSG23
   greeting: au14-pmcparty-greeting
   icon: "RMCJobIconPMCStandard"
   joinNotifyCrew: false
-  supervisors: job-au14jobwypmcpartycontractornsg23-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -118,16 +118,16 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYPMCPartyContractorM42A # m42a
-  name: job-au14jobwypmcpartycontractorm42a-name
-  description: job-au14jobwypmcpartycontractorm42a-desc
+  name: PMC Sniper
+  description: au14-pmcparty-description
   ranks:
     AU14RankWeYuOperator: []
-  spawnMenuRoleName: job-au14jobwypmcpartycontractorm42a-spawnmenurolename
+  spawnMenuRoleName: WY PMC Sniper (3rd party, M42A)
   startingGear: AU14GearWYPMCPartyContractorM42A
   greeting: au14-pmcparty-greeting
   icon: "RMCJobIconPMCSniper"
   joinNotifyCrew: false
-  supervisors: job-au14jobwypmcpartycontractorm42a-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -154,7 +154,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyContractor
-  name: ent-AU14JobWYPMCPartyContractor
+  name: WY PMC Party Contractor (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -174,7 +174,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyContractorM39B2
-  name: ent-AU14JobWYPMCPartyContractorM39B2
+  name: WY PMC Party Contractor (3rd party, M39B/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -194,7 +194,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyContractorNSG23
-  name: ent-AU14JobWYPMCPartyContractorNSG23
+  name: WY PMC Party Contractor (3rd party, NSG-23)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -214,7 +214,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyContractorM42A
-  name: ent-AU14JobWYPMCPartyContractorM42A
+  name: WY PMC Party Sniper (3rd party, M42A)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

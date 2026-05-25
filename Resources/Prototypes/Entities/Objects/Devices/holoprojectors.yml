@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Holoprojector
-  name: ent-Holoprojector
-  description: ent-Holoprojector-desc
+  name: holographic sign projector
+  description: A handy-dandy holographic projector that displays a janitorial sign.
   components:
   - type: Item
     storedRotation: -90
@@ -28,7 +28,7 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorEmpty
-  suffix: ent-HoloprojectorEmpty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -38,9 +38,9 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorBorg
-  suffix: ent-HoloprojectorBorg-suffix
-  name: ent-HoloprojectorBorg
-  description: ent-HoloprojectorBorg-desc
+  suffix: borg
+  name: holosign projector
+  description: A modified holographic sign projector for use in custodial cyborgs. Automatically self-charges.
   components:
   - type: HolosignProjector
     chargeUse: 240
@@ -55,8 +55,8 @@
 - type: entity
   parent: Holoprojector
   id: HolofanProjector
-  name: ent-HolofanProjector
-  description: ent-HolofanProjector-desc
+  name: holofan projector
+  description: Stop suicidal passengers from killing everyone during atmos emergencies.
   components:
   - type: HolosignProjector
     signProto: HoloFan
@@ -78,7 +78,7 @@
 - type: entity
   parent: HolofanProjector
   id: HolofanProjectorEmpty
-  suffix: ent-HolofanProjectorEmpty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -88,8 +88,8 @@
 - type: entity
   parent: HolofanProjector
   id: HolofanProjectorBorg
-  name: ent-HolofanProjectorBorg
-  description: ent-HolofanProjectorBorg-desc
+  name: integrated holofan
+  description: Stops idiots from causing more crew harm during atmospheric emergencies. Installed directly into an engineering cyborg, it  recharges over time.
   components:
   - type: ItemSlots
     slots:
@@ -102,8 +102,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorField
-  name: ent-HoloprojectorField
-  description: ent-HoloprojectorField-desc
+  name: force field projector
+  description: Creates an impassable forcefield that won't let anything through. Close proximity may or may not cause cancer.
   components:
     - type: HolosignProjector
       signProto: HolosignForcefield
@@ -120,7 +120,7 @@
 - type: entity
   parent: HoloprojectorField
   id: HoloprojectorFieldEmpty
-  suffix: ent-HoloprojectorFieldEmpty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -130,8 +130,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorSecurity
-  name: ent-HoloprojectorSecurity
-  description: ent-HoloprojectorSecurity-desc
+  name: holobarrier projector
+  description: Creates a solid but fragile holographic barrier.
   components:
     - type: HolosignProjector
       signProto: HolosignSecurity
@@ -149,7 +149,7 @@
 - type: entity
   parent: HoloprojectorSecurity
   id: HoloprojectorSecurityEmpty
-  suffix: ent-HoloprojectorSecurityEmpty-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:

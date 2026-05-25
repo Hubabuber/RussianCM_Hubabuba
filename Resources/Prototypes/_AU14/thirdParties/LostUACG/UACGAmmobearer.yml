@@ -1,20 +1,20 @@
 - type: job
   parent: AU14JobUACGRiflemanBase
   id: AU14UACGAmmobearer
-  name: job-au14uacgammobearer-name
-  description: job-au14uacgammobearer-desc
+  name: au-14-job-name-uacg-ammobearer
+  description: au14-uacg-description
   ranks:
     RMCRankPrivateFirstClass:
     - !type:RoleTimeRequirement
       role: AU14JobUACGRifleman
       time: 18000 #5 hours
     RMCRankPrivate: []
-  spawnMenuRoleName: job-au14uacgammobearer-spawnmenurolename
+  spawnMenuRoleName: UACG Ammo Bearer (3rd party)
   startingGear: AU14GearUACGLostAmmobearer
   greeting: au14-uacg-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14uacgammobearer-supervisors
+  supervisors: au-14-job-name-uacg-squadleader
   accessGroups:
   - AU14GovforFTL
   special:
@@ -36,7 +36,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUACG
   id: AU14JobUACGLostAmmobearer
-  name: ent-AU14JobUACGLostAmmobearer
+  name: Lost Ammo Bearer
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

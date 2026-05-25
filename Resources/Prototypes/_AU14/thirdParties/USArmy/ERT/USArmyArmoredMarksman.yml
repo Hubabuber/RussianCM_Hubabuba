@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmyMarksmanBase
-  name: job-au14usarmymarksmanbase-name
-  description: job-au14usarmymarksmanbase-desc
+  name: rmc-job-name-forecon-marksman
+  description: au14-job-description-usarmy
   playTimeTracker: AU14JobUSArmyMarksman
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14USArmyMarksmanBase
   id: AU14JobUSArmyMarksmanArmored
-  name: job-au14jobusarmymarksmanarmored-name
-  description: job-au14jobusarmymarksmanarmored-desc
+  name: rmc-job-name-forecon-marksman
+  description: au14-job-description-usarmy
   ranks:
     USArmy_Sergeant:
     - !type:RoleTimeRequirement
@@ -22,12 +22,12 @@
       role: AU14JobUSArmyMarksman
       time: 18000 #5 hours
     USArmy_Specialist: []
-  spawnMenuRoleName: job-au14jobusarmymarksmanarmored-spawnmenurolename
+  spawnMenuRoleName: US Army Marksman (AU14, 3rd Party)
   startingGear: AU14GearUSArmyMarksmanArmored
   greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyMarksman"
   joinNotifyCrew: false
-  supervisors: job-au14jobusarmymarksmanarmored-supervisors
+  supervisors: cm-job-name-squad-leader
   accessGroups:
   - AU14GovforSquad
   special:
@@ -55,7 +55,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyMarksmanArmored
-  name: ent-AU14JobUSArmyMarksmanArmored
+  name: US Army Marksman (ERT)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

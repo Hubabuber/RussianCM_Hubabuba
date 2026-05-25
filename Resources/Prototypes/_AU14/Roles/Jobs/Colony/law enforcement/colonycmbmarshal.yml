@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobLEOLeaderBase
   id: AU14JobCivilianCMBMarshal
-  name: job-au14jobciviliancmbmarshal-name
-  description: job-au14jobciviliancmbmarshal-desc
+  name: au14-job-name-civiliancmbmarshal
+  description: au14-job-description-civiliancmbmarshal
   setPreference: true
   canBeAntag: false
   ranks:
@@ -11,8 +11,8 @@
   icon: "RMCJobIconBureauMarshal"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: job-au14jobciviliancmbmarshal-supervisors
-  spawnMenuRoleName: job-au14jobciviliancmbmarshal-spawnmenurolename
+  supervisors: au14-job-supervisors-colonycivilian
+  spawnMenuRoleName: CMB Marshal (CMU)
   accessGroups:
   - auadmin
   - aucmb
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianCMBMarshal
-  name: ent-AU14SpawnPointCivilianCMBMarshal
+  name: Spawn Point Civilian CMB Marshal
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianCMBMarshal
@@ -66,7 +66,7 @@
 - type: entity
   parent: MarkerBase
   id: aumarshallghost
-  name: ent-aumarshallghost
+  name: Marshall colonist ghost role
   components:
   - type: Sprite
     layers:

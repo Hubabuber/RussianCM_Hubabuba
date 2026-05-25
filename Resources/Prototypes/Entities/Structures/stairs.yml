@@ -1,8 +1,8 @@
 - type: entity
   id: Stairs
-  name: ent-Stairs
-  suffix: ent-Stairs-suffix
-  description: ent-Stairs-desc
+  name: stairs
+  suffix: Steel
+  description: The greatest invention since rocket-propelled grenades.
   placement:
     mode: SnapgridCenter
   components:
@@ -39,7 +39,7 @@
 - type: entity
   id: StairStage
   parent: Stairs
-  suffix: ent-StairStage-suffix
+  suffix: Steel, stage
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -49,7 +49,7 @@
 - type: entity
   id: StairWhite
   parent: Stairs
-  suffix: ent-StairWhite-suffix
+  suffix: White
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -59,7 +59,7 @@
 - type: entity
   id: StairStageWhite
   parent: Stairs
-  suffix: ent-StairStageWhite-suffix
+  suffix: White, stage
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -69,7 +69,7 @@
 - type: entity
   id: StairDark
   parent: Stairs
-  suffix: ent-StairDark-suffix
+  suffix: Dark
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -79,7 +79,7 @@
 - type: entity
   id: StairStageDark
   parent: Stairs
-  suffix: ent-StairStageDark-suffix
+  suffix: Dark, stage
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -89,7 +89,7 @@
 - type: entity
   id: StairWood
   parent: Stairs
-  suffix: ent-StairWood-suffix
+  suffix: Wood
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi
@@ -99,7 +99,7 @@
 - type: entity
   id: StairStageWood
   parent: Stairs
-  suffix: ent-StairStageWood-suffix
+  suffix: Wood, stage
   components:
   - type: Sprite
     sprite: Structures/stairs.rsi

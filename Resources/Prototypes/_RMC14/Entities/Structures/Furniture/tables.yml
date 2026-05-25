@@ -2,8 +2,8 @@
 - type: entity
   parent: TableBase
   id: CMTable
-  name: ent-CMTable
-  description: ent-CMTable-desc
+  name: table
+  description: A square metal surface resting on four legs. Useful to put stuff on.
   components:
   - type: VehicleSmashable
   - type: Corrodible
@@ -45,7 +45,7 @@
 - type: entity
   parent: CMTable
   id: RMCTableBrown
-  suffix: ent-RMCTableBrown-suffix
+  suffix: Brown
   components:
   - type: Sprite
     color: "#8B7B5B"
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCLargeTable
-  name: ent-RMCLargeTable
-  description: ent-RMCLargeTable-desc
+  name: table
+  description: A square metal surface resting on four legs. Useful to put stuff on.
   abstract: true
   components:
   - type: Corrodible
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMTable
   id: CMTableReinforced
-  name: ent-CMTableReinforced
-  description: ent-CMTableReinforced-desc
+  name: reinforced table
+  description: A square metal surface resting on four legs. This one has side panels, making it useful as a desk.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/reinforced.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: CMTableReinforced
   id: CMTableReinforcedRequisition
-  description: ent-CMTableReinforcedRequisition-desc
+  description: A square metal surface resting on its fat metal bottom.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/requisition.rsi
@@ -157,7 +157,7 @@
 - type: entity
   parent: RMCTableReinforcedRequisitionBrown
   id: RMCTableReinforcedRequisitionBrownOffset
-  suffix: ent-RMCTableReinforcedRequisitionBrownOffset-suffix
+  suffix: Offset
   components:
   - type: Sprite
     offset: 0, 0.1
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMTableReinforced
   id: CMTableReinforcedBlack
-  name: ent-CMTableReinforcedBlack
-  description: ent-CMTableReinforcedBlack-desc
+  name: black table
+  description: A sleek black metal table. Its legs are securely bolted to the floor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/black.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: CMTable
   id: CMTableWooden
-  name: ent-CMTableWooden
-  description: ent-CMTableWooden-desc
+  name: wooden table
+  description: A square wood surface resting on four legs. Useful to put stuff on.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/wood.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: CMTableWooden
   id: CMTableWoodenPoor
-  name: ent-CMTableWoodenPoor
-  description: ent-CMTableWoodenPoor-desc
+  name: poor wooden table
+  description: A semi-poorly constructed wood surface resting on four legs. Useful to put stuff on.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/poor_wood.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: CMTableWooden
   id: CMTableWoodenFancy
-  name: ent-CMTableWoodenFancy
-  description: ent-CMTableWoodenFancy-desc
+  name: fancy wooden table
+  description: A nicely crafted mahogany wood surface resting on four legs. Useful to put stuff on.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/fancy_wood.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: CMTableWooden
   id: CMTableWoodenGambling
-  name: ent-CMTableWoodenGambling
-  description: ent-CMTableWoodenGambling-desc
+  name: gambling table
+  description: A curved wood and carpet surface resting on four legs. Used for gambling games.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/gambling.rsi
@@ -238,9 +238,9 @@
 - type: entity
   parent: CMTable
   id: CMTableAlmayer
-  name: ent-CMTableAlmayer
-  description: ent-CMTableAlmayer-desc
-  suffix: ent-CMTableAlmayer-suffix
+  name: table
+  description: A square metal surface resting on four legs. Useful to put stuff on. Can be flipped in emergencies to act as cover.
+  suffix: Almayer
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/almayer.rsi
@@ -254,9 +254,9 @@
 - type: entity
   parent: CMTableReinforced
   id: RMCTablePrison
-  name: ent-RMCTablePrison
-  description: ent-RMCTablePrison-desc
-  suffix: ent-RMCTablePrison-suffix
+  name: table
+  description: A square metal surface resting on four legs. This one has side panels, making it useful as a desk, but impossible to flip.
+  suffix: Prison
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/prison.rsi
@@ -266,7 +266,7 @@
 - type: entity
   parent: RMCTablePrison
   id: RMCTablePrisonSoro
-  suffix: ent-RMCTablePrisonSoro-suffix
+  suffix: Prison, Blue
   components:
   - type: Sprite
     color: "#98A3AB"
@@ -276,7 +276,7 @@
 - type: entity
   parent: RMCTablePrison
   id: RMCTablePrisonBeige
-  suffix: ent-RMCTablePrisonBeige-suffix
+  suffix: Prison, Beige
   components:
   - type: Sprite
     color: "#ffe6e6"
@@ -286,7 +286,7 @@
 - type: entity
   parent: RMCTablePrison
   id: RMCTablePrisonBrown
-  suffix: ent-RMCTablePrisonBrown-suffix
+  suffix: Prison, Brown
   components:
   - type: Sprite
     color: "#8B7B5B"
@@ -297,9 +297,9 @@
 - type: entity
   parent: CMTable
   id: RMCTableHunter
-  name: ent-RMCTableHunter
-  description: ent-RMCTableHunter-desc
-  suffix: ent-RMCTableHunter-suffix
+  name: table
+  description: A square metal surface resting on four legs. This one has side panels, making it useful as a desk, but impossible to flip.
+  suffix: Hunter
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/hunter.rsi
@@ -310,8 +310,8 @@
 - type: entity
   parent: RMCLargeTable
   id: RMCLargeTableBar
-  name: ent-RMCLargeTableBar
-  description: ent-RMCLargeTableBar-desc
+  name: bar table
+  description: A wooden table that has seen better days. There's the stickly sensation of spilled drinks within the cracks of the wood.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/bar.rsi
@@ -322,8 +322,8 @@
   abstract: true
   parent: BaseStructure
   id: RMCTableVariantBase
-  name: ent-RMCTableVariantBase
-  description: ent-RMCTableVariantBase-desc
+  name: table
+  description: A manually placed table variant.
   components:
   - type: Transform
     anchored: false
@@ -366,7 +366,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableCloth
-  name: ent-RMCTableCloth
+  name: cloth-covered table
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -378,7 +378,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothMiddle
-  name: ent-RMCTableClothMiddle
+  name: cloth-covered table middle
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -390,7 +390,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothEnd
-  name: ent-RMCTableClothEnd
+  name: cloth-covered table end
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -402,7 +402,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothThick
-  name: ent-RMCTableClothThick
+  name: cloth-covered thick table
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -414,7 +414,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothDir
-  name: ent-RMCTableClothDir
+  name: cloth-covered table corner
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -426,7 +426,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothDir2
-  name: ent-RMCTableClothDir2
+  name: cloth-covered table segment
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -438,7 +438,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothDir3
-  name: ent-RMCTableClothDir3
+  name: cloth-covered table junction
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -450,7 +450,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableTOCEast
-  name: ent-RMCTableTOCEast
+  name: tactical operations table east
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/toc.rsi
@@ -462,7 +462,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableTOCWest
-  name: ent-RMCTableTOCWest
+  name: tactical operations table west
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/toc.rsi

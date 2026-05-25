@@ -4,10 +4,3 @@ ent-ClothingHandsChameleon-desc = Обычные черные перчатки, 
 ent-ClothingHandsChameleonThief-name = черные перчатки
 ent-ClothingHandsChameleonThief-desc = Обычные черные перчатки, которые не защитят вас от жарки.
 
-ent-ClothingHandsChameleon = черные перчатки
-    .desc = Обычные черные перчатки, которые не защитят вас от жарки.
-    .suffix = Хамелеон
-
-ent-ClothingHandsChameleonThief = черные перчатки
-    .desc = Обычные черные перчатки, которые не защитят вас от жарки.
-    .suffix = Хамелеон, Воровство

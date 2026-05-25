@@ -1,16 +1,16 @@
 - type: job
   parent: AU14JobWYGuardBase
   id: AU14JobWYHTGoon
-  name: job-au14jobwyhtgoon-name
-  description: job-au14jobwyhtgoon-desc
+  name: au14-job-name-wyguard
+  description: au14-wyht-description
   ranks:
     AU14RankWYSecurityOfficer: []
-  spawnMenuRoleName: job-au14jobwyhtgoon-spawnmenurolename
+  spawnMenuRoleName: WY HT Goon (3rd party)
   startingGear: AU14GearWYHTGoon
   greeting: au14-wyht-greeting
   icon: "RMCJobIconPMCGoonStandard"
   joinNotifyCrew: false
-  supervisors: job-au14jobwyhtgoon-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYHTGoon
-  name: ent-AU14JobWYHTGoon
+  name: WY Hazard Transport Goon (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

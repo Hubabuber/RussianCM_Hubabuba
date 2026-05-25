@@ -1,11 +1,11 @@
 - type: job
   parent: RMCSurvivorMilitary
   id: RMCSurvivorParaBase
-  name: job-rmcsurvivorparabase-name
-  description: job-rmcsurvivorparabase-desc
+  name: rmc-job-name-para
+  description: rmc-job-description-para
   ranks:
     RMCRankParaPrivateSecondClass: []
-  supervisors: job-rmcsurvivorparabase-supervisors
+  supervisors: cm-job-supervisors-royal-tl
   accessGroups:
     - Colonist
   joinNotifyCrew: false
@@ -13,7 +13,7 @@
   hasIcon: true
   greeting: rmc-job-greeting-para
   playTimeTracker: RMCJobSurvivorMilitary
-  spawnMenuRoleName: job-rmcsurvivorparabase-spawnmenurolename
+  spawnMenuRoleName: Royal Paramarine Survivor (Base)
   abstract: true
   hidden: true
 
@@ -34,7 +34,7 @@
     
 - type: entity
   id: RMCGearSurvivorPresetPara
-  name: ent-RMCGearSurvivorPresetPara
+  name: para preset
   categories: [ HideSpawnMenu ]
   components:
     - type: EntityPreset

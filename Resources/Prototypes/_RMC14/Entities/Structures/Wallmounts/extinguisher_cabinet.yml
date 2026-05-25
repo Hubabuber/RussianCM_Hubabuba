@@ -3,9 +3,9 @@
 - type: entity
   parent: ExtinguisherCabinet
   id: RMCExtinguisherCabinet
-  name: ent-RMCExtinguisherCabinet
-  description: ent-RMCExtinguisherCabinet-desc
-  suffix: ent-RMCExtinguisherCabinet-suffix
+  name: extinguisher cabinet
+  description: A small wall mounted cabinet designed to hold a fire extinguisher.
+  suffix: RMC14
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Wallmounts/extinguisher_cabinet.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: RMCExtinguisherCabinet
   id: RMCExtinguisherCabinetOpen
-  suffix: ent-RMCExtinguisherCabinetOpen-suffix
+  suffix: RMC14, Open
   components:
   - type: Openable
     opened: true
@@ -28,21 +28,21 @@
 - type: entity
   parent: RMCExtinguisherCabinet
   id: RMCExtinguisherCabinetFilled
-  suffix: ent-RMCExtinguisherCabinetFilled-suffix
+  suffix: RMC14, Filled
 
 - type: entity
   parent: [RMCExtinguisherCabinetFilled, RMCExtinguisherCabinetOpen]
   id: RMCExtinguisherCabinetFilledOpen
-  suffix: ent-RMCExtinguisherCabinetFilledOpen-suffix
+  suffix: RMC14, Filled, Open
 
 # Alt
 
 - type: entity
   parent: ExtinguisherCabinet
   id: RMCExtinguisherCabinetAlt
-  name: ent-RMCExtinguisherCabinetAlt
-  description: ent-RMCExtinguisherCabinetAlt-desc
-  suffix: ent-RMCExtinguisherCabinetAlt-suffix
+  name: extinguisher cabinet
+  description: A small wall mounted cabinet designed to hold a fire extinguisher.
+  suffix: RMC14, Alt
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Wallmounts/extinguisher_cabinet_alt.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCExtinguisherCabinetAlt
   id: RMCExtinguisherCabinetAltOpen
-  suffix: ent-RMCExtinguisherCabinetAltOpen-suffix
+  suffix: RMC14, Alt, Open
   components:
   - type: Openable
     opened: true
@@ -65,9 +65,9 @@
 - type: entity
   parent: RMCExtinguisherCabinetAlt
   id: RMCExtinguisherCabinetAltFilled
-  suffix: ent-RMCExtinguisherCabinetAltFilled-suffix
+  suffix: RMC14, Alt, Filled
 
 - type: entity
   parent: [RMCExtinguisherCabinetAltFilled, RMCExtinguisherCabinetAltOpen]
   id: RMCExtinguisherCabinetAltFilledOpen
-  suffix: ent-RMCExtinguisherCabinetAltFilledOpen-suffix
+  suffix: RMC14, Alt, Filled, Open

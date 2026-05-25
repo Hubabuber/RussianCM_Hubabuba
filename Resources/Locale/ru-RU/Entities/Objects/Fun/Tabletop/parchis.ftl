@@ -3,7 +3,3 @@ ent-ParchisBoard-desc = Настольная игра «Крест и круг»
 
 ent-ParchisBoardTabletop-name = Париж
 
-ent-ParchisBoard = совет прихода
-    .desc = Настольная игра «Крест и круг», известная тем, что разрушила бесчисленное количество друзей.
-
-ent-ParchisBoardTabletop = Париж

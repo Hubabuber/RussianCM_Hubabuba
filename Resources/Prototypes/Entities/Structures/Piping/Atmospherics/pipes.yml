@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: GasPipeSansLayers
-  name: ent-GasPipeSansLayers
-  description: ent-GasPipeSansLayers-desc
+  name: gas pipe
+  description: Holds gas.
   placement:
     mode: SnapgridCenter
   components:
@@ -84,7 +84,7 @@
 - type: entity
   parent: GasPipeBase
   id: GasPipeHalf
-  suffix: ent-GasPipeHalf-suffix
+  suffix: Half
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -119,7 +119,7 @@
 - type: entity
   parent: GasPipeBase
   id: GasPipeStraight
-  suffix: ent-GasPipeStraight-suffix
+  suffix: Straight
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -162,7 +162,7 @@
 - type: entity
   parent: GasPipeBase
   id: GasPipeBend
-  suffix: ent-GasPipeBend-suffix
+  suffix: Bend
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -214,7 +214,7 @@
   id: GasPipeTJunction
   placement:
     mode: AlignAtmosPipeLayers
-  suffix: ent-GasPipeTJunction-suffix
+  suffix: TJunction
   components:
   - type: NodeContainer
     nodes:
@@ -255,7 +255,7 @@
 - type: entity
   parent: GasPipeBase
   id: GasPipeFourway
-  suffix: ent-GasPipeFourway-suffix
+  suffix: Fourway
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -300,8 +300,8 @@
 - type: entity
   id: GasPipeBroken
   parent: GasPipeBase
-  name: ent-GasPipeBroken
-  description: ent-GasPipeBroken-desc
+  name: broken pipe
+  description: It used to hold gas.
   components:
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/pipe.rsi
@@ -333,8 +333,8 @@
 - type: entity
   parent: GasPipeSansLayers
   id: GasPipeManifold
-  name: ent-GasPipeManifold
-  description: ent-GasPipeManifold-desc
+  name: gas pipe manifold
+  description: Allows gas pipes of different configurations to be connected together.
   placement:
     mode: SnapgridCenter
   components:

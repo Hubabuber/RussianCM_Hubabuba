@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: ColMarTechFood
-  name: ent-ColMarTechFood
-  description: ent-ColMarTechFood-desc
+  name: ColMarTech food vendor
+  description: Marine Food Vendor, containing standard military Prepared Meals.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/food.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: ColMarTechFood
   id: RMCNutriCoVendor
-  name: ent-RMCNutriCoVendor
-  description: ent-RMCNutriCoVendor-desc
+  name: NutriCo AutoChef
+  description: An autochef food dispenser, capable of distributing food containing all the essential vitamins and nutrients anyone could ever need. Inedible-looking sludge is passed through a variety of heaters, re-shapers, and solidifiers before being artificially flavored to create something that looks and tastes mostly edible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/NutriCo/food.rsi
@@ -65,21 +65,21 @@
 - type: entity
   parent: RMCNutriCoVendor
   id: RMCVendorNutriCoFoodPMC
-  name: ent-RMCVendorNutriCoFoodPMC
-  suffix: ent-RMCVendorNutriCoFoodPMC-suffix
+  name: food dispenser
+  suffix: PMC
 
 - type: entity
   parent: RMCNutriCoVendor
   id: RMCNutriCoVendorRCM
-  name: ent-RMCNutriCoVendorRCM
-  suffix: ent-RMCNutriCoVendorRCM-suffix
+  name: food dispenser
+  suffix: RCM
 
 - type: entity
   parent: RMCNutriCoVendor
   id: RMCVendorNutriCoFoodSPP
-  name: ent-RMCVendorNutriCoFoodSPP
-  suffix: ent-RMCVendorNutriCoFoodSPP-suffix
-  description: ent-RMCVendorNutriCoFoodSPP-desc
+  name: food dispenser
+  suffix: SPP
+  description: A food dispenser, capable of distributing food containing all the essential vitamins and nutrients anyone could ever need.
   components:
   - type: CMAutomatedVendor
     hackable: true
@@ -122,8 +122,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorBooze
-  name: ent-CMVendorBooze
-  description: ent-CMVendorBooze-desc
+  name: Booze-O-Mat
+  description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/boozeomat.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorChess
-  name: ent-CMVendorChess
-  description: ent-CMVendorChess-desc
+  name: Chess-o-mat
+  description: In 2143 Red Star Drinks, a UPP-CA (Colony Administration) affiliated corporation ran a promotional sweepstakes for drinkers who had found special codes on the inside of the caps of a limited run of Red Star Vodka, shipping them a Chess-O-Mat with unlimited refills.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/chessomat.rsi

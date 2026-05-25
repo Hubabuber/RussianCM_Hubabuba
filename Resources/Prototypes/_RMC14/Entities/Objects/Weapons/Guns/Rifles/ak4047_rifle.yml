@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ent-RMCWeaponRifleAK4047
+  name: AK-4047 assault rifle
   id: RMCWeaponRifleAK4047
-  description: ent-RMCWeaponRifleAK4047-desc
+  description: A UPP assault rifle, designed to mimic the performance of the American M41A. The 4047 is built with a more utilitarian approach, and can survive use in harsh environments, as long as its user maintains it regularly. Many civilian enthusiasts claim the weapon is nigh invincible, but anyone who has ever served with it will tell you nothing could be further from the truth.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/ak4047.rsi
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCWeaponRifleAK4047
   id: RMCWeaponRifleAK4047Tactical
-  suffix: ent-RMCWeaponRifleAK4047Tactical-suffix
+  suffix: Tactical
   components:
   - type: AttachableHolder
     slots:
@@ -149,7 +149,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleAK4047
-  name: "ent-RMCMagazineRifleAK4047"
+  name: "AK4047 magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -176,8 +176,8 @@
 - type: entity
   parent: RMCMagazineRifleAK4047
   id: RMCMagazineRifleAK4047AP
-  name: "ent-RMCMagazineRifleAK4047AP"
-  suffix: ent-RMCMagazineRifleAK4047AP-suffix
+  name: "AK4047 AP magazine (10x24mm)"
+  suffix: AP
   components:
   - type: Tag
     tags:
@@ -203,8 +203,8 @@
 - type: entity
   parent: RMCMagazineRifleAK4047
   id: RMCMagazineRifleAK4047Incendiary
-  name: "ent-RMCMagazineRifleAK4047Incendiary"
-  suffix: ent-RMCMagazineRifleAK4047Incendiary-suffix
+  name: "AK4047 Incendiary magazine (10x24mm)"
+  suffix: Incendiary
   components:
   - type: Tag
     tags:
@@ -230,8 +230,8 @@
 - type: entity
   parent: RMCMagazineRifleAK4047
   id: RMCMagazineRifleAK4047HEAP
-  name: "ent-RMCMagazineRifleAK4047HEAP"
-  suffix: ent-RMCMagazineRifleAK4047HEAP-suffix
+  name: "AK4047 HEAP magazine (10x24mm)"
+  suffix: HEAP
   components:
   - type: Tag
     tags:

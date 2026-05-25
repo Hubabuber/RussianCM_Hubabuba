@@ -1,6 +1,6 @@
 - type: radioChannel
   id: CMUYautja
-  name: radiochannel-cmuyautja-name
+  name: chat-radio-cmu-yautja
   keycode: "е"
   frequency: 1541
   color: "#b85440"
@@ -8,7 +8,7 @@
 
 - type: radioChannel
   id: CMUYautjaOverseer
-  name: radiochannel-cmuyautjaoverseer-name
+  name: chat-radio-cmu-yautja-overseer
   keycode: "н"
   frequency: 1542
   color: "#d4a85b"
@@ -16,7 +16,7 @@
 
 - type: radioChannel
   id: CMUYautjaBadBlood
-  name: radiochannel-cmuyautjabadblood-name
+  name: chat-radio-cmu-yautja-badblood
   keycode: "г"
   frequency: 1543
   color: "#c44343"
@@ -25,9 +25,9 @@
 - type: entity
   parent: EncryptionKey
   id: CMUYautjaEncryptionKey
-  name: ent-CMUYautjaEncryptionKey
-  description: ent-CMUYautjaEncryptionKey-desc
-  suffix: ent-CMUYautjaEncryptionKey-suffix
+  name: Yautja encryption key
+  description: An alien cipher chip tuned to hunter communicators.
+  suffix: Yautja
   components:
   - type: EncryptionKey
     channels:
@@ -41,9 +41,9 @@
 - type: entity
   parent: EncryptionKey
   id: CMUYautjaOverseerEncryptionKey
-  name: ent-CMUYautjaOverseerEncryptionKey
-  description: ent-CMUYautjaOverseerEncryptionKey-desc
-  suffix: ent-CMUYautjaOverseerEncryptionKey-suffix
+  name: Yautja overseer encryption key
+  description: An alien cipher chip tuned to hunter and overseer channels.
+  suffix: Yautja
   components:
   - type: EncryptionKey
     channels:
@@ -58,9 +58,9 @@
 - type: entity
   parent: EncryptionKey
   id: CMUYautjaBadBloodEncryptionKey
-  name: ent-CMUYautjaBadBloodEncryptionKey
-  description: ent-CMUYautjaBadBloodEncryptionKey-desc
-  suffix: ent-CMUYautjaBadBloodEncryptionKey-suffix
+  name: bad blood encryption key
+  description: An alien cipher chip tuned to renegade hunter channels.
+  suffix: Yautja
   components:
   - type: EncryptionKey
     channels:
@@ -74,9 +74,9 @@
 - type: entity
   parent: ClothingHeadset
   id: CMUYautjaCommunicator
-  name: ent-CMUYautjaCommunicator
-  description: ent-CMUYautjaCommunicator-desc
-  suffix: ent-CMUYautjaCommunicator-suffix
+  name: communicator
+  description: A compact alien communicator used by Yautja hunters.
+  suffix: Yautja
   components:
   - type: ContainerFill
     containers:
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMUYautjaCommunicator
   id: CMUYautjaOverseerCommunicator
-  name: ent-CMUYautjaOverseerCommunicator
-  suffix: ent-CMUYautjaOverseerCommunicator-suffix
+  name: overseer communicator
+  suffix: Yautja, Overseer
   components:
   - type: ContainerFill
     containers:
@@ -106,8 +106,8 @@
 - type: entity
   parent: CMUYautjaCommunicator
   id: CMUYautjaBadBloodCommunicator
-  name: ent-CMUYautjaBadBloodCommunicator
-  suffix: ent-CMUYautjaBadBloodCommunicator-suffix
+  name: bad blood communicator
+  suffix: Yautja, Bad Blood
   components:
   - type: ContainerFill
     containers:
@@ -117,15 +117,15 @@
 - type: entity
   parent: CMUYautjaCommunicator
   id: CMUYautjaStrandedCommunicator
-  name: ent-CMUYautjaStrandedCommunicator
-  suffix: ent-CMUYautjaStrandedCommunicator-suffix
+  name: stranded hunter communicator
+  suffix: Yautja, Stranded
 
 - type: entity
   parent: CMBeltBaseStorage
   id: CMUYautjaHuntingPouch
-  name: ent-CMUYautjaHuntingPouch
-  description: ent-CMUYautjaHuntingPouch-desc
-  suffix: ent-CMUYautjaHuntingPouch-suffix
+  name: hunting pouch
+  description: A Yautja hunting pouch made from thick tanned hide, used for devices, tools, and trophies.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -150,9 +150,9 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaRelayBeacon
-  name: ent-CMUYautjaRelayBeacon
-  description: ent-CMUYautjaRelayBeacon-desc
-  suffix: ent-CMUYautjaRelayBeacon-suffix
+  name: relay beacon
+  description: A device covered in sacred text. It whirrs and beeps every couple of seconds.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -166,9 +166,9 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaCleanserGelVial
-  name: ent-CMUYautjaCleanserGelVial
-  description: ent-CMUYautjaCleanserGelVial-desc
-  suffix: ent-CMUYautjaCleanserGelVial-suffix
+  name: cleanser gel vial
+  description: A small vial of bright blue dissolving gel for destroying loose field equipment.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -183,9 +183,9 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaScalp
-  name: ent-CMUYautjaScalp
-  description: ent-CMUYautjaScalp-desc
-  suffix: ent-CMUYautjaScalp-suffix
+  name: scalp
+  description: A grim trophy from a fallen prey.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -202,9 +202,9 @@
 - type: entity
   parent: CMCrowbar
   id: CMUYautjaCrowbar
-  name: ent-CMUYautjaCrowbar
-  description: ent-CMUYautjaCrowbar-desc
-  suffix: ent-CMUYautjaCrowbar-suffix
+  name: yautja crowbar
+  description: A prying tool made from an unusual alien alloy.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -219,9 +219,9 @@
 - type: entity
   parent: CMWrench
   id: CMUYautjaWrench
-  name: ent-CMUYautjaWrench
-  description: ent-CMUYautjaWrench-desc
-  suffix: ent-CMUYautjaWrench-suffix
+  name: alien wrench
+  description: A wrench with many common uses, made from bizarre alien bone and alloy.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -236,9 +236,9 @@
 - type: entity
   parent: CMWirecutter
   id: CMUYautjaWirecutters
-  name: ent-CMUYautjaWirecutters
-  description: ent-CMUYautjaWirecutters-desc
-  suffix: ent-CMUYautjaWirecutters-suffix
+  name: alien wirecutters
+  description: Alien wirecutters shaped with razor-sharp teeth.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -259,9 +259,9 @@
 - type: entity
   parent: CMScrewdriver
   id: CMUYautjaScrewdriver
-  name: ent-CMUYautjaScrewdriver
-  description: ent-CMUYautjaScrewdriver-desc
-  suffix: ent-CMUYautjaScrewdriver-suffix
+  name: alien screwdriver
+  description: A high-precision alien screwdriver with a wicked point.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -290,9 +290,9 @@
 - type: entity
   parent: CMMultitool
   id: CMUYautjaMultitool
-  name: ent-CMUYautjaMultitool
-  description: ent-CMUYautjaMultitool-desc
-  suffix: ent-CMUYautjaMultitool-suffix
+  name: alien multitool
+  description: Top-notch alien tech for opening and reconfiguring machines.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -307,9 +307,9 @@
 - type: entity
   parent: CMWelder
   id: CMUYautjaWelder
-  name: ent-CMUYautjaWelder
-  description: ent-CMUYautjaWelder-desc
-  suffix: ent-CMUYautjaWelder-suffix
+  name: alien chem welding tool
+  description: A complex chemical welding device. Keep it away from youngbloods.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -352,9 +352,9 @@
 - type: entity
   parent: CMBeltUtility
   id: CMUYautjaToolbelt
-  name: ent-CMUYautjaToolbelt
-  description: ent-CMUYautjaToolbelt-desc
-  suffix: ent-CMUYautjaToolbelt-suffix
+  name: alien toolbelt
+  description: A modular alien utility belt with clips for field tools.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -379,7 +379,7 @@
 - type: entity
   parent: CMUYautjaToolbelt
   id: CMUYautjaToolbeltFilled
-  suffix: ent-CMUYautjaToolbeltFilled-suffix
+  suffix: Yautja, Filled
   components:
   - type: StorageFill
     contents:
@@ -394,9 +394,9 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaMetalChains
-  name: ent-CMUYautjaMetalChains
-  description: ent-CMUYautjaMetalChains-desc
-  suffix: ent-CMUYautjaMetalChains-suffix
+  name: metal chains
+  description: Heavy alien chains with sharpened links and a brutal weld pattern.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -411,9 +411,9 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaHoundObservationPad
-  name: ent-CMUYautjaHoundObservationPad
-  description: ent-CMUYautjaHoundObservationPad-desc
-  suffix: ent-CMUYautjaHoundObservationPad-suffix
+  name: Hellhound Observation Pad
+  description: A portable alien camera console used for remotely overwatching hellhounds.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -427,9 +427,9 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaHivebreaker
-  name: ent-CMUYautjaHivebreaker
-  description: ent-CMUYautjaHivebreaker-desc
-  suffix: ent-CMUYautjaHivebreaker-suffix
+  name: hivebreaker
+  description: A bad blood device used to break a xenomorph's hivemind link and enthrall the serpent.
+  suffix: Yautja
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi

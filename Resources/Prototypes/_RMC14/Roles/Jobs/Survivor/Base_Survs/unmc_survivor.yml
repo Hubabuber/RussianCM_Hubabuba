@@ -1,10 +1,10 @@
 - type: job
   parent: RMCSurvivorMilitary
   id: CMSurvivorUNMC
-  name: job-cmsurvivorunmc-name
-  description: job-cmsurvivorunmc-desc
+  name: cm-job-name-survivor-unmc
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorUNMC
-  spawnMenuRoleName: job-cmsurvivorunmc-spawnmenurolename
+  spawnMenuRoleName: UNMC Remnant (Survivor)
   ranks:
     RMCRankPrivateFirstClass: []
   accessGroups:
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorUNMC
-  name: ent-RMCSpawnPointSurvivorUNMC
+  name: survivor unmc spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorUNMC

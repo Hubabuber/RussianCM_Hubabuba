@@ -1,7 +1,7 @@
 - type: entity
   id: SignalTimer
-  name: ent-SignalTimer
-  description: ent-SignalTimer-desc
+  name: signal timer
+  description: It's a timer for sending timed signals to things.
   placement:
     mode: SnapgridCenter
     snap:
@@ -57,8 +57,8 @@
 - type: entity
   id: ScreenTimer
   parent: SignalTimer
-  name: ent-ScreenTimer
-  description: ent-ScreenTimer-desc
+  name: screen timer
+  description: It's a timer for sending timed signals to things, with a built-in screen.
   components:
   - type: SignalTimer
     canEditLabel: true
@@ -85,8 +85,8 @@
 - type: entity
   id: BrigTimer
   parent: ScreenTimer
-  name: ent-BrigTimer
-  description: ent-BrigTimer-desc
+  name: brig timer
+  description: It's a timer for brig cells.
   components:
   - type: AccessReader
     access: [["CMAccessBrig"], ["CMAccessColonyBrig"], ["AU14AccessGovforSecurity"], ["AU14AccessOpforSecurity"]]
@@ -106,8 +106,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: TimerFrame
-  name: ent-TimerFrame
-  description: ent-TimerFrame-desc
+  name: timer frame
+  description: A construction frame for a timer.
   placement:
     mode: SnapgridCenter
   components:

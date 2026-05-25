@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCBarricadeRazorwire
-  name: ent-RMCBarricadeRazorwire
-  description: ent-RMCBarricadeRazorwire-desc
+  name: razorwire
+  description: A set of razorwire, able to slow down anything that tries to move through it. Cut with wirecutters to disable, then unwrench to recover.
   placement:
     mode: SnapgridCenter
   components:
@@ -82,8 +82,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCBarricadeRazorwireCut
-  name: ent-RMCBarricadeRazorwireCut
-  description: ent-RMCBarricadeRazorwireCut-desc
+  name: cut razorwire
+  description: A set of razorwire that has been cut. No longer functional. Use a wrench to tear it up and recover the remaining wire.
   placement:
     mode: SnapgridCenter
   components:

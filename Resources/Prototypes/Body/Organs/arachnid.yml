@@ -28,8 +28,8 @@
 - type: entity
   id: OrganArachnidStomach
   parent: OrganAnimalStomach
-  name: ent-OrganArachnidStomach
-  description: "ent-OrganArachnidStomach-desc"
+  name: stomach
+  description: "Gross. This is hard to stomach."
   components:
   - type: Sprite
     sprite: Mobs/Species/Arachnid/organs.rsi
@@ -54,8 +54,8 @@
 - type: entity
   id: OrganArachnidLungs
   parent: BaseArachnidOrgan
-  name: ent-OrganArachnidLungs
-  description: "ent-OrganArachnidLungs-desc"
+  name: lungs
+  description: "Filters oxygen from an atmosphere... just more greedily."
   components:
   - type: Sprite
     layers:
@@ -89,8 +89,8 @@
 - type: entity
   id: OrganArachnidHeart
   parent: BaseArachnidOrgan
-  name: ent-OrganArachnidHeart
-  description: "ent-OrganArachnidHeart-desc"
+  name: heart
+  description: "A disgustingly persistent little biological pump made for spiders."
   components:
   - type: Sprite
     state: heart-on
@@ -109,8 +109,8 @@
 - type: entity
   id: OrganArachnidLiver
   parent: BaseHumanOrgan
-  name: ent-OrganArachnidLiver
-  description: "ent-OrganArachnidLiver-desc"
+  name: liver
+  description: "Pairing suggestion: chianti and fava beans."
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -129,8 +129,8 @@
 - type: entity
   id: OrganArachnidKidneys
   parent: BaseHumanOrgan
-  name: ent-OrganArachnidKidneys
-  description: "ent-OrganArachnidKidneys-desc"
+  name: kidneys
+  description: "Filters toxins from the bloodstream."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -150,8 +150,8 @@
 - type: entity
   id: OrganArachnidEyes
   parent: BaseArachnidOrgan
-  name: ent-OrganArachnidEyes
-  description: "ent-OrganArachnidEyes-desc"
+  name: eyes
+  description: "Two was already too many."
   components:
   - type: Sprite
     layers:
@@ -164,8 +164,8 @@
 - type: entity
   id: OrganArachnidTongue
   parent: BaseArachnidOrgan
-  name: ent-OrganArachnidTongue
-  description: "ent-OrganArachnidTongue-desc"
+  name: tongue
+  description: "A fleshy muscle mostly used for lying."
   components:
   - type: Sprite
     state: tongue

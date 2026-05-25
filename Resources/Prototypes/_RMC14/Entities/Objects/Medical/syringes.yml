@@ -1,7 +1,7 @@
 - type: entity
   parent: Syringe
   id: CMSyringe
-  suffix: ent-CMSyringe-suffix
+  suffix: RMC14
   components:
   - type: SolutionContainerVisuals
     maxFillLevels: 3
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSyringe
   id: RMCPrefilledSyringe
-  suffix: ent-RMCPrefilledSyringe-suffix
+  suffix: RMC14, Inject
   components:
   - type: Injector
     toggleState: Inject
@@ -40,8 +40,8 @@
 - type: entity
   parent: CMSyringe
   id: RMCSyringeLethal
-  name: ent-RMCSyringeLethal
-  description: ent-RMCSyringeLethal-desc
+  name: lethal injection syringe
+  description: A syringe used for lethal injections.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/lethal_syringe.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCSyringeLethal
   id: RMCSyringeLethalPrefilled
-  suffix: ent-RMCSyringeLethalPrefilled-suffix
+  suffix: RMC14, Filled
   components:
   - type: Label
     currentLabel: reagent-name-rmc-chloral-hydrate

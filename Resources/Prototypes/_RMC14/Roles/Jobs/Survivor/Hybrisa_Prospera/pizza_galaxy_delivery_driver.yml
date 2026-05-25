@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivor
   id: RMCSurvivorHybrisaPizzaGalaxy
-  name: job-rmcsurvivorhybrisapizzagalaxy-name
-  description: job-rmcsurvivorhybrisapizzagalaxy-desc
+  name: rmc-job-name-survivor-pizza-galaxy
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaPizzaGalaxy
-  spawnMenuRoleName: job-rmcsurvivorhybrisapizzagalaxy-spawnmenurolename
+  spawnMenuRoleName: Civilian - Pizza Galaxy Delivery Driver (Hybrisa Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaPizzaGalaxy
-  name: ent-RMCSpawnPointSurvivorHybrisaPizzaGalaxy
+  name: hybrisa pizza galaxy delivery driver spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaPizzaGalaxy
-  name: ent-RMCGearSurvivorPresetHybrisaPizzaGalaxy
+  name: hybrisa pizza galaxy delivery driver preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,10 +1,10 @@
 ent-RMCAreaHFOffice = Офис
-    .suffix = область
+
 ent-RMCAreaHFEngineering = Инженерное дело
-    .suffix = область
+
 ent-RMCAreaHFSyntheticCloset = Синтетический шкаф
-    .suffix = область
+
 ent-RMCAreaHFAICore = Ядро ИИ
-    .suffix = область
+
 ent-RMCAreaHFHangar2 = Нижний ангар
-    .suffix = область
+

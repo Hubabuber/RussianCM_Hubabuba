@@ -1,8 +1,8 @@
 - type: entity
   parent: WeaponRifleM4SPR
-  name: ent-WeaponRifleM4SPRCustom
+  name: M4RA custom battle rifle
   id: WeaponRifleM4SPRCustom
-  description: ent-WeaponRifleM4SPRCustom-desc
+  description: An improvement over the already great M4RA. Able to take A19 rounds, as well as having better control and accuracy at the cost of being harder to use. Can take traditional M4RA mags, at lower damage.
   components:
   - type: GuideHelp
     guides:
@@ -125,8 +125,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM4SPRA19
-  name: "ent-RMCMagazineRifleM4SPRA19"
-  description: "ent-RMCMagazineRifleM4SPRA19-desc"
+  name: "A19 HV magazine (10x24mm)"
+  description: "A magazine of A19 high velocity rounds for use in the M4RA custom battle rifle. The M4RA custom battle rifle is the only gun that can chamber these rounds."
   components:
   - type: Tag
     tags:
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Impact
-  name: "ent-RMCMagazineRifleM4SPRA19Impact"
-  description: "ent-RMCMagazineRifleM4SPRA19Impact-desc"
+  name: "A19 HV high impact magazine (10x24mm)"
+  description: "A magazine of A19 HV high impact rounds for use in the M4RA custom battle rifle. The M4RA custom battle rifle is the only gun that can chamber these rounds."
   components:
   - type: Tag
     tags:
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Incendiary
-  name: "ent-RMCMagazineRifleM4SPRA19Incendiary"
-  description: "ent-RMCMagazineRifleM4SPRA19Incendiary-desc"
+  name: "A19 HV incendiary magazine (10x24mm)"
+  description: "A magazine of A19 HV incendiary rounds for use in the M4RA custom battle rifle. The M4RA custom battle rifle is the only gun that can chamber these rounds."
   components:
   - type: Tag
     tags:
@@ -200,8 +200,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM4SPRA19
-  name: ent-RMCCartridgeRifleM4SPRA19
-  description: ent-RMCCartridgeRifleM4SPRA19-desc
+  name: cartridge (A19 high-velocity)
+  description: A high-velocity A19 cartridge. Fits in M4RA custom magazines.
   components:
   - type: Tag
     tags:
@@ -213,8 +213,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Impact
-  name: ent-RMCCartridgeRifleM4SPRA19Impact
-  description: ent-RMCCartridgeRifleM4SPRA19Impact-desc
+  name: cartridge (A19 high-velocity high impact)
+  description: A high-velocity high impact A19 cartridge. Fits in M4RA custom magazines.
   components:
   - type: Tag
     tags:
@@ -226,8 +226,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Incendiary
-  name: ent-RMCCartridgeRifleM4SPRA19Incendiary
-  description: ent-RMCCartridgeRifleM4SPRA19Incendiary-desc
+  name: cartridge (A19 high-velocity incendiary)
+  description: A high-velocity incendiary A19 cartridge. Fits in M4RA custom magazines.
   components:
   - type: Tag
     tags:

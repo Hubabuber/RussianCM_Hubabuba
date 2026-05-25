@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   parent: RMCBaseBullet
   id: CMBulletSentry10x50mm
-  name: ent-CMBulletSentry10x50mm
+  name: bullet (10x50mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCBulletSentry
-  name: ent-RMCBulletSentry
+  name: bullet (10x28mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -50,8 +50,8 @@
   abstract: true
   parent: RMCBaseBullet
   id: RMCBaseBulletSentryFireProjectile
-  name: ent-RMCBaseBulletSentryFireProjectile
-  description: ent-RMCBaseBulletSentryFireProjectile-desc
+  name: flaming ball
+  description: Huh? You shouldn't be able to see this...
   categories: [ HideSpawnMenu ]
   components:
   - type: IgniteOnProjectileHit
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCBaseBulletSentryFireProjectile
   id: RMCBulletSentryFireProjectileBlue
-  name: ent-RMCBulletSentryFireProjectileBlue
-  description: ent-RMCBulletSentryFireProjectileBlue-desc
+  name: flaming ball blue
+  description: Huh? You shouldn't be able to see this...
   categories: [ HideSpawnMenu ]
   components:
   - type: IgniteOnProjectileHit
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCBaseBulletSentryFireProjectile
   id: RMCBulletSentryFireProjectileSmoke
-  name: ent-RMCBulletSentryFireProjectileSmoke
-  description: ent-RMCBulletSentryFireProjectileSmoke-desc
+  name: flaming ball smoke
+  description: Huh? You shouldn't be able to see this...
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

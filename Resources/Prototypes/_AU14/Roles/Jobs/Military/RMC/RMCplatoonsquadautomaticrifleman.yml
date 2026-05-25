@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobSquadAutomaticRiflemanBase
   id: AU14JobGOVFORSquadAutomaticRiflemanRMC
-  name: job-au14jobgovforsquadautomaticriflemanrmc-name
-  description: job-au14jobgovforsquadautomaticriflemanrmc-desc
+  name: au14-job-name-govforsquadautomaticriflemanRMC
+  description: au14-job-description-govforsquadautomaticrifleman
   setPreference: true
   requirements:
   - !type:TraitsRequirement
@@ -24,14 +24,14 @@
   dummyStartingGear: AU14GearGOVFORAutoRiflemanDummy
   icon: "AU14JobIconAFN"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobgovforsquadautomaticriflemanrmc-spawnmenurolename
+  spawnMenuRoleName: Automatic Rifleman (TWE RMC)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforsquadautomaticriflemanrmc-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforGunner
   overwatchSortPriority: -3
   overwatchShowName: true
-  overwatchRoleName: job-au14jobgovforsquadautomaticriflemanrmc-overwatchrolename
+  overwatchRoleName: au14-job-name-govforsquadautomaticrifleman-plural
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

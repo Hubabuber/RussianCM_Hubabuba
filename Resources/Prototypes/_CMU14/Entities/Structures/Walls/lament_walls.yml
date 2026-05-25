@@ -1,17 +1,19 @@
 - type: entity
   parent: RMCWallStrataIceDirty
   id: CMUWallLamentRockDark
-  name: ent-CMUWallLamentRockDark
-  description: ent-CMUWallLamentRockDark-desc
+  name: rock wall
+  description: A rough wall of hardened rock.
+
 - type: entity
   parent: RMCWallStrataIce
   id: CMUWallLamentRock
-  name: ent-CMUWallLamentRock
-  description: ent-CMUWallLamentRock-desc
+  name: rock wall
+  description: A rough wall of hardened rock.
+  
 - type: entity
   id: CMUFogWallLamentWaterfallMist
-  name: ent-CMUFogWallLamentWaterfallMist
-  description: ent-CMUFogWallLamentWaterfallMist-desc
+  name: waterfall mist
+  description: The mist of a waterfall, there might be something behind it!
   placement:
     mode: SnapgridCenter
     snap:
@@ -41,7 +43,7 @@
 - type: entity
   parent: RMCFogWall25
   id: CMUFogWall45
-  suffix: ent-CMUFogWall45-suffix
+  suffix: 45 minutes
   components:
   - type: TimedDespawn
     lifetime: 2700
@@ -49,7 +51,7 @@
 - type: entity
   parent: CMUFogWall45
   id: CMUFogWall45NotCF
-  suffix: ent-CMUFogWall45NotCF-suffix
+  suffix: 45 minutes, Not Colony Fall
   components:
   - type: DestroyOnPreset
     preset: ColonyFall

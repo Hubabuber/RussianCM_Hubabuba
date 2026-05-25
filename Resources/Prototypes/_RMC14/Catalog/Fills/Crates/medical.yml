@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateMedicalSurgery
   parent: CMCrateSecureSurgery
-  name: ent-RMCCrateMedicalSurgery
+  name: surgery crate (tray,anesthetics,surgeon gear)
   components:
   - type: StorageFill
     contents:
@@ -15,7 +15,7 @@
 - type: entity
   id: RMCCrateFieldDoctor
   parent: CMCrateSecureSurgery
-  name: ent-RMCCrateFieldDoctor
+  name: field doctor crate (replacement field doctor gear)
   components:
   - type: StorageFill
     contents:
@@ -34,7 +34,7 @@
 - type: entity
   id: RMCCrateMedicalBodyBag
   parent: RMCCrateMedical
-  name: ent-RMCCrateMedicalBodyBag
+  name: body bag crate (x28)
   components:
   - type: StorageFill
     contents:
@@ -44,7 +44,7 @@
 - type: entity
   id: RMCCrateMedicalStasisBag
   parent: RMCCrateMedical
-  name: ent-RMCCrateMedicalStasisBag
+  name: stasis bag crate (x3)
   components:
   - type: StorageFill
     contents:
@@ -54,7 +54,7 @@
 - type: entity
   id: RMCCrateMedicalFirstAid
   parent: RMCCrateMedical
-  name: ent-RMCCrateMedicalFirstAid
+  name: first aid kit crate (x2 each)
   components:
   - type: StorageFill
     contents:
@@ -72,8 +72,8 @@
 - type: entity
   id: RMCCrateMedicalFilled
   parent: RMCCrateMedical
-  name: ent-RMCCrateMedicalFilled
-  suffix: ent-RMCCrateMedicalFilled-suffix
+  name: medical crate
+  suffix: Filled
   components:
   - type: StorageFill
     contents: # TODO RMC14 missing bottles
@@ -96,7 +96,7 @@
 - type: entity
   id: RMCCrateMedicalPill
   parent: RMCCrateMedical
-  name: ent-RMCCrateMedicalPill
+  name: pill bottle crate (x2 each)
   components:
   - type: StorageFill
     contents: # TODO RMC14 missing pill bottles

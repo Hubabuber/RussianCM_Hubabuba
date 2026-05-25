@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCBucket
-  name: ent-RMCBucket
-  description: ent-RMCBucket-desc
+  name: bucket
+  description: It's a bucket. Holds 120 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/bucket.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: RMCBucket
   id: CMBucketMop
-  name: ent-CMBucketMop
-  description: ent-CMBucketMop-desc
+  name: mop bucket
+  description: A larger bucket, typically used with a mop. Holds 240 units
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/mopbucket.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: RMCBucket
   id: RMCBucketJanitorial
-  name: ent-RMCBucketJanitorial
-  description: ent-RMCBucketJanitorial-desc
+  name: janitorial bucket
+  description: It's a large bucket that fits in a janitorial cart. Holds 500 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/janibucket.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: RMCBucketJanitorial
   id: RMCReagentJug
-  name: ent-RMCReagentJug
-  description: ent-RMCReagentJug-desc
+  name: reagent jug
+  description: A large jug made of non-reactive plastic, capable of carrying large amounts of diverse chemicals to wherever they are needed. Holds 500 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/reagent_jug.rsi

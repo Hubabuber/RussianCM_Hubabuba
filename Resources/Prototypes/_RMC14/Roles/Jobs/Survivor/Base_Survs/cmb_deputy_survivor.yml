@@ -4,14 +4,14 @@
 - type: job
   parent: CMSurvivorSecurity
   id: CMSurvivorCMBDeputy
-  name: job-cmsurvivorcmbdeputy-name
-  description: job-cmsurvivorcmbdeputy-desc
+  name: rmc-job-name-survivor-cmb-deputy
+  description: cm-job-description-survivor
   ranks:
     RMCRankCMBDeputy: []
   startingGear: RMCGearSurvivorCMBDeputy
   accessGroups:
   - ColonistCMBSurvivor
-  spawnMenuRoleName: job-cmsurvivorcmbdeputy-spawnmenurolename
+  spawnMenuRoleName: CMB Deputy (Survivor)
   icon: "RMCJobIconBureauDeputy"
   hasIcon: true
   special:
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorCMBDeputy
-  name: ent-RMCSpawnPointSurvivorCMBDeputy
+  name: survivor cmb deputy spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -71,4 +71,4 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetCMBDeputy
-  name: ent-RMCGearSurvivorPresetCMBDeputy
+  name: cmb deputy colonist preset

@@ -1,15 +1,15 @@
-- type: job
+﻿- type: job
   id: CMOrdnanceTech
   parent: CMJobBase
-  name: job-cmordnancetech-name
-  description: job-cmordnancetech-desc
+  name: cm-job-name-ordnance-tech
+  description: cm-job-description-ordnance-tech
   setPreference: false
   playTimeTracker: CMJobOrdnanceTech
   requirements: []
   startingGear: CMGearOrdnanceTech
   icon: "CMJobIconOrdnanceTech"
   joinNotifyCrew: false
-  supervisors: job-cmordnancetech-supervisors
+  supervisors: cm-job-supervisors-ce
   ranks:
     RMCRankLanceCorporal: []
     RMCRankPrivateFirstClass: []
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointOrdnanceTech
-  name: ent-CMSpawnPointOrdnanceTech
+  name: ordnance tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMOrdnanceTech

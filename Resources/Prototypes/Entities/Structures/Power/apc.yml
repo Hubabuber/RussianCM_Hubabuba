@@ -1,8 +1,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: BaseAPC
-  name: ent-BaseAPC
-  description: ent-BaseAPC-desc
+  name: APC
+  description: A control terminal for the area's electrical systems.
   placement:
     mode: SnapgridCenter
   components:
@@ -160,8 +160,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: APCFrame
-  name: ent-APCFrame
-  description: ent-APCFrame-desc
+  name: APC frame
+  description: A control terminal for the area's electrical systems, lacking the electronics.
   placement:
     mode: SnapgridCenter
   components:
@@ -207,7 +207,7 @@
 - type: entity
   parent: BaseAPC
   id: APCConstructed
-  suffix: ent-APCConstructed-suffix
+  suffix: Open
   components:
   - type: WiresPanel
     open: true
@@ -216,7 +216,7 @@
 - type: entity
   parent: BaseAPC
   id: APCBasic
-  suffix: ent-APCBasic-suffix
+  suffix: Basic, 50kJ
   components:
   - type: Battery
     maxCharge: 50000
@@ -225,7 +225,7 @@
 - type: entity
   parent: BaseAPC
   id: APCHighCapacity
-  suffix: ent-APCHighCapacity-suffix
+  suffix: High Capacity, 100kJ
   components:
   - type: Battery
     maxCharge: 100000
@@ -234,7 +234,7 @@
 - type: entity
   parent: BaseAPC
   id: APCSuperCapacity
-  suffix: ent-APCSuperCapacity-suffix
+  suffix: Super Capacity, 150kJ
   components:
   - type: Battery
     maxCharge: 150000
@@ -243,7 +243,7 @@
 - type: entity
   parent: BaseAPC
   id: APCHyperCapacity
-  suffix: ent-APCHyperCapacity-suffix
+  suffix: Hyper Capacity, 200kJ
   components:
   - type: Battery
     maxCharge: 200000

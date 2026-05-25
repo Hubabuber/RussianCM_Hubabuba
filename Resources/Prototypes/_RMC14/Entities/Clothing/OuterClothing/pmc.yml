@@ -2,9 +2,9 @@
 - type: entity
   parent: [RMCBaseMarineArmor, RMCAllowSuitStorageClothingArmorPMC]
   id: RMCArmorM4PMCNoLight
-  name: ent-RMCArmorM4PMCNoLight
-  description: ent-RMCArmorM4PMCNoLight-desc
-  suffix: ent-RMCArmorM4PMCNoLight-suffix
+  name: M4 pattern PMC armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind.
+  suffix: No Suitlamp
   components:
   - type: RMCArmorSpeedTier
     speedTier: medium
@@ -30,13 +30,13 @@
 - type: entity
   parent: [RMCArmorM4PMCNoLight, RMCBasePMCArmorLight]
   id: CMArmorM4PMC
-  suffix: ent-CMArmorM4PMC-suffix
+  suffix: Suitlamp
 
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorM4PMCLight
-  name: ent-CMArmorM4PMCLight
-  description: ent-CMArmorM4PMCLight-desc
+  name: M4 pattern light PMC armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. Has some armor plating removed for extra mobility.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: CMArmorM4PMCLight
   id: RMCArmorM4PMCBulletProof
-  name: ent-RMCArmorM4PMCBulletProof
-  description: ent-RMCArmorM4PMCBulletProof-desc
+  name: M4 pattern PMC bulletproof armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This set is designed for protecting against ballistics, and has minimal protection against blades and biohazards.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/bulletproof.rsi
@@ -68,9 +68,9 @@
 - type: entity
   parent: [RMCArmorM4PMCNoLight, RMCBaseMarineArmorLight]
   id: CMArmorM4PMCCorporate
-  name: ent-CMArmorM4PMCCorporate
-  description: ent-CMArmorM4PMCCorporate-desc
-  suffix: "ent-CMArmorM4PMCCorporate-suffix"
+  name: M1 pattern corporate security armor
+  description: A basic vest with a We-Yu badge on the right breast. This is commonly worn by low-level guards protecting We-Yu facilities.
+  suffix: ""
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/corporate.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: CMArmorM4PMCCorporate
   id: CMArmorM4PMCCorporateLead
-  description: ent-CMArmorM4PMCCorporateLead-desc
-  suffix: ent-CMArmorM4PMCCorporateLead-suffix
+  description: A basic vest with a We-Yu badge on the right breast. This variant is worn by low-level guards that have elevated in rank due to 'good conduct in the field', also known as corporate bootlicking.
+  suffix: Leader
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/corporate_lead.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorM4PMCLeader
-  name: ent-CMArmorM4PMCLeader
-  description: ent-CMArmorM4PMCLeader-desc
+  name: M4 pattern PMC leader armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/officer.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMCSniper
-  name: ent-CMArmorM4PMCSniper
-  description: ent-CMArmorM4PMCSniper-desc
+  name: M4 pattern PMC sniper armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMArmorM4PMCLight
   id: CMArmorM4PMCSynth
-  name: ent-CMArmorM4PMCSynth
-  description: ent-CMArmorM4PMCSynth-desc
+  name: M4 pattern PMC synthetic armor
+  description: A serious modification of the standard M3 armor. This variant was designed for PMC Support Units in the field, with every armor insert removed. It's designed with the idea of a high speed lifesaver in mind.
   components:
   - type: Clothing
     equipDelay: 1
@@ -137,7 +137,7 @@
 - type: entity
   parent: CMArmorM4PMCSynth
   id: RMCArmorM4PMCSynthFilled
-  suffix: ent-RMCArmorM4PMCSynthFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:
@@ -148,13 +148,14 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMHeavy
-  name: ent-CMArmorM4PMHeavy
-  description: ent-CMArmorM4PMHeavy-desc
+  name: PMC heavy armor
+  description: A modification of the standard M3 armor. Featuring additional plating and straps to provide superior protection.
+
 - type: entity
   parent: CMArmorM4PMHeavy
   id: CMArmorM4PMCSmartGunHarness
-  name: ent-CMArmorM4PMCSmartGunHarness
-  description: ent-CMArmorM4PMCSmartGunHarness-desc
+  name: PMC gun operator armor
+  description: A modification of the standard M3 armor. Hooked up with harnesses and straps allowing the user to carry a ML66A Smart Gun.
   components:
   - type: RMCArmorSpeedTier
     speedTier: light
@@ -170,8 +171,8 @@
 - type: entity
   parent: CMArmorM4PMCSmartGunHarness
   id: CMArmorM4PMCSmartGunHarnessCommando
-  name: ent-CMArmorM4PMCSmartGunHarnessCommando
-  description: ent-CMArmorM4PMCSmartGunHarnessCommando-desc
+  name: M5Xg exoskeleton gun operator armor
+  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk. This variant is designed to support ML66A Smart Gun.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -196,8 +197,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorM4PMCCommandoSurvivor
-  name: ent-CMArmorM4PMCCommandoSurvivor
-  description: ent-CMArmorM4PMCCommandoSurvivor-desc
+  name: damaged MY7 pattern Commando armor
+  description: A modification of the W-Y PMC armor patterns. Designed for elite corporate mercenaries in mind. This one has a lot of scratches and acid damage.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -213,8 +214,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMCCommando
-  name: ent-CMArmorM4PMCCommando
-  description: ent-CMArmorM4PMCCommando-desc
+  name: M5X exoskeleton armor
+  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -235,8 +236,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: RMCArmorM4PMCEngineer
-  name: ent-RMCArmorM4PMCEngineer
-  description: ent-RMCArmorM4PMCEngineer-desc
+  name: M4 pattern engineer PMC armor
+  description: A modification of the standard M3 armor. Designed for high elemental protection, like shock, fire and fragments, lacks in terms of kevlar for bullet protection.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/engineer.rsi
@@ -252,8 +253,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCArmorPMCDirector
-  name: ent-RMCArmorPMCDirector
-  description: ent-RMCArmorPMCDirector-desc
+  name: director's jacket
+  description: A jacket that belongs to someone very important. It is made of insulating material and offers minor protection from all forms of damage.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/director.rsi

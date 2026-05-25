@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobSquadAutomaticRiflemanBase
   id: AU14JobGOVFORSquadAutomaticRiflemanWYPMC
-  name: job-au14jobgovforsquadautomaticriflemanwypmc-name
-  description: job-au14jobgovforsquadautomaticriflemanwypmc-desc
+  name: PMC Smartgun Operator
+  description: au14-job-description-govforsquadautomaticrifleman
   setPreference: false
   ranks:
     AU14RankWeYuSeniorOperator:
@@ -14,14 +14,14 @@
   dummyStartingGear: AU14GearGOVFORAutoRiflemanDummy
   icon: "AU14JobIconAFN"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobgovforsquadautomaticriflemanwypmc-spawnmenurolename
+  spawnMenuRoleName: Automatic Rifleman (WYPMC)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforsquadautomaticriflemanwypmc-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforGunner
   overwatchSortPriority: -3
   overwatchShowName: true
-  overwatchRoleName: job-au14jobgovforsquadautomaticriflemanwypmc-overwatchrolename
+  overwatchRoleName: au14-job-name-govforsquadautomaticrifleman-plural
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

@@ -5,8 +5,8 @@
 
 - type: entity
   id: CMUMultiZStairs
-  name: ent-CMUMultiZStairs
-  description: ent-CMUMultiZStairs-desc
+  name: multi-Z stairs
+  description: A stairway that connects Z-levels.
   placement:
     mode: SnapgridCenter
   components:
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMUMultiZStairs
   id: CMUMultiZStairsNoPreview
-  suffix: ent-CMUMultiZStairsNoPreview-suffix
+  suffix: No preview
   components:
   - type: CMUZLevelHighGround
     previewUpLevel: false

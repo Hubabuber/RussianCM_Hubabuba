@@ -1,1 +1,0 @@
-ent-MapText = map text

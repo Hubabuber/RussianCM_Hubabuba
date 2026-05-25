@@ -1,9 +1,0 @@
-ent-CMXenoRunner = Runner
-    .desc = A small red alien that looks like it could run fairly quickly...
-
-ent-CMXenoRunnerBase = Runner
-    .desc = A small red alien that looks like it could run fairly quickly...
-
-ent-RMCXenoRunnerAcider = Runner
-    .desc = A small red alien that looks like it could run fairly quickly...
-    .suffix = Acider

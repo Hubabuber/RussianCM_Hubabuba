@@ -2,8 +2,8 @@
   parent: [BaseItem, BaseSyndicateContraband]
   abstract: true
   id: ReinforcementRadio
-  name: ent-ReinforcementRadio
-  description: ent-ReinforcementRadio-desc
+  name: syndicate reinforcement radio
+  description: Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicate
-  name: ent-ReinforcementRadioSyndicate
-  description: ent-ReinforcementRadioSyndicate-desc
+  name: syndicate reinforcement radio
+  description: Call in a syndicate agent of questionable quality, instantly!
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-reinforcement-spy-name
@@ -55,8 +55,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateAncestor
-  name: ent-ReinforcementRadioSyndicateAncestor
-  description: ent-ReinforcementRadioSyndicateAncestor-desc
+  name: syndicate genetic ancestor reinforcement radio
+  description: Calls in a specially trained ancestor of your choosing to assist you.
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-monkey-reinforcement-name
@@ -84,8 +84,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateSyndiCat
-  name: ent-ReinforcementRadioSyndicateSyndiCat
-  description: ent-ReinforcementRadioSyndicateSyndiCat-desc
+  name: syndicat reinforcement radio
+  description: Calls in a faithfully trained cat with a microbomb to assist you.
   components:
   - type: GhostRole
     name: ghost-role-information-SyndiCat-name

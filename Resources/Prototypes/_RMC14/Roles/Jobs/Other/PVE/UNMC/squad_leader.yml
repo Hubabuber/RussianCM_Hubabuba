@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobSquadBase
   id: CMPVESquadLeader
-  name: job-cmpvesquadleader-name
-  description: job-cmpvesquadleader-desc
+  name: cm-job-name-squad-leader
+  description: cm-job-description-fireteam-leader
   playTimeTracker: CMJobPVESquadLeader
   ranks:
     RMCRankSergeant: []
-  spawnMenuRoleName: job-cmpvesquadleader-spawnmenurolename
+  spawnMenuRoleName: Sun Rider Squad Leader (PVE)
   startingGear: RMCGearPVESquadLeader
   dummyStartingGear: CMGearFireteamLeaderEquipped
   icon: "CMJobIconFireteamLeader"
   joinNotifyCrew: false
-  supervisors: job-cmpvesquadleader-supervisors
+  supervisors: cm-job-supervisors-secserg
   marineAuthorityLevel: 1
   accessGroups:
   - FTL
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVESquadLeader
-  name: ent-RMCSpawnPointPVESquadLeader
+  name: PVE squad leader spawn point
   components:
   - type: SpawnPoint
     job_id: CMPVESquadLeader

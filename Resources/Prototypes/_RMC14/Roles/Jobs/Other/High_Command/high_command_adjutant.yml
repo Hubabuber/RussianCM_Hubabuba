@@ -1,15 +1,15 @@
 - type: job
   parent: CMJobBase
   id: CMUNMCAdjutant
-  name: job-cmunmcadjutant-name
-  description: job-cmunmcadjutant-desc
+  name: rmc-job-name-unmc-adjutant
+  description: rmc-job-description-unmc-adjutant
   playTimeTracker: CMJobUNMCAdjutant
   ranks:
     RMCRankFirstLT: []
   startingGear: RMCGearUNMCAdjutant
   icon: "RMCJobIconUNMCAdjutant"
   joinNotifyCrew: false
-  supervisors: job-cmunmcadjutant-supervisors
+  supervisors: cm-job-supervisors-staff
   accessGroups:
   - ShipMasterAccess
   special:
@@ -53,8 +53,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardUNMCAdjutant
-  name: ent-RMCIDCardUNMCAdjutant
-  description: ent-RMCIDCardUNMCAdjutant-desc
+  name: UNMC Adjutant ID card
+  description: A fancy ID card. Issued to the adjutants of high command.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/general.rsi

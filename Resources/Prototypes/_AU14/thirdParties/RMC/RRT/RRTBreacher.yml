@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: AU14RMCRRTBreacher
-  name: job-au14rmcrrtbreacher-name
-  description: job-au14rmcrrtbreacher-desc
+  name: au14-job-name-govforspecialist-pointmanRMC
+  description: au14-rmcert-rules
   playTimeTracker: AU14JobRMCRRTBreacher
   ranks:
     RMC_LanceCorporal: []
-  spawnMenuRoleName: job-au14rmcrrtbreacher-spawnmenurolename
+  spawnMenuRoleName: RMC RRT Breacher
   startingGear: AU14GearRMCRRTBreacher
   icon: "RMCJobIconRoyalBreacher"
   joinNotifyCrew: false
-  supervisors: job-au14rmcrrtbreacher-supervisors
+  supervisors: au-14-job-name-rmcrrt-commander
   accessGroups:
   - AU14GovforSquad
   special:
@@ -32,7 +32,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicRMCRRT
   id: AU14JobRMCRRTBreacher
-  name: ent-AU14JobRMCRRTBreacher
+  name: RMC reaction troop breacher
   components:
   - type: GhostRoleApplySpecial
     squad: AU14SquadRMCRRT

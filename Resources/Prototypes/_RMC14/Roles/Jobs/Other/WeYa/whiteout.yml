@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCPMCWhiteout
-  name: job-rmcpmcwhiteout-name
-  description: job-rmcpmcwhiteout-desc
+  name: rmc-job-name-pmc-whiteout
+  description: rmc-ghost-role-information-deathsquad-description
   playTimeTracker: RMCJobPMCWhiteout
   ranks:
     RMCRankWeYaWhiteout: []
@@ -12,7 +12,7 @@
   accessGroups:
   - ShipMasterAccess
   - Synth
-  spawnMenuRoleName: job-rmcpmcwhiteout-spawnmenurolename
+  spawnMenuRoleName: WEYA Whiteout Combat Unit
   special:
   - !type:AddComponentSpecial
     components:
@@ -70,8 +70,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCWhiteout
-  name: ent-RMCRandomHumanoidPMCWhiteout
-  suffix: ent-RMCRandomHumanoidPMCWhiteout-suffix
+  name: DEATHSQUAD pmc ghost role whiteout
+  suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

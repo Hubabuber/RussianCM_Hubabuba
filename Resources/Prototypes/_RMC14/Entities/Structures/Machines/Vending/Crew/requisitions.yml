@@ -18,8 +18,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: ColMarTechCargoGuns
-  name: ent-ColMarTechCargoGuns
-  description: ent-ColMarTechCargoGuns-desc
+  name: ASRS automated armaments vendor
+  description: An automated supply rack hooked up to a big storage of various firearms, explosives, load carrying equipment, and other miscellaneous items. Can be accessed by the Logistics Officer and Requisitions Technicians.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/guns.rsi
@@ -354,8 +354,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: ColMarTechCargoAmmo
-  name: ent-ColMarTechCargoAmmo
-  description: ent-ColMarTechCargoAmmo-desc
+  name: ASRS automated munition vendor
+  description: An automated supply rack hooked up to a big storage of various ammunition types. Can be accessed by the Logistics Officer and Requisitions Technicians.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/ammo.rsi
@@ -586,8 +586,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: ColMarTechCargoAttachments
-  name: ent-ColMarTechCargoAttachments
-  description: ent-ColMarTechCargoAttachments-desc
+  name: AEGIS Armaments attachments vendor
+  description: An automated supply rack hooked up to a big storage of weapons attachments. Can be accessed by the Logistics Officer and Requisitions Technicians.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/attachments.rsi
@@ -687,9 +687,9 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCargoUniform
-  name: ent-ColMarTechCargoUniform
-  description: ent-ColMarTechCargoUniform-desc
-  suffix: ent-ColMarTechCargoUniform-suffix
+  name: ASRS surplus uniform vendor
+  description: An automated supply rack hooked up to a big storage of standard marine uniforms. Can be accessed by the Logistics Officer and Requisitions Technicians.
+  suffix: Requisitions
   components:
   - type: AccessReader
     access:

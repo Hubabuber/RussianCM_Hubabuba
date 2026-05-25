@@ -11,12 +11,12 @@
 - type: entity
   id: PuddleSmear
   parent: PuddleTemporary
-  suffix: ent-PuddleSmear-suffix
+  suffix: Smear
 
 - type: entity
   id: PuddleVomit
   parent: PuddleTemporary
-  suffix: ent-PuddleVomit-suffix
+  suffix: Vomit
   components:
   - type: SolutionContainerManager
     solutions:
@@ -29,7 +29,7 @@
 - type: entity
   id: PuddleEgg
   parent: PuddleTemporary
-  suffix: ent-PuddleEgg-suffix
+  suffix: Egg
   components:
   - type: SolutionContainerManager
     solutions:
@@ -42,7 +42,7 @@
 - type: entity
   id: PuddleTomato
   parent: PuddleTemporary
-  suffix: ent-PuddleTomato-suffix
+  suffix: Tomato
   components:
   - type: SolutionContainerManager
     solutions:
@@ -55,7 +55,7 @@
 - type: entity
   parent: PuddleTemporary
   id: PuddleBloodSmall
-  suffix: ent-PuddleBloodSmall-suffix
+  suffix: Blood (5u)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -68,7 +68,7 @@
 - type: entity
   parent: PuddleTemporary
   id: PuddleBlood
-  suffix: ent-PuddleBlood-suffix
+  suffix: Blood (30u)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -81,7 +81,7 @@
 - type: entity
   parent: PuddleTemporary
   id: PuddleFluorosulfuricAcidSmall
-  suffix: ent-PuddleFluorosulfuricAcidSmall-suffix
+  suffix: FluorosulfuricAcid (5u)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -94,7 +94,7 @@
 - type: entity
   parent: PuddleTemporary
   id: PuddleFluorosulfuricAcid
-  suffix: ent-PuddleFluorosulfuricAcid-suffix
+  suffix: FluorosulfuricAcid (15u)
   components:
   - type: SolutionContainerManager
     solutions:
@@ -107,7 +107,7 @@
 - type: entity
   id: PuddleWatermelon
   parent: PuddleTemporary
-  suffix: ent-PuddleWatermelon-suffix
+  suffix: Watermelon
   components:
   - type: SolutionContainerManager
     solutions:
@@ -120,7 +120,7 @@
 - type: entity
   id: PuddleFlour
   parent: PuddleTemporary
-  suffix: ent-PuddleFlour-suffix
+  suffix: Flour
   components:
   - type: SolutionContainerManager
     solutions:
@@ -132,7 +132,7 @@
 
 - type: entity
   id: PuddleSparkle
-  name: ent-PuddleSparkle
+  name: sparkle
   placement:
     mode: SnapgridCenter
   components:
@@ -151,9 +151,9 @@
       color: "#FFFFFF80"
 
 - type: entity
-  name: ent-Puddle
+  name: puddle
   id: Puddle
-  description: ent-Puddle-desc
+  description: A puddle of liquid.
   placement:
     mode: SnapgridCenter
   components:

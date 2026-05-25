@@ -2,8 +2,8 @@
   parent: [ CMBaseWeaponGun, BaseItem]
   id: RMCMachineGunM2C
   categories: [ HideSpawnMenu ]
-  name: ent-RMCMachineGunM2C
-  description: ent-RMCMachineGunM2C-desc
+  name: M2C heavy machine gun
+  description: The top half of a M2C heavy machine gun post. However it ain't much use without a tripod.
   components:
   - type: Item
     size: Huge
@@ -110,8 +110,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineM2C
-  name: ent-RMCMagazineM2C
-  description: ent-RMCMagazineM2C-desc
+  name: M2C Ammunition Box (10x28mm tungsten rounds)
+  description: A box of 125, 10x28mm caseless tungsten rounds for the M2C heavy machine gun system.
   components:
   - type: Tag
     tags:
@@ -139,7 +139,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeHMG10x28mmTungsten
-  name: ent-RMCCartridgeHMG10x28mmTungsten
+  name: cartridge (10x28mm Tungsten)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -157,7 +157,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletHMG10x28mmTungsten
-  name: ent-RMCBulletHMG10x28mmTungsten
+  name: bullet (10x28mm Tungsten)
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

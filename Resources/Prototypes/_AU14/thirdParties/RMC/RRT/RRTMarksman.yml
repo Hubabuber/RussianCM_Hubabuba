@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: AU14RMCRRTMarksman
-  name: job-au14rmcrrtmarksman-name
-  description: job-au14rmcrrtmarksman-desc
+  name: au14-job-name-govforspecialist-marksmanRMC
+  description: au14-rmcert-rules
   playTimeTracker: AU14JobRMCRRTMarksman
   ranks:
     RMC_LanceCorporal: []
-  spawnMenuRoleName: job-au14rmcrrtmarksman-spawnmenurolename
+  spawnMenuRoleName: RMC RRT Marksman
   startingGear: AU14GearRMCRRTMarksman
   icon: "RMCJobIconRoyalMarinesMarksman"
   joinNotifyCrew: false
-  supervisors: job-au14rmcrrtmarksman-supervisors
+  supervisors: au-14-job-name-rmcrrt-commander
   accessGroups:
   - AU14GovforSquad
   special:
@@ -32,7 +32,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicRMCRRT
   id: AU14JobRMCRRTMarksman
-  name: ent-AU14JobRMCRRTMarksman
+  name: RMC reaction troop marksman
   components:
   - type: GhostRoleApplySpecial
     squad: AU14SquadRMCRRT

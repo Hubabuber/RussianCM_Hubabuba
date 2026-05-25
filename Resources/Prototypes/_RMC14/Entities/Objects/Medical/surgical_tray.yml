@@ -1,7 +1,7 @@
 - type: entity
   parent: CMSurgicalCase
   id: RMCSurgicalTrayEmpty
-  name: ent-RMCSurgicalTrayEmpty
+  name: surgical tray
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/surgical_tray.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCSurgicalTrayEmpty
   id: RMCSurgicalTray
-  name: ent-RMCSurgicalTray
-  suffix: ent-RMCSurgicalTray-suffix
+  name: surgical tray
+  suffix: Filled, All Tools
   components:
   - type: StorageFill
     contents:

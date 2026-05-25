@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-Welder
+  name: welding tool
   parent: BaseItem
   id: Welder
-  description: "ent-Welder-desc"
+  description: "Melts anything as long as it's fueled, don't forget your eye protection!"
   components:
   - type: EmitSoundOnLand
     sound:
@@ -114,10 +114,10 @@
     temperature: 700
 
 - type: entity
-  name: ent-WelderIndustrial
+  name: industrial welding tool
   parent: Welder
   id: WelderIndustrial
-  description: "ent-WelderIndustrial-desc"
+  description: "An industrial welder with over double the fuel capacity."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_industrial.rsi
@@ -132,10 +132,10 @@
         maxVol: 250
 
 - type: entity
-  name: ent-WelderIndustrialAdvanced
+  name: advanced industrial welding tool
   parent: WelderIndustrial
   id: WelderIndustrialAdvanced
-  description: "ent-WelderIndustrialAdvanced-desc"
+  description: "An advanced industrial welder with over double the fuel capacity and hotter flame."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_industrialadv.rsi
@@ -152,10 +152,10 @@
     speedModifier: 1.3
 
 - type: entity
-  name: ent-WelderExperimental
+  name: experimental welding tool
   parent: Welder
   id: WelderExperimental
-  description: "ent-WelderExperimental-desc"
+  description: "An experimental welder capable of self-fuel generation and less harmful to the eyes."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_experimental.rsi
@@ -182,10 +182,10 @@
     statusEffectTime: 5 # less harmful; sunglasses can block it
 
 - type: entity
-  name: ent-WelderMini
+  name: emergency welding tool
   parent: Welder
   id: WelderMini
-  description: "ent-WelderMini-desc"
+  description: "A miniature welder used during emergencies."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_mini.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: [ Welder, BaseXenoborgContraband ]
   id: RefuelingWelder
-  name: ent-RefuelingWelder
-  description: "ent-RefuelingWelder-desc"
+  name: refuling welding tool
+  description: "An slow welder that can refuel itself over time."
   components:
   - type: Tool
     speedModifier: 0.5

@@ -1,8 +1,8 @@
 - type: job
   parent: AU14USArmyCMTBase
   id: AU14USArmyCMT
-  name: job-au14usarmycmt-name
-  description: job-au14usarmycmt-desc
+  name: au14-job-name-usarmy-cmt
+  description: au14-job-description-usarmy
   playTimeTracker: AU14JobUSArmyCMT
   ranks:
     USArmy_Corporal:
@@ -14,12 +14,12 @@
       role: AU14JobUSArmyCMT
       time: 18000 #5 hours
     USArmy_PFC: []
-  spawnMenuRoleName: job-au14usarmycmt-spawnmenurolename
+  spawnMenuRoleName: US Army Combat Medical Tech (AU14, surv)
   startingGear: AU14GearUSArmyCMT
   greeting: au14-usarmy-greeting
   icon: "AU14JobIconUSArmyCMT"
   joinNotifyCrew: false
-  supervisors: job-au14usarmycmt-supervisors
+  supervisors: cm-job-name-squad-leader
   accessGroups:
   - AU14GovforSquad
   special:
@@ -46,7 +46,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyCMT
-  name: ent-AU14JobUSArmyCMT
+  name: US Army Combat Medical Technician (Surv)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

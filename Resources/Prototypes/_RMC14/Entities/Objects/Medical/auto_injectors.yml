@@ -2,8 +2,8 @@
   abstract: true
   parent: ChemicalMedipen
   id: CMAutoInjectorBase
-  name: ent-CMAutoInjectorBase
-  description: ent-CMAutoInjectorBase-desc
+  name: autoinjector
+  description: An autoinjector.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMEmergencyAutoInjector
-  name: ent-CMEmergencyAutoInjector
-  description: ent-CMEmergencyAutoInjector-desc
+  name: emergency autoinjector (CAUTION)
+  description: An autoinjector loaded with a special cocktail of chemicals, to be used in life-threatening situations. Doesn't require any training to use.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/emergency_auto_injector.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMTricordrazineAutoInjector
-  name: ent-CMTricordrazineAutoInjector
-  description: ent-CMTricordrazineAutoInjector-desc
+  name: tricordrazine autoinjector
+  description: An autoinjector loaded with 3 uses of Tricordrazine, a weak general use medicine for treating damage.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMTricordrazineAutoInjector
   id: CMTricordrazineAutoInjectorNoSkill
-  name: ent-CMTricordrazineAutoInjectorNoSkill
-  description: ent-CMTricordrazineAutoInjectorNoSkill-desc
+  name: first-aid autoinjector
+  description: An autoinjector loaded with a small dose of medicine for marines to treat themselves with.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/auto_injectors.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMKelotaneAutoInjector
-  name: ent-CMKelotaneAutoInjector
-  description: ent-CMKelotaneAutoInjector-desc
+  name: kelotane autoinjector
+  description: An autoinjector loaded with 3 uses of Kelotane, a common burn medicine.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMDexalinPlusAutoInjector
-  name: ent-CMDexalinPlusAutoInjector
-  description: ent-CMDexalinPlusAutoInjector-desc
+  name: dexalin plus autoinjector
+  description: An autoinjector loaded with 3 uses of Dexalin+, designed to immediately oxygenate the entire body.
   components:
   - type: Hypospray
     transferAmount: 1
@@ -187,8 +187,8 @@
 - type: entity
   parent: CMAutoInjector
   id: RMCDyloveneAutoInjector
-  name: ent-RMCDyloveneAutoInjector
-  description: ent-RMCDyloveneAutoInjector-desc
+  name: dylovene autoinjector
+  description: An autoinjector loaded with 3 doses of 15u of Dylovene, a common toxin damage medicine. You can refill it at Weya-Med vending machines.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -208,8 +208,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMBicaridineAutoInjector
-  name: ent-CMBicaridineAutoInjector
-  description: ent-CMBicaridineAutoInjector-desc
+  name: bicaridine autoinjector
+  description: An autoinjector loaded with 3 uses of Bicaridine, a common brute and circulatory damage medicine.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMInaprovalineAutoInjector
-  name: ent-CMInaprovalineAutoInjector
-  description: ent-CMInaprovalineAutoInjector-desc
+  name: inaprovaline autoinjector
+  description: An autoinjector loaded with 3 uses of Inaprovaline, an emergency stabilization medicine for patients in critical condition.
   components:
   - type: Hypospray
     transferAmount: 30
@@ -250,8 +250,8 @@
 - type: entity
   parent: CMAutoInjector
   id: CMEpinephrineAutoInjector
-  name: ent-CMEpinephrineAutoInjector
-  description: ent-CMEpinephrineAutoInjector-desc
+  name: epinephrine autoinjector
+  description: An autoinjector loaded with 3 uses of Epinephrine, better known as Adrenaline, a nerve stimulant useful in restarting the heart.
   components:
   - type: Hypospray
     transferAmount: 5.25
@@ -271,8 +271,8 @@
 - type: entity
   parent: CMAutoInjector
   id: RMCIronAutoInjector
-  name: ent-RMCIronAutoInjector
-  description: ent-RMCIronAutoInjector-desc
+  name: iron autoinjector
+  description: An autoinjector loaded with 3 uses of iron, a chemical commonly used to treat blood loss.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -290,8 +290,8 @@
 - type: entity
   parent: CMAutoInjector
   id: RMCDermalineAutoInjector
-  name: ent-RMCDermalineAutoInjector
-  description: ent-RMCDermalineAutoInjector-desc
+  name: dermaline autoinjector
+  description: An autoinjector loaded with 3 uses of Dermaline, an advanced burn treatment chemical.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -309,8 +309,8 @@
 - type: entity
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjector15
-  name: ent-RMCMedicAutoInjector15
-  description: ent-RMCMedicAutoInjector15-desc
+  name: medic autoinjector (M-XL)
+  description: A custom-made professional injector, likely from research. Has a similar lock to pill bottles, and fits up to 6 injections.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/medic_auto_injector.rsi
@@ -336,7 +336,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjector30
-  name: ent-RMCMedicAutoInjector30
+  name: medic autoinjector (M-XXL)
   components:
   - type: Sprite
     layers:
@@ -356,8 +356,8 @@
 - type: entity
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjectorEZ1
-  name: ent-RMCMedicAutoInjectorEZ1
-  description: ent-RMCMedicAutoInjectorEZ1-desc
+  name: autoinjector (E-U)
+  description: A custom-made EZ autoinjector, likely from research. Injects its entire payload immediately and doesn't require any training.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/ez_medic_auto_injector.rsi
@@ -380,7 +380,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ5
-  name: ent-RMCMedicAutoInjectorEZ5
+  name: autoinjector (E-T)
   components:
   - type: Sprite
     layers:
@@ -400,7 +400,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ10
-  name: ent-RMCMedicAutoInjectorEZ10
+  name: autoinjector (E-XXS)
   components:
   - type: Sprite
     layers:
@@ -420,7 +420,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ15
-  name: ent-RMCMedicAutoInjectorEZ15
+  name: autoinjector (E-XS)
   components:
   - type: Sprite
     layers:
@@ -440,7 +440,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ30
-  name: ent-RMCMedicAutoInjectorEZ30
+  name: autoinjector (E-S)
   components:
   - type: Sprite
     layers:
@@ -460,7 +460,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ45
-  name: ent-RMCMedicAutoInjectorEZ45
+  name: autoinjector (E-M)
   components:
   - type: Sprite
     layers:
@@ -480,7 +480,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ60
-  name: ent-RMCMedicAutoInjectorEZ60
+  name: autoinjector (E-L)
   components:
   - type: Sprite
     layers:
@@ -500,7 +500,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorBicaridine15
-  suffix: ent-RMCMedicAutoInjectorBicaridine15-suffix
+  suffix: Bicaridine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -513,7 +513,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorKelotane15
-  suffix: ent-RMCMedicAutoInjectorKelotane15-suffix
+  suffix: Kelotane
   components:
   - type: SolutionContainerManager
     solutions:
@@ -526,7 +526,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorTricordrazineRevival15
-  suffix: ent-RMCMedicAutoInjectorTricordrazineRevival15-suffix
+  suffix: Tricordrazine - Revival
   components:
   - type: SolutionContainerManager
     solutions:
@@ -543,7 +543,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorTricordrazine15
-  suffix: ent-RMCMedicAutoInjectorTricordrazine15-suffix
+  suffix: Tricordrazine
   components:
   - type: SolutionContainerManager
     solutions:
@@ -556,7 +556,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorMeraBic15
-  suffix: ent-RMCMedicAutoInjectorMeraBic15-suffix
+  suffix: MeraBic
   components:
   - type: SolutionContainerManager
     solutions:
@@ -571,7 +571,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorKeloDerm15
-  suffix: ent-RMCMedicAutoInjectorKeloDerm15-suffix
+  suffix: KeloDerm
   components:
   - type: SolutionContainerManager
     solutions:
@@ -599,8 +599,8 @@
 - type: entity
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjectorCS5
-  name: ent-RMCMedicAutoInjectorCS5
-  description: ent-RMCMedicAutoInjectorCS5-desc
+  name: autoinjector (C-XS)
+  description: A custom-made autoinjector, likely from research.
   components:
   - type: Sprite
     layers:
@@ -621,7 +621,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorCS5
   id: RMCMedicAutoInjectorCS15
-  name: ent-RMCMedicAutoInjectorCS15
+  name: autoinjector (C-M)
   components:
   - type: Sprite
     layers:
@@ -641,7 +641,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorCS5
   id: RMCMedicAutoInjectorCS30
-  name: ent-RMCMedicAutoInjectorCS30
+  name: autoinjector (C-XL)
   components:
   - type: Sprite
     layers:
@@ -661,7 +661,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorCS5
   id: RMCMedicAutoInjectorCS60
-  name: ent-RMCMedicAutoInjectorCS60
+  name: autoinjector (C-XXL)
   components:
   - type: Sprite
     layers:

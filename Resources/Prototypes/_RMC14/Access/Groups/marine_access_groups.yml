@@ -1,9 +1,9 @@
-# marines will be given squad access when they spawn, based on assignment.
+﻿# marines will be given squad access when they spawn, based on assignment.
 
 - type: accessGroup
   id: SquadLeader
   parent: RMCBaseMarinesJob
-  name: accessgroup-squadleader-name
+  name: Squad Leader
   tags:
   - CMAccessMarinePrep
   - CMAccessSquadLeaderPrep
@@ -12,7 +12,7 @@
 - type: accessGroup
   id: FTL
   parent: RMCBaseMarinesJob
-  name: accessgroup-ftl-name
+  name: Fireteam Leader
   tags:
   - CMAccessMarinePrep
   - CMAccessFTLPrep
@@ -20,7 +20,7 @@
 - type: accessGroup
   id: WeaponSpec
   parent: RMCBaseMarinesJob
-  name: accessgroup-weaponspec-name
+  name: Weapons Specialist
   tags:
   - CMAccessMarinePrep
   - CMAccessSpecPrep
@@ -28,7 +28,7 @@
 - type: accessGroup
   id: SmartGunOperator
   parent: RMCBaseMarinesJob
-  name: accessgroup-smartgunoperator-name
+  name: Smart Gunner
   tags:
   - CMAccessMarinePrep
   - CMAccessSmartPrep
@@ -36,7 +36,7 @@
 - type: accessGroup
   id: HospitalCorpsman
   parent: RMCBaseMarinesJob
-  name: accessgroup-hospitalcorpsman-name
+  name: Hospital Corpsman
   tags:
   - CMAccessMarinePrep
   - CMAccessMedPrep
@@ -45,7 +45,7 @@
 - type: accessGroup
   id: CombatTech
   parent: RMCBaseMarinesJob
-  name: accessgroup-combattech-name
+  name: Combat Technician
   tags:
   - CMAccessMarinePrep
   - CMAccessCombatTechPrep
@@ -55,7 +55,7 @@
 - type: accessGroup
   id: Rifleman
   parent: RMCBaseMarinesJob
-  name: accessgroup-rifleman-name
+  name: Rifleman
   tags:
   - CMAccessMarineRifleman
   - CMAccessMarinePrep

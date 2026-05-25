@@ -1,13 +1,13 @@
 - type: job
   parent: CMJobSquadBase
   id: CMPVESmartGunOperator
-  name: job-cmpvesmartgunoperator-name
-  description: job-cmpvesmartgunoperator-desc
+  name: cm-job-name-smart-gun-operator
+  description: cm-job-description-smart-gun-operator
   playTimeTracker: CMJobPVESmartGunOperator
   ranks:
     RMCRankCorporal: []
-  spawnMenuRoleName: job-cmpvesmartgunoperator-spawnmenurolename
-  supervisors: job-cmpvesmartgunoperator-supervisors
+  spawnMenuRoleName: Sun Rider Smart Gun Operator (PVE)
+  supervisors: cm-job-supervisors-secserg
   startingGear: RMCGearPVESmartGunOperator
   dummyStartingGear: CMGearSmartGunOperatorEquipped
   icon: "CMJobIconSmartGunOperator"
@@ -54,7 +54,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVESmartGunOperator
-  name: ent-RMCSpawnPointPVESmartGunOperator
+  name: PVE smart gun operator spawn point
   components:
   - type: SpawnPoint
     job_id: CMPVESmartGunOperator

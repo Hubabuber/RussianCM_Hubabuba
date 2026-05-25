@@ -6,7 +6,7 @@
   parent: FoodInjectableBase
   id: FoodBreakfastBase
   abstract: true
-  description: ent-FoodBreakfastBase-desc
+  description: A full breakfast, rise and shine!
   components:
   - type: Item
     storedRotation: -90
@@ -26,10 +26,10 @@
 # Breakfasts
 
 - type: entity
-  name: ent-FoodBreakfastAmerican
+  name: full american breakfast
   parent: FoodBreakfastBase
   id: FoodBreakfastAmerican
-  description: ent-FoodBreakfastAmerican-desc
+  description: A huge plate of protein and carbs, more likely to put you back in bed than get you out of it. Oh, what fresh hell is this?
   components:
   - type: FlavorProfile
     flavors:
@@ -38,10 +38,10 @@
     state: fullamerican
 
 - type: entity
-  name: ent-FoodBreakfastEnglish
+  name: full english breakfast
   parent: FoodBreakfastBase
   id: FoodBreakfastEnglish
-  description: ent-FoodBreakfastEnglish-desc
+  description: A huge plate of protein and carbs, more likely to put you back in bed than get you out of it. Don't mention the war!
   components:
   - type: FlavorProfile
     flavors:

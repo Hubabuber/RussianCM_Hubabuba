@@ -1,9 +1,0 @@
-guideentry-antagonists-name = антагонисты входа-проводника
-guideentry-minorantagonists-name = направляющие-вход-второстепенные-антагонисты
-guideentry-nuclearoperatives-name = руководство-вход-ядерных-оперативников
-guideentry-revolutionaries-name = гид-вход-революционеры
-guideentry-spaceninja-name = гид-вход-пространство-ниндзя
-guideentry-thieves-name = гид-вор-вход
-guideentry-traitors-name = гид-вход-предатели
-guideentry-wizard-name = мастер входа в руководство
-guideentry-zombies-name = гид-вход-зомби

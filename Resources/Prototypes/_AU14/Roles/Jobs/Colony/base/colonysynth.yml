@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianColonySynthetic
-  name: job-au14jobciviliancolonysynthetic-name
-  description: job-au14jobciviliancolonysynthetic-desc
+  name: au14-job-name-civiliancolonysynthetic
+  description: au14-job-description-civiliancolonysynthetic
   setPreference: true
   canBeAntag: false
   playTimeTracker: AU14JobCivilianColonySynthetic
@@ -22,7 +22,7 @@
   icon: "AU14JobIconColonySynth"
   hasIcon: false
   joinNotifyCrew: false
-  supervisors: job-au14jobciviliancolonysynthetic-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   whitelisted: true
   whitelistParent: RMCWhitelistMedium
   accessGroups:
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianColonySynthetic
-  name: ent-AU14SpawnPointCivilianColonySynthetic
+  name: Spawn Point AU14 Colony Synthetic
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianColonySynthetic

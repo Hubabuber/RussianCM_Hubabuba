@@ -1,9 +1,9 @@
-- type: job
+﻿- type: job
   parent: CMSurvivorCorporate
   id: CMSurvivorTrijentCorporate
-  name: job-cmsurvivortrijentcorporate-name
-  description: job-cmsurvivortrijentcorporate-desc
-  spawnMenuRoleName: job-cmsurvivortrijentcorporate-spawnmenurolename
+  name: cm-job-name-survivor-trijent-corporate
+  description: cm-job-description-survivor
+  spawnMenuRoleName: Trijent Corporation Liaison (Trijent Survivor)
   startingGear: RMCGearSurvivorTrijentCorporate
   special:
   - !type:AddComponentSpecial
@@ -34,7 +34,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentCorporate
-  name: ent-RMCSpawnPointSurvivorTrijentCorporate
+  name: survivor trijent liaison spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -46,5 +46,5 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetTrijentCorporate
-  name: ent-RMCGearSurvivorPresetTrijentCorporate
+  name: trijent liaison preset
   categories: [ HideSpawnMenu ]

@@ -22,34 +22,3 @@ ent-WardrobeBlackFilled-desc = Шкаф, наполненный стильной
 ent-WardrobeGreenFilled-name = зеленый шкаф
 ent-WardrobeGreenFilled-desc = Гардероб, наполненный стильной зеленой одеждой.
 
-ent-WardrobeBlackFilled = черный шкаф
-    .desc = Шкаф, наполненный стильной черной одеждой.
-    .suffix = Заполненный
-
-ent-WardrobeBlueFilled = синий шкаф
-    .desc = Гардероб, наполненный стильной синей одеждой.
-    .suffix = Заполненный
-
-ent-WardrobeGreenFilled = зеленый шкаф
-    .desc = Гардероб, наполненный стильной зеленой одеждой.
-    .suffix = Заполненный
-
-ent-WardrobeGreyFilled = серый шкаф
-    .desc = Шкаф, битком набитый серой одеждой.
-    .suffix = Заполненный
-
-ent-WardrobeMixedFilled = смешанный гардероб
-    .desc = Гардероб, наполненный разноцветной одеждой.
-    .suffix = Заполненный
-
-ent-WardrobePinkFilled = розовый шкаф
-    .desc = Гардероб, наполненный сказочной розовой одеждой.
-    .suffix = Заполненный
-
-ent-WardrobeWhiteFilled = белый шкаф
-    .desc = Шкаф, наполненный стильной белой одеждой.
-    .suffix = Заполненный
-
-ent-WardrobeYellowFilled = желтый шкаф
-    .desc = Шкаф, наполненный стильной желтой одеждой.
-    .suffix = Заполненный

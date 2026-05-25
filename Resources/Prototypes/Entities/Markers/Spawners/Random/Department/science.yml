@@ -1,10 +1,10 @@
 # Minor science loot spawner
 # Use case: Common areas that aren't science
 - type: entity
-  name: ent-LootSpawnerScienceMinor
+  name: science supplies spawner
   id: LootSpawnerScienceMinor
   parent: MarkerBase
-  suffix: ent-LootSpawnerScienceMinor-suffix
+  suffix: Minor, 80%
   components:
   - type: Sprite
     layers:
@@ -74,10 +74,10 @@
 # Major science loot spawner
 # Use case: Loot in science areas only
 - type: entity
-  name: ent-LootSpawnerScienceMajor
+  name: science supplies spawner
   id: LootSpawnerScienceMajor
   parent: MarkerBase
-  suffix: ent-LootSpawnerScienceMajor-suffix
+  suffix: Major
   components:
   - type: Sprite
     layers:
@@ -92,7 +92,7 @@
 # Borg Module Spawner
 # Use case: One or two in robotics or as valuable loot
 - type: entity
-  name: ent-LootSpawnerRoboticsBorgModule
+  name: robotics board spawner
   id: LootSpawnerRoboticsBorgModule
   parent: MarkerBase
   components:

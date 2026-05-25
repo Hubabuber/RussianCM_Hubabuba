@@ -28,8 +28,8 @@
 - type: entity
   id: OrganDionaBrain
   parent: [BaseDionaOrgan, OrganHumanBrain]
-  name: ent-OrganDionaBrain
-  description: "ent-OrganDionaBrain-desc"
+  name: brain
+  description: "The central hub of a diona's pseudo-neurological activity, its root-like tendrils search for its former body."
   components:
   - type: Item
     size: Small
@@ -55,8 +55,8 @@
 - type: entity
   id: OrganDionaEyes
   parent: BaseDionaOrgan
-  name: ent-OrganDionaEyes
-  description: "ent-OrganDionaEyes-desc"
+  name: eyes
+  description: "I see you!"
   components:
   - type: Sprite
     layers:
@@ -66,8 +66,8 @@
 - type: entity
   id: OrganDionaStomach
   parent: BaseDionaOrgan
-  name: ent-OrganDionaStomach
-  description: "ent-OrganDionaStomach-desc"
+  name: stomach
+  description: "The diona's equivalent of a stomach, it reeks of asparagus and vinegar."
   components:
   - type: Sprite
     state: stomach
@@ -100,8 +100,8 @@
 - type: entity
   id: OrganDionaLungs
   parent: BaseDionaOrgan
-  name: ent-OrganDionaLungs
-  description: "ent-OrganDionaLungs-desc"
+  name: lungs
+  description: "A spongy mess of slimy, leaf-like structures. Capable of breathing both carbon dioxide and oxygen."
   components:
   - type: Sprite
     state: lungs
@@ -133,8 +133,8 @@
   id: OrganDionaBrainNymph
   parent: OrganDionaBrain
   categories: [ HideSpawnMenu ]
-  name: ent-OrganDionaBrainNymph
-  description: "ent-OrganDionaBrainNymph-desc"
+  name: brain
+  description: "The source of incredible, unending intelligence. Honk."
   components:
   - type: Brain
   - type: Nymph # This will make the organs turn into a nymph when they're removed. 
@@ -145,8 +145,8 @@
   id: OrganDionaStomachNymph
   parent: OrganDionaStomach
   categories: [ HideSpawnMenu ]
-  name: ent-OrganDionaStomachNymph
-  description: "ent-OrganDionaStomachNymph-desc"
+  name: stomach
+  description: "Gross. This is hard to stomach."
   components:
   - type: Nymph
     entityPrototype: OrganDionaNymphStomach
@@ -155,8 +155,8 @@
   id: OrganDionaLungsNymph
   parent: OrganDionaLungs
   categories: [ HideSpawnMenu ]
-  name: ent-OrganDionaLungsNymph
-  description: "ent-OrganDionaLungsNymph-desc"
+  name: lungs
+  description: "Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier."
   components:
   - type: Nymph
     entityPrototype: OrganDionaNymphLungs
@@ -166,9 +166,9 @@
   id: OrganDionaNymphBrain
   parent: MobDionaNymph
   categories: [ HideSpawnMenu ]
-  name: ent-OrganDionaNymphBrain
-  suffix: ent-OrganDionaNymphBrain-suffix
-  description: ent-OrganDionaNymphBrain-desc
+  name: diona nymph
+  suffix: Brain
+  description: Contains the brain of a formerly fully-formed Diona. Killing this would kill the Diona forever. You monster.
   components:
   - type: IsDeadIC
   - type: Body
@@ -178,9 +178,9 @@
   id: OrganDionaNymphStomach
   parent: MobDionaNymphAccent 
   categories: [ HideSpawnMenu ]
-  name: ent-OrganDionaNymphStomach
-  suffix: ent-OrganDionaNymphStomach-suffix
-  description: ent-OrganDionaNymphStomach-desc
+  name: diona nymph
+  suffix: Stomach
+  description: Contains the stomach of a formerly fully-formed Diona. It doesn't taste any better for it. 
   components:
   - type: IsDeadIC
   - type: Body
@@ -190,9 +190,9 @@
   id: OrganDionaNymphLungs
   parent: MobDionaNymphAccent
   categories: [ HideSpawnMenu ]
-  name: ent-OrganDionaNymphLungs
-  suffix: ent-OrganDionaNymphLungs-suffix
-  description: ent-OrganDionaNymphLungs-desc
+  name: diona nymph
+  suffix: Lungs
+  description: Contains the lungs of a formerly fully-formed Diona. Breathtaking. 
   components:
   - type: IsDeadIC
   - type: Body

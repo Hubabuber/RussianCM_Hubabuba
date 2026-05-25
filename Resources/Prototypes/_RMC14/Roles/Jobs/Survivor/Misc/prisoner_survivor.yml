@@ -2,11 +2,11 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorPrisoner
-  name: job-cmsurvivorprisoner-name
-  description: job-cmsurvivorprisoner-desc
+  name: cm-job-name-survivor-prisoner
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorSecurity
   startingGear: RMCGearSurvivorPrisoner
-  spawnMenuRoleName: job-cmsurvivorprisoner-spawnmenurolename
+  spawnMenuRoleName: Prisoner (Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorPrisoner
-  name: ent-RMCSpawnPointSurvivorPrisoner
+  name: survivor prisoner spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorPrisoner
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetPrisoner
-  name: ent-RMCGearSurvivorPresetPrisoner
+  name: prisoner survivor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -3,7 +3,7 @@
 - type: entity
   abstract: true
   id: RMCWallRiverBase
-  description: ent-RMCWallRiverBase-desc
+  description: A huge chunk of metal used to separate rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCWallRiverBase
   id: RMCWallRiver
-  name: ent-RMCWallRiver
+  name: river wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/river_wall.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCWallRiver
   id: RMCWallRiver8
-  suffix: ent-RMCWallRiver8-suffix
+  suffix: alternative
   components:
   - type: Sprite
     state: river_8
@@ -117,7 +117,7 @@
 - type: entity
   parent: RMCWallRiver
   id: RMCWallRiver9
-  suffix: ent-RMCWallRiver9-suffix
+  suffix: alternative
   components:
   - type: Sprite
     state: river_9

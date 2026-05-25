@@ -16,26 +16,3 @@ ent-LockerChemistryFilled-desc = Стандартное хранилище Nanot
 ent-LockerParamedicFilled-name = шкафчик фельдшера
 ent-LockerParamedicFilled-desc = Стандартное хранилище Nanotrasen.
 
-ent-LockerChemistryFilled = химический шкафчик
-    .desc = Стандартное хранилище Nanotrasen.
-    .suffix = Заполненный
-
-ent-LockerMedicalFilled = шкафчик врача
-    .desc = Стандартное хранилище Nanotrasen.
-    .suffix = Заполненный
-
-ent-LockerMedicineFilled = шкафчик для лекарств
-    .desc = Забит до краёв медицинским хламом.
-    .suffix = Заполненный
-
-ent-LockerParamedicFilled = шкафчик фельдшера
-    .desc = Стандартное хранилище Nanotrasen.
-    .suffix = Заполненный
-
-ent-LockerWallMedicalDoctorFilled = настенный шкафчик для врача
-    .desc = Стандартное хранилище Nanotrasen, теперь на стене.
-    .suffix = Заполненный
-
-ent-LockerWallMedicalFilled = медицинский настенный шкафчик
-    .desc = Стандартное хранилище Nanotrasen, теперь на стене.
-    .suffix = Заполненный

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCCanisterBase
-  name: ent-RMCCanisterBase
-  description: ent-RMCCanisterBase-desc
+  name: canister
+  description: A gas canister.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterGrey
-  name: ent-RMCCanisterGrey
-  description: ent-RMCCanisterGrey-desc
+  name: canister (Air)
+  description: A gas canister.
   components:
   - type: Sprite
     state: grey 
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBlack
-  name: ent-RMCCanisterBlack
-  description: ent-RMCCanisterBlack-desc
+  name: canister (CO2)
+  description: A gas canister.
   components:
   - type: Sprite
     state: black 
@@ -62,8 +62,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBlue
-  name: ent-RMCCanisterBlue
-  description: ent-RMCCanisterBlue-desc
+  name: canister (O2)
+  description: A gas canister.
   components:
   - type: Sprite
     state: blue
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterRed
-  name: ent-RMCCanisterRed
-  description: ent-RMCCanisterRed-desc
+  name: canister (N2)
+  description: A gas canister.
   components:
   - type: Sprite
     state: red
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterOrange
-  name: ent-RMCCanisterOrange
-  description: ent-RMCCanisterOrange-desc
+  name: canister (Phoron)
+  description: A gas canister.
   components:
   - type: Sprite
     state: orange 
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterRedWhite
-  name: ent-RMCCanisterRedWhite
-  description: ent-RMCCanisterRedWhite-desc
+  name: canister (N2O)
+  description: A gas canister.
   components:
   - type: Sprite
     state: redws
@@ -99,8 +99,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBrokenBase
-  name: ent-RMCCanisterBrokenBase
-  description: ent-RMCCanisterBrokenBase-desc
+  name: broken canister
+  description: A broken gas canister. Completely useless.
   components:  
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi

@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: AU14VAIMercenaryBase
-  name: job-au14vaimercenarybase-name
+  name: au14-job-name-vai-mercenary
   playTimeTracker: AU14VAIMercenary
-  description: job-au14vaimercenarybase-desc
+  description: au14-vai-mercenary-description
   ranks:
     VAI_Mercenary: []
   icon: "CMJobIconEmpty"
-  spawnMenuRoleName: job-au14vaimercenarybase-spawnmenurolename
+  spawnMenuRoleName: VAI Contractor (Base)
   joinNotifyCrew: false
   hasIcon: false
-  supervisors: job-au14vaimercenarybase-supervisors
+  supervisors: au14-job-name-vai-teamleader
   special:
   - !type:AddComponentSpecial
     components:
@@ -41,7 +41,7 @@
 
 - type: entity
   id: AU14VAIPreset
-  name: ent-AU14VAIPreset
+  name: vai mercenary preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

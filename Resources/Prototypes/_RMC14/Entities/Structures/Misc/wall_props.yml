@@ -30,8 +30,8 @@
 - type: entity
   parent: RMCWallPropBase
   id: RMCWallPropBloodWallFloor
-  name: ent-RMCWallPropBloodWallFloor
-  suffix: ent-RMCWallPropBloodWallFloor-suffix
+  name: blood
+  suffix: Wall Blood, Floor Blood, RMC14
   components:
   - type: Sprite
     state: wallblood_floorblood
@@ -39,8 +39,8 @@
 - type: entity
   parent: RMCWallPropBloodWallFloor
   id: RMCWallPropBloodWall
-  name: ent-RMCWallPropBloodWall
-  suffix: ent-RMCWallPropBloodWall-suffix
+  name: blood
+  suffix: Wall Blood, RMC14
   components:
   - type: Sprite
     state: wall_blood_1
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCWallPropBloodWallFloor
   id: RMCWallPropBloodWallAlt
-  name: ent-RMCWallPropBloodWallAlt
-  suffix: ent-RMCWallPropBloodWallAlt-suffix
+  name: blood
+  suffix: Wall Blood, RMC14, Alt
   components:
   - type: Sprite
     state: wall_blood_2
@@ -58,8 +58,8 @@
 - type: entity
   parent: RMCWallPropBase
   id: RMCWallPropGraffiti
-  name: ent-RMCWallPropGraffiti
-  suffix: ent-RMCWallPropGraffiti-suffix
+  name: graffiti
+  suffix: Wall Graffiti, RMC14, One
   components:
   - type: Sprite
     state: zgraffiti1
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCWallPropGraffiti
   id: RMCWallPropGraffitiTwo
-  suffix: ent-RMCWallPropGraffitiTwo-suffix
+  suffix: Wall Graffiti, RMC14, Two
   components:
   - type: Sprite
     state: zgraffiti2
@@ -75,7 +75,7 @@
 - type: entity
   parent: RMCWallPropGraffiti
   id: RMCWallPropGraffitiThree
-  suffix: ent-RMCWallPropGraffitiThree-suffix
+  suffix: Wall Graffiti, RMC14, Three
   components:
   - type: Sprite
     state: zgraffiti3
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCWallPropGraffiti
   id: RMCWallPropGraffitiFour
-  suffix: ent-RMCWallPropGraffitiFour-suffix
+  suffix: Wall Graffiti, RMC14, Four
   components:
   - type: Sprite
     state: zgraffiti4
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCWallPropGraffiti
   id: RMCWallPropGraffitiFive
-  suffix: ent-RMCWallPropGraffitiFive-suffix
+  suffix: Wall Graffiti, RMC14, Five
   components:
   - type: Sprite
     state: zgraffiti5
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCWallPropGraffiti
   id: RMCWallPropGraffitiSix
-  suffix: ent-RMCWallPropGraffitiSix-suffix
+  suffix: Wall Graffiti, RMC14, Six
   components:
   - type: Sprite
     state: zgraffiti6
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCWallPropGraffiti
   id: RMCWallPropGraffitiSeven
-  suffix: ent-RMCWallPropGraffitiSeven-suffix
+  suffix: Wall Graffiti, RMC14, Seven
   components:
   - type: Sprite
     state: zgraffiti7
@@ -116,9 +116,9 @@
 - type: entity
   parent: RMCWallPropBase
   id: RMCWallPropDeadPilot
-  name: ent-RMCWallPropDeadPilot
-  description: ent-RMCWallPropDeadPilot-desc
-  suffix: ent-RMCWallPropDeadPilot-suffix
+  name: decapitated Weyland-Yutani Pilot
+  description: What remains of a Weyland-Yutani Pilot. Their entire head is missing. Where'd it roll off to?...
+  suffix: RMC14
   components:
   - type: Sprite
     state: pilotbody_decap1
@@ -126,7 +126,7 @@
 - type: entity
   parent: RMCWallPropDeadPilot
   id: RMCWallPropDeadPilotAlt
-  suffix: ent-RMCWallPropDeadPilotAlt-suffix
+  suffix: RMC14, Alt
   components:
   - type: Sprite
     state: pilotbody_decap2

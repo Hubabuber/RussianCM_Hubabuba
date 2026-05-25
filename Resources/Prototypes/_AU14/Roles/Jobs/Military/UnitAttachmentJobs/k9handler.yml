@@ -1,24 +1,24 @@
 - type: job
   parent: AU14Jobk9handlerBase
   id: AU14JobThirdPartyK9Handler
-  name: job-au14jobthirdpartyk9handler-name
-  description: job-au14jobthirdpartyk9handler-desc
+  name: au14-job-name-govfork9handler
+  description: au14-job-name-govfork9handler
   setPreference: false
   ranks:
     RMCRankStaffSergeant: []
   startingGear: AU14GearThirdPartyK9Handler
   icon: "AU14JobIconGovK9Handler"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobthirdpartyk9handler-spawnmenurolename
+  spawnMenuRoleName: au14-job-name-govfork9handler
   joinNotifyCrew: false
-  supervisors: job-au14jobthirdpartyk9handler-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
     - Colonist
     - aumed
   # - AU14GovforCorpsman
   # - AU14GovforSquad
   overwatchSortPriority: -2
-  overwatchRoleName: job-au14jobthirdpartyk9handler-overwatchrolename
+  overwatchRoleName: au14-job-name-govfork9handler
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORK9Handler
-  name: ent-AU14SpawnPointGOVFORK9Handler
+  name: (DO NOT MAP) Spawn Point GOVFOR K9 Handler
   components:
   - type: SpawnPoint
     job_id: AU14JobThirdPartyK9Handler

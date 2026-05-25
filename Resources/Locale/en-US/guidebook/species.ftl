@@ -1,9 +1,0 @@
-guideentry-arachnid-name = Arachnid
-guideentry-diona-name = Diona
-guideentry-dwarf-name = Dwarf
-guideentry-human-name = Human
-guideentry-moth-name = Moth Person
-guideentry-reptilian-name = Reptilian
-guideentry-slimeperson-name = Slime Person
-guideentry-species-name = Species
-guideentry-vox-name = Vox

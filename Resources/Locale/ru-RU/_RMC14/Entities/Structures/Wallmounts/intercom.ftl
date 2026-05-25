@@ -1,47 +1,48 @@
 ent-CMIntercom = домофон
   .desc = Домофон. 
+
 ent-CMIntercomCommon = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomCommand = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomMedical = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomEngineering = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomMilitaryPolice = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomRequisition = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomIntel = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomAlpha = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomBravo = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomCharlie = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomDelta = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomEcho = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomFoxtrot = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomColony = домофон
   .desc = Домофон. 
-    .suffix = домофон
+
 ent-CMIntercomAll = домофон
   .desc = Домофон. 
-    .suffix = домофон
+

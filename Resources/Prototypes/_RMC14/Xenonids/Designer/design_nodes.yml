@@ -8,7 +8,7 @@
 
 - type: entity
   id: DesignNodeBase
-  name: ent-DesignNodeBase
+  name: Design Node
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -62,8 +62,8 @@
 
 - type: entity
   id: DesignNodeRemoteDelete
-  name: ent-DesignNodeRemoteDelete
-  description: ent-DesignNodeRemoteDelete-desc
+  name: Delete Design Node
+  description: Remotely deletes a placed design node on the targeted tile.
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -78,8 +78,8 @@
 
 - type: entity
   id: DesignNodeRemoteThickenResin
-  name: ent-DesignNodeRemoteThickenResin
-  description: ent-DesignNodeRemoteThickenResin-desc
+  name: Remote Thickening
+  description: Remotely thickens resin walls, doors, and membranes into their thick variants.
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -98,7 +98,7 @@
 # Xeno-only overlay marks (wall/door intent). These are spawned as a child entity of the real node.
 - type: entity
   id: DesignNodeMarkBase
-  name: ent-DesignNodeMarkBase
+  name: Design Node Mark
   abstract: true
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
@@ -121,8 +121,8 @@
 - type: entity
   id: DesignNodeMarkOptimizedWall
   parent: DesignNodeMarkBase
-  name: ent-DesignNodeMarkOptimizedWall
-  description: ent-DesignNodeMarkOptimizedWall-desc
+  name: Optimized Wall
+  description: You sense that building on top of this node will speed up your construction speed by 50%
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -132,8 +132,8 @@
 - type: entity
   id: DesignNodeMarkOptimizedDoor
   parent: DesignNodeMarkBase
-  name: ent-DesignNodeMarkOptimizedDoor
-  description: ent-DesignNodeMarkOptimizedDoor-desc
+  name: Optimized Door
+  description: You sense that building on top of this node will speed up your construction speed by 50%
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -143,8 +143,8 @@
 - type: entity
   id: DesignNodeMarkFlexibleWall
   parent: DesignNodeMarkBase
-  name: ent-DesignNodeMarkFlexibleWall
-  description: ent-DesignNodeMarkFlexibleWall-desc
+  name: Flexible Wall
+  description: You sense that building on top of this node will decrease plasma cost of basic resin structures by 50%
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -154,8 +154,8 @@
 - type: entity
   id: DesignNodeMarkFlexibleDoor
   parent: DesignNodeMarkBase
-  name: ent-DesignNodeMarkFlexibleDoor
-  description: ent-DesignNodeMarkFlexibleDoor-desc
+  name: Flexible Door
+  description: You sense that building on top of this node will decrease plasma cost of basic resin structures by 50%
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -165,8 +165,8 @@
 - type: entity
   id: DesignNodeMarkConstructWall
   parent: DesignNodeMarkBase
-  name: ent-DesignNodeMarkConstructWall
-  description: ent-DesignNodeMarkConstructWall-desc
+  name: Construct Wall
+  description: You sense that feeding plasma with our hand to this node will secrete a weedbound wall
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -176,8 +176,8 @@
 - type: entity
   id: DesignNodeMarkConstructDoor
   parent: DesignNodeMarkBase
-  name: ent-DesignNodeMarkConstructDoor
-  description: ent-DesignNodeMarkConstructDoor-desc
+  name: Construct Door
+  description: You sense that feeding plasma with our hand to this node will secrete a weedbound door
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -189,8 +189,8 @@
 - type: entity
   id: DesignNodeOptimizedWall
   parent: DesignNodeBase
-  name: ent-DesignNodeOptimizedWall
-  description: ent-DesignNodeOptimizedWall-desc
+  name: Optimized Node
+  description: This node looks like it has a big green oozing bulb at its center, making the weeds under it twitch...
   placement:
     mode: SnapgridCenter
   components:
@@ -214,8 +214,8 @@
 - type: entity
   id: DesignNodeOptimizedDoor
   parent: DesignNodeBase
-  name: ent-DesignNodeOptimizedDoor
-  description: ent-DesignNodeOptimizedDoor-desc
+  name: Optimized Node
+  description: This node looks like it has a big green oozing bulb at its center, making the weeds under it twitch...
   placement:
     mode: SnapgridCenter
   components:
@@ -241,8 +241,8 @@
 - type: entity
   id: DesignNodeFlexibleWall
   parent: DesignNodeBase
-  name: ent-DesignNodeFlexibleWall
-  description: ent-DesignNodeFlexibleWall-desc
+  name: Flexible Node
+  description: This node looks like its made of smaller blue bulbs grown together, making the weeds under them look soft and squishy.
   placement:
     mode: SnapgridCenter
   components:
@@ -266,8 +266,8 @@
 - type: entity
   id: DesignNodeFlexibleDoor
   parent: DesignNodeBase
-  name: ent-DesignNodeFlexibleDoor
-  description: ent-DesignNodeFlexibleDoor-desc
+  name: Flexible Node
+  description: This node looks like its made of smaller blue bulbs grown together, making the weeds under them look soft and squishy.
   placement:
     mode: SnapgridCenter
   components:
@@ -293,8 +293,8 @@
 - type: entity
   id: DesignNodeConstructWall
   parent: DesignNodeBase
-  name: ent-DesignNodeConstructWall
-  description: ent-DesignNodeConstructWall-desc
+  name: Construct Node
+  description: This node looks like big blub composed of smaller purple glowing cups, pumping some strange liquid trough weeds.
   placement:
     mode: SnapgridCenter
   components:
@@ -317,8 +317,8 @@
 - type: entity
   id: DesignNodeConstructDoor
   parent: DesignNodeBase
-  name: ent-DesignNodeConstructDoor
-  description: ent-DesignNodeConstructDoor-desc
+  name: Construct Node
+  description: This node looks like big blub composed of smaller purple glowing cups, pumping some strange liquid trough weeds.
   placement:
     mode: SnapgridCenter
   components:
@@ -409,8 +409,8 @@
 - type: entity
   parent: BaseItem
   id: RMCGuidebookEntityWeedboundResinWall
-  name: ent-RMCGuidebookEntityWeedboundResinWall
-  suffix: ent-RMCGuidebookEntityWeedboundResinWall-suffix
+  name: weedbound resin wall
+  suffix: GuideBookEntity
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -420,8 +420,8 @@
 - type: entity
   parent: BaseItem
   id: RMCGuidebookEntityWeedboundResinDoor
-  name: ent-RMCGuidebookEntityWeedboundResinDoor
-  suffix: ent-RMCGuidebookEntityWeedboundResinDoor-suffix
+  name: weedbound resin door
+  suffix: GuideBookEntity
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

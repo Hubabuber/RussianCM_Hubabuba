@@ -16,30 +16,3 @@ ent-AU14USASFSECFORChestrig-name = Нагрудная разгрузка сил 
 ent-AU14USASFSECFORChestrig-desc = Внешняя нагрудная разгрузка, используемая силами безопасности USASF.
 ent-AU14LACNICPS2-name = Лётная броня LACN ICPS-2
 ent-AU14LACNICPS2-desc = Комплект баллистической брони, используемый лётным составом LACN.
-
-ent-AU14CLFFlakVest = Бронежилет CLF
-    .desc = Импортный бронежилет от вашего иностранного покупателя в УПП. Вы понятия не имеете о его происхождении.
-
-ent-AU14LACNArmorSL = LACN BL-2 Броня
-    .desc = Комплект баллистической брони, используемый сержантами и офицерами десантных сил LACN.
-
-ent-AU14LACNArmorStandard = LACN BL-1 Броня
-    .desc = Комплект баллистической брони, используемый десантными силами LACN.
-
-ent-AU14LACNArmorStandardPadless = Безподвесная броня LACN BL-1
-    .desc = Комплект баллистической брони, используемый десантными силами LACN. У этого отсутствуют наплечники и наплечники.
-
-ent-AU14LACNCommandoArmorPointman = LACN BL-4L Пойнтман Броня
-    .desc = Комплект баллистической брони, используемый военно-морскими коммандос LACN.
-
-ent-AU14LACNCommandoArmorScout = Броня разведчика LACN BL-4L
-    .desc = Комплект баллистической брони, используемый разведчиками-коммандос ВМС LACN.
-
-ent-AU14LACNCommandoArmorStandard = LACN BL-4L Броня
-    .desc = Комплект баллистической брони, используемый военно-морскими коммандос LACN.
-
-ent-AU14LACNICPS2 = Броня экипажа LACN ICPS-2
-    .desc = Комплект баллистической брони, используемый экипажем LACN.
-
-ent-AU14USASFSECFORChestrig = Силы безопасности USASF Честриг
-    .desc = Внешний сундук, используемый USASF SECFOR.

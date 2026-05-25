@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYPMCPartyMedic #m41a/2
-  name: job-au14jobwypmcpartymedic-name
-  description: job-au14jobwypmcpartymedic-desc
+  name: PMC Combat Lifesaver
+  description: au14-pmcparty-description
   playTimeTracker: AU14JobWYPMCPartyMedic
   ranks:
     AU14RankWeYuOperator: []
-  spawnMenuRoleName: job-au14jobwypmcpartymedic-spawnmenurolename
+  spawnMenuRoleName: WY PMC Combat Lifesaver (3rd party, M41A/2)
   startingGear: AU14GearWYPMCPartyMedic
   greeting: au14-pmcparty-greeting
   icon: "RMCJobIconPMCMedic"
   joinNotifyCrew: false
-  supervisors: job-au14jobwypmcpartymedic-supervisors
+  supervisors: au14-job-supervisors-wy
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -44,7 +44,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyMedic
-  name: ent-AU14JobWYPMCPartyMedic
+  name: WY PMC Party Combat Lifesaver (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

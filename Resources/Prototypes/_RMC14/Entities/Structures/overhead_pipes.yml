@@ -1,6 +1,6 @@
-- type: entity
+﻿- type: entity
   id: CMOverheadPipe
-  name: ent-CMOverheadPipe
+  name: overhead pipe segment
   placement:
     mode: SnapgridCenter
     snap:
@@ -23,7 +23,7 @@
 - type: entity
   parent: CMOverheadPipe
   id: RMCOverheadPipeCorner
-  suffix: ent-RMCOverheadPipeCorner-suffix
+  suffix: Corner
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_pipes.rsi
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMOverheadPipe
   id: RMCOverheadPipeCap
-  suffix: ent-RMCOverheadPipeCap-suffix
+  suffix: Cap
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_pipes.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: CMOverheadPipe
   id: RMCOverheadFuelLine1
-  name: ent-RMCOverheadFuelLine1
-  description: ent-RMCOverheadFuelLine1-desc
+  name: dense fuel line
+  description: Likely to be incredibly flammable.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_fuel.rsi
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCOverheadFuelLine1
   id: RMCOverheadFuelLine1Offset
-  suffix: ent-RMCOverheadFuelLine1Offset-suffix
+  suffix: Offset
   components:
   - type: Sprite
     offset: 0.319, 0

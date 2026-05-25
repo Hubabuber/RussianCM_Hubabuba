@@ -1,4 +1,4 @@
-# I beg if anyone has the time to remove RMCPropVehicle2Base and change how the vehicles in this file work so that they're like prop_vehicles.yml or prop_vehicles3.yml
+﻿# I beg if anyone has the time to remove RMCPropVehicle2Base and change how the vehicles in this file work so that they're like prop_vehicles.yml or prop_vehicles3.yml
 
 - type: entity
   abstract: true
@@ -17,9 +17,9 @@
 - type: entity
   parent: RMCPropVehicle2Base #use East and West
   id: RMCPropVehicleCargoCrane
-  suffix: ent-RMCPropVehicleCargoCrane-suffix
-  name: ent-RMCPropVehicleCargoCrane
-  description: ent-RMCPropVehicleCargoCrane-desc
+  suffix: Use East, West
+  name: cargo crane
+  description: A crane used for loading and unloading cargo.
   components:
   - type: Sprite
     state: crane
@@ -37,7 +37,7 @@
 - type: entity
   parent: RMCPropVehicleCargoCrane
   id: RMCPropVehicleCargoCraneAltHitbox
-  suffix: ent-RMCPropVehicleCargoCraneAltHitbox-suffix
+  suffix: Alt Hitbox, East
   components:
   - type: Fixtures
     fixtures:
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCPropVehicleCargoCraneAltHitbox
   id: RMCPropVehicleCargoCraneAltHitboxWest
-  suffix: ent-RMCPropVehicleCargoCraneAltHitboxWest-suffix
+  suffix: Alt Hitbox, West
   components:
   - type: Fixtures
     fixtures:
@@ -67,8 +67,8 @@
 - type: entity
   parent: RMCPropVehicleCargoCrane
   id: RMCPropVehicleCargoCraneCargo
-  name: ent-RMCPropVehicleCargoCraneCargo
-  description: ent-RMCPropVehicleCargoCraneCargo-desc
+  name: cargo crane
+  description: A crane used for loading and unloading cargo.
   components:
   - type: Sprite
     state: crane_cargo
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCPropVehicleCargoCrane
   id: RMCPropVehicleCargoCraneCargoSnow
-  name: ent-RMCPropVehicleCargoCraneCargoSnow
-  description: ent-RMCPropVehicleCargoCraneCargoSnow-desc
+  name: cargo crane
+  description: A crane used for loading and unloading cargo.
   components:
   - type: Sprite
     state: crane_cargo_snow
@@ -87,8 +87,8 @@
 - type: entity
   parent: RMCPropVehicleCargoCrane
   id: RMCPropVehicleCargoCraneSnow
-  name: ent-RMCPropVehicleCargoCraneSnow
-  description: ent-RMCPropVehicleCargoCraneSnow-desc
+  name: cargo crane
+  description: A crane used for loading and unloading cargo.
   components:
   - type: Sprite
     state: crane_snow
@@ -97,8 +97,8 @@
 - type: entity
   parent: RMCPropVehicleCargoCrane
   id: RMCPropVehicleCargoCraneDestroyed
-  name: ent-RMCPropVehicleCargoCraneDestroyed
-  description: ent-RMCPropVehicleCargoCraneDestroyed-desc
+  name: cargo crane
+  description: A crane used for loading and unloading cargo.
   components:
   - type: Sprite
     state: crane_damaged
@@ -107,9 +107,9 @@
 - type: entity
   parent: RMCPropVehicle2Base #Use East and West
   id: RMCPropVehicleCrawler
-  suffix: ent-RMCPropVehicleCrawler-suffix
-  name: ent-RMCPropVehicleCrawler
-  description: ent-RMCPropVehicleCrawler-desc
+  suffix: Use East, West
+  name: colony crawler
+  description: It is a tread bound crawler used in harsh conditions. Supplied by Orbital Blue International; 'Your friends, in the Aerospace business.' A subsidiary of We-Yu.
   components:
   - type: Sprite
     state: crawler
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCPropVehicleCrawler
   id: RMCPropVehicleCrawlerCovered
-  name: ent-RMCPropVehicleCrawlerCovered
-  description: ent-RMCPropVehicleCrawlerCovered-desc
+  name: colony crawler
+  description: It is a tread bound crawler used in harsh conditions. Supplied by Orbital Blue International; 'Your friends, in the Aerospace business.' A subsidiary of We-Yu.
   components:
   - type: Sprite
     state: crawler_covered_bed
@@ -135,8 +135,8 @@
 - type: entity
   parent: RMCPropVehicleCrawler
   id: RMCPropVehicleCrawlerCrate
-  name: ent-RMCPropVehicleCrawlerCrate
-  description: ent-RMCPropVehicleCrawlerCrate-desc
+  name: colony crawler
+  description: It is a tread bound crawler used in harsh conditions. Supplied by Orbital Blue International; 'Your friends, in the Aerospace business.' A subsidiary of We-Yu.
   components:
   - type: Sprite
     state: crawler_crate
@@ -144,8 +144,8 @@
 - type: entity
   parent: RMCPropVehicleCrawler
   id: RMCPropVehicleCrawlerCrate2
-  name: ent-RMCPropVehicleCrawlerCrate2
-  description: ent-RMCPropVehicleCrawlerCrate2-desc
+  name: colony crawler
+  description: It is a tread bound crawler used in harsh conditions. Supplied by Orbital Blue International; 'Your friends, in the Aerospace business.' A subsidiary of We-Yu.
   components:
   - type: Sprite
     state: crawler_crate_alt
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCPropVehicleCrawler
   id: RMCPropVehicleCrawlerCrate3
-  name: ent-RMCPropVehicleCrawlerCrate3
-  description: ent-RMCPropVehicleCrawlerCrate3-desc
+  name: colony crawler
+  description: It is a tread bound crawler used in harsh conditions. Supplied by Orbital Blue International; 'Your friends, in the Aerospace business.' A subsidiary of We-Yu.
   components:
   - type: Sprite
     state: crawler_crate_alt2
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCPropVehicleCrawler
   id: RMCPropVehicleCrawlerCrateWY
-  name: ent-RMCPropVehicleCrawlerCrateWY
-  description: ent-RMCPropVehicleCrawlerCrateWY-desc
+  name: colony crawler
+  description: It is a tread bound crawler used in harsh conditions. Supplied by Orbital Blue International; 'Your friends, in the Aerospace business.' A subsidiary of We-Yu.
   components:
   - type: Sprite
     state: crawler_crate_wy
@@ -171,8 +171,8 @@
 - type: entity
   parent: RMCPropVehicleCrawler
   id: RMCPropVehicleCrawlerFuel
-  name: ent-RMCPropVehicleCrawlerFuel
-  description: ent-RMCPropVehicleCrawlerFuel-desc
+  name: colony crawler
+  description: It is a tread bound crawler used in harsh conditions. Supplied by Orbital Blue International; 'Your friends, in the Aerospace business.' A subsidiary of We-Yu.
   components:
   - type: Sprite
     state: crawler_fuel
@@ -180,9 +180,9 @@
 - type: entity
   parent: RMCPropVehicle2Base #Use East and West
   id: RMCPropVehicleTruck
-  suffix: ent-RMCPropVehicleTruck-suffix
-  name: ent-RMCPropVehicleTruck
-  description: ent-RMCPropVehicleTruck-desc
+  suffix: Use East, West
+  name: truck
+  description: An old truck, seems to be broken down.
   components:
   - type: Sprite
     state: truck
@@ -199,8 +199,8 @@
 - type: entity
   parent: RMCPropVehicleTruck
   id: RMCPropVehicleTruckCargo
-  name: ent-RMCPropVehicleTruckCargo
-  description: ent-RMCPropVehicleTruckCargo-desc
+  name: truck
+  description: An old cargo truck, seems to be broken down.
   components:
   - type: Sprite
     state: truck_cargo
@@ -208,8 +208,8 @@
 - type: entity
   parent: RMCPropVehicleTruck
   id: RMCPropVehicleTruckMining
-  name: ent-RMCPropVehicleTruckMining
-  description: ent-RMCPropVehicleTruckMining-desc
+  name: truck
+  description: An old mining truck, seems to be broken down.
   components:
   - type: Sprite
     state: truck_mining
@@ -217,8 +217,8 @@
 - type: entity
   parent: RMCPropVehicleTruck
   id: RMCPropVehicleTruckBroken
-  name: ent-RMCPropVehicleTruckBroken
-  description: ent-RMCPropVehicleTruckBroken-desc
+  name: truck
+  description: An old truck, seems to be broken down.
   components:
   - type: Sprite
     state: truck_damaged
@@ -226,8 +226,8 @@
 - type: entity
   parent: RMCPropVehicleTruck
   id: RMCPropVehicleTruckSnow
-  name: ent-RMCPropVehicleTruckSnow
-  description: ent-RMCPropVehicleTruckSnow-desc
+  name: truck
+  description: An old truck, seems to be broken down.
   components:
   - type: Sprite
     state: truck_snow
@@ -235,8 +235,8 @@
 - type: entity
   parent: RMCPropVehicleTruck
   id: RMCPropVehicleTruckCargoSnow
-  name: ent-RMCPropVehicleTruckCargoSnow
-  description: ent-RMCPropVehicleTruckCargoSnow-desc
+  name: truck
+  description: An old cargo truck, seems to be broken down.
   components:
   - type: Sprite
     state: truck_cargo
@@ -244,9 +244,9 @@
 - type: entity
   parent: RMCPropVehicle2Base #Use East and West
   id: RMCPropVehicleTractor
-  suffix: ent-RMCPropVehicleTractor-suffix
-  name: ent-RMCPropVehicleTractor
-  description: ent-RMCPropVehicleTractor-desc
+  suffix: Use East, West
+  name: tractor
+  description: An old tractor, seems to be broken down.
   components:
   - type: Sprite
     state: tractor
@@ -263,8 +263,8 @@
 - type: entity
   parent: RMCPropVehicleTruck
   id: RMCPropVehicleTractorDamaged
-  name: ent-RMCPropVehicleTractorDamaged
-  description: ent-RMCPropVehicleTractorDamaged-desc
+  name: tractor
+  description: An old cargo truck, seems to be broken down.
   components:
   - type: Sprite
     state: tractor_damaged
@@ -272,8 +272,8 @@
 - type: entity
   parent: RMCPropVehicleTruck
   id: RMCPropVehicleTractorSnow
-  name: ent-RMCPropVehicleTractorSnow
-  description: ent-RMCPropVehicleTractorSnow-desc
+  name: tractor
+  description: An old cargo truck, seems to be broken down.
   components:
   - type: Sprite
     state: tractor_snow
@@ -281,9 +281,9 @@
 - type: entity
   parent: RMCPropVehicle2Base #Use East and West
   id: RMCPropVehicleVan
-  suffix: ent-RMCPropVehicleVan-suffix
-  name: ent-RMCPropVehicleVan
-  description: ent-RMCPropVehicleVan-desc
+  suffix: Use East, West [PropVan
+  name: van
+  description: An old van, seems to be broken down.
   components:
   - type: Sprite
     state: van
@@ -300,8 +300,8 @@
 - type: entity
   parent: RMCPropVehicleVan
   id: RMCPropVehicleVanDamaged
-  name: ent-RMCPropVehicleVanDamaged
-  description: ent-RMCPropVehicleVanDamaged-desc
+  name: van
+  description: An old van, seems to be broken down.
   components:
   - type: Sprite
     state: van_damaged
@@ -309,8 +309,8 @@
 - type: entity
   parent: RMCPropVehicleVan
   id: RMCPropVehicleVanSnow
-  name: ent-RMCPropVehicleVanSnow
-  description: ent-RMCPropVehicleVanSnow-desc
+  name: van
+  description: An old van, seems to be broken down.
   components:
   - type: Sprite
     state: van_snow
@@ -318,8 +318,8 @@
 - type: entity
   parent: RMCPropVehicleVan
   id: RMCPropVehicleVanCandy
-  name: ent-RMCPropVehicleVanCandy
-  description: ent-RMCPropVehicleVanCandy-desc
+  name: van
+  description: An old van, seems to be filled with... Candy?
   components:
   - type: Sprite
     state: van_candy

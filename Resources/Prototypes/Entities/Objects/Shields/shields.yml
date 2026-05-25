@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-BaseShield
+  name: base shield
   parent: BaseItem
   id: BaseShield
-  description: ent-BaseShield-desc
+  description: A shield!
   abstract: true
   components:
     - type: Sprite
@@ -63,10 +63,10 @@
 #Security Shields
 
 - type: entity
-  name: ent-RiotShield
+  name: riot shield
   parent: [ BaseShield, BaseSecurityContraband ]
   id: RiotShield
-  description: ent-RiotShield-desc
+  description: A large tower shield. Good for controlling crowds.
   components:
     - type: StaticPrice
       price: 90
@@ -84,10 +84,10 @@
           Slash: 1
 
 - type: entity
-  name: ent-RiotLaserShield
+  name: laser shield
   parent: [ BaseShield, BaseSecurityContraband ]
   id: RiotLaserShield
-  description: ent-RiotLaserShield-desc
+  description: A shield built for withstanding lasers, but not much else.
   components:
     - type: Sprite
       state: riot_laser-icon
@@ -104,10 +104,10 @@
           Heat: 1
 
 - type: entity
-  name: ent-RiotBulletShield
+  name: ballistic shield
   parent: [ BaseShield, BaseSecurityContraband ]
   id: RiotBulletShield
-  description: ent-RiotBulletShield-desc
+  description: A shield built for protecting against ballistics, but not much else.
   components:
     - type: Sprite
       state: riot_bullet-icon
@@ -126,10 +126,10 @@
 #Craftable shields
 
 - type: entity
-  name: ent-WoodenBuckler
+  name: wooden buckler
   parent: BaseShield
   id: WoodenBuckler
-  description: ent-WoodenBuckler-desc
+  description: A small round wooden makeshift shield.
   components:
     - type: Sprite
       state: buckler-icon
@@ -181,10 +181,10 @@
       price: 150
 
 - type: entity
-  name: ent-MakeshiftShield
+  name: makeshift shield
   parent: BaseShield
   id: MakeshiftShield
-  description: ent-MakeshiftShield-desc
+  description: A rundown looking shield, not good for much.
   components:
     - type: Sprite
       state: makeshift-icon
@@ -235,10 +235,10 @@
                   max: 2
 
 - type: entity
-  name: ent-WebShield
+  name: web shield
   parent: BaseShield
   id: WebShield
-  description: ent-WebShield-desc
+  description: A stringy shield. It's weak, and doesn't seem to do well against heat.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/web-shield.rsi
@@ -290,10 +290,10 @@
 #Magic/Cult Shields (give these to wizard for now)
 
 - type: entity
-  name: ent-ClockworkShield
+  name: clockwork shield
   parent: BaseShield
   id: ClockworkShield
-  description: ent-ClockworkShield-desc
+  description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
   components:
     - type: Sprite
       state: ratvarian-icon
@@ -319,10 +319,10 @@
       #Have it break into brass when clock cult is in
 
 - type: entity
-  name: ent-MirrorShield
+  name: mirror shield
   parent: [ BaseShield, BaseMagicalContraband ]
   id: MirrorShield
-  description: ent-MirrorShield-desc
+  description: Eerily glows red... you hear the geometer whispering
   components:
     - type: Sprite
       state: mirror-icon
@@ -367,10 +367,10 @@
                   max: 5
 
 - type: entity
-  name: ent-EnergyShield
+  name: energy shield
   parent: [BaseItem, BaseSyndicateContraband]
   id: EnergyShield
-  description: ent-EnergyShield-desc
+  description: Exotic energy shield, when folded, can even fit in your pocket.
   components:
     - type: ItemToggle
       soundActivate:
@@ -466,10 +466,10 @@
       price: 350
 
 - type: entity
-  name: ent-BrokenEnergyShield
+  name: broken energy shield
   parent: BaseItem
   id: BrokenEnergyShield
-  description: ent-BrokenEnergyShield-desc
+  description: Something inside is burned out, it is no longer functional.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/e_shield.rsi
@@ -480,10 +480,10 @@
       heldPrefix: eshield
 
 - type: entity
-  name: ent-TelescopicShield
+  name: telescopic shield
   parent: BaseShield
   id: TelescopicShield
-  description: ent-TelescopicShield-desc
+  description: An advanced riot shield made of lightweight materials that collapses for easy storage.
   components:
     - type: ItemToggle
       soundActivate:

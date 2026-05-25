@@ -41,8 +41,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowStrata
-  name: ent-RMCWindowStrata
-  description: ent-RMCWindowStrata-desc
+  name: window
+  description: A glass window inside a wall frame.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/strata_window.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowStrataReinforced
-  name: ent-RMCWindowStrataReinforced
-  description: ent-RMCWindowStrataReinforced-desc
+  name: reinforced window
+  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/strata_window.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowStrataHull
-  name: ent-RMCWindowStrataHull
-  description: ent-RMCWindowStrataHull-desc
+  name: hull window
+  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. No way to get through here.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/strata_window.rsi

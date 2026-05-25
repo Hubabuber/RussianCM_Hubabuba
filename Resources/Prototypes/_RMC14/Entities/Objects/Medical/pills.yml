@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-CMPill
+  name: pill
   parent: BaseItem
   id: CMPill
-  description: "ent-CMPill-desc"
+  description: "A pill."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/pills.rsi
@@ -181,7 +181,7 @@
 - type: entity
   parent: CMPill
   id: RMCPillMeralyneBicaridine
-  suffix: ent-RMCPillMeralyneBicaridine-suffix
+  suffix: MeraBic
   components:
   - type: SolutionContainerManager
     solutions:
@@ -202,7 +202,7 @@
 - type: entity
   parent: CMPill
   id: RMCPillKelotaneDermaline
-  suffix: ent-RMCPillKelotaneDermaline-suffix
+  suffix: KeloDerm
   components:
   - type: SolutionContainerManager
     solutions:
@@ -243,7 +243,7 @@
 - type: entity
   parent: CMPill
   id: RMCPillAntiZed
-  suffix: ent-RMCPillAntiZed-suffix
+  suffix: DO NOT MAP, AntiZed
   components:
   - type: SolutionContainerManager
     solutions:
@@ -262,7 +262,7 @@
 - type: entity
   parent: CMPill
   id: RMCPillCyanide
-  description: ent-RMCPillCyanide-desc
+  description: A cyanide pill. Don't swallow this!
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobLEOBase
   id: AU14JobCiviliannspaConstable
-  name: job-au14jobciviliannspaconstable-name
-  description: job-au14jobciviliannspaconstable-desc
+  name: au14-job-name-civiliannspaConstable
+  description: au14-job-description-civiliannspaConstable
   setPreference: true
   requirements:
   - !type:AgeRequirement
@@ -26,8 +26,8 @@
   icon: "RMCJobIconTSEPAConstable"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobciviliannspaconstable-supervisors
-  spawnMenuRoleName: job-au14jobciviliannspaconstable-spawnmenurolename
+  supervisors: au14-job-supervisors-colonycivilian
+  spawnMenuRoleName: NSPA Constable (CMU)
   accessGroups:
   - aucmb
   - Colonist
@@ -68,7 +68,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCiviliannspaConstable
-  name: ent-AU14SpawnPointCiviliannspaConstable
+  name: Spawn Point Civilian nspa Constable
   components:
   - type: SpawnPoint
     job_id: AU14JobCiviliannspaConstable

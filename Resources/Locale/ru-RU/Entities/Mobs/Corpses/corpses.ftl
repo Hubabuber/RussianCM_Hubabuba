@@ -19,30 +19,3 @@ ent-MobRandomSecurityCorpse-desc = Я думаю, они мертвы.
 ent-MobRandomCommandCorpse-name = неопознанный труп
 ent-MobRandomCommandCorpse-desc = Я думаю, они мертвы.
 
-ent-MobRandomCargoCorpse = неопознанный труп
-    .desc = Я думаю, они мертвы.
-    .suffix = Мертвый, Груз
-
-ent-MobRandomCommandCorpse = неопознанный труп
-    .desc = Я думаю, они мертвы.
-    .suffix = Мертвый, Командование
-
-ent-MobRandomEngineerCorpse = неопознанный труп
-    .desc = Я думаю, они мертвы.
-    .suffix = Мертвый, Инженер
-
-ent-MobRandomMedicCorpse = неопознанный труп
-    .desc = Я думаю, они мертвы.
-    .suffix = Мертвый, Медик
-
-ent-MobRandomScienceCorpse = неопознанный труп
-    .desc = Я думаю, они мертвы.
-    .suffix = Мертвые, Наука
-
-ent-MobRandomSecurityCorpse = неопознанный труп
-    .desc = Я думаю, они мертвы.
-    .suffix = Мертвый, Охрана
-
-ent-MobRandomServiceCorpse = неопознанный труп
-    .desc = Я думаю, они мертвы.
-    .suffix = Мертвый, Сервис

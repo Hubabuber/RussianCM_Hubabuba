@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCLFMachineGunnerReinforcement
-  name: job-au14jobclfmachinegunnerreinforcement-name
-  description: job-au14jobclfmachinegunnerreinforcement-desc
+  name: au14-job-name-clfmachinegunner
+  description: au14-job-description-clfmachinegunner
   setPreference: true
   ignoreAllegiance: true
   playTimeTracker: AU14JobCLFMachineGunner
@@ -15,11 +15,11 @@
   ranks:
     RMCRankCivilian: []
   startingGear: AU14GearCLFMachineGunnerReinforcement
-  spawnMenuRoleName: job-au14jobclfmachinegunnerreinforcement-spawnmenurolename
+  spawnMenuRoleName: CLF Machinegunner (Reinforcements)
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobclfmachinegunnerreinforcement-supervisors
+  supervisors: au14-job-supervisors-clflrs
   accessGroups:
   - Colonist
   roleWeight: 0.25
@@ -66,7 +66,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicBaseMilitary
   id: AU14IntelThirdPartyCLFInsurgentReinforcementsMachineGunner
-  name: ent-AU14IntelThirdPartyCLFInsurgentReinforcementsMachineGunner
+  name: Insurgent Machine Gunner
   components:
   - type: GhostRoleApplySpecial
   - type: GhostRole

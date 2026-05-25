@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobFORECONSpotterBase
   id: AU14FORECONKillTeamSpotter
-  name: job-au14foreconkillteamspotter-name
-  description: job-au14foreconkillteamspotter-desc
+  name: au14-job-name-forecon-spotter
+  description: au14-job-description-forecon-killteam
   playTimeTracker: AU14FORECONSpotterDetachment
   ranks:
     RMCRankChiefWarrantOfficer:
@@ -10,12 +10,12 @@
       role: AU14FORECONSpotterDetachment
       time: 18000 #5 hours
     RMCRankWarrantOfficer: []
-  spawnMenuRoleName: job-au14foreconkillteamspotter-spawnmenurolename
+  spawnMenuRoleName: FORECON Spotter (AU14, KillTeam)
   startingGear: AU14GearFORECONKillTeamSpotter
   greeting: au14-job-description-forecon-killteam-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14foreconkillteamspotter-supervisors
+  supervisors: au14-job-supervisors-loner
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,9 +32,9 @@
 
 - type: entity
   parent: AU14BaseMobSpeciesOrganicFORECON
-  suffix: ent-AU14JobFORECONKillTeamSpotter-suffix
+  suffix: AU14, FORECON, KillTeam
   id: AU14JobFORECONKillTeamSpotter
-  name: ent-AU14JobFORECONKillTeamSpotter
+  name: FORECON Spotter (Kill Team)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

@@ -31,8 +31,8 @@
 
 - type: entity
   id: RandomHumanoidSpawnerDeathSquad
-  name: ent-RandomHumanoidSpawnerDeathSquad
-  suffix: ent-RandomHumanoidSpawnerDeathSquad-suffix
+  name: Death Squad Agent
+  suffix: ERTRole, Death Squad
   components:
     - type: Sprite
       sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
@@ -71,8 +71,8 @@
 
 - type: entity
   id: RandomHumanoidSpawnerERTLeader
-  name: ent-RandomHumanoidSpawnerERTLeader
-  suffix: ent-RandomHumanoidSpawnerERTLeader-suffix
+  name: ERT leader
+  suffix: ERTRole, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -108,8 +108,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTLeaderEVA
   parent: RandomHumanoidSpawnerERTLeader
-  name: ent-RandomHumanoidSpawnerERTLeaderEVA
-  suffix: ent-RandomHumanoidSpawnerERTLeaderEVA-suffix
+  name: ERT leader
+  suffix: ERTRole, Armored EVA
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -135,7 +135,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTLeaderEVALecter
   parent: RandomHumanoidSpawnerERTLeaderEVA
-  suffix: ent-RandomHumanoidSpawnerERTLeaderEVALecter-suffix
+  suffix: ERTRole, Lecter, EVA
   components:
     - type: RandomHumanoidSpawner
       settings: ERTLeaderEVALecter
@@ -160,8 +160,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTChaplain
   parent: RandomHumanoidSpawnerERTLeader
-  name: ent-RandomHumanoidSpawnerERTChaplain
-  suffix: ent-RandomHumanoidSpawnerERTChaplain-suffix
+  name: ERT chaplain
+  suffix: ERTRole, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -198,8 +198,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTChaplainEVA
   parent: RandomHumanoidSpawnerERTChaplain
-  name: ent-RandomHumanoidSpawnerERTChaplainEVA
-  suffix: ent-RandomHumanoidSpawnerERTChaplainEVA-suffix
+  name: ERT chaplain
+  suffix: ERTRole, Enviro EVA
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -228,8 +228,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTJanitor
   parent: RandomHumanoidSpawnerERTLeader
-  name: ent-RandomHumanoidSpawnerERTJanitor
-  suffix: ent-RandomHumanoidSpawnerERTJanitor-suffix
+  name: ERT janitor
+  suffix: ERTRole, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -265,8 +265,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTJanitorEVA
   parent: RandomHumanoidSpawnerERTJanitor
-  name: ent-RandomHumanoidSpawnerERTJanitorEVA
-  suffix: ent-RandomHumanoidSpawnerERTJanitorEVA-suffix
+  name: ERT janitor
+  suffix: ERTRole, Enviro EVA
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -294,8 +294,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTEngineer
   parent: RandomHumanoidSpawnerERTLeader
-  name: ent-RandomHumanoidSpawnerERTEngineer
-  suffix: ent-RandomHumanoidSpawnerERTEngineer-suffix
+  name: ERT engineer
+  suffix: ERTRole, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -331,8 +331,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTEngineerEVA
   parent: RandomHumanoidSpawnerERTEngineer
-  name: ent-RandomHumanoidSpawnerERTEngineerEVA
-  suffix: ent-RandomHumanoidSpawnerERTEngineerEVA-suffix
+  name: ERT engineer
+  suffix: ERTRole, Enviro EVA
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -360,8 +360,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurity
   parent: RandomHumanoidSpawnerERTLeader
-  name: ent-RandomHumanoidSpawnerERTSecurity
-  suffix: ent-RandomHumanoidSpawnerERTSecurity-suffix
+  name: ERT security
+  suffix: ERTRole, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -397,8 +397,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurityEVA
   parent: RandomHumanoidSpawnerERTSecurity
-  name: ent-RandomHumanoidSpawnerERTSecurityEVA
-  suffix: ent-RandomHumanoidSpawnerERTSecurityEVA-suffix
+  name: ERT security
+  suffix: ERTRole, Armored EVA
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -424,7 +424,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurityEVALecter
   parent: RandomHumanoidSpawnerERTSecurityEVA
-  suffix: ent-RandomHumanoidSpawnerERTSecurityEVALecter-suffix
+  suffix: ERTRole, Lecter, EVA
   components:
     - type: RandomHumanoidSpawner
       settings: ERTSecurityEVALecter
@@ -449,8 +449,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTMedical
   parent: RandomHumanoidSpawnerERTLeader
-  name: ent-RandomHumanoidSpawnerERTMedical
-  suffix: ent-RandomHumanoidSpawnerERTMedical-suffix
+  name: ERT medic
+  suffix: ERTRole, Basic
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -486,8 +486,8 @@
 - type: entity
   id: RandomHumanoidSpawnerERTMedicalEVA
   parent: RandomHumanoidSpawnerERTMedical
-  name: ent-RandomHumanoidSpawnerERTMedicalEVA
-  suffix: ent-RandomHumanoidSpawnerERTMedicalEVA-suffix
+  name: ERT medic
+  suffix: ERTRole, Armored EVA
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -514,8 +514,8 @@
 
 - type: entity
   id: RandomHumanoidSpawnerCBURNUnit
-  name: ent-RandomHumanoidSpawnerCBURNUnit
-  suffix: ent-RandomHumanoidSpawnerCBURNUnit-suffix
+  name: CBURN Agent
+  suffix: ERTRole
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -545,7 +545,7 @@
 ## Central Command
 
 - type: entity
-  name: ent-RandomHumanoidSpawnerCentcomOfficial
+  name: CentComm official
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
     - type: Sprite
@@ -572,7 +572,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerSyndicateAgent
-  name: ent-RandomHumanoidSpawnerSyndicateAgent
+  name: syndicate agent
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -593,7 +593,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNukeOp
-  name: ent-RandomHumanoidSpawnerNukeOp
+  name: Nuclear Operative
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -610,8 +610,8 @@
 
 - type: entity
   id: RandomHumanoidSpawnerCluwne
-  name: ent-RandomHumanoidSpawnerCluwne
-  suffix: ent-RandomHumanoidSpawnerCluwne-suffix
+  name: Cluwne
+  suffix: spawns a cluwne
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi

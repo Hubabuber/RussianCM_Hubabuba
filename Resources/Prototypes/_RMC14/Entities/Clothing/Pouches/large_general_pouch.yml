@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: RMCPouchGeneral
   id: RMCPouchGeneralLarge
-  name: ent-RMCPouchGeneralLarge
-  description: ent-RMCPouchGeneralLarge-desc
+  name: large general pouch
+  description: A general-purpose pouch used to carry more differently sized items.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_drop.rsi
@@ -13,7 +13,7 @@
 - type: entity
   parent: RMCPouchGeneralLarge
   id: RMCPouchGeneralLargeFilledSmartGunDrums
-  suffix: ent-RMCPouchGeneralLargeFilledSmartGunDrums-suffix
+  suffix: Filled, Smart Gun Drums
   components:
   - type: StorageFill
     contents:
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCPouchGeneralLarge
   id: RMCPouchGeneralLargeFilledRoyalCommando
-  suffix: ent-RMCPouchGeneralLargeFilledRoyalCommando-suffix
+  suffix: Filled, RoyalCommando
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCPouchGeneralLarge
   id: RMCPouchGeneralLargeFilledSPPCommand
-  suffix: ent-RMCPouchGeneralLargeFilledSPPCommand-suffix
+  suffix: Filled, SPP
   components:
   - type: StorageFill
     contents:
@@ -44,10 +44,10 @@
 - type: entity
   parent: RMCPouchGeneralLarge
   id: RMCPouchGeneralLargeFilledParaCO
-  suffix: ent-RMCPouchGeneralLargeFilledParaCO-suffix
+  suffix: Survivor, Paramarine, Filled, CO
   components:
     - type: StorageFill
       contents:
         - id: CMClipboard #notepad
-        - id: CMPenFountain
-
+        - id: CMPenFountain 
+          

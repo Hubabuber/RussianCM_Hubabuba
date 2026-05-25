@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorScientist
   id: RMCSurvivorHybrisaXenoarchaeologist
-  name: job-rmcsurvivorhybrisaxenoarchaeologist-name
-  description: job-rmcsurvivorhybrisaxenoarchaeologist-desc
+  name: rmc-job-name-survivor-xenoarchaeologist
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorHybrisaXenoarchaeologist
-  spawnMenuRoleName: job-rmcsurvivorhybrisaxenoarchaeologist-spawnmenurolename
+  spawnMenuRoleName: Xenoarchaeologist (Hybrisa Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaXenoarchaeologist
-  name: ent-RMCSpawnPointSurvivorHybrisaXenoarchaeologist
+  name: xenoarchaeologist spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCSurvivorPresetScientist
   id: RMCGearSurvivorPresetHybrisaXenoarchaeologist
-  name: ent-RMCGearSurvivorPresetHybrisaXenoarchaeologist
+  name: xenoarchaeologist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

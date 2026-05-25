@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaSpace
-  name: ent-RMCAreaSpace
-  suffix: ent-RMCAreaSpace-suffix
+  name: Space
+  suffix: Space Area
   components:
   - type: Area
     avoidBioscan: false
@@ -16,7 +16,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaAdmin
-  name: ent-RMCAreaAdmin
+  name: Admin room
   components:
   - type: Sprite
     state: start
@@ -38,17 +38,17 @@
 - type: entity
   parent: RMCAreaAdminDroppod
   id: RMCAreaAdminDroppodHolding
-  name: ent-RMCAreaAdminDroppodHolding
+  name: Admin Supply Drops Droppod
 
 - type: entity
   parent: RMCAreaAdminDroppod
   id: RMCAreaAdminDroppodLoading
-  name: ent-RMCAreaAdminDroppodLoading
+  name: Admin Supply Drops Loading
 
 - type: entity
   parent: RMCAreaSpace
   id: RMCAreaSpaceHighalt
-  name: ent-RMCAreaSpaceHighalt
+  name: High Altitude
   components:
   - type: Sprite
     state: blue
@@ -56,7 +56,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaStart
-  name: ent-RMCAreaStart
+  name: start area
   components:
   - type: Sprite
     state: start
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaCentcom
-  name: ent-RMCAreaCentcom
+  name: abandoned Centcom
   components:
   - type: Sprite
     state: centcom
@@ -92,17 +92,17 @@
 - type: entity
   parent: RMCAreaCentcom
   id: RMCAreaCentcomControl
-  name: ent-RMCAreaCentcomControl
+  name: abandoned Centcom Control
 
 - type: entity
   parent: RMCAreaCentcom
   id: RMCAreaCentcomLiving
-  name: ent-RMCAreaCentcomLiving
+  name: abandoned Centcom Living Quarters
 
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaTdome
-  name: ent-RMCAreaTdome
+  name: abandoned Thunderdome
   components:
   - type: Sprite
     state: thunder
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCAreaTdome
   id: RMCAreaTdomeTdome1
-  name: ent-RMCAreaTdomeTdome1
+  name: abandoned Thunderdome (Team 1)
   components:
   - type: Sprite
     state: green
@@ -131,7 +131,7 @@
 - type: entity
   parent: RMCAreaTdome
   id: RMCAreaTdomeTdome2
-  name: ent-RMCAreaTdomeTdome2
+  name: abandoned Thunderdome (Team 2)
   components:
   - type: Sprite
     state: yellow
@@ -139,7 +139,7 @@
 - type: entity
   parent: RMCAreaTdome
   id: RMCAreaTdomeTdomeadmin
-  name: ent-RMCAreaTdomeTdomeadmin
+  name: abandoned Thunderdome (Admin.)
   components:
   - type: Sprite
     state: purple
@@ -147,7 +147,7 @@
 - type: entity
   parent: RMCAreaTdome
   id: RMCAreaTdomeTdomeobserve
-  name: ent-RMCAreaTdomeTdomeobserve
+  name: abandoned Thunderdome (Observer.)
   components:
   - type: Sprite
     state: purple

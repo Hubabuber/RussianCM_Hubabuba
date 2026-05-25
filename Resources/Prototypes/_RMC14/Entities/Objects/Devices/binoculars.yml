@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: BaseItem
   id: RMCBinoculars
-  name: ent-RMCBinoculars
-  description: ent-RMCBinoculars-desc
-  suffix: ent-RMCBinoculars-suffix
+  name: binoculars
+  description: A military-issued pair of binoculars.
+  suffix: RMC
   components:
   - type: Item
     size: Small
@@ -48,9 +48,9 @@
 - type: entity
   parent: RMCBinoculars
   id: RMCBinocularsPVE
-  suffix: ent-RMCBinocularsPVE-suffix
-  name: ent-RMCBinocularsPVE
-  description: ent-RMCBinocularsPVE-desc
+  suffix: PVE
+  name: tactical monocular
+  description: A military-issued monocular.
   components:
   - type: Sprite
     state: monocular
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCBinoculars
   id: RMCBinocularsCiv
-  name: ent-RMCBinocularsCiv
-  description: ent-RMCBinocularsCiv-desc
+  name: binoculars
+  description: A pair of binoculars.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: RMCBinocularsCiv
   id: RMCBinocularsCivPVE
-  suffix: ent-RMCBinocularsCivPVE-suffix
+  suffix: PVE
   components:
   - type: Scope
     zoomLevels:
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCBinoculars
   id: RMCRangefinder
-  name: ent-RMCRangefinder
-  description: "ent-RMCRangefinder-desc"
+  name: rangefinder
+  description: "A pair of binoculars with a rangefinding function. Click a tile to acquire it's coordinates."
   components:
   - type: Item
     heldPrefix: rangefinder
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCRangefinder
   id: RMCLaserDesignator
-  name: ent-RMCLaserDesignator
-  description: "ent-RMCLaserDesignator-desc"
+  name: laser designator
+  description: "A laser designator with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -142,9 +142,9 @@
 - type: entity
   parent: RMCLaserDesignator
   id: RMCLaserDesignatorPVE
-  suffix: ent-RMCLaserDesignatorPVE-suffix
-  name: ent-RMCLaserDesignatorPVE
-  description: ent-RMCLaserDesignatorPVE-desc
+  suffix: PVE
+  name: tactical monocular designator
+  description: Two-mode tactical monocular, developed for use alongside CAS elements and orbital support. Click a tile to target something.
   components:
   - type: Sprite
     layers:
@@ -169,8 +169,8 @@
 - type: entity
   parent: RMCRangefinder
   id: RMCLaserDesignatorSpotter
-  name: ent-RMCLaserDesignatorSpotter
-  description: "ent-RMCLaserDesignatorSpotter-desc"
+  name: spotter's laser designator
+  description: "A specially-designed laser designator, issued to UNMC spotters, with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something. Additionally, a trained spotter can laze targets for a UNMC marksman, increasing the speed of target acquisition. A targeting beam will connect the binoculars to the target, but it may inherit the user's cloak, if possible."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: RMCLaserDesignator
   id: RMCLaserDesignatorScout
-  name: ent-RMCLaserDesignatorScout
-  description: "ent-RMCLaserDesignatorScout-desc"
+  name: scout laser designator
+  description: "An improved laser designator, issued to UNMC scouts, with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something."
   components:
   - type: Rangefinder
     delay: 3
@@ -202,7 +202,7 @@
 
 - type: entity
   id: RMCRangefinderTarget
-  name: ent-RMCRangefinderTarget
+  name: laser
   components:
   - type: Transform
     anchored: true
@@ -218,7 +218,7 @@
 - type: entity
   parent: RMCRangefinderTarget
   id: RMCLaserDesignatorTarget
-  description: ent-RMCLaserDesignatorTarget-desc
+  description: It's a laser to designate artillery targets, get away from it!
   components:
   - type: Sprite
     sprite: _RMC14/Effects/laser.rsi
@@ -235,7 +235,7 @@
 - type: entity
   parent: RMCRangefinderTarget
   id: RMCLaserDropshipTarget
-  name: ent-RMCLaserDropshipTarget
+  name: blinking laser
   components:
   - type: Sprite
     state: laser_target3

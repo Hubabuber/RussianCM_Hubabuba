@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCJobSynthetic
-  name: job-rmcjobsynthetic-name
-  description: job-rmcjobsynthetic-desc
+  name: rmc-job-name-synth
+  description: rmc-job-description-synth
   playTimeTracker: RMCJobSynthetic
   ranks:
     RMCRankChiefWarrantOfficer:
@@ -16,7 +16,7 @@
   joinNotifyCrew: true
   whitelisted: true
   whitelistParent: RMCWhitelistMedium
-  supervisors: job-rmcjobsynthetic-supervisors
+  supervisors: rmc-job-supervisors-commander
   accessGroups:
   - ShipMasterAccess
   - Synth
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSynth
-  name: ent-RMCSpawnPointSynth
+  name: synthetic spawn point
   components:
   - type: SpawnPoint
     job_id: RMCJobSynthetic

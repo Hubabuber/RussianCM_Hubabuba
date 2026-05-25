@@ -1,7 +1,7 @@
 - type: entity
   parent: CMAirlockSecurity
   id: CMAirlockBrigLocked
-  suffix: ent-CMAirlockBrigLocked-suffix
+  suffix: Brig, Locked
   components:
   - type: AccessReader
     access: [["CMAccessBrig"]]
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: CMAirlockGlassBrigLocked
-  suffix: ent-CMAirlockGlassBrigLocked-suffix
+  suffix: Brig, Locked, Glass
   components:
   - type: AccessReader
     access: [["CMAccessBrig"]]
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMAirlockMaint
   id: CMAirlockMaintBrigLocked
-  suffix: ent-CMAirlockMaintBrigLocked-suffix
+  suffix: Brig, Locked, Maint
   components:
   - type: AccessReader
     access: [["CMAccessBrig"]]
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMAirlockSecurity
   id: CMAirlockArmoryLocked
-  suffix: ent-CMAirlockArmoryLocked-suffix
+  suffix: Armory, Locked
   components:
   - type: AccessReader
     access: [["CMAccessArmory"]]
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMAirlockGlassSecurity
   id: CMAirlockGlassArmoryLocked
-  suffix: ent-CMAirlockGlassArmoryLocked-suffix
+  suffix: Armory, Locked, Glass
   components:
   - type: AccessReader
     access: [["CMAccessArmory"]]

@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-BoxCardboard
+  name: cardboard box
   parent: BoxBase
   id: BoxCardboard
-  description: ent-BoxCardboard-desc
+  description: A cardboard box for storing things.
   components:
   - type: Item
     size: Large
@@ -19,10 +19,10 @@
     - BoxCardboard
 
 - type: entity
-  name: ent-BoxMousetrap
+  name: mousetrap box
   parent: BoxCardboard
   id: BoxMousetrap
-  description: ent-BoxMousetrap-desc
+  description: This box is filled with mousetraps. Try not to get your hand stuck in one.
   components:
     - type: StorageFill
       contents:
@@ -34,10 +34,10 @@
         - state: mousetraps
 
 - type: entity
-  name: ent-BoxLightbulb
+  name: lightbulb box
   parent: BoxCardboard
   id: BoxLightbulb
-  description: ent-BoxLightbulb-desc
+  description: This box is shaped on the inside so that only light tubes and bulbs fit.
   components:
   - type: Sprite
     layers:
@@ -55,7 +55,7 @@
         amount: 12
 
 - type: entity
-  name: ent-BoxWarmLightbulb
+  name: lightbulb box warm
   parent: BoxLightbulb
   id: BoxWarmLightbulb
   components:
@@ -65,7 +65,7 @@
         amount: 12
 
 - type: entity
-  name: ent-BoxLighttube
+  name: lighttube box
   parent: BoxLightbulb
   id: BoxLighttube
   components:
@@ -79,7 +79,7 @@
         amount: 12
 
 - type: entity
-  name: ent-BoxLightMixed
+  name: mixed lights box
   parent: BoxLightbulb
   id: BoxLightMixed
   components:
@@ -95,7 +95,7 @@
         amount: 6
 
 - type: entity
-  name: ent-BoxLighttubeHoliday
+  name: holiday lighttube box
   parent: BoxLightbulb
   id: BoxLighttubeHoliday
   components:
@@ -115,10 +115,10 @@
       - id: LightTubeCrystalGreen
 
 - type: entity
-  name: ent-BoxPDA
+  name: PDA box
   parent: BoxCardboard
   id: BoxPDA
-  description: ent-BoxPDA-desc
+  description: A box of spare PDA microcomputers.
   components:
   - type: StorageFill
     contents:
@@ -130,10 +130,10 @@
       - state: pda
 
 - type: entity
-  name: ent-BoxID
+  name: ID card box
   parent: BoxCardboard
   id: BoxID
-  description: ent-BoxID-desc
+  description: A box of spare blank ID cards.
   components:
   - type: StorageFill
     contents:
@@ -145,10 +145,10 @@
       - state: pda
 
 - type: entity
-  name: ent-BoxHeadset
+  name: headset box
   parent: BoxCardboard
   id: BoxHeadset
-  description: ent-BoxHeadset-desc
+  description: A box of spare passenger headsets.
   components:
   - type: StorageFill
     contents:
@@ -160,10 +160,10 @@
       - state: headset
 
 - type: entity
-  name: ent-BoxMesonScanners
+  name: meson box
   parent: BoxCardboard
   id: BoxMesonScanners
-  description: ent-BoxMesonScanners-desc
+  description: A box of spare meson goggles.
   components:
   - type: StorageFill
     contents:
@@ -175,10 +175,10 @@
       - state: meson
 
 - type: entity
-  name: ent-BoxMRE
+  name: M.R.E.
   parent: BoxCardboard
   id: BoxMRE
-  description: ent-BoxMRE-desc
+  description: A box of decades old military surplus rations. It is surprisingly not rotten.
   components:
   - type: StorageFill
     contents:
@@ -194,7 +194,7 @@
 - type: entity
   parent: BoxHug
   id: BoxHugHealing
-  suffix: ent-BoxHugHealing-suffix
+  suffix: Medical
   components:
   - type: StorageFill
     contents:
@@ -202,10 +202,10 @@
         amount: 3
 
 - type: entity
-  name: ent-BoxInflatable
+  name: inflatable wall box
   parent: BoxCardboard
   id: BoxInflatable
-  description: ent-BoxInflatable-desc
+  description: Inflatable walls are not to be used as floatation devices.
   components:
   - type: StorageFill
     contents:
@@ -220,10 +220,10 @@
 
 
 - type: entity
-  name: ent-BoxPerformer
+  name: hatsune miku day bag
   parent: ClothingBackpackDuffel
   id: BoxPerformer
-  description: ent-BoxPerformer-desc
+  description: Happy Hatsune Miku Day!
   components:
   - type: StorageFill
     contents:
@@ -234,10 +234,10 @@
         amount: 2
 
 - type: entity
-  name: ent-BoxFlare
+  name: flare box
   parent: BoxCardboard
   id: BoxFlare
-  description: ent-BoxFlare-desc
+  description: A box of flares. Party time.
   components:
   - type: StorageFill
     contents:
@@ -249,10 +249,10 @@
       - state: flare
 
 - type: entity
-  name: ent-BoxTrashbag
+  name: trashbag box
   parent: BoxCardboard
   id: BoxTrashbag
-  description: ent-BoxTrashbag-desc
+  description: A box of trashbags. Happy janitor noises.
   components:
   - type: StorageFill
     contents:
@@ -271,10 +271,10 @@
       - state: trashbag
 
 - type: entity
-  name: ent-BoxEncryptionKeyPassenger
+  name: passenger encryption key box
   parent: BoxCardboard
   id: BoxEncryptionKeyPassenger
-  description: ent-BoxEncryptionKeyPassenger-desc
+  description: A box of spare encryption keys.
   components:
   - type: StorageFill
     contents:
@@ -290,7 +290,7 @@
       - EncryptionKey
 
 - type: entity
-  name: ent-BoxEncryptionKeyCargo
+  name: cargo encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyCargo
   components:
@@ -300,7 +300,7 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxEncryptionKeyEngineering
+  name: engineering encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyEngineering
   components:
@@ -310,7 +310,7 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxEncryptionKeyMedicalScience
+  name: med-sci encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyMedicalScience
   components:
@@ -320,7 +320,7 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxEncryptionKeyMedical
+  name: medical encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyMedical
   components:
@@ -330,7 +330,7 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxEncryptionKeyRobo
+  name: robotech encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyRobo
   components:
@@ -340,7 +340,7 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxEncryptionKeyScience
+  name: science encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyScience
   components:
@@ -350,7 +350,7 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxEncryptionKeySecurity
+  name: security encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeySecurity
   components:
@@ -360,7 +360,7 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxEncryptionKeyService
+  name: service encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyService
   components:
@@ -370,10 +370,10 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxEncryptionKeySyndie
+  name: syndicate encryption key box
   parent: [BoxEncryptionKeyPassenger, BaseSyndicateContraband]
   id: BoxEncryptionKeySyndie
-  description: ent-BoxEncryptionKeySyndie-desc
+  description: Two syndicate encryption keys for the price of one. Miniaturized for ease of use.
   components:
   - type: Item
     size: Normal
@@ -384,11 +384,11 @@
   - type: Storage
 
 - type: entity
-  name: ent-BoxLeadLined
+  name: lead-lined box
   parent: BoxCardboard
-  suffix: ent-BoxLeadLined-suffix
+  suffix: DEBUG
   id: BoxLeadLined
-  description: ent-BoxLeadLined-desc
+  description: This box stymies the transmission of harmful radiation.
   components:
   - type: Sprite
     state: box
@@ -396,10 +396,10 @@
     resistance: 2
 
 - type: entity
-  name: ent-BoxCandle
+  name: candle box
   parent: BoxCardboard
   id: BoxCandle
-  description: ent-BoxCandle-desc
+  description: This box is specifically moulded to only carry candles.
   components:
   - type: Sprite
     layers:
@@ -425,7 +425,7 @@
         amount: 2
 
 - type: entity
-  name: ent-BoxCandleSmall
+  name: small candle box
   parent: BoxCandle
   id: BoxCandleSmall
   components:
@@ -443,10 +443,10 @@
         amount: 4
 
 - type: entity
-  name: ent-BoxDarts
+  name: darts box
   parent: BoxCardboard
   id: BoxDarts
-  description: ent-BoxDarts-desc
+  description: A box filled with colorful darts.
   components:
   - type: Sprite
     layers:
@@ -464,10 +464,10 @@
         amount: 2
 
 - type: entity
-  name: ent-BoxEnvelope
+  name: envelope box
   parent: BoxCardboard
   id: BoxEnvelope
-  description: ent-BoxEnvelope-desc
+  description: A box filled with envelopes.
   components:
   - type: Sprite
     layers:
@@ -479,10 +479,10 @@
         amount: 9
 
 - type: entity
-  name: ent-BoxUtensil
+  name: utensil box
   parent: BoxCardboard
   id: BoxUtensil
-  description: ent-BoxUtensil-desc
+  description: A box filled with forks and spoons.
   components:
   - type: Sprite
     layers:

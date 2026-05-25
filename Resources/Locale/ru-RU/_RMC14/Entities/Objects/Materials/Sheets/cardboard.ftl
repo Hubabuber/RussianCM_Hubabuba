@@ -1,17 +1,15 @@
 ent-RMCSheetCardboard = картон
   .desc = Лист материала, часто используемый на станции в различных целях.
-    .suffix = картон
+
 ent-RMCSheetCardboard30 = картон
   .desc = Лист материала, часто используемый на станции в различных целях.
-    .suffix = картон
+
 ent-RMCSheetCardboard25 = картон
   .desc = Лист материала, часто используемый на станции в различных целях.
-    .suffix = картон
+
 ent-RMCSheetCardboard10 = картон
   .desc = Лист материала, часто используемый на станции в различных целях.
-    .suffix = картон
+
 ent-RMCSheetCardboard1 = картон
   .desc = Лист материала, часто используемый на станции в различных целях.
-    .suffix = картон
-material-rmcsheetcardboard-name = материалы-картон
-stack-rmcsheetcardboard-name = материалы-картон
+

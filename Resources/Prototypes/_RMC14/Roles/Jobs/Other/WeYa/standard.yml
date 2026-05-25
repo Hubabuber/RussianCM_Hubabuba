@@ -2,8 +2,8 @@
 - type: job
   parent: CMJobBase
   id: RMCPMCStandardM63B2
-  name: job-rmcpmcstandardm63b2-name
-  description: job-rmcpmcstandardm63b2-desc
+  name: rmc-job-name-pmc-standard
+  description: rmc-ghost-role-information-pmc-description
   playTimeTracker: RMCJobPMCStandardM63B2
   ranks:
     RMCRankWeYaOperator: []
@@ -13,7 +13,7 @@
   accessGroups:
   - Colony
   - RMCWeYa
-  spawnMenuRoleName: job-rmcpmcstandardm63b2-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Operator (M63B2)
   special:
   - !type:AddComponentSpecial
     components:
@@ -42,8 +42,8 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCStandardM63B2
-  name: ent-RMCRandomHumanoidPMCStandardM63B2
-  suffix: ent-RMCRandomHumanoidPMCStandardM63B2-suffix
+  name: weya pmc ghost role standard
+  suffix: Spawner, Player, M63B2
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCStandardM63B2
-  name: ent-RMCSpawnPointPMCStandardM63B2
-  suffix: ent-RMCSpawnPointPMCStandardM63B2-suffix
+  name: weya pmc operator spawn point
+  suffix: M63B2
   components:
   - type: SpawnPoint
     job_id: RMCPMCStandardM63B2
@@ -120,12 +120,12 @@
   id: RMCPMCStandardSSG45
   playTimeTracker: RMCJobPMCStandardSSG45
   startingGear: RMCJobPMCStandardSSG45
-  spawnMenuRoleName: job-rmcpmcstandardssg45-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Operator (SSG-45)
 
 - type: entity
   id: RMCRandomHumanoidPMCStandardSSG45
-  name: ent-RMCRandomHumanoidPMCStandardSSG45
-  suffix: ent-RMCRandomHumanoidPMCStandardSSG45-suffix
+  name: weya pmc ghost role standard
+  suffix: Spawner, Player, SSG45
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCStandardSSG45
-  name: ent-RMCSpawnPointPMCStandardSSG45
-  suffix: ent-RMCSpawnPointPMCStandardSSG45-suffix
+  name: weya pmc operator spawn point
+  suffix: SSG45
   components:
   - type: SpawnPoint
     job_id: RMCPMCStandardSSG45
@@ -200,12 +200,12 @@
   id: RMCPMCStandardM54C2
   playTimeTracker: RMCJobPMCStandardM54C2
   startingGear: RMCJobPMCStandardM54C2
-  spawnMenuRoleName: job-rmcpmcstandardm54c2-spawnmenurolename
+  spawnMenuRoleName: WEYA PMC Operator (M54C2)
 
 - type: entity
   id: RMCRandomHumanoidPMCStandardM54C2
-  name: ent-RMCRandomHumanoidPMCStandardM54C2
-  suffix: ent-RMCRandomHumanoidPMCStandardM54C2-suffix
+  name: weya pmc ghost role standard
+  suffix: Spawner, Player, M54C2
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCPMCStandardM54C2
-  name: ent-RMCPMCStandardM54C2
-  suffix: ent-RMCPMCStandardM54C2-suffix
+  name: weya pmc operator spawn point
+  suffix: M54C2
   components:
   - type: SpawnPoint
     job_id: RMCPMCStandardM54C2

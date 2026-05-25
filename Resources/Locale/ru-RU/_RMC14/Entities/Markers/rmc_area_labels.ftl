@@ -1,14 +1,14 @@
 ent-RMCMarkerAreaLabel = область
-    .suffix = область
+
 ent-RMCMarkerAreaLabelRed = область
-    .suffix = область
+
 ent-RMCMarkerAreaLabelBlue = область
-    .suffix = область
+
 ent-RMCMarkerAreaLabelGreen = область
-    .suffix = область
+
 ent-RMCMarkerAreaLabelCyan = область
-    .suffix = область
+
 ent-RMCMarkerAreaLabelPurple = область
-    .suffix = область
+
 ent-RMCMarkerAreaLabelOrange = область
-    .suffix = область
+

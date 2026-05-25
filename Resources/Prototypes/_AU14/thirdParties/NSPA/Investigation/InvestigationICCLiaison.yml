@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobLEOLeaderBase
   id: AU14JobInvestigationICCLiaison
-  name: job-au14jobinvestigationiccliaison-name
-  description: job-au14jobinvestigationiccliaison-desc
+  name: au14-job-name-civilianiccliaison
+  description: au14-job-description-civilianiccliaison
   playTimeTracker: AU14JobInvestigationICCLiaison
   setPreference: false
   canBeAntag: false
@@ -12,7 +12,7 @@
   icon: "RMCJobIconICBLiaison"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: job-au14jobinvestigationiccliaison-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - auadmin
   - aucmb
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicNSPA
   id: NSPAInvestigationPartyJobICCLiaison
-  name: ent-NSPAInvestigationPartyJobICCLiaison
+  name: Interstellar Commerce Commission Liaison
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

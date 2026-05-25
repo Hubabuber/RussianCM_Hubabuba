@@ -21,8 +21,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowPrison
-  name: ent-RMCWindowPrison
-  description: ent-RMCWindowPrison-desc
+  name: window
+  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/prison_window.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: RMCWindowPrison
   id: RMCWindowPrisonCell
-  name: ent-RMCWindowPrisonCell
-  description: ent-RMCWindowPrisonCell-desc
+  name: cell window
+  description: A glass window with a special rod matrix inside a wall frame.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/prison_cellwindow.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowPrisonReinforced
-  name: ent-RMCWindowPrisonReinforced
-  description: ent-RMCWindowPrisonReinforced-desc
+  name: reinforced window
+  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/prison_rwindow.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowPrisonHull
-  name: ent-RMCWindowPrisonHull
-  description: ent-RMCWindowPrisonHull-desc
+  name: hull window
+  description: A glass window with a special rod matrix inside a wall frame. This one has an automatic shutter system to prevent any atmospheric breach.
   components:
   - type: Corrodible
     isCorrodible: false

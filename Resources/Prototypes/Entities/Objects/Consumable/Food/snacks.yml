@@ -29,10 +29,10 @@
 # reagents and shit for healing or different effects.
 
 - type: entity
-  name: ent-FoodSnackBoritos
+  name: boritos
   parent: FoodSnackBase
   id: FoodSnackBoritos
-  description: ent-FoodSnackBoritos-desc
+  description: Crunchy, salty tortilla chips. You could probably make nachos with these.
   components:
   - type: FlavorProfile
     flavors:
@@ -46,10 +46,10 @@
     - FoodPacketBoritosTrash
 
 - type: entity
-  name: ent-FoodSnackCnDs
+  name: C&Ds
   parent: FoodSnackBase
   id: FoodSnackCnDs
-  description: ent-FoodSnackCnDs-desc
+  description: Legally, we cannot say that these won't melt in your hands.
   components:
   - type: FlavorProfile
     flavors:
@@ -63,10 +63,10 @@
     - FoodPacketCnDsTrash
 
 - type: entity
-  name: ent-FoodSnackCheesie
+  name: cheesie honkers
   parent: FoodSnackBase
   id: FoodSnackCheesie
-  description: ent-FoodSnackCheesie-desc
+  description: Bite sized cheesie snacks that will honk all over your mouth.
   components:
   - type: FlavorProfile
     flavors:
@@ -81,10 +81,10 @@
     - FoodPacketCheesieTrash
 
 - type: entity
-  name: ent-FoodSnackChips
+  name: chips
   parent: FoodSnackBase
   id: FoodSnackChips
-  description: ent-FoodSnackChips-desc
+  description: Commander Riker's What-The-Crisps.
   components:
   - type: FlavorProfile
     flavors:
@@ -100,10 +100,10 @@
     - FoodPacketChipsTrash
 
 - type: entity
-  name: ent-FoodSnackChocolate
+  name: chocolate bar
   parent: BaseItem
   id: FoodSnackChocolate
-  description: ent-FoodSnackChocolate-desc
+  description: Tastes like cardboard.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/snacks.rsi
@@ -122,10 +122,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: ent-FoodSnackChocolateBar
+  name: chocolate bar
   parent: FoodSnackBase
   id: FoodSnackChocolateBar
-  description: ent-FoodSnackChocolateBar-desc
+  description: Tastes like cardboard.
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
           Quantity: 1
 
 - type: entity
-  name: ent-FoodSnackEnergy
+  name: energy bar
   parent: FoodSnackBase
   id: FoodSnackEnergy
-  description: ent-FoodSnackEnergy-desc
+  description: An energy bar with a lot of punch.
   components:
   - type: Sprite
     state: energybar
@@ -168,10 +168,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: ent-FoodSnackEnergyBar
+  name: energy bar
   parent: FoodSnackBase
   id: FoodSnackEnergyBar
-  description: ent-FoodSnackEnergyBar-desc
+  description: An energy bar with a lot of punch.
   components:
   - type: FlavorProfile
     flavors:
@@ -185,10 +185,10 @@
     heldPrefix: energybar-open
 
 - type: entity
-  name: ent-FoodSnackPistachios
+  name: Sweetie's pistachios
   parent: FoodSnackBase
   id: FoodSnackPistachios
-  description: ent-FoodSnackPistachios-desc
+  description: Sweeties's name-brand pistachios. Probably won't give you diseases. Probably.
   components:
   - type: FlavorProfile
     flavors:
@@ -207,10 +207,10 @@
     - Pistachios # Added tag due to CrateFoodGetMore interaction with BountyFruit.
 
 - type: entity
-  name: ent-FoodSnackPopcorn
+  name: popcorn
   parent: FoodSnackBase
   id: FoodSnackPopcorn
-  description: ent-FoodSnackPopcorn-desc
+  description: Grown on an unknown planet, by an unknown farmer, popped by some jerk on a space station.
   components:
   - type: FlavorProfile
     flavors:
@@ -226,10 +226,10 @@
     - FoodPacketPopcornTrash
 
 - type: entity
-  name: ent-FoodSnackRaisins
+  name: 4no raisins
   parent: FoodSnackBase
   id: FoodSnackRaisins
-  description: ent-FoodSnackRaisins-desc
+  description: Best raisins in the universe. Not sure why.
   components:
   - type: FlavorProfile
     flavors:
@@ -246,10 +246,10 @@
     - Fruit
 
 - type: entity
-  name: ent-FoodSnackSemki
+  name: bob's semki sunflower seeds
   parent: FoodSnackBase
   id: FoodSnackSemki
-  description: ent-FoodSnackSemki-desc
+  description: Proudly produced by the Bob Bobson nutritional corporation. Perfect for spitting at people.
   components:
   - type: FlavorProfile
     flavors:
@@ -263,10 +263,10 @@
     - FoodPacketSemkiTrash
 
 - type: entity
-  name: ent-FoodSnackSus
+  name: sus jerky
   parent: FoodSnackBase
   id: FoodSnackSus
-  description: ent-FoodSnackSus-desc
+  description: Something about this packet makes you feel incredibly uneasy. Jerky's good though.
   components:
   - type: FlavorProfile
     flavors:
@@ -286,7 +286,7 @@
   name: syndi-cakes
   parent: FoodSnackBase
   id: FoodSnackSyndi
-  description: ent-FoodSnackSyndi-desc
+  description: An extremely moist snack cake that tastes just as good after being nuked.
   components:
   - type: FlavorProfile
     flavors:
@@ -302,8 +302,8 @@
 - type: entity
   parent: FoodSnackBase
   id: DrinkRamen
-  name: ent-DrinkRamen
-  description: ent-DrinkRamen-desc
+  name: cup ramen
+  description: A cheap food with a taste that reminds you of your school years.
   components:
   - type: RefillableSolution
     solution: food
@@ -329,8 +329,8 @@
 - type: entity
   parent: DrinkRamen
   id: DrinkHellRamen
-  name: ent-DrinkHellRamen
-  description: ent-DrinkHellRamen-desc
+  name: hell ramen
+  description: Super spicy flavor!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -343,10 +343,10 @@
           Quantity: 5
 
 - type: entity
-  name: ent-FoodSnackChowMein
+  name: chow mein
   parent: FoodSnackBase
   id: FoodSnackChowMein
-  description: ent-FoodSnackChowMein-desc
+  description: A salty fried noodle snack. Looks like they forgot the vegetables.
   components:
   - type: FlavorProfile
     flavors:
@@ -371,10 +371,10 @@
     - FoodPacketChowMeinTrash
 
 - type: entity
-  name: ent-FoodSnackDanDanNoodles
+  name: dan dan noodles
   parent: FoodSnackBase
   id: FoodSnackDanDanNoodles
-  description: ent-FoodSnackDanDanNoodles-desc
+  description: A spicy Sichuan noodle snack. The chili oil slick pools on top.
   components:
   - type: FlavorProfile
     flavors:
@@ -401,10 +401,10 @@
     - FoodPacketDanDanTrash
 
 - type: entity
-  name: ent-FoodSnackCookieFortune
+  name: fortune cookie
   parent: FoodSnackBase
   id: FoodSnackCookieFortune
-  description: ent-FoodSnackCookieFortune-desc
+  description: A boring cardboard tasting snack with a fortune inside. Surprise! You're boring too.
   components:
   - type: FlavorProfile
     flavors:
@@ -429,8 +429,8 @@
 - type: entity
   id: FoodSnackNutribrick
   parent: BaseItem
-  name: ent-FoodSnackNutribrick
-  description: ent-FoodSnackNutribrick-desc
+  name: nutribrick
+  description: A carefully synthesized brick designed to contain the highest ratio of nutriment to volume. Tastes like shit.
   components:
   - type: Item
     size: Small
@@ -451,8 +451,8 @@
 - type: entity
   id: FoodSnackNutribrickOpen
   parent: FoodSnackBase
-  name: ent-FoodSnackNutribrickOpen
-  description: ent-FoodSnackNutribrickOpen-desc
+  name: nutribrick
+  description: A carefully synthesized brick designed to contain the highest ratio of nutriment to volume. Tastes like shit.
   components:
   - type: FlavorProfile
     flavors:
@@ -477,8 +477,8 @@
 - type: entity
   id: FoodSnackMREBrownie
   parent: BaseItem
-  name: ent-FoodSnackMREBrownie
-  description: ent-FoodSnackMREBrownie-desc
+  name: brownie
+  description: A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/snacks.rsi
@@ -498,9 +498,9 @@
 - type: entity
   id: FoodSnackMREBrownieOpen
   parent: FoodSnackBase
-  name: ent-FoodSnackMREBrownieOpen
-  suffix: ent-FoodSnackMREBrownieOpen-suffix
-  description: ent-FoodSnackMREBrownieOpen-desc
+  name: brownie
+  suffix: MRE
+  description: A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
   components:
   - type: FlavorProfile
     flavors:
@@ -521,10 +521,10 @@
           Quantity: 3
 
 - type: entity
-  name: ent-FoodSnackSwirlLollipop
+  name: swirl lollipop
   parent: FoodSnackBase
   id: FoodSnackSwirlLollipop
-  description: ent-FoodSnackSwirlLollipop-desc
+  description: A swirly circle of pure concentrated sugar. Who's the biggest kid on the playground now?
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/candy.rsi
@@ -561,7 +561,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: FoodPacketTrash
-  description: ent-FoodPacketTrash-desc
+  description: This is rubbish.
   abstract: true
   components:
   - type: Sprite
@@ -592,7 +592,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketBoritosTrash
-  name: ent-FoodPacketBoritosTrash
+  name: boritos bag
   components:
   - type: Sprite
     state: boritos-trash
@@ -609,7 +609,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketCnDsTrash
-  name: ent-FoodPacketCnDsTrash
+  name: C&Ds bag
   components:
   - type: Sprite
     state: cnds-trash
@@ -626,7 +626,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketCheesieTrash
-  name: ent-FoodPacketCheesieTrash
+  name: cheesie honkers
   components:
   - type: Sprite
     state: cheesiehonkers-trash
@@ -643,7 +643,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketChipsTrash
-  name: ent-FoodPacketChipsTrash
+  name: chips
   components:
   - type: Sprite
     state: chips-trash
@@ -660,7 +660,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketChocolateTrash
-  name: ent-FoodPacketChocolateTrash
+  name: chocolate wrapper
   components:
   - type: Sprite
     state: chocolatebar-trash
@@ -677,7 +677,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketEnergyTrash
-  name: ent-FoodPacketEnergyTrash
+  name: energybar wrapper
   components:
   - type: Sprite
     state: energybar-trash
@@ -694,7 +694,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketPistachioTrash
-  name: ent-FoodPacketPistachioTrash
+  name: pistachios packet
   components:
   - type: Sprite
     state: pistachio-trash
@@ -711,7 +711,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketPopcornTrash
-  name: ent-FoodPacketPopcornTrash
+  name: popcorn box
   components:
   - type: Sprite
     state: popcorn-trash
@@ -728,7 +728,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketRaisinsTrash
-  name: ent-FoodPacketRaisinsTrash
+  name: 4no raisins
   components:
   - type: Sprite
     state: raisins-trash
@@ -745,7 +745,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketSemkiTrash
-  name: ent-FoodPacketSemkiTrash
+  name: semki packet
   components:
   - type: Sprite
     state: semki-trash
@@ -762,7 +762,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketSusTrash
-  name: ent-FoodPacketSusTrash
+  name: sus jerky
   components:
   - type: Sprite
     state: susjerky-trash
@@ -779,7 +779,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketSyndiTrash
-  name: ent-FoodPacketSyndiTrash
+  name: syndi-cakes box
   components:
   - type: Sprite
     state: syndicakes-trash
@@ -796,7 +796,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketCupRamenTrash
-  name: ent-FoodPacketCupRamenTrash
+  name: empty cup ramen
   components:
   - type: Sprite
     state: ramen
@@ -807,7 +807,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketChowMeinTrash
-  name: ent-FoodPacketChowMeinTrash
+  name: empty chow mein box
   components:
   - type: Sprite
     state: chinese1
@@ -818,7 +818,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketDanDanTrash
-  name: ent-FoodPacketDanDanTrash
+  name: empty dan dan box
   components:
   - type: Sprite
     state: chinese2
@@ -829,8 +829,8 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodCookieFortune
-  name: ent-FoodCookieFortune
-  description: "ent-FoodCookieFortune-desc"
+  name: cookie fortune
+  description: "The fortune reads: The end is near...and it's all your fault."
   components:
   - type: Sprite
     state: fortune
@@ -842,8 +842,8 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketMRETrash
-  name: ent-FoodPacketMRETrash
-  description: ent-FoodPacketMRETrash-desc
+  name: MRE wrapper
+  description: A general purpose wrapper for a variety of military food goods.
   components:
   - type: Food
     requiresSpecialDigestion: true

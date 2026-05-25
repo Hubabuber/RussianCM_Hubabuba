@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseSlideMagazineVisualsBallistic, CMBaseWeaponGun, RMCBaseAttachableHolder ]
   id: RMCWeaponPistolM82F
-  name: ent-RMCWeaponPistolM82F
-  description: ent-RMCWeaponPistolM82F-desc
+  name: M82-F flare gun
+  description: A flare gun issued to JTAC operators to use with flares. Comes with a miniscope. One shot, one... life saved?
   components:
   - type: AmmoCounter
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: RMCWeaponPistolM82F
   id: RMCWeaponPistolM82FEmpty
-  suffix: ent-RMCWeaponPistolM82FEmpty-suffix
+  suffix: Empty
   components:
   - type: BallisticAmmoProvider
     proto: null

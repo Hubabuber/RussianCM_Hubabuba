@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleVanRoofBase
-  name: ent-VehicleVanRoofBase
-  description: ent-VehicleVanRoofBase-desc
+  name: van interior roof
+  description: A removable roof section for the van interior.
   placement:
     mode: SnapgridCenter
   components:
@@ -29,7 +29,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanRoof1
-  name: ent-VehicleVanRoof1
+  name: van roof 1
   components:
   - type: Sprite
     layers:
@@ -39,7 +39,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanRoof2
-  name: ent-VehicleVanRoof2
+  name: van roof 2
   components:
   - type: Sprite
     layers:
@@ -49,7 +49,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanRoof3
-  name: ent-VehicleVanRoof3
+  name: van roof 3
   components:
   - type: Sprite
     layers:
@@ -59,7 +59,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanFrontRoof1
-  name: ent-VehicleVanFrontRoof1
+  name: van front roof 1
   components:
   - type: Sprite
     layers:
@@ -76,7 +76,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanFrontRoof2
-  name: ent-VehicleVanFrontRoof2
+  name: van front roof 2
   components:
   - type: Sprite
     layers:
@@ -93,8 +93,8 @@
 - type: entity
   abstract: true
   id: VehicleVanInteriorBase
-  name: ent-VehicleVanInteriorBase
-  description: ent-VehicleVanInteriorBase-desc
+  name: van interior piece
+  description: A decorative interior piece for the van.
   placement:
     mode: SnapgridCenter
   components:
@@ -140,7 +140,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanFront1
-  name: ent-VehicleVanFront1
+  name: van front 1
   components:
   - type: Sprite
     state: front_1
@@ -148,7 +148,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanFront2
-  name: ent-VehicleVanFront2
+  name: van front 2
   components:
   - type: Sprite
     state: front_2
@@ -156,7 +156,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanFront3
-  name: ent-VehicleVanFront3
+  name: van front 3
   components:
   - type: Sprite
     state: front_3
@@ -164,7 +164,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanBack1
-  name: ent-VehicleVanBack1
+  name: van back 1
   components:
   - type: Sprite
     state: back_1
@@ -174,7 +174,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanBack2
-  name: ent-VehicleVanBack2
+  name: van back 2
   components:
   - type: Sprite
     state: back_2
@@ -184,7 +184,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanBack3
-  name: ent-VehicleVanBack3
+  name: van back 3
   components:
   - type: Sprite
     state: back_3
@@ -192,7 +192,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanLeft1
-  name: ent-VehicleVanLeft1
+  name: van left 1
   components:
   - type: Sprite
     state: van_left_1
@@ -200,7 +200,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanLeft2
-  name: ent-VehicleVanLeft2
+  name: van left 2
   components:
   - type: Sprite
     state: van_left_2
@@ -208,7 +208,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanLeft3
-  name: ent-VehicleVanLeft3
+  name: van left 3
   components:
   - type: Sprite
     state: van_left_3
@@ -216,7 +216,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanRight1
-  name: ent-VehicleVanRight1
+  name: van right 1
   components:
   - type: Sprite
     state: van_right_1
@@ -224,7 +224,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanRight2
-  name: ent-VehicleVanRight2
+  name: van right 2
   components:
   - type: Sprite
     state: van_right_2
@@ -232,7 +232,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanRight3
-  name: ent-VehicleVanRight3
+  name: van right 3
   components:
   - type: Sprite
     state: van_right_3
@@ -240,7 +240,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanFrontLeft1
-  name: ent-VehicleVanFrontLeft1
+  name: van front left 1
   components:
   - type: Sprite
     state: van_front_1
@@ -248,7 +248,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanFrontLeft2
-  name: ent-VehicleVanFrontLeft2
+  name: van front left 2
   components:
   - type: Sprite
     state: van_front_2
@@ -256,7 +256,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanFrontRight1
-  name: ent-VehicleVanFrontRight1
+  name: van front right 1
   components:
   - type: Sprite
     state: van_back_1
@@ -264,7 +264,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanFrontRight2
-  name: ent-VehicleVanFrontRight2
+  name: van front right 2
   components:
   - type: Sprite
     state: van_back_2
@@ -272,7 +272,7 @@
 - type: entity
   parent: VehicleVanInteriorBase
   id: VehicleVanExterior1
-  name: ent-VehicleVanExterior1
+  name: van exterior 1
   components:
   - type: Sprite
     state: exterior_1
@@ -285,7 +285,7 @@
 - type: entity
   parent: VehicleVanInteriorBase
   id: VehicleVanExterior2
-  name: ent-VehicleVanExterior2
+  name: van exterior 2
   components:
   - type: Sprite
     state: exterior_2
@@ -298,7 +298,7 @@
 - type: entity
   parent: VehicleVanInteriorBase
   id: VehicleVanExterior3
-  name: ent-VehicleVanExterior3
+  name: van exterior 3
   components:
   - type: Sprite
     state: exterior_3
@@ -311,7 +311,7 @@
 - type: entity
   parent: VehicleVanInteriorBase
   id: VehicleVanExterior1Old
-  name: ent-VehicleVanExterior1Old
+  name: van exterior old 1
   components:
   - type: Sprite
     state: exterior_1_old
@@ -324,7 +324,7 @@
 - type: entity
   parent: VehicleVanInteriorBase
   id: VehicleVanExterior2Old
-  name: ent-VehicleVanExterior2Old
+  name: van exterior old 2
   components:
   - type: Sprite
     state: exterior_2_old
@@ -337,7 +337,7 @@
 - type: entity
   parent: VehicleVanInteriorBase
   id: VehicleVanExterior3Old
-  name: ent-VehicleVanExterior3Old
+  name: van exterior old 3
   components:
   - type: Sprite
     state: exterior_3_old
@@ -350,7 +350,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanBackground1
-  name: ent-VehicleVanBackground1
+  name: van background 1
   components:
   - type: Sprite
     state: background_1
@@ -363,7 +363,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanBackground2
-  name: ent-VehicleVanBackground2
+  name: van background 2
   components:
   - type: Sprite
     drawdepth: Walls
@@ -372,7 +372,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanBackground3
-  name: ent-VehicleVanBackground3
+  name: van background 3
   components:
   - type: Sprite
     state: background_3
@@ -381,7 +381,7 @@
 - type: entity
   parent: VehicleVanWallBase
   id: VehicleVanInteriorDoor
-  name: ent-VehicleVanInteriorDoor
+  name: van interior door
   components:
   - type: Sprite
     state: interior_door
@@ -394,7 +394,7 @@
 - type: entity
   parent: VehicleVanInteriorBase
   id: VehicleVanExteriorDoor
-  name: ent-VehicleVanExteriorDoor
+  name: van exterior door
   components:
   - type: Sprite
     state: exterior_door
@@ -412,7 +412,7 @@
 - type: entity
   parent: VehicleVanInteriorBase
   id: VehicleVanExteriorDoorUnique
-  name: ent-VehicleVanExteriorDoorUnique
+  name: van exterior door unique
   components:
   - type: Sprite
     state: exterior_door_unique
@@ -430,7 +430,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanWindshieldTop
-  name: ent-VehicleVanWindshieldTop
+  name: van windshield top
   components:
   - type: Sprite
     state: windshield_viewport_top
@@ -442,7 +442,7 @@
 - type: entity
   parent: VehicleVanRoofBase
   id: VehicleVanWindshieldBottom
-  name: ent-VehicleVanWindshieldBottom
+  name: van windshield bottom
   components:
   - type: Sprite
     state: windshield_viewport_bottom

@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   abstract: true
   parent: RMCAttachableBase
   id: RMCBarrelAttachmentBase
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentExtendedBarrel # extended_barrel
-  name: ent-RMCAttachmentExtendedBarrel
-  description: ent-RMCAttachmentExtendedBarrel-desc # and accuracy.
+  name: extended barrel
+  description: The lengthened barrel speeds up and stabilizes the bullet, increasing velocity. # and accuracy.
   components:
   - type: Sprite
     state: ebarrel
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCAttachmentExtendedBarrel
   id: RMCAttachmentExtendedCompensator
-  name: ent-RMCAttachmentExtendedCompensator
-  description: ent-RMCAttachmentExtendedCompensator-desc
+  name: AB-RVX extended compensator
+  description: A precision-engineered vented barrel extension used by various UN forces. Greatly improves accuracy, muzzle control, and projectile velocity, but reduces terminal damage due to pressure venting.
   components:
   - type: Sprite
     state: ebarrel_vented
@@ -70,8 +70,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentBarrelMar50
-  name: ent-RMCAttachmentBarrelMar50
-  description: ent-RMCAttachmentBarrelMar50-desc
+  name: MAR-50 barrel
+  description: A heavy barrel.
   components:
   - type: Sprite
     state: mar50barrel
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentBarrelCharger
-  name: ent-RMCAttachmentBarrelCharger
-  description: ent-RMCAttachmentBarrelCharger-desc
+  name: barrel charger
+  description: A hyper threaded barrel extender that fits to the muzzle of most firearms. Greatly increases projectile damage at the cost of firing speed.
   components:
   - type: Sprite
     state: hbarrel
@@ -121,8 +121,9 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentRecoilCompensator # compensator
-  name: ent-RMCAttachmentRecoilCompensator
-  description: ent-RMCAttachmentRecoilCompensator-desc
+  name: recoil compensator
+  description: "A muzzle attachment that reduces recoil by diverting expelled gasses upwards.
+    Reduces recoil, at the cost of a small amount of weapon damage." # increases accuracy and reduces recoil
   components:
   - type: Sprite
     state: comp
@@ -146,8 +147,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentRecoilCompensatorM13
-  name: ent-RMCAttachmentRecoilCompensatorM13
-  description: ent-RMCAttachmentRecoilCompensatorM13-desc
+  name: M13 extended recoil compensator
+  description: A heavy, overbuilt compensator and barrel extension for the M13 Auto Pistol. Greatly improves recoil control during automatic fire, at the cost of bulk and handling. Definitely compensating for something, but brutally effective.
   components:
   - type: Sprite
     state: m10_overcomp
@@ -177,8 +178,8 @@
 - type: entity
   parent: RMCAttachmentRecoilCompensatorM13
   id: RMCAttachmentRecoilCompensatorM13Spiked
-  name: ent-RMCAttachmentRecoilCompensatorM13Spiked
-  description: ent-RMCAttachmentRecoilCompensatorM13Spiked-desc
+  name: M13 extended spiked recoil compensator
+  description: A brutally heavy, over-engineered compensator and barrel extension for the M13 Auto Pistol, tipped with a hardened spiked cap. Greatly improves recoil control during automatic fire—and turns the pistol into a nasty bludgeon in close quarters. Definitely compensating for something, but brutally effective.
   components:
   - type: Sprite
     state: m10_overcomp_spike
@@ -202,8 +203,10 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentShotgunChoke # choke
-  name: ent-RMCAttachmentShotgunChoke
-  description: ent-RMCAttachmentShotgunChoke-desc
+  name: shotgun choke
+  description: "A threaded choke that can be inserted into the M42A2 Shotgun.
+    Improves accuracy, velocity, tightens spread, and increases the cyclic rate.
+    In exchange, projectile damage and force is reduced. Also increases recoil. Not recommended for slugs."
   components:
   - type: Sprite
     state: choke
@@ -238,8 +241,9 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentSuppressor # suppressor
-  name: ent-RMCAttachmentSuppressor
-  description: ent-RMCAttachmentSuppressor-desc
+  name: suppressor
+  description: "A small tube with exhaust ports to expel noise and gas.
+    Does not completely silence a weapon, but does make it much quieter at the cost of slightly reduced damage."
   components:
   - type: Sprite
     state: suppressor
@@ -260,8 +264,8 @@
 - type: entity
   parent: RMCAttachmentSuppressor
   id: RMCAttachmentSuppressorCompact
-  name: ent-RMCAttachmentSuppressorCompact
-  description: ent-RMCAttachmentSuppressorCompact-desc
+  name: compact suppressor
+  description: A lightweight, low-profile suppressor designed specifically for SMGs and sidearms. It dampens sound and muzzle flash while marginally improving stability and accuracy, though it slightly reduces projectile velocity and terminal damage.
   components:
   - type: Sprite
     state: suppressor_sleek
@@ -278,8 +282,9 @@
 - type: entity
   parent: RMCAttachmentSuppressor
   id: RMCAttachmentSuppressorXM40
-  name: ent-RMCAttachmentSuppressorXM40
-  description: ent-RMCAttachmentSuppressorXM40-desc
+  name: XM40 suppressor
+  description: "A small tube with exhaust ports to expel noise and gas.
+    Does not completely silence a weapon, but does make it much quieter at the cost of slightly reduced damage."
   components:
   - type: Sprite
     state: m40sd_suppressor
@@ -301,8 +306,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentSuppressorNPZ92
-  name: ent-RMCAttachmentSuppressorNPZ92
-  description: ent-RMCAttachmentSuppressorNPZ92-desc
+  name: NPZ92 integrated suppressor
+  description: You shouldn't have this.
   components:
   - type: Sprite
     state: npz92_suppressor
@@ -322,8 +327,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentSuppressorM96SB
-  name: ent-RMCAttachmentSuppressorM96SB
-  description: ent-RMCAttachmentSuppressorM96SB-desc
+  name: M96S-B integrated suppressor
+  description: You shouldn't have this.
   components:
   - type: Sprite
     state: suppressed_sniper_barrel
@@ -340,8 +345,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentSuppressorL112
-  name: ent-RMCAttachmentSuppressorL112
-  description: ent-RMCAttachmentSuppressorL112-desc
+  name: L112A1 integrated suppressor
+  description: Cor... I don't think you can put that one back on.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_barrel.rsi
@@ -360,8 +365,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentMatebaStandard
-  name: ent-RMCAttachmentMatebaStandard
-  description: ent-RMCAttachmentMatebaStandard-desc
+  name: Standard Mateba Barrel
+  description: A standard mateba barrel. Offers a balance between accuracy and fire rate.
   components:
   - type: Sprite
     state: mateba_medium
@@ -375,8 +380,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentMatebaMarksman
-  name: ent-RMCAttachmentMatebaMarksman
-  description: ent-RMCAttachmentMatebaMarksman-desc
+  name: Marksman Mateba Barrel
+  description: A marksman mateba barrel. Offers a greater accuracy at the cost of fire rate.
   components:
   - type: Sprite
     state: mateba_long
@@ -394,8 +399,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentMatebaSnubNose
-  name: ent-RMCAttachmentMatebaSnubNose
-  description: ent-RMCAttachmentMatebaSnubNose-desc
+  name: Snubnose Mateba Barrel
+  description: A snubnosed mateba barrel. Offers a fast fire rate at the cost of accuracy.
   components:
   - type: Sprite
     state: mateba_short

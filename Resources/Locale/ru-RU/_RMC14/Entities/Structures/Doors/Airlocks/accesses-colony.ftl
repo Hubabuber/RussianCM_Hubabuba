@@ -1,53 +1,53 @@
 ent-RMCAirlockGlassSecurityLockedTSEPAAlt = шлюзовая камера
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = шлюз безопасности
+
 ent-CMAirlockSecureLockedColony = безопасный шлюз
-    .suffix = безопасный шлюз
+
 ent-CMAirlockCommandLockedColony = командный шлюз
-    .suffix = командный шлюз
+
 ent-CMAirlockSecurityLockedColony = шлюз безопасности
-    .suffix = шлюз безопасности
+
 ent-CMAirlockEngineerLockedColony = инженерный шлюз
-    .suffix = инженерный шлюз
+
 ent-CMAirlockRequisitionsLockedColony = отсек для заявок
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = отсек для заявок
+
 ent-CMAirlockMedicalLockedColony = медицинский шлюз
-    .suffix = медицинский шлюз
+
 ent-CMAirlockResearchLockedColony = медицинский шлюз
-    .suffix = медицинский шлюз
+
 ent-CMAirlockMaintLockedColony = люк для обслуживания
-    .suffix = люк для обслуживания
+
 ent-CMAirlockGlassLockedColony = стеклянный шлюзовой шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = стеклянный шлюзовой шлюз
+
 ent-CMAirlockGlassEngineerLockedColony = инженерный шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = инженерный шлюз
+
 ent-CMAirlockGlassSecurityLockedColony = шлюз безопасности
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = шлюз безопасности
+
 ent-CMAirlockGlassMedicalLockedColony = медицинский шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = медицинский шлюз
+
 ent-CMAirlockGlassResearchLockedColony = медицинский шлюз
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = медицинский шлюз
+
 ent-RMCAirlockGlassSecurityLockedTSEPA = шлюз безопасности
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = шлюз безопасности
+
 ent-RMCAirlockSecurityLockedTSEPA = шлюз безопасности
-    .suffix = шлюз безопасности
+
 ent-RMCAirlockGlassSecurityLockedTSEPABrig = шлюз безопасности
   .desc = Он открывается, закрывается и, возможно, раздавит вас.
-    .suffix = шлюз безопасности
+
 ent-RMCDoubleDoorSecurityGlassLockedTSEPA = дверь
-    .suffix = дверь
+
 ent-RMCDoubleDoorSecurityGlassLockedTSEPAAlt = дверь
-    .suffix = дверь
+
 ent-RMCAirlockMaintLockedTSEPA = люк для обслуживания
-    .suffix = люк для обслуживания
+
 ent-RMCAirlockHybrisaPersonalLockedTSEPA = шлюзовая камера
-    .suffix = шлюзовая камера
+
 ent-RMCAirlockHybrisaPersonalLockedTSEPABrig = шлюзовая камера
-    .suffix = шлюзовая камера
+

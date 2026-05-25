@@ -1,12 +1,4 @@
 ent-RMCMapInsertSolarisPlinkingSpotNorthLZ = Стрельбище Северная ЗП
-    .suffix = Стрельбище Северная ЗП
 ent-RMCMapInsertKutjevoTrappedMonke = Запертый Клоун
-    .suffix = Запертый Клоун
 ent-RMCMapInsertKutjevoCleaningProgBotany = Уборка Ботаники
-    .suffix = Уборка Ботаники
 ent-RMCMapInsertKutjevoCommunications = КПП ЮВ
-    .suffix = КПП ЮВ
-ent-RMCMapInsertKutjevoCLFSmugglers = Контрабандисты CLF
-    .suffix = Вставка Кутьево
-ent-RMCMapInsertKutjevoLZ1Alternative = Альтернатива LZ1
-    .suffix = Вставка Кутьево

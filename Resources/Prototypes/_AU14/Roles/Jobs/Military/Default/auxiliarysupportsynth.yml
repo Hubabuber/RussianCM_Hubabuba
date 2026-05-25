@@ -3,8 +3,8 @@
   id: AU14JobGOVFORAuxSupportSynth
   whitelisted: true
   whitelistParent: RMCWhitelistMedium
-  name: job-au14jobgovforauxsupportsynth-name
-  description: job-au14jobgovforauxsupportsynth-desc
+  name: au14-job-name-govforauxsupportsynth
+  description: au14-job-description-govforauxsupportsynth
   setPreference: true
   canBeAntag: false
   requirements:
@@ -39,9 +39,9 @@
   dummyStartingGear: AU14GearGOVFORAuxSupportSynthDummy
   icon: "AU14JobIconGovSynth"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobgovforauxsupportsynth-spawnmenurolename
+  spawnMenuRoleName: Support Synth (GOVFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforauxsupportsynth-supervisors
+  supervisors: au14-job-supervisors-govforplatco
   accessGroups:
   - AU14GovforCommand
   - CMCargoTech
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORAuxSupportSynth
-  name: ent-AU14SpawnPointGOVFORAuxSupportSynth
+  name: Spawn Point GOVFOR Support Synth
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORAuxSupportSynth

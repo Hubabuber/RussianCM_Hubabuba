@@ -4,4 +4,3 @@ ent-RMCXenoWehny = Вени
   .desc = Жестокая, жестокая шутка какого-то больного человека.
 ent-RMCXenoRouny = Руни
   .desc = йоу это руни.
-    .suffix = Руни

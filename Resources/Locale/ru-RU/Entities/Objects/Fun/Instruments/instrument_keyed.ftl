@@ -13,17 +13,3 @@ ent-KalimbaInstrument-desc = Мощь фортепиано прямо у вас 
 ent-BaseKeyedInstrument-name = элемент
 ent-BaseKeyedInstrument-desc = Это инструмент.
 
-ent-AccordionInstrument = аккордеон
-    .desc = Это инструмент.
-
-ent-BaseKeyedInstrument = item
-    .desc = Это инструмент.
-
-ent-KalimbaInstrument = Калимба
-    .desc = Мощь фортепиано прямо у вас под рукой.
-
-ent-SuperSynthesizerInstrument = супер синтезатор
-    .desc = Взрываем гетто с помощью Touhou MIDI с 2020 года.
-
-ent-SynthesizerInstrument = синтезатор
-    .desc = Это инструмент.

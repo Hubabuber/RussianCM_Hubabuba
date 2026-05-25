@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-BaseWeaponShotgun
+  name: BaseWeaponShotgun
   parent: BaseItem
   id: BaseWeaponShotgun
-  description: ent-BaseWeaponShotgun-desc
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -44,11 +44,11 @@
     price: 500
 
 - type: entity
-  name: ent-WeaponShotgunBulldog
+  name: Bulldog
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
-  description: ent-WeaponShotgunBulldog-desc
+  description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -102,10 +102,10 @@
     price: 5000
 
 - type: entity
-  name: ent-WeaponShotgunDoubleBarreled
+  name: double-barreled shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityBartenderZookeeperContraband]
   id: WeaponShotgunDoubleBarreled
-  description: ent-WeaponShotgunDoubleBarreled-desc
+  description: An immortal classic. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
@@ -125,20 +125,20 @@
     deconstructionTarget: null
 
 - type: entity
-  name: ent-WeaponShotgunDoubleBarreledRubber
+  name: double-barreled shotgun
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: ent-WeaponShotgunDoubleBarreledRubber-desc
+  description: An immortal classic. Uses .50 shotgun shells.
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: ent-WeaponShotgunEnforcer
+  name: Enforcer
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunEnforcer
-  description: ent-WeaponShotgunEnforcer-desc
+  description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
@@ -158,10 +158,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: ent-WeaponShotgunKammerer
+  name: Kammerer
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammerer
-  description: ent-WeaponShotgunKammerer-desc
+  description: An old yet faithful design, and a favorite among irregular forces of many worlds. Uses .50 shotgun shells.
   components: # intend for Kammerer to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     size: Normal
@@ -182,10 +182,10 @@
     - WeaponShotgunKammerer
 
 - type: entity
-  name: ent-WeaponShotgunSawn
+  name: sawn-off shotgun
   parent: [ BaseWeaponShotgun, BaseSecurityBartenderContraband ]
   id: WeaponShotgunSawn
-  description: ent-WeaponShotgunSawn-desc
+  description: Groovy! Uses .50 shotgun shells.
   components: # needs to be super inaccurate because you don't need to wield it
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
@@ -204,11 +204,11 @@
     deconstructionTarget: null
 
 - type: entity
-  name: ent-WeaponShotgunSawnEmpty
+  name: sawn-off shotgun
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: ent-WeaponShotgunSawnEmpty-desc
-  suffix: ent-WeaponShotgunSawnEmpty-suffix
+  description: Groovy! Uses .50 shotgun shells.
+  suffix: Empty
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -218,10 +218,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: ent-WeaponShotgunHandmade
+  name: handmade pistol
   parent: [BaseWeaponShotgun, BaseMinorContraband]
   id: WeaponShotgunHandmade
-  description: ent-WeaponShotgunHandmade-desc
+  description: Looks unreliable. Uses .50 shotgun shells.
   components:
   - type: Item
     size: Small
@@ -242,11 +242,11 @@
     price: 0
 
 - type: entity
-  name: ent-WeaponShotgunBlunderbuss
+  name: blunderbuss
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunBlunderbuss
-  suffix: ent-WeaponShotgunBlunderbuss-suffix
-  description: ent-WeaponShotgunBlunderbuss-desc
+  suffix: Pirate
+  description: Deadly at close range.
   components:
   - type: Item
     size: Normal
@@ -263,10 +263,10 @@
     price: 0
 
 - type: entity
-  name: ent-WeaponShotgunImprovised
+  name: improvised shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunImprovised
-  description: ent-WeaponShotgunImprovised-desc
+  description: A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
@@ -290,9 +290,9 @@
     price: 20
 
 - type: entity
-  name: ent-WeaponShotgunImprovisedLoaded
+  name: improvised shotgun
   parent: WeaponShotgunImprovised
-  suffix: ent-WeaponShotgunImprovisedLoaded-suffix
+  suffix: Loaded
   id: WeaponShotgunImprovisedLoaded
   components:
   - type: BallisticAmmoProvider

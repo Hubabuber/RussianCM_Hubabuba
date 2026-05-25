@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianCorporateLiaisonBase
-  name: job-au14jobciviliancorporateliaisonbase-name
-  description: job-au14jobciviliancorporateliaisonbase-desc
+  name: au14-job-name-civiliancorporateliaison
+  description: au14-job-description-civiliancorporateliaison
   playTimeTracker: AU14JobCivilianCorporateLiaison
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobCivilianCorporateLiaisonBase
   id: AU14JobCivilianCorporateLiaison
-  name: job-au14jobciviliancorporateliaison-name
-  description: job-au14jobciviliancorporateliaison-desc
+  name: au14-job-name-civiliancorporateliaison
+  description: au14-job-description-civiliancorporateliaison
   setPreference: true
   ranks:
     RMCRankWeYaAssistantManager:
@@ -39,8 +39,8 @@
   icon: "CMJobIconLiaison"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobciviliancorporateliaison-supervisors
-  spawnMenuRoleName: job-au14jobciviliancorporateliaison-spawnmenurolename
+  supervisors: au14-job-supervisors-colonycivilian
+  spawnMenuRoleName: WY Liaison (CMU)
   accessGroups:
   - Colonist
   - auadmin
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianCorporateLiaison
-  name: ent-AU14SpawnPointCivilianCorporateLiaison
+  name: Spawn Point Civilian Corporate Liaison
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianCorporateLiaison

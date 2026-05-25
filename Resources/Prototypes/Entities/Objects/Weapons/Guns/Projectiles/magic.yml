@@ -1,7 +1,7 @@
 - type: entity
   id: ProjectileFireball
-  name: ent-ProjectileFireball
-  description: ent-ProjectileFireball-desc
+  name: fireball
+  description: You better GITTAH WEIGH.
   parent: BulletRocket
   categories: [ HideSpawnMenu ]
   components:
@@ -34,8 +34,8 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: ProjectileDragonsBreath
-  name: ent-ProjectileDragonsBreath
-  description: ent-ProjectileDragonsBreath-desc
+  name: dragon's breath
+  description: Try not to get toasted.
   components:
   - type: PointLight
     color: "#E25822"
@@ -65,8 +65,8 @@
 
 - type: entity
   id: ProjectileAnomalyFireball
-  name: ent-ProjectileAnomalyFireball
-  description: ent-ProjectileAnomalyFireball-desc
+  name: fireball
+  description: Hovering blob of flame.
   parent: ProjectileFireball
   categories: [ HideSpawnMenu ]
   components:
@@ -81,8 +81,8 @@
 
 - type: entity
   id: ProjectileLocker
-  name: ent-ProjectileLocker
-  description: ent-ProjectileLocker-desc
+  name: cursed locker
+  description: A cursed magical locker! Can you resist?
   parent: ClosetSteelBase
   categories: [ HideSpawnMenu ]
   components:
@@ -179,8 +179,8 @@
 - type: entity
   id: ProjectilePolyboltCarp
   parent: ProjectilePolyboltBase
-  name: ent-ProjectilePolyboltCarp
-  description: ent-ProjectilePolyboltCarp-desc
+  name: carp polybolt
+  description: Nooo, I don't wanna be fish!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger
@@ -193,8 +193,8 @@
 - type: entity
   id: ProjectilePolyboltMonkey
   parent: ProjectilePolyboltBase
-  name: ent-ProjectilePolyboltMonkey
-  description: ent-ProjectilePolyboltMonkey-desc
+  name: monkey polybolt
+  description: Nooo, I don't wanna be monkey!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger
@@ -207,8 +207,8 @@
 - type: entity
   id: ProjectilePolyboltDoor
   parent: ProjectilePolyboltBase
-  name: ent-ProjectilePolyboltDoor
-  description: ent-ProjectilePolyboltDoor-desc
+  name: door polybolt
+  description: Nooo, I don't wanna be door!
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -228,8 +228,8 @@
 
 - type: entity
   id: ProjectileHealingBolt
-  name: ent-ProjectileHealingBolt
-  description: ent-ProjectileHealingBolt-desc
+  name: healing bolt
+  description: I COMMAND YOU TO LIVE!
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -249,10 +249,10 @@
 
 - type: entity
   id: BulletInstakillMagic
-  name: ent-BulletInstakillMagic
+  name: magical lead cylinder
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: ent-BulletInstakillMagic-desc
+  description: This looks familiar.
   components:
   - type: Projectile
     damage:
@@ -263,8 +263,8 @@
 - type: entity
   id: ProjectilePolyboltCluwne
   parent: ProjectilePolyboltBase
-  name: ent-ProjectilePolyboltCluwne
-  description: ent-ProjectilePolyboltCluwne-desc
+  name: cluwne polybolt
+  description: KnoH KnoH!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger
@@ -277,8 +277,8 @@
 - type: entity
   id: ProjectileIcicle
   parent: BaseBullet
-  name: ent-ProjectileIcicle
-  description: ent-ProjectileIcicle-desc
+  name: icicle
+  description: Brrrrr.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -293,8 +293,8 @@
 - type: entity
   parent: ProjectilePolyboltBase
   id: ProjectilePolyboltBread
-  name: ent-ProjectilePolyboltBread
-  description: ent-ProjectilePolyboltBread-desc
+  name: bread polybolt
+  description: Nooo, I don't wanna be bread!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger

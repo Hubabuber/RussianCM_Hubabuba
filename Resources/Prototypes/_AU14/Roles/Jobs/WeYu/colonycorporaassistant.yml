@@ -1,9 +1,9 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianCorporateAssistant
-  name: job-au14jobciviliancorporateassistant-name
+  name: au14-job-name-civiliancorporateassistant
   playTimeTracker: AU14JobCivilianCorporateAssistant
-  description: job-au14jobciviliancorporateassistant-desc
+  description: au14-job-description-civiliancorporateassistant
   setPreference: true
   ranks:
     AU14RankWYSeniorAssistant:
@@ -19,7 +19,7 @@
   icon: "AU14JobIconCorporateAssistant"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobciviliancorporateassistant-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   - auadmin
@@ -64,7 +64,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianCorporateAssistant
-  name: ent-AU14SpawnPointCivilianCorporateAssistant
+  name: Spawn Point Civilian Corporate Assistant
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianCorporateAssistant

@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: RMCJobRibbonBase
   id: CMCorrespondent
-  name: job-cmcorrespondent-name
-  description: job-cmcorrespondent-desc
+  name: cm-job-name-correspondent
+  description: cm-job-description-correspondent
   playTimeTracker: CMJobCorrespondent
   requirements:
   - !type:TotalDepartmentsTimeRequirement
@@ -13,7 +13,7 @@
   startingGear: CMGearCorrespondent
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-cmcorrespondent-supervisors
+  supervisors: rmc-job-supervisors-commander
   accessGroups:
   - CMCorrespondent
   roleWeight: 0.25
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCorrespondent
-  name: ent-CMSpawnPointCorrespondent
+  name: correspondent spawn point
   components:
   - type: SpawnPoint
     job_id: CMCorrespondent
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleCorrespondent
-  name: ent-CMGuidebookRoleCorrespondent
+  name: Correspondent
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

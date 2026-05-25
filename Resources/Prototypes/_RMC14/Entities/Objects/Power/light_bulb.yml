@@ -69,9 +69,9 @@
 - type: entity
   parent: RMCLightBulbBase
   id: RMCLightBulb
-  name: ent-RMCLightBulb
-  description: ent-RMCLightBulb-desc
-  suffix: ent-RMCLightBulb-suffix
+  name: light bulb
+  description: A replacement light bulb.
+  suffix: Warm
   components:
   - type: LightBulb
     color: "#FFEFD2"
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCLightBulb
   id: RMCLightBulbBlue
-  suffix: ent-RMCLightBulbBlue-suffix
+  suffix: Blue
   components:
   - type: LightBulb
     color: "#D2E3EC"
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCLightBulb
   id: RMCLightBulbRed
-  suffix: ent-RMCLightBulbRed-suffix
+  suffix: Red
   components:
   - type: LightBulb
     color: "#C02526"
@@ -99,9 +99,9 @@
 - type: entity
   parent: RMCLightBulbBase
   id: RMCLightBulbBroken
-  name: ent-RMCLightBulbBroken
-  description: ent-RMCLightBulbBroken-desc
-  suffix: ent-RMCLightBulbBroken-suffix
+  name: light bulb
+  description: A replacement light bulb.
+  suffix: Broken
   components:
   - type: LightBulb
     startingState: Broken

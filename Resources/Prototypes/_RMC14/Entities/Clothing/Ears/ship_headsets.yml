@@ -4,8 +4,8 @@
 - type: entity
   parent: Clothing
   id: CMHeadset
-  name: ent-CMHeadset
-  description: ent-CMHeadset-desc
+  name: radio headset
+  description: An updated, modular intercom that fits over the head. Takes encryption keys.
   components:
   - type: ContainerContainer
     containers:
@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCHeadsetIconsUNMC
   id: RMCHeadsetShip
-  name: ent-RMCHeadsetShip
-  description: ent-RMCHeadsetShip-desc
+  name: marine radio headset
+  description: A standard military radio headset. Bulkier than combat models.
   components:
   - type: ContainerFill
     containers:
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetPilot
-  name: ent-CMHeadsetPilot
-  description: ent-CMHeadsetPilot-desc
+  name: marine pilot radio headset
+  description: Used by Dropship and Gunship Pilots.
   components:
   - type: ContainerFill
     containers:
@@ -76,8 +76,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetIntel
-  name: ent-CMHeadsetIntel
-  description: ent-CMHeadsetIntel-desc
+  name: marine intel radio headset
+  description: Used by Intelligence Officers.
   components:
   - type: ContainerFill
     containers:
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetReporter
-  name: ent-CMHeadsetReporter
-  description: ent-CMHeadsetReporter-desc
+  name: reporter radio headset
+  description: Used by the combat correspondent to get the scoop.
   components:
   - type: ContainerFill
     containers:
@@ -118,14 +118,14 @@
 - type: entity
   parent: RMCHeadsetShip
   id: RMCHeadsetPrisoner
-  name: ent-RMCHeadsetPrisoner
-  description: ent-RMCHeadsetPrisoner-desc
+  name: prisoner headset
+  description: Headset provided to prisoners as directed by Marine Law.
 
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetRequisition
-  name: ent-CMHeadsetRequisition
-  description: ent-CMHeadsetRequisition-desc
+  name: requisitions radio headset
+  description: Used by the Requisitions Technicians, lightweight and portable.
   components:
   - type: Sprite
     state: req_headset
@@ -146,8 +146,8 @@
 - type: entity
   parent: CMHeadsetRequisition
   id: CMHeadsetChef
-  name: ent-CMHeadsetChef
-  description: ent-CMHeadsetChef-desc
+  name: kitchen radio headset
+  description: Used by the onboard kitchen staff, filled with background noise of sizzling pots.
   components:
   - type: ContainerFill
     containers:
@@ -158,8 +158,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetEngineer
-  name: ent-CMHeadsetEngineer
-  description: ent-CMHeadsetEngineer-desc
+  name: engineering radio headset
+  description: Useful for coordinating maintenance bars and orbital bombardments. Of robust and sturdy construction.
   components:
   - type: Sprite
     state: eng_headset
@@ -176,8 +176,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetMedical
-  name: ent-CMHeadsetMedical
-  description: ent-CMHeadsetMedical-desc
+  name: medical radio headset
+  description: A headset used by the highly trained staff of the medbay.
   components:
   - type: Sprite
     state: med_headset
@@ -194,8 +194,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetResearcher
-  name: ent-CMHeadsetResearcher
-  description: ent-CMHeadsetResearcher-desc
+  name: researcher radio headset
+  description: A headset used by medbay's skilled researchers.
   components:
   - type: Sprite
     state: med_headset
@@ -213,8 +213,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetSeniorCommand
-  name: ent-CMHeadsetSeniorCommand
-  description: ent-CMHeadsetSeniorCommand-desc
+  name: marine senior command headset
+  description: Issued only to senior command staff.
   components:
   - type: Sprite
     state: mco_headset
@@ -235,8 +235,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetHighCommand
-  name: ent-CMHeadsetHighCommand
-  description: ent-CMHeadsetHighCommand-desc
+  name: UNMC high command headset
+  description: Issued only to high command staff.
   components:
   - type: Sprite
     state: mco_headset
@@ -263,7 +263,7 @@
 - type: entity
   parent: CMHeadsetHighCommand
   id: RMCHeadsetHighCommandProvostLead
-  suffix: ent-RMCHeadsetHighCommandProvostLead-suffix
+  suffix: SL Tracker
   components:
   - type: GrantSquadLeaderTracker
     defaultMode: ProvostTeamLeader
@@ -279,8 +279,8 @@
 - type: entity
   parent: CMHeadsetSeniorCommand
   id: RMCHeadsetSEA
-  name: ent-RMCHeadsetSEA
-  description: ent-RMCHeadsetSEA-desc
+  name: marine senior enlisted advisor headset
+  description: Issued only to senior enlisted advisors.
   components:
   - type: Sprite
     state: mco_headset
@@ -303,8 +303,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: RMCHeadsetMarineCommand
-  name: ent-RMCHeadsetMarineCommand
-  description: ent-RMCHeadsetMarineCommand-desc
+  name: marine command radio headset
+  description: Used by CIC staff and higher-ups, features a non-standard brace.
   components:
   - type: Sprite
     state: mcom_headset
@@ -321,7 +321,7 @@
 - type: entity
   parent: RMCHeadsetMarineCommand
   id: RMCHeadsetMarineCommandAlternative
-  suffix: ent-RMCHeadsetMarineCommandAlternative-suffix
+  suffix: Alternative
   components:
   - type: ContainerFill
     containers:
@@ -332,8 +332,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetCE
-  name: ent-CMHeadsetCE
-  description: ent-CMHeadsetCE-desc
+  name: chief engineer's headset
+  description: The headset of the guy in charge of spooling engines, managing MTs, and tearing up the floor for scrap metal. Of robust and sturdy construction.
   components:
   - type: Sprite
     state: ce_headset
@@ -363,8 +363,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetCMO
-  name: ent-CMHeadsetCMO
-  description: ent-CMHeadsetCMO-desc
+  name: chief medical officer's headset
+  description: A headset issued to the top brass of medical professionals.
   components:
   - type: Sprite
     state: cmo_headset
@@ -389,8 +389,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetQM
-  name: ent-CMHeadsetQM
-  description: ent-CMHeadsetQM-desc
+  name: Logistics Officer radio headset
+  description: A headset used by the Logistics Officer.
   components:
   - type: Sprite
     state: ro_headset
@@ -416,8 +416,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetCMP
-  name: ent-CMHeadsetCMP
-  description: ent-CMHeadsetCMP-desc
+  name: marine chief MP radio headset
+  description: For discussing the purchase of donuts and arresting of hooligans.
   components:
   - type: Sprite
     state: sec_headset
@@ -447,8 +447,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: RMCHeadsetLiaison
-  name: ent-RMCHeadsetLiaison
-  description: ent-RMCHeadsetLiaison-desc
+  name: corporate liaison radio headset
+  description: Used by the CL to convince people to sign NDAs.
   components:
   - type: Sprite
     state: we_ya_headset
@@ -471,8 +471,8 @@
 - type: entity
   parent: CMHeadsetSeniorCommand
   id: RMCHeadsetSynth
-  name: ent-RMCHeadsetSynth
-  description: ent-RMCHeadsetSynth-desc
+  name: marine synth headset
+  description: Issued only to UNMC synthetics.
   components:
   - type: Sprite
     state: ms_headset
@@ -494,8 +494,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetMPO
-  name: ent-CMHeadsetMPO
-  description: ent-CMHeadsetMPO-desc
+  name: marine military police radio headset
+  description: This is used by marine military police members.
   components:
   - type: Sprite
     state: sec_headset
@@ -514,8 +514,8 @@
 - type: entity
   parent: CMHeadsetCMP
   id: RMCHeadsetMW
-  name: ent-RMCHeadsetMW
-  description: ent-RMCHeadsetMW-desc
+  name: marine military warden radio headset
+  description: It seems oddly similar to the CMP's... Smells like donuts too.
   components:
   - type: GrantSquadLeaderTracker
     defaultMode: ChiefMilitaryPolice
@@ -528,8 +528,8 @@
 - type: entity
   parent: CMHeadsetMPO
   id: RMCHeadsetMPHonor
-  name: ent-RMCHeadsetMPHonor
-  description: ent-RMCHeadsetMPHonor-desc
+  name: marine honor guard radio headset
+  description: This is used by members of the marine honor guard.
   components:
   - type: RMCHeadset
     radioTextIncrease: 2

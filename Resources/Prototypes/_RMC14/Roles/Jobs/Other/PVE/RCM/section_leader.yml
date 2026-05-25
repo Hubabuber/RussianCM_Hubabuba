@@ -1,18 +1,18 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesSectionLeaderPVE
-  name: job-cmroyalmarinessectionleaderpve-name
-  description: job-cmroyalmarinessectionleaderpve-desc
+  name: rmc-job-name-rcm-pve-section-leader
+  description: rmc-ghost-role-information-rcm-description
   playTimeTracker: RMCJobRoyalSectionLeaderPVE
   ranks:
     RMCRankTSESergeant: [ ]
   startingGear: RMCGearRoyalSectionLeaderPVE
   icon: "RMCJobIconRoyalSectionLeaderPVE"
   joinNotifyCrew: false
-  supervisors: job-cmroyalmarinessectionleaderpve-supervisors
+  supervisors: cm-job-supervisors-royal-troop-sergeant
   accessGroups:
   - FTL
-  spawnMenuRoleName: job-cmroyalmarinessectionleaderpve-spawnmenurolename
+  spawnMenuRoleName: RCM Section Leader (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVESectionLeader
-  name: ent-CMSpawnPointRCMPVESectionLeader
+  name: RCM section leader spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesSectionLeaderPVE

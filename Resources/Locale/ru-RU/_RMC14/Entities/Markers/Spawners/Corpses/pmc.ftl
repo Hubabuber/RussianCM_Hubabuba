@@ -1,10 +1,10 @@
 ent-RMCSpawnerCorpseWeYaGoonLead = Создатель трупов — главный герой We-Ya Goon
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseWeYaGoonLeadBurst = Создатель трупов — главный герой We-Ya Goon
-    .suffix = Создатель трупов — главный герой We-Ya Goon
+
 ent-RMCSpawnerCorpseWeYaGoonLeadHybrisa = Создатель трупов — We-Ya Goon Hybrisa Lead
-    .suffix = Создатель трупов — неизвестно
+
 ent-RMCSpawnerCorpseWeYaGoonLeadHybrisaBurst = Создатель трупов — We-Ya Goon Hybrisa Lead
-    .suffix = Создатель трупов — We-Ya Goon Hybrisa Lead
+
 ent-RMCSpawnerCorpseWeYaGoonHybrisa = Создатель трупов - We-Ya Goon Hybrisa
-    .suffix = Создатель трупов — неизвестно
+

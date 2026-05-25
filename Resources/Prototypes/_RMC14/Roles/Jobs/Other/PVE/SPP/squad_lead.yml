@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPSquadLeadPVE
-  name: job-rmcsppsquadleadpve-name
-  description: job-rmcsppsquadleadpve-desc
+  name: rmc-job-name-spp-squadlead
+  description: rmc-ghost-role-information-spp-pve-description
   playTimeTracker: RMCJobSPPSquadLeadPVE
   ranks:
     RMCRankSPPSerzhant: []
@@ -11,7 +11,7 @@
   joinNotifyCrew: false
   accessGroups:
   - FTL
-  spawnMenuRoleName: job-rmcsppsquadleadpve-spawnmenurolename
+  spawnMenuRoleName: SPP Squad Lead (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPSquadLeadPVE
-  name: ent-RMCSpawnPointSPPSquadLeadPVE
-  suffix: ent-RMCSpawnPointSPPSquadLeadPVE-suffix
+  name: spp squad lead spawn point
+  suffix: PVE
   components:
   - type: SpawnPoint
     job_id: RMCSPPSquadLeadPVE

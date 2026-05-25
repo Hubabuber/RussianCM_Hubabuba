@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYGuardBase
-  name: job-au14jobwyguardbase-name
-  description: job-au14jobwyguardbase-desc
+  name: au14-job-name-wyguard
+  description: au14-job-description-wyguard
   playTimeTracker: AU14JobWYGuard
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobWYGuardBase
   id: AU14JobWYGuard
-  name: job-au14jobwyguard-name
-  description: job-au14jobwyguard-desc
+  name: au14-job-name-wyguard
+  description: au14-job-description-wyguard
   setPreference: true
   ranks:
     AU14RankWYSecurityOfficerChief:
@@ -42,8 +42,8 @@
     traits:
     - Epilepsy
   joinNotifyCrew: false
-  supervisors: job-au14jobwyguard-supervisors
-  spawnMenuRoleName: job-au14jobwyguard-spawnmenurolename
+  supervisors: au14-job-supervisors-wy
+  spawnMenuRoleName: WY Corporate Goon (CMU)
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointWYGuard
-  name: ent-AU14SpawnPointWYGuard
+  name: Spawn Point WY guard
   components:
   - type: SpawnPoint
     job_id: AU14JobWYGuard

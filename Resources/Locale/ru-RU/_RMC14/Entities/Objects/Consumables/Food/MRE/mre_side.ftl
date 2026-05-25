@@ -22,8 +22,3 @@ ent-CMMREComponentCracker = компонент ИРП (крекер)
 
 
 
-ent-CMMREFoodSide = item
-    .desc = Содержимое морфеха Стандартный выпуск MRE.
-
-ent-CMMRESideComponentBase = компонент MRE
-    .desc = Побочный компонент MRE. Содержит гарнир, который можно есть вместе с основным.

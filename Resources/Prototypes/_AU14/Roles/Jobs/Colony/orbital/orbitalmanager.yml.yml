@@ -3,8 +3,8 @@
   id: AU14JobCivilianOrbitalManager
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-au14jobcivilianorbitalmanager-name
-  description: job-au14jobcivilianorbitalmanager-desc
+  name: au14-job-name-civilianorbitalmanager
+  description: au14-job-description-civilianorbitalmanager
   setPreference: true
   playTimeTracker: AU14JobCivilianOrbitalManager
   requirements:
@@ -27,7 +27,7 @@
   requireAdminNotify: true
   joinNotifyCrew: false
   canBeAntag: false
-  supervisors: job-au14jobcivilianorbitalmanager-supervisors
+  supervisors: au14-job-supervisors-orbitalmanager
   accessGroups:
   - auadmin
   - auwy
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianOrbitalManager
-  name: ent-AU14SpawnPointCivilianOrbitalManager
+  name: Spawn Point Orbital Manager
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianOrbitalManager

@@ -1,10 +1,10 @@
-# TODO: Add descriptions (many)
+﻿# TODO: Add descriptions (many)
 # TODO BODY: Part damage
 - type: entity
   abstract: true
   parent: [ BaseItem, BasePart ]
   id: PartVox
-  name: "ent-PartVox"
+  name: "vox body part"
   components:
   - type: Sprite
     sprite: Mobs/Species/Vox/parts.rsi
@@ -19,7 +19,7 @@
 - type: entity
   parent: [PartVox, BaseTorso]
   id: TorsoVox
-  name: "ent-TorsoVox"
+  name: "vox torso"
   components:
   - type: Sprite
     state: "torso"
@@ -34,7 +34,7 @@
 - type: entity
   parent: [ PartVox, BaseHead ]
   id: HeadVox
-  name: "ent-HeadVox"
+  name: "vox head"
   components:
   - type: Sprite
     state: "head"
@@ -49,7 +49,7 @@
 - type: entity
   parent: [ PartVox, BaseLeftArm ]
   id: LeftArmVox
-  name: "ent-LeftArmVox"
+  name: "left vox arm"
   components:
   - type: Sprite
     state: "l_arm"
@@ -57,7 +57,7 @@
 - type: entity
   parent: [ PartVox, BaseRightArm ]
   id: RightArmVox
-  name: "ent-RightArmVox"
+  name: "right vox arm"
   components:
   - type: Sprite
     state: "r_arm"
@@ -65,7 +65,7 @@
 - type: entity
   parent: [ PartVox, BaseLeftHand ]
   id: LeftHandVox
-  name: "ent-LeftHandVox"
+  name: "left vox hand"
   components:
   - type: Sprite
     state: "l_hand"
@@ -73,7 +73,7 @@
 - type: entity
   parent: [ PartVox, BaseRightHand ]
   id: RightHandVox
-  name: "ent-RightHandVox"
+  name: "right vox hand"
   components:
   - type: Sprite
     state: "r_hand"
@@ -81,7 +81,7 @@
 - type: entity
   parent:  [ PartVox, BaseLeftLeg ]
   id: LeftLegVox
-  name: "ent-LeftLegVox"
+  name: "left vox leg"
   components:
   - type: Sprite
     state: "l_leg"
@@ -89,7 +89,7 @@
 - type: entity
   parent:  [ PartVox, BaseRightLeg ]
   id: RightLegVox
-  name: "ent-RightLegVox"
+  name: "right vox leg"
   components:
   - type: Sprite
     state: "r_leg"
@@ -97,7 +97,7 @@
 - type: entity
   parent: [ PartVox, BaseLeftFoot ]
   id: LeftFootVox
-  name: "ent-LeftFootVox"
+  name: "left vox foot"
   components:
   - type: Sprite
     state: "l_foot"
@@ -105,7 +105,7 @@
 - type: entity
   parent: [ PartVox, BaseRightFoot ]
   id: RightFootVox
-  name: "ent-RightFootVox"
+  name: "right vox foot"
   components:
   - type: Sprite
     state: "r_foot"

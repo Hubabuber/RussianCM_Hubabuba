@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-Lighter
+  name: basic lighter
   parent: BaseItem
   id: Lighter
-  description: "ent-Lighter-desc"
+  description: "A simple plastic cigarette lighter."
   components:
   - type: IgnitionSource
     ignited: false
@@ -99,10 +99,10 @@
     mishapDamageAmount: 4
 
 - type: entity
-  name: ent-CheapLighter
+  name: cheap lighter
   parent: Lighter
   id: CheapLighter
-  description: "ent-CheapLighter-desc"
+  description: "A dangerously inexpensive plastic lighter, don't burn your thumb!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/lighters.rsi
@@ -128,10 +128,10 @@
         maxVol: 4 #uses less fuel than a welder, so this isnt as bad as it looks
 
 - type: entity
-  name: ent-FlippoLighter
+  name: flippo lighter
   parent: BaseItem
   id: FlippoLighter
-  description: "ent-FlippoLighter-desc"
+  description: "A rugged metal lighter, lasts quite a while."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/lighters.rsi
@@ -221,10 +221,10 @@
     ignited: false
 
 - type: entity
-  name: ent-FlippoEngravedLighter
+  name: flippo engraved lighter
   parent: FlippoLighter
   id: FlippoEngravedLighter
-  description: "ent-FlippoEngravedLighter-desc"
+  description: "A rugged golden lighter, lasts quite a while. Engravings serve no tactical advantage whatsoever."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/lighters.rsi
@@ -322,8 +322,8 @@
 - type: entity
   parent: [BaseBrandedLighter, BaseSyndicateContraband]
   id: SyndicateFlippo
-  name: ent-SyndicateFlippo
-  description: "ent-SyndicateFlippo-desc"
+  name: Blood-red flippo
+  description: "A 'Valid' choice in lighters. Contains no copper."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/syndielighter.rsi
@@ -342,8 +342,8 @@
 - type: entity
   parent: Lighter
   id: DiscountDanLighter
-  name: ent-DiscountDanLighter
-  description: "ent-DiscountDanLighter-desc"
+  name: Discount Dan's lighter
+  description: "The worst lighter ever produced, lighterburn is inevitable, do not refuel while lit."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/lighters.rsi
@@ -397,8 +397,8 @@
 - type: entity
   parent: [BaseBrandedLighter, BaseSyndicateContraband]
   id: CybersunFlippo
-  name: ent-CybersunFlippo
-  description: "ent-CybersunFlippo-desc"
+  name: CyberSun Flippo
+  description: "A Sleek black and magenta flippo lighter, bearing the logo and iconography of CyberSun Industries."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/cybersun.rsi
@@ -417,8 +417,8 @@
 - type: entity
   parent: [BaseBrandedLighter, BaseSyndicateContraband]
   id: InterdyneFlippo
-  name: ent-InterdyneFlippo
-  description: "ent-InterdyneFlippo-desc"
+  name: Interdyne Flippo
+  description: "A deep blue flippo lighter, decorated with the logo of Interdyne Pharmaceuticals' 'Gene Clean' clinics. Become the master of your own cigarette."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/interdyne.rsi
@@ -441,8 +441,8 @@
 - type: entity
   parent: [BaseBrandedLighter]
   id: NanotrasenFlippo
-  name: ent-NanotrasenFlippo
-  description: "ent-NanotrasenFlippo-desc"
+  name: Nanotrasen Flippo
+  description: "A navy blue luxury flippo, generally handed out to loyal heads of staff instead of a payraise. Fueled with liquid plasma"
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/nanotrasen.rsi
@@ -471,9 +471,9 @@
 - type: entity
   parent: [BaseBrandedLighter, BaseCentcommContraband]
   id: CentCommFlippo
-  name: ent-CentCommFlippo
-  description: "ent-CentCommFlippo-desc"
-  suffix: ent-CentCommFlippo-suffix
+  name: Gilded CentComm Flippo
+  description: "An Ornate, jade embossed and gilded flippo frame containing a bluespace powered jet. The latch is secured by a miniature access reader that only responds to CentComm officials. The nicest lighter known to man."
+  suffix: DO NOT MAP
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/centcomm.rsi
@@ -517,8 +517,8 @@
 - type: entity
   parent: [BaseBrandedLighter, BaseMajorContraband]
   id: SpiderclanFlippo
-  name: ent-SpiderclanFlippo
-  description: "ent-SpiderclanFlippo-desc"
+  name: Spider-Clan lighter
+  description: "A high tech jet lighter, engineered to function even in deep space. Runs on a tiny microfusion cell."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/spiderclan.rsi
@@ -537,8 +537,8 @@
 - type: entity
   parent: [BaseBrandedLighter, BaseSyndicateContraband]
   id: WaffleCoFlippo
-  name: ent-WaffleCoFlippo
-  description: "ent-WaffleCoFlippo-desc"
+  name: Waffle Co. flippo
+  description: "A robust mass produced lighter. The Waffle Co. logo turns the spark wheel when pushed up, minimising risk of lighter burns for even the most inept user."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/waffleco.rsi
@@ -557,8 +557,8 @@
 - type: entity
   parent: [BaseBrandedLighter]
   id: HonkCoFlippo
-  name: ent-HonkCoFlippo
-  description: "ent-HonkCoFlippo-desc"
+  name: Honk Co. flippo
+  description: "A slippery gag lighter produced by Honk Co. hidden inside of a real banana peel."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/honkco.rsi
@@ -602,8 +602,8 @@
 - type: entity
   parent: [BaseBrandedLighter]
   id: DonkcoLighter
-  name: ent-DonkcoLighter
-  description: "ent-DonkcoLighter-desc"
+  name: Donk Co. flippo
+  description: "The flippo of choice for the seasoned traitor. A Breaded novelty lighter made by Donk Co. Somehow edible while lit."
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/donkco.rsi

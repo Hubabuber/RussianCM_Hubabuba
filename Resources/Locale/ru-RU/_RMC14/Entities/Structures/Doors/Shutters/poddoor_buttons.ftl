@@ -1,149 +1,153 @@
 ent-RMCPodDoorButtonHybrisaCavesLockdown = Закрытие пещер
   .desc = Пульт-выключатель для двери.
-    .suffix = Закрытие пещер
+
 ent-RMCPodDoorButtonWeYaOfficeQuarterWindows = Четверть оконные жалюзи
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonWeYaOfficeMaintenanceDoor = Затвор двери для обслуживания
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonWeYaOfficeQuarterDoor = Четверть двери Ставня
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonWeYaOfficeEvacPod = Управление дверью эвакуационной капсулы
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonWeYaOfficeRoomDivider = Перегородка
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonWeYaOfficeWindows = Жалюзи для офисных окон
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonWeYaOfficeDoor = Офисная дверная ставня
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRed = кнопка
   .desc = Пульт-выключатель для двери.
+
 ent-RMCPodDoorButton = кнопка
   .desc = Пульт-выключатель для двери.
+
 ent-RMCPodDoorButtonShip = кнопка
   .desc = Базовая кнопка, которая выполняет базовые действия.
+
 ent-RMCPodDoorButtonMP = кнопка
   .desc = Кнопка, привязанная к военной полиции.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonCommand = кнопка
   .desc = Базовая кнопка, привязанная к команде.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonSeniorCommand = кнопка
   .desc = Основная кнопка, доступная только старшему командованию.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonPilot = кнопка
   .desc = Базовая кнопка, предназначенная для пилотов и руководителей экипажей.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonRequisitions = кнопка
   .desc = Базовая кнопка, доступная только персоналу, осуществляющему заявки.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonKitchen = кнопка
   .desc = Основная кнопка, доступная только кухонному персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonEngineering = кнопка
   .desc = Базовая кнопка, доступная только инженерному персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonVehicle = кнопка
   .desc = Базовая кнопка, предназначенная только для членов экипажей транспортных средств.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonOrdnance = кнопка
   .desc = Базовая кнопка, доступная только для Ordnance Techs.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonMedical = кнопка
   .desc = Базовая кнопка, доступная медицинскому персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonMorgue = кнопка
   .desc = Базовая кнопка, доступная медицинскому персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonChemistry = кнопка
   .desc = Базовая кнопка, привязанная к химии.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonResearch = кнопка
   .desc = Базовая кнопка, доступная только исследовательскому персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonSynth = кнопка
   .desc = Базовая кнопка, привязанная к синтетике.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonCMO = кнопка
   .desc = Основная кнопка, закрепленная за главным врачом.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonCE = кнопка
   .desc = Базовая кнопка, закрепленная за главным инженером.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonCO = кнопка
   .desc = Основная кнопка, закрепленная за командиром.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonSEA = кнопка
   .desc = Базовая кнопка, доступная только старшим зачисленным советникам.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonArmory = кнопка
   .desc = Основная кнопка, привязанная к Оружейной.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedShip = кнопка
   .desc = Базовая кнопка, которая выполняет базовые действия.
+
 ent-RMCPodDoorButtonBigRedMP = кнопка
   .desc = Кнопка, привязанная к военной полиции.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedCommand = кнопка
   .desc = Базовая кнопка, привязанная к команде.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedSeniorCommand = кнопка
   .desc = Основная кнопка, доступная только старшему командованию.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedPilot = кнопка
   .desc = Базовая кнопка, предназначенная для пилотов и руководителей экипажей.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedRequisitions = кнопка
   .desc = Базовая кнопка, доступная только персоналу, осуществляющему заявки.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedKitchen = кнопка
   .desc = Основная кнопка, доступная только кухонному персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedEngineering = кнопка
   .desc = Базовая кнопка, доступная только инженерному персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedVehicle = кнопка
   .desc = Базовая кнопка, предназначенная только для членов экипажей транспортных средств.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedOrdnance = кнопка
   .desc = Базовая кнопка, доступная только для Ordnance Techs.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedMedical = кнопка
   .desc = Базовая кнопка, доступная медицинскому персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedChemistry = кнопка
   .desc = Базовая кнопка, привязанная к химии.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedResearch = кнопка
   .desc = Базовая кнопка, доступная только исследовательскому персоналу.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedSynth = кнопка
   .desc = Базовая кнопка, привязанная к синтетике.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedCMO = кнопка
   .desc = Основная кнопка, закрепленная за главным врачом.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedCE = кнопка
   .desc = Базовая кнопка, закрепленная за главным инженером.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedCO = кнопка
   .desc = Основная кнопка, закрепленная за командиром.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedSEA = кнопка
   .desc = Базовая кнопка, доступная только старшим зачисленным советникам.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonBigRedArmory = кнопка
   .desc = Основная кнопка, привязанная к Оружейной.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonWeYa = кнопка
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+
 ent-RMCPodDoorButtonSPP = кнопка
   .desc = Пульт-выключатель для двери.
-    .suffix = кнопка
+

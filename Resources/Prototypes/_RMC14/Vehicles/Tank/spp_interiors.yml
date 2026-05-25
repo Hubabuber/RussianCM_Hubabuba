@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPTankInteriorBase
-  name: ent-VehicleSPPTankInteriorBase
-  description: ent-VehicleSPPTankInteriorBase-desc
+  name: SPP tank interior piece
+  description: A decorative interior piece for an SPP tank.
   placement:
     mode: PlaceFree
   components:
@@ -14,8 +14,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPTankChassisBase
-  name: ent-VehicleSPPTankChassisBase
-  description: ent-VehicleSPPTankChassisBase-desc
+  name: SPP tank interior chassis
+  description: A chassis segment for an SPP tank interior.
   placement:
     mode: PlaceFree
   components:
@@ -109,8 +109,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleSPPTankLockerBase
-  name: ent-VehicleSPPTankLockerBase
-  description: ent-VehicleSPPTankLockerBase-desc
+  name: SPP tank locker
+  description: A storage locker for SPP tank interiors.
   placement:
     mode: PlaceFree
   components:
@@ -137,14 +137,14 @@
 - type: entity
   parent: VehicleSPPTankLockerBase
   id: VehicleSPPTankLocker
-  name: ent-VehicleSPPTankLocker
+  name: SPP tank locker
 
 - type: entity
   abstract: true
   parent: CMClosetBase
   id: VehicleSPPTankSmallLockerBase
-  name: ent-VehicleSPPTankSmallLockerBase
-  description: ent-VehicleSPPTankSmallLockerBase-desc
+  name: SPP tank small locker
+  description: A small storage locker for SPP tank interiors.
   placement:
     mode: PlaceFree
   components:
@@ -171,14 +171,14 @@
 - type: entity
   parent: VehicleSPPTankSmallLockerBase
   id: VehicleSPPTankSmallLocker
-  name: ent-VehicleSPPTankSmallLocker
+  name: SPP tank small locker
 
 - type: entity
   abstract: true
   parent: CMClosetBase
   id: VehicleSPPTankSmallLockerAltBase
-  name: ent-VehicleSPPTankSmallLockerAltBase
-  description: ent-VehicleSPPTankSmallLockerAltBase-desc
+  name: SPP tank small locker (alt)
+  description: An alternate small storage locker for SPP tank interiors.
   placement:
     mode: PlaceFree
   components:
@@ -205,14 +205,14 @@
 - type: entity
   parent: VehicleSPPTankSmallLockerAltBase
   id: VehicleSPPTankSmallLockerAlt
-  name: ent-VehicleSPPTankSmallLockerAlt
+  name: SPP tank small locker (alt)
 
 - type: entity
   abstract: true
   parent: CMClosetBase
   id: VehicleSPPTankAmmoStorageBase
-  name: ent-VehicleSPPTankAmmoStorageBase
-  description: ent-VehicleSPPTankAmmoStorageBase-desc
+  name: SPP tank ammunition storage
+  description: Ammunition storage for SPP tank interiors.
   placement:
     mode: PlaceFree
   components:
@@ -239,13 +239,13 @@
 - type: entity
   parent: VehicleSPPTankAmmoStorageBase
   id: VehicleSPPTankAmmoStorage
-  name: ent-VehicleSPPTankAmmoStorage
+  name: SPP tank ammunition storage
 
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleSPPTankAmmoLoader
-  name: ent-VehicleSPPTankAmmoLoader
-  description: ent-VehicleSPPTankAmmoLoader-desc
+  name: SPP tank ammo loader
+  description: A loader for SPP tank hardpoint ammunition.
   components:
   - type: Sprite
     drawdepth: BelowMobs

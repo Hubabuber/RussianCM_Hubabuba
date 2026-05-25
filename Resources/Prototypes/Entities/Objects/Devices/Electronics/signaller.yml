@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: RemoteSignaller
-  name: ent-RemoteSignaller
-  description: ent-RemoteSignaller-desc
+  name: remote signaller
+  description: A handheld device used for remotely sending signals to objects within a small radius of about 15 meters.
   components:
   - type: Sprite
     sprite: Objects/Devices/signaller.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: RemoteSignaller
   id: RemoteSignallerAdvanced
-  name: ent-RemoteSignallerAdvanced
-  description: ent-RemoteSignallerAdvanced-desc
+  name: advanced remote signaller
+  description: A handheld device used for remotely sending signals to objects within a small radius of about 50 meters.
   components:
   - type: Sprite
     state: advanced

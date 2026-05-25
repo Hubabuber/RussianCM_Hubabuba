@@ -1,16 +1,16 @@
 - type: job
   parent: AU14FORECONSmartGunOperatorBase
   id: AU14FORECONFirstReconSmartGunOperator
-  name: job-au14foreconfirstreconsmartgunoperator-name
-  description: job-au14foreconfirstreconsmartgunoperator-desc
+  name: au14-job-name-govforsquadautomaticriflemanRMC
+  description: au14-job-description-forecon-firstrecon
   ranks:
     RMCRankLanceCorporal: []
-  spawnMenuRoleName: job-au14foreconfirstreconsmartgunoperator-spawnmenurolename
+  spawnMenuRoleName: FORECON Automatic Rifleman (AU14, 3rd party)
   startingGear: AU14GearFORECONFirstReconSmartGunOperator
   greeting: au14-job-description-forecon-firstrecon-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14foreconfirstreconsmartgunoperator-supervisors
+  supervisors: cm-job-name-squad-leader
   special:
   - !type:AddComponentSpecial
     components:
@@ -35,7 +35,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicFORECON
   id: AU14JobFORECONFirstReconSmartGunOperator
-  name: ent-AU14JobFORECONFirstReconSmartGunOperator
+  name: FORECON Automatic Rifleman (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

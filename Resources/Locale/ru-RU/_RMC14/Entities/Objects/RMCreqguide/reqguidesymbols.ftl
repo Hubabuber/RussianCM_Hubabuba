@@ -1,27 +1,27 @@
 ent-RMCLogisticsofficerGuideBook = Символ офицеров логистики
   .desc = Сумма офицеров по логистике
-    .suffix = Символ офицеров логистики
+
 ent-RMCCargotechGuideBook = Символ технических специалистов
   .desc = Символ грузовых техников
-    .suffix = Символ технических специалистов
+
 ent-RMCPitRasedGuideBook = питрасед
   .desc = Все 5 падпадов
-    .suffix = питрасед
+
 ent-RMCPitLowerdGuideBook = Питловерд
   .desc = грузовая яма опущена
-    .suffix = Питловерд
+
 ent-RMCSupplyDropPadsGuideBook = подставки для поставок
   .desc = Все 5 падпадов
-    .suffix = подставки для поставок
+
 ent-RMCTheLineGuideBook = Линия
   .desc = Линия
-    .suffix = Линия
+
 ent-RMCASRSinterfaceGuideBook = АСРС-интерфейс
   .desc = Интерфейс АСРС
-    .suffix = АСРС-интерфейс
+
 ent-RMCGuidebookPaperRequisitionsWritten = счет-фактура заявки
   .desc = Единая бюрократическая единица, ожидающая одобрения.
-    .suffix = счет-фактура заявки
+
 ent-RMCGuidebookPaperRequisitionsStamped = счет-фактура заявки
   .desc = Единая бюрократическая единица, ожидающая одобрения.
-    .suffix = счет-фактура заявки
+

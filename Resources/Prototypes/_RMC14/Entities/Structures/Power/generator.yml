@@ -1,6 +1,6 @@
-- type: entity
+﻿- type: entity
   id: RMCGeneratorFusionFake
-  name: ent-RMCGeneratorFusionFake
+  name: permanently destroyed S-52 fusion reactor
   placement:
     mode: SnapgridCenter
   components:
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCGeneratorFusionFake
   id: RMCGeneratorFusion
-  name: ent-RMCGeneratorFusion
+  name: S-52 fusion reactor
   placement:
     mode: SnapgridCenter
   components:
@@ -67,8 +67,8 @@
 - type: entity
   parent: RMCGeneratorFusion
   id: RMCGeneratorFusionColony
-  name: ent-RMCGeneratorFusionColony
-  description: ent-RMCGeneratorFusionColony-desc
+  name: G-11 geothermal generator
+  description: A thermoelectric generator sitting atop a plasma-filled borehole.
   components:
   - type: RMCFusionReactor
     watts: 100000
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCGeneratorFusionColony
   id: RMCGeneratorFusionColonyNoMapIcon
-  suffix: ent-RMCGeneratorFusionColonyNoMapIcon-suffix
+  suffix: No Map Icon
   components:
   - type: RemoveComponents
     components:
@@ -116,8 +116,8 @@
 - type: entity
   parent: BaseItem
   id: RMCGeneratorFusionCell
-  name: ent-RMCGeneratorFusionCell
-  description: ent-RMCGeneratorFusionCell-desc
+  name: WL-6 universal fuel cell
+  description: A rechargeable fuel cell.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Power/fusion_fuel_cell.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: RMCPortableGeneratorBase
   id: RMCPortableGenerator
-  name: "ent-RMCPortableGenerator"
-  description: ent-RMCPortableGenerator-desc
+  name: "P.A.C.M.A.N.-type Portable Generator"
+  description: A portable generator for emergency backup power.
   components:
     - type: Sprite
       state: portgen0
@@ -187,8 +187,8 @@
 - type: entity
   parent: RMCPortableGeneratorBase
   id: RMCPortableGenerator2
-  name: "ent-RMCPortableGenerator2"
-  description: ent-RMCPortableGenerator2-desc
+  name: "S.U.P.E.R.P.A.C.M.A.N.-type Portable Generator"
+  description: A portable generator for emergency backup power.
   components:
     - type: Sprite
       state: portgen1

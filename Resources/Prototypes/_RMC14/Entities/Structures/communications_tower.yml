@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCCommunicationsTower
-  name: ent-RMCCommunicationsTower
-  description: ent-RMCCommunicationsTower-desc
+  name: TC-3T static telecommunications tower
+  description: A static heavy-duty TC-3T telecommunications tower. Used to set up subspace communications lines between planetary and extra-planetary locations. Will need to have extra communication frequencies programmed into it by multitool.
   components:
   - type: GuideHelp
     guides:
@@ -97,7 +97,7 @@
 - type: entity
   parent: RMCCommunicationsTower
   id: RMCCommunicationsTowerOn
-  suffix: "ent-RMCCommunicationsTowerOn-suffix"
+  suffix: "On, Colony, WeYa"
   components:
   - type: CommunicationsTower
     state: On
@@ -123,7 +123,7 @@
   abstract: true
   parent: MarkerBase
   id: RMCSpawnerCommunicationsTowerBase
-  name: ent-RMCSpawnerCommunicationsTowerBase
+  name: static comms
   components: # TODO RMC14 some start broken
   - type: Sprite
     sprite: _RMC14/Structures/communications_tower.rsi
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCSpawnerCommunicationsTowerBase
   id: RMCSpawnerCommunicationsTowerOne
-  suffix: ent-RMCSpawnerCommunicationsTowerOne-suffix
+  suffix: One
   components:
   - type: Sprite
     state: comms_landmark_1
@@ -145,7 +145,7 @@
 - type: entity
   parent: RMCSpawnerCommunicationsTowerBase
   id: RMCSpawnerCommunicationsTowerTwo
-  suffix: ent-RMCSpawnerCommunicationsTowerTwo-suffix
+  suffix: Two
   components:
   - type: Sprite
     state: comms_landmark_2
@@ -155,8 +155,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCCommunicationsTowerProp
-  name: ent-RMCCommunicationsTowerProp
-  description: ent-RMCCommunicationsTowerProp-desc
+  name: destroyed comms tower
+  description: An old company comms tower used to transmit communications between subspace bodies. Looks like this one has seen better days.
   components:
   - type: Transform
     anchored: true
@@ -186,8 +186,8 @@
 - type: entity
   parent: RMCCommunicationsTowerProp
   id: RMCCommunicationsTowerPropAlt0
-  name: ent-RMCCommunicationsTowerPropAlt0
-  description: ent-RMCCommunicationsTowerPropAlt0-desc
+  name: destroyed comms tower
+  description: An old company comms tower used to transmit communications between subspace bodies. Looks like this one has seen better days.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -197,8 +197,8 @@
 - type: entity
   parent: RMCCommunicationsTowerProp
   id: RMCCommunicationsTowerPropAlt1
-  name: ent-RMCCommunicationsTowerPropAlt1
-  description: ent-RMCCommunicationsTowerPropAlt1-desc
+  name: destroyed comms tower
+  description: An old company comms tower used to transmit communications between subspace bodies. Looks like this one has seen better days.
   components:
   - type: Sprite
     drawdepth: Mobs

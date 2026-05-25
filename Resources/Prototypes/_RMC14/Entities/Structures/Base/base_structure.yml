@@ -78,7 +78,7 @@
 - type: entity
   abstract: true
   id: RMCBaseWallInvincibleNoIcon
-  description: ent-RMCBaseWallInvincibleNoIcon-desc
+  description: A huge chunk of metal used to separate rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -122,7 +122,7 @@
   abstract: true
   parent: RMCBaseWallInvincibleNoIcon
   id: CMBaseWallInvincible
-  description: ent-CMBaseWallInvincible-desc
+  description: A huge chunk of metal used to separate rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -135,7 +135,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: CMBaseWall
-  description: ent-CMBaseWall-desc
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Damageable
     damageContainer: StructuralMarine
@@ -164,7 +164,7 @@
   - BaseWall
   - CMBaseXenoStructure
   id: CMBaseWallXeno
-  name: ent-CMBaseWallXeno
+  name: resin wall
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -199,8 +199,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCWallInvisibleBulletPassible
-  name: ent-RMCWallInvisibleBulletPassible
-  suffix: ent-RMCWallInvisibleBulletPassible-suffix
+  name: wall blocker
+  suffix: Projectile Passible
   placement:
     mode: SnapgridCenter
   components:
@@ -236,8 +236,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCWallInvisibleBulletBlocker
-  name: ent-RMCWallInvisibleBulletBlocker
-  suffix: ent-RMCWallInvisibleBulletBlocker-suffix
+  name: wall blocker
+  suffix: Projectile Blocker
   placement:
     mode: SnapgridCenter
   components:
@@ -275,8 +275,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCWallInvisibleBulletLightBlocker
-  name: ent-RMCWallInvisibleBulletLightBlocker
-  suffix: ent-RMCWallInvisibleBulletLightBlocker-suffix
+  name: wall blocker
+  suffix: Projectile + Light Blocker
   placement:
     mode: SnapgridCenter
   components:
@@ -314,7 +314,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCBlockerAirtight
-  name: ent-RMCBlockerAirtight
+  name: airtight blocker
   placement:
     mode: SnapgridCenter
   components:

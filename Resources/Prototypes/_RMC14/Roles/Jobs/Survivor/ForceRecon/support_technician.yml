@@ -1,7 +1,7 @@
 - type: job
   parent: RMCSurvivorForeconBase
   id: RMCSurvivorForeconSupportTech
-  name: job-rmcsurvivorforeconsupporttech-name
+  name: rmc-job-name-forecon-support-tech
   startingGear: RMCGearForeconSupportTech
   icon: "CMJobIconCombatTech"
   requirements:
@@ -14,7 +14,7 @@
   - !type:TotalJobsTimeRequirement
     group: RMCJobsSurvivor
     time: 5400 # 1.5 hours
-  spawnMenuRoleName: job-rmcsurvivorforeconsupporttech-spawnmenurolename
+  spawnMenuRoleName: FORECON Support Technician (Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconSupportTech
-  name: ent-CMSpawnPointForeconSupportTech
+  name: forecon support tech spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconSupportTech
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCSurvivorPresetForeconNoPistol
   id: RMCSurvivorPresetForeconSupportTech
-  name: ent-RMCSurvivorPresetForeconSupportTech
+  name: forecon support technician survivor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,9 +1,9 @@
 - type: job
   parent: CMSurvivorCorporate
   id: CMSurvivorLV624CorporateLiaison
-  name: job-cmsurvivorlv624corporateliaison-name
-  description: job-cmsurvivorlv624corporateliaison-desc
-  spawnMenuRoleName: job-cmsurvivorlv624corporateliaison-spawnmenurolename
+  name: rmc-job-name-survivor-lv624-corporate-liaison
+  description: cm-job-description-survivor
+  spawnMenuRoleName: Corporate Liaison (LV624 Survivor)
   startingGear: RMCGearSurvivorLV624CorporateLiaison
   special:
   - !type:AddComponentSpecial
@@ -36,7 +36,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CorporateLiaison
-  name: ent-RMCSpawnPointSurvivorLV624CorporateLiaison
+  name: survivor lv624 coporate liaison spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,4 +50,4 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetLV624CorporateLiaison
-  name: ent-RMCGearSurvivorPresetLV624CorporateLiaison
+  name: lv624 colonist preset

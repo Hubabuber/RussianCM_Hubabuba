@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltUtility
-  name: ent-ClothingBeltUtility
-  description: ent-ClothingBeltUtility-desc
+  name: utility belt
+  description: Can hold various things.
   components:
   - type: Sprite
     sprite: Clothing/Belt/utility.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltChiefEngineer
-  name: ent-ClothingBeltChiefEngineer
-  description: ent-ClothingBeltChiefEngineer-desc
+  name: chief engineer's toolbelt
+  description: Holds tools, looks snazzy.
   components:
   - type: Sprite
     sprite: Clothing/Belt/ce.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltAssault
-  name: ent-ClothingBeltAssault
-  description: ent-ClothingBeltAssault-desc
+  name: assault belt
+  description: A tactical assault belt.
   components:
   - type: Sprite
     sprite: Clothing/Belt/assault.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltJanitor
-  name: ent-ClothingBeltJanitor
-  description: ent-ClothingBeltJanitor-desc
+  name: janibelt
+  description: A belt used to hold most janitorial supplies.
   components:
   - type: Sprite
     sprite: Clothing/Belt/janitor.rsi
@@ -254,8 +254,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMedical
-  name: ent-ClothingBeltMedical
-  description: ent-ClothingBeltMedical-desc
+  name: medical belt
+  description: Can hold various medical equipment.
   components:
   - type: Sprite
     sprite: Clothing/Belt/medical.rsi
@@ -320,8 +320,8 @@
 - type: entity
   parent: ClothingBeltMedical
   id: ClothingBeltMedicalEMT
-  name: ent-ClothingBeltMedicalEMT
-  description: ent-ClothingBeltMedicalEMT-desc
+  name: EMT belt
+  description: Perfect for holding various equipment for medical emergencies.
   components:
   - type: Sprite
     sprite: Clothing/Belt/emt.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltPlant
-  name: ent-ClothingBeltPlant
-  description: ent-ClothingBeltPlant-desc
+  name: botanical belt
+  description: A belt used to hold most hydroponics supplies. Suprisingly, not green.
   components:
   - type: Sprite
     sprite: Clothing/Belt/plant.rsi
@@ -388,8 +388,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltChef
-  name: ent-ClothingBeltChef
-  description: ent-ClothingBeltChef-desc
+  name: chef belt
+  description: A belt used to hold kitchen knives and condiments for quick access.
   components:
   - type: Sprite
     sprite: Clothing/Belt/chef.rsi
@@ -465,8 +465,8 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSecurityContraband]
   id: ClothingBeltSecurity
-  name: ent-ClothingBeltSecurity
-  description: ent-ClothingBeltSecurity-desc
+  name: security belt
+  description: Can hold security gear like handcuffs and flashes.
   components:
   - type: Sprite
     sprite: Clothing/Belt/security.rsi
@@ -518,8 +518,8 @@
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase, BaseCommandContraband]
   id: ClothingBeltSheath
-  name: ent-ClothingBeltSheath
-  description: ent-ClothingBeltSheath-desc
+  name: sabre sheath
+  description: An ornate sheath designed to hold an officer's blade.
   components:
   - type: Sprite
     sprite: Clothing/Belt/sheath.rsi
@@ -552,8 +552,8 @@
 - type: entity
   parent: [ClothingBeltAmmoProviderBase, BaseSecurityBartenderContraband]
   id: ClothingBeltBandolier
-  name: ent-ClothingBeltBandolier
-  description: ent-ClothingBeltBandolier-desc
+  name: bandolier
+  description: A bandolier for holding shotgun ammunition.
   components:
   - type: Sprite
     sprite: Clothing/Belt/bandolier.rsi
@@ -570,8 +570,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltChampion
-  name: ent-ClothingBeltChampion
-  description: ent-ClothingBeltChampion-desc
+  name: championship belt
+  description: Proves to the world that you are the strongest!
   components:
   - type: Sprite
     sprite: Clothing/Belt/champion.rsi
@@ -585,8 +585,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltHolster
-  name: ent-ClothingBeltHolster
-  description: 'ent-ClothingBeltHolster-desc'
+  name: shoulder holster
+  description: 'A holster to carry a handgun and ammo. WARNING: Badasses only.'
   components:
   - type: Sprite
     sprite: Clothing/Belt/holster.rsi
@@ -599,8 +599,8 @@
 - type: entity
   parent: [ClothingBeltStorageBase, BaseSyndicateContraband]
   id: ClothingBeltSyndieHolster
-  name: ent-ClothingBeltSyndieHolster
-  description: ent-ClothingBeltSyndieHolster-desc
+  name: syndicate shoulder holster
+  description: A deep shoulder holster capable of holding many types of ballistics.
   components:
   - type: Sprite
     sprite: Clothing/Belt/syndieholster.rsi
@@ -623,8 +623,8 @@
 - type: entity
   parent: ClothingBeltSecurity
   id: ClothingBeltSecurityWebbing
-  name: ent-ClothingBeltSecurityWebbing
-  description: ent-ClothingBeltSecurityWebbing-desc
+  name: security carrier
+  description: Unique and versatile chest rig, can hold security gear.
   components:
   - type: Sprite
     sprite: Clothing/Belt/securitywebbing.rsi
@@ -634,8 +634,8 @@
 - type: entity
   parent: [ ClothingBeltStorageBase, BaseSecurityCargoContraband ]
   id: ClothingBeltMercWebbing
-  name: ent-ClothingBeltMercWebbing
-  description: ent-ClothingBeltMercWebbing-desc
+  name: mercenary webbing
+  description: Ideal for storing everything from ammo to weapons and combat essentials.
   components:
   - type: Sprite
     sprite: Clothing/Belt/mercwebbing.rsi
@@ -645,8 +645,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltSalvageWebbing
-  name: ent-ClothingBeltSalvageWebbing
-  description: ent-ClothingBeltSalvageWebbing-desc
+  name: salvage rig
+  description: Universal unloading system for work in space.
   components:
   - type: Sprite
     sprite: Clothing/Belt/salvagewebbing.rsi
@@ -656,8 +656,8 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSyndicateContraband]
   id: ClothingBeltMilitaryWebbing
-  name: ent-ClothingBeltMilitaryWebbing
-  description: ent-ClothingBeltMilitaryWebbing-desc
+  name: chest rig
+  description: A set of tactical webbing worn by Syndicate boarding parties.
   components:
   - type: Sprite
     sprite: Clothing/Belt/militarywebbing.rsi
@@ -671,8 +671,8 @@
 - type: entity
   parent: ClothingBeltMilitaryWebbing
   id: ClothingBeltMilitaryWebbingMed
-  name: ent-ClothingBeltMilitaryWebbingMed
-  description: ent-ClothingBeltMilitaryWebbingMed-desc
+  name: medical chest rig
+  description: A set of tactical webbing worn by Gorlex Marauder medic operatives.
   components:
   - type: Sprite
     sprite: Clothing/Belt/militarywebbingmed.rsi
@@ -686,8 +686,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltSuspendersRed
-  name: ent-ClothingBeltSuspendersRed
-  description: ent-ClothingBeltSuspendersRed-desc
+  name: red suspenders
+  description: For holding your pants up.
   components:
   - type: Tag
     tags:
@@ -702,7 +702,7 @@
 - type: entity
   parent: ClothingBeltSuspendersRed
   id: ClothingBeltSuspendersBlack
-  name: ent-ClothingBeltSuspendersBlack
+  name: black suspenders
   components:
   - type: Sprite
     sprite: Clothing/Belt/suspenders_black.rsi
@@ -712,8 +712,8 @@
 - type: entity
   parent: [ ClothingBeltStorageBase, BaseMagicalContraband ]
   id: ClothingBeltWand
-  name: ent-ClothingBeltWand
-  description: ent-ClothingBeltWand-desc
+  name: wand belt
+  description: A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
   components:
   - type: Sprite
     sprite: Clothing/Belt/wand.rsi

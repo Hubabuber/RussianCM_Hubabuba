@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivor
   id: CMSurvivorUNMCRecruiter
-  name: job-cmsurvivorunmcrecruiter-name
-  description: job-cmsurvivorunmcrecruiter-desc
+  name: rmc-job-name-survivor-unmc-recruiter
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorUNMCRecruiter
-  spawnMenuRoleName: job-cmsurvivorunmcrecruiter-spawnmenurolename
+  spawnMenuRoleName: UNMC Recruiter (Solaris Survivor)
   ranks:
     RMCRankSergeant: []
   accessGroups:
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorUNMCRecruiter
-  name: ent-RMCSpawnPointSurvivorUNMCRecruiter
+  name: survivor unmc recruiter spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorUNMCRecruiter

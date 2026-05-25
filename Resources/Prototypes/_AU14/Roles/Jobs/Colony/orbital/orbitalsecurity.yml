@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianOrbitalSecurity
-  name: job-au14jobcivilianorbitalsecurity-name
-  description: job-au14jobcivilianorbitalsecurity-desc
+  name: au14-job-name-orbitalsecurity
+  description: au14-job-description-orbitalsecurity
   playTimeTracker: AU14JobCivilianOrbitalSecurity
   setPreference: true
   ranks:
@@ -18,7 +18,7 @@
     traits:
     - Epilepsy
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianorbitalsecurity-supervisors
+  supervisors: au14-job-supervisors-orbital
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianOrbitalSecurity
-  name: ent-AU14SpawnPointCivilianOrbitalSecurity
+  name: Spawn Point Orbital Security
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianOrbitalSecurity

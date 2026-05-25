@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCLFSurgeon
-  name: job-au14jobclfsurgeon-name
-  description: job-au14jobclfsurgeon-desc
+  name: au14-job-name-clfsurgeon
+  description: au14-job-description-clfsurgeon
   setPreference: true
   ignoreAllegiance: true
   playTimeTracker: AU14JobCLFSurgeon
@@ -25,7 +25,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobclfsurgeon-supervisors
+  supervisors: au14-job-supervisors-clflrs
   accessGroups:
   - Colonist
   - aumed
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCLFSurgeon
-  name: ent-AU14SpawnPointCLFSurgeon
+  name: Spawn Point CLF Surgeon
   components:
   - type: SpawnPoint
     job_id: AU14JobCLFSurgeon

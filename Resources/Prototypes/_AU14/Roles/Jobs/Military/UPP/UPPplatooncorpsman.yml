@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobGOVFORPlatoonCorpsmanUPP
-  name: job-au14jobgovforplatooncorpsmanupp-name
-  description: job-au14jobgovforplatooncorpsmanupp-desc
+  name: Field Medic
+  description: au14-job-description-govforplatooncorpsman
   setPreference: false
   ranks:
     UPP_Corporal:
@@ -14,14 +14,14 @@
   dummyStartingGear: AU14GearGOVFORCorpsmanDummy
   icon: "AU14JobIconCorpsman"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobgovforplatooncorpsmanupp-spawnmenurolename
+  spawnMenuRoleName: Hospital Corpsman (UPP)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforplatooncorpsmanupp-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCorpsman
   - AU14GovforSquad
   overwatchSortPriority: -2
-  overwatchRoleName: job-au14jobgovforplatooncorpsmanupp-overwatchrolename
+  overwatchRoleName: au14-job-name-govforplatooncorpsman-plural
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

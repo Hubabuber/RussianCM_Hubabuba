@@ -1,1 +1,0 @@
-ent-RMCPurpleLightning = Purple Lightning

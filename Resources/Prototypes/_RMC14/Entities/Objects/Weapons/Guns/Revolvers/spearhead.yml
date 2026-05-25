@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [RMCBaseSlideMagazineVisualsBallistic, RMCWeaponRevolverBase]
   id: RMCWeaponRevolverSpearhead
-  name: ent-RMCWeaponRevolverSpearhead
-  description: ent-RMCWeaponRevolverSpearhead-desc
+  name: CMB Spearhead autorevolver
+  description: A bulky revolver, occasionally carried by assault troops and officers in the Marine Corps, as well as civilian law enforcement. Fires .357 Magnum rounds.
   components:
   - type: Tag
     tags:
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCWeaponRevolverSpearhead
   id: RMCWeaponRevolverSpearheadCustom
-  name: ent-RMCWeaponRevolverSpearheadCustom
-  description: ent-RMCWeaponRevolverSpearheadCustom-desc
+  name: Spearhead custom autorevolver
+  description: An automatic revolver chambered in .357, custom made of darker metal and with a wooden handle, clearly made for a person with taste in mind.
   components:
   - type: Tag
     tags:
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCWeaponRevolverSpearhead
   id: RMCWeaponRevolverSpearheadEmpty
-  suffix: ent-RMCWeaponRevolverSpearheadEmpty-suffix
+  suffix: Empty
   components:
   - type: RevolverAmmoProvider
     proto: null
@@ -124,7 +124,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoader357
-  name: "ent-RMCBaseSpeedLoader357"
+  name: "Speed loader (.357)"
   parent: BaseItem
   abstract: true
   components:
@@ -149,8 +149,8 @@
 - type: entity
   parent: RMCBaseSpeedLoader357
   id: RMCSpeedLoader357
-  name: "ent-RMCSpeedLoader357"
-  description: ent-RMCSpeedLoader357-desc
+  name: "Speed loader (.357)"
+  description: A revolver speed loader.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/spearhead.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: RMCBaseSpeedLoader357
   id: RMCSpeedLoader357Hollowpoint
-  name: "ent-RMCSpeedLoader357Hollowpoint"
-  description: ent-RMCSpeedLoader357Hollowpoint-desc
+  name: "hollowpoint speed loader (.357)"
+  description: A revolver speed loader filled with Hollowpoint ammo.
   components:
   - type: Tag
     tags:
@@ -196,7 +196,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver357
-  name: ent-RMCCartridgeRevolver357
+  name: cartridge (.357)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -208,7 +208,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver357Hollowpoint
-  name: ent-RMCCartridgeRevolver357Hollowpoint
+  name: cartridge (.357) Hollowpoint
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -221,7 +221,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver357
-  name: ent-RMCBulletRevolver357
+  name: bullet (.357)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -241,7 +241,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver357Hollowpoint
-  name: ent-RMCBulletRevolver357Hollowpoint
+  name: bullet (.357) Hollowpoint
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

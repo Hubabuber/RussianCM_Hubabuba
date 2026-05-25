@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMIntelOfficer
-  name: job-cmintelofficer-name
-  description: job-cmintelofficer-desc
+  name: cm-job-name-intel
+  description: cm-job-description-intel
   setPreference: false
   playTimeTracker: CMJobIntelOfficer
   requirements:
@@ -22,7 +22,7 @@
   icon: "CMJobIconIntelOfficer"
   joinNotifyCrew: false
   marineAuthorityLevel: 6
-  supervisors: job-cmintelofficer-supervisors
+  supervisors: cm-job-supervisors-aso
   accessGroups:
   - IntelOfficer
   roleWeight: 0.25
@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointIntelOfficer
-  name: ent-CMSpawnPointIntelOfficer
+  name: intel officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMIntelOfficer
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleIO
-  name: ent-RMCGuidebookRoleIO
+  name: Intelligence Officer
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

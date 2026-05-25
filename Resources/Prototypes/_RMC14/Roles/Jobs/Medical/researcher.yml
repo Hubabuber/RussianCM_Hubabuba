@@ -1,14 +1,14 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMResearcher
-  name: job-cmresearcher-name
-  description: job-cmresearcher-desc
+  name: rmc-job-name-researcher
+  description: rmc-job-description-researcher
   setPreference: false
   playTimeTracker: CMJobResearcher
   startingGear: CMGearResearcher
   icon: "CMJobIconResearcher"
   joinNotifyCrew: false
-  supervisors: job-cmresearcher-supervisors
+  supervisors: cm-job-supervisors-cmo
   accessGroups:
   - Researcher
   roleWeight: 0.25
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointResearcher
-  name: ent-CMSpawnPointResearcher
+  name: researcher spawn point
   components:
   - type: SpawnPoint
     job_id: CMResearcher

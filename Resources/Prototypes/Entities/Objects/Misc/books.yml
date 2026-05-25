@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-BookBase
+  name: book
   parent: BaseItem
   id: BookBase
-  description: ent-BookBase-desc
+  description: A hardcover book.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -49,7 +49,7 @@
   parent: BaseItem
   id: BaseGuidebook
   abstract: true
-  suffix: ent-BaseGuidebook-suffix
+  suffix: guidebook
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -73,8 +73,8 @@
 - type: entity
   id: BookSpaceEncyclopedia
   parent: BaseGuidebook
-  name: ent-BookSpaceEncyclopedia
-  description: ent-BookSpaceEncyclopedia-desc
+  name: space encyclopedia
+  description: An encyclopedia containing all the knowledge. The author of this encyclopedia is unknown.
   components:
   - type: Sprite
     layers:
@@ -94,8 +94,8 @@
 - type: entity
   id: BookTheBookOfControl
   parent: BaseGuidebook
-  name: ent-BookTheBookOfControl
-  description: ent-BookTheBookOfControl-desc
+  name: the book of control
+  description: Essential to become robust.
   components:
   - type: Sprite
     layers:
@@ -115,8 +115,8 @@
 - type: entity
   id: BookBartendersManual
   parent: BaseGuidebook
-  name: ent-BookBartendersManual
-  description: ent-BookBartendersManual-desc
+  name: bartender's manual
+  description: This manual is stained with beer.
   components:
   - type: Sprite
     layers:
@@ -134,8 +134,8 @@
 - type: entity
   id: BookHowToCookForFortySpaceman
   parent: BaseGuidebook
-  name: ent-BookHowToCookForFortySpaceman
-  description: ent-BookHowToCookForFortySpaceman-desc
+  name: How To Cook For Forty Spacemen
+  description: A book about cooking written by a space chef.
   components:
   - type: Sprite
     layers:
@@ -152,8 +152,8 @@
 - type: entity
   id: BookLeafLoversSecret
   parent: BaseGuidebook
-  name: ent-BookLeafLoversSecret
-  description: ent-BookLeafLoversSecret-desc
+  name: leaf lover's secret
+  description: It has a strong weed smell. It motivates you to feed and seed.
   components:
   - type: Sprite
     layers:
@@ -173,8 +173,8 @@
 - type: entity
   id: BookEngineersHandbook
   parent: BaseGuidebook
-  name: ent-BookEngineersHandbook
-  description: ent-BookEngineersHandbook-desc
+  name: engineer's handbook
+  description: A handbook about engineering written by Nanotrasen.
   components:
   - type: Sprite
     layers:
@@ -193,8 +193,8 @@
 - type: entity
   id: BookScientistsGuidebook
   parent: BaseGuidebook
-  name: ent-BookScientistsGuidebook
-  description: ent-BookScientistsGuidebook-desc
+  name: scientist's guidebook
+  description: A guidebook about science written by Nanotrasen.
   components:
   - type: Sprite
     layers:
@@ -211,8 +211,8 @@
 - type: entity
   id: BookSecurity
   parent: BaseGuidebook
-  name: ent-BookSecurity
-  description: ent-BookSecurity-desc
+  name: security 101
+  description: A book about security written by Nanotrasen. The book is stained with blood. It seems to have been used more as a weapon than reading material.
   components:
   - type: Sprite
     layers:
@@ -235,8 +235,8 @@
 - type: entity
   id: BookHowToKeepStationClean
   parent: BaseGuidebook
-  name: ent-BookHowToKeepStationClean
-  description: ent-BookHowToKeepStationClean-desc
+  name: how to keep station clean
+  description: This book is very clean.
   components:
   - type: Sprite
     layers:
@@ -252,8 +252,8 @@
 - type: entity
   id: BookHowToRockAndStone
   parent: BaseGuidebook
-  name: ent-BookHowToRockAndStone
-  description: ent-BookHowToRockAndStone-desc
+  name: how to rock and stone
+  description: A very detailed guide about salvage written by Karl, a legendary space miner, however he's missing. It motivates you to rock and stone.
   components:
   - type: Sprite
     layers:
@@ -273,8 +273,8 @@
 - type: entity
   id: BookMedicalReferenceBook
   parent: BaseGuidebook
-  name: ent-BookMedicalReferenceBook
-  description: ent-BookMedicalReferenceBook-desc
+  name: medical reference book
+  description: A reference book about medical written by an old doctor. The handwriting is barely comprehensible.
   components:
   - type: Sprite
     layers:
@@ -292,8 +292,8 @@
 - type: entity
   id: BookHowToSurvive
   parent: BaseGuidebook
-  name: ent-BookHowToSurvive
-  description: ent-BookHowToSurvive-desc
+  name: how to survive
+  description: Ironically the author of this book is dead.
   components:
   - type: Sprite
     layers:
@@ -313,8 +313,8 @@
 - type: entity
   id: BookChemicalCompendium
   parent: BaseGuidebook
-  name: ent-BookChemicalCompendium
-  description: ent-BookChemicalCompendium-desc
+  name: chempendium
+  description: A comprehensive guide written by some old skeleton of a professor about chemical synthesis.
   components:
   - type: Sprite
     layers:
@@ -332,8 +332,8 @@
 - type: entity
   id: BookSpaceLaw
   parent: BaseGuidebook
-  name: ent-BookSpaceLaw
-  description: ent-BookSpaceLaw-desc
+  name: space law
+  description: A set of Nanotrasen guidelines for keeping law and order on their space stations.
   components:
   - type: Sprite
     layers:
@@ -349,8 +349,8 @@
 - type: entity
   parent: BookBase
   id: BookRandom
-  suffix: ent-BookRandom-suffix
-  description: ent-BookRandom-desc
+  suffix: random visual
+  description: Each book is unique! What is hidden in this one?
   components:
   - type: RandomMetadata
     nameSegments:
@@ -414,7 +414,7 @@
 - type: entity
   parent: BookRandom
   id: BookRandomStory
-  suffix: ent-BookRandomStory-suffix
+  suffix: random visual, random story
   components:
   - type: PaperRandomStory
     template: GenericStory
@@ -422,8 +422,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosDistro
-  name: "ent-BookAtmosDistro"
-  description: ent-BookAtmosDistro-desc
+  name: "Newton's Guide to Atmos: The Distro"
+  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -441,8 +441,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosWaste
-  name: "ent-BookAtmosWaste"
-  description: ent-BookAtmosWaste-desc
+  name: "Newton's Guide to Atmos: Waste"
+  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -460,8 +460,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosAirAlarms
-  name: "ent-BookAtmosAirAlarms"
-  description: ent-BookAtmosAirAlarms-desc
+  name: "Newton's Guide to Atmos: Air Alarms"
+  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -479,8 +479,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosVentsMore
-  name: "ent-BookAtmosVentsMore"
-  description: ent-BookAtmosVentsMore-desc
+  name: "Newton's Guide to Atmos: Vents and More"
+  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:

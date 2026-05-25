@@ -12,8 +12,9 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentAngledGrip # angledgrip
-  name: ent-RMCAttachmentAngledGrip
-  description: ent-RMCAttachmentAngledGrip-desc
+  name: angled grip
+  description: "An angled foregrip that improves weapon ergonomics resulting in faster wielding time.
+    However, it also increases weapon size."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -33,8 +34,9 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentBipod
-  name: ent-RMCAttachmentBipod
-  description: ent-RMCAttachmentBipod-desc
+  name: bipod
+  description: "A simple set of telescopic poles to keep a weapon stabilized during firing.
+    When properly placed, greatly increases accuracy, fire-rate and reduces recoil, but when not deployed also increases weapon size and slows fire-rate."
   components:
   - type: Sprite
     state: bipod
@@ -136,8 +138,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentBurstFireAssembly # burstfire_assembly
-  name: ent-RMCAttachmentBurstFireAssembly
-  description: ent-RMCAttachmentBurstFireAssembly-desc
+  name: burst fire assembly
+  description: A small angled piece of fine machinery that increases the burst count on some weapons.
   components:
   - type: Sprite
     state: rapidfire
@@ -165,8 +167,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentGyroscopicStabilizer
-  name: ent-RMCAttachmentGyroscopicStabilizer
-  description: ent-RMCAttachmentGyroscopicStabilizer-desc
+  name: gyroscopic stabilizer
+  description: A set of weights and balances to stabilize the weapon when fired with one hand. Decreases firing speed.
   components:
   - type: Sprite
     state: gyro
@@ -201,8 +203,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentLaserSight
-  name: ent-RMCAttachmentLaserSight
-  description: ent-RMCAttachmentLaserSight-desc
+  name: laser sight
+  description: A laser sight that attaches to the underside of most weapons. Increases accuracy and decreases scatter, especially while one-handed.
   components:
   - type: Sprite
     state: lasersight
@@ -227,8 +229,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentMicroLaserSight
-  name: ent-RMCAttachmentMicroLaserSight
-  description: ent-RMCAttachmentMicroLaserSight-desc
+  name: micro laser sight
+  description: A compact, high-precision laser sight engineered exclusively for the M13 Auto Pistol. Offers exceptional accuracy gains by interfacing directly with the weapon's internal targeting systems.
   components:
   - type: Sprite
     state: lasersight_micro
@@ -251,8 +253,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentMiniFlamethrower
-  name: ent-RMCAttachmentMiniFlamethrower # TODO RMC14 intensity toggle
-  description: ent-RMCAttachmentMiniFlamethrower-desc
+  name: underbarrel flamethrower # TODO RMC14 intensity toggle
+  description: A weapon-mounted refillable flamethrower attachment. It has a secondary setting for a more intense flame with far less propulsion ability and heavy fuel usage.
   components:
   - type: Sprite
     state: flamethrower
@@ -317,8 +319,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: CMAttachmentXMVESG1FlamerNozzle
-  name: ent-CMAttachmentXMVESG1FlamerNozzle
-  description: ent-CMAttachmentXMVESG1FlamerNozzle-desc
+  name: XM-VESG-1 flamer nozzle
+  description: A special nozzle designed to alter flamethrowers to be used in a more offense orientated manner. As the inside of the nozzle is coated in a special gel and resin substance that takes the fuel that passes through and hardens it. Upon exiting the barrel, a cluster of burning gel is projected instead of a stream of burning naphtha.
   components:
   - type: Sprite
     state: flamer_nozzle
@@ -328,8 +330,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentU7UnderbarrelShotgun
-  name: ent-RMCAttachmentU7UnderbarrelShotgun
-  description: ent-RMCAttachmentU7UnderbarrelShotgun-desc
+  name: U7 underbarrel shotgun
+  description: An AEGIS U7 tactical shotgun. Attaches to the underbarrel of most weapons. Only capable of loading up to five buckshot shells. Specialized for breaching into buildings.
   components:
   - type: Sprite
     state: masterkey
@@ -400,8 +402,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentUnderbarrelExtinguisher
-  name: ent-RMCAttachmentUnderbarrelExtinguisher
-  description: ent-RMCAttachmentUnderbarrelExtinguisher-desc
+  name: HME-12 underbarrel extinguisher
+  description: A Taiho-Technologies HME-12 underbarrel extinguisher. Attaches to the underbarrel of most weapons. Point at flame before applying pressure.
   components:
   - type: Sprite
     state: extinguisher
@@ -470,8 +472,8 @@
 - type: entity
   parent: RMCAttachmentUnderbarrelExtinguisher
   id: RMCAttachmentUnderbarrelExtinguisherSpec
-  name: ent-RMCAttachmentUnderbarrelExtinguisherSpec
-  description: ent-RMCAttachmentUnderbarrelExtinguisherSpec-desc
+  name: HME-88B underbarrel extinguisher
+  description: An experimental Taiho-Technologies HME-88B underbarrel extinguisher integrated with a select few gun models. It is capable of putting out the strongest of flames. Point at flame before applying pressure.
   components:
   - type: Spray
     sprayedPrototype: RMCExtinguisherSpraySpec
@@ -489,8 +491,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentU1GrenadeLauncher
-  name: ent-RMCAttachmentU1GrenadeLauncher
-  description: ent-RMCAttachmentU1GrenadeLauncher-desc
+  name: U1 grenade launcher
+  description: A weapon-mounted, reloadable grenade launcher.
   components:
   - type: Sprite
     layers:
@@ -580,8 +582,8 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentMK1GrenadeLauncher
-  name: ent-RMCAttachmentMK1GrenadeLauncher
-  description: ent-RMCAttachmentMK1GrenadeLauncher-desc
+  name: MK1 underslung grenade launcher
+  description: An older version of the classic underslung grenade launcher. Can store five grenades, but fires them slower.
   components:
   - type: Sprite
     layers:
@@ -623,8 +625,8 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentM203GrenadeLauncher
-  name: ent-RMCAttachmentM203GrenadeLauncher
-  description: ent-RMCAttachmentM203GrenadeLauncher-desc
+  name: M203 grenade launcher
+  description: An antique underbarrel grenade launcher. Adopted in 1969 for the M16, it was made obsolete centuries ago; how its ended up here is a mystery to you. Holds only one propriatary 40mm grenade, does not have modern IFF systems, it won't pass through your friends.
   components:
   - type: Sprite
     layers:
@@ -666,8 +668,9 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentVerticalGrip # verticalgrip
-  name: ent-RMCAttachmentVerticalGrip
-  description: ent-RMCAttachmentVerticalGrip-desc
+  name: vertical grip
+  description: "A vertical foregrip that offers better accuracy, less recoil, and less scatter, especially during burst fire.
+    However, it also increases weapon size."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -696,8 +699,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentFlashlightGrip # flashlight/grip
-  name: ent-RMCAttachmentFlashlightGrip
-  description: ent-RMCAttachmentFlashlightGrip-desc # Boosts accuracy by a tiny amount.
+  name: underbarrel flashlight grip
+  description: Holy smokes RO man, they put a grip on a flashlight! Reduces recoil and scatter by a tiny amount. Works as a light source. # Boosts accuracy by a tiny amount.
   components:
   - type: ItemTogglePointLight
   - type: ToggleableVisuals
@@ -780,9 +783,9 @@
 - type: entity
   parent: RMCAttachmentFlashlightGrip
   id: RMCAttachmentLaserLightModule
-  name: ent-RMCAttachmentLaserLightModule
-  description: ent-RMCAttachmentLaserLightModule-desc
-  suffix: ent-RMCAttachmentLaserLightModule-suffix
+  name: MK80 laser-light module
+  description: A Laser-Light module for the MK80 Service Pistol which is currently undergoing limited field testing as part of the marines' next generation pistol program. All MK80 pistols come equipped with the module.
+  suffix: DO NOT MAP
   components:
   - type: Sprite
     layers:
@@ -820,8 +823,8 @@
   parent: RMCAttachmentBipod
   id: RMCAttachmentL91Bipod
   categories: [ HideSpawnMenu ]
-  name: "ent-RMCAttachmentL91Bipod"
-  description: "ent-RMCAttachmentL91Bipod-desc"
+  name: "L91 SWS integrated bipod"
+  description: "Blimey! This should be bolted to your rifle, you twat - put it back on and get back to it, mate!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -859,8 +862,8 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentL90GL
-  name: ent-RMCAttachmentL90GL
-  description: ent-RMCAttachmentL90GL-desc
+  name: L90U3 grenade launcher
+  description: A grenade launcher designed specifically for L90 pattern rifles. Holds three 30mm grenades.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -890,8 +893,8 @@
 - type: entity
   parent: RMCAttachmentU7UnderbarrelShotgun
   id: RMCAttachmentL90UBS
-  name: ent-RMCAttachmentL90UBS
-  description: ent-RMCAttachmentL90UBS-desc
+  name: L90U1 underbarrel shotgun
+  description: An underbarrel shotgun designed specifically for L90 pattern rifles, capable of loading up to five buckshot shells.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -913,8 +916,8 @@
 - type: entity
   parent: RMCAttachableBase
   id: RMCAttachmentL88Grip
-  name: ent-RMCAttachmentL88Grip
-  description: ent-RMCAttachmentL88Grip-desc
+  name: L88 integrated foregrip
+  description: Oi, you bloody galah! Put this back on your rifle and get back to it!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi

@@ -2,10 +2,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCAluminum
-  name: reagent-rmcaluminum-name
+  name: reagent-name-rmc-aluminum
   group: Elements
-  desc: reagent-rmcaluminum-desc
-  physicalDesc: reagent-rmcaluminum-physicaldesc
+  desc: reagent-desc-rmc-aluminum
+  physicalDesc: reagent-physical-desc-metallic
   flavor: metallic
   color: "#A8A8A8"
   unknown: true
@@ -19,10 +19,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCCarbon
-  name: reagent-rmccarbon-name
+  name: reagent-name-carbon
   group: Elements
-  desc: reagent-rmccarbon-desc
-  physicalDesc: reagent-rmccarbon-physicaldesc
+  desc: reagent-desc-carbon
+  physicalDesc: reagent-physical-desc-crystalline
   flavor: bitter
   color: "#1C1300"
   unknown: true
@@ -37,10 +37,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCChlorine
-  name: reagent-rmcchlorine-name
+  name: reagent-name-chlorine
   group: Elements
-  desc: reagent-rmcchlorine-desc
-  physicalDesc: reagent-rmcchlorine-physicaldesc
+  desc: reagent-desc-chlorine
+  physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#808080"
   unknown: true
@@ -56,10 +56,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCCopper
-  name: reagent-rmccopper-name
+  name: reagent-name-copper
   group: Elements
-  desc: reagent-rmccopper-desc
-  physicalDesc: reagent-rmccopper-physicaldesc
+  desc: reagent-desc-copper
+  physicalDesc: reagent-physical-desc-metallic
   flavor: metallic
   color: "#6E3B08"
   metabolisms:
@@ -72,10 +72,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCFluorine
-  name: reagent-rmcfluorine-name
+  name: reagent-name-fluorine
   group: Elements
-  desc: reagent-rmcfluorine-desc
-  physicalDesc: reagent-rmcfluorine-physicaldesc
+  desc: reagent-desc-fluorine
+  physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#808080"
   overdose: 30
@@ -103,10 +103,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCGold
-  name: reagent-rmcgold-name
+  name: reagent-name-gold
   group: Elements
-  desc: reagent-rmcgold-desc
-  physicalDesc: reagent-rmcgold-physicaldesc
+  desc: reagent-desc-gold
+  physicalDesc: reagent-physical-desc-metallic
   flavor: metallic
   color: "#F7C430"
   metabolisms:
@@ -119,10 +119,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCHydrogen
-  name: reagent-rmchydrogen-name
+  name: reagent-name-hydrogen
   group: Elements
-  desc: reagent-rmchydrogen-desc
-  physicalDesc: reagent-rmchydrogen-physicaldesc
+  desc: reagent-desc-hydrogen
+  physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#808080"
   durationMod: -0.5
@@ -138,10 +138,10 @@
 - type: reagent #TODO if over blood limit take limb damage, oxy damage, move slower
   parent: RMCReagentElement
   id: RMCIron
-  name: reagent-rmciron-name
+  name: reagent-name-iron
   group: Elements
-  desc: reagent-rmciron-desc
-  physicalDesc: reagent-rmciron-physicaldesc
+  desc: reagent-desc-iron
+  physicalDesc: reagent-physical-desc-metallic
   flavor: metallic
   color: "#a19d94"
   overdose: 30
@@ -156,10 +156,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCLithium
-  name: reagent-rmclithium-name
+  name: reagent-name-lithium
   group: Elements
-  desc: reagent-rmclithium-desc
-  physicalDesc: reagent-rmclithium-physicaldesc
+  desc: reagent-desc-lithium
+  physicalDesc: reagent-physical-desc-shiny
   flavor: metallic
   color: "#808080"
   unknown: true
@@ -188,10 +188,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCMercury
-  name: reagent-rmcmercury-name
+  name: reagent-name-mercury
   group: Elements
-  desc: reagent-rmcmercury-desc
-  physicalDesc: reagent-rmcmercury-physicaldesc
+  desc: reagent-desc-mercury
+  physicalDesc: reagent-physical-desc-shiny
   flavor: metallic
   color: "#484848"
   unknown: true
@@ -210,10 +210,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCPotassium
-  name: reagent-rmcpotassium-name
+  name: reagent-name-potassium
   group: Elements
-  desc: reagent-rmcpotassium-desc
-  physicalDesc: reagent-rmcpotassium-physicaldesc
+  desc: reagent-desc-potassium
+  physicalDesc: reagent-physical-desc-shiny
   flavor: metallic
   color: "#A0A0A0"
   unknown: true
@@ -227,10 +227,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCPhosphorus
-  name: reagent-rmcphosphorus-name
+  name: reagent-name-phosphorus
   group: Elements
-  desc: reagent-rmcphosphorus-desc
-  physicalDesc: reagent-rmcphosphorus-physicaldesc
+  desc: reagent-desc-phosphorus
+  physicalDesc: reagent-physical-desc-powdery
   flavor: metallic
   color: "#832828"
   unknown: true
@@ -247,10 +247,10 @@
 - type: reagent
   parent: [RMCReagentElement, Uranium]
   id: RMCRadium
-  name: reagent-rmcradium-name
+  name: reagent-name-radium
   group: Elements
-  desc: reagent-rmcradium-desc
-  physicalDesc: reagent-rmcradium-physicaldesc
+  desc: reagent-desc-radium
+  physicalDesc: reagent-physical-desc-glowing
   flavor: metallic
   color: "#C7C7C7"
   unknown: true
@@ -265,10 +265,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCSilicon
-  name: reagent-rmcsilicon-name
+  name: reagent-name-silicon
   group: Elements
-  desc: reagent-rmcsilicon-desc
-  physicalDesc: reagent-rmcsilicon-physicaldesc
+  desc: reagent-desc-silicon
+  physicalDesc: reagent-physical-desc-crystalline
   flavor: metallic
   color: "#A8A8A8"
   unknown: true
@@ -282,10 +282,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCSilver
-  name: reagent-rmcsilver-name
+  name: reagent-name-silver
   group: Elements
-  desc: reagent-rmcsilver-desc
-  physicalDesc: reagent-rmcsilver-physicaldesc
+  desc: reagent-desc-silver
+  physicalDesc: reagent-physical-desc-reasonably-metallic
   flavor: metallic
   color: "#D0D0D0"
   unknown: true
@@ -299,10 +299,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCSulfur
-  name: reagent-rmcsulfur-name
+  name: reagent-name-sulfur
   group: Elements
-  desc: reagent-rmcsulfur-desc
-  physicalDesc: reagent-rmcsulfur-physicaldesc
+  desc: reagent-desc-sulfur
+  physicalDesc: reagent-physical-desc-powdery
   flavor: bitter
   color: "#BF8C00"
   unknown: true
@@ -316,10 +316,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCSodium
-  name: reagent-rmcsodium-name
+  name: reagent-name-sodium
   group: Elements
-  desc: reagent-rmcsodium-desc
-  physicalDesc: reagent-rmcsodium-physicaldesc
+  desc: reagent-desc-sodium
+  physicalDesc: reagent-physical-desc-metallic
   flavor: bitter
   color: "#808080"
   unknown: true
@@ -333,10 +333,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCUranium
-  name: reagent-rmcuranium-name
+  name: reagent-name-uranium
   group: Elements
-  desc: reagent-rmcuranium-desc
-  physicalDesc: reagent-rmcuranium-physicaldesc
+  desc: reagent-desc-uranium
+  physicalDesc: reagent-physical-desc-metallic
   flavor: metallic
   color: "#B8B8C0"
   unknown: true
@@ -350,9 +350,9 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCOxygen
-  name: reagent-rmcoxygen-name
-  desc: reagent-rmcoxygen-desc
-  physicalDesc: reagent-rmcoxygen-physicaldesc
+  name: reagent-name-oxygen
+  desc: reagent-desc-oxygen
+  physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#808080"
   unknown: true
@@ -368,9 +368,9 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCNitrogen
-  name: reagent-rmcnitrogen-name
-  desc: reagent-rmcnitrogen-desc
-  physicalDesc: reagent-rmcnitrogen-physicaldesc
+  name: reagent-name-nitrogen
+  desc: reagent-desc-nitrogen
+  physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#808080"
   unknown: true
@@ -384,11 +384,11 @@
 - type: reagent # TODO rmc14
   parent: [RMCReagentElement, BaseAlcohol]
   id: RMCEthanol
-  name: reagent-rmcethanol-name
-  desc: reagent-rmcethanol-desc
+  name: reagent-name-ethanol
+  desc: reagent-desc-ethanol
   slipData:
     requiredSlipSpeed: 3.5
-  physicalDesc: reagent-rmcethanol-physicaldesc
+  physicalDesc: reagent-physical-desc-strong-smelling
   flavor: alcohol
   color: "#404030"
   metabolisms:
@@ -437,10 +437,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCSugar #Candy and grains
-  name: reagent-rmcsugar-name
+  name: reagent-name-sugar
   group: Foods
-  desc: reagent-rmcsugar-desc
-  physicalDesc: reagent-rmcsugar-physicaldesc
+  desc: reagent-desc-sugar
+  physicalDesc: reagent-physical-desc-sweet
   flavor: sweet
   color: white
   unknown: true # Yes a health analyzer can't detect sugar. How about that
@@ -460,10 +460,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCSulphuricAcid
-  name: reagent-rmcsulphuricacid-name
+  name: reagent-name-rmc-sulphuric-acid
   group: Toxins
-  desc: reagent-rmcsulphuricacid-desc
-  physicalDesc: reagent-rmcsulphuricacid-physicaldesc
+  desc: reagent-desc-rmc-sulphuric-acid
+  physicalDesc: reagent-physical-desc-oily
   flavor: acid
   color: "#DB5008"
   unknown: true
@@ -481,10 +481,10 @@
 - type: reagent
   parent: RMCReagentElement
   id: RMCPlatinum
-  name: reagent-rmcplatinum-name
+  name: reagent-name-rmc-platinum
   group: Elements
-  desc: reagent-rmcplatinum-desc
-  physicalDesc: reagent-rmcplatinum-physicaldesc
+  desc: reagent-desc-rmc-platinum
+  physicalDesc: reagent-physical-desc-reasonably-metallic
   flavor: metallic
   color: "#edf5ff"
   boilingPoint: 3825.0

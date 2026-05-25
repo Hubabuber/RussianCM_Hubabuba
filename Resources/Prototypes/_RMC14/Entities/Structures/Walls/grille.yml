@@ -1,8 +1,8 @@
 - type: entity
   id: RMCGrille
   parent: CMBaseStructure
-  name: ent-RMCGrille
-  description: ent-RMCGrille-desc
+  name: grille
+  description: A flimsy lattice of metal rods.
   components:
     - type: MeleeSound
       soundGroups:
@@ -100,8 +100,8 @@
 - type: entity
   id: RMCGrilleBroken
   parent: CMBaseStructure
-  name: ent-RMCGrilleBroken
-  description: ent-RMCGrilleBroken-desc
+  name: grille
+  description: A flimsy lattice of metal rods. It has seen better days.
   components:
     - type: Sprite
       drawdepth: Walls
@@ -135,8 +135,8 @@
 - type: entity
   id: RMCGrilleElectrified
   parent: RMCGrille
-  name: ent-RMCGrilleElectrified
-  description: ent-RMCGrilleElectrified-desc
+  name: electrified grille
+  description: A dark reinforced mesh grille with warning stripes, equipped with Tesla-like coils to regulate high voltage current. It is highly electrified and dangerous when powered.
   components:
     - type: Sprite
       drawdepth: Walls
@@ -173,8 +173,8 @@
 - type: entity
   id: RMCGrilleElectrifiedBroken
   parent: RMCGrilleBroken
-  name: ent-RMCGrilleElectrifiedBroken
-  description: ent-RMCGrilleElectrifiedBroken-desc
+  name: broken electrified grille
+  description: A dark reinforced mesh grille with warning stripes, equipped with Tesla-like coils to regulate high voltage current. It is highly electrified and dangerous when powered. It has seen better days.
   components:
     - type: Sprite
       drawdepth: Walls

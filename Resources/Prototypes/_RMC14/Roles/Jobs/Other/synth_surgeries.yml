@@ -5,7 +5,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: RMCSynthSurgeryReattachLimb
-  name: ent-RMCSynthSurgeryReattachLimb
+  name: Reattach Synth Limb
   components:
   - type: CMSurgery
     priority: 3
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: RMCSynthSurgeryStepCutChassis
-  name: ent-RMCSynthSurgeryStepCutChassis
+  name: Cut chassis open
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -34,7 +34,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: RMCSynthSurgeryStepStripWires
-  name: ent-RMCSynthSurgeryStepStripWires
+  name: Strip damaged wiring
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -49,7 +49,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: RMCSynthSurgeryStepReattachLimb
-  name: ent-RMCSynthSurgeryStepReattachLimb
+  name: Reattach synth limb
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -63,7 +63,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: RMCSynthSurgeryStepWeldChassis
-  name: ent-RMCSynthSurgeryStepWeldChassis
+  name: Weld chassis shut
   components:
   - type: CMSurgeryStep
     skill: 2

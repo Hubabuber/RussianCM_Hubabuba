@@ -1,480 +1,480 @@
 ent-RMCAreaDesertDamLandingConsole2 = LZ2 «Припасы»
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamLandingConsole = LZ1 «Администратор»
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverMouthEastern = Восточное устье реки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverMouthSouthern = Южное устье реки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverFiltrationB = Фильтрационная установка Б
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverFiltrationA = Фильтрационная установка А
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverRiversideNortheast = Северо-восточное русло реки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverRiversideEast = Восточное русло реки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverRiversideSouth = Южное русло реки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverRiversideCentralSouth = Южное центральное русло реки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverRiversideCentralNorth = Северное центральное русло реки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverRiversideNorthwest = Северо-западное русло реки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiver = Река
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyWilderness = Долина дикой природы
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyBarValleyDam = Бар-Вэлли
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleySouthValleyDam = Южная долина плотины
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyNorthValleyDam = Долина Северной Дамбы
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyCrashsite = Долина места крушения
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyHydro = Гидро Долина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyMedical = Медицинская долина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyCivilian = Гражданская долина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyMining = Горнодобывающая долина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyLabs = Лабораторная долина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorTelecommLz1Xenoflora = Реле связи Ксенофлора
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorTelecommLz1Valley = Реле связи LZ1 Valley
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorTelecommLz1South = Южное реле связи LZ1
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorTelecommLz2Storage = Реле связи East LZ2
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorTelecommLz2Tcomms = Реле телекоммуникационной связи
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorTelecommLz2Containers = Реле связи контейнеров
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorTelecomm = Реле связи плотины Триджент
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyBridge = Долинный мост
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleySecurity = Долина безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyTelecoms = Телекоммуникационная долина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyCargo = Шиппинг-Вэлли
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValleyValleyNorthwest = Северо-Западная долина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorValley = Долина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorLandingPadTwoExternal = Долина приземления на аэродроме
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorLandingPadTwo = Посадочная площадка аэродрома
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorLandingPadOneExternal = Взлетно-посадочная полоса посадочной долины
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorLandingPadOne = Взлетно-посадочная площадка
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRock = Камень
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNortheastGarage = Восточный лабораторный гараж
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNortheastCheckpoint = Контрольно-пропускной пункт Восточной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabXenoflora = Вест Лаборатория Ксенофлора
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabMeetingRoom = Конференц-зал Западной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabDormitory = Западное лабораторное общежитие
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabKitchen = Западная лабораторная кухня
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabCafeteria = Западная лаборатория кафетерия
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabChemistry = Западная лаборатория химии
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabMaintenance = Техническое обслуживание Западной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabWestHallway = Западный коридор лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabEastHallway = Западный коридор лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabRoboticsMechbay = Вест Лаборатория Мехбэй
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwestWestLabRobotics = Вест Лаборатория Робототехники
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMiningWorkshopFoyer = Фойе горного цеха
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMiningWorkshop = Горный цех
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMining = НЕ ИСПОЛЬЗУЙТЕ
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingChurch = Церковь
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityStaffroom = Кабинет службы безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityExecutionChamber = Охранная исполнительная палата
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityDeathrow = Камера смертников безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecuritySouthernHallway = Охрана Южного коридора
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityHolding = Комната ожидания безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityEvidence = Доказательства безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityCourtroom = Зал безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityNorthernHallway = Охрана, северный коридор
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityLobby = Вестибюль безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityOffice = Офис безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityDetective = Офис детектива безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityObservation = Наблюдение за безопасностью
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityBackroom = Допрос безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityInterrogation = Допрос безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityWarden = Офис начальника службы безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityArmory = Оружейная палата безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityMarshalsOffice = Офис маршала безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurityPrison = Тюрьма безопасности
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLibraryStudyroom = Библиотечный кабинет
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLibraryRestroom = Библиотечный туалет
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLibraryLibrary = Библиотека
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoFloodgateControl = Водоочистка Два управления шлюзами
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoPurification = Очистка воды Вторая очистка
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoControlRoom = Два поста управления очисткой воды
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoHallway = Водоочистка, два коридора
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoEquipment = Два оборудования для очистки воды
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoSedimentation = Очистка воды Два осаждения
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoGarage = Водоочистка, два гаража
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoBreakroom = Водоочистка, две комнаты отдыха
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwoLobby = Водоочистные сооружения, два вестибюля
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentTwo = Водоподготовка вторая
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControlCentral2 = Центральное хранилище управления шлюзами
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControlCentral = Центральное управление шлюзами
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControl = Очистка воды Один контроль шлюза
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOnePurification = Очистка воды One Purification
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneControlRoom = Одна диспетчерская водоподготовки
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneHallway = Водоочистка в одном коридоре
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneEquipment = Одна аппаратная для очистки воды
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneSedimentation = Водоподготовка, одно осаждение
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneGarage = Водоочистка Один Гараж
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneBreakroom = Водоочистка, одна комната отдыха
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOneLobby = Водоочистка One, вестибюль
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingHydroponicsHydroponicsBreakroom = Гидропоника
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingHydroponicsHydroponicsLoading = Загрузочная комната для гидропоники
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingHydroponicsHydroponicsStorage = Гидропоника Хранение
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingHydroponicsHydroponics = Гидропоника
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWarehouseBreakroom = Склад Комната отдыха
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWarehouseLoading = Склад, погрузочная комната
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWarehouseWarehouse = Склад
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedical = Медицинский
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalVirologyIsolation = Медицинская вирусологическая изоляция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalVirologyWing = Отделение медицинской вирусологии
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalPatientWing = Медицинское отделение для пациентов
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalOffice2 = Медицинский кабинет №2
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalOffice1 = Медицинский кабинет №1
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalCMO = Офис медицинского директора по маркетингу
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalBreakRoom = Медицинская комната отдыха
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalMorgue = Медицинский морг
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalSurguryObservation = Медицинское хирургическое наблюдение
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalSurgeryRoomTwo = Медицинский хирургический кабинет №2
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalSurgeryRoomOne = Медицинский хирургический кабинет номер один
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalPrimaryStorage = Медицинское первичное хранение
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalEastWingHallway = Медицинское восточное крыло
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalNorthWingHallway = Медицинское северное крыло
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalWestWingHallway = Медицинское западное крыло
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalChemistry = Медицинская Аптека
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalLobby = Медицинское лобби
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalTreatmentRoom = Медицинский процедурный кабинет
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalEmergencyRoom = Медицинский пункт неотложной помощи
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingMedicalGarage = Медицинский Гараж
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingDormsPool = Общий номер с бассейном
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingDormsRestroom = Душевые в общежитии
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingDormsHallwayEastwing = Восточное крыло общежития
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingDormsHallwayWestwing = Западное крыло общежития
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingDormsHallwayNorthwing = Северное крыло общежития
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingDorms = НЕ ИСПОЛЬЗУЙТЕ
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingCafeteriaColdRoom = Кафетерий Холодная комната
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingCafeteriaLoading = Кафетерий, загрузочная комната
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingCafeteriaRestroom = Кафетерий Туалет
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingCafeteriaBackroom = Кафетерий Подсобка
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingCafeteriaCafeteria = Кафетерий
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingCafeteria = НЕ ИСПОЛЬЗУЙТЕ
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingBarBarRestroom = Бар Туалет
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingBarBackroom = Барная подсобка
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingBarBar = Бар
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingAdministrationArchives = Архив администрации
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingAdministrationMeetingrooom = Зал заседаний администрации
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingAdministrationOverseerOffice = Кабинет администратора
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingAdministrationOffice = Административный офис
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingAdministrationHallway = Административный коридор
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingAdministrationLobby = Административное лобби
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingAdministrationControlRoom = Административный пункт управления посадкой
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSubstationWest = Командная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSubstationSouthwest = Командная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSubstationCentral = Командная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSubstationSoutheast = Командная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSubstationEast = Командная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSubstationNortheast = Командная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSubstationNorthwest = Командная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSubstation = Подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCavesTemple = Песчаный храм
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCavesCentralCavesEntrancesWestTunnelEntrance = Вход в западный центральный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCavesCentralCavesEntrancesSouthTunnelEntrance = Вход в Южный центральный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCavesCentralCavesEntrancesEastTunnelEntrance = Вход в восточный центральный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCavesCentralCaves = Центральные пещеры
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCavesEastCaves = Восточные пещеры
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCavesNorthernCaves = Северные пещеры
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCaves = Пещеры
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorGarage = Гараж
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorSouthTunnelEntrance = Вход в инженерный южный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorEastTunnelEntrance = Вход в инженерный восточный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorNorthTunnelEntrance = Вход в инженерный северный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorOffice = Инженерное бюро
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorWesternDamCave = Инженерный западный вход
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorDisposals = Инженерные утилизации
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorBreakRoom = Инженерная комната отдыха
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorTechStorage = Инженерное безопасное хранение технологий
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorPrimaryToolStorage = Хранение основных инженерных инструментов
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorAuxilaryToolStorage = Хранение инженерных вспомогательных инструментов
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorHangarStorage = Инженерный ангар-склад
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorHanger = Инженерный ангар
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorWorkshop = Инженерная мастерская
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorCEOffice = Инженерное бюро главного инженера
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorNortheasternTunnel = Инженерный Северо-Восточный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorSouthTunnel = Инженерный Южный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorCentralTunnel = Инженерный центральный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorWestTunnel = Инженерный западный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorNorthTunnel = Инженерный Северный туннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorNorthwesternTunnel = Инженерный Северо-Западный тоннель
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorAtmosStorage = Инженерное атмосферное хранение
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorLobby = Инженерное лобби
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorEngineWestWing = Инженерное западное моторное крыло
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorEngineEastWing = Инженерное восточное моторное крыло
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorSmesBackup = Инженерная вторичная резервная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorSmesMain = Инженерная главная подстанция
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorControlRoom = Инженерная диспетчерская
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInteriorEngineRoom = Инженерный генераторный зал
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorDamInterior = Инженерное дело
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabXenobiology = Восточная лаборатория ксенобиологии
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabSecurityArmory = Восточная оружейная лаборатория
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabSecurityOffice = Офис безопасности Восточной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabSecurityCheckpoint = Контрольно-пропускной пункт Восточной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabEastEntrance = Восточный вход в лабораторию
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabWestEntrance = Восточная лаборатория, западный вход
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabExcavation = Восточная лаборатория подготовки к раскопкам
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabSurgery = Восточная лабораторная хирургия
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabBiology = Восточная лаборатория биологии
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabRND = Восточная лаборатория исследований и разработок
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabContainment = Восточная лаборатория содержания
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabMaintenence = Обслуживание восточной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabRDOffice = Офис директора по исследованиям Восточной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabStorage = Восточное лабораторное хранилище
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabWorkshop = Восточная лабораторная мастерская
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabEastHallway = Восточный коридор восточной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabCentralHallway = Центральный коридор Восточной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabWestHallway = Западный коридор восточной лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheastEastLabLobby = Восточное лобби лаборатории
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorLabNortheast = Северо-восточная лаборатория
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDam = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInterior = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamInteriorCavesCentralCavesEntrances = Центральные пещеры
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuilding = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingAdministration = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingBar = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWarehouse = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingHydroponics = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingWaterTreatmentOne = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLibrary = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingSecurity = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNorthwest = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamBuildingLabNortheast = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExterior = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamExteriorRiverMouth = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaDesertDamLanding = Пустынная плотина
-    .suffix = Пустынная плотина
+
 ent-RMCAreaShuttleTriTrans1Alpha = область
-    .suffix = область
+
 ent-RMCAreaShuttleTriTrans1 = область
-    .suffix = область
+
 ent-RMCAreaShuttleTriTrans1Away = область
-    .suffix = область
+
 ent-RMCAreaShuttleTriTrans1Omega = область
-    .suffix = область
+
 ent-RMCAreaShuttleTriTrans2 = область
-    .suffix = область
+
 ent-RMCAreaShuttleTriTrans2Alpha = область
-    .suffix = область
+
 ent-RMCAreaShuttleTriTrans2Away = область
-    .suffix = область
+
 ent-RMCAreaShuttleTriTrans2Omega = область
-    .suffix = область
+

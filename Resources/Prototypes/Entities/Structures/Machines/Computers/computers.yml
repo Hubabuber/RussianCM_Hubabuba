@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAlert
-  name: ent-ComputerAlert
-  description: ent-ComputerAlert-desc
+  name: atmospheric alerts computer
+  description: Used to access the station's atmospheric automated alert system.
   components:
   - type: Computer
     board: AlertsComputerCircuitboard
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAtmosMonitoring
-  name: ent-ComputerAtmosMonitoring
-  description: ent-ComputerAtmosMonitoring-desc
+  name: atmospheric network monitor
+  description: Used to monitor the station's atmospheric networks.
   components:
   - type: Computer
     board: AtmosMonitoringComputerCircuitboard
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerEmergencyShuttle
-  name: ent-ComputerEmergencyShuttle
-  description: ent-ComputerEmergencyShuttle-desc
+  name: emergency shuttle console
+  description: Handles authorization to early launch the shuttle.
   components:
   - type: AccessReader
     access:
@@ -116,8 +116,8 @@
 - type: entity
   parent: BaseComputer
   id: BaseComputerShuttle
-  name: ent-BaseComputerShuttle
-  description: ent-BaseComputerShuttle-desc
+  name: shuttle console
+  description: Used to pilot a shuttle.
   abstract: true
   components:
   - type: ShuttleConsole
@@ -159,8 +159,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttle
-  name: ent-ComputerShuttle
-  description: ent-ComputerShuttle-desc
+  name: shuttle console
+  description: Used to pilot a shuttle.
   components:
   - type: Sprite
     layers:
@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttleSyndie
-  name: ent-ComputerShuttleSyndie
-  description: ent-ComputerShuttleSyndie-desc
+  name: syndicate shuttle console
+  description: Used to pilot a syndicate shuttle.
   components:
   - type: Sprite
     layers:
@@ -212,8 +212,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttleCargo
-  name: ent-ComputerShuttleCargo
-  description: ent-ComputerShuttleCargo-desc
+  name: cargo shuttle console
+  description: Used to pilot the cargo shuttle.
   components:
   - type: Sprite
     layers:
@@ -244,8 +244,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerIFF
-  name: ent-ComputerIFF
-  description: ent-ComputerIFF-desc
+  name: IFF computer
+  description: Allows you to control the IFF characteristics of this vessel.
   components:
   - type: IFFConsole
   - type: Sprite
@@ -275,9 +275,9 @@
 - type: entity
   parent: ComputerIFF
   id: ComputerIFFSyndicate
-  name: ent-ComputerIFFSyndicate
-  suffix: ent-ComputerIFFSyndicate-suffix
-  description: ent-ComputerIFFSyndicate-desc
+  name: IFF computer
+  suffix: Syndicate
+  description: Allows you to control the IFF and stealth characteristics of this vessel.
   components:
   - type: IFFConsole
     allowedFlags:
@@ -297,8 +297,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerPowerMonitoring
-  name: ent-ComputerPowerMonitoring
-  description: ent-ComputerPowerMonitoring-desc
+  name: power monitoring computer
+  description: It monitors power levels across the station.
   components:
   - type: Sprite
     layers:
@@ -339,8 +339,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerMedicalRecords
-  name: ent-ComputerMedicalRecords
-  description: ent-ComputerMedicalRecords-desc
+  name: medical records computer
+  description: This can be used to check medical records.
   components:
   - type: Sprite
     layers:
@@ -364,8 +364,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerCriminalRecords
-  name: ent-ComputerCriminalRecords
-  description: ent-ComputerCriminalRecords-desc
+  name: criminal records computer
+  description: This can be used to check criminal records. Only security can modify them.
   components:
   - type: CriminalRecordsConsole
   - type: UserInterface
@@ -389,8 +389,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerStationRecords
-  name: ent-ComputerStationRecords
-  description: ent-ComputerStationRecords-desc
+  name: station records computer
+  description: This can be used to check station records.
   components:
   - type: GeneralStationRecordConsole
   - type: UserInterface
@@ -414,8 +414,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCrewMonitoring
-  name: ent-ComputerCrewMonitoring
-  description: ent-ComputerCrewMonitoring-desc
+  name: crew monitoring console
+  description: Used to monitor active health sensors built into most of the crew's uniforms.
   components:
   - type: Sprite
     layers:
@@ -453,8 +453,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerResearchAndDevelopment
-  name: ent-ComputerResearchAndDevelopment
-  description: ent-ComputerResearchAndDevelopment-desc
+  name: R&D computer
+  description: A computer used to interface with R&D tools.
   components:
   - type: Sprite
     layers:
@@ -501,8 +501,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAnalysisConsole
-  name: ent-ComputerAnalysisConsole
-  description: ent-ComputerAnalysisConsole-desc
+  name: analysis console
+  description: A computer used to interface with the artifact analyzer.
   components:
   - type: Sprite
     layers:
@@ -550,8 +550,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerId
-  name: ent-ComputerId
-  description: ent-ComputerId-desc
+  name: ID card computer
+  description: Terminal for programming Nanotrasen employee ID cards to access parts of the station.
   components:
   - type: IdCardConsole
     privilegedIdSlot:
@@ -616,8 +616,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: computerBodyScanner
-  name: ent-computerBodyScanner
-  description: ent-computerBodyScanner-desc
+  name: body scanner computer
+  description: A body scanner.
   components:
   - type: ApcPowerReceiver
     powerLoad: 500
@@ -631,8 +631,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerComms
-  name: ent-ComputerComms
-  description: ent-ComputerComms-desc
+  name: communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
   - type: Sprite
     layers:
@@ -673,8 +673,8 @@
 - type: entity
   parent: ComputerComms
   id: SyndicateComputerComms
-  name: ent-SyndicateComputerComms
-  description: ent-SyndicateComputerComms-desc
+  name: syndicate communications computer
+  description: A computer capable of remotely hacking into the station's communications systems. Using this to make an announcement will alert the station to your presence.
   components:
   - type: Sprite
     layers:
@@ -707,8 +707,8 @@
 - type: entity
   parent: ComputerComms
   id: WizardComputerComms
-  name: ent-WizardComputerComms
-  description: ent-WizardComputerComms-desc
+  name: wizard communications computer
+  description: A computer capable of magically projecting your speech to the station. Using this to make an announcement will alert the station to your presence.
   components:
   - type: Sprite
     layers:
@@ -741,8 +741,8 @@
 - type: entity
   parent: ComputerComms
   id: CentcommComputerComms
-  name: ent-CentcommComputerComms
-  description: ent-CentcommComputerComms-desc
+  name: central command communications computer
+  description: A computer used to make world wide announcements via keyboard. The superior cousin of the regular communications computer.
   components:
   - type: Sprite
     layers:
@@ -773,8 +773,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSolarControl
-  name: ent-ComputerSolarControl
-  description: ent-ComputerSolarControl-desc
+  name: solar control computer
+  description: A controller for solar panel arrays.
   components:
   - type: Sprite
     layers:
@@ -811,8 +811,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerRadar
-  name: ent-ComputerRadar
-  description: ent-ComputerRadar-desc
+  name: mass scanner computer
+  description: A computer for detecting nearby bodies, displaying them by position and mass.
   components:
   - type: Sprite
     layers:
@@ -845,8 +845,8 @@
 - type: entity
   id: ComputerCargoOrders
   parent: BaseComputerAiAccess
-  name: ent-ComputerCargoOrders
-  description: ent-ComputerCargoOrders-desc
+  name: cargo request computer
+  description: Used to order supplies and approve requests.
   components:
   - type: Sprite
     layers:
@@ -898,8 +898,8 @@
 - type: entity
   id: ComputerCargoOrdersEngineering
   parent: ComputerCargoOrders
-  name: ent-ComputerCargoOrdersEngineering
-  description: ent-ComputerCargoOrdersEngineering-desc
+  name: engineering request computer
+  description: Used by the engineering department to order supplies.
   components:
   - type: Sprite
     layers:
@@ -931,8 +931,8 @@
 - type: entity
   id: ComputerCargoOrdersMedical
   parent: ComputerCargoOrders
-  name: ent-ComputerCargoOrdersMedical
-  description: ent-ComputerCargoOrdersMedical-desc
+  name: medical request computer
+  description: Used by the medical department to order supplies.
   components:
   - type: Sprite
     layers:
@@ -964,8 +964,8 @@
 - type: entity
   id: ComputerCargoOrdersScience
   parent: ComputerCargoOrders
-  name: ent-ComputerCargoOrdersScience
-  description: ent-ComputerCargoOrdersScience-desc
+  name: science request computer
+  description: Used by the science department to order supplies.
   components:
   - type: Sprite
     layers:
@@ -997,8 +997,8 @@
 - type: entity
   id: ComputerCargoOrdersSecurity
   parent: ComputerCargoOrders
-  name: ent-ComputerCargoOrdersSecurity
-  description: ent-ComputerCargoOrdersSecurity-desc
+  name: security request computer
+  description: Used by the security department to order supplies.
   components:
   - type: Sprite
     layers:
@@ -1030,8 +1030,8 @@
 - type: entity
   id: ComputerCargoOrdersService
   parent: ComputerCargoOrders
-  name: ent-ComputerCargoOrdersService
-  description: ent-ComputerCargoOrdersService-desc
+  name: service request computer
+  description: Used by the service department to order supplies.
   components:
   - type: Sprite
     layers:
@@ -1063,8 +1063,8 @@
 - type: entity
   id: ComputerCargoBounty
   parent: BaseComputerAiAccess
-  name: ent-ComputerCargoBounty
-  description: ent-ComputerCargoBounty-desc
+  name: cargo bounty computer
+  description: Used to manage currently active bounties.
   components:
   - type: Sprite
     layers:
@@ -1103,8 +1103,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerFundingAllocation
-  name: ent-ComputerFundingAllocation
-  description: ent-ComputerFundingAllocation-desc
+  name: funding allocation computer
+  description: Terminal for controlling the distribution of funds and pay to departments.
   components:
   - type: Sprite
     layers:
@@ -1140,8 +1140,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCloningConsole
-  name: ent-ComputerCloningConsole
-  description: ent-ComputerCloningConsole-desc
+  name: cloning console computer
+  description: The centerpiece of the cloning system, medicine's greatest accomplishment. It has lots of ports and wires.
   components:
   - type: CloningConsole
   - type: DeviceList
@@ -1193,8 +1193,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSalvageJobBoard
-  name: ent-ComputerSalvageJobBoard
-  description: ent-ComputerSalvageJobBoard-desc
+  name: salvage job board
+  description: Console for accessing salvage jobs, if you're tough enough.
   components:
   - type: Sprite
     layers:
@@ -1229,8 +1229,8 @@
 - type: entity
   id: ComputerSalvageExpedition
   parent: BaseComputerAiAccess
-  name: ent-ComputerSalvageExpedition
-  description: ent-ComputerSalvageExpedition-desc
+  name: salvage expeditions computer
+  description: Used to accept salvage missions, if you're tough enough.
   components:
     - type: Sprite
       layers:
@@ -1282,8 +1282,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSurveillanceCameraMonitor
-  name: ent-ComputerSurveillanceCameraMonitor
-  description: ent-ComputerSurveillanceCameraMonitor-desc
+  name: camera monitor
+  description: A surveillance camera monitor. You're watching them. Maybe.
   components:
   - type: Sprite
     layers:
@@ -1321,8 +1321,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSurveillanceWirelessCameraMonitor
-  name: ent-ComputerSurveillanceWirelessCameraMonitor
-  description: ent-ComputerSurveillanceWirelessCameraMonitor-desc
+  name: wireless camera monitor
+  description: A wireless surveillance camera monitor. You're watching them. Maybe.
   components:
   - type: Sprite
     layers:
@@ -1362,8 +1362,8 @@
 - type: entity
   id: ComputerPalletConsole
   parent: BaseComputerAiAccess
-  name: ent-ComputerPalletConsole
-  description: ent-ComputerPalletConsole-desc
+  name: cargo sale computer
+  description: Used to sell goods loaded onto cargo pallets.
   components:
   - type: Sprite
     layers:
@@ -1402,8 +1402,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerMassMedia
-  name: ent-ComputerMassMedia
-  description: ent-ComputerMassMedia-desc
+  name: news manager console
+  description: Write your message to the world!
   components:
   - type: Sprite
     layers:
@@ -1438,11 +1438,11 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSensorMonitoring
-  name: ent-ComputerSensorMonitoring
-  description: ent-ComputerSensorMonitoring-desc
+  name: sensor monitoring computer
+  description: A flexible console for monitoring all kinds of sensors.
   # Putting this as "DO NOT MAP" until the performance issues are fixed.
   # And it's more fleshed out.
-  suffix: ent-ComputerSensorMonitoring-suffix
+  suffix: TESTING, DO NOT MAP
   categories: [ DoNotMap ]
   components:
     - type: Sprite
@@ -1486,8 +1486,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerRoboticsControl
-  name: ent-ComputerRoboticsControl
-  description: ent-ComputerRoboticsControl-desc
+  name: robotics control console
+  description: Used to remotely monitor, disable and destroy the station's cyborgs.
   components:
   - type: Sprite
     layers:
@@ -1529,8 +1529,8 @@
 - type: entity
   id: StationAiUploadComputer
   parent: BaseComputer
-  name: ent-StationAiUploadComputer
-  description: ent-StationAiUploadComputer-desc
+  name: AI upload console
+  description: Used to update the laws of the station AI.
   components:
   - type: Sprite
     layers:

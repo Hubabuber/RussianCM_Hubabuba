@@ -1,10 +1,10 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMExecutiveOfficer
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-cmexecutiveofficer-name
-  description: job-cmexecutiveofficer-desc
+  name: cm-job-name-executive-officer
+  description: cm-job-description-executive-officer
   playTimeTracker: CMJobExecutiveOfficer
   setPreference: false
   requirements: []
@@ -16,7 +16,7 @@
   requireAdminNotify: true
   joinNotifyCrew: true
   marineAuthorityLevel: 14
-  supervisors: job-cmexecutiveofficer-supervisors
+  supervisors: cm-job-supervisors-co
   accessGroups:
   - MarineMain
   roleWeight: 0.25
@@ -91,7 +91,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointExecutiveOfficer
-  name: ent-CMSpawnPointExecutiveOfficer
+  name: executive officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMExecutiveOfficer
@@ -105,8 +105,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleXO
-  name: ent-RMCGuidebookRoleXO
-  description: ent-RMCGuidebookRoleXO-desc
+  name: The Executive Officer
+  description: The Executive Officer.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

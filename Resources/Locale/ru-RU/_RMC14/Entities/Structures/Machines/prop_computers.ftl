@@ -1,33 +1,33 @@
 ent-RMCStationAlertComputer = компьютер оповещения о станции
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCIdentificationComputer = идентификационный компьютер
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCSecurityRecordsConsoleAlt = записи безопасности
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCSecurityRecordsConsole = записи безопасности
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCDropshipWeaponsConsoleProp = управление вооружением десантного корабля
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCSecurityCameraConsole = консоль камер видеонаблюдения
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCPersonalDesktop = персональный рабочий стол
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCPropCommunicationsConsole = консоль связи
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCPropComputerBase = Терминал
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+
 ent-RMCPropCommunicationsConsoleAlt = консоль связи
   .desc = Это можно использовать для различных функций.
-    .suffix = консоль связи
+
 ent-RMCSystemsComputer = системный компьютер
   .desc = Это можно использовать для различных функций.
-    .suffix = Терминал
+

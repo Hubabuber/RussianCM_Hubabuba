@@ -49,8 +49,8 @@
 - type: entity
   parent: BaseRipleyPart
   id: RipleyHarness
-  name: ent-RipleyHarness
-  description: ent-RipleyHarness-desc
+  name: ripley harness
+  description: The core of the Ripley APLU.
   components:
   - type: Appearance
   - type: ItemMapper
@@ -89,8 +89,8 @@
 - type: entity
   parent: BaseRipleyPartItem
   id: RipleyLArm
-  name: ent-RipleyLArm
-  description: ent-RipleyLArm-desc
+  name: ripley left arm
+  description: The left arm of the Ripley APLU. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: ripley_l_arm
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseRipleyPartItem
   id: RipleyLLeg
-  name: ent-RipleyLLeg
-  description: ent-RipleyLLeg-desc
+  name: ripley left leg
+  description: The left leg of the Ripley APLU. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: ripley_l_leg
@@ -113,8 +113,8 @@
 - type: entity
   parent: BaseRipleyPartItem
   id: RipleyRLeg
-  name: ent-RipleyRLeg
-  description: ent-RipleyRLeg-desc
+  name: ripley right leg
+  description: The right leg of the Ripley APLU. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: ripley_r_leg
@@ -125,8 +125,8 @@
 - type: entity
   parent: BaseRipleyPartItem
   id: RipleyRArm
-  name: ent-RipleyRArm
-  description: ent-RipleyRArm-desc
+  name: ripley right arm
+  description: The right arm of the Ripley APLU. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: ripley_r_arm
@@ -137,8 +137,8 @@
 - type: entity
   id: RipleyChassis
   parent: BaseRipleyPart
-  name: ent-RipleyChassis
-  description: ent-RipleyChassis-desc
+  name: ripley chassis
+  description: An in-progress construction of the Ripley APLU mech.
   components:
   - type: Appearance
   - type: ContainerContainer
@@ -177,8 +177,8 @@
 - type: entity
   parent: BaseHonkerPart
   id: HonkerHarness
-  name: ent-HonkerHarness
-  description: ent-HonkerHarness-desc
+  name: H.O.N.K. harness
+  description: The core of the H.O.N.K. mech
   components:
   - type: Appearance
   - type: ItemMapper
@@ -217,8 +217,8 @@
 - type: entity
   parent: BaseHonkerPartItem
   id: HonkerLArm
-  name: ent-HonkerLArm
-  description: ent-HonkerLArm-desc
+  name: H.O.N.K. left arm
+  description: A H.O.N.K. left arm, with unique sockets that accept odd weaponry designed by clown scientists.
   components:
   - type: Sprite
     state: honker_l_arm
@@ -229,8 +229,8 @@
 - type: entity
   parent: BaseHonkerPartItem
   id: HonkerLLeg
-  name: ent-HonkerLLeg
-  description: ent-HonkerLLeg-desc
+  name: H.O.N.K. left leg
+  description: A H.O.N.K. left leg. The foot appears just large enough to fully accommodate a clown shoe.
   components:
   - type: Sprite
     state: honker_l_leg
@@ -241,8 +241,8 @@
 - type: entity
   parent: BaseHonkerPartItem
   id: HonkerRLeg
-  name: ent-HonkerRLeg
-  description: ent-HonkerRLeg-desc
+  name: H.O.N.K. right leg
+  description: A H.O.N.K. right leg. The foot appears just large enough to fully accommodate a clown shoe.
   components:
   - type: Sprite
     state: honker_r_leg
@@ -253,8 +253,8 @@
 - type: entity
   parent: BaseHonkerPartItem
   id: HonkerRArm
-  name: ent-HonkerRArm
-  description: ent-HonkerRArm-desc
+  name: H.O.N.K. right arm
+  description: A H.O.N.K. right arm, with unique sockets that accept odd weaponry designed by clown scientists.
   components:
   - type: Sprite
     state: honker_r_arm
@@ -265,8 +265,8 @@
 - type: entity
   id: HonkerChassis
   parent: BaseHonkerPart
-  name: ent-HonkerChassis
-  description: ent-HonkerChassis-desc
+  name: H.O.N.K. chassis
+  description: An in-progress construction of a H.O.N.K. mech. Contains chuckle unit, bananium core and honk support systems.
   components:
   - type: Appearance
   - type: ContainerContainer
@@ -305,8 +305,8 @@
 - type: entity
   parent: BaseHamtrPart
   id: HamtrHarness
-  name: ent-HamtrHarness
-  description: ent-HamtrHarness-desc
+  name: HAMTR harness
+  description: The core of the HAMTR.
   components:
   - type: Appearance
   - type: ItemMapper
@@ -345,8 +345,8 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrLArm
-  name: ent-HamtrLArm
-  description: ent-HamtrLArm-desc
+  name: HAMTR left arm
+  description: The left arm of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: hamtr_l_arm
@@ -357,8 +357,8 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrLLeg
-  name: ent-HamtrLLeg
-  description: ent-HamtrLLeg-desc
+  name: HAMTR left leg
+  description: The left leg of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: hamtr_l_leg
@@ -369,8 +369,8 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrRLeg
-  name: ent-HamtrRLeg
-  description: ent-HamtrRLeg-desc
+  name: HAMTR right leg
+  description: The right leg of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: hamtr_r_leg
@@ -381,8 +381,8 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrRArm
-  name: ent-HamtrRArm
-  description: ent-HamtrRArm-desc
+  name: HAMTR right arm
+  description: The right arm of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: hamtr_r_arm
@@ -393,8 +393,8 @@
 - type: entity
   id: HamtrChassis
   parent: BaseHamtrPart
-  name: ent-HamtrChassis
-  description: ent-HamtrChassis-desc
+  name: HAMTR chassis
+  description: An in-progress construction of the HAMTR mech.
   components:
   - type: Appearance
   - type: ContainerContainer
@@ -433,8 +433,8 @@
 - type: entity
   parent: BaseVimPartItem
   id: VimHarness
-  name: ent-VimHarness
-  description: ent-VimHarness-desc
+  name: vim harness
+  description: A small mounting bracket for vim parts.
   components:
   - type: Appearance
   - type: ItemMapper
@@ -467,8 +467,8 @@
 - type: entity
   id: VimChassis
   parent: BaseVimPart
-  name: ent-VimChassis
-  description: ent-VimChassis-desc
+  name: vim chassis
+  description: An in-progress construction of the Vim exosuit.
   components:
   - type: Appearance
   - type: ContainerContainer

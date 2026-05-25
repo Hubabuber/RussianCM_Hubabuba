@@ -1,9 +1,9 @@
 - type: entity
   id: KitchenReagentGrinder
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  name: ent-KitchenReagentGrinder
-  description: ent-KitchenReagentGrinder-desc
-  suffix: ent-KitchenReagentGrinder-suffix
+  name: reagent grinder
+  description: From BlenderTech. Will It Blend? Let's find out!
+  suffix: grinder/juicer
   components:
   - type: ReagentGrinder
   - type: ActivatableUI
@@ -58,8 +58,8 @@
 - type: entity
   parent: Recycler #too different so different parent
   id: ReagentGrinderIndustrial
-  name: ent-ReagentGrinderIndustrial
-  description: ent-ReagentGrinderIndustrial-desc
+  name: industrial reagent grinder
+  description: An industrial reagent grinder.
   components:
   - type: SolutionContainerManager
     solutions:

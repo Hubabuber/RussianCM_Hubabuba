@@ -1,8 +1,8 @@
-# Defines the scurret, a small, agile sapient species intended for players who want to play as something similar to an ewok.
+﻿# Defines the scurret, a small, agile sapient species intended for players who want to play as something similar to an ewok.
 # Although based on MobBaseAncestor, this species does not have a "developed" playable species it is an ancestor to.
 
 - type: entity
-  name: ent-MobBaseScurret
+  name: scurret
   id: MobBaseScurret
   parent: MobBaseAncestor
   abstract: true
@@ -155,8 +155,8 @@
 # Spawnable scurrets have a random name and colour.
 
 - type: entity
-  name: ent-MobScurret
-  description: ent-MobScurret-desc
+  name: scurret
+  description: Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnolds's Pizza's "loyal workforce".
   id: MobScurret
   parent: MobBaseScurret
   components:
@@ -184,7 +184,7 @@
 # feel free to hook them into random content.
 
 - type: entity
-  name: ent-MobBaseEmotionalSupportScurret
+  name: Emotional Support Scurret
   id: MobBaseEmotionalSupportScurret
   parent: MobBaseScurret
   abstract: true
@@ -206,7 +206,7 @@
 # Spawnable ESS have a ghost role, equipment, a random name and a random colour.
 
 - type: entity
-  name: ent-MobEmotionalSupportScurret
+  name: Emotional Support Scurret
   id: MobEmotionalSupportScurret
   parent: [MobScurret, MobBaseEmotionalSupportScurret]
-  description: ent-MobEmotionalSupportScurret-desc
+  description: Commonly known as Wawa, from the wetlands of Planet Wawa, these critters make up the bulk of Arnold's Pizza's "loyal workforce". This one is here as a temp.

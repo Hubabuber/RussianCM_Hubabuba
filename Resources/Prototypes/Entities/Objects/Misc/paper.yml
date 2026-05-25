@@ -67,10 +67,10 @@
   - type: PhysicalComposition
 
 - type: entity
-  name: ent-Paper
+  name: paper
   parent: BasePaper
   id: Paper
-  description: 'ent-Paper-desc'
+  description: 'A piece of white paper.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -95,10 +95,10 @@
   - type: PaperVisuals
 
 - type: entity
-  name: ent-PaperScrap
+  name: paper scrap
   parent: BasePaper
   id: PaperScrap
-  description: 'ent-PaperScrap-desc'
+  description: 'A crumpled up piece of white paper.'
   components:
   - type: Tag
     tags:
@@ -111,10 +111,10 @@
     - state: scrap
 
 - type: entity
-  name: ent-PaperOffice
+  name: office paper
   parent: Paper
   id: PaperOffice
-  description: 'ent-PaperOffice-desc'
+  description: 'A plain sheet of office paper.'
   components:
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
@@ -123,10 +123,10 @@
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
 - type: entity
-  name: ent-PaperArtifactAnalyzer
+  name: artifact analyzer printout
   parent: Paper
   id: PaperArtifactAnalyzer
-  description: ent-PaperArtifactAnalyzer-desc
+  description: The readout of a device forgotten to time.
   components:
   - type: Sprite
     layers:
@@ -153,10 +153,10 @@
     maxWritableArea: 400.0, 0.0
 
 - type: entity
-  name: ent-PaperCaptainsThoughts
+  name: captain's thoughts
   parent: Paper
   id: PaperCaptainsThoughts
-  description: "ent-PaperCaptainsThoughts-desc"
+  description: "A page of the captain's journal. In luxurious lavender."
   components:
   - type: Sprite
     layers:
@@ -179,10 +179,10 @@
     contentMargin: 32.0, 16.0, 32.0, 0.0
 
 - type: entity
-  name: ent-PaperCargoInvoice
+  name: cargo invoice
   parent: Paper
   id: PaperCargoInvoice
-  description: 'ent-PaperCargoInvoice-desc'
+  description: 'A single unit of bureaucracy.'
   components:
   - type: Sprite
     layers:
@@ -215,8 +215,8 @@
 - type: entity
   id: PaperNanoTaskItem
   parent: Paper
-  name: ent-PaperNanoTaskItem
-  description: ent-PaperNanoTaskItem-desc
+  name: NanoTask item
+  description: A printed NanoTask item. Can be inserted into your PDA to add it to your tasks.
   components:
   - type: Tag
     tags:
@@ -249,8 +249,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: ent-PaperCargoBountyManifest
-  description: ent-PaperCargoBountyManifest-desc
+  name: bounty manifest
+  description: A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
   components:
   - type: Sprite
     layers:
@@ -290,8 +290,8 @@
 - type: entity
   id: PaperSalvageJobLabel
   parent: PaperCargoInvoice
-  name: ent-PaperSalvageJobLabel
-  description: ent-PaperSalvageJobLabel-desc
+  name: salvage job shipment label
+  description: A paper label designating a crate as containing a shipment to fulfill a salvage job. Selling a crate with this will fulfill the job.
   components:
   - type: Sprite
     layers:
@@ -364,7 +364,7 @@
 - type: entity
   parent: Paper
   id: NukeCodePaper
-  name: ent-NukeCodePaper
+  name: nuclear authentication codes
   components:
   - type: NukeCodePaper
     allNukesAvailable: true
@@ -372,15 +372,15 @@
 - type: entity
   parent: NukeCodePaper
   id: NukeCodePaperStation
-  suffix: ent-NukeCodePaperStation-suffix
+  suffix: Station Only
   components:
   - type: NukeCodePaper
 
 - type: entity
   parent: [Paper, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
   id: TraitorCodePaper
-  name: ent-TraitorCodePaper
-  description: ent-TraitorCodePaper-desc
+  name: syndicate codeword
+  description: A leaked codeword to possibly get in touch with the Syndicate.
   categories: [ DoNotMap ]
   components:
   - type: TraitorCodePaper
@@ -388,19 +388,19 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband]
   id: AllTraitorCodesPaper
-  name: ent-AllTraitorCodesPaper
-  description: ent-AllTraitorCodesPaper-desc
-  suffix: ent-AllTraitorCodesPaper-suffix
+  name: syndicate codewords registry
+  description: A registry of all active Syndicate codewords.
+  suffix: Admeme
   components:
   - type: TraitorCodePaper
     fakeCodewords: false
     codewordShowAll: true
 
 - type: entity
-  name: ent-Envelope
+  name: envelope
   parent: BaseItem
   id: Envelope
-  description: 'ent-Envelope-desc'
+  description: 'A small envelope for keeping prying eyes off of your sensitive documents.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

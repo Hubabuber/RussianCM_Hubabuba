@@ -74,5 +74,3 @@ ent-CMDrinkCanMountainWind = Маунтин Пью
   .desc = Проносится сквозь тебя, как космический ветер.
 ent-CMDrinkCanCola = классическая кола
   .desc = Классическая кола со вкусом, известным веками. Никто не может её превзойти.
-
-ent-CMDrinkCanBase = item

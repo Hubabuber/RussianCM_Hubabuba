@@ -1,144 +1,144 @@
 ent-RMCAreaSavannahChurch = Церковь
-    .suffix = область
+
 ent-RMCAreaSavannahMemorial = Мемориал
-    .suffix = область
+
 ent-RMCAreaSavannahLifeboatPort = Причал для спасательной шлюпки
-    .suffix = область
+
 ent-RMCAreaSavannahLifeboatStarboard = Спасательная шлюпка пришвартована по правому борту
-    .suffix = область
+
 ent-RMCAreaSavannahLifeboatAmidship = Спасательная шлюпка причаливается на миделе корабля
-    .suffix = область
+
 ent-RMCAreaSavannahBriefing = Брифинг
-    .suffix = область
+
 ent-RMCAreaSavannahSEA = Управления боеприпасов и СЭО
-    .suffix = область
+
 ent-RMCAreaSavannahPumpPortQuarter = Портовый четвертьнасос
-    .suffix = область
+
 ent-RMCAreaSavannahPumpPortBow = Порт-носовой насос
-    .suffix = область
+
 ent-RMCAreaSavannahPumpStarboardQuarter = Четверть насоса правого борта
-    .suffix = область
+
 ent-RMCAreaSavannahPumpStarboardBow = Носовой насос правого борта
-    .suffix = область
+
 ent-RMCAreaSavannahSynthetic = Синтетическое хранилище
-    .suffix = область
+
 ent-RMCAreaSavannahAtmosPort = Порт Атмос
-    .suffix = область
+
 ent-RMCAreaSavannahAtmosStarboard = Правый борт Атмос
-    .suffix = область
+
 ent-RMCAreaSavannahEngineeringPreparations = Инженерные приготовления
-    .suffix = область
+
 ent-RMCAreaSavannahChiefEngineer = Комната главного инженера
-    .suffix = область
+
 ent-RMCAreaSavannahEngineeringGenerator = Инженерный генератор
-    .suffix = область
+
 ent-RMCAreaSavannahEngineering = Инженерное дело
-    .suffix = область
+
 ent-RMCAreaSavannahDelta = Подготовка Дельты
-    .suffix = область
+
 ent-RMCAreaSavannahCharlie = Подготовка Чарли
-    .suffix = область
+
 ent-RMCAreaSavannahCharlieDelta = Чарли-Дельта Подготовка
-    .suffix = область
+
 ent-RMCAreaSavannahBravo = Браво Подготовка
-    .suffix = область
+
 ent-RMCAreaSavannahAlpha = Альфа-подготовка
-    .suffix = область
+
 ent-RMCAreaSavannahAlphaBravo = Альфа-Браво Подготовка
-    .suffix = область
+
 ent-RMCAreaSavannahCanteen = Столовая
-    .suffix = область
+
 ent-RMCAreaSavannahQuartermaster = Офис специалиста по логистике
-    .suffix = область
+
 ent-RMCAreaSavannahRequisitions = Реквизиты
-    .suffix = область
+
 ent-RMCAreaSavannahPilotsRoom = Комната пилотов
-    .suffix = область
+
 ent-RMCAreaSavannahHangarStarboard = Ангар по правому борту
-    .suffix = область
+
 ent-RMCAreaSavannahHangarPort = Ангар Порт
-    .suffix = область
+
 ent-RMCAreaSavannahMedicalResearch = Исследовать
-    .suffix = область
+
 ent-RMCAreaSavannahMedicalPreparation = Медицинская подготовка
-    .suffix = область
+
 ent-RMCAreaSavannahMedicalChemistry = Химический кабинет
-    .suffix = область
+
 ent-RMCAreaSavannahMedicalSurgery = Операционный зал
-    .suffix = область
+
 ent-RMCAreaSavannahMedical = Медицинский
-    .suffix = область
+
 ent-RMCAreaSavannahIO = офис ИО
-    .suffix = область
+
 ent-RMCAreaSavannahTComms = TComms
-    .suffix = область
+
 ent-RMCAreaSavannahASO = ASO и Command Cryo
-    .suffix = область
+
 ent-RMCAreaSavannahCIC = Боевой информационный центр
-    .suffix = область
+
 ent-RMCAreaSavannahCICCorridorStarboard = Коридор CIC по правому борту
-    .suffix = область
+
 ent-RMCAreaSavannahCICCorridorPort = Портовый коридор CIC
-    .suffix = область
+
 ent-RMCAreaSavannahCommandingOfficer = Командир Банкс
-    .suffix = область
+
 ent-RMCAreaSavannahOfficerBunks = Офицер Банкс
-    .suffix = область
+
 ent-RMCAreaSavannahPilotBunks = Пилотные койки
-    .suffix = область
+
 ent-RMCAreaSavannahLiaison = Офис связи
-    .suffix = область
+
 ent-RMCAreaSavannahPortPointDefense = Порт-Пойнт Дефенс
-    .suffix = область
+
 ent-RMCAreaSavannahStarboardPointDefense = Защита правого борта
-    .suffix = область
+
 ent-RMCAreaSavannahBrigPrep = Бриговые приготовления
-    .suffix = область
+
 ent-RMCAreaSavannahBrigPrison = Бриговая тюрьма
-    .suffix = область
+
 ent-RMCAreaSavannahBrigBow = Коридор Бриг-Боу
-    .suffix = область
+
 ent-RMCAreaSavannahBrigCorridor = Главный коридор брига
-    .suffix = область
+
 ent-RMCAreaSavannahBrigOB = Орбитальная пушечная комната
-    .suffix = область
+
 ent-RMCAreaSavannahBrigRange = Бриговый тир
-    .suffix = область
+
 ent-RMCAreaSavannahBrigWarden = Офис смотрителя
-    .suffix = область
+
 ent-RMCAreaSavannahBrigCMP = Офис CMP
-    .suffix = область
+
 ent-RMCAreaSavannahCorridorBriefingPort = Коридор порта брифинга
-    .suffix = область
+
 ent-RMCAreaSavannahCorridorBriefingStarboard = Брифинг по правому борту коридора
-    .suffix = область
+
 ent-RMCAreaSavannahCorridorEscape = Коридор спасательных капсул
-    .suffix = область
+
 ent-RMCAreaSavannahCorridorEngineering = Инженерный коридор
-    .suffix = область
+
 ent-RMCAreaSavannahCorridorAmidship = Мидель Коридор
-    .suffix = область
+
 ent-RMCAreaSavannahMaintsPortQuarter = Портовый квартал
-    .suffix = область
+
 ent-RMCAreaSavannahMaintsStarboardQuarter = Обслуживание правого борта
-    .suffix = область
+
 ent-RMCAreaSavannahMaintsPortBeam = Портовые балки
-    .suffix = область
+
 ent-RMCAreaSavannahMaintsStarboardBeam = Стойки правого борта
-    .suffix = область
+
 ent-RMCAreaSavannahMaintsPortBow = Порт-Боу-Ментс
-    .suffix = область
+
 ent-RMCAreaSavannahMaintsStarboardBow = Носовая часть правого борта
-    .suffix = область
+
 ent-RMCAreaSavannahMaints = Майнц
-    .suffix = область
+
 ent-RMCAreaSavannah = область
-    .suffix = область
+
 ent-RMCAreaSavannahBrig = область
-    .suffix = область
+
 ent-RMCAreaSavannahCommand = область
-    .suffix = область
+
 ent-RMCAreaSavannahAuxiliary = область
-    .suffix = область
+
 ent-RMCAreaSavannahPumpBase = область
-    .suffix = область
+

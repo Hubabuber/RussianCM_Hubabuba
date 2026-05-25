@@ -9,13 +9,3 @@ ent-WeaponWaterBlasterSuper-desc = Нет! Нет! Не в глаза!
 
 ent-WeaponWaterGunBase-name = элемент
 
-ent-WeaponWaterBlaster = водяной бластер
-    .desc = С этим плохим парнем ты будешь самым крутым парнем на летнем барбекю.
-
-ent-WeaponWaterBlasterSuper = супер водный бластер
-    .desc = Нет! Нет! Не в глаза!
-
-ent-WeaponWaterGunBase = item
-
-ent-WeaponWaterPistol = водяной пистолет
-    .desc = Самое изящное оружие водного базирования. Вы клянетесь, что триггер ничего не делает.

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMSquadLeader
-  name: job-cmsquadleader-name
-  description: job-cmsquadleader-desc
+  name: cm-job-name-squad-leader
+  description: cm-job-description-squad-leader
   setPreference: false
   playTimeTracker: CMJobSquadLeader
   ranks:
@@ -12,7 +12,7 @@
   dummyStartingGear: CMGearSquadLeaderEquipped
   icon: "CMJobIconSquadLeader"
   joinNotifyCrew: false
-  supervisors: job-cmsquadleader-supervisors
+  supervisors: rmc-job-supervisors-commander
   marineAuthorityLevel: 2
   accessGroups:
   - SquadLeader
@@ -94,7 +94,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSquadLeader
-  name: ent-CMSpawnPointSquadLeader
+  name: squad leader spawn point
   components:
   - type: SpawnPoint
     job_id: CMSquadLeader
@@ -104,7 +104,7 @@
 - type: entity
   parent: CMSpawnPointSquadLeader
   id: CMSpawnPointSquadLeaderAlpha
-  suffix: ent-CMSpawnPointSquadLeaderAlpha-suffix
+  suffix: Alpha
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -115,7 +115,7 @@
 - type: entity
   parent: CMSpawnPointSquadLeader
   id: CMSpawnPointSquadLeaderBravo
-  suffix: ent-CMSpawnPointSquadLeaderBravo-suffix
+  suffix: Bravo
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -126,7 +126,7 @@
 - type: entity
   parent: CMSpawnPointSquadLeader
   id: CMSpawnPointSquadLeaderCharlie
-  suffix: ent-CMSpawnPointSquadLeaderCharlie-suffix
+  suffix: Charlie
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -137,7 +137,7 @@
 - type: entity
   parent: CMSpawnPointSquadLeader
   id: CMSpawnPointSquadLeaderDelta
-  suffix: ent-CMSpawnPointSquadLeaderDelta-suffix
+  suffix: Delta
   components:
   - type: SquadSpawner
     squad: SquadDelta
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSL
-  name: ent-RMCGuidebookRoleSL
-  description: ent-RMCGuidebookRoleSL-desc
+  name: The Squad Leader
+  description: The Squad Leader
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -175,7 +175,7 @@
 
 - type: entity
   id: RMCGuidebookActionMove
-  name: ent-RMCGuidebookActionMove
+  name: Move order
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 
 - type: entity
   id: RMCGuidebookActionHold
-  name: ent-RMCGuidebookActionHold
+  name: Hold order
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 
 - type: entity
   id: RMCGuidebookActionFocus
-  name: ent-RMCGuidebookActionFocus
+  name: Focus order
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

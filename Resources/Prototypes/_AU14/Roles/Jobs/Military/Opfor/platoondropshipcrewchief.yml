@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobDCCBase
   id: AU14JobOpforDCC
-  name: job-au14jobopfordcc-name
-  description: job-au14jobopfordcc-desc
+  name: au14-job-name-opfordcc
+  description: au14-job-description-opfordcc
   setPreference: false
   requirements:
   - !type:TraitsRequirement
@@ -28,9 +28,9 @@
   dummyStartingGear: AU14GearopforDCCDummy
   icon: "AU14JobIconOPFORDCC"
   requireAdminNotify: true
-  spawnMenuRoleName: job-au14jobopfordcc-spawnmenurolename
+  spawnMenuRoleName: Dropship Crew Chief (OPFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobopfordcc-supervisors
+  supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforPilot
   - AU14OpforCorpsman
@@ -66,7 +66,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforDCC
-  name: ent-AU14SpawnPointopforDCC
+  name: Spawn Point opfor Dropship Crew Chief
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforDCC

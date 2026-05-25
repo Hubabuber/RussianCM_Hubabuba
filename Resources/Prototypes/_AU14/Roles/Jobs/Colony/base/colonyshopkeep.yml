@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianShopkeep
-  name: job-au14jobcivilianshopkeep-name
-  description: job-au14jobcivilianshopkeep-desc
+  name: au14-job-name-civilianshopkeep
+  description: au14-job-description-civilianshopkeep
   setPreference: true
   playTimeTracker: AU14JobCivilianShopkeep
   ranks:
@@ -12,7 +12,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianshopkeep-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   access:
@@ -47,7 +47,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianShopkeep
-  name: ent-AU14SpawnPointCivilianShopkeep
+  name: Spawn Point Shopkeep
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianShopkeep

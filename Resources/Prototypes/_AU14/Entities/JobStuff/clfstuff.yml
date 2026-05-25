@@ -6,9 +6,9 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CLFObjectiveWeaponsVendor
-  name: ent-AU14CLFObjectiveWeaponsVendor
-  description: ent-AU14CLFObjectiveWeaponsVendor-desc
-  suffix: ent-AU14CLFObjectiveWeaponsVendor-suffix
+  name: CLF Requisitions Rack
+  description: A high-value weapons cache accessible only with CLF operational funds.
+  suffix: CLF, Objective Points
   components:
   - type: Pullable
   - type: Sprite
@@ -290,8 +290,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: AU14CLFCellKit
-  name: ent-AU14CLFCellKit
-  description: ent-AU14CLFCellKit-desc
+  name: heavy CLF cell kit
+  description: A heavy, low-profile field case used to establish a CLF cell hideout.
   components:
   - type: Sprite
     layers:
@@ -335,7 +335,7 @@
       offset: 1.5, -2
 
 - type: entity
-  name: ent-safehousemarker
+  name: Generic Safhouse Marker
   parent: MarkerBase
   id: safehousemarker
   components:
@@ -347,8 +347,8 @@
 - type: entity
   parent: RMCCrateBase
   id: AU14CrateCLFinitalTools
-  name: ent-AU14CrateCLFinitalTools
-  description: ent-AU14CrateCLFinitalTools-desc
+  name: CLF tool cache
+  description: A field cache of weapons, utilities, and repair tools for a newly established CLF cell.
   components:
   - type: Sprite
     state: crate
@@ -378,8 +378,8 @@
 - type: entity
   parent: RMCCrateBase
   id: AU14CrateCLFRecruitmentKit
-  name: ent-AU14CrateCLFRecruitmentKit
-  description: ent-AU14CrateCLFRecruitmentKit-desc
+  name: CLF recruitment cache
+  description: A compact cache for inducting new CLF members and handing out covert cell comms.
   components:
   - type: Sprite
     state: crate
@@ -397,7 +397,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxCLF
-  suffix: ent-CMFaxCLF-suffix
+  suffix: CLF
   components:
   - type: FaxMachine
     name: "Colony Liberation Front"
@@ -406,8 +406,8 @@
 - type: entity
   parent: RMCWeaponRevolverM44Custom
   id: AU14WeaponRevolverM44Inscribed
-  name: ent-AU14WeaponRevolverM44Inscribed
-  description: ent-AU14WeaponRevolverM44Inscribed-desc
+  name: inscribed M44 combat revolver
+  description: A well-worn M44 combat revolver with crude inscriptions scratched into the barrel and grip. The words 'FREEDOM OR DEATH' are etched along the side. This weapon has clearly seen many battles.
   components:
   - type: RevolverAmmoProvider
     proto: RMCCartridgeRevolver44
@@ -418,10 +418,10 @@
     baseFireRate: 6
 
 - type: entity
-  name: ent-AU14TattooGun
+  name: Tattoo Gun
   parent: BaseStorageItem
   id: AU14TattooGun
-  description: ent-AU14TattooGun-desc
+  description: Used to induct people into the CLF.
   components:
   - type: TattooGun
   - type: Sprite
@@ -451,8 +451,8 @@
 - type: entity
   parent: BaseItem
   id: AU14TattooInkCartridge
-  name: ent-AU14TattooInkCartridge
-  description: ent-AU14TattooInkCartridge-desc
+  name: tattoo ink cartridge
+  description: A small cartridge of dark ink for use with a tattoo gun.
   components:
   - type: Sprite
     sprite: _AU14/Objects/Misc/TattooGun/tattoogunmag.rsi
@@ -473,9 +473,9 @@
 - type: entity
   parent: CMJumpsuitColonist
   id: AU14CMJumpsuitColonistCLF
-  name: ent-AU14CMJumpsuitColonistCLF
-  description: ent-AU14CMJumpsuitColonistCLF-desc
-  suffix: ent-AU14CMJumpsuitColonistCLF-suffix
+  name: colonist uniform
+  description: A stylish gray-green jumpsuit - standard issue for colonists. This one has a small earpiece clipped to the collar.
+  suffix: CLF
   components:
   - type: UniformAccessoryHolder
     allowedCategories:
@@ -495,9 +495,9 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: AU14RMCJumpsuitCivilianCLF
-  name: ent-AU14RMCJumpsuitCivilianCLF
-  description: ent-AU14RMCJumpsuitCivilianCLF-desc
-  suffix: ent-AU14RMCJumpsuitCivilianCLF-suffix
+  name: gray utility uniform
+  description: A stylish gray jumpsuit, popularly issued to UN contract workers on the frontier. This one has a small earpiece clipped to the collar.
+  suffix: CLF
   components:
   - type: UniformAccessoryHolder
     allowedCategories:

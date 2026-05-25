@@ -3,7 +3,7 @@
 - type: entity
   id: BlastDoorExterior1
   parent: BlastDoor
-  suffix: ent-BlastDoorExterior1-suffix
+  suffix: Autolink, Ext1
   components:
     - type: AutoLinkReceiver
       channel: Ext1
@@ -12,7 +12,7 @@
 - type: entity
   id: BlastDoorExterior1Open
   parent: BlastDoorOpen
-  suffix: ent-BlastDoorExterior1Open-suffix
+  suffix: Open, Autolink, Ext1
   components:
     - type: AutoLinkReceiver
       channel: Ext1
@@ -20,7 +20,7 @@
 - type: entity
   id: BlastDoorExterior2
   parent: BlastDoor
-  suffix: ent-BlastDoorExterior2-suffix
+  suffix: Autolink, Ext2
   components:
     - type: AutoLinkReceiver
       channel: Ext2
@@ -29,7 +29,7 @@
 - type: entity
   id: BlastDoorExterior2Open
   parent: BlastDoorOpen
-  suffix: ent-BlastDoorExterior2Open-suffix
+  suffix: Open, Autolink, Ext2
   components:
     - type: AutoLinkReceiver
       channel: Ext2
@@ -37,7 +37,7 @@
 - type: entity
   id: BlastDoorExterior3
   parent: BlastDoor
-  suffix: ent-BlastDoorExterior3-suffix
+  suffix: Autolink, Ext3
   components:
     - type: AutoLinkReceiver
       channel: Ext3
@@ -46,7 +46,7 @@
 - type: entity
   id: BlastDoorExterior3Open
   parent: BlastDoorOpen
-  suffix: ent-BlastDoorExterior3Open-suffix
+  suffix: Open, Autolink, Ext3
   components:
     - type: AutoLinkReceiver
       channel: Ext3
@@ -54,7 +54,7 @@
 - type: entity
   id: BlastDoorBridge
   parent: BlastDoor
-  suffix: ent-BlastDoorBridge-suffix
+  suffix: Autolink, Bridge
   components:
     - type: AccessReader
       access: [["Command"]]
@@ -64,7 +64,7 @@
 - type: entity
   id: BlastDoorBridgeOpen
   parent: BlastDoorOpen
-  suffix: ent-BlastDoorBridgeOpen-suffix
+  suffix: Open, Autolink, Bridge
   components:
     - type: AccessReader
       access: [["Command"]]
@@ -74,7 +74,7 @@
 - type: entity
   id: BlastDoorEngineering
   parent: BlastDoor
-  suffix: ent-BlastDoorEngineering-suffix
+  suffix: Autolink, Engineering
   components:
   - type: AccessReader
     access: [["Command"], ["Engineering"]]
@@ -84,7 +84,7 @@
 - type: entity
   id: BlastDoorEngineeringOpen
   parent: BlastDoorOpen
-  suffix: ent-BlastDoorEngineeringOpen-suffix
+  suffix: Open, Autolink, Engineering
   components:
   - type: AccessReader
     access: [["Command"], ["Engineering"]]
@@ -94,7 +94,7 @@
 - type: entity
   id: BlastDoorScience
   parent: BlastDoor
-  suffix: ent-BlastDoorScience-suffix
+  suffix: Autolink, Science
   components:
   - type: AccessReader
     access: [["Command"], ["Research"]]
@@ -104,7 +104,7 @@
 - type: entity
   id: BlastDoorScienceOpen
   parent: BlastDoorOpen
-  suffix: ent-BlastDoorScienceOpen-suffix
+  suffix: Open, Autolink, Science
   components:
   - type: AccessReader
     access: [["Command"], ["Research"]]
@@ -114,7 +114,7 @@
 - type: entity
   id: BlastDoorWindows
   parent: BlastDoor
-  suffix: ent-BlastDoorWindows-suffix
+  suffix: Autolink, Windows
   components:
     - type: AutoLinkReceiver
       channel: Windows
@@ -122,7 +122,7 @@
 - type: entity
   id: BlastDoorWindowsOpen
   parent: BlastDoorOpen
-  suffix: ent-BlastDoorWindowsOpen-suffix
+  suffix: Open, Autolink, Windows
   components:
     - type: AutoLinkReceiver
       channel: Windows

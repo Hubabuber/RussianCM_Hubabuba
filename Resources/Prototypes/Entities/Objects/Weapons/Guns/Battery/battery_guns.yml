@@ -102,10 +102,10 @@
     - Belt
 
 - type: entity
-  name: ent-WeaponLaserSvalinn
+  name: svalinn laser pistol
   parent: [BaseWeaponPowerCellSmall, BaseSecurityContraband]
   id: WeaponLaserSvalinn
-  description: ent-WeaponLaserSvalinn-desc
+  description: A cheap and widely used laser pistol.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
@@ -123,10 +123,10 @@
     zeroVisible: true
 
 - type: entity
-  name: ent-WeaponLaserGun
+  name: retro laser blaster
   parent: [BaseWeaponBatterySmall, BaseMajorContraband]
   id: WeaponLaserGun
-  description: ent-WeaponLaserGun-desc
+  description: A weapon using light amplified by the stimulated emission of radiation.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
@@ -146,10 +146,10 @@
   - type: Appearance
 
 - type: entity
-  name: ent-WeaponMakeshiftLaser
+  name: makeshift laser pistol
   parent: [BaseWeaponBatterySmall, BaseMinorContraband]
   id: WeaponMakeshiftLaser
-  description: ent-WeaponMakeshiftLaser-desc
+  description: Better pray it won't burn your hands off.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
@@ -174,10 +174,10 @@
     startingCharge: 500
 
 - type: entity
-  name: ent-WeaponTeslaGun
+  name: tesla gun
   parent: [BaseWeaponBattery, BaseMajorContraband]
   id: WeaponTeslaGun
-  description: ent-WeaponTeslaGun-desc
+  description: The power of the primordial element of lightning in your hands.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
@@ -203,10 +203,10 @@
   - type: Appearance
 
 - type: entity
-  name: ent-WeaponLaserCarbinePractice
+  name: practice laser rifle
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponLaserCarbinePractice
-  description: ent-WeaponLaserCarbinePractice-desc
+  description: This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
@@ -234,10 +234,10 @@
     price: 300
 
 - type: entity
-  name: ent-WeaponLaserCarbine
+  name: laser rifle
   parent: [WeaponLaserCarbinePractice, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLaserCarbine
-  description: ent-WeaponLaserCarbine-desc
+  description: Favoured by Nanotrasen Security for being cheap and easy to use.
   components:
   - type: StaticPrice
     price: 420
@@ -246,10 +246,10 @@
     fireCost: 62.5
 
 - type: entity
-  name: ent-WeaponPulsePistol
+  name: pulse pistol
   parent: [BaseWeaponBatterySmall, BaseCentcommContraband]
   id: WeaponPulsePistol
-  description: ent-WeaponPulsePistol-desc
+  description: A state of the art energy pistol favoured as a sidearm by the NT operatives.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
@@ -280,10 +280,10 @@
     startingCharge: 2000
 
 - type: entity
-  name: ent-WeaponPulseCarbine
+  name: pulse carbine
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseCarbine
-  description: ent-WeaponPulseCarbine-desc
+  description: A high tech energy carbine favoured by the NT-ERT operatives.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
@@ -316,10 +316,10 @@
     startingCharge: 5000
 
 - type: entity
-  name: ent-WeaponPulseRifle
+  name: pulse rifle
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseRifle
-  description: ent-WeaponPulseRifle-desc
+  description: A weapon that is almost as infamous as its users.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
@@ -348,10 +348,10 @@
     startingCharge: 40000
 
 - type: entity
-  name: ent-WeaponLaserCannon
+  name: laser cannon
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponLaserCannon
-  description: ent-WeaponLaserCannon-desc
+  description: A heavy duty, high powered laser weapon.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
@@ -380,10 +380,10 @@
     - TurretCompatibleWeapon
 
 - type: entity
-  name: ent-WeaponParticleDecelerator
+  name: portable particle decelerator
   parent: [BaseWeaponBattery, BaseEngineeringContraband]
   id: WeaponParticleDecelerator
-  description: ent-WeaponParticleDecelerator-desc
+  description: A portable particle decelerator capable of decomposing a tesla or singularity.
   components:
     - type: Item
       size: Ginormous
@@ -411,10 +411,10 @@
       startingCharge: 10000
 
 - type: entity
-  name: ent-WeaponXrayCannon
+  name: x-ray cannon
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponXrayCannon
-  description: ent-WeaponXrayCannon-desc
+  description: An experimental weapon that uses concentrated x-ray energy against its target.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/xray.rsi
@@ -439,10 +439,10 @@
   - type: Appearance
 
 - type: entity
-  name: ent-WeaponDisablerPractice
+  name: practice disabler
   parent: BaseWeaponBatterySmall
   id: WeaponDisablerPractice
-  description: ent-WeaponDisablerPractice-desc
+  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. This one has been undertuned for cadets making it mostly harmless.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
@@ -478,10 +478,10 @@
     - Sidearm
 
 - type: entity
-  name: ent-WeaponDisabler
+  name: disabler
   parent: [WeaponDisablerPractice, BaseSecurityCommandContraband]
   id: WeaponDisabler
-  description: ent-WeaponDisabler-desc
+  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/disabler.rsi
@@ -506,10 +506,10 @@
     - Antagonists
 
 - type: entity
-  name: ent-WeaponDisablerSMG
+  name: disabler SMG
   parent: [BaseWeaponBattery, BaseSecurityContraband]
   id: WeaponDisablerSMG
-  description: ent-WeaponDisablerSMG-desc
+  description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
   components:
   - type: Item
     size: Large
@@ -544,10 +544,10 @@
     price: 260
 
 - type: entity
-  name: ent-WeaponTaser
+  name: taser
   parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
   id: WeaponTaser
-  description: ent-WeaponTaser-desc
+  description: A low-capacity, energy-based stun gun used by security teams to subdue targets at range.
   components:
   - type: Tag
     tags:
@@ -580,10 +580,10 @@
   - type: Appearance
 
 - type: entity
-  name: ent-WeaponAntiqueLaser
+  name: antique laser pistol
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponAntiqueLaser
-  description: ent-WeaponAntiqueLaser-desc
+  description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with a mahogany grip and chrome filigree. The object menaces with spikes of energy. On the item is an image of a captain and a clown. The clown is dead. The captain is striking a heroic pose.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
@@ -624,10 +624,10 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: ent-WeaponAdvancedLaser
+  name: advanced laser pistol
   parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
   id: WeaponAdvancedLaser
-  description: ent-WeaponAdvancedLaser-desc
+  description: An experimental high-energy laser pistol with a self-charging nuclear battery.
   components:
   - type: Item
     size: Normal  # Intentionally larger than other pistols
@@ -659,10 +659,10 @@
     price: 63
 
 - type: entity
-  name: ent-WeaponPistolCHIMP
+  name: C.H.I.M.P. handcannon
   parent: [BaseWeaponBatterySmall, BaseScienceContraband]
   id: WeaponPistolCHIMP
-  description: ent-WeaponPistolCHIMP-desc
+  description: Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
@@ -705,10 +705,10 @@
     price: 100
 
 - type: entity
-  name: ent-WeaponPistolCHIMPUpgraded
+  name: experimental C.H.I.M.P. handcannon
   parent: [WeaponPistolCHIMP, BaseSyndicateContraband]
   id: WeaponPistolCHIMPUpgraded
-  description: ent-WeaponPistolCHIMPUpgraded-desc
+  description: This C.H.I.M.P. seems to have a greater punch than usual...
   components:
   - type: BatteryWeaponFireModes
     fireModes:
@@ -724,10 +724,10 @@
       fireCost: 100
 
 - type: entity
-  name: ent-WeaponBehonkerLaser
+  name: eye of a behonker
   parent: BaseWeaponBatterySmall
   id: WeaponBehonkerLaser
-  description: ent-WeaponBehonkerLaser-desc
+  description: The eye of a behonker, it fires a laser when squeezed.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/behonker_eye.rsi
@@ -748,10 +748,10 @@
     price: 750
 
 - type: entity
-  name: ent-WeaponEnergyShotgun
+  name: energy shotgun
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseGrandTheftContraband]
   id: WeaponEnergyShotgun
-  description: ent-WeaponEnergyShotgun-desc
+  description: A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
@@ -805,10 +805,10 @@
     autoRechargePauseTime: 30
 
 - type: entity
-  name: ent-WeaponTemperatureGun
+  name: temperature gun
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponTemperatureGun
-  description: ent-WeaponTemperatureGun-desc
+  description: An advanced gun that shoots body-temperature-changing beams. This probably constitutes as some kind of war crime.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi
@@ -849,12 +849,12 @@
     price: 100
 
 - type: entity
-  name: ent-XenoborgLaserGun
+  name: xenoborg laser gun
   parent: [WeaponAdvancedLaser, BaseXenoborgContraband]
   id: XenoborgLaserGun
 
 - type: entity
-  name: ent-XenoborgHeavyLaserGun
+  name: xenoborg heavy laser gun
   parent: [WeaponAdvancedLaser, BaseXenoborgContraband]
   id: XenoborgHeavyLaserGun
   components:

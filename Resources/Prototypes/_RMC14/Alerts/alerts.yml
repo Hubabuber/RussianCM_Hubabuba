@@ -22,8 +22,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
     state: trackon-southwest
-  name: alert-hivetracker-name
-  description: alert-hivetracker-desc
+  name: Xenonid Tracker
+  description: Tracks the Queen.
   clickEvent: !type:HiveTrackerClickedAlertEvent
   altClickEvent: !type:HiveTrackerAltClickedAlertEvent
   minSeverity: 0
@@ -32,18 +32,21 @@
 - type: alert
   parent: HiveTracker
   id: LeaderTracker
-  name: alert-leadertracker-name
-  description: alert-leadertracker-desc
+  name: Hive Leader Tracker
+  description: Tracks a hive leader.
+
 - type: alert
   parent: HiveTracker
   id: TunnelTracker
-  name: alert-tunneltracker-name
-  description: alert-tunneltracker-desc
+  name: Tunnel Tracker
+  description: Tracks a tunnel.
+
 - type: alert
   parent: HiveTracker
   id: HiveCoreTracker
-  name: alert-hivecoretracker-name
-  description: alert-hivecoretracker-desc
+  name: Hive Core Tracker
+  description: Tracks the hive core.
+
 - type: alert
   id: ResinMarkerTracker
   icons:
@@ -67,8 +70,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
     state: trackon-southwest
-  name: alert-resinmarkertracker-name
-  description: alert-resinmarkertracker-desc
+  name: Resin Marker Tracker
+  description: Tracks a Resin Marker placed by the Queen or a Hive Leader.
 #  clickEvent: !type:SelectTrackerAlertEvent
   minSeverity: 0
   maxSeverity: 10
@@ -97,8 +100,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest
-  name: alert-squadtracker-name
-  description: alert-squadtracker-desc
+  name: Marine Squad Tracker
+  description: Tracks the Squad Leader.
   minSeverity: 0
   maxSeverity: 10
   clickEvent: !type:SquadLeaderTrackerClickedEvent
@@ -133,7 +136,8 @@
     state: trackon-west_asl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_asl
-  description: alert-squadtrackeralpha-desc
+  description: Tracks the Alpha Squad Leader.
+
 - type: alert
   id: SquadTrackerBravo
   parent: SquadTracker
@@ -159,7 +163,8 @@
     state: trackon-west_bsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_bsl
-  description: alert-squadtrackerbravo-desc
+  description: Tracks the Bravo Squad Leader.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerCharlie
@@ -185,7 +190,8 @@
     state: trackon-west_csl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_csl
-  description: alert-squadtrackercharlie-desc
+  description: Tracks the Charlie Squad Leader.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerDelta
@@ -211,7 +217,8 @@
     state: trackon-west_dsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_dsl
-  description: alert-squadtrackerdelta-desc
+  description: Tracks the Delta Squad Leader.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerEcho
@@ -237,7 +244,8 @@
     state: trackon-west_esl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_esl
-  description: alert-squadtrackerecho-desc
+  description: Tracks the Echo Squad Leader.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerFoxtrot
@@ -263,7 +271,8 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: alert-squadtrackerfoxtrot-desc
+  description: Tracks the Foxtrot Squad Leader.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerIntel
@@ -289,7 +298,8 @@
     state: trackon-west_isl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_isl
-  description: alert-squadtrackerintel-desc
+  description: Tracks the Foxtrot Squad Leader.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerSunRiders
@@ -315,7 +325,8 @@
     state: trackon-west_dsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_dsl
-  description: alert-squadtrackersunriders-desc
+  description: Tracks the Sun Riders Section Sergeant.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRecon
@@ -341,7 +352,8 @@
     state: trackon-west_fosl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fosl
-  description: alert-squadtrackerrecon-desc
+  description: Tracks the FORECON Squad Leader.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerCommandingOfficer
@@ -367,7 +379,8 @@
     state: trackon-west_co
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_co
-  description: alert-squadtrackercommandingofficer-desc
+  description: Tracks the Commanding Officer.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerExecutiveOfficer
@@ -393,7 +406,8 @@
     state: trackon-west_xo
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_xo
-  description: alert-squadtrackerexecutiveofficer-desc
+  description: Tracks the Executive Officer.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerChiefMilitaryPolice
@@ -419,7 +433,8 @@
     state: trackon-west_cmp
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_cmp
-  description: alert-squadtrackerchiefmilitarypolice-desc
+  description: Tracks the Chief Military Police
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerLandingZone
@@ -445,7 +460,8 @@
     state: trackon-west_lz
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_lz
-  description: alert-squadtrackerlandingzone-desc
+  description: Tracks the Primary Landing Zone
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerCorporateLiaison
@@ -471,8 +487,9 @@
     state: trackon-west_cl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_cl
-  name: alert-squadtrackercorporateliaison-name
-  description: alert-squadtrackercorporateliaison-desc
+  name: We-Ya Squad Tracker
+  description: Tracks the Corporate Liaison.
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerTeamLeader
@@ -498,7 +515,8 @@
     state: trackon-west_tl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_tl
-  description: alert-squadtrackerteamleader-desc
+  description: Tracks the Team Leader
+  
 - type: alert
   parent: SquadTracker
   id: SquadTrackerParaTeamLeader
@@ -524,7 +542,9 @@
       state: trackon-west_tl
     - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
       state: trackon-southwest_tl
-  description: alert-squadtrackerparateamleader-desc
+  description: Tracks the Paramarine Team Leader
+
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerPMCForceLeader
@@ -550,8 +570,9 @@
     state: trackon-west_fl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fl
-  name: alert-squadtrackerpmcforceleader-name
-  description: alert-squadtrackerpmcforceleader-desc
+  name: We-Ya Squad Tracker
+  description: Tracks the Force Leader
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMPVESectionLead
@@ -577,8 +598,9 @@
     state: trackon-west_sectionlead
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_sectionlead
-  name: alert-squadtrackerrcmpvesectionlead-name
-  description: alert-squadtrackerrcmpvesectionlead-desc
+  name: Royal Squad Tracker
+  description: Tracks the Section Leader
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMPVETroopCommander
@@ -604,8 +626,9 @@
     state: trackon-west_troopcommander
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_troopcommander
-  name: alert-squadtrackerrcmpvetroopcommander-name
-  description: alert-squadtrackerrcmpvetroopcommander-desc
+  name: Royal Squad Tracker
+  description: Tracks the Troop Commander
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMPVETeamLead
@@ -631,8 +654,9 @@
     state: trackon-west_teamlead
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_teamlead
-  name: alert-squadtrackerrcmpveteamlead-name
-  description: alert-squadtrackerrcmpveteamlead-desc
+  name: Royal Squad Tracker
+  description: Tracks the Team Leader
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMPVETroopSergeant
@@ -658,8 +682,9 @@
     state: trackon-west_troopsergeant
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_troopsergeant
-  name: alert-squadtrackerrcmpvetroopsergeant-name
-  description: alert-squadtrackerrcmpvetroopsergeant-desc
+  name: Royal Squad Tracker
+  description: Tracks the Troop Sergeant
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMTeamLead
@@ -685,8 +710,9 @@
     state: trackon-west_teamlead
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_teamlead
-  name: alert-squadtrackerrcmteamlead-name
-  description: alert-squadtrackerrcmteamlead-desc
+  name: Royal Squad Tracker
+  description: Tracks the Team Leader
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMLieutenant
@@ -712,16 +738,17 @@
     state: trackon-west_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_lt
-  name: alert-squadtrackerrcmlieutenant-name
-  description: alert-squadtrackerrcmlieutenant-desc
+  name: Royal Squad Tracker
+  description: Tracks the Lieutenant
+
 - type: alert
   id: MarineTacMapAlert
   category: Tacmap
   icons:
   - sprite: /Textures/_RMC14/Structures/Machines/map_table.rsi
     state: maptable
-  name: alert-marinetacmapalert-name
-  description: alert-marinetacmapalert-desc
+  name: Tactical Map
+  description: Click to open the Tactical Map. Right click to open the crew manifest.
   clickEvent: !type:OpenTacMapAlertEvent
   altClickEvent: !type:OpenCrewManifestAlertEvent
 
@@ -731,8 +758,8 @@
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_map.rsi
     state: open_xeno_map
-  name: alert-xenotacmapalert-name
-  description: alert-xenotacmapalert-desc
+  name: Tactical Map
+  description: Click to open the Tactical Map.
   clickEvent: !type:OpenTacMapAlertEvent
 
 - type: alert
@@ -749,8 +776,8 @@
     state: stamina5
   - sprite: /Textures/Interface/Alerts/stamina.rsi
     state: stamina6
-  name: alert-rmcstamina-name
-  description: alert-rmcstamina-desc
+  name: alerts-stamina-name
+  description: alerts-stamina-desc
   minSeverity: 0
   maxSeverity: 4
 
@@ -774,8 +801,8 @@
     state: roof3b
   - sprite: /Textures/_RMC14/Structures/Machines/ceiling.rsi
     state: roof4b
-  name: alert-areainfo-name
-  description: alert-areainfo-desc
+  name: Area Info
+  description: Information of the area you are in.
   minSeverity: 0
   maxSeverity: 7
 
@@ -784,8 +811,9 @@
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/status.rsi
     state: sleeping
-  name: alert-rmcunconscious-name
-  description: alert-rmcunconscious-desc
+  name: rmc-alerts-unconscious-name
+  description: rmc-alerts-unconscious-desc
+
 - type: alertCategory
   id: SquadTracker
 
@@ -820,7 +848,9 @@
     state: trackon-west_asl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_asl
-  description: alert-squadtrackertango-desc
+  description: Tracks the Tango Squad Leader.
+
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerSierra
@@ -846,7 +876,9 @@
     state: trackon-west_asl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_asl
-  description: alert-squadtrackersierra-desc
+  description: Tracks the Tango Squad Leader.
+
+
 - type: alert
   parent: SquadTracker
   id: SquadTrackerUniform
@@ -872,4 +904,4 @@
     state: trackon-west_asl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_asl
-  description: alert-squadtrackeruniform-desc
+  description: Tracks the Tango Squad Leader.

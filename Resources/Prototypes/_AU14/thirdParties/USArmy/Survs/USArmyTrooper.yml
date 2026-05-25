@@ -1,8 +1,8 @@
 - type: job
   parent: AU14USArmyTrooperBase
   id: AU14USArmyTrooper
-  name: job-au14usarmytrooper-name
-  description: job-au14usarmytrooper-desc
+  name: au14-job-name-usarmy-trooper
+  description: au14-job-description-usarmy
   ranks:
     USArmy_Specialist:
     - !type:RoleTimeRequirement
@@ -13,12 +13,12 @@
       role: AU14JobUSArmyTrooper
       time: 18000 #5 hours
     USArmy_Private2: []
-  spawnMenuRoleName: job-au14usarmytrooper-spawnmenurolename
+  spawnMenuRoleName: US Army Trooper (AU14, surv)
   startingGear: AU14GearUSArmyTrooper
   greeting: au14-usarmy-greeting
   icon: "AU14JobIconUSArmyTrooper"
   joinNotifyCrew: false
-  supervisors: job-au14usarmytrooper-supervisors
+  supervisors: cm-job-name-squad-leader
   accessGroups:
   - AU14GovforSquad
   special:
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTrooper
-  name: ent-AU14JobUSArmyTrooper
+  name: US Army Trooper (Surv)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

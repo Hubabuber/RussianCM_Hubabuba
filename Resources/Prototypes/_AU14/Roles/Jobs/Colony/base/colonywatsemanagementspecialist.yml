@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianWasteManagementSpecialist
-  name: job-au14jobcivilianwastemanagementspecialist-name
-  description: job-au14jobcivilianwastemanagementspecialist-desc
+  name: au14-job-name-civilianwastemanagementspecialist
+  description: au14-job-description-civilianwastemanagementspecialist
   setPreference: true
   playTimeTracker: AU14JobCivilianWasteManagementSpecialist
   ranks:
@@ -12,7 +12,7 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianwastemanagementspecialist-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
   - auengi
@@ -51,7 +51,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianWasteManagementSpecialist
-  name: ent-AU14SpawnPointCivilianWasteManagementSpecialist
+  name: Spawn Point Waste Management Specialist
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianWasteManagementSpecialist

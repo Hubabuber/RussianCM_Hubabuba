@@ -1,10 +1,10 @@
-- type: job
+﻿- type: job
   parent: CMSurvivorTrucker
   id: CMSurvivorTrijentTrucker
-  name: job-cmsurvivortrijenttrucker-name
-  description: job-cmsurvivortrijenttrucker-desc
+  name: cm-job-name-survivor-trijent-trucker
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorTrijentTrucker
-  spawnMenuRoleName: job-cmsurvivortrijenttrucker-spawnmenurolename
+  spawnMenuRoleName: Trijent Heavy Vehicle Operator (Trijent Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentTrucker
-  name: ent-RMCSpawnPointSurvivorTrijentTrucker
+  name: trijent trucker spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -45,5 +45,5 @@
 - type: entity
   parent: RMCSurvivorPresetTrucker
   id: RMCGearSurvivorPresetTrijentTrucker
-  name: ent-RMCGearSurvivorPresetTrijentTrucker
+  name: trijent trucker colonist preset
   categories: [ HideSpawnMenu ]

@@ -1,30 +1,30 @@
 ent-CMDoubleDoorResearchGlassLocked = Исследовательский шлюз
-    .suffix = Исследовательский шлюз
+
 ent-CMDoubleDoorRequisitionsGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorRequisitionsSolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorEngineerGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorEngineerSolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorMedicalGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorMedicalSolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorMorgueSolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorChemistryGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorChemistrySolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorResearchSolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPilotsGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorPilotsSolidLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorSecurityGlassLocked = дверь
-    .suffix = дверь
+
 ent-CMDoubleDoorSecuritySolidLocked = дверь
-    .suffix = дверь
+

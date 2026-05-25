@@ -1,1 +1,0 @@
-ent-ExplosionLight = explosion light

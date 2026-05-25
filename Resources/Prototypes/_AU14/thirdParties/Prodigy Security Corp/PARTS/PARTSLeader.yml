@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTSPartyLeader
-  name: job-au14jobpartspartyleader-name
-  description: job-au14jobpartspartyleader-desc
+  name: Prodigy Sierra Leader
+  description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTSPartyLeader
   ranks:
     AU14RankWeYuEnforcerLead: []
-  spawnMenuRoleName: job-au14jobpartspartyleader-spawnmenurolename
+  spawnMenuRoleName: Prodigy Sierra Leader (3rd party, M41A/2)
   startingGear: AU14GearPARTSPartyLeader
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCLeader"
   joinNotifyCrew: false
-  supervisors: job-au14jobpartspartyleader-supervisors
+  supervisors: au14-job-supervisors-psc
   accessGroups:
   - auwy
   - AUPrisonStaff
@@ -44,7 +44,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobPARTSPartyLeader
-  name: ent-AU14JobPARTSPartyLeader
+  name: Prodigy PARTS Party Leader (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

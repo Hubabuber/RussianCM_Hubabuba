@@ -1,10 +1,10 @@
-- type: job
+﻿- type: job
   parent: CMSurvivorDoctor
   id: RMCSurvivorKutjevoDoctor
-  name: job-rmcsurvivorkutjevodoctor-name
-  description: job-rmcsurvivorkutjevodoctor-desc
+  name: rmc-job-name-survivor-kutjevo-doctor
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorKutjevoDoctor
-  spawnMenuRoleName: job-rmcsurvivorkutjevodoctor-spawnmenurolename
+  spawnMenuRoleName: Kutjevo Doctor (Kutjevo Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoDoctor
-  name: ent-RMCSpawnPointSurvivorKutjevoDoctor
+  name: survivor kurjevo doctor spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoDoctor
@@ -52,5 +52,5 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetKutjevoDoctor
-  name: ent-RMCGearSurvivorPresetKutjevoDoctor
+  name: kutjevo doctor colonist preset
   categories: [ HideSpawnMenu ]

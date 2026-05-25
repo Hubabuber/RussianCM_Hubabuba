@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSummonGhosts
-  name: ent-ActionSummonGhosts
-  description: ent-ActionSummonGhosts-desc
+  name: Summon Ghosts
+  description: Makes all current ghosts permanently visible
   components:
   - type: Action
     useDelay: 120
@@ -18,8 +18,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSummonGuns
-  name: ent-ActionSummonGuns
-  description: ent-ActionSummonGuns-desc
+  name: Summon Guns
+  description: AK47s for everyone! Places a random gun in front of everybody.
   components:
   - type: Magic
   - type: Action
@@ -168,8 +168,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSummonMagic
-  name: ent-ActionSummonMagic
-  description: ent-ActionSummonMagic-desc
+  name: Summon Magic
+  description: Places a random magical item in front of everybody. Nothing could go wrong!
   components:
   - type: Magic
   - type: Action

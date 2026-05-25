@@ -1,11 +1,11 @@
 - type: job
   parent: CMSurvivor
   id: RMCSurvivorAssistantManager
-  name: job-rmcsurvivorassistantmanager-name
-  description: job-rmcsurvivorassistantmanager-desc
+  name: rmc-job-name-survivor-shivas-assman
+  description: rmc-job-description-survivor
   ranks:
     RMCRankWeYaAssistantManager: []
-  supervisors: job-rmcsurvivorassistantmanager-supervisors
+  supervisors: cm-job-supervisors-we-ya
   accessGroups:
   - ColonistCorporate
   startingGear: RMCGearSurvivorShivasAssistantManager
@@ -14,7 +14,7 @@
   joinNotifyCrew: false
   greeting: rmc-job-greeting-shivas-assistant-manager
   playTimeTracker: CMJobSurvivorCorporate
-  spawnMenuRoleName: job-rmcsurvivorassistantmanager-spawnmenurolename
+  spawnMenuRoleName: Survivor — Assistant Operations Manager (Shivas)
   special:
   - !type:AddComponentSpecial
     components:
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorPanicRoomAssistantManager
-  name: ent-RMCSpawnPointSurvivorPanicRoomAssistantManager
+  name: special survivor panic room assistant manager spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorAssistantManager

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianPaPOfficer
-  name: job-au14jobcivilianpapofficer-name
-  description: job-au14jobcivilianpapofficer-desc
+  name: au14-job-name-civilianpapofficer
+  description: au14-job-description-civilianpapofficer
   setPreference: true
   canBeAntag: false
   requirements:
@@ -23,8 +23,8 @@
   icon: "RMCJobIconBureauDeputy"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianpapofficer-supervisors
-  spawnMenuRoleName: job-au14jobcivilianpapofficer-spawnmenurolename
+  supervisors: au14-job-supervisors-colonycivilian
+  spawnMenuRoleName: PaP Officer (CMU)
   accessGroups:
   - aucmb
   - Colonist
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianPaPOfficer
-  name: ent-AU14SpawnPointCivilianPaPOfficer
+  name: Spawn Point Civilian PAP Officer
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianPaPOfficer

@@ -4,8 +4,8 @@
 - type: entity
   parent: Clothing
   id: RMCPouch
-  name: ent-RMCPouch
-  description: ent-RMCPouch-desc
+  name: abstract pouch
+  description: The physical manifestation of the concept of a pouch. Woah.
   abstract: true
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   parent: [RMCPouch, BaseStorageItem]
   id: RMCPouchStorage
-  name: ent-RMCPouchStorage
+  name: storage pouch
   abstract: true
   components:
   - type: Storage

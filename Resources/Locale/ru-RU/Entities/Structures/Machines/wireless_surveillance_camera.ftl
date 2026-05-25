@@ -19,29 +19,3 @@ ent-SurveillanceWirelessCameraAnchoredEntertainment-desc = Камера. Оно 
 ent-SurveillanceWirelessCameraMovableEntertainment-name = беспроводная камера
 ent-SurveillanceWirelessCameraMovableEntertainment-desc = Камера. Оно наблюдает за тобой. Как бы.
 
-ent-SurveillanceWirelessCameraAnchoredBase = беспроводная камера
-    .desc = Камера. Оно наблюдает за тобой. Как бы.
-    .suffix = Закреплено
-
-ent-SurveillanceWirelessCameraAnchoredConstructed = беспроводная камера
-    .desc = Камера. Оно наблюдает за тобой. Как бы.
-    .suffix = Построено, закреплено
-
-ent-SurveillanceWirelessCameraAnchoredEntertainment = беспроводная камера
-    .desc = Камера. Оно наблюдает за тобой. Как бы.
-    .suffix = Развлечения, Закреплённые
-
-ent-SurveillanceWirelessCameraBase = беспроводная камера
-    .desc = Камера. Оно наблюдает за тобой. Как бы.
-
-ent-SurveillanceWirelessCameraMovableBase = беспроводная камера
-    .desc = Камера. Оно наблюдает за тобой. Как бы.
-    .suffix = Подвижный
-
-ent-SurveillanceWirelessCameraMovableConstructed = беспроводная камера
-    .desc = Камера. Оно наблюдает за тобой. Как бы.
-    .suffix = Построенный, Передвижной
-
-ent-SurveillanceWirelessCameraMovableEntertainment = беспроводная камера
-    .desc = Камера. Оно наблюдает за тобой. Как бы.
-    .suffix = Развлечения, Передвижное

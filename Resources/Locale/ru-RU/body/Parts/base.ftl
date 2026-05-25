@@ -20,24 +20,3 @@ ent-BaseLeftFoot-name = левая нога
 
 ent-BaseRightFoot-name = правая нога
 
-ent-BaseHead = голова
-
-ent-BaseLeftArm = левая рука
-
-ent-BaseLeftFoot = левая нога
-
-ent-BaseLeftHand = левая рука
-
-ent-BaseLeftLeg = левая нога
-
-ent-BasePart = часть тела
-
-ent-BaseRightArm = правая рука
-
-ent-BaseRightFoot = правая нога
-
-ent-BaseRightHand = правая рука
-
-ent-BaseRightLeg = правая нога
-
-ent-BaseTorso = туловище

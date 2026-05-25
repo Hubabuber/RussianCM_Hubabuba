@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobMilitaryDoctorBase
   id: AU14JobGOVFORMilitaryDoctor
-  name: job-au14jobgovformilitarydoctor-name
-  description: job-au14jobgovformilitarydoctor-desc
+  name: au14-job-name-govforMilitaryDoctor
+  description: au14-job-description-govforMilitaryDoctor
   setPreference: true
   hasSquad: false
   requirements:
@@ -27,9 +27,9 @@
   dummyStartingGear: AU14GearGOVFORMilitaryDoctorDummy
   icon: "AU14JobIconCorpsman"
   requireAdminNotify: true
-  spawnMenuRoleName: job-au14jobgovformilitarydoctor-spawnmenurolename
+  spawnMenuRoleName: Military Doctor (GOVFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovformilitarydoctor-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCorpsman
   - AU14GovforSquad
@@ -38,7 +38,7 @@
   - CMAccessChemistry
   overwatchSortPriority: -6
   overwatchShowName: true
-  overwatchRoleName: job-au14jobgovformilitarydoctor-overwatchrolename
+  overwatchRoleName: au14-job-name-govforMilitaryDoctor
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORMilitaryDoctor
-  name: ent-AU14SpawnPointGOVFORMilitaryDoctor
+  name: Spawn Point GOVFOR Doctor
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORMilitaryDoctor

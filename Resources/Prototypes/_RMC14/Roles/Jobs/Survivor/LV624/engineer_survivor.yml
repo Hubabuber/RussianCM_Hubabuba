@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorEngineer
   id: CMSurvivorLV624Engineer
-  name: job-cmsurvivorlv624engineer-name
-  description: job-cmsurvivorlv624engineer-desc
+  name: rmc-job-name-survivor-lv624-engineer
+  description: cm-job-description-survivor
   startingGear: RMCGearSurvivorLV624Engineer
-  spawnMenuRoleName: job-cmsurvivorlv624engineer-spawnmenurolename
+  spawnMenuRoleName: Engineer (LV624 Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624Engineer
-  name: ent-RMCSpawnPointSurvivorLV624Engineer
+  name: survivor icb spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -53,4 +53,4 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetLV624Engineer
-  name: ent-RMCGearSurvivorPresetLV624Engineer
+  name: LV624Engineer colonist preset

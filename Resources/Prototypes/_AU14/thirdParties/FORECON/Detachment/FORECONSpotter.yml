@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobFORECONSpotterBase
-  name: job-au14jobforeconspotterbase-name
-  description: job-au14jobforeconspotterbase-desc
+  name: au14-job-name-forecon-spotter
+  description: rmc-job-description-forecon-detachment
   playTimeTracker: AU14FORECONSpotterDetachment
   basePlaytimeTracker: true
   hidden: true
@@ -10,20 +10,20 @@
 - type: job
   parent: AU14JobFORECONSpotterBase
   id: AU14FORECONSpotterDetachment
-  name: job-au14foreconspotterdetachment-name
-  description: job-au14foreconspotterdetachment-desc
+  name: au14-job-name-forecon-spotter
+  description: rmc-job-description-forecon-detachment
   ranks:
     RMCRankChiefWarrantOfficer:
     - !type:RoleTimeRequirement
       role: AU14FORECONSpotterDetachment
       time: 18000 #5 hours
     RMCRankWarrantOfficer: []
-  spawnMenuRoleName: job-au14foreconspotterdetachment-spawnmenurolename
+  spawnMenuRoleName: FORECON Spotter (AU14, Detachment)
   startingGear: AU14GearFORECONSpotterDetachment
   greeting: au14-forecon-detachment-greeting
   icon: "AU14Spotter"
   joinNotifyCrew: false
-  supervisors: job-au14foreconspotterdetachment-supervisors
+  supervisors: au14-job-supervisors-platco
   accessGroups:
   - AU14GovforSquad
   special:
@@ -42,9 +42,9 @@
 
 - type: entity
   parent: AU14BaseMobSpeciesOrganicFORECON
-  suffix: ent-AU14JobFORECONSpotterDetachment-suffix
+  suffix: AU14, FORECON, Detachment
   id: AU14JobFORECONSpotterDetachment
-  name: ent-AU14JobFORECONSpotterDetachment
+  name: FORECON Spotter (Detachment)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

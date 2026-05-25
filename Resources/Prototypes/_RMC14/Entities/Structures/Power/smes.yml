@@ -3,8 +3,8 @@
   abstract: true
   parent: BaseSMES
   id: CMSMESBase
-  name: ent-CMSMESBase
-  description: ent-CMSMESBase-desc
+  name: SMES
+  description: A high-capacity superconducting magnetic energy storage (SMES) unit.
   components:
     - type: GuideHelp
       guides:
@@ -36,7 +36,7 @@
 - type: entity
   parent: CMSMESBase
   id: CMSMESBasic
-  suffix: ent-CMSMESBasic-suffix
+  suffix: Basic, 8MW
   components:
   - type: Battery
     maxCharge: 8000000
@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSMESBasic
   id: CMSMESEmpty
-  suffix: ent-CMSMESEmpty-suffix
+  suffix: Empty
   components:
   - type: Battery
     startingCharge: 0

@@ -1,26 +1,26 @@
 ent-RMCAreaDeynekaCryo = Дейнека Крио
-    .suffix = область
+
 ent-RMCAreaDeynekaAI = Дейнека AI Core
-    .suffix = область
+
 ent-RMCAreaDeynekaArmory = Оружейная палата Дейнеки
-    .suffix = область
+
 ent-RMCAreaDeynekaBridge = Мост Дейнека
-    .suffix = область
+
 ent-RMCAreaDeynekaCargo = Дейнека Карго
-    .suffix = область
+
 ent-RMCAreaDeynekaDorm = Общежитие Дейнека
-    .suffix = область
+
 ent-RMCAreaDeynekaEngi = Дейнека Энги
-    .suffix = область
+
 ent-RMCAreaDeynekaHanger = Дейнека Ангар
-    .suffix = область
+
 ent-RMCAreaDeynekaKitchen = Кухня Дейнека
-    .suffix = область
+
 ent-RMCAreaDeynekaLowerHall = Нижний зал Дейнеки
-    .suffix = область
+
 ent-RMCAreaDeynekaMed = Дейнека Мед
-    .suffix = область
+
 ent-RMCAreaDeynekaOOB = Дейнека ООО
-    .suffix = область
+
 ent-RMCAreaDeynekaUpperHall = Верхний зал Дейнеки
-    .suffix = область
+

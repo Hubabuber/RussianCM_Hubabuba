@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianFreightSystemsSpecialist
-  name: job-au14jobcivilianfreightsystemsspecialist-name
-  description: job-au14jobcivilianfreightsystemsspecialist-desc
+  name: au14-job-name-civilianfreightsystemsspecialist
+  description: au14-job-description-civilianfreightsystemsspecialist
   setPreference: true
   canBeAntag: false
   playTimeTracker: AU14JobCivilianFreightSystemsSpecialist
@@ -12,7 +12,7 @@
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianfreightsystemsspecialist-supervisors
+  supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:
   - Colonist
   - auengi
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianFreightSystemsSpecialist
-  name: ent-AU14SpawnPointCivilianFreightSystemsSpecialist
+  name: Spawn Point Freight Systems Specialist
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianFreightSystemsSpecialist

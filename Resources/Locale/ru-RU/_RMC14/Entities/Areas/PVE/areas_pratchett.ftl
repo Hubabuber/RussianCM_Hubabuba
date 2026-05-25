@@ -1,50 +1,50 @@
 ent-RMCAreaPRT = Пратчетт
-    .suffix = область
+
 ent-RMCAreaPRTHypersleep = Гиперсонное хранилище
-    .suffix = область
+
 ent-RMCAreaPRTGalley = Камбуз
-    .suffix = область
+
 ent-RMCAreaPRTCanteen = Столовая
-    .suffix = область
+
 ent-RMCAreaPRTLounge = Общий салон
-    .suffix = область
+
 ent-RMCAreaPRTMedbay = Медикал Бэй
-    .suffix = область
+
 ent-RMCAreaPRTOffice = Канцелярия командующего войсками
-    .suffix = область
+
 ent-RMCAreaPRTCargoBayUpper = Грузовой отсек верхней палубы
-    .suffix = область
+
 ent-RMCAreaPRTCargoBayLower = Вспомогательная перегрузочная станция нижней палубы
-    .suffix = область
+
 ent-RMCAreaPRTMaintenaceLower = Техническое обслуживание нижней палубы
-    .suffix = область
+
 ent-RMCAreaPRTMaintenanceUpper = Обслуживание верхней палубы
-    .suffix = область
+
 ent-RMCAreaPRTEngineering = Инженерный залив
-    .suffix = область
+
 ent-RMCAreaPRTHangar = Ангар Бэй
-    .suffix = область
+
 ent-RMCAreaPRTHangarCargo = Ангарное хранилище
-    .suffix = область
+
 ent-RMCAreaPRTHallways = Коридоры верхней палубы
-    .suffix = область
+
 ent-RMCAreaPRTDisposalsLower = Вал первичной утилизации переработанных отходов
-    .suffix = область
+
 ent-RMCAreaPRTDisposalsUpper = Предварительная обработка отходов верхней палубы
-    .suffix = область
+
 ent-RMCAreaPRTSurgicalBay = Хирургический отсек
-    .suffix = область
+
 ent-RMCAreaPRTArmory = Хранение вооружения
-    .suffix = область
+
 ent-RMCAreaPRTSynth = Синтетическое хранилище
-    .suffix = область
+
 ent-RMCAreaPRTAICoreOuter = Внешняя камера ядра SHIVA
-    .suffix = область
+
 ent-RMCAreaPRTAICoreInner = Внутренняя камера ядра ШИВА
-    .suffix = область
+
 ent-RMCAreaPRTBunks = Комната
-    .suffix = область
+
 ent-RMCAreaPRTBriefing = Комната для брифингов
-    .suffix = область
+
 ent-RMCAreaPRTCraneTunnel = Грузовой транзитный вал
-    .suffix = область
+

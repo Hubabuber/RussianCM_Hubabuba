@@ -1,8 +1,8 @@
-- type: entity
-  name: ent-FlashlightLantern
+﻿- type: entity
+  name: flashlight
   parent: BaseItem
   id: FlashlightLantern
-  description: ent-FlashlightLantern-desc
+  description: It lights the way to freedom.
   components:
   - type: Tag
     tags:
@@ -76,10 +76,10 @@
       - Belt
 
 - type: entity
-  name: ent-FlashlightSeclite
+  name: seclite
   parent: [FlashlightLantern, BaseSecurityContraband]
   id: FlashlightSeclite
-  description: ent-FlashlightSeclite-desc
+  description: A robust flashlight used by security.
   components:
   - type: Tag
     tags:
@@ -129,7 +129,7 @@
 - type: entity
   parent: FlashlightLantern
   id: EmptyFlashlightLantern
-  suffix: ent-EmptyFlashlightLantern-suffix
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:

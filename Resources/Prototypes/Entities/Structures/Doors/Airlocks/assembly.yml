@@ -2,7 +2,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyAtmospherics
-  suffix: ent-AirlockAssemblyAtmospherics-suffix
+  suffix: Atmospherics
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/atmospherics.rsi
@@ -11,7 +11,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyAtmosphericsGlass
-  suffix: ent-AirlockAssemblyAtmosphericsGlass-suffix
+  suffix: Atmospherics, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/atmospherics.rsi
@@ -21,7 +21,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyCargo
-  suffix: ent-AirlockAssemblyCargo-suffix
+  suffix: Cargo
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/cargo.rsi
@@ -30,7 +30,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyCargoGlass
-  suffix: ent-AirlockAssemblyCargoGlass-suffix
+  suffix: Cargo, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/cargo.rsi
@@ -39,8 +39,8 @@
 #Clockwork
 - type: entity
   id: PinionAirlockAssembly
-  name: ent-PinionAirlockAssembly
-  suffix: ent-PinionAirlockAssembly-suffix
+  name: airlock assembly
+  suffix: Pinion, Clockwork
   parent: AirlockAssembly
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 - type: entity
   parent: PinionAirlockAssembly
   id: PinionAirlockAssemblyGlass
-  suffix: ent-PinionAirlockAssemblyGlass-suffix
+  suffix: Pinion, Clockwork, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/clockwork_pinion.rsi
@@ -65,7 +65,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyCommand
-  suffix: ent-AirlockAssemblyCommand-suffix
+  suffix: Command
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/command.rsi
@@ -74,7 +74,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyCommandGlass
-  suffix: ent-AirlockAssemblyCommandGlass-suffix
+  suffix: Command, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/command.rsi
@@ -84,7 +84,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyEngineering
-  suffix: ent-AirlockAssemblyEngineering-suffix
+  suffix: Engineering
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/engineering.rsi
@@ -93,7 +93,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyEngineeringGlass
-  suffix: ent-AirlockAssemblyEngineeringGlass-suffix
+  suffix: Engineering, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/engineering.rsi
@@ -103,7 +103,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyExternal
-  suffix: ent-AirlockAssemblyExternal-suffix
+  suffix: External
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/external.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyExternalGlass
-  suffix: ent-AirlockAssemblyExternalGlass-suffix
+  suffix: External, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/external.rsi
@@ -122,7 +122,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyGlass
-  suffix: ent-AirlockAssemblyGlass-suffix
+  suffix: Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/glass.rsi
@@ -132,7 +132,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyFreezer
-  suffix: ent-AirlockAssemblyFreezer-suffix
+  suffix: Freezer
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/freezer.rsi
@@ -142,7 +142,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyHydroponics
-  suffix: ent-AirlockAssemblyHydroponics-suffix
+  suffix: Hydroponics
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hydroponics.rsi
@@ -151,7 +151,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyHydroponicsGlass
-  suffix: ent-AirlockAssemblyHydroponicsGlass-suffix
+  suffix: Hydroponics, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/hydroponics.rsi
@@ -161,7 +161,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyMaintenance
-  suffix: ent-AirlockAssemblyMaintenance-suffix
+  suffix: Maintenance
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyMaintenanceGlass
-  suffix: ent-AirlockAssemblyMaintenanceGlass-suffix
+  suffix: Maintenance, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/maint.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyMedical
-  suffix: ent-AirlockAssemblyMedical-suffix
+  suffix: Medical
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/medical.rsi
@@ -189,7 +189,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyMedicalGlass
-  suffix: ent-AirlockAssemblyMedicalGlass-suffix
+  suffix: Medical, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/medical.rsi
@@ -199,7 +199,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblySalvage
-  suffix: ent-AirlockAssemblySalvage-suffix
+  suffix: Salvage
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/salvage.rsi
@@ -208,7 +208,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblySalvageGlass
-  suffix: ent-AirlockAssemblySalvageGlass-suffix
+  suffix: Salvage, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/salvage.rsi
@@ -218,7 +218,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyScience
-  suffix: ent-AirlockAssemblyScience-suffix
+  suffix: Science
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/science.rsi
@@ -227,7 +227,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyScienceGlass
-  suffix: ent-AirlockAssemblyScienceGlass-suffix
+  suffix: Science, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/science.rsi
@@ -237,7 +237,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblySecurity
-  suffix: ent-AirlockAssemblySecurity-suffix
+  suffix: Security
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/security.rsi
@@ -246,7 +246,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblySecurityGlass
-  suffix: ent-AirlockAssemblySecurityGlass-suffix
+  suffix: Security, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/security.rsi
@@ -256,7 +256,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyShuttle
-  suffix: ent-AirlockAssemblyShuttle-suffix
+  suffix: Shuttle
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/shuttle.rsi
@@ -265,7 +265,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyShuttleGlass
-  suffix: ent-AirlockAssemblyShuttleGlass-suffix
+  suffix: Shuttle, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/shuttle.rsi
@@ -275,7 +275,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyVirology
-  suffix: ent-AirlockAssemblyVirology-suffix
+  suffix: Virology
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/virology.rsi
@@ -284,7 +284,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyVirologyGlass
-  suffix: ent-AirlockAssemblyVirologyGlass-suffix
+  suffix: Virology, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/virology.rsi
@@ -294,7 +294,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyCentralCommand
-  suffix: ent-AirlockAssemblyCentralCommand-suffix
+  suffix: CentralCommand
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/centcomm.rsi
@@ -303,7 +303,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyCentralCommandGlass
-  suffix: ent-AirlockAssemblyCentralCommandGlass-suffix
+  suffix: CentralCommand, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/centcomm.rsi
@@ -313,7 +313,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyMining
-  suffix: ent-AirlockAssemblyMining-suffix
+  suffix: Mining
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/mining.rsi
@@ -322,7 +322,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyMiningGlass
-  suffix: ent-AirlockAssemblyMiningGlass-suffix
+  suffix: Mining, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/mining.rsi
@@ -332,7 +332,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblySyndicate
-  suffix: ent-AirlockAssemblySyndicate-suffix
+  suffix: Syndicate
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
@@ -341,7 +341,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblySyndicateGlass
-  suffix: ent-AirlockAssemblySyndicateGlass-suffix
+  suffix: Syndicate, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
@@ -351,7 +351,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyShuttleSyndicate
-  suffix: ent-AirlockAssemblyShuttleSyndicate-suffix
+  suffix: ShuttleSyndicate
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/shuttle_syndicate.rsi
@@ -360,7 +360,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyShuttleSyndicateGlass
-  suffix: ent-AirlockAssemblyShuttleSyndicateGlass-suffix
+  suffix: ShuttleSyndicate, Glass
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/shuttle_syndicate.rsi
@@ -370,7 +370,7 @@
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyHighSec
-  suffix: ent-AirlockAssemblyHighSec-suffix
+  suffix: HighSec
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/highsec/highsec.rsi

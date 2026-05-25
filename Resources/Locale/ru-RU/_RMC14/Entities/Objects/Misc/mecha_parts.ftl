@@ -1,10 +1,5 @@
 ent-RMCMechPropArmorBooster = модуль усиления брони (оружие ближнего боя)
   .desc = Усиливает броню экзокостюма против вооружённых атак ближнего боя. Для работы требуется энергия.
-    .suffix = Опора
 ent-RMCMechPropClamp = гидравлический захват
-    .suffix = Опора
 ent-RMCMechPropDrill = бур
   .desc = Это бур, который пробьёт небеса!
-    .suffix = Опора
-ent-RMCMechPropBase = item
-    .suffix = Опора

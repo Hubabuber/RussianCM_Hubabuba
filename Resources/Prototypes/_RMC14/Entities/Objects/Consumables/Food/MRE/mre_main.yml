@@ -1,9 +1,9 @@
-# Components
+﻿# Components
 - type: entity
   abstract: true
   parent: CMMREComponentBase
   id: CMMREMainComponentBase
-  description: ent-CMMREMainComponentBase-desc
+  description: An MRE entree component. Contains the main course for nutrients.
   components:
   - type: Sprite
     state: entree
@@ -12,7 +12,7 @@
   abstract: true
   parent: CMMREMainComponentBase
   id: RMCMREMainComponentWeya
-  description: ent-RMCMREMainComponentWeya-desc
+  description: An MRE entree component. Contains the main course for nutrients.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_weya.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentBonelessPorkRibs
-  name: ent-CMMREComponentBonelessPorkRibs
-  description: ent-CMMREComponentBonelessPorkRibs-desc
+  name: MRE component (boneless pork ribs)
+  description: An MRE entree component. Contains the main course for nutrients. This one is boneless pork ribs.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,13 +31,14 @@
 - type: entity
   parent: [RMCMREMainComponentWeya, CMMREComponentBonelessPorkRibs]
   id: RMCMREComponentBonelessPorkRibsWeya
-  name: ent-RMCMREComponentBonelessPorkRibsWeya
-  description: ent-RMCMREComponentBonelessPorkRibsWeya-desc
+  name: MRE component (boneless pork ribs)
+  description: An MRE entree component. Contains the main course for nutrients. This one is boneless pork ribs.
+
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentGrilledChicken
-  name: ent-CMMREComponentGrilledChicken
-  description: ent-CMMREComponentGrilledChicken-desc
+  name: MRE component (grilled chicken)
+  description: An MRE entree component. Contains the main course for nutrients. This one is grilled chicken.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -46,13 +47,14 @@
 - type: entity
   parent: [RMCMREMainComponentWeya, CMMREComponentGrilledChicken]
   id: RMCMREComponentGrilledChickenWeya
-  name: ent-RMCMREComponentGrilledChickenWeya
-  description: ent-RMCMREComponentGrilledChickenWeya-desc
+  name: MRE component (grilled chicken)
+  description: An MRE entree component. Contains the main course for nutrients. This one is grilled chicken.
+
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentPizzaSquare
-  name: ent-CMMREComponentPizzaSquare
-  description: ent-CMMREComponentPizzaSquare-desc
+  name: MRE component (pizza square)
+  description: An MRE entree component. Contains the main course for nutrients. This one is a pizza square.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -61,8 +63,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentSpaghettiChunks
-  name: ent-CMMREComponentSpaghettiChunks
-  description: ent-CMMREComponentSpaghettiChunks-desc
+  name: MRE component (spaghetti chunks)
+  description: An MRE entree component. Contains the main course for nutrients. This one is spaghetti chunks.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -71,13 +73,14 @@
 - type: entity
   parent: [RMCMREMainComponentWeya, CMMREComponentSpaghettiChunks]
   id: RMCMREComponentSpaghettiChunksWeya
-  name: ent-RMCMREComponentSpaghettiChunksWeya
-  description: ent-RMCMREComponentSpaghettiChunksWeya-desc
+  name: MRE component (spaghetti chunks)
+  description: An MRE entree component. Contains the main course for nutrients. This one is spaghetti chunks.
+
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentChickenTender
-  name: ent-CMMREComponentChickenTender
-  description: ent-CMMREComponentChickenTender-desc
+  name: MRE component (chicken tender)
+  description: An MRE entree component. Contains the main course for nutrients. This one is a chicken tender.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -86,8 +89,9 @@
 - type: entity
   parent: [RMCMREMainComponentWeya, CMMREComponentChickenTender]
   id: RMCMREComponentChickenTenderWeya
-  name: ent-RMCMREComponentChickenTenderWeya
-  description: ent-RMCMREComponentChickenTenderWeya-desc
+  name: MRE component (chicken tender)
+  description: An MRE entree component. Contains the main course for nutrients. This one is a chicken tender.
+
 # Foods
 - type: entity
   abstract: true
@@ -113,8 +117,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodBonelessPorkRibs
-  name: ent-CMMREFoodBonelessPorkRibs
-  description: ent-CMMREFoodBonelessPorkRibs-desc
+  name: boneless pork ribs
+  description: The contents of a Marine Standard issue MRE. This one is boneless pork ribs.
   components:
   - type: Sprite
     state: boneless_pork_ribs
@@ -125,8 +129,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodGrilledChicken
-  name: ent-CMMREFoodGrilledChicken
-  description: ent-CMMREFoodGrilledChicken-desc
+  name: grilled chicken
+  description: The contents of a Marine Standard issue MRE. This one is grilled chicken.
   components:
   - type: Sprite
     state: grilled_chicken
@@ -137,8 +141,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodPizzaSquare
-  name: ent-CMMREFoodPizzaSquare
-  description: ent-CMMREFoodPizzaSquare-desc
+  name: pizza square
+  description: The contents of a Marine Standard issue MRE. This one is a pizza square.
   components:
   - type: Sprite
     state: pizza_square
@@ -149,8 +153,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodSpaghettiChunks
-  name: ent-CMMREFoodSpaghettiChunks
-  description: ent-CMMREFoodSpaghettiChunks-desc
+  name: spaghetti chunks
+  description: The contents of a Marine Standard issue MRE. This one is spaghetti chunks.
   components:
   - type: Sprite
     state: spaghetti_chunks
@@ -161,8 +165,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodChickenTender
-  name: ent-CMMREFoodChickenTender
-  description: ent-CMMREFoodChickenTender-desc
+  name: chicken tender
+  description: The contents of a Marine Standard issue MRE. This one is a chicken tender.
   components:
   - type: Sprite
     state: chicken_tender
@@ -194,8 +198,8 @@
 - type: entity
   parent: RMCMREFoodCLF
   id: RMCMREFoodMeatSlab
-  name: ent-RMCMREFoodMeatSlab
-  description: ent-RMCMREFoodMeatSlab-desc
+  name: wrapped meat slab
+  description: A wrapped, rare slab of some meat that has been quickly grilled.
   components:
   - type: Sprite
     state: open_meat
@@ -206,8 +210,8 @@
 - type: entity
   parent: RMCMREFoodCLF
   id: RMCMREFoodMeatSlabCheese
-  name: ent-RMCMREFoodMeatSlabCheese
-  description: ent-RMCMREFoodMeatSlabCheese-desc
+  name: wrapped cheesy meat slab
+  description: A wrapped, rare slab of some meat that has been quickly grilled and covered in melted cheese. Wonderfully greasy.
   components:
   - type: Sprite
     state: open_meat_cheese
@@ -219,8 +223,8 @@
 - type: entity
   parent: RMCMREFoodCLF
   id: RMCMREFoodBread
-  name: ent-RMCMREFoodBread
-  description: ent-RMCMREFoodBread-desc
+  name: wrapped sourdough bread
+  description: A wrapped, small loaf of dry sourdough bread.
   components:
   - type: Sprite
     state: open_bread
@@ -231,8 +235,8 @@
 - type: entity
   parent: RMCMREFoodMeatSlabCheese
   id: RMCMREFoodMargaritaPizza
-  name: ent-RMCMREFoodMargaritaPizza
-  description: ent-RMCMREFoodMargaritaPizza-desc
+  name: wrapped margarita pizza
+  description: A wrapped, small margarita pizza.
   components:
   - type: Sprite
     state: open_pizza
@@ -242,9 +246,9 @@
 - type: entity
   parent: CMMREFoodMain
   id: RMCMRESPPSurvivalRationTypeA
-  name: ent-RMCMRESPPSurvivalRationTypeA
-  suffix: ent-RMCMRESPPSurvivalRationTypeA-suffix
-  description: ent-RMCMRESPPSurvivalRationTypeA-desc
+  name: survival ration
+  suffix: Type A
+  description: A compact chunk of freeze-dried meat or fish featuring nutrient additives in the form of a dense powder. Having little flavoring or colouration as a result of its preparation for long term storage, the appeal of this item is purely in its capacity to provide sustenance.
   components:
   - type: Item
     size: Tiny
@@ -254,9 +258,9 @@
 - type: entity
   parent: CMMREFoodMain
   id: RMCMRESPPSurvivalRationTypeB
-  name: ent-RMCMRESPPSurvivalRationTypeB
-  suffix: ent-RMCMRESPPSurvivalRationTypeB-suffix
-  description: ent-RMCMRESPPSurvivalRationTypeB-desc
+  name: survival ration
+  suffix: Type B
+  description: A compact ball of dough-like rice or oats featuring nutrient additives in the form of a dense powder. Having little flavoring or colouration as a result of its preparation for long term storage, the appeal of this item is purely in its capacity to provide sustenance.
   components:
   - type: Item
     size: Tiny

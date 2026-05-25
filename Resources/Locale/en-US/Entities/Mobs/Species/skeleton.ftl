@@ -1,1 +1,0 @@
-ent-BaseMobSkeletonPerson = Urist McSkelly

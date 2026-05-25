@@ -14,8 +14,8 @@
 - type: job
   parent: AUThreatJobBase
   id: AU14JobThreatLeader
-  name: job-au14jobthreatleader-name
-  description: job-au14jobthreatleader-desc
+  name: au-job-name-threat-leader
+  description: au-job-description-threat-leader
   setPreference: true
   playTimeTracker: AUJobThreatLeader
   requirements:
@@ -23,7 +23,7 @@
     role: AUJobThreatMember
     time: 7200 # 2 hours
   hidden: false
-  supervisors: job-au14jobthreatleader-supervisors
+  supervisors: nobody
   icon: "AU14JobIconThreatLeader"
   jobPreviewEntity: RMCPlayerXenoQueenPreview
   accessGroups:

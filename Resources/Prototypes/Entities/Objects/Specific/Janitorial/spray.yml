@@ -1,9 +1,9 @@
 - type: entity
-  name: ent-SprayBottle
+  name: spray bottle
   id: SprayBottle
   parent: BaseItem
-  suffix: ent-SprayBottle-suffix
-  description: ent-SprayBottle-desc
+  suffix: Empty
+  description: A spray bottle with an unscrewable top.
   components:
   - type: Drink
     solution: spray
@@ -44,11 +44,11 @@
     solution: spray
 
 - type: entity
-  name: ent-MegaSprayBottle
+  name: mega spray bottle
   id: MegaSprayBottle
   parent: SprayBottle
-  suffix: ent-MegaSprayBottle-suffix
-  description: ent-MegaSprayBottle-desc
+  suffix: Empty
+  description: A huge spray bottle, capable of unrivaled janitorial power.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/janitorial.rsi
@@ -66,9 +66,9 @@
       path: /Audio/Effects/spray2.ogg
 
 - type: entity
-  name: ent-SprayBottleWater
+  name: spray bottle
   id: SprayBottleWater
-  suffix: ent-SprayBottleWater-suffix
+  suffix: Filled
   parent: SprayBottle
   components:
   - type: Tag
@@ -83,11 +83,11 @@
           Quantity: 100
 
 - type: entity
-  name: ent-SprayBottleSpaceCleaner
-  description: ent-SprayBottleSpaceCleaner-desc
+  name: space cleaner
+  description: BLAM!-brand non-foaming space cleaner!
   id: SprayBottleSpaceCleaner
   parent: SprayBottle
-  suffix: "ent-SprayBottleSpaceCleaner-suffix"
+  suffix: ""
   components:
   - type: SolutionContainerManager
     solutions:
@@ -103,9 +103,9 @@
 - type: entity
   parent: SprayBottle
   id: BorgSprayBottle
-  name: ent-BorgSprayBottle
-  suffix: ent-BorgSprayBottle-suffix
-  description: ent-BorgSprayBottle-desc
+  name: internal spray jet
+  suffix: Filled
+  description: A pressurized vessel for spraying reagents, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -118,9 +118,9 @@
 - type: entity
   parent: MegaSprayBottle
   id: BorgMegaSprayBottle
-  name: ent-BorgMegaSprayBottle
-  suffix: ent-BorgMegaSprayBottle-suffix
-  description: ent-BorgMegaSprayBottle-desc
+  name: adv. internal spray jet
+  suffix: Filled
+  description: An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -133,7 +133,7 @@
 # Vapor
 - type: entity
   id: Vapor
-  name: "ent-Vapor"
+  name: "vapor"
   categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager

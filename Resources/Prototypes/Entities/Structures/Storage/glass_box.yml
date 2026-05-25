@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: [BaseStructureDynamic, BaseItemCabinetGlass]
   id: BaseGlassBox
   abstract: true
@@ -25,8 +25,8 @@
 
 - type: entity
   id: GlassBox
-  name: ent-GlassBox
-  description: ent-GlassBox-desc
+  name: glass box
+  description: A sturdy showcase for an expensive exhibit.
   parent: BaseGlassBox
   abstract: true # TODO: Temporarily abstract. Remove it after item scaling in cabinets is implemented.
   components:
@@ -118,7 +118,7 @@
 - type: entity
   id: GlassBoxLaser
   parent: GlassBox
-  suffix: ent-GlassBoxLaser-suffix
+  suffix: AntiqueLaser
   components:
   - type: AccessReader
     access: [["Captain"]]
@@ -137,7 +137,7 @@
 - type: entity
   id: GlassBoxLaserOpen
   parent: GlassBoxLaser
-  suffix: ent-GlassBoxLaserOpen-suffix
+  suffix: AntiqueLaser, Open
   components:
   - type: Openable
     opened: true
@@ -147,7 +147,7 @@
 - type: entity
   id: GlassBoxLaserFilled
   parent: GlassBoxLaser
-  suffix: ent-GlassBoxLaserFilled-suffix
+  suffix: AntiqueLaser, Filled
   components:
   - type: ContainerFill
     containers:
@@ -157,14 +157,14 @@
 - type: entity
   parent: [GlassBoxLaserFilled, GlassBoxLaserOpen]
   id: GlassBoxLaserFilledOpen
-  suffix: ent-GlassBoxLaserFilledOpen-suffix
+  suffix: AntiqueLaser, Filled, Open
 
 - type: entity
   id: GlassBoxFrame
-  name: ent-GlassBoxFrame
-  description: ent-GlassBoxFrame-desc
+  name: glass box frame
+  description: A glassless sturdy showcase for an expensive exhibit.
   parent: BaseGlassBox
-  suffix: ent-GlassBoxFrame-suffix
+  suffix: Frame
   components:
   - type: Sprite
     noRot: true
@@ -205,10 +205,10 @@
 
 - type: entity
   id: GlassBoxBroken
-  name: ent-GlassBoxBroken
-  description: ent-GlassBoxBroken-desc
+  name: broken glass box
+  description: A broken showcase for a stolen expensive exhibit.
   parent: GlassBoxFrame
-  suffix: ent-GlassBoxBroken-suffix
+  suffix: Broken
   components:
   - type: Sprite
     sprite: Structures/Storage/glassbox.rsi

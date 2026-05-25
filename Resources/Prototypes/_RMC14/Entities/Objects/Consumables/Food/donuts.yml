@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: [ RMCBoxCardboard, BaseBagOpenClose ]
   id: RMCBoxDonutEmpty
-  name: ent-RMCBoxDonutEmpty
-  description: ent-RMCBoxDonutEmpty-desc
-  suffix: ent-RMCBoxDonutEmpty-suffix
+  name: Yum! donuts
+  description: A box of mouth-watering "Yum!" brand donuts
+  suffix: Empty
   components:
   - type: Sprite #TODO RMC14 - the different donuts have diff storage sprites that should show up based on varieties
     sprite: _RMC14/Objects/Storage/donutbox.rsi
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCBoxDonutEmpty
   id: RMCBoxDonut
-  suffix: "ent-RMCBoxDonut-suffix"
+  suffix: ""
   components:
   - type: EntityTableContainerFill
     containers:
@@ -85,8 +85,8 @@
 - type: entity
   parent: FoodInjectableBase
   id: RMCFoodDonut
-  name: ent-RMCFoodDonut
-  description: ent-RMCFoodDonut-desc
+  name: donut
+  description: A donut. Rare on the frontier, so take care of it.
   components:
   - type: Food
     transferAmount: 1 # 3 bites
@@ -119,8 +119,8 @@
 - type: entity
   parent: RMCFoodDonut
   id: RMCFoodDonutFrosted
-  name: ent-RMCFoodDonutFrosted
-  description: ent-RMCFoodDonutFrosted-desc
+  name: frosted donut
+  description: A pink frosted donut. Even more rare on the frontier.
   components:
   - type: Food
     transferAmount: 2 # 3 bites

@@ -1,17 +1,17 @@
 - type: job
   parent: CMJobSquadBase
   id: CMPVESectionSergeant
-  name: job-cmpvesectionsergeant-name
-  description: job-cmpvesectionsergeant-desc
+  name: cm-job-name-section-sergeant
+  description: cm-job-description-section-sergeant
   playTimeTracker: CMJobPVESectionSergeant
   ranks:
     RMCRankStaffSergeant: []
-  spawnMenuRoleName: job-cmpvesectionsergeant-spawnmenurolename
+  spawnMenuRoleName: Sun Rider Section Sergeant (PVE)
   startingGear: RMCGearPVESectionSergeant
   dummyStartingGear: CMGearSquadLeaderEquipped
   icon: "CMJobIconSquadLeader"
   joinNotifyCrew: false
-  supervisors: job-cmpvesectionsergeant-supervisors
+  supervisors: cm-job-supervisors-platco
   marineAuthorityLevel: 2
   accessGroups:
   - SquadLeader
@@ -76,7 +76,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVESectionSergeant
-  name: ent-RMCSpawnPointPVESectionSergeant
+  name: PVE section sergeant spawn point
   components:
   - type: SpawnPoint
     job_id: CMPVESectionSergeant

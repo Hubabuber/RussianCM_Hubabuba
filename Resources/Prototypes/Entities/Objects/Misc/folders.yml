@@ -1,7 +1,7 @@
 - type: entity
   id: BoxFolderNuclearCodes
   parent: BaseItem
-  name: ent-BoxFolderNuclearCodes
+  name: nuclear code folder
   components:
   - type: Sprite
     sprite: Objects/Misc/folders.rsi
@@ -21,8 +21,8 @@
 - type: entity
   id: BoxFolderBase
   parent: BoxBase
-  name: ent-BoxFolderBase
-  description: ent-BoxFolderBase-desc
+  name: folder
+  description: A folder filled with top secret paperwork.
   components:
   - type: Sprite
     sprite: Objects/Misc/folders.rsi
@@ -78,7 +78,7 @@
 - type: entity
   id: BoxFolderRed
   parent: BoxFolderBase
-  suffix: ent-BoxFolderRed-suffix
+  suffix: Red
   components:
   - type: Sprite
     layers:
@@ -89,7 +89,7 @@
 - type: entity
   id: BoxFolderBlue
   parent: BoxFolderBase
-  suffix: ent-BoxFolderBlue-suffix
+  suffix: Blue
   components:
   - type: Sprite
     layers:
@@ -100,7 +100,7 @@
 - type: entity
   id: BoxFolderYellow
   parent: BoxFolderBase
-  suffix: ent-BoxFolderYellow-suffix
+  suffix: Yellow
   components:
   - type: Sprite
     layers:
@@ -111,7 +111,7 @@
 - type: entity
   id: BoxFolderWhite
   parent: BoxFolderBase
-  suffix: ent-BoxFolderWhite-suffix
+  suffix: White
   components:
   - type: Sprite
     layers:
@@ -121,7 +121,7 @@
 - type: entity
   id: BoxFolderGrey
   parent: BoxFolderBase
-  suffix: ent-BoxFolderGrey-suffix
+  suffix: Grey
   components:
   - type: Sprite
     layers:
@@ -132,7 +132,7 @@
 - type: entity
   id: BoxFolderBlack
   parent: BoxFolderBase
-  suffix: ent-BoxFolderBlack-suffix
+  suffix: Black
   components:
   - type: Sprite
     layers:
@@ -143,7 +143,7 @@
 - type: entity
   id: BoxFolderGreen
   parent: BoxFolderBase
-  suffix: ent-BoxFolderGreen-suffix
+  suffix: Green
   components:
   - type: Sprite
     layers:
@@ -153,10 +153,10 @@
 
 - type: entity
   id: BoxFolderCentCom
-  name: ent-BoxFolderCentCom
+  name: CentComm folder
   parent: BoxFolderBase
   categories: [ DoNotMap ]
-  description: ent-BoxFolderCentCom-desc
+  description: CentComm's miserable little pile of secrets!
   components:
   - type: Sprite
     layers:
@@ -166,8 +166,8 @@
 - type: entity
   id: BoxFolderClipboard
   parent: BoxFolderBase
-  name: ent-BoxFolderClipboard
-  description: ent-BoxFolderClipboard-desc
+  name: clipboard
+  description: The weapon of choice for those on the front lines of bureaucracy.
   components:
   - type: Sprite
     sprite: Objects/Misc/clipboard.rsi
@@ -225,8 +225,8 @@
 - type: entity
   id: BoxFolderCentComClipboard
   parent: BoxFolderClipboard
-  name: ent-BoxFolderCentComClipboard
-  description: ent-BoxFolderCentComClipboard-desc
+  name: CentComm clipboard
+  description: A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
   components:
   - type: Sprite
     sprite: Objects/Misc/cc-clipboard.rsi
@@ -247,8 +247,8 @@
 - type: entity
   id: BoxFolderQmClipboard
   parent: [BoxFolderClipboard, BaseGrandTheftContraband]
-  name: ent-BoxFolderQmClipboard
-  description: ent-BoxFolderQmClipboard-desc
+  name: requisition digi-board
+  description: A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
   components:
   - type: Sprite
     sprite: Objects/Misc/qm_clipboard.rsi

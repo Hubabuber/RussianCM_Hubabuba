@@ -2,8 +2,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSclothingequipmentvendor
-  name: ent-AU14HAZOPSclothingequipmentvendor
-  description: ent-AU14HAZOPSclothingequipmentvendor-desc
+  name: HAZOPS apparel vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Hazardous Operations apparel of the Marine Special Operations Command.
+    Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
+    Manufactured to outfit personnel rapidly following cryogenic hypersleep or emergency mobilization.
+
+    For full operational readiness, select one item from each section: fatigues with a webbing, footwear, gloves, headgear, armor, backpack, belt and a pouch.
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/uscmgearrack.rsi
@@ -217,8 +222,11 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSMGequipmentvendor
-  name: ent-AU14HAZOPSMGequipmentvendor
-  description: ent-AU14HAZOPSMGequipmentvendor-desc
+  name: HAZOPS smartgunner equipment vendor
+  description: >-
+    An automated smartgunner rack, hooked up to a small armory of Hazardous Operations heavy-weapon operator systems of the Marine Special Operations Command.
+    Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
+    Built to bring heavy fire support online rapidly after cryogenic hypersleep or emergency mobilization.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforGunner" ], [ "AU14AccessOpforGunner" ] ]
@@ -239,8 +247,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSWeaponsVendor
-  name: ent-AU14HAZOPSWeaponsVendor
-  description: ent-AU14HAZOPSWeaponsVendor-desc
+  name: HAZOPS weapons rack
+  description: >-
+    An automated weapons rack, hooked up to a small armory of Hazardous Operations weaponry of the Marine Special Operations Command.
+    Standard issue across the frontier where threats can appear without warning.
+    Engineered to arm personnel in seconds following cryogenic hypersleep or emergency mobilization.
+
+    For immediate combat readiness: select a primary weapon kit and a sidearm.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/guns.rsi
@@ -271,8 +284,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSSpecialWeaponsVendor
-  name: ent-AU14HAZOPSSpecialWeaponsVendor
-  description: ent-AU14HAZOPSSpecialWeaponsVendor-desc
+  name: HAZOPS special weapons rack
+  description: >-
+    An automated special weapons rack, hooked up to a restricted armory of Hazardous Operations heavy and breaching ordnance of the Marine Special Operations Command.
+    Standard issue only for qualified operators.
+    Engineered to deliver overwhelming firepower the instant cryogenic hypersleep ends or an emergency mobilization is called.
+
+    Special weapons protocol: one weapon system of choice with a full ammunition loadout and explosives.
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/genericweaponrack.rsi
@@ -311,8 +329,10 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPScommandequipmentvendor
-  name: ent-AU14HAZOPScommandequipmentvendor
-  description: ent-AU14HAZOPScommandequipmentvendor-desc
+  name: HAZOPS command vendor
+  description: >-
+    An automated command rack, hooked up to a restricted storage of Hazardous Operations command-leadership equipment of the Marine Special Operations Command.
+    Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/uscmcommandclothes.rsi
@@ -386,8 +406,10 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSsectionleaderequipmentvendor
-  name: ent-AU14HAZOPSsectionleaderequipmentvendor
-  description: ent-AU14HAZOPSsectionleaderequipmentvendor-desc
+  name: HAZOPS section leader vendor
+  description: >-
+    An automated equipment rack, hooked up to a compact storage of Hazardous Operations section-leadership equipment of the Marine Special Operations Command.
+    Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
@@ -413,8 +435,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14HAZOPSRequisitionVendor
-  name: ent-AU14HAZOPSRequisitionVendor
-  description: ent-AU14HAZOPSRequisitionVendor-desc
+  name: HAZOPS automated requisitions vendor
+  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesMedicPVE
-  name: job-cmroyalmarinesmedicpve-name
-  description: job-cmroyalmarinesmedicpve-desc
+  name: rmc-job-name-rcm-pve-medical-assistant
+  description: rmc-ghost-role-information-rcm-description
   playTimeTracker: RMCJobRoyalMedicPVE
   requirements:
   - !type:TotalJobsTimeRequirement
@@ -13,10 +13,10 @@
   startingGear: RMCGearRoyalMedicPVE
   icon: "RMCJobIconRoyalMedicPVE"
   joinNotifyCrew: false
-  supervisors: job-cmroyalmarinesmedicpve-supervisors
+  supervisors: cm-job-supervisors-royal-tl
   accessGroups:
   - HospitalCorpsman
-  spawnMenuRoleName: job-cmroyalmarinesmedicpve-spawnmenurolename
+  spawnMenuRoleName: RCM Medical Assistant (PVE)
   special:
   - !type:AddComponentSpecial
     components:
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVEMedicalAssistant
-  name: ent-CMSpawnPointRCMPVEMedicalAssistant
+  name: RCM medical assistant spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesMedicPVE

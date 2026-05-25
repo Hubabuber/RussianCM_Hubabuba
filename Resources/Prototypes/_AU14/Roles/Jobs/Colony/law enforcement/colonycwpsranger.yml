@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobLEOBase
   id: AU14JobCivilianCWPSRanger
-  name: job-au14jobciviliancwpsranger-name
-  description: job-au14jobciviliancwpsranger-desc
+  name: au14-job-name-civiliancwpsranger
+  description: au14-job-description-civiliancwpsranger
   setPreference: false
   canBeAntag: false
   requirements:
@@ -26,7 +26,7 @@
   icon: "RMCJobIconBureauDeputy"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobciviliancwpsranger-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   access:
   - AU14AccessColonyMarshall
   accessGroups:
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianCWPSRanger
-  name: ent-AU14SpawnPointCivilianCWPSRanger
+  name: Spawn Point Civilian CWPS Ranger
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianCWPSRanger

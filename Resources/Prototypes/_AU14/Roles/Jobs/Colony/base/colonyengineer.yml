@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianEngineer
-  name: job-au14jobcivilianengineer-name
-  description: job-au14jobcivilianengineer-desc
+  name: au14-job-name-civilianengineer
+  description: au14-job-description-civilianengineer
   setPreference: true
   playTimeTracker: AU14JobCivilianEngineer
   ranks:
@@ -12,8 +12,8 @@
   hasIcon: false
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobcivilianengineer-supervisors
-  spawnMenuRoleName: job-au14jobcivilianengineer-spawnmenurolename
+  supervisors: au14-job-supervisors-colonyadministrator
+  spawnMenuRoleName: Colony Engineer (CMU)
   accessGroups:
   - Colonist
   - auengi
@@ -50,7 +50,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianEngineer
-  name: ent-AU14SpawnPointCivilianEngineer
+  name: Spawn Point Civilian Engineer
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianEngineer

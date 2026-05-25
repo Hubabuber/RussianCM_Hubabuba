@@ -1,8 +1,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: CMIntercom
-  name: ent-CMIntercom
-  description: ent-CMIntercom-desc
+  name: intercom
+  description: An intercom. For when the marines just needs to know something.
   abstract: true
   components:
   - type: WallMount
@@ -117,7 +117,7 @@
 - type: entity
   id: CMIntercomCommon
   parent: CMIntercom
-  suffix: ent-CMIntercomCommon-suffix
+  suffix: Common
   components:
   - type: Intercom
     supportedChannels:
@@ -126,7 +126,7 @@
 - type: entity
   id: CMIntercomCommand
   parent: CMIntercom
-  suffix: ent-CMIntercomCommand-suffix
+  suffix: Command
   components:
   - type: Intercom
     supportedChannels:
@@ -136,7 +136,7 @@
 - type: entity
   id: CMIntercomMedical
   parent: CMIntercom
-  suffix: ent-CMIntercomMedical-suffix
+  suffix: Medical
   components:
   - type: Intercom
     supportedChannels:
@@ -146,7 +146,7 @@
 - type: entity
   id: CMIntercomEngineering
   parent: CMIntercom
-  suffix: ent-CMIntercomEngineering-suffix
+  suffix: Engineering
   components:
   - type: Intercom
     supportedChannels:
@@ -156,7 +156,7 @@
 - type: entity
   id: CMIntercomMilitaryPolice
   parent: CMIntercom
-  suffix: ent-CMIntercomMilitaryPolice-suffix
+  suffix: Military Police
   components:
   - type: Intercom
     supportedChannels:
@@ -166,7 +166,7 @@
 - type: entity
   id: CMIntercomRequisition
   parent: CMIntercom
-  suffix: ent-CMIntercomRequisition-suffix
+  suffix: Requisition
   components:
   - type: Intercom
     supportedChannels:
@@ -176,7 +176,7 @@
 - type: entity
   id: CMIntercomIntel
   parent: CMIntercom
-  suffix: ent-CMIntercomIntel-suffix
+  suffix: Intelligence
   components:
   - type: Intercom
     supportedChannels:
@@ -186,7 +186,7 @@
 - type: entity
   id: CMIntercomAlpha
   parent: CMIntercom
-  suffix: ent-CMIntercomAlpha-suffix
+  suffix: Alpha
   components:
   - type: Intercom
     supportedChannels:
@@ -196,7 +196,7 @@
 - type: entity
   id: CMIntercomBravo
   parent: CMIntercom
-  suffix: ent-CMIntercomBravo-suffix
+  suffix: Bravo
   components:
   - type: Intercom
     supportedChannels:
@@ -206,7 +206,7 @@
 - type: entity
   id: CMIntercomCharlie
   parent: CMIntercom
-  suffix: ent-CMIntercomCharlie-suffix
+  suffix: Charlie
   components:
   - type: Intercom
     supportedChannels:
@@ -216,7 +216,7 @@
 - type: entity
   id: CMIntercomDelta
   parent: CMIntercom
-  suffix: ent-CMIntercomDelta-suffix
+  suffix: Delta
   components:
   - type: Intercom
     supportedChannels:
@@ -226,7 +226,7 @@
 - type: entity
   id: CMIntercomEcho
   parent: CMIntercom
-  suffix: ent-CMIntercomEcho-suffix
+  suffix: Echo
   components:
   - type: Intercom
     supportedChannels:
@@ -236,7 +236,7 @@
 - type: entity
   id: CMIntercomFoxtrot
   parent: CMIntercom
-  suffix: ent-CMIntercomFoxtrot-suffix
+  suffix: Foxtrot
   components:
   - type: Intercom
     supportedChannels:
@@ -246,7 +246,7 @@
 - type: entity
   id: CMIntercomColony
   parent: CMIntercom
-  suffix: ent-CMIntercomColony-suffix
+  suffix: Colony
   components:
   - type: Intercom
     supportedChannels:
@@ -255,7 +255,7 @@
 - type: entity
   id: CMIntercomAll
   parent: CMIntercom
-  suffix: ent-CMIntercomAll-suffix
+  suffix: All
   components:
   - type: Intercom
     supportedChannels:

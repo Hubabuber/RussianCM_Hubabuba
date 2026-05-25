@@ -1,8 +1,8 @@
 - type: entity
   parent: CMFlare
   id: AU14FlareRMC
-  suffix: ent-AU14FlareRMC-suffix
-  description: ent-AU14FlareRMC-desc
+  suffix: Alt
+  description: An RMC issued flare that burns in both the visual and ultraviolet spectrum. There are instructions on the side, it reads 'pull cord, make light'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/flares.rsi
@@ -26,9 +26,9 @@
   abstract: true
   parent: BaseItem
   id: AU14PackFlareBaseRMC
-  name: ent-AU14PackFlareBaseRMC
-  suffix: ent-AU14PackFlareBaseRMC-suffix
-  description: ent-AU14PackFlareBaseRMC-desc
+  name: L96 marking flare pack
+  suffix: Alt
+  description: A packet of eight M94 Marking Flares. Carried by Marine soldiers to light dark areas that cannot be reached with the usual TNR Shoulder Lamp.
   components:
   - type: Item
     size: Normal
@@ -69,7 +69,7 @@
 - type: entity
   parent: AU14PackFlareBaseRMC
   id: AU14PackFlareRMC
-  suffix: ent-AU14PackFlareRMC-suffix
+  suffix: Filled, Alt
   components:
   - type: CMItemSlots
     startingItem: AU14FlareRMC
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCBoxMagazineSupplySmallBase
   id: AU14BoxPackFlareRMCEmpty
-  name: ent-AU14BoxPackFlareRMCEmpty
-  description: ent-AU14BoxPackFlareRMCEmpty-desc
+  name: box of L96 flare packs (x10)
+  description: A box of L96 marking flare packs, to brighten up your day.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -113,7 +113,7 @@
 - type: entity
   parent: AU14BoxPackFlareRMCEmpty
   id: AU14BoxPackFlareRMC
-  suffix: ent-AU14BoxPackFlareRMC-suffix
+  suffix: Filled, Alt
   components:
   - type: CMItemSlots
     startingItem: AU14PackFlareRMC

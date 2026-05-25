@@ -1,21 +1,20 @@
 ent-CMFilingCabinetChestWood = деревянный комод
   .desc = Большой шкаф с выдвижными ящиками.
-    .suffix = Пустой
+
 ent-CMFilingCabinetChest = ящик комода
   .desc = Большой шкаф с выдвижными ящиками.
-    .suffix = Пустой
+
 ent-CMFilingCabinetTallWood = высокий деревянный шкаф для документов
   .desc = Большой шкаф с выдвижными ящиками.
-    .suffix = Пустой
+
 ent-CMFilingCabinetTall = высокий шкаф для документов
   .desc = Большой шкаф с выдвижными ящиками.
-    .suffix = Пустой
+
 ent-CMFilingCabinet = шкаф для документов
   .desc = Большой шкаф с выдвижными ящиками.
-    .suffix = Пустой
+
+  .desc = Большой шкаф с выдвижными ящиками.
+
 ent-CMFilingCabinetChestAngled = ящик комода
   .desc = Большой шкаф с выдвижными ящиками.
-    .suffix = ящик комода
-ent-CMFilingCabinetBase = CMFilingCabinetBase
-    .desc = Большой шкаф с выдвижными ящиками.
-    .suffix = Пустой
+

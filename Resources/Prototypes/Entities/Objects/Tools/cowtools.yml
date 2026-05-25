@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-Haycutters
+  name: haycutters
   parent: BaseItem
   id: Haycutters
-  description: ent-Haycutters-desc
+  description: This kills the wire. Moo!
   components:
   - type: Tag
     tags:
@@ -26,10 +26,10 @@
     sprite: Objects/Tools/Cowtools/haycutters.rsi
 
 - type: entity
-  name: ent-Moodriver
+  name: moodriver
   parent: BaseItem
   id: Moodriver
-  description: ent-Moodriver-desc
+  description: Turn to use. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/moodriver.rsi
@@ -49,10 +49,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: ent-Wronch
+  name: wronch
   parent: BaseItem
   id: Wronch
-  description: ent-Wronch-desc
+  description: Wronch thing. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/wronch.rsi
@@ -72,10 +72,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: ent-Cowbar
+  name: cowbar
   parent: BaseItem
   id: Cowbar
-  description: ent-Cowbar-desc
+  description: Cow your problems away. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowbar.rsi
@@ -97,10 +97,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: ent-Mooltitool
+  name: mooltitool
   parent: BaseItem
   id: Mooltitool
-  description: ent-Mooltitool-desc
+  description: An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/mooltitool.rsi
@@ -115,10 +115,10 @@
       - Multitool
 
 - type: entity
-  name: ent-Cowelder
+  name: cowelding tool
   parent: Welder
   id: Cowelder
-  description: "ent-Cowelder-desc"
+  description: "Melts anything as long as it's fueled, don't forget your eye protection! Moo!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowelder.rsi
@@ -129,10 +129,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: ent-Milkalyzer
+  name: milkalyzer
   parent: BaseItem
   id: Milkalyzer
-  description: ent-Milkalyzer-desc
+  description: A hand-held environmental scanner which reports current gas levels. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/milkalyzer.rsi
@@ -151,10 +151,10 @@
   - type: Appearance
 
 - type: entity
-  name: ent-CowToolbox
+  name: cow toolbox
   parent: ToolboxBase
   id: CowToolbox
-  description: ent-CowToolbox-desc
+  description: A weirdly shaped box, stocked with... tools?
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cow_toolbox.rsi
@@ -168,8 +168,8 @@
 
 - type: entity
   id: CowToolboxFilled
-  name: ent-CowToolboxFilled
-  suffix: ent-CowToolboxFilled-suffix
+  name: cow toolbox
+  suffix: Filled
   parent: CowToolbox
   components:
   - type: StorageFill

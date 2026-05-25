@@ -3,15 +3,15 @@
   id: RMCUNMCResponder
   whitelisted: true
   whitelistParent: RMCWhitelistHard
-  name: job-rmcunmcresponder-name
-  description: job-rmcunmcresponder-desc
+  name: rmc-job-name-unmc-responder
+  description: rmc-job-description-unmc-responder
   playTimeTracker: CMJobUNMCResponder
   ranks:
     RMCRankFirstLT: []
   startingGear: RMCGearUNMCResponder
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-rmcunmcresponder-supervisors
+  supervisors: cm-job-supervisors-staff
   accessGroups:
   - ShipMasterAccess
   - RMCWeYa
@@ -56,8 +56,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardUNMCResponder
-  name: ent-RMCIDCardUNMCResponder
-  description: ent-RMCIDCardUNMCResponder-desc
+  name: UNMC Communications Officer ID card
+  description: Issued to the fax operators of UNMC Regional Command.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/gold_id.rsi

@@ -2,7 +2,7 @@
 - type: entity
   parent: CMDoubleDoorCommandGlass
   id: CMDoubleDoorColonyCommandGlassLocked
-  suffix: ent-CMDoubleDoorColonyCommandGlassLocked-suffix
+  suffix: Command, Colony, Glass, Locked
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Security access
@@ -10,7 +10,7 @@
 - type: entity
   parent: CMDoubleDoorCommandSolid
   id: CMDoubleDoorColonyCommandSolidLocked
-  suffix: ent-CMDoubleDoorColonyCommandSolidLocked-suffix
+  suffix: Command, Colony, Solid, Locked
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Security access
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMDoubleDoorEngineerGlass
   id: CMDoubleDoorColonyEngineerGlassLocked
-  suffix: ent-CMDoubleDoorColonyEngineerGlassLocked-suffix
+  suffix: Engineer, Colony, Glass, Locked
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"], ["CMAccessColonyEngineering"], ["CMAccessColonyLogistics"]] # TODO RMC14 WeYa Colonial
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMDoubleDoorEngineerSolid
   id: CMDoubleDoorColonyEngineerSolidLocked
-  suffix: ent-CMDoubleDoorColonyEngineerSolidLocked-suffix
+  suffix: Engineer, Colony, Solid, Locked
   components:
   - type: AccessReader
     access: [["CMAccessColonyCommand"], ["CMAccessColonyEngineering"], ["CMAccessColonyLogistics"]] # TODO RMC14 WeYa Colonial
@@ -36,7 +36,7 @@
 - type: entity
   parent: CMDoubleDoorSecurityGlass
   id: CMDoubleDoorColonySecurityGlassLocked
-  suffix: ent-CMDoubleDoorColonySecurityGlassLocked-suffix
+  suffix: Security, Colony, Glass, Locked
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Security access
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMDoubleDoorSecuritySolid
   id: CMDoubleDoorColonySecuritySolidLocked
-  suffix: ent-CMDoubleDoorColonySecuritySolidLocked-suffix
+  suffix: Security, Colony, Solid, Locked
   components:
   - type: AccessReader
     access: [["CMAccessColonyBrig"], ["CMAccessColonyCommand"]] # TODO RMC14 add WeYa Security access

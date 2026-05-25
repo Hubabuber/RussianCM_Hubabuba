@@ -23,7 +23,7 @@
 - type: entity
   id: OxygenTankFilled
   parent: OxygenTank
-  suffix: ent-OxygenTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -37,7 +37,7 @@
 - type: entity
   id: EmergencyOxygenTankFilled
   parent: EmergencyOxygenTank
-  suffix: ent-EmergencyOxygenTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -51,7 +51,7 @@
 - type: entity
   id: EmergencyNitrogenTankFilled
   parent: EmergencyNitrogenTank
-  suffix: ent-EmergencyNitrogenTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -67,7 +67,7 @@
 - type: entity
   id: ExtendedEmergencyOxygenTankFilled
   parent: ExtendedEmergencyOxygenTank
-  suffix: ent-ExtendedEmergencyOxygenTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -81,7 +81,7 @@
 - type: entity
   id: ExtendedEmergencyNitrogenTankFilled
   parent: ExtendedEmergencyNitrogenTank
-  suffix: ent-ExtendedEmergencyNitrogenTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -97,7 +97,7 @@
 - type: entity
   id: DoubleEmergencyOxygenTankFilled
   parent: DoubleEmergencyOxygenTank
-  suffix: ent-DoubleEmergencyOxygenTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -111,7 +111,7 @@
 - type: entity
   id: DoubleEmergencyNitrogenTankFilled
   parent: DoubleEmergencyNitrogenTank
-  suffix: ent-DoubleEmergencyNitrogenTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 21.3
@@ -126,7 +126,7 @@
 - type: entity
   id: EmergencyFunnyOxygenTankFilled
   parent: EmergencyFunnyOxygenTank
-  suffix: ent-EmergencyFunnyOxygenTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 22.4
@@ -148,7 +148,7 @@
 - type: entity
   id: AirTankFilled
   parent: AirTank
-  suffix: ent-AirTankFilled-suffix
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 101.3
@@ -164,8 +164,8 @@
 - type: entity
   id: NitrogenTankFilled
   parent: NitrogenTank
-  suffix: ent-NitrogenTankFilled-suffix
-  name: ent-NitrogenTankFilled
+  suffix: Filled
+  name: nitrogen tank
   components:
   - type: GasTank
     air:
@@ -179,8 +179,8 @@
 - type: entity
   id: NitrousOxideTankFilled
   parent: NitrousOxideTank
-  suffix: ent-NitrousOxideTankFilled-suffix
-  name: ent-NitrousOxideTankFilled
+  suffix: Filled
+  name: nitrous oxide tank
   components:
   - type: GasTank
     #      0.21  | % oxygen in normal atmosphere
@@ -207,8 +207,8 @@
 - type: entity
   id: PlasmaTankFilled
   parent: PlasmaTank
-  name: ent-PlasmaTankFilled
-  suffix: ent-PlasmaTankFilled-suffix
+  name: plasma tank
+  suffix: Filled
   components:
   - type: GasTank
     outputPressure: 101.3

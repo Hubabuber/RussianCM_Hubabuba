@@ -1,8 +1,8 @@
-- type: job
+﻿- type: job
   parent: CMJobBase
   id: CMPilotGunship
-  name: job-cmpilotgunship-name
-  description: job-cmpilotgunship-desc
+  name: cm-job-name-gunship-pilot
+  description: cm-job-description-gunship-pilot
   setPreference: false
   playTimeTracker: CMJobPilotGunship
   ranks:
@@ -19,7 +19,7 @@
   icon: "CMJobIconPilotGunship"
   joinNotifyCrew: false
   marineAuthorityLevel: 7
-  supervisors: job-cmpilotgunship-supervisors
+  supervisors: cm-job-supervisors-aso
   accessGroups:
   - Pilot
   roleWeight: 0.25
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointPilotGunship
-  name: ent-CMSpawnPointPilotGunship
+  name: gunship pilot spawn point
   components:
   - type: SpawnPoint
     job_id: CMPilotGunship

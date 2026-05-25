@@ -1,7 +1,7 @@
 - type: entity
   id: AdminInstantEffectBase
   abstract: true
-  name: ent-AdminInstantEffectBase
+  name: instant effect
   components:
   - type: Sprite
     sprite: /Textures/Objects/Fun/goldbikehorn.rsi
@@ -13,7 +13,7 @@
 
 - type: entity
   id: AdminInstantEffectEMP
-  suffix: ent-AdminInstantEffectEMP-suffix
+  suffix: EMP
   parent: AdminInstantEffectBase
   components:
   - type: EmpOnTrigger
@@ -22,7 +22,7 @@
 
 - type: entity
   id: AdminInstantEffectBluespace
-  suffix: ent-AdminInstantEffectBluespace-suffix
+  suffix: BluespaceFlash
   parent: AdminInstantEffectBase
   components:
   - type: SpawnOnTrigger 
@@ -30,7 +30,7 @@
 
 - type: entity
   id: AdminInstantEffectFlash
-  suffix: ent-AdminInstantEffectFlash-suffix
+  suffix: Flash
   parent: AdminInstantEffectBase
   components:
   - type: FlashOnTrigger
@@ -40,7 +40,7 @@
   
 - type: entity
   id: AdminInstantEffectSmoke3
-  suffix: ent-AdminInstantEffectSmoke3-suffix
+  suffix: Smoke (03 sec)
   parent: AdminInstantEffectBase
   components:
   - type: SmokeOnTrigger
@@ -54,7 +54,7 @@
   
 - type: entity
   id: AdminInstantEffectSmoke10
-  suffix: ent-AdminInstantEffectSmoke10-suffix
+  suffix: Smoke (10 sec)
   parent: AdminInstantEffectBase
   components:
   - type: SmokeOnTrigger
@@ -68,7 +68,7 @@
   
 - type: entity
   id: AdminInstantEffectSmoke30
-  suffix: ent-AdminInstantEffectSmoke30-suffix
+  suffix: Smoke (30 sec)
   parent: AdminInstantEffectBase
   components:
   - type: SmokeOnTrigger
@@ -82,7 +82,7 @@
 
 - type: entity
   id: AdminInstantEffectTearGas
-  suffix: ent-AdminInstantEffectTearGas-suffix
+  suffix: Tear Gas
   parent: AdminInstantEffectBase
   components:
   - type: SmokeOnTrigger
@@ -95,7 +95,7 @@
 
 - type: entity
   id: AdminInstantEffectGravityWell
-  suffix: ent-AdminInstantEffectGravityWell-suffix
+  suffix: Gravity Well
   parent: AdminInstantEffectBase
   components: 
   - type: SoundOnTrigger

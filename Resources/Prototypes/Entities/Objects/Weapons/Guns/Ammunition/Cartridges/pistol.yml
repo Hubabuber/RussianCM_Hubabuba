@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgePistol
-  name: ent-BaseCartridgePistol
+  name: cartridge (.35 auto)
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
@@ -20,8 +20,8 @@
 
 - type: entity
   id: CartridgePistol
-  name: ent-CartridgePistol
-  description: ent-CartridgePistol-desc
+  name: cartridge (.35 auto)
+  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Standard kinetic ammunition is common and useful in most situations.
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -29,8 +29,8 @@
 
 - type: entity
   id: CartridgePistolPractice
-  name: ent-CartridgePistolPractice
-  description: ent-CartridgePistolPractice-desc
+  name: cartridge (.35 auto practice)
+  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Chalk ammunition is generally non-harmful, used for practice.
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -45,8 +45,8 @@
 
 - type: entity
   id: CartridgePistolIncendiary
-  name: ent-CartridgePistolIncendiary
-  description: ent-CartridgePistolIncendiary-desc
+  name: cartridge (.35 auto incendiary)
+  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Incendiary ammunition contains a self-igniting compound that sets the target ablaze.
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -61,8 +61,8 @@
 
 - type: entity
   id: CartridgePistolUranium
-  name: ent-CartridgePistolUranium
-  description: ent-CartridgePistolUranium-desc
+  name: cartridge (.35 auto uranium)
+  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Uranium core ammunition features a load of fissile material, irradiating the target from the inside.
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -77,8 +77,8 @@
 
 - type: entity
   id: CartridgePistolSpent
-  name: ent-CartridgePistolSpent
-  suffix: ent-CartridgePistolSpent-suffix
+  name: cartridge (.35 auto)
+  suffix: spent
   parent: BaseCartridgePistol
   components:
   - type: Sprite

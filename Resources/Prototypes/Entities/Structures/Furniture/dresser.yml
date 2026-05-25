@@ -1,8 +1,8 @@
 - type: entity
   id: Dresser
   parent: BaseStructure
-  name: ent-Dresser
-  description: ent-Dresser-desc
+  name: dresser
+  description: Wooden dresser, can store things inside itself, ideal for underwear, and someone's kidneys?...
   components:
   - type: Sprite
     sprite: Structures/Furniture/furniture.rsi
@@ -54,7 +54,7 @@
 - type: entity
   id: DresserFilled
   parent: Dresser
-  suffix: ent-DresserFilled-suffix
+  suffix: Filled
   components:
   - type: StorageFill
     contents:

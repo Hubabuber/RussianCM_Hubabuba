@@ -21,23 +21,3 @@ ent-ActionToggleGhostHearing-desc = Переключение между прос
 ent-MobObserver-name = наблюдатель
 ent-MobObserver-desc = Бу!
 
-ent-ActionGhostBoo = Бу!
-    .desc = Напугайте членов своей команды от скуки!
-
-ent-ActionToggleFov = Переключить поле зрения
-    .desc = Переключает поле обзора, чтобы видеть то, что видят игроки.
-
-ent-ActionToggleGhostHearing = Переключить слух призрака
-    .desc = Переключение между прослушиванием всех сообщений и прослушиванием только радио и сообщений поблизости.
-
-ent-ActionToggleGhosts = Переключить призраков
-    .desc = Переключить видимость других призраков.
-
-ent-ActionToggleLighting = Переключить освещение
-    .desc = Переключите рендеринг света, чтобы лучше рассмотреть темные области.
-
-ent-MobObserver = наблюдатель
-    .desc = Бу!
-
-ent-MobObserverBase = наблюдатель
-    .desc = Бу!

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobReturningDoctor
-  name: job-au14jobreturningdoctor-name
-  description: job-au14jobreturningdoctor-desc
+  name: au14-job-name-civilianphysician
+  description: au14-job-description-civilianphysician
   setPreference: true
   playTimeTracker: AU14JobReturningDoctor
   requirements:
@@ -15,8 +15,8 @@
   icon: "CMJobIconEmpty"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: job-au14jobreturningdoctor-supervisors
-  spawnMenuRoleName: job-au14jobreturningdoctor-spawnmenurolename
+  supervisors: au14-job-supervisors-colonycivilian
+  spawnMenuRoleName: Phycisian (3rd party)
   accessGroups:
   - Colonist
   - aumed
@@ -47,7 +47,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobReturningDoctor
-  name: ent-AU14JobReturningDoctor
+  name: Returning Colonist (doctor)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -65,7 +65,7 @@
 
 - type: entity
   id: AU14ReturningDoctorPreset
-  name: ent-AU14ReturningDoctorPreset
+  name: returning doctor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

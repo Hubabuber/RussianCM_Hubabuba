@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobLEOBase
   id: AU14JobInvestigationCMBDeputyShotgun
-  name: job-au14jobinvestigationcmbdeputyshotgun-name
-  description: job-au14jobinvestigationcmbdeputyshotgun-desc
+  name: au14-job-name-civiliancmbdeputy
+  description: You have been sent by the Colonial Administration to investigate unspecified occurrences on this planet. Investigate the area under the orders of your marshal and ensure that the laws of Sol extend far beyond the Solar System.
   setPreference: false
   canBeAntag: false
   requirements:
@@ -11,9 +11,9 @@
   startingGear: AU14GearCMBDeputyInvestigationShotgun
   icon: "RMCJobIconBureauDeputy"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobinvestigationcmbdeputyshotgun-spawnmenurolename
+  spawnMenuRoleName: CMB Deputy (Shotgun, 3rd party)
   joinNotifyCrew: false
-  supervisors: job-au14jobinvestigationcmbdeputyshotgun-supervisors
+  supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - aucmb
   - Colonist
@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCMB
   id: CMBInvestigationPartyJobDeputyShotgun
-  name: ent-CMBInvestigationPartyJobDeputyShotgun
+  name: CMB Deputy Shotgunner
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

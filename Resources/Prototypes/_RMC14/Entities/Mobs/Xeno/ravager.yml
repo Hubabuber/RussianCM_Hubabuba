@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: RMCXenoRavagerBase
-  name: ent-RMCXenoRavagerBase
-  description: ent-RMCXenoRavagerBase-desc
+  name: Ravager
+  description: A huge, nasty red alien with enormous scythed claws.
   abstract: true
   components:
   - type: TTS
@@ -184,7 +184,7 @@
 - type: entity
   parent: RMCXenoRavagerBase
   id: RMCXenoRavagerBerserker
-  suffix: ent-RMCXenoRavagerBerserker-suffix
+  suffix: Berserker
   components:
   - type: Sprite
     sprite: _AU14/Mobs/Xenos/Ravager/berserker_ravager.rsi
@@ -257,7 +257,7 @@
 - type: entity
   parent: RMCXenoRavagerBase
   id: RMCXenoRavagerHedgehog
-  suffix: ent-RMCXenoRavagerHedgehog-suffix
+  suffix: Hedgehog
   components:
   - type: Sprite
     sprite: _AU14/Mobs/Xenos/Ravager/hedgehog_ravager.rsi

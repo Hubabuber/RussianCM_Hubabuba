@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobGOVFORPlatoonCorpsmanRMC
-  name: job-au14jobgovforplatooncorpsmanrmc-name
-  description: job-au14jobgovforplatooncorpsmanrmc-desc
+  name: au14-job-name-govforplatooncorpsmanRMC
+  description: au14-job-description-govforplatooncorpsman
   setPreference: true
   requirements:
   - !type:TraitsRequirement
@@ -20,14 +20,14 @@
   dummyStartingGear: AU14GearGOVFORCorpsmanDummy
   icon: "AU14JobIconCorpsman"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobgovforplatooncorpsmanrmc-spawnmenurolename
+  spawnMenuRoleName: Hospital Corpsman (TWE RMC)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforplatooncorpsmanrmc-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforCorpsman
   - AU14GovforSquad
   overwatchSortPriority: -2
-  overwatchRoleName: job-au14jobgovforplatooncorpsmanrmc-overwatchrolename
+  overwatchRoleName: au14-job-name-govforplatooncorpsman-plural
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

@@ -1,11 +1,11 @@
 - type: job
   parent: CMSurvivorScientist
   id: RMCSurvivorNewVaraderoResearcher
-  name: job-rmcsurvivornewvaraderoresearcher-name
-  description: job-rmcsurvivornewvaraderoresearcher-desc
+  name: cm-job-name-survivor-new-varadero-researcher
+  description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivorScientist
   startingGear: RMCGearSurvivorNewVaraderoResearcher
-  spawnMenuRoleName: job-rmcsurvivornewvaraderoresearcher-spawnmenurolename
+  spawnMenuRoleName: New Varadero Researcher (NV Survivor)
   accessGroups:
   - ColonistMedical
   useLoadoutOfJob: CMSurvivorScientist # for inheritance
@@ -22,7 +22,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorNewVaraderoResearcher
-  name: ent-RMCSpawnPointSurvivorNewVaraderoResearcher
+  name: survivor new varadero researcher spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorNewVaraderoResearcher

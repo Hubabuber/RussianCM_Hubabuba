@@ -1,9 +1,0 @@
-guideentry-arachnid-name = видовое название-паукообразный
-guideentry-diona-name = видовое название-диона
-guideentry-dwarf-name = видовое название-карлик
-guideentry-human-name = видовое название-человек
-guideentry-moth-name = видовое название-мотылек
-guideentry-reptilian-name = видовое название-рептилия
-guideentry-slimeperson-name = видовое название-слизи
-guideentry-species-name = гид-вход-вид
-guideentry-vox-name = вид-название-вокс

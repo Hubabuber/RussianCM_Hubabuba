@@ -2,8 +2,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYclothingequipmentvendor
-  name: ent-AU14WYclothingequipmentvendor
-  description: ent-AU14WYclothingequipmentvendor-desc
+  name: We-Yu PMC apparel vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Weyland-Yutani PMC apparel.
+    Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
+    Manufactured to outfit personnel rapidly following cryogenic hypersleep or emergency mobilization.
+
+    For full operational readiness, select one item from each section: fatigues with a webbing, footwear, gloves, headgear, armor, backpack, belt and a pouch.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -184,8 +189,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYequipmentvendor
-  name: ent-AU14WYequipmentvendor
-  description: ent-AU14WYequipmentvendor-desc
+  name: We-Yu PMC equipment vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Weyland-Yutani PMC equipment.
+    Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
+    The interface is intentionally simple, even someone with tunnel-vision and frostbite can operate it.
+
+    Rapid-issue protocol: prioritize medical supplies, a ration pack, an e-tool and sandbags.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -270,8 +280,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYcorpsmanvendor
-  name: ent-AU14WYcorpsmanvendor
-  description: ent-AU14WYcorpsmanvendor-desc
+  name: We-Yu PMC medical vendor
+  description: >-
+    An automated medical rack, hooked up to a compact stock of Weyland-Yutani PMC trauma supplies.
+    Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
+    Designed for rapid reconstitution of combat medics following cryogenic hypersleep or emergency call-up.
+
+    Corpsman protocol: select the essential equipment set, storage and limited medications.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
@@ -393,8 +408,12 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYaircrewvendor
-  name: ent-AU14WYaircrewvendor
-  description: ent-AU14WYaircrewvendor-desc
+  name: We-Yu PMC aircrew vendor
+  description: >-
+    An automated dispenser rack, hooked up to a small storage of Weyland-Yutani PMC aircrew flight and support gear.
+    Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
+
+    Aircrew protocol: select a set of fatigues, the essential medical equipment and storage kit.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
@@ -569,8 +588,10 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYdirectorequipmentvendor
-  name: ent-AU14WYdirectorequipmentvendor
-  description: ent-AU14WYdirectorequipmentvendor-desc
+  name: We-Yu PMC command vendor
+  description: >-
+    An automated command rack, hooked up to a restricted storage of Weyland-Yutani PMC command-leadership equipment.
+    Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforCommand" ], [ "AU14AccessOpforCommand" ] ]
@@ -642,8 +663,11 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYSGequipmentvendor
-  name: ent-AU14WYSGequipmentvendor
-  description: ent-AU14WYSGequipmentvendor-desc
+  name: We-Yu PMC smartgunner equipment vendor
+  description: >-
+    An automated smartgunner rack, hooked up to a small armory of Weyland-Yutani PMC heavy-weapon operator systems.
+    Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
+    Built to bring heavy fire support online rapidly after cryogenic hypersleep or emergency mobilization.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforGunner" ], [ "AU14AccessOpforGunner" ] ]
@@ -675,8 +699,10 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYsupervisorequipmentvendor
-  name: ent-AU14WYsupervisorequipmentvendor
-  description: ent-AU14WYsupervisorequipmentvendor-desc
+  name: We-Yu PMC supervisor vendor
+  description: >-
+    An automated supervisor rack, hooked up to a compact storage of Weyland-Yutani PMC supervising equipment.
+    Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforFTL" ], [ "AU14AccessOpforFTL" ] ]
@@ -704,8 +730,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYWeaponsVendor
-  name: ent-AU14WYWeaponsVendor
-  description: ent-AU14WYWeaponsVendor-desc
+  name: We-Yu PMC weapons rack
+  description: >-
+    An automated weapons rack, hooked up to a small armory of Weyland-Yutani PMC weaponry.
+    Standard issue across the frontier where threats can appear without warning.
+    Engineered to arm personnel in seconds following cryogenic hypersleep or emergency mobilization.
+
+    For immediate combat readiness: select a primary weapon kit and a sidearm.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -741,8 +772,13 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYSpecialWeaponsVendor
-  name: ent-AU14WYSpecialWeaponsVendor
-  description: ent-AU14WYSpecialWeaponsVendor-desc
+  name: We-Yu PMC special weapons rack
+  description: >-
+    An automated special weapons rack, hooked up to a restricted armory of Weyland-Yutani PMC heavy and breaching ordnance.
+    Standard issue only for qualified operators.
+    Engineered to deliver overwhelming firepower the instant cryogenic hypersleep ends or an emergency mobilization is called.
+
+    Special weapons protocol: one weapon system of choice with a full ammunition loadout and explosives.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
@@ -784,8 +820,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14WYPMCRequisitionVendor
-  name: ent-AU14WYPMCRequisitionVendor
-  description: ent-AU14WYPMCRequisitionVendor-desc
+  name: We-Yu PMC automated requisitions vendor
+  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

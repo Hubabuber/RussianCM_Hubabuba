@@ -2,8 +2,8 @@
 
 - type: entity
   id: CMMedilinkSupplyPort
-  name: ent-CMMedilinkSupplyPort
-  description: ent-CMMedilinkSupplyPort-desc
+  name: medilink supply port
+  description: A complex network of pipes and machinery, linking to large storage systems below the deck. Medical vendors linked to this port will be able to infinitely restock supplies.
   placement:
     mode: SnapgridCenter
   components:
@@ -19,9 +19,9 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorMedicalAllAccess
-  name: ent-CMVendorMedicalAllAccess
-  description: ent-CMVendorMedicalAllAccess-desc
-  suffix: ent-CMVendorMedicalAllAccess-suffix
+  name: We-Yu-Med Plus
+  description: Medical pharmaceutical dispenser. Provided by We-Yu Pharmaceuticals Division(TM).
+  suffix: All Access
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/med.rsi
@@ -151,7 +151,7 @@
 - type: entity
   parent: CMVendorMedicalAllAccess
   id: CMVendorMedical
-  suffix: "ent-CMVendorMedical-suffix"
+  suffix: ""
   components:
   - type: AccessReader
     access: [["CMAccessMedical"]]
@@ -159,7 +159,7 @@
 - type: entity
   parent: CMVendorMedical
   id: RMCVendorMedicalPVE
-  suffix: ent-RMCVendorMedicalPVE-suffix
+  suffix: PVE
   components:
   - type: CMAutomatedVendor # TODO RMC14 different ui style
     sections:
@@ -261,8 +261,8 @@
 - type: entity
   parent: CMVendorMedical
   id: CMVendorChemistry
-  name: ent-CMVendorChemistry
-  description: ent-CMVendorChemistry-desc
+  name: We-Yu-Chem Plus
+  description: Medical chemistry dispenser. Provided by We-Yu Pharmaceuticals Division(TM).
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/chem.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: ColMarTechMarineMedical
-  name: ent-ColMarTechMarineMedical
-  description: ent-ColMarTechMarineMedical-desc
+  name: ColMarTech MarineMed
+  description: Medical Pharmaceutical dispenser with basic medical supplies for marines.
   components:
   - type: Fixtures
     fixtures:
@@ -374,7 +374,7 @@
 - type: entity
   parent: ColMarTechMarineMedical
   id: ColMarTechMarineMedicalPowered
-  suffix: ent-ColMarTechMarineMedicalPowered-suffix
+  suffix: Powered
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -385,8 +385,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: RMCNanoMed
-  name: ent-RMCNanoMed
-  description: ent-RMCNanoMed-desc
+  name: NanoMed
+  description: A wall-mounted medical equipment dispenser.
   components:
   - type: Fixtures
     fixtures:
@@ -440,8 +440,8 @@
 - type: entity
   parent: RMCNanoMed
   id: RMCNanoMedLimited
-  description: ent-RMCNanoMedLimited-desc
-  suffix: ent-RMCNanoMedLimited-suffix
+  description: A wall-mounted medical equipment dispenser. This version is more limited than standard UNMC NanoMeds.
+  suffix: Limited
   components:
   - type: CMSolutionRefiller
     current: 150
@@ -458,8 +458,8 @@
 - type: entity
   parent: RMCNanoMed
   id: RMCBobdaMed
-  name: ent-RMCBobdaMed
-  description: ent-RMCBobdaMed-desc
+  name: BobdaMed
+  description: In Bobdaland (Trademark pending), one is never more than 6ft away from canned Havana goodness. Drink a Bobda today! For a full selection of Bobda products please visit a licensed retailer or vending machine. Also doubles as basic first aid station.
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -513,8 +513,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorBlood
-  name: ent-CMVendorBlood
-  description: ent-CMVendorBlood-desc #dont update year, that`s a joke from cm13
+  name: MM Blood Dispenser
+  description: The Marine Med Brand Blood Pack Dispensary is the premier, top-of-the-line blood dispenser of 2105! Get yours today! #dont update year, that`s a joke from cm13
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/blood.rsi

@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: MobNarsieBase
-  name: ent-MobNarsieBase
-  description: ent-MobNarsieBase-desc
+  name: Nar'Sie
+  description: Your mind begins to bubble and ooze as it tries to comprehend what it sees.
   components:
   - type: Sprite
     sprite: Mobs/Demons/narsie.rsi
@@ -16,7 +16,7 @@
 - type: entity
   parent: MobNarsieBase
   id: MobNarsieSpawn
-  suffix: ent-MobNarsieSpawn-suffix
+  suffix: Spawn
   components:
   - type: Sprite
     layers:

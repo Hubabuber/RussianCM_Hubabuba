@@ -1,10 +1,8 @@
 ent-RMCComputerFrameUnfinished = компьютерная рама
   .desc = Машина в стадии строительства. 
-    .suffix = компьютерная рама
+
 ent-CMMachineFrameUnfinished = рама машины
   .desc = Машина в стадии строительства. 
-    .suffix = рама машины
+
 ent-CMMachineFrameDestroyed = разрушенный корпус машины
-    .suffix = разрушенный корпус машины
-ent-CMMachineFrame = рама машины
-    .suffix = RMC14, Готово
+

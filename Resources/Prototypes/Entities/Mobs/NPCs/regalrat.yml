@@ -1,8 +1,8 @@
 - type: entity
-  name: ent-MobRatKing
+  name: rat king
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
-  description: ent-MobRatKing-desc
+  description: He's da rat. He make da roolz.
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -131,7 +131,7 @@
 - type: entity
   id: MobRatKingBuff
   parent: MobRatKing
-  suffix: ent-MobRatKingBuff-suffix
+  suffix: Buff
   components:
   - type: Sprite
     sprite: Mobs/Animals/buffrat.rsi
@@ -166,10 +166,10 @@
     - MinorAntagonists
 
 - type: entity
-  name: ent-MobRatServant
+  name: rat servant
   id: MobRatServant
   parent: [ SimpleMobBase, MobCombat ]
-  description: ent-MobRatServant-desc
+  description: He's da mini rat. He don't make da roolz.
   categories: [ HideSpawnMenu ] #Must be configured to a King or the AI breaks.
   components:
   - type: CombatMode
@@ -317,8 +317,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingRaiseArmy
-  name: ent-ActionRatKingRaiseArmy
-  description: ent-ActionRatKingRaiseArmy-desc
+  name: Raise Army
+  description: Spend some hunger to summon an allied rat to help defend you.
   components:
   - type: Action
     useDelay: 4
@@ -331,8 +331,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingDomain
-  name: ent-ActionRatKingDomain
-  description: ent-ActionRatKingDomain-desc
+  name: Rat King's Domain
+  description: Spend some hunger to release a cloud of ammonia into the air.
   components:
   - type: Action
     useDelay: 6
@@ -345,8 +345,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderStay
-  name: ent-ActionRatKingOrderStay
-  description: ent-ActionRatKingOrderStay-desc
+  name: Stay
+  description: Command your army to stand in place.
   components:
   - type: Action
     useDelay: 1
@@ -364,8 +364,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderFollow
-  name: ent-ActionRatKingOrderFollow
-  description: ent-ActionRatKingOrderFollow-desc
+  name: Follow
+  description: Command your army to follow you around.
   components:
   - type: Action
     useDelay: 1
@@ -383,8 +383,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderCheeseEm
-  name: ent-ActionRatKingOrderCheeseEm
-  description: ent-ActionRatKingOrderCheeseEm-desc
+  name: Cheese 'Em
+  description: Command your army to attack whoever you point at.
   components:
   - type: Action
     useDelay: 1
@@ -402,8 +402,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderLoose
-  name: ent-ActionRatKingOrderLoose
-  description: ent-ActionRatKingOrderLoose-desc
+  name: Loose
+  description: Command your army to act at their own will.
   components:
   - type: Action
     useDelay: 1

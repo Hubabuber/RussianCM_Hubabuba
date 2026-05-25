@@ -1,8 +1,8 @@
 - type: entity
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorControlBox
-  name: ent-ParticleAcceleratorControlBox
-  description: ent-ParticleAcceleratorControlBox-desc
+  name: PA control computer
+  description: This controls the density of the particles.
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/control_box.rsi
@@ -77,9 +77,9 @@
 - type: entity
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorControlBoxUnfinished
-  name: ent-ParticleAcceleratorControlBoxUnfinished
-  suffix: ent-ParticleAcceleratorControlBoxUnfinished-suffix
-  description: ent-ParticleAcceleratorControlBoxUnfinished-desc
+  name: PA control computer
+  suffix: Unfinished
+  description: This controls the density of the particles. It looks unfinished.
   components:
     - type: Sprite
       sprite: Structures/Power/Generation/PA/control_box.rsi

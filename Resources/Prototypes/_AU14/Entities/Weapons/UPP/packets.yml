@@ -1,9 +1,9 @@
 - type: entity
   parent: CMPacketBase
   id: AU14PacketGrenadeHighExplosiveUPP
-  name: ent-AU14PacketGrenadeHighExplosiveUPP
-  suffix: ent-AU14PacketGrenadeHighExplosiveUPP-suffix
-  description: ent-AU14PacketGrenadeHighExplosiveUPP-desc
+  name: Type 6 fragmentation grenade packet
+  suffix: UPP
+  description: It contains six Type 6 fragmentation grenades. Handle with care.
   components:
   - type: Sprite
     layers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: AU14PacketGrenadeHighExplosiveUPP
   id: AU14PacketGrenadeHighExplosiveUPPFilled
-  suffix: ent-AU14PacketGrenadeHighExplosiveUPPFilled-suffix
+  suffix: Filled, UPP
   components:
   - type: StorageFill
     contents:
@@ -25,9 +25,9 @@
 - type: entity
   parent: RMCBoxBase
   id: AU14BoxHEDPUPP
-  suffix: ent-AU14BoxHEDPUPP-suffix
-  name: ent-AU14BoxHEDPUPP
-  description: ent-AU14BoxHEDPUPP-desc
+  suffix: UPP
+  name: Type 6 fragmentation grenade box
+  description: A secure box holding 12 type 6 fragmentation grenades. Ensure pins are in place before removing from the box.
   components:
   - type: Sprite
     layers:
@@ -49,9 +49,9 @@
 - type: entity
   parent: CMPacketBase
   id: AU14PacketGrenadeSmokeUPP
-  name: ent-AU14PacketGrenadeSmokeUPP
-  suffix: ent-AU14PacketGrenadeSmokeUPP-suffix
-  description: ent-AU14PacketGrenadeSmokeUPP-desc
+  name: RDG-17 smoke grenade packet
+  suffix: UPP
+  description: It contains six RDG-17 smoke grenades.
   components:
   - type: Sprite
     layers:
@@ -63,7 +63,7 @@
 - type: entity
   parent: AU14PacketGrenadeSmokeUPP
   id: AU14PacketGrenadeSmokeUPPFilled
-  suffix: ent-AU14PacketGrenadeSmokeUPPFilled-suffix
+  suffix: Filled, UPP
   components:
   - type: StorageFill
     contents:
@@ -73,9 +73,9 @@
 - type: entity
   parent: RMCBoxBase
   id: AU14BoxSmokeUPP
-  suffix: ent-AU14BoxSmokeUPP-suffix
-  name: ent-AU14BoxSmokeUPP
-  description: ent-AU14BoxSmokeUPP-desc
+  suffix: UPP
+  name: RDG-17 smoke grenade box
+  description: A secure box holding 12 RDG-17 smoke grenades. Ensure pins are in place before removing from the box.
   components:
   - type: Sprite
     layers:
@@ -97,9 +97,9 @@
 - type: entity
   parent: CMPacketBase
   id: AU14PacketGrenadeIncendiaryUPP
-  name: ent-AU14PacketGrenadeIncendiaryUPP
-  suffix: ent-AU14PacketGrenadeIncendiaryUPP-suffix
-  description: ent-AU14PacketGrenadeIncendiaryUPP-desc
+  name: Type 8 incendiary grenade packet
+  suffix: UPP
+  description: It contains three type 8 white phosphorus grenades.
   components:
   - type: Sprite
     layers:
@@ -111,7 +111,7 @@
 - type: entity
   parent: AU14PacketGrenadeIncendiaryUPP
   id: AU14PacketGrenadeIncendiaryUPPFilled
-  suffix: ent-AU14PacketGrenadeIncendiaryUPPFilled-suffix
+  suffix: Filled, UPP
   components:
   - type: StorageFill
     contents:
@@ -121,9 +121,9 @@
 - type: entity
   parent: RMCBoxBase
   id: AU14BoxHIDPUPP
-  suffix: ent-AU14BoxHIDPUPP-suffix
-  name: ent-AU14BoxHIDPUPP
-  description: ent-AU14BoxHIDPUPP-desc
+  suffix: UPP
+  name: Type 8 WP grenade box
+  description: A secure box holding 12 type 8 WP grenades. Ensure pins are in place before removing from the box.
   components:
   - type: Sprite
     layers:

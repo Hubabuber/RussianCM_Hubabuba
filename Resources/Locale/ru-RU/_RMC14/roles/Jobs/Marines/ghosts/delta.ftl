@@ -1,14 +1,14 @@
 ent-RMCRandomHumanoidDeltaWeaponsSpecialist = специалист по оружию в роли дельта-призрака
-    .suffix = специалист по оружию в роли дельта-призрака
+
 ent-RMCRandomHumanoidDeltaSquadLeader = Дельта-призрак, роль лидера отряда
-    .suffix = Дельта-призрак, роль лидера отряда
+
 ent-RMCRandomHumanoidDeltaSmartGunOperator = роль дельта-призрака, оператор умного оружия
-    .suffix = роль дельта-призрака, оператор умного оружия
+
 ent-RMCRandomHumanoidDeltaRifleman = Дельта-призрак в роли стрелка
-    .suffix = Дельта-призрак в роли стрелка
+
 ent-RMCRandomHumanoidDeltaHospitalCorpsman = Дельта роль призрака санитар больницы
-    .suffix = Дельта роль призрака санитар больницы
+
 ent-RMCRandomHumanoidDeltaFireteamLeader = Дельта-призрак, роль лидера боевой группы
-    .suffix = Дельта-призрак, роль лидера боевой группы
+
 ent-RMCRandomHumanoidDeltaCombatTech = боевой техник в роли дельта-призрака
-    .suffix = боевой техник в роли дельта-призрака
+

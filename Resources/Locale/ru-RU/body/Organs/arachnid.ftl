@@ -21,25 +21,3 @@ ent-OrganArachnidTongue-desc = Мясистая мышца, используем
 
 ent-BaseArachnidOrgan-name = элемент
 
-ent-BaseArachnidOrgan = item
-
-ent-OrganArachnidEyes = eyes
-    .desc = Два — это уже слишком много.
-
-ent-OrganArachnidHeart = heart
-    .desc = Отвратительно стойкий маленький биологический насос, созданный для пауков.
-
-ent-OrganArachnidKidneys = kidneys
-    .desc = Filters toxins from the bloodstream.
-
-ent-OrganArachnidLiver = liver
-    .desc = Pairing suggestion: chianti and fava beans.
-
-ent-OrganArachnidLungs = lungs
-    .desc = Фильтрует кислород из атмосферы... только более жадно.
-
-ent-OrganArachnidStomach = stomach
-    .desc = Gross. This is hard to stomach.
-
-ent-OrganArachnidTongue = язык
-    .desc = Мясистая мышца, используемая в основном для лжи.

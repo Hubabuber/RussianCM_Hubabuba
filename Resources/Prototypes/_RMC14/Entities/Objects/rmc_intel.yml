@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: RMCIntelBase
-  name: ent-RMCIntelBase
+  name: intel item
   components:
   - type: Corrodible
     isCorrodible: false
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelPaperScrap
-  name: ent-RMCIntelPaperScrap
-  description: ent-RMCIntelPaperScrap-desc
+  name: paper scrap
+  description: A scrap of paper, you think some of the words might still be readable.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelProgressReport
-  name: ent-RMCIntelProgressReport
-  description: ent-RMCIntelProgressReport-desc
+  name: progress report
+  description: A written report from someone for their supervisor about the status of some kind of project.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelFolder
-  name: ent-RMCIntelFolder
-  description: ent-RMCIntelFolder-desc
+  name: intel folder
+  description: A folder with some documents inside.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelTechnicalManual
-  name: ent-RMCIntelTechnicalManual
-  description: ent-RMCIntelTechnicalManual-desc
+  name: technical manual
+  description: A highly specified technical manual, may be of use to someone in the relevant field.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Books/Other/book.rsi
@@ -120,7 +120,7 @@
 - type: entity
   parent: [CMHealthAnalyzer, RMCIntelRetrieveDeviceBase]
   id: RMCIntelRetrieveHealthAnalyzer
-  suffix: ent-RMCIntelRetrieveHealthAnalyzer-suffix
+  suffix: Intel, Experimental Device
   components:
   - type: IntelClues
     clue: rmc-intel-clue-experimental-device
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsole
-  name: ent-RMCTechTreeConsole
-  description: ent-RMCTechTreeConsole-desc
+  name: tech tree console
+  description: A console used to make tech purchases.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntel
-  name: ent-RMCComputerIntel
-  description: ent-RMCComputerIntel-desc
+  name: intel computer
+  description: An UNMC Intel Computer for data cataloguing and distribution.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntelGovfor
-  name: ent-RMCComputerIntelGovfor
-  description: ent-RMCComputerIntelGovfor-desc
+  name: govfor intel computer
+  description: A GovFor Intel Computer for data cataloguing and distribution.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntelOpfor
-  name: ent-RMCComputerIntelOpfor
-  description: ent-RMCComputerIntelOpfor-desc
+  name: opfor intel computer
+  description: An OpFor Intel Computer for data cataloguing and distribution.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntelCLF
-  name: ent-RMCComputerIntelCLF
-  description: ent-RMCComputerIntelCLF-desc
+  name: CLF intel computer
+  description: A CLF Intel Computer for data cataloguing and distribution.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -217,7 +217,7 @@
 
 - type: entity
   id: RMCIntelTechTree
-  name: ent-RMCIntelTechTree
+  name: intel tech tree
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -408,7 +408,7 @@
 - type: entity
   parent: RMCIntelPaperScrap
   id: RMCIntelDebug
-  suffix: ent-RMCIntelDebug-suffix
+  suffix: DEBUG, DO NOT MAP
   components:
   - type: IntelReadObjective
     state: Active
@@ -417,8 +417,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsoleGovfor
-  name: ent-RMCTechTreeConsoleGovfor
-  description: ent-RMCTechTreeConsoleGovfor-desc
+  name: govfor tech tree console
+  description: A GovFor tech console used to make tech purchases for GovFor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -440,8 +440,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsoleOpfor
-  name: ent-RMCTechTreeConsoleOpfor
-  description: ent-RMCTechTreeConsoleOpfor-desc
+  name: opfor tech tree console
+  description: An OpFor tech console used to make tech purchases for OpFor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsoleCLF
-  name: ent-RMCTechTreeConsoleCLF
-  description: ent-RMCTechTreeConsoleCLF-desc
+  name: CLF tech tree console
+  description: A CLF tech console used to make tech purchases for CLF.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -502,7 +502,7 @@
 - type: entity
   id: RMCIntelTechTree_opfor
   parent: RMCIntelTechTree
-  name: ent-RMCIntelTechTree_opfor
+  name: intel tech tree (OpFor)
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -537,7 +537,7 @@
 - type: entity
   id: RMCIntelTechTree_ua
   parent: RMCIntelTechTree
-  name: ent-RMCIntelTechTree_ua
+  name: intel tech tree (UA)
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -647,7 +647,7 @@
 - type: entity
   id: RMCIntelTechTree_govfor
   parent: RMCIntelTechTree
-  name: ent-RMCIntelTechTree_govfor
+  name: intel tech tree (GovFor)
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -695,7 +695,7 @@
 - type: entity
   id: RMCIntelTechTree_clf
   parent: RMCIntelTechTree
-  name: ent-RMCIntelTechTree_clf
+  name: intel tech tree (CLF)
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree

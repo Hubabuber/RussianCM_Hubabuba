@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14UPPGROMRifleman
-  name: job-au14uppgromrifleman-name
-  description: job-au14uppgromrifleman-desc
+  name: au14-job-name-govforsquadrifleman
+  description: au14-uppgrom-description
   playTimeTracker: AU14JobUPPGROMRifleman
   ranks:
     UPP_StaffSergeant:
@@ -14,12 +14,12 @@
       role: AU14JobUPPGROMRifleman
       time: 18000 #5 hours
     UPP_Plutonowy: []
-  spawnMenuRoleName: job-au14uppgromrifleman-spawnmenurolename
+  spawnMenuRoleName: UPP GROM Rifleman (Survivor)
   startingGear: AU14GearUPPGROMRifleman
   greeting: au14-uppgrom-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: job-au14uppgromrifleman-supervisors
+  supervisors: au-14-job-name-uppgrom-squadleader
   accessGroups:
   - AU14GovforCommand
   special:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMRifleman
-  name: ent-AU14JobUPPGROMRifleman
+  name: UPP GROM Rifleman
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

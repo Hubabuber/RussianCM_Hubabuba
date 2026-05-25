@@ -1,332 +1,339 @@
 ent-RMCERTShuttleWallNightmareSPPEngineRight02 = Кошмарный двигатель шаттла SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Кошмарный двигатель шаттла SPP
+
 ent-RMCERTShuttleWallNightmareSPPEngineRight01 = Кошмарный двигатель шаттла SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Кошмарный двигатель шаттла SPP
+
 ent-RMCERTShuttleWallNightmareSPPEngineLeft02 = Кошмарный двигатель шаттла SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Кошмарный двигатель шаттла SPP
+
 ent-RMCERTShuttleWallNightmareSPPEngineLeft01 = Кошмарный двигатель шаттла SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Кошмарный двигатель шаттла SPP
+
 ent-RMCERTShuttleWallNightmareSPP = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
+
 ent-RMCERTShuttleWallTSEEngineRight = Двигатель челнока TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Двигатель челнока TSE
+
 ent-RMCERTShuttleWallTSEEngineLeft = Двигатель челнока TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Двигатель челнока TSE
+
 ent-RMCERTShuttleWallTSE = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
+
 ent-RMCERTShuttleWallSPPEngineRight = Двигатель челнока СПП
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Двигатель челнока СПП
+
 ent-RMCERTShuttleWallSPPEngineLeft = Двигатель челнока СПП
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Двигатель челнока СПП
+
 ent-RMCERTShuttleWallSPP = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
+
 ent-RMCERTShuttleWallWeYaEngineRight = Двигатель шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Двигатель шаттла WeYa
+
 ent-RMCERTShuttleWallWeYaEngineLeft = Двигатель шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Двигатель шаттла WeYa
+
 ent-RMCERTShuttleWallWeYa = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
+
 ent-RMCERTShuttleWallStandardEngineRight = Стандартный челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стандартный челночный двигатель
+
 ent-RMCERTShuttleWallStandardEngineLeft = Стандартный челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стандартный челночный двигатель
+
 ent-RMCERTShuttleWallStandard = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
+
 ent-RMCBaseERTShuttleEngine = Челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
+
 ent-RMCBaseERTShuttleWall = Стена шаттла ERT
   .desc = Огромный кусок металла, используемый для разделения комнат.
+
 ent-RMCERTShuttleEngineLeft01 = Челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Челночный двигатель
+
 ent-RMCERTShuttleEngineLeft02 = Челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Челночный двигатель
+
 ent-RMCERTShuttleEngineLeft03 = Челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Челночный двигатель
+
 ent-RMCERTShuttleEngineRight01 = Челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Челночный двигатель
+
 ent-RMCERTShuttleEngineRight02 = Челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Челночный двигатель
+
 ent-RMCERTShuttleEngineRight03 = Челночный двигатель
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Челночный двигатель
+
 ent-RMCERTShuttleWallStandard01 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 01
+
 ent-RMCERTShuttleWallStandard02 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 02
+
 ent-RMCERTShuttleWallStandard03 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 03
+
 ent-RMCERTShuttleWallStandard04 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 04
+
 ent-RMCERTShuttleWallStandard05 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 05
+
 ent-RMCERTShuttleWallStandard06 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 06
+
 ent-RMCERTShuttleWallStandard07 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 07
+
 ent-RMCERTShuttleWallStandard08 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стандартная челночная стена
+
 ent-RMCERTShuttleWallStandard09 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стандартная челночная стена
+
 ent-RMCERTShuttleWallStandard10 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 10
+
 ent-RMCERTShuttleWallStandard11 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 11
+
 ent-RMCERTShuttleWallStandard12 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 12
+
 ent-RMCERTShuttleWallStandard13 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 13
+
 ent-RMCERTShuttleWallStandard14 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 14
+
 ent-RMCERTShuttleWallStandard15 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 15
+
 ent-RMCERTShuttleWallStandard16 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 16
+
 ent-RMCERTShuttleWallStandard17 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 17
+
 ent-RMCERTShuttleWallStandard18 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 18
+
 ent-RMCERTShuttleWallStandard19 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 19
+
 ent-RMCERTShuttleWallStandard20 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 20
+
 ent-RMCERTShuttleWallStandard21 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 21
+
 ent-RMCERTShuttleWallStandard22 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 22
+
 ent-RMCERTShuttleWallStandard23 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 23
+
 ent-RMCERTShuttleWallStandard24 = Стандартная челночная стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 24
+
 ent-RMCERTShuttleWallWeYa01 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 01
+
 ent-RMCERTShuttleWallWeYa02 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 02
+
 ent-RMCERTShuttleWallWeYa03 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 03
+
 ent-RMCERTShuttleWallWeYa04 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 04
+
 ent-RMCERTShuttleWallWeYa05 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 05
+
 ent-RMCERTShuttleWallWeYa06 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 06
+
 ent-RMCERTShuttleWallWeYa07 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 07
+
 ent-RMCERTShuttleWallWeYa08 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стена шаттла WeYa
+
 ent-RMCERTShuttleWallWeYa09 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стена шаттла WeYa
+
 ent-RMCERTShuttleWallWeYa10 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 10
+
 ent-RMCERTShuttleWallWeYa11 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 11
+
 ent-RMCERTShuttleWallWeYa12 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 12
+
 ent-RMCERTShuttleWallWeYa13 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 13
+
 ent-RMCERTShuttleWallWeYa14 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 14
+
 ent-RMCERTShuttleWallWeYa15 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 15
+
 ent-RMCERTShuttleWallWeYa16 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 16
+
 ent-RMCERTShuttleWallWeYa17 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 17
+
 ent-RMCERTShuttleWallWeYa18 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 18
+
 ent-RMCERTShuttleWallWeYa19 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 19
+
 ent-RMCERTShuttleWallWeYa20 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 20
+
 ent-RMCERTShuttleWallWeYa21 = Стена шаттла WeYa
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 21
+
 ent-RMCERTShuttleWallSPP01 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 01
+
 ent-RMCERTShuttleWallSPP02 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 02
+
 ent-RMCERTShuttleWallSPP03 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 03
+
 ent-RMCERTShuttleWallSPP04 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 04
+
 ent-RMCERTShuttleWallSPP05 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 05
+
 ent-RMCERTShuttleWallSPP06 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 06
+
 ent-RMCERTShuttleWallSPP07 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 07
+
 ent-RMCERTShuttleWallSPP08 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = СЭС Челночная Стена
+
 ent-RMCERTShuttleWallSPP09 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = СЭС Челночная Стена
+
 ent-RMCERTShuttleWallSPP10 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 10
+
 ent-RMCERTShuttleWallSPP11 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 11
+
 ent-RMCERTShuttleWallSPP12 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 12
+
 ent-RMCERTShuttleWallSPP13 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 13
+
 ent-RMCERTShuttleWallSPP14 = СЭС Челночная Стена
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 14
+
 ent-RMCERTShuttleWallTSE01 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 01
+
 ent-RMCERTShuttleWallTSE02 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 02
+
 ent-RMCERTShuttleWallTSE03 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 03
+
 ent-RMCERTShuttleWallTSE04 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 04
+
 ent-RMCERTShuttleWallTSE05 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 05
+
 ent-RMCERTShuttleWallTSE06 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 06
+
 ent-RMCERTShuttleWallTSE07 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 07
+
 ent-RMCERTShuttleWallTSE08 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стена-челнок TSE
+
 ent-RMCERTShuttleWallTSE09 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стена-челнок TSE
+
 ent-RMCERTShuttleWallTSE10 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 10
+
 ent-RMCERTShuttleWallTSE11 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 11
+
 ent-RMCERTShuttleWallTSE12 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 12
+
 ent-RMCERTShuttleWallTSE13 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 13
+
 ent-RMCERTShuttleWallTSE14 = Стена-челнок TSE
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 14
+
 ent-RMCERTShuttleWallNightmareSPP01 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 01
+
 ent-RMCERTShuttleWallNightmareSPP02 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 02
+
 ent-RMCERTShuttleWallNightmareSPP03 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 03
+
 ent-RMCERTShuttleWallNightmareSPP04 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 04
+
 ent-RMCERTShuttleWallNightmareSPP05 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 05
+
 ent-RMCERTShuttleWallNightmareSPP06 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 06
+
 ent-RMCERTShuttleWallNightmareSPP07 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 07
+
 ent-RMCERTShuttleWallNightmareSPP08 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стена шаттла Nightmare SPP
+
 ent-RMCERTShuttleWallNightmareSPP09 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = Стена шаттла Nightmare SPP
+
 ent-RMCERTShuttleWallNightmareSPP10 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 10
+
 ent-RMCERTShuttleWallNightmareSPP11 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 11
+
 ent-RMCERTShuttleWallNightmareSPP12 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 12
+
 ent-RMCERTShuttleWallNightmareSPP13 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 13
+
 ent-RMCERTShuttleWallNightmareSPP14 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 14
+
 ent-RMCERTShuttleWallNightmareSPP15 = Стена шаттла Nightmare SPP
   .desc = Огромный кусок металла, используемый для разделения комнат.
-    .suffix = 15
+

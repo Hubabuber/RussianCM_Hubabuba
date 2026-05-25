@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: MarkerBase
   id: RMCDropshipDoorBlocker
-  name: ent-RMCDropshipDoorBlocker
-  description: ent-RMCDropshipDoorBlocker-desc
+  name: dropship door blocker
+  description: Blocks barricades from being pulled into the dropship.
   components:
   - type: Transform
     anchored: true
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCUtilityAttachmentPoint
-  name: ent-RMCUtilityAttachmentPoint
-  description: ent-RMCUtilityAttachmentPoint-desc
+  name: utility attach point
+  description: An attachment point for utility systems
   components:
   - type: GuideHelp
     guides:
@@ -53,8 +53,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCEngineAttachmentPoint
-  name: ent-RMCEngineAttachmentPoint
-  description: ent-RMCEngineAttachmentPoint-desc
+  name: engine system attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   components:
   - type: GuideHelp
     guides:
@@ -94,8 +94,8 @@
   parent: CMBaseStructureCorrodible
   id: RMCElectronicSystemAttachPoint
   categories: [ HideSpawnMenu ]
-  name: ent-RMCElectronicSystemAttachPoint
-  description: ent-RMCElectronicSystemAttachPoint-desc
+  name: electronic system attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   components:
   - type: InteractionOutline
   - type: Clickable

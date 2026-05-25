@@ -1,11 +1,11 @@
 - type: job
   parent: AU14JobSquadCombatTechBase
   id: AU14JobGOVFORSquadCombatTech
-  name: job-au14jobgovforsquadcombattech-name
-  description: job-au14jobgovforsquadcombattech-desc
+  name: au14-job-name-govforsquadcombattech
+  description: au14-job-description-govforsquadcombattech
   setPreference: true
   overwatchSortPriority: -5
-  overwatchRoleName: job-au14jobgovforsquadcombattech-overwatchrolename
+  overwatchRoleName: au14-job-name-govforsquadcombattech
   requirements:
   - !type:TraitsRequirement
     inverted: true
@@ -30,9 +30,9 @@
   dummyStartingGear: AU14GearGOVFORCTDummy
   icon: "AU14JobIconGovCT"
   requireAdminNotify: false
-  spawnMenuRoleName: job-au14jobgovforsquadcombattech-spawnmenurolename
+  spawnMenuRoleName: Combat Tech (GOVFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovforsquadcombattech-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforEngineer
   hasIcon: true
@@ -70,7 +70,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadCombatTech
-  name: ent-AU14SpawnPointGOVFORSquadCombatTech
+  name: Spawn Point GOVFOR Comtech
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadCombatTech

@@ -3,14 +3,14 @@
 - type: material
   id: CMGlass
   stackEntity: CMSheetGlass
-  name: material-cmglass-name
+  name: materials-glass
   icon: { sprite: _RMC14/Objects/Materials/Sheets/glass.rsi, state: glass }
   color: "#a8ccd7"
   price: 0.002
 
 - type: stack
   id: CMGlass
-  name: stack-cmglass-name
+  name: glass
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/glass.rsi, state: glass }
   spawn: CMSheetGlass
   maxCount: 50
@@ -72,9 +72,9 @@
 - type: entity
   parent: CMSheetGlassBase
   id: CMSheetGlass
-  name: ent-CMSheetGlass
-  description: ent-CMSheetGlass-desc
-  suffix: ent-CMSheetGlass-suffix
+  name: glass
+  description: Glass is a non-crystalline solid, made out of silicate, the primary constituent of sand. It is valued for its transparency, albeit it is not too resistant to damage.
+  suffix: Filled
   components:
   - type: RMCConstructionItem
     buildable:
@@ -108,7 +108,7 @@
 - type: entity
   parent: CMSheetGlass
   id: CMSheetGlass10
-  suffix: "ent-CMSheetGlass10-suffix"
+  suffix: "10"
   components:
    - type: Sprite
      state: glass_2
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMSheetGlass
   id: CMSheetGlass25
-  suffix: "ent-CMSheetGlass25-suffix"
+  suffix: "25"
   components:
    - type: Sprite
      state: glass_2
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMSheetGlass
   id: CMSheetGlass30
-  suffix: "ent-CMSheetGlass30-suffix"
+  suffix: "30"
   components:
   - type: Sprite
     state: glass_3
@@ -141,7 +141,7 @@
 - type: entity
   parent: CMSheetGlass
   id: CMSheetGlass1
-  suffix: ent-CMSheetGlass1-suffix
+  suffix: Single
   components:
   - type: Sprite
     state: glass
@@ -155,14 +155,14 @@
 - type: material
   id: CMReinforcedGlass
   stackEntity: CMSheetGlassReinforced
-  name: material-cmreinforcedglass-name
+  name: materials-reinforced-glass
   icon: { sprite: _RMC14/Objects/Materials/Sheets/reinf_glass.rsi, state: rglass }
   color: "#549bb0"
   price: 0.00284
 
 - type: stack
   id: CMGlassReinforced
-  name: stack-cmglassreinforced-name
+  name: reinforced glass
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/reinf_glass.rsi, state: rglass }
   spawn: CMSheetGlassReinforced
   maxCount: 50
@@ -170,9 +170,9 @@
 - type: entity
   parent: CMSheetGlassBase
   id: CMSheetGlassReinforced
-  name: ent-CMSheetGlassReinforced
-  description: ent-CMSheetGlassReinforced-desc
-  suffix: ent-CMSheetGlassReinforced-suffix
+  name: reinforced glass
+  description: A sheet of reinforced glass.
+  suffix: Filled
   components:
   - type: RMCConstructionItem
     buildable:
@@ -218,7 +218,7 @@
 - type: entity
   parent: CMSheetGlassReinforced
   id: CMSheetGlassReinforced10
-  suffix: "ent-CMSheetGlassReinforced10-suffix"
+  suffix: "10"
   components:
   - type: Sprite
     state: rglass_2
@@ -229,7 +229,7 @@
 - type: entity
   parent: CMSheetGlassReinforced
   id: CMSheetGlassReinforced30
-  suffix: "ent-CMSheetGlassReinforced30-suffix"
+  suffix: "30"
   components:
   - type: Sprite
     state: rglass_3
@@ -240,7 +240,7 @@
 - type: entity
   parent: CMSheetGlassReinforced
   id: CMSheetGlassReinforced1
-  suffix: "ent-CMSheetGlassReinforced1-suffix"
+  suffix: "1"
   components:
   - type: Sprite
     state: rglass
@@ -254,14 +254,14 @@
 - type: material
   id: CMPhoronGlass
   stackEntity: CMSheetGlassPhoron
-  name: material-cmphoronglass-name
+  name: materials-phoron-glass
   icon: { sprite: _RMC14/Objects/Materials/Sheets/phoron_glass.rsi, state: phoronglass }
   color: "#b35989"
   price: 0.004
 
 - type: stack
   id: CMGlassPhoron
-  name: stack-cmglassphoron-name
+  name: phoron glass
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/phoron_glass.rsi, state: phoronglass }
   spawn: CMSheetGlassPhoron
   maxCount: 50
@@ -269,9 +269,9 @@
 - type: entity
   parent: CMSheetGlassBase
   id: CMSheetGlassPhoron
-  name: ent-CMSheetGlassPhoron
-  description: ent-CMSheetGlassPhoron-desc
-  suffix: ent-CMSheetGlassPhoron-suffix
+  name: phoron glass
+  description: Phoron glass is a silicate-phoron alloy turned into a non-crystalline solid. It is transparent just like glass, even if visibly tainted pink, and very resistant to damage and heat.
+  suffix: Filled
   components:
   - type: Material
   - type: PhysicalComposition
@@ -303,7 +303,7 @@
 - type: entity
   parent: CMSheetGlassPhoron
   id: CMSheetGlassPhoron10
-  suffix: "ent-CMSheetGlassPhoron10-suffix"
+  suffix: "10"
   components:
   - type: Sprite
     state: phoronglass_2
@@ -314,7 +314,7 @@
 - type: entity
   parent: CMSheetGlassPhoron
   id: CMSheetGlassPhoron30
-  suffix: "ent-CMSheetGlassPhoron30-suffix"
+  suffix: "30"
   components:
   - type: Sprite
     state: phoronglass_3
@@ -325,7 +325,7 @@
 - type: entity
   parent: CMSheetGlassPhoron
   id: CMSheetGlassPhoron1
-  suffix: "ent-CMSheetGlassPhoron1-suffix"
+  suffix: "1"
   components:
   - type: Sprite
     state: phoronglass
@@ -339,14 +339,14 @@
 - type: material
   id: CMPhoronGlassReinforced
   stackEntity: CMSheetGlassPhoronReinforced
-  name: material-cmphoronglassreinforced-name
+  name: materials-reinforced-phoron-glass
   icon: { sprite: _RMC14/Objects/Materials/Sheets/phoron_reinf_glass.rsi, state: phoronrglass }
   color: "#8c4069"
   price: 0.00426
 
 - type: stack
   id: CMGlassPhoronReinforced
-  name: stack-cmglassphoronreinforced-name
+  name: reinforced phoron glass
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/phoron_reinf_glass.rsi, state: phoronrglass }
   spawn: CMSheetGlassPhoronReinforced
   maxCount: 50
@@ -354,9 +354,9 @@
 - type: entity
   parent: CMSheetGlassBase
   id: CMSheetGlassPhoronReinforced
-  name: ent-CMSheetGlassPhoronReinforced
-  description: ent-CMSheetGlassPhoronReinforced-desc
-  suffix: ent-CMSheetGlassPhoronReinforced-suffix
+  name: reinforced phoron glass
+  description: A sheet of reinforced phoron glass.
+  suffix: Filled
   components:
   - type: Material
   - type: PhysicalComposition
@@ -389,7 +389,7 @@
 - type: entity
   parent: CMSheetGlassPhoronReinforced
   id: CMSheetGlassPhoronReinforced10
-  suffix: "ent-CMSheetGlassPhoronReinforced10-suffix"
+  suffix: "10"
   components:
   - type: Sprite
     state: phoronrglass_2
@@ -400,7 +400,7 @@
 - type: entity
   parent: CMSheetGlassPhoronReinforced
   id: CMSheetGlassPhoronReinforced30
-  suffix: "ent-CMSheetGlassPhoronReinforced30-suffix"
+  suffix: "30"
   components:
   - type: Sprite
     state: phoronrglass_3
@@ -411,7 +411,7 @@
 - type: entity
   parent: CMSheetGlassPhoronReinforced
   id: CMSheetGlassPhoronReinforced1
-  suffix: "ent-CMSheetGlassPhoronReinforced1-suffix"
+  suffix: "1"
   components:
   - type: Sprite
     state: phoronrglass

@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: ToolboxBase
   abstract: true
   id: RMCToolboxBase
@@ -29,7 +29,7 @@
       - Xeno
 
 - type: entity
-  name: ent-RMCToolboxEmergency
+  name: emergency toolbox
   parent: [RMCToolboxBase, ToolboxEmergency]
   id: RMCToolboxEmergency
   components:
@@ -38,7 +38,7 @@
     state: icon
   - type: Item
     sprite: _RMC14/Objects/Tools/Toolboxes/toolbox_red.rsi
-  suffix: ent-RMCToolboxEmergency-suffix
+  suffix: RMC14
 
 - type: entity
   parent: [RMCToolboxEmergency, ToolboxEmergencyFilled]
@@ -54,10 +54,10 @@
         orGroup: LightingItem
       - id: CMFlare
         orGroup: LightingItem
-  suffix: ent-RMCToolboxEmergencyFilled-suffix
+  suffix: RMC14, Filled
 
 - type: entity
-  name: ent-RMCToolboxElectrical
+  name: electrical toolbox
   parent: [RMCToolboxBase, ToolboxElectrical]
   id: RMCToolboxElectrical
   components:
@@ -66,7 +66,7 @@
     state: icon
   - type: Item
     sprite: _RMC14/Objects/Tools/Toolboxes/toolbox_yellow.rsi
-  suffix: ent-RMCToolboxElectrical-suffix
+  suffix: RMC14
 
 - type: entity
   parent: [RMCToolboxElectrical, ToolboxElectricalFilled]
@@ -84,10 +84,10 @@
         orGroup: GlovesOrWires
       - id: RMCCableCoil
         orGroup: GlovesOrWires
-  suffix: ent-RMCToolboxElectricalFilled-suffix
+  suffix: RMC14, Filled
 
 - type: entity
-  name: ent-RMCToolboxMechanical
+  name: mechanical toolbox
   parent: [RMCToolboxBase, ToolboxMechanical]
   id: RMCToolboxMechanical
   components:
@@ -96,7 +96,7 @@
     state: icon
   - type: Item
     sprite: _RMC14/Objects/Tools/Toolboxes/toolbox_blue.rsi
-  suffix: ent-RMCToolboxMechanical-suffix
+  suffix: RMC14
 
 - type: entity
   parent: [RMCToolboxMechanical, ToolboxMechanicalFilled]
@@ -109,7 +109,7 @@
       - id: CMWelder
       - id: CMWirecutter
       - id: CMScrewdriver
-  suffix: ent-RMCToolboxMechanicalFilled-suffix
+  suffix: RMC14, Filled
 
 - type: entity
   parent: RMCToolboxMechanical
@@ -120,16 +120,16 @@
     state: icon
   - type: Item
     sprite: _RMC14/Objects/Tools/Toolboxes/toolbox_green.rsi
-  suffix: ent-RMCToolboxMechanicalGreen-suffix
+  suffix: RMC14, Green
 
 - type: entity
   parent: [RMCToolboxMechanicalGreen, RMCToolboxMechanicalFilled]
   id: RMCToolboxMechanicalGreenFilled
-  suffix: ent-RMCToolboxMechanicalGreenFilled-suffix
+  suffix: RMC14, Filled, Green
 
 - type: entity
-  name: ent-RMCToolboxSyndicate
-  description: ent-RMCToolboxSyndicate-desc
+  name: suspicious toolbox
+  description: A compact and suspicious looking toolbox. This one is small enough to fit into a bag.
   parent: RMCToolboxBase
   id: RMCToolboxSyndicate
   components:
@@ -139,7 +139,7 @@
   - type: Item
     sprite: _RMC14/Objects/Tools/Toolboxes/toolbox_syndi.rsi
     size: Normal # same size as grenade packet
-  suffix: ent-RMCToolboxSyndicate-suffix
+  suffix: RMC14
 
 - type: entity
   parent: RMCToolboxSyndicate
@@ -155,4 +155,4 @@
       - id: RMCCableCoil
       - id: CMMultitool
       # - id: RMCCodeSpeakPamphlet
-  suffix: ent-RMCToolboxSyndicateFilled-suffix
+  suffix: RMC14, Filled

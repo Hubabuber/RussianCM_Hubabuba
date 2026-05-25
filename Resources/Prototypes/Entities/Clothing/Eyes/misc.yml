@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesBlindfold
-  name: ent-ClothingEyesBlindfold
-  description: ent-ClothingEyesBlindfold-desc
+  name: blindfold
+  description: The bind leading the blind.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/blindfold.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingHeadEyeBaseFlippable
   id: ClothingEyesEyepatch
-  name: ent-ClothingEyesEyepatch
-  description: ent-ClothingEyesEyepatch-desc
+  name: eyepatch
+  description: Yarr.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/eyepatch.rsi
@@ -32,4 +32,4 @@
 - type: entity
   parent: [ClothingEyesEyepatch, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchFlipped
-  suffix: ent-ClothingEyesEyepatchFlipped-suffix
+  suffix: flipped

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWallXeno
   id: WallXenoResin
-  name: ent-WallXenoResin
-  description: ent-WallXenoResin-desc
+  name: resin wall
+  description: Weird slime solidified into a wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: WallXenoResin
   id: WallXenoResinThick
-  name: ent-WallXenoResinThick
-  description: ent-WallXenoResinThick-desc
+  name: thick resin wall
+  description: Weird slime solidified into a thick wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMBaseWallXeno
   id: BaseMembraneXeno
-  name: ent-BaseMembraneXeno
+  name: resin membrane
   abstract: true
   components:
   - type: Destructible
@@ -125,8 +125,8 @@
 - type: entity
   parent: BaseMembraneXeno
   id: WallXenoMembrane
-  name: ent-WallXenoMembrane
-  description: ent-WallXenoMembrane-desc
+  name: resin membrane
+  description: Weird slime translucent enough to let light pass through.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: BaseMembraneXeno
   id: WallXenoMembraneThick
-  name: ent-WallXenoMembraneThick
-  description: ent-WallXenoMembraneThick-desc
+  name: thick resin membrane
+  description: Weird thick slime just translucent enough to let light pass through.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: WallXenoResin
   id: WallXenoResinWeak
-  name: ent-WallXenoResinWeak
-  description: ent-WallXenoResinWeak-desc
+  name: weak resin wall
+  description: Weird slime solidified into a wall. It already looks on the verge of collapsing...
   components:
   - type: Destructible
     thresholds:
@@ -200,8 +200,8 @@
 - type: entity
   parent: WallXenoResin
   id: WallXenoResinWeedbound
-  name: ent-WallXenoResinWeedbound
-  description: ent-WallXenoResinWeedbound-desc
+  name: weedbound resin wall
+  description: Weird slime solidified into a wall, bound to weeds.
   components:
   - type: GuideHelp
     guides:
@@ -222,8 +222,8 @@
 - type: entity
   parent: WallXenoResinThick
   id: WallXenoResinThickWeedbound
-  name: ent-WallXenoResinThickWeedbound
-  description: ent-WallXenoResinThickWeedbound-desc
+  name: thick weedbound resin wall
+  description: Weird slime solidified into a thick wall, bound to weeds.
   components:
   - type: GuideHelp
     guides:
@@ -243,8 +243,8 @@
 - type: entity
   parent: WallXenoResinThick
   id: WallXenoResinThickSurge
-  name: ent-WallXenoResinThickSurge
-  description: ent-WallXenoResinThickSurge-desc
+  name: Unstable resin wall
+  description: A hastily-constructed resin wall. It won't last long.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

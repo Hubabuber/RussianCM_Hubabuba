@@ -1,14 +1,14 @@
 ent-RMCRandomHumanoidAlphaWeaponsSpecialist = специалист по оружию в роли альфа-призрака
-    .suffix = специалист по оружию в роли альфа-призрака
+
 ent-RMCRandomHumanoidAlphaSquadLeader = лидер отряда в роли альфа-призрака
-    .suffix = лидер отряда в роли альфа-призрака
+
 ent-RMCRandomHumanoidAlphaSmartGunOperator = роль альфа-призрака, оператор умного оружия
-    .suffix = роль альфа-призрака, оператор умного оружия
+
 ent-RMCRandomHumanoidAlphaRifleman = роль альфа-призрака стрелок
-    .suffix = роль альфа-призрака стрелок
+
 ent-RMCRandomHumanoidAlphaHospitalCorpsman = роль альфа-призрака, санитар больницы
-    .suffix = роль альфа-призрака, санитар больницы
+
 ent-RMCRandomHumanoidAlphaFireteamLeader = роль альфа-призрака, командир боевой группы
-    .suffix = роль альфа-призрака, командир боевой группы
+
 ent-RMCRandomHumanoidAlphaCombatTech = Боевой техник в роли альфа-призрака
-    .suffix = Боевой техник в роли альфа-призрака
+

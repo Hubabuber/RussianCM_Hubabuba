@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmyTankGunner
-  name: job-au14usarmytankgunner-name
-  description: job-au14usarmytankgunner-desc
+  name: au14-job-name-usarmy-tankgunner
+  description: au14-job-description-usarmy-tankccrew
   playTimeTracker: AU14JobUSArmyTankGunner
   ranks:
     USArmy_StaffSergeant:
@@ -10,12 +10,12 @@
       role: AU14JobUSArmyTankGunner
       time: 18000 #5 hours
     USArmy_Sergeant: []
-  spawnMenuRoleName: job-au14usarmytankgunner-spawnmenurolename
+  spawnMenuRoleName: US Army Tank Gunner (AU14, 3rd Party)
   startingGear: AU14GearUSArmyTankGunner
   greeting: au14-usarmy-tank-greeting
   icon: "AU14JobIconTankCrewman"
   joinNotifyCrew: false
-  supervisors: job-au14usarmytankgunner-supervisors
+  supervisors: au14-job-name-usarmy-tankcommander
   accessGroups:
   - AU14GovforSquad
   special:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTankGunner
-  name: ent-AU14JobUSArmyTankGunner
+  name: US Army Tank Gunner
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

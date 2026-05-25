@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: BaseItem
   id: CMShardBase
   abstract: true
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMShardBase
   id: CMShardGlass
-  name: ent-CMShardGlass
-  description: ent-CMShardGlass-desc
+  name: glass shard
+  description: A shard of broken glass. Could probably be used as ... a throwing weapon?
   components:
   - type: ToolRefinable
     refineResult:
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMShardBase
   id: RMCShardIce
-  name: ent-RMCShardIce
-  description: ent-RMCShardIce-desc
+  name: ice shard
+  description: A shard of ice. Could probably be used as ... a throwing weapon?
   components:
   - type: Tag
     tags:
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMShardBase
   id: CMShardPhoron
-  name: ent-CMShardPhoron
-  description: ent-CMShardPhoron-desc
+  name: phoron shard
+  description: A shard of broken phoron glass. Considerably tougher than normal glass shards. Apparently not tough enough to be a window.
   components:
   - type: Sprite
     layers:

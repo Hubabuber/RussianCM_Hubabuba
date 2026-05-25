@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: CMTelecomServer
-  name: ent-CMTelecomServer
-  description: ent-CMTelecomServer-desc
+  name: telecommunication server
+  description: When powered and filled with encryption keys it allows radio headset communication.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/telecomms.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMTelecomServer
   id: CMTelecomServerFilled
-  suffix: ent-CMTelecomServerFilled-suffix
+  suffix: Filled
   components:
   - type: ContainerFill
     containers:

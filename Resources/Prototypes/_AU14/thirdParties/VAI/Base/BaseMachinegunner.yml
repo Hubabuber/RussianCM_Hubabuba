@@ -1,16 +1,16 @@
 - type: job
   parent: CMJobBase
   id: AU14VAIMachinegunnerBase
-  name: job-au14vaimachinegunnerbase-name
-  description: job-au14vaimachinegunnerbase-desc
+  name: au14-job-name-vai-machinegunner
+  description: au14-vai-mercenary-description
   ranks:
     VAI_Mercenary: []
   icon: "CMJobIconEmpty"
   playTimeTracker: AU14VAIMachinegunner
-  spawnMenuRoleName: job-au14vaimachinegunnerbase-spawnmenurolename
+  spawnMenuRoleName: VAI Machinegunner (Base)
   joinNotifyCrew: false
   hasIcon: false
-  supervisors: job-au14vaimachinegunnerbase-supervisors
+  supervisors: au14-job-name-vai-teamleader
   special:
   - !type:AddComponentSpecial
     components:
@@ -41,7 +41,7 @@
 
 - type: entity
   id: AU14VAIMGPreset
-  name: ent-AU14VAIMGPreset
+  name: vai mg preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

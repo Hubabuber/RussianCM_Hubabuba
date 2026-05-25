@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxPistol
-  name: ent-BaseMagazineBoxPistol
+  name: ammunition box (.35 auto)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistol
-  name: ent-MagazineBoxPistol
-  description: ent-MagazineBoxPistol-desc
+  name: ammunition box (.35 auto)
+  description: A cardboard box of .35 auto rounds. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolPractice
-  name: ent-MagazineBoxPistolPractice
-  description: ent-MagazineBoxPistolPractice-desc
+  name: ammunition box (.35 auto practice)
+  description: A cardboard box of .35 auto rounds. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -59,8 +59,8 @@
 - type: entity
   id: MagazineBoxPistolIncendiary
   parent: BaseMagazineBoxPistol
-  name: ent-MagazineBoxPistolIncendiary
-  description: ent-MagazineBoxPistolIncendiary-desc
+  name: ammunition box (.35 auto incendiary)
+  description: A cardboard box of .35 auto rounds. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -75,8 +75,8 @@
 - type: entity
   id: MagazineBoxPistolUranium
   parent: BaseMagazineBoxPistol
-  name: ent-MagazineBoxPistolUranium
-  description: ent-MagazineBoxPistolUranium-desc
+  name: ammunition box (.35 auto uranium)
+  description: A cardboard box of .35 auto rounds. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium

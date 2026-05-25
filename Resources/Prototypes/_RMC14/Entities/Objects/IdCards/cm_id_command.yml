@@ -1,7 +1,7 @@
-- type: entity
+﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardStaffOfficer
-  name: ent-CMIDCardStaffOfficer
+  name: staff officer ID card
   components:
   - type: PresetIdCard
     job: CMStaffOfficer
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardPlatoonCommander
-  name: ent-RMCIDCardPlatoonCommander
+  name: platoon commander ID card
   components:
   - type: PresetIdCard
     job: CMPVEPlatoonCommander
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardGold
   id: CMIDCardCommandingOfficer
-  name: ent-CMIDCardCommandingOfficer
+  name: commanding officer ID card
   components:
   - type: PresetIdCard
     job: CMCommandingOfficer
@@ -25,8 +25,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardCommandingOfficerPlus
-  name: ent-RMCIDCardCommandingOfficerPlus
-  description: ent-RMCIDCardCommandingOfficerPlus-desc
+  name: commanding officer ID card
+  description: Top brass of the top brass. Issued to only the most dedicated.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/general.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardExecutiveOfficer
-  name: ent-CMIDCardExecutiveOfficer
+  name: executive officer ID card
   components:
   - type: PresetIdCard
     job: CMExecutiveOfficer
@@ -49,9 +49,9 @@
 - type: entity
   parent: IDCardStandard # Deliberately parenting off of upstream ID card cause it needs to work with admin access configurator.
   id: CMIDCardHighCommand
-  name: ent-CMIDCardHighCommand
-  suffix: ent-CMIDCardHighCommand-suffix
-  description: ent-CMIDCardHighCommand-desc
+  name: general officer ID card
+  suffix: Admin
+  description: Top brass of the top brass. Issued to only the most dedicated.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/general.rsi
@@ -79,9 +79,9 @@
 - type: entity
   parent: IDCardStandard # Is more-or-less a copy of the admin ID due to being for High-Ranked Provost-Marshal types that should be only used by admins.
   id: CMIDCardProvostSectorMarshal
-  name: ent-CMIDCardProvostSectorMarshal
-  suffix: ent-CMIDCardProvostSectorMarshal-suffix
-  description: ent-CMIDCardProvostSectorMarshal-desc
+  name: Provost Sector Marshal ID card
+  suffix: Admin
+  description: Issued to members of the Provost Office.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

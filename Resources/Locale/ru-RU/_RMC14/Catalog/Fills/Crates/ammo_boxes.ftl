@@ -1,10 +1,5 @@
 ent-RMCCrateBoxAmmo458 = Ящик патронов .458 (300 шт.)
-    .desc = Ящик с боеприпасами.
 ent-RMCCrateBoxShellsShotgunBreaching = Ящик патронов (120 пробивных)
-    .desc = Ящик с боеприпасами.
 ent-RMCCrateBoxShellsShotgunFlechette = Ящик патронов (100 флешшет)
-    .desc = Ящик с боеприпасами.
 ent-RMCCrateBoxShellsShotgunBuckshot = Ящик патронов (100 картечи)
-    .desc = Ящик с боеприпасами.
 ent-RMCCrateBoxShellsShotgunSlugs = Ящик патронов (100 пуль)
-    .desc = Ящик с боеприпасами.

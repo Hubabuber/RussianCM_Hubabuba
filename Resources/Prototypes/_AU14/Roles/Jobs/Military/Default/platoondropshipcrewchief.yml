@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobDCCBase
   id: AU14JobGOVFORDCC
-  name: job-au14jobgovfordcc-name
-  description: job-au14jobgovfordcc-desc
+  name: au14-job-name-govfordcc
+  description: au14-job-description-govfordcc
   setPreference: true
   canBeAntag: false
   requirements:
@@ -29,9 +29,9 @@
   dummyStartingGear: AU14GearGOVFORDCCDummy
   icon: "AU14JobIconDCC"
   requireAdminNotify: true
-  spawnMenuRoleName: job-au14jobgovfordcc-spawnmenurolename
+  spawnMenuRoleName: Dropship Crew Chief (GOVFOR)
   joinNotifyCrew: false
-  supervisors: job-au14jobgovfordcc-supervisors
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - AU14GovforPilot
   - AU14GovforCorpsman
@@ -66,7 +66,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORDCC
-  name: ent-AU14SpawnPointGOVFORDCC
+  name: Spawn Point GOVFOR Dropship Crew Chief
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORDCC
