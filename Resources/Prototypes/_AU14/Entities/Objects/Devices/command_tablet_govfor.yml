@@ -1,0 +1,15 @@
+- type: entity
+  parent: RMCTabletCO
+  id: AU14TabletGovfor
+  name: ent-AU14TabletGovfor
+  description: ent-AU14TabletGovfor-desc
+  components:
+  - type: AccessReader
+    access: [[ "AU14AccessGovforCommand" ]]
+  - type: MarineCommunicationsComputer
+    canCreateEcho: false
+    canGiveMedals: true
+    canInitiateEvac: true
+    faction: govfor
+  - type: TacticalMapComputer
+    faction: govfor

@@ -57,6 +57,13 @@
 
 # ├─[ HEADSETS ]────────────────────────────────────────────────────┤
 - type: entity
+  parent: CMHeadset
+  id: AU14HeadsetColonist
+  abstract: true
+  components:
+  - type: GrantAreaInfo
+
+- type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyAdminHeadset
   name: ent-AU14ColonyAdminHeadset
@@ -81,7 +88,7 @@
       - AU14EncryptionKeyWEYU
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadset
   name: ent-AU14CMBHeadset
   description: ent-AU14CMBHeadset-desc
@@ -93,7 +100,7 @@
       - AU14EncryptionKeyCMB
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadsetOnlyCMB
   name: ent-AU14CMBHeadsetOnlyCMB
   description: ent-AU14CMBHeadsetOnlyCMB-desc
@@ -108,7 +115,7 @@
     state: cmb_headset
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetColonist
   id: AU14HeadsetWorkingJoe
   name: ent-AU14HeadsetWorkingJoe
   description: ent-AU14HeadsetWorkingJoe-desc

@@ -1,17 +1,10 @@
 - type: job
   parent: AU14JobLEOLeaderBase
   id: AU14JobInvestigationCMBMarshal
-  name: au14-job-name-civiliancmbmarshal
-  description: au14-job-description-civiliancmbmarshal
+  name: job-au14jobinvestigationcmbmarshal-name
+  description: job-au14jobinvestigationcmbmarshal-desc
   setPreference: false
   canBeAntag: false
-  requirements:
-  - !type:AgeRequirement
-    requiredAge: 25
-  - !type:TraitsRequirement
-    inverted: true
-    traits:
-    - Epilepsy
   ranks:
     AU14RankCMBMarshal: []
   startingGear: AU14GearCMBMarshalInvestigation
@@ -19,7 +12,7 @@
   spawnMenuRoleName: job-au14jobinvestigationcmbmarshal-spawnmenurolename
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-colonycivilian
+  supervisors: job-au14jobinvestigationcmbmarshal-supervisors
   accessGroups:
   - auadmin
   - aucmb
@@ -71,7 +64,7 @@
   parent: AU14BaseMobSpeciesOrganicCMB
   id: CMBInvestigationPartyJobMarshal
   name: ent-CMBInvestigationPartyJobMarshal
-  components:  
+  components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
   - type: GhostRole

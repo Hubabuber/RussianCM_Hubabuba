@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobMilitaryDoctorBase
   id: AU14JobOPFORMilitaryDoctor
-  name: au14-job-name-opforMilitaryDoctor
-  description: au14-job-description-opforMilitaryDoctor
+  name: job-au14jobopformilitarydoctor-name
+  description: job-au14jobopformilitarydoctor-desc
   setPreference: false
   requirements:
   - !type:AgeRequirement
@@ -24,7 +24,7 @@
   requireAdminNotify: true
   spawnMenuRoleName: job-au14jobopformilitarydoctor-spawnmenurolename
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-opfor
+  supervisors: job-au14jobopformilitarydoctor-supervisors
   accessGroups:
   - AU14OpforCorpsman
   - AU14OpforSquad
