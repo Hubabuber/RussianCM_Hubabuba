@@ -41,53 +41,30 @@ roles-antag-serialkiller-objective = Убивать и избегать поим
 roles-antag-category-colony = Антагонисты колонии
 roles-antag-category-prometheus = Антагонисты «Прометея»
 
-ent-AU14DrugDealerDrugBackpack = сумка торговца наркотиками
-    .desc = Черная сумка, наполненная запрещенными веществами.
+# Missing entries synced from en-US
 
-ent-AU14StrikeOrganizerBackpack = радиопакет органайзера
-    .desc = Радиотелефонный комплект, который несет профсоюз.
+roles-antag-clf-guerrilla-name = CLF Партизан
 
-ent-MindRoleCLFGuerrilla = Партизанская роль CLF
-    .desc = Ролевая сущность разума
+roles-antag-clf-guerrilla-greeting = Вы солдат Фронта освобождения колоний. Послушайте своего лидера ячейки о том, как лучше всего освободить колонию. Делайте все возможное, чтобы обеспечить суверенитет вашего дома.
 
-ent-MindRoleCLFLeader = Роль разума
-    .desc = Ролевая сущность разума
+roles-antag-clf-guerrilla-objective = Слушайтесь лидера своей ячейки. Сражайтесь, чтобы освободить свой дом от влияния правительств и корпораций.
 
-ent-MindRoleCLFPhysician = Роль разума
-    .desc = Ролевая сущность разума
+roles-antag-clf-physician-name = Врач CLF
 
-ent-MindRoleCLFRecruit = Роль рекрута CLF
-    .desc = Ролевая сущность разума
+roles-antag-clf-doctor-greeting = Вы врач Фронта освобождения колоний. Обеспечьте здоровье и благополучие других CLF, колонии и всех военнопленных.
 
-ent-MindRoleCLFSubvertedSynth = CLF Subverted синтетик Роль
-    .desc = Ролевая сущность разума
+roles-antag-clf-doctor-objective = Слушайтесь лидера своей ячейки. Обеспечьте здоровье и благополучие своей камеры, колонии и всех заключенных, которых вы захватили.
 
-ent-MindRoleCLFSurgeon = Роль разума
-    .desc = Ролевая сущность разума
+roles-antag-clf-surgeon-name = CLF Хирург
 
-ent-MindRoleCLFVeteran = Роль ветерана CLF
-    .desc = Ролевая сущность разума
+roles-antag-clf-leader-name = Лидер CLF
 
-ent-MindRoleCannibal = Роль каннибала
-    .desc = Ролевая сущность разума
+roles-antag-clf-leader-greeting = Вы командир этой ячейки Фронта освобождения колоний. Освободите свой дом любыми средствами.
 
-ent-MindRoleCorporateSpy = Роль корпоративного шпиона
-    .desc = Ролевая сущность разума
+roles-antag-clf-leader-objective = Приведите свою ячейку к победе. Освободите свой дом от влияния внешних правительств и корпораций любыми необходимыми средствами.
 
-ent-MindRoleCultist = Роль разума
-    .desc = Ролевая сущность разума
+roles-antag-cultist-name = Ксено-культист
 
-ent-MindRoleDrugDealer = Роль торговца наркотиками
-    .desc = Ролевая сущность разума
+roles-antag-cultist-greeting = Вы чувствуете, как в ваш разум проникает инопланетное присутствие. «Повинуйтесь этим словам. Помогите моим детям процветать, и вы заслужите место среди ангелов». это то, что вы слышите, когда ваш разум ломается. По мере реформирования вашего разума у ​​вас есть только одна цель: улей должен расти.
 
-ent-MindRoleFugitive = Роль беглеца
-    .desc = Ролевая сущность разума
-
-ent-MindRoleRunawaySynth = Беглый синтетик Роль
-    .desc = Ролевая сущность разума
-
-ent-MindRoleSerialKiller = Роль серийного убийцы
-    .desc = Ролевая сущность разума
-
-ent-MindRoleStrikeOrganizer = Роль организатора забастовки
-    .desc = Ролевая сущность разума
+roles-antag-cultist-objective = Слушайте команды Королевы Ксеноморфов. Обеспечьте выживание улья любой ценой.

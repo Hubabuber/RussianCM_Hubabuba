@@ -339,7 +339,17 @@ namespace Content.Client.ContextMenu.UI
             var entity = GetFirstEntityOrNull(element.SubMenu);
             if (entity == null)
             {
-                // This whole element has no associated entities. We should remove it
+                // RuMC edit start
+                // Remove all child entities from Elements before orphaning to maintain dictionary consistency
+                if (element.SubMenu?.MenuBody != null)
+                {
+                    foreach (var child in element.SubMenu.MenuBody.Children)
+                    {
+                        if (child is EntityMenuElement childElement && childElement.Entity != null)
+                            Elements.Remove(childElement.Entity.Value);
+                    }
+                }
+                // RuMC edit end
                 element.Orphan();
                 return;
             }
