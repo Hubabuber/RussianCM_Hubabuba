@@ -1,6 +1,6 @@
 ent-RMCSpawnPointFORECONPVESmartgunner = точка появления Forecon Smartgunner
-
-
-job-rmcforeconpvesmartgunner-desc = cm-описание-работы-оператора-умного оружия
-job-rmcforeconpvesmartgunner-name = rmc-job-name-pve-forecon-smartgunner
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления Forecon Smartgunner
+job-rmcforeconpvesmartgunner-desc = Поддержите свой отряд тяжелым вооружением и дайте противнику подавляющий огонь.
+job-rmcforeconpvesmartgunner-name = Оператор Смартгана
 job-rmcforeconpvesmartgunner-spawnmenurolename = FORECON Smartgunner (PVE)

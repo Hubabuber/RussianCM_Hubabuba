@@ -1,11 +1,11 @@
 ent-SilverRingBase-name = серебряное кольцо
 ent-SilverRingBase-desc = Выглядит немного менее ценно, чем золотой.
 
-ent-ClothingHandsBase-name = lathe-category-clothing
+ent-ClothingHandsBase-name = Одежда
 
-ent-ClothingHandsButcherable-name = lathe-category-clothing
+ent-ClothingHandsButcherable-name = Одежда
 
-ent-ClothingHandsGlovesSyntheticBase-name = lathe-category-clothing
+ent-ClothingHandsGlovesSyntheticBase-name = Одежда
 
 ent-RingBase-name = элемент
 

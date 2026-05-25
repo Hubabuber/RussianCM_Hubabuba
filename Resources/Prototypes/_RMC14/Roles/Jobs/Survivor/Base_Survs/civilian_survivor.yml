@@ -1,8 +1,8 @@
 - type: job
   parent: RMCJobRibbonBase
   id: CMSurvivor
-  name: cm-job-name-survivor
-  description: cm-job-description-survivor
+  name: job-cmsurvivor-name
+  description: job-cmsurvivor-desc
   playTimeTracker: CMJobSurvivor
   requirements:
   - !type:DepartmentTimeRequirement
@@ -20,7 +20,7 @@
   dummyStartingGear: RMCGearSurvivorEquipped
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-nobody
+  supervisors: job-cmsurvivor-supervisors
   accessGroups:
   - Colonist
   special:

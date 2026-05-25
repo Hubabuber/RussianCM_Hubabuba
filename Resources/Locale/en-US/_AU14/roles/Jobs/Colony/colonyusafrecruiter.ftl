@@ -2,6 +2,6 @@ ent-AU14SpawnPointCivilianUSASFRecruiter = Spawn Point USASF Recruiter LV624 SPE
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-au14jobcivilianusasfrecruiter-desc = au14-job-description-usasfrecruiter
-job-au14jobcivilianusasfrecruiter-name = au14-job-name-usasfrecruiter
-job-au14jobcivilianusasfrecruiter-supervisors = au14-job-supervisors-colonycivilian
+job-au14jobcivilianusasfrecruiter-desc = You're a recruiter from the United States Military. You've been stationed on the colony to legally enlist civilians into the UA Military. (Role available on LV-624)
+job-au14jobcivilianusasfrecruiter-name = UA Recruiter
+job-au14jobcivilianusasfrecruiter-supervisors = Colony Administrator

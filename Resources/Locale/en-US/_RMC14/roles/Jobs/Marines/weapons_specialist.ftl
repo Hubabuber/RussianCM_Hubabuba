@@ -18,6 +18,6 @@ ent-CMSpawnPointWeaponsSpecialistDelta = weapons specialist spawn point
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Delta
 
-job-cmweaponsspecialist-desc = cm-job-description-weapons-specialist
-job-cmweaponsspecialist-name = cm-job-name-weapons-specialist
-job-cmweaponsspecialist-supervisors = cm-job-supervisors-sl
+job-cmweaponsspecialist-desc = Gain access to heavier, more powerful weaponry and equipment. Combat professional, lead the squad if needed.
+job-cmweaponsspecialist-name = Weapons Specialist
+job-cmweaponsspecialist-supervisors = the acting Squad Leader

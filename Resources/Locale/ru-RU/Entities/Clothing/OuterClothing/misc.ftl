@@ -76,7 +76,7 @@ ent-ClothingOuterFlannelGreen-desc = Старомодная зеленая фл�
 ent-ClothingOuterRedRacoon-name = красный костюм енота
 ent-ClothingOuterRedRacoon-desc = Пушистый костюм рыжего енота!
 
-ent-ClothingOuterWizardBase-name = lathe-category-clothing
+ent-ClothingOuterWizardBase-name = Одежда
 
 ent-ClothingOuterApron = фартук
     .desc = Модный фартук для стильной особы.

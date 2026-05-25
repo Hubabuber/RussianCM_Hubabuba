@@ -2,6 +2,6 @@ ent-AU14SpawnPointCivilianAmbassadorUA = Spawn Point Civilian UA Ambassador
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-au14jobcivilianambassadorua-desc = au14-job-description-civilianambassadorua
-job-au14jobcivilianambassadorua-name = au14-job-name-civilianambassadorua
-job-au14jobcivilianambassadorua-supervisors = au14-job-supervisors-orbital
+job-au14jobcivilianambassadorua-desc = Lead UA diplomatic mission on the colony.
+job-au14jobcivilianambassadorua-name = UA Ambassador
+job-au14jobcivilianambassadorua-supervisors = Orbital Manager

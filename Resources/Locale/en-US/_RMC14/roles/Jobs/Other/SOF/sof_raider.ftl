@@ -7,5 +7,5 @@ ent-RMCDogtagMarineRaiderHidden = dog tag
 ent-RMCRandomHumanoidMarineRaider = DEATHSQUAD marine raider ghost role
     .suffix = Role
 
-job-cmmarineraider-name = rmc-job-name-marine-raider
+job-cmmarineraider-name = Marine Raider
 job-cmmarineraider-spawnmenurolename = MARSOC Raider

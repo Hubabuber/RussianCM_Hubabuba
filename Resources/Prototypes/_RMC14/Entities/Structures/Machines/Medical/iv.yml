@@ -60,9 +60,9 @@
 - type: entity
   parent: BaseItem
   id: CMBloodPack # TODO RMC14 blood types
-  name: blood pack
-  description: A blood pack. Contains fluids, typically used for transfusions.
-  suffix: CM, empty
+  name: ent-CMBloodPack
+  description: ent-CMBloodPack-desc
+  suffix: ent-CMBloodPack-suffix
   components:
   - type: BloodPack
   - type: Sprite
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMBloodPack
   id: CMBloodPackFull # TODO RMC14 blood types
-  name: blood pack
-  suffix: CM, Full
+  name: ent-CMBloodPackFull
+  suffix: ent-CMBloodPackFull-suffix
   components:
   - type: SolutionContainerManager
     solutions:

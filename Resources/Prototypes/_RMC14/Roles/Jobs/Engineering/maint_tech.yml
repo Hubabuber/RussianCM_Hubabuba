@@ -1,15 +1,15 @@
 - type: job
   parent: CMJobBase
   id: CMMaintTech
-  name: cm-job-name-maint-tech
-  description: cm-job-description-maint-tech
+  name: job-cmmainttech-name
+  description: job-cmmainttech-desc
   setPreference: false
   playTimeTracker: CMJobMaintTech
   requirements: []
   startingGear: CMGearMaintTech
   icon: "CMJobIconMaintTech"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-ce
+  supervisors: job-cmmainttech-supervisors
   ranks:
     RMCRankLanceCorporal:
     - !type:RoleTimeRequirement

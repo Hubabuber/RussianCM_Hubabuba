@@ -1,2 +1,2 @@
 alert-magboots-desc = оповещения-magboots-desc
-alert-magboots-name = alerts-magboots-имя
+alert-magboots-name = Магнитные ботинки

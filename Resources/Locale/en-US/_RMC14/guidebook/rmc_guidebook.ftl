@@ -1,5 +1,5 @@
-guideentry-rmc14-name = rmc-guide-entry-rmc
-guideentry-rmcchemicals-name = guide-entry-chemicals
+guideentry-rmc14-name = CMU Guide
+guideentry-rmcchemicals-name = Chemicals
 guideentry-rmcguidecommandroles-name = Who is in Command?
 guideentry-rmcguidecommunicationstowers-name = Comms and Sensors
 guideentry-rmcguidecorporateliaison-name = Corporate Liaison
@@ -55,7 +55,7 @@ guideentry-rmcguidexenonidt2-name = Tier 2 Xenonids
 guideentry-rmcguidexenonidt3-name = Tier 3 Xenonids
 guideentry-rmcintel-name = Intel
 guideentry-rmcmedical-name = Medical
-guideentry-rmcmedicine-name = guide-entry-medicine
+guideentry-rmcmedicine-name = Medicine
 guideentry-rmcordinancechemicals-name = OT Chemicals
 guideentry-rmcrequisitions-name = Requisitions
 guideentry-rmcsurvivor-name = Survivor

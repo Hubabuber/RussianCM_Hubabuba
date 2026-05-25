@@ -1,1 +1,1 @@
-job-cmxenolurker-name = cm-имя-должности-ксено-Lurker
+job-cmxenolurker-name = Люркер

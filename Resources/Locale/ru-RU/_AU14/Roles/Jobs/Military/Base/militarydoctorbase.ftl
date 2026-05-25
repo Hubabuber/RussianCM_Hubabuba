@@ -1,2 +1,2 @@
-job-au14jobmilitarydoctorbase-desc = au14-job-description-govforMilitaryDoctor
-job-au14jobmilitarydoctorbase-name = au14-имя-вакансии-govforMilitaryDoctor
+job-au14jobmilitarydoctorbase-desc = Обеспечивай свою фракцию более высоким уровнем медицинской помощи.
+job-au14jobmilitarydoctorbase-name = Доктор

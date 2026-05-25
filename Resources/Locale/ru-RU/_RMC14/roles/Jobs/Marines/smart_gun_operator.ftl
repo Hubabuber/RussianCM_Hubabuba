@@ -1,21 +1,25 @@
 ent-CMSpawnPointSmartGunOperator = точка появления оператора умного оружия
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
 ent-CMSpawnPointSmartGunOperatorAlpha = точка появления оператора умного оружия
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления оператора умного оружия
 ent-CMSpawnPointSmartGunOperatorBravo = точка появления оператора умного оружия
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления оператора умного оружия
 ent-CMSpawnPointSmartGunOperatorCharlie = точка появления оператора умного оружия
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления оператора умного оружия
 ent-CMSpawnPointSmartGunOperatorDelta = точка появления оператора умного оружия
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления оператора умного оружия
 ent-RMCGuidebookRoleSGO = Умный оператор оружия
   .desc = Умный оператор оружия
-
-job-cmsmartgunoperator-desc = cm-описание-работы-оператора-умного оружия
-job-cmsmartgunoperator-name = cm-имя-задания-оператора-умного пистолета
-job-cmsmartgunoperator-supervisors = cm-job-supervisors-sl
+job-cmsmartgunoperator-desc = Поддержите свой отряд тяжелым вооружением и дайте противнику подавляющий огонь.
+job-cmsmartgunoperator-name = Умный оператор оружия
+job-cmsmartgunoperator-supervisors = действующий командир отряда

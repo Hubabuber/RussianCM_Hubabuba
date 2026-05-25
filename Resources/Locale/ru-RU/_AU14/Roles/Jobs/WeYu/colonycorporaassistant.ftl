@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianCorporateAssistant = Гражданский корпо
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobciviliancorporateassistant-desc = au14-должностная инструкция-гражданский корпоративный помощник
-job-au14jobciviliancorporateassistant-name = au14-имя-должности-гражданскийкорпоративныйпомощник
-job-au14jobciviliancorporateassistant-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobciviliancorporateassistant-desc = Будьте правой рукой представителя по корпоративным связям.
+job-au14jobciviliancorporateassistant-name = Корпоративный помощник
+job-au14jobciviliancorporateassistant-supervisors = Администратор колонии

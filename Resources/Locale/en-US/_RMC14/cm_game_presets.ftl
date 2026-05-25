@@ -1,2 +1,2 @@
-gamepreset-cmdistresssignal-desc = rmc-distress-signal-description
-gamepreset-cmdistresssignal-name = rmc-distress-signal-title
+gamepreset-cmdistresssignal-desc = Respond to a distress signal sent by a nearby planet.
+gamepreset-cmdistresssignal-name = Distress Signal

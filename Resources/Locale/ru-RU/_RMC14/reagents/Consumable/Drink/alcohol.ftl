@@ -1,2 +1,2 @@
-reagent-rmcspecialblendwhiskey-desc = RMC-реагент-деск-специальный-виски
-reagent-rmcspecialblendwhiskey-name = rmc-реагент-название-специальный-виски
+reagent-rmcspecialblendwhiskey-desc = Как раз в тот момент, когда вы подумали, что обычный станционный виски хорош... Это шелковистое, янтарное совершенство должно прийти и все испортить.
+reagent-rmcspecialblendwhiskey-name = специальный купаж виски

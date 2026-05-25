@@ -1,2 +1,2 @@
-job-au14jobsquadautomaticriflemanbase-desc = au14-job-description-govforsquadautomaticrifleman
-job-au14jobsquadautomaticriflemanbase-name = au14-job-name-govforsquadautomaticrifleman
+job-au14jobsquadautomaticriflemanbase-desc = Lay down suppressive fire. Keep the enemy's head down and your squad moving.
+job-au14jobsquadautomaticriflemanbase-name = Automatic Rifleman

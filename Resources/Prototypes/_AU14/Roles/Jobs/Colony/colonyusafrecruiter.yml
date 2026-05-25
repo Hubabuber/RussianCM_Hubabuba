@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianUSASFRecruiter
-  name: au14-job-name-usasfrecruiter
-  description: au14-job-description-usasfrecruiter
+  name: job-au14jobcivilianusasfrecruiter-name
+  description: job-au14jobcivilianusasfrecruiter-desc
   setPreference: true
   requirements:
   - !type:TraitsRequirement
@@ -16,7 +16,7 @@
   icon: "AU14JobIconRFN"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-colonycivilian
+  supervisors: job-au14jobcivilianusasfrecruiter-supervisors
   accessGroups:
   - Colonist
   roleWeight: 0.25

@@ -1,2 +1,2 @@
-job-au14jobdccbase-desc = au14-job-description-govfordcc
-job-au14jobdccbase-name = au14-job-name-govfordcc
+job-au14jobdccbase-desc = Maintain the bird. Coordinate cargo, passengers, and assist the pilot.
+job-au14jobdccbase-name = Dropship Crew Chief

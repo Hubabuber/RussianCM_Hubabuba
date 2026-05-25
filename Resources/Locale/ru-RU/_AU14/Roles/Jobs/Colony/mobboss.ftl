@@ -5,6 +5,6 @@ ent-AU14SpawnPointMobBoss = Босс мобов в точке возрожден
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobmobboss-desc = au14-описание-должности-моббосс
-job-au14jobmobboss-name = au14-имя-должности-моббосс
-job-au14jobmobboss-supervisors = au14-работа-руководители-моббосс
+job-au14jobmobboss-desc = Вы лидер местного преступного синдиката и следите за тем, чтобы цели вашей семьи были достигнуты.
+job-au14jobmobboss-name = Босс мафии
+job-au14jobmobboss-supervisors = Интересы вашей семьи

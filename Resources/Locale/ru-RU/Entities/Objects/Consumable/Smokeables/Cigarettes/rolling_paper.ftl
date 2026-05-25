@@ -10,9 +10,9 @@ ent-PaperRolling-desc = Тонкий лист бумаги, используем
 ent-CigaretteFilter-name = сигаретный фильтр
 ent-CigaretteFilter-desc = Полоска твердой бумаги, используемая в качестве фильтра для сигарет ручной работы.
 
-ent-PaperRolling1-name = stack-rolling-paper
+ent-PaperRolling1-name = { $amount ->
 
-ent-CigaretteFilter1-name = stack-cigarette-filter
+ent-CigaretteFilter1-name = { $amount ->
 
 ent-CigaretteFilter = сигаретный фильтр
     .desc = Полоска твердой бумаги, используемая в качестве фильтра для сигарет ручной работы.

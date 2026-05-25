@@ -1,2 +1,2 @@
-job-cmxenoqueen-name = cm-имя-работы-ксено-королева
+job-cmxenoqueen-name = Королева
 job-cmxenoqueen-supervisors = никто

@@ -5,6 +5,6 @@ ent-RMCSpawnPointPMCEngineer = weya pmc engineer spawn point
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-rmcpmcengineer-desc = rmc-ghost-role-information-pmc-description
-job-rmcpmcengineer-name = rmc-job-name-pmc-engineer
+job-rmcpmcengineer-desc = Ensure no damage is incurred against Weyland-Yutani. Make sure the Corporate Liaison is safe. Deny the Weyland-Yutani's involvement and do not trust the UNMC forces. Only fire if fired upon, or ordered to.
+job-rmcpmcengineer-name = Corporate Technician
 job-rmcpmcengineer-spawnmenurolename = WEYA PMC Engineer

@@ -20,7 +20,7 @@ ent-RMCSpawnPointPMCStandardSSG45 = weya pmc operator spawn point
     .suffix = SSG45
 
 job-rmcpmcstandardm54c2-spawnmenurolename = WEYA PMC Operator (M54C2)
-job-rmcpmcstandardm63b2-desc = rmc-ghost-role-information-pmc-description
-job-rmcpmcstandardm63b2-name = rmc-job-name-pmc-standard
+job-rmcpmcstandardm63b2-desc = Ensure no damage is incurred against Weyland-Yutani. Make sure the Corporate Liaison is safe. Deny the Weyland-Yutani's involvement and do not trust the UNMC forces. Only fire if fired upon, or ordered to.
+job-rmcpmcstandardm63b2-name = Operator
 job-rmcpmcstandardm63b2-spawnmenurolename = WEYA PMC Operator (M63B2)
 job-rmcpmcstandardssg45-spawnmenurolename = WEYA PMC Operator (SSG-45)

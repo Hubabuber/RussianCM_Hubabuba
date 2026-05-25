@@ -4,5 +4,5 @@ ent-RMCRandomHumanoidHEFAShrapnelswornFriendly = hefa ghost role grandmaster
 ent-RMCRandomHumanoidHEFAShrapnelswornHostile = hefa ghost role grandmaster
     .suffix = Spawner, Player, Hostile
 
-job-cmhefashrapnelsworn-desc = rmc-ghost-name-hefa-friendly-shrapnelsworn
-job-cmhefashrapnelsworn-name = rmc-job-name-hefa-grandmaster
+job-cmhefashrapnelsworn-desc = HEFA Shrapnelsworn (Friendly)
+job-cmhefashrapnelsworn-name = HEFA Grandmaster

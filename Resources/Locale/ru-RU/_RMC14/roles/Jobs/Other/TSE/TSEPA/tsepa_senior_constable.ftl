@@ -1,5 +1,6 @@
 ent-RMCSpawnPointTSEPASeniorConstable = точка появления старшего констебля цепы
  
-
-job-rmctsepaseniorconstable-desc = RMC-описание-должности-цепа-старший-констебль
-job-rmctsepaseniorconstable-name = RMC-имя-должности-цепа-старший-констебль
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmctsepaseniorconstable-desc = Исполнитель закона TSE.
+job-rmctsepaseniorconstable-name = Старший констебль ЦЭПА

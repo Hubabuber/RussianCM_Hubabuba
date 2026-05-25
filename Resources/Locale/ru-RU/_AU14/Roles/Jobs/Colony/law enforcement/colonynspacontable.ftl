@@ -5,7 +5,7 @@ ent-AU14SpawnPointCiviliannspaConstable = Точка возрождения Гр
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobciviliannspaconstable-desc = au14-job-description-civiliannspaКонстебль
-job-au14jobciviliannspaconstable-name = au14-имя-должности-civiliannspaКонстебль
+job-au14jobciviliannspaconstable-desc = Вы констебль Управления полиции сектора Нероидов. Обеспечьте в колонии верховенство закона и выполняйте аресты и ордера. (Роль доступна на LV-759)
+job-au14jobciviliannspaconstable-name = Констебль НСПА
 job-au14jobciviliannspaconstable-spawnmenurolename = Констебль NSPA (CMU)
-job-au14jobciviliannspaconstable-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobciviliannspaconstable-supervisors = Администратор колонии

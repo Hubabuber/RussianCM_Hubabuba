@@ -1,11 +1,11 @@
-ent-ClothingShoesBaseWinterBoots-name = lathe-category-clothing
+ent-ClothingShoesBaseWinterBoots-name = Одежда
 ent-ClothingShoesBaseWinterBoots-desc = Пушистые сапожки помогут пережить даже самую холодную зиму.
 
-ent-ClothingShoesBase-name = lathe-category-clothing
+ent-ClothingShoesBase-name = Одежда
 
-ent-ClothingShoesBaseButcherable-name = lathe-category-clothing
+ent-ClothingShoesBaseButcherable-name = Одежда
 
-ent-ClothingShoesMilitaryBase-name = lathe-category-clothing
+ent-ClothingShoesMilitaryBase-name = Одежда
 
 ent-ClothingShoesBase = item
 

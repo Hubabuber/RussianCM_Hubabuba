@@ -1,3 +1,3 @@
-job-researchassistant-desc = job-description-research-assistant
-job-researchassistant-name = job-name-research-assistant
-job-researchassistant-supervisors = job-supervisors-science
+job-researchassistant-desc = Learn the basics of how to research various artifacts, anomalies and robotics.
+job-researchassistant-name = Research Assistant
+job-researchassistant-supervisors = Scientists and the Research Director

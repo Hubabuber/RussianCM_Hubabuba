@@ -6,5 +6,5 @@ ent-RMCSpawnPointSurvivorEngineer = survivor engineer spawn point
 
 ent-RMCSurvivorPresetEngineer = engineer colonist preset
 
-job-cmsurvivorengineer-desc = cm-job-description-survivor
-job-cmsurvivorengineer-name = cm-job-name-survivor-engineer
+job-cmsurvivorengineer-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivorengineer-name = Engineer Colonist

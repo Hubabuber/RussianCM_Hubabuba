@@ -1,3 +1,3 @@
-accesslevel-cmaccesscrewman-name = cm-job-name-dcc
-accesslevel-cmaccessdropship-name = cm-access-dropship
-accesslevel-cmaccesspilot-name = cm-job-name-pilot
+accesslevel-cmaccesscrewman-name = Dropship Crew Chief
+accesslevel-cmaccessdropship-name = Dropship
+accesslevel-cmaccesspilot-name = Pilot

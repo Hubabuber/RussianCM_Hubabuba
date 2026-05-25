@@ -3,7 +3,7 @@ ent-AU14JobReturningDoctor = Возвращающийся колонист (вр
 
 ent-AU14ReturningDoctorPreset = пресет возвращающегося врача
 
-job-au14jobreturningdoctor-desc = au14-должностная инструкция-гражданский врач
-job-au14jobreturningdoctor-name = au14-имя-должности-гражданский врач
+job-au14jobreturningdoctor-desc = Обеспечить диагностику, операцию и лечение персонала колонии.
+job-au14jobreturningdoctor-name = Врач
 job-au14jobreturningdoctor-spawnmenurolename = Врач (третья сторона)
-job-au14jobreturningdoctor-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobreturningdoctor-supervisors = Администратор колонии

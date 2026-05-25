@@ -1,1 +1,1 @@
-job-cmxenoparasite-name = cm-job-name-xeno-parasite
+job-cmxenoparasite-name = Parasite

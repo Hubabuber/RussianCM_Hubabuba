@@ -1,1 +1,1 @@
-job-cmxenosentinel-name = cm-job-name-xeno-sentinel
+job-cmxenosentinel-name = Sentinel

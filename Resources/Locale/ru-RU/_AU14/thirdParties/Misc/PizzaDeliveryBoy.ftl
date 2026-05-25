@@ -7,4 +7,4 @@ ent-AU14SlingSatchelBlueFilledPizza = Синяя сумка-слинг
 
 job-au14jobciviliandeliverypizzaboy-desc = Вы — доставщик Pizza Galaxy, которого прислали с ассортиментом освежающих напитков и пиццей на выбор, чтобы продать ее всем, с кем вы встретитесь.
 job-au14jobciviliandeliverypizzaboy-name = Доставщик пиццы
-job-au14jobciviliandeliverypizzaboy-supervisors = au14-работы-руководители-одиночка
+job-au14jobciviliandeliverypizzaboy-supervisors = Себя и только себя

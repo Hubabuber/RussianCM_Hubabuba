@@ -1,6 +1,6 @@
 ent-RMCRandomHumanoidRoyalMarinesSGO = Роль призрака морской пехоты королевской короны, оператор умного оружия
-
-job-cmroyalmarinessgo-desc = RMC-призрак-роль-информация-rcm-описание
-job-cmroyalmarinessgo-name = rmc-имя-задания-rcm-sgo
+    .suffix = Роль призрака морской пехоты королевской короны, оператор умного оружия
+job-cmroyalmarinessgo-desc = Обеспечьте выживание корабля UNS, уничтожьте всех противников и помогите экипажу любым возможным способом.
+job-cmroyalmarinessgo-name = Умный оператор оружия
 job-cmroyalmarinessgo-spawnmenurolename = Оператор умного оружия RCM
-job-cmroyalmarinessgo-supervisors = cm-job-supervisors-royal-tl
+job-cmroyalmarinessgo-supervisors = командир отделения

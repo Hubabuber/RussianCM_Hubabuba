@@ -8,7 +8,7 @@ ent-AU14SpawnPointCivilianPrisoner = Гражданский заключенны
 
 ent-auprisonerghost = Роль призрака-заключенного-колониста
 
-job-au14jobcivilianprisoner-desc = au14-должностная инструкция-гражданский заключенный
-job-au14jobcivilianprisoner-name = au14-имя-должности-гражданский заключенный
+job-au14jobcivilianprisoner-desc = Вы заключенный, содержащийся в корпоративном учреждении, и если вы сотрудничаете, вам могут быть предоставлены большие привилегии.
+job-au14jobcivilianprisoner-name = Узник
 job-au14jobcivilianprisoner-spawnmenurolename = Узник колонии (CMU)
-job-au14jobcivilianprisoner-supervisors = au14-работы-руководители-одиночка
+job-au14jobcivilianprisoner-supervisors = Себя и только себя

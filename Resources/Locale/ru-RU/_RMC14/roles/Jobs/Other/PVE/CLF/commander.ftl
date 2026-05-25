@@ -1,6 +1,7 @@
 ent-RMCSpawnPointCLFCommanderPVE = точка появления командира clf
  
-
-job-rmcclfcommanderpve-desc = rmc-ghost-role-information-clf-pve-description
-job-rmcclfcommanderpve-name = rmc-имя-задания-clf-pve-commander
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления командира clf
+job-rmcclfcommanderpve-desc = Выполняйте любые приказы командования и выполняйте их в меру своих возможностей. За свободные колонии!
+job-rmcclfcommanderpve-name = Командир
 job-rmcclfcommanderpve-spawnmenurolename = Командир CLF (PVE)

@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeant
-  name: au14-job-name-govforSSG
-  description: au14-job-description-govforSSG
+  name: job-au14jobgovforsectionsergeant-name
+  description: job-au14jobgovforsectionsergeant-desc
   setPreference: false
   requirements:
   - !type:OverallPlaytimeRequirement
@@ -34,7 +34,7 @@
   requireAdminNotify: true
   spawnMenuRoleName: job-au14jobgovforsectionsergeant-spawnmenurolename
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govfor
+  supervisors: job-au14jobgovforsectionsergeant-supervisors
   accessGroups:
   - AU14GovforCommand
   overwatchSortPriority: -6

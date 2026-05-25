@@ -19,7 +19,7 @@ ent-RagItem-desc = Вы думаете, для того, чтобы навест
 ent-WireBrush-name = проволочная щетка
 ent-WireBrush-desc = Щетка из стальной проволоки идеально подходит для соскабливания даже самых сложных участков ржавчины.
 
-ent-WetFloorSignMineExplosive-name = lathe-category-clothing
+ent-WetFloorSignMineExplosive-name = Одежда
 
 ent-AdvMopItem = продвинутая швабра
     .desc = Моторизованная швабра с большим резервуаром позволяет быстро заменять реагенты внутри водой. Автоматическая система противодействия клоунам не входит в комплект.

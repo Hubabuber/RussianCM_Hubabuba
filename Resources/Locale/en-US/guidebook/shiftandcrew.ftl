@@ -1,1 +1,1 @@
-guideentry-jobs-name = guide-entry-jobs
+guideentry-jobs-name = Jobs

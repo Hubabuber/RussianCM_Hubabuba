@@ -1,1 +1,1 @@
-accesslevel-external-name = id-card-access-level-external
+accesslevel-external-name = External

@@ -1,5 +1,5 @@
 ent-RMCSpawnPointParaMedicalTechnician = Точка появления парамаринного боевого медицинского техника
   .desc = Создатель заданий RMC14. 
-
-job-rmcsurvivorparamedicaltechnician-name = rmc-имя-должности-пара-медика
+    .suffix = Создание вакансий
+job-rmcsurvivorparamedicaltechnician-name = Медицинский техник
 job-rmcsurvivorparamedicaltechnician-spawnmenurolename = Королевский парамаринский медицинский техник (Выживший)

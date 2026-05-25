@@ -1,1 +1,1 @@
-job-cmxenoravager-name = cm-job-name-xeno-ravager
+job-cmxenoravager-name = Ravager

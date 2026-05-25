@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianHeadOfService = Руководитель службы 
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianheadofservice-desc = au14-должностная инструкция-гражданский руководитель службы
-job-au14jobcivilianheadofservice-name = au14-имя-работы-гражданский руководитель службы
-job-au14jobcivilianheadofservice-supervisors = au14-job-supervisors-colonyadministrator
+job-au14jobcivilianheadofservice-desc = Следите за тем, чтобы магазины и службы обслуживания были укомплектованы, кухни были укомплектованы людьми, а колония оставалась чистой. Координируйте свои действия со своим отделом и бригадиром, чтобы обеспечить удовлетворение потребностей колонии.
+job-au14jobcivilianheadofservice-name = Руководитель службы
+job-au14jobcivilianheadofservice-supervisors = Колониальная администрация

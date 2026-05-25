@@ -1,1 +1,1 @@
-job-cmxenorunner-name = cm-имя-задания-ксено-бегун
+job-cmxenorunner-name = бегун

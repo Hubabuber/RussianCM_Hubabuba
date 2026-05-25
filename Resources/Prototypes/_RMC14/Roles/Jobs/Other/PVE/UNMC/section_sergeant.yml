@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMPVESectionSergeant
-  name: cm-job-name-section-sergeant
-  description: cm-job-description-section-sergeant
+  name: job-cmpvesectionsergeant-name
+  description: job-cmpvesectionsergeant-desc
   playTimeTracker: CMJobPVESectionSergeant
   ranks:
     RMCRankStaffSergeant: []
@@ -11,7 +11,7 @@
   dummyStartingGear: CMGearSquadLeaderEquipped
   icon: "CMJobIconSquadLeader"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-platco
+  supervisors: job-cmpvesectionsergeant-supervisors
   marineAuthorityLevel: 2
   accessGroups:
   - SquadLeader

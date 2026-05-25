@@ -4,6 +4,6 @@ ent-RMCSpawnPointSurvivorHybrisaMaterialReprocessingTechnician = hybrisa materia
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-rmcsurvivorhybrisamaterialreprocessingtechnician-desc = cm-job-description-survivor
-job-rmcsurvivorhybrisamaterialreprocessingtechnician-name = rmc-job-name-survivor-material-reprocessing-technician
+job-rmcsurvivorhybrisamaterialreprocessingtechnician-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-rmcsurvivorhybrisamaterialreprocessingtechnician-name = Civilian - Material Reprocessing Technician
 job-rmcsurvivorhybrisamaterialreprocessingtechnician-spawnmenurolename = Civilian - Material Reprocessing Technician (Hybrisa Survivor)

@@ -1,4 +1,4 @@
 ent-RMCRandomHumanoidProvostAdvisor = советник по роли призрака проректора
-
-job-cmprovostadvisor-desc = rmc-призрак-роль-информация-провоста-описание
-job-cmprovostadvisor-name = RMC-имя-должности-корпорация-провост-советник
+    .suffix = советник по роли призрака проректора
+job-cmprovostadvisor-desc = Соблюдайте закон морфех, обратитесь за советом к своему начальству. Полномочия привязаны к вашей субординации.
+job-cmprovostadvisor-name = Советник проректора

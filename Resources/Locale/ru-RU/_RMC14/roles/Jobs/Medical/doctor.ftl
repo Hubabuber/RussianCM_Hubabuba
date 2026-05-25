@@ -1,6 +1,7 @@
 ent-CMGuidebookRoleDoctor = Доктор
 ent-CMSpawnPointDoctor = точка появления доктора
-
-job-cmdoctor-desc = RMC-должностная инструкция-врач
-job-cmdoctor-name = RMC-имя-должности-доктор
-job-cmdoctor-supervisors = cm-job-supervisors-cmo
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmdoctor-desc = Лечите всех пациентов, поступающих в медотсек. Перенесите раненых морпехи из вешалки в медотсек. При необходимости выполните операцию.
+job-cmdoctor-name = Доктор
+job-cmdoctor-supervisors = Главный врач

@@ -1,5 +1,6 @@
 ent-RMCSpawnPointTSEPASynthetic = синтетическая точка появления цепы
  
-
-job-rmcjobtsepasynthetic-desc = rmc-job-description-tsepa-синтетик
-job-rmcjobtsepasynthetic-name = rmc-job-name-tsepa-синтетик
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmcjobtsepasynthetic-desc = Поддерживать и помогать персоналу TSEPA.
+job-rmcjobtsepasynthetic-name = ЦЭПА Поддержка синтетика

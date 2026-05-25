@@ -1,2 +1,2 @@
-job-au14jobauxtechbase-desc = au14-описание-должности-govforauxtech
-job-au14jobauxtechbase-name = au14-имя-работы-govforauxtech
+job-au14jobauxtechbase-desc = Выполняйте реквизиции, поддерживайте корабль в рабочем состоянии и обеспечивайте логистическую и инженерную поддержку своей фракции.
+job-au14jobauxtechbase-name = Вспомогательный техник

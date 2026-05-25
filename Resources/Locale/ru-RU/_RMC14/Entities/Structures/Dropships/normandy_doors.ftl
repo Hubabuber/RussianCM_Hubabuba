@@ -1,12 +1,11 @@
 ent-CMNormandyDoorStarboard = Люк экипажа Нормандии
-
+    .suffix = люк экипажа
 ent-CMNormandyDoorPort = Люк экипажа Нормандии
-
+    .suffix = люк экипажа
 ent-CMNormandyDoorAft = Нормандия грузовая дверь
-
+    .suffix = люк экипажа
 ent-CMNormandyDoor = Люк экипажа Нормандии
-
 ent-CMNormandyCockpit = кабина
-
+    .suffix = кабина
 ent-CMNormandyCockpitOpfor = кабина
     .suffix = Нормандия, Опфор

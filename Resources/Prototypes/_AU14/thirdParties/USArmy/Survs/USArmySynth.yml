@@ -1,8 +1,8 @@
 - type: job
   parent: AU14USArmySynthBase
   id: AU14USArmySynth
-  name: rmc-job-name-forecon-synth
-  description: au14-job-description-usarmy
+  name: job-au14usarmysynth-name
+  description: job-au14usarmysynth-desc
   ranks:
     USArmy_ChiefWarrantOfficer5:
     - !type:RoleTimeRequirement
@@ -26,7 +26,7 @@
   greeting: au14-usarmy-greeting
   icon: "AU14JobIconUSArmySynth"
   joinNotifyCrew: false
-  supervisors: rmc-job-name-forecon-commander
+  supervisors: job-au14usarmysynth-supervisors
   accessGroups:
   - AU14GovforCommand
   special:

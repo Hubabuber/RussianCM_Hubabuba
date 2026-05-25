@@ -1,7 +1,8 @@
 ent-RMCGuidebookRoleCMO = Главный врач
   .desc = Главный врач
 ent-CMSpawnPointCMO = точка появления главного врача
-
-job-cmcmo-desc = RMC-описание-работы-CMO
-job-cmcmo-name = rmc-имя-задания-cmo
-job-cmcmo-supervisors = rmc-job-supervisors-commander
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmcmo-desc = Курировать Medbay, исследования и химию. Управляйте своей медицинской бригадой. Консультировать командный состав по вопросам здоровья и благополучия морпехового отряда.
+job-cmcmo-name = Главный медицинский директор
+job-cmcmo-supervisors = действующий Командующий

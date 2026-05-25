@@ -5,4 +5,4 @@ ent-CMSpawnPointXeno = точка спавна ксеносов
   .desc = Спаунер RMC14. 
 
 job-cmjobxenobase-desc = нулевой
-job-cmjobxenobase-supervisors = cm-job-supervisors-queen
+job-cmjobxenobase-supervisors = Королева

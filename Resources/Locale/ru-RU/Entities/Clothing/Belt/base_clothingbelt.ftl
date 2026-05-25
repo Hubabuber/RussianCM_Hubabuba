@@ -1,8 +1,8 @@
-ent-ClothingBeltBase-name = lathe-category-clothing
+ent-ClothingBeltBase-name = Одежда
 
-ent-ClothingBeltStorageBase-name = lathe-category-clothing
+ent-ClothingBeltStorageBase-name = Одежда
 
-ent-ClothingBeltAmmoProviderBase-name = lathe-category-clothing
+ent-ClothingBeltAmmoProviderBase-name = Одежда
 
 ent-ClothingBeltAmmoProviderBase = item
 

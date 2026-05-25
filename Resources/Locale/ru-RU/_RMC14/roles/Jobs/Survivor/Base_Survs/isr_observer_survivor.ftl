@@ -1,6 +1,7 @@
 ent-RMCSpawnPointSurvivorISR = точка появления выжившего в ISR
  
-
-job-cmsurvivorisr-desc = cm-описание-работы-выживший
-job-cmsurvivorisr-name = cm-job-name-survivor-isr
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmsurvivorisr-desc = Вы выжили после нападения на корпоративный объект. Вы работали или жили в колонии/станции и сумели избежать нападений инопланетян... до сих пор.
+job-cmsurvivorisr-name = Наблюдатель от «Межзвёздного права на жизнь»
 job-cmsurvivorisr-spawnmenurolename = Межзвездный наблюдатель за соблюдением прав на жизнь (Выживший)

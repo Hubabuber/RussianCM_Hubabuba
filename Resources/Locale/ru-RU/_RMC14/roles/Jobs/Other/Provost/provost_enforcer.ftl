@@ -1,5 +1,5 @@
 ent-RMCRandomHumanoidProvostEnforcer = исполнитель роли призрака провоста
-
-job-cmprovostenforcer-desc = rmc-ghost-role-information-provost-отделение-описание
-job-cmprovostenforcer-name = RMC-имя-должности-корпорация-провост-принудитель
+    .suffix = исполнитель роли призрака провоста
+job-cmprovostenforcer-desc = Обеспечьте соблюдение закона о морпехах, подавляйте беспорядки и защищайте любых проректоров.
+job-cmprovostenforcer-name = Инфорсер
 job-cmprovostenforcer-spawnmenurolename = Провост Инфорсер

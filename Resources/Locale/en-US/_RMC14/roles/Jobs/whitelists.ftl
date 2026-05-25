@@ -1,3 +1,3 @@
-job-rmcwhitelisteasy-name = rmc-job-name-whitelist-easy
-job-rmcwhitelisthard-name = rmc-job-name-whitelist-hard
-job-rmcwhitelistmedium-name = rmc-job-name-whitelist-medium
+job-rmcwhitelisteasy-name = RMC Easy Whitelist
+job-rmcwhitelisthard-name = RMC Hard Whitelist
+job-rmcwhitelistmedium-name = RMC Medium Whitelist

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMSeniorEnlistedAdvisor
-  name: cm-job-name-senior-enlisted-advisor
-  description: cm-job-description-senior-enlisted-advisor
+  name: job-cmseniorenlistedadvisor-name
+  description: job-cmseniorenlistedadvisor-desc
   setPreference: false
   playTimeTracker: CMJobSeniorEnlistedAdvisor
   requirements:
@@ -40,7 +40,7 @@
   latejoinArrivalSound:
     path: /Audio/_RMC14/Announcements/ARES/attention_jingle.ogg
   marineAuthorityLevel: 5
-  supervisors: rmc-job-supervisors-commander
+  supervisors: job-cmseniorenlistedadvisor-supervisors
   whitelisted: true
   whitelistParent: RMCWhitelistHard
   accessGroups:

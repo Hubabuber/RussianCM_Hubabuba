@@ -5,6 +5,6 @@ ent-CMSpawnPointCommandingOfficer = commanding officer spawn point
 ent-RMCGuidebookRoleCO = The Commanding Officer
     .desc = The Commanding Officer.
 
-job-cmcommandingofficer-desc = cm-job-description-commanding-officer
-job-cmcommandingofficer-name = cm-job-name-commanding-officer
-job-cmcommandingofficer-supervisors = cm-job-supervisors-marine-high-command
+job-cmcommandingofficer-desc = Lead your company and complete the mission.
+job-cmcommandingofficer-name = Commanding Officer
+job-cmcommandingofficer-supervisors = Marine High Command

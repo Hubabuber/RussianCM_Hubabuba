@@ -1,2 +1,2 @@
-job-visitor-desc = job-description-visitor
-job-visitor-name = job-name-visitor
+job-visitor-desc = Enjoy your visit to the station.
+job-visitor-name = Visitor

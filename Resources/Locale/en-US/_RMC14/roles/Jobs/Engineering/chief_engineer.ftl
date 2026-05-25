@@ -5,6 +5,6 @@ ent-CMSpawnPointChiefEngineer = chief engineer spawn point
 ent-RMCGuidebookRoleCE = The CE
     .desc = The Chief Engineer.
 
-job-cmchiefengineer-desc = cm-job-description-chief-engineer
-job-cmchiefengineer-name = cm-job-name-chief-engineer
-job-cmchiefengineer-supervisors = cm-job-supervisors-aso
+job-cmchiefengineer-desc = Coordinate engineering. Keep the power on.
+job-cmchiefengineer-name = Chief Engineer
+job-cmchiefengineer-supervisors = the Auxiliary Support Officer

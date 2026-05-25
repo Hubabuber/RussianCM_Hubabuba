@@ -1,7 +1,7 @@
 ent-CMSpawnPointRCMPVEMedicalAssistant = Точка появления фельдшера RCM
   .desc = Создатель заданий RMC14. 
-
-job-cmroyalmarinesmedicpve-desc = RMC-призрак-роль-информация-rcm-описание
-job-cmroyalmarinesmedicpve-name = rmc-имя-должности-rcm-pve-медицинский-ассистент
+    .suffix = Создание вакансий
+job-cmroyalmarinesmedicpve-desc = Обеспечьте выживание корабля UNS, уничтожьте всех противников и помогите экипажу любым возможным способом.
+job-cmroyalmarinesmedicpve-name = Медицинский помощник
 job-cmroyalmarinesmedicpve-spawnmenurolename = Медицинский помощник RCM (PVE)
-job-cmroyalmarinesmedicpve-supervisors = cm-job-supervisors-royal-tl
+job-cmroyalmarinesmedicpve-supervisors = командир отделения

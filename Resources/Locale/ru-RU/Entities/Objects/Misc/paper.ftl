@@ -41,7 +41,7 @@ ent-Envelope-desc = Небольшой конверт, который защит
 
 ent-BasePaper-name = элемент
 
-ent-PaperWritten-name = stack-paper
+ent-PaperWritten-name = { $amount ->
 
 ent-NukeCodePaperStation-name = коды ядерной аутентификации
 

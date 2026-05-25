@@ -10,6 +10,6 @@ ent-RMCWebbingSurvivorCMBMarshal = shoulder holster
     .desc = A handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
     .suffix = Marshal, Survivor, Filled
 
-job-cmsurvivorsolariscmbmarshal-desc = cm-job-description-commanding-officer
-job-cmsurvivorsolariscmbmarshal-name = rmc-job-name-survivor-bureau-marshal
+job-cmsurvivorsolariscmbmarshal-desc = Lead your company and complete the mission.
+job-cmsurvivorsolariscmbmarshal-name = CMB Marshal
 job-cmsurvivorsolariscmbmarshal-spawnmenurolename = CMB Marshal (Solaris Survivor)

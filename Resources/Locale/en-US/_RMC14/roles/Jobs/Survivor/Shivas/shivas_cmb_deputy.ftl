@@ -1,2 +1,2 @@
-job-rmcsurvivorshivascmbdeputy-name = rmc-job-name-survivor-cmb-deputy
+job-rmcsurvivorshivascmbdeputy-name = CMB Deputy
 job-rmcsurvivorshivascmbdeputy-spawnmenurolename = CMB Deputy (Shivas Survivor)

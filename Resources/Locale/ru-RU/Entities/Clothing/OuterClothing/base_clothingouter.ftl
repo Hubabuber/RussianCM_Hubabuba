@@ -4,19 +4,19 @@ ent-ClothingOuterEVASuitBase-name = базовый костюм EVA
 
 ent-ClothingOuterBaseToggleable-name = толстовка с капюшоном
 
-ent-ClothingOuterBase-name = lathe-category-clothing
+ent-ClothingOuterBase-name = Одежда
 
-ent-ClothingOuterBaseLarge-name = lathe-category-clothing
+ent-ClothingOuterBaseLarge-name = Одежда
 
-ent-ClothingOuterStorageBase-name = lathe-category-clothing
+ent-ClothingOuterStorageBase-name = Одежда
 
-ent-ClothingOuterStorageFoldableBase-name = lathe-category-clothing
+ent-ClothingOuterStorageFoldableBase-name = Одежда
 
-ent-ClothingOuterStorageFoldableBaseOpened-name = lathe-category-clothing
+ent-ClothingOuterStorageFoldableBaseOpened-name = Одежда
 
-ent-ClothingOuterStorageToggleableBase-name = lathe-category-clothing
+ent-ClothingOuterStorageToggleableBase-name = Одежда
 
-ent-ClothingOuterBaseMedium-name = lathe-category-clothing
+ent-ClothingOuterBaseMedium-name = Одежда
 
 ent-ClothingOuterBase = item
 

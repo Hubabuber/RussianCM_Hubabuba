@@ -2,5 +2,5 @@ ent-RMCSpawnPointSurvivorTrijentGoon = survivor trijent weya secguard spawn poin
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmsurvivortrijentgoon-name = rmc-job-name-pmc-corporate-goon-secguard
+job-cmsurvivortrijentgoon-name = We-Yu Security Guard
 job-cmsurvivortrijentgoon-spawnmenurolename = WeYa Security Guard (Trijent Survivor)

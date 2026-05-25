@@ -1,3 +1,3 @@
-job-rmcwhitelisteasy-name = rmc-имя-задания-белый список-easy
-job-rmcwhitelisthard-name = rmc-имя-задания-белый список-жесткий
-job-rmcwhitelistmedium-name = rmc-имя-задания-белый список-средний
+job-rmcwhitelisteasy-name = RMC Простой белый список
+job-rmcwhitelisthard-name = Жесткий белый список RMC
+job-rmcwhitelistmedium-name = Средний белый список RMC

@@ -1,1 +1,1 @@
-job-cmxenoselectablexeno-name = cm-job-name-selectable-ксенонид
+job-cmxenoselectablexeno-name = ксеноморф

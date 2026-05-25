@@ -18,4 +18,4 @@ reagent-thermite-name = название-реагента-термит
 reagent-thermite-physicaldesc = реагент-физический-зернистый
 reagent-weldingfuel-desc = реагент-дескат-сварочное-топливо
 reagent-weldingfuel-name = название-реагента-сварочное-топливо
-reagent-weldingfuel-physicaldesc = reagent-physical-desc-oily
+reagent-weldingfuel-physicaldesc = масляное

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMMessTech
-  name: cm-job-name-messtech
-  description: cm-job-description-messtech
+  name: job-cmmesstech-name
+  description: job-cmmesstech-desc
   playTimeTracker: CMJobMessTech
   requirements:
   - !type:DepartmentTimeRequirement
@@ -21,7 +21,7 @@
   startingGear: CMGearMessTech
   icon: "CMJobIconMessTech"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-qm
+  supervisors: job-cmmesstech-supervisors
   accessGroups:
   - MessTech
   roleWeight: 0.25

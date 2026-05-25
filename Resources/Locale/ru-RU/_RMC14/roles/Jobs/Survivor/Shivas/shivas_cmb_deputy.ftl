@@ -1,2 +1,2 @@
-job-rmcsurvivorshivascmbdeputy-name = RMC-имя-работы-выжившего-cmb-заместителя
+job-rmcsurvivorshivascmbdeputy-name = Заместитель СМВ
 job-rmcsurvivorshivascmbdeputy-spawnmenurolename = Заместитель CMB (Выживший Шивас)

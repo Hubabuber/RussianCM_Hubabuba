@@ -1,1 +1,1 @@
-job-cmxenopraetorian-name = cm-job-name-xeno-praetorian
+job-cmxenopraetorian-name = Praetorian

@@ -4,7 +4,7 @@ ent-AU14SpawnPointCivilianNSPAInspector = Spawn Point Civilian NSPA Inspector
 
 ent-aughostinspector = Inspector colonist ghost role
 
-job-au14jobciviliannspainspector-desc = au14-job-description-civiliannspainspector
-job-au14jobciviliannspainspector-name = au14-job-name-civiliannspainspector
+job-au14jobciviliannspainspector-desc = You're a Inspector of Neroid Sector Policing Authority. Provide the colony with rule of law and execute arrests and warrants. (Role avalible on Hybrisa and Port Neroid)
+job-au14jobciviliannspainspector-name = NSPA Inspector
 job-au14jobciviliannspainspector-spawnmenurolename = NSPA Inspector (CMU)
-job-au14jobciviliannspainspector-supervisors = au14-job-supervisors-colonycivilian
+job-au14jobciviliannspainspector-supervisors = Colony Administrator

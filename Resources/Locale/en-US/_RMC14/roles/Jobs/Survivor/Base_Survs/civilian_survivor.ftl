@@ -14,6 +14,6 @@ ent-RMCSurvivorPresetCivilianRareItem = civilian colonist preset with rare item
 
 ent-RMCSurvivorPresetNoGun = no gun colonist preset
 
-job-cmsurvivor-desc = cm-job-description-survivor
-job-cmsurvivor-name = cm-job-name-survivor
-job-cmsurvivor-supervisors = cm-job-supervisors-nobody
+job-cmsurvivor-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivor-name = Civilian Colonist
+job-cmsurvivor-supervisors = nobody, you are on your own

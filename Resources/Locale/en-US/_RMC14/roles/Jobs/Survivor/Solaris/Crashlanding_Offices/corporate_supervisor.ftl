@@ -2,5 +2,5 @@ ent-RMCSpawnPointSurvivorSolarisCorporateSupervisor = special survivor crashland
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-rmcsurvivorsolariscorporatesupervisor-name = rmc-job-name-survivor-solaris-corporate-supervisor
+job-rmcsurvivorsolariscorporatesupervisor-name = Colony Supervisor
 job-rmcsurvivorsolariscorporatesupervisor-spawnmenurolename = Survivor — Corporate Supervisor (Solaris Ridge special survivor)

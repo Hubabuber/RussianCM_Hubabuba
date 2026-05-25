@@ -69,8 +69,8 @@
 - type: entity
   id: CMUZLevelLadderBase
   abstract: true
-  name: z-level ladder
-  description: A sturdy metal ladder that passes between Z-levels.
+  name: ent-CMUZLevelLadderBase
+  description: ent-CMUZLevelLadderBase-desc
   placement:
     mode: SnapgridCenter
   components:
@@ -94,7 +94,7 @@
 - type: entity
   parent: CMUZLevelLadderBase
   id: CMUZLevelLadderThrough
-  suffix: Z-Level, Up
+  suffix: ent-CMUZLevelLadderThrough-suffix
   components:
   - type: CMUZLevelLadder
     offset: 1
@@ -109,7 +109,7 @@
 - type: entity
   parent: CMUZLevelLadderBase
   id: CMUZLevelLadderThroughDown
-  suffix: Z-Level, Down
+  suffix: ent-CMUZLevelLadderThroughDown-suffix
   components:
   - type: CMUZLevelLadder
     offset: -1

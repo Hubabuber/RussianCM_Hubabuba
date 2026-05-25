@@ -1,2 +1,2 @@
-stack-gold-name = stack-gold
-stack-silver-name = stack-silver
+stack-gold-name = gold
+stack-silver-name = silver

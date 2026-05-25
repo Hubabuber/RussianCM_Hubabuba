@@ -2,7 +2,7 @@ ent-AU14SpawnPointGOVFORMilitaryPoliceMan = Точка появления Вое
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobgovformilitarypoliceman-desc = au14-должностное описание-правительственныйвоенныйполицейский
-job-au14jobgovformilitarypoliceman-name = au14-имя-должности-правительствовоенныйполицейский
+job-au14jobgovformilitarypoliceman-desc = Обеспечьте своей фракции полицейскую поддержку.
+job-au14jobgovformilitarypoliceman-name = Военный полицейский
 job-au14jobgovformilitarypoliceman-spawnmenurolename = Военный полицейский (ГОВФОР)
-job-au14jobgovformilitarypoliceman-supervisors = au14-job-supervisors-govfor
+job-au14jobgovformilitarypoliceman-supervisors = Командир взвода

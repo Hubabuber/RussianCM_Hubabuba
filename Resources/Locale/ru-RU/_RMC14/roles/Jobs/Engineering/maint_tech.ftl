@@ -1,5 +1,6 @@
 ent-CMSpawnPointMaintTech = точка спавна техники
-
-job-cmmainttech-desc = cm-job-description-maint-tech
-job-cmmainttech-name = cm-имя-работы-maint-tech
-job-cmmainttech-supervisors = cm-job-supervisors-ce
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmmainttech-desc = Контролируйте работу S-52 термоядерных реакторов. Обслуживайте и модифицируйте "Алмайер" и его десантный корабльы.
+job-cmmainttech-name = Техник по техническому обслуживанию
+job-cmmainttech-supervisors = Главный инженер

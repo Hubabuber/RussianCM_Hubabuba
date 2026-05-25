@@ -1,4 +1,4 @@
-guideentry-rmc14-name = rmc-guide-entry-rmc
+guideentry-rmc14-name = Руководство RMC14
 guideentry-rmcchemicals-name = направляющие химикаты
 guideentry-rmcguidecommandroles-name = Кто командует?
 guideentry-rmcguidecommunicationstowers-name = Связь и датчики

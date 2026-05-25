@@ -10,10 +10,10 @@ ent-FenceMetalGate-desc = Вы могли бы использовать двер
 ent-FenceMetalStraight-name = сетчатый забор
 ent-FenceMetalStraight-desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
 
-ent-FenceMetalCorner-name = construction-recipe-fence-metal-corner
+ent-FenceMetalCorner-name = сетка-рабица (угол)
 ent-FenceMetalCorner-desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
 
-ent-FenceMetalEnd-name = construction-recipe-fence-metal-end
+ent-FenceMetalEnd-name = сетка-рабица (конец)
 ent-FenceMetalEnd-desc = Металлическая часть ограждения, огораживающая что-то, вероятно, очень важное.
 
 ent-BaseFenceMetal = сетчатый забор

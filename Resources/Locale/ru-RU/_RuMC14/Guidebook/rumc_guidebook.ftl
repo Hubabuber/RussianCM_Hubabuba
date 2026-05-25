@@ -1,4 +1,4 @@
-guideentry-rumc14-name = rmc-guide-entry-rmc
+guideentry-rumc14-name = Руководство RMC14
 guideentry-rumcchemicals-name = направляющие химикаты
 guideentry-rumcguidenewplayer-name = Руководство для начинающих
 guideentry-rumcguideroledrone-name = Руководство дрона

@@ -2,7 +2,7 @@ ent-RMCSpawnPointSurvivorPanicRoomAssistantManager = special survivor panic room
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-rmcsurvivorassistantmanager-desc = rmc-job-description-survivor
-job-rmcsurvivorassistantmanager-name = rmc-job-name-survivor-shivas-assman
+job-rmcsurvivorassistantmanager-desc = Survive the catastrophe. Work with anyone you trust and try to get off the colony alive.
+job-rmcsurvivorassistantmanager-name = Assistant Operations Manager
 job-rmcsurvivorassistantmanager-spawnmenurolename = Survivor — Assistant Operations Manager (Shivas)
-job-rmcsurvivorassistantmanager-supervisors = cm-job-supervisors-we-ya
+job-rmcsurvivorassistantmanager-supervisors = the Weyland-Yutani Corporate Office

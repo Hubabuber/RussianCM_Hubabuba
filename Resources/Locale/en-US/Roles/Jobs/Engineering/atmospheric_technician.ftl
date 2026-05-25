@@ -1,3 +1,3 @@
-job-atmospherictechnician-desc = job-description-atmostech
-job-atmospherictechnician-name = job-name-atmostech
-job-atmospherictechnician-supervisors = job-supervisors-ce
+job-atmospherictechnician-desc = Optimize the station's atmospherics setup, and synthesize rare gases to use or sell.
+job-atmospherictechnician-name = Atmospheric Technician
+job-atmospherictechnician-supervisors = the Chief Engineer

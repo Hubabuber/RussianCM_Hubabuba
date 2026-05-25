@@ -1,2 +1,2 @@
-accesslevel-nuclearoperative-name = id-card-access-level-nuclear-operative
-accesslevel-syndicateagent-name = id-card-access-level-syndicate-agent
+accesslevel-nuclearoperative-name = Nuclear Operative
+accesslevel-syndicateagent-name = Syndicate Agent

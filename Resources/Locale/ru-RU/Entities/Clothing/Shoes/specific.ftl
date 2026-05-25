@@ -43,7 +43,7 @@ ent-ClothingShoesClownLarge-desc = Когда нужно выделиться в
 ent-ClothingShoesSkates-name = роликовые коньки
 ent-ClothingShoesSkates-desc = Надевайте коньки!
 
-ent-ClothingShoesClownBase-name = lathe-category-clothing
+ent-ClothingShoesClownBase-name = Одежда
 
 ent-ClothingShoesBling = блестящие туфли клоуна
     .desc = Изготовлен из изысканного банана и сияет мякотью свежей банановой кожуры. Они делают яркое заявление.

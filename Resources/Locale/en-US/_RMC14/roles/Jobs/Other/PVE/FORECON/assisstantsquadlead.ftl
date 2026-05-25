@@ -2,6 +2,6 @@ ent-RMCSpawnPointFORECONPVEAssistantSL = forecon assistant squad lead spawn poin
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = PVE
 
-job-rmcforeconpveassistantsl-desc = cm-job-description-fireteam-leader
-job-rmcforeconpveassistantsl-name = rmc-job-name-pve-forecon-assistant-lead
+job-rmcforeconpveassistantsl-desc = Follow the section leader's orders and command your squad.
+job-rmcforeconpveassistantsl-name = Assistant Squad Lead
 job-rmcforeconpveassistantsl-spawnmenurolename = FORECON Assistant Squad Lead (PVE)

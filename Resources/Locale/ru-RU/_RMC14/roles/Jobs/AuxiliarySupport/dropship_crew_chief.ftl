@@ -1,5 +1,6 @@
 ent-CMSpawnPointDCC = Место появления начальника экипажа десантного корабля
-
-job-cmdropshipcrewchief-desc = cm-job-description-dcc
-job-cmdropshipcrewchief-name = cm-имя-задания-dcc
-job-cmdropshipcrewchief-supervisors = cm-job-supervisors-po
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmdropshipcrewchief-desc = Помогайте пилотам десантный корабльа и ганшипа, обслуживайте корабельный десантный корабль и оказывайте помощь раненым на борту.
+job-cmdropshipcrewchief-name = Начальник экипажа десантного корабля
+job-cmdropshipcrewchief-supervisors = Пилоты десантных кораблей и штурмовых кораблей

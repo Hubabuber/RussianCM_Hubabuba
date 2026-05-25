@@ -1,5 +1,6 @@
 ent-CMSpawnPointOrdnanceTech = точка появления артиллерийских технологий
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
 job-cmordnancetech-desc = см-должностное описание-боеприпасов-технологий
-job-cmordnancetech-name = cm-job-name-ordnance-tech
-job-cmordnancetech-supervisors = cm-job-supervisors-ce
+job-cmordnancetech-name = Техник вооружений
+job-cmordnancetech-supervisors = Главный инженер

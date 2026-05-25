@@ -1,2 +1,2 @@
-department-cmengineering-desc = cm-department-Engineering-description
-department-cmengineering-name = department-CMEngineering
+department-cmengineering-desc = Your job is to maintain the ship's engine and keep everything running.
+department-cmengineering-name = Engineering

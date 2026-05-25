@@ -1,5 +1,5 @@
 ent-RMCSpawnPointSurvivorShivasPanicRoomEngineer = Специальный выживший Шива, комната паники, инженер, точка возрождения
   .desc = Создатель заданий RMC14. 
-
-job-rmcsurvivorshivaspanicroomengineer-name = RMC-имя-должности-выжившего-шивас-инженера
+    .suffix = Создание вакансий
+job-rmcsurvivorshivaspanicroomengineer-name = Инженер Шивас
 job-rmcsurvivorshivaspanicroomengineer-spawnmenurolename = Инженер (выживший из комнаты страха Шиваса)

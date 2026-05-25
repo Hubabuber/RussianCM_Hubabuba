@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianEmergencyResponseOfficer = Офицер граждан
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianemergencyresponseofficer-desc = au14-должностная инструкция-колониясотрудник службы экстренного реагирования
-job-au14jobcivilianemergencyresponseofficer-name = au14-имя-должности-колониясотрудник по чрезвычайным ситуациям
-job-au14jobcivilianemergencyresponseofficer-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobcivilianemergencyresponseofficer-desc = Обеспечьте медицинскую помощь и уход в труднодоступных местах. Сотрудничайте с местной службой безопасности/правоохранителями для проведения поисково-спасательных операций.
+job-au14jobcivilianemergencyresponseofficer-name = Сотрудник службы экстренной помощи
+job-au14jobcivilianemergencyresponseofficer-supervisors = Администратор колонии

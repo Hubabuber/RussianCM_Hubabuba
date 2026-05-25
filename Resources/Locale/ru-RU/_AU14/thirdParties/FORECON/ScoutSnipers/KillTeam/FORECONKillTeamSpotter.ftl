@@ -5,7 +5,7 @@ ent-AU14IDCardFORECONKillTeamSpotter-desc = Кусочек закодирова�
 ent-AU14JobFORECONKillTeamSpotter = FORECON Spotter (Kill Team)
     .suffix = AU14, FORECON, KillTeam
 
-job-au14foreconkillteamspotter-desc = au14-описание-должности-forecon-killteam
-job-au14foreconkillteamspotter-name = au14-имя-работы-форекон-корректировщик
+job-au14foreconkillteamspotter-desc = Вы являетесь членом боевой команды FORECON. Убейте свою цель.
+job-au14foreconkillteamspotter-name = Корректировщик
 job-au14foreconkillteamspotter-spawnmenurolename = FORECON Spotter (AU14, KillTeam)
-job-au14foreconkillteamspotter-supervisors = au14-работы-руководители-одиночка
+job-au14foreconkillteamspotter-supervisors = Себя и только себя

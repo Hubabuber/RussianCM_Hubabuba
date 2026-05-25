@@ -1,8 +1,8 @@
 - type: job
   parent: RMCJobRibbonBase
   id: CMCorrespondent
-  name: cm-job-name-correspondent
-  description: cm-job-description-correspondent
+  name: job-cmcorrespondent-name
+  description: job-cmcorrespondent-desc
   playTimeTracker: CMJobCorrespondent
   requirements:
   - !type:TotalDepartmentsTimeRequirement
@@ -13,7 +13,7 @@
   startingGear: CMGearCorrespondent
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: rmc-job-supervisors-commander
+  supervisors: job-cmcorrespondent-supervisors
   accessGroups:
   - CMCorrespondent
   roleWeight: 0.25

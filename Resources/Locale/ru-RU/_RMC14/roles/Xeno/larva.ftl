@@ -1,1 +1,1 @@
-job-cmxenolarva-name = cm-имя-задания-ксено-личинка
+job-cmxenolarva-name = Личинка

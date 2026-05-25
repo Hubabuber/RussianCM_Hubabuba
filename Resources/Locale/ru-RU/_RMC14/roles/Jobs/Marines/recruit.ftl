@@ -1,6 +1,7 @@
 ent-RMCSpawnPointRecruit = нанять точку возрождения
  
-
-job-rmcrecruit-desc = RMC-описание-работы-рекрут
-job-rmcrecruit-name = RMC-имя-работы-рекрут
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmcrecruit-desc = Выполняйте приказы и учитесь у тех, кто выше вас. Накричать на инструктора. Выпускник, чтобы стать морфехом.
+job-rmcrecruit-name = Набирать
 job-rmcrecruit-supervisors = Руководители работ-все

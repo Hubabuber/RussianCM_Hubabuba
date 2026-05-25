@@ -5,7 +5,7 @@ ent-AU14IDCardUPPGROMMarksman-desc = Кусочек закодированног
 ent-AU14JobUPPGROMMarksman = УПП ГРОМ Стрелок
     .suffix = АУ14, УПП, ГРОМ
 
-job-au14uppgrommarksman-desc = au14-uppgrom-описание
-job-au14uppgrommarksman-name = au14-имя-должности-govforспециалист-стрелокRMC
+job-au14uppgrommarksman-desc = Вы являетесь членом элитного подразделения спецназа ГРОМ УПП. Выживите своим отделением и свяжитесь с любым дружественным командованием.
+job-au14uppgrommarksman-name = стрелок
 job-au14uppgrommarksman-spawnmenurolename = УПП ГРОМ Стрелок (Выживший)
 job-au14uppgrommarksman-supervisors = au-14-имя-должности-uppgrom-squadleader

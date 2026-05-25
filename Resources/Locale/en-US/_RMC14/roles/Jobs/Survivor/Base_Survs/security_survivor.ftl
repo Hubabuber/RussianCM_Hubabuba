@@ -6,5 +6,5 @@ ent-RMCSpawnPointSurvivorSecurity = survivor security spawn point
 
 ent-RMCSurvivorPresetSecurity = security colonist preset
 
-job-cmsurvivorsecurity-desc = cm-job-description-survivor
-job-cmsurvivorsecurity-name = cm-job-name-survivor-security
+job-cmsurvivorsecurity-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivorsecurity-name = Security Colonist

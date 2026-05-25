@@ -5,7 +5,7 @@ ent-AU14IDCardFORECONFirstReconCorpsman-desc = Кусочек закодиров
 ent-AU14JobFORECONFirstReconCorpsman = FORECON санитар (третья сторона)
     .suffix = АУ14, УА, ФОРЕКОН
 
-job-au14foreconfirstreconcorpsman-desc = au14-описание-должности-forecon-firstrecon
-job-au14foreconfirstreconcorpsman-name = au14-имя-работы-forecon-санитар
+job-au14foreconfirstreconcorpsman-desc = Вы являетесь членом 1-го батальона USCMC FORECON. Вы здесь, чтобы исследовать оружие массового уничтожения.
+job-au14foreconfirstreconcorpsman-name = Больничный санитар 2. Класса
 job-au14foreconfirstreconcorpsman-spawnmenurolename = FORECON санитар (AU14, третья сторона)
-job-au14foreconfirstreconcorpsman-supervisors = cm-должность-название-отделение-лидер
+job-au14foreconfirstreconcorpsman-supervisors = Руководитель секции

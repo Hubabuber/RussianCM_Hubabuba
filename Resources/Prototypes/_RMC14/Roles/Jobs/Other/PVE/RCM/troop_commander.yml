@@ -1,15 +1,15 @@
 - type: job
   parent: CMJobBase
   id: CMRoyalMarinesTroopCommanderPVE
-  name: rmc-job-name-rcm-pve-troop-commander
-  description: rmc-ghost-role-information-rcm-description
+  name: job-cmroyalmarinestroopcommanderpve-name
+  description: job-cmroyalmarinestroopcommanderpve-desc
   playTimeTracker: RMCJobRoyalTroopCommanderPVE
   ranks:
     RMCRankTSESecondLieutenant: [ ]
   startingGear: RMCGearRoyalTroopCommanderPVE
   icon: "RMCJobIconRoyalTroopCommanderPVE"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-squadron-command
+  supervisors: job-cmroyalmarinestroopcommanderpve-supervisors
   accessGroups:
   - ShipMasterAccess
   spawnMenuRoleName: job-cmroyalmarinestroopcommanderpve-spawnmenurolename

@@ -5,7 +5,7 @@ ent-AU14SpawnPointGOVFORPlatOp = Точка появления GOVFOR взвод
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobgovforplatop-desc = au14-описание-должности-govforplatop
-job-au14jobgovforplatop-name = au14-имя-работы-govforplatop
+job-au14jobgovforplatop-desc = Помогать командующему в логистике, координации и оперативном надзоре.
+job-au14jobgovforplatop-name = Младший офицер
 job-au14jobgovforplatop-spawnmenurolename = Младший офицер (ГОВФОР)
-job-au14jobgovforplatop-supervisors = au14-job-supervisors-govfor
+job-au14jobgovforplatop-supervisors = Командир взвода

@@ -1,2 +1,2 @@
-alert-rmcmuted-desc = alerts-muted-desc
-alert-rmcmuted-name = alerts-muted-name
+alert-rmcmuted-desc = You have lost the ability to speak.
+alert-rmcmuted-name = Muted

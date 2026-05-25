@@ -1,1 +1,1 @@
-construction-silkwovencloth-name = construction-recipe-silk-woven-cloth
+construction-silkwovencloth-name = silk cloth

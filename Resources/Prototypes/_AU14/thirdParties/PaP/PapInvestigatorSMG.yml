@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobPAPThirdpartyInvestigatorBase
   id: AU14PAPThirdpartyInvestigatorSMG
-  name: au-14-job-name-papthirdparty-investigator
-  description: au14-papthirdparty-description
+  name: job-au14papthirdpartyinvestigatorsmg-name
+  description: job-au14papthirdpartyinvestigatorsmg-desc
   ranks:
     UPP_SeniorLieutenant:
     - !type:RoleTimeRequirement
@@ -18,7 +18,7 @@
   greeting: au14-papthirdparty-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: au-14-job-name-papthirdparty-captain
+  supervisors: job-au14papthirdpartyinvestigatorsmg-supervisors
   accessGroups:
   - aucmb
   - Colonist

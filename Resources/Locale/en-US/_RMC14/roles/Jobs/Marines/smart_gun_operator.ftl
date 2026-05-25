@@ -21,6 +21,6 @@ ent-CMSpawnPointSmartGunOperatorDelta = smart gun operator spawn point
 ent-RMCGuidebookRoleSGO = Smart Gun Operator
     .desc = Smart Gun Operator
 
-job-cmsmartgunoperator-desc = cm-job-description-smart-gun-operator
-job-cmsmartgunoperator-name = cm-job-name-smart-gun-operator
-job-cmsmartgunoperator-supervisors = cm-job-supervisors-sl
+job-cmsmartgunoperator-desc = Support your Squad with heavy weaponry and give the enemy suppressing fire.
+job-cmsmartgunoperator-name = Smart Gun Operator
+job-cmsmartgunoperator-supervisors = the acting Squad Leader

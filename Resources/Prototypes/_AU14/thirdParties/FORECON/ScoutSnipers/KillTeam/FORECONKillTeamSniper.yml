@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobFORECONSniperBase
   id: AU14FORECONKillTeamSniper
-  name: rmc-job-name-forecon-sniper
-  description: au14-job-description-forecon-killteam
+  name: job-au14foreconkillteamsniper-name
+  description: job-au14foreconkillteamsniper-desc
   ranks:
     RMCRankChiefWarrantOfficer:
     - !type:RoleTimeRequirement
@@ -14,7 +14,7 @@
   startingGear: AU14GearFORECONKillTeamSniper
   greeting: au14-job-description-forecon-killteam-greeting
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-loner
+  supervisors: job-au14foreconkillteamsniper-supervisors
   special:
   - !type:AddComponentSpecial
     components:

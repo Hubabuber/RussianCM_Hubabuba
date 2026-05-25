@@ -32,4 +32,4 @@ ent-SpaceCash5000 = spesos
     .desc = You gotta have money.
 
 material-credit-name = speso
-stack-credit-name = stack-credit
+stack-credit-name = speso

@@ -1,4 +1,4 @@
-job-au14vaiteamleaderbase-desc = au14-vai-mercenary-описание
-job-au14vaiteamleaderbase-name = au14-название-ваи-тимлидера
+job-au14vaiteamleaderbase-desc = Вы — наемник компании Vanguard's Arrow Incorporated. Следуйте своему контракту. Подробную информацию можно найти в учебнике.
+job-au14vaiteamleaderbase-name = Лидер группы
 job-au14vaiteamleaderbase-spawnmenurolename = Руководитель группы VAI (база)
-job-au14vaiteamleaderbase-supervisors = au14-работы-руководители-одиночка
+job-au14vaiteamleaderbase-supervisors = Себя и только себя

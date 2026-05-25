@@ -1,6 +1,6 @@
 ent-RMCGearSurvivorPresetPara = пункт предустановки
 
-job-rmcsurvivorparabase-desc = RMC-описание-пункт-пункт
-job-rmcsurvivorparabase-name = rmc-имя-задания-параметр
+job-rmcsurvivorparabase-desc = Вы застряли в парамарине TSE RCM. На вашем десантном корабле закончилось топливо, и вы застряли на планете. Делайте все возможное, чтобы выжить!
+job-rmcsurvivorparabase-name = Выживший парамарин
 job-rmcsurvivorparabase-spawnmenurolename = Выживший королевский парамарин (база)
-job-rmcsurvivorparabase-supervisors = cm-job-supervisors-royal-tl
+job-rmcsurvivorparabase-supervisors = командир отделения

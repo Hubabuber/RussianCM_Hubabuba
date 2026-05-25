@@ -1,2 +1,2 @@
-department-au14departmentopfor-desc = au14-отдел-опфор-описание
-department-au14departmentopfor-name = au14-отдел-опфор
+department-au14departmentopfor-desc = Оппозиционные силы
+department-au14departmentopfor-name = Оппозиционные силы

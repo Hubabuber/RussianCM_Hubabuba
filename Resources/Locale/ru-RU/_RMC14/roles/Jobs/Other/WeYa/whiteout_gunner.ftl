@@ -1,4 +1,4 @@
 ent-RMCRandomHumanoidPMCWhiteoutGunner = DEATHSQUAD ЧВК в роли призрака, наводчика в темноте
-
-job-rmcpmcwhiteoutgunner-name = rmc-имя-задания-pmc-whiteout-gunner
+    .suffix = DEATHSQUAD ЧВК в роли призрака
+job-rmcpmcwhiteoutgunner-name = Отряд боевых стрелков команды «Белая мгла»
 job-rmcpmcwhiteoutgunner-spawnmenurolename = Боевой стрелковый отряд WEYA Whiteout

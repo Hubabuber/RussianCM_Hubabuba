@@ -1,7 +1,8 @@
 ent-CMGuidebookRoleSEA = Старший сержантский советник
   .desc = Наставник для морпехов!
 ent-CMSpawnPointSeniorEnlistedAdvisor = Точка появления старшего рядового советника
-
-job-cmseniorenlistedadvisor-desc = cm-описание-должности-старший-зачисленный-советник
-job-cmseniorenlistedadvisor-name = cm-имя-должности-старший-зачисленный-советник
-job-cmseniorenlistedadvisor-supervisors = rmc-job-supervisors-commander
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmseniorenlistedadvisor-desc = Консультируйте и обучайте как неопытных членов экипажа, так и морпехи. Отдавайте приказы новым рядовым подготовиться.
+job-cmseniorenlistedadvisor-name = Старший рядовой советник
+job-cmseniorenlistedadvisor-supervisors = действующий Командующий

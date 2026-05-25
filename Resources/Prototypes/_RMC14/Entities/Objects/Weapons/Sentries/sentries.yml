@@ -2,7 +2,7 @@
   abstract: true
   parent: RMCSentryPremade
   id: RMCBaseSentry #Conversion Rate for turret vision range = CM + 1
-  name: turret
+  name: ent-RMCBaseSentry
   components:
   - type: Sentry
   - type: Eye
@@ -188,8 +188,8 @@
 - type: entity
   parent: RMCSentryMini
   id: RMCSentryMiniSPP # TODO RMC14: Replace with the real one.
-  name: UPP SDS-R8 light sentry
-  description: A compact version of the UPP defense sentry SDS-R7. Designed for deployment in the field.
+  name: ent-RMCSentryMiniSPP
+  description: ent-RMCSentryMiniSPP-desc
 
 - type: entity
   parent: RMCSentry

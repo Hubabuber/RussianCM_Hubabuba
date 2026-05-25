@@ -13,6 +13,6 @@ ent-AU14PillRMCPsilocybin = Grounded Mushrooms Pill
 ent-AU14PillSpeedDemon = Speed Demon Pill
     .desc = A pill containing the dangerous street drug Speed Demon.
 
-reagent-au14drugspeeddemon-desc = reagent-desc-speed-demon
-reagent-au14drugspeeddemon-name = reagent-name-speed-demon
-reagent-au14drugspeeddemon-physicaldesc = reagent-physical-desc-glowing
+reagent-au14drugspeeddemon-desc = A dangerous street drug that greatly increases speed and reflexes, but is highly toxic.
+reagent-au14drugspeeddemon-name = Speed Demon
+reagent-au14drugspeeddemon-physicaldesc = glowing

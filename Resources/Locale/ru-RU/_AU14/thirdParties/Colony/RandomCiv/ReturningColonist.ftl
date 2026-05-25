@@ -3,7 +3,7 @@ ent-AU14JobReturningColonist = Возвращающийся колонист (г
 
 ent-AU14ReturningColonistPreset = пресет возвращающегося колониста
 
-job-au14jobreturningcolonist-desc = au14-должностная инструкция-гражданский колонист
-job-au14jobreturningcolonist-name = au14-имя-должности-гражданский колонист
+job-au14jobreturningcolonist-desc = Житель колонии.
+job-au14jobreturningcolonist-name = Колонист
 job-au14jobreturningcolonist-spawnmenurolename = Колонист (третья сторона)
-job-au14jobreturningcolonist-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobreturningcolonist-supervisors = Администратор колонии

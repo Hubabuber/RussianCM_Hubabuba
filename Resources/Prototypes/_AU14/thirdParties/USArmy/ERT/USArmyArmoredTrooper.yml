@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmyTrooperBase
-  name: au14-job-name-usarmy-trooper
-  description: au14-job-description-usarmy
+  name: job-au14usarmytrooperbase-name
+  description: job-au14usarmytrooperbase-desc
   playTimeTracker: AU14JobUSArmyTrooper
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14USArmyTrooperBase
   id: AU14JobUSArmyTrooperArmored
-  name: au14-job-name-usarmy-trooper
-  description: au14-job-description-usarmy
+  name: job-au14jobusarmytrooperarmored-name
+  description: job-au14jobusarmytrooperarmored-desc
   ranks:
     USArmy_Specialist:
     - !type:RoleTimeRequirement
@@ -27,7 +27,7 @@
   greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyTrooper"
   joinNotifyCrew: false
-  supervisors: cm-job-name-squad-leader
+  supervisors: job-au14jobusarmytrooperarmored-supervisors
   accessGroups:
   - AU14GovforSquad
   special:

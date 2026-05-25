@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianAmbassadorUPP = Гражданский посол UPP 
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianambassadorupp-desc = au14-job-description-civilianambassadorupp
-job-au14jobcivilianambassadorupp-name = au14-имя-работы-civilianambassadorupp
-job-au14jobcivilianambassadorupp-supervisors = au14-работа-руководители-орбитальная
+job-au14jobcivilianambassadorupp-desc = Руководи дипломатической миссией СПН в колонии.
+job-au14jobcivilianambassadorupp-name = Посол УПП
+job-au14jobcivilianambassadorupp-supervisors = Орбитальный менеджер

@@ -1,2 +1,2 @@
-gamepreset-cmdistresssignal-desc = rmc-дистресс-сигнал-описание
-gamepreset-cmdistresssignal-name = rmc-заголовок-сигнала бедствия
+gamepreset-cmdistresssignal-desc = Отреагируйте на сигнал бедствия, отправленный с соседней планеты.
+gamepreset-cmdistresssignal-name = Сигнал бедствия

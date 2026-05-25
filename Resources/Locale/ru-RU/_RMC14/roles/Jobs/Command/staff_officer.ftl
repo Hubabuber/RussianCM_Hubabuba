@@ -1,8 +1,9 @@
 ent-RMCGuidebookRoleSO = Офицер штаба
   .desc = Офицер штаба
 ent-CMSpawnPointStaffOfficer = точка появления штабного офицера
-
-job-cmstaffofficer-desc = cm-должностная инструкция-штатный офицер
-job-cmstaffofficer-name = cm-должность-название-штатного офицера
-job-cmstaffofficer-newtojobinfo = RMC-новичок-штатный офицер
-job-cmstaffofficer-supervisors = rmc-job-supervisors-commander
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmstaffofficer-desc = Следи за морпехи, сотрудник ЦИК. Отвечает за логистику и систему наблюдения.
+job-cmstaffofficer-name = Штабной офицер
+job-cmstaffofficer-newtojobinfo = Ваша работа как штабного офицера заключается в том, чтобы «надзирать», контролировать и поддерживать порученное вам подразделение, а также передавать приказы командующего операцией.
+job-cmstaffofficer-supervisors = действующий Командующий

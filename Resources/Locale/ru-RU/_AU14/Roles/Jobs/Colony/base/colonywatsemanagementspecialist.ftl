@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianWasteManagementSpecialist = Специалист по 
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianwastemanagementspecialist-desc = au14-должностная инструкция-специалист по управлению гражданскими отходами
-job-au14jobcivilianwastemanagementspecialist-name = au14-название-должности-специалист по управлению гражданскими отходами
-job-au14jobcivilianwastemanagementspecialist-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobcivilianwastemanagementspecialist-desc = Очистите, продезинфицируйте и утилизируйте. Здравомыслие начинается с санитарии.
+job-au14jobcivilianwastemanagementspecialist-name = Специалист по управлению отходами
+job-au14jobcivilianwastemanagementspecialist-supervisors = Администратор колонии

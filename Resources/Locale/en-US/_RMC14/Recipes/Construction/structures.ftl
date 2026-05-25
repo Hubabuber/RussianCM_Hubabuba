@@ -11,3 +11,17 @@ construction-rmclightbulbfixture-desc = A wallmounted fixture for bulb lights.
 construction-rmclighttubefixture-desc = A wallmounted fixture for tube lights.
 construction-rmcwindowdirectional-desc = A glass window. It looks thin and flimsy.
 construction-rmcwindowreinforceddirectional-desc = A glass window reinforced with bracing rods. It looks rather strong.
+
+construction-cmairlock-name = airlock
+construction-cmairlockglass-name = glass airlock
+construction-cmbarricademetal-name = Metal Barricade
+construction-cmbarricademetaldoor-name = Folding Metal Barricade
+construction-cmbarricadeplasteeldoor-name = Folding Plasteel Barricade
+construction-cmwindoor-name = windoor
+construction-cmwindoorsecure-name = secure windoor
+construction-rmcbarricadeplasteel-name = Plasteel Barricade
+construction-rmcbarricadewood-name = Wooden Barricade
+construction-rmclightbulbfixture-name = bulb light fixture
+construction-rmclighttubefixture-name = tube light fixture
+construction-rmcwindowdirectional-name = directional window
+construction-rmcwindowreinforceddirectional-name = directional reinforced window

@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianNurse = Гражданская медсестра то
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobciviliannurse-desc = au14-должностная инструкция-гражданская медсестра
-job-au14jobciviliannurse-name = au14-имя-должности-гражданская медсестра
-job-au14jobciviliannurse-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobciviliannurse-desc = Поддержка врача в уходе за пациентами и медицинской логистике.
+job-au14jobciviliannurse-name = Медсестра
+job-au14jobciviliannurse-supervisors = Администратор колонии

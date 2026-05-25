@@ -1,3 +1,3 @@
-job-rmcsppco-desc = rmc-job-description-spp-co
-job-rmcsppco-name = rmc-job-name-spp-co
+job-rmcsppco-desc = The commanding officer of an SPP unit, you answer directly to SPP high command.
+job-rmcsppco-name = Commanding Officer
 job-rmcsppco-spawnmenurolename = SPP CO

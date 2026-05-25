@@ -4,6 +4,6 @@ ent-RMCSpawnPointSurvivorHybrisaCorporateLiaison = hybrisa corporate liaison sur
 
 ent-RMCSurvivorPresetHybrisaCorporateLiaison = hybrisa corporate liaison preset
 
-job-rmcsurvivorhybrisacorporateliaison-desc = cm-job-description-survivor
-job-rmcsurvivorhybrisacorporateliaison-name = cm-job-name-liaison
+job-rmcsurvivorhybrisacorporateliaison-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-rmcsurvivorhybrisacorporateliaison-name = Corporate Liaison
 job-rmcsurvivorhybrisacorporateliaison-spawnmenurolename = Corporate Liaison (Hybrisa Survivor)

@@ -1,8 +1,8 @@
 - type: job
   parent: RMCJobNametagBase
   id: CMLiaison
-  name: cm-job-name-liaison
-  description: cm-job-description-liaison
+  name: job-cmliaison-name
+  description: job-cmliaison-desc
   requirements:
   - !type:TotalDepartmentsTimeRequirement
     group: CMDepartmentsHuman
@@ -25,7 +25,7 @@
   startingGear: CMGearLiaison
   icon: "CMJobIconLiaison"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-we-ya
+  supervisors: job-cmliaison-supervisors
   accessGroups:
   - RMCWeYaExecColony
   roleWeight: 0.25

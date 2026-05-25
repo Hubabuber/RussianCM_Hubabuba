@@ -5,7 +5,7 @@ ent-AU14SpawnPointCivilianJournalist = Гражданский журналист
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianjournalist-desc = au14-должностная инструкция-гражданский журналист
-job-au14jobcivilianjournalist-name = au14-имя-должности-гражданский журналист
+job-au14jobcivilianjournalist-desc = Документируйте правду или, по крайней мере, свою ее версию. Освещайте события в колонии и вокруг нее.
+job-au14jobcivilianjournalist-name = Журналист
 job-au14jobcivilianjournalist-spawnmenurolename = Журналист (КМУ)
-job-au14jobcivilianjournalist-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobcivilianjournalist-supervisors = Администратор колонии

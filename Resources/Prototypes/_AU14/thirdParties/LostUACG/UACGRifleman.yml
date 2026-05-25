@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobUACGRiflemanBase
-  name: au-14-job-name-uacg-rifleman
-  description: au14-uacg-description
+  name: job-au14jobuacgriflemanbase-name
+  description: job-au14jobuacgriflemanbase-desc
   playTimeTracker: AU14JobUACGRifleman
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobUACGRiflemanBase
   id: AU14UACGRifleman
-  name: au-14-job-name-uacg-rifleman
-  description: au14-uacg-description
+  name: job-au14uacgrifleman-name
+  description: job-au14uacgrifleman-desc
   ranks:
     RMCRankPrivateFirstClass:
     - !type:RoleTimeRequirement
@@ -23,7 +23,7 @@
   greeting: au14-uacg-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: au-14-job-name-uacg-squadleader
+  supervisors: job-au14uacgrifleman-supervisors
   accessGroups:
   - AU14GovforFTL
   special:

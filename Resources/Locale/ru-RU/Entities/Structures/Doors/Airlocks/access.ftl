@@ -6,7 +6,7 @@ ent-AirlockExternalShuttleSyndicateLocked-desc = Необходим для со�
 ent-AirlockExternalShuttleNukeopLocked-name = внешний шлюзовой шлюз
 ent-AirlockExternalShuttleNukeopLocked-desc = Необходим для соединения двух космических кораблей вместе.
 
-ent-AirlockExternalGlassShuttleLocked-name = construction-recipe-airlock-glass-shuttle
+ent-AirlockExternalGlassShuttleLocked-name = стеклянный шлюз шаттла
 
 ent-AirlockExternalGlassShuttleSyndicateLocked-name = внешний шлюзовой шлюз
 ent-AirlockExternalGlassShuttleSyndicateLocked-desc = Необходим для соединения двух космических кораблей вместе.
@@ -14,11 +14,11 @@ ent-AirlockExternalGlassShuttleSyndicateLocked-desc = Необходим для 
 ent-AirlockExternalGlassShuttleNukeopLocked-name = внешний шлюзовой шлюз
 ent-AirlockExternalGlassShuttleNukeopLocked-desc = Необходим для соединения двух космических кораблей вместе.
 
-ent-AirlockExternalGlassShuttleEmergencyLocked-name = construction-recipe-airlock-glass-shuttle
+ent-AirlockExternalGlassShuttleEmergencyLocked-name = стеклянный шлюз шаттла
 
-ent-AirlockExternalGlassShuttleArrivals-name = construction-recipe-airlock-glass-shuttle
+ent-AirlockExternalGlassShuttleArrivals-name = стеклянный шлюз шаттла
 
-ent-AirlockExternalGlassShuttleEscape-name = construction-recipe-airlock-glass-shuttle
+ent-AirlockExternalGlassShuttleEscape-name = стеклянный шлюз шаттла
 
 ent-HighSecCentralCommandLocked-name = дверь повышенной безопасности
 ent-HighSecCentralCommandLocked-desc = Удерживает плохое и сохраняет хорошее.

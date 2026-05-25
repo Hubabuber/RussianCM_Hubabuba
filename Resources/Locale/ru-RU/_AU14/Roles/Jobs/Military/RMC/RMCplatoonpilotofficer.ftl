@@ -1,4 +1,4 @@
-job-au14jobgovfordspilotrmc-desc = au14-описание-должности-govfordspilot
+job-au14jobgovfordspilotrmc-desc = Летите на десантном корабле. Вводите войска, извлекайте раненых и оказывайте огневую поддержку.
 job-au14jobgovfordspilotrmc-name = Пилот-офицер RMC
 job-au14jobgovfordspilotrmc-spawnmenurolename = Пилот-офицер (TWE RMC)
-job-au14jobgovfordspilotrmc-supervisors = au14-job-supervisors-govfor
+job-au14jobgovfordspilotrmc-supervisors = Командир взвода

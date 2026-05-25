@@ -1,6 +1,6 @@
-job-au14abominationgrunt-name = au14-название-работы-мерзость-хрюканье
-job-au14abominationmimic-name = au14-название-работы-мерзость-подражать
-job-au14abominationskitter-name = au14-название-работы-мерзость-бегун
-job-au14abominationspider-name = au14-имя-работы-мерзость-паук
+job-au14abominationgrunt-name = Хрюкающая мерзость
+job-au14abominationmimic-name = Мимическая мерзость
+job-au14abominationskitter-name = Скиттер-мерзость
+job-au14abominationspider-name = Паучья мерзость
 radiochannel-abomination-name = чат-радио-мерзость
 radiochannel-abominationmimic-name = чат-радио-мерзость-подражать

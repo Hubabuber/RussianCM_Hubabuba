@@ -1,6 +1,7 @@
 ent-RMCSpawnPointSynthColonist = синтетическая точка спавна колонистов
  
-
-job-rmcjobsyntheticcolony-desc = rmc-job-description-синтетик-колония
-job-rmcjobsyntheticcolony-name = rmc-имя-работы-синтетик-колония
-job-rmcjobsyntheticcolony-supervisors = cm-job-supervisors-колонисты
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmcjobsyntheticcolony-desc = Поддерживайте и помогайте персоналу колонии.
+job-rmcjobsyntheticcolony-name = Колония синтетик
+job-rmcjobsyntheticcolony-supervisors = колонисты

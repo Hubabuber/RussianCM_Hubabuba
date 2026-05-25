@@ -1,8 +1,8 @@
 ent-RMCGearSurvivorPresetHybrisaXenobiologist = пресет ксенобиолога
-
 ent-RMCSpawnPointSurvivorHybrisaXenobiologist = точка спавна ксенобиологов
  
-
-job-rmcsurvivorhybrisaxenobiologist-desc = cm-описание-работы-выживший
-job-rmcsurvivorhybrisaxenobiologist-name = RMC-название-должности-выживший-ксенобиолог
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmcsurvivorhybrisaxenobiologist-desc = Вы выжили после нападения на корпоративный объект. Вы работали или жили в колонии/станции и сумели избежать нападений инопланетян... до сих пор.
+job-rmcsurvivorhybrisaxenobiologist-name = Ксенобиолог
 job-rmcsurvivorhybrisaxenobiologist-spawnmenurolename = Ксенобиолог (Выживший из Гибрисы)

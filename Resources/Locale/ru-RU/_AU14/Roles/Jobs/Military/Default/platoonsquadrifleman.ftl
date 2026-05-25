@@ -5,7 +5,7 @@ ent-AU14SpawnPointGOVFORSquadRifleman = Точка возрождения отд
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobgovforsquadrifleman-desc = au14-описание-должности-govforsquadrifleman
-job-au14jobgovforsquadrifleman-name = au14-имя-должности-govforsquadrifleman
+job-au14jobgovforsquadrifleman-desc = Основа подразделения. Выполняйте приказы, вызывайте охрану и стреляйте метко.
+job-au14jobgovforsquadrifleman-name = стрелок
 job-au14jobgovforsquadrifleman-spawnmenurolename = стрелок (ГОВФОР)
-job-au14jobgovforsquadrifleman-supervisors = au14-job-supervisors-govfor
+job-au14jobgovforsquadrifleman-supervisors = Командир взвода

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14FORECONSquadleaderBase
-  name: cm-job-name-squad-leader
-  description: au14-job-description-govforadvisor
+  name: job-au14foreconsquadleaderbase-name
+  description: job-au14foreconsquadleaderbase-desc
   playTimeTracker: AU14JobFORECONSquadLeader
   basePlaytimeTracker: true
   hidden: true
@@ -26,8 +26,8 @@
 - type: job
   parent: AU14FORECONSquadleaderBase
   id: AU14FORECONSquadleader
-  name: cm-job-name-squad-leader
-  description: rmc-job-description-forecon
+  name: job-au14foreconsquadleader-name
+  description: job-au14foreconsquadleader-desc
   ranks:
     RMCRankFirstLT:
     - !type:RoleTimeRequirement
@@ -39,7 +39,7 @@
   greeting: au14-forecon-greeting
   icon: "CMJobIconSquadLeader"
   joinNotifyCrew: false
-  supervisors: rmc-job-name-forecon-commander
+  supervisors: job-au14foreconsquadleader-supervisors
   accessGroups:
   - AU14GovforCommand
   special:

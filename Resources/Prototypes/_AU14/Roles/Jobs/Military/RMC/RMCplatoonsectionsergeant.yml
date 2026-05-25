@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantRMC
-  name: au14-job-name-govforSSGRMC
-  description: au14-job-description-govforSSG
+  name: job-au14jobgovforsectionsergeantrmc-name
+  description: job-au14jobgovforsectionsergeantrmc-desc
   setPreference: true
   requirements:
   - !type:AgeRequirement
@@ -26,7 +26,7 @@
   requireAdminNotify: true
   spawnMenuRoleName: job-au14jobgovforsectionsergeantrmc-spawnmenurolename
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govfor
+  supervisors: job-au14jobgovforsectionsergeantrmc-supervisors
   accessGroups:
   - AU14GovforCommand
   overwatchSortPriority: -6

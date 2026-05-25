@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianCorporateLiaisonBase
-  name: au14-job-name-civiliancorporateliaison
-  description: au14-job-description-civiliancorporateliaison
+  name: job-au14jobciviliancorporateliaisonbase-name
+  description: job-au14jobciviliancorporateliaisonbase-desc
   playTimeTracker: AU14JobCivilianCorporateLiaison
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobCivilianCorporateLiaisonBase
   id: AU14JobCivilianCorporateLiaison
-  name: au14-job-name-civiliancorporateliaison
-  description: au14-job-description-civiliancorporateliaison
+  name: job-au14jobciviliancorporateliaison-name
+  description: job-au14jobciviliancorporateliaison-desc
   setPreference: true
   ranks:
     RMCRankWeYaAssistantManager:
@@ -39,7 +39,7 @@
   icon: "CMJobIconLiaison"
   requireAdminNotify: false
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-colonycivilian
+  supervisors: job-au14jobciviliancorporateliaison-supervisors
   spawnMenuRoleName: job-au14jobciviliancorporateliaison-spawnmenurolename
   accessGroups:
   - Colonist

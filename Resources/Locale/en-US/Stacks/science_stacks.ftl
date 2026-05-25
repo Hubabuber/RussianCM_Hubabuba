@@ -1,2 +1,2 @@
-stack-artifactfragment-name = stack-artifact-fragment
-stack-manipulator-name = stack-micro-manipulator
+stack-artifactfragment-name = artifact {$amount ->
+stack-manipulator-name = modular machine part

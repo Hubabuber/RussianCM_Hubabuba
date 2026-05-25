@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMProvostInspector
-  name: rmc-job-name-corp-provost-inspector
-  description: rmc-job-description-inspector
+  name: job-cmprovostinspector-name
+  description: job-cmprovostinspector-desc
   whitelisted: true
   whitelistParent: RMCWhitelistHard
   playTimeTracker: CMJobProvostInspector
@@ -25,7 +25,7 @@
   icon: RMCJobIconProvostInspector
   joinNotifyCrew: true
   marineAuthorityLevel: 0
-  supervisors: cm-job-supervisors-marine-high-command
+  supervisors: job-cmprovostinspector-supervisors
   accessGroups:
   - ShipMasterAccess
   special:

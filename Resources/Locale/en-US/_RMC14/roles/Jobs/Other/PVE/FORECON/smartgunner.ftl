@@ -2,6 +2,6 @@ ent-RMCSpawnPointFORECONPVESmartgunner = forecon smartgunner spawn point
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = PVE
 
-job-rmcforeconpvesmartgunner-desc = cm-job-description-smart-gun-operator
-job-rmcforeconpvesmartgunner-name = rmc-job-name-pve-forecon-smartgunner
+job-rmcforeconpvesmartgunner-desc = Support your Squad with heavy weaponry and give the enemy suppressing fire.
+job-rmcforeconpvesmartgunner-name = Smartgun Operator
 job-rmcforeconpvesmartgunner-spawnmenurolename = FORECON Smartgunner (PVE)

@@ -1,5 +1,6 @@
 ent-CMSpawnPointResearcher = точка появления исследователя
-
-job-cmresearcher-desc = RMC-должностная инструкция-исследователь
-job-cmresearcher-name = RMC-название-должности-исследователя
-job-cmresearcher-supervisors = cm-job-supervisors-cmo
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmresearcher-desc = Проведите исследование того, что вам присылают. Создавайте и анализируйте новые химические вещества, инструменты и предметы.
+job-cmresearcher-name = Исследователь
+job-cmresearcher-supervisors = Главный врач

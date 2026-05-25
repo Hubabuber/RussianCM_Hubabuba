@@ -1,1 +1,1 @@
-job-cmxenodrone-name = cm-job-name-xeno-drone
+job-cmxenodrone-name = Drone

@@ -1,3 +1,3 @@
-job-lawyer-desc = job-description-lawyer
-job-lawyer-name = job-name-lawyer
-job-lawyer-supervisors = job-supervisors-hop
+job-lawyer-desc = Ensure that every prisoner or criminal receives a fair judgment and trial if necessary.
+job-lawyer-name = Lawyer
+job-lawyer-supervisors = the Head of Personnel

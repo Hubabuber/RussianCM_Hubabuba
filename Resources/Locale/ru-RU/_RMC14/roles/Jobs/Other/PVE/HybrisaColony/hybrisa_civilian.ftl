@@ -1,6 +1,6 @@
 ent-RMCSpawnPointPVEHybrisaCivilian = гражданская точка появления гибриды
-
-
-job-rmcpvehybrisacivilian-desc = RMC-описание-работы-hybrisa-гражданский
-job-rmcpvehybrisacivilian-name = RMC-имя-должности-hybrisa-гражданский
-job-rmcpvehybrisacivilian-supervisors = cm-job-supervisors-никто
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmcpvehybrisacivilian-desc = Проживите свою жизнь в Hybrisa Prospera.
+job-rmcpvehybrisacivilian-name = Гибриса Проспера Колонист
+job-rmcpvehybrisacivilian-supervisors = никто, ты сам по себе

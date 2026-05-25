@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: RMCJobSynthetic
-  name: rmc-job-name-synth
-  description: rmc-job-description-synth
+  name: job-rmcjobsynthetic-name
+  description: job-rmcjobsynthetic-desc
   playTimeTracker: RMCJobSynthetic
   ranks:
     RMCRankChiefWarrantOfficer:
@@ -16,7 +16,7 @@
   joinNotifyCrew: true
   whitelisted: true
   whitelistParent: RMCWhitelistMedium
-  supervisors: rmc-job-supervisors-commander
+  supervisors: job-rmcjobsynthetic-supervisors
   accessGroups:
   - ShipMasterAccess
   - Synth

@@ -1,7 +1,7 @@
-stack-clockworkglass-name = stack-clockwork-glass
-stack-glass-name = stack-glass
-stack-plasmaglass-name = stack-plasma-glass
-stack-reinforcedglass-name = stack-reinforced-glass
-stack-reinforcedplasmaglass-name = stack-reinforced-plasma-glass
-stack-reinforceduraniumglass-name = stack-reinforced-uranium-glass
-stack-uraniumglass-name = stack-uranium-glass
+stack-clockworkglass-name = clockwork glass
+stack-glass-name = glass
+stack-plasmaglass-name = plasma glass
+stack-reinforcedglass-name = reinforced glass
+stack-reinforcedplasmaglass-name = reinforced plasma glass
+stack-reinforceduraniumglass-name = reinforced uranium glass
+stack-uraniumglass-name = uranium glass

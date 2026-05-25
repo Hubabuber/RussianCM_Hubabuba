@@ -1,2 +1,2 @@
-job-au14jobplatooncorpsmanbase-desc = au14-описание-должности-govforвзводный санитар
-job-au14jobplatooncorpsmanbase-name = au14-имя-должности-govforвзводный санитар
+job-au14jobplatooncorpsmanbase-desc = Оказать выездную медицинскую помощь. Залатайте их, дайте им дышать и верните их в бой.
+job-au14jobplatooncorpsmanbase-name = Больничный санитар

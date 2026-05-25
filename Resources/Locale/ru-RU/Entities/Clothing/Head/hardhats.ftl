@@ -19,7 +19,7 @@ ent-ClothingHeadHatHardhatYellowDark-desc = Каска, окрашенная в 
 ent-ClothingHeadHatHardhatArmored-name = бронированная каска
 ent-ClothingHeadHatHardhatArmored-desc = Бронированная каска. Обеспечивает лучшее из обоих миров как в защите, так и в удобстве — идеально подходит для инженеров, работающих на передовой.
 
-ent-ClothingHeadHatHardhatBase-name = lathe-category-clothing
+ent-ClothingHeadHatHardhatBase-name = Одежда
 
 ent-ClothingHeadHatHardhatArmored = бронированная каска
     .desc = Бронированная каска. Обеспечивает лучшее из обоих миров как в защите, так и в удобстве — идеально подходит для инженеров, работающих на передовой.

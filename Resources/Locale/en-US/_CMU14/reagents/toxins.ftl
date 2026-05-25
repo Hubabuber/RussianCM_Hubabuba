@@ -1,3 +1,3 @@
-reagent-cmublacksludge-desc = reagent-desc-rmcblackgoo
-reagent-cmublacksludge-name = reagent-name-rmcblackgoo
-reagent-cmublacksludge-physicaldesc = reagent-physical-desc-unidentifiable
+reagent-cmublacksludge-desc = A strange substance of unknown origin. . .
+reagent-cmublacksludge-name = Black Goo
+reagent-cmublacksludge-physicaldesc = unidentifiable

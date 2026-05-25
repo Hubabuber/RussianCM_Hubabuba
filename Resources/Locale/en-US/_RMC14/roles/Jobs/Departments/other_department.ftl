@@ -1,2 +1,2 @@
-department-cmother-desc = cm-department-Other-description
-department-cmother-name = department-CMOther
+department-cmother-desc = ""
+department-cmother-name = Other

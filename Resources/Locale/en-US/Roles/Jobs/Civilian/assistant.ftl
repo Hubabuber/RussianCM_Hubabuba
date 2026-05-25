@@ -1,3 +1,3 @@
-job-passenger-desc = job-description-passenger
-job-passenger-name = job-name-passenger
-job-passenger-supervisors = job-supervisors-everyone
+job-passenger-desc = Enjoy your stay aboard the station with no obligations!
+job-passenger-name = Passenger
+job-passenger-supervisors = absolutely everyone

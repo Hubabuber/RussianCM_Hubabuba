@@ -1,2 +1,2 @@
-job-au14jobsquadriflemanbase-desc = au14-job-description-govforsquadrifleman
-job-au14jobsquadriflemanbase-name = au14-job-name-govforsquadrifleman
+job-au14jobsquadriflemanbase-desc = The backbone of the unit. Follow orders, pull security, and shoot straight.
+job-au14jobsquadriflemanbase-name = Rifleman

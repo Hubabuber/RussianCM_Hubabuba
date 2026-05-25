@@ -1,18 +1,23 @@
 ent-CMSpawnPointWeaponsSpecialist = точка появления специалиста по оружию
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
 ent-CMSpawnPointWeaponsSpecialistAlpha = точка появления специалиста по оружию
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления специалиста по оружию
 ent-CMSpawnPointWeaponsSpecialistBravo = точка появления специалиста по оружию
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления специалиста по оружию
 ent-CMSpawnPointWeaponsSpecialistCharlie = точка появления специалиста по оружию
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления специалиста по оружию
 ent-CMSpawnPointWeaponsSpecialistDelta = точка появления специалиста по оружию
  
-
-job-cmweaponsspecialist-desc = cm-должностная инструкция-специалист по оружию
-job-cmweaponsspecialist-name = cm-название-должности-специалист по оружию
-job-cmweaponsspecialist-supervisors = cm-job-supervisors-sl
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления специалиста по оружию
+job-cmweaponsspecialist-desc = Получите доступ к более тяжелому и мощному оружию и оборудованию. Боевой профессионал, при необходимости возглавит отделение.
+job-cmweaponsspecialist-name = Специалист по оружию
+job-cmweaponsspecialist-supervisors = действующий командир отряда

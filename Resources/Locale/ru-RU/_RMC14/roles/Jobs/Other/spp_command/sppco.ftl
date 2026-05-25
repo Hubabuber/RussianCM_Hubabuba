@@ -1,3 +1,3 @@
-job-rmcsppco-desc = rmc-job-description-spp-co
-job-rmcsppco-name = rmc-имя-задания-spp-co
+job-rmcsppco-desc = Командир подразделения СПП, вы подчиняетесь непосредственно высшему командованию СПП.
+job-rmcsppco-name = Командир
 job-rmcsppco-spawnmenurolename = СПП КО

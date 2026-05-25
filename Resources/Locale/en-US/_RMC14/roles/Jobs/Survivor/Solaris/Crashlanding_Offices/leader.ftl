@@ -2,6 +2,6 @@ ent-RMCSpawnPointSurvivorCrashlandingOfficesLeader = special survivor crashlandi
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-rmcsurvivorsolarispmcleader-name = rmc-job-name-pmc-leader
+job-rmcsurvivorsolarispmcleader-name = Leader
 job-rmcsurvivorsolarispmcleader-spawnmenurolename = Survivor — PMC Leader (Solaris Ridge special survivor)
-job-rmcsurvivorsolarispmcleader-supervisors = cm-job-supervisors-we-ya
+job-rmcsurvivorsolarispmcleader-supervisors = the Weyland-Yutani Corporate Office

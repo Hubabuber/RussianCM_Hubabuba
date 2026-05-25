@@ -1,1 +1,1 @@
-job-cmxenoburrower-name = cm-имя-работы-ксено-нора
+job-cmxenoburrower-name = Роющий

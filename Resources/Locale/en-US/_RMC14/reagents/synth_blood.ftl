@@ -1,3 +1,3 @@
-reagent-rmcsynthblood-desc = rmc-reagent-desc-synth-blood
-reagent-rmcsynthblood-name = rmc-reagent-name-synth-blood
-reagent-rmcsynthblood-physicaldesc = reagent-physical-desc-oily
+reagent-rmcsynthblood-desc = A form of white latex. Used for the cooling of synthetic components.
+reagent-rmcsynthblood-name = synth blood
+reagent-rmcsynthblood-physicaldesc = oily

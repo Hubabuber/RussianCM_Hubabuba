@@ -1,6 +1,6 @@
-trait-epilepsy-desc = au14-черта-эпилепсия-десс
-trait-epilepsy-name = au14-черта-эпилепсия-имя
-trait-lightweightdrunk-desc = черта-легкий-дес
-trait-lightweightdrunk-name = черта-облегченное-имя
-trait-nonresuscitable-desc = au14-trait-unrevivable-desc
-trait-nonresuscitable-name = au14-черта-невозвратимое-имя
+trait-epilepsy-desc = Вы страдаете неврологическим расстройством, которое может вызвать внезапные судороги. Эпизоды случаются нечасто, некоторые могут привести к тому, что вы потеряете сознание или потеряете способность двигаться в течение короткого периода времени.
+trait-epilepsy-name = Эпилепсия
+trait-lightweightdrunk-desc = Алкоголь оказывает на вас более сильное воздействие.
+trait-lightweightdrunk-name = Легкий пьяный
+trait-nonresuscitable-desc = Из-за врождённого дефекта, после остановки сердца его невозможно запустить снова. Все методы реанимации бесполезны. Одна жизнь, один шанс.
+trait-nonresuscitable-name = Non-Resuscitable

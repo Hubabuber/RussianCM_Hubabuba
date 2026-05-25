@@ -2,6 +2,6 @@ ent-RMCSpawnPointSurvivorFiorinaResearcher = survivor fiorina researcher spawn p
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmsurvivorfiorinaresearcher-desc = cm-job-description-survivor
-job-cmsurvivorfiorinaresearcher-name = cm-job-name-survivor-fiorina-researcher
+job-cmsurvivorfiorinaresearcher-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivorfiorinaresearcher-name = Fiorina Researcher
 job-cmsurvivorfiorinaresearcher-spawnmenurolename = Fiorina Researcher (Fiorina Survivor)

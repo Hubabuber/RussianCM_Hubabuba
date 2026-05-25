@@ -11,4 +11,4 @@ ent-FultonBeacon = fulton beacon
 
 ent-FultonEffect = fulton effect
 
-stack-fulton-name = stack-fulton
+stack-fulton-name = fulton

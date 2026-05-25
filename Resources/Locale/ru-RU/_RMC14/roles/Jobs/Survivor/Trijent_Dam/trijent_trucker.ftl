@@ -1,8 +1,8 @@
 ent-RMCGearSurvivorPresetTrijentTrucker = предустановка колониста-дальнобойщика Trijent
-
 ent-RMCSpawnPointSurvivorTrijentTrucker = точка спавна дальнобойщика Trijent
  
-
-job-cmsurvivortrijenttrucker-desc = cm-описание-работы-выживший
-job-cmsurvivortrijenttrucker-name = cm-имя-работы-выживший-trijent-дальнобойщик
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmsurvivortrijenttrucker-desc = Вы выжили после нападения на корпоративный объект. Вы работали или жили в колонии/станции и сумели избежать нападений инопланетян... до сих пор.
+job-cmsurvivortrijenttrucker-name = Оператор тяжелой техники плотины Трайент
 job-cmsurvivortrijenttrucker-spawnmenurolename = Оператор тяжелой техники Trijent (Выживший в Trijent)

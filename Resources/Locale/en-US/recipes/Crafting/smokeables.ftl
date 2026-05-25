@@ -1,2 +1,2 @@
-construction-smokeablebluntrainbow-name = construction-smokeable-blunt-rainbow
-construction-smokeablejointrainbow-name = construction-smokeable-joint-rainbow
+construction-smokeablebluntrainbow-name = rainbow blunt
+construction-smokeablejointrainbow-name = rainbow joint

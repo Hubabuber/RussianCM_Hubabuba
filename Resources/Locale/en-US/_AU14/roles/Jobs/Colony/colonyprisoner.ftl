@@ -4,7 +4,7 @@ ent-AU14SpawnPointCivilianPrisoner = Spawn Point Civilian Prisoner
 
 ent-auprisonerghost = Prisoner colonist ghost role
 
-job-au14jobcivilianprisoner-desc = au14-job-description-civilianprisoner
-job-au14jobcivilianprisoner-name = au14-job-name-civilianprisoner
+job-au14jobcivilianprisoner-desc = You're a prisoner held at a corporate facility, if you're cooperative you may be allowed greater privilege.
+job-au14jobcivilianprisoner-name = Prisoner
 job-au14jobcivilianprisoner-spawnmenurolename = Colony Prisoner (CMU)
-job-au14jobcivilianprisoner-supervisors = au14-job-supervisors-loner
+job-au14jobcivilianprisoner-supervisors = Yourself, and only yourself

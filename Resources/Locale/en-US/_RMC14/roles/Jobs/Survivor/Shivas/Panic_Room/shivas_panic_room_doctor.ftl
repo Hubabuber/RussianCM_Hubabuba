@@ -2,5 +2,5 @@ ent-RMCSpawnPointSurvivorShivasPanicRoomDoctor = special survivor shivas panic r
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-rmcsurvivorshivaspanicroomdoctor-name = rmc-job-name-survivor-shivas-doctor
+job-rmcsurvivorshivaspanicroomdoctor-name = Shivas Doctor
 job-rmcsurvivorshivaspanicroomdoctor-spawnmenurolename = Doctor (Shivas Panic Room Special Survivor)

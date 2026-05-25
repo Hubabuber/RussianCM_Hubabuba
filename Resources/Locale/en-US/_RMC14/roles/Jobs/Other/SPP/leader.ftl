@@ -4,6 +4,6 @@ ent-RMCRandomHumanoidSPPLeaderFriendly = spp ghost role leader
 ent-RMCRandomHumanoidSPPLeaderHostile = spp ghost role leader
     .suffix = Spawner, Player, Hostile
 
-job-rmcsppleader-desc = rmc-job-description-spp-leader
-job-rmcsppleader-name = rmc-job-name-spp-leader
+job-rmcsppleader-desc = Lead your SPP squad, follow command's orders, and keep your soldiers alive.
+job-rmcsppleader-name = Starshiy Serzhant
 job-rmcsppleader-spawnmenurolename = SPP Squad Leader

@@ -1,10 +1,10 @@
-ent-UnsensoredClothingUniformBase-name = lathe-category-clothing
+ent-UnsensoredClothingUniformBase-name = Одежда
 
-ent-UnsensoredClothingUniformSkirtBase-name = lathe-category-clothing
+ent-UnsensoredClothingUniformSkirtBase-name = Одежда
 
-ent-ClothingUniformBase-name = lathe-category-clothing
+ent-ClothingUniformBase-name = Одежда
 
-ent-ClothingUniformSkirtBase-name = lathe-category-clothing
+ent-ClothingUniformSkirtBase-name = Одежда
 
 ent-ClothingUniformBase = item
 

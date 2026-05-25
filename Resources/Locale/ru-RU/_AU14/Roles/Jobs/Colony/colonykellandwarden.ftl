@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianKellandWarden = Точка возрождения Ке
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobciviliankellandwarden-desc = au14-описание-должности-гражданский кельландварден
-job-au14jobciviliankellandwarden-name = au14-имя-должности-гражданский кельландварден
-job-au14jobciviliankellandwarden-supervisors = au14-job-supervisors-civiliankellandwarden
+job-au14jobciviliankellandwarden-desc = Вы являетесь менеджером среднего звена в горнодобывающей компании «Келланд», дочерней компании «Вейланд-Ютани», и вам поручено управлять тюрьмой в этой колонии. Пусть ваши заключенные работают, производят и ведут себя хорошо. Если они вспыльчивы, предоставьте им большие привилегии или бесплатный проезд по колонии. (Роль доступна на LV-747 и в некоторых режимах)
+job-au14jobciviliankellandwarden-name = Келланд Уорден
+job-au14jobciviliankellandwarden-supervisors = Компания, местные правоохранительные органы

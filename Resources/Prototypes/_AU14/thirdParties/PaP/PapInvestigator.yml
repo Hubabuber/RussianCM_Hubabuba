@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPAPThirdpartyInvestigatorBase
-  name: au-14-job-name-papthirdparty-investigator
-  description: au14-papthirdparty-description
+  name: job-au14jobpapthirdpartyinvestigatorbase-name
+  description: job-au14jobpapthirdpartyinvestigatorbase-desc
   playTimeTracker: AU14JobPaPThirdpartyInvestigator
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobPAPThirdpartyInvestigatorBase
   id: AU14PAPThirdpartyInvestigator
-  name: au-14-job-name-papthirdparty-investigator
-  description: au14-papthirdparty-description
+  name: job-au14papthirdpartyinvestigator-name
+  description: job-au14papthirdpartyinvestigator-desc
   ranks:
     UPP_SeniorLieutenant:
     - !type:RoleTimeRequirement
@@ -27,7 +27,7 @@
   greeting: au14-papthirdparty-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: au-14-job-name-papthirdparty-captain
+  supervisors: job-au14papthirdpartyinvestigator-supervisors
   accessGroups:
   - aucmb
   - Colonist

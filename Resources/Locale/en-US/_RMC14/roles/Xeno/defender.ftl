@@ -1,1 +1,1 @@
-job-cmxenodefender-name = cm-job-name-xeno-defender
+job-cmxenodefender-name = Defender

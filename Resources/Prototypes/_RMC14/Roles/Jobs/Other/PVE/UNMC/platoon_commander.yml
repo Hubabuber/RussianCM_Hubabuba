@@ -1,8 +1,8 @@
 - type: job
   parent: CMStaffOfficer
   id: CMPVEPlatoonCommander
-  name: cm-job-name-platoon-commander
-  description: cm-job-description-platoon-commander
+  name: job-cmpveplatooncommander-name
+  description: job-cmpveplatooncommander-desc
   playTimeTracker: CMJobPVEPlatoonCommander
   requirements:
   - !type:RoleTimeRequirement
@@ -14,7 +14,7 @@
   startingGear: RMCGearPVEPlatoonCommander
   icon: "RMCJobIconPVEPlatoonCommander"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-company-command
+  supervisors: job-cmpveplatooncommander-supervisors
   marineAuthorityLevel: 14
   accessGroups:
   - ShipMasterAccess

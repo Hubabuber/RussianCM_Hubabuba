@@ -6,4 +6,4 @@ ent-AU14SpawnPointOPFORWorkingJoe = Рабочий Джо из точки воз
     .suffix = Создание вакансий
 
 job-au14jobopforworkingjoe-spawnmenurolename = Рабочий Джо (ОПФОР)
-job-au14jobopforworkingjoe-supervisors = au14-работа-руководители-работающий Джо-военный
+job-au14jobopforworkingjoe-supervisors = командир взвода, ядро ​​искусственного интеллекта военного корабля

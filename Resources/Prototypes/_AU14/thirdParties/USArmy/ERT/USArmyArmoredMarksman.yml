@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmyMarksmanBase
-  name: rmc-job-name-forecon-marksman
-  description: au14-job-description-usarmy
+  name: job-au14usarmymarksmanbase-name
+  description: job-au14usarmymarksmanbase-desc
   playTimeTracker: AU14JobUSArmyMarksman
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14USArmyMarksmanBase
   id: AU14JobUSArmyMarksmanArmored
-  name: rmc-job-name-forecon-marksman
-  description: au14-job-description-usarmy
+  name: job-au14jobusarmymarksmanarmored-name
+  description: job-au14jobusarmymarksmanarmored-desc
   ranks:
     USArmy_Sergeant:
     - !type:RoleTimeRequirement
@@ -27,7 +27,7 @@
   greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyMarksman"
   joinNotifyCrew: false
-  supervisors: cm-job-name-squad-leader
+  supervisors: job-au14jobusarmymarksmanarmored-supervisors
   accessGroups:
   - AU14GovforSquad
   special:

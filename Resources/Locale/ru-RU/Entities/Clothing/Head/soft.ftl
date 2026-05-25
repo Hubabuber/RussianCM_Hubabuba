@@ -78,9 +78,9 @@ ent-ClothingHeadHatParamedicsoft-desc = Синяя бейсболка с кре�
 
 ent-ClothingHeadHatParamedicsoftFlipped-name = кепка фельдшера
 
-ent-ClothingHeadHeadHatBaseFlippable-name = lathe-category-clothing
+ent-ClothingHeadHeadHatBaseFlippable-name = Одежда
 
-ent-ClothingHeadHeadHatBaseFlipped-name = lathe-category-clothing
+ent-ClothingHeadHeadHatBaseFlipped-name = Одежда
 
 ent-ClothingHeadHatBizarreSoft = кепка нарушителя спокойствия
     .desc = Действительно... странный аксессуар.

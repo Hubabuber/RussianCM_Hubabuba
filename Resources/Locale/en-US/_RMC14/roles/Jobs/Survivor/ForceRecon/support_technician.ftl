@@ -4,5 +4,5 @@ ent-CMSpawnPointForeconSupportTech = forecon support tech spawn point
 
 ent-RMCSurvivorPresetForeconSupportTech = forecon support technician survivor preset
 
-job-rmcsurvivorforeconsupporttech-name = rmc-job-name-forecon-support-tech
+job-rmcsurvivorforeconsupporttech-name = Support Technician
 job-rmcsurvivorforeconsupporttech-spawnmenurolename = FORECON Support Technician (Survivor)

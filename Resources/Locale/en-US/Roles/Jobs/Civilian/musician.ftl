@@ -1,3 +1,3 @@
-job-musician-desc = job-description-musician
-job-musician-name = job-name-musician
-job-musician-supervisors = job-supervisors-hire
+job-musician-desc = Entertain the crew with your unique musical talent, and acquire new instruments to mess around with.
+job-musician-name = Musician
+job-musician-supervisors = whoever hires you

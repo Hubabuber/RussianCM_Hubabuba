@@ -2,6 +2,6 @@ ent-RMCSpawnPointSurvivorICB = survivor icb spawn point
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmsurvivoricb-desc = cm-job-description-survivor
-job-cmsurvivoricb-name = cm-job-name-survivor-icb
+job-cmsurvivoricb-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivoricb-name = Interstellar Commerce Bureau Liaison
 job-cmsurvivoricb-spawnmenurolename = Interstellar Commerce Bureau Liaison (Survivor)

@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14FORECONSupportTechBase
-  name: rmc-job-name-forecon-support-tech
-  description: au14-job-description-govforadvisor
+  name: job-au14foreconsupporttechbase-name
+  description: job-au14foreconsupporttechbase-desc
   playTimeTracker: AU14JobFORECONSupportTech
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14FORECONSupportTechBase
   id: AU14FORECONSupportTech
-  name: rmc-job-name-forecon-support-tech
-  description: rmc-job-description-forecon
+  name: job-au14foreconsupporttech-name
+  description: job-au14foreconsupporttech-desc
   ranks:
     RMCRankStaffSergeant:
     - !type:RoleTimeRequirement
@@ -27,7 +27,7 @@
   greeting: au14-forecon-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: cm-job-name-squad-leader
+  supervisors: job-au14foreconsupporttech-supervisors
   accessGroups:
   - AU14GovforSquad
   special:

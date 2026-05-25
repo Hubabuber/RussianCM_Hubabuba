@@ -6,4 +6,4 @@ job-au14jobopfork9handler-desc = K9 Handler
 job-au14jobopfork9handler-name = K9 Handler
 job-au14jobopfork9handler-overwatchrolename = K9 Handler
 job-au14jobopfork9handler-spawnmenurolename = K9 Handler (OPFOR)
-job-au14jobopfork9handler-supervisors = au14-job-supervisors-opfor
+job-au14jobopfork9handler-supervisors = Commander

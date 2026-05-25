@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobFORECONSpotterBase
   id: AU14FORECONKillTeamSpotter
-  name: au14-job-name-forecon-spotter
-  description: au14-job-description-forecon-killteam
+  name: job-au14foreconkillteamspotter-name
+  description: job-au14foreconkillteamspotter-desc
   playTimeTracker: AU14FORECONSpotterDetachment
   ranks:
     RMCRankChiefWarrantOfficer:
@@ -15,7 +15,7 @@
   greeting: au14-job-description-forecon-killteam-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-loner
+  supervisors: job-au14foreconkillteamspotter-supervisors
   special:
   - !type:AddComponentSpecial
     components:

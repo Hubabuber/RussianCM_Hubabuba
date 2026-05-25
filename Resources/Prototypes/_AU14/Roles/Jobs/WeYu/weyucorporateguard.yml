@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYGuardBase
-  name: au14-job-name-wyguard
-  description: au14-job-description-wyguard
+  name: job-au14jobwyguardbase-name
+  description: job-au14jobwyguardbase-desc
   playTimeTracker: AU14JobWYGuard
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobWYGuardBase
   id: AU14JobWYGuard
-  name: au14-job-name-wyguard
-  description: au14-job-description-wyguard
+  name: job-au14jobwyguard-name
+  description: job-au14jobwyguard-desc
   setPreference: true
   ranks:
     AU14RankWYSecurityOfficerChief:
@@ -42,7 +42,7 @@
     traits:
     - Epilepsy
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-wy
+  supervisors: job-au14jobwyguard-supervisors
   spawnMenuRoleName: job-au14jobwyguard-spawnmenurolename
   accessGroups:
   - auwy

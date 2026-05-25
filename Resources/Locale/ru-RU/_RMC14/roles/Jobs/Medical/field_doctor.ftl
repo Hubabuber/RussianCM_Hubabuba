@@ -1,6 +1,6 @@
 ent-RMCSpawnPointFieldDoctor = точка появления полевого врача
   .desc = Создатель заданий RMC14. 
-
-job-rmcfielddoctor-desc = RMC-должностная инструкция-полевой врач
-job-rmcfielddoctor-name = rmc-имя-задания-полевой врач
-job-rmcfielddoctor-supervisors = cm-job-supervisors-cmo
+    .suffix = Создание вакансий
+job-rmcfielddoctor-desc = Поддерживайте здоровье планетарных морпехи в полевых условиях, часто хирургическим путем.
+job-rmcfielddoctor-name = Полевой врач
+job-rmcfielddoctor-supervisors = Главный врач

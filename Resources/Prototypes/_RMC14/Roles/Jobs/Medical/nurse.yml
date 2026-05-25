@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMNurse
-  name: rmc-job-name-nurse
-  description: rmc-job-description-nurse
+  name: job-cmnurse-name
+  description: job-cmnurse-desc
   setPreference: false
   playTimeTracker: CMJobNurse
   requirements:
@@ -18,7 +18,7 @@
   startingGear: CMGearNurse
   icon: "CMJobIconNurse"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-cmo
+  supervisors: job-cmnurse-supervisors
   accessGroups:
   - CMMedbay
   roleWeight: 0.25

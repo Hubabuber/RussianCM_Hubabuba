@@ -5,7 +5,7 @@ ent-AU14IDCardUSArmyCommander-desc = Позолоченный голографи
 ent-AU14JobUSArmyCommander = Командующий армией США (Surv)
     .suffix = AU14, UA, Армия США
 
-job-au14usarmycommander-desc = cm-должностная инструкция-командир-офицер
-job-au14usarmycommander-name = rmc-имя-задания-forecon-commander
+job-au14usarmycommander-desc = Возглавьте свою компанию и выполните миссию.
+job-au14usarmycommander-name = Командир
 job-au14usarmycommander-spawnmenurolename = Командующий армией США (AU14, наблюдение)
-job-au14usarmycommander-supervisors = au14-job-supervisors-govfor
+job-au14usarmycommander-supervisors = Командир взвода

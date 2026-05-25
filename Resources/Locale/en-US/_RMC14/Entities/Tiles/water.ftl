@@ -1,11 +1,12 @@
 ent-CMFloorDeepWaterEntity = deep water
-
+    .desc = deep water
 ent-CMFloorShallowWaterEntity = shallow water
-
+    .desc = shallow water
 ent-RMCFloorShallowWaterEntityDarkRed = shallow water
     .suffix = Dark Red
-
+    .desc = shallow water
 ent-RMCFloorShallowWaterEntityRed = shallow water
     .suffix = Red
-
+    .desc = shallow water
 ent-RMCRiverSorokyne = river
+    .desc = shallow water

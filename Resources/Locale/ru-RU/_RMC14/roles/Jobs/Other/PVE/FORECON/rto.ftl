@@ -1,6 +1,6 @@
 ent-RMCSpawnPointFORECONPVERadioTelephoneOperator = точка появления Forecon RTO
-
-
-job-rmcforeconpveradiotelephoneoperator-desc = rmc-job-description-pve-forecon-rto
-job-rmcforeconpveradiotelephoneoperator-name = rmc-имя-задания-pve-forecon-rto
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления Forecon RTO
+job-rmcforeconpveradiotelephoneoperator-desc = Вы – радиотелефонист. Убедитесь, что связь между вашим отделением и командованием роты поддерживается в хорошем состоянии.
+job-rmcforeconpveradiotelephoneoperator-name = Радиотелефонист
 job-rmcforeconpveradiotelephoneoperator-spawnmenurolename = ФОРЭКОН МТО (ПВЭ)

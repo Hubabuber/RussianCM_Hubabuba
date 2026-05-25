@@ -1,3 +1,3 @@
-guideentry-glossary-name = guide-entry-glossary
-guideentry-ss14-name = guide-entry-ss14
-guideentry-survival-name = guide-entry-survival
+guideentry-glossary-name = Glossary
+guideentry-ss14-name = Station and Shifts
+guideentry-survival-name = Survival

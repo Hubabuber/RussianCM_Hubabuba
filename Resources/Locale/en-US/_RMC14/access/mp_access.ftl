@@ -1,2 +1,2 @@
-accesslevel-cmaccessarmory-name = id-card-access-level-armory
-accesslevel-cmaccessbrig-name = id-card-access-level-brig
+accesslevel-cmaccessarmory-name = Armory
+accesslevel-cmaccessbrig-name = Brig

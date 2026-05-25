@@ -1,2 +1,2 @@
-stack-inflatabledoor-name = stack-inflatable-door
-stack-inflatablewall-name = stack-inflatable-wall
+stack-inflatabledoor-name = inflatable door
+stack-inflatablewall-name = inflatable wall

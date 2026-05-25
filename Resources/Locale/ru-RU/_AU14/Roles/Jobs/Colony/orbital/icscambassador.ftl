@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianAmbassadorICSC = Гражданский посол ICS
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianambassadoricsc-desc = au14-job-description-civilianambassadoricsc
-job-au14jobcivilianambassadoricsc-name = au14-имя-должности-civilianambassadoricsc
-job-au14jobcivilianambassadoricsc-supervisors = au14-работа-руководители-орбитальная
+job-au14jobcivilianambassadoricsc-desc = Руководи дипломатической миссией МКТК в колонии.
+job-au14jobcivilianambassadoricsc-name = Посол КМГС
+job-au14jobcivilianambassadoricsc-supervisors = Орбитальный менеджер

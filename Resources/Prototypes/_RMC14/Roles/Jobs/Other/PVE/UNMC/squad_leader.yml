@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMPVESquadLeader
-  name: cm-job-name-squad-leader
-  description: cm-job-description-fireteam-leader
+  name: job-cmpvesquadleader-name
+  description: job-cmpvesquadleader-desc
   playTimeTracker: CMJobPVESquadLeader
   ranks:
     RMCRankSergeant: []
@@ -11,7 +11,7 @@
   dummyStartingGear: CMGearFireteamLeaderEquipped
   icon: "CMJobIconFireteamLeader"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-secserg
+  supervisors: job-cmpvesquadleader-supervisors
   marineAuthorityLevel: 1
   accessGroups:
   - FTL

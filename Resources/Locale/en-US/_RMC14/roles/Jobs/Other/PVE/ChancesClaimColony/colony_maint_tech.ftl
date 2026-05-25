@@ -4,6 +4,6 @@ ent-RMCSpawnPointSurvivorChancesColonyMaintTech = colony maintenance technician 
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmsurvivorchancescolonymainttech-desc = cm-job-description-survivor
-job-cmsurvivorchancescolonymainttech-name = rmc-job-name-colonist-colony-maint-tech
+job-cmsurvivorchancescolonymainttech-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivorchancescolonymainttech-name = Colony Maintenance Technician
 job-cmsurvivorchancescolonymainttech-spawnmenurolename = Colony Maintenance Technician (Chance's Colonist)

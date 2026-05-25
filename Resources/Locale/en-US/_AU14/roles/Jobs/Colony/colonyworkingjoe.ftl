@@ -3,4 +3,4 @@ ent-AU14SpawnPointColonyWorkingJoe = Spawn Point Working Joe (Colony)
     .suffix = Job Spawn
 
 job-au14jobcolonyworkingjoe-spawnmenurolename = Working Joe (Colony)
-job-au14jobcolonyworkingjoe-supervisors = au14-job-supervisors-workingjoe-colony
+job-au14jobcolonyworkingjoe-supervisors = the Colony Administrator, colony AI core

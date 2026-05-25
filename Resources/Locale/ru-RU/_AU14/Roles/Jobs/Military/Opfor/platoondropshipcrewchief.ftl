@@ -5,7 +5,7 @@ ent-AU14SpawnPointopforDCC = Точка появления для десантн
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobopfordcc-desc = au14-описание-работы-opfordcc
-job-au14jobopfordcc-name = au14-имя-работы-opfordcc
+job-au14jobopfordcc-desc = Поддерживайте птицу. Координируйте груз, пассажиров и помогайте пилоту.
+job-au14jobopfordcc-name = Начальник экипажа десантного корабля
 job-au14jobopfordcc-spawnmenurolename = Начальник экипажа десантного корабля (ОПФОР)
-job-au14jobopfordcc-supervisors = au14-работа-руководители-опфор
+job-au14jobopfordcc-supervisors = Командир

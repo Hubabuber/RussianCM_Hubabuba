@@ -1,30 +1,22 @@
 ent-CMShellShotgunBeanbag = handful of beanbag slugs
     .desc = A handful of rounds to reload on the go.
-
 ent-CMShellShotgunBuckshot = handful of buckshot shells
     .desc = A handful of rounds to reload on the go.
-
 ent-CMShellShotgunBuckshot1 = handful of buckshot shells
     .desc = A handful of rounds to reload on the go.
-
+    .suffix = 1
 ent-CMShellShotgunFlechette = handful of flechette shells
     .desc = A handful of rounds to reload on the go.
-
 ent-CMShellShotgunIncendiary = handful of incendiary slugs
     .desc = A handful of rounds to reload on the go.
-
 ent-CMShellShotgunIncendiaryBuckshot = handful of incendiary buckshot shells
     .desc = A handful of rounds to reload on the go.
-
 ent-CMShellShotgunSlugs = handful of shotgun slugs
     .desc = A handful of rounds to reload on the go.
-
 ent-RMCShellShotgunBreaching = handful of breaching shells
     .desc = A handful of rounds to reload on the go.
-
 ent-RMCShellShotgunBreaching1 = handful of breaching shells
     .desc = A handful of rounds to reload on the go.
-
 stack-rmcshellshotgunbeanbag-name = handful of beanbag slugs
 stack-rmcshellshotgunbreaching-name = handful of breaching shells
 stack-rmcshellshotgunbuckshot-name = handful of buckshot shells

@@ -4,6 +4,6 @@ ent-RMCSpawnPointSurvivorLV624CorporateDomeGoonEngineer = special survivor lv624
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmsurvivorlv624corporatedomegoonengineer-desc = cm-job-description-survivor
-job-cmsurvivorlv624corporatedomegoonengineer-name = rmc-job-name-pmc-corporate-goon-engi
+job-cmsurvivorlv624corporatedomegoonengineer-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivorlv624corporatedomegoonengineer-name = We-Yu Corporate Security Technician
 job-cmsurvivorlv624corporatedomegoonengineer-spawnmenurolename = We-Ya Goon Engineer (Survivor Special)

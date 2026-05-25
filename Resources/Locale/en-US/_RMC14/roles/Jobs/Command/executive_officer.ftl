@@ -5,6 +5,6 @@ ent-CMSpawnPointExecutiveOfficer = executive officer spawn point
 ent-RMCGuidebookRoleXO = The Executive Officer
     .desc = The Executive Officer.
 
-job-cmexecutiveofficer-desc = cm-job-description-executive-officer
-job-cmexecutiveofficer-name = cm-job-name-executive-officer
-job-cmexecutiveofficer-supervisors = cm-job-supervisors-co
+job-cmexecutiveofficer-desc = You are second in command aboard the ship, and are the next in the Commander Succession after the Commanding Officer.
+job-cmexecutiveofficer-name = Executive Officer
+job-cmexecutiveofficer-supervisors = the Commanding Officer

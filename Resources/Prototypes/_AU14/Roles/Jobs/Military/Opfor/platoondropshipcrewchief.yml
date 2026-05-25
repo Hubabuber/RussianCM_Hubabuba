@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobDCCBase
   id: AU14JobOpforDCC
-  name: au14-job-name-opfordcc
-  description: au14-job-description-opfordcc
+  name: job-au14jobopfordcc-name
+  description: job-au14jobopfordcc-desc
   setPreference: false
   requirements:
   - !type:TraitsRequirement
@@ -30,7 +30,7 @@
   requireAdminNotify: true
   spawnMenuRoleName: job-au14jobopfordcc-spawnmenurolename
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-opfor
+  supervisors: job-au14jobopfordcc-supervisors
   accessGroups:
   - AU14OpforPilot
   - AU14OpforCorpsman

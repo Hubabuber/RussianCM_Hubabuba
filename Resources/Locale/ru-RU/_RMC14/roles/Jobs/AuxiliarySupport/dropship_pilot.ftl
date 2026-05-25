@@ -1,5 +1,6 @@
 ent-CMSpawnPointPilotDropship = точка появления пилота десантного корабля
-
-job-cmpilotdropship-desc = cm-job-description-десантный корабль-пилот
-job-cmpilotdropship-name = cm-job-name-десантный корабль-пилот
-job-cmpilotdropship-supervisors = cm-job-supervisors-aso
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmpilotdropship-desc = Перевезите войска через десантный корабль и обеспечьте медицинскую эвакуацию. Убедитесь, что на назначенный вам десантный корабль не проникли захватчики.
+job-cmpilotdropship-name = десантный корабль Пилот
+job-cmpilotdropship-supervisors = Офицер вспомогательной поддержки

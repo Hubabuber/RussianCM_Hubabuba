@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobTDRiflemanBase
   id: AU14UPPTerritorialDefenseLoader
-  name: au-14-job-name-upptd-loader
-  description: au14-upptd-description
+  name: job-au14uppterritorialdefenseloader-name
+  description: job-au14uppterritorialdefenseloader-desc
   ranks:
     UPP_SeniorGefreiter:
     - !type:RoleTimeRequirement
@@ -18,7 +18,7 @@
   greeting: au14-upptd-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: au-14-job-name-upptd-squadleader
+  supervisors: job-au14uppterritorialdefenseloader-supervisors
   accessGroups:
   - AU14GovforSquad
   special:

@@ -2,6 +2,6 @@ ent-RMCSpawnPointSurvivorNewVaraderoResearcher = survivor new varadero researche
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-rmcsurvivornewvaraderoresearcher-desc = cm-job-description-survivor
-job-rmcsurvivornewvaraderoresearcher-name = cm-job-name-survivor-new-varadero-researcher
+job-rmcsurvivornewvaraderoresearcher-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-rmcsurvivornewvaraderoresearcher-name = New Varadero Researcher
 job-rmcsurvivornewvaraderoresearcher-spawnmenurolename = New Varadero Researcher (NV Survivor)

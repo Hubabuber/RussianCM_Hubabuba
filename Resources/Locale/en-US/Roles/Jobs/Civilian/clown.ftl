@@ -1,3 +1,3 @@
-job-clown-desc = job-description-clown
-job-clown-name = job-name-clown
-job-clown-supervisors = job-supervisors-hop
+job-clown-desc = Entertain the crew through elaborate slapstick routines or terrible jokes.
+job-clown-name = Clown
+job-clown-supervisors = the Head of Personnel

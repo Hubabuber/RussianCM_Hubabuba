@@ -1,9 +1,9 @@
 - type: job
   parent: CMJobBase
   id: AU14LACNCommandoSpotter
-  name: au14-job-name-forecon-spotter
+  name: job-au14lacncommandospotter-name
   playTimeTracker: AU14LACNCommandoSpotter
-  description: au14-lacncommando-description
+  description: job-au14lacncommandospotter-desc
   ranks:
     RMCRankChiefWarrantOfficer:
     - !type:RoleTimeRequirement
@@ -15,7 +15,7 @@
   greeting: au14-lacncommando-description
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-loner
+  supervisors: job-au14lacncommandospotter-supervisors
   special:
   - !type:AddComponentSpecial
     components:

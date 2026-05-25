@@ -5,6 +5,6 @@ ent-AU14SpawnPointCLFPhysician = Врач CLF точки возрождения
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobclfphysician-desc = au14-должностная инструкция-clfврач
-job-au14jobclfphysician-name = au14-имя-должности-clfврач
-job-au14jobclfphysician-supervisors = au14-job-supervisors-clflrs
+job-au14jobclfphysician-desc = Обеспечьте медицинскую помощь своим собратьям-борцам за свободу и сражайтесь на стороне CLF.
+job-au14jobclfphysician-name = Врач CLF
+job-au14jobclfphysician-supervisors = Лидер ячейки.

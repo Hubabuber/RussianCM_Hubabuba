@@ -141,7 +141,7 @@ ent-EmitterBolt = emitter bolt
 ent-GrapplingHook = grappling hook
 
 ent-RMCProjectileLTBCannon = LTB cannon shell
-    .desc = ent-RMCProjectileRocket84mm-desc
+    .desc = Uh oh.
 
 ent-TeslaGunBullet = tesla gun lightning
     .desc = If you can see this you're probably dead!

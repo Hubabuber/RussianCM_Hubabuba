@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobRadioTelephoneOperatorBase
   id: AU14JobOpforRadioTelephoneOperator
-  name: au14-job-name-radiotelephoneoperator
-  description: au14-job-description-radiotelephoneoperator
+  name: job-au14jobopforradiotelephoneoperator-name
+  description: job-au14jobopforradiotelephoneoperator-desc
   setPreference: false
   requirements:
   - !type:TraitsRequirement
@@ -26,7 +26,7 @@
   requireAdminNotify: false
   spawnMenuRoleName: job-au14jobopforradiotelephoneoperator-spawnmenurolename
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-opfor
+  supervisors: job-au14jobopforradiotelephoneoperator-supervisors
   accessGroups:
   - AU14OpforFTL
   overwatchSortPriority: -3

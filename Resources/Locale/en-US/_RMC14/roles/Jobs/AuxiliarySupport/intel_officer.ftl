@@ -4,6 +4,6 @@ ent-CMSpawnPointIntelOfficer = intel officer spawn point
 
 ent-RMCGuidebookRoleIO = Intelligence Officer
 
-job-cmintelofficer-desc = cm-job-description-intel
-job-cmintelofficer-name = cm-job-name-intel
-job-cmintelofficer-supervisors = cm-job-supervisors-aso
+job-cmintelofficer-desc = Recover intelligence objects from groundside, process, and gain tech points to support the operation by OB warhead, dropship points or requisition supply.
+job-cmintelofficer-name = Intelligence Officer
+job-cmintelofficer-supervisors = the Auxiliary Support Officer

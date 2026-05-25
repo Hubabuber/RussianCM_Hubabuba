@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianUSASFRecruiter = Точка возрождения USA
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianusasfrecruiter-desc = au14-описание-должности-usasfrecruiter
-job-au14jobcivilianusasfrecruiter-name = au14-имя-работы-usasfrecruiter
-job-au14jobcivilianusasfrecruiter-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobcivilianusasfrecruiter-desc = Вы рекрутер из армии США. Вы были размещены в колонии, чтобы законно вербовать гражданских лиц в армию Украины. (Роль доступна на LV-624)
+job-au14jobcivilianusasfrecruiter-name = UA Рекрутер
+job-au14jobcivilianusasfrecruiter-supervisors = Администратор колонии

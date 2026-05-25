@@ -94,29 +94,29 @@ ent-PillAmbuzolPlus-desc = Это не свечи.
 
 ent-BaseHealingItem-name = элемент
 
-ent-Ointment1-name = stack-ointment
+ent-Ointment1-name = мазь
 
-ent-Ointment10Lingering-name = stack-ointment
+ent-Ointment10Lingering-name = мазь
 
-ent-OintmentAdvanced1-name = stack-regenerative-mesh
+ent-OintmentAdvanced1-name = регенеративная сеть
 
-ent-RegenerativeMeshLingering0-name = stack-regenerative-mesh
+ent-RegenerativeMeshLingering0-name = регенеративная сеть
 
-ent-Brutepack1-name = stack-brutepack
+ent-Brutepack1-name = набор от ушибов
 
-ent-Brutepack10Lingering-name = stack-brutepack
+ent-Brutepack10Lingering-name = набор от ушибов
 
-ent-BrutepackAdvanced1-name = stack-medicated-suture
+ent-BrutepackAdvanced1-name = медицинская нить
 
-ent-MedicatedSutureLingering0-name = stack-medicated-suture
+ent-MedicatedSutureLingering0-name = медицинская нить
 
-ent-Bloodpack1-name = stack-bloodpack
+ent-Bloodpack1-name = пакет крови
 
-ent-Bloodpack10Lingering-name = stack-bloodpack
+ent-Bloodpack10Lingering-name = пакет крови
 
-ent-Gauze1-name = stack-gauze
+ent-Gauze1-name = марлевый бинт
 
-ent-Gauze10Lingering-name = stack-gauze
+ent-Gauze10Lingering-name = марлевый бинт
 
 ent-PillCanisterRandom-name = предмет хранения
 

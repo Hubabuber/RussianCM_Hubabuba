@@ -1,5 +1,5 @@
 ent-RMCRandomHumanoidCLFEngineer = clf — инженер по роли призрака
-
-job-rmcclfengineer-desc = RMC-призрак-роль-информация-clf-описание
-job-rmcclfengineer-name = RMC-CLF-инженер
+    .suffix = clf — инженер по роли призрака
+job-rmcclfengineer-desc = Обеспечьте изгнание морпехи из этого пространства ради свободных колоний!
+job-rmcclfengineer-name = Техник
 job-rmcclfengineer-spawnmenurolename = Инженер CLF

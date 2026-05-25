@@ -5,7 +5,7 @@ ent-AU14IDCardFORECONMarksmanDetachment-desc = Кусочек закодиров
 ent-AU14JobFORECONMarksmanDetachment = ФОРЭКОН Стрелок (Отряд)
     .suffix = АУ14, ФОРЕКОН, отряд
 
-job-au14foreconmarksmandetachment-desc = RMC-описание-должности-forecon-отряд
-job-au14foreconmarksmandetachment-name = RMC-имя-задания-форекон-стрелка
+job-au14foreconmarksmandetachment-desc = Вы являетесь членом USCMC FORECON. Вас отправили в ГОВФОР. Доложите командованию для получения дальнейших распоряжений.
+job-au14foreconmarksmandetachment-name = стрелок
 job-au14foreconmarksmandetachment-spawnmenurolename = ФОРЭКОН Стрелок (АУ14, Отряд)
-job-au14foreconmarksmandetachment-supervisors = au14-job-supervisors-platco
+job-au14foreconmarksmandetachment-supervisors = Командир взвода

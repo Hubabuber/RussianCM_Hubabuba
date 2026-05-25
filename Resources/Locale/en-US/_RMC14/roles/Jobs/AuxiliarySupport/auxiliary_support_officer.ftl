@@ -4,6 +4,6 @@ ent-CMSpawnPointASO = auxiliary support officer spawn point
 
 ent-RMCGuidebookRoleASO = Auxiliary Support Officer
 
-job-cmauxiliarysupportofficer-desc = cm-job-description-aso
-job-cmauxiliarysupportofficer-name = cm-job-name-aso
-job-cmauxiliarysupportofficer-supervisors = rmc-job-supervisors-commander
+job-cmauxiliarysupportofficer-desc = Coordinate the intelligence department, and assist the Executive Officer.
+job-cmauxiliarysupportofficer-name = Auxiliary Support Officer
+job-cmauxiliarysupportofficer-supervisors = the current Commander

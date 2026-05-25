@@ -1,2 +1,2 @@
-department-cmsurvivor-desc = cm-department-Survivor-description
-department-cmsurvivor-name = department-CMSurvivor
+department-cmsurvivor-desc = Survive whenever possible by yourself or with other survivors.
+department-cmsurvivor-name = Survivor

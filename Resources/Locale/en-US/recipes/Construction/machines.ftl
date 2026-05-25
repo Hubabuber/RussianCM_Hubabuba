@@ -1,3 +1,3 @@
-construction-lightswitchdirectionalrecipe-name = construction-recipe-light-switch-directional
-construction-signalbuttondirectionalrecipe-name = construction-recipe-signal-button-directional
-construction-signalswitchdirectionalrecipe-name = construction-recipe-signal-switch-directional
+construction-lightswitchdirectionalrecipe-name = apc net switch (directional)
+construction-signalbuttondirectionalrecipe-name = signal button (directional)
+construction-signalswitchdirectionalrecipe-name = signal switch (directional)

@@ -1,1 +1,1 @@
-accesslevel-xenoborg-name = id-card-access-level-basic-xenoborg
+accesslevel-xenoborg-name = Xenoborg

@@ -3,4 +3,4 @@ ent-AU14SpawnPointGOVFORWorkingJoe = Spawn Point Working Joe (GOVFOR)
     .suffix = Job Spawn
 
 job-au14jobgovforworkingjoe-spawnmenurolename = Working Joe (GOVFOR)
-job-au14jobgovforworkingjoe-supervisors = au14-job-supervisors-workingjoe-military
+job-au14jobgovforworkingjoe-supervisors = the Platoon Commander, warship AI core

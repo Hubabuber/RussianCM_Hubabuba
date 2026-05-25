@@ -1,5 +1,6 @@
 ent-CMSpawnPointPilotGunship = точка спавна пилота боевого корабля
-
-job-cmpilotgunship-desc = cm-описание-должности-пилот-боевого корабля
-job-cmpilotgunship-name = cm-имя-должности-пилот-боевого корабля
-job-cmpilotgunship-supervisors = cm-job-supervisors-aso
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmpilotgunship-desc = Поддерживайте десантный корабль и используйте его для обеспечения непосредственной авиационной поддержки и транспортировки в секцию морпехов.
+job-cmpilotgunship-name = Пилот-офицер
+job-cmpilotgunship-supervisors = Офицер вспомогательной поддержки

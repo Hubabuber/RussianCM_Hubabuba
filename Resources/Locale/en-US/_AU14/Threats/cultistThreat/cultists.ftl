@@ -1,6 +1,6 @@
 ent-cultistJob = Cultist
     .suffix = AU14, Cultist
 
-job-au14jobcultist-desc = cm-cultist-description
-job-au14jobcultist-name = cm-cultist-name
-job-au14jobcultist-supervisors = au14-job-supervisors-colonycivilian
+job-au14jobcultist-desc = You are a cultist, bring light to this rotten colony.
+job-au14jobcultist-name = Cultist
+job-au14jobcultist-supervisors = Colony Administrator

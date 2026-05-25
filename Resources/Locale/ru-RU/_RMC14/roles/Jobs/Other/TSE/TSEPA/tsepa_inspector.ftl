@@ -1,5 +1,6 @@
 ent-RMCSpawnPointTSEPAInspector = точка появления инспектора цепы
  
-
-job-rmctsepainspector-desc = RMC-описание-должности-цепа-инспектор
-job-rmctsepainspector-name = rmc-имя-задания-цепа-инспектор
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmctsepainspector-desc = Надзор за соблюдением Закона о TSE.
+job-rmctsepainspector-name = Инспектор ЦЭПА

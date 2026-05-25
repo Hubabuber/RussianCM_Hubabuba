@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMSquadLeader
-  name: cm-job-name-squad-leader
-  description: cm-job-description-squad-leader
+  name: job-cmsquadleader-name
+  description: job-cmsquadleader-desc
   setPreference: false
   playTimeTracker: CMJobSquadLeader
   ranks:
@@ -12,7 +12,7 @@
   dummyStartingGear: CMGearSquadLeaderEquipped
   icon: "CMJobIconSquadLeader"
   joinNotifyCrew: false
-  supervisors: rmc-job-supervisors-commander
+  supervisors: job-cmsquadleader-supervisors
   marineAuthorityLevel: 2
   accessGroups:
   - SquadLeader

@@ -1,2 +1,2 @@
-department-cmother-desc = cm-отдел-Другое-описание
+department-cmother-desc = ""
 department-cmother-name = отдел-CMДругое

@@ -1,6 +1,6 @@
 ent-CMBInvestigationPartyJobRightsObserver = Межзвездный наблюдатель за соблюдением прав человека
     .suffix = АУ14, УА, ЦМБ
 
-job-au14jobinvestigationcmbrightsobserver-desc = au14-должностное описание-расследование прав наблюдателя
-job-au14jobinvestigationcmbrightsobserver-name = au14-имя-должности-гражданские права наблюдателя
-job-au14jobinvestigationcmbrightsobserver-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobinvestigationcmbrightsobserver-desc = Благодаря упорному труду вам удалось пробраться на границу вместе с патрулем CMB, чтобы документировать и фиксировать любые злодеяния, которые могут происходить в этом темном секторе космоса. Отчасти это пиар-ход, но это важная работа. В случае чрезвычайной ситуации вы также сможете оказать медицинскую помощь нуждающимся.
+job-au14jobinvestigationcmbrightsobserver-name = Межзвездный наблюдатель за соблюдением прав человека
+job-au14jobinvestigationcmbrightsobserver-supervisors = Администратор колонии

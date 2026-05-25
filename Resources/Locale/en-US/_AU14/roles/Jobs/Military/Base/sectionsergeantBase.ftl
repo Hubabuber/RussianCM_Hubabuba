@@ -1,2 +1,2 @@
-job-au14jobsectionsergeantbase-desc = au14-job-description-govforSSG
-job-au14jobsectionsergeantbase-name = au14-job-name-govforSSG
+job-au14jobsectionsergeantbase-desc = Senior enlisted. Keep the platoon running.
+job-au14jobsectionsergeantbase-name = Senior Sergeant

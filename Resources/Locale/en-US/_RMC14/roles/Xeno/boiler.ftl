@@ -1,1 +1,1 @@
-job-cmxenoboiler-name = cm-job-name-xeno-boiler
+job-cmxenoboiler-name = Boiler

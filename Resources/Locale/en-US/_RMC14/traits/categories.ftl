@@ -1,1 +1,1 @@
-traitcategory-rmcinconveniences-name = rmc-trait-category-inconveniences
+traitcategory-rmcinconveniences-name = Inconveniences

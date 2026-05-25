@@ -11,3 +11,17 @@ construction-rmclightbulbfixture-desc = Настенный светильник 
 construction-rmclighttubefixture-desc = Настенный светильник для трубчатых светильников.
 construction-rmcwindowdirectional-desc = Стеклянное окно. Он выглядит тонким и хлипким.
 construction-rmcwindowreinforceddirectional-desc = Стеклянное окно, усиленное распорными стержнями. Выглядит довольно сильно.
+
+construction-cmairlock-name = шлюзовая камера
+construction-cmairlockglass-name = стеклянный шлюзовой шлюз
+construction-cmbarricademetal-name = Металлическая Баррикада
+construction-cmbarricademetaldoor-name = Складная металлическая баррикада
+construction-cmbarricadeplasteeldoor-name = Складная пластальная баррикада
+construction-cmwindoor-name = иллюминатор
+construction-cmwindoorsecure-name = безопасное окно
+construction-rmcbarricadeplasteel-name = Пластилевая баррикада
+construction-rmcbarricadewood-name = Деревянная баррикада
+construction-rmclightbulbfixture-name = светильник накаливания
+construction-rmclighttubefixture-name = трубчатый светильник
+construction-rmcwindowdirectional-name = окно направления
+construction-rmcwindowreinforceddirectional-name = направленное усиленное окно

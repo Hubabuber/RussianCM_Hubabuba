@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobSquadBase
   id: CMPVEHospitalCorpsman
-  name: cm-job-name-hospital-corpsman
-  description: cm-job-description-hospital-corpsman
+  name: job-cmpvehospitalcorpsman-name
+  description: job-cmpvehospitalcorpsman-desc
   playTimeTracker: CMJobPVEHospitalCorpsman
   requirements:
   - !type:TotalJobsTimeRequirement
@@ -16,7 +16,7 @@
   icon: "CMJobIconHospitalCorpsman"
   joinNotifyCrew: false
   marineAuthorityLevel: 1
-  supervisors: cm-job-supervisors-secserg
+  supervisors: job-cmpvehospitalcorpsman-supervisors
   accessGroups:
   - HospitalCorpsman
   special:

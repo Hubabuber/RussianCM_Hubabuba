@@ -1,1 +1,1 @@
-job-cmxenolurker-name = cm-job-name-xeno-lurker
+job-cmxenolurker-name = Lurker

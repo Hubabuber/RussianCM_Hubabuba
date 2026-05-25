@@ -1,5 +1,5 @@
 ent-RMCRandomHumanoidProvostDeputyMarshal = provost ghost role deputy marshal
     .suffix = Spawner, Player, Friendly, Whitelisted COs
 
-job-cmprovostdeputymarshal-desc = rmc-ghost-role-information-provost-description
-job-cmprovostdeputymarshal-name = rmc-job-name-corp-provost-deputy-marshal
+job-cmprovostdeputymarshal-desc = Enforce Marine Law, turn to your superiors for guidance. Authority is tied to your chain of command.
+job-cmprovostdeputymarshal-name = Provost Deputy Marshal

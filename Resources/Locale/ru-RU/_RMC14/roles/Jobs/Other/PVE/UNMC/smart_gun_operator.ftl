@@ -1,7 +1,7 @@
 ent-RMCSpawnPointPVESmartGunOperator = Точка появления оператора умного оружия PVE
-
-
-job-cmpvesmartgunoperator-desc = cm-описание-работы-оператора-умного оружия
-job-cmpvesmartgunoperator-name = cm-имя-задания-оператора-умного пистолета
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmpvesmartgunoperator-desc = Поддержите свой отряд тяжелым вооружением и дайте противнику подавляющий огонь.
+job-cmpvesmartgunoperator-name = Умный оператор оружия
 job-cmpvesmartgunoperator-spawnmenurolename = Оператор умного оружия Sun Rider (PVE)
-job-cmpvesmartgunoperator-supervisors = cm-job-supervisors-secserg
+job-cmpvesmartgunoperator-supervisors = командир секции

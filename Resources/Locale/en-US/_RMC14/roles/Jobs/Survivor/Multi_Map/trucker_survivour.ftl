@@ -6,5 +6,5 @@ ent-RMCSpawnPointSurvivorTrucker = survivor trucker spawn point
 
 ent-RMCSurvivorPresetTrucker = trucker colonist preset
 
-job-cmsurvivortrucker-desc = cm-job-description-survivor
-job-cmsurvivortrucker-name = cm-job-name-survivor-trucker
+job-cmsurvivortrucker-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivortrucker-name = Trucker Colonist

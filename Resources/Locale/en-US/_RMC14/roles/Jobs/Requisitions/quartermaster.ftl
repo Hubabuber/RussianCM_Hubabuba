@@ -5,6 +5,6 @@ ent-CMSpawnPointQuartermaster = Logistics Officer spawn point
 ent-RMCGuidebookRoleQM = The LO
     .desc = The Logistics Officer.
 
-job-cmquartermaster-desc = cm-job-description-quartermaster
-job-cmquartermaster-name = cm-job-name-quartermaster
-job-cmquartermaster-supervisors = rmc-job-supervisors-commander
+job-cmquartermaster-desc = Your job is to manage the logistics of the ship, including requisitions and food.
+job-cmquartermaster-name = Logistics Officer
+job-cmquartermaster-supervisors = the current Commander

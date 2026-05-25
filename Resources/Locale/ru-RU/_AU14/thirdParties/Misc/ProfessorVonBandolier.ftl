@@ -23,4 +23,4 @@ ent-RMCPouchMedkitVonBandolier = сумка для медицинской апт
 
 job-au14jobcivilianprofessorvonbandolier-desc = Найдите самую большую и опасную дичь, будь то космический пришельец или человек с пистолетом и красноречиво расстреляйте их.
 job-au14jobcivilianprofessorvonbandolier-name = Профессор фон Бандольер
-job-au14jobcivilianprofessorvonbandolier-supervisors = au14-работы-руководители-одиночка
+job-au14jobcivilianprofessorvonbandolier-supervisors = Себя и только себя

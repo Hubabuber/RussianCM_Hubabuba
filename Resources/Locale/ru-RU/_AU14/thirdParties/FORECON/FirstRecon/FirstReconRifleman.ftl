@@ -5,7 +5,7 @@ ent-AU14IDCardFORECONFirstReconRifleman-desc = Кусочек закодиров
 ent-AU14JobFORECONFirstReconRifleman = FORECON стрелок (сторонняя сторона)
     .suffix = АУ14, УА, ФОРЕКОН
 
-job-au14foreconfirstreconrifleman-desc = au14-описание-должности-forecon-firstrecon
-job-au14foreconfirstreconrifleman-name = cm-job-name-стрелок
+job-au14foreconfirstreconrifleman-desc = Вы являетесь членом 1-го батальона USCMC FORECON. Вы здесь, чтобы исследовать оружие массового уничтожения.
+job-au14foreconfirstreconrifleman-name = стрелок
 job-au14foreconfirstreconrifleman-spawnmenurolename = FORECON стрелок (AU14, сторонний)
-job-au14foreconfirstreconrifleman-supervisors = cm-должность-название-отделение-лидер
+job-au14foreconfirstreconrifleman-supervisors = Руководитель секции

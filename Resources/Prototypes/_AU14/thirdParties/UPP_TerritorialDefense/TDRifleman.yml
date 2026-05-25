@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobTDRiflemanBase
-  name: au-14-job-name-upptd-rifleman
-  description: au14-upptd-description
+  name: job-au14jobtdriflemanbase-name
+  description: job-au14jobtdriflemanbase-desc
   playTimeTracker: AU14JobUPPTerritorialDefenseRifleman
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobTDRiflemanBase
   id: AU14UPPTerritorialDefenseRifleman
-  name: au-14-job-name-upptd-rifleman
-  description: au14-upptd-description
+  name: job-au14uppterritorialdefenserifleman-name
+  description: job-au14uppterritorialdefenserifleman-desc
   ranks:
     UPP_SeniorGefreiter:
     - !type:RoleTimeRequirement
@@ -27,7 +27,7 @@
   greeting: au14-upptd-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: au-14-job-name-upptd-squadleader
+  supervisors: job-au14uppterritorialdefenserifleman-supervisors
   accessGroups:
   - AU14GovforSquad
   special:

@@ -5,7 +5,7 @@ ent-AU14SpawnPointopforSquadRifleman = Точка появления для от
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobopforsquadrifleman-desc = au14-описание-операции-оператора
-job-au14jobopforsquadrifleman-name = au14-имя-работы-opforsquadrifleman
+job-au14jobopforsquadrifleman-desc = Основа подразделения. Выполняйте приказы, вызывайте охрану и стреляйте метко.
+job-au14jobopforsquadrifleman-name = стрелок
 job-au14jobopforsquadrifleman-spawnmenurolename = стрелок (ОПФОР)
-job-au14jobopforsquadrifleman-supervisors = au14-работа-руководители-опфор
+job-au14jobopforsquadrifleman-supervisors = Командир

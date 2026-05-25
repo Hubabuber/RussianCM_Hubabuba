@@ -4,6 +4,6 @@ ent-RMCSpawnPointSurvivorLV624Archeologist = survivor lv624 archeologist spawn p
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmsurvivorlv624archeologist-desc = cm-job-description-survivor
-job-cmsurvivorlv624archeologist-name = rmc-job-name-survivor-lv624-archeologist
+job-cmsurvivorlv624archeologist-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivorlv624archeologist-name = Archeologist
 job-cmsurvivorlv624archeologist-spawnmenurolename = Archeologist (LV624 Survivor)

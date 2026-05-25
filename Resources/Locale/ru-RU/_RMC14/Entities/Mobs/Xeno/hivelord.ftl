@@ -4,7 +4,7 @@ ent-CMXenoHivelord = Повелитель улья
   .desc = Строитель действительно больших ульев.
 ent-CMXenoHivelordResinWhisperer = Повелитель улья
   .desc = Строитель действительно больших ульев.
-
+    .suffix = Повелитель улья
 ent-CMXenoHivelordDesigner = Хивелорд
     .desc = Строитель действительно больших ульев.
     .suffix = Дизайнер

@@ -1,8 +1,7 @@
 ent-RMCRandomHumanoidProvostInspector = инспектор роли призрака проректора
-
 ent-RMCSpawnPointProvostInspector = Точка появления проректора-инспектора
   .desc = Создатель заданий RMC14. 
-
-job-cmprovostinspector-desc = RMC-должностная инструкция-инспектор
-job-cmprovostinspector-name = RMC-имя-должности-корпорация-провост-инспектор
-job-cmprovostinspector-supervisors = cm-job-supervisors-морпех-высокая-команда
+    .suffix = Создание вакансий
+job-cmprovostinspector-desc = Наставляйте новых членов парламента, а также консультируйте и расследуйте вопросы морпехского закона и разрешения конфликтов на борту корабля, гарантируя, что военная полиция действует в поддержку намерений провоста.
+job-cmprovostinspector-name = Провост-инспектор
+job-cmprovostinspector-supervisors = Морпех Верховное командование

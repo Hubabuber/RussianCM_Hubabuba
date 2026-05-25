@@ -4,6 +4,6 @@ ent-RMCSpawnPointSurvivorChancesMiner = chances miner spawn point
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmsurvivorchancesminer-desc = cm-job-description-survivor
-job-cmsurvivorchancesminer-name = rmc-job-name-colonist-chances-miner
+job-cmsurvivorchancesminer-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivorchancesminer-name = Mining Surveyor
 job-cmsurvivorchancesminer-spawnmenurolename = Mining Surveyor (Chances Colonist)

@@ -1,2 +1,2 @@
-job-au14jobradiotelephoneoperatorbase-desc = au14-job-description-radiotelephoneoperator
-job-au14jobradiotelephoneoperatorbase-name = au14-job-name-radiotelephoneoperator
+job-au14jobradiotelephoneoperatorbase-desc = Operate long-range comms and lead fireteams.
+job-au14jobradiotelephoneoperatorbase-name = Fireteam Leader

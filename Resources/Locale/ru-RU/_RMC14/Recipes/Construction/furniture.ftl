@@ -19,3 +19,9 @@ construction-rmctablewoodfancy-desc = Красиво обработанная п
 construction-rmctablewoodfancy-name = необычный деревянный стол
 construction-rmctablewoodpoor-desc = Полуплохо сконструированная деревянная поверхность, опирающаяся на четыре ножки. Полезно положить вещи.
 construction-rmctablewoodpoor-name = бедный деревянный стол
+
+construction-cmchair-name = стул
+construction-cmchairofficedark-name = темный офисный стул
+construction-cmchairofficewhite-name = белый офисный стул
+construction-cmrack-name = стойка
+construction-cmstool-name = табурет

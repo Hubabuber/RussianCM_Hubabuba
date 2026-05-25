@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobCivilianScientistBase
   id: AU14JobWYHTScientist
-  name: au14-job-name-civilianscientist
-  description: au14-wyht-description
+  name: job-au14jobwyhtscientist-name
+  description: job-au14jobwyhtscientist-desc
   ranks:
     AU14RankScientistProfessor:
     - !type:RoleTimeRequirement
@@ -14,7 +14,7 @@
   greeting: au14-wyht-greeting
   icon: "RMCJobIconPMCScientist"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-wy
+  supervisors: job-au14jobwyhtscientist-supervisors
   accessGroups:
   - Colonist
   - auwy

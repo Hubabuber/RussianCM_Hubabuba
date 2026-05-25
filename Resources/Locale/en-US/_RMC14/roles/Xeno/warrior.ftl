@@ -1,1 +1,1 @@
-job-cmxenowarrior-name = cm-job-name-xeno-warrior
+job-cmxenowarrior-name = Warrior

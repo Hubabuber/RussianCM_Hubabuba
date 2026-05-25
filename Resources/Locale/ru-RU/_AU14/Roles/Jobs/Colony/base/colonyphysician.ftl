@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianPhysician = Гражданский врач точки
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianphysician-desc = au14-должностная инструкция-гражданский врач
-job-au14jobcivilianphysician-name = au14-имя-должности-гражданский врач
-job-au14jobcivilianphysician-supervisors = au14-работа-руководители-колониягражданский
+job-au14jobcivilianphysician-desc = Обеспечить диагностику, операцию и лечение персонала колонии.
+job-au14jobcivilianphysician-name = Врач
+job-au14jobcivilianphysician-supervisors = Администратор колонии

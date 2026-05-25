@@ -1,4 +1,4 @@
-job-rmcsurvivorcommandingofficer-desc = RMC-описание-работы-выживший-co
-job-rmcsurvivorcommandingofficer-name = RMC-имя-работы-выжившего-co
+job-rmcsurvivorcommandingofficer-desc = Вы майор ККМ ООН.
+job-rmcsurvivorcommandingofficer-name = Выживший командир
 job-rmcsurvivorcommandingofficer-spawnmenurolename = Выживший командир (база)
-job-rmcsurvivorcommandingofficer-supervisors = cm-job-supervisors-никто
+job-rmcsurvivorcommandingofficer-supervisors = никто, ты сам по себе

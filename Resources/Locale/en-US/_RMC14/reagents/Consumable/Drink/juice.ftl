@@ -1,3 +1,3 @@
-reagent-rmcjuicemango-desc = rmc-reagent-desc-juice-mango
-reagent-rmcjuicemango-name = rmc-reagent-name-juice-mango
-reagent-rmcjuicemango-physicaldesc = reagent-physical-desc-citric
+reagent-rmcjuicemango-desc = Tasty tasty mango juice.
+reagent-rmcjuicemango-name = mango juice
+reagent-rmcjuicemango-physicaldesc = citric

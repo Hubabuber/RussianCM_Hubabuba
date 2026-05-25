@@ -1,8 +1,8 @@
 - type: job
   parent: AU14FORECONSmartGunOperatorBase
   id: AU14FORECONFirstReconSmartGunOperator
-  name: au14-job-name-govforsquadautomaticriflemanRMC
-  description: au14-job-description-forecon-firstrecon
+  name: job-au14foreconfirstreconsmartgunoperator-name
+  description: job-au14foreconfirstreconsmartgunoperator-desc
   ranks:
     RMCRankLanceCorporal: []
   spawnMenuRoleName: job-au14foreconfirstreconsmartgunoperator-spawnmenurolename
@@ -10,7 +10,7 @@
   greeting: au14-job-description-forecon-firstrecon-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: cm-job-name-squad-leader
+  supervisors: job-au14foreconfirstreconsmartgunoperator-supervisors
   special:
   - !type:AddComponentSpecial
     components:

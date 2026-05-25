@@ -6,4 +6,4 @@ job-au14jobthirdpartyk9handler-desc = K9 Handler
 job-au14jobthirdpartyk9handler-name = K9 Handler
 job-au14jobthirdpartyk9handler-overwatchrolename = K9 Handler#
 job-au14jobthirdpartyk9handler-spawnmenurolename = K9 Handler
-job-au14jobthirdpartyk9handler-supervisors = au14-job-supervisors-govfor
+job-au14jobthirdpartyk9handler-supervisors = Platoon Commander

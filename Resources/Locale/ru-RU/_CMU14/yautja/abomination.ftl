@@ -3,5 +3,5 @@ ent-CMUXenoAbomination = Мерзость
 
 ent-CMUXenoPredalienLarva = предалиен личинка
 
-job-cmuxenoabomination-name = cmu-ксено-abomination-name
-job-cmuxenopredalienlarva-name = cmu-ксено-predalien-larva-name
+job-cmuxenoabomination-name = Мерзость
+job-cmuxenopredalienlarva-name = предалиен личинка

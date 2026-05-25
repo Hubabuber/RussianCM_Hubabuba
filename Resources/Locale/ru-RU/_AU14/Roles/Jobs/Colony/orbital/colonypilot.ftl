@@ -5,7 +5,7 @@ ent-AU14SpawnPointCivilianColonyPilot = Коммерческий пилот то
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobciviliancolonypilot-desc = au14-должностная инструкция-гражданская колонияпилот
-job-au14jobciviliancolonypilot-name = au14-имя-работы-гражданская колонияпилот
+job-au14jobciviliancolonypilot-desc = Летайте на коммерческих кораблях с орбитальной станции и обратно.
+job-au14jobciviliancolonypilot-name = Коммерческий пилот
 job-au14jobciviliancolonypilot-spawnmenurolename = Коммерческий пилот (орбитальный)
-job-au14jobciviliancolonypilot-supervisors = au14-работа-руководители-орбитальная
+job-au14jobciviliancolonypilot-supervisors = Орбитальный менеджер

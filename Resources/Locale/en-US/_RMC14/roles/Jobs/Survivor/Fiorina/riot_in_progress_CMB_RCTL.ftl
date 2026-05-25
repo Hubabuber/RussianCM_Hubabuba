@@ -4,6 +4,6 @@ ent-RMCSpawnPointSurvivorFiorinaRiotInProgressCMBRiotControlOfficer = special su
 
 ent-RMCSurvivorPresetRiotInProgressCMBRCTL = riot in progress CMB RCTL preset
 
-job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-desc = cm-job-description-survivor
-job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-name = rmc-job-name-bureau-riot-control-team-leader
+job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-name = CMB Riot Control Team Leader
 job-rmcsurvivorfiorinariotinprogresscmbriotcontrolteamleader-spawnmenurolename = CMB Riot Control Team Leader (Special Survivor)

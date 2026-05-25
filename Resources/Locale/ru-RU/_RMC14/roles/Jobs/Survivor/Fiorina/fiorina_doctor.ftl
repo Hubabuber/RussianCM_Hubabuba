@@ -1,6 +1,7 @@
 ent-RMCSpawnPointSurvivorFiorinaDoctor = точка возрождения выжившего доктора Фиорины
  
-
-job-cmsurvivorfiorinadoctor-desc = cm-описание-работы-выживший
-job-cmsurvivorfiorinadoctor-name = cm-имя-должности-выжившего-фиорина-доктор
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmsurvivorfiorinadoctor-desc = Вы выжили после нападения на корпоративный объект. Вы работали или жили в колонии/станции и сумели избежать нападений инопланетян... до сих пор.
+job-cmsurvivorfiorinadoctor-name = Фиорина Доктор
 job-cmsurvivorfiorinadoctor-spawnmenurolename = Доктор Фиорина (Выживший в Фиорине)

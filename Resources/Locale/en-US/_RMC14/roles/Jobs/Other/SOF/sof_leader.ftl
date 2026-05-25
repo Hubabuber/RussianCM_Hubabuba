@@ -7,6 +7,6 @@ ent-RMCDogtagMarineRaiderLeaderHidden = dog tag
 ent-RMCRandomHumanoidMarineRaiderLead = DEATHSQUAD marine raider team leader ghost role
     .suffix = Role
 
-job-cmmarineraiderleader-desc = rmc-ghost-role-information-sof-description
-job-cmmarineraiderleader-name = rmc-job-name-marine-raider-leader
+job-cmmarineraiderleader-desc = You are an elite Marine Raider Operative, the best of the best, absolutely loyal to High Command and must follow their directives. Execute the mission assigned to you with extreme prejudice!
+job-cmmarineraiderleader-name = Marine Raider Team Leader
 job-cmmarineraiderleader-spawnmenurolename = MARSOC Raider Team Leader

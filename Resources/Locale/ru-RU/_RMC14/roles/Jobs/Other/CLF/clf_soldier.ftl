@@ -1,5 +1,5 @@
 ent-RMCRandomHumanoidCLFSoldier = clf роль призрака солдат
-
-job-rmcclfsoldier-desc = RMC-призрак-роль-информация-clf-описание
-job-rmcclfsoldier-name = RMC-CLF-солдат
+    .suffix = clf роль призрака солдат
+job-rmcclfsoldier-desc = Обеспечьте изгнание морпехи из этого пространства ради свободных колоний!
+job-rmcclfsoldier-name = Солдат
 job-rmcclfsoldier-spawnmenurolename = CLF Солдат

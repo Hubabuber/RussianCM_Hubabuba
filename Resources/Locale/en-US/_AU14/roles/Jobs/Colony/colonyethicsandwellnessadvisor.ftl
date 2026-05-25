@@ -2,6 +2,6 @@ ent-AU14SpawnPointCivilianEthicsAndWellnessAdvisor = Spawn Point Civilian Ethics
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-au14jobcivilianethicsandwellnessadvisor-desc = au14-job-description-ethicsandwellnessadvisor
-job-au14jobcivilianethicsandwellnessadvisor-name = au14-job-name-ethicsandwellnessadvisor
-job-au14jobcivilianethicsandwellnessadvisor-supervisors = au14-job-supervisors-colonycivilian
+job-au14jobcivilianethicsandwellnessadvisor-desc = Offer counseling, moral support and spiritual guidance.
+job-au14jobcivilianethicsandwellnessadvisor-name = Ethics And Wellness Advisor
+job-au14jobcivilianethicsandwellnessadvisor-supervisors = Colony Administrator

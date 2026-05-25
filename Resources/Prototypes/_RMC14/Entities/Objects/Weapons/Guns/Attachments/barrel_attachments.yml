@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentExtendedBarrel # extended_barrel
-  name: extended barrel
-  description: The lengthened barrel speeds up and stabilizes the bullet, increasing velocity. # and accuracy.
+  name: ent-RMCAttachmentExtendedBarrel
+  description: ent-RMCAttachmentExtendedBarrel-desc # and accuracy.
   components:
   - type: Sprite
     state: ebarrel
@@ -121,9 +121,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentRecoilCompensator # compensator
-  name: recoil compensator
-  description: "A muzzle attachment that reduces recoil by diverting expelled gasses upwards.
-    Reduces recoil, at the cost of a small amount of weapon damage." # increases accuracy and reduces recoil
+  name: ent-RMCAttachmentRecoilCompensator
+  description: ent-RMCAttachmentRecoilCompensator-desc
   components:
   - type: Sprite
     state: comp
@@ -203,10 +202,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentShotgunChoke # choke
-  name: shotgun choke
-  description: "A threaded choke that can be inserted into the M42A2 Shotgun.
-    Improves accuracy, velocity, tightens spread, and increases the cyclic rate.
-    In exchange, projectile damage and force is reduced. Also increases recoil. Not recommended for slugs."
+  name: ent-RMCAttachmentShotgunChoke
+  description: ent-RMCAttachmentShotgunChoke-desc
   components:
   - type: Sprite
     state: choke
@@ -241,9 +238,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentSuppressor # suppressor
-  name: suppressor
-  description: "A small tube with exhaust ports to expel noise and gas.
-    Does not completely silence a weapon, but does make it much quieter at the cost of slightly reduced damage."
+  name: ent-RMCAttachmentSuppressor
+  description: ent-RMCAttachmentSuppressor-desc
   components:
   - type: Sprite
     state: suppressor

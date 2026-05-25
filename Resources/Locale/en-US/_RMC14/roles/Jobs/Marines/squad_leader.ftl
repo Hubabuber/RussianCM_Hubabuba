@@ -27,6 +27,6 @@ ent-RMCGuidebookActionMove = Move order
 ent-RMCGuidebookRoleSL = The Squad Leader
     .desc = The Squad Leader
 
-job-cmsquadleader-desc = cm-job-description-squad-leader
-job-cmsquadleader-name = cm-job-name-squad-leader
-job-cmsquadleader-supervisors = rmc-job-supervisors-commander
+job-cmsquadleader-desc = Leader of a rifle section. Give your section and squads objectives and follow orders from Command. Keep your section in one piece.
+job-cmsquadleader-name = Section Leader
+job-cmsquadleader-supervisors = the current Commander

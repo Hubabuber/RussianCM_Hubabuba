@@ -21,6 +21,6 @@ ent-CMSpawnPointCombatTechDelta = combat tech spawn point
 ent-RMCGuidebookRoleCT = Combat Technician
     .desc = Combat Technician
 
-job-cmcombattech-desc = cm-job-description-combat-tech
-job-cmcombattech-name = cm-job-name-combat-tech
-job-cmcombattech-supervisors = cm-job-supervisors-sl
+job-cmcombattech-desc = Build or remove fortifications. Establish and maintain FOB and Power. Gain access to blocked off areas.
+job-cmcombattech-name = Combat Technician
+job-cmcombattech-supervisors = the acting Squad Leader

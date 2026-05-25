@@ -1,1 +1,1 @@
-accesslevel-centralcommand-name = id-card-access-level-central-command
+accesslevel-centralcommand-name = Central Command

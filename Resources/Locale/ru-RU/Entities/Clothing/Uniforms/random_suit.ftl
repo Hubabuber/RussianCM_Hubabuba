@@ -1,4 +1,4 @@
-ent-ClothingUniformRandom-name = lathe-category-clothing
+ent-ClothingUniformRandom-name = Одежда
 ent-ClothingUniformRandom-desc = Генерируется нейронными сетями на основе последних модных тенденций.
 
 ent-ClothingRandomSpawner-name = случайный красочный костюм

@@ -1,8 +1,8 @@
 - type: job
   parent: AU14FORECONRiflemanBase
   id: AU14FORECONFirstReconRifleman
-  name: cm-job-name-rifleman
-  description: au14-job-description-forecon-firstrecon
+  name: job-au14foreconfirstreconrifleman-name
+  description: job-au14foreconfirstreconrifleman-desc
   ranks:
     RMCRankCorporal: []
   spawnMenuRoleName: job-au14foreconfirstreconrifleman-spawnmenurolename
@@ -10,7 +10,7 @@
   greeting: au14-job-description-forecon-firstrecon-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: cm-job-name-squad-leader
+  supervisors: job-au14foreconfirstreconrifleman-supervisors
   special:
   - !type:AddComponentSpecial
     components:

@@ -1,2 +1,2 @@
-department-cmrequisitions-desc = cm-department-Requisitions-description
-department-cmrequisitions-name = department-CMRequisitions
+department-cmrequisitions-desc = Dispense supplies to the marines.
+department-cmrequisitions-name = Requisitions

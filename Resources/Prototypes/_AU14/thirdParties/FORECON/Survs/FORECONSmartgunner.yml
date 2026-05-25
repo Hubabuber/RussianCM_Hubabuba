@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14FORECONSmartGunOperatorBase
-  name: cm-job-name-smart-gun-operator
-  description: au14-job-description-govforadvisor
+  name: job-au14foreconsmartgunoperatorbase-name
+  description: job-au14foreconsmartgunoperatorbase-desc
   playTimeTracker: AU14JobFORECONSmartGunOperator
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14FORECONSmartGunOperatorBase
   id: AU14FORECONSmartGunOperator
-  name: cm-job-name-smart-gun-operator
-  description: rmc-job-description-forecon
+  name: job-au14foreconsmartgunoperator-name
+  description: job-au14foreconsmartgunoperator-desc
   ranks:
     RMCRankStaffSergeant:
     - !type:RoleTimeRequirement
@@ -27,7 +27,7 @@
   greeting: au14-forecon-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: cm-job-name-squad-leader
+  supervisors: job-au14foreconsmartgunoperator-supervisors
   accessGroups:
   - AU14GovforSquad
   special:

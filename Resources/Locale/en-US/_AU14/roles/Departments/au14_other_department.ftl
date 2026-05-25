@@ -1,4 +1,4 @@
-department-au14departmentthirdparty-desc = au14-department-third-party-description
-department-au14departmentthirdparty-name = au14-department-third-party
-department-au14departmentthreat-desc = au14-department-threat-description
+department-au14departmentthirdparty-desc = Select this job to play as a third party
+department-au14departmentthirdparty-name = Third Party
+department-au14departmentthreat-desc = Select this job to play as the threat
 department-au14departmentthreat-name = au-job-name-threat-member

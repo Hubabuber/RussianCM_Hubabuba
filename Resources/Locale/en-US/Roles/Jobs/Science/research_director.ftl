@@ -1,3 +1,3 @@
-job-researchdirector-desc = job-description-rd
-job-researchdirector-name = job-name-rd
-job-researchdirector-supervisors = job-supervisors-captain
+job-researchdirector-desc = Manage the science department, unlocking technologies, acquiring & researching artifacts, and performing experiments.
+job-researchdirector-name = Research Director
+job-researchdirector-supervisors = the Captain

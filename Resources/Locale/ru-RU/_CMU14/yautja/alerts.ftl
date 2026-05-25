@@ -1,2 +1,2 @@
-alert-cmuyautjapower-desc = cmu-yautja-alert-power-desc
-alert-cmuyautjapower-name = cmu-yautja-alert-power-name
+alert-cmuyautjapower-desc = Запас энергии наруча, используемый снаряжением яутжа.
+alert-cmuyautjapower-name = Заряд наруча

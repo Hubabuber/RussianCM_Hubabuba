@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianColonyAdministrator
-  name: au14-job-name-civiliancolonyadministrator
-  description: au14-job-description-civiliancolonyadministrator
+  name: job-au14jobciviliancolonyadministrator-name
+  description: job-au14jobciviliancolonyadministrator-desc
   setPreference: true
   playTimeTracker: AU14JobCivilianColonyAdministrator
   requirements: # TWEAK: rely primarily on overall playtime based on feedback
@@ -46,7 +46,7 @@
   requireAdminNotify: true
   joinNotifyCrew: false
   canBeAntag: false
-  supervisors: au14-job-supervisors-colonyadministrator
+  supervisors: job-au14jobciviliancolonyadministrator-supervisors
   accessGroups:
   - auadmin
   - Colonist

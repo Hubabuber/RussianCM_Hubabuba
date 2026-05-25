@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobCivilianCorporateLiaisonBase
   id: AU14JobWYHTCorporateLiaison
-  name: au14-job-name-civiliancorporateliaison
-  description: au14-wyht-description
+  name: job-au14jobwyhtcorporateliaison-name
+  description: job-au14jobwyhtcorporateliaison-desc
   ranks:
     RMCRankWeYaAssistantManager:
     - !type:RoleTimeRequirement
@@ -22,7 +22,7 @@
   greeting: au14-wyht-greeting
   icon: "CMJobIconLiaison"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-wy
+  supervisors: job-au14jobwyhtcorporateliaison-supervisors
   accessGroups:
   - Colonist
   - auadmin

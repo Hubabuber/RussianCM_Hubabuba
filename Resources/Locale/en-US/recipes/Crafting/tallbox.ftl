@@ -1,1 +1,1 @@
-construction-closetfreezer-name = construction-recipe-closet-freezer
+construction-closetfreezer-name = closet freezer

@@ -5,7 +5,7 @@ ent-CMSpawnPointStaffOfficer = staff officer spawn point
 ent-RMCGuidebookRoleSO = A Staff Officer
     .desc = A Staff Officer.
 
-job-cmstaffofficer-desc = cm-job-description-staff-officer
-job-cmstaffofficer-name = cm-job-name-staff-officer
-job-cmstaffofficer-newtojobinfo = rmc-new-to-job-staff-officer
-job-cmstaffofficer-supervisors = rmc-job-supervisors-commander
+job-cmstaffofficer-desc = Monitor the marines, man the CIC. In charge of logistics and the overwatch system.
+job-cmstaffofficer-name = Staff Officer
+job-cmstaffofficer-newtojobinfo = As a staff officer, your job is to “overwatch”, monitor and support the squad under your tasking, and relay orders from the operation Commander.
+job-cmstaffofficer-supervisors = the current Commander

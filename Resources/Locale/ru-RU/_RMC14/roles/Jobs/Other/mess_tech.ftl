@@ -1,6 +1,6 @@
 ent-CMSpawnPointMessTech = точка появления беспорядокной техники
-
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
 job-cmmesstech-desc = см-описание-работы-messtech
-job-cmmesstech-name = cm-имя-работы-messtech
-job-cmmesstech-supervisors = cm-job-supervisors-qm
+job-cmmesstech-name = Техник беспорядка
+job-cmmesstech-supervisors = Офицер логистики

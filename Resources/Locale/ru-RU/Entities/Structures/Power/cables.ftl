@@ -7,9 +7,9 @@ ent-CableMV-desc = Силовой кабель среднего напряжен
 ent-CableApcExtension-name = Силовой кабель низкого напряжения
 ent-CableApcExtension-desc = Кабель, используемый для подключения машин к APC.
 
-ent-CableHVUncuttable-name = stack-hv-cable
+ent-CableHVUncuttable-name = ВВ { $amount ->
 
-ent-CableMVUncuttable-name = stack-mv-cable
+ent-CableMVUncuttable-name = СВ { $amount ->
 
 ent-CableApcExtensionUncuttable-name = Силовой кабель низкого напряжения
 ent-CableApcExtensionUncuttable-desc = Кабель, используемый для подключения машин к APC.

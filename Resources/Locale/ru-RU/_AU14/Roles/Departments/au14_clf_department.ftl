@@ -1,2 +1,2 @@
-department-au14departmentcolonialliberationfront-desc = au14-департамент-колониалиберацияфронт-описание
-department-au14departmentcolonialliberationfront-name = au14-департамент-колониальный фронт освобождения
+department-au14departmentcolonialliberationfront-desc = Для некоторых Повстанческое движение — это ополчение, поддерживающее мир, для других — повстанцы, выступающие против правительства. Как член повстанческого движения, вы боретесь за свободу против многих правительств сектора Нероидов, которые по глупости полагают, что ваши дома принадлежат им.
+department-au14departmentcolonialliberationfront-name = Повстанческое движение

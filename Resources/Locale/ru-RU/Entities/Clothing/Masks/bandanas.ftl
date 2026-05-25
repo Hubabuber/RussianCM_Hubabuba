@@ -28,7 +28,7 @@ ent-ClothingMaskBandMerc-desc = Для защиты головы от солнц
 ent-ClothingMaskBandBrown-name = коричневая бандана
 ent-ClothingMaskBandBrown-desc = Коричневая бандана, которая поможет вам выглядеть круто.
 
-ent-ClothingMaskBandanaBase-name = lathe-category-clothing
+ent-ClothingMaskBandanaBase-name = Одежда
 
 ent-ClothingMaskBandBlack = черная бандана
     .desc = Черная бандана, которая заставит вас выглядеть круто.

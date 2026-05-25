@@ -1,5 +1,5 @@
 ent-RMCGuidebookRolePvM = Provost Marshal
     .desc = Provost Marshal
 
-job-cmprovostmarshal-desc = rmc-ghost-role-information-provost-description
-job-cmprovostmarshal-name = rmc-job-name-corp-provost-marshal
+job-cmprovostmarshal-desc = Enforce Marine Law, turn to your superiors for guidance. Authority is tied to your chain of command.
+job-cmprovostmarshal-name = Provost Marshal

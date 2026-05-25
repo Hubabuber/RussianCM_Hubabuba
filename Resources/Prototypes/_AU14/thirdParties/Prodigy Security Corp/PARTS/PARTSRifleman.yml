@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: AU14JobPARTSPartyContractorBase
   name: job-au14jobpartspartycontractorbase-name
-  description: au14-prodigyparty-description
+  description: job-au14jobpartspartycontractorbase-desc
   playTimeTracker: AU14JobPARTSPartyContractor
   basePlaytimeTracker: true
   hidden: true
@@ -11,7 +11,7 @@
   parent: AU14JobPARTSPartyContractorBase
   id: AU14JobPARTSPartyContractor
   name: job-au14jobpartspartycontractor-name
-  description: au14-prodigyparty-description
+  description: job-au14jobpartspartycontractor-desc
   ranks:
     AU14RankWeYuRecruit: []
   spawnMenuRoleName: job-au14jobpartspartycontractor-spawnmenurolename
@@ -19,7 +19,7 @@
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCStandard"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-psc
+  supervisors: job-au14jobpartspartycontractor-supervisors
   accessGroups:
   - auwy
   - AUPrisonStaff

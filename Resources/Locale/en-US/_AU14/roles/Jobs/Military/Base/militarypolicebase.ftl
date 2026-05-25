@@ -1,2 +1,2 @@
-job-au14jobmilitarypolicebase-desc = au14-job-description-govformilitarypoliceman
-job-au14jobmilitarypolicebase-name = au14-job-name-govformilitarypoliceman
+job-au14jobmilitarypolicebase-desc = Provide your faction with police support.
+job-au14jobmilitarypolicebase-name = Military Policeman

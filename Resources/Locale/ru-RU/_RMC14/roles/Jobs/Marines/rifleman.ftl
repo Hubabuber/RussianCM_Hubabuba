@@ -1,22 +1,25 @@
 ent-CMGuidebookRoleYou = Ты?
-
 ent-CMSpawnPointRifleman = точка появления стрелка
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
 ent-CMSpawnPointRiflemanAlpha = точка появления стрелка
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления стрелка
 ent-CMSpawnPointRiflemanBravo = точка появления стрелка
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления стрелка
 ent-CMSpawnPointRiflemanCharlie = точка появления стрелка
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления стрелка
 ent-CMSpawnPointRiflemanDelta = точка появления стрелка
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления стрелка
 ent-RMCGuidebookCorpseMarine = Раненый Морпех
-
-job-cmrifleman-desc = cm-job-description-стрелок
-job-cmrifleman-name = cm-job-name-стрелок
-job-cmrifleman-supervisors = cm-job-supervisors-sl
+job-cmrifleman-desc = Выполняйте приказы тех, кто выше вас. Делайте свою работу и стреляйте, когда вам нужно стрелять. Не умирайте в процессе.
+job-cmrifleman-name = стрелок
+job-cmrifleman-supervisors = действующий командир отряда

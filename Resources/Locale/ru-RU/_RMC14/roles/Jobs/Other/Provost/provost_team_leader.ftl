@@ -1,5 +1,5 @@
 ent-RMCRandomHumanoidProvostTeamLeader = руководитель группы роли призрака провоста
-
-job-cmprovostteamleader-desc = rmc-ghost-role-information-provost-отделение-описание
-job-cmprovostteamleader-name = RMC-имя-должности-корпорация-проректор-руководитель-команды
+    .suffix = руководитель группы роли призрака провоста
+job-cmprovostteamleader-desc = Обеспечьте соблюдение закона о морпехах, подавляйте беспорядки и защищайте любых проректоров.
+job-cmprovostteamleader-name = Лидер группы
 job-cmprovostteamleader-spawnmenurolename = Руководитель группы проректоров

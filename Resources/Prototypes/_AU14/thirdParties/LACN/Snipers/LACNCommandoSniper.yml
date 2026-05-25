@@ -1,9 +1,9 @@
 - type: job
   parent: CMJobBase
   id: AU14LACNCommandoSniper
-  name: rmc-job-name-forecon-sniper
+  name: job-au14lacncommandosniper-name
   playTimeTracker: AU14LACNCommandoSniper
-  description: au14-lacncommando-description
+  description: job-au14lacncommandosniper-desc
   ranks:
     RMCRankChiefWarrantOfficer:
     - !type:RoleTimeRequirement
@@ -15,7 +15,7 @@
   startingGear: AU14GearLACNCommandoSniperTeamSniper
   greeting: au14-lacncommando-description
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-loner
+  supervisors: job-au14lacncommandosniper-supervisors
   special:
   - !type:AddComponentSpecial
     components:

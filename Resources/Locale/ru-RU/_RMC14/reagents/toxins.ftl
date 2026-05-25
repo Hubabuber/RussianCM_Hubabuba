@@ -1,14 +1,14 @@
-﻿rmc-reagent-name-cyanide = Цианид
+rmc-reagent-name-cyanide = Цианид
 rmc-reagent-desc-cyanide = Цианид — это токсичное химическое вещество природного происхождения, которое веками использовалось в качестве средства убийства из-за его немедленного воздействия. Симптомы включают тошноту, слабость и затрудненное дыхание.
 
-reagent-rmcblackgoo-desc = reagent-desc-rmcblackgoo
-reagent-rmcblackgoo-name = reagent-name-rmcblackgoo
-reagent-rmcblackgoo-physicaldesc = reagent-physical-desc-unidentifiable
+reagent-rmcblackgoo-desc = Странное вещество неизвестного происхождения. . .
+reagent-rmcblackgoo-name = Черная слизь
+reagent-rmcblackgoo-physicaldesc = неидентифицируемое
 reagent-rmcchloralhydrate-desc = реагент-desc-rmc-хлорал-гидрат
 reagent-rmcchloralhydrate-name = название-реагента-rmc-хлорал-гидрат
 reagent-rmcchloralhydrate-physicaldesc = реагент-физический-описание-неописаемый
-reagent-rmccyanide-desc = RMC-реагент-деск-цианид
-reagent-rmccyanide-name = rmc-название-реагента-цианид
+reagent-rmccyanide-desc = Цианид — это токсичное химическое вещество природного происхождения, которое веками использовалось в качестве средства убийства из-за его немедленного воздействия. Симптомы включают тошноту, слабость и затрудненное дыхание.
+reagent-rmccyanide-name = Цианид
 reagent-rmccyanide-physicaldesc = реагент-физический-острый
 reagent-rmcgenerictoxin-desc = реагент-деск-rmcgenerictoxin
 reagent-rmcgenerictoxin-name = имя-реагента-rmcgenerictoxin

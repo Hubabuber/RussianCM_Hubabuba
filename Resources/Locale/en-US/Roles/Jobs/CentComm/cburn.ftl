@@ -1,3 +1,3 @@
 job-cburn-desc = job-description-cburn
-job-cburn-name = job-name-cburn
-job-cburn-supervisors = job-supervisors-centcom
+job-cburn-name = Centcomm Quarantine Officer
+job-cburn-supervisors = Central Command

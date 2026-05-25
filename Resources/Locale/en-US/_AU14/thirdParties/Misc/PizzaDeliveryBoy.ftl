@@ -7,4 +7,4 @@ ent-AU14SlingSatchelBlueFilledPizza = Blue sling satchel
 
 job-au14jobciviliandeliverypizzaboy-desc = You are a Pizza Galaxy deliveryman sent with an assortment of refreshing beverages and a choice of pizza to sell to anyone you may encounter.
 job-au14jobciviliandeliverypizzaboy-name = Pizza Delivery Boy
-job-au14jobciviliandeliverypizzaboy-supervisors = au14-job-supervisors-loner
+job-au14jobciviliandeliverypizzaboy-supervisors = Yourself, and only yourself

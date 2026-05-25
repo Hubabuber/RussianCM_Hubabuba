@@ -3,7 +3,7 @@ ent-AU14JobUSArmyMarksman-name = Меткий стрелок армии США (
 ent-AU14JobUSArmyMarksman = Стрелок армии США (Surv)
     .suffix = AU14, UA, Армия США
 
-job-au14usarmymarksman-desc = au14-должностная инструкция-в армии
-job-au14usarmymarksman-name = RMC-имя-задания-форекон-стрелка
+job-au14usarmymarksman-desc = Вы являетесь членом армии США. Следуйте своим целям и добейтесь победы.
+job-au14usarmymarksman-name = стрелок
 job-au14usarmymarksman-spawnmenurolename = Стрелок армии США (AU14, выживание)
-job-au14usarmymarksman-supervisors = cm-должность-название-отделение-лидер
+job-au14usarmymarksman-supervisors = Руководитель секции

@@ -3,5 +3,5 @@ ent-CMUXenoAbomination = Abomination
 
 ent-CMUXenoPredalienLarva = Predalien Larva
 
-job-cmuxenoabomination-name = cmu-xeno-abomination-name
-job-cmuxenopredalienlarva-name = cmu-xeno-predalien-larva-name
+job-cmuxenoabomination-name = Abomination
+job-cmuxenopredalienlarva-name = Predalien Larva

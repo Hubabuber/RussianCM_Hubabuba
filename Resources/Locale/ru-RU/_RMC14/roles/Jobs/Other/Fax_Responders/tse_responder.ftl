@@ -1,6 +1,6 @@
 ent-RMCIDCardTSEResponder = Удостоверение сотрудника по связям с общественностью TSE
   .desc = Удостоверение личности массового производства с логотипом Империи Трех Солнц.
 
-job-cmtseresponder-desc = RMC-описание-работы-tse-ответчик
-job-cmtseresponder-name = rmc-имя-задания-tse-responder
-job-cmtseresponder-supervisors = cm-job-supervisors-staff
+job-cmtseresponder-desc = «Вы действуете от имени регионального командования TSE и отвечаете на факсы, отправленные в командование TWE».
+job-cmtseresponder-name = Сотрудник по связям с общественностью TWE
+job-cmtseresponder-supervisors = Администрация сервера

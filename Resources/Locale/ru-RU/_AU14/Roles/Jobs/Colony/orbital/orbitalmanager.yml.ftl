@@ -2,6 +2,6 @@ ent-AU14SpawnPointCivilianOrbitalManager = Орбитальный менедже
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianorbitalmanager-desc = au14-описание-должности-гражданскийорбитальный менеджер
-job-au14jobcivilianorbitalmanager-name = au14-имя-работы-гражданскийорбитальный менеджер
-job-au14jobcivilianorbitalmanager-supervisors = au14-job-supervisors-orbitalmanager
+job-au14jobcivilianorbitalmanager-desc = Эффективно управляйте своей орбитальной станцией.
+job-au14jobcivilianorbitalmanager-name = Орбитальный менеджер
+job-au14jobcivilianorbitalmanager-supervisors = Менеджер солнечной системы

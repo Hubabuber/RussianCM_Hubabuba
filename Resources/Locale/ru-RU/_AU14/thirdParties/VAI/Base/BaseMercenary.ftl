@@ -1,6 +1,6 @@
 ent-AU14VAIPreset = пресет наемника vai
 
-job-au14vaimercenarybase-desc = au14-vai-mercenary-описание
-job-au14vaimercenarybase-name = au14-имя-ваи-наемника
+job-au14vaimercenarybase-desc = Вы — наемник компании Vanguard's Arrow Incorporated. Следуйте своему контракту. Подробную информацию можно найти в учебнике.
+job-au14vaimercenarybase-name = Подрядчик
 job-au14vaimercenarybase-spawnmenurolename = Подрядчик VAI (база)
-job-au14vaimercenarybase-supervisors = au14-название-ваи-тимлидера
+job-au14vaimercenarybase-supervisors = Лидер группы

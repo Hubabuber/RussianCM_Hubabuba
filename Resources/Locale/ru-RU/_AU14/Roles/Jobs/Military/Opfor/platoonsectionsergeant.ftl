@@ -5,8 +5,8 @@ ent-AU14SpawnPointopforSectionSergeant = Точка появления для с
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobopforsectionsergeant-desc = au14-описание-работы-opforSSG
-job-au14jobopforsectionsergeant-name = au14-имя-задания-opforSSG
+job-au14jobopforsectionsergeant-desc = Старший зачислен. Продолжайте работать взводом и ведите их по земле.
+job-au14jobopforsectionsergeant-name = Старший сержант
 job-au14jobopforsectionsergeant-overwatchrolename = взвод сержант
 job-au14jobopforsectionsergeant-spawnmenurolename = взвод сержант (ОПФОР)
-job-au14jobopforsectionsergeant-supervisors = au14-работа-руководители-опфор
+job-au14jobopforsectionsergeant-supervisors = Командир

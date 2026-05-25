@@ -5,8 +5,8 @@ ent-AU14SpawnPointGOVFORSquadAutomaticRifleman = Точка возрождени
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobgovforsquadautomaticrifleman-desc = au14-описание-должности-govforsquadавтоматическийстрелок
-job-au14jobgovforsquadautomaticrifleman-name = au14-имя-должности-govforsquadавтоматическийстрелок
+job-au14jobgovforsquadautomaticrifleman-desc = Открыть подавляющий огонь. Держите голову врага опущенной, а ваше отделение движется.
+job-au14jobgovforsquadautomaticrifleman-name = Автоматический стрелок
 job-au14jobgovforsquadautomaticrifleman-overwatchrolename = Автоматические стрелки
 job-au14jobgovforsquadautomaticrifleman-spawnmenurolename = Автоматический стрелок (ГОВФОР)
-job-au14jobgovforsquadautomaticrifleman-supervisors = au14-job-supervisors-govfor
+job-au14jobgovforsquadautomaticrifleman-supervisors = Командир взвода

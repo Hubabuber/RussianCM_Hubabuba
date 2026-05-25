@@ -1,3 +1,3 @@
-job-headofpersonnel-desc = job-description-hop
-job-headofpersonnel-name = job-name-hop
-job-headofpersonnel-supervisors = job-supervisors-captain
+job-headofpersonnel-desc = Handle access reassignment fairly using your ID console, manage the service department, and keep Ian safe.
+job-headofpersonnel-name = Head of Personnel
+job-headofpersonnel-supervisors = the Captain

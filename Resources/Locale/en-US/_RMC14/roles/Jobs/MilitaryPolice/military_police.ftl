@@ -5,6 +5,6 @@ ent-CMSpawnPointMilitaryPolice = military police spawn point
 ent-RMCGuidebookRoleMP = Military Police
     .desc = Military Police
 
-job-cmmilitarypolice-desc = cm-job-description-militarypolice
-job-cmmilitarypolice-name = cm-job-name-militarypolice
-job-cmmilitarypolice-supervisors = cm-job-supervisors-cmp
+job-cmmilitarypolice-desc = Enforce Marine Law. Detain Criminals. Keep Shipside Personnel Safe.
+job-cmmilitarypolice-name = Military Police
+job-cmmilitarypolice-supervisors = the Chief MP

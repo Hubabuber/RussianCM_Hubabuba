@@ -1,8 +1,8 @@
 - type: job
   parent: CMDoctor
   id: RMCFieldDoctor
-  name: rmc-job-name-field-doctor
-  description: rmc-job-description-field-doctor
+  name: job-rmcfielddoctor-name
+  description: job-rmcfielddoctor-desc
   playTimeTracker: RMCJobFieldDoctor
   requirements:
   - !type:RoleTimeRequirement
@@ -13,7 +13,7 @@
   startingGear: CMGearFieldDoctor
   icon: "CMJobIconFieldDoctor"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-cmo
+  supervisors: job-rmcfielddoctor-supervisors
   accessGroups:
   - CMMedbay
   roleWeight: 0.25

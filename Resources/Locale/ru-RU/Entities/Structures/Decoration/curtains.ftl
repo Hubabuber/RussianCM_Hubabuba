@@ -7,58 +7,58 @@ ent-HospitalCurtains-desc = Содержит менее 1% ртути.
 ent-HospitalCurtainsOpen-name = шторы
 ent-HospitalCurtainsOpen-desc = Содержит менее 1% ртути.
 
-ent-CurtainsBlack-name = construction-recipe-curtains-black
+ent-CurtainsBlack-name = шторы (чёрный)
 ent-CurtainsBlack-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsBlackOpen-name = construction-recipe-curtains-black
+ent-CurtainsBlackOpen-name = шторы (чёрный)
 ent-CurtainsBlackOpen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsBlue-name = construction-recipe-curtains-blue
+ent-CurtainsBlue-name = шторы (синий)
 ent-CurtainsBlue-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsBlueOpen-name = construction-recipe-curtains-blue
+ent-CurtainsBlueOpen-name = шторы (синий)
 ent-CurtainsBlueOpen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsCyan-name = construction-recipe-curtains-cyan
+ent-CurtainsCyan-name = шторы (голубой)
 ent-CurtainsCyan-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsCyanOpen-name = construction-recipe-curtains-cyan
+ent-CurtainsCyanOpen-name = шторы (голубой)
 ent-CurtainsCyanOpen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsGreen-name = construction-recipe-curtains-green
+ent-CurtainsGreen-name = шторы (зелёный)
 ent-CurtainsGreen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsGreenOpen-name = construction-recipe-curtains-green
+ent-CurtainsGreenOpen-name = шторы (зелёный)
 ent-CurtainsGreenOpen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsOrange-name = construction-recipe-curtains-orange
+ent-CurtainsOrange-name = шторы (оранжевый)
 ent-CurtainsOrange-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsOrangeOpen-name = construction-recipe-curtains-orange
+ent-CurtainsOrangeOpen-name = шторы (оранжевый)
 ent-CurtainsOrangeOpen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsPink-name = construction-recipe-curtains-pink
+ent-CurtainsPink-name = шторы (розовый)
 ent-CurtainsPink-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsPinkOpen-name = construction-recipe-curtains-pink
+ent-CurtainsPinkOpen-name = шторы (розовый)
 ent-CurtainsPinkOpen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsPurple-name = construction-recipe-curtains-purple
+ent-CurtainsPurple-name = шторы (фиолетовый)
 ent-CurtainsPurple-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsPurpleOpen-name = construction-recipe-curtains-purple
+ent-CurtainsPurpleOpen-name = шторы (фиолетовый)
 ent-CurtainsPurpleOpen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsRed-name = construction-recipe-curtains-red
+ent-CurtainsRed-name = шторы (красный)
 ent-CurtainsRed-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsRedOpen-name = construction-recipe-curtains-red
+ent-CurtainsRedOpen-name = шторы (красный)
 ent-CurtainsRedOpen-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsWhite-name = construction-recipe-curtains-white
+ent-CurtainsWhite-name = шторы (белый)
 ent-CurtainsWhite-desc = Скрывает то, что другие не должны видеть.
 
-ent-CurtainsWhiteOpen-name = construction-recipe-curtains-white
+ent-CurtainsWhiteOpen-name = шторы (белый)
 ent-CurtainsWhiteOpen-desc = Скрывает то, что другие не должны видеть.
 
 ent-BaseCurtains = шторы

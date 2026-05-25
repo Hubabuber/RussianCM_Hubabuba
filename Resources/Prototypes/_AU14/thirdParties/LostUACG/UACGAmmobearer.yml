@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobUACGRiflemanBase
   id: AU14UACGAmmobearer
-  name: au-14-job-name-uacg-ammobearer
-  description: au14-uacg-description
+  name: job-au14uacgammobearer-name
+  description: job-au14uacgammobearer-desc
   ranks:
     RMCRankPrivateFirstClass:
     - !type:RoleTimeRequirement
@@ -14,7 +14,7 @@
   greeting: au14-uacg-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: au-14-job-name-uacg-squadleader
+  supervisors: job-au14uacgammobearer-supervisors
   accessGroups:
   - AU14GovforFTL
   special:

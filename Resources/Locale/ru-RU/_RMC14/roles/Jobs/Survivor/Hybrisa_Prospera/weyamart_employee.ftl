@@ -1,8 +1,8 @@
 ent-RMCGearSurvivorPresetHybrisaWeyamartEmployee = Предустановка сотрудника hybrisa weyamart
-
 ent-RMCSpawnPointSurvivorHybrisaWeyamartEmployee = Точка появления сотрудников Hybrisa Weyamart
  
-
-job-rmcsurvivorhybrisaweyamartemployee-desc = cm-описание-работы-выживший
-job-rmcsurvivorhybrisaweyamartemployee-name = rmc-имя-должности-выжившего-hybrisa-weyamart-сотрудник
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmcsurvivorhybrisaweyamartemployee-desc = Вы выжили после нападения на корпоративный объект. Вы работали или жили в колонии/станции и сумели избежать нападений инопланетян... до сих пор.
+job-rmcsurvivorhybrisaweyamartemployee-name = Гражданский сотрудник - сотрудник Weymart
 job-rmcsurvivorhybrisaweyamartemployee-spawnmenurolename = Гражданский — сотрудник Weyamart (выживший в Гибрисе)

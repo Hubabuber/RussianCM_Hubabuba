@@ -3,4 +3,4 @@ ent-RMCSpawnPointPVERifleman = PVE rifleman spawn point
     .suffix = Job Spawn
 
 job-cmpverifleman-spawnmenurolename = Sun Rider Rifleman (PVE)
-job-cmpverifleman-supervisors = cm-job-supervisors-secserg
+job-cmpverifleman-supervisors = the Section Sergeant

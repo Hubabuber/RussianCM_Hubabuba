@@ -1,1 +1,1 @@
-job-cmxenodrone-name = cm-имя-работы-ксено-дрон
+job-cmxenodrone-name = Дрон

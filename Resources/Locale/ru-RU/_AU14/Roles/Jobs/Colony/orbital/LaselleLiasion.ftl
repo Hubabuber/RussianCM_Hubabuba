@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianLaselleLiaison = Гражданский предста
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianlaselleliaison-desc = au14-описание-работы-гражданскийlaselleliaison
-job-au14jobcivilianlaselleliaison-name = au14-имя-работы-гражданскийlaselleliaison
-job-au14jobcivilianlaselleliaison-supervisors = au14-работа-руководители-орбитальная
+job-au14jobcivilianlaselleliaison-desc = Контактное лицо Laselle Bionational Corporation.
+job-au14jobcivilianlaselleliaison-name = Ласелль, связь
+job-au14jobcivilianlaselleliaison-supervisors = Орбитальный менеджер

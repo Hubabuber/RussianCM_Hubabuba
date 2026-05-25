@@ -1,9 +1,13 @@
 ent-RMCShellShotgunIncendiaryHeavyBuckshot = горсть патронов зажигательной картечи усиленной
+    .desc = Несколько патронов для перезарядки на ходу.
 ent-RMCShellShotgunHeavyFlechette = горсть патронов флешеттных усиленных
+    .desc = Несколько патронов для перезарядки на ходу.
 ent-RMCShellShotgunHeavyBeanbag = горсть патронов травматических усиленных
+    .desc = Несколько патронов для перезарядки на ходу.
 ent-RMCShellShotgunHeavySlugs = горсть патронов пулевых усиленных
+    .desc = Несколько патронов для перезарядки на ходу.
 ent-RMCShellShotgunHeavyBuckshot = горсть патронов картечи усиленной
-
+    .desc = Несколько патронов для перезарядки на ходу.
 stack-rmcshellshotgunbeanbagheavy-name = горсть тяжелых снарядов
 stack-rmcshellshotgunbuckshotheavy-name = горсть тяжелых картечных гильз
 stack-rmcshellshotgunflechetteheavy-name = горсть тяжелых снарядов

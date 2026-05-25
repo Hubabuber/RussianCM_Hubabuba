@@ -1,8 +1,8 @@
 - type: job
   parent: AU14USArmySquadLeaderBase
   id: AU14USArmySquadLeader
-  name: cm-job-name-squad-leader
-  description: au14-job-description-usarmy
+  name: job-au14usarmysquadleader-name
+  description: job-au14usarmysquadleader-desc
   ranks:
     USArmy_FirstSergeant:
     - !type:RoleTimeRequirement
@@ -18,7 +18,7 @@
   greeting: au14-usarmy-greeting
   icon: "AU14JobIconUSArmySL"
   joinNotifyCrew: false
-  supervisors: rmc-job-name-forecon-commander
+  supervisors: job-au14usarmysquadleader-supervisors
   accessGroups:
   - AU14GovforCommand
   special:

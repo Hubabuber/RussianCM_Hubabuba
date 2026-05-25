@@ -1,5 +1,5 @@
 ent-RMCGuidebookRolePvM = Провост Маршал
   .desc = Провост Маршал
 
-job-cmprovostmarshal-desc = rmc-призрак-роль-информация-провоста-описание
-job-cmprovostmarshal-name = RMC-имя-должности-корпорация-проректор-маршал
+job-cmprovostmarshal-desc = Соблюдайте закон морфех, обратитесь за советом к своему начальству. Полномочия привязаны к вашей субординации.
+job-cmprovostmarshal-name = Провост Маршал

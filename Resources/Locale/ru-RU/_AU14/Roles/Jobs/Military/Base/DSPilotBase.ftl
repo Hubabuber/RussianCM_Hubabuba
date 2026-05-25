@@ -1,2 +1,2 @@
-job-au14jobdspilotbase-desc = au14-описание-должности-govfordspilot
-job-au14jobdspilotbase-name = au14-имя-работы-govfordspilot
+job-au14jobdspilotbase-desc = Летите на десантном корабле. Вводите войска, извлекайте раненых и оказывайте огневую поддержку.
+job-au14jobdspilotbase-name = десантный корабль Пилот

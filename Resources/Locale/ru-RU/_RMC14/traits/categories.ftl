@@ -1,1 +1,1 @@
-traitcategory-rmcinconveniences-name = rmc-черта-категория-неудобства
+traitcategory-rmcinconveniences-name = Неудобства

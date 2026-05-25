@@ -18,7 +18,7 @@ ent-ClothingHeadBandMerc-name = бандана наемника
 
 ent-ClothingHeadBandBrown-name = коричневая бандана
 
-ent-ClothingHeadBandBase-name = lathe-category-clothing
+ent-ClothingHeadBandBase-name = Одежда
 
 ent-ClothingHeadBandBase = item
 

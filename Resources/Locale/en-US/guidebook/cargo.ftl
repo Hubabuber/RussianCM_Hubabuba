@@ -1,3 +1,3 @@
-guideentry-cargo-name = guide-entry-cargo
-guideentry-cargobounties-name = guide-entry-cargo-bounties
-guideentry-salvage-name = guide-entry-salvage
+guideentry-cargo-name = Cargo
+guideentry-cargobounties-name = Cargo Bounties
+guideentry-salvage-name = Salvage

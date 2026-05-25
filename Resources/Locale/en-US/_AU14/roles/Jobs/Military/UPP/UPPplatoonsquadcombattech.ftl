@@ -1,4 +1,4 @@
-job-au14jobgovforsquadcombattechupp-desc = au14-job-description-govforsquadcombattech
-job-au14jobgovforsquadcombattechupp-name = au14-job-name-govforsquadcombattech
+job-au14jobgovforsquadcombattechupp-desc = Provide engineering and construction support for your faction.
+job-au14jobgovforsquadcombattechupp-name = Combat Technician
 job-au14jobgovforsquadcombattechupp-spawnmenurolename = Combat Tech (UPP)
-job-au14jobgovforsquadcombattechupp-supervisors = au14-job-supervisors-govfor
+job-au14jobgovforsquadcombattechupp-supervisors = Platoon Commander

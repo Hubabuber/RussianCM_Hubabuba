@@ -12,9 +12,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentAngledGrip # angledgrip
-  name: angled grip
-  description: "An angled foregrip that improves weapon ergonomics resulting in faster wielding time.
-    However, it also increases weapon size."
+  name: ent-RMCAttachmentAngledGrip
+  description: ent-RMCAttachmentAngledGrip-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -137,8 +136,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentBurstFireAssembly # burstfire_assembly
-  name: burst fire assembly
-  description: A small angled piece of fine machinery that increases the burst count on some weapons.
+  name: ent-RMCAttachmentBurstFireAssembly
+  description: ent-RMCAttachmentBurstFireAssembly-desc
   components:
   - type: Sprite
     state: rapidfire
@@ -667,9 +666,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentVerticalGrip # verticalgrip
-  name: vertical grip
-  description: "A vertical foregrip that offers better accuracy, less recoil, and less scatter, especially during burst fire.
-    However, it also increases weapon size."
+  name: ent-RMCAttachmentVerticalGrip
+  description: ent-RMCAttachmentVerticalGrip-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -698,8 +696,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentFlashlightGrip # flashlight/grip
-  name: underbarrel flashlight grip
-  description: Holy smokes RO man, they put a grip on a flashlight! Reduces recoil and scatter by a tiny amount. Works as a light source. # Boosts accuracy by a tiny amount.
+  name: ent-RMCAttachmentFlashlightGrip
+  description: ent-RMCAttachmentFlashlightGrip-desc # Boosts accuracy by a tiny amount.
   components:
   - type: ItemTogglePointLight
   - type: ToggleableVisuals

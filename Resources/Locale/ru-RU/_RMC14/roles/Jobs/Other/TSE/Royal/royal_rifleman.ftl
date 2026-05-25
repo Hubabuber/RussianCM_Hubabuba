@@ -1,6 +1,6 @@
 ent-RMCRandomHumanoidRoyalMarinesCommando = королевская корона морская пехота роль призрака стрелок
-
-job-cmroyalmarinescommando-desc = RMC-призрак-роль-информация-rcm-описание
-job-cmroyalmarinescommando-name = rmc-имя-задания-rcm-commando
+    .suffix = королевская корона морская пехота роль призрака стрелок
+job-cmroyalmarinescommando-desc = Обеспечьте выживание корабля UNS, уничтожьте всех противников и помогите экипажу любым возможным способом.
+job-cmroyalmarinescommando-name = стрелок
 job-cmroyalmarinescommando-spawnmenurolename = РКМ стрелок
-job-cmroyalmarinescommando-supervisors = cm-job-supervisors-royal-tl
+job-cmroyalmarinescommando-supervisors = командир отделения

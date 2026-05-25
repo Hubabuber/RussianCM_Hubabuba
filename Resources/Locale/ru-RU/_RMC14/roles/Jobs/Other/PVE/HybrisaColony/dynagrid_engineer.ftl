@@ -1,5 +1,5 @@
 ent-RMCSpawnPointPVEDynagridEngineer = точка спавна инженера диангрида
-
-
-job-rmcpvedynagridengineer-desc = RMC-описание-должности-инженер-динагрид
-job-rmcpvedynagridengineer-name = RMC-имя-должности-динагрид-инженер
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmcpvedynagridengineer-desc = Поддерживайте Нексус Динагрид и другие энергетические объекты Гибрисы Просперы.
+job-rmcpvedynagridengineer-name = Инженер Динагрид

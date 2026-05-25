@@ -1,3 +1,3 @@
-job-centralcommandofficial-desc = job-description-centcomoff
-job-centralcommandofficial-name = job-name-centcomoff
-job-centralcommandofficial-supervisors = job-supervisors-hos
+job-centralcommandofficial-desc = Act as an ambassador to the newest state-of-the-art space station in Nanotrasen's fleet.
+job-centralcommandofficial-name = CentComm Official
+job-centralcommandofficial-supervisors = the Head of Security

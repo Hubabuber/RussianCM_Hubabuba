@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMAuxiliarySupportOfficer
-  name: cm-job-name-aso
-  description: cm-job-description-aso
+  name: job-cmauxiliarysupportofficer-name
+  description: job-cmauxiliarysupportofficer-desc
   setPreference: false
   playTimeTracker: CMJobAuxiliarySupportOfficer
   requirements:
@@ -36,7 +36,7 @@
   requireAdminNotify: true
   joinNotifyCrew: false
   marineAuthorityLevel: 12
-  supervisors: rmc-job-supervisors-commander
+  supervisors: job-cmauxiliarysupportofficer-supervisors
   accessGroups:
   - ASO
   roleWeight: 0.25

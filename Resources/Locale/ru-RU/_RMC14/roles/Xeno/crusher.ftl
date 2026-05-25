@@ -1,1 +1,1 @@
-job-cmxenocrusher-name = cm-имя-работы-ксено-дробилка
+job-cmxenocrusher-name = Дробилка

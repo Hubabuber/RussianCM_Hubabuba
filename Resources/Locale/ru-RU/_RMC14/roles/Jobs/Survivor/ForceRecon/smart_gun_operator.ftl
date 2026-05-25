@@ -1,5 +1,6 @@
 ent-CMSpawnPointForeconSmartGunOperator = точка появления оператора умного оружия Forecon
  
-
-job-rmcsurvivorforeconsmartgunoperator-name = cm-имя-задания-оператора-умного пистолета
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-rmcsurvivorforeconsmartgunoperator-name = Умный оператор оружия
 job-rmcsurvivorforeconsmartgunoperator-spawnmenurolename = FORECON Smart Gun Оператор (Выживший)

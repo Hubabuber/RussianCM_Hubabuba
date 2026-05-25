@@ -23,4 +23,4 @@ ent-RMCPouchMedkitVonBandolier = medical kit pouch
 
 job-au14jobcivilianprofessorvonbandolier-desc = Find the biggest and most dangerous game, whether that is space alien or a man with a gun and eloquently shoot them.
 job-au14jobcivilianprofessorvonbandolier-name = Professor Von Bandolier
-job-au14jobcivilianprofessorvonbandolier-supervisors = au14-job-supervisors-loner
+job-au14jobcivilianprofessorvonbandolier-supervisors = Yourself, and only yourself

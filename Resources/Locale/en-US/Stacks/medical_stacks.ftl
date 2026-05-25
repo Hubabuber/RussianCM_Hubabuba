@@ -1,7 +1,7 @@
-stack-aloecream-name = stack-aloe-cream
-stack-bloodpack-name = stack-bloodpack
-stack-brutepack-name = stack-brutepack
-stack-gauze-name = stack-gauze
-stack-medicatedsuture-name = stack-medicated-suture
-stack-ointment-name = stack-ointment
-stack-regenerativemesh-name = stack-regenerative-mesh
+stack-aloecream-name = aloe cream
+stack-bloodpack-name = bloodpack
+stack-brutepack-name = brutepack
+stack-gauze-name = gauze
+stack-medicatedsuture-name = medicated-suture
+stack-ointment-name = ointment
+stack-regenerativemesh-name = regenerative-mesh

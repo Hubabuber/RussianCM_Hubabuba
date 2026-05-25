@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmySynthBase
-  name: rmc-job-name-forecon-synth
-  description: au14-job-description-usarmy
+  name: job-au14usarmysynthbase-name
+  description: job-au14usarmysynthbase-desc
   playTimeTracker: AU14JobUSArmySynth
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14USArmySynthBase
   id: AU14JobUSArmySynthArmored
-  name: rmc-job-name-forecon-synth
-  description: au14-job-description-usarmy
+  name: job-au14jobusarmysyntharmored-name
+  description: job-au14jobusarmysyntharmored-desc
   ranks:
     USArmy_ChiefWarrantOfficer5:
     - !type:RoleTimeRequirement
@@ -35,7 +35,7 @@
   greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmySynth"
   joinNotifyCrew: false
-  supervisors: rmc-job-name-forecon-commander
+  supervisors: job-au14jobusarmysyntharmored-supervisors
   accessGroups:
   - AU14GovforCommand
   special:

@@ -1,6 +1,6 @@
-guideentry-criminalrecords-name = guide-entry-criminal-records
-guideentry-defusal-name = guide-entry-defusal
-guideentry-forensics-name = guide-entry-forensics
-guideentry-security-name = guide-entry-security
-guideentry-spacelaw-name = guide-entry-rules-space-law
-guideentry-spacelawcrimelist-name = guide-entry-rules-sl-crime-list
+guideentry-criminalrecords-name = Criminal Records
+guideentry-defusal-name = Large Bomb Defusal
+guideentry-forensics-name = Forensics
+guideentry-security-name = Security
+guideentry-spacelaw-name = Space Law
+guideentry-spacelawcrimelist-name = Crime List

@@ -1,1 +1,1 @@
-job-cmxenolarva-name = cm-job-name-xeno-larva
+job-cmxenolarva-name = Larva

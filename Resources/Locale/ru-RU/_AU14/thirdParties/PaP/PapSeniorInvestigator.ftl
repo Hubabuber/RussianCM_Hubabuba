@@ -5,7 +5,7 @@ ent-AU14IDCardPAPThirdpartySeniorInvestigator-desc = Кусочек закоди
 ent-AU14JobPaPThirdpartySeniorInvestigator = УПП ПАП Старший следователь
     .suffix = АУ14, УПП, ПАП
 
-job-au14papthirdpartyseniorinvestigator-desc = au14-papстороннее-описание
+job-au14papthirdpartyseniorinvestigator-desc = Вы являетесь членом следственной группы Папа. Вас призвали в колонию для расследования. Вы не в курсе ситуации. Расследовать.
 job-au14papthirdpartyseniorinvestigator-name = au-14-имя-вакансии-papсторонний-капитан
 job-au14papthirdpartyseniorinvestigator-spawnmenurolename = Старший следователь UPP PaP (третья сторона)
-job-au14papthirdpartyseniorinvestigator-supervisors = au14-работы-руководители-бригадир
+job-au14papthirdpartyseniorinvestigator-supervisors = Ваш бригадир, администрация колонии

@@ -5,7 +5,7 @@ ent-AU14IDCardUACGSquadleader-desc = Кусочек закодированног
 ent-AU14JobUACGLostSquadLeader = Потерянный лидер отделения
     .suffix = АУ14, УА, ОАКГ
 
-job-au14uacgsquadleader-desc = au14-uacg-описание
+job-au14uacgsquadleader-desc = Ваше отделение было отделено от вашего взвода во время патрулирования на коротком расстоянии от вашего FOB, когда экстремальная погода сбила вас с курса. Восстановите связь с правительственными силами с теми, кто остался.
 job-au14uacgsquadleader-name = au-14-имя-должности-uacg-squadleader
 job-au14uacgsquadleader-spawnmenurolename = Руководитель отделения ОАКГ (сторонняя сторона)
-job-au14uacgsquadleader-supervisors = au14-job-supervisors-platco
+job-au14uacgsquadleader-supervisors = Командир взвода

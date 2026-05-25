@@ -1,2 +1,2 @@
-alert-suitpower-desc = alerts-suit-power-desc
-alert-suitpower-name = alerts-suit-power-name
+alert-suitpower-desc = How much power your space ninja suit has.
+alert-suitpower-name = Suit Power

@@ -1,3 +1,3 @@
-accesslevel-basicsilicon-name = id-card-access-level-basic-silicon
-accesslevel-borg-name = id-card-access-level-borg
-accesslevel-stationai-name = id-card-access-level-station-ai
+accesslevel-basicsilicon-name = Robot
+accesslevel-borg-name = Cyborg
+accesslevel-stationai-name = Artifical Intelligence

@@ -4,6 +4,6 @@ ent-RMCRandomHumanoidSPPRiflemanFriendly = spp ghost role rifleman
 ent-RMCRandomHumanoidSPPRiflemanHostile = spp ghost role rifleman
     .suffix = Spawner, Player, Hostile
 
-job-rmcspprifleman-desc = rmc-job-description-spp-soldier
-job-rmcspprifleman-name = rmc-job-name-spp-rifleman
+job-rmcspprifleman-desc = Follow your squad leader's orders and fight for the SPP.
+job-rmcspprifleman-name = Conscript
 job-rmcspprifleman-spawnmenurolename = SPP Conscript

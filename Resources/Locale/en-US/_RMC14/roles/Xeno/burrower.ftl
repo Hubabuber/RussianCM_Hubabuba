@@ -1,1 +1,1 @@
-job-cmxenoburrower-name = cm-job-name-xeno-burrower
+job-cmxenoburrower-name = Burrower

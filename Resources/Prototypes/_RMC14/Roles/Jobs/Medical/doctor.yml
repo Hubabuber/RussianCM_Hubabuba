@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMDoctor
-  name: rmc-job-name-doctor
-  description: rmc-job-description-doctor
+  name: job-cmdoctor-name
+  description: job-cmdoctor-desc
   setPreference: false
   playTimeTracker: CMJobDoctor
   requirements:
@@ -14,7 +14,7 @@
   startingGear: CMGearDoctor
   icon: "CMJobIconDoctor"
   joinNotifyCrew: false
-  supervisors: cm-job-supervisors-cmo
+  supervisors: job-cmdoctor-supervisors
   accessGroups:
   - CMMedbay
   roleWeight: 0.25

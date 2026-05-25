@@ -1,3 +1,3 @@
-job-cmroyalmarinesmajor-desc = rmc-ghost-role-information-rcm-description
-job-cmroyalmarinesmajor-name = rmc-job-name-rcm-major
+job-cmroyalmarinesmajor-desc = Ensure the survival of the UNS ship, eliminate any hostiles, and assist the crew in any way possible.
+job-cmroyalmarinesmajor-name = Major
 job-cmroyalmarinesmajor-spawnmenurolename = RCM Major

@@ -292,7 +292,7 @@ ent-EmitterBolt = эмиттерный болт
 ent-GrapplingHook = крюк
 
 ent-RMCProjectileLTBCannon = снаряд пушки ЛТБ
-    .desc = ent-RMCProjectileRocket84mm-desc
+    .desc = Ой-ой.
 
 ent-TeslaGunBullet = Тесла пистолет молния
     .desc = If you can see this you're probably dead!

@@ -5,6 +5,6 @@ ent-AU14SpawnPointCLFGuerilla = Точка возрождения CLF Guerilla
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobclfguerilla-desc = au14-описание-работа-clfguerilla
-job-au14jobclfguerilla-name = au14-имя-работы-clfguerilla
-job-au14jobclfguerilla-supervisors = au14-job-supervisors-clflrs
+job-au14jobclfguerilla-desc = Сражайтесь за CLF, освободите своих братьев и сестер из колонии их угнетения.
+job-au14jobclfguerilla-name = CLF-партизанский истребитель
+job-au14jobclfguerilla-supervisors = Лидер ячейки.

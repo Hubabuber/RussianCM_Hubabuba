@@ -1,3 +1,3 @@
-stack-brass-name = stack-brass
-stack-plasteel-name = stack-plasteel
-stack-steel-name = stack-steel
+stack-brass-name = brass
+stack-plasteel-name = plasteel
+stack-steel-name = steel

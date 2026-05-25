@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianForeman = Гражданский бригадир то
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianforeman-desc = au14-должностная инструкция-бригадир
-job-au14jobcivilianforeman-name = au14-имя-должности-бригадир
-job-au14jobcivilianforeman-supervisors = au14-job-supervisors-colonyadministrator
+job-au14jobcivilianforeman-desc = Начальник отдела труда координирует работу с колонистами для выполнения трудовых работ и сбора бюджета колонии.
+job-au14jobcivilianforeman-name = Бригадир
+job-au14jobcivilianforeman-supervisors = Колониальная администрация

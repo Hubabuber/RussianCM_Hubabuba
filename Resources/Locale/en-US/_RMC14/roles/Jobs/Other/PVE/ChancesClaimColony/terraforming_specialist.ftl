@@ -4,6 +4,6 @@ ent-RMCSpawnPointSurvivorChancesTerraformingSpecialist = terraforming specialist
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmsurvivorchancesterraformingspecialist-desc = cm-job-description-survivor
-job-cmsurvivorchancesterraformingspecialist-name = rmc-job-name-colonist-terraforming-specialist
+job-cmsurvivorchancesterraformingspecialist-desc = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
+job-cmsurvivorchancesterraformingspecialist-name = Terraforming Specialist
 job-cmsurvivorchancesterraformingspecialist-spawnmenurolename = Terraforming Specialist (Chance's Colonist)

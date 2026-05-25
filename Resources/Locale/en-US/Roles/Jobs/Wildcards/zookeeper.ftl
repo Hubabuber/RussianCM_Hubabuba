@@ -1,3 +1,3 @@
-job-zookeeper-desc = job-description-zookeeper
-job-zookeeper-name = job-name-zookeeper
-job-zookeeper-supervisors = job-supervisors-hop
+job-zookeeper-desc = Put on a joyful display of cute animals and space carps for all the crew to see. Currently available on Oasis.
+job-zookeeper-name = Zookeeper
+job-zookeeper-supervisors = the Head of Personnel

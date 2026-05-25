@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14RMCRRTCommander
-  name: au-14-job-name-rmcrrt-commander
-  description: au14-rmcert-rules
+  name: job-au14rmcrrtcommander-name
+  description: job-au14rmcrrtcommander-desc
   playTimeTracker: AU14JobRMCRRTCommander
   ranks:
     RMC_2Lieutenant: []
@@ -10,7 +10,7 @@
   startingGear: AU14GearRMCRRTCommander
   icon: "RMCJobIconRoyalLieutenant"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govfor
+  supervisors: job-au14rmcrrtcommander-supervisors
   accessGroups:
   - AU14GovforCommand
   special:

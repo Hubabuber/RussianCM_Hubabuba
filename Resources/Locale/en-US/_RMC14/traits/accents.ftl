@@ -1,4 +1,4 @@
-trait-frontallisp-desc = trait-frontal-lisp-desc
-trait-frontallisp-name = trait-frontal-lisp-name
-trait-newyorkaccent-desc = trait-newyork-desc
-trait-newyorkaccent-name = trait-newyork-name
+trait-frontallisp-desc = You thpeak with a lithp.
+trait-frontallisp-name = Frontal lisp
+trait-newyorkaccent-desc = You speak with a thick New York accent. I'm fuckin' walkin' 'ere!
+trait-newyorkaccent-name = New York accent

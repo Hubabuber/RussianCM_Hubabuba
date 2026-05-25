@@ -5,7 +5,7 @@ ent-AU14SpawnPointGOVFORadvisor = Точка появления советник
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobgovforadvisor-desc = au14-должностное описание-govforadvisor
-job-au14jobgovforadvisor-name = au14-имя-должности-govforadvisor
+job-au14jobgovforadvisor-desc = Консультируйте командование, обучайте новых солдат и оказывайте помощь там, где это необходимо.
+job-au14jobgovforadvisor-name = Советник
 job-au14jobgovforadvisor-spawnmenurolename = Советник по взводу (GOVFOR)
-job-au14jobgovforadvisor-supervisors = au14-job-supervisors-govfor
+job-au14jobgovforadvisor-supervisors = Командир взвода

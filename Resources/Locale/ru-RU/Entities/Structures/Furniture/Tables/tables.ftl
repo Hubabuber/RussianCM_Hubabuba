@@ -52,31 +52,31 @@ ent-TableCounterWood-desc = Не применяйте при этом огонь
 ent-TableCounterMetal-name = металлический счетчик
 ent-TableCounterMetal-desc = Похоже, хорошее место, чтобы выпить.
 
-ent-TableFancyBlue-name = construction-recipe-table-fancy-blue
+ent-TableFancyBlue-name = красивый стол (синий)
 ent-TableFancyBlue-desc = Дорого и богато.
 
-ent-TableFancyCyan-name = construction-recipe-table-fancy-cyan
+ent-TableFancyCyan-name = красивый стол (голубой)
 ent-TableFancyCyan-desc = Дорого и богато.
 
-ent-TableFancyBlack-name = construction-recipe-table-fancy-black
+ent-TableFancyBlack-name = красивый стол (чёрный)
 ent-TableFancyBlack-desc = Дорого и богато.
 
-ent-TableFancyRed-name = construction-recipe-table-fancy-red
+ent-TableFancyRed-name = красивый стол (красный)
 ent-TableFancyRed-desc = Дорого и богато.
 
-ent-TableFancyPurple-name = construction-recipe-table-fancy-purple
+ent-TableFancyPurple-name = красивый стол (фиолетовый)
 ent-TableFancyPurple-desc = Дорого и богато.
 
-ent-TableFancyPink-name = construction-recipe-table-fancy-pink
+ent-TableFancyPink-name = красивый стол (розовый)
 ent-TableFancyPink-desc = Дорого и богато.
 
-ent-TableFancyGreen-name = construction-recipe-table-fancy-green
+ent-TableFancyGreen-name = красивый стол (зелёный)
 ent-TableFancyGreen-desc = Дорого и богато.
 
-ent-TableFancyOrange-name = construction-recipe-table-fancy-orange
+ent-TableFancyOrange-name = красивый стол (оранжевый)
 ent-TableFancyOrange-desc = Дорого и богато.
 
-ent-TableFancyWhite-name = construction-recipe-table-fancy-white
+ent-TableFancyWhite-name = красивый стол (белый)
 ent-TableFancyWhite-desc = Дорого и богато.
 
 ent-CounterMetalFrame = металлическая стойка счетчика

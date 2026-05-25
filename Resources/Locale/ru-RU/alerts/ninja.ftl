@@ -1,2 +1,2 @@
-alert-suitpower-desc = оповещения-костюм-сила-деска
+alert-suitpower-desc = Насколько силен твой костюм космического ниндзя.
 alert-suitpower-name = имя-силы-оповещения-костюма

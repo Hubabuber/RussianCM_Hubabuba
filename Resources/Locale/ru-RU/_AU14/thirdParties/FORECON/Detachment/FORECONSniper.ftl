@@ -5,9 +5,9 @@ ent-AU14IDCardFORECONSniperDetachment-desc = Кусочек закодирова
 ent-AU14JobFORECONSniperDetachment = ФОРЭКОН Снайпер (Отряд)
     .suffix = АУ14, ФОРЕКОН, отряд
 
-job-au14foreconsniperdetachment-desc = RMC-описание-должности-forecon-отряд
-job-au14foreconsniperdetachment-name = RMC-имя-задания-forecon-снайпер
+job-au14foreconsniperdetachment-desc = Вы являетесь членом USCMC FORECON. Вас отправили в ГОВФОР. Доложите командованию для получения дальнейших распоряжений.
+job-au14foreconsniperdetachment-name = Снайпер
 job-au14foreconsniperdetachment-spawnmenurolename = ФОРЭКОН Снайпер (AU14, Отряд)
-job-au14foreconsniperdetachment-supervisors = au14-job-supervisors-platco
-job-au14jobforeconsniperbase-desc = au14-должностное описание-govforadvisor
-job-au14jobforeconsniperbase-name = au14-имя-должности-govforadvisor
+job-au14foreconsniperdetachment-supervisors = Командир взвода
+job-au14jobforeconsniperbase-desc = Консультируйте командование, обучайте новых солдат и оказывайте помощь там, где это необходимо.
+job-au14jobforeconsniperbase-name = Советник

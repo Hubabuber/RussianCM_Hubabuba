@@ -1,8 +1,8 @@
 - type: job
   parent: AU14FORECONSquadleaderBase
   id: AU14FORECONFirstReconSquadleader
-  name: cm-job-name-squad-leader
-  description: au14-job-description-forecon-firstrecon
+  name: job-au14foreconfirstreconsquadleader-name
+  description: job-au14foreconfirstreconsquadleader-desc
   ranks:
     RMCRankStaffSergeant:
     - !type:RoleTimeRequirement
@@ -14,7 +14,7 @@
   greeting: au14-job-description-forecon-firstrecon-greeting
   icon: "CMJobIconSquadLeader"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-loner
+  supervisors: job-au14foreconfirstreconsquadleader-supervisors
   special:
   - !type:AddComponentSpecial
     components:

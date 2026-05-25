@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: CMChiefMP
-  name: cm-job-name-chief-mp
-  description: cm-job-description-chief-mp
+  name: job-cmchiefmp-name
+  description: job-cmchiefmp-desc
   setPreference: false
   playTimeTracker: CMJobChiefMP
   requirements:
@@ -27,7 +27,7 @@
   requireAdminNotify: true
   joinNotifyCrew: false
   marineAuthorityLevel: 11
-  supervisors: rmc-job-supervisors-commander
+  supervisors: job-cmchiefmp-supervisors
   accessGroups:
   - CMP
   roleWeight: 0.25

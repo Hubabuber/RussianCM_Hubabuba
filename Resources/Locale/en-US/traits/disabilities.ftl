@@ -1,2 +1,2 @@
-trait-poorvision-desc = trait-poor-vision-desc
-trait-poorvision-name = trait-poor-vision-name
+trait-poorvision-desc = Your eyes are not what they once were, you have difficulty seeing things far away without corrective glasses.
+trait-poorvision-name = Short-sighted

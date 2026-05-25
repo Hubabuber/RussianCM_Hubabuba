@@ -1,1 +1,1 @@
-job-cmxenowarrior-name = cm-имя-работы-ксено-воин
+job-cmxenowarrior-name = Воин

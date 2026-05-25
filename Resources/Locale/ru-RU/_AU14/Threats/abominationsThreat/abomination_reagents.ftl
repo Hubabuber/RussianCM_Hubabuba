@@ -3,4 +3,4 @@ ent-AU14AbominationVenomSyringe = шприц со сгустком
 
 reagent-abominationvenom-desc = реагент-дескат-мерзость-яд
 reagent-abominationvenom-name = имя-реагента-мерзость-яд
-reagent-abominationvenom-physicaldesc = reagent-physical-desc-viscous
+reagent-abominationvenom-physicaldesc = вязкое

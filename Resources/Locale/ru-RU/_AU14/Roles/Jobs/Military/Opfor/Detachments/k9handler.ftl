@@ -6,4 +6,4 @@ job-au14jobopfork9handler-desc = Обработчик К9
 job-au14jobopfork9handler-name = Обработчик К9
 job-au14jobopfork9handler-overwatchrolename = Обработчик К9
 job-au14jobopfork9handler-spawnmenurolename = Обработчик К9 (ОПФОР)
-job-au14jobopfork9handler-supervisors = au14-работа-руководители-опфор
+job-au14jobopfork9handler-supervisors = Командир

@@ -1,2 +1,2 @@
-job-au14jobsectionsergeantbase-desc = au14-job-description-govforSSG
-job-au14jobsectionsergeantbase-name = au14-имя-работы-govforSSG
+job-au14jobsectionsergeantbase-desc = Старший сержантский состав. Обеспечивай работу взвода.
+job-au14jobsectionsergeantbase-name = Старший сержант

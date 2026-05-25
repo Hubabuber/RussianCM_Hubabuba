@@ -1,4 +1,4 @@
-job-au14jobgovforplatcormc-desc = au14-job-description-govforplatco
-job-au14jobgovforplatcormc-name = au14-job-name-govforplatcoRMC
+job-au14jobgovforplatcormc-desc = Command the unit. Manage strategy, unit coordination and liaise with command from the CIC.
+job-au14jobgovforplatcormc-name = Commander
 job-au14jobgovforplatcormc-spawnmenurolename = Platoon Commander (TWE RMC)
-job-au14jobgovforplatcormc-supervisors = au14-job-supervisors-govforplatco
+job-au14jobgovforplatcormc-supervisors = High Command

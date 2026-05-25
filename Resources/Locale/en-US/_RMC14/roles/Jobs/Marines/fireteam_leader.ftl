@@ -18,6 +18,6 @@ ent-CMSpawnPointFireteamLeaderDelta = fireteam leader spawn point
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Delta
 
-job-cmfireteamleader-desc = cm-job-description-fireteam-leader
-job-cmfireteamleader-name = cm-job-name-fireteam-leader
-job-cmfireteamleader-supervisors = cm-job-supervisors-sl
+job-cmfireteamleader-desc = Follow the section leader's orders and command your squad.
+job-cmfireteamleader-name = Squad Leader
+job-cmfireteamleader-supervisors = the acting Squad Leader

@@ -148,7 +148,7 @@ ent-AU14Tourniquet = CAT tourniquet
 ent-AU14TramadolAutoInjector = tramadol autoinjector
     .desc = An autoinjector loaded with 3 uses of Tramadol.
 
-reagent-au14albuterol-desc = reagent-desc-albuterol
-reagent-au14albuterol-name = reagent-name-albuterol
-reagent-au14naloxone-desc = reagent-desc-cmnaloxone
-reagent-au14naloxone-name = reagent-name-cmnaloxone
+reagent-au14albuterol-desc = Repairs 4 oxygen damage. OD of 35u.
+reagent-au14albuterol-name = Albuterol
+reagent-au14naloxone-desc = Instantly counteracts toxin damage. Primarily used to treat overdoses.
+reagent-au14naloxone-name = Naloxone

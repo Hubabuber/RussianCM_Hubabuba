@@ -1,6 +1,7 @@
 ent-RMCSpawnPointCLFDoctorPVE = точка появления доктора clf
  
-
-job-rmcclfdoctorpve-desc = rmc-ghost-role-information-clf-pve-description
-job-rmcclfdoctorpve-name = rmc-имя-работы-clf-pve-доктор
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = точка появления доктора clf
+job-rmcclfdoctorpve-desc = Выполняйте любые приказы командования и выполняйте их в меру своих возможностей. За свободные колонии!
+job-rmcclfdoctorpve-name = Доктор
 job-rmcclfdoctorpve-spawnmenurolename = CLF Доктор (PVE)

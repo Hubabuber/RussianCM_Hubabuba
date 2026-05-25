@@ -1,32 +1,32 @@
 - type: accessLevel
   id: RMCAccessCommand
   parent: RMCBaseCommandAccess
-  name: id-card-access-level-command
+  name: accesslevel-rmcaccesscommand-name
 
 - type: accessLevel
   id: CMAccessCMP
   parent: RMCBaseMPAccess
-  name: cm-job-name-chief-mp
+  name: accesslevel-cmaccesscmp-name
 
 - type: accessLevel
   id: CMAccessQM
   parent: RMCBaseCommandAccess
-  name: id-card-access-level-quartermaster
+  name: accesslevel-cmaccessqm-name
 
 - type: accessLevel
   id: CMAccessSEA
   parent: RMCBaseHidden
-  name: cm-job-name-senior-enlisted-advisor
+  name: accesslevel-cmaccesssea-name
 
 - type: accessLevel
   id: CMAccessCO
   parent: RMCBaseHidden
-  name: cm-job-name-commanding-officer
+  name: accesslevel-cmaccessco-name
 
 - type: accessLevel
   id: CMAccessCMO
   parent: RMCBaseMedicalAccess
-  name: rmc-job-name-cmo
+  name: accesslevel-cmaccesscmo-name
 
 - type: accessLevel
   id: CMAccessCE
@@ -36,12 +36,12 @@
 - type: accessLevel
   id: CMAccessASO
   parent: RMCBaseHidden
-  name: cm-job-name-aso
+  name: accesslevel-cmaccessaso-name
 
 - type: accessLevel
   id: CMAccessCorp
   parent: RMCBaseHidden
-  name: cm-job-name-corp
+  name: accesslevel-cmaccesscorp-name
 
 - type: accessLevel
   id: RMCAccessDatabase
@@ -56,4 +56,4 @@
 # Admin only.
 - type: accessLevel
   id: CMAccessHighCommand
-  name: cm-job-name-high-command
+  name: accesslevel-cmaccesshighcommand-name

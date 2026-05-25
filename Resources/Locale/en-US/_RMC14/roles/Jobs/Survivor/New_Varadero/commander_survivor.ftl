@@ -6,7 +6,7 @@ ent-RMCPouchGeneralLargeFilledSurvivorCommanderNewVaradero = large general pouch
     .desc = A general-purpose pouch used to carry more differently sized items.
     .suffix = Filled, Survivor
 
-job-rmcsurvivorcommandernewvaradero-desc = cm-job-description-commanding-officer
-job-rmcsurvivorcommandernewvaradero-name = rmc-job-name-survivor-commander-new-varadero
+job-rmcsurvivorcommandernewvaradero-desc = Lead your company and complete the mission.
+job-rmcsurvivorcommandernewvaradero-name = Commander
 job-rmcsurvivorcommandernewvaradero-spawnmenurolename = Commander (NV Survivor)
-job-rmcsurvivorcommandernewvaradero-supervisors = cm-job-supervisors-marine-high-command
+job-rmcsurvivorcommandernewvaradero-supervisors = Marine High Command

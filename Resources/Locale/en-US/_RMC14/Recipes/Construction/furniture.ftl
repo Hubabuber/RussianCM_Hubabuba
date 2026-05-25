@@ -19,3 +19,9 @@ construction-rmctablewoodfancy-desc = A nicely crafted mahogany wood surface res
 construction-rmctablewoodfancy-name = fancy wooden table
 construction-rmctablewoodpoor-desc = A semi-poorly constructed wood surface resting on four legs. Useful to put stuff on.
 construction-rmctablewoodpoor-name = poor wooden table
+
+construction-cmchair-name = chair
+construction-cmchairofficedark-name = dark office chair
+construction-cmchairofficewhite-name = white office chair
+construction-cmrack-name = rack
+construction-cmstool-name = stool

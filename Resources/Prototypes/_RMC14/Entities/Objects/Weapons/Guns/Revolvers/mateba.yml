@@ -242,8 +242,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba
   id: RMCSpeedLoaderMatebaHighImpact #High impact
-  name: High Impact Mateba speed loader (.454).
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. Packs a devastating punch. This high impact variant is optimized for anti-personnel. Don't point at anything you don't want to destroy.
+  name: ent-RMCSpeedLoaderMatebaHighImpact
+  description: ent-RMCSpeedLoaderMatebaHighImpact-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba
   id: RMCSpeedLoaderMatebaHIAP #High impact Armor Piercing
-  name: High Impact Armor-Piercing Mateba speed loader (.454).
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. Packs a devastating punch. This armor-piercing variant is optimized against armored targets at the cost of lower overall damage. Don't point at anything you don't want to destroy.
+  name: ent-RMCSpeedLoaderMatebaHIAP
+  description: ent-RMCSpeedLoaderMatebaHIAP-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -292,8 +292,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba
   id: RMCSpeedLoaderMatebaHE #High Explosive (Brig gen+ people only like commander of the marine corps)
-  name: Mateba explosive speed loader (.454).
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. There's an impact charge built into the bullet tip. Firing this at anything will result in a powerful explosion. Use with EXTREME caution.
+  name: ent-RMCSpeedLoaderMatebaHE
+  description: ent-RMCSpeedLoaderMatebaHE-desc
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -318,7 +318,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMateba #Normal
-  name: cartridge (.454)
+  name: ent-RMCCartridgeRevolverMateba
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -330,7 +330,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMatebaHighImpact #High impact
-  name: cartridge (.454) HighImpact
+  name: ent-RMCCartridgeRevolverMatebaHighImpact
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -342,7 +342,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMatebaHIAP #High impact Armor Piercing
-  name: cartridge (.454) HIAP
+  name: ent-RMCCartridgeRevolverMatebaHIAP
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -354,7 +354,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMatebaHE #High Explosive
-  name: cartridge (.454) HE
+  name: ent-RMCCartridgeRevolverMatebaHE
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -382,7 +382,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletMatebaHighImpact #High impact
-  name: bullet (.454) High Impact
+  name: ent-RMCBulletMatebaHighImpact
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -411,7 +411,7 @@
 - type: entity
   parent: RMCBulletMatebaHighImpact
   id: RMCBulletMatebaHighImpactArmorPiercing #HIAP
-  name: bullet (.454) HIAP
+  name: ent-RMCBulletMatebaHighImpactArmorPiercing
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -424,7 +424,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletMatebaHighExplosive #Explosive
-  name: bullet (.454) HIAP
+  name: ent-RMCBulletMatebaHighExplosive
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

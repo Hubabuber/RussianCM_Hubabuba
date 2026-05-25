@@ -5,4 +5,4 @@ ent-CMSpawnPointXenoLeader = xeno leader spawn point
     .desc = A RMC14 spawner. Used for xenos Queens.
 
 job-cmjobxenobase-desc = null
-job-cmjobxenobase-supervisors = cm-job-supervisors-queen
+job-cmjobxenobase-supervisors = the Queen

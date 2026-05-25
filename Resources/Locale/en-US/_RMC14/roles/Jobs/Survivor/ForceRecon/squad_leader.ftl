@@ -4,5 +4,5 @@ ent-CMSpawnPointForeconSquadLeader = forecon squad leader spawn point
 
 ent-RMCSurvivorPresetForeconSquadLead = forecon squad leader survivor preset
 
-job-rmcsurvivorforeconsquadleader-name = cm-job-name-squad-leader
+job-rmcsurvivorforeconsquadleader-name = Section Leader
 job-rmcsurvivorforeconsquadleader-spawnmenurolename = FORECON Squad Leader (Survivor)

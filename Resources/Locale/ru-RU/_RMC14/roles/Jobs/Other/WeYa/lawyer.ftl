@@ -1,5 +1,5 @@
 ent-RMCRandomHumanoidWeYaLawyer = Weya Корпоративный адвокат-призрак
-
-job-rmcweyalawyer-desc = rmc-ghost-роль-информация-корпоративный-исполнительный-специалист-описание
-job-rmcweyalawyer-name = RMC-должность-корпоративный-исполнительный-специалист
+    .suffix = Weya Корпоративный адвокат-призрак
+job-rmcweyalawyer-desc = Представляйте интересы Вейланд-Ютани, выполняйте корпоративные решения и держите под контролем активы компании.
+job-rmcweyalawyer-name = Корпоративный исполнительный специалист
 job-rmcweyalawyer-spawnmenurolename = WEYA Корпоративный исполнительный специалист

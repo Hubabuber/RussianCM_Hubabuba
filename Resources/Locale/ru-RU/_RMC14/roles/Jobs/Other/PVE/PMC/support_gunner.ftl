@@ -1,6 +1,6 @@
 ent-RMCSpawnPointPMCGunnerPVE = Weya точка спавна наводчика ЧВК
-
-
-job-cmpmcgunnerpve-desc = RMC-описание-работы-PMC-PVE-наводчик
-job-cmpmcgunnerpve-name = rmc-имя-задания-pmc-gunner
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Weya точка спавна наводчика ЧВК
+job-cmpmcgunnerpve-desc = Используйте свою систему тяжелого вооружения, чтобы вести огонь и поддерживать остальную часть команды.
+job-cmpmcgunnerpve-name = Специалист по оружию поддержки
 job-cmpmcgunnerpve-spawnmenurolename = Наводчик поддержки WEYA PMC (PVE)

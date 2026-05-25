@@ -30,7 +30,7 @@ ent-RMCSyringeCaseFilledCommando = syringe case
     .desc = It's a medical case for storing syringes and bottles.
     .suffix = Filled, Commando
 
-job-rmcsurvivorpmccommandoshivas-desc = rmc-job-description-survivor
-job-rmcsurvivorpmccommandoshivas-name = rmc-job-name-survivor-shivas-weya-commando
+job-rmcsurvivorpmccommandoshivas-desc = Survive the catastrophe. Work with anyone you trust and try to get off the colony alive.
+job-rmcsurvivorpmccommandoshivas-name = Weyland-Yutani Commando
 job-rmcsurvivorpmccommandoshivas-spawnmenurolename = Survivor - We-Ya Commando (Shivas)
-job-rmcsurvivorpmccommandoshivas-supervisors = cm-job-supervisors-we-ya
+job-rmcsurvivorpmccommandoshivas-supervisors = the Weyland-Yutani Corporate Office

@@ -1,1 +1,1 @@
-job-cmxenodefender-name = cm-имя-задания-ксено-защитник
+job-cmxenodefender-name = Защитник

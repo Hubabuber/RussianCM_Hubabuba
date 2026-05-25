@@ -1,4 +1,4 @@
-ent-PinionAirlockGlass-name = construction-recipe-pinion-airlock-glass
+ent-PinionAirlockGlass-name = стеклянный заводной шлюз
 
 ent-PinionAirlock = шлюзовая камера
     .desc = Он открывается, закрывается и, возможно, раздавит вас.

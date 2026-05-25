@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14FORECONRiflemanBase
-  name: cm-job-name-rifleman
-  description: au14-job-description-govforadvisor
+  name: job-au14foreconriflemanbase-name
+  description: job-au14foreconriflemanbase-desc
   playTimeTracker: AU14JobFORECONRifleman
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14FORECONRiflemanBase
   id: AU14FORECONRifleman
-  name: cm-job-name-rifleman
-  description: rmc-job-description-forecon
+  name: job-au14foreconrifleman-name
+  description: job-au14foreconrifleman-desc
   ranks:
     RMCRankStaffSergeant:
     - !type:RoleTimeRequirement
@@ -27,7 +27,7 @@
   greeting: au14-forecon-greeting
   icon: "CMJobIconEmpty"
   joinNotifyCrew: false
-  supervisors: cm-job-name-squad-leader
+  supervisors: job-au14foreconrifleman-supervisors
   accessGroups:
   - AU14GovforSquad
   special:

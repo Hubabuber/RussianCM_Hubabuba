@@ -1,3 +1,3 @@
-construction-bigbox-name = construction-recipe-big-box
-construction-boxcardboard-name = construction-recipe-box-cardboard
-construction-cratefreezer-name = construction-recipe-crate-freezer
+construction-bigbox-name = large cardboard box
+construction-boxcardboard-name = small cardboard box
+construction-cratefreezer-name = crate freezer

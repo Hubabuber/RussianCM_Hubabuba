@@ -1,3 +1,3 @@
-ent-ActionWorkingJoeVoice-name = action-name-workingjoe-voice
+ent-ActionWorkingJoeVoice-name = Синтезатор речи
 
 ent-ActionWorkingJoeVoice = Голосовой синтезатор

@@ -1,3 +1,3 @@
-job-headofsecurity-desc = job-description-hos
-job-headofsecurity-name = job-name-hos
-job-headofsecurity-supervisors = job-supervisors-captain
+job-headofsecurity-desc = Manage your security force and keep them efficient, quell dissent, and keep the other heads of staff safe.
+job-headofsecurity-name = Head of Security
+job-headofsecurity-supervisors = the Captain

@@ -5,6 +5,6 @@ ent-CMSpawnPointMilitaryWarden = military warden spawn point
 ent-RMCGuidebookRoleMW = Military Warden
     .desc = Military Warden
 
-job-cmmilitarywarden-desc = cm-job-description-militarywarden
-job-cmmilitarywarden-name = cm-job-name-militarywarden
-job-cmmilitarywarden-supervisors = cm-job-supervisors-cmp
+job-cmmilitarywarden-desc = Maintain the brig, do bookkeeping, and crack down on crime.
+job-cmmilitarywarden-name = Military Warden
+job-cmmilitarywarden-supervisors = the Chief MP

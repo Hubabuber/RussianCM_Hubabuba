@@ -1,8 +1,8 @@
 ent-RMCSurvivorPresetTrijentResearcher = предустановленные настройки колониста-исследователя Trijent
-
 ent-RMCSpawnPointSurvivorTrijentResearcher = точка появления выжившего триджента-исследователя
  
-
-job-cmsurvivortrijentresearcher-desc = cm-описание-работы-выживший
-job-cmsurvivortrijentresearcher-name = cm-имя-должности-выжившего-trijent-исследователя
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmsurvivortrijentresearcher-desc = Вы выжили после нападения на корпоративный объект. Вы работали или жили в колонии/станции и сумели избежать нападений инопланетян... до сих пор.
+job-cmsurvivortrijentresearcher-name = Исследователь плотины Триджент
 job-cmsurvivortrijentresearcher-spawnmenurolename = Исследователь плотины Трайент (Выживший в Тридженте)

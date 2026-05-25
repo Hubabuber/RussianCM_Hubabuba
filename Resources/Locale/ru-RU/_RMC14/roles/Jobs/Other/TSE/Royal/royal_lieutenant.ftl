@@ -1,4 +1,4 @@
-job-cmroyalmarineslieutenant-desc = RMC-призрак-роль-информация-rcm-описание
-job-cmroyalmarineslieutenant-name = RMC-имя-должности-RCM-лейтенант
+job-cmroyalmarineslieutenant-desc = Обеспечьте выживание корабля UNS, уничтожьте всех противников и помогите экипажу любым возможным способом.
+job-cmroyalmarineslieutenant-name = Лейтенант
 job-cmroyalmarineslieutenant-spawnmenurolename = лейтенант РКМ
-job-cmroyalmarineslieutenant-supervisors = cm-job-supervisors-royal-captain
+job-cmroyalmarineslieutenant-supervisors = капитан

@@ -1,7 +1,7 @@
 ent-CMSpawnPointRCMPVERifleman = Точка появления стрелка RCM
   .desc = Создатель заданий RMC14. 
-
-job-cmroyalmarinesriflemanpve-desc = RMC-призрак-роль-информация-rcm-описание
-job-cmroyalmarinesriflemanpve-name = rmc-имя-задания-rcm-pve-стрелок
+    .suffix = Создание вакансий
+job-cmroyalmarinesriflemanpve-desc = Обеспечьте выживание корабля UNS, уничтожьте всех противников и помогите экипажу любым возможным способом.
+job-cmroyalmarinesriflemanpve-name = стрелок
 job-cmroyalmarinesriflemanpve-spawnmenurolename = RCM стрелок (PVE)
-job-cmroyalmarinesriflemanpve-supervisors = cm-job-supervisors-royal-tl
+job-cmroyalmarinesriflemanpve-supervisors = командир отделения

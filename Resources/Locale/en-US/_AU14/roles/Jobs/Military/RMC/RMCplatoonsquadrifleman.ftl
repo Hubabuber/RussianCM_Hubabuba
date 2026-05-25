@@ -1,4 +1,4 @@
-job-au14jobgovforsquadriflemanrmc-desc = au14-job-description-govforsquadrifleman
-job-au14jobgovforsquadriflemanrmc-name = au14-job-name-govforsquadriflemanRMC
+job-au14jobgovforsquadriflemanrmc-desc = The backbone of the unit. Follow orders, pull security, and shoot straight.
+job-au14jobgovforsquadriflemanrmc-name = Rifleman
 job-au14jobgovforsquadriflemanrmc-spawnmenurolename = Rifleman (TWE RMC)
-job-au14jobgovforsquadriflemanrmc-supervisors = au14-job-supervisors-govfor
+job-au14jobgovforsquadriflemanrmc-supervisors = Platoon Commander

@@ -1,5 +1,6 @@
 ent-CMSpawnPointNurse = точка появления медсестры
-
-job-cmnurse-desc = RMC-должностная инструкция-медсестра
-job-cmnurse-name = RMC-название-должности-медсестры
-job-cmnurse-supervisors = cm-job-supervisors-cmo
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
+job-cmnurse-desc = Помогите врачам и медикам в оказании помощи раненым.
+job-cmnurse-name = Медсестра
+job-cmnurse-supervisors = Главный врач

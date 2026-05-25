@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobFORECONSpotterBase
-  name: au14-job-name-forecon-spotter
-  description: rmc-job-description-forecon-detachment
+  name: job-au14jobforeconspotterbase-name
+  description: job-au14jobforeconspotterbase-desc
   playTimeTracker: AU14FORECONSpotterDetachment
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14JobFORECONSpotterBase
   id: AU14FORECONSpotterDetachment
-  name: au14-job-name-forecon-spotter
-  description: rmc-job-description-forecon-detachment
+  name: job-au14foreconspotterdetachment-name
+  description: job-au14foreconspotterdetachment-desc
   ranks:
     RMCRankChiefWarrantOfficer:
     - !type:RoleTimeRequirement
@@ -23,7 +23,7 @@
   greeting: au14-forecon-detachment-greeting
   icon: "AU14Spotter"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-platco
+  supervisors: job-au14foreconspotterdetachment-supervisors
   accessGroups:
   - AU14GovforSquad
   special:

@@ -5,6 +5,6 @@ ent-AU14SpawnPointCivilianAmbassadorTWE = Гражданский посол TWE 
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobcivilianambassadortwe-desc = au14-job-description-civilianambassadortwe
-job-au14jobcivilianambassadortwe-name = au14-имя-работы-гражданскийпосол
-job-au14jobcivilianambassadortwe-supervisors = au14-работа-руководители-орбитальная
+job-au14jobcivilianambassadortwe-desc = Руководи дипломатической миссией ИТМ в колонии.
+job-au14jobcivilianambassadortwe-name = TWE Амбассадор
+job-au14jobcivilianambassadortwe-supervisors = Орбитальный менеджер

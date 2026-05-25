@@ -256,7 +256,7 @@ ent-ClothingHeadHatSolidHeadband-desc = «Надев это, вы почувст
 ent-ClothingHeadPropellerHat-name = шляпа пропеллера
 ent-ClothingHeadPropellerHat-desc = Ты самый лучший мальчик.
 
-ent-ClothingHeadHatWizardBase-name = lathe-category-clothing
+ent-ClothingHeadHatWizardBase-name = Одежда
 
 ent-ClothingHeadHatJesterAlt-name = шутовская шляпа
 ent-ClothingHeadHatJesterAlt-desc = Шапка с колокольчиками, чтобы добавить веселья в голову.

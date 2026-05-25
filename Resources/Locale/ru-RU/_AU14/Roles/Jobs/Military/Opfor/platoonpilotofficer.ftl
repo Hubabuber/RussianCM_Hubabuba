@@ -5,7 +5,7 @@ ent-AU14SpawnPointopforDSPilot = Точка появления для десан
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobopfordspilot-desc = au14-описание-работы-opfordspilot
-job-au14jobopfordspilot-name = au14-имя-работы-opfordspilot
+job-au14jobopfordspilot-desc = Летите на десантном корабле. Вводите войска, извлекайте раненых и оказывайте огневую поддержку.
+job-au14jobopfordspilot-name = десантный корабль Пилот
 job-au14jobopfordspilot-spawnmenurolename = Пилот-офицер (ОПФОР)
-job-au14jobopfordspilot-supervisors = au14-работа-руководители-опфор
+job-au14jobopfordspilot-supervisors = Командир

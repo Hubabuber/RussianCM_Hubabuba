@@ -1,1 +1,1 @@
-guideentry-command-name = guide-entry-command
+guideentry-command-name = Command

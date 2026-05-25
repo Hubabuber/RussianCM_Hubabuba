@@ -5,9 +5,9 @@ ent-AU14IDCardUSArmySquadleader-desc = Кусочек закодированно
 ent-AU14JobUSArmySquadLeaderArmored = Руководитель отделения армии США (ERT)
     .suffix = AU14, UA, Армия США
 
-job-au14jobusarmysquadleaderarmored-desc = au14-должностная инструкция-в армии
-job-au14jobusarmysquadleaderarmored-name = cm-должность-название-отделение-лидер
+job-au14jobusarmysquadleaderarmored-desc = Вы являетесь членом армии США. Следуйте своим целям и добейтесь победы.
+job-au14jobusarmysquadleaderarmored-name = Руководитель секции
 job-au14jobusarmysquadleaderarmored-spawnmenurolename = Руководитель отделения армии США (AU14, третья сторона)
-job-au14jobusarmysquadleaderarmored-supervisors = au14-job-supervisors-platco
-job-au14usarmysquadleaderbase-desc = au14-должностная инструкция-в армии
-job-au14usarmysquadleaderbase-name = cm-должность-название-отделение-лидер
+job-au14jobusarmysquadleaderarmored-supervisors = Командир взвода
+job-au14usarmysquadleaderbase-desc = Вы являетесь членом армии США. Следуйте своим целям и добейтесь победы.
+job-au14usarmysquadleaderbase-name = Руководитель секции

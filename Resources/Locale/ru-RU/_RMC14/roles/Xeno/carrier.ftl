@@ -1,1 +1,1 @@
-job-cmxenocarrier-name = cm-имя-задания-ксено-перевозчик
+job-cmxenocarrier-name = Перевозчик

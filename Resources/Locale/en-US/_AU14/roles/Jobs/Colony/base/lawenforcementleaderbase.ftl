@@ -1,2 +1,2 @@
-job-au14jobleoleaderbase-desc = au14-job-description-leoleader
-job-au14jobleoleaderbase-name = au14-job-name-leoleader
+job-au14jobleoleaderbase-desc = Colony Law Enforcement (Map specific)
+job-au14jobleoleaderbase-name = Law Enforcement Leader

@@ -1,5 +1,5 @@
-guideentry-charactercreation-name = guide-entry-charactercreation
-guideentry-controls-name = guide-entry-controls
-guideentry-newplayer-name = guide-entry-newplayer
-guideentry-radio-name = guide-entry-radio
-guideentry-yourfirstcharacter-name = guide-entry-yourfirstcharacter
+guideentry-charactercreation-name = Creating Characters
+guideentry-controls-name = Controls
+guideentry-newplayer-name = New? Start here!
+guideentry-radio-name = Radio and Speech
+guideentry-yourfirstcharacter-name = Your First Character

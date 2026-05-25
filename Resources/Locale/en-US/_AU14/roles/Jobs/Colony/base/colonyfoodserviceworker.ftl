@@ -2,6 +2,6 @@ ent-AU14SpawnPointCivilianFoodServiceWorker = Spawn Point Food Service Worker
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-au14jobcivilianfoodserviceworker-desc = au14-job-description-civilianfoodserviceworker
-job-au14jobcivilianfoodserviceworker-name = au14-job-name-civilianfoodserviceworker
-job-au14jobcivilianfoodserviceworker-supervisors = au14-job-supervisors-colonycivilian
+job-au14jobcivilianfoodserviceworker-desc = Run the kitchens, stock the bar, and keep the workforce fed.
+job-au14jobcivilianfoodserviceworker-name = Food Service Worker
+job-au14jobcivilianfoodserviceworker-supervisors = Colony Administrator

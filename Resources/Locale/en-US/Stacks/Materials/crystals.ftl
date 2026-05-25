@@ -1,1 +1,1 @@
-stack-telecrystal-name = stack-telecrystal
+stack-telecrystal-name = telecrystal

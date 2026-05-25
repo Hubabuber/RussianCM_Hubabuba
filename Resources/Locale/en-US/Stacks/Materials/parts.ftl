@@ -1,1 +1,1 @@
-stack-metalrod-name = stack-rods
+stack-metalrod-name = {$amount ->

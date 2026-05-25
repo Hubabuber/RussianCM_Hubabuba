@@ -3,4 +3,4 @@ ent-RMCSpawnPointTSEPAConstable = tsepa constable spawn point
     .suffix = Job Spawn
 
 job-rmctsepaconstable-desc = rmc-job-description-tsepa-Ccnstable
-job-rmctsepaconstable-name = rmc-job-name-tsepa-constable
+job-rmctsepaconstable-name = TSEPA Constable

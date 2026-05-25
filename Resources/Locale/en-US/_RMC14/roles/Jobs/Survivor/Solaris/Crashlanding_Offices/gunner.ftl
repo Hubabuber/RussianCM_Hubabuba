@@ -4,7 +4,7 @@ ent-RMCSpawnPointSurvivorSolarisPMCGunner = special survivor crashlanding office
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-rmcsurvivorsolarispmcstandard-desc = rmc-job-description-survivor
-job-rmcsurvivorsolarispmcstandard-name = rmc-job-name-pmc-standard
+job-rmcsurvivorsolarispmcstandard-desc = Survive the catastrophe. Work with anyone you trust and try to get off the colony alive.
+job-rmcsurvivorsolarispmcstandard-name = Operator
 job-rmcsurvivorsolarispmcstandard-spawnmenurolename = Survivor — PMC Standard (Solaris Ridge special survivor)
-job-rmcsurvivorsolarispmcstandard-supervisors = cm-job-supervisors-we-ya
+job-rmcsurvivorsolarispmcstandard-supervisors = the Weyland-Yutani Corporate Office

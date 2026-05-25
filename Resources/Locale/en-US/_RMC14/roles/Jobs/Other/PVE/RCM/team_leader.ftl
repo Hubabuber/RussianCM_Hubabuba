@@ -2,7 +2,7 @@ ent-CMSpawnPointRCMPVETeamLeader = RCM team leader spawn point
     .desc = A RMC14 job spawner. Used for roundstart and late joins.
     .suffix = Job Spawn
 
-job-cmroyalmarinesteamleaderpve-desc = rmc-ghost-role-information-rcm-description
-job-cmroyalmarinesteamleaderpve-name = rmc-job-name-rcm-pve-team-leader
+job-cmroyalmarinesteamleaderpve-desc = Ensure the survival of the UNS ship, eliminate any hostiles, and assist the crew in any way possible.
+job-cmroyalmarinesteamleaderpve-name = Team Leader
 job-cmroyalmarinesteamleaderpve-spawnmenurolename = RCM Team Leader (PVE)
-job-cmroyalmarinesteamleaderpve-supervisors = cm-job-supervisors-royal-section-leader
+job-cmroyalmarinesteamleaderpve-supervisors = the Section Leader

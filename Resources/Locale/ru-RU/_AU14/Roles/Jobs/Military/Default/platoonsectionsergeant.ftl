@@ -5,8 +5,8 @@ ent-AU14SpawnPointGOVFORSectionSergeant = Точка возрождения Се
     .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
     .suffix = Создание вакансий
 
-job-au14jobgovforsectionsergeant-desc = au14-job-description-govforSSG
-job-au14jobgovforsectionsergeant-name = au14-имя-работы-govforSSG
+job-au14jobgovforsectionsergeant-desc = Старший сержантский состав. Обеспечивай работу взвода.
+job-au14jobgovforsectionsergeant-name = Старший сержант
 job-au14jobgovforsectionsergeant-overwatchrolename = взвод сержант
 job-au14jobgovforsectionsergeant-spawnmenurolename = взвод сержант (ГОВФОР)
-job-au14jobgovforsectionsergeant-supervisors = au14-job-supervisors-govfor
+job-au14jobgovforsectionsergeant-supervisors = Командир взвода

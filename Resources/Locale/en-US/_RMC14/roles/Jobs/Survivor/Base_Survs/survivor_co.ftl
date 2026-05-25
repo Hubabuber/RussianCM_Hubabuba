@@ -1,4 +1,4 @@
-job-rmcsurvivorcommandingofficer-desc = rmc-job-description-survivor-co
-job-rmcsurvivorcommandingofficer-name = rmc-job-name-survivor-co
+job-rmcsurvivorcommandingofficer-desc = You are a Major of the UNMC.
+job-rmcsurvivorcommandingofficer-name = Survivor Commander
 job-rmcsurvivorcommandingofficer-spawnmenurolename = Survivor CO (Base)
-job-rmcsurvivorcommandingofficer-supervisors = cm-job-supervisors-nobody
+job-rmcsurvivorcommandingofficer-supervisors = nobody, you are on your own

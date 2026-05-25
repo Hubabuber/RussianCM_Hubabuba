@@ -1,1 +1,1 @@
-job-rmcxenoking-name = rmc-job-name-xeno-king
+job-rmcxenoking-name = King

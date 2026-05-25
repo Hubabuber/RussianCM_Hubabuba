@@ -1,8 +1,9 @@
 ent-RMCSpawnPointPMCLeader = точка возрождения лидера отряда ЧВК Weya
  
-
+    .desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+    .suffix = Создание вакансий
 ent-RMCRandomHumanoidPMCLeader = Weya PMC — лидер роли призрака
-
-job-rmcpmcleader-desc = rmc-призрак-роль-информация-pmc-описание
-job-rmcpmcleader-name = rmc-имя-задания-pmc-лидер
+    .suffix = Weya PMC — лидер роли призрака
+job-rmcpmcleader-desc = Убедитесь, что Вейланд-Ютани не причинен ущерб. Убедитесь, что корпоративная связь безопасна. Отрицайте причастность Вейланд-Ютани и не доверяйте силам ККМ ООН. Стреляйте только в том случае, если в вас стреляют или прикажут.
+job-rmcpmcleader-name = Лидер
 job-rmcpmcleader-spawnmenurolename = Руководитель ЧВК ВЭЯ

@@ -1,3 +1,3 @@
-reagent-cmuyautjablood-desc = reagent-desc-cmu-yautja-blood
-reagent-cmuyautjablood-name = reagent-name-cmu-yautja-blood
-reagent-cmuyautjablood-physicaldesc = reagent-physical-desc-ferrous
+reagent-cmuyautjablood-desc = Vivid green alien blood with a sharp metallic smell.
+reagent-cmuyautjablood-name = Yautja blood
+reagent-cmuyautjablood-physicaldesc = ferrous

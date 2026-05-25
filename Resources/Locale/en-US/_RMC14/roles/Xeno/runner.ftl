@@ -1,1 +1,1 @@
-job-cmxenorunner-name = cm-job-name-xeno-runner
+job-cmxenorunner-name = Runner

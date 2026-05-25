@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14USArmySquadLeaderBase
-  name: cm-job-name-squad-leader
-  description: au14-job-description-usarmy
+  name: job-au14usarmysquadleaderbase-name
+  description: job-au14usarmysquadleaderbase-desc
   playTimeTracker: AU14JobUSArmySquadLeader
   basePlaytimeTracker: true
   hidden: true
@@ -10,8 +10,8 @@
 - type: job
   parent: AU14USArmySquadLeaderBase
   id: AU14JobUSArmySquadleaderArmored
-  name: cm-job-name-squad-leader
-  description: au14-job-description-usarmy
+  name: job-au14jobusarmysquadleaderarmored-name
+  description: job-au14jobusarmysquadleaderarmored-desc
   ranks:
     USArmy_FirstSergeant:
     - !type:RoleTimeRequirement
@@ -27,7 +27,7 @@
   greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmySL"
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-platco
+  supervisors: job-au14jobusarmysquadleaderarmored-supervisors
   accessGroups:
   - AU14GovforCommand
   special:

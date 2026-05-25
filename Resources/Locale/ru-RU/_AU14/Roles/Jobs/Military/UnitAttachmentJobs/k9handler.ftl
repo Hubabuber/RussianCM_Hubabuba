@@ -9,4 +9,4 @@ job-au14jobthirdpartyk9handler-desc = Обработчик К9
 job-au14jobthirdpartyk9handler-name = Обработчик К9
 job-au14jobthirdpartyk9handler-overwatchrolename = Обработчик K9#
 job-au14jobthirdpartyk9handler-spawnmenurolename = Обработчик К9
-job-au14jobthirdpartyk9handler-supervisors = au14-job-supervisors-govfor
+job-au14jobthirdpartyk9handler-supervisors = Командир взвода

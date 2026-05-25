@@ -1,1 +1,1 @@
-job-cmxenocrusher-name = cm-job-name-xeno-crusher
+job-cmxenocrusher-name = Crusher

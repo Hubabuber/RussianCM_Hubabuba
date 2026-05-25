@@ -1,4 +1,4 @@
 ent-RMCRandomHumanoidPizzaDeliveryBoy = Доставщик пиццы в роли призрака
-
-job-cmpizzadeliverer-desc = RMC-призрак-роль-информация-описание-пиццы
-job-cmpizzadeliverer-name = RMC-название-работы-пицца
+    .suffix = Доставщик пиццы в роли призрака
+job-cmpizzadeliverer-desc = Ваша задача — доставить пиццу. Вы ОЧЕНЬ уверены, что это то место...
+job-cmpizzadeliverer-name = Доставщик пиццы

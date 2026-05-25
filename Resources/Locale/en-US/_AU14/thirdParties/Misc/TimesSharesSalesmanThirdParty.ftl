@@ -7,4 +7,4 @@ ent-AU14SlingSatchelBlueTimeSharesSalesman = Black sling satchel
 
 job-au14jobciviliantimessharessalesman-desc = You are a timeshares salesperson sent to the frontier to sell vacation packages. You travel from colony to colony trying to convince people to buy into shared properties.
 job-au14jobciviliantimessharessalesman-name = Timeshares Salesperson
-job-au14jobciviliantimessharessalesman-supervisors = au14-job-supervisors-loner
+job-au14jobciviliantimessharessalesman-supervisors = Yourself, and only yourself

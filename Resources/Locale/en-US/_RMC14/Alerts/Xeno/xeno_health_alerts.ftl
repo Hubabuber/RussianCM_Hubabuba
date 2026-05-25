@@ -1,6 +1,6 @@
-alert-xenocrit-desc = alerts-crit-desc
-alert-xenocrit-name = alerts-crit-name
-alert-xenodead-desc = alerts-dead-desc
-alert-xenodead-name = alerts-dead-name
-alert-xenohealth-desc = alerts-health-desc
-alert-xenohealth-name = alerts-health-name
+alert-xenocrit-desc = You're severely injured and unconscious.
+alert-xenocrit-name = [color=red]Critical Condition[/color]
+alert-xenodead-desc = You're dead, note that you can still be revived!
+alert-xenodead-name = Dead
+alert-xenohealth-desc = [color=green]Green[/color] good. [color=red]Red[/color] bad.
+alert-xenohealth-name = Health

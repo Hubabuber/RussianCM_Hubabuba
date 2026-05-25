@@ -1,1 +1,1 @@
-job-cmxenoselectablexeno-name = cm-job-name-selectable-xenonid
+job-cmxenoselectablexeno-name = Xenomorph

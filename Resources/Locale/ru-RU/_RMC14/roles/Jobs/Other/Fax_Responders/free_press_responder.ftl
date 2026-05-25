@@ -1,6 +1,6 @@
 ent-RMCIDCardFreePressResponder = Удостоверение свободы прессы
   .desc = Обычное удостоверение личности. 
 
-job-cmfreepressresponder-desc = RMC-описание-работы-свободный-пресс-ответчик
-job-cmfreepressresponder-name = rmc-имя-задания-свободный-пресс-ответчик
-job-cmfreepressresponder-supervisors = cm-job-supervisors-staff
+job-cmfreepressresponder-desc = «Вы выдающийся региональный редактор, член «Свободной прессы».
+job-cmfreepressresponder-name = Свободная пресса
+job-cmfreepressresponder-supervisors = Администрация сервера

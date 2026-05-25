@@ -1,2 +1,2 @@
-alert-magboots-desc = alerts-magboots-desc
-alert-magboots-name = alerts-magboots-name
+alert-magboots-desc = You are immune to airflow, but slightly slower.
+alert-magboots-name = Magboots

@@ -1,12 +1,14 @@
-accesslevel-au14accessshopkeep-name = au14-access-shopkeep
+accesslevel-au14accessshopkeep-name = Shopkeep
 accesslevel-auaccessprison-name = au-access-prison
-accesslevel-cmaccesscolonyarmory-name = rmc-access-colony-armory
-accesslevel-cmaccesscolonybrig-name = cm-access-colony-brig
-accesslevel-cmaccesscolonycommand-name = cm-access-colony-command
-accesslevel-cmaccesscolonyengineering-name = cm-access-colony-engineering
-accesslevel-cmaccesscolonylogistics-name = cm-access-colony-logistics
-accesslevel-cmaccesscolonymedbay-name = cm-access-colony-medbay
-accesslevel-cmaccesscolonyresearch-name = cm-access-colony-research
-accesslevel-rmcaccesstsepa-name = rmc-access-tsepa
-accesslevel-rmcaccesstsepabrig-name = rmc-access-tsepa-brig
-accesslevel-rmcaccesstsepainspector-name = rmc-access-tsepa-inspector
+accesslevel-cmaccesscolonyarmory-name = Colony Armory
+accesslevel-cmaccesscolonybrig-name = Colony Brig
+accesslevel-cmaccesscolonycommand-name = Colony Command
+accesslevel-cmaccesscolonyengineering-name = Colony Engineering
+accesslevel-cmaccesscolonylogistics-name = Colony Logistics
+accesslevel-cmaccesscolonymedbay-name = Colony Medbay
+accesslevel-cmaccesscolonyresearch-name = Colony Research
+accesslevel-rmcaccesstsepa-name = TSEPA
+accesslevel-rmcaccesstsepabrig-name = TSEPA Brig
+accesslevel-rmcaccesstsepainspector-name = TSEPA Inspector
+
+accesslevel-cmaccesscolonypublic-name = Colony Public

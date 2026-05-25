@@ -1,7 +1,7 @@
 - type: entity # TODO RMC14 sound
   id: XenoWeeds
-  name: weeds
-  description: Weird black weeds...
+  name: ent-XenoWeeds
+  description: ent-XenoWeeds-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -137,8 +137,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoWeedsSource
-  name: weed node
-  description: A weird, pulsating node
+  name: ent-XenoWeedsSource
+  description: ent-XenoWeedsSource-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -202,7 +202,7 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoHiveWeeds
-  name: ent-XenoWeedsSourceHidden
+  name: ent-XenoHiveWeeds
   placement:
     mode: SnapgridCenter
     snap:
@@ -296,8 +296,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHiveWeeds
   id: XenoHiveWeedsSource
-  name: ent-XenoHiveWeedsCore
-  description: ent-XenoHiveWeedsCore-desc
+  name: ent-XenoHiveWeedsSource
+  description: ent-XenoHiveWeedsSource-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -436,8 +436,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHardyWeeds
   id: XenoHardyWeedsSource
-  name: ent-XenoWeedsWall
-  description: ent-XenoWeedsWall-desc
+  name: ent-XenoHardyWeedsSource
+  description: ent-XenoHardyWeedsSource-desc
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi

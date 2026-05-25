@@ -5,9 +5,9 @@ ent-AU14IDCardFORECONSmartGunOperator-desc = Кусочек закодирова
 ent-AU14JobFORECONSmartGunOperator = FORECON Smart Gun Оператор (Surv)
     .suffix = АУ14, УА, ФОРЕКОН
 
-job-au14foreconsmartgunoperator-desc = RMC-описание-должности-forecon
-job-au14foreconsmartgunoperator-name = cm-имя-задания-оператора-умного пистолета
+job-au14foreconsmartgunoperator-desc = Вы - застрявший морпех из ККМ ООН Forecon. Ваш корабль UNS Hanyut потерпел крушение, и вы застряли на планете. Делайте все возможное, чтобы выжить!
+job-au14foreconsmartgunoperator-name = Умный оператор оружия
 job-au14foreconsmartgunoperator-spawnmenurolename = Оператор FORECON Smart Gun (AU14, Surv)
-job-au14foreconsmartgunoperator-supervisors = cm-должность-название-отделение-лидер
-job-au14foreconsmartgunoperatorbase-desc = au14-должностное описание-govforadvisor
-job-au14foreconsmartgunoperatorbase-name = cm-имя-задания-оператора-умного пистолета
+job-au14foreconsmartgunoperator-supervisors = Руководитель секции
+job-au14foreconsmartgunoperatorbase-desc = Консультируйте командование, обучайте новых солдат и оказывайте помощь там, где это необходимо.
+job-au14foreconsmartgunoperatorbase-name = Умный оператор оружия

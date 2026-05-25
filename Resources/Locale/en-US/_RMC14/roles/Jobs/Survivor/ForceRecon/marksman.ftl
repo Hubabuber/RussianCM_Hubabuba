@@ -4,5 +4,5 @@ ent-CMSpawnPointForeconMarksman = forecon marksman spawn point
 
 ent-RMCSurvivorPresetForeconMarksman = forecon marksman survivor preset
 
-job-rmcsurvivorforeconmarksman-name = rmc-job-name-forecon-marksman
+job-rmcsurvivorforeconmarksman-name = Marksman
 job-rmcsurvivorforeconmarksman-spawnmenurolename = FORECON Marksman (Survivor)

@@ -1,5 +1,5 @@
 ent-CMURandomHumanoidYautjaHunter = yautja hunter spawner
     .suffix = Spawner, Player, Event
 
-job-cmuyautjahunter-desc = cmu-yautja-job-description-hunter
-job-cmuyautjahunter-name = cmu-yautja-job-name-hunter
+job-cmuyautjahunter-desc = An event-spawned alien hunter.
+job-cmuyautjahunter-name = Yautja Hunter

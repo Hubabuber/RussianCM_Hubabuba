@@ -15,7 +15,7 @@
 # ├──[ CONSTRUCTION MENU ]───────────────────────────────────────────┤
 - type: construction
   parent: RMC
-  name: Mines Sign
+  name: construction-au14constructionsignmines-name
   id: AU14ConstructionSignMines
   graph: AU14SignGraph
   startNode: start
@@ -29,7 +29,7 @@
 
 - type: construction
   parent: RMC
-  name: Traffic Director (Empty)
+  name: construction-au14constructionsignempty-name
   id: AU14ConstructionSignEmpty
   graph: AU14SignGraph
   startNode: start
@@ -43,31 +43,31 @@
 
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Evac Center)
+  name: construction-au14constructionsignevaccenter-name
   id: AU14ConstructionSignEvacCenter
   targetNode: sign_evaccenter
   description: construction-au14constructionsignevaccenter-desc
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Checkpoint Ahead)
+  name: construction-au14constructionsigncheckpoint-name
   id: AU14ConstructionSignCheckpoint
   targetNode: sign_cpahead
   description: construction-au14constructionsigncheckpoint-desc
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Follow Army Orders)
+  name: construction-au14constructionsignfolloworders-name
   id: AU14ConstructionSignFollowOrders
   targetNode: sign_armyorders
   description: construction-au14constructionsignfolloworders-desc
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Tune Freq)
+  name: construction-au14constructionsigntunefreq-name
   id: AU14ConstructionSignTuneFreq
   targetNode: sign_freqtune
   description: construction-au14constructionsigntunefreq-desc
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Slow Down)
+  name: construction-au14constructionsignslowdown-name
   id: AU14ConstructionSignSlowDown
   targetNode: sign_slowdown
   description: construction-au14constructionsignslowdown-desc

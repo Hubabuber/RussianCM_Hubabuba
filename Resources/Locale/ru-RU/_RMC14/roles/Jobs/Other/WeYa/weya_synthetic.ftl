@@ -1,2 +1,2 @@
-job-rmccorporatesynthetic-desc = rmc-job-description-corp-синтетик
-job-rmccorporatesynthetic-name = rmc-job-name-corp-синтетик
+job-rmccorporatesynthetic-desc = Поддерживайте интересы и персонал Вейланд-Ютани везде, где это необходимо.
+job-rmccorporatesynthetic-name = Корпоративный синтетик
