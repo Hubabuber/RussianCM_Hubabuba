@@ -13,9 +13,9 @@ namespace Content.Server.AU14.Threats;
 
 public sealed partial class KillAllXenoRuleSystem : GameRuleSystem<KillAllXenoRuleComponent>
 {
-	[Dependency] private IEntityManager _entityManager = default!;
-	[Dependency] private GameTicker _gameTicker = default!;
-	[Dependency] private Round.AuRoundSystem _auRoundSystem = default!;
+    [Dependency] private IEntityManager _entityManager = default!;
+    [Dependency] private GameTicker _gameTicker = default!;
+    [Dependency] private Round.AuRoundSystem _auRoundSystem = default!;
 
     private EntityQuery<EvacuatedGridComponent> _evacuatedQuery;
 
@@ -54,10 +54,10 @@ public sealed partial class KillAllXenoRuleSystem : GameRuleSystem<KillAllXenoRu
 
     private void CheckVictoryCondition()
     {
-        // Get the active rule entity and its component to read Percent
-        var queryRule = EntityQueryEnumerator<KillAllXenoRuleComponent, GameRuleComponent>();
-        if (!queryRule.MoveNext(out var ruleEnt, out var ruleComp, out var gameRuleComp) || !GameTicker.IsGameRuleActive(ruleEnt, gameRuleComp))
+        var queryRule = QueryActiveRules();
+        if (!queryRule.MoveNext(out _, out _, out var ruleComp, out _))
             return;
+        if (ruleComp == null) return;
 
         var requiredPercentXeno = Math.Clamp(ruleComp.PercentXeno, 1, 100);
         var requiredPercentCultist = Math.Clamp(ruleComp.PercentCultist, 1, 100);
@@ -71,13 +71,9 @@ public sealed partial class KillAllXenoRuleSystem : GameRuleSystem<KillAllXenoRu
         var query = _entityManager.EntityQueryEnumerator<MobStateComponent>();
         while (query.MoveNext(out var uid, out var mobState))
         {
-            // Detect xenos by presence of XenoComponent, and cultists by CultistComponent.
-            var isXeno = _entityManager.TryGetComponent(uid, out XenoComponent? xeno);
-            var isCultist = _entityManager.HasComponent<CultistComponent>(uid);
-
-            if (isXeno)
+            if (_entityManager.TryGetComponent(uid, out XenoComponent? xeno))
             {
-                if (xeno!.Role == "CMXenoLesserDrone")
+                if (xeno.Role == "CMXenoLesserDrone")
                     continue;
 
                 totalXeno++;
@@ -86,7 +82,7 @@ public sealed partial class KillAllXenoRuleSystem : GameRuleSystem<KillAllXenoRu
                     deadXeno++;
             }
 
-            if (isCultist)
+            if (_entityManager.HasComponent<CultistComponent>(uid))
             {
                 totalCultist++;
                 // Treat evacuated entities as dead; otherwise count actual death or restraints.

@@ -620,6 +620,43 @@
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: cryotroops
+        - name: Prodigy Armed Repair Team Sierra
+          description: Summon a PART Sierra Squad to the area
+          cost: 60
+          events:
+          - !type:TechPartySpawnEvent
+            thirdPartyId: ProdigyPARTSParty
+          - !type:TechAnnounceEvent
+            author: INTEL OPERATIONS
+            message: A Prodigy Armed Repair Team has been dispatched to aid with the operation.
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: beacon
+
+        - name: Prodigy Tactical Advanced Rescue Team
+          description: Summon a Prodigy Tactical Advanced Rescue Team to the area
+          cost: 45
+          events:
+          - !type:TechPartySpawnEvent
+            thirdPartyId: ProdigyTARSParty
+          - !type:TechAnnounceEvent
+            author: INTEL OPERATIONS
+            message: A Prodigy Tactical Advanced Rescue Team has been dispatched to aid with the operation.
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: beacon
+        - name: Prodigy Hazard Response Team
+          description: Summon a Prodigy Hazard Response Team to the area
+          cost: 45
+          events:
+          - !type:TechPartySpawnEvent
+            thirdPartyId: ProdigyHazardResponseTeamParty
+          - !type:TechAnnounceEvent
+            author: INTEL OPERATIONS
+            message: A Prodigy Hazard Response Team has been dispatched to aid with the operation.
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: beacon
         - name: Unlock Tier 3
           description: Transitions the tree to another tier.
           cost: 1
@@ -640,6 +677,20 @@
           - !type:TechAnnounceEvent
             author: INTEL OPERATIONS
             message: A US Army 32nd Armored Division squad has been dispatched to aid with the operation.
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: beacon
+
+        - name: Prodigy Armed Repair Team Yankee
+          description: Summon a PMC team from PART, specifically Yankee Squad
+          cost: 70
+          repurchasable: false
+          events:
+          - !type:TechPartySpawnEvent
+            thirdPartyId: USArmyArmored
+          - !type:TechAnnounceEvent
+            author: INTEL OPERATIONS
+            message: A Prodigy Armed Repair Team has been dispatched to aid with the operation.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: beacon
@@ -687,6 +738,19 @@
           - !type:TechAnnounceEvent
             author: INTEL OPERATIONS
             message: A CMB investigation party has been dispatched to investigate intel leads.
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: beacon
+
+        - name: Prodigy Armed Repair Team Sierra
+          description: Summon a PART Sierra Squad to the area
+          cost: 60
+          events:
+          - !type:TechPartySpawnEvent
+            thirdPartyId: ProdigyPARTSParty
+          - !type:TechAnnounceEvent
+            author: INTEL OPERATIONS
+            message: A Prodigy Armed Repair Team has been dispatched to aid with the operation.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: beacon
@@ -751,6 +815,19 @@
           events:
           - !type:TechPartySpawnEvent
             thirdPartyId: VAISO
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: beacon
+        - name: Call Prodigy Armed Repair Team Yankee
+          description: Summon a PMC team from PART, specifically Sierra Squad, They are not hostile to CLF but not required to help directly!
+          cost: 70
+          repurchasable: false
+          events:
+          - !type:TechPartySpawnEvent
+            thirdPartyId: ProdigyPARTSParty
+          - !type:TechAnnounceEvent
+            author: INTEL OPERATIONS
+            message: A Prodigy Armed Repair Team has been dispatched to aid with the operation.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: beacon

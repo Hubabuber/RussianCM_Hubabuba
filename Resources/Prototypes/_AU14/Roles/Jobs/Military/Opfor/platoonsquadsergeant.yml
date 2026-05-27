@@ -13,16 +13,20 @@
   special:
   - !type:AddComponentSpecial
     components:
+    - type: Marine
+      Faction: opfor
     - type: NpcFactionMember
       factions:
       - OPFOR
-    - type: Marine
-      Faction: opfor
     - type: UserIFF
       factions:
       - OPFOR
     - type: JobPrefix
       prefix: au14-job-prefix-opforsquadsergeant
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_AU14/Interface/au14opforhud.rsi
+        state: sergeant
 
 - type: startingGear
   id: AU14GearOpforSquadSergeant

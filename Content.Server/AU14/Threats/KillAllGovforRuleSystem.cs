@@ -111,9 +111,10 @@ public sealed partial class KillAllGovforRuleSystem : GameRuleSystem<KillAllGovf
 
     private void CheckVictoryCondition()
     {
-        var queryRule = EntityQueryEnumerator<KillAllGovforRuleComponent, GameRuleComponent>();
-        if (!queryRule.MoveNext(out var ruleEnt, out var ruleComp, out var gameRuleComp) || !_gameTicker.IsGameRuleActive(ruleEnt, gameRuleComp))
+        var queryRules = QueryActiveRules();
+        if (!queryRules.MoveNext(out _, out _, out var ruleComp, out _))
             return;
+        if (ruleComp == null) return;
 
         var requiredPercent = Math.Clamp(ruleComp.Percent, 1, 100);
         var countArrests = ruleComp.Arrest;

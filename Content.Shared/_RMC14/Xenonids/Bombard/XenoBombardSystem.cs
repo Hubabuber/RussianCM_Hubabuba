@@ -47,6 +47,8 @@ public sealed partial class XenoBombardSystem : EntitySystem
             return;
         }
 
+        _zLevelShooting.TryGetProjectileVisualOffset(ent, source, adjustedSource, out var projectileVisualOffset);
+
         args.Handled = true;
 
         if (!_xenoPlasma.HasPlasmaPopup(ent.Owner, ent.Comp.PlasmaCost))
@@ -62,6 +64,7 @@ public sealed partial class XenoBombardSystem : EntitySystem
         {
             SourceCoordinates = adjustedSource,
             Coordinates = adjustedTarget,
+            ProjectileVisualOffset = projectileVisualOffset,
         };
         var doAfter = new DoAfterArgs(EntityManager, ent, ent.Comp.Delay, ev, ent, args.Action) { BreakOnMove = true, RootEntity = true };
         if (_doAfter.TryStartDoAfter(doAfter))
@@ -115,6 +118,7 @@ public sealed partial class XenoBombardSystem : EntitySystem
         _rmcProjectile.SetMaxRange((projectile, max), direction.Length());
 
         _gun.ShootProjectile(projectile, direction, Vector2.Zero, ent, ent, speed: 7.5f);
+        _zLevelShooting.ApplyProjectileVisualOffset(projectile, args.ProjectileVisualOffset);
         _audio.PlayEntity(ent.Comp.ShootSound, ent, ent);
 
         _rmcActions.ActivateSharedCooldown(action, ent);

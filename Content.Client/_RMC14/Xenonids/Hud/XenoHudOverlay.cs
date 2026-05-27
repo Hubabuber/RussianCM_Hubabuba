@@ -6,6 +6,7 @@ using Content.Shared._RMC14.Shields;
 using Content.Shared._RMC14.Stealth;
 using Content.Shared._RMC14.Xenonids;
 using Content.Shared._RMC14.Xenonids.Energy;
+using Content.Shared._RMC14.Xenonids.Dancer;
 using Content.Shared._RMC14.Xenonids.Maturing;
 using Content.Shared._RMC14.Xenonids.Parasite;
 using Content.Shared._RMC14.Xenonids.Plasma;
@@ -71,6 +72,7 @@ public sealed partial class XenoHudOverlay : Overlay
         : OverlaySpace.WorldSpaceBelowFOV;
 
     private readonly ResPath _rsiPath = new("/Textures/_RMC14/Interface/xeno_hud.rsi");
+    private readonly ResPath _dancerMarksRsiPath = new("/Textures/_CM13/Interface/Hud/dancer_marks.rsi");
     private readonly ResPath _rsiPathSlow = new("/Textures/_RMC14/Effects/xeno_stomp.rsi");
     private readonly ResPath _rsiPathFreeze = new("/Textures/_RMC14/Effects/xeno_freeze.rsi");
 
@@ -135,6 +137,7 @@ public sealed partial class XenoHudOverlay : Overlay
 
             DrawAcidStacks(in args, scaleMatrix, rotationMatrix);
             DrawMarkedIcons(in args, scaleMatrix, rotationMatrix);
+            DrawYellowMarkedIcons(in args, scaleMatrix, rotationMatrix);
             DrawRank(in args, scaleMatrix, rotationMatrix);
 
             DrawSlow(in args, scaleMatrix, rotationMatrix);
@@ -345,8 +348,47 @@ public sealed partial class XenoHudOverlay : Overlay
             var matrix = Matrix3x2.Multiply(rotationMatrix, scaledWorld);
             handle.SetTransform(matrix);
 
-            var icon = new Rsi(_rsiPath, $"prae_tag");
+            var icon = new Rsi(_dancerMarksRsiPath, "prae_tag");
             var texture = _sprite.GetFrame(icon, _timing.CurTime - comp.TimeAdded, false);
+
+            var yOffset = (bounds.Height + sprite.Offset.Y) / 2f - (float)texture.Height / EyeManager.PixelsPerMeter * bounds.Height;
+            var xOffset = (bounds.Width + sprite.Offset.X) / 2f - (float)texture.Width / EyeManager.PixelsPerMeter * bounds.Width;
+
+            var position = new Vector2(xOffset, yOffset);
+            handle.DrawTexture(texture, position);
+        }
+    }
+
+    private void DrawYellowMarkedIcons(in OverlayDrawArgs args, Matrix3x2 scaleMatrix, Matrix3x2 rotationMatrix)
+    {
+        var handle = args.WorldHandle;
+        var stacks = _entity
+            .AllEntityQueryEnumerator<XenoYellowMarkedComponent, SpriteComponent, TransformComponent>();
+
+        while (stacks.MoveNext(out var uid, out _, out var sprite, out var xform))
+        {
+            if (xform.MapID != args.MapId)
+                continue;
+
+            if (_container.IsEntityOrParentInContainer(uid, xform: xform))
+                continue;
+
+            if (_invisQuery.HasComp(uid))
+                continue;
+
+            var bounds = _sprite.GetLocalBounds((uid, sprite));
+            var worldPos = _transform.GetWorldPosition(xform, _xformQuery);
+
+            if (!bounds.Translated(worldPos).Intersects(args.WorldAABB))
+                continue;
+
+            var worldMatrix = Matrix3x2.CreateTranslation(worldPos);
+            var scaledWorld = Matrix3x2.Multiply(scaleMatrix, worldMatrix);
+            var matrix = Matrix3x2.Multiply(rotationMatrix, scaledWorld);
+            handle.SetTransform(matrix);
+
+            var icon = new Rsi(_dancerMarksRsiPath, "prae_tag_yellow");
+            var texture = _sprite.GetFrame(icon, _timing.CurTime, false);
 
             var yOffset = (bounds.Height + sprite.Offset.Y) / 2f - (float)texture.Height / EyeManager.PixelsPerMeter * bounds.Height;
             var xOffset = (bounds.Width + sprite.Offset.X) / 2f - (float)texture.Width / EyeManager.PixelsPerMeter * bounds.Width;

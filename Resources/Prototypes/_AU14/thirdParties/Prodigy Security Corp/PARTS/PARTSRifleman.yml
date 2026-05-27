@@ -3,7 +3,7 @@
   id: AU14JobPARTSPartyContractorBase
   name: PMC Contractor Base
   description: au14-prodigyparty-description
-  playTimeTracker: AU14JobPARTSPartyContractor
+  playTimeTracker: AU14JobPARTSPartyContractorTracker
   basePlaytimeTracker: true
   hidden: true
 
@@ -13,7 +13,7 @@
   name: PARTS Response Unit (M41A/2)
   description: au14-prodigyparty-description
   ranks:
-    AU14RankWeYuRecruit: []
+    AU14RankPrDAssociate: []
   spawnMenuRoleName: Prodigy Sierra Contractor (3rd party, M41A/2)
   startingGear: AU14GearPARTSPartyContractor
   greeting: au14-prodigyparty-greeting
@@ -71,8 +71,8 @@
     jumpsuit: AU14ProdigyFatiguesRU
     shoes: RMCBootsSPPBlackFilled
     mask: RMCMaskCoifPMC
-    eyes: RMCGlassesMedicalHUDGlasses
-    head: AU14ProdigyBeret
+    eyes: AU14ProdigyWeldingGoggles
+    head: AU14ProdigyBallisticHelmetPART
     gloves: AU14HandsProdigyRU
     belt: AU14BeltUtilityCombatProdigyRUFilled
     pocket1: RMCPouchMagazineLargePMC
@@ -80,22 +80,20 @@
     back: RMCSatchelWelderRU #21 slots
     ears: AU14HeadsetPART
     ears2: RMCM5CameraGear
-    suitstorage: RMCWeaponRifleM54C2
+    suitstorage: AU14KitWeaponMCX
   storage:
     pocket1:
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
     back:
     - CMMRE
     - RMCBinocularsPVE
     - AU14PacketGrenadeFragM12Filled
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
     jumpsuit:
     - AU14SynthResetKeyProdigy
     - AU14SynthResetKeyProdigy
@@ -106,7 +104,8 @@
     - CMMagazinePistolMK80
     - CMMagazinePistolMK80
     - CMMagazinePistolMK80
-    # 2 empty slots
+    - RMCVisorMedical
+    # 1 empty slots
 
 - type: playTimeTracker
-  id: AU14JobPARTSPartyContractor
+  id: AU14JobPARTSPartyContractorTracker

@@ -154,6 +154,38 @@
   - type: DeleteOnExplosion
 
 - type: entity
+  id: XenoReaperRedGas
+  name: red gas
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        hard: false
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.4"
+        mask:
+        - MobMask
+        layer:
+        - MidImpassable
+  - type: Sprite
+    sprite: _RMC14/Effects/smoke.rsi
+    state: smoke2
+    color: "#B01828A0"
+  - type: TimedDespawn
+    lifetime: 6
+  - type: Tag
+    tags:
+    - HideContextMenu
+  - type: Appearance
+  - type: DeleteOnExplosion
+  - type: XenoReaperRedGas
+
+- type: entity
   id: RMCSmokeKingDoom
   name: king doom
   components:

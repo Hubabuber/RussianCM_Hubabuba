@@ -60,11 +60,11 @@ public sealed partial class KillAllAbominationsRuleSystem : GameRuleSystem<KillA
 
     private void CheckVictoryCondition()
     {
-        var queryRule = EntityQueryEnumerator<KillAllAbominationsRuleComponent, GameRuleComponent>();
-        if (!queryRule.MoveNext(out var ruleEnt, out var ruleComp, out var gameRuleComp) || !GameTicker.IsGameRuleActive(ruleEnt, gameRuleComp))
+        var queryRule = QueryActiveRules();
+        if (!queryRule.MoveNext(out _, out _, out var ruleComp, out _))
             return;
 
-        var requiredPercent = Math.Clamp(ruleComp.Percent, 1, 100);
+        var requiredPercent = Math.Clamp(ruleComp!.Percent, 1, 100);
 
         var total = 0;
         var dead = 0;
@@ -98,7 +98,7 @@ public sealed partial class KillAllAbominationsRuleSystem : GameRuleSystem<KillA
         if (total == 0)
             return;
 
-        var percentDead = (int) ((double) dead / total * 100.0);
+        var percentDead = (int)((double)dead / total * 100.0);
         if (percentDead < requiredPercent)
             return;
 

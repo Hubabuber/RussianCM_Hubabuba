@@ -5,13 +5,17 @@ using Content.Shared._CMU14.Blackfoot;
 using Content.Shared._RMC14.Vehicle;
 using Content.Shared._RMC14.Weapons.Ranged.Ammo.BulletBox;
 using Content.Shared.Containers.ItemSlots;
+using Content.Shared.Damage;
+using Content.Shared.Damage.Components;
 using Content.Shared.Item;
 using Content.Shared.Movement.Pulling.Components;
+using Content.Shared.Physics;
 using Content.Shared.UserInterface;
 using Content.Shared.Vehicle;
 using Content.Shared.Vehicle.Components;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Maths;
+using Robust.Shared.Physics;
 using Robust.Shared.Prototypes;
 using Robust.UnitTesting;
 
@@ -30,6 +34,7 @@ public sealed class BlackfootPrototypeTest
     private static readonly EntProtoId FlightComputerId = "CMUBlackfootFlightComputer";
     private static readonly EntProtoId PadLightId = "CMUBlackfootLandingPadLight";
     private static readonly EntProtoId PadLightOnId = "CMUBlackfootLandingPadLightOn";
+    private static readonly EntProtoId ShadowId = "CMUBlackfootShadow";
     private static readonly EntProtoId FuelPumpCrateId = "CMUBlackfootFuelPumpCrate";
     private static readonly EntProtoId FlightComputerCrateId = "CMUBlackfootFlightComputerCrate";
     private static readonly EntProtoId TugId = "CMUBlackfootAerospaceTug";
@@ -76,6 +81,8 @@ public sealed class BlackfootPrototypeTest
                 Assert.That(prototypes.TryIndex<EntityPrototype>(variant.Id, out var proto), Is.True);
                 Assert.That(proto!.TryGetComponent<BlackfootFlightComponent>(out var flight, factory), Is.True, variantName);
                 Assert.That(flight!.State, Is.EqualTo(BlackfootFlightState.Stowed), variantName);
+                Assert.That(flight.VTOLSpeedMultiplier, Is.GreaterThan(1f), variantName);
+                Assert.That(flight.FlightSpeedMultiplier, Is.GreaterThan(flight.VTOLSpeedMultiplier), variantName);
                 Assert.That(
                     flight.FootprintOffsets,
                     Is.EquivalentTo(new[]
@@ -89,6 +96,11 @@ public sealed class BlackfootPrototypeTest
                         new Vector2i(0, -1),
                     }),
                     variantName);
+
+                Assert.That(proto.TryGetComponent<BlackfootFuelPowerComponent>(out var fuel, factory), Is.True, variantName);
+                Assert.That(fuel!.FuelLeakDrain, Is.GreaterThan(0f), variantName);
+
+                AssertBlackfootXenoProjectileTarget(proto, factory, variantName);
 
                 Assert.That(proto.TryGetComponent<VehicleWeaponsComponent>(out _, factory), Is.True, variantName);
                 Assert.That(proto.TryGetComponent<VehicleEnterComponent>(out var enter, factory), Is.True, variantName);
@@ -175,6 +187,8 @@ public sealed class BlackfootPrototypeTest
             Assert.That(padLightOnProto!.TryGetComponent<BlackfootLandingPadLightComponent>(out var padLightOn, factory), Is.True);
             Assert.That(padLightOn!.State, Is.EqualTo(BlackfootLandingPadLightState.Servicing));
 
+            AssertBlackfootShadowVisualOnly(prototypes, factory);
+
             AssertDeployable(prototypes, factory, FoldedLandingPadId, LandingPadId);
             AssertDeployable(prototypes, factory, FuelPumpCrateId, FuelPumpId, BlackfootLandingPadAttachment.FuelPump);
             AssertDeployable(prototypes, factory, FlightComputerCrateId, FlightComputerId, BlackfootLandingPadAttachment.FlightComputer);
@@ -249,6 +263,26 @@ public sealed class BlackfootPrototypeTest
     {
         Assert.That(prototypes.TryIndex<EntityPrototype>(id, out var proto), Is.True, id.ToString());
         Assert.That(proto!.TryGetComponent<ItemComponent>(out _, factory), Is.False, id.ToString());
+    }
+
+    private static void AssertBlackfootXenoProjectileTarget(
+        EntityPrototype proto,
+        IComponentFactory factory,
+        string context)
+    {
+        Assert.That(proto.TryGetComponent<FixturesComponent>(out var fixtures, factory), Is.True, context);
+        Assert.That(fixtures!.Fixtures.Values.Any(fixture =>
+            (fixture.CollisionLayer & (int) CollisionGroup.XenoProjectileImpassable) != 0), Is.True, context);
+    }
+
+    private static void AssertBlackfootShadowVisualOnly(
+        IPrototypeManager prototypes,
+        IComponentFactory factory)
+    {
+        Assert.That(prototypes.TryIndex<EntityPrototype>(ShadowId, out var proto), Is.True);
+        Assert.That(proto!.TryGetComponent<DamageableComponent>(out _, factory), Is.False);
+        Assert.That(proto.TryGetComponent<RequireProjectileTargetComponent>(out _, factory), Is.False);
+        Assert.That(proto.TryGetComponent<FixturesComponent>(out _, factory), Is.False);
     }
 
     private static void AssertEntryPoint(VehicleEntryPoint entry, Vector2 offset, Vector2 interiorCoords, string context)

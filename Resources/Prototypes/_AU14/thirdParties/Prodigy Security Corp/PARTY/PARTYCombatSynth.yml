@@ -1,9 +1,10 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyPARTCombatSynth
-  name: au14-job-name-part-synth
+  name: Prodigy Yankee Combat Synthetic
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPARTCombatSynth
+  whitelisted: true
   ranks:
     AU14RankPrDSynth5:
     - !type:RoleTimeRequirement
@@ -22,7 +23,7 @@
       role: AU14JobProdigyPARTCombatSynth
       time: 18000 #5 hours
     AU14RankPrDSynth1: []
-  spawnMenuRoleName: Prodigy Combat Synthetic (AU14, 3rd Party)
+  spawnMenuRoleName: Prodigy Yankee Combat Synthetic (AU14, 3rd Party)
   startingGear: AU14GearPARTYPartyCombatSynth
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconReconSynthetic"
@@ -86,9 +87,8 @@
 - type: entity
   parent: AU14BaseMobSpeciesSyntheticProdigy
   id: AU14JobProdigyPARTCombatSynth
-  name: Prodigy Synthetic (AU14, 3rd Party)
+  name: Prodigy Yankee Combat Synthetic (AU14, 3rd Party)
   components:
-  - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
     squad: SquadPARTY

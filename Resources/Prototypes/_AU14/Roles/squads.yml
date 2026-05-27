@@ -280,7 +280,7 @@
 - type: entity
   parent: SquadBase
   id: SquadPARTY
-  name: Prodigy Armed Repair Team Yankee
+  name: Prodigy Armed Repair Team Yankee # PARTY
   components:
   - type: SquadTeam
     color: "#92969A"
@@ -308,7 +308,7 @@
 - type: entity
   parent: SquadBase
   id: SquadPARTS
-  name: Prodigy Armed Repair Team Sierra
+  name: Prodigy Armed Repair Team Sierra # PARTS
   components:
   - type: SquadTeam
     color: "#92969A"
@@ -332,6 +332,99 @@
   - type: Tag
     tags:
     - SquadPARTS
+
+- type: entity
+  parent: SquadBase
+  id: SquadPET
+  name: Prodigy Extraction Team # PET
+  components:
+  - type: SquadTeam
+    color: "#92969A"
+    background:
+      sprite: _RMC14/Interface/cm_job_icons.rsi
+      state: empty
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: PART
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_pmc
+    canSupplyDrop: false
+    group: PSC
+    leaderIcon:
+      sprite: _RMC14/Interface/cm_job_icons.rsi
+      state: weya_goon_lead
+  - type: Tag
+    tags:
+    - SquadPET
+
+- type: entity
+  parent: SquadBase
+  id: SquadTARS
+  name: Prodigy Tactical Assault and Rescue Squad # TARS
+  components:
+  - type: SquadTeam
+    color: "#92969A"
+    background:
+      sprite: _RMC14/Interface/cm_job_icons.rsi
+      state: empty
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: PART
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_pmc
+    canSupplyDrop: false
+    group: PSC
+    leaderIcon:
+      sprite: _RMC14/Interface/cm_job_icons.rsi
+      state: weya_goon_lead
+  - type: Tag
+    tags:
+    - SquadTARS
+
+- type: entity
+  parent: SquadBase
+  id: SquadHRT
+  name: Prodigy Hazard Response Team # HRT
+  components:
+  - type: SquadTeam
+    color: "#92969A"
+    background:
+      sprite: _RMC14/Interface/cm_job_icons.rsi
+      state: empty
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: PART
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_pmc
+    canSupplyDrop: false
+    group: PSC
+    leaderIcon:
+      sprite: _RMC14/Interface/cm_job_icons.rsi
+      state: weya_goon_lead
+  - type: Tag
+    tags:
+    - SquadHRT
+
+- type: Tag
+  id: SquadHRT
+
+- type: Tag
+  id: SquadTARS
+
+- type: Tag
+  id: SquadPET
 
 - type: Tag
   id: SquadPARTY

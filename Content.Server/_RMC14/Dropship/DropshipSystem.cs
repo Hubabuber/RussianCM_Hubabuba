@@ -906,13 +906,32 @@ public sealed partial class DropshipSystem : SharedDropshipSystem
 
     private void ArmThirdPartyAutoReturn(EntityUid dropship, EntityUid destination)
     {
-        if (!TryComp(dropship, out ThirdPartyDropshipAutoReturnComponent? autoReturn))
+        if (!TryGetDropshipNavigationComputer(dropship, out var computer) ||
+            !TryComp(computer.Owner, out WhitelistedShuttleComponent? ws) ||
+            !ws.AutoReturn)
             return;
 
+        // Find the return destination entity registered for this dropship
+        EntityUid returnDest = EntityUid.Invalid;
+        var rdQuery = EntityQueryEnumerator<ThirdPartyDropshipReturnDestinationComponent>();
+        while (rdQuery.MoveNext(out var uid, out var rdComp))
+        {
+            if (rdComp.Shuttle == dropship)
+            {
+                returnDest = uid;
+                break;
+            }
+        }
+
+        if (!returnDest.Valid || TerminatingOrDeleted(returnDest))
+            return;
+
+        var autoReturn = EnsureComp<ThirdPartyDropshipAutoReturnComponent>(dropship);
+        autoReturn.ReturnDestination = returnDest;
         autoReturn.ReturnAt = null;
         autoReturn.NextWarningAt = TimeSpan.Zero;
 
-        if (destination == autoReturn.ReturnDestination ||
+        if (destination == returnDest ||
             HasComp<ThirdPartyDropshipReturnDestinationComponent>(destination) ||
             HasComp<ThirdPartyDropshipReturnedComponent>(dropship))
         {

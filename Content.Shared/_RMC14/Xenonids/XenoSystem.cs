@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Shared._CMU14.Blackfoot;
 using Content.Shared._RMC14.Atmos;
 using Content.Shared._RMC14.CCVar;
 using Content.Shared._RMC14.Damage;
@@ -502,6 +503,9 @@ public sealed partial class XenoSystem : EntitySystem
             return true;
 
         if (canAttackWindows && HasComp<DestroyOnXenoPierceScissorComponent>(target))
+            return true;
+
+        if (HasComp<BlackfootFlightComponent>(target))
             return true;
 
         return HasComp<MarineComponent>(target) || HasComp<XenoComponent>(target);

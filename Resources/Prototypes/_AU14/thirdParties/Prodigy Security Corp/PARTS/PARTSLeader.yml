@@ -3,9 +3,9 @@
   id: AU14JobPARTSPartyLeader
   name: Prodigy Sierra Leader
   description: au14-prodigyparty-description
-  playTimeTracker: AU14JobPARTSPartyLeader
+  playTimeTracker: AU14JobPARTSPartyLeaderTracker
   ranks:
-    AU14RankWeYuEnforcerLead: []
+    AU14RankPrDEnforcerLead: []
   spawnMenuRoleName: Prodigy Sierra Leader (3rd party, M41A/2)
   startingGear: AU14GearPARTSPartyLeader
   greeting: au14-prodigyparty-greeting
@@ -70,7 +70,7 @@
     shoes: RMCBootsSPPBlackFilled
     mask: RMCMaskCoifPMC
     eyes: RMCGlassesMedicalHUDGlasses
-    head: AU14ProdigyBeret
+    head: AU14ProdigyBeretPART
     gloves: AU14HandsProdigyRU
     belt: AU14BeltUtilityCombatProdigyRUFilled
     pocket1: RMCPouchMagazineLargePMC
@@ -78,13 +78,13 @@
     back: RMCSatchelWelderRU #21 slots
     ears: AU14HeadsetPART
     ears2: RMCM5CameraGear
-    suitstorage: RMCWeaponRifleM54C2
+    suitstorage: AU14KitWeaponMCX
   storage:
     pocket1:
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
     back:
     - CMSurgicalLine
     - CMSynthGraft
@@ -99,12 +99,15 @@
     - AU14SynthResetKeyProdigy
     - AU14SynthResetKeyProdigy
     - AU14ProdigyLaptop
-    # 2 empty slots
+    - AU14ProdigyWeldingGoggles
+    - AU14VisorNightVisionProdigy
+    # 0 empty slots
     outerClothing:
     - CMMagazinePistolMK80
     - CMMagazinePistolMK80
     - CMMagazinePistolMK80
-    # 2 empty slots
+    - AU14ExtractionTeamBeacon
+    # 1 empty slots
 
 - type: playTimeTracker
-  id: AU14JobPARTSPartyLeader
+  id: AU14JobPARTSPartyLeaderTracker

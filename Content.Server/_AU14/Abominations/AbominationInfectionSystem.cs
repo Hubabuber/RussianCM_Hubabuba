@@ -114,14 +114,13 @@ public sealed partial class AbominationInfectionSystem : EntitySystem
         var now = _timing.CurTime;
         var infection = EnsureComp<AbominationInfectionComponent>(target);
         infection.InfectedAt = now;
-        infection.NextTickAt = now + infection.TickInterval;
+        infection.NextTickAt = now; // apply first poison tick immediately
         infection.NextCoughAt = now + infection.CoughIntervalEarly;
         infection.NextJitterAt = now + infection.JitterIntervalEarly;
-        if (infection.TickDamage.DamageDict.Count == 0)
-        {
-            infection.TickDamage = new DamageSpecifier();
-            infection.TickDamage.DamageDict.Add("Toxin", 2);
-        }
+        // Heavy flat poison — enough to kill an unassisted host in ~3 minutes
+        // (30 ticks × 8 Toxin = 240 damage over 3 min at 6 s/tick).
+        infection.TickDamage = new DamageSpecifier();
+        infection.TickDamage.DamageDict["Toxin"] = 8;
         Dirty(target, infection);
     }
 
@@ -174,6 +173,14 @@ public sealed partial class AbominationInfectionSystem : EntitySystem
         var query = EntityQueryEnumerator<AbominationInfectionComponent>();
         while (query.MoveNext(out var uid, out var infection))
         {
+            // Auto-cure: if the host survives long enough the infection burns itself out.
+            if (now - infection.InfectedAt >= infection.CureAfter)
+            {
+                if (!_mobState.IsDead(uid))
+                    RemComp<AbominationInfectionComponent>(uid);
+                continue;
+            }
+
             var severity = GetSeverity(infection, now);
             if (severity > 0 && !infection.HasShownSymptoms)
             {
@@ -188,13 +195,13 @@ public sealed partial class AbominationInfectionSystem : EntitySystem
                 Dirty(uid, infection);
             }
 
-            // Severity-scaled toxin tick + drunk.
+            // Flat poison tick — damage is not scaled by severity so it hits
+            // hard from the moment of infection. Drunk scales with severity.
             if (now >= infection.NextTickAt)
             {
                 infection.NextTickAt = now + infection.TickInterval;
-                var scaled = infection.TickDamage * (0.4f + 1.6f * severity);
-                _damageable.TryChangeDamage(uid, scaled, true);
-                _statusEffects.TryAddStatusEffect<DrunkComponent>(uid, SharedDrunkSystem.DrunkKey, infection.DrunkPerTick, true);
+                _damageable.TryChangeDamage(uid, infection.TickDamage, true);
+                _statusEffects.TryAddStatusEffect<DrunkComponent>(uid, SharedDrunkSystem.DrunkKey, infection.DrunkPerTick * severity, true);
             }
 
             // Coughing — interval shrinks as severity rises.

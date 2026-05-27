@@ -3,9 +3,9 @@
   id: AU14JobPARTSPartyEngineer
   name: Prodigy Sierra Combat Engineer
   description: au14-prodigyparty-description
-  playTimeTracker: AU14JobPARTSPartyEngineer
+  playTimeTracker: AU14JobPARTSPartyEngineerTracker
   ranks:
-    AU14RankWeYuOperator: []
+    AU14RankPrDOperator: []
   spawnMenuRoleName: Prodigy Sierra Combat Engineer (3rd party, M41A/2)
   startingGear: AU14GearPARTSPartyEngineer
   greeting: au14-prodigyparty-greeting
@@ -56,37 +56,45 @@
     jumpsuit: AU14ProdigyFatiguesRU
     shoes: RMCBootsSPPBlackFilled
     mask: RMCMaskCoifPMC
-    eyes: RMCGlassesMedicalHUDGlasses
-    head: AU14ProdigyBeret
+    eyes: AU14ProdigyWeldingGoggles
+    head: AU14ProdigyBallisticHelmetPART
     gloves: AU14HandsProdigyRU
-    belt: RMCBeltSmartGunOperatorPistolPMCFilled
-    pocket1: RMCPouchDrumPMCFill
+    belt: AU14BeltUtilityCombatProdigyRUFilled
+    pocket1: AU14PouchMagazineLargePARTDualFilled
     pocket2: AU14PouchIFAKProdigyFill
     back: RMCSatchelWelderRU #21 slots
-    ears: AU14HeadsetPART
-    ears2: RMCM5CameraGear
-    suitstorage: RMCSmartGunPMC
+    ears: RMCM5CameraGear
+    ears2: AU14HeadsetPART
+    suitstorage: AUWeaponRifleM20A
   storage:
+    #pocket1:
+    #- comes opre-filled with ammo, no need to fill it here
+    #pocket2:
+    #- AU14Tourniquet
+    # no need, pouch already has 6 slots and is filled with med supplies
     back:
     - CMMRE
     - RMCBinocularsPVE
     - AU14PacketGrenadeFragM12Filled
-    - RMCMagazineSmartGunirradiated
-    - RMCMagazineSmartGunirradiated
-    - RMCMagazineSmartGunirradiated
-    - RMCMagazineSmartGunirradiated
-    - RMCMagazineSmartGunirradiated
+    - CMSheetMetal50
+    - CMSheetMetal50
+    - CMSheetMetal50
+    - CMSheetMetal50
+    - CMSheetPlasteel50
     jumpsuit:
     - AU14SynthResetKeyProdigy
     - AU14SynthResetKeyProdigy
     - AU14ProdigyLaptop
-    # 2 empty slots
+    - RMCVisorMedical
+    - AU14MagazineRifleM20A
+    # 0 empty slots
     outerClothing:
     - CMMagazinePistolMK80
-    - CMMagazinePistolMK80
-    - CMMagazinePistolMK80
-    - RMCVisorMedical
-    # 1 empty slots
+    - AU14MagazineRifleM20A
+    - AU14MagazineRifleM20A
+    - BarbedWire15
+    - BarbedWire15
+    # 0 empty slots
 
 - type: playTimeTracker
-  id: AU14JobPARTSPartyEngineer
+  id: AU14JobPARTSPartyEngineerTracker

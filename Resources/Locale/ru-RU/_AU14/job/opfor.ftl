@@ -59,3 +59,11 @@ au14-job-name-opforMilitaryDoctor = Врач
 au14-job-description-opforMilitaryDoctor = Обеспечивай свою фракцию высококлассной медицинской помощью.
 au14-job-prefix-opforMilitaryDoctor = ВРАЧ
 au14-job-prefix-opfork9handler = К9
+
+au14-job-name-opformilitarypoliceman = Военный полицейский
+au14-job-description-opformilitarypoliceman = Обеспечивай свою фракцию полицейской поддержкой.
+au14-job-prefix-opformilitarypoliceman = ВП
+
+au14-job-name-opforAuxTech = Техник
+au14-job-description-opforAuxTech = Управляй снабжением, поддерживай корабль в рабочем состоянии и чистоте. Обеспечивай свою фракцию корабельной логистикой и инженерной поддержкой.
+au14-job-prefix-opforAuxTech = ТЕХ

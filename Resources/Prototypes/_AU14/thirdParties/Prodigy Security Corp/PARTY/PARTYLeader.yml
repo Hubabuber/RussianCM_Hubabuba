@@ -1,12 +1,12 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyPartyLeader #m41a/2
-  name: Prodigy Leader
+  name: Prodigy Yankee Party Leader
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPartyLeader
   ranks:
-    AU14RankWeYuEnforcerLead: []
-  spawnMenuRoleName: Prodigy Leader (3rd party, M41A/2)
+    AU14RankPrDEnforcerLead: []
+  spawnMenuRoleName: Prodigy Yankee Party Leader (3rd party, M41A/2)
   startingGear: AU14GearPARTPartyLeader
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCLeader"
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobProdigyPartyLeader
-  name: Prodigy PARTY Party Leader (3rd party, M41A/2)
+  name: Prodigy Yankee Party Leader (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -71,7 +71,7 @@
     shoes: RMCBootsSPPBlackFilled
     mask: RMCMaskCoifPMC
     eyes: RMCGlassesMedicalHUDGlasses
-    head: AU14ProdigyBeret
+    head: AU14ProdigyBeretPART
     gloves: AU14HandsProdigyRU
     belt: AU14BeltUtilityCombatProdigyRUFilled
     pocket1: RMCPouchMagazineLargePMC
@@ -79,13 +79,13 @@
     back: RMCSatchelWelderRU #21 slots
     ears: AU14HeadsetPART
     ears2: RMCM5CameraGear
-    suitstorage: RMCWeaponRifleM54C2
+    suitstorage: AU14KitWeaponMCX
   storage:
     pocket1:
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
-    - CMMagazineRifleM54CAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
+    - AU14WeaponRifleprodigyrifleMagazineAP
     #pocket2:
     #- AU14Tourniquet
     # no need, pouch already has 6 slots and is filled with med supplies
@@ -102,12 +102,15 @@
     - AU14SynthResetKeyProdigy
     - AU14SynthResetKeyProdigy
     - AU14ProdigyLaptop
-    # 2 empty slots
+    - AU14ProdigyWeldingGoggles
+    - AU14VisorNightVisionProdigy
+    # 0 empty slots
     outerClothing:
     - CMMagazinePistolMK80
     - CMMagazinePistolMK80
     - CMMagazinePistolMK80
-    # 2 empty slots
+    - AU14ExtractionTeamBeacon
+    # 1 empty slots
 
 - type: playTimeTracker
   id: AU14JobProdigyPartyLeader

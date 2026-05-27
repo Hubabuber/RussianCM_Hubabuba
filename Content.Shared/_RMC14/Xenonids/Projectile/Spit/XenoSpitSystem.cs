@@ -367,7 +367,7 @@ public sealed partial class XenoSpitSystem : EntitySystem
             return;
 
         var ev = new XenoAcidBallDoAfterEvent(GetNetCoordinates(args.Target));
-        var doAfter = new DoAfterArgs(EntityManager, ent, ent.Comp.Delay, ev, ent) { BreakOnMove = true, RootEntity = true };
+        var doAfter = new DoAfterArgs(EntityManager, ent, ent.Comp.Delay, ev, ent) { BreakOnMove = false, RootEntity = true };
         _doAfter.TryStartDoAfter(doAfter);
     }
 
@@ -413,12 +413,12 @@ public sealed partial class XenoSpitSystem : EntitySystem
         if (args.Handled)
             return;
 
-        ApplyAcidStacks(args.Target, ent.Comp.Amount, ent.Comp.Max, ent.Comp.Damage, ent.Comp.Whitelist);
+        ApplyAcidStacks(args.Target, ent.Comp.Amount, ent.Comp.Max, ent.Comp.Damage, ent.Comp.Whitelist, ent.Comp.RequireExisting);
     }
 
     private void OnApplyAcidStacksDamageCollide(Entity<ApplyAcidStacksComponent> ent, ref DamageCollideEvent args)
     {
-        ApplyAcidStacks(args.Target, ent.Comp.Amount, ent.Comp.Max, ent.Comp.Damage, ent.Comp.Whitelist);
+        ApplyAcidStacks(args.Target, ent.Comp.Amount, ent.Comp.Max, ent.Comp.Damage, ent.Comp.Whitelist, ent.Comp.RequireExisting);
     }
 
     private void OnShieldOnHit(Entity<XenoProjectileShieldOnHitComponent> ent, ref ProjectileHitEvent args)
@@ -552,7 +552,7 @@ public sealed partial class XenoSpitSystem : EntitySystem
             _popup.PopupEntity(Loc.GetString("rmc-acid-resist-partial"), player, player);
     }
 
-    private void ApplyAcidStacks(EntityUid target, int amount, int max, DamageSpecifier? damage, EntityWhitelist? whitelist)
+    private void ApplyAcidStacks(EntityUid target, int amount, int max, DamageSpecifier? damage, EntityWhitelist? whitelist, bool requireExisting)
     {
         if (!_entityWhitelist.IsWhitelistPassOrNull(whitelist, target))
             return;
@@ -560,7 +560,18 @@ public sealed partial class XenoSpitSystem : EntitySystem
         if (_mobState.IsDead(target))
             return;
 
-        var victim = EnsureComp<VictimXenoAcidStacksComponent>(target);
+        if (!TryComp(target, out VictimXenoAcidStacksComponent? victim))
+        {
+            if (requireExisting)
+                return;
+
+            victim = EnsureComp<VictimXenoAcidStacksComponent>(target);
+        }
+        else if (requireExisting && victim.Current <= 0)
+        {
+            return;
+        }
+
         victim.Current = Math.Min(max, victim.Current + amount);
         victim.LastIncrement = _timing.CurTime;
         Dirty(target, victim);

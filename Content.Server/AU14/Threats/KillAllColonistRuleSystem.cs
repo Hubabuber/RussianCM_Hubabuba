@@ -88,9 +88,10 @@ public sealed partial class KillAllColonistRuleSystem : GameRuleSystem<KillAllCo
 
     private void CheckVictoryCondition()
     {
-        var queryRule = EntityQueryEnumerator<KillAllColonistRuleComponent, GameRuleComponent>();
-        if (!queryRule.MoveNext(out var ruleEnt, out var ruleComp, out var gameRuleComp) || !_gameTicker.IsGameRuleActive(ruleEnt, gameRuleComp))
+        var queryRule = QueryActiveRules();
+        if (!queryRule.MoveNext(out _, out _, out var ruleComp, out _))
             return;
+        if (ruleComp == null) return;
 
         var requiredPercent = Math.Clamp(ruleComp.Percent, 1, 100);
         var crashedDropship = HasCrashedDropship();

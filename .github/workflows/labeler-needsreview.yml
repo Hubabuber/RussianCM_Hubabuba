@@ -9,11 +9,13 @@ jobs:
     permissions:
       pull-requests: write
     runs-on: ubuntu-latest
+    if: vars.TEAM_REVIEW == 'true'
     steps:
     - uses: actions-ecosystem/action-add-labels@v1
       with:
         github_token: ${{ github.token }}
         labels: "S: Needs Review"
+
     - uses: actions-ecosystem/action-remove-labels@v1
       with:
         github_token: ${{ github.token }}

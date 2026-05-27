@@ -150,9 +150,6 @@ public sealed partial class AuThirdPartySystem : EntitySystem
 
             EnsureComp<DropshipComponent>(mainGridUid);
             _sharedDropshipSystem.SetDropshipDestination(mainGridUid, returnDestination);
-            var autoReturn = EnsureComp<ThirdPartyDropshipAutoReturnComponent>(mainGridUid);
-            autoReturn.ReturnDestination = returnDestination;
-            Dirty(mainGridUid, autoReturn);
 
             var navQuery = _entityManager.EntityQueryEnumerator<DropshipNavigationComputerComponent, TransformComponent>();
             EntityUid? navUid = null;

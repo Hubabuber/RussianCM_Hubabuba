@@ -229,15 +229,19 @@ public sealed partial class XenoProjectileSystem : EntitySystem
         EntityUid? target = null,
         bool predicted = true,
         int? projectileHitLimit = null,
-        bool uniformSpread = false)
+        bool uniformSpread = false,
+        bool stopAtTarget = false)
     {
         if (!predicted && _net.IsClient)
             return false;
 
         var origin = _transform.GetMapCoordinates(xeno);
+        var sourceOrigin = origin;
         var targetMap = _transform.ToMapCoordinates(targetCoords);
         if (!_zLevelShooting.TryAdjustShotMapCoordinates(xeno, origin, targetMap, out origin, out targetMap))
             return false;
+
+        _zLevelShooting.TryGetProjectileVisualOffset(xeno, sourceOrigin, origin, out var projectileVisualOffset);
 
         if (origin.MapId != targetMap.MapId ||
             origin.Position == targetMap.Position)
@@ -262,6 +266,9 @@ public sealed partial class XenoProjectileSystem : EntitySystem
         var xoroshiro = _rmcPseudoRandom.GetXoroshiro64S(xeno);
 
         var originalDiff = targetMap.Position - origin.Position;
+        if (stopAtTarget)
+            stopAtDistance = originalDiff.Length();
+
         var halfDeviation = deviation / 2;
         if (projectileHitLimit != null)
             _limitHitsId++;
@@ -284,6 +291,7 @@ public sealed partial class XenoProjectileSystem : EntitySystem
             diff *= speed / diff.Length();
 
             _gun.ShootProjectile(projectile, diff, Vector2.Zero, xeno, xeno, speed);
+            _zLevelShooting.ApplyProjectileVisualOffset(projectile, projectileVisualOffset);
 
             var ev = new ProjectileShotEvent(xeno, predicted);
             RaiseLocalEvent(projectile, ref ev);
@@ -299,6 +307,8 @@ public sealed partial class XenoProjectileSystem : EntitySystem
             {
                 var fixedDistanceComp = EnsureComp<ProjectileFixedDistanceComponent>(projectile);
                 fixedDistanceComp.FlyEndTime = _timing.CurTime + TimeSpan.FromSeconds(stopAtDistance.Value / speed);
+                if (stopAtTarget)
+                    fixedDistanceComp.TargetCoordinates = targetMap;
                 Dirty(projectile, fixedDistanceComp);
             }
 

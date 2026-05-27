@@ -3,9 +3,9 @@
   id: AU14JobPARTSPartyMedic
   name: Prodigy Sierra Combat Lifesaver
   description: au14-prodigyparty-description
-  playTimeTracker: AU14JobPARTSPartyMedic
+  playTimeTracker: AU14JobPARTSPartyMedicTracker
   ranks:
-    AU14RankWeYuOperator: []
+    AU14RankPrDOperator: []
   spawnMenuRoleName: Prodigy Sierra Combat Lifesaver (3rd party, M41A/2)
   startingGear: AU14GearPARTSPartyMedic
   greeting: au14-prodigyparty-greeting
@@ -25,7 +25,7 @@
         RMCSkillFireman: 1
         RMCSkillJtac: 1
         RMCSkillMedical: 2
-        RMCSkillSurgery: 1
+        RMCSkillSurgery: 3
         RMCSkillConstruction: 2
         RMCSkillEngineer: 3
         RMCSkillPolice: 1
@@ -49,7 +49,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Combat Lifesaver
+    name: Prodigy Sierra Party Combat Lifesaver
     description: au14-prodigyparty-description
     reregister: false
     job: AU14JobPARTSPartyMedic
@@ -66,7 +66,7 @@
     shoes: RMCBootsSPPBlackFilled
     mask: RMCMaskCoifPMC
     eyes: RMCGlassesMedicalHUDGlasses
-    head: AU14ProdigyBeret
+    head: AU14ProdigyBallisticHelmetPART
     gloves: AU14HandsProdigyRU
     belt: AU14BeltMedicBagProdigyFilled
     pocket1: RMCPouchShotgunLargeBuckshot
@@ -77,29 +77,29 @@
     suitstorage: RMCWeaponShotgunM3717
   storage:
     back:
-    - RMCGrenadeBlastM12
-    - CMMRE
-    - RMCBinocularsPVE
+    - CMPortableSurgicalBedSpawnFolded
+    - CMSurgicalCaseFilled
     - AU14CMDefibrillator
     - CMShellShotgunBuckshot
     - CMShellShotgunBuckshot
     - CMShellShotgunBuckshot
     - CMShellShotgunBuckshot
-    - CMShellShotgunIncendiary
+    - CMShellShotgunBuckshot
+    - CMShellShotgunBuckshot
     jumpsuit:
     - AU14SynthResetKeyProdigy
     - AU14SynthResetKeyProdigy
     - AU14ProdigyLaptop
-    - RMCHandcuffs
-    - RMCHandcuffs
+    - AU14ProdigyWeldingGoggles
+    - RMCHandsLatexMarine
     # 0 empty slots
     outerClothing:
     - CMOintment10
     - CMOintment10
     - CMSyringe
-    - AU14Tourniquet
-    - AU14Tourniquet
+    - CMPortableSurgicalBedSpawnFolded
+    - CMSurgicalCaseFilled
     # 0 empty slots
 
 - type: playTimeTracker
-  id: AU14JobPARTSPartyMedic
+  id: AU14JobPARTSPartyMedicTracker

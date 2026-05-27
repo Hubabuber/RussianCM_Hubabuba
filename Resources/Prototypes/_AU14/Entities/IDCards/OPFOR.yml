@@ -136,6 +136,17 @@
 
 - type: entity
   parent: CMIDCardBase
+  id: AU14JobIDCardOPFORAuxTech
+  name: auxiliary technician ID card
+  components:
+  - type: PresetIdCard
+    job: AU14JobOPFORAuxTech
+  - type: ItemIFF
+    factions:
+    - OPFOR
+
+- type: entity
+  parent: CMIDCardBase
   id: AU14IDCardOPFORCT
   name: combat technician ID card
   components:

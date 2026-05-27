@@ -1,13 +1,13 @@
 - type: job
   parent: CMJobBase
-  id: AU14JobWYProdigyPartySmartgunner
+  id: AU14JobProdigyPartySmartgunner
   name: PMC Smartgun Operator
   description: au14-prodigyparty-description
-  playTimeTracker: AU14JobWYProdigyPartySmartgunner
+  playTimeTracker: AU14JobProdigyPartySmartgunnerTracker
   ranks:
-    AU14RankWeYuSeniorOperator: []
-  spawnMenuRoleName: WY PMC Smartgun Operator (3rd party)
-  startingGear: AU14GearWYPMCPartySmartgunner
+    AU14RankPrDEnforcer: []
+  spawnMenuRoleName: Prodigy PARTY Smartgun Operator (3rd party)
+  startingGear: AU14GearPARTPartyOperator
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCGunner"
   joinNotifyCrew: false
@@ -39,21 +39,21 @@
 
 
 - type: entity
-  parent: AU14BaseMobSpeciesOrganicWeYu
-  id: AU14JobWYProdigyPartySmartgunner
-  name: WY PMC Party Smartgun Operator (3rd party)
+  parent: AU14BaseMobSpeciesOrganicProdigy
+  id: AU14JobProdigyPartySmartgunner
+  name: Prodigy Yankee Smartgun Operator (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
-    squad: SquadPMC
+    squad: SquadPARTY
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Smartgun Operator
+    name: Prodigy Yankee Smartgun Operator
     description: au14-prodigyparty-description
     reregister: false
-    job: AU14JobWYProdigyPartySmartgunner
+    job: AU14JobProdigyPartySmartgunner
     raffle:
       settings: short
     rules: au14-prodigyparty-description
@@ -67,7 +67,7 @@
     shoes: RMCBootsSPPBlackFilled
     mask: RMCMaskCoifPMC
     eyes: RMCGlassesSmartGunSight
-    head: AU14ProdigyBeret
+    head: AU14PARTOperatorHelmetHeavy
     gloves: AU14HandsProdigyRU
     belt: RMCBeltSmartGunOperatorPistolPMCFilled
     pocket1: RMCPouchDrumPMCFill
@@ -104,4 +104,4 @@
     # 1 empty slots
 
 - type: playTimeTracker
-  id: AU14JobWYProdigyPartySmartgunner
+  id: AU14JobProdigyPartySmartgunnerTracker

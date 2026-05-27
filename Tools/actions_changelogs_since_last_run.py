@@ -104,8 +104,9 @@ def get_last_changelog() -> str:
 
     most_recent = get_most_recent_workflow(session, github_repository, github_run)
     if most_recent is None:
-        print("No previous successful run found, skipping discord send")
-        exit(0)  # exit with status: success for re-run
+        print("No previous successful run found.")
+        #   exit(0)  # use this check if we want to send new changes only
+        return yaml.dump({"Entries": []})
 
     last_sha = most_recent["head_commit"]["id"]
     print(f"Last successful publish job was {most_recent['id']}: {last_sha}")

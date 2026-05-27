@@ -1,28 +1,29 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTSPartySynthetic
-  name: au14-job-name-part-synth
+  name: Prodigy Sierra Support Synthetic
   description: au14-prodigyparty-description
-  playTimeTracker: AU14JobPARTSPartySynthetic
+  playTimeTracker: AU14JobPARTSPartySyntheticTracker
+  whitelisted: true
   ranks:
     AU14RankPrDSynth5:
     - !type:RoleTimeRequirement
-      role: AU14JobPARTSPartySynthetic
+      role: AU14JobPARTSPartySyntheticTracker
       time: 252000 #70 hours
     AU14RankPrDSynth4:
     - !type:RoleTimeRequirement
-      role: AU14JobPARTSPartySynthetic
+      role: AU14JobPARTSPartySyntheticTracker
       time: 180000 #50 hours
     AU14RankPrDSynth3:
     - !type:RoleTimeRequirement
-      role: AU14JobPARTSPartySynthetic
+      role: AU14JobPARTSPartySyntheticTracker
       time: 36000 #10 hours
     AU14RankPrDSynth2:
     - !type:RoleTimeRequirement
-      role: AU14JobPARTSPartySynthetic
+      role: AU14JobPARTSPartySyntheticTracker
       time: 18000 #5 hours
     AU14RankPrDSynth1: []
-  spawnMenuRoleName: Prodigy Support Synthetic (AU14, 3rd Party)
+  spawnMenuRoleName: Prodigy Sierra Support Synthetic (AU14, 3rd Party)
   startingGear: AU14GearPARTSPartySynth
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconReconSynthetic"
@@ -86,7 +87,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesSyntheticProdigy
   id: AU14JobPARTSPartySynthetic
-  name: Prodigy Synthetic (AU14, 3rd Party)
+  name: Prodigy Sierra Support Synthetic (AU14, 3rd Party)
   components:
   - type: Threat
   - type: GhostTakeoverAvailable
@@ -142,4 +143,4 @@
     - AU14Tourniquet
 
 - type: playTimeTracker
-  id: AU14JobPARTSPartySynthetic
+  id: AU14JobPARTSPartySyntheticTracker

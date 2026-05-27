@@ -1002,6 +1002,7 @@ public sealed partial class GridVehicleMoverSystem : EntitySystem
             maxSpeed *= speedMod.SpeedMultiplier;
         if (TryComp<VehicleMechanicalFailureModifierComponent>(uid, out var failureMod))
             maxSpeed *= failureMod.SpeedMultiplier;
+        maxSpeed *= GetBlackfootAirSpeedMultiplier(uid);
         if (TryGetBlackfootTowTaxiMultiplier(uid, out var taxiMultiplier))
             maxSpeed *= taxiMultiplier.Speed;
         if (HasXenoOccupant(uid))
@@ -1023,6 +1024,7 @@ public sealed partial class GridVehicleMoverSystem : EntitySystem
             maxSpeed *= speedMod.SpeedMultiplier;
         if (TryComp<VehicleMechanicalFailureModifierComponent>(uid, out var failureMod))
             maxSpeed *= failureMod.ReverseSpeedMultiplier;
+        maxSpeed *= GetBlackfootAirSpeedMultiplier(uid);
         if (TryGetBlackfootTowTaxiMultiplier(uid, out var taxiMultiplier))
             maxSpeed *= taxiMultiplier.Speed;
         if (HasXenoOccupant(uid))
@@ -1034,6 +1036,21 @@ public sealed partial class GridVehicleMoverSystem : EntitySystem
     private bool HasXenoOccupant(EntityUid vehicle)
     {
         return TryComp(vehicle, out VehicleInteriorComponent? interior) && interior.Xenos.Count > 0;
+    }
+
+    private float GetBlackfootAirSpeedMultiplier(EntityUid uid)
+    {
+        if (!TryComp(uid, out BlackfootFlightComponent? flight))
+            return 1f;
+
+        var multiplier = flight.State switch
+        {
+            BlackfootFlightState.Flight => flight.FlightSpeedMultiplier,
+            BlackfootFlightState.VTOL or BlackfootFlightState.Landing => flight.VTOLSpeedMultiplier,
+            _ => 1f,
+        };
+
+        return multiplier > 0f ? multiplier : 1f;
     }
 
     private (float Speed, float Acceleration)? GetBlackfootTowTaxiMultiplier(EntityUid uid)

@@ -1,13 +1,13 @@
 - type: job
   parent: CMJobBase
-  id: AU14JobPARTPartyEngineer #m41a/2
+  id: AU14JobPARTYPartyEngineer #m41a/2
   name: Prodigy Yankee Combat Engineer
   description: au14-prodigyparty-description
-  playTimeTracker: AU14JobPARTPartyEngineer
+  playTimeTracker: AU14JobPARTYPartyEngineerTracker
   ranks:
-    AU14RankWeYuOperator: []
-  spawnMenuRoleName: WY PMC Combat Engineer (3rd party, M41A/2)
-  startingGear: AU14GearWYPMCPartyEngineer
+    AU14RankPrDOperator: []
+  spawnMenuRoleName: Prodigy Yankee Combat Engineer (3rd party, M41A/2)
+  startingGear: AU14GearPARTYPartyEngineer
   greeting: au14-prodigyparty-greeting
   icon: "RMCJobIconPMCEngineer"
   joinNotifyCrew: false
@@ -30,35 +30,35 @@
 
 
 - type: entity
-  parent: AU14BaseMobSpeciesOrganicWeYu
-  id: AU14JobPARTPartyEngineer
-  name: part Party Combat Engineer (3rd party)
+  parent: AU14BaseMobSpeciesOrganicProdigy
+  id: AU14JobPARTYPartyEngineer
+  name: Prodigy Yankee Combat Engineer (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
-    squad: SquadPMC
+    squad: SquadPARTY
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Combat Engineer
+    name: Prodigy Yankee Combat Engineer
     description: au14-prodigyparty-description
     reregister: false
-    job: AU14JobPARTPartyEngineer
+    job: AU14JobPARTYPartyEngineer
     raffle:
       settings: short
     rules: au14-prodigyparty-description
 
 - type: startingGear
-  id: AU14GearPARTPartyEngineer
+  id: AU14GearPARTYPartyEngineer
   equipment:
     id: AU14IDCardColonyCorporateLiaison
     outerClothing: AU14ArmorProdigyXAS23
     jumpsuit: AU14ProdigyFatiguesRU
     shoes: RMCBootsSPPBlackFilled
     mask: RMCMaskCoifPMC
-    eyes: RMCGlassesMedicalHUDGlasses
-    head: AU14ProdigyBeret
+    eyes: AU14ProdigyWeldingGoggles
+    head: AU14ProdigyBallisticHelmetPART
     gloves: AU14HandsProdigyRU
     belt: AU14BeltUtilityCombatProdigyRUFilled
     pocket1: AU14PouchMagazineLargePARTDualFilled
@@ -86,14 +86,16 @@
     - AU14SynthResetKeyProdigy
     - AU14SynthResetKeyProdigy
     - AU14ProdigyLaptop
-    # 2 empty slots
+    - RMCVisorMedical
+    - AU14MagazineRifleM20A
+    # 0 empty slots
     outerClothing:
     - CMMagazinePistolMK80
-    - CMMagazinePistolMK80
-    - CMMagazinePistolMK80
+    - AU14MagazineRifleM20A
+    - AU14MagazineRifleM20A
     - BarbedWire15
     - BarbedWire15
     # 0 empty slots
 
 - type: playTimeTracker
-  id: AU14JobPARTPartyEngineer
+  id: AU14JobPARTYPartyEngineerTracker
