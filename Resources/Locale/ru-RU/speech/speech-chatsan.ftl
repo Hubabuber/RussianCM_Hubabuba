@@ -1,4 +1,3 @@
-
 # chatsan-word-1 = омг
 
 # chatsan-replacement-1 = о боже мой
