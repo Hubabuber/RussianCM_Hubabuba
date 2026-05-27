@@ -1,20 +1,20 @@
+ent-RMCWindowSPPReinforced = окно военного класса
+  .desc = Стеклянное окно. Свет преломляется неправильно при взгляде сквозь него. Выглядит довольно прочным. Чтобы разбить его, потребуется несколько хороших ударов.
+
 ent-RMCWindowSPPHull = окно корпуса
-  .desc = Стеклянное окно. 
+  .desc = Стеклянное окно. Что-то подсказывает, что оно каким-то образом неразрушимо.
 
-ent-RMCWindowSPPReinforced = окно военного назначения
+ent-RMCWindowSPPHullGrey = { ent-RMCWindowSPPHull }
+  .desc = { ent-RMCWindowSPPHull.desc }
 
-ent-RMCWindowFrameSPPReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowSPPHullWhite = { ent-RMCWindowSPPHull }
+  .desc = { ent-RMCWindowSPPHull.desc }
 
-ent-RMCWindowFrameSPPReinforcedGrey = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameSPPReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameSPPReinforcedWhite = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameSPPReinforcedGrey = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowSPPHullGrey = окно корпуса
-  .desc = Стеклянное окно. 
-
-ent-RMCWindowSPPHullWhite = окно корпуса
-  .desc = Стеклянное окно. 
-
+ent-RMCWindowFrameSPPReinforcedWhite = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }

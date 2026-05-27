@@ -1,24 +1,24 @@
 ent-RMCBaseWindowFrame = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+  .desc = Большая дыра в стене, в которой раньше было большое окно. Через неё можно перепрыгнуть.
 
-ent-RMCWindowFrameAlmayer = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameAlmayer = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameWhite = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameWhite = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameAI = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameAI = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameColony = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameColony = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameColonyReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameColonyReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHunterReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHunterReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameWood = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameWood = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 

@@ -1,34 +1,36 @@
-ent-RMCWindowHybrisaHull = окно корпуса
-  .desc = Стеклянное окно. 
+ent-RMCWindowHybrisa = окно
+  .desc = Стеклянное окно внутри настенной рамы.
 
 ent-RMCWindowHybrisaReinforced = усиленное окно
+  .desc = Стеклянное окно. Свет преломляется неправильно при взгляде сквозь него. Выглядит довольно прочным. Чтобы разбить его, потребуется несколько хороших ударов.
 
-ent-RMCWindowHybrisa = окно
+ent-RMCWindowHybrisaHull = окно корпуса
+  .desc = Стеклянное окно. Свет преломляется неправильно при взгляде сквозь него. Выглядит довольно прочным. Здесь не пройти.
 
-ent-RMCWindowFrameHybrisa = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisa = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHybrisaReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisaReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHybrisaMedicalReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisaMedicalReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHybrisaEngiReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisaEngiReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHybrisaOfficeReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisaOfficeReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHybrisaSpacePort = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisaSpacePort = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHybrisaSpacePortReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisaSpacePortReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHybrisaSpacePortCell = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisaSpacePortCell = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-ent-RMCWindowFrameHybrisaResearchReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameHybrisaResearchReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 

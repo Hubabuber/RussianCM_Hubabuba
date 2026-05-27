@@ -1,41 +1,42 @@
 ent-RMCWindowAIReinforced = усиленное окно
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. Выглядит довольно прочным. Чтобы разбить его, потребуется несколько хороших ударов.
 
-ent-RMCWindowWoodReinforced = усиленное окно
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCWindowWoodReinforced = { ent-RMCWindowAIReinforced }
+  .desc = { ent-RMCWindowAIReinforced.desc }
 
 ent-RMCWindowWood = окно
+  .desc = Стеклянное окно. Выглядит тонким и хлипким. Нескольких ударов чем угодно хватит, чтобы разбить его.
 
-ent-RMCHunterReinforcedWindow = усиленное окно
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCHunterReinforcedWindow = { ent-RMCWindowAIReinforced }
+  .desc = { ent-RMCWindowAIReinforced.desc }
 
-ent-CMWindowWhiteColonyReinforced = усиленное окно
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-CMWindowWhiteColonyReinforced = { ent-RMCWindowAIReinforced }
+  .desc = { ent-RMCWindowAIReinforced.desc }
 
 ent-CMWindowWhiteColony = окно
-  .desc = Стеклянное окно. 
+  .desc = Стеклянное окно. Выглядит тонким и хлипким. Нескольких ударов чем угодно хватит, чтобы разбить его.
 
-ent-CMWindowReinforcedWhite = усиленное окно
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-CMWindowReinforcedWhite = { ent-RMCWindowAIReinforced }
+  .desc = { ent-RMCWindowAIReinforced.desc }
 
 ent-CMWindowReinforcedWhiteHull = окно корпуса
-  .desc = Ультра-усиленное окно, предназначенное для обеспечения безопасности исследований. 
+  .desc = Ультра-усиленное окно, предназначенное для обеспечения безопасности исследований. Изготовлено из экзотических материалов для предотвращения пробоин в корпусе. Здесь не пройти.
 
-ent-CMWindowReinforcedAlmayer = усиленное окно
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-CMWindowReinforcedAlmayer = { ent-RMCWindowAIReinforced }
+  .desc = { ent-RMCWindowAIReinforced.desc }
 
 ent-CMWindowReinforcedAlmayerHull = окно корпуса
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. Изготовлено из экзотических материалов для предотвращения пробоин в корпусе. Здесь не пройти.
 
-ent-RMCWindowReinforcedAIHull = окно корпуса
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCWindowReinforcedAIHull = { ent-CMWindowReinforcedAlmayerHull }
+  .desc = { ent-CMWindowReinforcedAlmayerHull.desc }
 
-ent-RMCWindowReinforcedAIHullBlack = окно корпуса
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCWindowReinforcedAIHullBlack = { ent-CMWindowReinforcedAlmayerHull }
+  .desc = { ent-CMWindowReinforcedAlmayerHull.desc }
 
-ent-RMCWindowReinforcedAlmayerHullHijackBustable = окно корпуса
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCWindowReinforcedAlmayerHullHijackBustable = { ent-CMWindowReinforcedAlmayerHull }
+  .desc = { ent-CMWindowReinforcedAlmayerHull.desc }
 
 ent-CMWindowWhiteColonyHull = окно корпуса
-  .desc = Стеклянное окно. 
+  .desc = Стеклянное окно. Свет преломляется неправильно при взгляде сквозь него. Выглядит довольно прочным. Здесь не пройти.
 

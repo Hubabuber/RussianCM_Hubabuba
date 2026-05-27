@@ -1,48 +1,48 @@
-ent-CMIntercom = домофон
-  .desc = Домофон. 
+ent-CMIntercom = интерком
+  .desc = Интерком. На случай, когда нужно что-то сообщить.
 
-ent-CMIntercomCommon = домофон
-  .desc = Домофон. 
+ent-CMIntercomCommon = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomCommand = домофон
-  .desc = Домофон. 
+ent-CMIntercomCommand = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomMedical = домофон
-  .desc = Домофон. 
+ent-CMIntercomMedical = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomEngineering = домофон
-  .desc = Домофон. 
+ent-CMIntercomEngineering = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomMilitaryPolice = домофон
-  .desc = Домофон. 
+ent-CMIntercomMilitaryPolice = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomRequisition = домофон
-  .desc = Домофон. 
+ent-CMIntercomRequisition = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomIntel = домофон
-  .desc = Домофон. 
+ent-CMIntercomIntel = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomAlpha = домофон
-  .desc = Домофон. 
+ent-CMIntercomAlpha = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomBravo = домофон
-  .desc = Домофон. 
+ent-CMIntercomBravo = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomCharlie = домофон
-  .desc = Домофон. 
+ent-CMIntercomCharlie = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomDelta = домофон
-  .desc = Домофон. 
+ent-CMIntercomDelta = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomEcho = домофон
-  .desc = Домофон. 
+ent-CMIntercomEcho = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomFoxtrot = домофон
-  .desc = Домофон. 
+ent-CMIntercomFoxtrot = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomColony = домофон
-  .desc = Домофон. 
+ent-CMIntercomColony = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 
-ent-CMIntercomAll = домофон
-  .desc = Домофон. 
+ent-CMIntercomAll = { ent-CMIntercom }
+  .desc = { ent-CMIntercom.desc }
 

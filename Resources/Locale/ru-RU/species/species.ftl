@@ -9,14 +9,9 @@ species-name-arachnid = Арахнид
 species-name-moth = Ниан
 species-name-skeleton = Скелет
 species-name-vox = Вокс
-species-name-gingerbread = вкуснейшая выпечка
-
-## Misc species things
+species-name-gingerbread = Пряничный человек
 
 snail-hurt-by-salt-popup = Солевой раствор жжёт как кислота!
 
-# Missing entries synced from en-US
+species-name-tribal = Абориген
 
-species-name-tribal = племенной
-
-## Misc species things

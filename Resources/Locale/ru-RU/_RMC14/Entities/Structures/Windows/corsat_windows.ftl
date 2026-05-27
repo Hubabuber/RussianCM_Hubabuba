@@ -1,18 +1,21 @@
-ent-RMCWindowCorsatHull = окно корпуса
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
-
 ent-RMCWindowCorsatReinforced = усиленное окно
+  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. Выглядит довольно прочным. Чтобы разбить его, потребуется несколько хороших ударов.
 
-ent-RMCWindowFrameCorsatReinforced = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
+ent-RMCWindowFrameCorsatReinforced = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }
 
-  .desc = Окно из красного тонированного стекла со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCWindowCorsatReinforcedSecurity = { ent-RMCWindowCorsatReinforced }
+  .desc = Окно из красного тонированного стекла со специальной стержневой матрицей внутри настенной рамы. Выглядит очень прочным.
 
-  .desc = Окно из тонированного фиолетового стекла со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCWindowCorsatReinforcedResearch = { ent-RMCWindowCorsatReinforced }
+  .desc = Окно из фиолетового тонированного стекла со специальной стержневой матрицей внутри настенной рамы. Выглядит довольно прочным. Чтобы разбить его, потребуется несколько хороших ударов.
 
-ent-RMCWindowCorsatHullResearch = окно корпуса
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCWindowCorsatHull = окно корпуса
+  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. Оснащено автоматической системой жалюзи для предотвращения разгерметизации.
 
-ent-RMCWindowCorsatHullSec = окно корпуса
-  .desc = Стеклянное окно со специальной стержневой матрицей внутри настенной рамы. 
+ent-RMCWindowCorsatHullResearch = { ent-RMCWindowCorsatHull }
+  .desc = { ent-RMCWindowCorsatHull.desc }
+
+ent-RMCWindowCorsatHullSec = { ent-RMCWindowCorsatHull }
+  .desc = { ent-RMCWindowCorsatHull.desc }
 

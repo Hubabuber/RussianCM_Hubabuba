@@ -1,30 +1,39 @@
-ent-DrinkGlass-name = метаморфическое стекло
-ent-DrinkGlass-desc = Метаморфический стакан, который автоматически превращается в стакан, подходящий для напитка внутри. Внизу отшлифованный номер патента.
+ent-DrinkBase = напиток
+  .desc = { "" }
 
-ent-DrinkGlassCoupeShaped-name = купе стекло
-ent-DrinkGlassCoupeShaped-desc = Классическое стекло-купе с тонким горлышком, символ хрупких этикеток на ящиках по всей галактике.
+ent-DrinkGlassBase = стакан
+  .desc = { "" }
 
-ent-DrinkHoochGlass-desc = Вы действительно достигли дна... ваша печень собрала свои вещи и ушла вчера вечером.
+ent-DrinkGlass = метаморфический стакан
+  .desc = Метаморфический стакан, который автомагически превращается в подходящий для напитка сосуд. На дне отшлифован номер патента.
 
-ent-DrinkTeapot-name = чайник
-ent-DrinkTeapot-desc = Элегантный чайник. Это просто источает класс.
+ent-DrinkGlassCoupeShaped = бокал-купе
+  .desc = Классический бокал-купе с тонким горлышком — символ хрупкости на ящиках по всей галактике.
 
-ent-DrinkWaterJug-name = кувшин с водой
-ent-DrinkWaterJug-desc = Оставайтесь увлажненными.
+ent-DrinkHoochGlass = { ent-DrinkGlass }
+  .desc = Вы действительно достигли дна... ваша печень собрала вещи и ушла вчера вечером.
 
-ent-DrinkShakeBlue-name = синий молочный коктейль
+ent-DrinkTeapot = чайник
+  .desc = Элегантный чайник. Просто источает класс.
 
-ent-DrinkShakeEmpty-name = встряхнуть
+ent-DrinkWaterJug = кувшин с водой
+  .desc = Оставайтесь увлажнёнными.
 
-ent-DrinkShakeMeat-name = мясной коктейль
+ent-DrinkShakeBlue = синий молочный коктейль
+  .desc = { "" }
 
-ent-DrinkShakeRobo-name = робот-тряска
+ent-DrinkShakeEmpty = пустой коктейль
+  .desc = { "" }
 
-ent-DrinkShakeWhite-name = белый коктейль
+ent-DrinkShakeMeat = мясной коктейль
+  .desc = { "" }
 
-ent-DrinkBacchusBlessing-desc = Вы не думали, что жидкость может быть настолько отвратительной. Вы уверены в этом...?
+ent-DrinkShakeRobo = робо-коктейль
+  .desc = { "" }
 
-ent-DrinkBase-name = элемент
+ent-DrinkShakeWhite = белый коктейль
+  .desc = { "" }
 
-ent-DrinkGlassBase-name = элемент
+ent-DrinkBacchusBlessing = { ent-DrinkGlass }
+  .desc = Вы не думали, что жидкость может быть настолько отвратительной. Вы уверены в этом...?
 

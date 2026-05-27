@@ -120,6 +120,8 @@ rmc-ui-options-announcements-style-disabled = Disabled
 rmc-ui-options-announcements-style-per-announcement = Announcement visuals by source
 rmc-ui-options-announcements-style-inherit = Use global setting
 
-# Dialog input
 rmc-dialog-input-placeholder-default = Enter text
 rmc-dialog-input-placeholder-smart-check = More than 3 consecutive spaces will be trimmed
+
+rmc-dialog-confirm-yes = Yes
+rmc-dialog-confirm-no = No

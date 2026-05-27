@@ -1,36 +1,59 @@
-ent-AUbudgetConsole-name = бюджетная консоль
-ent-AUbudgetConsole-desc = Бюджетная консоль
-ent-AUSubmissionPointBase-name = Пункт сдачи ресурсов
-ent-AUSubmissionPointBase-desc = Место для сдачи ресурсов.
-ent-AUSubmissionPointSteel-name = Пункт сдачи ресурсов (сталь)
-ent-AUSubmissionPointSteel-desc = Место для сдачи ресурсов.
-ent-AUSubmissionPointWood-name = Пункт сдачи ресурсов (древесина)
-ent-AUSubmissionPointWood-desc = Место для сдачи ресурсов.
-ent-AUSubmissionPointVegetables-name = Пункт сдачи ресурсов (овощи)
-ent-AUSubmissionPointVegetables-desc = Место для сдачи ресурсов.
-ent-AUColonyCommsConsole-name = Консоль связи колонии
-ent-AUColonyCommsConsole-desc = Используется для отправки объявлений на все внутренние интеркомы колонии.
-ent-AUColonyIntercom-name = Колониальный интерком
-ent-AUColonyIntercom-desc = Публичный интерком для общих колониальных объявлений.
-ent-colonysiren-name = Сирена колонии
-ent-colonysiren-desc = Издаёт громкий звук при активации.
-ent-AUColonyATM-name = Колониальный банкомат
-ent-AUColonyATM-desc = Приложите ID-карту к устройству, чтобы снять наличные с личного счёта.
-ent-AUDepartmentConsoleBase-name = Консоль отдела
-ent-AUDepartmentConsoleBase-desc = Консоль для управления сотрудниками отдела, зарплатами и коммуникациями. Внесите наличные для финансирования отдела.
-ent-AUDepartmentConsoleMedical-name = Консоль медицинского отдела
-ent-AUDepartmentConsoleMedical-desc = Управляет сотрудниками, зарплатами и объявлениями для медицинского отдела.
-ent-AUDepartmentConsoleEngineering-name = Консоль инженерного отдела
-ent-AUDepartmentConsoleEngineering-desc = Управляет сотрудниками, зарплатами и объявлениями для инженерного отдела.
-ent-AUDepartmentConsoleSecurity-name = Консоль отдела безопасности
-ent-AUDepartmentConsoleSecurity-desc = Управляет сотрудниками, зарплатами и объявлениями для отдела безопасности.
-ent-AUDepartmentConsoleLabor-name = Консоль рабочего отдела
-ent-AUDepartmentConsoleLabor-desc = Управляет сотрудниками, зарплатами и объявлениями для рабочего отдела.
-ent-AUDepartmentConsoleCommand-name = Консоль командного отдела
-ent-AUDepartmentConsoleCommand-desc = Управляет сотрудниками, зарплатами и объявлениями для командного отдела.
-ent-AUDepartmentConsoleCivilian-name = Консоль гражданского отдела
-ent-AUDepartmentConsoleCivilian-desc = Управляет сотрудниками, зарплатами и объявлениями для гражданского отдела.
-ent-AUDepartmentConsoleServices-name = Консоль отдела услуг
-ent-AUDepartmentConsoleServices-desc = Управляет сотрудниками, зарплатами и объявлениями для отдела услуг.
-ent-AUDepartmentConsoleCorporate-name = Консоль корпоративного отдела
-ent-AUDepartmentConsoleCorporate-desc = Управляет сотрудниками, зарплатами и объявлениями для корпоративного отдела.
+ent-AUbudgetConsole = консоль бюджета
+  .desc = Консоль бюджета.
+
+ent-AUSubmissionPointBase = пункт сдачи ресурсов
+  .desc = Место для сдачи ресурсов.
+
+ent-AUSubmissionPointSteel = пункт сдачи ресурсов (сталь)
+  .desc = { ent-AUSubmissionPointBase.desc }
+
+ent-AUSubmissionPointWood = пункт сдачи ресурсов (древесина)
+  .desc = { ent-AUSubmissionPointBase.desc }
+
+ent-AUSubmissionPointVegetables = пункт сдачи ресурсов (овощи)
+  .desc = { ent-AUSubmissionPointBase.desc }
+
+ent-AUColonyCommsConsole = консоль связи колонии
+  .desc = Используется для отправки объявлений на все внутренние интеркомы колонии.
+
+ent-AUColonyIntercom = колониальный интерком
+  .desc = Публичный интерком для общих колониальных объявлений.
+
+ent-colonysiren = сирена колонии
+  .desc = Издаёт громкий звук при активации.
+
+ent-AUColonyATM = колониальный банкомат
+  .desc = Приложите ID-карту к устройству, чтобы снять наличные с личного счёта.
+
+ent-AUDepartmentConsoleBase = консоль отдела
+  .desc = Консоль для управления сотрудниками отдела, зарплатами и коммуникациями. Внесите наличные для финансирования отдела.
+
+ent-AUDepartmentConsoleMedical = консоль медицинского отдела
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для медицинского отдела.
+
+ent-AUDepartmentConsoleEngineering = консоль инженерного отдела
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для инженерного отдела.
+
+ent-AUDepartmentConsoleSecurity = консоль отдела безопасности
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для отдела безопасности.
+
+ent-AUDepartmentConsoleLabor = консоль рабочего отдела
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для рабочего отдела.
+
+ent-AUDepartmentConsoleCommand = консоль командного отдела
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для командного отдела.
+
+ent-AUDepartmentConsoleCivilian = консоль гражданского отдела
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для гражданского отдела.
+
+ent-AUDepartmentConsoleServices = консоль отдела услуг
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для отдела услуг.
+
+ent-AUDepartmentConsoleCorporate = консоль корпоративного отдела
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для корпоративного отдела.
+
+ent-AUDepartmentConsoleHydroponics = консоль отдела гидропоники
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для отдела гидропоники.
+
+ent-AUDepartmentConsoleLumbermill = консоль отдела лесопилки
+  .desc = Управляет сотрудниками, зарплатами и объявлениями для отдела лесопилки.
