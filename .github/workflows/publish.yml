@@ -63,19 +63,9 @@ jobs:
           git tag "$TAG" -m "Release $TAG"
           git push origin "$TAG"
 
-      - name: Publish changelog (Discord — YAML)
+      - name: Publish changelog (Discord - YAML)
         continue-on-error: true
         run: Tools/actions_changelogs_since_last_run.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
-
-      - name: Publish AI changelog (Discord — Mistral)
-        continue-on-error: true
-        run: python3 Tools/ai_changelog.py
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}

@@ -10,40 +10,57 @@ jobs:
 
     steps:
       - name: Send Discord Embed
+        env:
+          DISCORD_WEBHOOK_PR: ${{ secrets.DISCORD_WEBHOOK_PR }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_AUTHOR: ${{ github.actor }}
+          PR_HEAD: ${{ github.event.pull_request.head.ref }}
+          PR_BASE: ${{ github.event.pull_request.base.ref }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_STATUS: ${{ github.event.pull_request.draft == true && 'Draft' || 'Ready' }}
         run: |
-          curl -H "Content-Type: application/json" \
-          -X POST \
-          -d '{
-            "embeds": [
-              {
-                "title": "📢 Новый Pull Request",
-                "description": "**${{ github.event.pull_request.title }}**",
-                "url": "${{ github.event.pull_request.html_url }}",
-                "color": 5814783,
-                "author": {
-                  "name": "${{ github.actor }}"
-                },
-                "fields": [
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          body = {
+              "embeds": [
                   {
-                    "name": "📦 Бранч",
-                    "value": "${{ github.event.pull_request.head.ref }} → ${{ github.event.pull_request.base.ref }}",
-                    "inline": true
-                  },
-                  {
-                    "name": "🔢 Номер PR",
-                    "value": "#${{ github.event.pull_request.number }}",
-                    "inline": true
-                  },
-                  {
-                    "name": "🕒 Статус",
-                    "value": "${{ github.event.pull_request.draft == true && 'Draft' || 'Ready' }}",
-                    "inline": true
+                      "title": "Новый Pull Request",
+                      "description": f"**{os.environ['PR_TITLE']}**",
+                      "url": os.environ["PR_URL"],
+                      "color": 5814783,
+                      "author": {"name": os.environ["PR_AUTHOR"]},
+                      "fields": [
+                          {
+                              "name": "Бранч",
+                              "value": f"{os.environ['PR_HEAD']} -> {os.environ['PR_BASE']}",
+                              "inline": True,
+                          },
+                          {
+                              "name": "Номер PR",
+                              "value": f"#{os.environ['PR_NUMBER']}",
+                              "inline": True,
+                          },
+                          {
+                              "name": "Статус",
+                              "value": os.environ["PR_STATUS"],
+                              "inline": True,
+                          },
+                      ],
+                      "footer": {"text": "GitHub Actions"},
                   }
-                ],
-                "footer": {
-                  "text": "GitHub Actions"
-                }
-              }
-            ]
-          }' \
-          ${{ secrets.DISCORD_WEBHOOK_PR }}
+              ]
+          }
+
+          request = urllib.request.Request(
+              os.environ["DISCORD_WEBHOOK_PR"],
+              data=json.dumps(body).encode("utf-8"),
+              headers={"Content-Type": "application/json"},
+              method="POST",
+          )
+          with urllib.request.urlopen(request, timeout=30) as response:
+              response.read()
+          PY
