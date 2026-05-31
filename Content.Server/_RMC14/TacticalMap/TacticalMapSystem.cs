@@ -2413,10 +2413,13 @@ public sealed partial class TacticalMapSystem : SharedTacticalMapSystem
                 // Advance the timer immediately to avoid re-entrancy causing multiple updates this tick.
                 map.NextUpdatePerFaction[faction] = time + _mapUpdateEvery;
 
-                // Update open computers that are configured for this faction
+                // Update open computers that are configured for this faction (skip overwatch consoles — they use per-console timers)
                 var computers = EntityQueryEnumerator<TacticalMapComputerComponent>();
                 while (computers.MoveNext(out var computerId, out var computer))
                 {
+                    if (HasComp<OverwatchConsoleComponent>(computerId))
+                        continue;
+
                     if (!_ui.IsUiOpen(computerId, TacticalMapComputerUi.Key))
                         continue;
 
@@ -2480,6 +2483,20 @@ public sealed partial class TacticalMapSystem : SharedTacticalMapSystem
                     else if (faction == "CLF" && tunnelUserComp.Clf)
                         UpdateUserData((tunnelUserId, tunnelUserComp), map);
                 }
+            }
+
+            // Per-console timer updates for overwatch consoles (independent of faction timers).
+            var overwatchConsoles = EntityQueryEnumerator<TacticalMapComputerComponent, OverwatchConsoleComponent>();
+            while (overwatchConsoles.MoveNext(out var consoleId, out var consoleComp, out _))
+            {
+                if (!_ui.IsUiOpen(consoleId, TacticalMapComputerUi.Key))
+                    continue;
+
+                if (time < consoleComp.NextUpdate)
+                    continue;
+
+                consoleComp.NextUpdate = time + _mapUpdateEvery;
+                UpdateMapData((consoleId, consoleComp), map);
             }
 
             // We've processed per-faction updates for this map this tick; clear dirty flag.

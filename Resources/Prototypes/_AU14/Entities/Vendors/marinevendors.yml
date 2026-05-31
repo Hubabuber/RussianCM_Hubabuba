@@ -919,11 +919,11 @@
       entries:
       - id: CMSandbagEmpty25
         recommended: true
-        amount: 60
+        amount: 1
       - id: BarbedWire15
-        amount: 6
+        amount: 2
       - id: CMSheetMetal50
-        amount: 3
+        amount: 2
       - id: CMSheetPlasteel50
         amount: 1
       - id: RMCBoxMagazinePowerCellsHighFilled
@@ -931,7 +931,7 @@
       - id: RMCEngineerKit
         amount: 1
       - id: RMCPowerCellHigh
-        amount: 5
+        amount: 2
       - id: RMCCableCoil
         amount: 15
     - name: Flares and lights
@@ -990,10 +990,7 @@
     - name: RTO Backpack
       choices: { RTOBackpack: 1 }
       entries:
-      - id: AU14BackpackRTOPackJungle
-      - id: AU14BackpackRTOPackDesert
-      - id: AU14BackpackRTOPackGray
-      - id: AU14BackpackRTOPackBlack
+      - id: RMCBackpackRTO
     - name: Equipment
       takeAll: CMStandard
       entries:
@@ -1188,9 +1185,9 @@
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
+  - type: AccessReader
+    access: [["AU14AccessGovforSecurity" ], [ "AU14AccessOpforSecurity" ]]
   - type: CMAutomatedVendor
-    jobs:
-    - AU14JobMilitaryPoliceBase
     sections:
     - name: Standard Equipment
       takeAll: CMStandard
@@ -1198,8 +1195,8 @@
       - id: CMGlassesSecurity
       - id: CMBeltSecurityMPFilled
       - id: RMCBoxZiptie
-      - id: RMCGuidebookLawMarine
-      - id: RMCGuidebookSOP
+      - id: AU14GuidebookLawMarine
+      - id: AU14GuidebookSOP
       - id: AU14Scissors
     - name: Uniform
       choices: { AU14Uniform: 1 }

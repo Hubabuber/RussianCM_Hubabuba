@@ -84,6 +84,19 @@
     faction: govfor
 
 - type: entity
+  parent: RMCGroundsideOperationsConsole
+  id: RMCGroundsideOperationsConsoleOpfor
+  suffix: Opfor
+  components:
+  - type: OverwatchConsole
+    canMessageSquad: false
+    group: OPFOR
+  - type: TacticalMapComputer
+    faction: opfor
+  - type: AccessReader
+    access: [ [ "AU14AccessOpforCommand" ] ]
+
+- type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCWarshipControlConsole
   name: almayer control console

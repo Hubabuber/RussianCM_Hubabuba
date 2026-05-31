@@ -1,5 +1,19 @@
 - type: job
+  abstract: true
   parent: AU14JobWorkingJoeBase
+  id: AU14JobGOVFORWorkingJoeBase
+  icon: "AU14JobIconGovWorkingJoe"
+  spawnMenuRoleName: Working Joe (GOVFOR)
+  supervisors: au14-job-supervisors-workingjoe-military
+  dummyStartingGear: AU14GearGOVFORWorkingJoe
+  usePlayerProfile: false
+  accessGroups:
+  - AU14GovforCommand
+  - AUPrisonStaff
+  - auwy
+
+- type: job
+  parent: AU14JobGOVFORWorkingJoeBase
   id: AU14JobGOVFORWorkingJoe
   whitelisted: true
   whitelistParent: RMCWhitelistMedium
@@ -14,12 +28,6 @@
     - FrontalLisp
     - NonResuscitable
     - Epilepsy
-  icon: "AU14JobIconGovWorkingJoe"
-  spawnMenuRoleName: Working Joe (GOVFOR)
-  supervisors: au14-job-supervisors-workingjoe-military
-  usePlayerProfile: false
-  accessGroups:
-  - AU14GovforCommand
   special:
   - !type:AddComponentSpecial
     components:
@@ -35,6 +43,7 @@
       - radioGovforCharlie
       - radioGovforBravo
       - radioGovforIntel
+      - radioGovforMILP
     - type: ActiveRadio
       channels:
       - radioAI
@@ -44,15 +53,9 @@
       - radioGovforCharlie
       - radioGovforBravo
       - radioGovforIntel
-    - type: Access
-      groups:
-      - AU14GovforCommand
-      - AUPrisonStaff
-      - auwy
+      - radioGovforMILP
     - type: Loadout
       prototypes: [ AU14GearGOVFORWorkingJoe ]
-  dummyStartingGear: AU14GearGOVFORWorkingJoe
-  hidden: false
 
 - type: startingGear
   parent: AU14GearWorkingJoeBase

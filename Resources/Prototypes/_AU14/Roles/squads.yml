@@ -417,6 +417,28 @@
     tags:
     - SquadHRT
 
+- type: entity
+  parent: SquadBase
+  id: AU14SquadMSG
+  name: Marine Guard
+  components:
+  - type: SquadTeam
+    color: "#2e4f68"
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: UASOF
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_ua
+    canSupplyDrop: false
+    group: MSG
+  - type: Tag
+    tags:
+    - AU14SquadMSG
+
 - type: Tag
   id: SquadHRT
 
@@ -462,3 +484,5 @@
 - type: Tag
   id: AU14SquadVAISP
 
+- type: Tag
+  id: AU14SquadMSG

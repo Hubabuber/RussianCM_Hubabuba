@@ -193,11 +193,19 @@ public abstract partial class SharedRMCFlammableSystem : EntitySystem
         if (time < patter.Last + patter.Cooldown)
             return;
 
+        args.Handled = true;
         patter.Last = time;
         Dirty(user, patter);
 
-        ent.Comp.Duration -= patter.RemoveDuration * ent.Comp.PatExtinguishMultiplier;
-        Dirty(ent);
+        ent.Comp.CurrentPats++;
+        if (ent.Comp.CurrentPats >= ent.Comp.PatsToExtinguish)
+        {
+            QueueDel(ent);
+        }
+        else
+        {
+            Dirty(ent);
+        }
 
         _rmcMelee.DoLunge(user, ent);
         _audio.PlayPredicted(patter.Sound, user, user, AudioParams.Default.WithVolume(-8).WithVariation(0.05f));
