@@ -648,12 +648,13 @@ public sealed partial class GhostRoleSystem : EntitySystem
         }
 
         string characterName;
-        if (role.JobProto is { } jobId
-                && _prototype.TryIndex(jobId, out JobPrototype? jobProto)
-                && !jobProto.UsePlayerProfile)
-            characterName = Comp<MetaDataComponent>(mob).EntityName;
-        else
-            characterName = GetGhostRoleCharacterName(player, mob);
+        // if (role.JobProto is { } jobId // RuMC edit
+        //         && _prototype.TryIndex(jobId, out JobPrototype? jobProto)
+        //         && !jobProto.UsePlayerProfile)
+        //     characterName = Comp<MetaDataComponent>(mob).EntityName;
+        // else
+        //     characterName = GetGhostRoleCharacterName(player, mob);
+        characterName = Comp<MetaDataComponent>(mob).EntityName;
         var newMind = _mindSystem.CreateMind(player.UserId, characterName);
 
         Log.Debug($"GhostRoleInternalCreateMindAndTransfer: created mind {newMind.Owner} for player {player.Name} (user {player.UserId}) targeting mob {mob}");
@@ -672,6 +673,7 @@ public sealed partial class GhostRoleSystem : EntitySystem
             markerRole.Value.Comp2.Name = role.RoleName;
     }
 
+    /* // RuMC edit
     private string GetGhostRoleCharacterName(ICommonSession player, EntityUid mob)
     {
         if (TryApplyPlayerProfileName(player, mob, out var characterName))
@@ -702,6 +704,7 @@ public sealed partial class GhostRoleSystem : EntitySystem
         _identity.QueueIdentityUpdate(mob);
         return true;
     }
+    */
 
     /// <summary>
     /// Returns the number of available ghost roles.
