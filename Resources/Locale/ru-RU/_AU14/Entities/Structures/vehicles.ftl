@@ -1,88 +1,131 @@
-ent-AU14PropVehicleWhiteVan-name = Белый фургон
-ent-AU14PropVehicleWhiteVan-desc = Транспортное средство.
-ent-AU14PropVehicleBlueVan-name = Синий фургон
-ent-AU14PropVehicleBlueVan-desc = Транспортное средство.
-ent-AU14PropVehicleKellandMiningVan-name = Фургон Kelland Mining
-ent-AU14PropVehicleKellandMiningVan-desc = Транспортное средство.
-ent-AU14PropVehicleMaintenanceVan-name = Ремонтный фургон
-ent-AU14PropVehicleMaintenanceVan-desc = Транспортное средство.
-ent-AU14PropVehiclePizzaVan-name = Фургон для пиццы
-ent-AU14PropVehiclePizzaVan-desc = Транспортное средство.
-ent-AU14PropVehicleCrane-name = Мобильный кран
-ent-AU14PropVehicleCrane-desc = Транспортное средство.
-ent-AU14PropVehicleCargoCrane-name = грузовой кран
-ent-AU14PropVehicleCargoCrane-desc = Транспортное средство.
-ent-AU14PropVehicleDamagedCrane-name = грузовой кран
-ent-AU14PropVehicleDamagedCrane-desc = Повреждённое транспортное средство.
-ent-AU14PropVehicleAmbulance-name = Скорая помощь
-ent-AU14PropVehicleAmbulance-desc = Транспортное средство.
-ent-AU14LargeTruckArmoredBlue-name = Синий бронированный грузовик
-ent-AU14LargeTruckArmoredBlue-desc = Транспортное средство.
-ent-AU14LargeTruckArmoredTeal-name = Бирюзовый бронированный грузовик
-ent-AU14LargeTruckArmoredTeal-desc = Транспортное средство.
-ent-AU14LargeTruckArmoredWYBlack-name = Бронированный грузовик Weyland-Yutani
-ent-AU14LargeTruckArmoredWYBlack-desc = Транспортное средство.
-ent-AU14LargeTruckArmoredWYWhite-name = Бронированный грузовик Weyland-Yutani
-ent-AU14LargeTruckArmoredWYWhite-desc = Транспортное средство.
-ent-AU14LargeTruckLongBlue-name = Грузовой тягач
-ent-AU14LargeTruckLongBlue-desc = Транспортное средство.
-ent-AU14LargeTruckLongBrown-name = Грузовой тягач
-ent-AU14LargeTruckLongBrown-desc = Транспортное средство.
-ent-AU14LargeTruckLongDonkPockets-name = Грузовой тягач
-ent-AU14LargeTruckLongDonkPockets-desc = Транспортное средство.
-ent-AU14LargeTruckLongKellandMining-name = Грузовой тягач Kelland Mining
-ent-AU14LargeTruckLongKellandMining-desc = Транспортное средство.
-ent-AU14LargeTruckLongRed-name = Грузовой тягач
-ent-AU14LargeTruckLongRed-desc = Транспортное средство.
-ent-AU14LargeTruckLongWYBlack-name = Грузовой тягач Weyland-Yutani
-ent-AU14LargeTruckLongWYBlack-desc = Транспортное средство.
-ent-AU14LargeTruckLongWYBlue-name = Грузовой тягач Weyland-Yutani
-ent-AU14LargeTruckLongWYBlue-desc = Транспортное средство.
-ent-AU14PropAPCMedical-name = Медицинский БТР КМП США
-ent-AU14PropAPCMedical-desc = Транспортное средство.
-ent-AU14PropAPCNormal-name = БТР КМП США
-ent-AU14PropAPCNormal-desc = Транспортное средство.
-ent-AU14PropHemettTruckNoBed-name = Военный грузовик
-ent-AU14PropHemettTruckNoBed-desc = Транспортное средство.
-ent-AU14PropHemettTruckOpenBed-name = Военный грузовик
-ent-AU14PropHemettTruckOpenBed-desc = Транспортное средство.
-ent-AU14PropHemettTruckClosedBed-name = Военный грузовик
-ent-AU14PropHemettTruckClosedBed-desc = Транспортное средство.
-ent-AU14PropCLFVanProp-name = Фургон КОФ
-ent-AU14PropCLFVanProp-desc = Транспортное средство.
-ent-AU14PropARCDamaged-name = Повреждённый ARC КМП США
-ent-AU14PropARCDamaged-desc = Транспортное средство.
-ent-AU14PropTWETankSouth-name = Танк ИТМ
-ent-AU14PropTWETankSouth-desc = Транспортное средство.
-ent-AU14PropUSCMBison-name = Грузовой транспорт Bison
-ent-AU14PropUSCMBison-desc = Транспортное средство.
-ent-AU14PropUSCMBison2-name = Повреждённый грузовой транспорт Bison
-ent-AU14PropUSCMBison2-desc = Транспортное средство.
-ent-AU14PropUSCMBison3-name = Грузовой транспорт Bison
-ent-AU14PropUSCMBison3-desc = Транспортное средство.
-ent-AU14PropUSCMBison4-name = Повреждённый грузовой транспорт Bison
-ent-AU14PropUSCMBison4-desc = Транспортное средство.
-ent-AU14PropThroopArmoredTruck1-name = Бронированный грузовик быстрого реагирования Throop
-ent-AU14PropThroopArmoredTruck1-desc = Транспортное средство.
-ent-AU14PropUSASFAircraft2-name = A/X-91 «Wraith» ССО США
-ent-AU14PropUSASFAircraft2-desc = A/X-91 Wraith — трансатмосферный истребитель с вертикальным взлётом и посадкой, построенный для ССО США. Эта модель вооружена сдвоенными ротационными пушками GUA-19, семью блоками ракет Hydra и двумя противотанковыми ракетами AGM-291.
-ent-AU14PropUSASFAircraft3-name = А/Х-90 «Шакал»
-ent-AU14PropUSASFAircraft3-desc = A/X-90 Jackal — аналог ССО США A/X-91 в КМП США. Он создан для массовой высадки и орбитального вторжения во враждебные зоны. Хотя он сохраняет базовые возможности непосредственной авиационной поддержки, Jackal в первую очередь предназначен для передовой разведки, целеуказания и расчистки маршрутов перед высадкой морпехов.
-ent-AU14PropUSCMIFV2-name = Боевая машина пехоты
-ent-AU14PropUSCMIFV2-desc = Транспортное средство.
-ent-AU14PropUSCMIFV3-name = Уничтоженная боевая машина пехоты
-ent-AU14PropUSCMIFV3-desc = Транспортное средство.
-ent-AU14PropUSCMTroopTruck2-name = Грузовик для перевозки войск
-ent-AU14PropUSCMTroopTruck2-desc = Транспортное средство.
-ent-AU14PropUSCMTroopTruck3-name = Уничтоженный грузовик для перевозки войск
-ent-AU14PropUSCMTroopTruck3-desc = Транспортное средство.
-ent-AU14PropUSCMTroopTruck4-name = Грузовик для перевозки войск с тентом
-ent-AU14PropUSCMTroopTruck4-desc = Транспортное средство.
-ent-AU14PropUSCMTroopTruck5-name = Уничтоженный грузовик для перевозки войск с тентом
-ent-AU14PropUSCMTroopTruck5-desc = Транспортное средство.
-ent-AU14PropVTOL1-name = Военный СВВП
-ent-AU14PropVTOL1-desc = Летательный аппарат.
-ent-AU14PropVTOL2-name = Уничтоженный военный СВВП
-ent-AU14PropVTOL2-desc = Летательный аппарат.
-ent-AU14propstockcar-name = гоночный автомобиль
-ent-AU14propstockcar-desc = Гоночный автомобиль, использовавшийся знаменитым автогонщиком США Джоном Уэйном-младшим. Просто притворись, что нагнетатель — заводской.
+ent-AU14PropVehicleWhiteVan = белый фургон
+    .desc = Транспортное средство.
+
+ent-AU14PropVehicleBlueVan = синий фургон
+    .desc = Транспортное средство.
+
+ent-AU14PropVehicleKellandMiningVan = фургон горнодобывающей компании Келланд
+    .desc = Транспортное средство.
+
+ent-AU14PropVehicleMaintenanceVan = фургон техобслуживания
+    .desc = Транспортное средство.
+
+ent-AU14PropVehiclePizzaVan = фургон доставки пиццы
+    .desc = Транспортное средство.
+
+ent-AU14PropVehicleCrane = мобильный кран
+    .desc = Транспортное средство.
+
+ent-AU14PropVehicleCargoCrane = грузовой кран
+    .desc = Транспортное средство.
+
+ent-AU14PropVehicleDamagedCrane = грузовой кран
+    .desc = Повреждённое транспортное средство.
+
+ent-AU14PropVehicleAmbulance = машина скорой помощи
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckArmoredBlue = синий бронированный грузовик
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckArmoredTeal = бирюзовый бронированный грузовик
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckArmoredWYBlack = бронированный грузовик Вейланд-Ютани
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckArmoredWYWhite = бронированный грузовик Вейланд-Ютани
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckLongBlue = грузовой тягач
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckLongBrown = грузовой тягач
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckLongDonkPockets = грузовой тягач
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckLongKellandMining = грузовой тягач горнодобывающей компании Келланд
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckLongRed = грузовой тягач
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckLongWYBlack = грузовой тягач Вейланд-Ютани
+    .desc = Транспортное средство.
+
+ent-AU14LargeTruckLongWYBlue = грузовой тягач Вейланд-Ютани
+    .desc = Транспортное средство.
+
+ent-AU14PropAPCMedical = медицинский БТР КМП США
+    .desc = Транспортное средство.
+
+ent-AU14PropAPCNormal = БТР КМП США
+    .desc = Транспортное средство.
+
+ent-AU14PropHemettTruckNoBed = военный грузовик
+    .desc = Транспортное средство.
+
+ent-AU14PropHemettTruckOpenBed = военный грузовик
+    .desc = Транспортное средство.
+
+ent-AU14PropHemettTruckClosedBed = военный грузовик
+    .desc = Транспортное средство.
+
+ent-AU14PropCLFVanProp = фургон КОФ
+    .desc = Транспортное средство.
+
+ent-AU14PropARCDamaged = повреждённый ARC КМП США
+    .desc = Транспортное средство.
+
+ent-AU14PropTWETankSouth = танк ИТМ
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMBison = грузовой транспорт Бизон
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMBison2 = повреждённый грузовой транспорт Бизон
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMBison3 = грузовой транспорт Бизон
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMBison4 = повреждённый грузовой транспорт Бизон
+    .desc = Транспортное средство.
+
+ent-AU14PropThroopArmoredTruck1 = бронированный грузовик быстрого реагирования Throop
+    .desc = Транспортное средство.
+
+ent-AU14PropUSASFAircraft2 = A/X-91 «Фантом» ССО США
+    .desc = A/X-91 Wraith — трансатмосферный истребитель с вертикальным взлётом и посадкой, построенный для ССО США. Эта модель вооружена сдвоенными ротационными пушками GUA-19, семью блоками ракет Hydra и двумя противотанковыми ракетами AGM-291.
+
+ent-AU14PropUSASFAircraft3 = А/Х-90 «Шакал»
+    .desc = A/X-90 Jackal — аналог ССО США A/X-91 в КМП США. Он создан для массовой высадки и орбитального вторжения во враждебные зоны. Хотя он сохраняет базовые возможности непосредственной авиационной поддержки, Шакал в первую очередь предназначен для передовой разведки, целеуказания и расчистки маршрутов перед высадкой морпехов.
+
+ent-AU14PropUSCMIFV2 = боевая машина пехоты
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMIFV3 = уничтоженная боевая машина пехоты
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMTroopTruck2 = армейский грузовик
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMTroopTruck3 = уничтоженный армейский грузовик
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMTroopTruck4 = армейский грузовик с тентом
+    .desc = Транспортное средство.
+
+ent-AU14PropUSCMTroopTruck5 = уничтоженный армейский грузовик с тентом
+    .desc = Транспортное средство.
+
+ent-AU14PropVTOL1 = военный СВВП
+    .desc = Летательный аппарат.
+
+ent-AU14PropVTOL2 = уничтоженный военный СВВП
+    .desc = Летательный аппарат.
+
+ent-AU14propstockcar = гоночный автомобиль
+    .desc = Гоночный автомобиль, на котором ездил знаменитым автогонщик США Джон Уэйн младший.

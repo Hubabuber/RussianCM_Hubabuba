@@ -8,3 +8,7 @@ rmc-lobby-burrowed-larva-available = The hive has burrowed larva available.
 rmc-lobby-join-as-larva = Join as Larva
 au-lobby-join-govfor = Join Government Forces
 au-lobby-join-Colony = Join the Civilians
+
+rmc-lobby-gamemode-label-insurgency = INS
+rmc-lobby-gamemode-label-colony-fall = CF
+rmc-lobby-gamemode-label-distress-signal = DS

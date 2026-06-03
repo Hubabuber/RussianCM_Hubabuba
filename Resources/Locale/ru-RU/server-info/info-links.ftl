@@ -1,4 +1,4 @@
-### Strings for link buttons shown in the launcher's server description.
+### Строки для кнопок-ссылок, отображаемых в описании сервера.
 
 info-link-discord = Раздор
 info-link-forum = Форум

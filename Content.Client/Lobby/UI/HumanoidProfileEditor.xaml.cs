@@ -1502,11 +1502,11 @@ namespace Content.Client.Lobby.UI
                 yield return (InsurgencyGovernmentJobList,
                     GamemodeInsurgency,
                     $"insurgency-govfor-{segmentKey}",
-                    $"Government Forces / {segmentTitle}");
+                    Loc.GetString("humanoid-profile-editor-government-forces-label", ("segmentTitle", segmentTitle))); // RuCM edit
                 yield return (DistressGovernmentJobList,
                     GamemodeDistressSignal,
                     $"distress-govfor-{segmentKey}",
-                    $"Government Forces / {segmentTitle}");
+                    Loc.GetString("humanoid-profile-editor-government-forces-label", ("segmentTitle", segmentTitle))); // RuCM edit
                 yield break;
             }
 
@@ -1544,11 +1544,11 @@ namespace Content.Client.Lobby.UI
             yield return (ColonyThreatJobList,
                 GamemodeColonyFall,
                 "colony-threat",
-                "Threat Jobs");
+                Loc.GetString("humanoid-profile-editor-threat-roles-tab"));
             yield return (DistressThreatJobList,
                 GamemodeDistressSignal,
                 "distress-threat",
-                "Threat Jobs");
+                Loc.GetString("humanoid-profile-editor-threat-roles-tab"));
         }
 
         private static int CompareDepartmentsForCharacterSetup(DepartmentPrototype? x, DepartmentPrototype? y)
@@ -1604,16 +1604,16 @@ namespace Content.Client.Lobby.UI
             if (job.MarineAuthorityLevel > 0 ||
                 ContainsAny(id, name, "PlatCo", "PlatOp", "Commander", "Command", "Officer", "Leader", "Sergeant", "Advisor"))
             {
-                return ("command", "Command");
+                return ("command", Loc.GetString("humanoid-profile-editor-segment-command")); // RuCM edit
             }
 
             if (ContainsAny(id, name, "Pilot", "Dropship", "Crew Chief", "DCC"))
-                return ("flight", "Flight");
+                return ("flight", Loc.GetString("humanoid-profile-editor-segment-flight")); // RuCM edit
 
             if (ContainsAny(id, name, "Doctor", "Corpsman", "Medic", "Technician", "Tech", "Police", "Synth", "Working Joe", "Auxiliary"))
-                return ("support", "Support");
+                return ("support", Loc.GetString("humanoid-profile-editor-segment-support")); // RuCM edit
 
-            return ("line", "Line Infantry");
+            return ("line", Loc.GetString("humanoid-profile-editor-segment-line")); // RuCM edit
         }
 
         private static int GetJobSortGroup(DepartmentPrototype department, JobPrototype job)
@@ -1632,7 +1632,7 @@ namespace Content.Client.Lobby.UI
 
         private static string GetJobDisplayName(JobPrototype job)
         {
-            return LobbyHighJobPreview.GetDisplayJobName(job);
+            return LobbyHighJobPreview.GetLocalizedJobName(job); // RuMC
         }
 
         private static bool ContainsAny(string id, string name, params string[] needles)
@@ -2056,7 +2056,7 @@ namespace Content.Client.Lobby.UI
         {
             targetList.AddChild(new Label
             {
-                Text = "THREATS",
+                Text = Loc.GetString("humanoid-profile-editor-threats-label"), // RuMC edit
                 Margin = new Thickness(6f, 4f, 0f, 6f),
                 StyleClasses = { StyleNano.StyleClassCrtHeading }
             });
@@ -2126,7 +2126,7 @@ namespace Content.Client.Lobby.UI
             }
         }
 
-        private static string GetThreatDisplayName(ThreatPrototype threat)
+        private string GetThreatDisplayName(ThreatPrototype threat)  // RuMC edit
         {
             var id = threat.ID;
             var markerSuffix = "";
@@ -2134,26 +2134,35 @@ namespace Content.Client.Lobby.UI
             if (id.EndsWith("OnMarker", StringComparison.OrdinalIgnoreCase))
             {
                 id = id.Substring(0, id.Length - "OnMarker".Length);
-                markerSuffix = " (Marker)";
+                markerSuffix = Loc.GetString("humanoid-profile-editor-threat-marker-suffix");
             }
 
             if (id.EndsWith("CF", StringComparison.OrdinalIgnoreCase))
                 id = id.Substring(0, id.Length - 2);
 
+            if (id.EndsWith("Distress", StringComparison.OrdinalIgnoreCase))
+                id = id.Substring(0, id.Length - "Distress".Length);
+
             if (id.EndsWith("Threat", StringComparison.OrdinalIgnoreCase))
                 id = id.Substring(0, id.Length - "Threat".Length);
 
             if (id.Equals("xeno", StringComparison.OrdinalIgnoreCase))
-                return "Xenomorph" + markerSuffix;
+                return Loc.GetString("humanoid-profile-editor-threat-xeno") + markerSuffix;
 
             if (id.Equals("ape", StringComparison.OrdinalIgnoreCase))
-                return "Apes" + markerSuffix;
+                return Loc.GetString("humanoid-profile-editor-threat-ape") + markerSuffix;
 
             if (id.Equals("cultist", StringComparison.OrdinalIgnoreCase))
-                return "Cultists" + markerSuffix;
+                return Loc.GetString("humanoid-profile-editor-threat-cultist") + markerSuffix;
 
             if (id.Equals("wendigo", StringComparison.OrdinalIgnoreCase))
-                return "Wendigo" + markerSuffix;
+                return Loc.GetString("humanoid-profile-editor-threat-wendigo") + markerSuffix;
+
+            if (id.Equals("abominations", StringComparison.OrdinalIgnoreCase))
+                return Loc.GetString("humanoid-profile-editor-threat-abomination") + markerSuffix;
+
+            if (id.Equals("tribal", StringComparison.OrdinalIgnoreCase))
+                return Loc.GetString("humanoid-profile-editor-threat-tribal") + markerSuffix;
 
             return HumanizePrototypeId(id) + markerSuffix;
         }

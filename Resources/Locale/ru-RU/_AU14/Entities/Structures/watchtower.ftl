@@ -1,2 +1,2 @@
-ent-AU14WatchTower1-name = Сторожевая башня
-ent-AU14WatchTower1-desc = Сторожевая башня.
+ent-AU14WatchTower1 = сторожевая башня
+    .desc = Башня для сторожа.

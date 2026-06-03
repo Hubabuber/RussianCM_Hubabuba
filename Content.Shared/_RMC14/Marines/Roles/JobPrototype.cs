@@ -43,6 +43,8 @@ public sealed partial class JobPrototype : IInheritingPrototype, ICMSpecific
     [DataField]
     public string? SpawnMenuRoleName;
 
+    public string? LocalizedSpawnMenuRoleName => SpawnMenuRoleName; // RuMC edit
+
     [DataField]
     public string? NewToJobInfo;
 
