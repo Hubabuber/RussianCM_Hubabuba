@@ -36,7 +36,7 @@ chat-radio-ai = ИИ
 
 chat-radio-twe = ИТМ
 
-chat-radio-icsc = КМГС ССО
+chat-radio-icsc = ССО КМГС
 
 chat-radio-vai = ВАИ
 
@@ -59,7 +59,5 @@ chat-radio-alert = Оповещение колонии
 chat-radio-uppsof = ССО СПН
 
 chat-radio-uasof = ССО США
-
-chat-radio-CLF = КЛФ
 
 chat-radio-hivemind = УЛЕЙ
