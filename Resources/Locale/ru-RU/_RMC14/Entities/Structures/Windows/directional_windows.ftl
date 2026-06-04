@@ -1,24 +1,23 @@
-ent-CMWindowUltraDirectional = ультраармированное окно
-  .desc = Ультра-усиленное окно, предназначенное для обеспечения безопасности трибуны для брифингов.
+ent-CMWindowDirectional = окно
+  .desc = Стеклянное окно. Выглядит тонким и хлипким. Нескольких ударов чем угодно хватит, чтобы разбить его.
 
-ent-CMWindowTintedDirectional = тонированное окно
-  .desc = Окно из тонированного стекла. 
+ent-RMCWindowDirectionalAltDrawDepth = { ent-CMWindowDirectional }
+  .desc = { ent-CMWindowDirectional.desc }
 
 ent-CMWindowReinforcedDirectional = усиленное окно
-  .desc = Стеклянное окно, усиленное распорными стержнями. 
+  .desc = Стеклянное окно, усиленное распорными стержнями. Выглядит довольно прочным. Чтобы разбить его, потребуется несколько хороших ударов.
 
-ent-CMWindowDirectional = окно
-  .desc = Стеклянное окно. 
+ent-CMWindowStrongReinforcedDirectional = прочное усиленное окно
+  .desc = Стеклянное окно, усиленное распорными стержнями. Выглядит очень прочным. Голыми руками не разбить.
 
-ent-RMCWindowDirectionalAltDrawDepth = окно
-  .desc = Стеклянное окно. 
+ent-CMWindowTintedDirectional = тонированное окно
+  .desc = Тонированное стеклянное окно. Выглядит довольно прочным и непрозрачным. Чтобы разбить его, потребуется несколько хороших ударов.
 
-ent-CMWindowStrongReinforcedDirectional = прочное армированное окно
-  .desc = Стеклянное окно, усиленное распорными стержнями. 
+ent-RMCWindowTintedDirectionalBlue = { ent-CMWindowTintedDirectional }
+  .desc = { ent-CMWindowTintedDirectional.desc }
 
-ent-RMCWindowTintedDirectionalBlue = тонированное окно
-  .desc = Окно из тонированного стекла. 
+ent-RMCWindowDirectionalBlue = { ent-CMWindowDirectional }
+  .desc = { ent-CMWindowDirectional.desc }
 
-ent-RMCWindowDirectionalBlue = окно
-  .desc = Стеклянное окно. 
-
+ent-CMWindowUltraDirectional = ультра-усиленное окно
+  .desc = Ультра-усиленное окно, предназначенное для защиты зоны брифинга.

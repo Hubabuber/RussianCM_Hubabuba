@@ -1,0 +1,10 @@
+department-AU14Medical = Medical
+department-AU14Engineering = Engineering
+department-AU14Security = Security
+department-AU14Cargo = Cargo
+department-AU14Command = Command
+department-AU14Civilian = Civilian
+department-AU14Services = Services
+department-AU14Corporate = Corporate
+department-AU14Hydroponics = Hydroponics
+department-AU14Lumbermill = Lumbermill

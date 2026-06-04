@@ -1,48 +1,134 @@
-ent-AU14PillEthylredoxrazine-name = таблетка
-ent-AU14PillEthylredoxrazine-desc = Таблетка.
-ent-AU14PillDermaline-name = таблетка
-ent-AU14PillDermaline-desc = Таблетка.
-ent-AU14PillMeralyne-name = таблетка
-ent-AU14PillMeralyne-desc = Таблетка.
-ent-AU14PillImidazoline-name = таблетка
-ent-AU14PillImidazoline-desc = Таблетка.
-ent-AU14PillCryoxadone-name = таблетка
-ent-AU14PillCryoxadone-desc = Таблетка.
-ent-AU14PillLeporazine-name = таблетка
-ent-AU14PillLeporazine-desc = Таблетка.
-ent-AU14PillAlbuterol-name = таблетка
-ent-AU14PillAlbuterol-desc = Таблетка.
-ent-AU14PillCanisterEthylredoxrazine-name = бутылочка с этилредоксразином
-ent-AU14PillCanisterEthylredoxrazine-desc = Герметичный контейнер для хранения лекарств.
-ent-AU14PillCanisterDermaline-name = бутылочка с дермалином
-ent-AU14PillCanisterDermaline-desc = Герметичный контейнер для хранения лекарств.
-ent-AU14PillCanisterMeralyne-name = бутылочка с мералином
-ent-AU14PillCanisterMeralyne-desc = Герметичный контейнер для хранения лекарств.
-ent-AU14PillCanisterImidazoline-name = бутылочка с имидазолином
-ent-AU14PillCanisterImidazoline-desc = Герметичный контейнер для хранения лекарств.
-ent-AU14PillCanisterCryoxadone-name = бутылочка с криоксадоном
-ent-AU14PillCanisterCryoxadone-desc = Герметичный контейнер для хранения лекарств.
-ent-AU14PillCanisterLeporazine-name = бутылочка с лепоразином
-ent-AU14PillCanisterLeporazine-desc = Герметичный контейнер для хранения лекарств.
-ent-AU14PillCanisterAlbuterol-name = бутылочка с альбутеролом
-ent-AU14PillCanisterAlbuterol-desc = Герметичный контейнер для хранения лекарств.
-ent-AU14NaloxoneAutoInjector-name = автоинъектор налоксона
-ent-AU14NaloxoneAutoInjector-desc = Автоинъектор с налоксоном, используемый для мгновенной нейтрализации токсического урона. В основном используется при передозировках. Не требует навыков для использования.
-ent-AU14FirstAidAutoInjectorNoSkill-name = автоинъектор первой помощи
-ent-AU14FirstAidAutoInjectorNoSkill-desc = Автоинъектор с дозой трикордразина и небольшим количеством дексалина для раненых солдат, чтобы они могли лечить себя сами.
-ent-AU14MeraBicAutoInjector-name = автоинъектор мера-бик
-ent-AU14MeraBicAutoInjector-desc = Автоинъектор, содержащий 3 дозы Мералина и 3 дозы Бикаридина.
-ent-AU14KeloDermAutoInjector-name = автоинъектор кело-дерм
-ent-AU14KeloDermAutoInjector-desc = Автоинъектор, содержащий 3 дозы Мералина и 3 дозы Бикаридина.
-ent-AU14RevivalMixAutoInjector-name = реанимационный автоинъектор
-ent-AU14RevivalMixAutoInjector-desc = Автоинъектор, содержащий 3 дозы Эпинефрина, Инапровалина и Трикордразина.
-ent-AU14AlbuDexAutoInjector-name = автоинъектор альбу-декс
-ent-AU14AlbuDexAutoInjector-desc = Автоинъектор, содержащий 3 дозы Альбутерола и Дексалина, а также небольшую дозу Дексалина+.
-ent-AU14HemostaticGauzePacket-name = упаковка гемостатической марли
-ent-AU14HemostaticGauzePacket-desc = Вакуумная упаковка химически обработанной марли, предназначенной для быстрой остановки артериального кровотечения. Порошок жжётся адски, но он работает. Одноразовая. Разорви, затолкай, надейся на лучшее.
-ent-AU14HemostaticGauzePacketTrash-name = использованная упаковка гемостатической марли
-ent-AU14HemostaticGauzePacketTrash-desc = Вакуумная упаковка химически обработанной марли, предназначенной для быстрой остановки артериального кровотечения. Порошок жжётся адски, но он работает. Эта упаковка — мусор, она уже использована!
-ent-AU14HemostaticGauze-name = гемостатическая марля
-ent-AU14HemostaticGauze-desc = Полоска марли, пропитанная порошкообразным кровоостанавливающим средством. Как только она извлечена из упаковки, время идёт. Затолкай её глубоко в рану и останови кровотечение, пока не стало слишком поздно.
-ent-AU14Tourniquet-name = Турникет CAT
-ent-AU14Tourniquet-desc = Одноразовый турникет, предназначенный для самостоятельного наложения под обстрелом. CAT использует высокопрочную липучку и закрутку-вороток для пережатия артериального кровотечения на конечностях. Эффективно, больно и не очень деликатно. Чрезмерное использование может привести к повреждению нервов или ампутации. Но лучше быть искалеченным, чем мёртвым.
+ent-AU14PillEthylredoxrazine = таблетка
+  .desc = Таблетка.
+
+ent-AU14PillDermaline = таблетка
+  .desc = Таблетка.
+
+ent-AU14PillMeralyne = таблетка
+  .desc = Таблетка.
+
+ent-AU14PillImidazoline = таблетка
+  .desc = Таблетка.
+
+ent-AU14PillCryoxadone = таблетка
+  .desc = Таблетка.
+
+ent-AU14PillLeporazine = таблетка
+  .desc = Таблетка.
+
+ent-AU14PillAlbuterol = таблетка
+  .desc = Таблетка.
+
+ent-AU14PillCanisterEthylredoxrazine = бутылочка с этилредоксразином
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterDermaline = бутылочка с дермалином
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterMeralyne = бутылочка с мералином
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterImidazoline = бутылочка с имидазолином
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterCryoxadone = бутылочка с криоксадоном
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterLeporazine = бутылочка с лепоразином
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterAlbuterol = бутылочка с альбутеролом
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterOsteoCalc = бутылочка с остеокальцием
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterCardiocaine = бутылочка с кардиокаином
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterNephronate = бутылочка с нефронатом
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterPulmovine = бутылочка с пульмовином
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterHepatocytin = бутылочка с гепатоцитином
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterParacetamol = бутылочка с парацетамолом
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterTramadol = бутылочка с трамадолом
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PillCanisterOxycodone = бутылочка с оксикодоном
+  .desc = Герметичный контейнер для хранения лекарств.
+
+ent-AU14PacketPillsTramadol = упаковка с таблетками трамадола
+  .desc = Эта упаковка содержит таблетки трамадола. Снимает умеренную боль. После вскрытия таблетки обратно не положить.
+
+ent-AU14PacketPillsEmpty = пустая упаковка с таблетками
+  .desc = Пустая упаковка для таблеток.
+
+ent-AU14NaloxoneAutoInjector = автоинъектор налоксона
+  .desc = Автоинъектор с налоксоном, используемый для мгновенной нейтрализации токсического урона.
+
+ent-AU14FirstAidAutoInjectorNoSkill = автоинъектор первой помощи
+  .desc = Автоинъектор с дозой трикордразина и небольшим количеством дексалина для раненых солдат.
+
+ent-AU14MeraBicAutoInjector = автоинъектор мера-бик
+  .desc = Автоинъектор, содержащий 3 дозы Мералина и 3 дозы Бикаридина.
+
+ent-AU14KeloDermAutoInjector = автоинъектор кело-дерм
+  .desc = Автоинъектор, содержащий 3 дозы Мералина и 3 дозы Бикаридина.
+
+ent-AU14RevivalMixAutoInjector = реанимационный автоинъектор
+  .desc = Автоинъектор, содержащий 3 дозы Эпинефрина, Инапровалина и Трикордразина.
+
+ent-AU14AlbuDexAutoInjector = автоинъектор альбу-декс
+  .desc = Автоинъектор, содержащий 3 дозы Альбутерола и Дексалина, а также небольшую дозу Дексалина+.
+
+ent-AU14HemostaticGauzePacket = упаковка гемостатической марли
+  .desc = Вакуумная упаковка химически обработанной марли, предназначенной для быстрой остановки артериального кровотечения. Порошок жжётся адски, но он работает. Одноразовая.
+
+ent-AU14HemostaticGauzePacketTrash = использованная упаковка гемостатической марли
+  .desc = Вакуумная упаковка химически обработанной марли, предназначенной для быстрой остановки артериального кровотечения. Пустая!
+
+ent-AU14HemostaticGauze = гемостатическая марля
+  .desc = Полоска марли, пропитанная порошкообразным кровоостанавливающим средством. Как только она извлечена из упаковки, время пошло.
+
+ent-AU14Tourniquet = турникет CAT
+  .desc = Одноразовый турникет, предназначенный для самостоятельного наложения под обстрелом. Чрезмерное использование может привести к повреждению нервов или ампутации.
+
+ent-AU14OxycodoneAutoInjector = автоинъектор оксикодона
+  .desc = Автоинъектор, заряженный 3 дозами Оксикодона.
+
+ent-AU14TramadolAutoInjector = автоинъектор трамадола
+  .desc = Автоинъектор, заряженный 3 дозами Трамадола.
+
+ent-AU14ParacetamolAutoInjector = автоинъектор парацетамола
+  .desc = Автоинъектор, заряженный 3 дозами Парацетамола.
+
+ent-AU14PillCMUOsteoCalc = таблетка
+    .desc = Таблетка.
+
+ent-AU14PillCMUCardiocaine = таблетка
+    .desc = Таблетка.
+
+ent-AU14PillCMUNephronate = таблетка
+    .desc = Таблетка.
+
+ent-AU14PillCMUPulmovine = таблетка
+    .desc = Таблетка.
+
+ent-AU14PillCMUHepatocytin = таблетка
+    .desc = Таблетка.
+
+ent-AU14PillCMUParacetamol = таблетка
+    .desc = Таблетка.
+
+ent-AU14PillCMUTramadol = таблетка
+    .desc = Таблетка.
+
+ent-AU14PillCMUOxycodone = таблетка
+    .desc = Таблетка.

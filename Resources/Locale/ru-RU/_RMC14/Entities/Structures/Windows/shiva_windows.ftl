@@ -1,9 +1,8 @@
 ent-CMWindowShivaIce = тонкая ледяная стена
-  .desc = Он очень тонкий.
+  .desc = Она очень тонкая.
 
 ent-CMWindowShiva = окно с рамой из поликевлона
-  .desc = Полупрозрачная (не полностью непрозрачная) панель материала, заключенная в рамку из поликевлона. 
+  .desc = Полупрозрачная панель материала, заключённая в рамку из поликевлона. Очень легко разбивается.
 
-ent-RMCWindowFrameShiva = оконная рама
-  .desc = Большая дыра в стене, в которой раньше было большое окно. 
-
+ent-RMCWindowFrameShiva = { ent-RMCBaseWindowFrame }
+  .desc = { ent-RMCBaseWindowFrame.desc }

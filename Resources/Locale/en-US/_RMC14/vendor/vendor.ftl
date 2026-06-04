@@ -9,3 +9,7 @@ rmc-vending-machine-hack-finish-remove = You have successfully removed access re
 rmc-vending-machine-hack-finish-restore = You have restored access restrictions in {THE($vendor)}
 rmc-vendor-points-token-redeem = You insert {THE($token)} into {THE($vendor)}. {$points} points are added to your account.
 rmc-vendor-points-token-wrong-vendor = {CAPITALIZE(THE($token))} does not fit into {THE($vendor)}.
+
+rmc-vendor-section-take-all = (TAKE ALL)
+rmc-vendor-section-take-one = (TAKE ONE)
+rmc-vendor-section-choose = (CHOOSE { $amount })

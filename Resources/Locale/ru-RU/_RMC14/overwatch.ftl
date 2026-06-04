@@ -40,7 +40,7 @@ rmc-overwatch-console-no-camera = (НЕТ КАМЕРЫ)
 rmc-overwatch-console-state-unconscious = Без сознания
 rmc-overwatch-console-state-dead = Мёртв
 rmc-overwatch-console-state-conscious = В сознании
-rmc-overwatch-console-ssd = (Твердотельный накопитель)
+rmc-overwatch-console-ssd = (КРС)
 rmc-overwatch-console-na = Н/Д
 rmc-overwatch-console-dead = МЁРТВ
 rmc-overwatch-console-alive = ЖИВ
@@ -88,7 +88,7 @@ rmc-overwatch-console-squad-message-sent = [bold][color=#6685F5]Сообщени
 # Squad leader promotion messages
 rmc-overwatch-console-marine-unfit-to-lead = { $marineName } не годится для командования!
 rmc-overwatch-console-marine-is-kia-exclamation = { $marineName } погиб в бою!
-rmc-overwatch-console-promoted-to-leader = Овервотч: вас назначили 'ВРИО КОМАНДИРА ОТРЯДА'{ $squadStr }. Ваша гарнитура получила доступ к командному каналу (:v).
+rmc-overwatch-console-promoted-to-leader = Овервотч: вас назначили 'ВРИО КОМАНДИРА ОТРЯДА'{ $squadStr }. Ваша гарнитура получила доступ к командному каналу.
 rmc-overwatch-console-new-squad-leader-announce = Внимание: назначен новый командир отряда: { $leaderName }
 rmc-overwatch-console-new-squad-leader-popup = { $leaderName } теперь командует отрядом { $squadName }!
 

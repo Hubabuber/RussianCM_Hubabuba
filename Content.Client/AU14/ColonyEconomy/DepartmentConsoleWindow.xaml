@@ -2,73 +2,72 @@
     xmlns="https://spacestation14.io"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:controls="clr-namespace:Content.Client.AU14.ColonyEconomy"
-    Title="Department Console" MinSize="600 520">
+    MinSize="600 520">
     <TabContainer>
         <!-- Management Tab -->
         <BoxContainer Name="ManagementTab" Orientation="Vertical" SeparationOverride="4">
             <!-- Header -->
-            <Label Name="DeptNameLabel" Access="Public" Text="Department" StyleClasses="LabelHeading" />
-            <Label Name="DeptBudgetLabel" Access="Public" Text="Department Budget: $0" />
+            <Label Name="DeptNameLabel" Access="Public" StyleClasses="LabelHeading" />
+            <Label Name="DeptBudgetLabel" Access="Public" />
 
             <!-- Withdraw from Department Budget -->
             <BoxContainer Orientation="Horizontal" SeparationOverride="4">
-                <Label Text="Withdraw: $" />
-                <LineEdit Name="WithdrawAmountInput" Access="Public" PlaceHolder="Amount"
+                <Label Name="WithdrawLabel" />
+                <LineEdit Name="WithdrawAmountInput" Access="Public"
                           HorizontalExpand="True" SizeFlagsStretchRatio="2" />
-                <Button Name="WithdrawButton" Access="Public" Text="Withdraw Cash" />
+                <Button Name="WithdrawButton" Access="Public" />
             </BoxContainer>
 
             <!-- Default Salary -->
             <BoxContainer Orientation="Horizontal" SeparationOverride="4">
-                <Label Text="Default Salary: $" />
+                <Label Name="DefaultSalaryLabel" />
                 <LineEdit Name="DefaultSalaryInput" Access="Public" Text="50"
                           HorizontalExpand="True" SizeFlagsStretchRatio="2" />
-                <Button Name="SetDefaultSalaryButton" Access="Public" Text="Set Default Salary" />
+                <Button Name="SetDefaultSalaryButton" Access="Public" />
             </BoxContainer>
 
             <!-- Hire -->
-            <Label Text="Use an ID card on the console to hire." StyleClasses="LabelSubText"
-                   Margin="0 2" />
+            <Label Name="HireHintLabel" StyleClasses="LabelSubText" Margin="0 2" />
 
             <!-- Employee List -->
-            <Label Text="Employees:" StyleClasses="LabelSubText" />
+            <Label Name="EmployeesLabel" StyleClasses="LabelSubText" />
             <ScrollContainer VerticalExpand="True" HScrollEnabled="False" MinSize="0 180">
                 <BoxContainer Name="EmployeeList" Access="Public" Orientation="Vertical" SeparationOverride="2" />
             </ScrollContainer>
 
             <!-- Department Announcement -->
-            <Label Text="Department Announcement:" StyleClasses="LabelSubText" />
+            <Label Name="AnnouncementLabel" StyleClasses="LabelSubText" />
             <BoxContainer Orientation="Horizontal" SeparationOverride="4">
-                <LineEdit Name="AnnouncementInput" Access="Public" PlaceHolder="Type announcement..."
+                <LineEdit Name="AnnouncementInput" Access="Public"
                           HorizontalExpand="True" SizeFlagsStretchRatio="3" />
-                <Button Name="SendAnnouncementButton" Access="Public" Text="Send" />
+                <Button Name="SendAnnouncementButton" Access="Public" />
             </BoxContainer>
         </BoxContainer>
 
         <!-- Orders Tab -->
         <BoxContainer Name="OrdersTab" Orientation="Vertical" SeparationOverride="4">
-            <Label Name="OrdersBudgetLabel" Access="Public" Text="Department Budget: $0" StyleClasses="LabelHeading" />
+            <Label Name="OrdersBudgetLabel" Access="Public" StyleClasses="LabelHeading" />
 
             <!-- Reason / Deliver To fields -->
             <BoxContainer Orientation="Horizontal" SeparationOverride="4">
-                <Label Text="Reason:" MinWidth="70" />
-                <LineEdit Name="OrderReasonInput" Access="Public" PlaceHolder="Reason for order..."
+                <Label Name="ReasonLabel" MinWidth="70" />
+                <LineEdit Name="OrderReasonInput" Access="Public"
                           HorizontalExpand="True" />
             </BoxContainer>
             <BoxContainer Orientation="Horizontal" SeparationOverride="4">
-                <Label Text="Deliver to:" MinWidth="70" />
-                <LineEdit Name="OrderDeliverToInput" Access="Public" PlaceHolder="Delivery location..."
+                <Label Name="DeliverLabel" MinWidth="70" />
+                <LineEdit Name="OrderDeliverToInput" Access="Public"
                           HorizontalExpand="True" />
             </BoxContainer>
 
             <!-- Category buttons -->
-            <Label Text="Categories:" StyleClasses="LabelSubText" />
+            <Label Name="CategoriesLabel" StyleClasses="LabelSubText" />
             <ScrollContainer HScrollEnabled="True" VScrollEnabled="False" MinSize="0 36">
                 <BoxContainer Name="OrderCategoryList" Access="Public" Orientation="Horizontal" SeparationOverride="4" />
             </ScrollContainer>
 
             <!-- Item list for selected category -->
-            <Label Name="SelectedCategoryLabel" Access="Public" Text="Select a category" StyleClasses="LabelSubText" />
+            <Label Name="SelectedCategoryLabel" Access="Public" StyleClasses="LabelSubText" />
             <ScrollContainer VerticalExpand="True" HScrollEnabled="False" MinSize="0 200">
                 <BoxContainer Name="OrderItemList" Access="Public" Orientation="Vertical" SeparationOverride="2" />
             </ScrollContainer>

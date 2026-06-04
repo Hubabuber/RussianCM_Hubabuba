@@ -1,24 +1,27 @@
-ent-CMApcBase = контроллер мощности зоны
-  .desc = Терминал управления электрическими системами территории.
+ent-CMApcBase = ЛКП
+  .desc = Локальный автомат контроля питания.
 
-ent-CMApcFrame = Рама БТР
-  .desc = Терминал управления электрическими системами района, лишенный электроники.
+ent-CMApcFrame = рама ЛКП
+  .desc = Корпус локального автомата контроля питания, лишённый электроники.
 
-ent-CMApcConstructed = контроллер мощности зоны
-  .desc = Терминал управления электрическими системами территории.
+ent-CMApc = { ent-CMApcBase }
+  .desc = { ent-CMApcBase.desc }
 
-ent-CMApcNoPower = контроллер мощности зоны
-  .desc = Терминал управления электрическими системами территории.
+ent-CMApcConstructed = { ent-CMApcBase }
+  .desc = { ent-CMApcBase.desc }
 
-ent-CMApcAlmayer = контроллер мощности зоны
-  .desc = Терминал управления электрическими системами территории.
+ent-CMApcNoPower = { ent-CMApcBase }
+  .desc = { ent-CMApcBase.desc }
 
-ent-CMApcLowCapacity = контроллер мощности зоны
-  .desc = Терминал управления электрическими системами территории.
+ent-CMApcAlmayer = { ent-CMApcBase }
+  .desc = { ent-CMApcBase.desc }
 
-ent-CMApcMediumCapacity = контроллер мощности зоны
-  .desc = Терминал управления электрическими системами территории.
+ent-CMApcLowCapacity = { ent-CMApcBase }
+  .desc = { ent-CMApcBase.desc }
 
-ent-CMApcHighCapacity = контроллер мощности зоны
-  .desc = Терминал управления электрическими системами территории.
+ent-CMApcMediumCapacity = { ent-CMApcBase }
+  .desc = { ent-CMApcBase.desc }
+
+ent-CMApcHighCapacity = { ent-CMApcBase }
+  .desc = { ent-CMApcBase.desc }
 

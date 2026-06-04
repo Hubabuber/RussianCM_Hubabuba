@@ -1,10 +1,10 @@
-ent-CMClosetEmergencyFilled = аварийный туалет
+ent-CMClosetEmergencyFilled = аварийный шкаф
   .desc = Это хранилище для аварийных масок и баллонов с кислородом.
 
-ent-CMClosetFireFilled = шкаф пожарной безопасности
+ent-CMClosetFireFilled = пожарный шкаф
   .desc = Это хранилище противопожарных принадлежностей.
 
-ent-CMLockerCommanderSecureFilled = безопасный ящик командира
+ent-CMLockerCommanderSecureFilled = защищённый ящик командира
   .desc = Сейф, в котором командир может хранить любое оборудование, которое ему необходимо иметь наготове в любой момент.
 
 ent-CMLockerStaffShotgunFilled = шкафчик штабного офицера
@@ -13,9 +13,9 @@ ent-CMLockerStaffShotgunFilled = шкафчик штабного офицера
 ent-CMLockerStaffRifleFilled = шкафчик штабного офицера
   .desc = Это неподвижное хранилище, закрывающееся картой.
 
-ent-RMCLockerSecureSafeLiaisonFilled = безопасный сейф
+ent-RMCLockerSecureSafeLiaisonFilled = защищённый сейф
   .desc = Огромный кусок металла со встроенным в него циферблатом.
 
-ent-RMCLockerFieldDoctor = безопасный шкафчик
+ent-RMCLockerFieldDoctor = защищённый шкафчик
   .desc = Это неподвижное хранилище, закрывающееся картой.
 

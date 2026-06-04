@@ -1,6 +1,11 @@
-ent-AU14PropItemLaptop-name = Ноутбук
-ent-AU14PropItemLaptop-desc = Портативный компьютер.
-ent-AU14ItemLaptopOverwatchGOVFOR-name = Ноутбук наблюдения
-ent-AU14ItemLaptopOverwatchGOVFOR-desc = Портативный тактический компьютер для наблюдения и мониторинга дружественных подразделений.
-ent-AU14ItemLaptopOverwatchOPFOR-name = Ноутбук наблюдения
-ent-AU14ItemLaptopOverwatchOPFOR-desc = Портативный тактический компьютер для наблюдения и мониторинга дружественных подразделений.
+ent-AU14PropItemLaptop = ноутбук
+  .desc = Портативный компьютер.
+
+ent-AU14ItemLaptopOverwatchGOVFOR = ноутбук наблюдения
+  .desc = Портативный тактический компьютер для наблюдения и мониторинга дружественных подразделений.
+
+ent-AU14ItemLaptopOverwatchOPFOR = ноутбук наблюдения
+  .desc = Портативный тактический компьютер для наблюдения и мониторинга дружественных подразделений.
+
+ent-AU14ProdigyLaptop = ноутбук часового
+  .desc = Защищённый военный ноутбук для дистанционного управления производства Prodigy Corp. Размещать на столе.

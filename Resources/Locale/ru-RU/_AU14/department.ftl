@@ -1,0 +1,10 @@
+department-AU14Medical = Медицинский отдел
+department-AU14Engineering = Инженерный отдел
+department-AU14Security = Отдел охраны
+department-AU14Cargo = Отдел снабжения
+department-AU14Command = Командование
+department-AU14Civilian = Гражданский отдел
+department-AU14Services = Сервисный отдел
+department-AU14Corporate = Корпоративный отдел
+department-AU14Hydroponics = Гидропоника
+department-AU14Lumbermill = Лесопилка

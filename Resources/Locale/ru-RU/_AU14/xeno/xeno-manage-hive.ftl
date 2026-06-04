@@ -8,13 +8,13 @@ announce-xeno-ally-person-status-gain = Наша Королева провозг
 
 announce-xeno-ally-person-status-loss = Наша Королева заявила, что {$name} больше не наш союзник!
 
-announce-xeno-allies-people-status-loss = Наша Королева разорвала все личные союзы с таллами! Фаворитизма больше нет.
+announce-xeno-allies-people-status-loss = Наша Королева разорвала все личные союзы! Фаворитизма больше нет.
 
 xeno-manage-hive-allies-individuals = Добавить личного союзника
 
 xeno-manage-hive-allies-remove-individuals = Удаление личного союзника
 
-xeno-manage-hive-allies-remove-all-individuals = Четкие личные союзники
+xeno-manage-hive-allies-remove-all-individuals = Удалить всех личных союзников
 
 xeno-manage-hive-allies-individuals-alone = Высоких не видно!
 
@@ -26,6 +26,6 @@ xeno-allies-window-name = Заключить союз с
 
 xeno-allies-break-window-name = Разорвать союз с
 
-xeno-allies-break-all-individuals-window-name = Разорвите все личные союзы
+xeno-allies-break-all-individuals-window-name = Разорвать все личные союзы
 
 xeno-allies-break-all-individuals-subtext = Вы уверены?

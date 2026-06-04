@@ -381,8 +381,11 @@ public sealed partial class CMAutomatedVendorBui : BoundUserInterface
     private FormattedMessage GetSectionName(CMVendorUserComponent? user, CMVendorSection section)
     {
         var name = new FormattedMessage();
-        name.PushTag(new MarkupNode("bold", new MarkupParameter(section.Name.ToUpperInvariant()), null));
-        name.AddText(section.Name.ToUpperInvariant());
+        // RuMC edit start
+        var localizedName = Loc.GetString(section.Name).ToUpperInvariant();
+        name.PushTag(new MarkupNode("bold", new MarkupParameter(localizedName), null));
+        name.AddText(localizedName);
+        // RuMC edit end
 
         if (section.TakeAll != null)
         {
@@ -391,7 +394,7 @@ public sealed partial class CMAutomatedVendorBui : BoundUserInterface
             {
                 if (takeAll == null || !takeAll.Contains((section.TakeAll, entry.Id)))
                 {
-                    name.AddText(" (TAKE ALL)");
+                    name.AddText(Loc.GetString("rmc-vendor-section-take-all"));
                     break;
                 }
             }
@@ -400,19 +403,19 @@ public sealed partial class CMAutomatedVendorBui : BoundUserInterface
         {
             var takeOne = user?.TakeOne;
             if (takeOne == null || !takeOne.Contains(section.TakeOne))
-                name.AddText(" (TAKE ONE)");
+                name.AddText(Loc.GetString("rmc-vendor-section-take-one"));
         }
         else if (section.Choices is { } choices)
         {
             if (user == null)
             {
-                name.AddText($" (CHOOSE {choices.Amount})");
+                name.AddText(Loc.GetString("rmc-vendor-section-choose", ("amount", choices.Amount)));
             }
             else
             {
                 var left = choices.Amount - user.Choices.GetValueOrDefault(choices.Id);
                 if (left > 0)
-                    name.AddText($" (CHOOSE {left})");
+                    name.AddText(Loc.GetString("rmc-vendor-section-choose", ("amount", left)));
             }
         }
 

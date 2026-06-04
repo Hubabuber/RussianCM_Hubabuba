@@ -1,5 +1,5 @@
 ent-RMCRailroadBumper = рельсовые отбойники
-  .desc = Это (обычно) останавливает вагонетки и другие железнодорожные транспортные средства в конце пути.
+  .desc = Это останавливает вагонетки и другие железнодорожные транспортные средства в конце пути.
 
 ent-RMCRailroadStraight = рельсы
   .desc = По ним ездят вагонетки и рельсовый транспорт.
@@ -7,35 +7,35 @@ ent-RMCRailroadStraight = рельсы
 ent-RMCMonorailStraight = монорельсовая дорога
   .desc = Рельсовая система для монорельсовой дороги CORSAT.
 
-ent-RMCCatwalkHybrisaElevator = твердая металлическая решетка
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-RMCCatwalkHybrisaElevator = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
-ent-RMCCatwalkHybrisaLattice = структурная решетка
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-RMCCatwalkHybrisaLattice = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
-ent-RMCCatwalkHybrisa = твердая металлическая решетка
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-RMCCatwalkHybrisa = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
-ent-CMCatwalk = подиум
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-CMCatwalk = металлическая решётка
+  .desc = Решётка для облегчения маневрирования в открытом космосе и прокладки кабеля.
 
-ent-RMCCatwalkAI = подиум
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-RMCCatwalkAI = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
-ent-RMCCatwalkAIWhite = подиум
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-RMCCatwalkAIWhite = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
-ent-CMCatwalkShiva = подиум
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-CMCatwalkShiva = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
-ent-CMCatwalkPrison = подиум
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-CMCatwalkPrison = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
-ent-RMCCatwalkKutjevo = подиум
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-RMCCatwalkKutjevo = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
-ent-RMCCatwalkStrata = подиум
-  .desc = Подиум для облегчения маневрирования в открытом космосе и прокладки кабеля.
+ent-RMCCatwalkStrata = { ent-CMCatwalk }
+  .desc = { ent-CMCatwalk.desc }
 
 ent-RMCMonorailBend = монорельсовая дорога
   .desc = Рельсовая система для монорельсовой дороги CORSAT.

@@ -21,6 +21,12 @@ public sealed partial class CorporateConsoleThirdPartyWindow : DefaultWindow
     {
         RobustXamlLoader.Load(this);
 
+        // RuMC edit start
+        Title = Loc.GetString("corporate-console-third-party-title");
+        AvailableThirdPartiesLabel.Text = Loc.GetString("corporate-console-third-party-available");
+        CallBtn.Text = Loc.GetString("corporate-console-third-party-request");
+        // RuMC edit end
+
         ThirdPartyList.OnItemSelected += args =>
         {
             if (args.ItemList[args.ItemIndex].Metadata is string id)
@@ -40,14 +46,14 @@ public sealed partial class CorporateConsoleThirdPartyWindow : DefaultWindow
                 !_calledParties.Contains(id))
             {
                 OnCallThirdParty?.Invoke(id);
-                StatusLabel.Text = "Requesting support...";
+                StatusLabel.Text = Loc.GetString("corporate-console-third-party-requesting");
             }
         };
     }
 
     public void UpdateState(CorporateConsoleThirdPartyBuiState s)
     {
-        BudgetLabel.Text = $"Corporate Budget: ${s.Budget:F0}";
+        BudgetLabel.Text = Loc.GetString("corporate-console-budget", ("amount", s.Budget));
 
         var newIds = s.CallableParties.Keys.ToList();
         var changed = !_thirdPartyIds.SequenceEqual(newIds) || !_calledParties.SetEquals(s.CalledParties);
@@ -64,9 +70,9 @@ public sealed partial class CorporateConsoleThirdPartyWindow : DefaultWindow
 
             if (_thirdPartyIds.Count == 0)
             {
-                StatusLabel.Text = "No third parties available.";
+                StatusLabel.Text = Loc.GetString("corporate-console-third-party-none");
                 SelectThirdParty(null);
-                CostLabel.Text = "Cost: N/A";
+                CostLabel.Text = Loc.GetString("corporate-console-third-party-cost-na");
                 return;
             }
 
@@ -77,8 +83,8 @@ public sealed partial class CorporateConsoleThirdPartyWindow : DefaultWindow
                 var id = _thirdPartyIds[i];
                 var info = s.CallableParties[id];
                 var label = _calledParties.Contains(id)
-                    ? $"{info.DisplayName} - ${info.Cost:F0} [CALLED]"
-                    : $"{info.DisplayName} - ${info.Cost:F0}";
+                    ? Loc.GetString("corporate-console-third-party-item-called", ("name", info.DisplayName), ("cost", info.Cost))
+                    : Loc.GetString("corporate-console-third-party-item", ("name", info.DisplayName), ("cost", info.Cost));
 
                 ThirdPartyList.Add(new ItemList.Item(ThirdPartyList)
                 {
@@ -107,12 +113,14 @@ public sealed partial class CorporateConsoleThirdPartyWindow : DefaultWindow
 
         if (id == null || !_thirdParties.TryGetValue(id, out var info))
         {
-            CostLabel.Text = _thirdPartyIds.Count == 0 ? "Cost: N/A" : "Cost: $0";
+            CostLabel.Text = _thirdPartyIds.Count == 0
+                ? Loc.GetString("corporate-console-third-party-cost-na")
+                : Loc.GetString("corporate-console-third-party-cost", ("cost", 0));
             CallBtn.Disabled = true;
             return;
         }
 
-        CostLabel.Text = $"Cost: ${info.Cost:F0}";
+        CostLabel.Text = Loc.GetString("corporate-console-third-party-cost", ("cost", info.Cost));
         CallBtn.Disabled = _calledParties.Contains(id);
     }
 }

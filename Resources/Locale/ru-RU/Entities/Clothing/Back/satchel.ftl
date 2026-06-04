@@ -1,54 +1,54 @@
-ent-ClothingBackpackSatchel-name = ранец
-ent-ClothingBackpackSatchel-desc = Модно выглядящая сумка.
+ent-ClothingBackpackSatchel = сумка
+  .desc = Модно выглядящая сумка.
 
-ent-ClothingBackpackSatchelLeather-name = кожаная сумка
-ent-ClothingBackpackSatchelLeather-desc = Модная сумка из ушедшей эпохи.
+ent-ClothingBackpackSatchelLeather = кожаная сумка
+  .desc = Модная сумка из ушедшей эпохи.
 
-ent-ClothingBackpackSatchelEngineering-name = инженерный ранец
-ent-ClothingBackpackSatchelEngineering-desc = Прочная сумка с дополнительными карманами.
+ent-ClothingBackpackSatchelEngineering = инженерная сумка
+  .desc = Прочная сумка с дополнительными карманами.
 
-ent-ClothingBackpackSatchelAtmospherics-name = атмосферная сумка
-ent-ClothingBackpackSatchelAtmospherics-desc = Прочная сумка из огнестойких волокон. Пахнет плазмой.
+ent-ClothingBackpackSatchelAtmospherics = сумка атмосферного техника
+  .desc = Прочная сумка из огнестойких волокон. Пахнет плазмой.
 
-ent-ClothingBackpackSatchelClown-name = клоун ранец
-ent-ClothingBackpackSatchelClown-desc = Для быстрого бегства от охраны.
+ent-ClothingBackpackSatchelClown = сумка клоуна
+  .desc = Для быстрого бегства от охраны.
 
-ent-ClothingBackpackSatchelMime-name = мим-ранец
-ent-ClothingBackpackSatchelMime-desc = Сумка, созданная для бесшумного и выразительного искусства мимики.
+ent-ClothingBackpackSatchelMime = сумка мима
+  .desc = Сумка, созданная для бесшумного и выразительного искусства мимики.
 
-ent-ClothingBackpackSatchelMedical-name = медицинская сумка
-ent-ClothingBackpackSatchelMedical-desc = Стерильный ранец, используемый в медицинских учреждениях.
+ent-ClothingBackpackSatchelMedical = сумка врача
+  .desc = Стерильная сумка, используемая в медицинских учреждениях.
 
-ent-ClothingBackpackSatchelChemistry-name = химия ранец
-ent-ClothingBackpackSatchelChemistry-desc = Стерильный ранец в аптечных цветах.
+ent-ClothingBackpackSatchelChemistry = сумка химика
+  .desc = Стерильная сумка в аптечных цветах.
 
-ent-ClothingBackpackSatchelVirology-name = сумка для вирусологии
-ent-ClothingBackpackSatchelVirology-desc = Сумка из гипоаллергенного волокна. Он создан, чтобы помочь предотвратить распространение болезней. Пахнет обезьяной.
+ent-ClothingBackpackSatchelVirology = сумка вирусолога
+  .desc = Сумка из гипоаллергенного волокна. Она создана, чтобы помочь предотвратить распространение болезней.
 
-ent-ClothingBackpackSatchelGenetics-name = генетика ранец
-ent-ClothingBackpackSatchelGenetics-desc = Стерильный ранец генетической расцветки.
+ent-ClothingBackpackSatchelGenetics = сумка генетика
+  .desc = Стерильная сумка генетической расцветки.
 
-ent-ClothingBackpackSatchelScience-name = научная сумка
-ent-ClothingBackpackSatchelScience-desc = Полезно для хранения исследовательских материалов.
+ent-ClothingBackpackSatchelScience = сумка учёного
+  .desc = Полезно для хранения исследовательских материалов.
 
-ent-ClothingBackpackSatchelSecurity-name = сумка безопасности
-ent-ClothingBackpackSatchelSecurity-desc = Прочная сумка для нужд, связанных с безопасностью.
+ent-ClothingBackpackSatchelSecurity = сумка безопасности
+  .desc = Прочная сумка для нужд, связанных с безопасностью.
 
-ent-ClothingBackpackSatchelBrigmedic-name = Бригмедик ранец
-ent-ClothingBackpackSatchelBrigmedic-desc = Стерильный ранец для медицинских нужд.
+ent-ClothingBackpackSatchelBrigmedic = сумка бригмедика
+  .desc = Стерильная сумка для медицинских нужд.
 
-ent-ClothingBackpackSatchelCaptain-name = капитанский ранец
-ent-ClothingBackpackSatchelCaptain-desc = Эксклюзивный ранец для офицеров Нанотрасена.
+ent-ClothingBackpackSatchelCaptain = сумка капитана
+  .desc = Эксклюзивная сумка для офицеров Нанотрасена.
 
-ent-ClothingBackpackSatchelHydroponics-name = гидропоника ранец
-ent-ClothingBackpackSatchelHydroponics-desc = Сумка из натуральных волокон.
+ent-ClothingBackpackSatchelHydroponics = сумка ботаника
+  .desc = Сумка из натуральных волокон.
 
-ent-ClothingBackpackSatchelCargo-name = грузовая сумка
-ent-ClothingBackpackSatchelCargo-desc = Прочная сумка для кражи добычи.
+ent-ClothingBackpackSatchelCargo = сумка снабжения
+  .desc = Прочная сумка для кражи добычи.
 
-ent-ClothingBackpackSatchelSalvage-name = аварийная сумка
-ent-ClothingBackpackSatchelSalvage-desc = Прочная сумка для хранения добычи.
+ent-ClothingBackpackSatchelSalvage = аварийная сумка
+  .desc = Прочная сумка для хранения добычи.
 
-ent-ClothingBackpackSatchelHolding-name = сумка для хранения
-ent-ClothingBackpackSatchelHolding-desc = Сумка, открывающаяся в локализованный карман синего пространства.
+ent-ClothingBackpackSatchelHolding = бездонная сумка
+  .desc = Сумка, открывающаяся в локализованный блюспейс карман.
 

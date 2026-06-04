@@ -12,18 +12,34 @@ public sealed partial class CorporateConsoleWindow : DefaultWindow
     public CorporateConsoleWindow()
     {
         RobustXamlLoader.Load(this);
+
+        // RuMC edit start
+        Title = Loc.GetString("corporate-console-title");
+        WithdrawCashLabel.Text = Loc.GetString("corporate-console-withdraw-section");
+        Withdraw100.Text = "$100";
+        Withdraw250.Text = "$250";
+        Withdraw500.Text = "$500";
+        TransitTariffSectionLabel.Text = Loc.GetString("corporate-console-tariff-section");
+        TariffDescLabel.Text = Loc.GetString("corporate-console-tariff-desc");
+        TariffInputLabel.Text = Loc.GetString("corporate-console-tariff-input");
+        TariffInput.PlaceHolder = Loc.GetString("corporate-console-tariff-placeholder");
+        SetTariffButton.Text = Loc.GetString("corporate-console-tariff-apply");
+        EconomyOverviewLabel.Text = Loc.GetString("corporate-console-economy-section");
+        ThirdPartySectionLabel.Text = Loc.GetString("corporate-console-third-party-section");
+        OpenThirdPartyBtn.Text = Loc.GetString("corporate-console-open-third-party");
+        // RuMC edit end
     }
 
     public void UpdateState(CorporateConsoleBuiState state)
     {
-        CorporateBudgetLabel.Text = $"Corporate Budget: ${state.CorporateBudget:F0}";
-        CurrentTariffLabel.Text = $"Current Transit Tariff: {state.TransitTariffPercent:F0}%";
+        CorporateBudgetLabel.Text = Loc.GetString("corporate-console-budget", ("amount", state.CorporateBudget));
+        CurrentTariffLabel.Text = Loc.GetString("corporate-console-current-tariff", ("tariff", state.TransitTariffPercent));
         TariffInput.Text = $"{state.TransitTariffPercent:F0}";
 
         var incomeTax = state.EconomyStatus.IncomeTaxPercent;
         WithdrawTaxNote.Text = incomeTax > 0
-            ? $"Note: Withdrawals are subject to {incomeTax:F0}% income tax."
-            : "No income tax on withdrawals.";
+            ? Loc.GetString("corporate-console-withdraw-tax", ("tax", incomeTax))
+            : Loc.GetString("corporate-console-withdraw-no-tax");
 
         UpdateEconomyStatus(state.EconomyStatus);
     }
@@ -31,18 +47,30 @@ public sealed partial class CorporateConsoleWindow : DefaultWindow
     private void UpdateEconomyStatus(EconomyStatusState econ)
     {
         EconomyStatusPanel.RemoveAllChildren();
-        EconomyStatusPanel.AddChild(new Label { Text = $"Sales Tax: {econ.SalesTaxPercent:F0}%" });
-        EconomyStatusPanel.AddChild(new Label { Text = $"Income Tax: {econ.IncomeTaxPercent:F0}%" });
-        EconomyStatusPanel.AddChild(new Label { Text = $"Transit Tariff: {econ.TransitTariffPercent:F0}%" });
+        EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("corporate-console-sales-tax", ("tax", econ.SalesTaxPercent)) });
+        EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("corporate-console-income-tax", ("tax", econ.IncomeTaxPercent)) });
+        EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("corporate-console-transit-tariff", ("tariff", econ.TransitTariffPercent)) });
 
         if (econ.ActiveEmbargoes.Count > 0)
-            EconomyStatusPanel.AddChild(new Label { Text = $"Active Embargoes: {string.Join(", ", econ.ActiveEmbargoes)}", StyleClasses = { "Caution" } });
+            EconomyStatusPanel.AddChild(new Label
+            {
+                Text = Loc.GetString("corporate-console-active-embargoes", ("list", string.Join(", ", econ.ActiveEmbargoes))),
+                StyleClasses = { "Caution" }
+            });
         else
-            EconomyStatusPanel.AddChild(new Label { Text = "Embargoes: None", StyleClasses = { "LabelSubText" } });
+            EconomyStatusPanel.AddChild(new Label
+            {
+                Text = Loc.GetString("corporate-console-no-embargoes"),
+                StyleClasses = { "LabelSubText" }
+            });
 
         if (econ.ActiveTradePacts.Count > 0)
-            EconomyStatusPanel.AddChild(new Label { Text = $"Active Trade Pacts: {string.Join(", ", econ.ActiveTradePacts)}" });
+            EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("corporate-console-active-trade-pacts", ("list", string.Join(", ", econ.ActiveTradePacts))) });
         else
-            EconomyStatusPanel.AddChild(new Label { Text = "Trade Pacts: None", StyleClasses = { "LabelSubText" } });
+            EconomyStatusPanel.AddChild(new Label
+            {
+                Text = Loc.GetString("corporate-console-no-trade-pacts"),
+                StyleClasses = { "LabelSubText" }
+            });
     }
 }

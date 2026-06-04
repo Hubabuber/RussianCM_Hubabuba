@@ -239,7 +239,7 @@
   - type: CMAutomatedVendor
     jobs: [ AU14JobCivilianNurse, AU14JobCivilianPhysician, AU14JobCivilianHeadPhysician, AU14JobCLFPhysician, AU14JobCLFSurgeon ]
     sections:
-    - name: Shoes
+    - name: au14-vendor-section-shoes
       choices: { CMUcivilianmedicalshoes: 1 }
       entries:
       - id: RMCShoesBlack
@@ -254,58 +254,58 @@
       - id: RMCShoesLaceupBrown
       - id: RMCShoesLaceup
       - id: RMCShoesLeather
-    - name: Work Wear
+    - name: au14-vendor-section-work-wear
       choices: { CMUcivilianmedicalworkwear: 1 }
       entries:
       - id: AU14CivilianWorkwearYellow
       - id: AU14CivilianWorkwearPink
       - id: AU14CivilianWorkwearBlue
       - id: AU14CivilianWorkwearGreen
-    - name: Medical Scrubs
+    - name: au14-vendor-section-medical-scrubs
       choices: { CMUcivilianmedicalscrubs: 1 }
       entries:
       - id: CMScrubsBlue
       - id: CMScrubsGreen
       - id: RMCScrubsLightBlue
-    - name: Medical Scrub Caps
+    - name: au14-vendor-section-medical-scrub-caps
       choices: { CMUcivilianmedicalscrubcap: 1 }
       entries:
       - id: CMHeadCapSurgBlue
       - id: CMHeadCapSurgGreen
-    - name: Jackets
+    - name: au14-vendor-section-jackets
       choices: { CMUcivilianmedicaljackets: 2 }
       entries:
       - id: RMCLabcoat
       - id: RMCLabcoatShort
       - id: RMCLabcoatLong
       - id: RMCCoatSnow
-    - name: Medical Gloves
+    - name: au14-vendor-section-medical-gloves
       choices: { CMUcivilianmedicalgloves: 1 }
       entries:
       - id: CMHandsLatex
       - id: ClothingHandsGlovesNitrile
-    - name: Medical Masks
+    - name: au14-vendor-section-medical-masks
       choices: { CMUcivilianmedicalmasks: 1 }
       entries:
       - id: CMMaskSterile
-    - name: Essential Equipment
+    - name: au14-vendor-section-essential-equipment
       takeAll: CMUEssentialEquipment
       entries:
       - id: AU14VendorBundleMilitaryDoctorEssentials
       - id: RMCSurgicalTray
-    - name: Medical Pouches
+    - name: au14-vendor-section-medical-pouches
       choices: { CMUMedicalPouchCivDoc: 2 }
       entries:
       - id: AU14PouchAutoinjectorFilledMilitaryDoctor
       - id: RMCPouchFirstResponder
       - id: RMCPouchMedical
       - id: RMCPouchSyringeFill
-    - name: Medical Storage
+    - name: au14-vendor-section-medical-storage
       choices: { CMUPlatoonMedicalStorage: 1 }
       entries:
       - id: CMBeltMedicBag
       - id: AU14BeltMedicBagBlack
-    - name: Medical Equipment
+    - name: au14-vendor-section-medical-equipment
       entries:
       - id: AU14CMDefibrillator
         amount: 10

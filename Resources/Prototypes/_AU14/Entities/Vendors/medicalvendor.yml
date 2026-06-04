@@ -12,7 +12,7 @@
     - state: "normal-unshaded"
   - type: CMAutomatedVendor
     sections:
-    - name: General Medical Supplies
+    - name: au14-vendor-section-general-medical-supplies
       entries:
       - id: CMOintment10
         amount: 40
@@ -68,7 +68,7 @@
         amount: 12
       - id: CMSyringe
         amount: 30
-    - name: Pill Bottles
+    - name: au14-vendor-section-pill-bottles
       entries:
       - id: CMPillCanisterDexalin
         amount: 10
@@ -108,7 +108,7 @@
         amount: 10
       - id: AU14PillCanisterPulmovine
         amount: 10
-    - name: Injectors
+    - name: au14-vendor-section-injectors
       entries:
       - id: CMEpinephrineAutoInjector
         amount: 14
@@ -132,7 +132,7 @@
         amount: 20
       - id: AU14OxycodoneAutoInjector
         amount: 20
-    - name: Medical Utilities
+    - name: au14-vendor-section-medical-utilities
       entries:
       - id: CMRollerBedSpawnFolded
         amount: 25
@@ -181,15 +181,14 @@
   - type: CMAutomatedVendor
     hackable: true
     sections:
-    - name: Blood Packs
+    - name: au14-vendor-section-blood-packs
       entries:
       - id: CMBloodPackFull
         amount: 45
-    - name: Empty Packs
+    - name: au14-vendor-section-empty-packs
       entries:
       - id: CMBloodPack
         amount: 65
-        name: empty blood pack
 
 - type: entity
   parent: ColMarTechBaseAnchorable
@@ -216,15 +215,15 @@
   - type: CMAutomatedVendor
     hackable: true
     sections:
-    - name: Blood Packs
+    - name: au14-vendor-section-blood-packs
       entries:
       - id: CMBloodPackFull
         amount: 6
-    - name: Miscellaneous
+    - name: au14-vendor-section-misc
       entries:
       - id: CMBloodPack
         amount: 20
-        name: empty blood pack
+
 
 - type: entity
   parent: AU14VendorBloodField
@@ -274,7 +273,7 @@
       - Hypospray
   - type: CMAutomatedVendor
     sections:
-    - name: Autoinjectors
+    - name: au14-vendor-section-autoinjectors
       entries:
       - id: CMTricordrazineAutoInjector
         amount: 5
@@ -285,13 +284,13 @@
       - id: AU14NaloxoneAutoInjector
         amount: 2
     #- id: CMPainStopAutoinjector
-    - name: Devices
+    - name: au14-vendor-section-devices
       entries:
       - id: CMHealthAnalyzer
         amount: 3
       - id: AU14CMDefibrillator
         amount: 1
-    - name: Field Supplies
+    - name: au14-vendor-section-field-supplies
       entries:
       - id: CMFireExtinguisherPortable
         amount: 2

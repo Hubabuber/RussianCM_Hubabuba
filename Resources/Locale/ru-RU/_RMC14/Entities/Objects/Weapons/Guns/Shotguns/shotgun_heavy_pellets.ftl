@@ -1,5 +1,9 @@
 ent-RMCPelletHeavyShotgunIncendiaryBuckshot = картечь «Дыхание дракона»
-ent-RMCPelletHeavyShotgunFlechette = Тяжёлая флешетта
-ent-RMCPelletHeavyShotgunBeanbag = Тяжёлая травматическая пуля
-ent-RMCPelletHeavyShotgunSlug = Тяжёлая пуля
-ent-RMCPelletHeavyShotgunBuckshot = Тяжёлая картечь
+
+ent-RMCPelletHeavyShotgunFlechette = усиленная флешетта
+
+ent-RMCPelletHeavyShotgunBeanbag = усиленная травматическая пуля
+
+ent-RMCPelletHeavyShotgunSlug = усиленная пуля
+
+ent-RMCPelletHeavyShotgunBuckshot = усиленная картечь
