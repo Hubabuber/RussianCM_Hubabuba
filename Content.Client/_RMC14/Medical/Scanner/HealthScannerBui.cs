@@ -614,7 +614,8 @@ public sealed partial class HealthScannerBui : BoundUserInterface
         {
             if (frac.Part != part.Type || frac.Symmetry != part.Symmetry)
                 continue;
-            var label = frac.ExactSeverity ? frac.Severity.ToString()
+            var label = frac.ExactSeverity
+                ? Loc.GetString($"cmu-medical-scanner-fracture-severity-{frac.Severity.ToString().ToLower()}") // RuMC edit
                 : Loc.GetString("cmu-medical-scanner-chip-fracture-vague");
             if (frac.Suppressed)
                 label += Loc.GetString("cmu-medical-scanner-chip-suppressed-suffix");

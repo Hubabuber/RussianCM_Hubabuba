@@ -63,3 +63,34 @@ cmu-medical-detailed-examine-verb = Inspect injuries
 cmu-medical-detailed-examine-verb-message = Take a closer look at their injuries.
 cmu-medical-detailed-examine-start = You begin checking { THE($target) } for injuries.
 cmu-medical-detailed-examine-none = No obvious injuries found.
+
+cmu-medical-detailed-wound-full = { $size } { $mechanism }
+
+cmu-medical-detailed-treatment-optimal = optimal treatment
+cmu-medical-detailed-treatment-adequate = adequate treatment
+cmu-medical-detailed-treatment-treated = treated
+cmu-medical-detailed-treatment-untreated = untreated
+
+cmu-medical-detailed-cleanup-retained-fragment = retained fragments
+cmu-medical-detailed-cleanup-poor-closure = poor closure
+cmu-medical-detailed-cleanup-charred-tissue = charred tissue
+cmu-medical-detailed-cleanup-crush-debris = crush debris
+cmu-medical-detailed-cleanup-dirty-dressing = dirty dressing
+cmu-medical-detailed-cleanup-needed = cleanup needed: { $items }
+
+cmu-medical-detailed-hint-remove-shrapnel = remove shrapnel
+cmu-medical-detailed-hint-sealing-dressing = sealing dressing
+cmu-medical-detailed-hint-burn-gel-dressing = burn gel dressing
+cmu-medical-detailed-hint-compression-dressing = compression dressing
+cmu-medical-detailed-hint-hemostatic-dressing = hemostatic dressing
+cmu-medical-detailed-hint-antiseptic-dressing = antiseptic dressing
+cmu-medical-detailed-hint-label = optimal: { $hint }
+
+cmu-medical-detailed-bleed-minor = minor
+cmu-medical-detailed-bleed-moderate = moderate
+cmu-medical-detailed-bleed-severe = severe
+cmu-medical-detailed-bleed-arterial = arterial
+
+cmu-medical-detailed-external-bleeding = external bleeding: { $tier }
+cmu-medical-detailed-eschar = burn eschar: charred tissue
+cmu-medical-detailed-severed = severed

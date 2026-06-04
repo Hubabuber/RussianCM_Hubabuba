@@ -130,3 +130,36 @@ cmu-medical-stethoscope-pain-mild          = Пациент выглядит с�
 cmu-medical-stethoscope-pain-moderate      = Пациент испытывает заметную боль.
 cmu-medical-stethoscope-pain-severe        = Пациент испытывает сильную боль.
 cmu-medical-stethoscope-pain-shock         = Пациент в состоянии шока.
+
+cmu-medical-scanner-wound-typed            = { $size } { $mechanism }
+
+cmu-medical-scanner-wound-size-small       = небольшое
+cmu-medical-scanner-wound-size-deep        = глубокое
+cmu-medical-scanner-wound-size-gaping      = зияющее
+cmu-medical-scanner-wound-size-massive     = массивное
+
+cmu-medical-scanner-wound-mechanism-generic   = ранение
+cmu-medical-scanner-wound-mechanism-bullet    = огнестрельное ранение
+cmu-medical-scanner-wound-mechanism-stab      = колотое ранение
+cmu-medical-scanner-wound-mechanism-slash     = резаное ранение
+cmu-medical-scanner-wound-mechanism-crush     = размозжённое ранение
+cmu-medical-scanner-wound-mechanism-burn      = ожоговое ранение
+cmu-medical-scanner-wound-mechanism-blast     = взрывное ранение
+cmu-medical-scanner-wound-mechanism-fragment  = осколочное ранение
+cmu-medical-scanner-wound-mechanism-surgical  = хирургическое ранение
+
+cmu-medical-scanner-chip-shrapnel         = { $count } оск.
+
+cmu-medical-scanner-stabilizer-missing     = Стабилизатор: отсутствует
+cmu-medical-scanner-stabilizer-ready       = Стабилизатор: готов
+cmu-medical-scanner-stabilizer-cooling     = Стабилизатор: охлаждение ({ $seconds }с)
+cmu-medical-scanner-stabilizer-empty       = Стабилизатор: пуст
+cmu-medical-scanner-stabilizer-unavailable = Стабилизатор: недоступен
+cmu-medical-scanner-stabilizer-active      = Стабилизация { $organ } ({ $seconds }с)
+cmu-medical-scanner-stabilizer-vial-loaded-suffix  =  + флакон
+cmu-medical-scanner-stabilizer-vial-bypass-suffix  =  + обход флакона
+
+cmu-medical-scanner-fracture-severity-hairline    = трещинный
+cmu-medical-scanner-fracture-severity-simple      = простой
+cmu-medical-scanner-fracture-severity-compound    = открытый
+cmu-medical-scanner-fracture-severity-comminuted  = оскольчатый

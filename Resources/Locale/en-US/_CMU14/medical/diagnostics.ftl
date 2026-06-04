@@ -157,3 +157,8 @@ cmu-medical-stethoscope-pain-mild          = The patient seems uncomfortable.
 cmu-medical-stethoscope-pain-moderate      = The patient is in noticeable pain.
 cmu-medical-stethoscope-pain-severe        = The patient is in heavy pain.
 cmu-medical-stethoscope-pain-shock         = The patient is in shock.
+
+cmu-medical-scanner-fracture-severity-hairline    = hairline
+cmu-medical-scanner-fracture-severity-simple      = simple
+cmu-medical-scanner-fracture-severity-compound    = compound
+cmu-medical-scanner-fracture-severity-comminuted  = comminuted

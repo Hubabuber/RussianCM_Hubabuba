@@ -156,11 +156,12 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
                 }
 
                 if (wounds.ExternalBleeding != ExternalBleedTier.None)
-                    sections.Add(Color($"external bleeding: {DescribeBleedTier(wounds.ExternalBleeding)}", DetailedBleedColor));
+                    sections.Add(Color(Loc.GetString("cmu-medical-detailed-external-bleeding", // RuMC edit
+                        ("tier", DescribeBleedTier(wounds.ExternalBleeding))), DetailedBleedColor));
             }
 
             if (HasComp<CMUEscharComponent>(partUid))
-                sections.Add(Color("burn eschar: charred tissue", DetailedBurnColor));
+                sections.Add(Color(Loc.GetString("cmu-medical-detailed-eschar"), DetailedBurnColor)); // RuMC edit
 
             if (sections.Count == 0)
                 continue;
@@ -176,7 +177,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
             partSummaries.Add(new BodyPartExamineSummary(
                 BodyPartSortOrder(type, symmetry),
                 PartHeader(type, symmetry),
-                Color("severed", SeveredColor)));
+                Color(Loc.GetString("cmu-medical-detailed-severed"), SeveredColor))); // RuMC edit
         }
 
         if (partSummaries.Count == 0)
@@ -333,7 +334,12 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
 
         var details = new List<string>
         {
-            Color($"{DescribeDetailedSize(size)} {DescribeMechanism(mechanism, wound.Type)}", WoundColorFor(mechanism, wound.Type)),
+            // RuMC edit start
+            Color(Loc.GetString("cmu-medical-detailed-wound-full",
+                ("size", size.ToString().ToLower()),
+                ("mechanism", mechanism.ToString().ToLower())),
+                WoundColorFor(mechanism, wound.Type)),
+            // RuMC edit end
             Color(
                 DescribeTreatment(quality, wound.Treated),
                 TreatmentColorFor(quality, wound.Treated)),
@@ -347,7 +353,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
 
         var optimalHint = DescribeOptimalHint(mechanism, wound.Type, cleanup);
         if (quality != WoundTreatmentQuality.Optimal && optimalHint.Length > 0)
-            details.Add(Color($"optimal: {optimalHint}", DetailedHintColor));
+            details.Add(Color(Loc.GetString("cmu-medical-detailed-hint-label", ("hint", optimalHint)), DetailedHintColor)); // RuMC edit
 
         return ToDetailedLines(details);
     }
@@ -397,7 +403,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         };
     }
 
-    private static string DescribeDetailedFracture(FractureSeverity severity, bool stabilized)
+    private string DescribeDetailedFracture(FractureSeverity severity, bool stabilized) // RuMC edit
     {
         var prefix = stabilized ? "stabilized " : string.Empty;
         return severity switch
@@ -410,7 +416,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         };
     }
 
-    private static string DescribeDetailedSize(WoundSize size) => size switch
+    private string DescribeDetailedSize(WoundSize size) => size switch // RuMC edit
     {
         WoundSize.Small => "small",
         WoundSize.Deep => "deep",
@@ -419,7 +425,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         _ => "deep",
     };
 
-    private static string DescribeMechanism(WoundMechanism mechanism, WoundType type) => mechanism switch
+    private string DescribeMechanism(WoundMechanism mechanism, WoundType type) => mechanism switch // RuMC edit
     {
         WoundMechanism.Bullet => "bullet wound",
         WoundMechanism.Stab => "stab wound",
@@ -432,11 +438,15 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         _ => type == WoundType.Burn ? "burn" : "wound",
     };
 
-    private static string DescribeTreatment(WoundTreatmentQuality quality, bool treated) => quality switch
+    private string DescribeTreatment(WoundTreatmentQuality quality, bool treated) => quality switch // RuMC edit
     {
-        WoundTreatmentQuality.Optimal => "optimal treatment",
-        WoundTreatmentQuality.Adequate => "adequate treatment",
-        _ => treated ? "treated" : "untreated",
+        // RuMC edit start
+        WoundTreatmentQuality.Optimal  => Loc.GetString("cmu-medical-detailed-treatment-optimal"),
+        WoundTreatmentQuality.Adequate => Loc.GetString("cmu-medical-detailed-treatment-adequate"),
+        _ => treated
+            ? Loc.GetString("cmu-medical-detailed-treatment-treated")
+            : Loc.GetString("cmu-medical-detailed-treatment-untreated"),
+        // RuMC edit end
     };
 
     private string DescribeCleanup(WoundCleanupFlags cleanup) // RuMC edit
@@ -444,51 +454,63 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         if (cleanup == WoundCleanupFlags.None)
             return string.Empty;
 
-        var entries = new List<string>(4);
+        // RuMC edit start
+        var entries = new List<string>(5);
         if ((cleanup & WoundCleanupFlags.RetainedFragment) != WoundCleanupFlags.None)
-            entries.Add("retained fragments");
+            entries.Add(Loc.GetString("cmu-medical-detailed-cleanup-retained-fragment"));
         if ((cleanup & WoundCleanupFlags.PoorClosure) != WoundCleanupFlags.None)
-            entries.Add("poor closure");
+            entries.Add(Loc.GetString("cmu-medical-detailed-cleanup-poor-closure"));
         if ((cleanup & WoundCleanupFlags.CharredTissue) != WoundCleanupFlags.None)
-            entries.Add("charred tissue");
+            entries.Add(Loc.GetString("cmu-medical-detailed-cleanup-charred-tissue"));
         if ((cleanup & WoundCleanupFlags.CrushDebris) != WoundCleanupFlags.None)
-            entries.Add("crush debris");
+            entries.Add(Loc.GetString("cmu-medical-detailed-cleanup-crush-debris"));
         if ((cleanup & WoundCleanupFlags.DirtyDressing) != WoundCleanupFlags.None)
-            entries.Add("dirty dressing");
+            entries.Add(Loc.GetString("cmu-medical-detailed-cleanup-dirty-dressing"));
 
-        return $"cleanup needed: {ToSentence(entries)}";
-    }
+        return Loc.GetString("cmu-medical-detailed-cleanup-needed", ("items", ToSentence(entries)));
+        // RuMC edit end
+}
 
-    private static string DescribeOptimalHint(WoundMechanism mechanism, WoundType type, WoundCleanupFlags cleanup)
+    private string DescribeOptimalHint(WoundMechanism mechanism, WoundType type, WoundCleanupFlags cleanup) // RuMC edit
     {
+        // RuMC edit start
         if ((cleanup & WoundCleanupFlags.RetainedFragment) != WoundCleanupFlags.None)
-            return "remove shrapnel";
+            return Loc.GetString("cmu-medical-detailed-hint-remove-shrapnel");
         if ((cleanup & WoundCleanupFlags.PoorClosure) != WoundCleanupFlags.None)
-            return "sealing dressing";
+            return Loc.GetString("cmu-medical-detailed-hint-sealing-dressing");
         if ((cleanup & WoundCleanupFlags.CharredTissue) != WoundCleanupFlags.None)
-            return "burn gel dressing";
+            return Loc.GetString("cmu-medical-detailed-hint-burn-gel-dressing");
         if ((cleanup & WoundCleanupFlags.CrushDebris) != WoundCleanupFlags.None)
-            return "compression dressing";
+            return Loc.GetString("cmu-medical-detailed-hint-compression-dressing");
 
         return mechanism switch
         {
-            WoundMechanism.Bullet or WoundMechanism.Stab or WoundMechanism.Fragment => "hemostatic dressing",
-            WoundMechanism.Slash or WoundMechanism.Surgical => "sealing dressing",
-            WoundMechanism.Crush or WoundMechanism.Blast => "compression dressing",
-            WoundMechanism.Burn => "burn gel dressing",
-            _ when type == WoundType.Burn => "burn gel dressing",
-            _ when (cleanup & WoundCleanupFlags.DirtyDressing) != WoundCleanupFlags.None => "antiseptic dressing",
+            WoundMechanism.Bullet or WoundMechanism.Stab or WoundMechanism.Fragment
+                => Loc.GetString("cmu-medical-detailed-hint-hemostatic-dressing"),
+            WoundMechanism.Slash or WoundMechanism.Surgical
+                => Loc.GetString("cmu-medical-detailed-hint-sealing-dressing"),
+            WoundMechanism.Crush or WoundMechanism.Blast
+                => Loc.GetString("cmu-medical-detailed-hint-compression-dressing"),
+            WoundMechanism.Burn
+                => Loc.GetString("cmu-medical-detailed-hint-burn-gel-dressing"),
+            _ when type == WoundType.Burn
+                => Loc.GetString("cmu-medical-detailed-hint-burn-gel-dressing"),
+            _ when (cleanup & WoundCleanupFlags.DirtyDressing) != WoundCleanupFlags.None
+                => Loc.GetString("cmu-medical-detailed-hint-antiseptic-dressing"),
+        // RuMC edit end
             _ => string.Empty,
         };
     }
 
-    private static string DescribeBleedTier(ExternalBleedTier tier) => tier switch
+    private string DescribeBleedTier(ExternalBleedTier tier) => tier switch // RuMC edit
     {
-        ExternalBleedTier.Minor => "minor",
-        ExternalBleedTier.Moderate => "moderate",
-        ExternalBleedTier.Severe => "severe",
-        ExternalBleedTier.Arterial => "arterial",
-        _ => "none",
+        // RuMC edit start
+        ExternalBleedTier.Minor    => Loc.GetString("cmu-medical-detailed-bleed-minor"),
+        ExternalBleedTier.Moderate => Loc.GetString("cmu-medical-detailed-bleed-moderate"),
+        ExternalBleedTier.Severe   => Loc.GetString("cmu-medical-detailed-bleed-severe"),
+        ExternalBleedTier.Arterial => Loc.GetString("cmu-medical-detailed-bleed-arterial"),
+        _                          => string.Empty,
+        // RuMC edit end
     };
 
     private static WoundMechanism LegacyMechanismFor(WoundType type) => type switch
