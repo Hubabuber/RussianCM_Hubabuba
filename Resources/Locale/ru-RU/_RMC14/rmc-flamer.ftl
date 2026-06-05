@@ -15,7 +15,7 @@ rmc-flamer-empty = У вас кончилось топливо!
 
 rmc-broiler-switch-tank = Теперь используем танк в слоте {$n}.
 
-rmc-broiler-action-examine = [bold]Нажмите [color=cyan]уникальное сочетание клавиш [/color] (пробел по умолчанию), чтобы переключиться на другой резервуар для бройлеров.[/bold]
+rmc-broiler-action-examine = [bold]Нажмите [color=cyan]уникальное сочетание клавиш [/color] (пробел по умолчанию), чтобы переключиться на другой резервуар.[/bold]
 
 rmc-flamer-tank-examine = Изучите свойства бака мусоросжигателя.
 

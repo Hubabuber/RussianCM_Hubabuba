@@ -17,7 +17,7 @@ ui-escape-status-map = Карта
 
 ui-escape-status-ship-map = Карта корабля
 
-ui-escape-status-round = Круглый
+ui-escape-status-round = Раунд
 
 ui-escape-status-players = Игроки
 

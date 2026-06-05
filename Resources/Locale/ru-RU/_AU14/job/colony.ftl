@@ -162,18 +162,23 @@ au14-job-prefix-civiliancorporateassistant = Корп. Пом.
 au14-job-name-civilianlaselleliaison = Связной Laselle
 au14-job-description-civilianlaselleliaison = Связной корпорации Laselle Bionational.
 au14-job-prefix-laselleliaison = СВЗЛ
-au14-job-name-civilianambassadoricsc = Посол МКТК
-au14-job-description-civilianambassadoricsc = Руководи дипломатической миссией МКТК в колонии.
-au14-job-prefix-civilianambassadoricsc = Пос. МКТК
+
+au14-job-name-civilianambassadoricsc = Посол НКВС
+au14-job-description-civilianambassadoricsc = Руководи дипломатической миссией НКВС в колонии.
+au14-job-prefix-civilianambassadoricsc = Пос. НКВС
+
 au14-job-name-civilianambassadorupp = Посол СПН
 au14-job-description-civilianambassadorupp = Руководи дипломатической миссией СПН в колонии.
 au14-job-prefix-civilianambassadorupp = Пос. СПН
+
 au14-job-name-civilianambassadorua = Посол США
 au14-job-description-civilianambassadorua = Руководи дипломатической миссией США в колонии.
 au14-job-prefix-civilianambassadorua = Пос. США
+
 au14-job-name-civilianambassadortwe = Посол ИТМ
 au14-job-description-civilianambassadortwe = Руководи дипломатической миссией ИТМ в колонии.
 au14-job-prefix-civilianambassadortwe = Пос. ИТМ
+
 au14-job-name-civilianambassadorcca = Посол КЦА
 au14-job-description-civilianambassadorcca = Руководи дипломатической миссией КЦА в колонии.
 au14-job-prefix-civilianambassadorcca = Пос. КЦА

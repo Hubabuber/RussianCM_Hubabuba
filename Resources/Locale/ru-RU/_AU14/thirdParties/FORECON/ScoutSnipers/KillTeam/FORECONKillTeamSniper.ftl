@@ -1,3 +1,4 @@
-ent-AU14JobFORECONKillTeamSniper-name = Снайпер ФОРЕКОН (Группа Ликвидации)
-ent-AU14IDCardFORECONKillTeamSniper-name = ID-карта снайпера ФОРЕКОН
-ent-AU14IDCardFORECONKillTeamSniper-desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.
+ent-AU14JobFORECONKillTeamSniper = Снайпер ФОРЕКОН (Зачистка)
+
+ent-AU14IDCardFORECONKillTeamSniper = ID-карта снайпера ФОРЕКОН
+  .desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.

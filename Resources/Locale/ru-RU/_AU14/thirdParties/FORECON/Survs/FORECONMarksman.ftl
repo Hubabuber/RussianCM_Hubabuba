@@ -1,3 +1,4 @@
-ent-AU14JobFORECONMarksman-name = Урист К.М. МакХэндс
-ent-AU14IDCardFORECONMarksman-name = ID-карта меткого стрелка ФОРЕКОН
-ent-AU14IDCardFORECONMarksman-desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.
+ent-AU14JobFORECONMarksman = Марксмен ФОРЕКОН
+
+ent-AU14IDCardFORECONMarksman = ID-карта марксмена ФОРЕКОН
+  .desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.

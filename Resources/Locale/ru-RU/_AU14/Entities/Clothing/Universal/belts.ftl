@@ -40,6 +40,16 @@ ent-AU14BeltSmartGunOperatorPistolBlack = кобурная разгрузка д
 
 ent-AU14BeltUtilityGeneralBlack = универсальный подсумок M276 G8-A
     .desc = Небольшой лёгкий подсумок. Новая модель G8-A, хоть и неудобная, также позволяет крепить её на пояс.
+ent-AU14BeltUtilityGeneralBlackCLFSurvGrenade = { ent-AU14BeltUtilityGeneralBlack }
+    .desc = {ent-AU14BeltUtilityGeneralBlack.desc}
+ent-AU14BeltUtilityGeneralBlackCLFSurvMolly = { ent-AU14BeltUtilityGeneralBlack }
+    .desc = {ent-AU14BeltUtilityGeneralBlack.desc}
+ent-AU14BeltUtilityGeneralBlackCLFSurvMedical = { ent-AU14BeltUtilityGeneralBlack }
+    .desc = {ent-AU14BeltUtilityGeneralBlack.desc}
+ent-AU14BeltUtilityGeneralBlackCLFSurvMetal = { ent-AU14BeltUtilityGeneralBlack }
+    .desc = {ent-AU14BeltUtilityGeneralBlack.desc}
+ent-AU14BeltUtilityGeneralBlackCLFSurvPipeBomb = { ent-AU14BeltUtilityGeneralBlack }
+    .desc = {ent-AU14BeltUtilityGeneralBlack.desc}
 
 ent-AU14BeltMarineBlack = разгрузка для боеприпасов M276
     .desc = M276 — стандартное снаряжение. Состоит из модульного пояса с различными клипсами. Это стандартный вариант, предназначенный для массовой переноски боеприпасов.

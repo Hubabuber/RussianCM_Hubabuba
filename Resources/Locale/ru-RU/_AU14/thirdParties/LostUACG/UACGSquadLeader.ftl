@@ -1,3 +1,4 @@
-ent-AU14JobUACGLostSquadLeader-name = Потерянный Командир Отряда
-ent-AU14IDCardUACGSquadleader-name = ID-карта командира отряда ВККС
-ent-AU14IDCardUACGSquadleader-desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.
+ent-AU14JobUACGLostSquadLeader = потерянный командир отряда
+
+ent-AU14IDCardUACGSquadleader = ID-карта командира отряда КГОА
+  .desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.

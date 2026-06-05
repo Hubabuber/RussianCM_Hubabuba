@@ -128,112 +128,112 @@ ent-DecorFloorPaper3 = разбросанные бумаги
     .desc = Беспорядок из бумаг
 
 ent-DecorFloorScrapwood = обрезки древесины
-    .desc = обрезки древесины
+    .desc = Обрезки древесины
 
 ent-DecorFloorBrickrubble = кирпичный щебень
-    .desc = кирпичный щебень
+    .desc = Кирпичный щебень
 
 ent-DecorFloorCardboard = картонные коробки
-    .desc = картонные коробки-обрезки
+    .desc = Картонные коробки-обрезки
 
 ent-DecorFloorPallet = поддон
-    .desc = деревянный поддон.
+    .desc = Деревянный поддон.
 
 ent-DecorFloorPalletStack = стопка поддонов
-    .desc = стопка деревянных поддонов
+    .desc = Стопка деревянных поддонов
 
 ent-DecorFloorBrickStack = стопка кирпичей
-    .desc = аккуратная стопка кирпичей
+    .desc = Аккуратная стопка кирпичей
 
 ent-DecorFloorBookstack1 = стопка книг
-    .desc = стопка книг
+    .desc = Стопка книг
 
 ent-DecorFloorBookstack2 = стопка книг
-    .desc = стопка книг
+    .desc = Стопка книг
 
 ent-DecorFloorBookstack3 = стопка книг
-    .desc = стопка книг
+    .desc = Стопка книг
 
 ent-DecorFloorBookPile1 = куча книг
-    .desc = куча книг
+    .desc = Куча книг
 
 ent-DecorFloorBookPile2 = куча книг
-    .desc = куча книг
+    .desc = Куча книг
 
 ent-DecorFloorBookPile3 = куча книг
-    .desc = куча книг
+    .desc = Куча книг
 
 ent-DecorFloorBookPile4 = куча книг
-    .desc = куча книг
+    .desc = Куча книг
 
 ent-DecorFloorBookPile5 = куча книг
-    .desc = куча книг
+    .desc = Куча книг
 
 ent-DecorFloorBookPile6 = куча книг
-    .desc = куча книг
+    .desc = Куча книг
 
 ent-DecorFloorFood1 = продукты
-    .desc = старые продукты
+    .desc = Старые продукты
 
 ent-DecorFloorFood2 = продукты
-    .desc = старые продукты
+    .desc = Старые продукты
 
 ent-DecorFloorFood3 = продукты
-    .desc = старые продукты
+    .desc = Старые продукты
 
 ent-DecorFloorFood4 = продукты
-    .desc = старые продукты
+    .desc = Старые продукты
 
 ent-DecorFloorFood5 = продукты
-    .desc = старые продукты
+    .desc = Старые продукты
 
 ent-DecorFloorFood6 = продукты
-    .desc = старые продукты
+    .desc = Старые продукты
 
 ent-DecorFloorTrashbags1 = мусорные мешки
-    .desc = старые мусорные мешки
+    .desc = Старые мусорные мешки
 
 ent-DecorFloorTrashbags2 = мусорные мешки
-    .desc = старые мусорные мешки
+    .desc = Старые мусорные мешки
 
 ent-DecorFloorTrashbags3 = мусорные мешки
-    .desc = старые мусорные мешки
+    .desc = Старые мусорные мешки
 
 ent-DecorFloorTrashbags4 = мусорные мешки
-    .desc = старые мусорные мешки
+    .desc = Старые мусорные мешки
 
 ent-DecorFloorTrashbags5 = мусорные мешки
-    .desc = старые мусорные мешки
+    .desc = Старые мусорные мешки
 
 ent-DecorFloorTrashbags6 = мусорные мешки
-    .desc = старые мусорные мешки
+    .desc = Старые мусорные мешки
 
 ent-DecorFloorGlass1 = стеклянные бутылки
-    .desc = старые осколки стекла
+    .desc = Старые осколки стекла
 
 ent-DecorFloorGlass2 = стеклянные бутылки
-    .desc = старые осколки стекла
+    .desc = Старые осколки стекла
 
 ent-DecorFloorGlass3 = стеклянные бутылки
-    .desc = старые осколки стекла
+    .desc = Старые осколки стекла
 
 ent-DecorFloorGlass4 = стеклянные бутылки
-    .desc = старые осколки стекла
+    .desc = Старые осколки стекла
 
 ent-DecorFloorGlass5 = стеклянные бутылки
-    .desc = старые осколки стекла
+    .desc = Старые осколки стекла
 
 ent-DecorFloorGlass6 = стеклянные бутылки
-    .desc = старые осколки стекла
+    .desc = Старые осколки стекла
 
-ent-DecorSignMines = мины
-    .desc = опасность мин и смерти...
+ent-DecorSignMines = знак "Мины!"
+    .desc = Опасность мин и смерти...
 
 ent-DecorFloorSkeleton = скелет
-    .desc = выглядит потрёпанным
+    .desc = Выглядит потрёпанным
 
 ent-DecorBarrels = бочки
-    .desc = несколько старых ржавых бочек.
+    .desc = Несколько старых ржавых бочек.
 
 ent-DecorFloorSkeletonOver = скелет
-    .desc = выглядит потрёпанным
+    .desc = Выглядит потрёпанным

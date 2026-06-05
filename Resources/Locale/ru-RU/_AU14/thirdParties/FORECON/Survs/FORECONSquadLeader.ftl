@@ -1,3 +1,4 @@
-ent-AU14JobFORECONSquadleader-name = Командир отряда ФОРЕКОН (Выжив.)
-ent-AU14IDCardFORECONSquadleader-name = ID-карта командира отряда ФОРЕКОН
-ent-AU14IDCardFORECONSquadleader-desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.
+ent-AU14JobFORECONSquadleader = Командир отряда ФОРЕКОН
+
+ent-AU14IDCardFORECONSquadleader = ID-карта командира отряда ФОРЕКОН
+  .desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.
