@@ -215,7 +215,7 @@ public abstract partial class RMCSharedHypospraySystem : EntitySystem
                     return;
             }
 
-            var attemptEv = new AttemptHyposprayUseEvent(args.User, args.Target.Value, TimeSpan.Zero);
+            var attemptEv = new AttemptHyposprayUseEvent(args.User, args.Target.Value, TimeSpan.FromSeconds(1));
 
             RaiseLocalEvent(ent, ref attemptEv);
             var doAfter = new HyposprayDoAfterEvent();
@@ -428,7 +428,7 @@ public abstract partial class RMCSharedHypospraySystem : EntitySystem
                 return false;
         }
 
-        var attemptEv = new AttemptHyposprayUseEvent(user, target, TimeSpan.Zero);
+        var attemptEv = new AttemptHyposprayUseEvent(user, target, TimeSpan.FromSeconds(1));
         RaiseLocalEvent(entity, ref attemptEv);
         var doAfter = new HyposprayDoAfterEvent();
         var args = new DoAfterArgs(EntityManager, user, attemptEv.DoAfter, doAfter, entity, target, entity)
