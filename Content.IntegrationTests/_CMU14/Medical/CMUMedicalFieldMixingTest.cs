@@ -1,5 +1,7 @@
+using System.Linq;
 using Content.Server._CMU14.Medical.FieldTreatments;
 using Content.Server._CMU14.Medical.Wounds;
+using Content.Shared._CMU14.Medical.FieldTreatments;
 using Content.Shared._CMU14.Medical.BodyPart;
 using Content.Shared._CMU14.Medical.Wounds;
 using Content.Shared._RMC14.Marines.Skills;
@@ -40,7 +42,7 @@ public sealed class CMUMedicalFieldMixingTest
     }
 
     [Test]
-    public async Task MedicalTwoConsumesTwoIngredientUnitsAndOneGauzeBase()
+    public async Task MedicalTwoConsumesTwoIngredientUnitsAndOnePackedTraumaBase()
     {
         await using var pair = await PoolManager.GetServerClient();
         var server = pair.Server;
@@ -53,7 +55,7 @@ public sealed class CMUMedicalFieldMixingTest
 
             var user = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
             var ingredient = entMan.SpawnEntity("CMUCoagulantPowder", MapCoordinates.Nullspace);
-            var baseItem = entMan.SpawnEntity("CMUPlainGauze10", MapCoordinates.Nullspace);
+            var baseItem = entMan.SpawnEntity("CMUPlainTraumaDressing10", MapCoordinates.Nullspace);
 
             EntityUid? product = null;
             try
@@ -67,7 +69,7 @@ public sealed class CMUMedicalFieldMixingTest
                     Assert.That(entMan.GetComponent<StackComponent>(ingredient).Count, Is.EqualTo(48));
                     Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(49));
                     Assert.That(product, Is.Not.Null);
-                    Assert.That(entMan.GetComponent<MetaDataComponent>(product!.Value).EntityPrototype?.ID, Is.EqualTo("CMUHemostaticGauze1"));
+                    Assert.That(entMan.GetComponent<MetaDataComponent>(product!.Value).EntityPrototype?.ID, Is.EqualTo("CMTraumaKit1"));
                 });
             }
             finally
@@ -84,7 +86,7 @@ public sealed class CMUMedicalFieldMixingTest
     }
 
     [Test]
-    public async Task LegacyGauzeCanBeCraftingBaseAndConsumesOneBaseOnly()
+    public async Task CoagulantCannotUseGauzeBase()
     {
         await using var pair = await PoolManager.GetServerClient();
         var server = pair.Server;
@@ -104,14 +106,13 @@ public sealed class CMUMedicalFieldMixingTest
             {
                 skills.SetSkill(user, "RMCSkillMedical", 0);
 
-                Assert.That(system.TryMixTreatment(user, ingredient, baseItem, out product), Is.True);
+                Assert.That(system.TryMixTreatment(user, ingredient, baseItem, out product), Is.False);
 
                 Assert.Multiple(() =>
                 {
-                    Assert.That(entMan.GetComponent<StackComponent>(ingredient).Count, Is.EqualTo(45));
-                    Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(9));
-                    Assert.That(product, Is.Not.Null);
-                    Assert.That(entMan.GetComponent<MetaDataComponent>(product!.Value).EntityPrototype?.ID, Is.EqualTo("CMUHemostaticGauze1"));
+                    Assert.That(entMan.GetComponent<StackComponent>(ingredient).Count, Is.EqualTo(50));
+                    Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(10));
+                    Assert.That(product, Is.Null);
                 });
             }
             finally
@@ -128,7 +129,7 @@ public sealed class CMUMedicalFieldMixingTest
     }
 
     [Test]
-    public async Task LegacyTraumaKitCanBeCraftingBaseAndConsumesOneBaseOnly()
+    public async Task TraumaFoamCannotUsePackedTraumaBase()
     {
         await using var pair = await PoolManager.GetServerClient();
         var server = pair.Server;
@@ -141,7 +142,146 @@ public sealed class CMUMedicalFieldMixingTest
 
             var user = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
             var ingredient = entMan.SpawnEntity("CMUTraumaFoam", MapCoordinates.Nullspace);
-            var baseItem = entMan.SpawnEntity("CMTraumaKit10", MapCoordinates.Nullspace);
+            var baseItem = entMan.SpawnEntity("CMUPlainTraumaDressing10", MapCoordinates.Nullspace);
+
+            EntityUid? product = null;
+            try
+            {
+                skills.SetSkill(user, "RMCSkillMedical", 4);
+
+                Assert.That(system.TryMixTreatment(user, ingredient, baseItem, out product), Is.False);
+
+                Assert.Multiple(() =>
+                {
+                    Assert.That(entMan.GetComponent<StackComponent>(ingredient).Count, Is.EqualTo(50));
+                    Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(50));
+                    Assert.That(product, Is.Null);
+                });
+            }
+            finally
+            {
+                entMan.DeleteEntity(user);
+                entMan.DeleteEntity(ingredient);
+                entMan.DeleteEntity(baseItem);
+                if (product is { } mixed && entMan.EntityExists(mixed))
+                    entMan.DeleteEntity(mixed);
+            }
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task MedicalCraftingOptionsListHeldIngredientAndBasePair()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+
+        await server.WaitAssertion(() =>
+        {
+            var entMan = server.EntMan;
+            var system = entMan.System<CMUMedicalFieldMixingSystem>();
+            var skills = entMan.System<SkillsSystem>();
+            var hands = entMan.System<SharedHandsSystem>();
+
+            var user = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var ingredient = entMan.SpawnEntity("CMUCoagulantPowder", MapCoordinates.Nullspace);
+            var baseItem = entMan.SpawnEntity("CMUPlainTraumaDressing10", MapCoordinates.Nullspace);
+
+            try
+            {
+                skills.SetSkill(user, "RMCSkillMedical", 2);
+                Assert.That(hands.TryPickupAnyHand(user, ingredient, checkActionBlocker: false), Is.True);
+                Assert.That(hands.TryPickupAnyHand(user, baseItem, checkActionBlocker: false), Is.True);
+
+                var options = system.GetCraftableOptions(user).ToArray();
+
+                Assert.That(options, Has.Length.EqualTo(1));
+                Assert.Multiple(() =>
+                {
+                    Assert.That(options[0].Family, Is.EqualTo(CMUFieldTreatmentFamily.Hemostatic));
+                    Assert.That(options[0].BaseKind, Is.EqualTo(CMUFieldTreatmentBaseKind.TraumaDressing));
+                    Assert.That(options[0].Product, Is.EqualTo("CMTraumaKit1"));
+                    Assert.That(options[0].IngredientCost, Is.EqualTo(2));
+                });
+            }
+            finally
+            {
+                entMan.DeleteEntity(baseItem);
+                entMan.DeleteEntity(ingredient);
+                entMan.DeleteEntity(user);
+            }
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task MedicalCraftingMenuCraftsTraumaDressingFromHeldStacks()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+
+        await server.WaitAssertion(() =>
+        {
+            var entMan = server.EntMan;
+            var system = entMan.System<CMUMedicalFieldMixingSystem>();
+            var skills = entMan.System<SkillsSystem>();
+            var hands = entMan.System<SharedHandsSystem>();
+
+            var user = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var ingredient = entMan.SpawnEntity("CMUCoagulantPowder", MapCoordinates.Nullspace);
+            var baseItem = entMan.SpawnEntity("CMUPlainTraumaDressing10", MapCoordinates.Nullspace);
+
+            EntityUid? product = null;
+            try
+            {
+                skills.SetSkill(user, "RMCSkillMedical", 4);
+                Assert.That(hands.TryPickupAnyHand(user, ingredient, checkActionBlocker: false), Is.True);
+                Assert.That(hands.TryPickupAnyHand(user, baseItem, checkActionBlocker: false), Is.True);
+
+                Assert.That(system.TryCraftAvailableTreatment(
+                    user,
+                    CMUFieldTreatmentFamily.Hemostatic,
+                    CMUFieldTreatmentBaseKind.TraumaDressing,
+                    out product), Is.True);
+
+                Assert.Multiple(() =>
+                {
+                    Assert.That(entMan.GetComponent<StackComponent>(ingredient).Count, Is.EqualTo(49));
+                    Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(49));
+                    Assert.That(product, Is.Not.Null);
+                    Assert.That(entMan.GetComponent<MetaDataComponent>(product!.Value).EntityPrototype?.ID, Is.EqualTo("CMTraumaKit1"));
+                });
+            }
+            finally
+            {
+                if (product is { } mixed && entMan.EntityExists(mixed))
+                    entMan.DeleteEntity(mixed);
+                entMan.DeleteEntity(baseItem);
+                entMan.DeleteEntity(ingredient);
+                entMan.DeleteEntity(user);
+            }
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task BurnGelAndPackedTraumaBaseCraftsBaseBurnKit()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+
+        await server.WaitAssertion(() =>
+        {
+            var entMan = server.EntMan;
+            var system = entMan.System<CMUMedicalFieldMixingSystem>();
+            var skills = entMan.System<SkillsSystem>();
+
+            var user = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var ingredient = entMan.SpawnEntity("CMUBurnGel", MapCoordinates.Nullspace);
+            var baseItem = entMan.SpawnEntity("CMUPlainTraumaDressing10", MapCoordinates.Nullspace);
 
             EntityUid? product = null;
             try
@@ -153,9 +293,9 @@ public sealed class CMUMedicalFieldMixingTest
                 Assert.Multiple(() =>
                 {
                     Assert.That(entMan.GetComponent<StackComponent>(ingredient).Count, Is.EqualTo(49));
-                    Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(9));
+                    Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(49));
                     Assert.That(product, Is.Not.Null);
-                    Assert.That(entMan.GetComponent<MetaDataComponent>(product!.Value).EntityPrototype?.ID, Is.EqualTo("CMUCompressionTraumaDressing1"));
+                    Assert.That(entMan.GetComponent<MetaDataComponent>(product!.Value).EntityPrototype?.ID, Is.EqualTo("CMBurnKit1"));
                 });
             }
             finally
@@ -165,6 +305,100 @@ public sealed class CMUMedicalFieldMixingTest
                 entMan.DeleteEntity(baseItem);
                 if (product is { } mixed && entMan.EntityExists(mixed))
                     entMan.DeleteEntity(mixed);
+            }
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task MedicalCraftingMenuFailurePreservesIngredientAndBaseStacks()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+
+        await server.WaitAssertion(() =>
+        {
+            var entMan = server.EntMan;
+            var system = entMan.System<CMUMedicalFieldMixingSystem>();
+            var skills = entMan.System<SkillsSystem>();
+            var hands = entMan.System<SharedHandsSystem>();
+
+            var user = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var ingredient = entMan.SpawnEntity("CMUCoagulantPowder1", MapCoordinates.Nullspace);
+            var baseItem = entMan.SpawnEntity("CMUPlainGauze10", MapCoordinates.Nullspace);
+
+            EntityUid? product = null;
+            try
+            {
+                skills.SetSkill(user, "RMCSkillMedical", 0);
+                Assert.That(hands.TryPickupAnyHand(user, ingredient, checkActionBlocker: false), Is.True);
+                Assert.That(hands.TryPickupAnyHand(user, baseItem, checkActionBlocker: false), Is.True);
+
+                Assert.That(system.TryCraftAvailableTreatment(
+                    user,
+                    CMUFieldTreatmentFamily.Hemostatic,
+                    CMUFieldTreatmentBaseKind.Gauze,
+                    out product), Is.False);
+
+                Assert.Multiple(() =>
+                {
+                    Assert.That(product, Is.Null);
+                    Assert.That(entMan.GetComponent<StackComponent>(ingredient).Count, Is.EqualTo(1));
+                    Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(50));
+                });
+            }
+            finally
+            {
+                if (product is { } mixed && entMan.EntityExists(mixed))
+                    entMan.DeleteEntity(mixed);
+                entMan.DeleteEntity(baseItem);
+                entMan.DeleteEntity(ingredient);
+                entMan.DeleteEntity(user);
+            }
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task MedicalCraftingMenuRejectsXenoUsers()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+
+        await server.WaitAssertion(() =>
+        {
+            var entMan = server.EntMan;
+            var system = entMan.System<CMUMedicalFieldMixingSystem>();
+
+            var user = entMan.SpawnEntity("CMXenoRunner", MapCoordinates.Nullspace);
+            var ingredient = entMan.SpawnEntity("CMUCoagulantPowder", MapCoordinates.Nullspace);
+            var baseItem = entMan.SpawnEntity("CMUPlainGauze10", MapCoordinates.Nullspace);
+
+            EntityUid? product = null;
+            try
+            {
+                Assert.That(system.TryCraftAvailableTreatment(
+                    user,
+                    CMUFieldTreatmentFamily.Hemostatic,
+                    CMUFieldTreatmentBaseKind.Gauze,
+                    out product), Is.False);
+
+                Assert.Multiple(() =>
+                {
+                    Assert.That(product, Is.Null);
+                    Assert.That(entMan.GetComponent<StackComponent>(ingredient).Count, Is.EqualTo(50));
+                    Assert.That(entMan.GetComponent<StackComponent>(baseItem).Count, Is.EqualTo(50));
+                });
+            }
+            finally
+            {
+                if (product is { } mixed && entMan.EntityExists(mixed))
+                    entMan.DeleteEntity(mixed);
+                entMan.DeleteEntity(baseItem);
+                entMan.DeleteEntity(ingredient);
+                entMan.DeleteEntity(user);
             }
         });
 
@@ -218,7 +452,7 @@ public sealed class CMUMedicalFieldMixingTest
                 Assert.Multiple(() =>
                 {
                     Assert.That(treated, Is.EqualTo(1));
-                    Assert.That(wounds.TreatmentQualities[bulletIndex], Is.EqualTo(WoundTreatmentQuality.Optimal));
+                    Assert.That(wounds.TreatmentQualities[bulletIndex], Is.EqualTo(WoundTreatmentQuality.Adequate));
                     Assert.That(wounds.Cleanup[bulletIndex], Is.EqualTo(WoundCleanupFlags.None));
                     Assert.That(wounds.TreatmentQualities[slashIndex], Is.EqualTo(WoundTreatmentQuality.Untreated));
                     Assert.That(wounds.Wounds[slashIndex].Treated, Is.False);
@@ -446,6 +680,61 @@ public sealed class CMUMedicalFieldMixingTest
     }
 
     [Test]
+    public async Task PlainTraumaDressingStopsArterialBleedingInstantlyForCorpsman()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+
+        await server.WaitAssertion(() =>
+        {
+            var entMan = server.EntMan;
+            var partHealth = entMan.System<SharedBodyPartHealthSystem>();
+            var hands = entMan.System<SharedHandsSystem>();
+            var skills = entMan.System<SkillsSystem>();
+
+            var user = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var patient = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var trauma = entMan.SpawnEntity("CMUPlainTraumaDressing10", MapCoordinates.Nullspace);
+
+            try
+            {
+                skills.SetSkill(user, "RMCSkillMedical", 2);
+                Assert.That(hands.TryPickupAnyHand(user, trauma, checkActionBlocker: false), Is.True);
+
+                var torso = GetBodyPart(entMan, patient, BodyPartType.Torso);
+                Assert.That(partHealth.TryApplyPartDamage(
+                    patient,
+                    torso,
+                    Damage("Slash", 80),
+                    impact: DamageImpact.MeleeSlash), Is.True);
+
+                var wounds = entMan.GetComponent<BodyPartWoundComponent>(torso);
+                Assert.That(wounds.ExternalBleeding, Is.EqualTo(ExternalBleedTier.Arterial));
+
+                var interact = new AfterInteractEvent(user, trauma, patient, default, true);
+                entMan.EventBus.RaiseLocalEvent(trauma, interact);
+
+                Assert.Multiple(() =>
+                {
+                    Assert.That(interact.Handled, Is.True);
+                    Assert.That(wounds.ExternalBleeding, Is.EqualTo(ExternalBleedTier.None));
+                    Assert.That(wounds.Wounds[0].Treated, Is.False);
+                    Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Untreated));
+                    Assert.That(entMan.GetComponent<StackComponent>(trauma).Count, Is.EqualTo(49));
+                });
+            }
+            finally
+            {
+                entMan.DeleteEntity(trauma);
+                entMan.DeleteEntity(patient);
+                entMan.DeleteEntity(user);
+            }
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
     public async Task PreparedGauzeTreatsWoundAndStopsNonArterialBleeding()
     {
         await using var pair = await PoolManager.GetServerClient();
@@ -479,7 +768,8 @@ public sealed class CMUMedicalFieldMixingTest
                     Assert.That(interact.Handled, Is.True);
                     Assert.That(wounds.ExternalBleeding, Is.EqualTo(ExternalBleedTier.None));
                     Assert.That(wounds.Wounds[0].Treated, Is.True);
-                    Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Optimal));
+                    Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Adequate));
+                    Assert.That(wounds.Cleanup[0], Is.EqualTo(WoundCleanupFlags.None));
                     Assert.That(entMan.GetComponent<StackComponent>(gauze).Count, Is.EqualTo(9));
                 });
             }
@@ -495,7 +785,7 @@ public sealed class CMUMedicalFieldMixingTest
     }
 
     [Test]
-    public async Task PreparedGauzeCanCleanAdequateWounds()
+    public async Task PreparedGauzeDoesNotRetargetTreatedWounds()
     {
         await using var pair = await PoolManager.GetServerClient();
         var server = pair.Server;
@@ -522,7 +812,7 @@ public sealed class CMUMedicalFieldMixingTest
                 Assert.That(woundsSystem.TryTreatWound(torso, out var completed), Is.True);
                 Assert.That(completed, Is.True);
                 Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Adequate));
-                Assert.That(wounds.Cleanup[0], Is.Not.EqualTo(WoundCleanupFlags.None));
+                Assert.That(wounds.Cleanup[0], Is.EqualTo(WoundCleanupFlags.None));
 
                 var interact = new AfterInteractEvent(user, gauze, patient, default, true);
                 entMan.EventBus.RaiseLocalEvent(gauze, interact);
@@ -530,9 +820,9 @@ public sealed class CMUMedicalFieldMixingTest
                 Assert.Multiple(() =>
                 {
                     Assert.That(interact.Handled, Is.True);
-                    Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Optimal));
+                    Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Adequate));
                     Assert.That(wounds.Cleanup[0], Is.EqualTo(WoundCleanupFlags.None));
-                    Assert.That(entMan.GetComponent<StackComponent>(gauze).Count, Is.EqualTo(9));
+                    Assert.That(entMan.GetComponent<StackComponent>(gauze).Count, Is.EqualTo(10));
                 });
             }
             finally
@@ -547,7 +837,7 @@ public sealed class CMUMedicalFieldMixingTest
     }
 
     [Test]
-    public async Task CleanupTreatmentCanTargetTreatedWoundsAcrossDamageTypes()
+    public async Task CleanupTreatmentDoesNotRetargetTreatedWoundsAcrossDamageTypes()
     {
         await using var pair = await PoolManager.GetServerClient();
         var server = pair.Server;
@@ -574,7 +864,7 @@ public sealed class CMUMedicalFieldMixingTest
                 Assert.That(woundsSystem.TryTreatWound(torso, out var completed), Is.True);
                 Assert.That(completed, Is.True);
                 Assert.That(wounds.Wounds[0].Type, Is.EqualTo(WoundType.Burn));
-                Assert.That(wounds.Cleanup[0] & WoundCleanupFlags.DirtyDressing, Is.Not.EqualTo(WoundCleanupFlags.None));
+                Assert.That(wounds.Cleanup[0], Is.EqualTo(WoundCleanupFlags.None));
 
                 var interact = new AfterInteractEvent(user, antiseptic, patient, default, true);
                 entMan.EventBus.RaiseLocalEvent(antiseptic, interact);
@@ -583,9 +873,9 @@ public sealed class CMUMedicalFieldMixingTest
                 {
                     Assert.That(interact.Handled, Is.True);
                     Assert.That(wounds.Cleanup[0] & WoundCleanupFlags.DirtyDressing, Is.EqualTo(WoundCleanupFlags.None));
-                    Assert.That(wounds.Cleanup[0] & WoundCleanupFlags.CharredTissue, Is.Not.EqualTo(WoundCleanupFlags.None));
+                    Assert.That(wounds.Cleanup[0] & WoundCleanupFlags.CharredTissue, Is.EqualTo(WoundCleanupFlags.None));
                     Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Adequate));
-                    Assert.That(entMan.GetComponent<StackComponent>(antiseptic).Count, Is.EqualTo(9));
+                    Assert.That(entMan.GetComponent<StackComponent>(antiseptic).Count, Is.EqualTo(10));
                 });
             }
             finally
@@ -633,7 +923,8 @@ public sealed class CMUMedicalFieldMixingTest
                     Assert.That(interact.Handled, Is.True);
                     Assert.That(wounds.ExternalBleeding, Is.EqualTo(ExternalBleedTier.Arterial));
                     Assert.That(wounds.Wounds[0].Treated, Is.True);
-                    Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Optimal));
+                    Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Adequate));
+                    Assert.That(wounds.Cleanup[0], Is.EqualTo(WoundCleanupFlags.None));
                     Assert.That(entMan.GetComponent<StackComponent>(gauze).Count, Is.EqualTo(9));
                 });
             }
@@ -702,7 +993,8 @@ public sealed class CMUMedicalFieldMixingTest
             {
                 Assert.That(wounds.ExternalBleeding, Is.EqualTo(ExternalBleedTier.None));
                 Assert.That(wounds.Wounds[0].Treated, Is.True);
-                Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Optimal));
+                Assert.That(wounds.TreatmentQualities[0], Is.EqualTo(WoundTreatmentQuality.Adequate));
+                Assert.That(wounds.Cleanup[0], Is.EqualTo(WoundCleanupFlags.None));
                 Assert.That(entMan.GetComponent<StackComponent>(trauma).Count, Is.EqualTo(5));
             });
 

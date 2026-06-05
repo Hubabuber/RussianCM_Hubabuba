@@ -35,8 +35,13 @@
   - type: WoundTreater
     wound: Burn
     treats: true
+    instantWoundTreatment: true
+    woundsTreatedPerUse: 2
     consumable: true
     group: Burn
+    cmuMechanisms: 16
+    cmuTreatmentQuality: Optimal
+    cmuCleanupClears: 20
     damage: -5
     unskilledDamage: -5
     canUseUnskilled: true
@@ -292,8 +297,13 @@
   - type: WoundTreater
     wound: Burn
     treats: true
-    instantWoundTreatment: true
+    instantWoundTreatment: false
+    instantWoundTreatmentSkills:
+      RMCSkillMedical: 2
     woundsTreatedPerUse: 2
+    cmuMechanisms: 16
+    cmuTreatmentQuality: Optimal
+    cmuCleanupClears: 20
     group: Burn
     consumable: true
     damage: -9
@@ -368,7 +378,9 @@
   - type: WoundTreater
     wound: Brute
     treats: true
-    instantWoundTreatment: true
+    instantWoundTreatment: false
+    instantWoundTreatmentSkills:
+      RMCSkillMedical: 2
     woundsTreatedPerUse: 2
     cmuStopsArterialBleeding: true
     group: Brute
@@ -453,7 +465,7 @@
   - type: CMUMedicalIngredient
     family: Hemostatic
     gauzeProduct: CMUHemostaticGauze1
-    traumaProduct: CMUHemostaticTraumaDressing1
+    traumaProduct: CMTraumaKit1
   - type: Stack
     stackType: CMUCoagulantPowder
     count: 50
@@ -517,7 +529,7 @@
   - type: CMUMedicalIngredient
     family: BurnGel
     gauzeProduct: CMUBurnGelGauze1
-    traumaProduct: CMUBurnTraumaDressing1
+    traumaProduct: CMBurnKit1
   - type: Stack
     stackType: CMUBurnGel
     count: 50
@@ -672,6 +684,8 @@
     controlsBleeding: true
     stopsArterialBleeding: true
     bleedControlDelay: 1
+    instantBleedControlSkills:
+      RMCSkillMedical: 2
   - type: Stack
     stackType: CMUPlainTraumaDressing
     count: 50
@@ -913,6 +927,8 @@
     - CMTraumaKit
   - type: WoundTreater
     instantWoundTreatment: false
+    instantWoundTreatmentSkills:
+      RMCSkillMedical: 2
     woundsTreatedPerUse: 2
     cmuStopsArterialBleeding: true
   - type: StackPrice
@@ -1084,6 +1100,9 @@
     treats: true
     instantWoundTreatment: true
     woundsTreatedPerUse: 2
+    cmuMechanisms: 16
+    cmuTreatmentQuality: Optimal
+    cmuCleanupClears: 20
     group: Burn
     consumable: true
     damage: -36
