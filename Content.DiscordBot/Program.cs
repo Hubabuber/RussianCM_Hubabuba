@@ -6,7 +6,6 @@ using Discord.Commands;
 using Discord.Interactions;
 using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
-using SQLitePCL;
 
 var client = new DiscordSocketClient(new DiscordSocketConfig
 {
@@ -23,14 +22,12 @@ var grantTestTierIndex = Array.IndexOf(args, "--grant-test-tier");
 
 string? token = null;
 string? connectionString = null;
-var databaseEngine = "postgres";
 var guild = 0UL;
 if (File.Exists("config.json"))
 {
     var config = await JsonSerializer.DeserializeAsync<Config>(File.OpenRead("config.json")) ?? new Config();
     token = config.Token;
     connectionString = config.DatabaseString;
-    databaseEngine = config.DatabaseEngine;
     guild = config.Guild;
 }
 
@@ -40,9 +37,6 @@ if (Environment.GetEnvironmentVariable("DISCORD_TOKEN") is { } envToken)
 
 if (Environment.GetEnvironmentVariable("DATABASE_STRING") is { } dbString)
     connectionString = dbString;
-
-if (Environment.GetEnvironmentVariable("DATABASE_ENGINE") is { } dbEngine)
-    databaseEngine = dbEngine;
 
 if (Environment.GetEnvironmentVariable("DISCORD_GUILD") is { } guildString &&
     ulong.TryParse(guildString, out var envGuild))
@@ -56,14 +50,6 @@ if (string.IsNullOrWhiteSpace(connectionString))
 
 ServerDbContext CreateConfiguredDatabase()
 {
-    if (databaseEngine.Equals("sqlite", StringComparison.OrdinalIgnoreCase))
-    {
-        raw.SetProvider(new SQLite3Provider_e_sqlite3());
-        var sqliteBuilder = new DbContextOptionsBuilder<SqliteServerDbContext>();
-        sqliteBuilder.UseSqlite(connectionString);
-        return new SqliteServerDbContext(sqliteBuilder.Options);
-    }
-
     var postgresBuilder = new DbContextOptionsBuilder<PostgresServerDbContext>();
     postgresBuilder.UseNpgsql(connectionString);
     return new PostgresServerDbContext(postgresBuilder.Options);
