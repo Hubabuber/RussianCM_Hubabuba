@@ -85,6 +85,7 @@ namespace Content.Client.Lobby
             UpdateLobbyUi();
 
             Lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
+            Lobby.CharacterPreview.LinkAccountButtonControl.OnPressed += OnLinkAccountPressed;
             Lobby.CharacterPreview.PatronPerks.OnPressed += OnPatronPerksPressed;
             Lobby.CharacterPreview.PrevCharacterButton.OnPressed += OnPrevCharPressed;
             Lobby.CharacterPreview.NextCharacterButton.OnPressed += OnNextCharPressed;
@@ -132,6 +133,7 @@ namespace Content.Client.Lobby
             _voteManager.ClearPopupContainer();
 
             Lobby!.CharacterPreview.CharacterSetupButton.OnPressed -= OnSetupPressed;
+            Lobby.CharacterPreview.LinkAccountButtonControl.OnPressed -= OnLinkAccountPressed;
             Lobby.CharacterPreview.PatronPerks.OnPressed -= OnPatronPerksPressed;
             Lobby.CharacterPreview.PrevCharacterButton.OnPressed -= OnPrevCharPressed;
             Lobby.CharacterPreview.NextCharacterButton.OnPressed -= OnNextCharPressed;
@@ -165,6 +167,11 @@ namespace Content.Client.Lobby
         private void OnPatronPerksPressed(BaseButton.ButtonEventArgs obj)
         {
             _userInterfaceManager.GetUIController<LinkAccountUIController>().TogglePatronPerksWindow();
+        }
+
+        private void OnLinkAccountPressed(BaseButton.ButtonEventArgs obj)
+        {
+            _userInterfaceManager.GetUIController<LinkAccountUIController>().ToggleWindow();
         }
 
         private void OnReadyPressed(BaseButton.ButtonEventArgs args)

@@ -61,11 +61,15 @@ public sealed partial class RoadmapUIController : UIController, IOnStateEntered<
             _window.DiscordButton.OnPressed += _ => _uriOpener.OpenUri(discordLink);
         }
 
-        if (_config.GetCVar(CCVars.InfoLinksPatreon) is { Length: > 0 } patreonLink)
+        var sponsorLink = _config.GetCVar(CCVars.InfoLinksBoosty);
+        if (sponsorLink.Length == 0)
+            sponsorLink = _config.GetCVar(CCVars.InfoLinksPatreon);
+
+        if (sponsorLink.Length > 0)
         {
-            _window.PatreonButton.StyleClasses.Add(StyleBase.ButtonCaution);
-            _window.PatreonButton.Visible = true;
-            _window.PatreonButton.OnPressed += _ => _uriOpener.OpenUri(patreonLink);
+            _window.BoostyButton.StyleClasses.Add(StyleBase.ButtonCaution);
+            _window.BoostyButton.Visible = true;
+            _window.BoostyButton.OnPressed += _ => _uriOpener.OpenUri(sponsorLink);
         }
 
         _window.CreditsButton.StyleClasses.Add(StyleBase.ButtonCaution);

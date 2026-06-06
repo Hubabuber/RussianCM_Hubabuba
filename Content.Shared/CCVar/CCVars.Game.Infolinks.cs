@@ -35,7 +35,13 @@ public sealed partial class CCVars
         CVarDef.Create("infolinks.wiki", "", CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
-    ///     Link to Patreon. Not shown in the launcher currently.
+    ///     Link to Boosty. Not shown in the launcher currently.
+    /// </summary>
+    public static readonly CVarDef<string> InfoLinksBoosty =
+        CVarDef.Create("infolinks.boosty", "", CVar.SERVER | CVar.REPLICATED);
+
+    /// <summary>
+    ///     Legacy sponsor link. Use InfoLinksBoosty for new configs.
     /// </summary>
     public static readonly CVarDef<string> InfoLinksPatreon =
         CVarDef.Create("infolinks.patreon", "", CVar.SERVER | CVar.REPLICATED);

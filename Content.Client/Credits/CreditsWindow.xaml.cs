@@ -36,16 +36,6 @@ public sealed partial class CreditsWindow : DefaultWindow
     [Dependency] private IEntityManager _entities = default!;
     [Dependency] private LinkAccountManager _linkAccount = default!;
 
-    // RMC14
-    private static readonly Dictionary<string, int> PatronTierPriority = new()
-    {
-        ["Praetorian"] = 1,
-        ["Hivelord"] = 2,
-        ["Rouny"] = 3,
-        ["Larva"] = 4,
-    };
-    // RMC14
-
     private readonly List<FormattedMessage> _attributions = [];
     private readonly ISawmill _sawmill = Logger.GetSawmill("Credits");
 
@@ -292,8 +282,11 @@ public sealed partial class CreditsWindow : DefaultWindow
     {
         var patrons = LoadPatrons();
 
-        var linkPatreon = _cfg.GetCVar(CCVars.InfoLinksPatreon);
-        if (linkPatreon != "")
+        var sponsorLink = _cfg.GetCVar(CCVars.InfoLinksBoosty);
+        if (sponsorLink == "")
+            sponsorLink = _cfg.GetCVar(CCVars.InfoLinksPatreon);
+
+        if (sponsorLink != "")
         {
             Button patronButton;
             patronsContainer.AddChild(patronButton = new Button
@@ -303,11 +296,13 @@ public sealed partial class CreditsWindow : DefaultWindow
             });
 
             patronButton.OnPressed +=
-                _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkPatreon);
+                _ => IoCManager.Resolve<IUriOpener>().OpenUri(sponsorLink);
         }
 
         var first = true;
-        foreach (var tier in patrons.GroupBy(p => p.Tier).OrderBy(p => PatronTierPriority[p.Key]))
+        foreach (var tier in patrons.GroupBy(p => p.Tier)
+                     .OrderBy(p => p.Min(t => t.Priority))
+                     .ThenBy(p => p.Key))
         {
             if (!first)
                 patronsContainer.AddChild(new Control { MinSize = new Vector2(0, 10) });
@@ -327,7 +322,7 @@ public sealed partial class CreditsWindow : DefaultWindow
 
     private IEnumerable<PatronEntry> LoadPatrons()
     {
-        return _linkAccount.GetPatrons().Select(p => new PatronEntry(p.Name, p.Tier));
+        return _linkAccount.GetPatrons().Select(p => new PatronEntry(p.Name, p.Tier, p.Priority));
     }
 
     private void PopulateContributors(BoxContainer ss14ContributorsContainer)
@@ -386,11 +381,13 @@ public sealed partial class CreditsWindow : DefaultWindow
     {
         public string Name { get; }
         public string Tier { get; }
+        public int Priority { get; }
 
-        public PatronEntry(string name, string tier)
+        public PatronEntry(string name, string tier, int priority)
         {
             Name = name;
             Tier = tier;
+            Priority = priority;
         }
     }
 }

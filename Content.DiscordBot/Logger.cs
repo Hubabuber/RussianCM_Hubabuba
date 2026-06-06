@@ -6,7 +6,11 @@ public static class Logger
 {
     public static Task Log(LogMessage msg)
     {
-        return Console.Out.WriteLineAsync($"[{msg.Severity.ToString().ToUpper()}] {msg.Message}");
+        var message = $"[{msg.Severity.ToString().ToUpper()}] {msg.Source}: {msg.Message}";
+        if (msg.Exception != null)
+            message += $"\n{msg.Exception}";
+
+        return Console.Out.WriteLineAsync(message);
     }
 
     public static Task Info(string msg)

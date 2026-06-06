@@ -26,6 +26,13 @@ using MSLogLevel = Microsoft.Extensions.Logging.LogLevel;
 
 namespace Content.Server.Database
 {
+    public enum SetPatronTierResult
+    {
+        Success,
+        PlayerNotFound,
+        TierNotFound,
+    }
+
     public interface IServerDbManager
     {
         void Init();
@@ -355,6 +362,21 @@ namespace Content.Server.Database
         Task<RMCPatron?> GetPatron(Guid player, CancellationToken cancel);
 
         Task<List<RMCPatron>> GetAllPatrons();
+
+        Task<List<RMCPatronTier>> GetPatronTiers();
+
+        Task UpsertPatronTier(
+            string name,
+            ulong discordRole,
+            int priority,
+            bool showOnCredits,
+            bool ghostColor,
+            bool namedItems,
+            bool figurines,
+            bool lobbyMessage,
+            bool roundEndShoutout);
+
+        Task<SetPatronTierResult> SetPatronTier(Guid player, string tierName);
 
         Task SetGhostColor(Guid player, System.Drawing.Color? color);
 
@@ -1196,6 +1218,42 @@ namespace Content.Server.Database
         {
             DbReadOpsMetric.Inc();
             return RunDbCommand(() => _db.GetAllPatrons());
+        }
+
+        public Task<List<RMCPatronTier>> GetPatronTiers()
+        {
+            DbReadOpsMetric.Inc();
+            return RunDbCommand(() => _db.GetPatronTiers());
+        }
+
+        public Task UpsertPatronTier(
+            string name,
+            ulong discordRole,
+            int priority,
+            bool showOnCredits,
+            bool ghostColor,
+            bool namedItems,
+            bool figurines,
+            bool lobbyMessage,
+            bool roundEndShoutout)
+        {
+            DbWriteOpsMetric.Inc();
+            return RunDbCommand(() => _db.UpsertPatronTier(
+                name,
+                discordRole,
+                priority,
+                showOnCredits,
+                ghostColor,
+                namedItems,
+                figurines,
+                lobbyMessage,
+                roundEndShoutout));
+        }
+
+        public Task<SetPatronTierResult> SetPatronTier(Guid player, string tierName)
+        {
+            DbWriteOpsMetric.Inc();
+            return RunDbCommand(() => _db.SetPatronTier(player, tierName));
         }
 
         public Task SetGhostColor(Guid player, System.Drawing.Color? color)

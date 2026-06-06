@@ -57,10 +57,10 @@ rmc-ui-named-helmet = Название шлема
 rmc-ui-named-armor = Название брони
 rmc-ui-named-sentry = Название турели
 
-rmc-ui-patron-perks = Бонусы патрона
+rmc-ui-patron-perks = Бонусы спонсора
 rmc-ui-lobby-message = Сообщение в лобби
 rmc-ui-lobby-message-description = Отображается игрокам перед началом раунда.
-  Случайным образом выбирается среди всех патронов этого уровня.
+  Случайным образом выбирается среди всех спонсоров этого уровня.
   Убедитесь, что сообщение не нарушает правила.
   Если сомневаетесь — спросите через AHelp! (F1)
 rmc-ui-shoutout = Сообщение конца раунда
@@ -69,7 +69,7 @@ rmc-ui-shoutout-marine-description = Отображается в конце ра
 rmc-ui-shoutout-xeno-title = Имя для сообщения ксеноморфов в конце раунда
 rmc-ui-shoutout-xeno-description = Отображается в конце раунда как основатель улья.
 rmc-ui-shoutout-example = Пример:
-rmc-ui-shoutout-info = Каждое имя случайным образом выбирается среди всех патронов этого уровня.
+rmc-ui-shoutout-info = Каждое имя случайным образом выбирается среди всех спонсоров этого уровня.
   Убедитесь, что имена соответствуют RP и не нарушают правила.
   Если сомневаетесь — спросите через AHelp! (F1)
 rmc-ui-named-items-in-preferences = Вы можете менять имена предметов отдельно для каждого персонажа в настройках персонажа.
@@ -85,7 +85,7 @@ rmc-ui-shoutout-marine = [bold]Операция спонсируется [color=
 rmc-ui-shoutout-xeno = [bold]Улей основан [color=purple]{$name}[/color]![/bold]
 
 rmc-ui-discord = Раздор
-rmc-ui-patreon = Патреон
+rmc-ui-boosty = Boosty
 rmc-other-credits-tab = Прочее
 
 rmc-ui-auto-punctuate = Автоматически расставлять знаки препинания в IC-сообщениях

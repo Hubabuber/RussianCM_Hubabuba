@@ -2136,6 +2136,70 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
                 .ToListAsync();
         }
 
+        public async Task<List<RMCPatronTier>> GetPatronTiers()
+        {
+            await using var db = await GetDb();
+            return await db.DbContext.RMCPatronTiers
+                .Include(t => t.Patrons)
+                .OrderBy(t => t.Priority)
+                .ThenBy(t => t.Name)
+                .ToListAsync();
+        }
+
+        public async Task UpsertPatronTier(
+            string name,
+            ulong discordRole,
+            int priority,
+            bool showOnCredits,
+            bool ghostColor,
+            bool namedItems,
+            bool figurines,
+            bool lobbyMessage,
+            bool roundEndShoutout)
+        {
+            await using var db = await GetDb();
+            var tier = await db.DbContext.RMCPatronTiers.FirstOrDefaultAsync(t => t.DiscordRole == discordRole);
+            if (tier == null)
+            {
+                tier = new RMCPatronTier { DiscordRole = discordRole };
+                db.DbContext.RMCPatronTiers.Add(tier);
+            }
+
+            tier.Name = name;
+            tier.Priority = priority;
+            tier.ShowOnCredits = showOnCredits;
+            tier.GhostColor = ghostColor;
+            tier.NamedItems = namedItems;
+            tier.Figurines = figurines;
+            tier.LobbyMessage = lobbyMessage;
+            tier.RoundEndShoutout = roundEndShoutout;
+
+            await db.DbContext.SaveChangesAsync();
+        }
+
+        public async Task<SetPatronTierResult> SetPatronTier(Guid player, string tierName)
+        {
+            await using var db = await GetDb();
+            var tier = await db.DbContext.RMCPatronTiers
+                .FirstOrDefaultAsync(t => t.Name == tierName);
+            if (tier == null)
+                return SetPatronTierResult.TierNotFound;
+
+            if (!await db.DbContext.Player.AnyAsync(p => p.UserId == player))
+                return SetPatronTierResult.PlayerNotFound;
+
+            var patron = await db.DbContext.RMCPatrons.FirstOrDefaultAsync(p => p.PlayerId == player);
+            if (patron == null)
+            {
+                patron = new RMCPatron { PlayerId = player };
+                db.DbContext.RMCPatrons.Add(patron);
+            }
+
+            patron.TierId = tier.Id;
+            await db.DbContext.SaveChangesAsync();
+            return SetPatronTierResult.Success;
+        }
+
         public async Task SetGhostColor(Guid player, System.Drawing.Color? color)
         {
             await using var db = await GetDb();
