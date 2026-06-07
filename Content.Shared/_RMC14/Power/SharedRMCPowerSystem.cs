@@ -418,10 +418,12 @@ public abstract partial class SharedRMCPowerSystem : EntitySystem
                 DuplicateCondition = DuplicateConditions.SameEvent,
             };
 
+            var cellId = container.ContainedEntity.Value; // RuMC edit
+
             if (_doAfter.TryStartDoAfter(doAfter))
             {
                 var msg = Loc.GetString("rmc-fusion-reactor-remove-start-self",
-                    ("cell", container.ContainedEntity.Value),
+                    ("cell", cellId), // RuMC edit
                     ("reactor", ent));
                 _popup.PopupClient(msg, ent, user);
             }
