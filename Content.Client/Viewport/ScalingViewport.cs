@@ -203,20 +203,7 @@ namespace Content.Client.Viewport
 
             if (FixedStretchSize == null)
             {
-                var (ratioX, ratioY) = ourSize / vpSize;
-                var ratio = 1f;
-                switch (_ignoreDimension)
-                {
-                    case ScalingViewportIgnoreDimension.None:
-                        ratio = Math.Min(ratioX, ratioY);
-                        break;
-                    case ScalingViewportIgnoreDimension.Vertical:
-                        ratio = ratioX;
-                        break;
-                    case ScalingViewportIgnoreDimension.Horizontal:
-                        ratio = ratioY;
-                        break;
-                }
+                var ratio = GetEffectiveScaleRatio(ourSize, vpSize);
 
                 var size = vpSize * ratio;
                 // Size
@@ -238,8 +225,7 @@ namespace Content.Client.Viewport
 
             var vpSizeBase = ViewportSize;
             var ourSize = PixelSize;
-            var (ratioX, ratioY) = ourSize / (Vector2) vpSizeBase;
-            var ratio = Math.Min(ratioX, ratioY);
+            var ratio = GetEffectiveScaleRatio(ourSize, vpSizeBase);
             var renderScale = 1;
             switch (_renderScaleMode)
             {
@@ -269,6 +255,19 @@ namespace Content.Client.Viewport
             _viewport.RenderScale = new Vector2(renderScale, renderScale);
 
             _viewport.Eye = _eye;
+        }
+
+        private float GetEffectiveScaleRatio(Vector2 controlSize, Vector2 viewportSize)
+        {
+            var (ratioX, ratioY) = controlSize / viewportSize;
+
+            return _ignoreDimension switch
+            {
+                ScalingViewportIgnoreDimension.None => Math.Min(ratioX, ratioY),
+                ScalingViewportIgnoreDimension.Vertical => ratioX,
+                ScalingViewportIgnoreDimension.Horizontal => ratioY,
+                _ => Math.Min(ratioX, ratioY),
+            };
         }
 
         protected override void Resized()
