@@ -1,105 +1,120 @@
 ent-RMCCrateWoodenBuildable = деревянный ящик
-  .desc = Деревянный ящик. 
+    .desc = Деревянный ящик.
+    .suffix = Создаваемый
 
-ent-RMCTrashCart = мусорная тележка
-  .desc = Тяжелая металлическая мусорная тележка на колесах.
+ent-RMCCrateBase = ящик
+    .desc = Металлический ящик прямоугольной формы.
 
-ent-RMCCrateAmmoAlt2 = ящик с боеприпасами
-  .desc = Черный ящик. 
-
-ent-RMCCrateAmmoAlt = ящик с боеприпасами
-  .desc = Ящик с боеприпасами, черный.
-
-ent-RMCCrateMortarAmmo = ящик с минометными боеприпасами
-  .desc = Ящик с боевыми минометами различной боевой нагрузки. 
-
-ent-RMCCrateMinecart = вагонетка
-  .desc = По сути, это большое металлическое ведро на колесах. 
-
-ent-RMCCrateSecurePhoron = форонный ящик
-  .desc = Форонный ящик.
-
-ent-RMCCrateSecureWeYa = безопасный ящик Ве-Я
-  .desc = Защищенный ящик с эмблемой Ве-Я.
-
-ent-RMCCrateSecureWeapons = ящик с оружием
-  .desc = Надежный ящик для оружия.
-
-ent-CMCrateSecureSurgery = хирургический ящик
-  .desc = Хирургический ящик.
-
-ent-RMCCrateSecureHydro = безопасный ящик для гидропоники
-  .desc = Ящик с замком, нарисованный по схеме ботаников станции.
-
-ent-RMCCrateSecureGear = ящик для снаряжения
-  .desc = Надежный ящик для снаряжения.
-
-ent-RMCCrateSecureExplosives = ящик со взрывчаткой
-  .desc = Ящик со взрывчаткой.
-
-ent-RMCCrateSecureAmmo = безопасный ящик с боеприпасами
-  .desc = Надежный ящик для боеприпасов.
-
-ent-RMCCrateSecure = безопасный ящик
-  .desc = Надежный ящик.
-
-ent-RMCCrateMedical = медицинский ящик
-  .desc = Медицинский ящик.
-
-ent-RMCCrateWeapons = ящик с оружием
-  .desc = Ящик с оружием.
-
-ent-RMCCrateSupply = ящик с припасами
-  .desc = Ящик с припасами.
-
-ent-RMCCrateScience = научный ящик
-  .desc = Научный ящик.
-
-ent-RMCCrateRadiation = ящик с радиоактивным снаряжением
-  .desc = Ящик со знаком радиации.
+ent-RMCCrateMetalBuildable = {ent-RMCCrateBase}
+    .desc = {ent-RMCCrateBase.desc}
+    .suffix = Создаваемый
 
 ent-RMCCratePlastic = пластиковый ящик
-  .desc = Прямоугольный пластиковый ящик.
+    .desc = Прямоугольный пластиковый ящик.
 
-ent-RMCCrateInternals = ящик с внутренними устройствами
-  .desc = Ящик для внутренних дел.
+ent-RMCCratePlasticBuildable = {ent-RMCCratePlastic}
+    .desc = {ent-RMCCratePlastic.desc}
+    .suffix = Создаваемый
 
-ent-RMCCrateHydro = ящик для гидропоники
-  .desc = Все, что вам нужно, чтобы уничтожить эти надоедливые сорняки и вредителей.
-
-ent-RMCCrateFreezer = ящик для заморозки
-  .desc = Ящик для заморозки.
-
-ent-RMCCrateExplosives = ящик со взрывчаткой
-  .desc = Ящик со взрывчаткой.
-
-ent-RMCCrateConstruction = строительный ящик
-  .desc = Строительный ящик.
-
-ent-RMCCrateGreen = зеленый ящик
-  .desc = Стандартный зеленый ящик для хранения вещей, используемый морской пехотой. 
+ent-RMCTrashCart = тележка для мусора
+    .desc = Тяжелая металлическая тележка для мусора на колесах.
 
 ent-RMCCrateAmmo = ящик с боеприпасами
-  .desc = Ящик с боеприпасами.
+    .desc = Ящик для аммуниции разного вида.
+
+ent-RMCCrateAmmoAlt = {ent-RMCCrateAmmo}
+    .desc = {ent-RMCCrateAmmo.desc}
+    .suffix = Чёрный
+
+ent-RMCCrateAmmoAlt2 = {ent-RMCCrateAmmo}
+    .desc = {ent-RMCCrateAmmo.desc}
+    .suffix = Горючий
+
+ent-RMCCrateMortarAmmo = ящик с минометными боеприпасами
+    .desc = Ящик с минами для миномёта.
+
+ent-RMCCrateMinecart = вагонетка
+    .desc = Большое металлическое ведро на колесах.
+
+ent-RMCCrateSecurePhoron = ящик с плазмой
+    .desc = Ящик в котором храниться плазма.
+    .suffix = С замком
+
+ent-RMCCrateSecureWeYa = защищённый ящик Ве-Ю
+    .desc = Защищённый ящик с эмблемой Ве-Ю.
+    .suffix = Ве-Ю, С замком
+
+ent-RMCCrateSecureWeapons = ящик с оружием
+    .desc = Надежный ящик для оружия.
+    .suffix = С замком
+
+ent-CMCrateSecureSurgery = хирургический ящик
+    .desc = Хирургический ящик.
+    .suffix = С замком
+
+ent-RMCCrateSecureHydro = защищённый ящик гидропоники
+    .desc = Надежный ящик для гидропоники.
+    .suffix = С замком
+
+ent-RMCCrateSecureGear = ящик для снаряжения
+    .desc = Надежный ящик для снаряжения.
+    .suffix = С замком
+
+ent-RMCCrateSecureExplosives = ящик со взрывчаткой
+    .desc = Ящик со взрывчаткой.
+    .suffix = С замком
+
+ent-RMCCrateSecureAmmo = защищённый ящик для боеприпасов
+    .desc = Надежный ящик для боеприпасов.
+    .suffix = С замком
+
+ent-RMCCrateSecure = защищённый ящик
+    .desc = Надежный ящик.
+    .suffix = С замком
+
+ent-RMCCrateMedical = медицинский ящик
+    .desc = Ящик для медиков.
+
+ent-RMCCrateWeapons = ящик с оружием
+    .desc = Ящик для оружия.
+
+ent-RMCCrateSupply = ящик с припасами
+    .desc = Ящик для припасов.
+
+ent-RMCCrateScience = научный ящик
+    .desc = Ящик для учёных.
+
+ent-RMCCrateRadiation = ящик с противорадиационным снаряжением
+    .desc = Ящик со знаком радиации.
+
+ent-RMCCrateInternals = ящик с дыхательным оборудованием
+    .desc = Ящик с дыхательным оборудованием.
+
+ent-RMCCrateHydro = ящик для гидропоники
+    .desc = Все, что вам нужно, чтобы уничтожить эти надоедливые сорняки и вредителей.
+
+ent-RMCCrateFreezer = ящик-холодильник
+    .desc = Ящик для заморозки.
+
+ent-RMCCrateExplosives = ящик со взрывчаткой
+    .desc = Ящик, чтобы устроить большой взрыв.
+
+ent-RMCCrateConstruction = строительный ящик
+    .desc = Ящик со всем для стройки.
+
+ent-RMCCrateGreen = зеленый ящик
+    .desc = Стандартный зеленый ящик для хранения вещей, используемый морской пехотой.
 
 ent-RMCCrateDelta = ящик отряда Дельта
-  .desc = Ящик с символом отряда "Дельта".
+    .desc = Ящик с символом отряда Дельта.
 
 ent-RMCCrateCharlie = ящик отряда Чарли
-  .desc = Ящик с символом отряда Чарли.
+    .desc = Ящик с символом отряда Чарли.
 
 ent-RMCCrateBravo = ящик отряда браво
   .desc = Ящик с символом отряда Браво.
 
 ent-RMCCrateAlpha = ящик отряда альфа
-  .desc = Ящик с символом отряда "Альфа".
+    .desc = Ящик с символом отряда Альфа.
 
-ent-RMCCrateBase = ящик
-  .desc = Металлический ящик прямоугольной формы.
-
-ent-RMCCrateMetalBuildable = ящик
-  .desc = Металлический ящик прямоугольной формы.
-
-ent-RMCCratePlasticBuildable = пластиковый ящик
-  .desc = Прямоугольный пластиковый ящик.
 
