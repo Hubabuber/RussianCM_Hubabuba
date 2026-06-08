@@ -12,6 +12,7 @@ VERSION = os.environ["GITHUB_SHA"]
 
 RELEASE_DIR = "release"
 DEFAULT_UPLOAD_WORKERS = 4
+REQUEST_TIMEOUT_SECONDS = 120
 
 #
 # CONFIGURATION PARAMETERS
@@ -50,7 +51,10 @@ def main():
     headers = {"Content-Type": "application/json"}
 
     resp = session.post(
-        f"{ROBUST_CDN_URL}fork/{fork_id}/publish/start", json=data, headers=headers
+        f"{ROBUST_CDN_URL}fork/{fork_id}/publish/start",
+        json=data,
+        headers=headers,
+        timeout=REQUEST_TIMEOUT_SECONDS,
     )
     if resp.status_code == 409:
         try:
@@ -81,7 +85,10 @@ def main():
     data = {"version": VERSION}
     headers = {"Content-Type": "application/json"}
     resp = session.post(
-        f"{ROBUST_CDN_URL}fork/{fork_id}/publish/finish", json=data, headers=headers
+        f"{ROBUST_CDN_URL}fork/{fork_id}/publish/finish",
+        json=data,
+        headers=headers,
+        timeout=REQUEST_TIMEOUT_SECONDS,
     )
     resp.raise_for_status()
     print("SUCCESS!")
@@ -109,7 +116,10 @@ def publish_file(file: str, fork_id: str):
                 "Robust-Cdn-Publish-Version": VERSION,
             }
             resp = session.post(
-                f"{ROBUST_CDN_URL}fork/{fork_id}/publish/file", data=f, headers=headers
+                f"{ROBUST_CDN_URL}fork/{fork_id}/publish/file",
+                data=f,
+                headers=headers,
+                timeout=REQUEST_TIMEOUT_SECONDS,
             )
         resp.raise_for_status()
 

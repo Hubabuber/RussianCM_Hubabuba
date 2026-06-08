@@ -99,10 +99,12 @@ jobs:
           merge-multiple: true
 
       - name: Publish version
+        timeout-minutes: 30
         run: Tools/publish_multi_request.py
         env:
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          PYTHONUNBUFFERED: "1"
 
       - name: Create release tag
         if: success()
