@@ -33,7 +33,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Blunt: 20
+        Blunt: 5
   - type: Gun
     selectedMode: FullAuto
     availableModes:
@@ -41,7 +41,7 @@
     soundGunshot:
       path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_m2c2.ogg
       params:
-        volume: -2
+        volume: -1
         variation: 0.05
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
@@ -50,13 +50,14 @@
     - FullAuto
     recoilUnwielded: 0
     scatterUnwielded: 0
-    baseFireRate: 7
+    baseFireRate: 6
     modifiers:
       FullAuto:
-        maxScatterModifier: 0
+        maxScatterModifier: 13
+        minScatterModifier: 5
         useBurstScatterMult: false
-        unwieldedScatterMultiplier: 0
-        shotsToMaxScatter: 125
+        unwieldedScatterMultiplier: 2
+        shotsToMaxScatter: 4
   - type: RMCWeaponAccuracy
   - type: ContainerContainer
     containers:
@@ -78,10 +79,11 @@
   - type: GunRequiresSkills
     skills:
       RMCSkillEngineer: 1
+      RMCSkillFirearms: 2
   - type: GunSkilledRecoil
     setRecoil: 0
     skills:
-      RMCSkillFirearms: 0
+      RMCSkillFirearms: 1
     mustBeWielded: false
   - type: WieldedCrosshair
     rsi:
@@ -197,9 +199,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 50
+        Piercing: 100
   - type: CMArmorPiercing
-    amount: 30
+    amount: 20
   - type: RMCProjectileDamageFalloff
     thresholds:
     - range: 2 # cm13 code says 7 but after testing it looks like it starts losing damage after the first tile
@@ -209,8 +211,19 @@
   - type: RMCProjectileAccuracy
     accuracy: 75
     thresholds:
-    - range: 6 # porting this 1:1, which is what the component mentions, from cm13(10), makes it too accurate at high ranges so I lowered it
+    - range: 8 #cm13(10)
       falloff: 5
+  - type: RMCStunOnHit
+    stuns:
+    - whitelist:
+        minMobSize: VerySmallXeno
+      maxRange: 2
+      slowTime: 0.5
+    - whitelist:
+        components:
+        - Marine
+      maxRange: 4
+      slowTime: 2
 
 - type: entity
   parent: RMCBulletHMG10x28mmTungsten

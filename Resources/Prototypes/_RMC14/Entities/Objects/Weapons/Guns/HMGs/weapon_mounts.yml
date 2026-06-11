@@ -27,7 +27,7 @@
         layer:
         - BarricadeImpassable
   - type: RMCRepairable
-    heal: 40
+    heal: 10
     skill: RMCSkillConstruction
     delay: 8
   - type: Damageable
@@ -232,7 +232,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 230
+        damage: 130
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -248,7 +248,7 @@
     mountOnDeploy: false
     mountExclusionAreaSize: 0
     barricadeExclusionAreaSize: 2
-    assembleDelay: 3
+    assembleDelay: 15
     undeploySound: null
     acidableWhileUndeployed: true
   - type: Tag
