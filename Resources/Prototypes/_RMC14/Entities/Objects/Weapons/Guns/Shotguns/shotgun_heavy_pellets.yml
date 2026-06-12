@@ -20,7 +20,7 @@
     spread: 13
   - type: RMCProjectileDamageFalloff
     thresholds:
-    - range: 8
+    - range: 6
       falloff: 9999
       ignoreModifiers: true
     - range: 0
@@ -33,13 +33,13 @@
     stuns:
     - whitelist:
         minMobSize: VerySmallXeno
-      maxRange: 6 # TODO RMC14 1.5 if shot from underbarrel shotgun
+      maxRange: 4 # TODO RMC14 1.5 if shot from underbarrel shotgun
       slowTime: 2
       superSlowTime: 1
     - whitelist: # TODO RMC14 stamina damage targeted at part
         components:
         - Marine
-      maxRange: 5
+      maxRange: 4
       slowTime: 2
 
 - type: entity
@@ -55,17 +55,17 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 100
+        Piercing: 95
   - type: RMCProjectileDamageFalloff
     thresholds:
-    - range: 10
+    - range: 9
       falloff: 9999
       ignoreModifiers: true
     - range: 0
       falloff: 1
   - type: RMCProjectileAccuracy
     thresholds:
-    - range: 7
+    - range: 6
       falloff: 5
   - type: CMArmorPiercing
     amount: 20
@@ -73,15 +73,13 @@
     stuns:
     - whitelist:
         minMobSize: VerySmallXeno
-      maxRange: 7
-      stunTime: 1
-      slowTime: 2
+      maxRange: 6
+      slowTime: 1
       knockBackSpeed: 5
     - whitelist:
         components:
         - Marine
-      maxRange: 8
-      stunTime: 1
+      maxRange: 6
       slowTime: 2
       superSlowTime: 1
 
@@ -116,7 +114,7 @@
   name: heavy flechette shell
   components:
   - type: CMArmorPiercing
-    amount: 30
+    amount: 40
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
     layers:
@@ -141,7 +139,14 @@
     accuracy: 95
     thresholds:
     - range: 5
-      falloff: 10
+      falloff: 15
+  - type: RMCStunOnHit
+    stuns:
+    - whitelist:
+        components:
+        - Marine
+      maxRange: 1
+      slowTime: 1
 
 - type: entity
   parent: RMCPelletHeavyShotgunBuckshot

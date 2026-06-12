@@ -30,10 +30,10 @@
   - type: ProjectileSpread
     proto: CMPelletShotgunBuckshot
     count: 4
-    spread: 13
+    spread: 14
   - type: RMCProjectileDamageFalloff
     thresholds:
-    - range: 7
+    - range: 6
       falloff: 9999
       ignoreModifiers: true
     - range: 0
@@ -41,18 +41,18 @@
   - type: RMCProjectileAccuracy
     thresholds:
     - range: 5
-      falloff: 10
+      falloff: 8
   - type: RMCStunOnHit
     stuns:
     - whitelist:
         minMobSize: VerySmallXeno
-      maxRange: 6 # TODO RMC14 1.5 if shot from underbarrel shotgun
+      maxRange: 3 # TODO RMC14 1.5 if shot from underbarrel shotgun
       slowTime: 2
       superSlowTime: 1
     - whitelist: # TODO RMC14 stamina damage targeted at part
         components:
         - Marine
-      maxRange: 5
+      maxRange: 4
       slowTime: 2
 
 - type: entity
@@ -68,7 +68,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 80
+        Piercing: 75
   - type: RMCProjectileDamageFalloff
     thresholds:
     - range: 9
@@ -94,8 +94,7 @@
     - whitelist:
         components:
         - Marine
-      maxRange: 7
-      stunTime: 1
+      maxRange: 6
       slowTime: 2
       superSlowTime: 1
 
@@ -151,7 +150,7 @@
   name: flechette shell
   components:
   - type: CMArmorPiercing
-    amount: 25
+    amount: 30
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
     layers:
@@ -163,7 +162,7 @@
         Piercing: 30
   - type: ProjectileSpread
     proto: CMPelletShotgunFlechette
-    count: 4
+    count: 3
     spread: 6
   - type: RMCProjectileDamageFalloff
     thresholds:
@@ -177,6 +176,13 @@
     thresholds:
     - range: 5
       falloff: 15
+  - type: RMCStunOnHit
+    stuns:
+    - whitelist:
+        components:
+        - Marine
+      maxRange: 1
+      slowTime: 1
 
 - type: entity
   parent: CMPelletShotgunBuckshot
