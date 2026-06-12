@@ -16,9 +16,6 @@ ent-CMFaxProvost = факс
 ent-CMFaxPress = факс
   .desc = Лучший и единственный друг связного.
 
-ent-CMFaxCLF = факс
-  .desc = Лучший и единственный друг связного.
-
 ent-CMFaxSPP = факс
   .desc = Лучший и единственный друг связного.
 

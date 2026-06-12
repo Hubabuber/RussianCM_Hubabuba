@@ -100,9 +100,6 @@ humanoid-profile-editor-preference-armor-carrier = Разгрузочная
 humanoid-profile-editor-preference-armor-skull = С черепом
 humanoid-profile-editor-preference-armor-smooth = Гладкая
 
-humanoid-profile-editor-job-fallback-label = Запасная должность
-
-
 humanoid-profile-editor-government-forces-label = Силы правительства / { $segmentTitle }
 
 humanoid-profile-editor-segment-command = Командование
@@ -118,15 +115,3 @@ humanoid-profile-editor-threat-wendigo = Вендиго
 humanoid-profile-editor-threat-abomination = Мерзости
 humanoid-profile-editor-threat-tribal = Дикари
 # Missing entries synced from en-US
-
-humanoid-profile-editor-insurgency-tab = Восстание
-
-humanoid-profile-editor-colony-fall-tab = Падение колонии
-
-humanoid-profile-editor-distress-signal-tab = Сигнал бедствия
-
-humanoid-profile-editor-government-jobs-tab = Правительственные должности
-
-humanoid-profile-editor-insurgency-jobs-tab = Должности мятежников
-
-humanoid-profile-editor-threat-roles-tab = Угрозы
