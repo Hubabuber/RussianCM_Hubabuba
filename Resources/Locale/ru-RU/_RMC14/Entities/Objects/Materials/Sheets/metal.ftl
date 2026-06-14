@@ -1,22 +1,53 @@
-ent-CMSheetPlasteel1 = пласталь
-ent-CMSheetPlasteel50 = пласталь
-ent-CMSheetPlasteel40 = пласталь
-ent-CMSheetPlasteel30 = пласталь
-ent-CMSheetPlasteel15 = пласталь
-ent-CMSheetPlasteel10 = пласталь
-ent-CMSheetPlasteel = лист пластали
-  .desc = Пласталь — это дорогой, прочный материал, созданный путём сочетания платины, стали и передовых полимеров для получения металла, устойчивого к коррозии, чрезвычайно прочного и лёгкого. Единственная причина, по которой его не используют чаще, — это то, насколько он чертовски дорог."
+ent-CMSheetPlasteel = листы пластали
+    .suffix = Полный
+    .desc = Пласталь - прочный материал, созданный путём сочетания платины, стали и передовых полимеров.
+
+ent-CMSheetPlasteel50 = {ent-CMSheetPlasteel}
+    .desc = {ent-CMSheetPlasteel.desc}
+
+ent-CMSheetPlasteel40 = {ent-CMSheetPlasteel}
+    .desc = {ent-CMSheetPlasteel.desc}
+
+ent-CMSheetPlasteel30 = {ent-CMSheetPlasteel}
+    .desc = {ent-CMSheetPlasteel.desc}
+
+ent-CMSheetPlasteel20 = {ent-CMSheetPlasteel}
+    .desc = {ent-CMSheetPlasteel.desc}
+
+ent-CMSheetPlasteel15 = {ent-CMSheetPlasteel}
+    .desc = {ent-CMSheetPlasteel.desc}
+
+ent-CMSheetPlasteel10 = {ent-CMSheetPlasteel}
+    .desc = {ent-CMSheetPlasteel.desc}
+
+ent-CMSheetPlasteel1 = лист пластали
+    .desc = {ent-CMSheetPlasteel.desc}
+    .suffix = Один
+
+
+
 ent-CMSheetMetal = металлические листы
-  .desc = Листы, сделанные из металла. Их окрестили Металлическими Листами.
-ent-CMSheetMetal1 = металлические листы
-  .desc = Листы, сделанные из металла. Их окрестили Металлическими Листами.
-ent-CMSheetMetal50 = металлические листы
-  .desc = Листы, сделанные из металла. Их окрестили Металлическими Листами.
-ent-CMSheetMetal40 = металлические листы
-  .desc = Листы, сделанные из металла. Их окрестили Металлическими Листами.
-ent-CMSheetMetal30 = металлические листы
-  .desc = Листы, сделанные из металла. Их окрестили Металлическими Листами.
-ent-CMSheetMetal20 = металлические листы
-  .desc = Листы, сделанные из металла. Их окрестили Металлическими Листами.
-ent-CMSheetMetal10 = металлические листы
-  .desc = Листы, сделанные из металла. Их окрестили Металлическими Листами.
+    .suffix = Полный
+    .desc = Листы, сделанные из металла.
+
+ent-CMSheetMetal2 = {ent-CMSheetMetal}
+    .desc = {ent-CMSheetMetal.desc}
+
+ent-CMSheetMetal50 = {ent-CMSheetMetal}
+    .desc = {ent-CMSheetMetal.desc}
+
+ent-CMSheetMetal40 = {ent-CMSheetMetal}
+    .desc = {ent-CMSheetMetal.desc}
+
+ent-CMSheetMetal30 = {ent-CMSheetMetal}
+    .desc = {ent-CMSheetMetal.desc}
+
+ent-CMSheetMetal20 = {ent-CMSheetMetal}
+    .desc = {ent-CMSheetMetal.desc}
+
+ent-CMSheetMetal10 = {ent-CMSheetMetal}
+    .desc = {ent-CMSheetMetal.desc}
+
+ent-CMSheetMetal1 = металлический лист
+    .suffix = Один
+    .desc = Лист, сделанный из металла.
