@@ -4,6 +4,8 @@
   parent: MarkerBase
   suffix: CMU
   components:
+  - type: Transform
+    anchored: false
   - type: Sprite
     layers:
       - state: red
@@ -25,6 +27,8 @@
   parent: MarkerBase
   suffix: CMU
   components:
+  - type: Transform
+    anchored: false
   - type: Sprite
     layers:
       - state: red
@@ -45,13 +49,14 @@
       - RMCFloraTreeStump
     rareChance: 0.05
 
-
 - type: entity
   id: CMURandomFloraTreeLarge
   name: random tree large spawner
   parent: MarkerBase
   suffix: CMU
   components:
+  - type: Transform
+    anchored: false
   - type: Sprite
     layers:
       - state: red
@@ -73,6 +78,8 @@
   parent: MarkerBase
   suffix: CMU
   components:
+  - type: Transform
+    anchored: false
   - type: Sprite
     layers:
       - state: red

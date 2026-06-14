@@ -261,3 +261,22 @@
         amount: 1
       - id: AU14MagazinePistolM48A4
         amount: 9
+
+- type: entity
+  parent: RMCGunCaseBase
+  id: AU14GunCasePistolM44Civ
+  name: M44 Combat Revolver case
+  description: A gun case containing an M44 Combat Revolver.
+  components:
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,15,1
+  - type: StorageFill
+    contents:
+    - id: RMCAttachmentRailFlashlight
+    - id: RMCWeaponRevolverM44
+    - id: RMCSpeedLoaderM44
+      amount: 6

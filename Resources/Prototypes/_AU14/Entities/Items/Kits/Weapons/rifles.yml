@@ -305,3 +305,47 @@
         amount: 2
       - id: CMMagazineRifleM54C
         amount: 6
+
+- type: entity
+  parent: RMCKitBase
+  id: AU14KitWeaponBasira
+  name: Basira rifle case
+  components:
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,11,1
+  - type: Sprite
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: Icon
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: StorageFill
+    contents:
+      - id: RMCWeaponBoltActionRifle
+        amount: 1
+      - id: RMCMagazineRifleHunting
+        amount: 5
+
+- type: entity
+  parent: RMCKitBase
+  id: AU14KitWeaponABR40Civ
+  name: ABR-40 hunting rifle case
+  components:
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,9,3
+  - type: Sprite
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: Icon
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: StorageFill
+    contents:
+      - id: RMCWeaponRifleABR40
+        amount: 1
+      - id: RMCMagazineRifleABR40
+        amount: 9

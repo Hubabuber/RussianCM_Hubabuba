@@ -31,7 +31,7 @@
   - type: RMCSelectiveFire
     recoilWielded: 2
     scatterWielded: 1
-    baseFireRate: 0.5
+    baseFireRate: 0.25
   - type: RMCWeaponAccuracy
     accuracyMultiplier: 1.35
   - type: WieldDelay
@@ -234,7 +234,8 @@
     deleteOnCollide: false
     damage:
       types:
-        Piercing: 400
+        Piercing: 1000
+        Blunt: 50
         Structural: 1800
     soundHit:
       path: /Audio/_RMC14/Bullets/bullet_vulture_impact.ogg
@@ -244,7 +245,7 @@
       falloff: 9999
       ignoreModifiers: true
   - type: CMArmorPiercing
-    amount: 50
+    amount: 70
   - type: RMCPenetratingProjectile
     range: 40
     rangeLossPerHit: 3
@@ -253,8 +254,8 @@
   - type: RMCStunOnHit
     stuns:
     - maxRange: 32
-      knockBackPowerMin: 3
-      knockBackPowerMax: 3
+      knockBackPowerMin: 6
+      knockBackPowerMax: 6
       knockBackSpeed: 8
       stunTime: 0
       superSlowTime: 0
