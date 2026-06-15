@@ -960,44 +960,50 @@ public sealed partial class HardpointSystem : EntitySystem
 
     private string GetFailureName(VehicleHardpointFailure failure)
     {
-        return failure switch
+        // RuMC edit start
+        var key = failure switch
         {
-            VehicleHardpointFailure.ArmorCompromised => "armor plating breach",
-            VehicleHardpointFailure.FeedJam => "jammed feed system",
-            VehicleHardpointFailure.RunawayTrigger => "runaway trigger",
-            VehicleHardpointFailure.TurretTraverseDamage => "damaged traverse ring",
-            VehicleHardpointFailure.EngineMisfire => "engine misfire",
-            VehicleHardpointFailure.TransmissionSlip => "transmission slip",
-            VehicleHardpointFailure.WarpedFrame => "warped frame",
-            VehicleHardpointFailure.DamagedMount => "damaged mount",
-            VehicleHardpointFailure.TireBlowout => "tire blowout",
-            VehicleHardpointFailure.ThrownTread => "thrown tread",
-            VehicleHardpointFailure.EngineOverheat => "engine overheating",
-            VehicleHardpointFailure.ElectricalShort => "electrical short",
-            VehicleHardpointFailure.FuelLeak => "fuel leak",
-            _ => "hardpoint failure",
+            VehicleHardpointFailure.ArmorCompromised => "rmc-hardpoint-failure-name-armor-compromised",
+            VehicleHardpointFailure.FeedJam => "rmc-hardpoint-failure-name-feed-jam",
+            VehicleHardpointFailure.RunawayTrigger => "rmc-hardpoint-failure-name-runaway-trigger",
+            VehicleHardpointFailure.TurretTraverseDamage => "rmc-hardpoint-failure-name-turret-traverse",
+            VehicleHardpointFailure.EngineMisfire => "rmc-hardpoint-failure-name-engine-misfire",
+            VehicleHardpointFailure.TransmissionSlip => "rmc-hardpoint-failure-name-transmission-slip",
+            VehicleHardpointFailure.WarpedFrame => "rmc-hardpoint-failure-name-warped-frame",
+            VehicleHardpointFailure.DamagedMount => "rmc-hardpoint-failure-name-damaged-mount",
+            VehicleHardpointFailure.TireBlowout => "rmc-hardpoint-failure-name-tire-blowout",
+            VehicleHardpointFailure.ThrownTread => "rmc-hardpoint-failure-name-thrown-tread",
+            VehicleHardpointFailure.EngineOverheat => "rmc-hardpoint-failure-name-engine-overheat",
+            VehicleHardpointFailure.ElectricalShort => "rmc-hardpoint-failure-name-electrical-short",
+            VehicleHardpointFailure.FuelLeak => "rmc-hardpoint-failure-name-fuel-leak",
+            _ => "rmc-hardpoint-failure-name-default",
         };
+        return Loc.GetString(key);
+        // RuMC edit end
     }
 
     private string GetFailureEffect(VehicleHardpointFailure failure)
     {
-        return failure switch
+        // RuMC edit start
+        var key = failure switch
         {
-            VehicleHardpointFailure.ArmorCompromised => "Armor protection from this hardpoint is offline.",
-            VehicleHardpointFailure.FeedJam => "This weapon can randomly jam or misfire.",
-            VehicleHardpointFailure.RunawayTrigger => "This weapon can discharge on its own while mounted.",
-            VehicleHardpointFailure.TurretTraverseDamage => "Turret traverse speed is severely reduced.",
-            VehicleHardpointFailure.EngineMisfire => "Vehicle acceleration and top speed are reduced.",
-            VehicleHardpointFailure.TransmissionSlip => "Vehicle acceleration, reverse speed, and top speed are reduced.",
-            VehicleHardpointFailure.WarpedFrame => "The vehicle frame drags and reduces movement performance.",
-            VehicleHardpointFailure.DamagedMount => "This hardpoint's output is weakened until the mount is reseated.",
-            VehicleHardpointFailure.TireBlowout => "The vehicle loses speed and traction from a damaged tire.",
-            VehicleHardpointFailure.ThrownTread => "The vehicle can barely move until the tread is re-seated.",
-            VehicleHardpointFailure.EngineOverheat => "The engine bogs down and acceleration is heavily reduced.",
-            VehicleHardpointFailure.ElectricalShort => "This hardpoint's electrical output is unreliable and weakened.",
-            VehicleHardpointFailure.FuelLeak => "The Blackfoot leaks fuel over time until repaired.",
-            _ => "The hardpoint is malfunctioning.",
+            VehicleHardpointFailure.ArmorCompromised => "rmc-hardpoint-failure-effect-armor-compromised",
+            VehicleHardpointFailure.FeedJam => "rmc-hardpoint-failure-effect-feed-jam",
+            VehicleHardpointFailure.RunawayTrigger => "rmc-hardpoint-failure-effect-runaway-trigger",
+            VehicleHardpointFailure.TurretTraverseDamage => "rmc-hardpoint-failure-effect-turret-traverse",
+            VehicleHardpointFailure.EngineMisfire => "rmc-hardpoint-failure-effect-engine-misfire",
+            VehicleHardpointFailure.TransmissionSlip => "rmc-hardpoint-failure-effect-transmission-slip",
+            VehicleHardpointFailure.WarpedFrame => "rmc-hardpoint-failure-effect-warped-frame",
+            VehicleHardpointFailure.DamagedMount => "rmc-hardpoint-failure-effect-damaged-mount",
+            VehicleHardpointFailure.TireBlowout => "rmc-hardpoint-failure-effect-tire-blowout",
+            VehicleHardpointFailure.ThrownTread => "rmc-hardpoint-failure-effect-thrown-tread",
+            VehicleHardpointFailure.EngineOverheat => "rmc-hardpoint-failure-effect-engine-overheat",
+            VehicleHardpointFailure.ElectricalShort => "rmc-hardpoint-failure-effect-electrical-short",
+            VehicleHardpointFailure.FuelLeak => "rmc-hardpoint-failure-effect-fuel-leak",
+            _ => "rmc-hardpoint-failure-effect-default",
         };
+        return Loc.GetString(key);
+        // RuMC edit end
     }
 
     private static IReadOnlyList<VehicleHardpointFailureRepairStep> GetFailureRepairSteps(VehicleHardpointFailure failure)
@@ -1073,12 +1079,22 @@ public sealed partial class HardpointSystem : EntitySystem
         if (!TryGetFailureRepairStep(failure, stepIndex, out var step))
             return GetFailureName(failure);
 
-        return $"{GetFailureName(failure)} ({stepIndex + 1}/{GetFailureRepairSteps(failure).Count}: {GetFailureRepairToolName(step)})";
+        //RuMC edit start
+        return Loc.GetString("rmc-hardpoint-failure-status",
+            ("name", GetFailureName(failure)),
+            ("step", stepIndex + 1),
+            ("total", GetFailureRepairSteps(failure).Count),
+            ("tool", GetFailureRepairToolName(step)));
+        //RuMC edit end
     }
 
     private string GetFailureDiagnosticStatus(VehicleHardpointFailure failure)
     {
-        return $"{GetFailureName(failure)} - {GetFailureEffect(failure)}";
+        //RuMC edit start
+        return Loc.GetString("rmc-hardpoint-failure-diagnostic",
+            ("name", GetFailureName(failure)),
+            ("effect", GetFailureEffect(failure)));
+        //RuMC edit end
     }
 
     private List<string> GetFailureStatuses(EntityUid uid, bool includeRepairStep)
@@ -1102,23 +1118,26 @@ public sealed partial class HardpointSystem : EntitySystem
 
     private string GetFailureAlertName(VehicleHardpointFailure failure)
     {
-        return failure switch
+        // RuMC edit start
+        var key = failure switch
         {
-            VehicleHardpointFailure.ArmorCompromised => "Armor plating breach",
-            VehicleHardpointFailure.FeedJam => "Weapon feed jam",
-            VehicleHardpointFailure.RunawayTrigger => "Runaway trigger",
-            VehicleHardpointFailure.TurretTraverseDamage => "Turret traverse damage",
-            VehicleHardpointFailure.EngineMisfire => "Engine misfire",
-            VehicleHardpointFailure.TransmissionSlip => "Transmission slip",
-            VehicleHardpointFailure.WarpedFrame => "Warped frame",
-            VehicleHardpointFailure.DamagedMount => "Damaged mount",
-            VehicleHardpointFailure.TireBlowout => "Tire blowout",
-            VehicleHardpointFailure.ThrownTread => "Thrown tread",
-            VehicleHardpointFailure.EngineOverheat => "Engine overheating",
-            VehicleHardpointFailure.ElectricalShort => "Electrical short",
-            VehicleHardpointFailure.FuelLeak => "Fuel leak",
-            _ => "Hardpoint failure",
+            VehicleHardpointFailure.ArmorCompromised => "rmc-hardpoint-failure-alert-armor-compromised",
+            VehicleHardpointFailure.FeedJam => "rmc-hardpoint-failure-alert-feed-jam",
+            VehicleHardpointFailure.RunawayTrigger => "rmc-hardpoint-failure-alert-runaway-trigger",
+            VehicleHardpointFailure.TurretTraverseDamage => "rmc-hardpoint-failure-alert-turret-traverse",
+            VehicleHardpointFailure.EngineMisfire => "rmc-hardpoint-failure-alert-engine-misfire",
+            VehicleHardpointFailure.TransmissionSlip => "rmc-hardpoint-failure-alert-transmission-slip",
+            VehicleHardpointFailure.WarpedFrame => "rmc-hardpoint-failure-alert-warped-frame",
+            VehicleHardpointFailure.DamagedMount => "rmc-hardpoint-failure-alert-damaged-mount",
+            VehicleHardpointFailure.TireBlowout => "rmc-hardpoint-failure-alert-tire-blowout",
+            VehicleHardpointFailure.ThrownTread => "rmc-hardpoint-failure-alert-thrown-tread",
+            VehicleHardpointFailure.EngineOverheat => "rmc-hardpoint-failure-alert-engine-overheat",
+            VehicleHardpointFailure.ElectricalShort => "rmc-hardpoint-failure-alert-electrical-short",
+            VehicleHardpointFailure.FuelLeak => "rmc-hardpoint-failure-alert-fuel-leak",
+            _ => "rmc-hardpoint-failure-alert-default",
         };
+        return Loc.GetString(key);
+        // RuMC edit end
     }
 
     internal bool HasMatchingFailureRepairStepInTree(
@@ -1184,7 +1203,7 @@ public sealed partial class HardpointSystem : EntitySystem
                 return;
 
             hasFailures = true;
-            args.PushMarkup($"[color={FailureHeaderColor}][bold]Vehicle malfunctions[/bold][/color]");
+            args.PushMarkup($"[color={FailureHeaderColor}][bold]{Loc.GetString("rmc-hardpoint-failure-header")}[/bold][/color]"); // RuMC edit
         }
 
         void PushFailures(string? label, EntityUid uid, bool includeRepairSteps)
@@ -1201,10 +1220,10 @@ public sealed partial class HardpointSystem : EntitySystem
             {
                 var title = string.IsNullOrWhiteSpace(label)
                     ? GetFailureAlertName(failure)
-                    : $"{GetFailureAlertName(failure)} on {label}";
+                    : Loc.GetString("rmc-hardpoint-failure-on-label", ("name", GetFailureAlertName(failure)), ("location", label)); // RuMC edit
 
                 args.PushMarkup($"[color={FailureNameColor}]- {title}[/color]");
-                args.PushMarkup($"[color={FailureEffectColor}]  Effect: {GetFailureEffect(failure)}[/color]");
+                args.PushMarkup($"[color={FailureEffectColor}]  {Loc.GetString("rmc-hardpoint-failure-effect-label", ("effect", GetFailureEffect(failure)))}[/color]"); // RuMC edit
 
                 if (!includeRepairSteps)
                     continue;
@@ -1214,8 +1233,13 @@ public sealed partial class HardpointSystem : EntitySystem
                     continue;
 
                 args.PushMarkup(
-                    $"[color={FailureRepairColor}]  Repair: step {stepIndex + 1}/{GetFailureRepairSteps(failure).Count} - " +
-                    $"{step.Instruction} Use {GetFailureRepairToolName(step)}.[/color]");
+                    // RuMC edit start
+                    $"[color={FailureRepairColor}]  {Loc.GetString("rmc-hardpoint-failure-repair-label",
+                        ("step", stepIndex + 1),
+                        ("total", GetFailureRepairSteps(failure).Count),
+                        ("instruction", Loc.GetString(step.Instruction)),
+                        ("tool", GetFailureRepairToolName(step)))}[/color]");
+                    // RuMC edit end
             }
         }
 
@@ -1239,7 +1263,7 @@ public sealed partial class HardpointSystem : EntitySystem
 
         var frameFailures = GetFailureStatuses(vehicle, includeRepairStep: false);
         if (frameFailures.Count > 0)
-            lines.Add($"Hull: {string.Join(", ", frameFailures)}");
+            lines.Add(Loc.GetString("rmc-hardpoint-failure-hull-label", ("statuses", string.Join(", ", frameFailures)))); // RuMC edit
 
         if (!Resolve(vehicle, ref hardpoints, logMissing: false) ||
             !Resolve(vehicle, ref itemSlots, logMissing: false))
@@ -1256,7 +1280,7 @@ public sealed partial class HardpointSystem : EntitySystem
             if (statuses.Count == 0)
                 continue;
 
-            lines.Add($"{Name(item)}: {string.Join(", ", statuses)}");
+            lines.Add(Loc.GetString("rmc-hardpoint-failure-slot-summary", ("slot", Name(item)), ("statuses", string.Join(", ", statuses)))); // RuMC edit
         }
 
         return lines;
@@ -1291,8 +1315,10 @@ public sealed partial class HardpointSystem : EntitySystem
             return;
 
         var message = hardpoint == vehicle
-            ? $"{GetFailureAlertName(failure)} detected."
-            : $"{GetFailureAlertName(failure)} detected on {Name(hardpoint)}.";
+            // RuMC edit start
+            ? Loc.GetString("rmc-hardpoint-failure-detected", ("name", GetFailureAlertName(failure)))
+            : Loc.GetString("rmc-hardpoint-failure-detected-on", ("name", GetFailureAlertName(failure)), ("location", Name(hardpoint)));
+            // RuMC edit end
 
         foreach (var recipient in recipients)
         {
@@ -1806,7 +1832,7 @@ public sealed partial class HardpointSystem : EntitySystem
             return;
         }
 
-        args.PushMarkup($"[color={FailureHeaderColor}][bold]Hardpoint malfunctions[/bold][/color]");
+        args.PushMarkup($"[color={FailureHeaderColor}][bold]{Loc.GetString("rmc-hardpoint-failure-hardpoint-header")}[/bold][/color]"); // RuMC edit
 
         foreach (var failure in failures.ActiveFailures)
         {
@@ -1814,14 +1840,19 @@ public sealed partial class HardpointSystem : EntitySystem
             var stepIndex = Math.Clamp(GetFailureRepairProgress(failures, failure), 0, Math.Max(steps.Count - 1, 0));
 
             args.PushMarkup($"[color={FailureNameColor}]- {GetFailureAlertName(failure)}[/color]");
-            args.PushMarkup($"[color={FailureEffectColor}]  Effect: {GetFailureEffect(failure)}[/color]");
+            args.PushMarkup($"[color={FailureEffectColor}]  {Loc.GetString("rmc-hardpoint-failure-effect-label", ("effect", GetFailureEffect(failure)))}[/color]"); // RuMC edit
 
             if (!TryGetFailureRepairStep(failure, stepIndex, out var step))
                 continue;
 
             args.PushMarkup(
-                $"[color={FailureRepairColor}]  Repair: step {stepIndex + 1}/{steps.Count} - " +
-                $"{step.Instruction} Use {GetFailureRepairToolName(step)}.[/color]");
+                // RuMC edit start
+                $"[color={FailureRepairColor}]  {Loc.GetString("rmc-hardpoint-failure-repair-label",
+                    ("step", stepIndex + 1),
+                    ("total", steps.Count),
+                    ("instruction", Loc.GetString(step.Instruction)),
+                    ("tool", GetFailureRepairToolName(step)))}[/color]");
+                // RuMC edit end
         }
     }
 
