@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Shared._RMC14.Areas;
 using Content.Shared._RMC14.CCVar;
 using Content.Shared._RMC14.Marines;
@@ -9,6 +10,9 @@ using Content.Shared._RMC14.Xenonids;
 using Content.Shared._RMC14.Xenonids.Announce;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
+using Content.Shared._AU14.Abominations;
+using Content.Shared._CMU14.Yautja;
+using Content.Shared.AU14.Threats;
 using Robust.Shared.Configuration;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
@@ -28,7 +32,6 @@ public sealed partial class BioscanSystem : EntitySystem
     [Dependency] private IRobustRandom _random = default!;
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private SharedXenoAnnounceSystem _xenoAnnounce = default!;
-
     private const string None = "none";
 
     private TimeSpan _bioscanInitialDelay;
@@ -53,14 +56,25 @@ public sealed partial class BioscanSystem : EntitySystem
         Subs.CVar(_config, RMCCVars.RMCBioscanVariance, v => _bioscanVariance = v, true);
     }
 
-    private void OnMapInit(Entity<BioscanComponent> ent, ref MapInitEvent args)
+    private void OnMapInit(Entity<BioscanComponent> ent, ref MapInitEvent _)
     {
         ent.Comp.LastMarine = _timing.CurTime + _bioscanInitialDelay;
         ent.Comp.LastXeno = _timing.CurTime + _bioscanInitialDelay;
         Dirty(ent);
     }
 
-    private bool TryBioscan<T>(
+    private bool TargetIsMarine(EntityUid uid) => HasComp<MarineComponent>(uid);
+    private bool TargetIsThreat(EntityUid uid)
+    {
+        return HasComp<XenoComponent>(uid)
+            || HasComp<AbominationComponent>(uid)
+            || HasComp<AbominationMimicTransformedComponent>(uid)
+            || HasComp<YautjaComponent>(uid)
+            || HasComp<YautjaAbominationComponent>(uid);
+    }
+
+    private bool TryBioscan(
+        Func<EntityUid, bool> targetIsThreat,
         TimeSpan last,
         bool force,
         ref int max,
@@ -68,11 +82,11 @@ public sealed partial class BioscanSystem : EntitySystem
         out int aliveShip,
         out int alivePlanet,
         out string warshipArea,
-        out string planetArea) where T : IComponent
+        out string planetArea)
     {
-        alive = default;
-        aliveShip = default;
-        alivePlanet = default;
+        alive = 0;
+        aliveShip = 0;
+        alivePlanet = 0;
         warshipArea = None;
         planetArea = None;
 
@@ -87,26 +101,22 @@ public sealed partial class BioscanSystem : EntitySystem
 
         var planetQuery = EntityQueryEnumerator<RMCPlanetComponent, TransformComponent>();
         while (planetQuery.MoveNext(out _, out var xform))
-        {
             _planetMaps.Add(xform.MapID);
-        }
 
         var warshipQuery = EntityQueryEnumerator<AlmayerComponent, TransformComponent>();
         while (warshipQuery.MoveNext(out _, out var xform))
-        {
             _warshipMaps.Add(xform.MapID);
-        }
 
-        alive = 0;
-        aliveShip = 0;
-        alivePlanet = 0;
-        var playersQuery = EntityQueryEnumerator<T, ActorComponent, MobStateComponent, TransformComponent>();
-        while (playersQuery.MoveNext(out var uid, out _, out _, out var mobState, out var xform))
+        var playersQuery = EntityQueryEnumerator<ActorComponent, MobStateComponent, TransformComponent>();
+        while (playersQuery.MoveNext(out var uid, out _, out var mobState, out var xform))
         {
             if (!_mobState.IsAlive(uid, mobState))
                 continue;
 
             if (HasComp<ThunderdomeMapComponent>(xform.MapUid))
+                continue;
+
+            if (!targetIsThreat(uid))
                 continue;
 
             alive++;
@@ -140,14 +150,12 @@ public sealed partial class BioscanSystem : EntitySystem
             if (next < _bioscanMinimumCooldown)
                 next = _bioscanMinimumCooldown;
 
-            next = next + last;
+            next += last;
             if (!force && time < next)
                 return false;
         }
         else if (!force)
-        {
             return false;
-        }
 
         if (_warshipAreas.Count > 0)
             warshipArea = _random.Pick(_warshipAreas);
@@ -161,7 +169,8 @@ public sealed partial class BioscanSystem : EntitySystem
     public void TryBioscanARES(Entity<BioscanComponent> bioscan, bool force)
     {
         var time = _timing.CurTime;
-        if (!TryBioscan<XenoComponent>(
+        if (!TryBioscan(
+                TargetIsThreat,
                 bioscan.Comp.LastMarine,
                 force,
                 ref bioscan.Comp.MaxXenoAlive,
@@ -170,9 +179,7 @@ public sealed partial class BioscanSystem : EntitySystem
                 out var alivePlanet,
                 out var warshipArea,
                 out var planetArea))
-        {
             return;
-        }
 
         var variance = _bioscanVariance;
         alivePlanet = Math.Max(0, alivePlanet + _random.Next(-variance, variance + 1));
@@ -188,14 +195,16 @@ public sealed partial class BioscanSystem : EntitySystem
             ("onPlanet", alivePlanet)
         );
 
-        _marineAnnounce.AnnounceARESStaging(null, message, bioscan.Comp.MarineSound, "rmc-bioscan-ares-announcement", "govfor");
+        foreach (var faction in new[] { "govfor", "opfor", "scientist" })
+            _marineAnnounce.AnnounceARESStaging(null, message, bioscan.Comp.MarineSound, "rmc-bioscan-ares-announcement", faction);
         Dirty(bioscan);
     }
 
     public void TryBioscanQueenMother(Entity<BioscanComponent> bioscan, bool force)
     {
         var time = _timing.CurTime;
-        if (!TryBioscan<MarineComponent>(
+        if (!TryBioscan(
+                TargetIsMarine,
                 bioscan.Comp.LastXeno,
                 force,
                 ref bioscan.Comp.MaxMarinesAlive,
@@ -204,9 +213,7 @@ public sealed partial class BioscanSystem : EntitySystem
                 out var alivePlanet,
                 out var warshipArea,
                 out var planetArea))
-        {
             return;
-        }
 
         var variance = _bioscanVariance;
         aliveShip = Math.Max(0, aliveShip + _random.Next(-variance, variance + 1));
@@ -230,6 +237,9 @@ public sealed partial class BioscanSystem : EntitySystem
     public override void Update(float frameTime)
     {
         if (_net.IsClient)
+            return;
+
+        if (EntityQuery<InsurgencyRuleComponent>().Any())
             return;
 
         var time = _timing.CurTime;

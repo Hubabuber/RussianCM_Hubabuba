@@ -230,6 +230,16 @@
 
 - type: entity
   parent: CMUAreaShepWY
+  id: CMUAreaShepWYLab2C
+  name: We-Yu Research Lab - Specimen Chamber
+  components:
+  - type: Sprite
+    state: wy_lab
+  - type: Area
+    noTunnel: true
+
+- type: entity
+  parent: CMUAreaShepWY
   id: CMUAreaShepWYQuarantine
   name: We-Yu Research Lab - Quarantine
   components:
@@ -253,6 +263,62 @@
     state: wy_storage
 
 - type: entity
+  parent: CMUAreaShepWY
+  id: CMUAreaShepWYLab3
+  name: We-Yu Research Lab - Examination
+  components:
+  - type: Sprite
+    state: wy_lab
+
+- type: entity
+  parent: CMUAreaShepWY
+  id: CMUAreaShepWYStorageC
+  name: We-Yu Research Lab - Cold Storage
+  components:
+  - type: Sprite
+    state: wy_storage
+
+- type: entity
+  parent: CMUAreaShepWY
+  id: CMUAreaShepWYLoadingBay
+  name: We-Yu Research Lab - Loading Bay
+  components:
+  - type: Sprite
+    state: wy_storage
+
+- type: entity
+  parent: CMUAreaShepWY
+  id: CMUAreaShepWYASRS
+  name: We-Yu Research Lab - ASRS
+  components:
+  - type: Sprite
+    state: wy_storage
+
+- type: entity
+  parent: CMUAreaShepWY
+  id: CMUAreaShepWYLiaison
+  name: We-Yu Research Lab - Liaison Office
+  components:
+  - type: Sprite
+    state: wy_quarters
+
+- type: entity
+  parent: CMUAreaShepWY
+  id: CMUAreaShepWYRange
+  name: We-Yu Research Lab - Firing Range
+  components:
+  - type: Sprite
+    state: wy_barracks
+
+- type: entity
+  parent: CMUAreaShepWY
+  id: CMUAreaShepWYArmory
+  name: We-Yu Research Lab - Armory
+  components:
+  - type: Sprite
+    state: wy_barracks
+
+- type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepNorthColonyDorms
   name: North Colony
@@ -274,8 +340,8 @@
 
 - type: entity
   parent: CMUAreaShepIndoors
-  id: CMUAreaShepNorthColonyBoat
-  name: North Colony - Riverboat
+  id: CMUAreaShepRiverboatCasino
+  name: Riverboat Casino
   components:
   - type: Sprite
     state: n_colony_dorms
@@ -335,6 +401,11 @@
     state: hospital_surgery
 
 - type: entity
+  parent: CMUAreaShepHospital
+  id: CMUAreaShepHospitalHeadPhys
+  name: Hospital - Head Physician Office
+
+- type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepTavern
   name: The Drunk Carp
@@ -347,7 +418,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepEALASRS
-  name: Engineering & Logistics - ASRS
+  name: Logistics & ASRS
   components:
   - type: Sprite
     state: eal_asrs
@@ -366,8 +437,18 @@
 
 - type: entity
   parent: CMUAreaShepIndoors
+  id: CMUAreaShepHeadofEngineering
+  name: Head of Engineering Office
+  components:
+  - type: Sprite
+    state: eal_foreman
+  - type: Area
+    minimapColor: '#92673ECC'
+
+- type: entity
+  parent: CMUAreaShepIndoors
   id: CMUAreaShepEALReactor
-  name: Engineering & Logistics - Reactor
+  name: Engineering & Reactor
   components:
   - type: Sprite
     state: eal_reactor
@@ -428,6 +509,16 @@
   parent: CMUAreaShepIndoors
   id: CMUAreaShepChapel
   name: Chapel
+  components:
+  - type: Sprite
+    state: chapel
+  - type: Area
+    minimapColor: '#C5A06FCC'
+
+- type: entity
+  parent: CMUAreaShepIndoors
+  id: CMUAreaShepTheatre
+  name: South Colony - Theatre
   components:
   - type: Sprite
     state: chapel
@@ -520,8 +611,58 @@
 
 - type: entity
   parent: CMUAreaShepOutdoors
-  id: CMUAreaShepMilLZ1
-  name: Military - LZ1
+  id: CMUAreaShepAdminPerimeter
+  name: Colony Administrator Office
+  components:
+  - type: Sprite
+    state: admin
+  - type: Area
+    minimapColor: '#986566CC'
+
+- type: entity
+  parent: CMUAreaShepOutdoors
+  id: CMUAreaShepRiverboatCasinoPerimeter
+  name: Riverboat Casino
+  components:
+  - type: Sprite
+    state: n_colony_dorms
+  - type: Area
+    minimapColor: '#295B43CC'
+
+- type: entity
+  parent: CMUAreaShepOutdoors
+  id: CMUAreaShepTavernPerimeter
+  name: The Drunk Carp
+  components:
+  - type: Sprite
+    state: tavern
+  - type: Area
+    minimapColor: '#7B0920CC'
+
+- type: entity
+  parent: CMUAreaShepOutdoors
+  id: CMUAreaShepJournalistPerimeter
+  name: Journalist Office
+  components:
+  - type: Sprite
+    state: journalist
+  - type: Area
+    minimapColor: '#6E7598CC'
+
+- type: entity
+  parent: CMUAreaShepOutdoors
+  id: CMUAreaShepFisheryPerimeter
+  name: Fishery
+  components:
+  - type: Sprite
+    state: fishery
+  - type: Area
+    minimapColor: '#C5A06FCC'
+
+- type: entity
+  parent: CMUAreaShepOutdoors
+  id: CMUAreaShepLZ1
+  name: 'LZ1: Southwest Jungle'
   components:
   - type: Sprite
     state: military_lz1
@@ -583,7 +724,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepLZ2
-  name: South Colony - LZ2
+  name: 'LZ2: Northwest Jungle'
   components:
   - type: Sprite
     state: s_colony_lz2
@@ -594,8 +735,8 @@
 
 - type: entity
   parent: CMUAreaShepOutdoors
-  id: CMUAreaShepEALLZ3
-  name: Engineering & Logistics - LZ3
+  id: CMUAreaShepLZ3
+  name: 'LZ3: North Colony'
   components:
   - type: Sprite
     state: eal_lz3
@@ -608,6 +749,26 @@
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepEALYard
   name: Engineering & Logistics
+  components:
+  - type: Sprite
+    state: eal_yard
+  - type: Area
+    minimapColor: '#2F231BCC'
+
+- type: entity
+  parent: CMUAreaShepOutdoors
+  id: CMUAreaShepEALEngYard
+  name: Engineering
+  components:
+  - type: Sprite
+    state: eal_yard
+  - type: Area
+    minimapColor: '#2F231BCC'
+
+- type: entity
+  parent: CMUAreaShepOutdoors
+  id: CMUAreaShepEALLogYard
+  name: Logistics
   components:
   - type: Sprite
     state: eal_yard
@@ -688,6 +849,16 @@
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepWJungle
   name: West Jungle
+  components:
+  - type: Sprite
+    state: w_jungle
+  - type: Area
+    minimapColor: '#295B43CC'
+
+- type: entity
+  parent: CMUAreaShepOutdoors
+  id: CMUAreaShepSWJungle
+  name: Southwest Jungle
   components:
   - type: Sprite
     state: w_jungle
@@ -788,7 +959,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepSComms
-  name: South Colony - Comms
+  name: We-Yu - Comms
   components:
   - type: Sprite
     state: comms

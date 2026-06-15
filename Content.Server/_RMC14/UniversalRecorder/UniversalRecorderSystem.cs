@@ -5,6 +5,7 @@ using Content.Server.Chat.Systems;
 using Content.Server.Speech;
 using Content.Server.Speech.Components;
 using Content.Shared._RMC14.UniversalRecorder;
+using Content.Shared._RMC14.Mentor.ImaginaryFriend;
 using Content.Shared.Atmos;
 using Content.Shared.Chat;
 using Content.Shared.Containers.ItemSlots;
@@ -175,7 +176,7 @@ public sealed partial class UniversalRecorderSystem : EntitySystem
 
             var usedPercent = ent.Comp.MaxCapacity == TimeSpan.Zero
                 ? 0
-                : (int) MathF.Floor((float) (tapeRuntime.UsedCapacity.TotalSeconds / ent.Comp.MaxCapacity.TotalSeconds * 100f));
+                : (int)MathF.Floor((float)(tapeRuntime.UsedCapacity.TotalSeconds / ent.Comp.MaxCapacity.TotalSeconds * 100f));
 
             var key = usedPercent switch
             {
@@ -472,7 +473,7 @@ public sealed partial class UniversalRecorderSystem : EntitySystem
         args.Handled = _tool.UseTool(args.Used,
             args.User,
             ent.Owner,
-            (float) ent.Comp.RespoolTime.TotalSeconds,
+            (float)ent.Comp.RespoolTime.TotalSeconds,
             ent.Comp.ScrewdriverQuality,
             new UniversalRecorderTapeRespoolDoAfterEvent());
     }
@@ -493,6 +494,9 @@ public sealed partial class UniversalRecorderSystem : EntitySystem
     {
         var runtime = GetRecorderRuntime(ent);
         if (runtime.State != UniversalRecorderState.Recording)
+            return;
+
+        if (HasComp<ImaginaryFriendComponent>(args.Source))
             return;
 
         if (!TryGetTape(ent, out var tape))
@@ -742,7 +746,7 @@ public sealed partial class UniversalRecorderSystem : EntitySystem
             runtime.WarningSent = true;
             SendRecorderNotice(ent,
                 Loc.GetString("rmc-universal-recorder-popup-warning",
-                    ("seconds", Math.Max(0, (int) remaining.TotalSeconds))));
+                    ("seconds", Math.Max(0, (int)remaining.TotalSeconds))));
         }
 
         if (used < tape.Comp.MaxCapacity)
@@ -805,7 +809,7 @@ public sealed partial class UniversalRecorderSystem : EntitySystem
         var delta = nextEntry.Timestamp - currentEntry.Timestamp;
         if (delta > ent.Comp.PlaybackSilenceThreshold)
         {
-            runtime.PendingSilenceSeconds = Math.Max(1, (int) Math.Round(delta.TotalSeconds));
+            runtime.PendingSilenceSeconds = Math.Max(1, (int)Math.Round(delta.TotalSeconds));
             runtime.NextPlaybackAt = _timing.CurTime + TimeSpan.FromSeconds(1);
             return;
         }
@@ -1075,7 +1079,7 @@ public sealed partial class UniversalRecorderSystem : EntitySystem
 
     private static string FormatTimestamp(TimeSpan timestamp)
     {
-        var totalMinutes = (int) timestamp.TotalMinutes;
+        var totalMinutes = (int)timestamp.TotalMinutes;
         return $"[{totalMinutes:00}:{timestamp.Seconds:00}]";
     }
 
@@ -1086,7 +1090,7 @@ public sealed partial class UniversalRecorderSystem : EntitySystem
 
     private static string FormatDuration(TimeSpan duration)
     {
-        var totalMinutes = (int) duration.TotalMinutes;
+        var totalMinutes = (int)duration.TotalMinutes;
         return $"{totalMinutes}m {duration.Seconds}s";
     }
 }

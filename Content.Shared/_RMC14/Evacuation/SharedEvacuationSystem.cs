@@ -517,16 +517,27 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         {
             _marineAnnounce.AnnounceARESStaging(
                 null,
-                "Attention. Emergency. All personnel must evacuate immediately.",
+                "ALL STATIONS. Emergency. Lifeboat fuel lines pressurized. Pumps at full capacity. Muster stations. Evacuation protocol engaged.",
                 startSound,
                 faction: progress.VictimFaction
             );
+
+            Timer.Spawn(TimeSpan.FromSeconds(25), () =>
+            {
+                if (map == null || !Exists(map.Value)) return;
+                if (!progress.Enabled || !TryComp<EvacuationProgressComponent>(map.Value, out var curProgress)) return;
+
+                _marineAnnounce.AnnounceARESStaging(null,
+                    "ALL STATIONS. Scuttling failure. Self‑destruct sequence unresponsive. All personnel abandon ship immediately.",
+                    startSound,
+                    faction: curProgress.VictimFaction);
+            });
             var ev = new EvacuationEnabledEvent(map.Value);
             RaiseLocalEvent(map.Value, ref ev, true);
         }
         else
         {
-            _marineAnnounce.AnnounceARESStaging(null, "Evacuation has been cancelled.", cancelSound, faction: progress.VictimFaction);
+            _marineAnnounce.AnnounceARESStaging(null, "ALL STATIONS. Evacuation protocol aborted. Lifeboat launch suspended. Emergency stand-down.", cancelSound, faction: progress.VictimFaction);
             var ev = new EvacuationDisabledEvent(map.Value);
             RaiseLocalEvent(map.Value, ref ev, true);
         }
@@ -560,7 +571,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         var query = EntityQueryEnumerator<EvacuationProgressComponent>();
         while (query.MoveNext(out var progress))
         {
-            return (int) progress.Progress;
+            return (int)progress.Progress;
         }
 
         return 0;
@@ -592,16 +603,17 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
                 SetPumpAppearance(uid, EvacuationPumpVisuals.Empty);
                 SetPumpAmbience(uid);
 
+                _rmcPower.RecalculatePower();
+
                 var areas = new StringBuilder();
                 foreach (var areaId in GetEvacuationAreas(uid.ToCoordinates()))
                 {
                     var powered = IsAreaPumpPowered(areaId);
-                    var line = $"[{Name(areaId)}] - [{(powered ? "Online" : "Offline")}]";
+                    var line = $"[{Name(areaId)}] - [{(powered ? "MAX CAPACITY" : "NO FUEL FLOW")}]";
                     areas.AppendLine(line);
                 }
 
-                areas.Append(
-                    "Due to low orbit, extra fuel is required for non-surface evacuations.\nMaintain fueling functionality for optimal evacuation conditions.");
+                areas.Append("Low orbit decay detected. Additional fuel reserves for optimal launch conditions required.\nSustained power to fueling stations required to meet new threshold. Early launch results in atmospheric entry.");
                 _marineAnnounce.AnnounceARESStaging(null, areas.ToString(), faction: faction);
             }
 
@@ -625,7 +637,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
                 if (progress.LastPower.TryGetValue(areaId, out var lastPower) &&
                     lastPower != powered)
                 {
-                    _marineAnnounce.AnnounceARESStaging(null, $"{Name(areaId)} - [{(powered ? "Online" : "Offline")}]", faction: faction);
+                    _marineAnnounce.AnnounceARESStaging(null, $"{Name(areaId)} - [{(powered ? "MAX CAPACITY" : "NO FUEL FLOW")}]", faction: faction);
                 }
 
                 progress.LastPower[areaId] = powered;
@@ -659,18 +671,18 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
 
                 string MarinePercentageString(int percentage)
                 {
-                    var marineAnnounce = $"Emergency fuel replenishment is at {percentage} percent.";
+                    var marineAnnounce = $"LIFEBOAT FUEL RESERVES: AT {percentage} PERCENT.";
                     if (offAreas.Length == 0)
-                        marineAnnounce += " All fueling areas operational.";
+                        marineAnnounce += " All fueling stations diverting to lifeboats at full capacity. Volumetric flow maximums.";
                     else
-                        marineAnnounce += $"To increase speed, restore power to the following areas: {offAreas}";
+                        marineAnnounce += $" Fuel flow interrupted in: {offAreas}. Remedial action mandatory. Replenishment rate critically low.";
 
                     return marineAnnounce;
                 }
 
                 if (progress.Progress >= progress.Required)
                 {
-                    _marineAnnounce.AnnounceARESStaging(null, "Emergency fuel replenishment is at 100 percent. Safe utilization of lifeboats and pods is now possible.", faction: faction);
+                    _marineAnnounce.AnnounceARESStaging(null, "LIFEBOAT FUEL RESERVES: AT 100 PERCENT. Lifeboats launch at command discretion. Escape pods available for immediate use.", faction: faction);
 
                     if (!progress.IsHumanHijack)
                         _xenoAnnounce.AnnounceAll(default, "The talls have completed their goals!");
@@ -716,11 +728,11 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
                 }
                 else if (progress.Progress >= progress.Required * 0.25)
                 {
-                    var marineAnnounce = "Emergency fuel replenishment is at 25 percent. Lifeboat emergency early launch is now available.";
+                    var marineAnnounce = "LIFEBOAT FUEL RESERVES: AT 25 PERCENT. Early-launch override available. Command order required.";
                     if (offAreas.Length == 0)
-                        marineAnnounce += " All fueling areas operational.";
+                        marineAnnounce += " All fueling stations operating at full capacity. Volumetric flow maximums.";
                     else
-                        marineAnnounce += $" To increase speed, restore power to the following areas: {offAreas}";
+                        marineAnnounce += $" Fuel flow interrupted in: {offAreas}. Remedial action mandatory to increase replenishment rate.";
 
                     _marineAnnounce.AnnounceARESStaging(null, marineAnnounce, faction: faction);
 

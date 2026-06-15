@@ -50,6 +50,21 @@ public sealed partial class AuThreatVoteSystem : EntitySystem
     private PreparedThreatVote? _prepared;
     private readonly HashSet<NetUserId> _roundJoinBlockedPlayers = new();
 
+    public override void Initialize()
+    {
+        base.Initialize();
+        SubscribeLocalEvent<GameRunLevelChangedEvent>(OnRunLevelChanged);
+    }
+
+    private void OnRunLevelChanged(GameRunLevelChangedEvent ev)
+    {
+        if (ev.New != GameRunLevel.InRound)
+        {
+            _prepared = null;
+            ClearRoundJoinBlocks();
+        }
+    }
+
     public bool IsRoundJoinBlocked(NetUserId playerId)
     {
         return _roundJoinBlockedPlayers.Contains(playerId);
@@ -136,7 +151,7 @@ public sealed partial class AuThreatVoteSystem : EntitySystem
         {
             Title = Loc.GetString(VoteTitleLocId),
             Options = prepared.Candidates
-                .Select(candidate => (GetLocalizedThreatDisplayName(candidate.Threat.ID), (object) candidate.Threat))
+                .Select(candidate => (GetLocalizedThreatDisplayName(candidate.Threat.ID), (object)candidate.Threat))
                 .ToList(),
             Duration = VoteDuration,
             AllowedVoters = prepared.HeldPlayers.ToHashSet(),
@@ -150,6 +165,13 @@ public sealed partial class AuThreatVoteSystem : EntitySystem
         handle.OnCancelled += _ => ClearRoundJoinBlocks();
         handle.OnFinished += (_, args) =>
         {
+            var ticker = EntityManager.EntitySysManager.GetEntitySystem<GameTicker>();
+            if (ticker.RunLevel != GameRunLevel.InRound)
+            {
+                ClearRoundJoinBlocks();
+                return;
+            }
+
             var selected = ResolveThreatWinner(args.Winner, args.Winners, prepared.Candidates);
             if (selected == null)
             {
@@ -249,8 +271,8 @@ public sealed partial class AuThreatVoteSystem : EntitySystem
     {
         var ticker = EntityManager.EntitySysManager.GetEntitySystem<GameTicker>();
         var isColonyFall = string.Equals(_auRound.SelectedPreset?.ID, "ColonyFall", StringComparison.OrdinalIgnoreCase);
-        var minMinutes = Math.Max(1, (int) Math.Round(selected.SpawnDelayMin / 60.0));
-        var maxMinutes = Math.Max(minMinutes, (int) Math.Round(selected.SpawnDelayMax / 60.0));
+        var minMinutes = Math.Max(1, (int)Math.Round(selected.SpawnDelayMin / 60.0));
+        var maxMinutes = Math.Max(minMinutes, (int)Math.Round(selected.SpawnDelayMax / 60.0));
 
         foreach (var playerId in heldPlayers)
         {

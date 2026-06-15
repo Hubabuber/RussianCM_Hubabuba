@@ -511,10 +511,8 @@ public sealed partial class XenoChargeSystem : EntitySystem
 
     private void OnXenoChargePreventCollide(Entity<XenoChargeComponent> xeno, ref PreventCollideEvent args)
     {
-        if (xeno.Comp.Charge == null)
-            return;
-
-        if (TerminatingOrDeleted(args.OtherEntity))
+        var cancel = false;
+        if (xeno.Comp.Charge == null || TerminatingOrDeleted(args.OtherEntity))
             return;
 
         // Only pass through entities explicitly tagged for it.
@@ -525,9 +523,16 @@ public sealed partial class XenoChargeSystem : EntitySystem
                 _destruct.DestroyEntity(args.OtherEntity);
             else if (_net.IsClient)
                 _transform.DetachEntity(args.OtherEntity, Transform(args.OtherEntity));
-
-            args.Cancelled = true;
+            cancel = true;
         }
+
+        // Charge leap over low obstacles (ignore blocking computers etc.)
+        else if (_physicsQuery.TryComp(args.OtherEntity, out PhysicsComponent? physics))
+            cancel = (physics.CollisionLayer & (int)CollisionGroup.LowImpassable) != 0
+                  && (physics.CollisionLayer & (int)(CollisionGroup.MidImpassable | CollisionGroup.HighImpassable | CollisionGroup.Impassable)) == 0;
+
+        if (cancel)
+            args.Cancelled = true;
     }
 
     private void OnXenoChargeDoAfterEvent(Entity<XenoChargeComponent> xeno, ref XenoChargeDoAfterEvent args)
@@ -572,7 +577,7 @@ public sealed partial class XenoChargeSystem : EntitySystem
             var direction = diff.Normalized();
             var results = _physics.IntersectRay(
                 origin.MapId,
-                new CollisionRay(origin.Position, direction, (int) (CollisionGroup.BarricadeImpassable | CollisionGroup.MidImpassable)),
+                new CollisionRay(origin.Position, direction, (int)(CollisionGroup.BarricadeImpassable | CollisionGroup.MidImpassable)),
                 diff.Length(),
                 xeno.Owner,
                 false
