@@ -1,15 +1,15 @@
-ent-ClosetBase-name = шкаф
-ent-ClosetBase-desc = Стандартное хранилище Nanotrasen.
+ent-ClosetBase = шкаф
+    .desc = Стандартное хранилище Nanotrasen.
 
-ent-BaseWallCloset-name = стенной шкаф
-ent-BaseWallCloset-desc = Стандартное хранилище Nanotrasen, теперь на стене.
+ent-BaseWallCloset = настенный шкаф
+    .desc = Стандартное хранилище Nanotrasen, теперь на стене.
 
-ent-SuitStorageBase-name = блок хранения костюма
-ent-SuitStorageBase-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageBase = хранилище скафандра
+    .desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
 
-ent-ClosetSteelBase-name = шкаф
-ent-ClosetSteelBase-desc = Стандартное хранилище Nanotrasen.
+ent-ClosetSteelBase = шкаф
+    .desc = Стандартное хранилище Nanotrasen.
 
-ent-BaseWallLocker-name = стенной шкаф
-ent-BaseWallLocker-desc = Стандартное хранилище Nanotrasen, теперь на стене.
+ent-BaseWallLocker-name = настенный шкаф
+    .desc = Стандартное хранилище Nanotrasen, теперь на стене.
 

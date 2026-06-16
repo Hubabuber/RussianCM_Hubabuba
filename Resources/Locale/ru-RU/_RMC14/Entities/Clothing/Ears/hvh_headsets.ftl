@@ -1,15 +1,20 @@
-ent-RMCHeadsetHvHWeYaPMC = Корпоративная гарнитура WeYa
-  .desc = Специальная гарнитура, используемая корпоративным персоналом.
+ent-RMCHeadsetHvHWeYaPMC = {ent-RMCHeadsetDistressWeYa}
+    .desc = {ent-RMCHeadsetDistressWeYa.desc}
+    .suffix = ВеЮ, ЧВК, ХвХ
 
-ent-RMCHeadsetHvHWeYaPMCMedic = ПМК-МЕД гарнитура
-  .desc = Специальная гарнитура, используемая корпоративным персоналом.
+ent-RMCHeadsetHvHWeYaPMCMedic = гарнитура медика ЧВК
+    .desc = {ent-RMCHeadsetDistressWeYa.desc}
+    .suffix = ВеЮ, ЧВК, ХвХ
 
-ent-RMCHeadsetHvHWeYaPMCEngineer = PMC-CCT гарнитура
-  .desc = Специальная гарнитура, используемая корпоративным персоналом.
+ent-RMCHeadsetHvHWeYaPMCEngineer = гарнитура инженера ЧВК
+    .desc = {ent-RMCHeadsetDistressWeYa.desc}
+    .suffix = ВеЮ, ЧВК, ХвХ
 
-ent-RMCHeadsetHvHWeYaPMCLeader = PMC-CMD гарнитура
-  .desc = Специальная гарнитура, используемая корпоративным персоналом.
+ent-RMCHeadsetHvHWeYaPMCLeader = гарнитура лидера ЧВК
+    .desc = {ent-RMCHeadsetDistressWeYa.desc}
+    .suffix = ВеЮ, ЧВК, ХвХ
 
-ent-RMCHeadsetHvHWeYaPMCCommando = Гарнитура We-Ya Commando
-  .desc = Специальная гарнитура, используемая неизвестными оперативниками.
+ent-RMCHeadsetHvHWeYaPMCCommando = гарнитура коммандо ВеЮ
+    .desc = {ent-RMCHeadsetDistressWeYa.desc}
+    .suffix = ВеЮ, Коммандо ЧВК, ХвХ
 
