@@ -40,6 +40,7 @@
     - CMUYautjaLaugh
     - CMUYautjaGrowl
     - CMUYautjaPain
+    - CMUYautjaDistract
     - CMUYautjaDeathCry
     - CMUYautjaDeathLaugh
   - type: Vocal
@@ -92,6 +93,78 @@
     - CMUYautjaPain
     emoteCooldown: 8
     hiddenFromChatWindow: true
+  - type: MotionDetectorTracked
+
+- type: entity
+  parent: CMUMobYautja
+  id: CMUMobYautjaBadBloodGrunt
+  name: Bad Blood Grunt
+  suffix: Yautja, Bad Blood
+  components:
+  - type: YautjaBadBlood
+  - type: Yautja
+    skinHueMin: 0.0
+    skinHueMax: 0.03
+    skinSaturationMin: 0.4
+    skinSaturationMax: 0.9
+    skinValueMin: 0.3
+    skinValueMax: 0.8
+  - type: Loadout
+    prototypes:
+    - CMUYautjaBadBloodGruntGear01
+    - CMUYautjaBadBloodGruntGear02
+    - CMUYautjaBadBloodGruntGear03
+    - CMUYautjaBadBloodGruntGear04
+    - CMUYautjaBadBloodGruntGear05
+    - CMUYautjaBadBloodGruntGear06
+    - CMUYautjaBadBloodGruntGear07
+    - CMUYautjaBadBloodGruntGear08
+    - CMUYautjaBadBloodGruntGear09
+    - CMUYautjaBadBloodGruntGear10
+    - CMUYautjaBadBloodGruntGear11
+    - CMUYautjaBadBloodGruntGear12
+    - CMUYautjaBadBloodGruntGear13
+    - CMUYautjaBadBloodGruntGear14
+    - CMUYautjaBadBloodGruntGear15
+    - CMUYautjaBadBloodGruntGear16
+    - CMUYautjaBadBloodGruntGear17
+    - CMUYautjaBadBloodGruntGear18
+    - CMUYautjaBadBloodGruntGear19
+    - CMUYautjaBadBloodGruntGear20
+    - CMUYautjaBadBloodGruntGear21
+
+- type: entity
+  parent: CMUMobYautja
+  id: CMUMobYautjaBadBloodLeader
+  name: Bad Blood Leader
+  suffix: Yautja, Bad Blood
+  components:
+  - type: YautjaBadBlood
+  - type: Yautja
+    skinHueMin: 0.0
+    skinHueMax: 0.03
+    skinSaturationMin: 0.4
+    skinSaturationMax: 0.9
+    skinValueMin: 0.3
+    skinValueMax: 0.8
+  - type: Loadout
+    prototypes:
+    - CMUYautjaBadBloodLeaderGear01
+    - CMUYautjaBadBloodLeaderGear02
+    - CMUYautjaBadBloodLeaderGear03
+    - CMUYautjaBadBloodLeaderGear04
+    - CMUYautjaBadBloodLeaderGear05
+    - CMUYautjaBadBloodLeaderGear06
+    - CMUYautjaBadBloodLeaderGear07
+    - CMUYautjaBadBloodLeaderGear08
+    - CMUYautjaBadBloodLeaderGear09
+    - CMUYautjaBadBloodLeaderGear10
+    - CMUYautjaBadBloodLeaderGear11
+    - CMUYautjaBadBloodLeaderGear12
+    - CMUYautjaBadBloodLeaderGear13
+    - CMUYautjaBadBloodLeaderGear14
+    - CMUYautjaBadBloodLeaderGear15
+    - CMUYautjaBadBloodLeaderGear16
 
 - type: entity
   parent: BaseSpeciesDummy

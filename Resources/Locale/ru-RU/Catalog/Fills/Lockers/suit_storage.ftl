@@ -1,60 +1,80 @@
-ent-SuitStorageEVA-name = блок хранения костюма
-ent-SuitStorageEVA-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageEVA = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ЕВА
 
-ent-SuitStorageEVAAlternate-name = блок хранения костюма
-ent-SuitStorageEVAAlternate-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageEVAAlternate = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ЕВА, большой шлем
 
-ent-SuitStorageEVAEmergency-name = блок хранения костюма
-ent-SuitStorageEVAEmergency-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageEVAEmergency = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Аварийная ЕВА
 
-ent-SuitStorageEVAPrisoner-name = блок хранения костюма
-ent-SuitStorageEVAPrisoner-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageEVAPrisoner = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ЕВА заключённого
 
-ent-SuitStorageEVASyndicate-name = блок хранения костюма
-ent-SuitStorageEVASyndicate-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageEVASyndicate = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ЕВА синдиката
 
-ent-SuitStorageEVAPirate-name = блок хранения костюма
-ent-SuitStorageEVAPirate-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageEVAPirate = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ЕВА пирата
 
-ent-SuitStorageNTSRA-name = блок хранения костюма
-ent-SuitStorageNTSRA-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageNTSRA = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Древняя ЕВА
 
-ent-SuitStorageEngi-name = блок хранения костюма
-ent-SuitStorageEngi-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageEngi = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Инженер станции
 
-ent-SuitStorageAtmos-name = блок хранения костюма
-ent-SuitStorageAtmos-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageAtmos = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Атмосферный техник
 
-ent-SuitStorageSec-name = блок хранения костюма
-ent-SuitStorageSec-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageSec = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = СБ
 
-ent-SuitStorageCE-name = блок хранения костюма
-ent-SuitStorageCE-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageCE = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = СИ
 
-ent-SuitStorageCMO-name = блок хранения костюма
-ent-SuitStorageCMO-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageCMO = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ГВ
 
-ent-SuitStorageRD-name = блок хранения костюма
-ent-SuitStorageRD-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageRD = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = НР
 
-ent-SuitStorageHOS-name = блок хранения костюма
-ent-SuitStorageHOS-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageHOS = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ГСБ
 
-ent-SuitStorageWarden-name = блок хранения костюма
-ent-SuitStorageWarden-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageWarden = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Смотритель
 
-ent-SuitStorageCaptain-name = блок хранения костюма
-ent-SuitStorageCaptain-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageCaptain = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Капитан
 
-ent-SuitStorageSalv-name = блок хранения костюма
-ent-SuitStorageSalv-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageSalv = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Утилизатор
 
-ent-SuitStorageSyndie-name = блок хранения костюма
-ent-SuitStorageSyndie-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageSyndie = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Синдикат
 
-ent-SuitStoragePirateCap-name = блок хранения костюма
-ent-SuitStoragePirateCap-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStoragePirateCap = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Капитан пиратов
 
-ent-SuitStorageWizard-name = блок хранения костюма
-ent-SuitStorageWizard-desc = Модное высокотехнологичное хранилище, предназначенное для хранения скафандров.
+ent-SuitStorageWizard = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Волшебник
 

@@ -142,21 +142,12 @@ namespace Content.Server.GameTicking
             UpdateGameRules();
         }
 
-        private void OnTickerJoinLobbyEvent(Content.Shared.GameTicking.TickerJoinLobbyEvent ev, EntitySessionEventArgs args)
+        private void OnTickerJoinLobbyEvent(Content.Shared.GameTicking.TickerJoinLobbyEvent ev, EntitySessionEventArgs args) // RuMC edit
         {
-            var presetId = CurrentPreset?.ID?.ToLowerInvariant();
-            if (presetId != "forceonforce")
+            if (CurrentPreset?.RespawnEnabled != true || _auobjectivesystem.iswinactive)
             {
                 _chatManager.DispatchServerMessage(args.SenderSession, "Respawn is disabled in this gamemode");
                 return;
-            }
-
-            if (_auobjectivesystem.iswinactive)
-            {
-
-                _chatManager.DispatchServerMessage(args.SenderSession, "Respawn is disabled in this gamemode");
-                return;
-
             }
             // Send the requesting player to the lobby
             PlayerJoinLobby(args.SenderSession);

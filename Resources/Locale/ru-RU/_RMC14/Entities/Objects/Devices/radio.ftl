@@ -1,1 +1,2 @@
-ent-RMCRadioHandheldColonyBase = коротковолновое радио
+ent-RMCRadioHandheldColonyBase = армейская рация
+    .desc = Также известна как «Walkie-Talkie». Это устройство обеспечивает дальнюю связь, когда телекоммуникации недоступны.

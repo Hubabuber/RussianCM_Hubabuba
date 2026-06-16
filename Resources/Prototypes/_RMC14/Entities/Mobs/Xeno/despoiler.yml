@@ -83,7 +83,7 @@
     plasmaRegenOnWeeds: 4
   - type: XenoAcid
   - type: CMArmor
-    xenoArmor: 25
+    xenoArmor: 30
     explosionArmor: 20
   - type: XenoDevour
   - type: XenoTailStab
@@ -117,10 +117,10 @@
   - type: XenoDespoilerHypertension
     maxStacks: 4
     pointsPerStack: 200
-    pointsPerSlash: 100
+    pointsPerSlash: 200
     decayDelay: 10
-    decayPerSecond: 200
-    bonusBurnPerStack: 10
+    decayPerSecond: 120
+    bonusBurnPerStack: 20
   - type: XenoDespoilerSlashOnHit
     enhanceStacksThreshold: 3
   - type: Tackle
@@ -165,7 +165,7 @@
   - type: Flammable
     damage:
       types:
-        Heat: 3
+        Heat: 2
   - type: FixedIdentity
     name: rmc-xeno-despoiler-name
   - type: RMCActionOrder

@@ -1,3 +1,4 @@
+using Content.Shared._RMC14.Armor;
 using Content.Shared._RMC14.BlurredVision;
 using Content.Shared._RMC14.Movement;
 using Content.Shared._RMC14.Stun;
@@ -16,6 +17,7 @@ using Content.Shared.Throwing;
 using Content.Shared.Weapons.Melee.Events;
 using Content.Shared.Wieldable.Components;
 using Content.Shared.Damage.Events;
+using Content.Shared.Inventory;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
@@ -188,6 +190,9 @@ public sealed partial class RMCStaminaSystem : EntitySystem
             if (IsYautjaTaserImmune(ent.Owner, hit))
                 continue;
 
+            if (HasStaminaBlockingArmor(hit))
+                continue;
+
             if (!stamQuery.TryGetComponent(hit, out var stam))
                 continue;
 
@@ -223,6 +228,9 @@ public sealed partial class RMCStaminaSystem : EntitySystem
         if (!TryComp<RMCStaminaComponent>(target, out var stam))
             return;
 
+        if (HasStaminaBlockingArmor(target))
+            return;
+
         if (!_itemToggle.IsActivated(ent.Owner))
             return;
 
@@ -232,6 +240,24 @@ public sealed partial class RMCStaminaSystem : EntitySystem
     private bool IsYautjaTaserImmune(EntityUid source, EntityUid target)
     {
         return HasComp<YautjaComponent>(target) && _tag.HasTag(source, TaserTag);
+    }
+
+    private bool HasStaminaBlockingArmor(EntityUid target)
+    {
+        var ev = new CMGetArmorEvent(SlotFlags.OUTERCLOTHING);
+        RaiseLocalEvent(target, ref ev);
+
+        return ArmorBlocksStaminaDamage(ev);
+    }
+
+    public static bool ArmorBlocksStaminaDamage(CMGetArmorEvent ev)
+    {
+        return ev.Melee > 0 ||
+               ev.Bullet > 0 ||
+               ev.Bio > 0 ||
+               ev.FrontalArmor > 0 ||
+               ev.SideArmor > 0 ||
+               ev.ExplosionArmor > 0;
     }
 
     private void SetStaminaAlert(Entity<RMCStaminaComponent> ent)

@@ -69,6 +69,21 @@
   - predpain
 
 - type: emote
+  id: CMUYautjaDistract
+  name: cmu-yautja-emote-name-distract
+  category: Vocal
+  icon: Interface/Emotes/click.png
+  available: false
+  whitelist:
+    components:
+    - Yautja
+  chatMessages: ["cmu-yautja-emote-msg-distract"]
+  chatTriggers:
+  - yautjadistract
+  - preddistract
+  - distract
+
+- type: emote
   id: CMUYautjaDeathCry
   name: cmu-yautja-emote-name-death-cry
   category: Vocal

@@ -1,16 +1,17 @@
 [build]
-engine_version = "v264.0.2-fix-physics"
+engine_version = "v277.0.0"
 
 [game]
 defaultpreset = "ColonyFall"
 # Straight in-game baby
-lobbyenabled = false
-map = "USSBushRedux"
+# map= "USSBushRedux"
+# lobbyenabled = false
+lobbyenabled = true
 role_timers = false
 
 [rmc]
-distress_xenos_minimum = 0
-lobby_min_players = 0
+distress_xenos_minimum = 0  # stop blocking distress testing
+lobby_min_players = 1       # localhost
 
 [events]
 enabled = false
@@ -49,6 +50,7 @@ preload_grids = false
 
 [admin]
 see_own_notes = true
+
 
 [ic]
 # random_characters = true
