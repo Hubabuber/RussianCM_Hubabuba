@@ -22,10 +22,10 @@ chat-manager-server-wrap-message = [bold]{ $message }[/bold]
 chat-manager-sender-announcement = Центральное командование
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]Объявление { $sender }:[/font][font size=12]
                                                 { $message }[/bold][/font]
-chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize } ]" [BubbleContent]{ $message }[/BubbleContent]" [/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }]" [BubbleContent][bold]{ $message }[/bold][/BubbleContent]" [/font]
+chat-manager-entity-say-wrap-message =[font={ $fontType } size={ $fontSize } ]"[BubbleContent]{ $message }[/BubbleContent]" [/font]
+chat-manager-entity-say-bold-wrap-message =[font={ $fontType } size={ $fontSize }]"[BubbleContent][bold]{ $message }[/bold][/BubbleContent]" [/font]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] шепчет,"[BubbleContent]{ $message }[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][italic]шепчет,"[BubbleContent]{ $message }[/BubbleContent]"[/italic][/font]
 chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Кто-то[/BubbleHeader] шепчет, "[BubbleContent]{ $message }[/BubbleContent]"[/italic][/font]
 
 # THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
