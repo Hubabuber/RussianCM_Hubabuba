@@ -50,6 +50,19 @@ public sealed partial class RoleTestQuestionPrototype : IPrototype
     public HashSet<string> Pools = new() { RoleTestShared.CommonPool };
 }
 
+[Prototype("roleTestQuestionPool")]
+public sealed partial class RoleTestQuestionPoolPrototype : IPrototype
+{
+    [IdDataField]
+    public string ID { get; private set; } = default!;
+
+    [DataField(required: true)]
+    public ProtoId<JobPrototype> Job;
+
+    [DataField(required: true)]
+    public string Pool = string.Empty;
+}
+
 public enum RoleTestResponsibility : byte
 {
     Low,
@@ -137,6 +150,26 @@ public static class RoleTestShared
             RoleTestResponsibility.High => 10,
             _ => 2,
         };
+    }
+
+    public static int GetRequiredCommonQuestionCount(RoleTestResponsibility responsibility)
+    {
+        return responsibility switch
+        {
+            RoleTestResponsibility.Low => 4,
+            RoleTestResponsibility.Medium => 10,
+            RoleTestResponsibility.High => 20,
+            _ => 4,
+        };
+    }
+
+    public static int GetRequiredRoleQuestionCount(RoleTestResponsibility responsibility, bool requiresLaw)
+    {
+        var questionCount = GetQuestionCount(responsibility);
+        var commonCount = GetRequiredCommonQuestionCount(responsibility);
+        var lawCount = requiresLaw ? GetRequiredLawQuestionCount(responsibility) : 0;
+
+        return Math.Max(0, questionCount - commonCount - lawCount);
     }
 
     public static bool IsMilitaryJob(JobPrototype job)

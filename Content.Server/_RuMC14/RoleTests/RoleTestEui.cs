@@ -93,10 +93,16 @@ public sealed class RoleTestEui : BaseEui
         var allQuestions = GetQuestions(test);
         if (!CanStart(test, allQuestions))
         {
-            _message = Loc.GetString(
-                "role-test-not-enough-questions",
-                ("available", GetAvailableQuestions(test, allQuestions).Count),
-                ("required", test.QuestionCount));
+            _message = TryGetMissingQuestionPool(test, allQuestions, out var pool, out var available, out var required)
+                ? Loc.GetString(
+                    "role-test-not-enough-pool-questions",
+                    ("pool", pool),
+                    ("available", available),
+                    ("required", required))
+                : Loc.GetString(
+                    "role-test-not-enough-questions",
+                    ("available", GetAvailableQuestions(test, allQuestions).Count),
+                    ("required", test.QuestionCount));
             StateDirty();
             return;
         }
@@ -153,13 +159,32 @@ public sealed class RoleTestEui : BaseEui
 
     private bool CanStart(RoleTestDefinition test, List<TestQuestion> questions)
     {
-        foreach (var (pool, count) in test.RequiredPools)
+        return !TryGetMissingQuestionPool(test, questions, out _, out _, out _);
+    }
+
+    private bool TryGetMissingQuestionPool(
+        RoleTestDefinition test,
+        List<TestQuestion> questions,
+        out string pool,
+        out int available,
+        out int required)
+    {
+        foreach (var (requiredPool, count) in test.RequiredPools)
         {
-            if (questions.Count(question => question.Pools.Contains(pool)) < count)
-                return false;
+            var poolQuestions = questions.Count(question => question.Pools.Contains(requiredPool));
+            if (poolQuestions >= count)
+                continue;
+
+            pool = requiredPool;
+            available = poolQuestions;
+            required = count;
+            return true;
         }
 
-        return GetAvailableQuestions(test, questions).Count >= test.QuestionCount;
+        pool = Loc.GetString("role-test-pool-total");
+        available = GetAvailableQuestions(test, questions).Count;
+        required = test.QuestionCount;
+        return available < required;
     }
 
     private List<TestQuestion> GetAvailableQuestions(
@@ -222,11 +247,8 @@ public sealed class RoleTestEui : BaseEui
 
     private IEnumerable<RoleTestDefinition> EnumerateRoleTests()
     {
-        foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
+        foreach (var job in EnumeratePersonalizationJobs())
         {
-            if (!job.SetPreference || job.Hidden || RoleTestShared.IsRoleTestExempt(job))
-                continue;
-
             yield return CreateJobRoleTest(job);
         }
     }
@@ -235,7 +257,7 @@ public sealed class RoleTestEui : BaseEui
     {
         if (RoleTestShared.TryGetJobId(testId, out var jobId) &&
             _prototypes.TryIndex<JobPrototype>(jobId, out var job) &&
-            !RoleTestShared.IsRoleTestExempt(job))
+            IsPersonalizationJob(job))
         {
             return CreateJobRoleTest(job);
         }
@@ -243,12 +265,49 @@ public sealed class RoleTestEui : BaseEui
         return null;
     }
 
+    private IEnumerable<JobPrototype> EnumeratePersonalizationJobs()
+    {
+        var seen = new HashSet<string>();
+        foreach (var department in _prototypes.EnumeratePrototypes<DepartmentPrototype>())
+        {
+            if (department.EditorHidden)
+                continue;
+
+            foreach (var jobId in department.Roles)
+            {
+                if (!seen.Add(jobId.Id) || !_prototypes.TryIndex(jobId, out var job))
+                    continue;
+
+                if (!IsPersonalizationJob(job))
+                    continue;
+
+                yield return job;
+            }
+        }
+    }
+
+    private static bool IsPersonalizationJob(JobPrototype job)
+    {
+        return job.SetPreference &&
+               !job.Hidden &&
+               !RoleTestShared.IsRoleTestExempt(job);
+    }
+
     private RoleTestDefinition CreateJobRoleTest(JobPrototype job)
     {
         var responsibility = RoleTestShared.GetResponsibility(job);
         var requiresLaw = RoleTestShared.RequiresLaw(job);
-        var questionPools = new HashSet<string> { RoleTestShared.GetJobQuestionPool(job.ID) };
-        var requiredPools = new Dictionary<string, int>();
+        var rolePool = GetRoleQuestionPool(job);
+        var questionPools = new HashSet<string>
+        {
+            RoleTestShared.CommonPool,
+            rolePool,
+        };
+        var requiredPools = new Dictionary<string, int>
+        {
+            [RoleTestShared.CommonPool] = RoleTestShared.GetRequiredCommonQuestionCount(responsibility),
+            [rolePool] = RoleTestShared.GetRequiredRoleQuestionCount(responsibility, requiresLaw),
+        };
 
         if (requiresLaw)
         {
@@ -264,13 +323,12 @@ public sealed class RoleTestEui : BaseEui
             RoleTestShared.GetQuestionCount(responsibility),
             questionPools,
             requiredPools,
-            requiresLaw,
-            job);
+            requiresLaw);
     }
 
     private List<TestQuestion> GetQuestions(RoleTestDefinition test)
     {
-        var questions = _prototypes.EnumeratePrototypes<RoleTestQuestionPrototype>()
+        return _prototypes.EnumeratePrototypes<RoleTestQuestionPrototype>()
             .Select(question => new TestQuestion(
                 question.ID,
                 question.Text,
@@ -279,118 +337,13 @@ public sealed class RoleTestEui : BaseEui
                 question.Pools))
             .Where(question => question.Pools.Overlaps(test.QuestionPools))
             .ToList();
-
-        if (test.Job != null)
-            questions.AddRange(CreateGeneratedJobQuestions(test.Job, test));
-
-        return questions;
     }
 
-    private List<TestQuestion> CreateGeneratedJobQuestions(JobPrototype job, RoleTestDefinition test)
+    private string GetRoleQuestionPool(JobPrototype job)
     {
-        var role = job.LocalizedName;
-        var supervisors = Loc.GetString(job.Supervisors);
-        var description = string.IsNullOrWhiteSpace(job.LocalizedDescription)
-            ? Loc.GetString("role-test-generated-duty-generic", ("role", role))
-            : job.LocalizedDescription;
-        var pool = RoleTestShared.GetJobQuestionPool(job.ID);
-        var questions = new List<TestQuestion>();
-
-        AddGeneratedQuestion(
-            questions,
-            job,
-            pool,
-            "role-test-generated-role-name-question",
-            role,
-            role,
-            Loc.GetString("role-test-generated-wrong-random-role"),
-            Loc.GetString("role-test-generated-wrong-command"),
-            Loc.GetString("role-test-generated-wrong-antag"));
-
-        AddGeneratedQuestion(
-            questions,
-            job,
-            pool,
-            "role-test-generated-supervisor-question",
-            supervisors,
-            supervisors,
-            Loc.GetString("role-test-generated-wrong-no-supervisor"),
-            Loc.GetString("role-test-generated-wrong-self-command"),
-            Loc.GetString("role-test-generated-wrong-anyone"));
-
-        AddGeneratedQuestion(
-            questions,
-            job,
-            pool,
-            "role-test-generated-duty-question",
-            description,
-            description,
-            Loc.GetString("role-test-generated-wrong-ignore-duty"),
-            Loc.GetString("role-test-generated-wrong-leave-role"),
-            Loc.GetString("role-test-generated-wrong-disrupt"));
-
-        var templates = new[]
-        {
-            "role-test-generated-ask-question",
-            "role-test-generated-roundstart-question",
-            "role-test-generated-unknown-mechanic-question",
-            "role-test-generated-teamwork-question",
-            "role-test-generated-escalation-question",
-            "role-test-generated-equipment-question",
-            "role-test-generated-communication-question",
-            "role-test-generated-priority-question",
-            "role-test-generated-orders-question",
-            "role-test-generated-emergency-question",
-        };
-
-        var correct = new[]
-        {
-            "role-test-generated-correct-ask",
-            "role-test-generated-correct-roundstart",
-            "role-test-generated-correct-unknown-mechanic",
-            "role-test-generated-correct-teamwork",
-            "role-test-generated-correct-escalation",
-            "role-test-generated-correct-equipment",
-            "role-test-generated-correct-communication",
-            "role-test-generated-correct-priority",
-            "role-test-generated-correct-orders",
-            "role-test-generated-correct-emergency",
-        };
-
-        for (var i = 0; questions.Count < test.QuestionCount; i++)
-        {
-            var template = templates[i % templates.Length];
-            var correctKey = correct[i % correct.Length];
-            AddGeneratedQuestion(
-                questions,
-                job,
-                pool,
-                template,
-                Loc.GetString(correctKey, ("role", role)),
-                Loc.GetString(correctKey, ("role", role)),
-                Loc.GetString("role-test-generated-wrong-ignore-duty"),
-                Loc.GetString("role-test-generated-wrong-leave-role"),
-                Loc.GetString("role-test-generated-wrong-disrupt"));
-        }
-
-        return questions;
-    }
-
-    private void AddGeneratedQuestion(
-        List<TestQuestion> questions,
-        JobPrototype job,
-        string pool,
-        string questionKey,
-        string correct,
-        params string[] answers)
-    {
-        var id = $"{RoleTestShared.GetJobTestId(job.ID)}:{questions.Count}";
-        questions.Add(new TestQuestion(
-            id,
-            Loc.GetString(questionKey, ("role", job.LocalizedName)),
-            answers.ToList(),
-            0,
-            new HashSet<string> { pool }));
+        return _prototypes.TryIndex<RoleTestQuestionPoolPrototype>(job.ID, out var pool)
+            ? pool.Pool
+            : RoleTestShared.GetJobQuestionPool(job.ID);
     }
 
     private sealed record RoleTestDefinition(
@@ -401,8 +354,7 @@ public sealed class RoleTestEui : BaseEui
         int QuestionCount,
         HashSet<string> QuestionPools,
         Dictionary<string, int> RequiredPools,
-        bool RequiresLaw,
-        JobPrototype? Job);
+        bool RequiresLaw);
 
     private sealed record TestQuestion(
         string ID,
