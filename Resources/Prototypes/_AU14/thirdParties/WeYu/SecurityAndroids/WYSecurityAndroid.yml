@@ -14,21 +14,6 @@
   - auwy
 
 - type: job
-  abstract: true
-  parent: AU14JobSecurityAndroidBase
-  id: AU14JobWYSMGSecurityAndroidBase
-  icon: "AU14JobIconWYAndroid"
-  spawnMenuRoleName: Security Android (WY, M39B2)
-  supervisors: au14-job-supervisors-wy
-  dummyStartingGear: AU14GearWYSMGSecurityAndroid
-  usePlayerProfile: false
-  jobEntity: AU14MobSecurityAndroid
-  accessGroups:
-  - AU14GovforCommand
-  - AUPrisonStaff
-  - auwy
-
-- type: job
   parent: AU14JobWYSecurityAndroidBase
   id: AU14JobWYSecurityAndroid
   requirements:
@@ -77,55 +62,6 @@
     - type: Loadout
       prototypes: [ AU14GearWYSecurityAndroid ]
 
-- type: job
-  parent: AU14JobWYSMGSecurityAndroidBase
-  id: AU14JobWYSMGSecurityAndroid
-  requirements:
-  - !type:RoleTimeRequirement
-    role: AU14JobGOVFORSquadCombatTech
-    time: 3600 # 1 hour
-  - !type:TraitsRequirement
-    inverted: true
-    traits:
-    - SocialAnxietyHeavy
-    - FrontalLisp
-    - NonResuscitable
-    - Epilepsy
-  special:
-  - !type:AddComponentSpecial
-    components:
-    - type: UserIFF
-      factions:
-      - GOVFOR
-    - type: IntrinsicRadioTransmitter
-      channels:
-      - radioAI
-      - radioGovforCommand
-      - radioGovforJTAC
-      - radioGovforAlpha
-      - radioGovforCharlie
-      - radioGovforBravo
-      - radioGovforIntel
-      - radioGovforMILP
-    - type: ActiveRadio
-      channels:
-      - radioAI
-      - radioGovforCommand
-      - radioGovforJTAC
-      - radioGovforAlpha
-      - radioGovforCharlie
-      - radioGovforBravo
-      - radioGovforIntel
-      - radioGovforMILP
-    - type: Tag
-      tags:
-      - WorkingJoe
-      - CanPilot
-      - FootstepSound
-      - DoorBumpOpener
-    - type: Loadout
-      prototypes: [ AU14GearWYSMGSecurityAndroid ]
-
 - type: startingGear
   parent: AU14GearSecurityAndroidBase
   id: AU14GearWYSecurityAndroid
@@ -162,23 +98,6 @@
       - CMMagazineRifleM54CAP
       - CMMagazineRifleM54CAP
 
-- type: startingGear
-  parent: AU14GearWYSecurityAndroid
-  id: AU14GearWYSMGSecurityAndroid
-  equipment:
-    suitstorage: RMCWeaponSMGM63B2
-  storage:
-      pocket1:
-      - CMMagazineSMGM63AP
-      - CMMagazineSMGM63AP
-      - CMMagazineSMGM63AP
-      - CMMagazineSMGM63AP
-      pocket2:
-      - CMMagazineSMGM63AP
-      - CMMagazineSMGM63AP
-      - CMMagazineSMGM63AP
-      - CMMagazineSMGM63AP
-
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointWYAndroid
@@ -186,15 +105,5 @@
   components:
   - type: SpawnPoint
     job_id: AU14JobWYSecurityAndroid
-  - type: Sprite
-    state: syn_spawn
-
-  - type: entity
-  parent: CMSpawnPointJobBase
-  id: AU14SpawnPointWYSMGAndroid
-  name: Spawn Point wy smg android
-  components:
-  - type: SpawnPoint
-    job_id: AU14JobWYSMGSecurityAndroid
   - type: Sprite
     state: syn_spawn
