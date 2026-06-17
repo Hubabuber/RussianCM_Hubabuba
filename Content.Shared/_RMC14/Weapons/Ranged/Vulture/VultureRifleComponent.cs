@@ -12,7 +12,7 @@ public sealed partial class VultureRifleComponent : Component
     {
         DamageDict =
         {
-            ["Blunt"] = 15,
+            ["Blunt"] = 95,
         },
     };
 

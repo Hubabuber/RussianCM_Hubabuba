@@ -15,9 +15,7 @@
     regen: 2
     stabilisingCrystalCost: 250
     humanStabilisingCrystalCost: 250
-    healingCapsuleCost: 350
     stabilisingCrystalCooldown: 60
-    healingCapsuleCooldown: 90
     huntingTrapCost: 200
     huntingTrapCooldown: 60
   - type: YautjaGearContainer
@@ -33,6 +31,53 @@
         type: YautjaTranslatorBui
       enum.DialogUiKey.Key:
         type: DialogBui
+
+- type: entity
+  parent: CMUYautjaBracer
+  id: CMUYautjaBadBloodBracer
+  name: scavenged hunting bracer
+  description: A worn hunting bracer, crudely maintained. Its weapon bay has been damaged. A communicator has been wired directly into the bracer.
+  components:
+  - type: YautjaBadBloodGearChoice
+  - type: YautjaBracer
+    enableRecall: false
+    cloakDuration: 20
+    cloakCooldown: 20
+    cloakWarningBefore: 5
+    cloakWarningSound:
+      collection: CMUYautjaCloakWarning
+  - type: ContainerContainer
+    containers:
+      key_slots: !type:Container
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMUYautjaEncryptionKey
+  - type: Headset
+    requiredSlot: GLOVES
+  - type: EncryptionKeyHolder
+    keySlots: 1
+  - type: YautjaGearContainer
+    gearPrototypes:
+      Caster: CMUYautjaBadBloodPlasmaCaster
+      WristBlades: CMUYautjaWristBlades
+      Scimitar: CMUYautjaScimitar
+      Shield: CMUYautjaBracerShield
+      ChainGauntlet: CMUYautjaChainGauntlet
+  - type: UserInterface
+    interfaces:
+      enum.YautjaBracerUIKey.Key:
+        type: YautjaBracerBui
+      enum.YautjaMarkUIKey.Key:
+        type: YautjaMarkBui
+      enum.YautjaThrallMessageUIKey.Key:
+        type: YautjaThrallMessageBui
+      enum.YautjaTranslatorUIKey.Key:
+        type: YautjaTranslatorBui
+      enum.DialogUiKey.Key:
+        type: DialogBui
+      enum.YautjaBadBloodWeaponChoiceUI.Key:
+        type: YautjaBadBloodWeaponChoiceBui
 
 - type: entity
   parent: CMHandsBlackMarine
@@ -168,6 +213,42 @@
   - type: YautjaBracerIdChip
 
 - type: entity
+  parent: BaseItem
+  id: CMUYautjaHealthShard
+  name: health shard
+  description: A crystalline shard pulsing with restorative energy. Split it with both hands free to activate, then plunge both halves into yourself for a burst of healing and a sustained chemical treatment.
+  components:
+  - type: Sprite
+    sprite: _CMU14/Yautja/health_shard.rsi
+    state: shard_icon
+  - type: Item
+    sprite: _CMU14/Yautja/health_shard.rsi
+    heldPrefix: shard_inhand
+    size: Small
+  - type: YautjaHealthShard
+  - type: YautjaTechItem
+    blockPickup: false
+    blockUse: false
+    blockMelee: false
+    blockThrow: false
+
+- type: entity
+  parent: BaseItem
+  id: CMUYautjaHealthShardHalf
+  name: health shard half
+  description: One half of a split health shard. Use on yourself to plunge it in for immediate healing and a chemical boost.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _CMU14/Yautja/health_shard.rsi
+    state: shard_icon_twohand
+  - type: Item
+    sprite: _CMU14/Yautja/health_shard.rsi
+    heldPrefix: shard_inhand
+    size: Tiny
+  - type: YautjaHealthShardHalf
+
+- type: entity
   parent: ShardCrystalGreen
   id: CMUYautjaStabilisingCrystal
   name: stabilising crystal
@@ -280,9 +361,9 @@
     - HeadTop
     - HeadSide
     cloakSound:
-      path: /Audio/_CMU14/Yautja/pred_cloakon.wav
+      path: /Audio/_CMU14/Yautja/Equipment/pred_cloakon.wav
     uncloakSound:
-      path: /Audio/_CMU14/Yautja/pred_cloakoff.wav
+      path: /Audio/_CMU14/Yautja/Equipment/pred_cloakoff.wav
   - type: Storage
     maxItemSize: Large
     grid:
@@ -291,6 +372,24 @@
     items:
       tags:
       - CMUYautjaToolbelt
+
+- type: entity
+  parent: CMUYautjaCloakPack
+  id: CMUYautjaBadBloodCloakPack
+  name: ceremonial cloaking harness
+  description: A ceremonial cape fitted with a compact cloaking field generator.
+  components:
+  - type: Sprite
+    sprite: _CMU14/Yautja/cape_ceremonial.rsi
+    state: icon
+  - type: Item
+    sprite: _CMU14/Yautja/cape_ceremonial.rsi
+    size: Large
+  - type: Clothing
+    sprite: _CMU14/Yautja/cape_ceremonial.rsi
+    quickEquip: false
+    slots:
+    - back
 
 - type: entity
   parent: BaseItem
@@ -319,9 +418,9 @@
   - type: ItemToggle
     predictable: false
     soundActivate:
-      path: /Audio/_CMU14/Yautja/pred_attach.wav
+      path: /Audio/_CMU14/Yautja/Equipment/pred_attach.wav
     soundDeactivate:
-      path: /Audio/_CMU14/Yautja/pred_attach.wav
+      path: /Audio/_CMU14/Yautja/Equipment/pred_attach.wav
     soundFailToActivate:
       path: /Audio/Machines/button.ogg
   - type: YautjaSmartDisc
@@ -409,23 +508,47 @@
       projectile: CMUYautjaCasterStunBolt
       powerCost: 30
       fireSound:
-        path: /Audio/_CMU14/Yautja/pred_plasmacaster_fire.wav
+        path: /Audio/_CMU14/Yautja/Weapons/Plasma/pred_plasmacaster_fire.wav
     - name: cmu-yautja-caster-mode-immobilizer
       projectile: CMUYautjaCasterImmobilizerBolt
       powerCost: 150
       fireSound:
-        path: /Audio/_CMU14/Yautja/pulse.wav
+        path: /Audio/_CMU14/Yautja/Weapons/Plasma/pulse.wav
     - name: cmu-yautja-caster-mode-lethal
       projectile: CMUYautjaCasterLethalBolt
       powerCost: 100
       fireSound:
-        path: /Audio/_CMU14/Yautja/pred_lasercannon.wav
+        path: /Audio/_CMU14/Yautja/Weapons/Plasma/pred_lasercannon.wav
     - name: cmu-yautja-caster-mode-eradicator
       projectile: CMUYautjaCasterEradicatorBolt
       powerCost: 1000
       fireSound:
-        path: /Audio/_CMU14/Yautja/pulse.wav
+        path: /Audio/_CMU14/Yautja/Weapons/Plasma/pulse.wav
   - type: Appearance
+
+- type: entity
+  parent: CMUYautjaPlasmaCaster
+  id: CMUYautjaBadBloodPlasmaCaster
+  name: damaged plasma caster
+  description: A battered shoulder plasma caster. Its capacitors are failing, requiring time to recharge between shots.
+  components:
+  - type: YautjaCaster
+    powerCost: 30
+    cooldownSound:
+      path: /Audio/_CMU14/Yautja/Weapons/Plasma/plasma_caster_no_energy_01.wav
+    modes:
+    - name: cmu-yautja-caster-mode-stun
+      projectile: CMUYautjaCasterStunBolt
+      powerCost: 30
+      cooldown: 10
+      fireSound:
+        path: /Audio/_CMU14/Yautja/Weapons/Plasma/pred_plasmacaster_fire.wav
+    - name: cmu-yautja-caster-mode-lethal
+      projectile: CMUYautjaCasterLethalBolt
+      powerCost: 100
+      cooldown: 20
+      fireSound:
+        path: /Audio/_CMU14/Yautja/Weapons/Plasma/pred_lasercannon.wav
 
 - type: entity
   parent: [ BaseItem, RMCBaseMeleeWeapon ]
@@ -451,7 +574,11 @@
         Slash: 31
         Piercing: 5
     soundHit:
-      path: /Audio/_CMU14/Yautja/wristblades_hit.wav
+      collection: CMUYautjaWristBladesHit
+    soundSwing:
+      collection: CMUYautjaWristBladesMiss
+    soundHitNonLiving:
+      collection: CMUYautjaWristBladesHitDirt
   - type: MeleeDamageMultiplier
     multiplier: 0
     whitelist:
@@ -500,7 +627,11 @@
         Slash: 37
         Piercing: 7
     soundHit:
-      path: /Audio/_CMU14/Yautja/wristblades_hit.wav
+      collection: CMUYautjaSwordHit
+    soundSwing:
+      collection: CMUYautjaSwordMiss
+    soundHitNonLiving:
+      collection: CMUYautjaSwordHitDirt
   - type: MeleeDamageMultiplier
     multiplier: 0
     whitelist:
@@ -581,7 +712,7 @@
     blockMelee: false
   - type: Blocking
     blockSound: !type:SoundPathSpecifier
-      path: /Audio/_CMU14/Yautja/parry.wav
+      path: /Audio/_CMU14/Yautja/Weapons/Melee/parry.wav
     passiveBlockModifier:
       coefficients:
         Blunt: 0.8
@@ -889,8 +1020,10 @@
     - id: CMUYautjaWoundClamp
       amount: 2
     - id: CMUYautjaAlienHealthAnalyzer
-    - id: CMUYautjaAutoInjector
+    - id: CMUYautjaHealthShard
       amount: 6
+    - id: CMUYautjaStabilisingCrystal
+      amount: 2
     - id: CMUYautjaHealingGel
       amount: 6
     - id: CMUYautjaHerbalCase

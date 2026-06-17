@@ -14,89 +14,89 @@ public sealed partial class HardpointSystem
         string Instruction,
         bool RequiresWelder = false);
 
-    private static readonly VehicleHardpointFailureRepairStep[] ArmorCompromisedRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] ArmorCompromisedRepairSteps = // RuMC edit
     {
-        new("Anchoring", 4f, "Tighten the armor fasteners and clamp the plate into alignment."),
-        new("Welding", 8f, "Weld and patch the breached armor seams.", true),
+        new("Anchoring", 4f, "rmc-hardpoint-repair-armor-compromised-1"),
+        new("Welding", 8f, "rmc-hardpoint-repair-armor-compromised-2", true),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] FeedJamRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] FeedJamRepairSteps = // RuMC edit
     {
-        new("Screwing", 4f, "Open the feed cover and clear bent belt links."),
-        new("Pulsing", 5f, "Cycle the feed actuator with a multitool."),
+        new("Screwing", 4f, "rmc-hardpoint-repair-feed-jam-1"),
+        new("Pulsing", 5f, "rmc-hardpoint-repair-feed-jam-2"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] RunawayTriggerRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] RunawayTriggerRepairSteps = // RuMC edit
     {
-        new("Screwing", 5f, "Open the trigger housing and isolate the worn sear linkage."),
-        new("Pulsing", 6f, "Reset the fire-control relay with a multitool."),
-        new("Anchoring", 5f, "Re-seat and tighten the trigger linkage."),
+        new("Screwing", 5f, "rmc-hardpoint-repair-runaway-trigger-1"),
+        new("Pulsing", 6f, "rmc-hardpoint-repair-runaway-trigger-2"),
+        new("Anchoring", 5f, "rmc-hardpoint-repair-runaway-trigger-3"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] TurretTraverseRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] TurretTraverseRepairSteps = // RuMC edit
     {
-        new("Anchoring", 6f, "Tighten and re-index the traverse ring."),
-        new("VehicleServicing", 5f, "Jack the turret bearing clear and re-seat the ring."),
+        new("Anchoring", 6f, "rmc-hardpoint-repair-turret-traverse-1"),
+        new("VehicleServicing", 5f, "rmc-hardpoint-repair-turret-traverse-2"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] EngineMisfireRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] EngineMisfireRepairSteps = // RuMC edit
     {
-        new("Screwing", 4f, "Open the engine access panel."),
-        new("Pulsing", 6f, "Pulse the ignition control circuit with a multitool."),
-        new("Anchoring", 4f, "Tighten the engine mounts after the circuit stabilizes."),
+        new("Screwing", 4f, "rmc-hardpoint-repair-engine-misfire-1"),
+        new("Pulsing", 6f, "rmc-hardpoint-repair-engine-misfire-2"),
+        new("Anchoring", 4f, "rmc-hardpoint-repair-engine-misfire-3"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] TransmissionSlipRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] TransmissionSlipRepairSteps = // RuMC edit
     {
-        new("VehicleServicing", 7f, "Lift and re-seat the drivetrain with a maintenance jack."),
-        new("Anchoring", 5f, "Tighten the transmission housing bolts."),
+        new("VehicleServicing", 7f, "rmc-hardpoint-repair-transmission-slip-1"),
+        new("Anchoring", 5f, "rmc-hardpoint-repair-transmission-slip-2"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] WarpedFrameRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] WarpedFrameRepairSteps = // RuMC edit
     {
-        new("VehicleServicing", 8f, "Jack the frame and relieve pressure from the warped section."),
-        new("Welding", 12f, "Heat and straighten the warped frame members with a welder.", true),
-        new("Anchoring", 6f, "Re-torque the frame braces."),
+        new("VehicleServicing", 8f, "rmc-hardpoint-repair-warped-frame-1"),
+        new("Welding", 12f, "rmc-hardpoint-repair-warped-frame-2", true),
+        new("Anchoring", 6f, "rmc-hardpoint-repair-warped-frame-3"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] DamagedMountRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] DamagedMountRepairSteps = // RuMC edit
     {
-        new("VehicleServicing", 6f, "Jack the hardpoint clear of the damaged mount."),
-        new("Anchoring", 6f, "Re-seat and tighten the mount locking hardware."),
+        new("VehicleServicing", 6f, "rmc-hardpoint-repair-damaged-mount-1"),
+        new("Anchoring", 6f, "rmc-hardpoint-repair-damaged-mount-2"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] TireBlowoutRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] TireBlowoutRepairSteps = // RuMC edit
     {
-        new("Prying", 5f, "Pry the shredded tire casing clear of the rim."),
-        new("VehicleServicing", 6f, "Jack the hub up and seat a replacement wheel assembly."),
-        new("Anchoring", 5f, "Torque the wheel lugs down in sequence."),
+        new("Prying", 5f, "rmc-hardpoint-repair-tire-blowout-1"),
+        new("VehicleServicing", 6f, "rmc-hardpoint-repair-tire-blowout-2"),
+        new("Anchoring", 5f, "rmc-hardpoint-repair-tire-blowout-3"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] ThrownTreadRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] ThrownTreadRepairSteps = // RuMC edit
     {
-        new("VehicleServicing", 8f, "Jack the running gear up and take tension off the tread."),
-        new("Prying", 6f, "Pry the thrown tread links back onto the road wheels."),
-        new("Anchoring", 8f, "Lock the tensioner and torque the tread pins."),
+        new("VehicleServicing", 8f, "rmc-hardpoint-repair-thrown-tread-1"),
+        new("Prying", 6f, "rmc-hardpoint-repair-thrown-tread-2"),
+        new("Anchoring", 8f, "rmc-hardpoint-repair-thrown-tread-3"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] EngineOverheatRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] EngineOverheatRepairSteps = // RuMC edit
     {
-        new("Screwing", 4f, "Open the engine shroud and vent trapped heat."),
-        new("Prying", 5f, "Pry the warped fan guard away from the radiator."),
-        new("Pulsing", 6f, "Pulse the coolant pump controller until flow stabilizes."),
+        new("Screwing", 4f, "rmc-hardpoint-repair-engine-overheat-1"),
+        new("Prying", 5f, "rmc-hardpoint-repair-engine-overheat-2"),
+        new("Pulsing", 6f, "rmc-hardpoint-repair-engine-overheat-3"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] ElectricalShortRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] ElectricalShortRepairSteps = // RuMC edit
     {
-        new("Cutting", 5f, "Cut away the burned wiring from the hardpoint harness."),
-        new("Pulsing", 6f, "Trace and reset the control circuit with a multitool."),
-        new("Screwing", 4f, "Close the access panel and secure the replacement harness."),
+        new("Cutting", 5f, "rmc-hardpoint-repair-electrical-short-1"),
+        new("Pulsing", 6f, "rmc-hardpoint-repair-electrical-short-2"),
+        new("Screwing", 4f, "rmc-hardpoint-repair-electrical-short-3"),
     };
 
-    private static readonly VehicleHardpointFailureRepairStep[] FuelLeakRepairSteps =
+    private static readonly VehicleHardpointFailureRepairStep[] FuelLeakRepairSteps = // RuMC edit
     {
-        new("Screwing", 4f, "Open the fuel service panel and isolate the ruptured line."),
-        new("Welding", 7f, "Patch the leaking fuel line.", true),
-        new("Anchoring", 4f, "Tighten the fuel line coupling."),
+        new("Screwing", 4f, "rmc-hardpoint-repair-fuel-leak-1"),
+        new("Welding", 7f, "rmc-hardpoint-repair-fuel-leak-2", true),
+        new("Anchoring", 4f, "rmc-hardpoint-repair-fuel-leak-3"),
     };
 }

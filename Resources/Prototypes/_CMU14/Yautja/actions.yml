@@ -136,20 +136,6 @@
 
 - type: entity
   parent: CMUYautjaActionBase
-  id: CMUActionYautjaCreateHealingCapsule
-  components:
-  - type: Action
-    icon:
-      sprite: _RMC14/Objects/Medical/emergency_auto_injector.rsi
-      state: autoinjector
-    useDelay: 1
-  - type: InstantAction
-    event: !type:Content.Shared._CMU14.Yautja.YautjaCreateHealingCapsuleActionEvent
-  - type: YautjaPowerAction
-    cost: 0
-
-- type: entity
-  parent: CMUYautjaActionBase
   id: CMUActionYautjaCreateHuntingTrap
   components:
   - type: Action
@@ -398,6 +384,16 @@
     useDelay: 5
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Yautja.YautjaVoicePainActionEvent
+
+- type: entity
+  parent: CMUYautjaActionBase
+  id: CMUActionYautjaVoiceDistract
+  components:
+  - type: Action
+    icon: Interface/Emotes/click.png
+    useDelay: 5
+  - type: InstantAction
+    event: !type:Content.Shared._CMU14.Yautja.YautjaVoiceDistractActionEvent
 
 - type: entity
   parent: CMUYautjaActionBase

@@ -126,7 +126,7 @@ public abstract partial class SharedScopeSystem : EntitySystem
 
         args.Handled = true;
 
-        if (_net.IsClient)
+        if (_net.IsClient && scope.Comp.Attachment)
             return;
 
         if (scope.Comp.CurrentZoomLevel >= scope.Comp.ZoomLevels.Count - 1)

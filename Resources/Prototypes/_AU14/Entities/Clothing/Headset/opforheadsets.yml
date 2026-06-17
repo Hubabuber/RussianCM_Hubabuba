@@ -184,3 +184,36 @@
   - type: RMCStaticDefaultChannel
   - type: EncryptionKeyHolder
     defaultChannel: radioOpforCommand
+
+- type: entity
+  parent: RMCBaseUniformAccessory
+  id: AU14OPFORIOHeadset
+  name: OPFOR Intel earpiece
+  description: A small, concealable earpiece used by Intelligence operatives. Virtually invisible when worn, it clips discreetly onto a uniform, this one has a built in camera for remote viewing.
+  suffix: OPFOR, IO
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/headsets.rsi
+    state: cmb_headset
+  - type: UniformAccessory
+    hidden: true
+    #viewerWhitelist:
+    #  components:
+    #  - CLFMember
+    category: Utility
+    limit: 1
+    playerSprite:
+      sprite: _RMC14/Objects/Medals/bronze.rsi
+      state: equipped
+  - type: OverwatchCamera
+  - type: AccessoryHeadset
+    channels:
+    - Colony
+    - radioOpforAlpha
+    - radioOpforCharlie
+    - radioOpforBravo
+    - radioOpforCommand
+    - radioOpforIntel
+    - radioOpforJTAC
+    - radioOpforMILP
+    defaultChannel: radioOpforIntel

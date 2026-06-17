@@ -5,9 +5,10 @@
   name: au14-preset-forceonforce-title
   showInVote: true
   description: au14-preset-forceonforce-description
-  minPlayers: 125
+  minPlayers: 100 # RuMC
   requiresOpforVote: true
   requiresGovforVote: true
+  respawnEnabled: false # RuMC
   supportedPlanets:
   #- AUPlanetGixensCaverns Rout of rotation till fixed - eg
   #- AUPlanetShepherdsPride
@@ -19,6 +20,8 @@
   - AUPlanetStableGarrison
   - AUPlanetTrijent
   - CMUPlanetLament
+  - CMUPlanetHopesRetreat
+  
   rules:
   - AuVoteRule
   - PlatoonSpawn
@@ -43,6 +46,8 @@
     #- AUPlanetLV747
     - AUPlanetSorokyne
     - AuPlanetChances
+    - CMUPlanetHopesRetreat
+
   rules:
   - AuVoteRule
   - PlatoonSpawn
@@ -59,6 +64,7 @@
   requiresGovforVote: true
   supportedPlanets:
 #  - AUPlanetLV747
+#  - AUPlanetShepherdsPride
   - AUPlanetSorokyne
   - AUPlanetCorsatStation
   - AUPlanetTrijent
@@ -67,6 +73,8 @@
   - AuPlanetShivasSnowball
   - AUPlanetLV327
   - AuPlanetChances
+  - CMUPlanetHopesRetreat
+
   rules:
   - AuVoteRule
   - PlatoonSpawn
@@ -91,6 +99,8 @@
     - CMUPlanetLament
     - AUPlanetSorokyne
     - AuPlanetChances
+    - CMUPlanetHopesRetreat
+
 
 
 - type: gamePreset

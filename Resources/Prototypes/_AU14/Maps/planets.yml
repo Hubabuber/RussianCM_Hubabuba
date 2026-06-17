@@ -33,7 +33,7 @@
     - XenoThreatCF
     - wendigoThreat
     - abominationsThreatDistress
-    - badBloodClanThreat
+#    - badBloodClanThreat
     thirdparties:
     - WEYUSurvLarge
     - WEYUSurvMedium
@@ -97,9 +97,13 @@
     - USCM
     - WEYU
     - RMC
+    - UPP
+    - HAZOPS
+    - VAIPO
+    - ProdigySF
     defaultgovfor: USCM
     defaultopfor: UPP
-    govforinship: false
+    govforinship: true
     opforinship: true
     daycycleenabled: true
     thirdparties:
@@ -144,6 +148,7 @@
     - wendigoThreat
     - abominationsThreat
     - abominationsThreatDistress
+    - badBloodClanThreat
     # Shepherds' Pride exposes CWPS Ranger as its map-specific LEO role.
     joboverrides:
       AU14JobLEOLeaderBase: AU14JobCivilianCWPSRanger
@@ -604,7 +609,7 @@
     - wendigoThreat
     - abominationsThreat
     - abominationsThreatDistress
-    - badBloodClanThreat
+#    - badBloodClanThreat
 
     joboverrides:
       AU14JobLEOBase: AU14JobCivilianCMBDeputy
@@ -843,7 +848,7 @@
     - abominationThirdParty
     threats:
     - XenoThreat
-    - TribalsThreat
+#    - TribalsThreat
     - badBloodClanThreat
 
     jobScalingFof: DefaultGovforOpforScale
@@ -902,7 +907,8 @@
     - abominationThirdParty
     threats:
     - abominationsThreatDistress
-    -  badBloodClanThreat
+    - XenoThreat
+    - badBloodClanThreat
     jobScalingFof: DefaultGovforOpforScale
     jobScalingIns: DefaultInsurgencyScale
 
@@ -957,6 +963,7 @@
     - abominationThirdParty
     threats:
     - abominationsThreatDistress
+    - XenoThreat
     - badBloodClanThreat
 
     jobScalingFof: DefaultGovforOpforScale

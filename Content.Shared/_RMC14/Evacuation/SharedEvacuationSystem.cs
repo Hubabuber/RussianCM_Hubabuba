@@ -8,6 +8,7 @@ using Content.Shared._RMC14.Marines.Announce;
 using Content.Shared._RMC14.Marines.HyperSleep;
 using Content.Shared._RMC14.Power;
 using Content.Shared._RMC14.Xenonids.Announce;
+using Content.Shared._CMU14.ZLevels.Core.EntitySystems;
 using Content.Shared.Audio;
 using Content.Shared.CCVar;
 using Content.Shared.Coordinates;
@@ -59,6 +60,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private SharedXenoAnnounceSystem _xenoAnnounce = default!;
+    [Dependency] private CMUSharedZLevelsSystem _zLevels = default!;
 
     private EntityQuery<AreaComponent> _areaQuery;
     private EntityQuery<DoorComponent> _doorQuery;
@@ -117,7 +119,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         var doors = EntityQueryEnumerator<EvacuationDoorComponent, TransformComponent>();
         while (doors.MoveNext(out var uid, out var door, out var xform))
         {
-            if (xform.MapUid != ev.Map)
+            if (!IsSameShip(xform.MapUid, ev.Map))
                 continue;
 
             door.Locked = false;
@@ -133,7 +135,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         var lifeboats = EntityQueryEnumerator<LifeboatComputerComponent, TransformComponent>();
         while (lifeboats.MoveNext(out var uid, out var computer, out var xform))
         {
-            if (xform.MapUid != ev.Map)
+            if (!IsSameShip(xform.MapUid, ev.Map))
                 continue;
 
             computer.Enabled = true;
@@ -143,7 +145,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         var evacuation = EntityQueryEnumerator<EvacuationComputerComponent, TransformComponent>();
         while (evacuation.MoveNext(out var computerId, out var computer, out var xform))
         {
-            if (xform.MapUid != ev.Map)
+            if (!IsSameShip(xform.MapUid, ev.Map))
                 continue;
 
             if (computer.Mode == EvacuationComputerMode.Disabled)
@@ -160,7 +162,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         var lifeboats = EntityQueryEnumerator<LifeboatComputerComponent, TransformComponent>();
         while (lifeboats.MoveNext(out var uid, out var computer, out var xform))
         {
-            if (xform.MapUid != ev.Map)
+            if (!IsSameShip(xform.MapUid, ev.Map))
                 continue;
 
             computer.Enabled = false;
@@ -174,7 +176,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         var evacuation = EntityQueryEnumerator<EvacuationComputerComponent, TransformComponent>();
         while (evacuation.MoveNext(out var computerId, out var computer, out var xform))
         {
-            if (xform.MapUid != ev.Map)
+            if (!IsSameShip(xform.MapUid, ev.Map))
                 continue;
 
             if (computer.Mode == EvacuationComputerMode.Disabled)
@@ -406,12 +408,25 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
     {
     }
 
+    private bool IsSameShip(EntityUid? mapUid, EntityUid primaryMapUid)
+    {
+        if (mapUid == null)
+            return false;
+
+        // Single level (legacy) ships
+        if (mapUid == primaryMapUid)
+            return true;
+
+        return _zLevels.TryGetZNetwork(primaryMapUid, out var network)
+            && network.Value.Comp.ZLevels.Values.Any(u => u == mapUid);
+    }
+
     private void SetPumpAppearance(EntityUid mapUid, EvacuationPumpVisuals visual)
     {
         var pumps = EntityQueryEnumerator<EvacuationPumpComponent, TransformComponent>();
         while (pumps.MoveNext(out var uid, out _, out var xform))
         {
-            if (xform.MapUid != mapUid)
+            if (!IsSameShip(xform.MapUid, mapUid))
                 continue;
 
             _appearance.SetData(uid, EvacuationPumpLayers.Layer, visual);
@@ -423,7 +438,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         var pumps = EntityQueryEnumerator<EvacuationPumpComponent, TransformComponent>();
         while (pumps.MoveNext(out var uid, out var pump, out var xform))
         {
-            if (xform.MapUid != mapUid)
+            if (!IsSameShip(xform.MapUid, mapUid))
                 continue;
 
             _ambientSound.SetSound(uid, pump.ActiveSound);
@@ -432,53 +447,40 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
 
     private IEnumerable<EntityUid> GetEvacuationAreas(EntityCoordinates coordinates)
     {
-        // First, try to resolve areas directly at the provided coordinates.
-        if (_area.TryGetAllAreas(coordinates, out var areaGrid))
+        var ent = coordinates.EntityId;
+        if (!ent.IsValid() || !TryComp(ent, out TransformComponent? entXform))
+            yield break;
+
+        if (entXform.MapUid is not { } targetMap)
+            yield break;
+
+        var searchMaps = new HashSet<EntityUid> { targetMap };
+        if (_zLevels.TryGetZNetwork(targetMap, out var network))
+            foreach (var (_, netMapUid) in network.Value.Comp.ZLevels)
+                if (netMapUid.HasValue)
+                    searchMaps.Add(netMapUid.Value);
+
+        var seen = new HashSet<EntityUid>();
+        var gridQuery = EntityQueryEnumerator<AreaGridComponent, TransformComponent>();
+        while (gridQuery.MoveNext(out _, out _, out var gridXform))
         {
+            if (!searchMaps.Contains(gridXform.MapUid ?? EntityUid.Invalid))
+                continue;
+
+            if (!_area.TryGetAllAreas(gridXform.Coordinates, out var areaGrid))
+                continue;
+
             foreach (var areaId in areaGrid.Value.Comp.AreaEntities.Values)
             {
-                if (!_areaQuery.TryComp(areaId, out var area) ||
-                    !area.HijackEvacuationArea)
-                {
+                if (!seen.Add(areaId))
                     continue;
-                }
+
+                if (!_areaQuery.TryComp(areaId, out var area) || !area.HijackEvacuationArea)
+                    continue;
 
                 yield return areaId;
             }
-
-            yield break;
-        }
-
-
-        var ent = coordinates.EntityId;
-        if (ent.IsValid() && TryComp(ent, out TransformComponent? entXform))
-        {
-            var targetMap = entXform.MapUid;
-            if (targetMap != default)
-            {
-                var gridQuery = EntityQueryEnumerator<AreaGridComponent, TransformComponent>();
-                while (gridQuery.MoveNext(out _, out _, out var gridXform))
-                {
-                    if (gridXform.MapUid != targetMap)
-                        continue;
-
-                    if (_area.TryGetAllAreas(gridXform.Coordinates, out var foundAreaGrid))
-                    {
-                        foreach (var areaId in foundAreaGrid.Value.Comp.AreaEntities.Values)
-                        {
-                            if (!_areaQuery.TryComp(areaId, out var area) ||
-                                !area.HijackEvacuationArea)
-                            {
-                                continue;
-                            }
-
-                            yield return areaId;
-                        }
-
-                        yield break;
-                    }
-                }
-            }
+            // yield break; // handled by HashSet seen
         }
     }
 
@@ -517,16 +519,27 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         {
             _marineAnnounce.AnnounceARESStaging(
                 null,
-                "Attention. Emergency. All personnel must evacuate immediately.",
+                "ALL STATIONS. Emergency. Lifeboat fuel lines pressurized. Pumps at full capacity. Muster stations. Evacuation protocol engaged.",
                 startSound,
                 faction: progress.VictimFaction
             );
+
+            Timer.Spawn(TimeSpan.FromSeconds(25), () =>
+            {
+                if (map == null || !Exists(map.Value)) return;
+                if (!progress.Enabled || !TryComp<EvacuationProgressComponent>(map.Value, out var curProgress)) return;
+
+                _marineAnnounce.AnnounceARESStaging(null,
+                    "ALL STATIONS. Scuttling failure. Self‑destruct sequence unresponsive. All personnel abandon ship immediately.",
+                    startSound,
+                    faction: curProgress.VictimFaction);
+            });
             var ev = new EvacuationEnabledEvent(map.Value);
             RaiseLocalEvent(map.Value, ref ev, true);
         }
         else
         {
-            _marineAnnounce.AnnounceARESStaging(null, "Evacuation has been cancelled.", cancelSound, faction: progress.VictimFaction);
+            _marineAnnounce.AnnounceARESStaging(null, "ALL STATIONS. Evacuation protocol aborted. Lifeboat launch suspended. Emergency stand-down.", cancelSound, faction: progress.VictimFaction);
             var ev = new EvacuationDisabledEvent(map.Value);
             RaiseLocalEvent(map.Value, ref ev, true);
         }
@@ -560,7 +573,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         var query = EntityQueryEnumerator<EvacuationProgressComponent>();
         while (query.MoveNext(out var progress))
         {
-            return (int) progress.Progress;
+            return (int)progress.Progress;
         }
 
         return 0;
@@ -582,7 +595,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
         {
             //Only start fueling once the dropship has crashed into the ship
             if (!progress.DropShipCrashed)
-                return;
+                continue;
 
             var faction = progress.VictimFaction;
 
@@ -596,12 +609,11 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
                 foreach (var areaId in GetEvacuationAreas(uid.ToCoordinates()))
                 {
                     var powered = IsAreaPumpPowered(areaId);
-                    var line = $"[{Name(areaId)}] - [{(powered ? "Online" : "Offline")}]";
+                    var line = $"[{Name(areaId)}] - [{(powered ? "MAX CAPACITY" : "NO FUEL FLOW")}]";
                     areas.AppendLine(line);
                 }
 
-                areas.Append(
-                    "Due to low orbit, extra fuel is required for non-surface evacuations.\nMaintain fueling functionality for optimal evacuation conditions.");
+                areas.Append("Low orbit decay detected. Additional fuel reserves for optimal launch conditions required.\nSustained power to fueling stations required to meet new threshold. Early launch results in atmospheric entry.");
                 _marineAnnounce.AnnounceARESStaging(null, areas.ToString(), faction: faction);
             }
 
@@ -625,7 +637,7 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
                 if (progress.LastPower.TryGetValue(areaId, out var lastPower) &&
                     lastPower != powered)
                 {
-                    _marineAnnounce.AnnounceARESStaging(null, $"{Name(areaId)} - [{(powered ? "Online" : "Offline")}]", faction: faction);
+                    _marineAnnounce.AnnounceARESStaging(null, $"{Name(areaId)} - [{(powered ? "MAX CAPACITY" : "NO FUEL FLOW")}]", faction: faction);
                 }
 
                 progress.LastPower[areaId] = powered;
@@ -659,18 +671,18 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
 
                 string MarinePercentageString(int percentage)
                 {
-                    var marineAnnounce = $"Emergency fuel replenishment is at {percentage} percent.";
+                    var marineAnnounce = $"LIFEBOAT FUEL RESERVES: AT {percentage} PERCENT.";
                     if (offAreas.Length == 0)
-                        marineAnnounce += " All fueling areas operational.";
+                        marineAnnounce += " All fueling stations diverting to lifeboats at full capacity. Volumetric flow maximums.";
                     else
-                        marineAnnounce += $"To increase speed, restore power to the following areas: {offAreas}";
+                        marineAnnounce += $" Fuel flow interrupted in: {offAreas}. Remedial action mandatory. Replenishment rate critically low.";
 
                     return marineAnnounce;
                 }
 
                 if (progress.Progress >= progress.Required)
                 {
-                    _marineAnnounce.AnnounceARESStaging(null, "Emergency fuel replenishment is at 100 percent. Safe utilization of lifeboats and pods is now possible.", faction: faction);
+                    _marineAnnounce.AnnounceARESStaging(null, "LIFEBOAT FUEL RESERVES: AT 100 PERCENT. Lifeboats launch at command discretion. Escape pods available for immediate use.", faction: faction);
 
                     if (!progress.IsHumanHijack)
                         _xenoAnnounce.AnnounceAll(default, "The talls have completed their goals!");
@@ -716,11 +728,11 @@ public abstract partial class SharedEvacuationSystem : EntitySystem
                 }
                 else if (progress.Progress >= progress.Required * 0.25)
                 {
-                    var marineAnnounce = "Emergency fuel replenishment is at 25 percent. Lifeboat emergency early launch is now available.";
+                    var marineAnnounce = "LIFEBOAT FUEL RESERVES: AT 25 PERCENT. Early-launch override available. Command order required.";
                     if (offAreas.Length == 0)
-                        marineAnnounce += " All fueling areas operational.";
+                        marineAnnounce += " All fueling stations operating at full capacity. Volumetric flow maximums.";
                     else
-                        marineAnnounce += $" To increase speed, restore power to the following areas: {offAreas}";
+                        marineAnnounce += $" Fuel flow interrupted in: {offAreas}. Remedial action mandatory to increase replenishment rate.";
 
                     _marineAnnounce.AnnounceARESStaging(null, marineAnnounce, faction: faction);
 

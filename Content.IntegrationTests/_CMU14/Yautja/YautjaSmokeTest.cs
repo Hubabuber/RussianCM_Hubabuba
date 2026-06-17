@@ -128,7 +128,9 @@ public sealed class YautjaSmokeTest
 
                 Assert.That(prototypes, Does.Contain("CMUYautjaHealingGun"));
                 Assert.That(prototypes.Count(id => id == "CMUYautjaWoundClamp"), Is.EqualTo(2));
-                Assert.That(prototypes.Count(id => id == "CMUYautjaAutoInjector"), Is.EqualTo(6));
+                Assert.That(prototypes.Count(id => id == "CMUYautjaHealthShard"), Is.EqualTo(6));
+                Assert.That(prototypes.Count(id => id == "CMUYautjaStabilisingCrystal"), Is.EqualTo(2));
+                Assert.That(prototypes, Does.Contain("CMUYautjaAlienHealthAnalyzer"));
                 Assert.That(prototypes.Count(id => id == "CMUYautjaHerbalCase"), Is.EqualTo(2));
 
                 var healingGelTotal = storage.Container.ContainedEntities
