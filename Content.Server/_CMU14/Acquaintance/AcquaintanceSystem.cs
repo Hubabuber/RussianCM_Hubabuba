@@ -2,6 +2,8 @@ using System.Linq;
 using Content.Server.Administration;
 using Content.Server.Chat.Systems;
 using Content.Server.Humanoid;
+using Content.Shared._CMU14.Acquaintance;
+using Content.Shared._RMC14.Dialog;
 using Content.Shared.CCVar;
 using Content.Shared.Chat;
 using Content.Shared.Examine;
@@ -26,10 +28,27 @@ namespace Content.Server._CMU14.Acquaintance;
 /// </summary>
 public sealed partial class AcquaintanceSystem : EntitySystem
 {
+    private static readonly string[] ChatNameColors =
+    {
+        "#ef9a9a",
+        "#90caf9",
+        "#a5d6a7",
+        "#ffe082",
+        "#ce93d8",
+        "#80deea",
+        "#ffab91",
+        "#bcaaa4",
+        "#b0bec5",
+        "#f48fb1",
+        "#9fa8da",
+        "#e6ee9c",
+    };
+
     [Dependency] private SharedMindSystem _mind = default!;
     [Dependency] private HumanoidAppearanceSystem _humanoid = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private QuickDialogSystem _quickDialog = default!;
+    [Dependency] private DialogSystem _dialog = default!;
     [Dependency] private SharedInteractionSystem _interaction = default!;
     [Dependency] private IConfigurationManager _configuration = default!;
 
@@ -38,6 +57,7 @@ public sealed partial class AcquaintanceSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<GetVerbsEvent<ExamineVerb>>(OnGetExamineVerbs);
+        SubscribeLocalEvent<HumanoidAppearanceComponent, RememberIntroductionConfirmEvent>(OnRememberIntroductionConfirmed);
     }
 
     private void OnGetExamineVerbs(GetVerbsEvent<ExamineVerb> args)
@@ -73,7 +93,7 @@ public sealed partial class AcquaintanceSystem : EntitySystem
             Loc.GetString("acquaintance-introduce-dialog-title"),
             Loc.GetString("acquaintance-introduce-dialog-prompt"),
             (string claimedName) => Introduce(speaker, listener, claimedName),
-            defaultValue: Identity.Name(speaker, EntityManager, speaker).Name);
+            defaultValue: Name(speaker));
     }
 
     private bool CanIntroduceCharacters(EntityUid speaker, EntityUid listener)
@@ -101,19 +121,11 @@ public sealed partial class AcquaintanceSystem : EntitySystem
             return;
         }
 
-        if (!TryComp(listenerMindId, out AcquaintanceComponent? memory))
-            memory = EnsureComp<AcquaintanceComponent>(listenerMindId);
-
         claimedName = SanitizeClaimedName(claimedName) ??
-                      Identity.Name(speaker, EntityManager, listener).Name;
+                      Name(speaker);
         var unknownFace = GetUnknownFaceDescription(speaker);
         var voiceName = GetTransformedVoiceName(speaker);
         var faceVisible = CanSeeFace(speaker);
-
-        if (faceVisible)
-            memory.KnownFaces[speaker] = claimedName;
-
-        memory.KnownVoices[GetVoiceSignature(speaker, voiceName)] = claimedName;
 
         _popup.PopupEntity(
             Loc.GetString("acquaintance-introduce-speaker", ("target", GetPerceivedFaceName(speaker, listener)), ("name", claimedName)),
@@ -122,13 +134,88 @@ public sealed partial class AcquaintanceSystem : EntitySystem
             PopupType.Medium);
 
         _popup.PopupEntity(
-            Loc.GetString(
-                faceVisible ? "acquaintance-introduce-listener-face" : "acquaintance-introduce-listener-voice",
+            Loc.GetString("acquaintance-introduce-listener-pending",
                 ("speaker", unknownFace),
                 ("name", claimedName)),
             speaker,
             listener,
             PopupType.Medium);
+
+        if (!HasComp<ActorComponent>(listener))
+        {
+            RememberIntroduction(speaker, listener, listenerMindId, claimedName, voiceName, faceVisible);
+            return;
+        }
+
+        _dialog.OpenConfirmation(
+            listener,
+            Loc.GetString("acquaintance-remember-dialog-title"),
+            Loc.GetString("acquaintance-remember-dialog-prompt",
+                ("speaker", unknownFace),
+                ("name", claimedName)),
+            new RememberIntroductionConfirmEvent(
+                GetNetEntity(speaker),
+                claimedName,
+                voiceName,
+                faceVisible));
+    }
+
+    private void OnRememberIntroductionConfirmed(
+        Entity<HumanoidAppearanceComponent> listener,
+        ref RememberIntroductionConfirmEvent args)
+    {
+        if (!TryGetEntity(args.Speaker, out var speaker) ||
+            !_mind.TryGetMind(listener, out var listenerMindId, out _))
+        {
+            return;
+        }
+
+        RememberIntroduction(
+            speaker.Value,
+            listener,
+            listenerMindId,
+            args.ClaimedName,
+            args.VoiceName,
+            args.FaceVisible);
+    }
+
+    private void RememberIntroduction(
+        EntityUid speaker,
+        EntityUid listener,
+        EntityUid listenerMindId,
+        string claimedName,
+        string voiceName,
+        bool faceVisible)
+    {
+        if (!Exists(speaker) || !Exists(listenerMindId))
+            return;
+
+        var memory = EnsureComp<AcquaintanceComponent>(listenerMindId);
+
+        if (faceVisible)
+            memory.KnownFaces[speaker] = claimedName;
+
+        memory.KnownVoices[GetVoiceSignature(speaker, voiceName)] = claimedName;
+
+        if (Exists(listener) && TryComp(listener, out ActorComponent? listenerActor))
+        {
+            RaiseNetworkEvent(
+                new ExamineSystemMessages.PerceivedNamesResponseMessage(
+                    new List<NetEntity> { GetNetEntity(speaker) },
+                    new List<string> { GetPerceivedFaceName(listener, speaker) }),
+                listenerActor.PlayerSession.Channel);
+        }
+
+        if (Exists(listener))
+        {
+            _popup.PopupEntity(
+                Loc.GetString(
+                    faceVisible ? "acquaintance-remember-accepted-face" : "acquaintance-remember-accepted-voice",
+                    ("name", claimedName)),
+                listener,
+                listener,
+                PopupType.Medium);
+        }
     }
 
     private string? SanitizeClaimedName(string? claimedName)
@@ -182,6 +269,13 @@ public sealed partial class AcquaintanceSystem : EntitySystem
         }
 
         return GetUnknownVoiceDescription(speaker, transformedVoiceName);
+    }
+
+    public string GetColoredChatName(EntityUid source, string perceivedName)
+    {
+        var hash = unchecked((uint) source.Id * 2654435761u);
+        var color = ChatNameColors[hash % ChatNameColors.Length];
+        return $"[color={color}]{FormattedMessage.EscapeText(perceivedName)}[/color]";
     }
 
     public string GetUnknownFaceDescription(EntityUid target)

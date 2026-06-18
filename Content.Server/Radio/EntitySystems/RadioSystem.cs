@@ -6,9 +6,6 @@ using Content.Server.Power.Components;
 using Content.Server.Radio.Components;
 using Content.Shared._CMU14.Yautja;
 using Content.Shared._RMC14.Chat;
-using Content.Shared._RMC14.Marines;
-using Content.Shared._RMC14.Marines.Squads;
-using Content.Shared._RMC14.Tracker.SquadLeader;
 using Content.Shared._RMC14.Radio;
 using Content.Shared._RMC14.Xenonids;
 using Content.Shared.Chat;
@@ -126,7 +123,7 @@ public sealed partial class RadioSystem : EntitySystem
         var evt = new TransformSpeakerNameEvent(messageSource, MetaData(messageSource).EntityName);
         RaiseLocalEvent(messageSource, evt);
 
-        var name = GetRadioSpeakerName(messageSource, channel, evt.VoiceName);
+        var name = _acquaintance.GetColoredChatName(messageSource, evt.VoiceName);
 
         SpeechVerbPrototype speech;
         if (evt.SpeechVerb != null && _prototype.TryIndex(evt.SpeechVerb, out var evntProto))
@@ -222,39 +219,6 @@ public sealed partial class RadioSystem : EntitySystem
         }
     }
 
-    private string GetRadioSpeakerName(EntityUid messageSource, RadioChannelPrototype channel, string voiceName)
-    {
-        var name = FormattedMessage.EscapeText(voiceName);
-
-        if (TryComp(messageSource, out JobPrefixComponent? prefix))
-        {
-            var prefixText = (prefix.AdditionalPrefix != null ? $"{Loc.GetString(prefix.AdditionalPrefix.Value)} " : "") + Loc.GetString(prefix.Prefix);
-            if (TryComp(messageSource, out SquadMemberComponent? member) &&
-                TryComp(member.Squad, out SquadTeamComponent? team) &&
-                team.Radio != null &&
-                team.Radio != channel.ID)
-            {
-                name = $"({Name(member.Squad.Value)} {prefixText}) {name}";
-            }
-            else
-            {
-                if (TryComp(messageSource, out FireteamMemberComponent? fireteamMember) && fireteamMember.Fireteam >= 0)
-                {
-                    prefixText += $" FT{fireteamMember.Fireteam + 1}" + (TryComp(messageSource, out FireteamLeaderComponent? fireteamLeader) ? " TL" : "");
-                }
-
-                name = $"({prefixText}) {name}";
-            }
-        }
-        else if (TryComp(messageSource, out RMCRadioPrefixComponent? radioPrefix))
-        {
-            var prefixText = Loc.GetString(radioPrefix.Prefix);
-            name = $"{prefixText} {name}";
-        }
-
-        return name;
-    }
-
     private MsgChatMessage GetRadioChatMessageForReceiver(
         EntityUid receiver,
         EntityUid messageSource,
@@ -281,7 +245,7 @@ public sealed partial class RadioSystem : EntitySystem
         if (HasComp<YautjaComponent>(messageSource) && HasComp<YautjaComponent>(listener))
             perceivedVoiceName = MetaData(messageSource).EntityName;
 
-        var name = GetRadioSpeakerName(messageSource, channel, perceivedVoiceName);
+        var name = _acquaintance.GetColoredChatName(messageSource, perceivedVoiceName);
         if (name == defaultName)
             return defaultChatMsg;
 

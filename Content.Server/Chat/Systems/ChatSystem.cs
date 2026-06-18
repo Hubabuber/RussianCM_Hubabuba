@@ -496,17 +496,17 @@ public sealed partial class ChatSystem : SharedChatSystem
         }
 
         var transformedVoiceName = name;
-        name = FormattedMessage.EscapeText(name);
+        var nameMarkup = _acquaintance.GetColoredChatName(source, name);
 
         var wrappedMessage = Loc.GetString(speech.Bold ? "chat-manager-entity-say-bold-wrap-message" : "chat-manager-entity-say-wrap-message",
-            ("entityName", name),
+            ("entityName", nameMarkup),
             ("verb", Loc.GetString(_random.Pick(speech.SpeechVerbStrings))),
             ("fontType", speech.FontId),
             ("fontSize", speech.FontSize),
             ("message", FormattedMessage.EscapeText(message)));
 
         SendInVoiceRange(ChatChannel.Local, message, wrappedMessage, source, range,
-            speakerNameMarkup: name,
+            speakerNameMarkup: nameMarkup,
             transformedVoiceName: transformedVoiceName);
 
         var ev = new EntitySpokeEvent(source, message, null, null);
@@ -569,10 +569,10 @@ public sealed partial class ChatSystem : SharedChatSystem
             name = nameEv.VoiceName;
         }
         var transformedVoiceName = name;
-        name = FormattedMessage.EscapeText(name);
+        var nameMarkup = _acquaintance.GetColoredChatName(source, name);
 
         var wrappedMessage = Loc.GetString("chat-manager-entity-whisper-wrap-message",
-            ("entityName", name), ("message", FormattedMessage.EscapeText(message)));
+            ("entityName", nameMarkup), ("message", FormattedMessage.EscapeText(message)));
 
         var wrappedUnknownMessage = Loc.GetString("chat-manager-entity-whisper-unknown-wrap-message",
             ("message", FormattedMessage.EscapeText(obfuscatedMessage)));
@@ -592,11 +592,13 @@ public sealed partial class ChatSystem : SharedChatSystem
             if (MessageRangeCheck(session, data, range) != MessageRangeCheckResult.Full)
                 continue; // Won't get logged to chat, and ghosts are too far away to see the pop-up, so we just won't send it to them.
 
-            var perceivedVoice = FormattedMessage.EscapeText(
+            var perceivedVoice = _acquaintance.GetColoredChatName(
+                source,
                 _acquaintance.GetPerceivedVoiceName(listener, source, transformedVoiceName));
-            var perceivedFace = FormattedMessage.EscapeText(
+            var perceivedFace = _acquaintance.GetColoredChatName(
+                source,
                 _acquaintance.GetPerceivedFaceName(listener, source));
-            var listenerWrappedMessage = ReplaceFirst(wrappedMessage, name, perceivedVoice);
+            var listenerWrappedMessage = ReplaceFirst(wrappedMessage, nameMarkup, perceivedVoice);
             var listenerWrappedObfuscatedMessage = Loc.GetString("chat-manager-entity-whisper-wrap-message",
                 ("entityName", perceivedFace), ("message", FormattedMessage.EscapeText(obfuscatedMessage)));
 
@@ -649,11 +651,12 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         // get the entity's apparent name (if no override provided).
         var ent = Identity.Entity(source, EntityManager);
-        string name = FormattedMessage.EscapeText(nameOverride ?? Name(ent));
+        var name = nameOverride ?? Name(source);
+        var nameMarkup = _acquaintance.GetColoredChatName(source, name);
 
         // Emotes use Identity.Name, since it doesn't actually involve your voice at all.
         var wrappedMessage = Loc.GetString("chat-manager-entity-me-wrap-message",
-            ("entityName", name),
+            ("entityName", nameMarkup),
             ("entity", ent),
             ("message", FormattedMessage.RemoveMarkupOrThrow(action)));
 
@@ -666,7 +669,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             source,
             range,
             author,
-            visualNameMarkup: nameOverride == null ? name : null);
+            visualNameMarkup: nameOverride == null ? nameMarkup : null);
         if (!hideLog)
             if (name != Name(source))
                 _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Emote from {ToPrettyString(source):user} as {name}: {action}");
@@ -677,7 +680,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     // ReSharper disable once InconsistentNaming
     private void SendLOOC(EntityUid source, ICommonSession player, string message, bool hideChat)
     {
-        var name = FormattedMessage.EscapeText(Identity.Name(source, EntityManager));
+        var name = _acquaintance.GetColoredChatName(source, Name(source));
 
         if (_adminManager.IsAdmin(player))
         {
@@ -833,7 +836,8 @@ public sealed partial class ChatSystem : SharedChatSystem
                 transformedVoiceName != null &&
                 session.AttachedEntity is { Valid: true } listener)
             {
-                var perceivedName = FormattedMessage.EscapeText(
+                var perceivedName = _acquaintance.GetColoredChatName(
+                    source,
                     _acquaintance.GetPerceivedVoiceName(listener, source, transformedVoiceName));
                 listenerWrappedMessage = ReplaceFirst(listenerWrappedMessage, speakerNameMarkup, perceivedName);
             }
@@ -841,7 +845,8 @@ public sealed partial class ChatSystem : SharedChatSystem
                      visualNameMarkup != null &&
                      session.AttachedEntity is { Valid: true } emoteViewer)
             {
-                var perceivedName = FormattedMessage.EscapeText(
+                var perceivedName = _acquaintance.GetColoredChatName(
+                    source,
                     _acquaintance.GetPerceivedFaceName(emoteViewer, source));
                 listenerWrappedMessage = ReplaceFirst(listenerWrappedMessage, visualNameMarkup, perceivedName);
             }

@@ -26,6 +26,7 @@ namespace Content.Server.Examine
             _entityOutOfRangeMessage.AddText(Loc.GetString("examine-system-cant-see-entity"));
 
             SubscribeNetworkEvent<ExamineSystemMessages.RequestExamineInfoMessage>(ExamineInfoRequest);
+            SubscribeNetworkEvent<ExamineSystemMessages.RequestPerceivedNamesMessage>(PerceivedNamesRequest);
         }
 
         public override void SendExamineTooltip(EntityUid player, EntityUid target, FormattedMessage message, bool getVerbs, bool centerAtCursor)
@@ -81,6 +82,35 @@ namespace Content.Server.Examine
                 : null;
             RaiseNetworkEvent(new ExamineSystemMessages.ExamineInfoResponseMessage(
                 request.NetEntity, request.Id, text, verbs?.ToList(), displayName: displayName), channel);
+        }
+
+        private void PerceivedNamesRequest(
+            ExamineSystemMessages.RequestPerceivedNamesMessage request,
+            EntitySessionEventArgs eventArgs)
+        {
+            var session = eventArgs.SenderSession;
+            if (session.AttachedEntity is not { Valid: true } player)
+                return;
+
+            var entities = new List<NetEntity>();
+            var names = new List<string>();
+
+            foreach (var netEntity in request.Entities.Distinct().Take(128))
+            {
+                if (!TryGetEntity(netEntity, out var entity) ||
+                    !HasComp<HumanoidAppearanceComponent>(entity) ||
+                    !CanExamine(player, entity.Value))
+                {
+                    continue;
+                }
+
+                entities.Add(netEntity);
+                names.Add(_acquaintance.GetPerceivedFaceName(player, entity.Value));
+            }
+
+            RaiseNetworkEvent(
+                new ExamineSystemMessages.PerceivedNamesResponseMessage(entities, names),
+                session.Channel);
         }
     }
 }
