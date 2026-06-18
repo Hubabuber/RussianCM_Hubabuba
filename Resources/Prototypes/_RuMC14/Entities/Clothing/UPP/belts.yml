@@ -1,0 +1,105 @@
+- type: entity
+  parent: RMCBeltBaseStorageNoVisuals
+  id: RuMCUPPNavalInfantryBeltGrenade
+  name: PD-54 grenade vest
+  description: A vest designed for 12 grenades, equipped with special fasteners for securely holding grenades from the socialist bloc. It also accommodates flyers.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/belt/grenade.rsi
+    layers:
+    - state: icon
+    - state: one
+      visible: false
+    - state: two
+      visible: false
+    - state: three
+      visible: false
+    - state: four
+      visible: false
+    - state: five
+      visible: false
+    - state: six
+      visible: false
+    - state: seven
+      visible: false
+    - state: eight
+      visible: false
+    - state: nine
+      visible: false
+    - state: ten
+      visible: false
+  - type: Clothing
+    sprite: _RuMC14/Clothing/UPP/belt/grenade.rsi
+  - type: Item
+    size: Large
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,11,3 # 12 slots
+    whitelist:
+      tags:
+      - Grenade
+      - Flare
+  - type: FixedItemSizeStorage
+  - type: ItemMapper
+    mapLayers:
+      one:
+        minCount: 1
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      two:
+        minCount: 2
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      three:
+        minCount: 3
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      four:
+        minCount: 4
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      five:
+        minCount: 5
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      six:
+        minCount: 6
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      seven:
+        minCount: 7
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      eight:
+        minCount: 8
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      nine:
+        minCount: 9
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
+      ten:
+        minCount: 10
+        whitelist:
+          tags:
+          - Grenade
+          - Flare
