@@ -34,3 +34,4 @@ public readonly record struct CMUTraumaGovernorReadout(
     float CooldownSecondsRemaining,
     bool VialLoaded,
     bool VialBypassAvailable);
+

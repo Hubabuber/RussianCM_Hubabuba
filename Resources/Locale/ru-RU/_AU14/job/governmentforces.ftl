@@ -196,3 +196,8 @@ au14-job-prefix-AU14JobGOVFORSectionSergeantWYPMC = КМДВЗ
 au14-job-prefix-AU14JobGOVFORSquadAutomaticRiflemanWYPMC = ПУЛ
 au14-job-prefix-AU14JobGOVFORSquadRiflemanWYPMC = СТР
 au14-job-prefix-AU14JobGOVFORSquadSergeantWYPMC = КО
+
+AU14JobGOVFORWeaponsSpecialist = Специалист по вооружению
+au14-job-name-govforweaponsspecialist = Специалист по вооружению
+au14-job-description-govforweaponsspecialist = Управляй огневой поддержкой своей фракции и прикрывай отряд.
+au14-job-prefix-govforweaponsspecialist = СВ

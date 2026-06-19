@@ -303,7 +303,12 @@ namespace Content.Client.Chat.UI
                     StyleClasses = { "bubbleContent" }, //RMC14 The simplified bubble does not have any styles of its own and in order to apply styles to it we mark it in the same way as a regular bubble but it's a dummy, just a marker. damned.
                 };
 
-                label.SetMessage(ExtractAndFormatSpeechSubstring(message, "BubbleContent", fontColor));
+                var header = SharedChatSystem.GetStringInsideTag(message, "BubbleHeader");
+                var content = SharedChatSystem.GetStringInsideTag(message, "BubbleContent");
+                var popupMessage = string.IsNullOrWhiteSpace(header)
+                    ? content
+                    : $"[bold]{header}[/bold]\n{content}";
+                label.SetMessage(FormatSpeech(popupMessage, fontColor));
 
                 var unfanciedPanel = new PanelContainer
                 {

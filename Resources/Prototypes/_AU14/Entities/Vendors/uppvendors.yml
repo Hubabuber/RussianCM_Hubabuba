@@ -90,11 +90,11 @@
         amount: 40
     - name: Backpack
       entries:
-      - id: RMCSatchelSPP
+      - id: RuMCBackpackLightSPN
         amount: 80
-      - id: CMBackpackMarine
+      - id: RuMCUPPNavalInfantryBackpack1
         amount: 30
-      - id: AU14IMPBackpackMarine
+      - id: RuMCUPPNavalInfantryBackpackBig
         amount: 20
       - id: RMCSatchelSPPWelder
         amount: 5
@@ -106,7 +106,7 @@
       entries:
       - id: AU14BeltMarineUPP
         amount: 40
-      - id: RMCBeltGrenade
+      - id: RuMCUPPNavalInfantryBeltGrenade
         amount: 4
       - id: AU14ShotgunShellLoadingRigUPP
         amount: 6
@@ -795,6 +795,10 @@
       choices: { CMHat: 1 }
       entries:
       - id: CMHeadCapSPPBeret
+    - name: Headgear
+      choices: { CMHelmet: 1 }
+      entries:
+      - id: RuMCUPPNavalInfantryHeavyHelmet
     - name: Equipment
       takeAll: CMStandard
       entries:
@@ -1052,6 +1056,17 @@
       - id: AU14PouchIFAKFill
       - id: RMCPouchMagazinePistol
       - id: RMCPouchPistol
+    - name: Record Keeping
+      takeAll: CMRecordKeeping
+      entries:
+      - id: RMCBoxRegulationTapesFull
+      - id: RMCUniversalRecorder
+      - id: CMHandLabeler
+      - id: RMCDigitalClock
+    - name: Inmate Restraining Gear
+      entries:
+      - id: AU14ClothingOuterStraitjacket
+        amount: 5 # TODO: bandaid - remove after mappers have placed this
 
 - type: entity
   parent: ColMarTechCargo
@@ -1202,6 +1217,10 @@
       - id: RMCFulton20
         amount: 4
       - id: RMCSentryLaptop
+        amount: 4
+    - name: Headgear
+      entries:
+      - id: RuMCUPPNavalInfantryHeavyHelmet
         amount: 4
     - name: RTO Packs
       entries:

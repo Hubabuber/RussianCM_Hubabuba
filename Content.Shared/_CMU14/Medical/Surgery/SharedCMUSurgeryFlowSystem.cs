@@ -1098,11 +1098,6 @@ public abstract partial class SharedCMUSurgeryFlowSystem : EntitySystem
         return true;
     }
 
-    private string ResolveMaybeLoc(string value)
-    {
-        return Loc.TryGetString(value, out var localized) ? localized : value;
-    }
-
     private string ResolveContextualStepLabel(EntProtoId stepProtoId, string fallback, EntityUid? targetPart)
     {
         if (stepProtoId == TieVascularTearStep)
@@ -1121,7 +1116,7 @@ public abstract partial class SharedCMUSurgeryFlowSystem : EntitySystem
             return Loc.GetString("cmu-medical-surgery-step-pack-organ-bleed-label");
 
         if (stepProtoId != MendRibcageStep)
-            return ResolveMaybeLoc(fallback);
+            return fallback;
 
         if (targetPart is { } part && TryComp<BodyPartComponent>(part, out var bodyPart))
         {
@@ -1133,7 +1128,7 @@ public abstract partial class SharedCMUSurgeryFlowSystem : EntitySystem
             };
         }
 
-        return ResolveMaybeLoc(fallback);
+        return fallback;
     }
 
     protected string? ResolveLegacyStepToolCategory(EntityUid stepEnt)
@@ -1305,9 +1300,9 @@ public abstract partial class SharedCMUSurgeryFlowSystem : EntitySystem
     public string ResolveSurgeryDisplayName(string surgeryId)
     {
         if (TryGetMetadata(surgeryId, out var metadata))
-            return metadata.DisplayName is { } displayName ? ResolveMaybeLoc(displayName) : surgeryId;
+            return metadata.DisplayName ?? surgeryId;
         if (Prototypes.TryIndex<EntityPrototype>(surgeryId, out var proto))
-            return ResolveMaybeLoc(proto.Name);
+            return proto.Name;
         return surgeryId;
     }
 

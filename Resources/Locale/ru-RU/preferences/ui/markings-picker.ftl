@@ -42,6 +42,7 @@ markings-organ-Eyes = Глаза
 
 markings-category-Special = Особое
 markings-category-Hair = Волосы
+markings-category-Head = Голова
 markings-category-HeadTop = Голова (Верх)
 markings-category-HeadSide = Голова (Бок)
 markings-category-Snout = Нос
@@ -68,6 +69,3 @@ marking-slot-add = Добавить
 marking-slot-remove = Удалить
 marking-slot = Слот { $number }
 
-# Missing entries synced from en-US
-
-markings-category-Head = Глава

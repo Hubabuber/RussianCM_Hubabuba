@@ -164,7 +164,12 @@ public abstract partial class SharedMarineOrdersSystem : EntitySystem
 
         var leadershipSkill = _skills.GetSkill(orders.Owner, orders.Comp.Skill);
         if (leadershipSkill <= 0 && !HasComp<SquadLeaderComponent>(orders.Owner))
+        {
+            _actions.RemoveAction(orders.Owner, orders.Comp.FocusActionEntity);
+            _actions.RemoveAction(orders.Owner, orders.Comp.HoldActionEntity);
+            _actions.RemoveAction(orders.Owner, orders.Comp.MoveActionEntity);
             return false;
+        }
 
         var level = Math.Max(1, leadershipSkill);
         var duration = orders.Comp.Duration * (level + 1);

@@ -61,7 +61,11 @@ public sealed partial class DialogWindow : FancyWindow
             var box = new BoxContainer();
             box.AddChild(new Label() { Text = entry.Prompt, HorizontalExpand = true, SizeFlagsStretchRatio = 0.5f });
 
-            var edit = new LineEdit() { HorizontalExpand = true };
+            var edit = new LineEdit
+            {
+                HorizontalExpand = true,
+                Text = entry.DefaultValue ?? string.Empty
+            };
 
             (Func<string, bool>, string) pair = entry.Type switch
             {
