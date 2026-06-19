@@ -26,7 +26,6 @@ public abstract partial class SharedGasTankSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-
         SubscribeLocalEvent<GasTankComponent, ComponentShutdown>(OnGasShutdown);
         SubscribeLocalEvent<GasTankComponent, BeforeActivatableUIOpenEvent>(BeforeUiOpen);
         SubscribeLocalEvent<GasTankComponent, GetItemActionsEvent>(OnGetActions);
@@ -115,19 +114,13 @@ public abstract partial class SharedGasTankSystem : EntitySystem
     public bool CanConnectToInternals(Entity<GasTankComponent> ent)
     {
         TryGetInternalsComp(ent, out _, out var internalsComp, ent.Comp.User);
-        var canConnect = internalsComp != null && internalsComp.BreathTools.Count != 0 && !ent.Comp.IsValveOpen;
-
-        return canConnect;
+        return internalsComp != null && internalsComp.BreathTools.Count != 0 && !ent.Comp.IsValveOpen;
     }
 
     public bool ConnectToInternals(Entity<GasTankComponent> ent, EntityUid? user = null)
     {
         var (owner, component) = ent;
-
-        if (component.IsConnected)
-            return false;
-
-        if (!CanConnectToInternals(ent))
+        if (component.IsConnected || !CanConnectToInternals(ent))
             return false;
 
         TryGetInternalsComp(ent, out var internalsUid, out var internalsComp, ent.Comp.User);

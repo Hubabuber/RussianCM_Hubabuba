@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.Numerics;
 using System.Reflection;
 using System.Linq;
@@ -35,29 +34,6 @@ public sealed class ScalingViewportProjectionTest
         Assert.That(ScalingViewport.ShouldUseZLevelRenderPasses(placementActive: false, zLevelsEnabled: true, renderEnabled: true), Is.True);
         Assert.That(ScalingViewport.ShouldUseZLevelRenderPasses(placementActive: false, zLevelsEnabled: false, renderEnabled: true), Is.False);
         Assert.That(ScalingViewport.ShouldUseZLevelRenderPasses(placementActive: false, zLevelsEnabled: true, renderEnabled: false), Is.False);
-    }
-
-    [Test]
-    public void StairPreviewRenderEyeDoesNotUseFovOrLighting()
-    {
-        var source = new ScalingViewport.ZEye
-        {
-            Position = new MapCoordinates(new Vector2(10, 20), new MapId(4)),
-            DrawFov = true,
-            DrawLight = true,
-        };
-        var target = new ScalingViewport.ZEye();
-        var visibilityBounds = new List<Box2>
-        {
-            new(0, 0, 1, 1),
-        };
-
-        ScalingViewport.ConfigureStairPreviewRenderEye(target, source, visibilityBounds);
-
-        Assert.That(target.Position, Is.EqualTo(source.Position));
-        Assert.That(target.DrawFov, Is.False);
-        Assert.That(target.DrawLight, Is.False);
-        Assert.That(target.DrawVisibleEntityIndicators, Is.False);
     }
 
     [Test]

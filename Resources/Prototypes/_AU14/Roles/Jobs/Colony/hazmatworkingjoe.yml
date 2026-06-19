@@ -11,12 +11,20 @@
   dummyStartingGear: AU14GearColonyWorkingJoeHazmat
 
 - type: startingGear
-  parent: AU14GearWorkingJoeBase
   id: AU14GearColonyWorkingJoeHazmat
   equipment:
+    id: AU14IDCardColonyWorkingJoe
+    ears: AU14HeadsetWorkingJoe
     shoes: AU14BootsCBRN
     gloves: RMCHandsVeteranCBRN
     jumpsuit: AU14JoeHazmat
+    belt: CMBeltUtilityFilled
+    back: AU14IMPBackpackWorkingJoe
+    pocket2: RMCPouchConstructionFillFull
+  storage:
+      belt:
+      - AU14MaintenanceJack
+      - RMCSynthResetKeySeegson
   inhand:
   - CMFireExtinguisher
 
