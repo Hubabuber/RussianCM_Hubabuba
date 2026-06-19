@@ -1,1 +1,2 @@
-ent-ActionWorkingJoeVoice-name = action-name-workingjoe-voice
+ent-ActionWorkingJoeVoice = Синтезатор речи
+    .desc = Открывает синтезатор речи рабочего Джо.

@@ -19,6 +19,12 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
     private readonly List<string> _recentIds = new();
     private const int MaxRecent = 5;
 
+    // RuMC edit start
+    private Button? _allButton;
+    private Button? _favButton;
+    private Button? _recentButton;
+    // RuMC edit end
+
     private static readonly string[] QuestionCategories =
     {
         "Curious", "Interrogation", "Identification", "Concern"
@@ -44,7 +50,7 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
 
         var allButton = new Button
         {
-            Text = "All",
+            Text = Loc.GetString("working-joe-voice-category-all"), // RuMC edit
             HorizontalExpand = true,
             ToggleMode = true,
             Pressed = _selectedCategory == null && !_showFavorites,
@@ -56,11 +62,12 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
             RebuildList();
             UpdateCategoryButtonStates();
         };
+        _allButton = allButton; // RuMC edit
         CategoryList.AddChild(allButton);
 
         var favButton = new Button
         {
-            Text = "★ Favorites",
+            Text = Loc.GetString("working-joe-voice-category-favorites"), // RuMC edit
             HorizontalExpand = true,
             ToggleMode = true,
             Pressed = _showFavorites,
@@ -72,11 +79,12 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
             RebuildList();
             UpdateCategoryButtonStates();
         };
+        _favButton = favButton; // RuMC edit
         CategoryList.AddChild(favButton);
 
         var recentButton = new Button
         {
-            Text = "⏲ Recent",
+            Text = Loc.GetString("working-joe-voice-category-recent"), // RuMC edit
             HorizontalExpand = true,
             ToggleMode = true,
             Pressed = _selectedCategory == "__recent",
@@ -88,6 +96,7 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
             RebuildList();
             UpdateCategoryButtonStates();
         };
+        _recentButton = recentButton; // RuMC edit
         CategoryList.AddChild(recentButton);
 
         var nonQuestionCategories = _allLines
@@ -121,7 +130,7 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
 
             var label = new Label
             {
-                Text = "Questions",
+                Text = Loc.GetString("working-joe-voice-questions-label"), // RuMC edit
                 FontColorOverride = Color.FromHex("#AAAAAA"),
                 HorizontalAlignment = HAlignment.Center,
                 Margin = new Thickness(0, 2),
@@ -137,9 +146,11 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
 
     private void AddCategoryButton(string category)
     {
+        var key = $"working-joe-voice-category-{category.ToLowerInvariant()}"; // RuMC edit
         var button = new Button
         {
-            Text = category,
+            Name = category, // RuMC edit
+            Text = Loc.TryGetString(key, out var translated) ? translated : category, // RuMC edit
             HorizontalExpand = true,
             ToggleMode = true,
             Pressed = _selectedCategory == category,
@@ -161,14 +172,14 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
             if (child is not Button btn)
                 continue;
 
-            if (btn.Text == "All")
+            if (btn == _allButton) // RuMC edit
                 btn.Pressed = _selectedCategory == null && !_showFavorites;
-            else if (btn.Text == "★ Favorites")
+            else if (btn == _favButton) // RuMC edit
                 btn.Pressed = _showFavorites;
-            else if (btn.Text == "⏲ Recent")
+            else if (btn == _recentButton) // RuMC edit
                 btn.Pressed = _selectedCategory == "__recent";
             else
-                btn.Pressed = btn.Text == _selectedCategory;
+                btn.Pressed = btn.Name == _selectedCategory; // RuMC edit
         }
     }
 
@@ -218,7 +229,7 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
                 Text = isFav ? "★" : "☆",
                 MinWidth = 30,
                 MaxWidth = 30,
-                ToolTip = isFav ? "Remove from favorites" : "Add to favorites",
+                ToolTip = isFav ? Loc.GetString("working-joe-voice-fav-remove") : Loc.GetString("working-joe-voice-fav-add"), // RuMC edit
             };
             var emoteId = line.EmoteId;
             favButton.OnPressed += _ =>
@@ -248,7 +259,7 @@ public sealed partial class WorkingJoeVoiceWindow : DefaultWindow
         {
             LineList.AddChild(new Label
             {
-                Text = "No results.",
+                Text = Loc.GetString("working-joe-voice-no-results"), // RuMC edit
                 FontColorOverride = Color.FromHex("#888888"),
                 HorizontalAlignment = HAlignment.Center,
                 Margin = new Thickness(0, 12),
