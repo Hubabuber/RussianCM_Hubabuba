@@ -1,7 +1,10 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Content.Server.Administration.Managers;
 using Content.Server.Database;
+using Content.Shared._RMC14.Mentor;
+using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.Players.JobWhitelist;
 using Content.Shared.Roles;
@@ -16,6 +19,7 @@ namespace Content.Server.Players.JobWhitelist;
 
 public sealed partial class JobWhitelistManager : IPostInjectInit
 {
+    [Dependency] private IAdminManager _admin = default!;
     [Dependency] private IConfigurationManager _config = default!;
     [Dependency] private IServerDbManager _db = default!;
     [Dependency] private INetManager _net = default!;
@@ -62,6 +66,13 @@ public sealed partial class JobWhitelistManager : IPostInjectInit
     {
         if (!_config.GetCVar(CCVars.GameRoleWhitelist))
             return true;
+
+        if (job == MentorConstants.Job &&
+            _admin.HasAdminFlag(session, AdminFlags.MentorHelp, includeDeAdmin: true))
+        {
+            return true;
+        }
+
         // RMC14-Whitelist-Tweak-Start
         if (!_prototypes.TryIndex(job, out var jobPrototype))
             return true;
