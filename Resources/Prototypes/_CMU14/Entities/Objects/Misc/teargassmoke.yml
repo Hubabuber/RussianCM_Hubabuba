@@ -38,7 +38,8 @@
   - type: ChemicalIrritantInjector
     irritantPerSecond: 7
     affectsDead: false
-    filterDamage: 2
+    affectsInfectedNested: false
+    filterDamage: 1.15
     depletionPerTick: 1
     profile:
       irritantType: tear_gas
@@ -51,6 +52,7 @@
       blurTime: 5
       blindTime: 1
       minimumDelayBetweenTrips: 6
+      dyloveneEfficiency: 0
   - type: DeleteOnExplosion
 
 
