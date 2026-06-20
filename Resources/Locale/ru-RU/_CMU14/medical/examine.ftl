@@ -158,3 +158,8 @@ cmu-medical-detailed-bleed-arterial = артериальное
 cmu-medical-detailed-external-bleeding = внешнее кровотечение: { $tier }
 cmu-medical-detailed-eschar = ожоговый струп: обугленная ткань
 cmu-medical-detailed-severed = ОТСЕЧЕНА
+
+cmu-medical-examine-wound-treated = { $count ->
+    [1] рана обработана
+   *[other] раны обработаны
+}

@@ -5,6 +5,7 @@ using Content.Client._RMC14.Medical.HUD;
 using Content.Client.Message;
 using Content.Shared._CMU14.Medical.Stabilizers;
 using Content.Shared._CMU14.Medical.Wounds;
+using Content.Shared._CMU14.Medical.Organs; // RuMC edit
 using Content.Shared._RMC14.Chemistry.Reagent;
 using Content.Shared._RMC14.Marines.Skills;
 using Content.Shared._RMC14.Medical.HUD;
@@ -210,22 +211,25 @@ public sealed partial class HealthScannerBui : BoundUserInterface
         _window.ChemicalsContainer.Visible = anyChemicals;
         _window.ChemicalContentsCard.Visible = anyChemicals || anyUnknown;
 
-        _window.BloodTypeLabel.Text = "Blood:";
+        _window.BloodTypeLabel.Text = Loc.GetString("cmu-medical-scanner-blood-label"); // RuMC edit
         var bloodMsg = new FormattedMessage();
         bloodMsg.PushColor(Color.FromHex("#25B732"));
 
         var percentage = uiState.MaxBlood == 0 ? 100 : uiState.Blood.Float() / uiState.MaxBlood.Float() * 100f;
         var percentageString = MathHelper.CloseTo(percentage, 100) ? "100%" : $"{percentage:F1}%";
-        bloodMsg.AddText($"{percentageString}, {uiState.Blood}cl");
+        bloodMsg.AddText($"{percentageString}, {uiState.Blood}{Loc.GetString("cmu-medical-scanner-blood-unit")}"); // RuMC edit
         bloodMsg.Pop();
         _window.BloodAmountLabel.SetMessage(bloodMsg);
 
-        if (uiState.CMUExternalBleeding)
-            _window.Bleeding.SetMarkup(" [bold][color=#DF3E3E]\\[Bleeding\\][/color][/bold]");
-        else if (uiState.Bleeding)
-            _window.Bleeding.SetMarkup(" [bold][color=#DF3E3E]\\[Bleeding\\][/color][/bold]");
+        // RuMC edit start
+        if (uiState.CMUExternalBleeding || uiState.Bleeding)
+        {
+            var bleedingText = Loc.GetString("cmu-medical-scanner-chip-bleeding");
+            _window.Bleeding.SetMarkup($" [bold][color=#DF3E3E]\\[{bleedingText}\\][/color][/bold]");
+        }
         else
             _window.Bleeding.SetMessage(string.Empty);
+        // RuMC edit end
 
         var temperatureMsg = new FormattedMessage();
         if (uiState.Temperature is { } temperatureKelvin)
@@ -865,7 +869,7 @@ public sealed partial class HealthScannerBui : BoundUserInterface
             {
                 Text = organ.Removed
                     ? Loc.GetString("cmu-medical-scanner-organ-removed-short")
-                    : organ.Stage.ToString(),
+                    : OrganStageLocalized(organ.Stage), // RuMC edit
                 MinWidth = 70,
                 FontColorOverride = SeverityTextColor(sev),
             });
@@ -1000,6 +1004,16 @@ public sealed partial class HealthScannerBui : BoundUserInterface
             _ => PartSeverity.Healthy,
         };
 
+    private static string OrganStageLocalized(OrganDamageStage stage) => stage switch // RuMC edit
+    {
+        OrganDamageStage.Healthy => Loc.GetString("cmu-medical-scanner-organ-stage-healthy"),
+        OrganDamageStage.Bruised => Loc.GetString("cmu-medical-scanner-organ-stage-bruised"),
+        OrganDamageStage.Damaged => Loc.GetString("cmu-medical-scanner-organ-stage-damaged"),
+        OrganDamageStage.Failing => Loc.GetString("cmu-medical-scanner-organ-stage-failing"),
+        OrganDamageStage.Dead    => Loc.GetString("cmu-medical-scanner-organ-stage-dead"),
+        _                        => stage.ToString(),
+    };
+
     private static Color SeverityFillColor(PartSeverity sev) => sev switch
     {
         PartSeverity.Healthy => Color.FromHex("#3FB44A"),
@@ -1030,11 +1044,24 @@ public sealed partial class HealthScannerBui : BoundUserInterface
         _ => string.Empty,
     };
 
-    private static string PartDisplayName(BodyPartType type, BodyPartSymmetry sym)
+    private string PartDisplayName(BodyPartType type, BodyPartSymmetry sym) // RuCM edit
     {
-        if (sym == BodyPartSymmetry.None)
-            return type.ToString();
-        return $"{sym} {type}";
+        // RuCM edit start
+        return (type, sym) switch
+        {
+            (BodyPartType.Head,  BodyPartSymmetry.None)  => Loc.GetString("cmu-medical-examine-part-head"),
+            (BodyPartType.Torso, BodyPartSymmetry.None)  => Loc.GetString("cmu-medical-examine-part-torso"),
+            (BodyPartType.Arm,   BodyPartSymmetry.Left)  => Loc.GetString("cmu-medical-examine-part-arm-left"),
+            (BodyPartType.Arm,   BodyPartSymmetry.Right) => Loc.GetString("cmu-medical-examine-part-arm-right"),
+            (BodyPartType.Hand,  BodyPartSymmetry.Left)  => Loc.GetString("cmu-medical-examine-part-hand-left"),
+            (BodyPartType.Hand,  BodyPartSymmetry.Right) => Loc.GetString("cmu-medical-examine-part-hand-right"),
+            (BodyPartType.Leg,   BodyPartSymmetry.Left)  => Loc.GetString("cmu-medical-examine-part-leg-left"),
+            (BodyPartType.Leg,   BodyPartSymmetry.Right) => Loc.GetString("cmu-medical-examine-part-leg-right"),
+            (BodyPartType.Foot,  BodyPartSymmetry.Left)  => Loc.GetString("cmu-medical-examine-part-foot-left"),
+            (BodyPartType.Foot,  BodyPartSymmetry.Right) => Loc.GetString("cmu-medical-examine-part-foot-right"),
+            _ => type.ToString(),
+        };
+        // RuCM edit end
     }
 
     // Small switch from CMU organ prototype id (attached organ path) OR
