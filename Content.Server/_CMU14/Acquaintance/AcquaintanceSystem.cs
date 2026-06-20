@@ -13,6 +13,7 @@ using Content.Shared.IdentityManagement;
 using Content.Shared.IdentityManagement.Components;
 using Content.Shared.Interaction;
 using Content.Shared.Mind;
+using Content.Shared.NPC.Components;
 using Content.Shared.Popups;
 using Content.Shared.Verbs;
 using Robust.Shared.Configuration;
@@ -28,6 +29,13 @@ namespace Content.Server._CMU14.Acquaintance;
 /// </summary>
 public sealed partial class AcquaintanceSystem : EntitySystem
 {
+    private static readonly string[] AutomaticallyAcquaintedFactions =
+    {
+        "GOVFOR",
+        "OPFOR",
+        "AUWeYu",
+    };
+
     private static readonly string[] ChatNameColors =
     {
         "#ef9a9a",
@@ -248,6 +256,9 @@ public sealed partial class AcquaintanceSystem : EntitySystem
         if (!CanSeeFace(target))
             return GetUnknownFaceDescription(target);
 
+        if (AreAutomaticallyAcquainted(viewer, target))
+            return Name(target);
+
         if (TryGetMemory(viewer, out var memory) &&
             memory.KnownFaces.TryGetValue(target, out var knownName))
         {
@@ -262,6 +273,12 @@ public sealed partial class AcquaintanceSystem : EntitySystem
         if (viewer == speaker || HasComp<GhostComponent>(viewer))
             return transformedVoiceName;
 
+        if (string.Equals(transformedVoiceName, Name(speaker), StringComparison.Ordinal) &&
+            AreAutomaticallyAcquainted(viewer, speaker))
+        {
+            return Name(speaker);
+        }
+
         if (TryGetMemory(viewer, out var memory) &&
             memory.KnownVoices.TryGetValue(GetVoiceSignature(speaker, transformedVoiceName), out var knownName))
         {
@@ -269,6 +286,26 @@ public sealed partial class AcquaintanceSystem : EntitySystem
         }
 
         return GetUnknownVoiceDescription(speaker, transformedVoiceName);
+    }
+
+    private bool AreAutomaticallyAcquainted(EntityUid first, EntityUid second)
+    {
+        return IsAutomaticallyAcquaintedFaction(first) &&
+               IsAutomaticallyAcquaintedFaction(second);
+    }
+
+    private bool IsAutomaticallyAcquaintedFaction(EntityUid entity)
+    {
+        if (!TryComp(entity, out NpcFactionMemberComponent? factions))
+            return false;
+
+        foreach (var faction in AutomaticallyAcquaintedFactions)
+        {
+            if (factions.Factions.Contains(faction))
+                return true;
+        }
+
+        return false;
     }
 
     public string GetColoredChatName(EntityUid source, string perceivedName)

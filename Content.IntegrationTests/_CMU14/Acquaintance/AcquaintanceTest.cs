@@ -3,6 +3,7 @@ using Content.Server._CMU14.Acquaintance;
 using Content.Server.Mind;
 using Content.Shared._CMU14.Acquaintance;
 using Content.Shared.IdentityManagement.Components;
+using Content.Shared.NPC.Components;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
 
@@ -134,6 +135,51 @@ public sealed class AcquaintanceTest
             Assert.That(acquaintance.GetPerceivedFaceName(listener, speaker), Is.Not.EqualTo(claimedName));
             Assert.That(acquaintance.GetPerceivedVoiceName(listener, speaker, normalVoice), Is.EqualTo(claimedName));
             Assert.That(acquaintance.GetPerceivedVoiceName(listener, speaker, "Changed Voice"), Is.Not.EqualTo(claimedName));
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task ServiceFactionsKnowEachOtherButColonistsDoNot()
+    {
+        await using var pair = await PoolManager.GetServerClient(new PoolSettings
+        {
+            Connected = false,
+            Dirty = true,
+            DummyTicker = false,
+        });
+
+        var server = pair.Server;
+        var entMan = server.EntMan;
+        var acquaintance = entMan.System<AcquaintanceSystem>();
+
+        await server.WaitAssertion(() =>
+        {
+            var govfor = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var opfor = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var weyu = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var colonist = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+            var otherColonist = entMan.SpawnEntity("CMMobHuman", MapCoordinates.Nullspace);
+
+            entMan.EnsureComponent<NpcFactionMemberComponent>(govfor).Factions.Add("GOVFOR");
+            entMan.EnsureComponent<NpcFactionMemberComponent>(opfor).Factions.Add("OPFOR");
+            entMan.EnsureComponent<NpcFactionMemberComponent>(weyu).Factions.Add("AUWeYu");
+            entMan.EnsureComponent<NpcFactionMemberComponent>(colonist).Factions.Add("AUColonist");
+            entMan.EnsureComponent<NpcFactionMemberComponent>(otherColonist).Factions.Add("AUColonist");
+
+            var govforName = entMan.GetComponent<MetaDataComponent>(govfor).EntityName;
+            var opforName = entMan.GetComponent<MetaDataComponent>(opfor).EntityName;
+            var weyuName = entMan.GetComponent<MetaDataComponent>(weyu).EntityName;
+            var otherColonistName = entMan.GetComponent<MetaDataComponent>(otherColonist).EntityName;
+
+            Assert.That(acquaintance.GetPerceivedFaceName(govfor, opfor), Is.EqualTo(opforName));
+            Assert.That(acquaintance.GetPerceivedFaceName(opfor, weyu), Is.EqualTo(weyuName));
+            Assert.That(acquaintance.GetPerceivedVoiceName(weyu, govfor, govforName), Is.EqualTo(govforName));
+
+            Assert.That(acquaintance.GetPerceivedFaceName(colonist, otherColonist), Is.Not.EqualTo(otherColonistName));
+            Assert.That(acquaintance.GetPerceivedFaceName(govfor, colonist), Is.Not.EqualTo(entMan.GetComponent<MetaDataComponent>(colonist).EntityName));
+            Assert.That(acquaintance.GetPerceivedVoiceName(govfor, opfor, "Changed Voice"), Is.Not.EqualTo(opforName));
         });
 
         await pair.CleanReturnAsync();
