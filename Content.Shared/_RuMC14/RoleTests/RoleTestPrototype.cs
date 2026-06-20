@@ -48,6 +48,9 @@ public sealed partial class RoleTestQuestionPrototype : IPrototype
 
     [DataField]
     public HashSet<string> Pools = new() { RoleTestShared.CommonPool };
+
+    [DataField]
+    public string? Source;
 }
 
 [Prototype("roleTestQuestionPool")]
