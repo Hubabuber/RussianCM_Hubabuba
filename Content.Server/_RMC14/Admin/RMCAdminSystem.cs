@@ -13,6 +13,7 @@ using Content.Server.Station.Systems;
 using Content.Shared._RMC14.Admin;
 using Content.Shared._RMC14.CCVar;
 using Content.Shared._RMC14.TacticalMap;
+using Content.Shared.Administration;
 using Content.Shared.Database;
 using Content.Shared.GameTicking;
 using Content.Shared.Ghost;
@@ -117,7 +118,7 @@ public sealed partial class RMCAdminSystem : SharedRMCAdminSystem
 
     public void SpawnAsJob(EntityUid user, EntityUid target, ProtoId<JobPrototype> job)
     {
-        if (!_adminManager.IsAdmin(user))
+        if (!_adminManager.HasAdminFlag(user, AdminFlags.Spawn))
             return;
 
         if (!TryComp(target, out ActorComponent? actor) ||
