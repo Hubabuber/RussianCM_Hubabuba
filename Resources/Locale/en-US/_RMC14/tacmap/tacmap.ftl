@@ -41,3 +41,5 @@ ui-tactical-map-follow-player-inactive = Centre
 ui-tactical-map-cooldown-seconds = {$seconds}
 
 ui-tactical-map-tunnel-info = Tunnel: {$name}
+
+rmc-tactical-map-xeno-update = There's a shift in the hivemind's tactical picture. The mental map sharpens.

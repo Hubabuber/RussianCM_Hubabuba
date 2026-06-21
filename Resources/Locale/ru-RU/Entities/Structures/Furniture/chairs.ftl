@@ -1,71 +1,86 @@
-ent-SeatBase-name = стул
-ent-SeatBase-desc = На этом сидят. По своей воле или принудительно.
+ent-CMSeatBase = абстрактный стул
 
-ent-UnanchoredChairBase-name = стул
-ent-UnanchoredChairBase-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChair = стул
+    .desc = Прямоугольный металлический каркас на четырёх ножках с задней панелью.
 
-ent-ChairBase-name = стул
-ent-ChairBase-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairNonFold = стул
+    .desc = Прямоугольный металлический каркас на четырёх ножках с задней панелью.
 
-ent-OfficeChairBase-name = стул
-ent-OfficeChairBase-desc = На этом сидят. По своей воле или принудительно.
 
-ent-StoolBase-name = табурет
-ent-StoolBase-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairComfy = удобный стул
+    .desc = Стул с кожаной обивкой и регулируемым подголовником. В таком можно просидеть целую вечность.
 
-ent-Chair-name = стул
-ent-Chair-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairComfyBeige = {ent-CMChairComfy}
+    .desc = Стул с кожаной обивкой и регулируемым подголовником. В таком можно просидеть целую вечность.
+    .suffix = Бежевый
 
-ent-ChairGreyscale-name = стул
-ent-ChairGreyscale-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairComfyBlack = {ent-CMChairComfy}
+    .desc = Стул с кожаной обивкой и регулируемым подголовником. В таком можно просидеть целую вечность.
+    .suffix = Чёрный
 
-ent-Stool-name = табурет
-ent-Stool-desc = Просто сядь.
+ent-CMChairComfyBlue = {ent-CMChairComfy}
+    .desc = Стул с кожаной обивкой и регулируемым подголовником. В таком можно просидеть целую вечность.
+    .suffix = Синий
 
-ent-StoolBar-name = барный табурет
-ent-StoolBar-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairComfyLime = {ent-CMChairComfy}
+    .desc = Стул с кожаной обивкой и регулируемым подголовником. В таком можно просидеть целую вечность.
+    .suffix = Лаймовый
 
-ent-ChairBrass-name = латунный стул
-ent-ChairBrass-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairComfyOrange = {ent-CMChairComfy}
+    .desc = Стул с кожаной обивкой и регулируемым подголовником. В таком можно просидеть целую вечность.
+    .suffix = Оранжевый
 
-ent-ChairOfficeLight-name = белое офисное кресло
-ent-ChairOfficeLight-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairComfyTeal = {ent-CMChairComfy}
+    .desc = Стул с кожаной обивкой и регулируемым подголовником. В таком можно просидеть целую вечность.
+    .suffix = Болотный
 
-ent-ChairOfficeDark-name = тёмное офисное кресло
-ent-ChairOfficeDark-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairComfyARES = {ent-CMChairComfy}
+    .desc = Функциональный стул, предназначенный для комфортного сидения одного человека с целью облегчения взаимодействия с корабельным ИИ.
+    .suffix = АРЕС
 
-ent-ComfyChair-name = удобное кресло
-ent-ComfyChair-desc = Выглядит удобным.
+ent-RMCChairComfyAI = {ent-CMChairComfy}
+    .desc = {ent-CMChairComfyARES.desc}
+    .suffix = ИИ
 
-ent-ChairPilotSeat-name = кресло пилота
-ent-ChairPilotSeat-desc = Пилотское кресло на борту служебного судна.
+ent-CMChairComfyAlpha = {ent-CMChairComfy}
+    .desc = Простой стул, намертво прикреплённый к полу. В красной расцветке.
+    .suffix = Альфа
 
-ent-ChairWood-name = деревянный стул
-ent-ChairWood-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairComfyBravo = {ent-CMChairComfy}
+    .desc = Простой стул, намертво прикреплённый к полу. В жёлтой расцветке.
+    .suffix = Браво
 
-ent-ChairRitual-name = ритуальный стул
-ent-ChairRitual-desc = Выглядит неудобно.
+ent-CMChairComfyCharlie = {ent-CMChairComfy}
+    .desc = Простой стул, намертво прикреплённый к полу. В фиолетовой расцветке.
+    .suffix = Чарли
 
-ent-ChairMeat-name = мясной стул
-ent-ChairMeat-desc = Неприятно влажный.
+ent-CMChairComfyDelta = {ent-CMChairComfy}
+    .desc = Простой стул, намертво прикреплённый к полу. В синей расцветке.
+    .suffix = Дельта
 
-ent-ChairCursed-name = проклятый стул
-ent-ChairCursed-desc = Он смотрит в ответ.
+ent-RMCChairComfyAlien = инопланетный стул
+    .desc = Стул с какой-то неизвестной планеты.
 
-ent-ChairWeb-name = паутинный стул
-ent-ChairWeb-desc = Для настоящих веб-разработчиков.
 
-ent-ChairFolding-name = складной стул
-ent-ChairFolding-desc = Если носишь шесть таких — ты самый крутой в церкви.
+ent-RMCSofa = диван
+    .desc = Очень удобный диван на одного. Осторожно, можно задремать в его мягкой обивке.
 
-ent-SteelBench-name = стальная скамья
-ent-SteelBench-desc = Длинное сиденье, типичное для метро. Стандартная конструкция.
+ent-RMCSofaRed = красный диван
+    .desc = {ent-RMCSofa.desc}
 
-ent-WoodenBench-name = деревянная скамья
-ent-WoodenBench-desc = Занозу уже получил? Зато экологично.
+ent-RMCSofaBlack = чёрный диван
+    .desc = {ent-RMCSofa.desc}
 
-ent-ChairXeno-name = ксеностул
-ent-ChairXeno-desc = На этом сидят. По своей воле или принудительно.
 
-ent-ChairFoldingSpawnFolded-name = стул
-ent-ChairFoldingSpawnFolded-desc = На этом сидят. По своей воле или принудительно.
+ent-CMChairOfficeDark = тёмный офисный стул
+    .desc = Стул для офисных клерков.
+
+ent-CMChairOfficeWhite = белый офисный стул
+    .desc = {ent-CMChairOfficeDark.desc}
+
+
+ent-CMChairWood = деревянный стул
+    .desc = Старое никогда не бывает слишком старым, чтобы не быть в моде.
+
+ent-CMChairWoodWings = деревянный стул
+    .desc = Старое никогда не бывает слишком старым, чтобы не быть в моде.

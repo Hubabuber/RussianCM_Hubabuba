@@ -20,7 +20,7 @@ internal sealed class LobbyHighJobPreviewEntry
     public JobPrototype Job { get; }
     public IReadOnlyList<string> GamemodeLabels { get; }
 
-    public string JobName => LobbyHighJobPreview.GetDisplayJobName(Job);
+    public string JobName => LobbyHighJobPreview.GetLocalizedJobName(Job); // RuMC edit
 
     public string DisplayName
     {
