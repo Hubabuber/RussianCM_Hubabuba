@@ -115,8 +115,7 @@ public static class RoleTestShared
     public static bool IsRoleTestExempt(JobPrototype job)
     {
         return job.RoleTestExempt ||
-               job.ID == "AU14JobCivilianColonist" ||
-               job.ID.Contains("Colonist", StringComparison.OrdinalIgnoreCase);
+               job.ID == "AU14JobCivilianColonist";
     }
 
     public static bool RequiresLaw(JobPrototype job)
