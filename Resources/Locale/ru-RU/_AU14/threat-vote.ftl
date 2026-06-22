@@ -1,0 +1,14 @@
+au14-threat-ghost-role-name = Угроза
+au14-threat-leader-ghost-role-name = Лидер угрозы
+au14-threat-ghost-role-description = Присоеденитесь к свободной роли угрозы.
+au14-threat-ghost-role-rules = Вы угроза раунда.Выполните все цели угрозы.
+au14-threat-vote-title = Голосование за выбор угрозы
+au14-threat-vote-option-xeno = Ксеноморфы
+au14-threat-vote-option-abominations = Абоминация
+au14-threat-vote-option-cultist-xeno = Культисты и Ксеноморфы
+au14-threat-vote-option-tribal = Племя
+au14-threat-vote-option-ape = Угроза APE
+au14-threat-vote-option-wendigo = Вендиго
+au14-threat-vote-option-generic = {$threat}
+au14-threat-vote-round-join-blocked = Вы были выбраны для включения в список угрозы. Вы не можете присоединиться в качестве другой роли, пока ваше назначение на роль угрозы находится на рассмотрении.
+au14-threat-vote-colony-fall-observer-warning = Угроза появится в промежутке от {$min} до {$max} минут. Вы можете выбрать роль наблюдателя, но не подключайтесь к раунду или не заходите в роль, иначе вы потеряете место.
