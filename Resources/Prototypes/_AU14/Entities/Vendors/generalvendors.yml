@@ -424,6 +424,11 @@
   abstract: true
   id: AU14VendorWeaponsSpecialistGearBase
   components:
+  - type: RuMC14VendorGameModeFilter # RuMC edit
+    blockedEntries:
+      RMCScoutSpecEquipmentCase:
+        - ForceOnForce
+        - Insurgency
   - type: CMAutomatedVendor
     jobs:
     - AU14JobGOVFORWeaponsSpecialist

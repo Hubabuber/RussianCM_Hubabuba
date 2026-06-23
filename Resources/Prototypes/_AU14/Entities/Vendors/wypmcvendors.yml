@@ -781,6 +781,11 @@
 
     Special weapons protocol: one weapon system of choice with a full ammunition loadout and explosives.
   components:
+  - type: RuMC14VendorGameModeFilter # RuMC edit
+    blockedEntries:
+      RMCScoutSpecEquipmentCase:
+        - ForceOnForce
+        - Insurgency
   - type: CMAutomatedVendor
     sections:
     - name: Weapons Specialist Sets
