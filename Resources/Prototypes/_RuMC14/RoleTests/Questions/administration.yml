@@ -3,197 +3,111 @@
 # Pool: group:cmu-administration
 # ============================================================
 - type: roleTestQuestion
-  id: RoleTestCivilianColonyAdminAssistant001
-  text: "Продолжите фразу из правил: «Играя за ту или иную роль, на вас зачастую лежит ответственность за...»"
+  id: RoleTestAdministrationClean001
+  text: "Административные роли отвечают за..."
   answers:
-    - "общую атмосферу на проекте."
-    - "личную победу в раунде."
-    - "контроль всех отделов."
-    - "поиск антагонистов."
+    - "документы, коммуникацию, учёт и организационную поддержку."
+    - "боевое командование."
+    - "лечение."
+    - "аресты."
   correctAnswer: 0
   pools: [ "group:cmu-administration" ]
+
 - type: roleTestQuestion
-  id: RoleTestCivilianColonyAdminAssistant002
-  text: "Согласно правилам, действия на важной роли не должны ломать темп раунда, обрывать его без причины или..."
+  id: RoleTestAdministrationClean002
+  text: "Если вопрос вне компетенции администрации, нужно..."
   answers:
-    - "создавать IC-документы."
-    - "затягивать искусственно."
-    - "требовать общения с игроками."
-    - "мешать личной свободе персонажа."
-  correctAnswer: 1
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianColonyAdminAssistant003
-  text: "Продолжите фразу из правил: «Если вы не знаете, что делать, занимая важную роль...»"
-  answers:
-    - "временно игнорируйте обязанности роли."
-    - "покиньте раунд."
-    - "попросите кого-нибудь вам помочь."
-    - "делайте как считаете нужным."
-  correctAnswer: 2
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianColonyAdminAssistant004
-  text: "Согласно правилам, нонРП или несерьёзное РП на сервере..."
-  answers:
-    - "разрешено неответственным ролям."
-    - "допускается в конце раунда."
-    - "разрешено, если никто не жалуется."
-    - "не допускается."
+    - "самовольно решить за другой отдел."
+    - "проигнорировать."
+    - "наказать обратившегося."
+    - "направить человека к профильному отделу или начальству."
   correctAnswer: 3
   pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianColonyAdminAssistant005
-  text: "Согласно правилам, в ролевом чате запрещено использование..."
-  answers:
-    - "любых неролевых слов."
-    - "любых официальных обращений."
-    - "любых длинных сообщений, длиннее 20 слов"
-    - "любых англицизмов."
-  correctAnswer: 0
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianColonyAdminAssistant006
-  text: "Согласно правилам имени персонажа, оно должно содержать..."
-  answers:
-    - "только позывной."
-    - "имя и фамилию."
-    - "имя и фамлиию и позывной"
-    - "любое известное имя."
-  correctAnswer: 1
-  pools: [ "group:cmu-administration" ]
 
-
-# ============================================================
-# AU14JobCivilianColonyAdministrator
-# ============================================================
 - type: roleTestQuestion
-  id: RoleTestCivilianCorporateAssistant001
-  text: "Согласно правилам, использовать проект для рекламирования сторонних ресурсов..."
+  id: RoleTestAdministrationClean003
+  text: "Служебные документы должны быть..."
   answers:
-    - "нельзя без согласования с руководством проекта."
-    - "можно один раз за раунд."
-    - "можно, если ресурс связан с SS14 и в специально отведенном канале в Discord."
-    - "можно только в OOC или чатах Discord."
-  correctAnswer: 0
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianCorporateAssistant002
-  text: "Продолжите фразу из правил: «Правила созданы в первую очередь для...»"
-  answers:
-    - "баланса"
-    - "поддержания дружественной атмосферы."
-    - "запрета всех конфликтов."
-    - "всех."
-  correctAnswer: 1
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianCorporateAssistant003
-  text: "Согласно правилам, не пытайтесь обойти правила..."
-  answers:
-    - "если это нужно для сделки."
-    - "если это помогает отделу."
-    - "для получения преимущества."
-    - "когда рядом нет свидетелей."
+    - "с OOC-комментариями."
+    - "секретными без причины."
+    - "понятными, аккуратными и соответствующими IC-ситуации."
+    - "абсурдными ради шутки."
   correctAnswer: 2
   pools: [ "group:cmu-administration" ]
+
 - type: roleTestQuestion
-  id: RoleTestCivilianCorporateAssistant004
-  text: "Согласно правилам, элитизм включает оскорбления и унижения игроков на почве опытности в SS14, различия серверов, версий модов или..."
+  id: RoleTestAdministrationClean004
+  text: "Административная роль не должна использовать доступ для..."
   answers:
-    - "разницы IC-должностей."
-    - "принадлежности к корпорации."
-    - "различия зарплаты."
-    - "любых других различий между участниками сообщества."
+    - "оформления заявок."
+    - "личной выгоды или давления без IC-оснований."
+    - "ведения учёта."
+    - "передачи информации."
+  correctAnswer: 1
+  pools: [ "group:cmu-administration" ]
+
+- type: roleTestQuestion
+  id: RoleTestAdministrationClean005
+  text: "Реклама сторонних ресурсов через проект допустима только..."
+  answers:
+    - "после согласования с руководством проекта."
+    - "если выгодно роли."
+    - "если написано IC."
+    - "если никто не заметил."
+  correctAnswer: 0
+  pools: [ "group:cmu-administration" ]
+
+- type: roleTestQuestion
+  id: RoleTestAdministrationClean006
+  text: "Журналист или представитель не должен..."
+  answers:
+    - "задавать вопросы."
+    - "вести записи."
+    - "брать интервью."
+    - "использовать OOC-информацию как IC-материал."
   correctAnswer: 3
   pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianCorporateAssistant005
-  text: "Согласно правилам, спорный контент запрещён в аватарах, баннерах, статусах, никнеймах и..."
-  answers:
-    - "профилях участников сообщества."
-    - "служебных документах."
-    - "названиях отделов."
-    - "IC-отчётах."
-  correctAnswer: 0
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianCorporateAssistant006
-  text: "Согласно правилам, при обнаружении бага или эксплойта игрок должен..."
-  answers:
-    - "проверить его несколько раз."
-    - "сообщить администрации через Discord и не использовать его."
-    - "рассказать о нём отделу."
-    - "использовать только для теста."
-  correctAnswer: 1
-  pools: [ "group:cmu-administration" ]
 
-
-# ============================================================
-# AU14JobCivilianCorporateLiaison
-# ============================================================
 - type: roleTestQuestion
-  id: RoleTestCivilianJournalist001
-  text: "Согласно правилам, в ролевом чате запрещено использование..."
+  id: RoleTestAdministrationClean007
+  text: "В спорной ситуации административный сотрудник должен стремиться к..."
   answers:
-    - "любых неролевых слов."
-    - "официальных обращений."
-    - "длинных сообщений."
-    - "журналистских вопросов."
-  correctAnswer: 0
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianJournalist002
-  text: "Согласно правилам, метагейминг — это использование информации, которую персонаж..."
-  answers:
-    - "получил в интервью."
-    - "не мог получить в игре."
-    - "услышал по радио."
-    - "прочитал в документе."
-  correctAnswer: 1
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianJournalist003
-  text: "Согласно правилам, запрещено получать или передавать информацию о раунде через Discord, личные сообщения, стримы и..."
-  answers:
-    - "IC-документы."
-    - "радио."
-    - "любые другие внеигровые источники."
-    - "разговоры персонажей."
+    - "эскалации."
+    - "скрытию проблемы."
+    - "фиксации фактов и передаче вопроса компетентным лицам."
+    - "самосуду."
   correctAnswer: 2
   pools: [ "group:cmu-administration" ]
+
 - type: roleTestQuestion
-  id: RoleTestCivilianJournalist004
-  text: "Согласно правилам, обсуждение реальной политики запрещено, если оно не связано напрямую с игровым процессом и..."
+  id: RoleTestAdministrationClean008
+  text: "Административная должность не даёт права..."
   answers:
-    - "происходит в IC."
-    - "не ведётся спокойно."
-    - "содержит оскорбления."
-    - "может привести к конфликту."
-  correctAnswer: 3
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianJournalist005
-  text: "Согласно правилам, спорный контент запрещён в аватарах, баннерах, статусах, никнеймах и..."
-  answers:
-    - "профилях участников сообщества."
-    - "IC-отчётах."
-    - "обычных новостях."
-    - "служебных бумагах."
-  correctAnswer: 0
-  pools: [ "group:cmu-administration" ]
-- type: roleTestQuestion
-  id: RoleTestCivilianJournalist006
-  text: "Согласно правилам, грамотная речь способствует..."
-  answers:
-    - "быстрой победе."
-    - "погружению в атмосферу игры."
-    - "уменьшению срока бана."
-    - "избежанию IC-ответственности."
+    - "запрашивать информацию."
+    - "командовать профильными отделами вне полномочий."
+    - "вести переписку."
+    - "оформлять обращения."
   correctAnswer: 1
   pools: [ "group:cmu-administration" ]
 
+- type: roleTestQuestion
+  id: RoleTestAdministrationClean009
+  text: "Официальный отчёт должен описывать..."
+  answers:
+    - "то, что персонаж мог узнать в игре."
+    - "сведения из Discord."
+    - "информацию со стрима."
+    - "OOC-догадки."
+  correctAnswer: 0
+  pools: [ "group:cmu-administration" ]
 
-# ============================================================
-# AU14JobCivilianKellandWarden
-# ============================================================
+- type: roleTestQuestion
+  id: RoleTestAdministrationClean010
+  text: "Главная ошибка административной роли — это..."
+  answers:
+    - "запрашивать документы."
+    - "вести журнал."
+    - "передавать жалобу."
+    - "брать власть или обязанности чужого отдела без оснований."
+  correctAnswer: 3
+  pools: [ "group:cmu-administration" ]

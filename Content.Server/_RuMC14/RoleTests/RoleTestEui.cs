@@ -397,23 +397,25 @@ public sealed class RoleTestEui : BaseEui
 
     private RoleTestDefinition CreateJobRoleTest(JobPrototype job)
     {
-        var pool = _prototypes.Index<RoleTestQuestionPoolPrototype>(job.ID);
-        var responsibility = pool.Responsibility;
+        var rolePool = _prototypes.Index<RoleTestQuestionPoolPrototype>(job.ID);
+        var responsibility = rolePool.Responsibility;
         var requiresLaw = RoleTestShared.RequiresLaw(job);
-        var usesSharedRolePool = !RoleTestShared.IsCivilianJob(job);
-        var rolePool = pool.Pool;
-        var questionPools = new HashSet<string>
+        var configuredPools = rolePool.GetPools();
+        configuredPools.Remove(RoleTestShared.CommonPool);
+        configuredPools.Remove(RoleTestShared.LawPool);
+        var questionPools = new HashSet<string>(configuredPools)
         {
             RoleTestShared.CommonPool,
-            rolePool,
         };
         var requiredPools = new Dictionary<string, int>
         {
             [RoleTestShared.CommonPool] = RoleTestShared.GetRequiredCommonQuestionCount(responsibility),
         };
 
-        if (usesSharedRolePool)
-            requiredPools[rolePool] = RoleTestShared.GetRequiredRoleQuestionCount(responsibility, requiresLaw);
+        foreach (var configuredPool in configuredPools)
+        {
+            requiredPools[configuredPool] = RoleTestShared.GetRequiredConfiguredPoolQuestionCount(responsibility);
+        }
 
         if (requiresLaw)
         {
@@ -431,8 +433,7 @@ public sealed class RoleTestEui : BaseEui
             requiredPools,
             requiresLaw,
             job.ID,
-            rolePool,
-            usesSharedRolePool);
+            configuredPools);
     }
 
     private List<TestQuestion> GetQuestions(RoleTestDefinition test)
@@ -446,10 +447,26 @@ public sealed class RoleTestEui : BaseEui
                 question.Pools))
             .Where(question => question.Pools.Overlaps(test.QuestionPools))
             .Where(question => IsQuestionEligibleForTest(question, test))
+            .Where(question => !IsQuestionSpecificToAnotherJob(question.ID, test.JobId))
             .Where(question =>
                 !question.Pools.Contains(RoleTestShared.CommonPool) ||
                 RoleTestShared.IsGeneralCommonQuestion(question.ID))
             .ToList();
+    }
+
+    private bool IsQuestionSpecificToAnotherJob(string questionId, string jobId)
+    {
+        foreach (var pool in _prototypes.EnumeratePrototypes<RoleTestQuestionPoolPrototype>())
+        {
+            var otherJobId = pool.Job.Id;
+            if (otherJobId == jobId)
+                continue;
+
+            if (RoleTestShared.IsJobSpecificQuestion(questionId, otherJobId))
+                return true;
+        }
+
+        return false;
     }
 
     private static bool IsQuestionEligibleForTest(TestQuestion question, RoleTestDefinition test)
@@ -463,7 +480,7 @@ public sealed class RoleTestEui : BaseEui
         if (test.RequiresLaw && question.Pools.Contains(RoleTestShared.LawPool))
             return true;
 
-        return test.UsesSharedRolePool && question.Pools.Contains(test.RolePool);
+        return question.Pools.Overlaps(test.ConfiguredPools);
     }
 
     private sealed record RoleTestDefinition(
@@ -476,8 +493,7 @@ public sealed class RoleTestEui : BaseEui
         Dictionary<string, int> RequiredPools,
         bool RequiresLaw,
         string JobId,
-        string RolePool,
-        bool UsesSharedRolePool);
+        HashSet<string> ConfiguredPools);
 
     private sealed record TestQuestion(
         string ID,

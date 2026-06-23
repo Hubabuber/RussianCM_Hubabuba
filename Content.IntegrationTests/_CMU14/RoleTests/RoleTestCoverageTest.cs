@@ -24,6 +24,9 @@ public sealed class RoleTestCoverageTest
             var whitelisted = new SortedSet<string>();
             var questions = prototypes.EnumeratePrototypes<RoleTestQuestionPrototype>().ToList();
             var testPools = prototypes.EnumeratePrototypes<RoleTestQuestionPoolPrototype>().ToList();
+            var testedJobIds = testPools
+                .Select(pool => pool.Job.Id)
+                .ToHashSet();
 
             foreach (var department in prototypes.EnumeratePrototypes<DepartmentPrototype>())
             {
@@ -55,7 +58,15 @@ public sealed class RoleTestCoverageTest
             foreach (var pool in testPools)
             {
                 var job = prototypes.Index(pool.Job);
-                var usesSharedRolePool = !RoleTestShared.IsCivilianJob(job);
+                var configuredPools = pool.GetPools();
+                configuredPools.Remove(RoleTestShared.CommonPool);
+                configuredPools.Remove(RoleTestShared.LawPool);
+                if (configuredPools.Count == 0)
+                {
+                    insufficient.Add($"{job.ID}: has no configured question pools");
+                    continue;
+                }
+
                 var jobSpecific = questions
                     .Where(question => RoleTestShared.IsJobSpecificQuestion(question.ID, job.ID))
                     .DistinctBy(question => NormalizeQuestionText(question.Text), StringComparer.OrdinalIgnoreCase)
@@ -67,27 +78,29 @@ public sealed class RoleTestCoverageTest
                         $"requires {RoleTestShared.RequiredJobSpecificQuestionCount}");
                 }
 
-                var required = RoleTestShared.GetRequiredRoleQuestionCount(
-                    pool.Responsibility,
-                    RoleTestShared.RequiresLaw(job));
-                if (usesSharedRolePool)
+                foreach (var configuredPool in configuredPools)
                 {
                     var available = questions
-                        .Where(question => question.Pools.Contains(pool.Pool))
+                        .Where(question => question.Pools.Contains(configuredPool))
                         .DistinctBy(question => NormalizeQuestionText(question.Text), StringComparer.OrdinalIgnoreCase)
                         .Count();
+                    var requiredConfigured = RoleTestShared.GetRequiredConfiguredPoolQuestionCount(pool.Responsibility);
 
-                    if (available < required)
-                        insufficient.Add($"{job.ID}: pool {pool.Pool} has {available}, requires {required}");
+                    if (available < requiredConfigured)
+                        insufficient.Add($"{job.ID}: pool {configuredPool} has {available}, requires {requiredConfigured}");
                 }
 
-                var testPoolsForJob = new HashSet<string> { RoleTestShared.CommonPool, pool.Pool };
+                var testPoolsForJob = new HashSet<string>(configuredPools)
+                {
+                    RoleTestShared.CommonPool,
+                };
                 if (RoleTestShared.RequiresLaw(job))
                     testPoolsForJob.Add(RoleTestShared.LawPool);
 
                 var eligibleQuestions = questions
                     .Where(question => question.Pools.Overlaps(testPoolsForJob))
-                    .Where(question => IsQuestionEligibleForJob(question, job, pool.Pool, usesSharedRolePool))
+                    .Where(question => IsQuestionEligibleForJob(question, job, configuredPools))
+                    .Where(question => !IsQuestionSpecificToAnotherJob(question.ID, job.ID, testedJobIds))
                     .Where(question =>
                         !question.Pools.Contains(RoleTestShared.CommonPool) ||
                         RoleTestShared.IsGeneralCommonQuestion(question.ID))
@@ -125,21 +138,31 @@ public sealed class RoleTestCoverageTest
                 }),
                 "Role test pools must include low, medium, and high responsibility roles.");
 
-            const string scientistJob = "AU14JobCivilianScientist";
-            var scientistQuestions = questions
-                .Where(question => RoleTestShared.IsJobSpecificQuestion(question.ID, scientistJob))
-                .ToList();
-            Assert.That(scientistQuestions, Has.Count.GreaterThanOrEqualTo(
-                RoleTestShared.RequiredJobSpecificQuestionCount));
-            Assert.That(scientistQuestions, Has.All.Matches<RoleTestQuestionPrototype>(question =>
-                question.Pools.Contains("group:cmu-technical")));
-
             var scientistCommonQuestions = questions
                 .Where(question => question.Pools.Contains(RoleTestShared.CommonPool))
                 .Where(question => RoleTestShared.IsGeneralCommonQuestion(question.ID))
                 .ToList();
             Assert.That(scientistCommonQuestions, Has.None.Matches<RoleTestQuestionPrototype>(question =>
                 question.Text.Contains("SOP", StringComparison.OrdinalIgnoreCase)));
+
+            Assert.That(GetConfiguredPools(testPools, "AU14JobCivilianScientist"), Is.EquivalentTo(new[]
+            {
+                "group:cmu-technical",
+            }));
+            Assert.That(GetConfiguredPools(testPools, "AU14JobCivilianPhysician"), Is.EquivalentTo(new[]
+            {
+                "group:cmu-medical",
+            }));
+            Assert.That(GetConfiguredPools(testPools, "AU14JobCivilianHeadPhysician"), Is.EquivalentTo(new[]
+            {
+                "group:cmu-colony-command",
+                "group:cmu-medical",
+            }));
+            Assert.That(GetConfiguredPools(testPools, "AU14JobGOVFORPlatoonCorpsman"), Is.EquivalentTo(new[]
+            {
+                "group:cmu-medical",
+                "group:cmu-military-command",
+            }));
         });
 
         await pair.CleanReturnAsync();
@@ -153,8 +176,7 @@ public sealed class RoleTestCoverageTest
     private static bool IsQuestionEligibleForJob(
         RoleTestQuestionPrototype question,
         JobPrototype job,
-        string rolePool,
-        bool usesSharedRolePool)
+        HashSet<string> configuredPools)
     {
         if (question.Pools.Contains(RoleTestShared.CommonPool))
             return true;
@@ -165,7 +187,37 @@ public sealed class RoleTestCoverageTest
         if (RoleTestShared.RequiresLaw(job) && question.Pools.Contains(RoleTestShared.LawPool))
             return true;
 
-        return usesSharedRolePool && question.Pools.Contains(rolePool);
+        return question.Pools.Overlaps(configuredPools);
+    }
+
+    private static bool IsQuestionSpecificToAnotherJob(
+        string questionId,
+        string jobId,
+        HashSet<string> testedJobIds)
+    {
+        foreach (var otherJobId in testedJobIds)
+        {
+            if (otherJobId == jobId)
+                continue;
+
+            if (RoleTestShared.IsJobSpecificQuestion(questionId, otherJobId))
+                return true;
+        }
+
+        return false;
+    }
+
+    private static HashSet<string> GetConfiguredPools(
+        IEnumerable<RoleTestQuestionPoolPrototype> pools,
+        string jobId)
+    {
+        var configuredPools = pools
+            .Single(pool => pool.Job.Id == jobId)
+            .GetPools();
+        configuredPools.Remove(RoleTestShared.CommonPool);
+        configuredPools.Remove(RoleTestShared.LawPool);
+
+        return configuredPools;
     }
 
     private static bool ContainsRestrictedRoleKnowledge(RoleTestQuestionPrototype question)

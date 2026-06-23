@@ -62,11 +62,26 @@ public sealed partial class RoleTestQuestionPoolPrototype : IPrototype
     [DataField(required: true)]
     public ProtoId<JobPrototype> Job;
 
-    [DataField(required: true)]
-    public string Pool = string.Empty;
+    [DataField]
+    public HashSet<string> Pools = new();
+
+    // Backwards-compatible loader for old single-pool definitions.
+    [DataField]
+    public string? Pool;
 
     [DataField(required: true)]
     public RoleTestResponsibility Responsibility;
+
+    public HashSet<string> GetPools()
+    {
+        if (Pools.Count > 0)
+            return Pools;
+
+        if (!string.IsNullOrWhiteSpace(Pool))
+            return new HashSet<string> { Pool };
+
+        return new HashSet<string>();
+    }
 }
 
 public enum RoleTestResponsibility : byte
@@ -85,6 +100,7 @@ public static class RoleTestShared
     public const string RetryCooldownTracker = "RoleTest:RetryCooldownUntil";
     public const int RequiredJobSpecificQuestionCount = 6;
     private const string CommonQuestionPrefix = "RoleTestCommon";
+    private const string CommonCleanQuestionPrefix = "RoleTestCommonClean";
     // Questions after this point cover game modes, military terminology, ROE and SOP.
     private const int GeneralCommonQuestionCount = 51;
     public static readonly TimeSpan RetryCooldown = TimeSpan.FromHours(1);
@@ -119,6 +135,9 @@ public static class RoleTestShared
 
     public static bool IsGeneralCommonQuestion(string questionId)
     {
+        if (questionId.StartsWith(CommonCleanQuestionPrefix, StringComparison.Ordinal))
+            return true;
+
         if (!questionId.StartsWith(CommonQuestionPrefix, StringComparison.Ordinal))
             return true;
 
@@ -171,7 +190,7 @@ public static class RoleTestShared
         {
             RoleTestResponsibility.Low => 10,
             RoleTestResponsibility.Medium => 25,
-            RoleTestResponsibility.High => 50,
+            RoleTestResponsibility.High => 30,
             _ => 10,
         };
     }
@@ -182,7 +201,7 @@ public static class RoleTestShared
         {
             RoleTestResponsibility.Low => 2,
             RoleTestResponsibility.Medium => 5,
-            RoleTestResponsibility.High => 10,
+            RoleTestResponsibility.High => 5,
             _ => 2,
         };
     }
@@ -193,8 +212,19 @@ public static class RoleTestShared
         {
             RoleTestResponsibility.Low => 4,
             RoleTestResponsibility.Medium => 10,
-            RoleTestResponsibility.High => 20,
+            RoleTestResponsibility.High => 10,
             _ => 4,
+        };
+    }
+
+    public static int GetRequiredConfiguredPoolQuestionCount(RoleTestResponsibility responsibility)
+    {
+        return responsibility switch
+        {
+            RoleTestResponsibility.Low => 2,
+            RoleTestResponsibility.Medium => 5,
+            RoleTestResponsibility.High => 5,
+            _ => 2,
         };
     }
 
