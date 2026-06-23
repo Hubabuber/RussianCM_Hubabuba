@@ -163,3 +163,11 @@ cmu-medical-scanner-fracture-severity-hairline    = трещинный
 cmu-medical-scanner-fracture-severity-simple      = простой
 cmu-medical-scanner-fracture-severity-compound    = открытый
 cmu-medical-scanner-fracture-severity-comminuted  = оскольчатый
+
+cmu-medical-scanner-organ-stage-healthy  = Здоров
+cmu-medical-scanner-organ-stage-damaged  = Повреждён
+cmu-medical-scanner-organ-stage-failing  = Отказывает
+cmu-medical-scanner-organ-stage-dead     = Мёртв
+
+cmu-medical-scanner-blood-label            = Кровь:
+cmu-medical-scanner-blood-unit             = ед

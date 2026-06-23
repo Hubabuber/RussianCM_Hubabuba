@@ -33,8 +33,6 @@ public sealed partial class MentorManager : IPostInjectInit
     [Dependency] private UserDbDataManager _userDb = default!;
 
     private const string RateLimitKey = "MentorHelp";
-    private static readonly ProtoId<JobPrototype> MentorJob = "CMSeniorEnlistedAdvisor";
-
     private readonly HashSet<ICommonSession> _activeMentors = new();
     private readonly Dictionary<NetUserId, bool> _mentors = new();
     private readonly Dictionary<NetUserId, (TimeSpan Timestamp, bool Typing)> _typingUpdateTimestamps = new();
@@ -44,7 +42,7 @@ public sealed partial class MentorManager : IPostInjectInit
     private async Task LoadData(ICommonSession player, CancellationToken cancel)
     {
         var userId = player.UserId;
-        var isMentor = await _db.IsJobWhitelisted(player.UserId, MentorJob, cancel);
+        var isMentor = await _db.IsJobWhitelisted(player.UserId, MentorConstants.Job, cancel);
 
         if (!isMentor)
         {

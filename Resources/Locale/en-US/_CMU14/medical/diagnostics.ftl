@@ -162,3 +162,11 @@ cmu-medical-scanner-fracture-severity-hairline    = hairline
 cmu-medical-scanner-fracture-severity-simple      = simple
 cmu-medical-scanner-fracture-severity-compound    = compound
 cmu-medical-scanner-fracture-severity-comminuted  = comminuted
+
+cmu-medical-scanner-organ-stage-healthy  = Healthy
+cmu-medical-scanner-organ-stage-damaged  = Damaged
+cmu-medical-scanner-organ-stage-failing  = Failing
+cmu-medical-scanner-organ-stage-dead     = Dead
+
+cmu-medical-scanner-blood-label            = Blood:
+cmu-medical-scanner-blood-unit             = cl

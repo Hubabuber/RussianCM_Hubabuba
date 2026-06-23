@@ -66,3 +66,9 @@ cmu-medical-detailed-examine-none = No obvious injuries found.
 cmu-medical-detailed-examine-window-title = Injuries - { $target }
 cmu-medical-detailed-examine-window-heading = Injury report
 cmu-medical-detailed-examine-window-bleeding = Bleeding: { $tier }
+
+cmu-medical-examine-wound-treated = { $count ->
+    [1] wound treated
+   *[other] wounds treated
+}
+
