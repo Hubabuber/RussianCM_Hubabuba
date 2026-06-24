@@ -95,7 +95,9 @@ public static class RoleTestShared
 {
     public const string CommonPool = "common";
     public const string LawPool = "law";
+    public const string RoleTestTrackerPrefix = "RoleTest:";
     public const string JobTestPrefix = "Job:";
+    public const string JobTestTrackerPrefix = RoleTestTrackerPrefix + JobTestPrefix;
     public const string JobQuestionPoolPrefix = "job:";
     public const string RetryCooldownTracker = "RoleTest:RetryCooldownUntil";
     public const int RequiredJobSpecificQuestionCount = 6;
@@ -107,7 +109,7 @@ public static class RoleTestShared
 
     public static string GetTracker(string testId)
     {
-        return $"RoleTest:{testId}";
+        return $"{RoleTestTrackerPrefix}{testId}";
     }
 
     public static string GetJobTestId(string jobId)

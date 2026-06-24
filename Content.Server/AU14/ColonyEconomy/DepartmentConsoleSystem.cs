@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server._RMC14.Requisitions;
 using Content.Server.Chat.Systems;
 using Content.Server.Stack;
 using Content.Shared.Access.Components;
@@ -55,6 +56,7 @@ public sealed partial class DepartmentConsoleSystem : EntitySystem
     [Dependency] private AdminConsoleSystem _adminConsole = default!;
     [Dependency] private StackSystem _stack = default!;
     [Dependency] private IPrototypeManager _prototypeManager = default!;
+    [Dependency] private RequisitionsSystem _requisitions = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private AccessReaderSystem _accessReader = default!;
@@ -616,7 +618,10 @@ public sealed partial class DepartmentConsoleSystem : EntitySystem
         if (elevator == null)
             return;
 
-        var orderedBy = Loc.GetString("department-console-unknown");
+        if (!_requisitions.TryReserveStock(nearestComputer.Value, msg.CategoryIndex, msg.EntryIndex))
+            return;
+
+        var orderedBy = "Unknown";
         if (_idCard.TryFindIdCard(msg.Actor, out var actorId))
             orderedBy = actorId.Comp.FullName ?? Loc.GetString("department-console-unknown");
 

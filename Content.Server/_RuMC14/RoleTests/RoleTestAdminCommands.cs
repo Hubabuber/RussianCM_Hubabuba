@@ -170,3 +170,23 @@ public sealed partial class RoleTestGetCommand : LocalizedCommands
         };
     }
 }
+
+[AdminCommand(AdminFlags.Host)]
+public sealed partial class RoleTestDropAllCommand : LocalizedCommands
+{
+    [Dependency] private PlayTimeTrackingManager _playTime = default!;
+
+    public override string Command => "role_test_drop_all";
+
+    public override async void Execute(IConsoleShell shell, string argStr, string[] args)
+    {
+        if (args.Length != 0)
+        {
+            shell.WriteError(Help);
+            return;
+        }
+
+        var deleted = await _playTime.DeletePlayTimesByTrackerPrefix(RoleTestShared.JobTestTrackerPrefix);
+        shell.WriteLine(Loc.GetString("cmd-role_test_drop_all-success", ("count", deleted)));
+    }
+}

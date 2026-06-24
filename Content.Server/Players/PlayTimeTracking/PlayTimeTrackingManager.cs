@@ -363,6 +363,30 @@ public sealed partial class PlayTimeTrackingManager : ISharedPlaytimeManager, IP
         await _db.UpdatePlayTimes(updates);
     }
 
+    // RuCM: Administrative bulk reset helper.
+    public async Task<int> DeletePlayTimesByTrackerPrefix(string trackerPrefix)
+    {
+        await Task.WhenAll(_pendingSaveTasks.ToArray());
+        FlushAllTrackers();
+
+        foreach (var (session, data) in _playTimeData)
+        {
+            var trackers = data.TrackerTimes.Keys
+                .Where(tracker => tracker.StartsWith(trackerPrefix, StringComparison.Ordinal))
+                .ToArray();
+
+            foreach (var tracker in trackers)
+            {
+                data.TrackerTimes.Remove(tracker);
+                data.DbTrackersDirty.Remove(tracker);
+            }
+
+            QueueSendTimers(session);
+        }
+
+        return await _db.DeletePlayTimesByTrackerPrefix(trackerPrefix);
+    }
+
     private static void FlushSingleTracker(PlayTimeData data, TimeSpan time)
     {
         var delta = time - data.LastUpdate;
