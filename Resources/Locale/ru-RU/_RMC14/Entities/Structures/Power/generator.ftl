@@ -1,19 +1,21 @@
-ent-RMCPortableGenerator2 = Портативный генератор типа СУПЕРПАКМАН
-  .desc = Портативный генератор для аварийного резервного питания.
+ent-RMCPortableGenerator2 = портативный генератор типа супер П.А.К.М.А.Н.
+    .desc = Портативный генератор для аварийного резервного питания.
 
-ent-RMCPortableGenerator = Портативный генератор типа P.A.C.M.A.N.
-  .desc = Портативный генератор для аварийного резервного питания.
+ent-RMCPortableGenerator = портативный генератор типа П.А.К.М.А.Н.
+    .desc = Портативный генератор для аварийного резервного питания.
 
-ent-RMCGeneratorFusionCell = Универсальный топливный элемент WL-6
-  .desc = Перезаряжаемый топливный элемент.
+ent-RMCGeneratorFusionCell = универсальный топливный элемент УТЭ-6
+    .desc = Топливный элемент для термоядерных реакторов.
 
-ent-RMCGeneratorFusionColony = Геотермальный генератор Г-11
-  .desc = Термоэлектрический генератор, расположенный на вершине заполненной плазмой скважины.
+ent-RMCGeneratorFusionColony = геотермальный генератор Г-11
+    .desc = Термоэлектрический генератор, расположенный на вершине заполненной плазмой скважины.
 
-ent-RMCGeneratorFusion = Термоядерный реактор С-52
+ent-RMCGeneratorFusionColonyNoMapIcon = {ent-RMCGeneratorFusionColony}
+    .desc = {ent-RMCGeneratorFusionColony.desc}
+    .suffix = Без иконки
 
-ent-RMCGeneratorFusionFake = безвозвратно разрушенный термоядерный реактор С-52
+ent-RMCGeneratorFusion = термоядерный реактор ТЯ-52
+    .desc = Чудо энергетики разработанное отделением энергетики Вейланд-Ютани.
 
-ent-RMCGeneratorFusionColonyNoMapIcon = Геотермальный генератор Г-11
-  .desc = Термоэлектрический генератор, расположенный на вершине заполненной плазмой скважины.
-
+ent-RMCGeneratorFusionFake = сломанный термоядерный реактор ТЯ-52
+    .desc = Больше не даёт свет людям.

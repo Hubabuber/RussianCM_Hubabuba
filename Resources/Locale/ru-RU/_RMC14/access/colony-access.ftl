@@ -7,12 +7,8 @@ cm-access-colony-medbay = Колониальный мед-пункт
 cm-access-colony-command = Колониальное командование
 rmc-access-colony-armory = Оружейная колонии
 
-# Missing entries synced from en-US
+au-access-prison = Тюрьма
 
-au-access-prison = Тюремный персонал
-
-rmc-access-tsepa = ЦЕПА
-
-rmc-access-tsepa-brig = ЦЭПА Бриг
-
-rmc-access-tsepa-inspector = Инспектор ЦЭПА
+rmc-access-tsepa = ПДСН
+rmc-access-tsepa-brig = Бриг ПДСН
+rmc-access-tsepa-inspector = Инспектор ПДСН

@@ -123,8 +123,8 @@ public sealed partial class AdminConsoleSystem : EntitySystem
         {
             var sound = new Robust.Shared.Audio.SoundPathSpecifier("/Audio/Announcements/announce.ogg");
             _chat.DispatchGlobalAnnouncement(
-                $"Colony sales tax has been set to {clamped:F0}%.",
-                "Administration",
+                Loc.GetString("au14-admin-console-sales-tax-set", ("percent", (int)clamped)), // RuMC edit
+                Loc.GetString("au14-admin-console-sender"), // RuMC edit
                 playSound: true,
                 announcementSound: sound);
         }
@@ -146,8 +146,8 @@ public sealed partial class AdminConsoleSystem : EntitySystem
         {
             var sound = new Robust.Shared.Audio.SoundPathSpecifier("/Audio/Announcements/announce.ogg");
             _chat.DispatchGlobalAnnouncement(
-                $"Colony income tax has been set to {clamped:F0}%. This affects salary payouts and corporate withdrawals.",
-                "Administration",
+                Loc.GetString("au14-admin-console-income-tax-set", ("percent", (int)clamped)), // RuMC edit
+                Loc.GetString("au14-admin-console-sender"), // RuMC edit
                 playSound: true,
                 announcementSound: sound);
         }
@@ -172,7 +172,7 @@ public sealed partial class AdminConsoleSystem : EntitySystem
 
         if (!_thirdParty.SpawnThirdParty(partyProto, spawnProto, false))
         {
-            _popup.PopupEntity("Unable to dispatch support at this time.", uid, msg.Actor);
+            _popup.PopupEntity(Loc.GetString("au14-admin-console-dispatch-failed"), uid, msg.Actor); // RuMC edit
             return;
         }
 

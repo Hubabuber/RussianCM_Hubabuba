@@ -234,7 +234,7 @@ public sealed partial class XenoNestSystem : EntitySystem
             player.AttachedEntity is { } ghost &&
             TryComp(ghost, out GhostComponent? ghostComp))
         {
-            _rmcChat.ChatMessageToOne("\n[font size=24][color=red]You have been freed from your nest and may go back to your body![/color][/font]\n", ghost);
+            _rmcChat.ChatMessageToOne($"\n[font size=24][color=red]{Loc.GetString("rmc-xeno-nest-freed")}[/color][/font]\n", ghost); // RuMC edit
 
             var returnTo = EnsureComp<RMCGhostReturnComponent>(ghost);
             returnTo.Target = ent;

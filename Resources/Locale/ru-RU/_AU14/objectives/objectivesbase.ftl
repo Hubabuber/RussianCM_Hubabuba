@@ -1,10 +1,15 @@
-ent-ObjectiveMasterBaseFOF-name = Главная Цель
-ent-ObjectiveMasterBaseDistress-name = Главная Цель
-ent-ComputerObjectivesGovfor-name = Консоль целей ГОВФОР
-ent-ComputerObjectivesGovfor-desc = Используется для отслеживания прогресса выполнения целей
-ent-ComputerObjectivesScientist-name = Консоль целей учёного
-ent-ComputerObjectivesScientist-desc = Используется для отслеживания прогресса выполнения целей учёного
-ent-ComputerObjectivesCLF-name = Консоль целей КОФ
-ent-ComputerObjectivesCLF-desc = Используется для отслеживания прогресса выполнения целей НФО
-ent-ComputerObjectivesOpfor-name = Консоль целей ОПФОР
-ent-ComputerObjectivesOpfor-desc = Используется для отслеживания прогресса выполнения целей ОПФОР
+ent-ObjectiveMasterBaseFOF = главная цель
+
+ent-ObjectiveMasterBaseDistress = главная цель
+
+ent-ComputerObjectivesGovfor = консоль задач ГОВФОР
+    .desc = Используется для отслеживания прогресса выполнения задач.
+
+ent-ComputerObjectivesScientist = консоль задач учёных
+    .desc = Используется для отслеживания прогресса выполнения задач.
+
+ent-ComputerObjectivesCLF = консоль задач КОФ
+    .desc = Используется для отслеживания прогресса выполнения задач.
+
+ent-ComputerObjectivesOpfor = консоль задач ОПФОР
+    .desc = Используется для отслеживания прогресса выполнения задач.

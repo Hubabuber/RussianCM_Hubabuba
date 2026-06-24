@@ -21,3 +21,5 @@ cm-xeno-nest-break-out-success-others = {$user} breaks free of the nest!
 cm-xeno-nest-resecure-self = We reinforce the resin around {$target}, cutting their struggle short.
 cm-xeno-nest-resecure-target = {$user} reinforces the resin around you, cutting your struggle short!
 cm-xeno-nest-resecure-observer = {$user} reinforces the resin around {$target}.
+
+rmc-xeno-nest-freed = You have been freed from your nest and may go back to your body!
