@@ -1,4 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using Content.Shared._RuMC14.RoleTests;
 using Content.Shared.Preferences;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
@@ -14,10 +16,12 @@ public static class JobRequirements
         [NotNullWhen(false)] out FormattedMessage? reason,
         IEntityManager entManager,
         IPrototypeManager protoManager,
-        HumanoidCharacterProfile? profile)
+        HumanoidCharacterProfile? profile,
+        bool roleTimersEnabled = true,
+        bool roleTimerExcluded = false)
     {
         var sys = entManager.System<SharedRoleSystem>();
-        var requirements = sys.GetJobRequirement(job);
+        var requirements = GetActiveRequirements(sys.GetJobRequirement(job), roleTimersEnabled, roleTimerExcluded);
         reason = null;
         if (requirements == null)
             return true;
@@ -29,6 +33,24 @@ public static class JobRequirements
         }
 
         return true;
+    }
+
+    public static HashSet<JobRequirement>? GetActiveRequirements(
+        HashSet<JobRequirement>? requirements,
+        bool roleTimersEnabled,
+        bool roleTimerExcluded)
+    {
+        if (requirements == null)
+            return null;
+
+        if (roleTimersEnabled && !roleTimerExcluded)
+            return requirements;
+
+        var roleTestRequirements = requirements
+            .Where(requirement => requirement is RoleTestRequirement)
+            .ToHashSet();
+
+        return roleTestRequirements.Count == 0 ? null : roleTestRequirements;
     }
 }
 
