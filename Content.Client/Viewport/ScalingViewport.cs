@@ -253,6 +253,7 @@ namespace Content.Client.Viewport
                 });
 
             _viewport.RenderScale = new Vector2(renderScale, renderScale);
+            _viewport.ClearWhenMissingEye = true;
 
             _viewport.Eye = _eye;
         }
