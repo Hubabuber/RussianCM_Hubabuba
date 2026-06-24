@@ -1,3 +1,4 @@
+using Content.Shared.Mobs.Components;
 using Content.Shared.Weapons.Melee.Components;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Audio;
@@ -35,6 +36,9 @@ public sealed partial class MeleeSoundSystem : EntitySystem
     {
         var hitSound      = weaponComponent.HitSound;
         var noDamageSound = weaponComponent.NoDamageSound;
+
+        if (weaponComponent.HitNonLivingSound != null && !HasComp<MobStateComponent>(targetUid))
+            hitSound = weaponComponent.HitNonLivingSound;
 
         var playedSound = false;
 

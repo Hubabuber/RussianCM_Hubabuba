@@ -37,13 +37,16 @@
         RMCSkillOverwatch: 1
         RMCSkillPolice: 2
         RMCSkillVehicles: 1
+    - type: AssignSquad
+      whitelist:
+        tags:
+        - SquadPMC
     - type: JobPrefix
       prefix: au14-job-prefix-colonysecurityofficer
     - type: TacticalMapIcon
       icon:
-        sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: synth
-  hidden: false
+        sprite: /Textures/_RMC14/Interface/cm_job_icons.rsi
+        state: weya_goon_standard
 
 - type: startingGear
   id: AU14GearColonySecurityOfficer
@@ -116,11 +119,14 @@
         RMCSkillVehicles: 1
     - type: JobPrefix
       prefix: au14-job-prefix-colonysecurityleader
+    - type: AssignSquad
+      whitelist:
+        tags:
+        - SquadPMC
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: synth
-  hidden: false
 
 - type: startingGear
   id: AU14GearColonySecurityLeader

@@ -1,6 +1,9 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using Content.Client.Administration.Managers;
 using Content.Client._RMC14.PlayTimeTracking;
+using Content.Shared._RMC14.Mentor;
+using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.Localizations;
 using Content.Shared.Players;
@@ -21,6 +24,7 @@ namespace Content.Client.Players.PlayTimeTracking;
 
 public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
 {
+    [Dependency] private IClientAdminManager _admin = default!;
     [Dependency] private IBaseClient _client = default!;
     [Dependency] private IClientNetManager _net = default!;
     [Dependency] private IConfigurationManager _cfg = default!;
@@ -47,6 +51,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         _net.RegisterNetMessage<MsgJobWhitelist>(RxJobWhitelist);
 
         _client.RunLevelChanged += ClientOnRunLevelChanged;
+        _admin.AdminStatusUpdated += () => Updated?.Invoke();
         _rmcPlayTime.Updated += () => Updated?.Invoke();
     }
 
@@ -139,17 +144,36 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
     {
         reason = null;
         if (_rmcPlayTime.IsExcluded(job.ID))
-            return true;
+        {
+            var roleTestReqs = JobRequirements.GetActiveRequirements(
+                _entManager.System<SharedRoleSystem>().GetJobRequirement(job),
+                _cfg.GetCVar(CCVars.GameRoleTimers),
+                true);
+            return CheckRoleRequirements(roleTestReqs, profile, out reason, ignoreRoleTimersCVar: true);
+        }
 
         var reqs = _entManager.System<SharedRoleSystem>().GetJobRequirement(job);
-        return CheckRoleRequirements(reqs, profile, out reason);
+        var activeReqs = JobRequirements.GetActiveRequirements(
+            reqs,
+            _cfg.GetCVar(CCVars.GameRoleTimers),
+            false);
+        return CheckRoleRequirements(activeReqs, profile, out reason, ignoreRoleTimersCVar: true);
     }
 
     public bool CheckRoleRequirements(HashSet<JobRequirement>? requirements, HumanoidCharacterProfile? profile, [NotNullWhen(false)] out FormattedMessage? reason)
     {
+        return CheckRoleRequirements(requirements, profile, out reason, ignoreRoleTimersCVar: false);
+    }
+
+    private bool CheckRoleRequirements(
+        HashSet<JobRequirement>? requirements,
+        HumanoidCharacterProfile? profile,
+        [NotNullWhen(false)] out FormattedMessage? reason,
+        bool ignoreRoleTimersCVar)
+    {
         reason = null;
 
-        if (requirements == null || !_cfg.GetCVar(CCVars.GameRoleTimers))
+        if (requirements == null || (!ignoreRoleTimersCVar && !_cfg.GetCVar(CCVars.GameRoleTimers)))
             return true;
 
         var reasons = new List<string>();
@@ -174,6 +198,12 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         // RMC14-Whitelist-Tweak-Start
         if (job.Whitelisted)
         {
+            if (job.ID == MentorConstants.Job.Id &&
+                _admin.GetAdminData(includeDeAdmin: true)?.HasFlag(AdminFlags.MentorHelp, includeDeAdmin: true) == true)
+            {
+                return true;
+            }
+
             if (IsWhitelistedInternal(job.ID))
                 return true;
         // RMC14-Whitelist-Tweak-Start

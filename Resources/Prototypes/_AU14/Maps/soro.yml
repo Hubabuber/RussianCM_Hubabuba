@@ -1,11 +1,12 @@
 - type: gameMap
   id: au14sorokyne
   mapName: LV-976 Sorokyne Strata
-  mapPath: /Maps/_AU14/sorokyne.yml
+  mapPath: /Maps/_AU14/SorokyneMultiZ/sorokyne0.yml
   mapsBelow:
-  - /Maps/_AU14/sorokyne_below.yml
+  - /Maps/_AU14/SorokyneMultiZ/sorokyne-1.yml
   mapsAbove:
-  - /Maps/_AU14/sorokyne_above.yml
+  - /Maps/_AU14/SorokyneMultiZ/sorokyne1.yml
+  - /Maps/_AU14/SorokyneMultiZ/sorokyne2.yml
   minPlayers: 0
   maxPlayers: 200
   maxRandomOffset: 0
@@ -18,6 +19,7 @@
           mapNameTemplate: 'Sorokyne Strata'
         - type: StationJobs
           availableJobs:
+
             AU14JobCivilianColonist: [-1, -1]
             AU14JobCivilianJournalist: [1, 1]
 
@@ -33,14 +35,11 @@
             # Colony Command (non department)
             AU14JobCivilianColonyAdministrator: [1, 1]
             AU14JobCivilianColonyAdminAssistant: [1, 1]
+
             # Ambassadors
+            AU14JobCivilianAmbassadorICSC: [1, 1]
 
-            # Corporate
-            AU14JobCivilianCorporateLiaison: [1, 1]
-            AU14JobCivilianCorporateAssistant: [1, 1]
-
-            AU14JobCivilianScientist: [2, 2]
-            AU14JobWYGuard: [3, 3]
+            # todo UPP researcher job overrides
 
             # Security/LEO
             AU14JobCivilianPaPOfficer: [5, 5]

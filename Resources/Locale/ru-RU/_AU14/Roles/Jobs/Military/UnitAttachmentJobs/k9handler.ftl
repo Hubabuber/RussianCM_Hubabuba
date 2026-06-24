@@ -1,2 +1,3 @@
-ent-AU14SpawnPointGOVFORK9Handler-name = (НЕ НАКАРТИРОВАТЬ) Точка появления Обработчик GOVFOR K9
-ent-AU14SpawnPointGOVFORK9Handler-desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+ent-AU14SpawnPointGOVFORK9Handler = точка появления кинолога GOVFOR K9
+    .desc = Используется для начала раунда и позднего соединения.
+    .suffix = НЕ МАППИТЬ, точка спавна должности

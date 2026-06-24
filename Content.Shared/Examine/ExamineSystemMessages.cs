@@ -24,6 +24,30 @@ namespace Content.Shared.Examine
         }
 
         [Serializable, NetSerializable]
+        public sealed class RequestPerceivedNamesMessage : EntityEventArgs
+        {
+            public readonly List<NetEntity> Entities;
+
+            public RequestPerceivedNamesMessage(List<NetEntity> entities)
+            {
+                Entities = entities;
+            }
+        }
+
+        [Serializable, NetSerializable]
+        public sealed class PerceivedNamesResponseMessage : EntityEventArgs
+        {
+            public readonly List<NetEntity> Entities;
+            public readonly List<string> Names;
+
+            public PerceivedNamesResponseMessage(List<NetEntity> entities, List<string> names)
+            {
+                Entities = entities;
+                Names = names;
+            }
+        }
+
+        [Serializable, NetSerializable]
         public sealed class ExamineInfoResponseMessage : EntityEventArgs
         {
             public readonly NetEntity EntityUid;
@@ -36,9 +60,10 @@ namespace Content.Shared.Examine
             public readonly bool OpenAtOldTooltip;
 
             public readonly bool KnowTarget;
+            public readonly string? DisplayName;
 
             public ExamineInfoResponseMessage(NetEntity entityUid, int id, FormattedMessage message, List<Verb>? verbs=null,
-                bool centerAtCursor=true, bool openAtOldTooltip=true, bool knowTarget = true)
+                bool centerAtCursor=true, bool openAtOldTooltip=true, bool knowTarget = true, string? displayName = null)
             {
                 EntityUid = entityUid;
                 Id = id;
@@ -47,6 +72,7 @@ namespace Content.Shared.Examine
                 CenterAtCursor = centerAtCursor;
                 OpenAtOldTooltip = openAtOldTooltip;
                 KnowTarget = knowTarget;
+                DisplayName = displayName;
             }
         }
     }

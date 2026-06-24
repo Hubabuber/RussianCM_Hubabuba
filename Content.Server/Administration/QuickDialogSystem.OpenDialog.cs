@@ -17,14 +17,14 @@ public sealed partial class QuickDialogSystem
     /// <typeparam name="T1">Type of the input.</typeparam>
     [PublicAPI]
     public void OpenDialog<T1>(ICommonSession session, string title, string prompt, Action<T1> okAction,
-        Action? cancelAction = null)
+        Action? cancelAction = null, string? defaultValue = null)
     {
         OpenDialogInternal(
             session,
             title,
             new List<QuickDialogEntry>
             {
-                new("1", TypeToEntryType(typeof(T1)), prompt)
+                new("1", TypeToEntryType(typeof(T1)), prompt, defaultValue: defaultValue)
             },
             QuickDialogButtonFlag.OkButton | QuickDialogButtonFlag.CancelButton,
             (ev =>

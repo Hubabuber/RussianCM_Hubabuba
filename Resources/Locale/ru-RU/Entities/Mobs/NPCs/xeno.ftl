@@ -1,33 +1,34 @@
-ent-MobXeno-name = роющий
-ent-MobXeno-desc = В основном они приходят ночью. По большей части.
+ent-MobXeno = землерой
+    .desc = В основном они приходят ночью. По большей части.
 
-ent-MobXenoPraetorian-name = преторианец
-ent-MobXenoPraetorian-desc = В основном они приходят ночью. По большей части.
+ent-MobXenoPraetorian = преторианец
+    .desc = В основном они приходят ночью. По большей части.
 
-ent-MobXenoDrone-name = дрон
-ent-MobXenoDrone-desc = В основном они приходят ночью. По большей части.
+ent-MobXenoDrone = дрон
+    .desc = В основном они приходят ночью. По большей части.
 
-ent-MobXenoQueen-name = королева
-ent-MobXenoQueen-desc = В основном они приходят ночью. По большей части.
+ent-MobXenoQueen = королева
+    .desc = В основном они приходят ночью. По большей части.
 
-ent-MobXenoRavager-name = опустошитель
-ent-MobXenoRavager-desc = В основном они приходят ночью. По большей части.
+ent-MobXenoRavager = опустошитель
+    .desc = В основном они приходят ночью. По большей части.
 
-ent-MobXenoRunner-name = бегун
-ent-MobXenoRunner-desc = В основном они приходят ночью. По большей части.
+ent-MobXenoRunner = бегун
+    .desc = В основном они приходят ночью. По большей части.
 
-ent-MobXenoRouny-name = кругленький
-ent-MobXenoRouny-desc = В основном они приходят ночью. По большей части.
+ent-MobXenoRouny = руни
+    .desc = В основном они приходят ночью. По большей части.
 
-ent-MobXenoSpitter-name = плевак
-ent-MobXenoSpitter-desc = В основном они приходят ночью. По большей части.
+ent-MobXenoSpitter = плевака
+    .desc = В основном они приходят ночью. По большей части.
 
-ent-MobPurpleSnake-name = пространственный сумматор
-ent-MobPurpleSnake-desc = Угрожающая фиолетовая змея из Кеплера-283c.
+ent-MobPurpleSnake = космическая гадюка
+    .desc = Угрожающая фиолетовая змея из Кеплера-283c.
 
-ent-MobSmallPurpleSnake-name = пространственный сумматор
-ent-MobSmallPurpleSnake-desc = Уменьшенная версия грозной фиолетовой змеи с Кеплера-283c.
+ent-MobSmallPurpleSnake = { ent-MobPurpleSnake }
+    .desc = Уменьшенная версия грозной фиолетовой змеи с Кеплера-283c.
+    .suffix = Малая
 
-ent-MobXenoLonePraetorianNoGhost-name = "Дейл"
-ent-MobXenoLonePraetorianNoGhost-desc = Преторианец, оставшийся после первой зачистки станции. В его пасти застряла пара окровавленных жетонов с выгравированным именем «Рядовой Дейл».
+ent-MobXenoLonePraetorianNoGhost = "Дейл"
+    .desc = Преторианец, оставшийся после первой зачистки станции. В его пасти застряла пара окровавленных жетонов с выгравированным именем «Рядовой Дейл».
 

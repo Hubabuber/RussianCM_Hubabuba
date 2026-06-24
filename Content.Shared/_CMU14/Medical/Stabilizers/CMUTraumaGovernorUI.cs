@@ -13,3 +13,4 @@ public sealed class CMUTraumaGovernorChooseOrganBuiMsg(CMUOrganStabilizerTarget 
 {
     public readonly CMUOrganStabilizerTarget Target = target;
 }
+

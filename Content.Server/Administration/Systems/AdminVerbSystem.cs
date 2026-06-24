@@ -165,28 +165,31 @@ namespace Content.Server.Administration.Systems
                     });
 
                     // RMC14
-                    args.Verbs.Add(new Verb
+                    if (_adminManager.HasAdminFlag(player, AdminFlags.Spawn))
                     {
-                        Text = Loc.GetString("rmc-admin-player-actions-spawn-here-as-job"),
-                        Category = VerbCategory.Admin,
-                        Act = () =>
+                        args.Verbs.Add(new Verb
                         {
-                            var jobs = new List<DialogOption>();
-                            foreach (var job in _prototypeManager.EnumerateCM<JobPrototype>())
+                            Text = Loc.GetString("rmc-admin-player-actions-spawn-here-as-job"),
+                            Category = VerbCategory.Admin,
+                            Act = () =>
                             {
-                                var ev = new SpawnAsJobDialogEvent(GetNetEntity(args.User), GetNetEntity(args.Target), job.ID);
-                                var roleName = job.SpawnMenuRoleName is { } raw
-                                    ? (Loc.TryGetString(raw, out var loc) ? loc : raw)
-                                    : job.LocalizedName;
-                                jobs.Add(new DialogOption(roleName, ev));
-                            }
+                                var jobs = new List<DialogOption>();
+                                foreach (var job in _prototypeManager.EnumerateCM<JobPrototype>())
+                                {
+                                    var ev = new SpawnAsJobDialogEvent(GetNetEntity(args.User), GetNetEntity(args.Target), job.ID);
+                                    var roleName = job.SpawnMenuRoleName is { } raw
+                                        ? (Loc.TryGetString(raw, out var loc) ? loc : raw)
+                                        : job.LocalizedName;
+                                    jobs.Add(new DialogOption(roleName, ev));
+                                }
 
-                            jobs.Sort((a, b) => string.Compare(a.Text, b.Text, StringComparison.Ordinal));
-                            _dialog.OpenOptions(args.User, "Choose a job", jobs);
-                        },
-                        ConfirmationPopup = true,
-                        Impact = LogImpact.High,
-                    });
+                                jobs.Sort((a, b) => string.Compare(a.Text, b.Text, StringComparison.Ordinal));
+                                _dialog.OpenOptions(args.User, "Choose a job", jobs);
+                            },
+                            ConfirmationPopup = true,
+                            Impact = LogImpact.High,
+                        });
+                    }
 
                     if (TryComp(args.Target, out HumanoidAppearanceComponent? appearance))
                     {

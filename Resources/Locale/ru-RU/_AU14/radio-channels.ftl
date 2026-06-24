@@ -44,10 +44,12 @@ chat-radio-colony-softwave = Softwave
 
 chat-radio-part = ВУНД
 
-chat-radio-clf = КОФ
+chat-radio-CLF = КОФ
 
 chat-radio-govforcommand = КМД
 
 chat-radio-govforjtac = СКАТ
 
 chat-radio-hivemind = УЛЕЙ
+
+chat-radio-govformp = ВП

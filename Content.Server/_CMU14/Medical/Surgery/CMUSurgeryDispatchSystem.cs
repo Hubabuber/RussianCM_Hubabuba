@@ -531,9 +531,7 @@ public sealed partial class CMUSurgeryDispatchSystem : EntitySystem
 
             entries.Add(new CMUSurgeryEntry(
                 metadata.Surgery,
-                metadata.DisplayName is { } displayName && Loc.TryGetString(displayName, out var localizedDisplayName)
-                    ? localizedDisplayName
-                    : metadata.DisplayName ?? surgeryProto.Name,
+                metadata.DisplayName ?? surgeryProto.Name,
                 resolved.StepLabel,
                 resolved.ToolCategory,
                 resolved.AbsoluteStepIndex,

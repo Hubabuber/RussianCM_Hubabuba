@@ -1,2 +1,3 @@
-ent-AU14SpawnPointOPFORK9Handler-name = (НЕ НАносить на карту) Точка появления Обработчик OPFOR K9
-ent-AU14SpawnPointOPFORK9Handler-desc = Создатель заданий RMC14. Используется для начала раунда и позднего соединения.
+ent-AU14SpawnPointOPFORK9Handler = точка появления кинолога OPFOR K9
+    .desc = Используется для начала раунда и позднего соединения.
+    .suffix = НЕ МАППИТЬ, точка спавна должности

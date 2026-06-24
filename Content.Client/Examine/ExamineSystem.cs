@@ -1,9 +1,13 @@
 using System.Linq;
 using System.Numerics;
 using System.Threading;
+using Content.Client.Humanoid;
 using Content.Client.Verbs;
 using Content.Shared.Examine;
+using Content.Shared.Ghost;
+using Content.Shared.Humanoid;
 using Content.Shared.IdentityManagement;
+using Content.Shared.IdentityManagement.Components;
 using Content.Shared.Input;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Item;
@@ -17,6 +21,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Input.Binding;
 using Robust.Shared.Map;
 using Robust.Shared.Utility;
+using Robust.Shared.Enums;
 using static Content.Shared.Interaction.SharedInteractionSystem;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
 using Direction = Robust.Shared.Maths.Direction;
@@ -31,6 +36,7 @@ namespace Content.Client.Examine
         [Dependency] private IEyeManager _eyeManager = default!;
         [Dependency] private VerbSystem _verbSystem = default!;
         [Dependency] private SpriteSystem _sprite = default!;
+        [Dependency] private HumanoidAppearanceSystem _humanoid = default!;
 
         private List<Verb> _verbList = new();
 
@@ -41,6 +47,7 @@ namespace Content.Client.Examine
         private ScreenCoordinates _popupPos;
         private CancellationTokenSource? _requestCancelTokenSource;
         private int _idCounter;
+        private readonly Dictionary<EntityUid, string> _perceivedNames = new();
 
         public override void Initialize()
         {
@@ -51,6 +58,7 @@ namespace Content.Client.Examine
             SubscribeLocalEvent<GetVerbsEvent<ExamineVerb>>(AddExamineVerb);
 
             SubscribeNetworkEvent<ExamineSystemMessages.ExamineInfoResponseMessage>(OnExamineInfoResponse);
+            SubscribeNetworkEvent<ExamineSystemMessages.PerceivedNamesResponseMessage>(OnPerceivedNamesResponse);
 
             SubscribeLocalEvent<ItemComponent, DroppedEvent>(OnExaminedItemDropped);
 
@@ -158,8 +166,92 @@ namespace Content.Client.Examine
             // since there's probably one open already if it's coming in from the server.
             var entity = GetEntity(ev.EntityUid);
 
-            OpenTooltip(player.Value, entity, ev.CenterAtCursor, ev.OpenAtOldTooltip, ev.KnowTarget);
+            // CMU14 start
+            // Stale examine responses can arrive after the target is gone or after a zero NetEntity
+            // response. Dropping them avoids verb range checks against EntityUid 0.
+            if (!Exists(entity))
+            {
+                CloseTooltip();
+                return;
+            }
+            // CMU14 end
+
+            if (ev.DisplayName != null)
+                _perceivedNames[entity] = ev.DisplayName;
+
+            OpenTooltip(
+                player.Value,
+                entity,
+                ev.CenterAtCursor,
+                ev.OpenAtOldTooltip,
+                ev.KnowTarget,
+                ev.DisplayName);
             UpdateTooltipInfo(player.Value, entity, ev.Message, ev.Verbs, getVerbs: false);
+        }
+
+        private void OnPerceivedNamesResponse(ExamineSystemMessages.PerceivedNamesResponseMessage ev)
+        {
+            var count = Math.Min(ev.Entities.Count, ev.Names.Count);
+            for (var i = 0; i < count; i++)
+            {
+                if (TryGetEntity(ev.Entities[i], out var entity))
+                    _perceivedNames[entity.Value] = ev.Names[i];
+            }
+        }
+
+        public void RequestPerceivedNames(IEnumerable<EntityUid> entities)
+        {
+            var requested = new List<NetEntity>();
+            foreach (var entity in entities.Distinct())
+            {
+                if (!HasComp<HumanoidAppearanceComponent>(entity) || IsClientSide(entity))
+                    continue;
+
+                requested.Add(GetNetEntity(entity));
+            }
+
+            if (requested.Count > 0)
+                RaiseNetworkEvent(new ExamineSystemMessages.RequestPerceivedNamesMessage(requested));
+        }
+
+        public string GetPerceivedEntityName(EntityUid entity, EntityUid viewer)
+        {
+            if (!HasComp<HumanoidAppearanceComponent>(entity) ||
+                entity == viewer ||
+                HasComp<GhostComponent>(viewer))
+            {
+                return Identity.Name(entity, EntityManager, viewer).Name;
+            }
+
+            if (!CanSeeFace(entity))
+                return GetUnknownFaceDescription(entity);
+
+            return _perceivedNames.GetValueOrDefault(
+                entity,
+                GetUnknownFaceDescription(entity));
+        }
+
+        private bool CanSeeFace(EntityUid target)
+        {
+            var ev = new SeeIdentityAttemptEvent();
+            RaiseLocalEvent(target, ev);
+            return !ev.Cancelled;
+        }
+
+        private string GetUnknownFaceDescription(EntityUid target)
+        {
+            if (!TryComp(target, out HumanoidAppearanceComponent? appearance))
+                return Loc.GetString("acquaintance-unknown-person");
+
+            var age = _humanoid.GetAgeRepresentation(appearance.Species, appearance.Age);
+            var gender = appearance.Gender switch
+            {
+                Gender.Female => Loc.GetString("identity-gender-feminine"),
+                Gender.Male => Loc.GetString("identity-gender-masculine"),
+                _ => Loc.GetString("identity-gender-person")
+            };
+
+            return Loc.GetString("acquaintance-unknown-face", ("gender", gender), ("age", age));
         }
 
         public override void SendExamineTooltip(EntityUid player, EntityUid target, FormattedMessage message, bool getVerbs, bool centerAtCursor)
@@ -173,7 +265,7 @@ namespace Content.Client.Examine
         ///     not fill it with information. This is done when the server sends examine info/verbs,
         ///     or immediately if it's entirely clientside.
         /// </summary>
-        public void OpenTooltip(EntityUid player, EntityUid target, bool centeredOnCursor=true, bool openAtOldTooltip=true, bool knowTarget = true)
+        public void OpenTooltip(EntityUid player, EntityUid target, bool centeredOnCursor=true, bool openAtOldTooltip=true, bool knowTarget = true, string? displayName = null)
         {
             // Close any examine tooltip that might already be opened
             // Before we do that, save its position. We'll prioritize opening any new popups there if
@@ -238,7 +330,7 @@ namespace Content.Client.Examine
 
             if (knowTarget)
             {
-                var itemName = FormattedMessage.EscapeText(Identity.Name(target, EntityManager, player));
+                var itemName = FormattedMessage.EscapeText(displayName ?? Identity.Name(target, EntityManager, player).Name);
                 var labelMessage = FormattedMessage.FromMarkupPermissive($"[bold]{itemName}[/bold]");
                 var label = new RichTextLabel();
                 label.SetMessage(labelMessage);
@@ -404,13 +496,25 @@ namespace Content.Client.Examine
 
             FormattedMessage message;
 
-            OpenTooltip(playerEnt.Value, entity, centeredOnCursor, false);
+            var waitsForRecognizedIdentity = !IsClientSide(entity) && HasComp<HumanoidAppearanceComponent>(entity);
+            var immediateName = waitsForRecognizedIdentity
+                ? GetPerceivedEntityName(entity, playerEnt.Value)
+                : null;
+            OpenTooltip(
+                playerEnt.Value,
+                entity,
+                centeredOnCursor,
+                false,
+                displayName: immediateName);
 
             // Always update tooltip info from client first.
             // If we get it wrong, server will correct us later anyway.
             // This will usually be correct (barring server-only components, which generally only adds, not replaces text)
-            message = GetExamineText(entity, playerEnt);
-            UpdateTooltipInfo(playerEnt.Value, entity, message);
+            if (!waitsForRecognizedIdentity)
+            {
+                message = GetExamineText(entity, playerEnt);
+                UpdateTooltipInfo(playerEnt.Value, entity, message);
+            }
 
             if (!IsClientSide(entity))
             {

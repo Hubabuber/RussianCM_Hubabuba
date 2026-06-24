@@ -82,17 +82,17 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
                     }
 
                     if (wounds.ExternalBleeding != ExternalBleedTier.None)
-                        untreated.Add(Loc.GetString("cmu-medical-examine-wound-bleeding-active"));
+                        untreated.Add(Loc.GetString("cmu-medical-examine-wound-bleeding-active")); // RuMC edit
                 }
 
                 if (HasComp<CMUEscharComponent>(partUid))
-                    untreated.Add(Loc.GetString("cmu-medical-examine-eschar"));
+                    untreated.Add(Loc.GetString("cmu-medical-examine-eschar")); // RuMC edit
 
                 if (untreated.Count > 0)
                     sections.Add($"[color={UntreatedWoundColor}]{ToSentence(untreated)}[/color]");
 
                 if (treatedWounds > 0)
-                    sections.Add($"[color={TreatedWoundColor}]{DescribeVisibleTreatedWounds(treatedWounds, "treated")}[/color]");
+                    sections.Add($"[color={TreatedWoundColor}]{DescribeVisibleTreatedWounds(treatedWounds)}[/color]"); // RuMC edit
             }
 
             if (includeFractures
@@ -119,7 +119,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
                 partSummaries.Add(new BodyPartExamineSummary(
                     BodyPartSortOrder(type, symmetry),
                     FormatPartName(type, symmetry),
-                    $"[color={SeveredColor}]{Loc.GetString("cmu-medical-examine-part-severed")}[/color]"));
+                    $"[color={SeveredColor}]{Loc.GetString("cmu-medical-examine-part-severed")}[/color]")); // RuMC edit
             }
         }
 
@@ -150,12 +150,11 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
                 }
 
                 if (wounds.ExternalBleeding != ExternalBleedTier.None)
-                    sections.Add(Color(Loc.GetString("cmu-medical-detailed-external-bleeding", // RuMC edit
-                        ("tier", DescribeBleedTier(wounds.ExternalBleeding))), DetailedBleedColor));
+                    sections.Add(Color($"external bleeding: {DescribeBleedTier(wounds.ExternalBleeding)}", DetailedBleedColor));
             }
 
             if (HasComp<CMUEscharComponent>(partUid))
-                sections.Add(Color(Loc.GetString("cmu-medical-detailed-eschar"), DetailedBurnColor)); // RuMC edit
+                sections.Add(Color("burn eschar: charred tissue", DetailedBurnColor));
 
             if (sections.Count == 0)
                 continue;
@@ -171,7 +170,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
             partSummaries.Add(new BodyPartExamineSummary(
                 BodyPartSortOrder(type, symmetry),
                 PartHeader(type, symmetry),
-                Color(Loc.GetString("cmu-medical-detailed-severed"), SeveredColor))); // RuMC edit
+                Color("severed", SeveredColor)));
         }
 
         if (partSummaries.Count == 0)
@@ -403,56 +402,62 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
     {
         var wound = wounds.Wounds[index];
         var size = index < wounds.Sizes.Count ? wounds.Sizes[index] : WoundSize.Deep;
+        // RuMC edit start
         var sizeText = size switch
         {
-            WoundSize.Small => Loc.GetString("cmu-medical-examine-wound-size-small"),
-            WoundSize.Deep => Loc.GetString("cmu-medical-examine-wound-size-deep-visible"),
-            WoundSize.Gaping => Loc.GetString("cmu-medical-examine-wound-size-gaping-visible"),
+            WoundSize.Small   => Loc.GetString("cmu-medical-examine-wound-size-small"),
+            WoundSize.Deep    => Loc.GetString("cmu-medical-examine-wound-size-deep-visible"),
+            WoundSize.Gaping  => Loc.GetString("cmu-medical-examine-wound-size-gaping-visible"),
             WoundSize.Massive => Loc.GetString("cmu-medical-examine-wound-size-massive"),
-            _ => Loc.GetString("cmu-medical-examine-wound-size-deep-visible"),
+            _                 => Loc.GetString("cmu-medical-examine-wound-size-deep-visible"),
         };
 
         var kind = wound.Type switch
         {
-            WoundType.Burn => Loc.GetString("cmu-medical-examine-wound-type-burn"),
-            WoundType.Surgery => Loc.GetString("cmu-medical-examine-wound-type-wound"),
-            _ => GetVisibleWoundKind(wounds, index),
+            WoundType.Burn    => Loc.GetString("cmu-medical-examine-wound-type-burn"),
+            WoundType.Surgery => Loc.GetString("cmu-medical-examine-wound-type-surgery"),
+            _                 => GetVisibleWoundKind(wounds, index),
         };
 
-        return Loc.GetString(
-            "cmu-medical-examine-wound-visible",
-            ("treated", wound.Treated ? "true" : "false"),
+        return Loc.GetString("cmu-medical-examine-wound-visible",
+            ("treated", false),
             ("size", sizeText),
             ("type", kind));
+        // RuMC edit end
     }
 
-    private static string DescribeVisibleTreatedWounds(int count, string treatment)
+    private string DescribeVisibleTreatedWounds(int count) // RuMC edit
     {
-        var noun = count == 1 ? "wound" : "wounds";
-        return $"{noun} {treatment}";
+        return Loc.GetString("cmu-medical-examine-wound-treated", // RuMC edit
+            ("count", count));
     }
 
     private string GetVisibleWoundKind(BodyPartWoundComponent wounds, int index) // RuMC edit
     {
         if (index < wounds.Mechanisms.Count && wounds.Mechanisms[index] == WoundMechanism.Burn)
-            return Loc.GetString("cmu-medical-examine-wound-type-burn");
+            return Loc.GetString("cmu-medical-examine-wound-type-burn"); // RuMC edit
 
-        return Loc.GetString("cmu-medical-examine-wound-type-wound");
+        return Loc.GetString("cmu-medical-examine-wound-type-wound"); // RuMC edit
     }
 
     private string DescribeVisibleFracture(FractureSeverity severity, bool stabilized) // RuMC edit
     {
-        var prefix = stabilized ? "stabilized " : string.Empty;
-        var key = severity switch
+        // RuMC edit start
+        return severity switch
         {
-            FractureSeverity.Compound => "cmu-medical-examine-fracture-compound",
-            FractureSeverity.Comminuted => "cmu-medical-examine-fracture-comminuted",
-            _ => "cmu-medical-examine-fracture-simple",
+            FractureSeverity.Simple     => Loc.GetString("cmu-medical-examine-fracture-simple",
+                                       ("stabilized", stabilized)),
+            FractureSeverity.Compound   => Loc.GetString("cmu-medical-examine-fracture-compound",
+                                       ("stabilized", stabilized)),
+            FractureSeverity.Comminuted => Loc.GetString("cmu-medical-examine-fracture-comminuted",
+                                       ("stabilized", stabilized)),
+            _                           => Loc.GetString("cmu-medical-examine-fracture-simple",
+                                       ("stabilized", false)),
         };
-        return Loc.GetString(key, ("stabilized", stabilized ? "true" : "false"));
+        // RuMC edit end
     }
 
-    private string DescribeDetailedWound(BodyPartWoundComponent wounds, int index) // RuMC edit
+    private static string DescribeDetailedWound(BodyPartWoundComponent wounds, int index)
     {
         var details = GetDetailedWoundDetails(wounds, index);
         return ToDetailedLines(new List<string>
@@ -489,7 +494,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         _ => "Moderate",
     };
 
-    private DetailedWoundDetails GetDetailedWoundDetails(BodyPartWoundComponent wounds, int index)
+    private static DetailedWoundDetails GetDetailedWoundDetails(BodyPartWoundComponent wounds, int index)
     {
         var wound = wounds.Wounds[index];
         var size = index < wounds.Sizes.Count ? wounds.Sizes[index] : WoundSize.Deep;
@@ -498,12 +503,6 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         var header = Color($"{DescribeDetailedSize(size)} {DescribeMechanism(mechanism, wound.Type)}", WoundColorFor(mechanism, wound.Type));
         var details = new List<string>
         {
-            // RuMC edit start
-            Color(Loc.GetString("cmu-medical-detailed-wound-full",
-                ("size", size.ToString().ToLower()),
-                ("mechanism", mechanism.ToString().ToLower())),
-                WoundColorFor(mechanism, wound.Type)),
-            // RuMC edit end
             Color(
                 DescribeTreatment(wound.Treated),
                 TreatmentColorFor(wound.Treated)),
@@ -540,7 +539,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         return treated ? TreatedWoundColor : DetailedUntreatedColor;
     }
 
-    private string DescribeDetailedFracture(FractureSeverity severity, bool stabilized) // RuMC edit
+    private static string DescribeDetailedFracture(FractureSeverity severity, bool stabilized)
     {
         var prefix = stabilized ? "stabilized " : string.Empty;
         return severity switch
@@ -553,7 +552,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         };
     }
 
-    private string DescribeDetailedSize(WoundSize size) => size switch // RuMC edit
+    private static string DescribeDetailedSize(WoundSize size) => size switch
     {
         WoundSize.Small => "small",
         WoundSize.Deep => "deep",
@@ -562,7 +561,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         _ => "deep",
     };
 
-    private string DescribeMechanism(WoundMechanism mechanism, WoundType type) => mechanism switch // RuMC edit
+    private static string DescribeMechanism(WoundMechanism mechanism, WoundType type) => mechanism switch
     {
         WoundMechanism.Bullet => "bullet wound",
         WoundMechanism.Stab => "stab wound",
@@ -575,22 +574,15 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         _ => type == WoundType.Burn ? "burn" : "wound",
     };
 
-    private string DescribeTreatment(bool treated) // RuMC edit
-    {
-        return treated
-            ? Loc.GetString("cmu-medical-detailed-treatment-treated")
-            : Loc.GetString("cmu-medical-detailed-treatment-untreated");
-    }
+    private static string DescribeTreatment(bool treated) => treated ? "treated" : "untreated";
 
-    private string DescribeBleedTier(ExternalBleedTier tier) => tier switch // RuMC edit
+    private static string DescribeBleedTier(ExternalBleedTier tier) => tier switch
     {
-        // RuMC edit start
-        ExternalBleedTier.Minor    => Loc.GetString("cmu-medical-detailed-bleed-minor"),
-        ExternalBleedTier.Moderate => Loc.GetString("cmu-medical-detailed-bleed-moderate"),
-        ExternalBleedTier.Severe   => Loc.GetString("cmu-medical-detailed-bleed-severe"),
-        ExternalBleedTier.Arterial => Loc.GetString("cmu-medical-detailed-bleed-arterial"),
-        _                          => string.Empty,
-        // RuMC edit end
+        ExternalBleedTier.Minor => "minor",
+        ExternalBleedTier.Moderate => "moderate",
+        ExternalBleedTier.Severe => "severe",
+        ExternalBleedTier.Arterial => "arterial",
+        _ => "none",
     };
 
     private static WoundMechanism LegacyMechanismFor(WoundType type) => type switch
@@ -600,24 +592,24 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         _ => WoundMechanism.Generic,
     };
 
-    private string FormatPartName(BodyPartType type, BodyPartSymmetry symmetry) // RuMC edit
+    private  string FormatPartName(BodyPartType type, BodyPartSymmetry symmetry) // RuMC edit
     {
-        var key = (type, symmetry) switch
+        // RuMC edit start
+        return (type, symmetry) switch
         {
-            (BodyPartType.Head, _) => "cmu-medical-examine-part-head",
-            (BodyPartType.Torso, _) => "cmu-medical-examine-part-torso",
-            (BodyPartType.Arm, BodyPartSymmetry.Left) => "cmu-medical-examine-part-arm-left",
-            (BodyPartType.Arm, BodyPartSymmetry.Right) => "cmu-medical-examine-part-arm-right",
-            (BodyPartType.Hand, BodyPartSymmetry.Left) => "cmu-medical-examine-part-hand-left",
-            (BodyPartType.Hand, BodyPartSymmetry.Right) => "cmu-medical-examine-part-hand-right",
-            (BodyPartType.Leg, BodyPartSymmetry.Left) => "cmu-medical-examine-part-leg-left",
-            (BodyPartType.Leg, BodyPartSymmetry.Right) => "cmu-medical-examine-part-leg-right",
-            (BodyPartType.Foot, BodyPartSymmetry.Left) => "cmu-medical-examine-part-foot-left",
-            (BodyPartType.Foot, BodyPartSymmetry.Right) => "cmu-medical-examine-part-foot-right",
-            _ => null,
+            (BodyPartType.Head,  _)                       => Loc.GetString("cmu-medical-examine-part-head"),
+            (BodyPartType.Torso, _)                       => Loc.GetString("cmu-medical-examine-part-torso"),
+            (BodyPartType.Arm,   BodyPartSymmetry.Left)   => Loc.GetString("cmu-medical-examine-part-arm-left"),
+            (BodyPartType.Arm,   BodyPartSymmetry.Right)  => Loc.GetString("cmu-medical-examine-part-arm-right"),
+            (BodyPartType.Hand,  BodyPartSymmetry.Left)   => Loc.GetString("cmu-medical-examine-part-hand-left"),
+            (BodyPartType.Hand,  BodyPartSymmetry.Right)  => Loc.GetString("cmu-medical-examine-part-hand-right"),
+            (BodyPartType.Leg,   BodyPartSymmetry.Left)   => Loc.GetString("cmu-medical-examine-part-leg-left"),
+            (BodyPartType.Leg,   BodyPartSymmetry.Right)  => Loc.GetString("cmu-medical-examine-part-leg-right"),
+            (BodyPartType.Foot,  BodyPartSymmetry.Left)   => Loc.GetString("cmu-medical-examine-part-foot-left"),
+            (BodyPartType.Foot,  BodyPartSymmetry.Right)  => Loc.GetString("cmu-medical-examine-part-foot-right"),
+            _                                             => type.ToString(),
         };
-
-        return key != null ? Loc.GetString(key) : type.ToString();
+        // RuMC edit end
     }
 
     private static int BodyPartSortOrder(BodyPartType type, BodyPartSymmetry symmetry)
@@ -655,11 +647,12 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         {
             0 => string.Empty,
             1 => parts[0],
+            // RuMC edit start
             2 => $"{parts[0]} {Loc.GetString("cmu-medical-examine-list-and")} {parts[1]}",
-            _ => Loc.GetString(
-                "cmu-medical-examine-list-comma-and",
-                ("list", string.Join(", ", parts.GetRange(0, parts.Count - 1))),
-                ("last", parts[^1])),
+            _ => Loc.GetString("cmu-medical-examine-list-comma-and",
+                    ("list", string.Join(", ", parts.GetRange(0, parts.Count - 1))),
+                    ("last", parts[parts.Count - 1])),
+            // RuMC edit end
         };
     }
 

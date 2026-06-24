@@ -4,8 +4,6 @@
   id: AU14JobPlatCoBaseAbstract
   name: au14-job-name-govforplatco
   description: au14-job-description-govforplatco
-  whitelisted: true
-  whitelistParent: RMCWhitelistEasy
   icon: "AU14JobIconPlatCo"
   # spawnMenuRoleName: Platoon Commander (GOVFOR) // RuMC edit
   supervisors: au14-job-supervisors-govforplatco
@@ -61,7 +59,7 @@
       speechStyleClass: commanderSpeech
     - type: TacticalMapIcon
       icon:
-        sprite: /Textures/_AU14/Interface/au14govforhud.rsi
+        sprite: /Textures/_AU14/Interface/au14govforjobicons.rsi # au14govforjobicons.rsi
         state: govfor_platco
 
 - type: playTimeTracker

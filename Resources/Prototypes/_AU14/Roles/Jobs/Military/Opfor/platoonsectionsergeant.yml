@@ -1,9 +1,7 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobOpforSectionSergeant
-  name: au14-job-name-opforSSG
-  description: au14-job-description-opforSSG
-  icon: "AU14JobIconOPFORPlatoonSarge"
+  icon: "AU14JobIconOPFORPlatoonSgt"
   spawnMenuRoleName: Platoon Sergeant (OPFOR)
   supervisors: au14-job-supervisors-opfor
   startingGear: AU14GearopforSectionSergeant
@@ -23,8 +21,8 @@
       - OPFOR
     - type: TacticalMapIcon
       icon:
-        sprite: /Textures/_AU14/Interface/au14opforhud.rsi
-        state: platoonsergeant
+        sprite: /Textures/_AU14/Interface/au14opforjobicons.rsi
+        state: old_platoonsergeant
 
 - type: startingGear
   id: AU14GearopforSectionSergeant

@@ -36,6 +36,10 @@ namespace Content.Shared.Preferences
         private static readonly Regex RestrictedNameRegex = new(@"[^\p{L}0-9 '\-]"); // RuMC, allows Cyrillic character names
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
+        private static readonly Regex MultiDotRegex = new(@"\.+", RegexOptions.Compiled);
+        private static readonly Regex LeadingTrailingDotRegex = new(@"(^\.|\.$)", RegexOptions.Compiled);
+        private static readonly Regex SingleDotRegex = new(@"\.", RegexOptions.Compiled);
+
         /// <summary>
         /// Job preferences for initial spawn.
         /// </summary>
@@ -1011,6 +1015,11 @@ namespace Content.Shared.Preferences
                 name = Name;
             }
 
+            name = MultiDotRegex.Replace(name, ".");            // collapse multiple dots
+            name = LeadingTrailingDotRegex.Replace(name, "");   // remove leading/trailing dot
+            var firstWord = name.Split(' ', 2)[0];              // remove dot from the firstname (e.g Capt./Dr.)
+            if (firstWord.Contains('.'))
+                name = SingleDotRegex.Replace(firstWord, "") + name.Substring(firstWord.Length);
             name = name.Trim();
 
             if (configManager.GetCVar(CCVars.RestrictedNames))

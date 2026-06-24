@@ -1,3 +1,4 @@
+using Content.Shared._RMC14.Synth;
 using Content.Shared.Charges.Components;
 using Content.Shared.Charges.Systems;
 using Content.Shared.Examine;
@@ -261,6 +262,9 @@ public abstract partial class SharedFlashSystem : EntitySystem
 
     private void OnExamine(Entity<FlashImmunityComponent> ent, ref ExaminedEvent args)
     {
+        if (HasComp<SynthComponent>(ent))
+            return;
+
         args.PushMarkup(Loc.GetString("flash-protection"));
     }
 

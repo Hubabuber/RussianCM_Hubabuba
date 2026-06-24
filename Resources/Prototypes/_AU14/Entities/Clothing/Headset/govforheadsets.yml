@@ -185,3 +185,36 @@
   - type: RMCStaticDefaultChannel
   - type: EncryptionKeyHolder
     defaultChannel: radioGovforCommand
+
+- type: entity
+  parent: RMCBaseUniformAccessory
+  id: AU14GOVFORIOHeadset
+  name: GOVFOR Intel earpiece
+  description: A small, concealable earpiece used by Intelligence operatives. Virtually invisible when worn, it clips discreetly onto a uniform, this one has a built in camera for remote viewing.
+  suffix: GOVFOR, IO
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/headsets.rsi
+    state: cmb_headset
+  - type: UniformAccessory
+    hidden: true
+    #viewerWhitelist:
+    #  components:
+    #  - CLFMember
+    category: Utility
+    limit: 1
+    playerSprite:
+      sprite: _RMC14/Objects/Medals/bronze.rsi
+      state: equipped
+  - type: OverwatchCamera
+  - type: AccessoryHeadset
+    channels:
+    - Colony
+    - radioGovforAlpha
+    - radioGovforBravo
+    - radioGovforCharlie
+    - radioGovforCommand
+    - radioGovforIntel
+    - radioGovforJTAC
+    - radioGovforMILP
+    defaultChannel: radioGovforIntel

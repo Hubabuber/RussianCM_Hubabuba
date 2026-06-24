@@ -1,333 +1,421 @@
-ent-CMUYautjaBracer-name = охотничий наруч
-ent-CMUYautjaBracer-desc = Тяжёлый наручный компьютер, набитый чужими охотничьими инструментами.
+ent-CMUYautjaBracer = наруч хищника
+    .desc = Инопланетный наручный компьютер.
 
-ent-CMUYautjaThrallBracer-name = наруч раба
-ent-CMUYautjaThrallBracer-desc = Упрощённый чужой наруч, привязывающий раба к охотнику яутжа.
+ent-CMUYautjaThrallBracer = наруч раба
+    .desc = Упрощённый наруч хищника, привязывающий раба к хищнику.
 
-ent-CMUYautjaBloodedThrallBracer-name = наруч окровавленного раба
-ent-CMUYautjaBloodedThrallBracer-desc = Полноценный охотничий наруч, доверенный окровавленному рабу.
+ent-CMUYautjaBloodedThrallBracer = наруч окровавленного раба
+    .desc = Полноценный наруч хищника, доверенный окровавленному рабу.
 
-ent-CMUYautjaThrallGearBox-name = коробка чужого наруча
-ent-CMUYautjaThrallGearBox-desc = Небольшой кейс с наручем раба и экстренными медицинскими припасами яутжа.
+ent-CMUYautjaThrallGearBox = коробка наруча хищника
+    .desc = Небольшой кейс с наручем раба и медицинскими припасами.
 
-ent-CMUYautjaMask-name = биомаска
-ent-CMUYautjaMask-desc = Чужая охотничья маска со встроенным тактическим визором.
+ent-CMUYautjaMask = биомаска хищника
+    .desc = Чужая охотничья маска со встроенным тактическим визором.
 
-ent-CMUYautjaBracerIdChip-name = встроенный ID-чип наруча
-ent-CMUYautjaBracerIdChip-desc = Компактная идентификационная пластина, разворачиваемая из наруча яутжа.
+ent-CMUYautjaBracerIdChip = встроенный ID-чип наруча
+    .desc = Компактная идентификационная пластина.
 
-ent-CMUYautjaStabilisingCrystal-name = стабилизирующий кристалл
-ent-CMUYautjaStabilisingCrystal-desc = Кристалл, выращенный наручем, быстро стабилизирующий чужую биологию.
+ent-CMUYautjaStabilisingCrystal = стабилизирующий кристалл
+    .desc = Кристалл для быстрой стабилизации органов хищника.
 
-ent-CMUYautjaHumanStabilisingCrystal-name = человеческий стабилизирующий кристалл
-ent-CMUYautjaHumanStabilisingCrystal-desc = Кристалл, выращенный наручем и настроенный на людей и рабов.
+ent-CMUYautjaHumanStabilisingCrystal = стабилизирующий кристалл для людей
+    .desc = Кристалл для быстрой стабилизации органов людей.
 
-ent-CMUYautjaHealingCapsule-name = лечебная капсула
-ent-CMUYautjaHealingCapsule-desc = Одноразовая капсула экстренной медицины хищников, изготовленная наручем.
+ent-CMUYautjaHealingCapsule = лечебная капсула
+    .desc = Одноразовая капсула экстренной медицины хищников.
 
-ent-CMUYautjaMaskOrnament-name = украшение маски
-ent-CMUYautjaMaskOrnament-desc = Небольшое церемониальное украшение, крепящееся к биомаске яутжа.
+ent-CMUYautjaMaskOrnament = украшение для биомаски хищника
+    .desc = Небольшое церемониальное украшение, крепящееся к биомаске.
 
-ent-CMUYautjaCloakPack-name = генератор маскировочного поля
-ent-CMUYautjaCloakPack-desc = Компактный полевой генератор, настроенный на оптический камуфляж яутжа.
+ent-CMUYautjaCloakPack = генератор маскировочного поля
+    .desc = Компактный генератор, настроенный на оптический камуфляж.
 
-ent-CMUYautjaSmartDisc-name = умный диск
-ent-CMUYautjaSmartDisc-desc = Остро заточенный метательный диск яутжа, привязанный к своему владельцу.
+ent-CMUYautjaSmartDisc = умный диск
+    .desc = Остро заточенный метательный диск хищника, привязанный к своему владельцу.
 
-ent-CMUYautjaPlasmaCaster-name = плечевой плазменный кастер
-ent-CMUYautjaPlasmaCaster-desc = Компактное чужое плазменное оружие, питающееся от охотничьего наруча.
+ent-CMUYautjaPlasmaCaster = наплечная плазменная пушка
+    .desc = Компактное плазменное оружие хищника, питающееся от наруча.
 
-ent-CMUYautjaWristBlades-name = наручные клинки
-ent-CMUYautjaWristBlades-desc = Выдвижные парные клинки, привязанные к охотничьему наручу.
+ent-CMUYautjaWristBlades = наручные клинки
+    .desc = Выдвижные парные клинки, привязанные к наручу хищника.
 
-ent-CMUYautjaScimitar-name = комби-скимитар
-ent-CMUYautjaScimitar-desc = Длинный чужой охотничий клинок с жестокой мономолекулярной кромкой.
+ent-CMUYautjaScimitar = скимитар
+    .desc = Длинный и очень острый клинок хищника.
 
-ent-CMUYautjaChainGauntlet-name = цепная перчатка
-ent-CMUYautjaChainGauntlet-desc = Тяжёлое оружие-перчатка с компактными цепными приводами.
+ent-CMUYautjaChainGauntlet = перчатка с цепями
+    .desc = Тяжёлая перчатка со встроенными в неё цепями для ударов.
 
-ent-CMUYautjaBracerShield-name = щит наруча
-ent-CMUYautjaBracerShield-desc = Компактный твердосветный щит, проецируемый охотничьим наручем.
+ent-CMUYautjaBracerShield = наручный щит
+    .desc = Компактный щит, развертываемый из наруча хищника.
 
-ent-CMUYautjaAdvancedBruisePack-name = продвинутый травматологический пакет хищника
-ent-CMUYautjaAdvancedBruisePack-desc = Компактная чужая припарка для закрытия жестоких ран.
+ent-CMUYautjaAdvancedBruisePack = продвинутый набор для травм хищника
+    .desc = Компактный инопланетный набор для лечения травм.
 
-ent-CMUYautjaAdvancedOintment-name = продвинутая мазь хищника
-ent-CMUYautjaAdvancedOintment-desc = Прохладная чужая мазь для закрытия ожогов и едких повреждений.
+ent-CMUYautjaAdvancedOintment = продвинутая мазь хищника
+    .desc = Прохладная инопланетная мазь для лечения ожогов.
 
-ent-CMUYautjaHealingGel-name = лечебный гель
-ent-CMUYautjaHealingGel-desc = Плотный чужой коагулянт, стягивающий обширные травмы.
+ent-CMUYautjaHealingGel = лечебный гель
+    .desc = Плотный инопланетный гель, стягивающий обширные травмы.
 
-ent-CMUYautjaStabilizerGel-name = стабилизирующий гель
-ent-CMUYautjaStabilizerGel-desc = Быстро схватывающийся чужой гель, выигрывающий время при шоке и кровопотере.
+ent-CMUYautjaStabilizerGel = стабилизирующий гель
+    .desc = Быстро схватывающийся гель, который позволяет выиграть время при кровотечении.
 
-ent-CMUYautjaWoundClamp-name = раневой зажим
-ent-CMUYautjaWoundClamp-desc = Хирургический зажим хищников для остановки катастрофического кровотечения.
+ent-CMUYautjaWoundClamp = зажим для ран
+    .desc = Хирургический зажим хищников для остановки серьёзных кровотечений.
 
-ent-CMUYautjaHealingGun-name = лечебный инъектор
-ent-CMUYautjaHealingGun-desc = Компактный чужой аппликатор для быстрой экстренной помощи.
+ent-CMUYautjaHealingGun = лечебный инъектор
+    .desc = Компактный инопланетный шприц для экстренной первой помощи.
 
-ent-CMUYautjaAlienHealthAnalyzer-name = чужой анализатор здоровья
-ent-CMUYautjaAlienHealthAnalyzer-desc = Биосканер, настроенный на чужую физиологию и боевую сортировку.
+ent-CMUYautjaAlienHealthAnalyzer = инопланетный анализатор здоровья
+    .desc = Биосканер, настроенный на физиологию хищников.
 
-ent-CMUYautjaAutoInjector-name = автоинъектор яутжа
-ent-CMUYautjaAutoInjector-desc = Чужой автоинъектор с сильной смесью для лечения травм и ожогов.
+ent-CMUYautjaAutoInjector = автоинъектор хищников
+    .desc = Инопланетный автоинъектор с сильной смесью для лечения травм и ожогов.
 
-ent-CMUYautjaHerbalCase-name = кейс с травами
-ent-CMUYautjaHerbalCase-desc = Небольшой кейс с травматологическими припарками и ожоговыми мазями яутжа.
+ent-CMUYautjaHerbalCase = кейс с травами
+    .desc = Небольшой кейс с припарками и мазями хищника.
 
-ent-CMUYautjaMedicomp-name = медикомп
-ent-CMUYautjaMedicomp-desc = Компактный медицинский набор хищника, укомплектованный для одиночного восстановления в поле.
+ent-CMUYautjaMedicomp = медицинский набор хищника
+    .desc = Компактный медицинский набор хищника, укомплектованный для полевого самолечения.
 
-ent-CMUYautjaLoadoutVendor-name = стойка охотничьего снаряжения яутжа
-ent-CMUYautjaLoadoutVendor-desc = Ограниченная событийная стойка для настройки снаряжения чужого охотника.
+ent-CMUYautjaLoadoutVendor = стойка охотничьего снаряжения хищника
+    .desc = Стойка со инопланетным снаряженияем.
 
-ent-CMUYautjaEncryptionKey-name = ключ шифрования яутжа
-ent-CMUYautjaEncryptionKey-desc = Чужой шифровальный чип, настроенный на коммуникаторы охотников.
+ent-CMUYautjaEncryptionKey = ключ шифрования хищников
+    .desc = Иноплнетный чип, настроенный на коммуникаторы хищников.
 
-ent-CMUYautjaOverseerEncryptionKey-name = ключ шифрования надзирателя яутжа
-ent-CMUYautjaOverseerEncryptionKey-desc = Чужой шифровальный чип, настроенный на каналы охотников и надзирателей.
+ent-CMUYautjaOverseerEncryptionKey = ключ шифрования надзирателя хищников
+    .desc = Инопланетный чип, настроенный на каналы хищников и надзирателей.
 
-ent-CMUYautjaBadBloodEncryptionKey-name = ключ шифрования дурной крови
-ent-CMUYautjaBadBloodEncryptionKey-desc = Чужой шифровальный чип, настроенный на каналы охотников-отступников.
+ent-CMUYautjaBadBloodEncryptionKey = ключ шифрования дурной крови
+    .desc = Чужой чип, настроенный на каналы хищников-отступников.
 
-ent-CMUYautjaCommunicator-name = коммуникатор
-ent-CMUYautjaCommunicator-desc = Компактный чужой коммуникатор, используемый охотниками яутжа.
+ent-CMUYautjaCommunicator = коммуникатор
+    .desc = Компактный коммуникатор, используемый хищниками.
 
-ent-CMUYautjaOverseerCommunicator-name = коммуникатор надзирателя
-ent-CMUYautjaBadBloodCommunicator-name = коммуникатор дурной крови
-ent-CMUYautjaStrandedCommunicator-name = коммуникатор застрявшего охотника
+ent-CMUYautjaOverseerCommunicator = коммуникатор надзирателя
+    .desc = Компактный коммуникатор, используемый надзирателями хищников.
 
-ent-CMUYautjaHuntingPouch-name = охотничий подсумок
-ent-CMUYautjaHuntingPouch-desc = Охотничий подсумок яутжа из толстой дублёной кожи, используемый для устройств, инструментов и трофеев.
+ent-CMUYautjaBadBloodCommunicator = коммуникатор дурной крови
+    .desc = Компактный коммуникатор, используемый хищниками-отступниками.
 
-ent-CMUYautjaRelayBeacon-name = релейный маяк
-ent-CMUYautjaRelayBeacon-desc = Устройство, покрытое священным текстом. Оно жужжит и пищит каждые несколько секунд.
+ent-CMUYautjaStrandedCommunicator = коммуникатор одинокого хищника
+    .desc = Компактный коммуникатор, используемый хищниками-одиночками.
 
-ent-CMUYautjaCleanserGelVial-name = флакон очищающего геля
-ent-CMUYautjaCleanserGelVial-desc = Небольшой флакон ярко-синего растворяющего геля для уничтожения брошенного полевого снаряжения.
+ent-CMUYautjaHuntingPouch = охотничий подсумок
+    .desc = Охотничий подсумок из толстой дублёной кожи.
 
-ent-CMUYautjaScalp-name = скальп
-ent-CMUYautjaScalp-desc = Мрачный трофей с павшей добычи.
+ent-CMUYautjaRelayBeacon = сигнальный маяк
+    .desc = Устройство, покрытое священным текстом. Оно жужжит и пищит каждые несколько секунд.
 
-ent-CMUYautjaCrowbar-name = лом яутжа
-ent-CMUYautjaCrowbar-desc = Инструмент для вскрытия, сделанный из необычного чужого сплава.
+ent-CMUYautjaCleanserGelVial = флакон растворяющего геля
+    .desc = Небольшой флакон ярко-синего геля для уничтожения брошенного полевого снаряжения.
 
-ent-CMUYautjaWrench-name = чужой гаечный ключ
-ent-CMUYautjaWrench-desc = Гаечный ключ для множества обычных задач, сделанный из странной чужой кости и сплава.
+ent-CMUYautjaScalp = скальп
+    .desc = Мрачный трофей с павшей добычи.
 
-ent-CMUYautjaWirecutters-name = чужие кусачки
-ent-CMUYautjaWirecutters-desc = Чужие кусачки, сформированные с бритвенно-острыми зубцами.
+ent-CMUYautjaCrowbar = монтировка хищника
+    .desc = Инструмент для вскрытия дверей, сделанный из инопланетного сплава.
 
-ent-CMUYautjaScrewdriver-name = чужая отвёртка
-ent-CMUYautjaScrewdriver-desc = Высокоточная чужая отвёртка со злобным остриём.
+ent-CMUYautjaWrench = инопланетный гаечный ключ
+    .desc = Гаечный ключ, сделанный из странной костей и инопланетного сплава.
 
-ent-CMUYautjaMultitool-name = чужой мультитул
-ent-CMUYautjaMultitool-desc = Первоклассная чужая технология для открытия и перенастройки машин.
+ent-CMUYautjaWirecutters = инопланетные кусачки
+    .desc = Инопланетные кусачки с бритвенно-острыми зубцами.
 
-ent-CMUYautjaWelder-name = чужой химический сварочный инструмент
-ent-CMUYautjaWelder-desc = Сложное химическое сварочное устройство. Держите подальше от молодых кровей.
+ent-CMUYautjaScrewdriver = инопланетная отвёртка
+    .desc = Высокоточная отвёртка со ужасающим остриём.
 
-ent-CMUYautjaToolbelt-name = чужой пояс с инструментами
-ent-CMUYautjaToolbelt-desc = Модульный чужой утилитарный пояс с креплениями для полевых инструментов.
+ent-CMUYautjaMultitool = инопланетный мультитул
+    .desc = Первоклассная инопланетная технология для открытия и перенастройки.
 
-ent-CMUYautjaMetalChains-name = металлические цепи
-ent-CMUYautjaMetalChains-desc = Тяжёлые чужие цепи с заострёнными звеньями и грубым узором сварки.
+ent-CMUYautjaWelder = инопланетный сварочный инструмент
+    .desc = Сложное сварочное устройство. Держите подальше от молодых хищников.
 
-ent-CMUYautjaHoundObservationPad-name = наблюдательная площадка адских гончих
-ent-CMUYautjaHoundObservationPad-desc = Портативная чужая консоль камер для удалённого наблюдения за адскими гончими.
+ent-CMUYautjaToolbelt = инопланетный пояс с инструментами
+    .desc = Утилитарный пояс с креплениями для инструментов.
 
-ent-CMUYautjaHivebreaker-name = разрушитель улья
-ent-CMUYautjaHivebreaker-desc = Устройство дурной крови, разрывающее связь ксеноморфа с разумом улья и порабощающее змея.
+ent-CMUYautjaMetalChains = металлические цепи
+    .desc = Тяжёлые цепи с заострёнными звеньями.
 
-ent-CMUYautjaHarpoon-name = большой гарпун
-ent-CMUYautjaHarpoon-desc = Утяжелённый гарпун яутжа для жестоких бросков и добивания вблизи.
+ent-CMUYautjaHoundObservationPad = консоль для наблюдения за адскими гончими
+    .desc = Портативная консоль камер для удалённого наблюдения за адскими гончими.
 
-ent-CMUYautjaChainwhip-name = цепной хлыст
-ent-CMUYautjaChainwhip-desc = Шипастое цепное оружие, тянущее кровь и удерживающее добычу на опасной дистанции.
+ent-CMUYautjaHivebreaker = разрушитель улья
+    .desc = Устройство дурной крови, разрывающее связь ксеноморфа с разумом улья и порабощающее ксеноса.
 
-ent-CMUYautjaClanSword-name = клановый меч
-ent-CMUYautjaClanSword-desc = Тяжёлый клановый клинок яутжа с широкой режущей кромкой.
+ent-CMUYautjaHarpoon = большой гарпун
+    .desc = Утяжелённый гарпун хищника для бросков и добивания вблизи.
 
-ent-CMUYautjaRendingSword-name = раздирающий меч
-ent-CMUYautjaRendingSword-desc = Крючковатый меч яутжа, сбалансированный для рвущих ударов.
+ent-CMUYautjaChainwhip = цепной хлыст
+    .desc = Шипастое цепное оружие, удерживающее добычу на опасной дистанции.
 
-ent-CMUYautjaPiercingSword-name = пронзающий меч
-ent-CMUYautjaPiercingSword-desc = Узкий меч яутжа, сбалансированный для колющих ударов.
+ent-CMUYautjaClanSword = меч клана
+    .desc = Тяжёлый клановый клинок хищников с широкой режущей кромкой.
 
-ent-CMUYautjaSeveringSword-name = отсекающий меч
-ent-CMUYautjaSeveringSword-desc = Жестокий меч яутжа с рубящим профилем.
+ent-CMUYautjaRendingSword = раздирающий меч
+    .desc = Крючковатый меч хищников, сбалансированный для рвущих ударов.
 
-ent-CMUYautjaDualWarScythe-name = парные боевые косы
-ent-CMUYautjaDualWarScythe-desc = Парное оружие-косы яутжа для ритуального ближнего боя.
+ent-CMUYautjaPiercingSword = пронзающий меч
+    .desc = Узкий меч хищников, сбалансированный для колющих ударов.
 
-ent-CMUYautjaDoubleWarScythe-name = двойная боевая коса
-ent-CMUYautjaDoubleWarScythe-desc = Двухголовая коса яутжа с более длинной дугой убийства.
+ent-CMUYautjaSeveringSword = отсекающий меч
+    .desc = Жестокий меч хищников с рубящим профилем.
 
-ent-CMUYautjaCruelStaff-name = жестокий посох
-ent-CMUYautjaCruelStaff-desc = Утяжелённый посох яутжа с усиленными ударными навершиями.
+ent-CMUYautjaDualWarScythe = парные боевые косы
+    .desc = Парное оружие хищников для ритуального боя.
 
-ent-CMUYautjaCombistick-name = комби-палка
-ent-CMUYautjaCombistick-desc = Складное копьё яутжа с цепью на древке для возврата.
+ent-CMUYautjaDoubleWarScythe = двухголовая боевая коса
+    .desc = Двухголовая коса хищнмкрв с более длинным лезвием.
 
-ent-CMUYautjaWarAxe-name = боевой топор
-ent-CMUYautjaWarAxe-desc = Быстрый топор яутжа, созданный для вспарывания и протыкания добычи, с цепью на рукояти.
+ent-CMUYautjaCruelStaff = посох жестокости
+    .desc = Утяжелённый посох с усиленным ударным наконечником.
 
-ent-CMUYautjaCeremonialDagger-name = церемониальный кинжал
-ent-CMUYautjaCeremonialDagger-desc = Компактный нож яутжа для ритуалов, трофеев и ближних убийств.
+ent-CMUYautjaCombistick = телескопическое копьё
+    .desc = Складное копьё с цепью на древке.
 
-ent-CMUYautjaClanShield-name = клановый щит
-ent-CMUYautjaClanShield-desc = Тяжёлый щит яутжа для ближней охоты и ритуальной защиты.
+ent-CMUYautjaWarAxe = боевой топор
+    .desc = Лёгкий топор хищников, созданный для вспарывания и протыкания добычи.
 
-ent-CMUYautjaAncientShield-name = древний щит
-ent-CMUYautjaAncientShield-desc = Большой древний щит, выкованный из неизвестного золотого сплава.
+ent-CMUYautjaCeremonialDagger = церемониальный кинжал
+    .desc = Компактный нож яутжа для ритуалов, трофеев и кровавых убийств.
 
-ent-CMUYautjaAncientShieldAlt-name = древний щит
-ent-CMUYautjaAncientShieldAlt-desc = Богато украшенный древний щит, в центре которого доминирует металлический череп ксеноморфа.
+ent-CMUYautjaClanShield = щит клана
+    .desc = Тяжёлый щит хищников для ближней охоты и ритуальной защиты.
 
-ent-CMUYautjaAncientShieldTemple-name = древний щит
-ent-CMUYautjaAncientShieldTemple-desc = Выветренный древний щит с забытым церемониальным узором.
+ent-CMUYautjaAncientShield = древний щит
+    .desc = Большой щит, выкованный из неизвестного золотого сплава.
 
-ent-CMUYautjaHunterSpear-name = копьё охотника
-ent-CMUYautjaHunterSpear-desc = Копьё изысканной работы яутжа, подходящее для двуручных выпадов.
+ent-CMUYautjaAncientShieldAlt = древний щит
+    .desc = Богато украшенный щит, в центре которого выделяется металлический череп ксеноморфа.
 
-ent-CMUYautjaWarGlaive-name = боевая глефа
-ent-CMUYautjaWarGlaive-desc = Два огромных клинка на металлическом древке, покрытом загадочной письменностью.
+ent-CMUYautjaAncientShieldTemple = древний щит
+    .desc = Старый щит с забытым церемониальным узором.
 
-ent-CMUYautjaCleavingGlaive-name = рассекающая глефа
-ent-CMUYautjaCleavingGlaive-desc = Огромное однолезвийное древковое оружие яутжа.
+ent-CMUYautjaHunterSpear = копьё хищника
+    .desc = Копьё изысканной работы, подходящее для двуручных выпадов.
 
-ent-CMUYautjaAncientWarGlaive-name = древняя боевая глефа
-ent-CMUYautjaAncientWarGlaive-desc = Древняя боевая глефа, изъеденная кислотными шрамами. Её кромка всё ещё опасна, но уже далека от расцвета.
+ent-CMUYautjaWarGlaive = боевая глефа
+    .desc = Два огромных клинка на металлическом древке, покрытом загадочной письменностью.
 
-ent-CMUYautjaLongaxe-name = длиннотопор
-ent-CMUYautjaLongaxe-desc = Пугающе большой топор яутжа с зазубренным клинком, дробящим кости.
+ent-CMUYautjaCleavingGlaive = рассекающая глефа
+    .desc = Огромное однолезвийное древковое оружие хищников.
 
-ent-CMUYautjaDuellingBlade-name = дуэльный клинок
-ent-CMUYautjaDuellingBlade-desc = Примитивный, но смертельный клинок яутжа для ритуального боя.
+ent-CMUYautjaAncientWarGlaive = древняя боевая глефа
+    .desc = Старая боевая глефа, изъеденная кислотными шрамами. Её кромка всё ещё опасна.
 
-ent-CMUYautjaDuellingClub-name = дуэльная дубина
-ent-CMUYautjaDuellingClub-desc = Жестокая церемониальная дубина для разрешения споров среди яутжа.
+ent-CMUYautjaLongaxe = длинный топор
+    .desc = Пугающе большой топор хищников с зазубренным клинком.
 
-ent-CMUYautjaDuellingHatchet-name = дуэльный топорик
-ent-CMUYautjaDuellingHatchet-desc = Короткий церемониальный топорик с острой кромкой для ритуального боя.
+ent-CMUYautjaDuellingBlade = дуэльный клинок
+    .desc = Примитивный, но смертельный клинок хищников для ритуального боя.
 
-ent-CMUYautjaDuellingKnife-name = дуэльный нож
-ent-CMUYautjaDuellingKnife-desc = Грубый ритуальный нож, усыпанный бритвенно-острыми зубцами.
+ent-CMUYautjaDuellingClub = дуэльная дубина
+    .desc = Жестокая церемониальная дубина для разрешения споров среди хищников.
 
-ent-CMUYautjaSpikeProjectile-name = шип из сплава
-ent-CMUYautjaSpikeLauncher-name = пускатель шипов
-ent-CMUYautjaSpikeLauncher-desc = Компактное серповидное устройство яутжа, быстро формирующее и выпускающее шипы из сплава.
+ent-CMUYautjaDuellingHatchet = дуэльный топорик
+    .desc = Короткий топорик с острой кромкой для ритуального боя.
 
-ent-CMUYautjaPlasmaRifle-name = плазменная винтовка
-ent-CMUYautjaPlasmaRifle-desc = Редкая энергетическая винтовка яутжа со встроенной самозаряжающейся ячейкой.
+ent-CMUYautjaDuellingKnife = дуэльный нож
+    .desc = Грубый ритуальный нож, усыпанный бритвенно-острыми зубцами.
 
-ent-CMUYautjaPlasmaPistol-name = плазменный пистолет
-ent-CMUYautjaPlasmaPistol-desc = Компактное плазменное оружие яутжа с небольшой самозаряжающейся ячейкой.
+ent-CMUYautjaSpikeProjectile = инопланетный шип
+    .desc = Металлический шип из неизвестного сплава.
 
-ent-CMUYautjaPlasmaPistolBolt-name = заряд плазменного пистолета
-ent-CMUYautjaPlasmaRifleBolt-name = заряд плазменной винтовки
-ent-CMUYautjaCasterStunBolt-name = оглушающий заряд
-ent-CMUYautjaCasterImmobilizerBolt-name = плазменный иммобилизатор
-ent-CMUYautjaCasterLethalBolt-name = плазменный заряд
-ent-CMUYautjaCasterEradicatorBolt-name = плазменный уничтожитель
+ent-CMUYautjaSpikeLauncher = пускатель шипов
+    .desc = Компактное устройство хищников, быстро формирующее и выпускающее шипы из сплава.
 
-ent-CMUYautjaHumanSkullTrophy-name = трофейный череп
-ent-CMUYautjaHumanSkullTrophy-desc = Очищенный череп, взятый как охотничий трофей яутжа.
+ent-CMUYautjaPlasmaRifle = плазменная винтовка
+    .desc = Редкая энергетическая винтовка хищников со встроенной самозаряжающейся энергоячейкой.
 
-ent-CMUYautjaHumanLeftArmBoneTrophy-name = трофейная кость левой руки
-ent-CMUYautjaHumanLeftArmBoneTrophy-desc = Очищенная кость руки, взятая как охотничий трофей яутжа.
+ent-CMUYautjaPlasmaPistol = плазменный пистолет
+    .desc = Компактное плазменное оружие хищников с небольшой самозаряжающейся энергоячейкой.
 
-ent-CMUYautjaHumanRightArmBoneTrophy-name = трофейная кость правой руки
-ent-CMUYautjaHumanRightArmBoneTrophy-desc = Очищенная кость руки, взятая как охотничий трофей яутжа.
+ent-CMUYautjaPlasmaPistolBolt = заряд плазменного пистолета
+    .desc = Ужас, летящий к вам!
+ent-CMUYautjaPlasmaRifleBolt = заряд плазменной винтовки
+    .desc = {ent-CMUYautjaPlasmaPistolBolt.desc}
+ent-CMUYautjaCasterStunBolt = оглушающий заряд
+    .desc = {ent-CMUYautjaPlasmaPistolBolt.desc}
+ent-CMUYautjaCasterImmobilizerBolt = плазменный иммобилизатор
+    .desc = {ent-CMUYautjaPlasmaPistolBolt.desc}
+ent-CMUYautjaCasterLethalBolt = плазменный заряд
+    {ent-CMUYautjaPlasmaPistolBolt.desc}
+ent-CMUYautjaCasterEradicatorBolt = плазменный уничтожитель
+    {ent-CMUYautjaPlasmaPistolBolt.desc}
 
-ent-CMUYautjaHumanLeftHandBoneTrophy-name = трофейная кость левой кисти
-ent-CMUYautjaHumanLeftHandBoneTrophy-desc = Очищенная кость кисти, взятая как охотничий трофей яутжа.
+ent-CMUYautjaHumanSkullTrophy = трофейный череп
+    .desc = Череп, взятый как охотничий трофей.
 
-ent-CMUYautjaHumanRightHandBoneTrophy-name = трофейная кость правой кисти
-ent-CMUYautjaHumanRightHandBoneTrophy-desc = Очищенная кость кисти, взятая как охотничий трофей яутжа.
+ent-CMUYautjaHumanLeftArmBoneTrophy = трофейная кость левой руки
+    .desc = Кость руки, взятая как охотничий трофей.
 
-ent-CMUYautjaHumanLeftLegBoneTrophy-name = трофейная кость левой ноги
-ent-CMUYautjaHumanLeftLegBoneTrophy-desc = Очищенная кость ноги, взятая как охотничий трофей яутжа.
+ent-CMUYautjaHumanRightArmBoneTrophy = трофейная кость правой руки
+    .desc = Кость руки, взятая как охотничий трофей.
 
-ent-CMUYautjaHumanRightLegBoneTrophy-name = трофейная кость правой ноги
-ent-CMUYautjaHumanRightLegBoneTrophy-desc = Очищенная кость ноги, взятая как охотничий трофей яутжа.
+ent-CMUYautjaHumanLeftHandBoneTrophy = трофейная кость левой кисти
+    .desc = Кость кисти, взятая как охотничий трофей.
 
-ent-CMUYautjaHumanLeftFootBoneTrophy-name = трофейная кость левой стопы
-ent-CMUYautjaHumanLeftFootBoneTrophy-desc = Очищенная кость стопы, взятая как охотничий трофей яутжа.
+ent-CMUYautjaHumanRightHandBoneTrophy = трофейная кость правой кисти
+    .desc = Кость кисти, взятая как охотничий трофей.
 
-ent-CMUYautjaHumanRightFootBoneTrophy-name = трофейная кость правой стопы
-ent-CMUYautjaHumanRightFootBoneTrophy-desc = Очищенная кость стопы, взятая как охотничий трофей яутжа.
+ent-CMUYautjaHumanLeftLegBoneTrophy = трофейная кость левой ноги
+    .desc = Кость ноги, взятая как охотничий трофей.
 
-ent-CMUYautjaHumanRibcageTrophy-name = трофейная грудная клетка
-ent-CMUYautjaHumanRibcageTrophy-desc = Очищенная грудная клетка, взятая как охотничий трофей яутжа.
+ent-CMUYautjaHumanRightLegBoneTrophy = трофейная кость правой ноги
+    .desc = Кость ноги, взятая как охотничий трофей.
 
-ent-CMUYautjaXenoSkullTrophy-name = трофейный череп ксено
-ent-CMUYautjaXenoSkullTrophy-desc = Покрытый следами смолы чужой череп, взятый с павшего змея.
+ent-CMUYautjaHumanLeftFootBoneTrophy = трофейная кость левой стопы
+    .desc = Кость стопы, взятая как охотничий трофей.
 
-ent-CMUYautjaXenoPeltTrophy-name = трофейная шкура ксено
-ent-CMUYautjaXenoPeltTrophy-desc = Полоса чужой шкуры, выделанная как трофей охотника.
+ent-CMUYautjaHumanRightFootBoneTrophy = трофейная кость правой стопы
+    .desc = Кость стопы, взятая как охотничий трофей.
 
-ent-CMUYautjaQueenSkullTrophy-name = трофейный череп королевы
-ent-CMUYautjaKingSkullTrophy-name = трофейный череп короля
-ent-CMUYautjaCrusherSkullTrophy-name = трофейный череп крушителя
-ent-CMUYautjaPraetorianSkullTrophy-name = трофейный череп преторианца
-ent-CMUYautjaCorroderSkullTrophy-name = трофейный череп разъедателя
-ent-CMUYautjaDespoilerSkullTrophy-name = трофейный череп осквернителя
-ent-CMUYautjaDeaconSkullTrophy-name = трофейный череп диакона
-ent-CMUYautjaRavagerSkullTrophy-name = трофейный череп опустошителя
-ent-CMUYautjaBoilerSkullTrophy-name = трофейный череп бойлера
-ent-CMUYautjaDefenderSkullTrophy-name = трофейный череп защитника
-ent-CMUYautjaWarriorSkullTrophy-name = трофейный череп воина
-ent-CMUYautjaCarrierSkullTrophy-name = трофейный череп носителя
-ent-CMUYautjaHivelordSkullTrophy-name = трофейный череп владыки улья
-ent-CMUYautjaBurrowerSkullTrophy-name = трофейный череп копателя
-ent-CMUYautjaHunterSkullTrophy-name = трофейный череп охотника
-ent-CMUYautjaLurkerSkullTrophy-name = трофейный череп скрытня
-ent-CMUYautjaSentinelSkullTrophy-name = трофейный череп стража
-ent-CMUYautjaSpitterSkullTrophy-name = трофейный череп плевальщика
-ent-CMUYautjaRunnerSkullTrophy-name = трофейный череп бегуна
-ent-CMUYautjaDroneSkullTrophy-name = трофейный череп дрона
+ent-CMUYautjaHumanRibcageTrophy = трофейная грудная клетка
+    .desc = Грудная клетка, взятая как охотничий трофей.
 
-ent-CMUYautjaQueenPeltTrophy-name = трофейная шкура королевы
-ent-CMUYautjaKingPeltTrophy-name = трофейная шкура короля
-ent-CMUYautjaCrusherPeltTrophy-name = трофейная шкура крушителя
-ent-CMUYautjaPraetorianPeltTrophy-name = трофейная шкура преторианца
-ent-CMUYautjaCorroderPeltTrophy-name = трофейная шкура разъедателя
-ent-CMUYautjaDespoilerPeltTrophy-name = трофейная шкура осквернителя
-ent-CMUYautjaDeaconPeltTrophy-name = трофейная шкура диакона
-ent-CMUYautjaRavagerPeltTrophy-name = трофейная шкура опустошителя
-ent-CMUYautjaBoilerPeltTrophy-name = трофейная шкура бойлера
-ent-CMUYautjaDefenderPeltTrophy-name = трофейная шкура защитника
-ent-CMUYautjaWarriorPeltTrophy-name = трофейная шкура воина
-ent-CMUYautjaCarrierPeltTrophy-name = трофейная шкура носителя
-ent-CMUYautjaHivelordPeltTrophy-name = трофейная шкура владыки улья
-ent-CMUYautjaBurrowerPeltTrophy-name = трофейная шкура копателя
-ent-CMUYautjaHunterPeltTrophy-name = трофейная шкура охотника
-ent-CMUYautjaLurkerPeltTrophy-name = трофейная шкура скрытня
-ent-CMUYautjaSentinelPeltTrophy-name = трофейная шкура стража
-ent-CMUYautjaSpitterPeltTrophy-name = трофейная шкура плевальщика
-ent-CMUYautjaRunnerPeltTrophy-name = трофейная шкура бегуна
-ent-CMUYautjaDronePeltTrophy-name = трофейная шкура дрона
-ent-CMUYautjaLarvaPeltTrophy-name = трофейная шкура личинки
+ent-CMUYautjaXenoSkullTrophy = трофейный череп ксено
+    .desc = Череп, взятый с павшего ксеноса.
 
-ent-CMUYautjaHumanHide-name = снятая кожа
-ent-CMUYautjaHumanHide-desc = Жуткий лист кожи, снятый во время разделки яутжа.
+ent-CMUYautjaXenoPeltTrophy = трофейная шкура ксено
+    .desc = Кусок инопланетной шкуры, выделанная как трофей.
 
-ent-CMUYautjaHumanSpine-name = позвоночник
-ent-CMUYautjaHumanSpine-desc = Очищенный позвоночник, взятый с разделанного тела.
+ent-CMUYautjaQueenSkullTrophy = трофейный череп королевы
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
 
-ent-CMUYautjaHumanButcheredRemains-name = разделанные останки
-ent-CMUYautjaHumanButcheredRemains-desc = Куча останков, оставшаяся после ритуальной разделки яутжа.
+ent-CMUYautjaKingSkullTrophy = трофейный череп короля
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+ent-CMUYautjaCrusherSkullTrophy = трофейный череп крушителя
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
 
-ent-CMUYautjaXenoButcheredRemains-name = разделанные останки ксено
-ent-CMUYautjaXenoButcheredRemains-desc = Куча покрытых кислотными следами останков, оставшаяся после ритуальной разделки яутжа.
+ent-CMUYautjaPraetorianSkullTrophy = трофейный череп преторианца
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
 
-ent-CMUYautjaTrophyBelt-name = трофейный пояс
-ent-CMUYautjaTrophyBelt-desc = Церемониальный пояс яутжа для демонстрации заявленных трофеев и ритуальных побед.
+ent-CMUYautjaCorroderSkullTrophy = трофейный череп разъедателя
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
 
-ent-CMUYautjaPolishingRag-name = полировочная тряпка
-ent-CMUYautjaPolishingRag-desc = Тонко сотканная ткань, используемая яутжа для чистки и полировки костяных трофеев.
+ent-CMUYautjaDespoilerSkullTrophy = трофейный череп осквернителя
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
 
-ent-CMUYautjaHuntingTrap-name = охотничья ловушка
-ent-CMUYautjaHuntingTrap-desc = Компактная чужая ловушка, захлопывающаяся на живой добыче после взведения.
+ent-CMUYautjaDeaconSkullTrophy = трофейный череп диакона
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaRavagerSkullTrophy = трофейный череп опустошителя
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaBoilerSkullTrophy = трофейный череп бойлера
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaDefenderSkullTrophy = трофейный череп защитника
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaWarriorSkullTrophy = трофейный череп воина
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaCarrierSkullTrophy = трофейный череп носителя
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaHivelordSkullTrophy = трофейный череп владыки улья
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaBurrowerSkullTrophy = трофейный череп копателя
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaHunterSkullTrophy = трофейный череп охотника
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaLurkerSkullTrophy = трофейный череп скрытня
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaSentinelSkullTrophy = трофейный череп стража
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaSpitterSkullTrophy = трофейный череп плевальщика
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaRunnerSkullTrophy = трофейный череп бегуна
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaDroneSkullTrophy = трофейный череп дрона
+    .desc = {ent-CMUYautjaXenoSkullTrophy.desc}
+
+ent-CMUYautjaQueenPeltTrophy = трофейная шкура королевы
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaKingPeltTrophy = трофейная шкура короля
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaCrusherPeltTrophy = трофейная шкура крушителя
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaPraetorianPeltTrophy = трофейная шкура преторианца
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaCorroderPeltTrophy = трофейная шкура разъедателя
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaDespoilerPeltTrophy = трофейная шкура осквернителя
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaDeaconPeltTrophy = трофейная шкура диакона
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaRavagerPeltTrophy = трофейная шкура опустошителя
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaBoilerPeltTrophy = трофейная шкура бойлера
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaDefenderPeltTrophy = трофейная шкура защитника
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaWarriorPeltTrophy = трофейная шкура воина
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaCarrierPeltTrophy = трофейная шкура носителя
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaHivelordPeltTrophy = трофейная шкура владыки улья
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaBurrowerPeltTrophy = трофейная шкура копателя
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaHunterPeltTrophy = трофейная шкура охотника
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaLurkerPeltTrophy = трофейная шкура скрытня
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaSentinelPeltTrophy = трофейная шкура стража
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+ent-CMUYautjaSpitterPeltTrophy = трофейная шкура плевальщика
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+ent-CMUYautjaRunnerPeltTrophy = трофейная шкура бегуна
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+ent-CMUYautjaDronePeltTrophy = трофейная шкура дрона
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+ent-CMUYautjaLarvaPeltTrophy = трофейная шкура личинки
+    .desc = {ent-CMUYautjaXenoPeltTrophy.desc}
+
+ent-CMUYautjaHumanHide = человеческая кожа
+    .desc = Жуткий лист кожи, снятый во время разделки человека.
+
+ent-CMUYautjaHumanSpine = позвоночник
+    .desc = Позвоночник, взятый с разделанного тела.
+
+ent-CMUYautjaHumanButcheredRemains = разделанные останки
+    .desc = Куча останков, оставшаяся после ритуальной разделки.
+
+ent-CMUYautjaXenoButcheredRemains = разделанные останки ксено
+    .desc = Куча останков, оставшаяся после ритуальной разделки ксеноса.
+
+ent-CMUYautjaTrophyBelt = пояс для трофеев
+    .desc = Церемониальный пояс для демонстрации трофеев.
+
+ent-CMUYautjaPolishingRag = тряпка для полировки
+    .desc = Тонко сотканная ткань, используемая для чистки и полировки трофеев.
+
+ent-CMUYautjaHuntingTrap = охотничья ловушка
+    .desc = Компактная инопланетная ловушка, захлопывающаяся на добыче после взведения.

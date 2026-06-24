@@ -1,6 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Content.Shared._RMC14.GameStates;
+using Content.Shared._RuMC14.RoleTests;
 using Content.Shared.Administration.Logs;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
@@ -677,19 +678,41 @@ public abstract partial class SharedRoleSystem : EntitySystem
     // mutated.
     public HashSet<JobRequirement>? GetJobRequirement(JobPrototype job)
     {
-        if (_requirementOverride != null && _requirementOverride.Jobs.TryGetValue(job.ID, out var req))
-            return req;
+        HashSet<JobRequirement>? req;
+        if (_requirementOverride != null && _requirementOverride.Jobs.TryGetValue(job.ID, out var overridden))
+            req = overridden;
+        else
+            req = job.Requirements;
 
-        return job.Requirements;
+        return WithRoleTestRequirement(job, req);
     }
 
     // TODO ROLES Change to readonly.
     public HashSet<JobRequirement>? GetJobRequirement(ProtoId<JobPrototype> job)
     {
-        if (_requirementOverride != null && _requirementOverride.Jobs.TryGetValue(job, out var req))
-            return req;
+        var prototype = _prototypes.Index(job);
+        if (_requirementOverride != null && _requirementOverride.Jobs.TryGetValue(job, out var overridden))
+            return WithRoleTestRequirement(prototype, overridden);
 
-        return _prototypes.Index(job).Requirements;
+        return WithRoleTestRequirement(prototype, prototype.Requirements);
+    }
+
+    private HashSet<JobRequirement>? WithRoleTestRequirement(JobPrototype job, HashSet<JobRequirement>? requirements)
+    {
+        if (RoleTestShared.IsRoleTestExempt(job) ||
+            !_prototypes.TryIndex<RoleTestQuestionPoolPrototype>(job.ID, out _))
+            return requirements;
+
+        var result = requirements == null
+            ? new HashSet<JobRequirement>()
+            : new HashSet<JobRequirement>(requirements);
+
+        result.Add(new RoleTestRequirement
+        {
+            Test = RoleTestShared.GetJobTestId(job.ID),
+            Name = job.LocalizedName,
+        });
+        return result;
     }
 
     // TODO ROLES Change to readonly.

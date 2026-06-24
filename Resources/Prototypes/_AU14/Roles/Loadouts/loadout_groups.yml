@@ -274,6 +274,14 @@
   - CivilianPhysicianSpecializationGeneralPractitionerAU14
 
 - type: loadoutGroup
+  id: CivilianHeadPhysicianSpecializationAU14
+  name: au14-loadout-group-role-specific-ID
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CivilianHeadPhysicianSpecializationDefaultAU14
+
+- type: loadoutGroup
   id: MedJumpsuitAU14
   name: au14-loadout-group-civilian-jumpsuit
   minLimit: 1
@@ -880,7 +888,6 @@
   - GogglesPolarizedOrangeRMC
   - GogglesM1A1BlueRMC
   - GlassesSecurityRMC
-  - RMCGlassesExperimentalMeson
 
 - type: loadoutGroup
   id: SynthUniformAU14
@@ -1012,9 +1019,10 @@
   id: SynthAccesoriesSpecialAU14
   name: au14-loadout-group-synth-equipment
   minLimit: 1
-  maxLimit: 1
+  maxLimit: 2
   loadouts:
   - WebbingSurgicalBlueAU14
+  # - AU14GOVFORIOHeadset # I dont see OPFOR loadouts so use AU14OPFORIOHeadset for OPFOR
 
 # Doctor
 

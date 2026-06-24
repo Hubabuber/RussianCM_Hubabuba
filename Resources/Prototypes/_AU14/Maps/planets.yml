@@ -33,7 +33,7 @@
     - XenoThreatCF
     - wendigoThreat
     - abominationsThreatDistress
-    - badBloodClanThreat
+#    - badBloodClanThreat
     thirdparties:
     - WEYUSurvLarge
     - WEYUSurvMedium
@@ -97,9 +97,13 @@
     - USCM
     - WEYU
     - RMC
+    - UPP
+    - HAZOPS
+    - VAIPO
+    - ProdigySF
     defaultgovfor: USCM
     defaultopfor: UPP
-    govforinship: false
+    govforinship: true
     opforinship: true
     daycycleenabled: true
     thirdparties:
@@ -144,6 +148,7 @@
     - wendigoThreat
     - abominationsThreat
     - abominationsThreatDistress
+#    - badBloodClanThreat
     # Shepherds' Pride exposes CWPS Ranger as its map-specific LEO role.
     joboverrides:
       AU14JobLEOLeaderBase: AU14JobCivilianCWPSRanger
@@ -429,10 +434,10 @@
 
 - type: entity
   id: AUPlanetLV327
-  name: Port Neroid
+  name: Port Nereid
   components:
   - type: RMCPlanetMapPrototype
-    votename: "Port Neroid"
+    votename: "Port Nereid"
     mapId: portneroid
     lorePrimer: AU14PrimerPlanetLV327
     Allegiance: UA
@@ -460,7 +465,7 @@
     - XenoThreatCF
     - wendigoThreat
     - abominationsThreatDistress
-    - badBloodClanThreat
+#    - badBloodClanThreat
 
     thirdparties:
     - WEYUSurvLarge
@@ -525,7 +530,7 @@
     - cultistThreat
     - XenoThreat
     - XenoThreatCF
-    - badBloodClanThreat
+#    - badBloodClanThreat
 
     thirdparties:
     - WEYUSurvLarge
@@ -604,7 +609,7 @@
     - wendigoThreat
     - abominationsThreat
     - abominationsThreatDistress
-    - badBloodClanThreat
+#    - badBloodClanThreat
 
     joboverrides:
       AU14JobLEOBase: AU14JobCivilianCMBDeputy
@@ -667,7 +672,7 @@
     - wendigoThreat
  #   - TribalsThreat
     - abominationsThreatDistress
-    - badBloodClanThreat
+#    - badBloodClanThreat
 
     jobScalingFof: DefaultGovforOpforScale
     jobScalingIns: DefaultInsurgencyScale
@@ -728,7 +733,7 @@
     threats:
     - XenoThreat
     #- TribalsThreat
-    - badBloodClanThreat
+#    - badBloodClanThreat
 
     jobScalingFof: DefaultGovforOpforScale
     jobScalingIns: DefaultInsurgencyScale
@@ -786,7 +791,7 @@
     threats:
     - XenoThreat
  #   - TribalsThreat
-    - badBloodClanThreat
+#    - badBloodClanThreat
 
     jobScalingFof: DefaultGovforOpforScale
     jobScalingIns: DefaultInsurgencyScale
@@ -843,8 +848,8 @@
     - abominationThirdParty
     threats:
     - XenoThreat
-    - TribalsThreat
-    - badBloodClanThreat
+#    - TribalsThreat
+#    - badBloodClanThreat
 
     jobScalingFof: DefaultGovforOpforScale
     jobScalingIns: DefaultInsurgencyScale
@@ -902,7 +907,8 @@
     - abominationThirdParty
     threats:
     - abominationsThreatDistress
-    -  badBloodClanThreat
+    - XenoThreat
+#    - badBloodClanThreat
     jobScalingFof: DefaultGovforOpforScale
     jobScalingIns: DefaultInsurgencyScale
 
@@ -957,7 +963,8 @@
     - abominationThirdParty
     threats:
     - abominationsThreatDistress
-    - badBloodClanThreat
+    - XenoThreat
+#    - badBloodClanThreat
 
     jobScalingFof: DefaultGovforOpforScale
     jobScalingIns: DefaultInsurgencyScale
@@ -999,7 +1006,7 @@
 
 - type: lorePrimer
   id: AU14PrimerPlanetLV327
-  planetText: "Date 2181 - Port Neroid, valuable waterport on a frontier world, UA controlled."
+  planetText: "Date 2181 - Port Nereid, a valuable waterport on a frontier world, UA controlled."
 
 - type: lorePrimer
   id: AU14PrimerPlanetCorsatStation

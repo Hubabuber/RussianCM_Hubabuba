@@ -23,8 +23,6 @@
   hasIcon: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
-  whitelisted: true
-  whitelistParent: RMCWhitelistMedium
   accessGroups:
   - Colonist
   - auadmin
@@ -59,7 +57,7 @@
       prefix: au14-job-prefix-civiliancolonysynthetic
     - type: TacticalMapIcon
       icon:
-        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        sprite: /Textures/_AU14/Interface/au14colonyjobicons.rsi
         state: synth
     - type: MeleeWeapon
       soundHit:
@@ -75,8 +73,6 @@
           Blunt: 35
     - type: Synth
       generation: "rmc-species-synth-generation-second"
-
-  hidden: false
 
 - type: startingGear
   id: AU14GearCivilianColonySynthetic

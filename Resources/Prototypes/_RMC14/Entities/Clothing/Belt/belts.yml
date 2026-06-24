@@ -31,6 +31,7 @@
       tags:
       - Flare
       - RMCShellShotgun
+      - RMCShellShotgunHDSG
       - CMMagazinePistol
       - RMCMagazineRevolver
       - CMMagazineRifle
@@ -50,6 +51,7 @@
       tags:
       - CMMagazineRifle
       - RMCMagazineShotgun
+      - RMCShellShotgunHDSG
       - CMMagazineSmg
   - type: FixedItemSizeStorage
   - type: ItemCamouflage
@@ -316,6 +318,7 @@
       - PowerCell
       - CMFireExtinguisherPortable
       - RMCShellShotgun
+      - RMCShellShotgunHDSG
       - RMCNailgunCompact
       - RMCNailgunTactical
       - RMCSynthResetKey
@@ -515,6 +518,7 @@
       - CMMagazineSniper
       - RMCMagazineSmartGun
       - RMCShellShotgun
+      - RMCShellShotgunHDSG
       - Flare
   - type: FixedItemSizeStorage
   - type: IgnoreContentsSize
@@ -1448,6 +1452,7 @@
       - RMCWeaponShotgunXM51
       - RMCMagazineShotgunXM51
       - RMCShellShotgun # TODO RMC14 bullet handfuls
+      - RMCShellShotgunHDSG
   - type: FixedItemSizeStorage
   - type: CMHolster
     whitelist:
@@ -2409,6 +2414,7 @@
     whitelist:
       tags:
       - RMCShellShotgun
+      - RMCShellShotgunHDSG
   - type: FixedItemSizeStorage
   - type: CMHolster
   - type: LimitedStorage
@@ -2459,6 +2465,76 @@
     tags:
     - RMCXM51Holster
     - RMCL49Holster
+
+- type: entity
+  parent: CMBeltBaseStorage
+  id: RMCBeltBrowne
+  name: M276 'Sam Browne' duty belt
+  description: The M276 'Sam Browne' duty belt is an alternative piece of load-bearing equipment offered to senior officers, military police, and senior enlisted advisors. It consists of a leather belt, a supporting strap worn over the right shoulder, a holster for a sidearm, and a small pouch capable of holding binoculars, a megaphone, policing tools, and other miscellaneous items - even a command tablet.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Belt/browne.rsi
+    layers:
+    - state: icon
+    - sprite: _RMC14/Objects/Weapons/Guns/gun_underlays.rsi
+      state: m1984 # TODO RMC14 per-gun underlay
+      map: [ "enum.CMHolsterLayers.Fill" ]
+    - sprite: _RMC14/Objects/Clothing/Belt/browne.rsi
+      state: icon-front
+      map: [ "holstered" ]
+    - state: half
+      map: [ "openLayer" ]
+    - state: full
+      map: [ "closedLayer" ]
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Belt/browne.rsi
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,11,1 # 6 slots
+    whitelist:
+      tags:
+      - SecBeltEquip
+      - Taser
+      - Flashlight
+      - CMMagazinePistol
+      - RMCShellShotgun
+      - RMCShellShotgunHDSG
+      - RMCMagazineRevolver
+      - Donut
+      - RMCGrenadeFlashBang
+      - Radio
+      - Binoculars
+      - CommandTablet
+      components:
+      - Handcuff
+      - Flash
+      - FlashOnTrigger
+      - Stunbaton
+      - ForensicScanner
+      - MeleeWeapon
+      - Gun
+      - RMCLighter
+      - RMCMegaphone
+  - type: FixedItemSizeStorage
+  - type: LimitedStorage
+    limits:
+    - popup: rmc-storage-limit-one-gun
+      whitelist:
+        components:
+        - Gun
+  - type: CMHolster
+    whitelist:
+      components:
+      - Gun
+  - type: ItemMapper
+    spriteLayers:
+    - holstered
+    mapLayers:
+      holstered:
+        whitelist:
+          tags:
+          - Sidearm
 
 - type: Tag
   id: RMCL49Holster

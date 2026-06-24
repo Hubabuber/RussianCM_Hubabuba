@@ -1,79 +1,82 @@
-ent-BaseBarSign-name = вывеска бара
+ent-BaseBarSign = вывеска бара
+    .desc = Обычная вывеска бара
 
-ent-BarSign-name = вывеска бара
+ent-BarSign = {ent-BaseBarSign}
+    .desc = { ent-BaseBarSign.desc }
+    .suffix = Случайная
 
-ent-BarSignComboCafe-name = Комбо Кафе
-ent-BarSignComboCafe-desc = Известные во всей системе своими совершенно некреативными сочетаниями напитков.
+ent-BarSignComboCafe = Комбо Кафе
+    .desc = Известны по всей системе своими совершенно некреативными комбинациями напитков.
 
-ent-BarSignEmergencyRumParty-name = Экстренная ромовая вечеринка
-ent-BarSignEmergencyRumParty-desc = Недавно получила повторную лицензию после длительного закрытия.
+ent-BarSignEmergencyRumParty = Чрезвычайная вечеринка с ромом
+    .desc = Недавно продлили лицензию после длительного перерыва.
 
-ent-BarSignLV426-name = LV426
-ent-BarSignLV426-desc = Пить с модными масками явно важнее, чем ходить в медотсек.
+ent-BarSignLV426 = LV426
+    .desc = Выпить с модной маской на лице явно важнее, чем сходить в медотсек.
 
-ent-BarSignMaidCafe-name = Горничная Кафе
-ent-BarSignMaidCafe-desc = С возвращением, хозяин!
+ent-BarSignMaidCafe = Мэйдо-кафе
+    .desc = С возвращением, хозяин!
 
-ent-BarSignMalteseFalcon-name = Мальтийский сокол
-ent-BarSignMalteseFalcon-desc = Сыграй еще раз, Сэм.
+ent-BarSignMalteseFalcon = Мальтийский сокол
+    .desc = Сыграй ещё раз, Сэм.
 
-ent-BarSignOfficerBeersky-name = Офицер Бирски
-ent-BarSignOfficerBeersky-desc = Мужик, съешь донг, эти напитки великолепны.
+ent-BarSignOfficerBeersky = Офицер Пивски
+    .desc = Мужик, эти напитки великолепны.
 
-ent-BarSignRobustaCafe-name = Робуста Кафе
-ent-BarSignRobustaCafe-desc = Обладатель рекорда «Самые смертоносные бои в барах» в течение 5 лет без каких-либо сомнений.
+ent-BarSignRobustaCafe = Бар Робуста
+    .desc = Неоспоримый обладатель награды "Самые смертоносные бои в барах" уже 5 лет.
 
-ent-BarSignTheAleNath-name = Эль Натх
-ent-BarSignTheAleNath-desc = Хорошо, приятель. Я думаю, у вас был ЭИ НАТХ. Пора брать такси.
+ent-BarSignTheAleNath = Эль'натх
+    .desc = По какой-то причине притягивает таинственных незнакомцев в робах, шепчущих EI NATH.
 
-ent-BarSignTheBirdCage-name = Птичья клетка
-ent-BarSignTheBirdCage-desc = Ка-ка!
+ent-BarSignTheBirdCage = Вольер
+    .desc = Ку-ку!
 
-ent-BarSignTheCoderbus-name = Кодербус
-ent-BarSignTheCoderbus-desc = Очень противоречивый бар, известный своим большим выбором постоянно меняющихся напитков.
+ent-BarSignTheCoderbus = Кодербас
+    .desc = Очень противоречивый бар, известный широким ассортиментом постоянно меняющихся напитков.
 
-ent-BarSignTheDrunkCarp-name = Пьяный карп
-ent-BarSignTheDrunkCarp-desc = Не пейте и не плавайте.
+ent-BarSignTheDrunkCarp = Пьянный карп
+    .desc = Не пейте плавая.
 
-ent-BarSignEngineChange-name = Изменение двигателя
-ent-BarSignEngineChange-desc = Все еще жду.
+ent-BarSignEngineChange = Замена двигателя
+    .desc = Всё ещё ожидаем.
 
-ent-BarSignTheHarmbaton-name = Хармбатон
-ent-BarSignTheHarmbaton-desc = Отличный обед как для сотрудников службы безопасности, так и для пассажиров.
+ent-BarSignTheHarmbaton = Хармбатон
+    .desc = Отличные обеды как для сотрудников службы безопасности, так и для пассажиров.
 
-ent-BarSignTheLightbulb-name = Лампочка
-ent-BarSignTheLightbulb-desc = Кафе, популярное среди мотыльков и моффов. Однажды его закрыли на неделю после того, как бармен нафталинила свою запасную униформу.
+ent-BarSignTheLightbulb = Лампочка
+    .desc = Кафе, популярное среди ниан и молей. Однажды его закрыли на неделю после того, как бармен использовала нафталин для обработки своей запасной униформы.
 
-ent-BarSignTheLooseGoose-name = Свободный гусь
-ent-BarSignTheLooseGoose-desc = Пейте до рвоты и/или нарушайте законы реальности!
+ent-BarSignTheLooseGoose = Весёлый гусь
+    .desc = Пей до рвоты и/или нарушай законы реальности!
 
-ent-BarSignTheNet-name = Сеть
-ent-BarSignTheNet-desc = Кажется, ты просто увлекся этим на несколько часов.
+ent-BarSignTheNet = Сеть
+    .desc = Незаметишь как затянет на пару часов.
 
-ent-BarSignTheOuterSpess-name = Внешний Шпесс
-ent-BarSignTheOuterSpess-desc = Этот бар на самом деле находится не в космосе.
+ent-BarSignTheOuterSpess = Открытый космос
+    .desc = На самом деле этот бар расположен не в открытом космосе.
 
-ent-BarSignTheSingulo-name = Сингуло
-ent-BarSignTheSingulo-desc = Куда идут люди, которых предпочли бы не называть по имени.
+ent-BarSignTheSingulo = Сингуло
+    .desc = Куда приходят люди, которые не любят, чтобы их звали по имени.
 
-ent-BarSignTheSun-name = Солнце
-ent-BarSignTheSun-desc = По иронии судьбы ярко для такого тенистого бара.
+ent-BarSignTheSun = Солнце
+    .desc = Иронично яркая для такого тёмного бара.
 
-ent-BarSignWiggleRoom-name = Комната для покачивания
-ent-BarSignWiggleRoom-desc = У MoMMI появились ходы.
+ent-BarSignWiggleRoom = Комната Виггль
+    .desc = MoMMI маневрируют в танце.
 
-ent-BarSignZocalo-name = Сокало
-ent-BarSignZocalo-desc = Anteriormente ubicado en Spessmerica.
+ent-BarSignZocalo = Сокало
+    .desc = Ранее находилось в Космоамерике.
 
-ent-BarSignEmprah-name = 4 Эмпра
-ent-BarSignEmprah-desc = Его одинаково любят фанатики, еретики и посетители с поврежденным мозгом.
+ent-BarSignEmprah = За Империю
+    .desc = Нравится и фанатикам, и еретикам, и завсегдатаям с дефектами мозга.
 
-ent-BarSignSpacebucks-name = Космические баксы
-ent-BarSignSpacebucks-desc = От них не уйти, даже в космосе, и даже после того, как мы стали называть их «спесо».
+ent-BarSignSpacebucks = Спейсбакс
+    .desc = От них нельзя скрыться, даже в космосе, и даже после того, как некоторые стали называть их "срубли".
 
-ent-BarSignMaltroach-name = Мальтроч
-ent-BarSignMaltroach-desc = Писк!
+ent-BarSignMaltroach = Пивная Моль
+    .desc = Сквик!
 
-ent-BarSignWhiskeyEchoes-name = Виски Эхо
-ent-BarSignWhiskeyEchoes-desc = Элитный бар для элитных опер-операторов, это станция Нанотрасен. Почему этот знак в базе данных?
+ent-BarSignWhiskeyEchoes = Виски Эхо
+    .desc = Элитный бар для элитных опер... Подождите, это же станция Nanotrasen. Почему эта вывеска в базе данных?
 

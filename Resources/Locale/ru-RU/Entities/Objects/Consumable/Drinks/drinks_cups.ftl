@@ -1,62 +1,63 @@
-ent-DrinkBaseCup-name = базовая чашка
+ent-DrinkBaseCup = базовая чашка
+    .desc = Базовая чашка.
 
-ent-DrinkGoldenCup-name = золотой кубок
-ent-DrinkGoldenCup-desc = Золотой кубок.
+ent-DrinkGoldenCup = золотой кубок
+    .desc = Золотой кубок.
 
-ent-DrinkBaseMug-name = кружка
-ent-DrinkBaseMug-desc = Кружка.
+ent-DrinkBaseMug = кружка
+    .desc = Самый обыкновенная кружка.
 
-ent-DrinkMug-name = кружка
-ent-DrinkMug-desc = Обычная белая кружка.
+ent-DrinkMug = кружка
+    .desc = Обычная белая кружка.
 
-ent-DrinkMugBlack-name = черная кружка
-ent-DrinkMugBlack-desc = Изящная черная кружка.
+ent-DrinkMugBlack = чёрная кружка
+    .desc = Изящная чёрная кружка.
 
-ent-DrinkMugBlue-name = синяя кружка
-ent-DrinkMugBlue-desc = Синяя и черная кружка.
+ent-DrinkMugBlue = синяя кружка
+    .desc = Синяя кружка.
 
-ent-DrinkMugGreen-name = зеленая кружка
-ent-DrinkMugGreen-desc = Бледно-зелено-розовая кружка.
+ent-DrinkMugGreen = зелёная кружка
+    .desc = Бледно-зелёно кружка.
 
-ent-DrinkMugDog-name = забавная кружка для собаки
-ent-DrinkMugDog-desc = Он похож на мультяшного бигля.
+ent-DrinkMugDog = забавная кружка с собакой
+    .desc = Она похожа на мультяшного бигля.
 
-ent-DrinkMugHeart-name = кружка с сердцем
-ent-DrinkMugHeart-desc = Белая кружка с заметным красным сердцем.
+ent-DrinkMugHeart = кружка с сердцем
+    .desc = Белая кружка с красным сердцем.
 
-ent-DrinkMugMetal-name = металлическая кружка
-ent-DrinkMugMetal-desc = Металлическая кружка. Вы не уверены, какой металл.
+ent-DrinkMugMetal = металлическая кружка
+    .desc = Металлическая кружка. Вы не уверены, какой это металл.
 
-ent-DrinkMugMoebius-name = кружка Мебиуса
-ent-DrinkMugMoebius-desc = Кружка с логотипом Moebius Laboratories. Даже ваш утренний кофе не застрахован от корпоративной рекламы.
+ent-DrinkMugMoebius = кружка Мёбиус
+    .desc = Кружка с логотипом компании Мёбиус. Даже ваш утренний кофе не застрахован от корпоративной рекламы.
 
-ent-DrinkMugOne-name = #1 кружка
-ent-DrinkMugOne-desc = Белая кружка с заметной цифрой №1.
+ent-DrinkMugOne = кружка №1
+    .desc = Белая кружка с заметной надписью №1.
 
-ent-DrinkMugRainbow-name = радужная кружка
-ent-DrinkMugRainbow-desc = Радужная кружка. Цвета почти так же ослепляют, как сварщик.
+ent-DrinkMugRainbow = радужная кружка
+    .desc = Радужная кружка. Цвета почти так же ослепляют, как сварщик.
 
-ent-DrinkMugRed-name = красная кружка
-ent-DrinkMugRed-desc = Красно-черная кружка.
+ent-DrinkMugRed = красная кружка
+    .desc = Обычна красная кружка.
 
-ent-DrinkHotCoco-name = горячий шоколад
-ent-DrinkHotCoco-desc = Горячий напиток, состоящий из растопленного шоколада и подогретого молока.
+ent-DrinkHotCoco = горячий шоколад
+    .desc = Горячий напиток, состоящий из растопленного шоколада и подогретого молока.
 
-ent-DrinkHotCoffee-name = кофе
-ent-DrinkHotCoffee-desc = Кофе — это сваренный напиток, приготовленный из жареных семян, обычно называемых кофейными зернами, кофейного растения.
+ent-DrinkHotCoffee = кофе
+    .desc = Кофе — это напиток, приготовленный из жареных семян, обычно называемых кофейными зёрнами, кофейного растения.
 
-ent-DrinkCafeLatte-name = кафе латте
-ent-DrinkCafeLatte-desc = Хороший, крепкий и вкусный напиток, пока вы читаете.
+ent-DrinkCafeLatte = кофе латте
+    .desc = Хороший, крепкий и вкусный напиток.
 
-ent-DrinkTeacup-name = чашка
-ent-DrinkTeacup-desc = Обычная белая фарфоровая чашка.
+ent-DrinkTeacup = чашка
+    .desc = Обычная белая фарфоровая чашка.
 
-ent-DrinkGreenTea-name = зеленый чай
-ent-DrinkGreenTea-desc = Обычная белая фарфоровая чашка.
+ent-DrinkGreenTea = зелёный чай
+    .desc = Обычная белая фарфоровая чашка.
 
-ent-DrinkLean-name = виноградный сок
-ent-DrinkLean-desc = Блин, веселиться нельзя.
+ent-DrinkLean = виноградный сок
+    .desc = Сок из виноградин.
 
-ent-DrinkWaterCup-name = чашка с водой
-ent-DrinkWaterCup-desc = Бумажный стаканчик для воды.
+ent-DrinkWaterCup = стаканчик для воды
+    .desc = Бумажный стаканчик для воды.
 

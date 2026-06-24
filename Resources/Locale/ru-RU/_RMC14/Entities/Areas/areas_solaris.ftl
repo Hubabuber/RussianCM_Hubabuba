@@ -18,7 +18,7 @@ ent-RMCAreaBigredv2CavesEast = Восточные пещеры
 
 ent-RMCAreaBigredv2CavesSe = Юго-восточные пещеры
 
-ent-RMCAreaBigredv2CavesResearch = Пещеры исследовательской лаборатории We-Ya
+ent-RMCAreaBigredv2CavesResearch = Пещеры исследовательской лаборатории Ве-Ю
 
 ent-RMCAreaBigredv2CavesSw = Юго-западные пещеры
 

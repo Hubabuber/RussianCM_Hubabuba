@@ -1,9 +1,7 @@
 - type: job
   parent: AU14JobAuxTechBase
   id: AU14JobOPFORAuxTech
-  name: au14-job-name-opforAuxTech
-  description: au14-job-description-opforAuxTech
-  icon: "AU14JobIconOPFORRTO"
+  icon: "AU14JobIconOPFORAuxTech"
   spawnMenuRoleName: Техник (OPFOR)
   supervisors: au14-job-supervisors-opfor
   startingGear: AU14GearOPFORAuxTech
@@ -23,8 +21,8 @@
       - OPFOR
     - type: TacticalMapIcon
       icon:
-        sprite: /Textures/_AU14/Interface/au14opforhud.rsi
-        state: rto
+        sprite: /Textures/_AU14/Interface/au14opforjobicons.rsi
+        state: auxtech
 
 - type: startingGear
   id: AU14GearOPFORAuxTech

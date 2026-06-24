@@ -236,6 +236,21 @@
 # RuCM change end
 
 - type: entity
+  parent: AUSubmissionPointBase
+  id: AUSubmissionPointCrop
+  name: submission point (crop)
+  components:
+  - type: SubmissionStorage
+    rewards:
+      Fruit: 2
+      Vegetable: 2
+  - type: DisposalUnit
+    whitelist:
+      tags:
+      - Fruit
+      - Vegetable
+
+- type: entity
   parent: RMCCommunicationsConsoleBase
   id: AUColonyCommsConsole
   name: Colony Communications Console

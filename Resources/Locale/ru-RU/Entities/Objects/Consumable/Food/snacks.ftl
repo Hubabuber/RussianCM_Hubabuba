@@ -1,127 +1,129 @@
-ent-FoodSnackBoritos-name = боритос
-ent-FoodSnackBoritos-desc = Хрустящие солёные кукурузные чипсы. Из них, наверное, можно сделать начос.
+ent-FoodSnackBase = { ent-FoodBase }
+    .desc = { ent-FoodBase.desc }
 
-ent-FoodSnackCnDs-name = C&Ds
-ent-FoodSnackCnDs-desc = По закону мы не можем утверждать, что они не растаяли бы у вас в руках.
+ent-FoodSnackBoritos = боритос
+    .desc = Хрустящие, солёные чипсы из тортильи. Вероятно, с ними можно приготовить начос.
 
-ent-FoodSnackCheesie-name = чиззи-хонкерсы
-ent-FoodSnackCheesie-desc = Закуски размером на один укус, которые будут «гудеть» у вас во рту.
+ent-FoodSnackCnDs = Си&Ди
+    .desc = По закону мы не можем утверждать, что они не расплавятся в ваших руках.
 
-ent-FoodSnackChips-name = чипсы
-ent-FoodSnackChips-desc = «Что за хруст» капитана Райкера.
+ent-FoodSnackCheesie = сырные хонкеры
+    .desc = Маленькие сырные снеки, которые нахонкают вам во рту.
 
-ent-FoodSnackChocolate-name = шоколадный батончик
-ent-FoodSnackChocolate-desc = На вкус как картон.
+ent-FoodSnackChips = чипсы
+    .desc = Любимый перекус коммандера Райкера.
 
-ent-FoodSnackChocolateBar-name = шоколадный батончик
-ent-FoodSnackChocolateBar-desc = На вкус как картон.
+ent-FoodSnackChocolate = плитка шоколада
+    .desc = На вкус как картон.
 
-ent-FoodSnackEnergy-name = энергетический батончик
-ent-FoodSnackEnergy-desc = Энергетический батончик с большим зарядом.
+ent-FoodSnackChocolateBar = плитка шоколада
+    .desc = На вкус как картон.
 
-ent-FoodSnackEnergyBar-name = энергетический батончик
-ent-FoodSnackEnergyBar-desc = Энергетический батончик с большим зарядом.
+ent-FoodSnackEnergy = энергетический батончик
+    .desc = Энергетический батончик с большим запасом энергии.
 
-ent-FoodSnackPistachios-name = фисташки Sweetie
-ent-FoodSnackPistachios-desc = Фирменные фисташки Sweetie. Возможно, не вызовут болезней. Возможно.
+ent-FoodSnackEnergyBar = энергетический батончик
+    .desc = Энергетический батончик с большим запасом энергии.
 
-ent-FoodSnackPopcorn-name = попкорн
-ent-FoodSnackPopcorn-desc = Выращен на неизвестной планете неизвестным фермером и приготовлен каким-то типом на космической станции.
+ent-FoodSnackPistachios = фисташки "Сладкоежка"
+    .desc = Фисташки торговой марки "Сладкоежка". Вероятно, не вызовут у вас заболеваний. Вероятно.
 
-ent-FoodSnackRaisins-name = изюм 4no
-ent-FoodSnackRaisins-desc = Лучший изюм во вселенной. Неясно почему.
+ent-FoodSnackPopcorn = попкорн
+    .desc = Выращен на неизвестной планете, неизвестным фермером, нагрет каким-то придурком на космической станции.
 
-ent-FoodSnackSemki-name = семечки Боба Бобсона
-ent-FoodSnackSemki-desc = С гордостью произведено корпорацией Bob Bobson Nutritional Corporation. Отлично подходит, чтобы плеваться в людей.
+ent-FoodSnackRaisins = изюм "4no raisins"
+    .desc = Лучший изюм во вселенной. Не знаю почему.
 
-ent-FoodSnackSus-name = подозрительная вяленка
-ent-FoodSnackSus-desc = От этого пакета вам становится крайне не по себе. Но вяленка нормальная.
+ent-FoodSnackSemki = семечки подсолнуха "семки Боба"
+    .desc = Производится корпорацией Bob Bobson Nutritional. Идеально подходят для того, чтобы плевать в людей.
 
-ent-FoodSnackSyndi-name = синди-кейк
-ent-FoodSnackSyndi-desc = Чрезвычайно влажный кекс, который остаётся вкусным даже после ядерного удара.
+ent-FoodSnackSus = джерки Сас
+    .desc = Что-то в этой упаковке заставляет вас чувствовать себя невероятно тревожно. Хотя джерки вкусные.
 
-ent-DrinkRamen-name = чашка рамена
-ent-DrinkRamen-desc = Дешёвая еда, напоминающая школьные годы.
+ent-FoodSnackSyndi = синди-кексы
+    .desc = Очень вкусные кексы, которые сохраняют свой вкус даже после ядерного взрыва.
 
-ent-DrinkHellRamen-name = адский рамен
-ent-DrinkHellRamen-desc = Очень острый вкус!
+ent-DrinkRamen = чашка рамэна
+    .desc = Просто добавьте 10 мл кипятка! Вкус, напоминающий школьные годы.
 
-ent-FoodSnackChowMein-name = чау-мейн
-ent-FoodSnackChowMein-desc = Солёная жареная лапша. Похоже, овощи забыли добавить.
+ent-DrinkHellRamen = чашка адского рамэна
+    .desc = Просто добавьте 10 мл кипятка! Супер острый вкус.
 
-ent-FoodSnackDanDanNoodles-name = дан-дан лапша
-ent-FoodSnackDanDanNoodles-desc = Острая сычуаньская лапша. Масло чили собирается сверху.
+ent-FoodSnackChowMein = чоу мейн
+    .desc = Солоноватая жареная лапша. Похоже, что они забыли про овощи.
 
-ent-FoodSnackCookieFortune-name = печенье с предсказанием
-ent-FoodSnackCookieFortune-desc = Скучный картонный на вкус десерт с запиской внутри. Сюрприз! Вы тоже скучный.
+ent-FoodSnackDanDanNoodles = лапша дань-дань
+    .desc = Острая сычуаньская лапша. Сверху растекается масло чили.
 
-ent-FoodSnackNutribrick-name = нутри-кирпич
-ent-FoodSnackNutribrick-desc = Синтезированный кирпич с максимальной плотностью питательных веществ. На вкус ужасен.
+ent-FoodSnackCookieFortune = печенье с предсказанием
+    .desc = Скучная закуска со вкусом картона, внутри которой находится предсказание. Сюрприз! Ты тоже скучный.
 
-ent-FoodSnackNutribrickOpen-name = нутри-кирпич
-ent-FoodSnackNutribrickOpen-desc = Синтезированный кирпич с максимальной плотностью питательных веществ. На вкус ужасен.
+ent-FoodSnackNutribrick = питательный батончик
+    .desc = Аккуратно синтезированный брикет, разработанный, чтобы содержать максимум питательных веществ на единицу объёма. На вкус как дерьмо.
 
-ent-FoodSnackMREBrownie-name = брауни
-ent-FoodSnackMREBrownie-desc = Точно выверенный брауни, способный выдерживать удары и тяжёлые условия. На вкус ужасен.
+ent-FoodSnackNutribrickOpen = питательный батончик
+    .desc = { ent-FoodSnackNutribrick.desc }
 
-ent-FoodSnackMREBrownieOpen-name = брауни
-ent-FoodSnackMREBrownieOpen-desc = Точно выверенный брауни, способный выдерживать удары и тяжёлые условия. На вкус ужасен.
+ent-FoodSnackMREBrownie = брауни
+    .desc = Точно смешанное пирожное-брауни, приготовленное так, чтобы переносить удары и суровые условия. На вкус как дерьмо.
 
-ent-FoodSnackSwirlLollipop-name = леденец-спираль
-ent-FoodSnackSwirlLollipop-desc = Спираль из чистого сахара. Кто тут самый взрослый на площадке?
+ent-FoodSnackMREBrownieOpen = брауни
+    .desc = { ent-FoodSnackMREBrownie.desc }
+    .suffix = ИРП
 
-ent-FoodPacketTrash-name = мусор
-ent-FoodPacketTrash-desc = Это мусор.
+ent-FoodSnackSwirlLollipop = леденец-спиралька
+    .desc = Спираль чистого концентрированного сахара. Кто сейчас самый большой ребенок в песочнице?
 
-ent-FoodPacketBoritosTrash-name = пакет от боритос
-ent-FoodPacketBoritosTrash-desc = Это мусор.
+ent-FoodPacketTrash = { ent-BaseItem }
+    .desc = Это мусор.
 
-ent-FoodPacketCnDsTrash-name = пакет от C&Ds
-ent-FoodPacketCnDsTrash-desc = Это мусор.
+ent-FoodPacketBoritosTrash = пакетик от боритос
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketCheesieTrash-name = упаковка от чиззи-хонкерсов
-ent-FoodPacketCheesieTrash-desc = Это мусор.
+ent-FoodPacketCnDsTrash = пакетик от Си&Ди
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketChipsTrash-name = упаковка от чипсов
-ent-FoodPacketChipsTrash-desc = Это мусор.
+ent-FoodPacketCheesieTrash = пакетик от сырных хонкеров
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketChocolateTrash-name = обёртка от шоколада
-ent-FoodPacketChocolateTrash-desc = Это мусор.
+ent-FoodPacketChipsTrash = пакетик от чипсов
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketEnergyTrash-name = обёртка от энергетического батончика
-ent-FoodPacketEnergyTrash-desc = Это мусор.
+ent-FoodPacketChocolateTrash = обёртка от плитки
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketPistachioTrash-name = пакет от фисташек
-ent-FoodPacketPistachioTrash-desc = Это мусор.
+ent-FoodPacketEnergyTrash = обёртка от энергетического батончика
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketPopcornTrash-name = коробка от попкорна
-ent-FoodPacketPopcornTrash-desc = Это мусор.
+ent-FoodPacketPistachioTrash = пакетик от фисташек
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketRaisinsTrash-name = изюм 4no
-ent-FoodPacketRaisinsTrash-desc = Это мусор.
+ent-FoodPacketPopcornTrash = коробка от попкорна
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketSemkiTrash-name = пакет от семечек
-ent-FoodPacketSemkiTrash-desc = Это мусор.
+ent-FoodPacketRaisinsTrash = пакетик от изюма "4no raisins"
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketSusTrash-name = подозрительная вяленка
-ent-FoodPacketSusTrash-desc = Это мусор.
+ent-FoodPacketSemkiTrash = пакетик от семечек
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketSyndiTrash-name = коробка от синди-кейков
-ent-FoodPacketSyndiTrash-desc = Это мусор.
+ent-FoodPacketSusTrash = пакетик от джерки Сас
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketCupRamenTrash-name = пустая чашка рамена
-ent-FoodPacketCupRamenTrash-desc = Это мусор.
+ent-FoodPacketSyndiTrash = коробка от синди-кексов
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketChowMeinTrash-name = пустая коробка от чау-мейна
-ent-FoodPacketChowMeinTrash-desc = Это мусор.
+ent-FoodPacketCupRamenTrash = пустая упаковка от рамэна
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketDanDanTrash-name = пустая коробка от дан-дан лапши
-ent-FoodPacketDanDanTrash-desc = Это мусор.
+ent-FoodPacketChowMeinTrash = пустая коробочка чоу мейн
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodCookieFortune-name = печенье с предсказанием
-ent-FoodCookieFortune-desc = В предсказании написано: Конец близок... и это всё ваша вина.
+ent-FoodPacketDanDanTrash = пустая коробочка лапши дань-дань
+    .desc = { ent-FoodPacketTrash.desc }
 
-ent-FoodPacketMRETrash-name = обёртка от MRE
-ent-FoodPacketMRETrash-desc = Универсальная упаковка для различных военных пайков.
+ent-FoodCookieFortune = печенье с предсказанием
+    .desc = Предсказание гласит: Конец близок... и это всё ваша вина.
 
-ent-FoodSnackBase-name = предмет
+ent-FoodPacketMRETrash = обёртка от ИРП
+    .desc = Обёртка широкого назначения для различных военных продуктов питания.

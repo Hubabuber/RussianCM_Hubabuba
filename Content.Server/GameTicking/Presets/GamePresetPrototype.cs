@@ -36,6 +36,13 @@ namespace Content.Server.GameTicking.Presets
         [DataField("requiresOpforVote")]
         public bool RequiresOpforVote;
 
+        /// <summary>
+        /// Whether players are allowed to respawn in this gamemode.
+        /// Defaults to false.
+        /// </summary>
+        [DataField("respawnEnabled")]
+        public bool RespawnEnabled = false;
+
         [DataField("minPlayers")]
         public int? MinPlayers;
 

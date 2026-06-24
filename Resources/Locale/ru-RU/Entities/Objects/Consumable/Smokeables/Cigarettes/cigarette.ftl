@@ -1,86 +1,90 @@
-ent-Cigarette-name = сигарета
-ent-Cigarette-desc = Скрученный табак с никотином.
+ent-Cigarette = сигарета
+    .desc = Скрутка с табаком и никотином.
 
-ent-SoakedCigarette-name = сигарета
-ent-SoakedCigarette-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-SoakedCigarette = сигарета
+    .desc = Скрутка с табаком и никотином, пропитанная какими-то химикатами.
+    .suffix = Пропитанная
 
-ent-CigaretteSyndicate-name = сигарета
-ent-CigaretteSyndicate-desc = Скрученный табак с никотином.
+ent-CigaretteSpent = { ent-Cigarette }
+    .desc = { ent-Cigarette.desc }
+    .suffix = Окурок
 
-ent-CigaretteOmnizine-name = Взрыв вкуса «горячей собачьей воды»
-ent-CigaretteOmnizine-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteSyndicate = сигарета
+    .desc = { ent-Cigarette.desc }
+    .suffix = Синдикат
 
-ent-CigaretteIron-name = Ржавый оранжевый «Баха Бласт»
-ent-CigaretteIron-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteOmnizine = Взрыв вкуса воды хот-дога
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteTricordrazine-name = Лакричные конфеты «ассорти»
-ent-CigaretteTricordrazine-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteIron = Ржавый оранжевый нижний взрыв
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteDylovene-name = Растворитель писсуарных блоков
-ent-CigaretteDylovene-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteTricordrazine = Лакричный ассорти
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteDermaline-name = Алоэ с арахисовой пастой
-ent-CigaretteDermaline-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteDylovene = Удалитель туалетного жмыха
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteArithrazine-name = Римская трубочная мастерская
-ent-CigaretteArithrazine-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteDermaline = Алоэ-арахисовый маслянный попурри
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteNutriment-name = Рождественский фруктовый кекс от бабушки
-ent-CigaretteNutriment-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteArithrazine = Римский трубопрокат
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteBicaridine-name = Усиленная «мокрой собакой» сигарета
-ent-CigaretteBicaridine-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteNutriment = Бабушкин рождественский пирог
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteDexalin-name = Запах Скалистых гор
-ent-CigaretteDexalin-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteBicaridine = Мокрый пёс
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteSaline-name = Североатлантический круиз
-ent-CigaretteSaline-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteDexalin = Запах скалистых гор
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteBbqSauce-name = Пряный древесный аромат
-ent-CigaretteBbqSauce-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteSaline = Круиз по Атлантике
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteFrezon-name = Атмосферное приключение
-ent-CigaretteFrezon-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteBbqSauce = Пряно-древесный аромат
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteCapsaicinOil-name = Острый П
-ent-CigaretteCapsaicinOil-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteFrezon = Атмосферное приключение
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteRadium-name = Рентген-излучение
-ent-CigaretteRadium-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteCapsaicinOil = Острый П
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteHaloperidol-name = Тёплый бычий экстракт
-ent-CigaretteHaloperidol-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteRadium = Рентген
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteLaughter-name = Бонус за близость к клоуну
-ent-CigaretteLaughter-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteHaloperidol = Теплый бычий экстракт
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteLipolicide-name = Тренировка 80-х
-ent-CigaretteLipolicide-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteLaughter = Бонус клоунского соседства
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteSodiumPolyacrylate-name = Нездоровые привычки
-ent-CigaretteSodiumPolyacrylate-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteLipolicide = Тренировочная рутина 80-х
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteMold-name = Опыт жизни под раковиной
-ent-CigaretteMold-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteSodiumPolyacrylate = Вредные привычки
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteLicoxide-name = Будильник
-ent-CigaretteLicoxide-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteMold = Жизнь под раковиной
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteWeldingFuel-name = Плазменный соус
-ent-CigaretteWeldingFuel-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteLicoxide = Будильник
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteRobustHarvest-name = Хиппи-роман
-ent-CigaretteRobustHarvest-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteWeldingFuel = Плазменный соус
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigarettePhlogiston-name = Симулятор свиданий с драконом
-ent-CigarettePhlogiston-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteRobustHarvest = Хиппи роман
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteBanana-name = Тропический отпуск Пун Пуна
-ent-CigaretteBanana-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigarettePhlogiston = Свидание с драконом
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteBlackPepper-name = Английская специя
-ent-CigaretteBlackPepper-desc = Скрученный табак с никотином, пропитанный химикатами.
+ent-CigaretteBanana = Отпуск Пун Пуна
+    .desc = { ent-SoakedCigarette.desc }
 
-ent-CigaretteSpent-name = сигарета
-ent-CigaretteSpent-desc = Скрученный табак с никотином.
+ent-CigaretteBlackPepper = Английская пряность
+    .desc = { ent-SoakedCigarette.desc }
+
