@@ -23,7 +23,7 @@
   - type: Sprite
     sprite: _RuMC14/Objects/Weapons/Guns/HMGs/UTES-C.rsi
     layers:
-    - state: UTES-C_gun_mount
+    - state: utes-c_gun_mount
     - state: mag-0
       map: [ "enum.GunVisualLayers.Mag" ]
   - type: Clothing
@@ -158,7 +158,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RuMCCartridgeHMG12.7x108mm
-  name: cartridge (10x28mm Tungsten)
+  name: 12.7x108mm
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -174,10 +174,10 @@
 - type: entity
   parent: RuMCCartridgeHMG12.7x108mm
   id: RuMCCartridgeHMG12.7x108mmTracer
-  name: cartridge (10x28mm Tungsten Tracer)
+  name: 12.7x108mm Tracer
   components:
   - type: CartridgeAmmo
-    proto: RuMCBulletHMG12.7x108mm
+    proto: RuMCBulletHMG12.7x108mmTracer
   - type: Tag
     tags:
     - RuMCCartridgeHMG12.7x108mmTracer
@@ -187,7 +187,7 @@
 - type: entity
   parent: CMBulletBase
   id: RuMCBulletHMG12.7x108mm
-  name: bullet (10x28mm Tungsten)
+  name: bullet (12.7x108mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -226,8 +226,8 @@
 
 - type: entity
   parent: RuMCBulletHMG12.7x108mm
-  id: RuMCBulletHMG12.7x108mm
-  name: bullet (10x28mm Tungsten Tracer)
+  id: RuMCBulletHMG12.7x108mmTracer
+  name: bullet (12.7x108mm Tracer)
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
