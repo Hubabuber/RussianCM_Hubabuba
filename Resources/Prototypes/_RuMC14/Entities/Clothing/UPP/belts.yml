@@ -105,7 +105,7 @@
           - Flare
 
 - type: entity
-  parent: CMBeltMarine
+  parent: RMCBeltMachineGunner
   id: RuMCUPPNavalInfantryBeltMachinegunner
   name: RD-54 machinegunner vest
   description: Recently adopted by UPP military, this belt allows machinegunners to carry more ammo boxes into battle. It also found use with SOF breachers using Type 23 shotguns.
@@ -132,7 +132,7 @@
       - RuMCMagazineTachanka
       - RuMCMagazineTachankaLarge
       - RuMCMagazineTachankaLargeTracer
-      - RuMCMachineGunUTES-C
+      - RuMCMagazineUTES-C
       - RuMCMagazineUTES-CTracter
   - type: FixedItemSizeStorage
   - type: IgnoreContentsSize
@@ -142,7 +142,13 @@
       - RuMCMagazineTachanka
       - RuMCMagazineTachankaLarge
       - RuMCMagazineTachankaLargeTracer
-      - RuMCMachineGunUTES-C
+      - RuMCMagazineUTES-C
       - RuMCMagazineUTES-CTracter
   - type: ItemCamouflage
     camouflageVariations: {}
+  - type: Tag
+    tags:
+    - RuMCMachineGunnerRig
+
+- type: Tag
+  id: RuMCMachineGunnerRig
