@@ -1,6 +1,6 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: DP-27 "Tachanka" heavy machine gun
+  name: DP-72 "Tachanka"
   id: RuMCMachineGunTachanka
   description: Soviet-era 7.62x54R heavy machine gun. With a pan magazine and a heavy barrel. Reliable, but heavy.
   components:
@@ -32,9 +32,9 @@
     - SemiAuto
     - FullAuto
     soundGunshot:
-      path: /Audio/_RuMC14/Weapons/Guns/Gunshots/tachanka_fire.ogg
+      path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_m60.ogg
       params:
-        volume: 10
+        volume: -4
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: RMCSelectiveFire
@@ -101,8 +101,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RuMCMagazineTachanka
-  name: DP-27 pan magazine (7.62x54R)
-  description: A 47-round pan magazine for the DP-27 light machine gun.
+  name: DP-72 pan magazine (7.62x54R)
+  description: A 47-round pan magazine for the DP-72 light machine gun.
   components:
   - type: Tag
     tags:
@@ -110,8 +110,8 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - RuMCCartridge762x54R
-    proto: RuMCCartridge762x54R
+      - RMCCartridgeLMGQYJ72
+    proto: RMCCartridgeLMGQYJ72
     capacity: 47
     deleteWhenEmpty: false
   - type: Sprite
@@ -130,8 +130,8 @@
 - type: entity
   parent: RuMCMagazineTachanka
   id: RuMCMagazineTachankaLarge
-  name: DP-27 extended pan magazine (7.62x54R)
-  description: An experimental 75-round pan magazine for the DP-27. Heavy, but holds more firepower.
+  name: DP-72 extended pan magazine (7.62x54R)
+  description: An experimental 75-round pan magazine for the DP-72. Heavy, but holds more firepower.
   components:
   - type: Tag
     tags:
@@ -139,8 +139,8 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - RuMCCartridge762x54R
-    proto: RuMCCartridge762x54R
+      - RMCCartridgeLMGQYJ72
+    proto: RMCCartridgeLMGQYJ72
     capacity: 75
     deleteWhenEmpty: false
   - type: Sprite
@@ -154,8 +154,8 @@
 - type: entity
   parent: RuMCMagazineTachanka
   id: RuMCMagazineTachankaLargeTracer
-  name: DP-27 extended pan magazine (7.62x54R Tracer)
-  description: An experimental 75-round pan magazine for the DP-27. Heavy, but holds more firepower.
+  name: DP-72 extended pan magazine (7.62x54R Tracer)
+  description: An experimental 75-round pan magazine for the DP-72. Heavy, but holds more firepower.
   components:
   - type: Tag
     tags:
@@ -164,7 +164,7 @@
     whitelist:
       tags:
       - RuMCCartridge762x54RTracer
-      - RuMCCartridge762x54R
+      - RMCCartridgeLMGQYJ72
     proto: RuMCCartridge762x54RTracer
     capacity: 75
     deleteWhenEmpty: false
@@ -179,23 +179,7 @@
 # Cartridges
 
 - type: entity
-  parent: CMBaseCartridgeRifle
-  id: RuMCCartridge762x54R
-  name: 7.62x54R
-  components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-  - type: CartridgeAmmo
-    proto: RuMCBullet762x54R
-  - type: Tag
-    tags:
-    - RuMCCartridge762x54R
-
-- type: entity
-  parent: RuMCCartridge762x54R
+  parent: RMCCartridgeLMGQYJ72
   id: RuMCCartridge762x54RTracer
   name: 7.62x54R Tracer
   components:
@@ -207,37 +191,37 @@
 
 # Projectiles
 
-- type: entity
-  parent: CMBulletBase
-  id: RuMCBullet762x54R
-  name: bullet (7.62x54R)
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/bullet_projectiles.rsi
-    layers:
-    - state: bullet
-      shader: unshaded
-  - type: Projectile
-    damage:
-      types:
-        Piercing: 40
-  - type: CMArmorPiercing
-    amount: 25
-  - type: RMCProjectileDamageFalloff
-    thresholds:
-    - range: 2
-      falloff: 2
-    - range: 20
-      falloff: 9999
-  - type: RMCProjectileAccuracy
-    accuracy: 85
-    thresholds:
-    - range: 6
-      falloff: 8
+#- type: entity
+#  parent: CMBulletBase
+#  id: RuMCBullet762x54R
+#  name: bullet (7.62x54R)
+#  categories: [ HideSpawnMenu ]
+#  components:
+#  - type: Sprite
+#    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/bullet_projectiles.rsi
+#    layers:
+#    - state: bullet
+#      shader: unshaded
+#  - type: Projectile
+#    damage:
+#      types:
+#        Piercing: 40
+#  - type: CMArmorPiercing
+#    amount: 25
+#  - type: RMCProjectileDamageFalloff
+#    thresholds:
+#    - range: 2
+#      falloff: 2
+#    - range: 20
+#      falloff: 9999
+#  - type: RMCProjectileAccuracy
+#    accuracy: 85
+#    thresholds:
+#    - range: 6
+#      falloff: 8
 
 - type: entity
-  parent: RuMCBullet762x54R
+  parent: RMCBulletLMGQYJ72 #RuMCBullet762x54R
   id: RuMCBullet762x54RTracer
   name: bullet (762x54R Tracer)
   categories: [ HideSpawnMenu ]
@@ -258,9 +242,6 @@
 
 - type: Tag
   id: RuMCMagazineTachankaLargeTracer
-
-- type: Tag
-  id: RuMCCartridge762x54R
 
 - type: Tag
   id: RuMCCartridge762x54RTracer
