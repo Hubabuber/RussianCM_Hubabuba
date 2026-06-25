@@ -41,3 +41,5 @@ ui-tactical-map-cooldown-seconds = {$seconds}
 
 ui-tactical-map-tunnel-info = Туннель: {$name}
 ui-tactical-map-tab-squad = Отряд
+
+rmc-tactical-map-xeno-update = Тактическая картина улья изменилась. Ментальная карта прояснилась.

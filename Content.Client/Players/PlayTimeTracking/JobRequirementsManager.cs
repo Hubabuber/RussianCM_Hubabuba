@@ -144,17 +144,36 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
     {
         reason = null;
         if (_rmcPlayTime.IsExcluded(job.ID))
-            return true;
+        {
+            var roleTestReqs = JobRequirements.GetActiveRequirements(
+                _entManager.System<SharedRoleSystem>().GetJobRequirement(job),
+                _cfg.GetCVar(CCVars.GameRoleTimers),
+                true);
+            return CheckRoleRequirements(roleTestReqs, profile, out reason, ignoreRoleTimersCVar: true);
+        }
 
         var reqs = _entManager.System<SharedRoleSystem>().GetJobRequirement(job);
-        return CheckRoleRequirements(reqs, profile, out reason);
+        var activeReqs = JobRequirements.GetActiveRequirements(
+            reqs,
+            _cfg.GetCVar(CCVars.GameRoleTimers),
+            false);
+        return CheckRoleRequirements(activeReqs, profile, out reason, ignoreRoleTimersCVar: true);
     }
 
     public bool CheckRoleRequirements(HashSet<JobRequirement>? requirements, HumanoidCharacterProfile? profile, [NotNullWhen(false)] out FormattedMessage? reason)
     {
+        return CheckRoleRequirements(requirements, profile, out reason, ignoreRoleTimersCVar: false);
+    }
+
+    private bool CheckRoleRequirements(
+        HashSet<JobRequirement>? requirements,
+        HumanoidCharacterProfile? profile,
+        [NotNullWhen(false)] out FormattedMessage? reason,
+        bool ignoreRoleTimersCVar)
+    {
         reason = null;
 
-        if (requirements == null || !_cfg.GetCVar(CCVars.GameRoleTimers))
+        if (requirements == null || (!ignoreRoleTimersCVar && !_cfg.GetCVar(CCVars.GameRoleTimers)))
             return true;
 
         var reasons = new List<string>();

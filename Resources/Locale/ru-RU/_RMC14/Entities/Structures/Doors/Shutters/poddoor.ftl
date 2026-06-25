@@ -1,69 +1,87 @@
-ent-RMCPodDoorAlmayerContainmentIndestructible = клеточная стенка
-  .desc = Металлическая стена, используемая для разделения комнат и создания корабля.
+ent-RMCPodDoorAlmayerContainmentIndestructible = стена камеры
+    .desc = Металлическая стена, используемая для разделения комнат и создания корабля.
+    .suffix = Неразрушимая
 
-ent-RMCPodDoorNonOccluderIndestructible = подлок
-  .desc = Похоже, он не открывается легко.
+ent-RMCPodDoorNonOccluderIndestructible = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Неразрушимый
 
-ent-RMCPodDoorIndestructible = подлок
-  .desc = Похоже, он не открывается легко.
+ent-RMCPodDoorIndestructible = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Неразрушимый
 
-ent-RMCPodDoor = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoor = гермозатвор
+    .desc = Похоже, он не открывается легко.
 
-ent-RMCPodDoorAlmayer = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAlmayer = гермозатвор
+    .desc = Похоже, он не открывается легко.
 
-ent-RMCPodDoorHybrisaWhite = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorHybrisaWhite = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Гибриса
 
-ent-RMCPodDoorHybrisaRed = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorHybrisaRed = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Гибриса
 
-ent-RMCPodDoorHybrisaRedOpen = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorHybrisaRedOpen = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Гибриса, Открыт
 
-ent-RMCPodDoorAlmayerIndestructible = подлок
-  .desc = Похоже, он не открывается легко.
+ent-RMCPodDoorAlmayerIndestructible = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Неразрушимый
 
-ent-RMCPodDoorHybrisaIndestructible = подлок
-  .desc = Похоже, он не открывается легко.
+ent-RMCPodDoorHybrisaIndestructible = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Неразрушимый, Гибриса
 
-ent-RMCPodDoorHybrisaIndestructibleUltra = подлок
-  .desc = Сильно усиленная дверь из металлического сплава практически неуязвима — ничто не может пробить ее защиту.
+ent-RMCPodDoorHybrisaIndestructibleUltra = гермозатвор
+    .desc = Сильно усиленная дверь — ничто не может пробить ее защиту.
+    .suffix = Неразрушимый, Гибриса
 
-ent-RMCPodDoorHybrisaIndestructibleUltraOpen = подлок
-  .desc = Сильно усиленная дверь из металлического сплава практически неуязвима — ничто не может пробить ее защиту.
+ent-RMCPodDoorHybrisaIndestructibleUltraOpen = гермозатвор
+    .desc = Сильно усиленная дверь — ничто не может пробить ее защиту.
+    .suffix = Неразрушимый, Открыт, Гибриса
 
-ent-RMCPodDoorAlmayerLocked = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAlmayerLocked = гермозатвор
+    .desc = Похоже, он не открывается легко.
 
-ent-RMCPodDoorAlmayerOpen = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAlmayerOpen = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Открыт
 
-ent-RMCPodDoorBrigLockdown = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorBrigLockdown = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Бриг, Блокировка
 
-ent-RMCPodDoorHangerLockdown = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorHangerLockdown = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = Ангар, Блокировка
 
-ent-RMCPodDoorAlmayerBlack = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAlmayerBlack = гермозатвор
+    .desc = Похоже, он не открывается легко.
 
-ent-RMCPodDoorAIBlackLockdown = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAlmayerWhite = гермозатвор
+    .desc = Похоже, он не открывается легко.
 
-ent-RMCPodDoorAlmayerWhite = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAIBlackLockdown = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = ИИ, Блокировка
 
-ent-RMCPodDoorAI = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAI = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = ИИ
 
-ent-RMCPodDoorAILockdown = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAILockdown = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = ИИ, Блокировка
 
-ent-RMCPodDoorAIWhite = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAIWhite = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = ИИ
 
-ent-RMCPodDoorAIWhiteOpen = подлок
-  .desc = Похоже, он не открывается легко. 
+ent-RMCPodDoorAIWhiteOpen = гермозатвор
+    .desc = Похоже, он не открывается легко.
+    .suffix = ИИ, Открыт
 

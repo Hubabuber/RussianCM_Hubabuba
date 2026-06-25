@@ -1,24 +1,24 @@
-ent-RMCIDCardPMCCorpse = Голо-значок ЧВК
-  .desc = Корпоративный голо-бейдж. 
+ent-RMCIDCardPMCCorpse = ID-карта ЧВК
+  .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}
 
-ent-RMCIDCardPMCGoonCorpse = Голо-значок ЧВК
-  .desc = Корпоративный голо-бейдж. 
+ent-RMCIDCardPMCGoonCorpse = ID-карта офицера корпоративной безопасности
+  .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}
 
-ent-RMCIDCardPMCGoonLeadCorpse = Голо-значок ЧВК
-  .desc = Корпоративный голо-бейдж. 
+ent-RMCIDCardPMCGoonLeadCorpse = ID-карта главы корпоративной безопасности
+  .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}
 
-ent-RMCIDCardPrisonerCorpse = голо-шнур для идентификации
-  .desc = Грубый голо-шнур. 
+ent-RMCIDCardPrisonerCorpse = ID-карта заключённого
+  .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}
 
-ent-RMCIDCardChefCorpse = голо-шнур для идентификации
-  .desc = Грубый голо-шнур. 
+ent-RMCIDCardChefCorpse = ID-карта шеф-повара
+  .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}
 
-ent-RMCIDCardMinerCorpse = голо-шнур для идентификации
-  .desc = Грубый голо-шнур. 
+ent-RMCIDCardMinerCorpse = ID-карта шахтёра
+  .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}
 
-ent-RMCIDCardRiotOfficerCorpse = серебряный идентификационный голографический бейдж
-  .desc = Посеребренный голографический значок, символизирующий честь и преданность делу.
+ent-RMCIDCardRiotOfficerCorpse = ID-карта офицера ОМОН
+  .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}
 
-ent-RMCIDCardConstableCorpse = Серебряный знак ЦЭПА
-  .desc = Серебряный значок, обозначающий, что владелец является констеблем TSEPA. 
+ent-RMCIDCardConstableCorpse = ID-карта ПДСН
+  .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}
 

@@ -10,6 +10,7 @@ using Content.Server.Preferences.Managers;
 using Content.Server.Station.Events;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
+using Content.Shared.Mind;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Players;
@@ -98,6 +99,20 @@ public sealed partial class PlayTimeTrackingSystem : EntitySystem
 
     public IEnumerable<string> GetTimedRoles(EntityUid mindId)
     {
+        if (TryComp(mindId, out MindComponent? mind))
+        {
+            foreach (var roleId in mind.MindRoles)
+            {
+                if (!TryComp(roleId, out MindRoleComponent? mindRole) ||
+                    mindRole.PlayTimeTracker is not { } tracker)
+                {
+                    continue;
+                }
+
+                yield return _prototypes.Index<PlayTimeTrackerPrototype>(tracker).ID;
+            }
+        }
+
         foreach (var role in _roles.MindGetAllRoleInfo(mindId))
         {
             if (string.IsNullOrWhiteSpace(role.PlayTimeTrackerId))
@@ -187,11 +202,7 @@ public sealed partial class PlayTimeTrackingSystem : EntitySystem
 
     public bool IsAllowed(ICommonSession player, string role)
     {
-        if (!_prototypes.TryIndex<JobPrototype>(role, out var job) ||
-            !_cfg.GetCVar(CCVars.GameRoleTimers))
-            return true;
-
-        if (_rmcPlayTime.IsExcluded(player, role))
+        if (!_prototypes.TryIndex<JobPrototype>(role, out var job))
             return true;
 
         if (!_tracking.TryGetTrackerTimes(player, out var playTimes))
@@ -200,14 +211,20 @@ public sealed partial class PlayTimeTrackingSystem : EntitySystem
             playTimes = new Dictionary<string, TimeSpan>();
         }
 
-        return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter);
+        return JobRequirements.TryRequirementsMet(
+            job,
+            playTimes,
+            out _,
+            EntityManager,
+            _prototypes,
+            (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter,
+            _cfg.GetCVar(CCVars.GameRoleTimers),
+            _rmcPlayTime.IsExcluded(player, role));
     }
 
     public HashSet<ProtoId<JobPrototype>> GetDisallowedJobs(ICommonSession player)
     {
         var roles = new HashSet<ProtoId<JobPrototype>>();
-        if (!_cfg.GetCVar(CCVars.GameRoleTimers))
-            return roles;
 
         if (!_tracking.TryGetTrackerTimes(player, out var playTimes))
         {
@@ -217,19 +234,25 @@ public sealed partial class PlayTimeTrackingSystem : EntitySystem
 
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
         {
-            if (JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter))
+            if (!JobRequirements.TryRequirementsMet(
+                    job,
+                    playTimes,
+                    out _,
+                    EntityManager,
+                    _prototypes,
+                    (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter,
+                    _cfg.GetCVar(CCVars.GameRoleTimers),
+                    _rmcPlayTime.IsExcluded(player, job.ID)))
+            {
                 roles.Add(job.ID);
+            }
         }
 
-        _rmcPlayTime.RemoveWhereExcluded(player, roles);
         return roles;
     }
 
     public void RemoveDisallowedJobs(NetUserId userId, List<ProtoId<JobPrototype>> jobs)
     {
-        if (!_cfg.GetCVar(CCVars.GameRoleTimers))
-            return;
-
         var player = _playerManager.GetSessionById(userId);
         if (!_tracking.TryGetTrackerTimes(player, out var playTimes))
         {
@@ -238,17 +261,21 @@ public sealed partial class PlayTimeTrackingSystem : EntitySystem
             playTimes ??= new Dictionary<string, TimeSpan>();
         }
 
-        var excluded = _rmcPlayTime.GetExcluded(userId);
         for (var i = 0; i < jobs.Count; i++)
         {
             if (_prototypes.TryIndex(jobs[i], out var job)
-                && JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(userId).SelectedCharacter))
+                && JobRequirements.TryRequirementsMet(
+                    job,
+                    playTimes,
+                    out _,
+                    EntityManager,
+                    _prototypes,
+                    (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(userId).SelectedCharacter,
+                    _cfg.GetCVar(CCVars.GameRoleTimers),
+                    _rmcPlayTime.IsExcluded(player, job.ID)))
             {
                 continue;
             }
-
-            if (job != null && excluded != null && excluded.Contains(job.ID))
-                continue;
 
             jobs.RemoveSwap(i);
             i--;
