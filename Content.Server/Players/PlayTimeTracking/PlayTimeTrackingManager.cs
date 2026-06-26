@@ -1,5 +1,4 @@
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
@@ -314,79 +313,6 @@ public sealed partial class PlayTimeTrackingManager : ISharedPlaytimeManager, IP
         await _db.UpdatePlayTimes(updates);
     }
 
-    // RuCM: Exact tracker helpers for administrative role-test management.
-    public async Task<TimeSpan> GetPlayTimeForTrackerById(NetUserId userId, string tracker)
-    {
-        foreach (var (session, _) in _playTimeData)
-        {
-            if (session.UserId == userId)
-                return GetPlayTimeForTracker(session, tracker);
-        }
-
-        tracker = GetCanonicalTracker(tracker);
-        var playTimes = await _db.GetPlayTimes(userId, CancellationToken.None);
-        return playTimes
-            .Where(timer => GetCanonicalTracker(timer.Tracker) == tracker)
-            .Aggregate(TimeSpan.Zero, (total, timer) => total + timer.TimeSpent);
-    }
-
-    public async Task SetTimeToTrackerById(NetUserId userId, string tracker, TimeSpan time)
-    {
-        foreach (var (session, _) in _playTimeData)
-        {
-            if (session.UserId != userId)
-                continue;
-
-            SetTimeToTracker(session, tracker, time);
-            QueueSendTimers(session);
-            SaveSession(session);
-            return;
-        }
-
-        tracker = GetCanonicalTracker(tracker);
-        var playTimes = await _db.GetPlayTimes(userId, CancellationToken.None);
-        var updates = new List<PlayTimeUpdate>();
-
-        foreach (var timer in playTimes)
-        {
-            if (GetCanonicalTracker(timer.Tracker) != tracker ||
-                timer.Tracker == tracker ||
-                timer.TimeSpent == TimeSpan.Zero)
-            {
-                continue;
-            }
-
-            updates.Add(new PlayTimeUpdate(userId, timer.Tracker, TimeSpan.Zero));
-        }
-
-        updates.Add(new PlayTimeUpdate(userId, tracker, time));
-        await _db.UpdatePlayTimes(updates);
-    }
-
-    // RuCM: Administrative bulk reset helper.
-    public async Task<int> DeletePlayTimesByTrackerPrefix(string trackerPrefix)
-    {
-        await Task.WhenAll(_pendingSaveTasks.ToArray());
-        FlushAllTrackers();
-
-        foreach (var (session, data) in _playTimeData)
-        {
-            var trackers = data.TrackerTimes.Keys
-                .Where(tracker => tracker.StartsWith(trackerPrefix, StringComparison.Ordinal))
-                .ToArray();
-
-            foreach (var tracker in trackers)
-            {
-                data.TrackerTimes.Remove(tracker);
-                data.DbTrackersDirty.Remove(tracker);
-            }
-
-            QueueSendTimers(session);
-        }
-
-        return await _db.DeletePlayTimesByTrackerPrefix(trackerPrefix);
-    }
-
     private static void FlushSingleTracker(PlayTimeData data, TimeSpan time)
     {
         var delta = time - data.LastUpdate;
@@ -546,12 +472,6 @@ public sealed partial class PlayTimeTrackingManager : ISharedPlaytimeManager, IP
 
         tracker = GetCanonicalTracker(tracker);
         AddTimeToTracker(data, tracker, time);
-    }
-
-    public void SetTimeToTracker(ICommonSession id, string tracker, TimeSpan time)
-    {
-        var current = GetPlayTimeForTracker(id, tracker);
-        AddTimeToTracker(id, tracker, time - current);
     }
 
     private static void AddTimeToTracker(PlayTimeData data, string tracker, TimeSpan time)

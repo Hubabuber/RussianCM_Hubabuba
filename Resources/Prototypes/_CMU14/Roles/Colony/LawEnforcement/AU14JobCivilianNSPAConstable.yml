@@ -25,6 +25,8 @@
     icon:
       sprite: /Textures/_RMC14/Interface/cm_job_icons.rsi
       state: tse_paconstable
+  - type: Language
+    preset: AU14LanguagePresetTWE
 
   name: au14-job-name-civiliannspaConstable
   description: au14-job-description-civiliannspaConstable
@@ -36,6 +38,7 @@
     inverted: true
     traits:
     - Epilepsy
+    - NoEnglish
   canBeAntag: false
   ranks:
     RMCRankCivilian: []
@@ -55,7 +58,7 @@
     Constable:
       entity: AU14ChevronNSPAConstable
       requirements: []
-  startingGear: AU14GearCiviliannspaConstable
+  startingGear: AU14GearCivilianNSPAConstable
   icon: "RMCJobIconTSEPAConstable"
   requireAdminNotify: false
   joinNotifyCrew: false
@@ -67,13 +70,13 @@
   roleWeight: 0.25
 
 - type: startingGear
-  id: AU14GearCiviliannspaConstable
+  id: AU14GearCivilianNSPAConstable
   equipment:
     head: RMCHeadCapTSEPAPeaked
     jumpsuit: RMCJumpsuitTSEPA
     belt: CMBeltSecurityMarshalFilled
     shoes: RMCBootsPMCFilled
-    id: AU14IDCardciviliannspaConstable
+    id: AU14IDCardCivilianNSPAConstable
     ears: AU14CMBHeadset
     pocket1: AU14GuidebookLawColonial
 

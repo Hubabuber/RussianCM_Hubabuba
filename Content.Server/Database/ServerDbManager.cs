@@ -190,11 +190,6 @@ namespace Content.Server.Database
         /// <param name="updates">The list of all updates to apply to the database.</param>
         Task UpdatePlayTimes(IReadOnlyCollection<PlayTimeUpdate> updates);
 
-        /// <summary>
-        /// Delete all playtime rows whose tracker starts with the given prefix.
-        /// </summary>
-        Task<int> DeletePlayTimesByTrackerPrefix(string trackerPrefix);
-
         #endregion
 
         #region Player Records
@@ -735,12 +730,6 @@ namespace Content.Server.Database
         {
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.UpdatePlayTimes(updates));
-        }
-
-        public Task<int> DeletePlayTimesByTrackerPrefix(string trackerPrefix)
-        {
-            DbWriteOpsMetric.Inc();
-            return RunDbCommand(() => _db.DeletePlayTimesByTrackerPrefix(trackerPrefix));
         }
 
         #endregion

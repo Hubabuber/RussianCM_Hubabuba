@@ -125,6 +125,18 @@ public sealed class CMUZLevelGroundSnapTest
     }
 
     [Test]
+    public void SettledVehicleNonStickyGroundSleepsAtSupportedHeight()
+    {
+        Assert.That(ShouldSleepZPhysics(0f, false, 0.5f, 0f, true), Is.True);
+    }
+
+    [Test]
+    public void MovingVehicleNonStickyGroundStaysAwake()
+    {
+        Assert.That(ShouldSleepZPhysics(0f, false, 0.5f, 0.1f, true), Is.False);
+    }
+
+    [Test]
     public void DownTransitionOvershootClampsToCurrentFloor()
     {
         Assert.That(ShouldClampAfterDownTransition(-0.2f, -0.2f, false, -5f), Is.True);
@@ -441,7 +453,8 @@ public sealed class CMUZLevelGroundSnapTest
         float distanceToGround,
         bool stickyGround,
         float localPosition,
-        float velocity)
+        float velocity,
+        bool isVehicle = false)
     {
         var method = typeof(CMUSharedZLevelsSystem).GetMethod(
             "ShouldSleepZPhysics",
@@ -456,6 +469,7 @@ public sealed class CMUZLevelGroundSnapTest
                 stickyGround,
                 localPosition,
                 velocity,
+                isVehicle,
             })!;
     }
 

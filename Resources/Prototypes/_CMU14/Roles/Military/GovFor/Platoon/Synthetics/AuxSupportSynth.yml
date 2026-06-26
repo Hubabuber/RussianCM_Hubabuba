@@ -12,10 +12,13 @@
   playTimeTracker: AU14JobGOVFORAuxSupportSynth
   canBeAntag: false
   whitelisted: true
-  whitelistParent: AU14JobGeneralWhitelist
+  whitelistParent: RMCWhitelistMedium
   accessGroups:
   - AU14GovforCommand
   - CMCargoTech
+  access:
+  - CMAccessMedical
+  - CMAccessChemistry
 
 - type: job
   abstract: true
@@ -46,6 +49,10 @@
       types:
         Blunt: 35
   - type: Synth
+  - type: Language
+    preset: AU14LanguagePresetSynth
+  - type: LanguageLearning
+    preset: AU14LanguageLearningPresetSynth
   roundForceComponents:
     OPFOR:
     - type: TacticalMapIcon
@@ -107,6 +114,7 @@
     - FrontalLisp
     - NonResuscitable
     - Epilepsy
+    - NoEnglish
   ranks:
     RMCRankSyntheticColonist: []
   chevrons:
@@ -210,6 +218,9 @@
   accessGroups:
   - AU14OpforCommand
   - CMCargoTech
+  access:
+  - CMAccessMedical
+  - CMAccessChemistry
 
 - type: startingGear
   id: AU14GearOPFORAuxSupportSynth
