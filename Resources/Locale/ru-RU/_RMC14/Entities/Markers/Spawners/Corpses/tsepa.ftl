@@ -1,4 +1,4 @@
-ent-RMCSpawnerCorpseConstable = Создатель трупов — констебль ЦЭПА
+ent-RMCSpawnerCorpseConstable = Создатель трупов — констебль ПДСН
 
-ent-RMCSpawnerCorpseConstableBurst = Создатель трупов — констебль ЦЭПА
+ent-RMCSpawnerCorpseConstableBurst = Создатель трупов — констебль ПДСН
 

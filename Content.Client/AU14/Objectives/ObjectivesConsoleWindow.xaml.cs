@@ -22,40 +22,42 @@ public sealed partial class ObjectivesConsoleWindow : FancyWindow
     public void UpdateObjectives(List<ObjectiveEntry> objectives, int currentWinPoints, int requiredWinPoints)
     {
         Logger.GetSawmill("content").Info($"[ObjectivesConsoleWindow] UpdateObjectives called; RequestIntelCallback is {(RequestIntelCallback == null ? "null" : "set")}");
-        CurrentWinPointsLabel.Text = $"Current Win Points: {currentWinPoints}";
-        RequiredWinPointsLabel.Text = $"Points to Final Objective: {requiredWinPoints}";
+        CurrentWinPointsLabel.Text = Loc.GetString("au14-objectives-console-current-win-points", ("points", currentWinPoints)); // RuMC edit
+        RequiredWinPointsLabel.Text = Loc.GetString("au14-objectives-console-points-to-final", ("points", requiredWinPoints)); // RuMC edit
         ObjectivesList.DisposeAllChildren();
         foreach (var obj in objectives)
         {
             var container = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Horizontal };
             string typeText = obj.Type switch
             {
-                ObjectiveTypeDisplay.Minor => "[Minor] ",
-                ObjectiveTypeDisplay.Major => "[Major] ",
-                ObjectiveTypeDisplay.Win => "[Win] ",
+                // RuMC edit start
+                ObjectiveTypeDisplay.Minor => Loc.GetString("au14-objectives-type-minor") + " ",
+                ObjectiveTypeDisplay.Major => Loc.GetString("au14-objectives-type-major") + " ",
+                ObjectiveTypeDisplay.Win => Loc.GetString("au14-objectives-type-win") + " ",
+                // RuMC edit end
                 _ => ""
             };
             var labelText = typeText + obj.Description;
             if (obj.Repeating)
-                labelText += " [Repeating]";
+                labelText += " " + Loc.GetString("au14-objectives-repeating"); // RuMC edit
             if (!string.IsNullOrEmpty(obj.Progress))
                 labelText += $" ({obj.Progress})";
             if (obj.MaxRepeatable is { } maxRepeat && maxRepeat > 0)
             {
                 if (obj.RepeatsCompleted is int repeats)
-                    labelText += $" (Completed {repeats}/{maxRepeat} times)";
+                    labelText += " " + Loc.GetString("au14-objectives-completed-times", ("current", repeats), ("max", maxRepeat)); // RuMC edit
                 else
-                    labelText += $" (Can be completed {maxRepeat} times)";
+                    labelText += " " + Loc.GetString("au14-objectives-can-complete-times", ("max", maxRepeat)); // RuMC edit
             }
             else if (obj.RepeatsCompleted is int repeats && repeats > 0)
             {
-                labelText += $" (Times completed: {repeats})";
+                labelText += " " + Loc.GetString("au14-objectives-times-completed", ("count", repeats)); // RuMC edit
             }
             if (obj.Points > 0)
-                labelText += $" [Worth {obj.Points} points]";
+                labelText += " " + Loc.GetString("au14-objectives-worth-points", ("points", obj.Points)); // RuMC edit
             var label = new Label { Text = labelText };
             // Add Intel button
-            var intelButton = new Button { Text = "Intel", Margin = new Thickness(8, 0, 0, 0) };
+            var intelButton = new Button { Text = Loc.GetString("au14-objectives-intel-button"), Margin = new Thickness(8, 0, 0, 0) }; // RuMC edit
             intelButton.OnPressed += _ => {
                 Logger.GetSawmill("content").Info($"[ObjectivesConsoleWindow] Intel button pressed for objective={obj.Id}");
                 RequestIntelCallback?.Invoke(obj.Id);
@@ -67,25 +69,25 @@ public sealed partial class ObjectivesConsoleWindow : FancyWindow
             switch (obj.Status)
             {
                 case ObjectiveStatusDisplay.Completed:
-                    statusText = "Completed";
+                    statusText = Loc.GetString("au14-objectives-status-completed"); // RuMC edit
                     statusColor = Color.Lime;
                     break;
                 case ObjectiveStatusDisplay.Failed:
-                    statusText = "Failed";
+                    statusText = Loc.GetString("au14-objectives-status-failed"); // RuMC edit
                     statusColor = Color.Red;
                     break;
                 case ObjectiveStatusDisplay.Captured:
-                    statusText = "Captured";
+                    statusText = Loc.GetString("au14-objectives-status-captured"); // RuMC edit
                     statusColor = Color.Cyan;
                     break;
                 case ObjectiveStatusDisplay.Uncaptured:
-                    statusText = "Uncaptured";
+                    statusText = Loc.GetString("au14-objectives-status-uncaptured"); // RuMC edit
                     statusColor = Color.Orange;
                     break;
                 default:
-                    statusText = "Uncompleted";
+                    statusText = Loc.GetString("au14-objectives-status-uncompleted"); // RuMC edit
                     statusColor = Color.Gold;
-                    break;
+                break;
             }
             var status = new Label
             {

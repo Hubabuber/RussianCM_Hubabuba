@@ -1,14 +1,15 @@
 using System.Linq;
 using Content.Server.AU14.Ambassador;
 using Content.Server.AU14.Round;
-using Content.Server.AU14.ThirdParty;
+using Content.Server._CMU14.Ops.ThirdParty;
 using Content.Server.Chat.Systems;
 using Content.Server.Popups;
 using Content.Shared.AU14.Ambassador;
 using Content.Shared.AU14.ColonyEconomy;
-using Content.Shared.AU14.Threats;
+using Content.Shared._CMU14.Threats;
 using Robust.Server.GameObjects;
 using Robust.Shared.Prototypes;
+using ThirdPartySystem = Content.Server._CMU14.Ops.ThirdParty.ThirdPartySystem;
 
 namespace Content.Server.AU14.ColonyEconomy;
 
@@ -17,7 +18,7 @@ public sealed partial class AdminConsoleSystem : EntitySystem
     [Dependency] private UserInterfaceSystem _ui = default!;
     [Dependency] private ColonyBudgetSystem _colonyBudget = default!;
     [Dependency] private ChatSystem _chat = default!;
-    [Dependency] private AuThirdPartySystem _thirdParty = default!;
+    [Dependency] private ThirdPartySystem _thirdParty = default!;
     [Dependency] private AuRoundSystem _auRound = default!;
     [Dependency] private IPrototypeManager _proto = default!;
     [Dependency] private PopupSystem _popup = default!;
@@ -123,8 +124,8 @@ public sealed partial class AdminConsoleSystem : EntitySystem
         {
             var sound = new Robust.Shared.Audio.SoundPathSpecifier("/Audio/Announcements/announce.ogg");
             _chat.DispatchGlobalAnnouncement(
-                $"Colony sales tax has been set to {clamped:F0}%.",
-                "Administration",
+                Loc.GetString("au14-admin-console-sales-tax-set", ("percent", (int)clamped)), // RuMC edit
+                Loc.GetString("au14-admin-console-sender"), // RuMC edit
                 playSound: true,
                 announcementSound: sound);
         }
@@ -146,8 +147,8 @@ public sealed partial class AdminConsoleSystem : EntitySystem
         {
             var sound = new Robust.Shared.Audio.SoundPathSpecifier("/Audio/Announcements/announce.ogg");
             _chat.DispatchGlobalAnnouncement(
-                $"Colony income tax has been set to {clamped:F0}%. This affects salary payouts and corporate withdrawals.",
-                "Administration",
+                Loc.GetString("au14-admin-console-income-tax-set", ("percent", (int)clamped)), // RuMC edit
+                Loc.GetString("au14-admin-console-sender"), // RuMC edit
                 playSound: true,
                 announcementSound: sound);
         }
@@ -163,7 +164,7 @@ public sealed partial class AdminConsoleSystem : EntitySystem
             return;
         if (_colonyBudget.GetBudget() < cost)
             return;
-        if (!_proto.TryIndex<AuThirdPartyPrototype>(msg.ThirdPartyId, out var partyProto))
+        if (!_proto.TryIndex<ThirdPartyPrototype>(msg.ThirdPartyId, out var partyProto))
             return;
         if (!_auRound.IsThirdPartyAllowedForCurrentContext(partyProto))
             return;
@@ -172,7 +173,7 @@ public sealed partial class AdminConsoleSystem : EntitySystem
 
         if (!_thirdParty.SpawnThirdParty(partyProto, spawnProto, false))
         {
-            _popup.PopupEntity("Unable to dispatch support at this time.", uid, msg.Actor);
+            _popup.PopupEntity(Loc.GetString("au14-admin-console-dispatch-failed"), uid, msg.Actor); // RuMC edit
             return;
         }
 
@@ -197,7 +198,7 @@ public sealed partial class AdminConsoleSystem : EntitySystem
         var thirdParties = new Dictionary<string, (string DisplayName, float Cost)>();
         foreach (var (id, cost) in comp.CallableParties)
         {
-            if (_proto.TryIndex<AuThirdPartyPrototype>(id, out var proto) &&
+            if (_proto.TryIndex<ThirdPartyPrototype>(id, out var proto) &&
                 _auRound.IsThirdPartyAllowedForCurrentContext(proto))
                 thirdParties[id] = (proto.DisplayName ?? proto.ID, cost);
         }

@@ -123,9 +123,9 @@ rmc-ghost-name-corp-exec-div-man = Менеджер корпоративного
 
 rmc-job-name-corp-exec-div-man = Менеджер корпоративного отдела
 
-rmc-ghost-name-corp-exec-chief = Корпоративный генеральный директор (нейтральный)
+rmc-ghost-name-corp-exec-chief = Корпоративный исполнительный директор (нейтральный)
 
-rmc-job-name-corp-exec-chief = Корпоративный генеральный директор
+rmc-job-name-corp-exec-chief = Корпоративный исполнительный директор
 
 rmc-ghost-name-corp-dep-director = Заместитель директора Ве-Ю (Нейтральный)
 

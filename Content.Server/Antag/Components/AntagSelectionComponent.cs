@@ -1,4 +1,5 @@
 using Content.Server.Administration.Systems;
+using Content.Shared._CMU14.Threats;
 using Content.Shared.Antag;
 using Content.Shared.Destructible.Thresholds;
 using Content.Shared.Preferences.Loadouts;
@@ -146,6 +147,13 @@ public partial struct AntagSelectionDefinition()
     /// </summary>
     [DataField]
     public HashSet<ProtoId<JobPrototype>>? JobBlacklist;
+
+    /// <summary>
+    /// A list of antagJobBlacklist prototypes, (e.g. "AllGovforJobs"),
+    /// much better maintainable if, for example, a new job was added.
+    /// </summary>
+    [DataField]
+    public List<ProtoId<AntagJobBlacklistPrototype>>? JobBlacklistGroup;
 
     /// <remarks>
     /// Mostly just here for legacy compatibility and reducing boilerplate

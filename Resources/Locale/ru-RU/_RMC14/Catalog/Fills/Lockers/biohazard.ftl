@@ -1,15 +1,20 @@
-ent-CMClosetBioFilled = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
+ent-CMClosetBioFilled = {ent-CMClosetBio}
+    .desc = {ent-CMClosetBio.desc}
+    .suffix = Заполнен
 
-ent-CMClosetBioVirologyFilled = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
+ent-CMClosetBioVirologyFilled = {ent-CMClosetBio}
+    .desc = {ent-CMClosetBio.desc}
+    .suffix = Заполнен, Вирусология
 
-ent-CMClosetBioSecurityFilled = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
+ent-CMClosetBioSecurityFilled = {ent-CMClosetBio}
+    .desc = {ent-CMClosetBio.desc}
+    .suffix = Заполнен, Охрана
 
-ent-CMClosetBioJanitorFilled = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
+ent-CMClosetBioJanitorFilled = {ent-CMClosetBio}
+    .desc = {ent-CMClosetBio.desc}
+    .suffix = Заполнен, Уборщик
 
-ent-CMClosetBioScientistFilled = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
+ent-CMClosetBioScientistFilled = {ent-CMClosetBio}
+    .desc = {ent-CMClosetBio.desc}
+    .suffix = Заполнен, Научный
 

@@ -1,5 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
+using Content.Shared._CMU14.ZLevels.Core.EntitySystems;
 using Content.Shared._RMC14.Chat;
 using Content.Shared._RMC14.Ghost;
 using Content.Shared._RMC14.Inventory;
@@ -63,6 +64,7 @@ public sealed partial class XenoNestSystem : EntitySystem
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private TurfSystem _turf = default!;
     [Dependency] private SharedXenoWeedsSystem _xenoWeeds = default!;
+    [Dependency] private CMUSharedZLevelsSystem _zLevels = default!;
 
     private EntityQuery<OccluderComponent> _occluderQuery;
     private EntityQuery<XenoNestComponent> _xenoNestQuery;
@@ -209,6 +211,7 @@ public sealed partial class XenoNestSystem : EntitySystem
 
     private void OnNestedAdd(Entity<XenoNestedComponent> ent, ref ComponentStartup args)
     {
+        _zLevels.TryDisableLookUp(ent);
         _parasite.RefreshIncubationMultipliers(ent.Owner);
     }
 
@@ -234,7 +237,7 @@ public sealed partial class XenoNestSystem : EntitySystem
             player.AttachedEntity is { } ghost &&
             TryComp(ghost, out GhostComponent? ghostComp))
         {
-            _rmcChat.ChatMessageToOne("\n[font size=24][color=red]You have been freed from your nest and may go back to your body![/color][/font]\n", ghost);
+            _rmcChat.ChatMessageToOne($"\n[font size=24][color=red]{Loc.GetString("rmc-xeno-nest-freed")}[/color][/font]\n", ghost); // RuMC edit
 
             var returnTo = EnsureComp<RMCGhostReturnComponent>(ghost);
             returnTo.Target = ent;

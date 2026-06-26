@@ -7,6 +7,7 @@ using Content.Client.Verbs;
 using Content.Client.Verbs.UI;
 using Content.Shared.CCVar;
 using Content.Shared.Examine;
+using Content.Shared.IdentityManagement;
 using Content.Shared.Input;
 using Content.Shared.Verbs;
 using Robust.Client.GameObjects;
@@ -90,26 +91,17 @@ namespace Content.Client.ContextMenu.UI
             if (_context.RootMenu.Visible)
                 _context.Close();
 
-            _examineSystem.RequestPerceivedNames(entities);
-
             var entitySpriteStates = GroupEntities(entities);
             var orderedStates = entitySpriteStates.ToList();
             orderedStates.Sort((x, y) => string.Compare(
-                GetMenuEntityName(x.First()),
-                GetMenuEntityName(y.First()),
+                Identity.Name(x.First(), _entityManager, _playerManager.LocalEntity),
+                Identity.Name(y.First(), _entityManager, _playerManager.LocalEntity),
                 StringComparison.CurrentCulture));
             Elements.Clear();
             AddToUI(orderedStates);
 
             var box = UIBox2.FromDimensions(_userInterfaceManager.MousePositionScaled.Position, new Vector2(1, 1));
             _context.RootMenu.Open(box);
-        }
-
-        private string GetMenuEntityName(EntityUid entity)
-        {
-            return _playerManager.LocalEntity is { } viewer
-                ? _examineSystem.GetPerceivedEntityName(entity, viewer)
-                : string.Empty;
         }
 
         public void OnKeyBindDown(ContextMenuElement element, GUIBoundKeyEventArgs args)

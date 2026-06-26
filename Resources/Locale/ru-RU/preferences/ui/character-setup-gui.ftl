@@ -1,7 +1,6 @@
 character-setup-gui-character-setup-label = Настройки персонажа
 character-setup-gui-character-setup-adminremarks-button = Админ заметки
 character-setup-gui-character-setup-stats-button = Статистика
-character-setup-gui-character-setup-role-tests-button = Тесты ролей
 character-setup-gui-character-setup-commendations-received-button = Полученные медали и желе
 character-setup-gui-character-setup-commendations-given-button = Выданные медали и желе
 character-setup-gui-character-setup-rules-button = Правила

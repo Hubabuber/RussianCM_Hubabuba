@@ -48,7 +48,7 @@ rmc-ui-intel-colony-status =
        *[false] Офлайн.
     }
 
-## Консоль управления технологиями
+## Консоль технологий
 rmc-ui-tech-tier-header = [font size=14][bold]Уровень: { $tier }[/bold][/font]
 rmc-ui-tech-points = [font size=14][bold]Очки: { $points }[/bold][/font]
 rmc-ui-tech-points-value = Тех. очки: { $value }
@@ -61,3 +61,11 @@ rmc-ui-tech-name-label = [color=#5B88B0]Название:[/color]
 rmc-ui-tech-description-label = [color=#5B88B0]Описание:[/color]
 rmc-ui-tech-cost-label = [color=#5B88B0]Стоимость:[/color]
 rmc-ui-tech-statistics-label = [color=#5B88B0]Статистика:[/color]
+
+rmc-intel-console-start-typing = Вы начинаете вводить разведданные в компьютер...
+rmc-intel-console-nothing-to-add = Вы начинаете вводить разведданные в компьютер... но добавить нечего...
+rmc-intel-console-distracted = Вы отвлеклись и потеряли мысль, придётся начать ввод заново...
+rmc-intel-console-nothing-after = ...и добавить нечего...
+rmc-intel-console-done = ...готово! Вы загрузили { $amount } записей!
+
+rmc-ui-tech-console-title = Консоль технологий

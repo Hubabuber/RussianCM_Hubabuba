@@ -4,9 +4,6 @@ ent-RMCClosetGoldenArrowGear = личный шкафчик
 ent-CMClosetAlien = странный шкаф
   .desc = Выглядит инопланетным!
 
-ent-CMClosetBio = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
-
 ent-CMClosetBomb = шкаф EOD
   .desc = Это хранилище взрывозащитных костюмов.
 
@@ -43,18 +40,6 @@ ent-CMClosetBase = шкаф
 ent-RMCCabinetBaseUnanchored = шкаф
   .desc = Старое всегда будет в моде.
 
-ent-CMClosetBioVirology = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
-
-ent-CMClosetBioSecurity = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
-
-ent-CMClosetBioJanitor = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
-
-ent-CMClosetBioScientist = Шкаф для костюмов биологической защиты 3-го уровня
-  .desc = Это хранилище для биологического оборудования 3-го уровня.
-
 ent-RMCClosetMiner = шахтерское оборудование
   .desc = Это базовая единица хранения.
 
@@ -62,26 +47,41 @@ ent-RMCClosetPMCGear = личный шкафчик
   .desc = Неподвижное хранилище.
 
 ent-RMCClosetSPPGear = личный шкафчик
-  .desc = Неподвижное хранилище.
+    .desc = Неподвижное хранилище.
 
 ent-RMCClosetRCMGear = личный шкафчик
-  .desc = Неподвижное хранилище.
+    .desc = Неподвижное хранилище.
 
 ent-RMCClosetRCMTroopSgtGear = шкафчик сержанта
-  .desc = Неподвижное хранилище.
+    .desc = Неподвижное хранилище.
 
 ent-RMCClosetRCMSectionLeaderGear = шкафчик руководителя подразделения
-  .desc = Неподвижное хранилище.
+    .desc = Неподвижное хранилище.
 
 ent-RMCClosetRCMGPMGGear = шкафчик наводчика
-  .desc = Неподвижное хранилище.
+    .desc = Неподвижное хранилище.
 
 ent-RMCClosetRCMTeamLeaderGear = шкафчик руководителя группы
-  .desc = Неподвижное хранилище.
+    .desc = Неподвижное хранилище.
 
 ent-RMCClosetRCMTroopCommanderGear = шкафчик командира отряда
-  .desc = Неподвижное хранилище.
+    .desc = Неподвижное хранилище.
 
 ent-RMCClosetRCMSapperGear = шкафчик сапёра
-  .desc = Неподвижное хранилище.
+    .desc = Неподвижное хранилище.
 
+
+ent-CMClosetBio = шкаф для костюмов ОЗК
+    .desc = Это хранилище для костюмов от биоугроз 3-го уровня.
+
+ent-CMClosetBioVirology = {ent-CMClosetBio}
+  .desc = {ent-CMClosetBio.desc}
+
+ent-CMClosetBioSecurity = {ent-CMClosetBio}
+  .desc = {ent-CMClosetBio.desc}
+
+ent-CMClosetBioJanitor = {ent-CMClosetBio}
+  .desc = {ent-CMClosetBio.desc}
+
+ent-CMClosetBioScientist = {ent-CMClosetBio}
+  .desc = {ent-CMClosetBio.desc}
