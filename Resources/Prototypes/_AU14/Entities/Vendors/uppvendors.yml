@@ -763,7 +763,6 @@
       entries:
       - id: AU14SmartGunUPP
       - id: RMCWeaponLMGQYJ72
-      - id: RuMCMachineGunTachanka
     - name: Belt
       choices: { CMUPlatoonMGBelt: 1 }
       entries:
@@ -777,12 +776,6 @@
         amount: 40
       - id: RMCMagazineLMGQYJ72
         amount: 40
-      - id: RuMCMagazineTachanka
-        amount: 40
-      - id: RuMCMagazineTachankaLarge
-        amount: 10
-      - id: RuMCMagazineTachankaLargeTracer
-        amount: 10
 
 - type: entity
   parent: ColMarTechBase
@@ -1075,6 +1068,16 @@
       - id: AU14ClothingOuterStraitjacket
         amount: 5 # TODO: bandaid - remove after mappers have placed this
 
+
+#      - id: RuMCMachineGunTachanka
+
+#      - id: RuMCMagazineTachanka
+#        amount: 40
+#      - id: RuMCMagazineTachankaLarge
+#        amount: 10
+#      - id: RuMCMagazineTachankaLargeTracer
+#        amount: 10
+
 - type: entity
   parent: ColMarTechCargo
   id: AU14UPPRequisitionVendor
@@ -1112,6 +1115,8 @@
       - id: RMCWeaponRifleType71C
         amount: 3
       - id: RMCWeaponRifleAK4047
+        amount: 2
+      - id: RuMCMachineGunTachanka
         amount: 2
       - id: RMCWeaponPistolNP92Empty
         amount: 15
@@ -1151,6 +1156,12 @@
         amount: 25
       - id: RMCMagazineSMGType64
         amount: 200
+      - id: RuMCMagazineTachanka
+        amount: 25
+      - id: RuMCMagazineTachankaLarge
+        amount: 1
+      - id: RuMCMagazineTachankaLargeTracer
+        amount: 1
     - name: secondary ammunition
       entries:
       - id: RMCMagazinePistolT73
