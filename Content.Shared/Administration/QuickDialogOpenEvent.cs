@@ -92,23 +92,12 @@ public sealed class QuickDialogEntry
     /// </summary>
     public string? Placeholder;
 
-    /// <summary>
-    /// Initial value placed into the input field.
-    /// </summary>
-    public string? DefaultValue;
-
-    public QuickDialogEntry(
-        string fieldId,
-        QuickDialogEntryType type,
-        string prompt,
-        string? placeholder = null,
-        string? defaultValue = null)
+    public QuickDialogEntry(string fieldId, QuickDialogEntryType type, string prompt, string? placeholder = null)
     {
         FieldId = fieldId;
         Type = type;
         Prompt = prompt;
         Placeholder = placeholder;
-        DefaultValue = defaultValue;
     }
 }
 

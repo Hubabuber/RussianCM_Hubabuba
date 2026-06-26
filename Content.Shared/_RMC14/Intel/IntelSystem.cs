@@ -509,12 +509,11 @@ public sealed partial class IntelSystem : EntitySystem
 
     private void OnConsoleInteractHand(Entity<IntelConsoleComponent> ent, ref InteractHandEvent args)
     {
-        var msg = "You start typing in intel into the computer...";
+        var msg = Loc.GetString("rmc-intel-console-start-typing"); // RuMC edit
         if (!TryComp(args.User, out IntelKnowledgeComponent? knowledge) ||
             !knowledge.Read.TryFirstOrNull(out var read))
         {
-            msg += " and you have nothing new to add...";
-            _popup.PopupClient(msg, ent, args.User, PopupType.Medium);
+            _popup.PopupClient(Loc.GetString("rmc-intel-console-nothing-to-add"), ent, args.User, PopupType.Medium); // RuMC edit
             return;
         }
 
@@ -538,7 +537,7 @@ public sealed partial class IntelSystem : EntitySystem
         if (args.Cancelled)
         {
             _popup.PopupEntity(
-                "You get distracted and lose your train of thought, you'll have to start the typing over...",
+                Loc.GetString("rmc-intel-console-distracted"), // RuMC edit
                 ent,
                 args.User,
                 PopupType.MediumCaution
@@ -551,10 +550,10 @@ public sealed partial class IntelSystem : EntitySystem
         void StopPopup(ref IntelSubmitDoAfterEvent args)
         {
             if (args.Amount == 0)
-                _popup.PopupEntity("...and you have nothing new to add...", ent, args.User, PopupType.Medium);
+                _popup.PopupEntity(Loc.GetString("rmc-intel-console-nothing-after"), ent, args.User, PopupType.Medium);
             else
             {
-                _popup.PopupEntity($"...and done! You uploaded {args.Amount} entries!", ent, args.User, PopupType.Medium);
+                _popup.PopupEntity(Loc.GetString("rmc-intel-console-done", ("amount", args.Amount)), ent, args.User, PopupType.Medium);
             }
 
             if (_idCard.TryFindIdCard(args.User, out var idCard) && TryComp(idCard, out ItemIFFComponent? idCardIFF))

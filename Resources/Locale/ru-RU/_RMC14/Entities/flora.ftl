@@ -1,50 +1,60 @@
 ent-RMCBoulder1 = валун
-  .desc = Большой камень. 
+    .desc = Большой камень.
+
+ent-RMCBoulder2 = {ent-RMCBoulder1}
+    .desc = {ent-RMCBoulder1.desc}
+
+ent-RMCBoulder3 = {ent-RMCBoulder1}
+    .desc = {ent-RMCBoulder1.desc}
+
 
 ent-RMCRockSmart = умный камень
-  .desc = Теперь нарисуйте, как они получают образование.
+    .desc = Теперь нарисуйте, как они получают образование. Грызёт гранит науки?
 
-ent-RMCRockIndistructable = крепкая скала
-  .desc = Застывшая коллекция местных минералов. 
+ent-RMCRockIndistructable = крепкий камень
+    .desc = Очень прочная порода.
 
 ent-RMCRock = камень
-  .desc = Застывшая коллекция местных минералов. 
+    .desc = Прочная порода.
 
-ent-RMCFloraTreePalm02 = пальма
-  .desc = Да, это дерево.
 
 ent-RMCFloraTreePalm01 = пальма
-  .desc = Да, это дерево.
+    .desc = Нет, это не дерево.
 
-ent-FernyBush03 = папоротник
+ent-RMCFloraTreePalm02 = {ent-RMCFloraTreePalm01}
+    .desc = {ent-RMCFloraTreePalm01.desc}
 
-ent-FernyBush02 = папоротник
 
 ent-FernyBush01 = папоротник
+    .desc = Очень древний вид растений.
 
-ent-StalkyBush03 = Стебельчатый куст
+ent-FernyBush03 = {ent-FernyBush01}
+    .desc = {ent-FernyBush01.desc}
 
-ent-StalkyBush02 = Стебельчатый куст
 
-ent-StalkyBush01 = Стебельчатый куст
+ent-FernyBush02 = {ent-FernyBush01}
+    .desc = {ent-FernyBush01.desc}
 
-ent-BonsaiTree04 = Куст
-  .desc = Небольшой густолиственный куст.
 
-ent-BonsaiTree03 = Куст
-  .desc = Небольшой густолиственный куст.
+ent-StalkyBush01 = стебельчатый куст
+    .desc = Куст, но продолговатый.
 
-ent-BonsaiTree02 = Куст
-  .desc = Небольшой густолиственный куст.
+ent-StalkyBush03 = {ent-StalkyBush01}
+    .desc = {ent-StalkyBush01.desc}
 
-ent-BonsaiTree01 = Куст
-  .desc = Небольшой густолиственный куст.
+ent-StalkyBush02 = {ent-StalkyBush01}
+    .desc = {ent-StalkyBush01.desc}
 
-  .desc = Да, это дерево.
 
-ent-RMCBoulder2 = валун
-  .desc = Большой камень. 
+ent-BonsaiTree01 = куст
+    .desc = Небольшой лиственный куст.
 
-ent-RMCBoulder3 = валун
-  .desc = Большой камень. 
+ent-BonsaiTree04 = {ent-BonsaiTree01}
+    .desc = {ent-BonsaiTree01.desc}
+
+ent-BonsaiTree03 = {ent-BonsaiTree01}
+    .desc = {ent-BonsaiTree01.desc}
+
+ent-BonsaiTree02 = {ent-BonsaiTree01}
+    .desc = {ent-BonsaiTree01.desc}
 

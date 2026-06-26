@@ -31,8 +31,9 @@ using Content.Shared._RMC14.Xenonids.Finesse;
 using static Robust.Shared.Utility.SpriteSpecifier;
 using Content.Shared._RMC14.Slow;
 using Content.Shared._RMC14.Synth;
-using Content.Shared._RMC14.Xenonids.Hedgehog;
 using Content.Shared.FixedPoint;
+using AbominationComponent = Content.Shared._CMU14.Threats.Mobs.Abomination.AbominationComponent;
+using AbominationMimicTransformedComponent = Content.Shared._CMU14.Threats.Mobs.Abomination.AbominationMimicTransformedComponent;
 
 namespace Content.Client._RMC14.Xenonids.Hud;
 
@@ -112,11 +113,13 @@ public sealed partial class XenoHudOverlay : Overlay
         var isAdminGhost = _entity.TryGetComponent(_players.LocalEntity, out GhostComponent? ghost) &&
                            ghost.CanGhostInteract;
         var isXeno = _entity.HasComponent<XenoComponent>(_players.LocalEntity);
+        var isAbomination = _entity.HasComponent<AbominationComponent>(_players.LocalEntity) ||
+                             _entity.HasComponent<AbominationMimicTransformedComponent>(_players.LocalEntity);
         var isGhost = false;
 
         if (!_entity.HasComponent<CMGhostXenoHudComponent>(_players.LocalEntity))
         {
-            if (!isXeno && !isAdminGhost)
+            if (!isXeno && !isAdminGhost && !isAbomination)
                 return;
         }
         else
@@ -149,10 +152,10 @@ public sealed partial class XenoHudOverlay : Overlay
         }
 
         if (isXeno || isAdminGhost)
-        {
             DrawInfectedIcon(in args, scaleMatrix, rotationMatrix);
+
+        if (isXeno || isAdminGhost || isAbomination)
             DrawSynthIcon(in args, scaleMatrix, rotationMatrix);
-        }
 
         handle.UseShader(null);
         handle.SetTransform(Matrix3x2.Identity);

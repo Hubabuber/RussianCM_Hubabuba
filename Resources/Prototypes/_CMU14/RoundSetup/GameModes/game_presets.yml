@@ -1,0 +1,130 @@
+- type: gamePreset
+  id: ForceOnForce
+  alias:
+  - forceonforce
+  name: au14-preset-forceonforce-title
+  showInVote: true
+  description: au14-preset-forceonforce-description
+  minPlayers: 100 # RuMC
+  requiresOpforVote: true
+  requiresGovforVote: true
+  respawnEnabled: false # RuMC
+  supportedPlanets:
+  #- AUPlanetGixensCaverns Rout of rotation till fixed - eg
+  #- AUPlanetShepherdsPride
+  #- AUPlanetFlight
+  - AUPlanetLV759
+  - AUPlanetLV327
+  - AUPlanetCorsatStation
+  - AUPlanetSorokyne
+  - AUPlanetStableGarrison
+  - AUPlanetTrijent
+  - CMUPlanetLament
+  - CMUPlanetHopesRetreat
+  rules:
+  - AuVoteRule
+  - PlatoonSpawn
+  - RemoveAllJobs
+  - AddGovfor
+  - AddOpfor
+
+- type: gamePreset
+  id: Insurgency
+  alias:
+  - insurgency
+  name: au14-preset-insurgency-title
+  showInVote: true
+  description: au14-preset-insurgency-description
+  minPlayers: 40
+  requiresGovforVote: true
+  supportedPlanets:
+    - AUPlanetShepherdsPride
+   # - AUPlanetLV327
+    - CMUPlanetLament
+    - AUPlanetStableGarrison
+    #- AUPlanetLV747
+    - AUPlanetSorokyne
+    - AuPlanetChances
+    - CMUPlanetHopesRetreat
+  rules:
+  - AuVoteRule
+  - PlatoonSpawn
+  - AddGovfor
+  - AddClf
+  - ColonyAntags
+  - InsWinConditionsRule
+
+- type: gamePreset
+  id: DistressSignal
+  name: au14-preset-distresssignal-title
+  showInVote: true
+  description: au14-preset-distresssignal-description
+  requiresGovforVote: true
+  supportedPlanets:
+#  - AUPlanetLV747
+#  - AUPlanetShepherdsPride
+  - AUPlanetSorokyne
+  - AUPlanetCorsatStation
+  - AUPlanetTrijent
+#  - AuPlanetFiorina
+  - AuPlanetKutjevo
+  - AuPlanetShivasSnowball
+  - AUPlanetLV327
+  - AuPlanetChances
+  - CMUPlanetHopesRetreat
+  rules:
+  - AuVoteRule
+  - PlatoonSpawn
+  - RemoveAllJobs
+  - AddGovfor
+
+- type: gamePreset
+  id: ColonyFall
+  alias:
+  - colonyfall
+  name: au14-preset-colonyfall-title
+  showInVote: true
+  minPlayers: 0
+  maxPlayers: 60
+  description: Live in an offworld colony as it falls into chaos.
+  supportedPlanets:
+    - AUPlanetShepherdsPride
+    - AUPlanetLV327
+    - AUPlanetStableGarrison
+    - CMUPlanetLament
+    - AUPlanetSorokyne
+    - AuPlanetChances
+    - CMUPlanetHopesRetreat
+  rules:
+  - AuVoteRule
+  - ColonyAntags
+
+- type: gamePreset
+  id: Jailbreak
+  alias:
+  - jailbreak
+  name: Jailbreak
+  showInVote: false
+  description: Jailbreak mode
+  rules:
+  - AuVoteRule
+
+- type: gamePreset
+  id: Prometheus
+  alias:
+  - prometheus
+  name: Prometheus
+  showInVote: false
+  description: Prometheus mode
+  rules:
+  - AuVoteRule
+
+- type: gamePreset
+  id: Criminal
+  alias:
+  - criminal
+  name: Criminal
+  showInVote: false
+  description: Criminal mode
+  rules:
+  - AuVoteRule

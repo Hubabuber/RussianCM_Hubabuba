@@ -1,9 +1,9 @@
 using System.Linq;
 using Content.Client.Administration.Managers;
 using Content.Client.Administration.Systems;
-using Content.Client.Examine;
 using Content.Client.UserInterface;
 using Content.Shared.Administration;
+using Content.Shared.IdentityManagement;
 using Robust.Client.GameObjects;
 using Robust.Client.Player;
 
@@ -16,7 +16,6 @@ namespace Content.Client.ContextMenu.UI
         [Dependency] private IPlayerManager _playerManager = default!;
 
         private AdminSystem _adminSystem;
-        private ExamineSystem _examineSystem;
 
         /// <summary>
         ///     The entity that can be accessed by interacting with this element.
@@ -33,7 +32,6 @@ namespace Content.Client.ContextMenu.UI
             IoCManager.InjectDependencies(this);
 
             _adminSystem = _entityManager.System<AdminSystem>();
-            _examineSystem = _entityManager.System<ExamineSystem>();
 
             Entity = entity;
             if (Entity == null)
@@ -96,9 +94,7 @@ namespace Content.Client.ContextMenu.UI
                 return GetEntityDescriptionAdmin(entity);
             }
 
-            return _examineSystem.GetPerceivedEntityName(
-                entity,
-                _playerManager.LocalEntity!.Value);
+            return Identity.Name(entity, _entityManager, _playerManager.LocalEntity!);
         }
 
         /// <summary>

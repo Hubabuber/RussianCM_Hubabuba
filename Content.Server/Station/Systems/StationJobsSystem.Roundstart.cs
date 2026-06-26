@@ -98,7 +98,7 @@ public sealed partial class StationJobsSystem
                 }
             }
             // Third-party utility jobs are only used as role labels after
-            // AuThirdPartySystem spawns the real entity. Falling back to a normal
+            // ThirdPartySystem spawns the real entity. Falling back to a normal
             // station spawn for them creates naked placeholder bodies.
             if (assignedStation == null && (jobId == "AU14JobThirdPartyLeader" || jobId == "AU14JobThirdPartyMember"))
                 continue;
@@ -373,7 +373,7 @@ public sealed partial class StationJobsSystem
                 // Helper proto ids for common roles
                 var protoColonist = new ProtoId<JobPrototype>("AU14JobCivilianColonist");
                 var protoGovRifle = new ProtoId<JobPrototype>("AU14JobGOVFORSquadRifleman");
-                var protoOpfRifle = new ProtoId<JobPrototype>("AU14JobOpforSquadRifleman");
+                var protoOpfRifle = new ProtoId<JobPrototype>("AU14JobOPFORSquadRifleman");
 
                 var stationOverflows = GetOverflowJobs(station);
 

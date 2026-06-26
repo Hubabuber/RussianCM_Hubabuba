@@ -1,36 +1,53 @@
-ent-AU14CrateFOBTentCrate-name = ящик с палаткой передовой базы
-ent-AU14CrateFOBTentCrate-desc = Прямоугольный металлический ящик.
-ent-AU14CrateMotionDetectors-name = ящик с датчиками движения (x2 датчика движения, x2 карманных датчика движения)
-ent-AU14CrateMotionDetectors-desc = Ящик с боеприпасами.
-ent-AU14CrateTacticalMonocular-name = ящик с тактическими монокулярами (x5 тактических монокуляров)
-ent-AU14CrateTacticalMonocular-desc = Ящик с боеприпасами.
-ent-AU14CrateTacticalMonocularDesignator-name = ящик с тактическими монокулярами-целеуказателями (x4 тактических монокуляра-целеуказателя)
-ent-AU14CrateTacticalMonocularDesignator-desc = Ящик с боеприпасами.
-ent-AU14CrateMedicalVendor-name = Ящик с торговым автоматом We-Yu-Med
-ent-AU14CrateMedicalVendor-desc = Ящик, содержащий один торговый автомат We-Yu-Med.
-ent-AU14CrateMedicalBloodVendor-name = Ящик с дозатором крови WeYu
-ent-AU14CrateMedicalBloodVendor-desc = Ящик, содержащий один торговый автомат We-Yu-Med.
-ent-AU14CrateM5A1SLAW-name = Ящик с противотанковыми гранатомётами M5A1 SLAW (x4 M5A1 SLAW)
-ent-AU14CrateM5A1SLAW-desc = Ящик с оружием.
-ent-AU14CrateM7SLAW-name = Ящик с противотанковым гранатомётом M7-SMAW (x1 M7-SMAW, x2 84-мм ПТ ракеты, x2 84-мм ОФ ракеты)
-ent-AU14CrateM7SLAW-desc = Ящик с оружием.
-ent-AU14CrateM7SLAWMixedRocket-name = Ящик со смешанными 84-мм ракетами (x2 84-мм ОФ ракеты, x2 84-мм ПТ ракеты)
-ent-AU14CrateM7SLAWMixedRocket-desc = Ящик с боеприпасами.
-ent-AU14CrateM7SLAWAPRocket-name = Ящик с 84-мм ПТ ракетами (x4 84-мм ПТ ракеты)
-ent-AU14CrateM7SLAWAPRocket-desc = Ящик с боеприпасами.
-ent-AU14CrateM7SLAWHERocket-name = Ящик с 84-мм ОФ ракетами (x4 84-мм ОФ ракеты)
-ent-AU14CrateM7SLAWHERocket-desc = Ящик с боеприпасами.
-ent-AU14CrateCASNapalm-name = Боеприпас AGM-99 «Напалм»
-ent-AU14CrateCASNapalm-desc = Ящик с боеприпасами.
-ent-AU14CrateHJRA12-name = Ящик с противотанковым гранатомётом HJRA-12 (x1 HJRA-12, x2 ПТ ракеты, x2 ОФ ракеты)
-ent-AU14CrateHJRA12-desc = Ящик с оружием.
-ent-AU14CrateHJRA12MixedRocket-name = Ящик со смешанными ракетами HJRA-12 (x2 ОФ ракеты, x2 ПТ ракеты)
-ent-AU14CrateHJRA12MixedRocket-desc = Ящик с боеприпасами.
-ent-AU14CrateHJRA12ATRocket-name = Ящик с ПТ ракетами HJRA-12 (x4 ПТ ракеты)
-ent-AU14CrateHJRA12ATRocket-desc = Ящик с боеприпасами.
-ent-AU14CrateHJRA12HERocket-name = Ящик с ОФ ракетами HJRA-12 (x4 ОФ ракеты)
-ent-AU14CrateHJRA12HERocket-desc = Ящик с боеприпасами.
-ent-AU14CrateHJRA12EIIRocket-name = Ящик с зажигательными ракетами повышенной интенсивности HJRA-12 (x4 зажигательные ракеты ПИ)
-ent-AU14CrateHJRA12EIIRocket-desc = Ящик с боеприпасами.
-ent-AU14CrateOG60-name = Ящик с ротационным гранатомётом OG60 (x1 OG60, x1 ящик осколочных гранат, x1 ящик зажигательных гранат)
-ent-AU14CrateOG60-desc = Ящик с оружием.
+ent-AU14CrateFOBTentCrate = ящик с палаткой
+    .desc = Прямоугольный металлический ящик.
+
+ent-AU14CrateMotionDetectors = ящик с датчиками движения (x2 датчика движения, x2 карманных датчика движения)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateTacticalMonocular = ящик с тактическими монокулярами (x5 тактических монокуляров)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateTacticalMonocularDesignator = ящик с тактическими целеуказателями (x4 тактических целеуказателя)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateMedicalVendor = ящик с торговым медицинским торгоматом
+    .desc = Ящик, содержащий один медицинский торгомат.
+
+ent-AU14CrateMedicalBloodVendor = ящик с дозатором крови Ве-Ю
+    .desc = Ящик, содержащий один дозатор крови Ве-Ю.
+
+ent-AU14CrateM5A1SLAW = ящик с противотанковыми гранатомётами M5A1 SLAW (x4 M5A1 SLAW)
+    .desc = Ящик с оружием.
+
+ent-AU14CrateM7SLAW = ящик с противотанковым гранатомётом M7-SMAW (x1 M7-SMAW, x2 84-мм ПТ ракеты, x2 84-мм ОФ ракеты)
+    .desc = Ящик с оружием.
+
+ent-AU14CrateM7SLAWMixedRocket = ящик со смешанными 84-мм ракетами (x2 84-мм ОФ ракеты, x2 84-мм ПТ ракеты)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateM7SLAWAPRocket = ящик с 84-мм ПТ ракетами (x4 84-мм ПТ ракеты)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateM7SLAWHERocket = ящик с 84-мм ОФ ракетами (x4 84-мм ОФ ракеты)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateCASNapalm = ящик с боеприпасом AGM-99 «Напалм»
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateHJRA12 = ящик с противотанковым гранатомётом РПГ-12 (x1 РПГ-12, x2 ПТ ракеты, x2 ОФ ракеты)
+    .desc = Ящик с оружием.
+
+ent-AU14CrateHJRA12MixedRocket = ящик со смешанными ракетами РПГ-12 (x2 ОФ ракеты, x2 ПТ ракеты)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateHJRA12ATRocket = ящик с ПТ ракетами РПГ-12 (x4 ПТ ракеты)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateHJRA12HERocket = Ящик с ОФ ракетами РПГ-12 (x4 ОФ ракеты)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateHJRA12EIIRocket = Ящик с зажигательными ракетами повышенной интенсивности РПГ-12 (x4 зажигательные ракеты ПИ)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateOG60 = Ящик с револьверным гранатомётом ОГ60 (x1 ОГ60, x1 ящик осколочных гранат, x1 ящик зажигательных гранат)
+    .desc = Ящик с оружием.
