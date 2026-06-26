@@ -4,7 +4,6 @@ using System.Text;
 using Content.Server._RMC14.Admin;
 using Content.Server._RMC14.Chat.Chat;
 using Content.Server._RMC14.Emote;
-using Content.Server._CMU14.Acquaintance;
 using Content.Server._RMC14.Language.Systems;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
@@ -78,7 +77,6 @@ public sealed partial class ChatSystem : SharedChatSystem
     [Dependency] private CMChatSystem _cmChat = default!;
     [Dependency] private RMCEmoteSystem _rmcEmote = default!;
     [Dependency] private INetConfigurationManager _netConfigManager = default!;
-    [Dependency] private AcquaintanceSystem _acquaintance = default!;
 
     // RMC14
     [Dependency] private LanguageSystem _language = default!;
@@ -511,7 +509,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         // get the entity's apparent name (if no override provided).
         var ent = Identity.Entity(source, EntityManager);
         var name = nameOverride ?? Name(source);
-        var nameMarkup = _acquaintance.GetColoredChatName(source, name);
+        var nameMarkup = FormattedMessage.EscapeText(name);
 
         // Emotes use Identity.Name, since it doesn't actually involve your voice at all.
         var wrappedMessage = Loc.GetString("chat-manager-entity-me-wrap-message",
@@ -539,7 +537,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     // ReSharper disable once InconsistentNaming
     private void SendLOOC(EntityUid source, ICommonSession player, string message, bool hideChat)
     {
-        var name = _acquaintance.GetColoredChatName(source, Name(source));
+        var name = FormattedMessage.EscapeText(Name(source));
 
         if (_adminManager.IsAdmin(player))
         {
@@ -698,20 +696,16 @@ public sealed partial class ChatSystem : SharedChatSystem
             if (channel == ChatChannel.Local &&
                 speakerNameMarkup != null &&
                 transformedVoiceName != null &&
-                session.AttachedEntity is { Valid: true } listener)
+                session.AttachedEntity is { Valid: true })
             {
-                var perceivedName = _acquaintance.GetColoredChatName(
-                    source,
-                    _acquaintance.GetPerceivedVoiceName(listener, source, transformedVoiceName));
+                var perceivedName = FormattedMessage.EscapeText(transformedVoiceName);
                 listenerWrappedMessage = ReplaceFirst(listenerWrappedMessage, speakerNameMarkup, perceivedName);
             }
             else if (channel == ChatChannel.Emotes &&
                      visualNameMarkup != null &&
-                     session.AttachedEntity is { Valid: true } emoteViewer)
+                     session.AttachedEntity is { Valid: true })
             {
-                var perceivedName = _acquaintance.GetColoredChatName(
-                    source,
-                    _acquaintance.GetPerceivedFaceName(emoteViewer, source));
+                var perceivedName = FormattedMessage.EscapeText(Name(source));
                 listenerWrappedMessage = ReplaceFirst(listenerWrappedMessage, visualNameMarkup, perceivedName);
             }
 

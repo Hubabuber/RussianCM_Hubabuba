@@ -1,7 +1,6 @@
 using Content.Server.Administration.Logs;
 using Content.Server.Chat.Managers;
 using Content.Server.Chat.Systems;
-using Content.Server._CMU14.Acquaintance;
 using Content.Server.Power.Components;
 using Content.Server.Radio.Components;
 using Content.Shared._CMU14.Yautja;
@@ -169,7 +168,7 @@ public sealed partial class RadioSystem : EntitySystem
         var evt = new TransformSpeakerNameEvent(messageSource, MetaData(messageSource).EntityName);
         RaiseLocalEvent(messageSource, evt);
 
-        var name = _acquaintance.GetColoredChatName(messageSource, evt.VoiceName);
+        var name = FormattedMessage.EscapeText(evt.VoiceName);
 
         SpeechVerbPrototype speech;
         if (evt.SpeechVerb != null && _prototype.TryIndex(evt.SpeechVerb, out var evntProto))
@@ -355,11 +354,11 @@ public sealed partial class RadioSystem : EntitySystem
                 listener = parent;
         }
 
-        var perceivedVoiceName = _acquaintance.GetPerceivedVoiceName(listener, messageSource, transformedVoiceName);
+        var perceivedVoiceName = transformedVoiceName;
         if (HasComp<YautjaComponent>(messageSource) && HasComp<YautjaComponent>(listener))
             perceivedVoiceName = MetaData(messageSource).EntityName;
 
-        var name = _acquaintance.GetColoredChatName(messageSource, perceivedVoiceName);
+        var name = FormattedMessage.EscapeText(perceivedVoiceName);
         if (name == defaultName)
             return defaultChatMsg;
 
