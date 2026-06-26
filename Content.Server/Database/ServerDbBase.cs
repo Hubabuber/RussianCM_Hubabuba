@@ -872,15 +872,6 @@ namespace Content.Server.Database
             await db.DbContext.SaveChangesAsync();
         }
 
-        public async Task<int> DeletePlayTimesByTrackerPrefix(string trackerPrefix)
-        {
-            await using var db = await GetDb();
-
-            return await db.DbContext.PlayTime
-                .Where(p => EF.Functions.Like(p.Tracker, trackerPrefix + "%"))
-                .ExecuteDeleteAsync();
-        }
-
         #endregion
 
         #region Player Records

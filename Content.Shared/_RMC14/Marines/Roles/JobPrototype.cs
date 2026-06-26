@@ -2,7 +2,6 @@ using Content.Shared._RMC14.Item;
 using Content.Shared._RMC14.Marines.Roles.Ranks;
 using Content.Shared._RMC14.Medal;
 using Content.Shared._RMC14.Prototypes;
-using Content.Shared._RuMC14.RoleTests;
 using Content.Shared.AU14.Roles;
 using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
@@ -104,18 +103,6 @@ public sealed partial class JobPrototype : IInheritingPrototype, ICMSpecific
     /// </summary>
     [DataField]
     public bool UsePlayerProfile = true;
-
-    [DataField]
-    public bool RoleTestExempt;
-
-    [DataField]
-    public ProtoId<RoleTestPrototype>? RoleTest;
-
-    [DataField]
-    public RoleTestResponsibility RoleTestResponsibility = RoleTestResponsibility.Low;
-
-    [DataField]
-    public bool RoleTestRequiresLaw;
 
     /// <summary>
     /// If we would like to grab the AddComponentSpecials from the parent prototypes.
