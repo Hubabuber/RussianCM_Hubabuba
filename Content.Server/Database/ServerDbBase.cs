@@ -14,7 +14,7 @@ using Content.Shared._RMC14.NamedItems;
 using Content.Shared.Administration.Logs;
 using Content.Shared.AU14.Allegiance;
 using Content.Shared.AU14.Origin;
-using Content.Shared.AU14.Threats;
+using Content.Shared._CMU14.Threats;
 using Content.Shared.Construction.Prototypes;
 using Content.Shared.Database;
 using Content.Shared.Humanoid;
@@ -870,15 +870,6 @@ namespace Content.Server.Database
             }
 
             await db.DbContext.SaveChangesAsync();
-        }
-
-        public async Task<int> DeletePlayTimesByTrackerPrefix(string trackerPrefix)
-        {
-            await using var db = await GetDb();
-
-            return await db.DbContext.PlayTime
-                .Where(p => EF.Functions.Like(p.Tracker, trackerPrefix + "%"))
-                .ExecuteDeleteAsync();
         }
 
         #endregion
