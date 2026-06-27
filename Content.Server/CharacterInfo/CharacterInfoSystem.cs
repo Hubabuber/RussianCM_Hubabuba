@@ -252,9 +252,9 @@ public sealed partial class CharacterInfoSystem : EntitySystem
 
         if (selectedPlanet.LorePrimer is { } planetPrimerId &&
             _prototypes.TryIndex(planetPrimerId, out LorePrimerPrototype? primer) &&
-            !string.IsNullOrWhiteSpace(primer.PlanetText))
+            primer.PlanetText is { } planetTextKey) // RuMC edit
         {
-            lines.Add(primer.PlanetText);
+            lines.Add(Loc.GetString(planetTextKey)); // RuMC edit
             return;
         }
 
@@ -269,17 +269,17 @@ public sealed partial class CharacterInfoSystem : EntitySystem
 
         if (platoon.LorePrimer is { } platoonPrimerId &&
             _prototypes.TryIndex(platoonPrimerId, out LorePrimerPrototype? primer) &&
-            !string.IsNullOrWhiteSpace(primer.PlatoonInfo))
+            // RuMC edit start
+            primer.PlatoonInfo is { } platoonInfoKey)
         {
-            var platoonInfo = primer.PlatoonInfo.Trim();
-            lines.Add(platoonInfo.StartsWith("Platoon:", StringComparison.OrdinalIgnoreCase)
-                ? platoonInfo
-                : $"Platoon: {platoonInfo}");
+            lines.Add(Loc.GetString("lore-primer-platoon-label",
+                ("info", Loc.GetString(platoonInfoKey))));
+            // RuMC edit end
             return;
         }
 
         if (!string.IsNullOrWhiteSpace(platoon.Name))
-            lines.Add($"Platoon: {platoon.Name}");
+            lines.Add(Loc.GetString("lore-primer-platoon-label", ("info", platoon.Name))); // RuMC edit
     }
 
     private bool IsThreatMind(MindComponent mind)
