@@ -43,3 +43,6 @@ ui-tactical-map-tunnel-info = Туннель: {$name}
 ui-tactical-map-tab-squad = Отряд
 
 rmc-tactical-map-xeno-update = Тактическая картина улья изменилась. Ментальная карта прояснилась.
+
+rmc-tactical-map-squad-update = Тактическая карта отряда была обновлена.
+rmc-tactical-map-faction-update = Тактическая карта {$faction} была обновлена.
