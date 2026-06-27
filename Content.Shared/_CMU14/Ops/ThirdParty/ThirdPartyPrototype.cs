@@ -63,7 +63,7 @@ public sealed partial class ThirdPartyPrototype : IPrototype
     public ProtoId<PartySpawnPrototype> PartySpawn { get; private set; }
 
     [DataField("announcearrival", required: false)]
-    public string? AnnounceArrival { get; private set; } = "A new force has entered the battlefield.";
+    public string? AnnounceArrival { get; private set; } = "cmu14-third-party-announce-arrival"; // RuMC edit
 
     [IdDataField]
     public string ID { get; private set; } = default!;
