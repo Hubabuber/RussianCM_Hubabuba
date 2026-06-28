@@ -94,14 +94,14 @@ public sealed partial class ChatSystem
 
         var languageTypeface = languagePrototype?.TypefaceId;
         var languageSize = languagePrototype?.TextSize;
-        var showLanguageName = languagePrototype?.ShowLanguageName ?? false;
+        var hideLanguageName = languagePrototype?.HideLanguageName ?? false;
         var languageIcon = languagePrototype?.DisplayedLanguageIcon;
 
         var typefaceToUse = languageTypeface ?? speech.FontId;
         var sizeToUse = languageSize ?? speech.FontSize;
 
         var languageIndicator = string.Empty;
-        if (showLanguageName && languagePrototype != null && string.IsNullOrEmpty(languageIcon))
+        if (!hideLanguageName && languagePrototype != null && string.IsNullOrEmpty(languageIcon))
             languageIndicator = $" ({languagePrototype.LocalizedName})";
 
         var wrappedMessageTemplate = Loc.GetString(
@@ -184,8 +184,8 @@ public sealed partial class ChatSystem
         var transformedName = name;
         name = FormattedMessage.EscapeText(name);
 
-        var showLanguageName = languagePrototype?.ShowLanguageName ?? false;
-        var languageIcon = showLanguageName ? languagePrototype?.DisplayedLanguageIcon : null;
+        var hideLanguageName = languagePrototype?.HideLanguageName ?? false;
+        var languageIcon = hideLanguageName ? null : languagePrototype?.DisplayedLanguageIcon;
         var visibleLanguage = !(languagePrototype?.NeedsSpeech ?? true);
 
         foreach (var (session, data) in GetRecipients(source, WhisperMuffledRange, ignoreXenos))
@@ -321,8 +321,8 @@ public sealed partial class ChatSystem
         }
 
         var needsLos = languagePrototype?.NeedsLOS ?? false;
-        var showLanguageName = languagePrototype?.ShowLanguageName ?? false;
-        var languageIcon = showLanguageName ? languagePrototype?.DisplayedLanguageIcon : null;
+        var hideLanguageName = languagePrototype?.HideLanguageName ?? false;
+        var languageIcon = hideLanguageName ? null : languagePrototype?.DisplayedLanguageIcon;
         var visibleLanguage = !(languagePrototype?.NeedsSpeech ?? true);
         var transformedName = nameOverride ?? Identity.Name(source, EntityManager).Name;
 

@@ -830,7 +830,7 @@ public sealed partial class OrbitalCannonSystem : EntitySystem
                 _audio.PlayPvs(cannon.FireSound, uid);
                 _animation.TryFlick(uid, cannon.FiringAnimation, cannon.ChamberedState, cannon.BaseLayerKey);
 
-                var msg = "[color=red]The deck of the UNS Almayer shudders as the orbital cannons open fire on the colony.[/color]";
+                var msg = "[color=red]The deckplate kicks hard beneath your feet as the warship's orbital batteries thunder to life, slamming fiery judgment down onto the colony.[/color]";
                 _rmcChat.ChatMessageToMany(msg, msg, sameMap, ChatChannel.Radio);
 
                 _marineAnnounce.AnnounceSquad("WARNING! Ballistic trans-atmospheric launch detected! Get outside of Danger Close!", firing.Squad);
