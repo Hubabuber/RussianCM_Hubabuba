@@ -24,3 +24,25 @@
     - id: RuMCMagazineUTES-C
     - id: RuMCMagazineUTES-CTracter
     - id: RuMCUPPNavalInfantryBeltMachinegunner
+
+- type: entity
+  parent: RMCGunCaseBase
+  id: RuMCMachineGunTachankaCase
+  name: Tachanka machine gun case
+  description: Case for the Tachanka LMG.
+  components:
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,13,1
+    whitelist:
+      tags:
+      - RuMCMachineGunTachanka
+      - RuMCMagazineTachanka
+      - RuMCMagazineTachankaLarge
+      - RuMCMagazineTachankaLargeTracer
+      - RuMCMachineGunnerRig
+  - type: StorageFill
+    contents:
+    - id: RuMCMachineGunTachanka
+    - id: RuMCUPPNavalInfantryBeltMachinegunner
