@@ -1,0 +1,21 @@
+- type: entity
+  parent: RMCCrateWeapons
+  id: RuMCCrateUTES-C
+  name: Contains the UTES-C 12.7mm heavy machine gun and 4 ammunition boxes.
+  components:
+  - type: StorageFill
+    contents:
+    - id: RuMCUTES-CCase
+      amount: 1
+
+- type: entity
+  parent: RMCCrateWeapons
+  id: RuMCCrateUTES-CMagazine
+  name: Contains the UTES-C Magazine.
+  components:
+  - type: StorageFill
+    contents:
+    - id: RuMCMagazineUTES-C
+      amount: 1
+    - id: RuMCMagazineUTES-CTracter
+      amount: 1

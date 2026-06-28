@@ -15,5 +15,16 @@
     # armor_internaldamage = 20
   - type: Sprite
     sprite: _RuMC14/Clothing/UPP/helmet/HeavyHelmet.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
   - type: Clothing
     sprite: _RuMC14/Clothing/UPP/helmet/HeavyHelmet.rsi
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up

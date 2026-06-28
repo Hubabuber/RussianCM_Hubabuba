@@ -851,7 +851,7 @@ public sealed partial class ThirdPartySystem : EntitySystem
 
         if (!string.IsNullOrWhiteSpace(party.AnnounceArrival))
         {
-            _chat.DispatchGlobalAnnouncement(party.AnnounceArrival, string.Empty, false,
+            _chat.DispatchGlobalAnnouncement(Loc.GetString(party.AnnounceArrival), string.Empty, false, // RuMC edit
                 colorOverride: Color.DarkOrange);
             _sawmill.Info($"[ThirdPartySystem] Announced arrival for third party ({party.ID}): {party.AnnounceArrival
             }");

@@ -90,7 +90,7 @@ public sealed partial class LanguageMenuWindow : DefaultWindow
         KnownLanguageList.RemoveAllChildren();
 
         var sortedLanguages = knownLanguages
-            .Where(lang => _prototypeManager.TryIndex<LanguagePrototype>(lang, out var proto) && proto.IsVisibleLanguage)
+            .Where(lang => _prototypeManager.TryIndex<LanguagePrototype>(lang, out var proto) && !proto.IsInvisibleLanguage)
             .OrderBy(lang => _prototypeManager.Index<LanguagePrototype>(lang).LocalizedName)
             .ToList();
 
@@ -142,7 +142,7 @@ public sealed partial class LanguageMenuWindow : DefaultWindow
 
     private bool IsVisibleLearnableLanguage(ProtoId<LanguagePrototype> language)
     {
-        if (!_prototypeManager.TryIndex<LanguagePrototype>(language, out var proto) || !proto.IsVisibleLanguage)
+        if (!_prototypeManager.TryIndex<LanguagePrototype>(language, out var proto) || proto.IsInvisibleLanguage)
             return false;
 
         return !_learningLanguages.TryGetValue(language, out var languageData) || languageData.IsVisible;

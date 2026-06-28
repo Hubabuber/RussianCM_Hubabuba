@@ -31,19 +31,19 @@ public sealed partial class LanguagePrototype : IPrototype
     public string? Description;
 
     [DataField]
-    public bool IsVisibleLanguage;
+    public bool IsInvisibleLanguage;
 
     [DataField]
-    public string? TypefaceId;
+    public string? TypefaceId = "Default";
 
     [DataField]
-    public int? TextSize;
+    public int? TextSize = null;
 
     [DataField]
-    public bool ShowLanguageName;
+    public bool HideLanguageName;
 
     [DataField]
-    public bool ShowLanguageIcon = true;
+    public bool HideLanguageIcon;
 
     [DataField]
     public SpriteSpecifier? LanguageIcon;
@@ -70,7 +70,7 @@ public sealed partial class LanguagePrototype : IPrototype
     public LocId? FirstContactMeaning;
 
     [DataField]
-    public int ExpectedVocabularySize = 100;
+    public int ExpectedVocabularySize = 130;
 
     [DataField]
     public float DefaultWordComprehension = DefaultWordComprehensionValue;
@@ -108,7 +108,7 @@ public sealed partial class LanguagePrototype : IPrototype
     public string LocalizedName => Loc.GetString($"language-{ID}-name");
     public string ChatName => Loc.GetString($"chat-language-{ID}-name");
     public string LocalizedDescription => Loc.GetString($"language-{ID}-description");
-    public string? DisplayedLanguageIcon => ShowLanguageIcon ? ID : null;
+    public string? DisplayedLanguageIcon => HideLanguageIcon ? null : ID;
 }
 
 [DataDefinition]

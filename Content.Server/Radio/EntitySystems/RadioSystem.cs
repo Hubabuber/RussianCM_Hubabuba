@@ -161,8 +161,8 @@ public sealed partial class RadioSystem : EntitySystem
             return;
         }
 
-        bool showLanguageName = languageProto?.ShowLanguageName ?? false;
-        string? languageIcon = showLanguageName && languageProto != null ? languageProto.DisplayedLanguageIcon : null;
+        bool hideLanguageName = languageProto?.HideLanguageName ?? false;
+        string? languageIcon = hideLanguageName || languageProto == null ? null : languageProto.DisplayedLanguageIcon;
         // RMC14
 
         var evt = new TransformSpeakerNameEvent(messageSource, MetaData(messageSource).EntityName);

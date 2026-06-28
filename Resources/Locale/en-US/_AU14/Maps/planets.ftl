@@ -1,0 +1,17 @@
+lore-primer-planet-chances = Date 2181 - Chances Claim - Weyland Administrated Frontier Colony entangled with organized crime.
+lore-primer-planet-lv747 = Date 2181 - Solaris Gulch, UA controlled.
+lore-primer-planet-shepherds-pride = Date 2181 - Shepherds' Pride, a wildlife reserve.
+lore-primer-planet-stable-garrison = Date 2181 - Stable Garrison, a UA controlled frontier world with a joint base and sizeable urban community.
+lore-primer-planet-lv624 = Date 2181 - LV624 Green Hell, UA controlled.
+lore-primer-planet-gixens-caverns = Date 2181 - Gixens Caverns.
+lore-primer-planet-flight = Date 2181 - Flight, a multistory colony megastructure.
+lore-primer-planet-lv759 = Date 2181 - Hybrisa Metropolitan, Three World Empire territory.
+lore-primer-planet-lv327 = Date 2181 - Port Nereid, a valuable waterport on a frontier world, UA controlled.
+lore-primer-planet-corsat-station = Date 2181 - Corsat Station, Weyland-Yutani operated research station.
+lore-primer-planet-lament = Date 2181 - Barker's Lament, a mining and farming colony on the planet of LV-376 'Ulixes'. Primarily under the control of the United Americas, despite the constant interference of Weyland-Yutani.
+lore-primer-planet-sorokyne = Date 2186 - Sorokyne Strata. Union of Progressive People's research outpost.
+lore-primer-planet-trijent = Date 2179 - LV-670 Raijin Hydroelectric (formerly known as Trijent Dam), a Three World Empire water treatment facility serving a major prospera.
+lore-primer-planet-shivas-snowball = Date 2177 - Shivas' Snowball. United Americas mining and research colony.
+lore-primer-planet-kutjevo = Date 2181 - Kutjevo Biolab. Level three facility operated by the Weyland-Yutani Corporation.
+lore-primer-planet-fiorina = Date 2181 - Fiorina Prison. Privately owned and operated by the Weyland-Yutani corporation, Fiorina 161 is a maximum security prison for the most dangerous criminals in the system.
+lore-primer-planet-hopes-retreat = Date: 2181. Tidally-locked planet JE-1758 Ascanius, locally referred to as Hope's Retreat by colonists. Nominally under an ICSC charter but host to various facilities of various allegiances, including the United Americas, Union of Progressive Peoples and Three-World Empire.

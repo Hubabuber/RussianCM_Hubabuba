@@ -11,11 +11,11 @@ public sealed partial class LorePrimerPrototype : IPrototype
         public Dictionary<string, int>? KnowledgeLevels { get; private set; }
         // randomly select a level
         [DataField("planetText", required: false)]
-        public string? PlanetText { get; private set; }
+        public LocId? PlanetText { get; private set; } // RuMC edit
 
 
         [DataField("PlatoonInfo", required: false)]
-        public string? PlatoonInfo { get; private set; }
+        public LocId? PlatoonInfo { get; private set; } // RuMC edit
 
 
 

@@ -744,7 +744,7 @@ public sealed partial class TacticalMapSystem : SharedTacticalMapSystem
 
                 _marineAnnounce.AnnounceOverwatchSquad(
                     user,
-                    "The squad tactical map has been updated.",
+                    Loc.GetString("rmc-tactical-map-squad-update"), // RuMC edit
                     overwatchSquadUid,
                     overwatchSquadTeam.Color,
                     Name(overwatchSquadUid));
@@ -2043,7 +2043,7 @@ public sealed partial class TacticalMapSystem : SharedTacticalMapSystem
 
     private void AnnounceHumanTacticalMapUpdated(EntityUid user, SoundSpecifier? sound, string faction)
     {
-        string message = $"The {faction} tactical map has been updated.";
+        string message = Loc.GetString("rmc-tactical-map-faction-update", ("faction", faction)); // RuMC edit
         _marineAnnounce.AnnounceARESStaging(user, message, sound, null, faction);
 
         var request = new AnnouncementRequest

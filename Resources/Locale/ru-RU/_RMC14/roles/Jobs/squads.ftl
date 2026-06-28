@@ -1,6 +1,6 @@
 ent-SquadSunRiders = Солнечные ездоки
 ent-SquadUnassigned = Не назначенный
-ent-SquadCLF = КЛФ
+ent-SquadCLF = КОФ
 ent-SquadSOF = ССО
 ent-SquadFORECON = ФОРЕКОН
 ent-SquadProvost = Провосты
@@ -15,10 +15,4 @@ ent-SquadDelta = Дельта
 ent-SquadCharlie = Чарли
 ent-SquadBravo = Браво
 ent-SquadAlpha = Альфа
-ent-SquadOpforIntel = Поддержка
-ent-SquadOpforBravo = Танго
-ent-SquadOpforCharlie = Юниформ
-ent-SquadGovforIntel = Поддержка
-ent-SquadGovfor = Альфа
-ent-SquadGovforBravo = Браво
-ent-SquadGovforCharlie = Чарли
+

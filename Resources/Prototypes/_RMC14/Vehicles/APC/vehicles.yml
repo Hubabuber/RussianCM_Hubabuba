@@ -305,8 +305,8 @@
 - type: entity
   parent: VehicleAPCBase
   id: VehicleSPPAPC
-  name: SPP armored personnel carrier
-  description: An armored personnel carrier configured for SPP forces.
+  name: UPP armored personnel carrier
+  description: An armored personnel carrier configured for UPP forces.
   components:
   - type: GridVehicleMover
     maxSpeed: 5
@@ -343,8 +343,14 @@
     slots:
       port-gun-north:
         startingItem: null
+        whitelist:
+          components:
+          - VehiclePortGun
       port-gun-south:
         startingItem: null
+        whitelist:
+          components:
+          - VehiclePortGun
       primary:
         startingItem: VehicleSPPAPCTurret
         disableEject: true

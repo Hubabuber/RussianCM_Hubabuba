@@ -731,6 +731,8 @@
         amount: 1
       - id: RMCPackFlareCAS
         amount: 6
+      - id: AU14JoeUPP
+        amount: 5
     - name: Chevrons
       entries:
       - id: AU14ChevronUPPNIPrivate
@@ -766,7 +768,7 @@
     - name: Belt
       choices: { CMUPlatoonMGBelt: 1 }
       entries:
-      - id: AU14BeltSmartGunOperatorUPP
+      - id: RuMCUPPNavalInfantryBeltMachinegunner
       - id: AU14BeltSmartGunOperatorPistolUPP
     - name: Gun Munitions
       entries:
@@ -1070,6 +1072,16 @@
       - id: AU14ClothingOuterStraitjacket
         amount: 5 # TODO: bandaid - remove after mappers have placed this
 
+
+#      - id: RuMCMachineGunTachanka
+
+#      - id: RuMCMagazineTachanka
+#        amount: 40
+#      - id: RuMCMagazineTachankaLarge
+#        amount: 10
+#      - id: RuMCMagazineTachankaLargeTracer
+#        amount: 10
+
 - type: entity
   parent: ColMarTechCargo
   id: AU14UPPRequisitionVendor
@@ -1108,6 +1120,8 @@
         amount: 3
       - id: RMCWeaponRifleAK4047
         amount: 2
+      - id: RuMCMachineGunTachanka
+        amount: 1
       - id: RMCWeaponPistolNP92Empty
         amount: 15
       - id: RMCWeaponPistolNPZ92
@@ -1146,6 +1160,14 @@
         amount: 25
       - id: RMCMagazineSMGType64
         amount: 200
+      - id: RuMCMagazineTachanka
+        amount: 25
+      - id: RuMCMagazineTracerTachanka
+        amount: 25
+      - id: RuMCMagazineTachankaLarge
+        amount: 1
+      - id: RuMCMagazineTachankaLargeTracer
+        amount: 1
     - name: secondary ammunition
       entries:
       - id: RMCMagazinePistolT73
