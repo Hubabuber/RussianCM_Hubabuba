@@ -37,6 +37,7 @@ public sealed partial class CMChatSystem : SharedCMChatSystem
 
     [Dependency] private IChatManager _chatManager = default!;
     [Dependency] private ChatSystem _chatSystem = default!;
+    [Dependency] private SharedXenoHiveSystem _hive = default!;
     [Dependency] private InventorySystem _inventory = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private IGameTiming _timing = default!;
@@ -78,12 +79,18 @@ public sealed partial class CMChatSystem : SharedCMChatSystem
     {
         msg = _wordreplacement.ApplyReplacements(msg, ChatSanitize);
 
-        var factionSanitize = HasComp<XenoComponent>(source) && !IsHivebrokenXeno(source)
+        var factionSanitize = HasComp<XenoComponent>(source) && !UsesHumanChatSanitize(source)
             ? XenoChatSanitize
             : MarineChatSanitize;
         msg = _wordreplacement.ApplyReplacements(msg, factionSanitize);
 
         return msg;
+    }
+
+    private bool UsesHumanChatSanitize(EntityUid source)
+    {
+        return IsHivebrokenXeno(source) ||
+               _hive.GetHive(source) is { Comp.Corrupted: true };
     }
 
     public override void ChatMessageToOne(

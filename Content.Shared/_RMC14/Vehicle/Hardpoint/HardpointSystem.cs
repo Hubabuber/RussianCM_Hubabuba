@@ -1415,6 +1415,9 @@ public sealed partial class HardpointSystem : EntitySystem
 
             if (_itemSlots.TryGetSlot(uid, slot.Id, out var existingSlot, itemSlots))
             {
+                // HardpointSlotSystem owns click installation; generic item slots should not eat repair/removal tool clicks.
+                _itemSlots.SetInsertOnInteract(uid, existingSlot, false, itemSlots);
+
                 if (slot.DisableEject && !existingSlot.DisableEject)
                     _itemSlots.SetDisableEject(uid, existingSlot, true, itemSlots);
 
@@ -1447,6 +1450,7 @@ public sealed partial class HardpointSystem : EntitySystem
             };
 
             _itemSlots.AddItemSlot(uid, slot.Id, itemSlot, itemSlots);
+            _itemSlots.SetInsertOnInteract(uid, itemSlot, false, itemSlots);
 
             if (slot.DisableEject)
                 _itemSlots.SetDisableEject(uid, itemSlot, true, itemSlots);

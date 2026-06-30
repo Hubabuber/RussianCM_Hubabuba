@@ -267,7 +267,7 @@ public sealed partial class LarvaQueueSystem : EntitySystem
         return _queues.TryGetValue(hive, out queue!);
     }
 
-    private void TryClaimQueueable(EntityUid uid)
+    public void TryClaimQueueable(EntityUid uid)
     {
         if (TryComp(uid, out HiveMemberComponent? member) &&
             member.Hive is { } hiveId &&
@@ -324,7 +324,7 @@ public sealed partial class LarvaQueueSystem : EntitySystem
         if (!TryComp(uid, out BursterComponent? burster) ||
             !TryComp(burster.BurstFrom, out VictimInfectedComponent? infected) ||
             infected.SpawnedLarva != uid ||
-            !infected.InfectorWantsLarva ||
+            !(infected.InfectorWantsLarva || infected.InfectorLarvaClaimPending) ||
             infected.InfectorUser is not { } userId)
         {
             return false;

@@ -33,6 +33,8 @@ namespace Content.Shared._RMC14.Vehicle;
 
 public sealed partial class VehicleSystem : EntitySystem
 {
+    private readonly HashSet<EntityUid> _exitDestinationIntersecting = new();
+
     [Dependency] private SharedEyeSystem _eye = default!;
     [Dependency] private VehicleViewToggleSystem _viewToggle = default!;
     [Dependency] private INetManager _net = default!;
@@ -579,7 +581,9 @@ public sealed partial class VehicleSystem : EntitySystem
         var tileAabb = Box2.UnitCentered.Scale(0.95f * size).Translated(localPos);
         var worldBox = new Box2Rotated(Box2.UnitCentered.Scale(0.95f * size).Translated(worldPos), gridRot, worldPos);
 
-        foreach (var ent in _lookup.GetEntitiesIntersecting(gridUid, worldBox, LookupFlags.Dynamic | LookupFlags.Static))
+        _exitDestinationIntersecting.Clear();
+        _lookup.GetEntitiesIntersecting(gridUid, worldBox, _exitDestinationIntersecting, LookupFlags.Dynamic | LookupFlags.Static);
+        foreach (var ent in _exitDestinationIntersecting)
         {
             if (ent == vehicle || ent == user)
                 continue;

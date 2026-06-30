@@ -87,7 +87,7 @@ public abstract partial class SharedRequisitionsSystem : EntitySystem
             RemCompDeferred<ClimbableComponent>(railing);
     }
 
-    protected void SetRailingMode(Entity<RequisitionsRailingComponent> railing, RequisitionsRailingMode mode)
+    public void SetRailingMode(Entity<RequisitionsRailingComponent> railing, RequisitionsRailingMode mode)
     {
         if (railing.Comp.Mode == mode)
             return;
