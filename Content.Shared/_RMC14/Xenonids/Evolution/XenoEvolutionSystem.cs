@@ -530,13 +530,15 @@ public sealed partial class XenoEvolutionSystem : EntitySystem
                 if (existingComp.Tier < newXenoComp.Tier)
                     continue;
 
-                if (slotCount.ContainsKey(existingComp.Role.Id) && slotCount[existingComp.Role.Id] > 0)
-                    slotCount[existingComp.Role.Id] -= 1;
+                if (slotCount.TryGetValue(existingComp.Role.Id, out var freeSlots) && freeSlots > 0)
+                    slotCount[existingComp.Role.Id] = freeSlots - 1;
                 else
                     existing++;
             }
 
-            if (total != 0 && existing / (float) total >= limit && (!slotCount.ContainsKey(newXeno) || slotCount[newXeno] <= 0))
+            if (total != 0 &&
+                existing / (float) total >= limit &&
+                (!slotCount.TryGetValue(newXeno, out var newXenoSlots) || newXenoSlots <= 0))
             {
                 if (doPopup)
                 {
