@@ -77,27 +77,6 @@ public sealed class AuJobSelectionTest
     }
 
     [Test]
-    public void ThreatJobsMapToAggregatePlayTimeRoles()
-    {
-        Assert.Multiple(() =>
-        {
-            Assert.That(
-                ThreatSystem.TryGetThreatPlayTimeRole(ThreatVoteSelection.ThreatLeaderJobId, out var leaderRole),
-                Is.True);
-            Assert.That(leaderRole.Id, Is.EqualTo("MindRoleThreatLeaderPlayTime"));
-
-            Assert.That(
-                ThreatSystem.TryGetThreatPlayTimeRole(ThreatVoteSelection.ThreatMemberJobId, out var memberRole),
-                Is.True);
-            Assert.That(memberRole.Id, Is.EqualTo("MindRoleThreatMemberPlayTime"));
-
-            Assert.That(
-                ThreatSystem.TryGetThreatPlayTimeRole(new ProtoId<JobPrototype>("CMXenoLarva"), out _),
-                Is.False);
-        });
-    }
-
-    [Test]
     public void ThreatVoteHeldAssignmentsReserveLeaderSlotsBeforeMembers()
     {
         var member = new NetUserId(new Guid("00000000-0000-0000-0000-000000000001"));

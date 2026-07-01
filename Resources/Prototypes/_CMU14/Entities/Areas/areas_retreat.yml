@@ -381,10 +381,10 @@
   - type: Area
     minimapColor: '#573e19'
 
-## Octanis Complex
+## Octanis Complex - "Indoor" Areas
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCUnregisteredTunnel
   name: Octanis Complex - Unregistered Tunnel
   components:
@@ -394,7 +394,7 @@
     minimapColor: '#714401CC'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCCavernNorth
   name: Octanis Complex - Northern Cavern
   components:
@@ -404,7 +404,7 @@
     minimapColor: '#714401CC'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCCavernCentral
   name: Octanis Complex - Central Cavern
   components:
@@ -414,7 +414,7 @@
     minimapColor: '#714401CC'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCCavernEast
   name: Octanis Complex - Eastern Cavern
   components:
@@ -424,7 +424,7 @@
     minimapColor: '#714401CC'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCSecPostNorth
   name: Octanis Complex - Northern Gate House
   components:
@@ -444,7 +444,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCResearchEast
   name: Octanis Complex Research - East
   components:
@@ -454,7 +454,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCavesDeep
+  parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCResearchSterileLab
   name: Octanis Complex Research - Sterile Lab
   components:
@@ -464,7 +464,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCHabitationSecurityPost
   name: Octanis Complex Habitation - Security Post
   components:
@@ -472,9 +472,19 @@
     state: oc_hab_securitypost
   - type: Area
     minimapColor: '#573e19'
+    
+- type: entity
+  parent: CMUAreaRetreatIndoors
+  id: CMUAreaRetreatOCHabitationSecurityPostSecondFloor
+  name: Octanis Complex Habitation - Security Post Second Floor
+  components:
+  - type: Sprite
+    state: oc_hab_securitypost_secondfloor
+  - type: Area
+    minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCHabitationNorthDorms
   name: Octanis Complex Habitation - Northern Dormitories
   components:
@@ -484,7 +494,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCHabitationSouthDorms
   name: Octanis Complex Habitation - Southern Dormitories
   components:
@@ -494,7 +504,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCHabitationAtrium
   name: Octanis Complex Habitation - Atrium
   components:
@@ -504,7 +514,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCHabitationCafeteria
   name: Octanis Complex Habitation - Cafeteria
   components:
@@ -514,12 +524,22 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCHabitationMedbay
   name: Octanis Complex Habitation - Medbay
   components:
   - type: Sprite
     state: oc_hab_medbay
+  - type: Area
+    minimapColor: '#573e19'
+    
+- type: entity
+  parent: CMUAreaRetreatIndoors
+  id: CMUAreaRetreatOCHabitationMedbaySecondFloor
+  name: Octanis Complex Habitation - Medbay Second Floor
+  components:
+  - type: Sprite
+    state: oc_hab_medbay_secondfloor
   - type: Area
     minimapColor: '#573e19'
 
@@ -554,7 +574,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCAdminLiaisonOffices
   name: Octanis Complex Administration - Liaison Offices
   components:
@@ -564,7 +584,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCAdminPanicRoom
   name: Octanis Complex Administration - Panic Room
   components:
@@ -574,7 +594,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCAdminAdminOffices
   name: Octanis Complex Administration - Administrative Offices
   components:
@@ -584,7 +604,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCAdminAICore
   name: Octanis Complex Administration - AI Core
   components:
@@ -594,7 +614,7 @@
     minimapColor: '#573e19'
 
 - type: entity
-  parent: CMUAreaRetreatCaves
+  parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCAdminLogistics
   name: Octanis Complex Administration - Logistics
   components:
@@ -810,6 +830,16 @@
   components:
   - type: Sprite
     state: hr_dorms_livingspace
+  - type: Area
+    minimapColor: '#573e19'
+
+- type: entity
+  parent: CMUAreaRetreatIndoors
+  id: CMUAreaRetreatHRDormsUpstairs
+  name: Hope's Retreat - Dormitories Second Floor
+  components:
+  - type: Sprite
+    state: hr_dorms_secondfloor
   - type: Area
     minimapColor: '#573e19'
 

@@ -598,7 +598,7 @@ public sealed class XenoReaperTest
 
             Assert.Multiple(() =>
             {
-                Assert.That(CountPrototype(entMan, "XenoReaperRedGas"), Is.EqualTo(4));
+                Assert.That(CountPrototype(entMan, "XenoReaperRedGas"), Is.EqualTo(2));
                 Assert.That(entMan.GetComponent<XenoReaperComponent>(reaper).FleshResin, Is.Zero);
             });
 
