@@ -13,6 +13,7 @@ using Content.Server.IP;
 using Content.Shared._CMU14.BalanceRating;
 using Content.Shared._CMU14.Yautja;
 using Content.Shared._RMC14.NamedItems;
+using Content.Shared._RMC14.DonorCapes;
 using Content.Shared.Administration.Logs;
 using Content.Shared.AU14.Allegiance;
 using Content.Shared.AU14.Origin;
@@ -251,6 +252,9 @@ namespace Content.Server.Database
             var gamemodeAntagPreferences = ConvertGamemodeAntagPreferences(profile.GamemodeAntagPreferences);
             var gamemodeThreatPreferences = ConvertGamemodeThreatPreferences(profile.GamemodeThreatPreferences);
             var yautjaProfile = DeserializeYautjaProfile(profile.YautjaProfile);
+            ProtoId<RMCDonorCapePrototype>? selectedDonorCape = profile.SelectedDonorCape is { } capeId
+                ? new ProtoId<RMCDonorCapePrototype>(capeId)
+                : (ProtoId<RMCDonorCapePrototype>?) null;
 
             var gender = sex == Sex.Male ? Gender.Male : Gender.Female;
             if (Enum.TryParse<Gender>(profile.Gender, true, out var genderVal))
@@ -360,7 +364,8 @@ namespace Content.Server.Database
                 profile.Height,
                 profile.Weight,
                 Enum.TryParse<BuildType>(profile.Build, out var build) ? build : BuildType.Average,
-                profile.HideMetaInformation
+                profile.HideMetaInformation,
+                selectedDonorCape
             );
         }
 
@@ -808,6 +813,7 @@ namespace Content.Server.Database
             profile.GamemodeAntagPreferences = SerializeGamemodeSetPreferences(humanoid.GamemodeAntagPreferences);
             profile.GamemodeThreatPreferences = SerializeGamemodeSetPreferences(humanoid.GamemodeThreatPreferences);
             profile.YautjaProfile = SerializeYautjaProfile(humanoid.YautjaProfile);
+            profile.SelectedDonorCape = humanoid.SelectedDonorCape?.Id;
 
             return profile;
         }

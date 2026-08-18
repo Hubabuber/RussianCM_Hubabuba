@@ -1,4 +1,5 @@
 ﻿using Robust.Shared.GameStates;
+using Content.Shared.Camera;
 using Robust.Shared.Maths;
 using Robust.Shared.Prototypes;
 
@@ -13,6 +14,9 @@ public sealed partial class RMCCameraComputerComponent : Component
 
     [DataField, AutoNetworkedField]
     public EntityUid? CurrentCamera;
+
+    [DataField, AutoNetworkedField]
+    public ProtoId<CameraNetworkPrototype>? ActiveNetwork;
 
     [DataField, AutoNetworkedField]
     public List<NetEntity> CameraIds = new();

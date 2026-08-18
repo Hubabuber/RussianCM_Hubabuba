@@ -1,5 +1,23 @@
 # Generated from explicit Yautja entity name/description fields.
 
+ent-CMUYautjaStabilisingCrystal = yautja autoinjector
+    .desc = An alien autoinjector loaded with a strong trauma and burn treatment cocktail.
+
+ent-CMUYautjaHumanStabilisingCrystal = yautja autoinjector
+    .desc = An alien autoinjector loaded with a strong trauma and burn treatment cocktail adapted for Yautja thralls.
+
+ent-CMUYautjaHealingCapsule = healing gel
+    .desc = A dense alien coagulant that knits together broad trauma.
+
+ent-CMUYautjaHuntingGroundPreserveShutter = preserve shutter
+    .desc = An unpowered, reinforced shutter separating the hunting grounds from the preserve.
+
+ent-CMUYautjaHuntingGroundEscapeConsole = hunting grounds escape console
+    .desc = A console used by Yautja to open the preserve shutters and leave the hunting grounds.
+
+ent-CMUYautjaHuntingGroundPreserveEdge = dense fog
+    .desc = You think you can see a way through.
+
 ent-CMUActionYautjaToggleLantern = Toggle Light
     .desc = Turn the light on and off.
 

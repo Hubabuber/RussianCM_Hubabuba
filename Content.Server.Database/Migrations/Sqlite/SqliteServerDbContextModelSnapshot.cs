@@ -1279,6 +1279,10 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("yautja_profile");
 
+                    b.Property<string>("SelectedDonorCape")
+                        .HasColumnType("TEXT")
+                        .HasColumnName("selected_donor_cape");
+
                     b.HasKey("Id")
                         .HasName("PK_profile");
 

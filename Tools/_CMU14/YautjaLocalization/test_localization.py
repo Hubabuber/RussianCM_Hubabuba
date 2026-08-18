@@ -63,6 +63,20 @@ class YautjaLocalizationAuditTests(unittest.TestCase):
         self.assertEqual({"user", "count"}, messages["sample"].placeholders)
         self.assertEqual({"user"}, messages["sample.desc"].placeholders)
 
+    def test_repository_reports_duplicate_locale_messages(self) -> None:
+        from .audit import audit_repository
+
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            locale_root = root / "Resources" / "Locale" / "en-US" / "_CMU14" / "yautja"
+            locale_root.mkdir(parents=True)
+            (locale_root / "first.ftl").write_text("duplicate-key = first\n", encoding="utf-8")
+            (locale_root / "second.ftl").write_text("duplicate-key = second\n", encoding="utf-8")
+
+            result = audit_repository(root)
+
+        self.assertTrue(any(error.startswith("Duplicate localization key: duplicate-key") for error in result.errors))
+
     def test_extract_placeholders_supports_selectors(self) -> None:
         self.assertEqual(
             {"target", "seconds"},

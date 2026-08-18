@@ -96,7 +96,7 @@ def extract_placeholders(value: str) -> set[str]:
     return set(_PLACEHOLDER_RE.findall(value))
 
 
-def parse_fluent(path: Path) -> dict[str, FluentMessage]:
+def parse_fluent(path: Path, duplicate_errors: list[str] | None = None) -> dict[str, FluentMessage]:
     """Parse message and attribute keys sufficiently for parity checks."""
 
     messages: dict[str, FluentMessage] = {}
@@ -107,6 +107,12 @@ def parse_fluent(path: Path) -> dict[str, FluentMessage]:
         if message_match:
             current_key = message_match.group(1)
             value = line.split("=", 1)[1]
+            if current_key in messages and duplicate_errors is not None:
+                previous = messages[current_key]
+                duplicate_errors.append(
+                    f"Duplicate localization key: {current_key} "
+                    f"({previous.path}:{previous.line}; {path}:{line_number})"
+                )
             messages[current_key] = FluentMessage(
                 key=current_key,
                 placeholders=extract_placeholders(value),
@@ -187,8 +193,15 @@ def _collect_locale_messages(root: Path, locale: str) -> tuple[dict[str, FluentM
 
     for path in sorted(locale_root.rglob("*.ftl")):
         try:
-            parsed = parse_fluent(path)
-            messages.update(parsed)
+            parsed = parse_fluent(path, errors)
+            for key, message in parsed.items():
+                previous = messages.get(key)
+                if previous is not None:
+                    errors.append(
+                        f"Duplicate localization key: {key} "
+                        f"({previous.path}:{previous.line}; {message.path}:{message.line})"
+                    )
+                messages[key] = message
         except Exception as error:  # pragma: no cover - exercised by repository failures
             errors.append(f"FTL parse error: {path}: {error}")
 

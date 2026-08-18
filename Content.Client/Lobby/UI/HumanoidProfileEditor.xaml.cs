@@ -2,6 +2,8 @@ using System.IO;
 using System.Linq;
 using System.Numerics;
 using Content.Client._CMU14.Yautja.Lobby;
+using Content.Client._RMC14.DonorCapes;
+using Content.Client._RMC14.LinkAccount;
 using Content.Client._RMC14.NamedItems;
 using Content.Client.Corvax.TTS;
 using Content.Client.Humanoid;
@@ -83,6 +85,7 @@ namespace Content.Client.Lobby.UI
 
         private TTSTab? _ttsTab; // Corvax-TTS
         private YautjaProfileEditor? _yautjaTab;
+        private readonly DonorCapeTab _donorCapeTab;
 
         private bool _exporting;
         private bool _imaging;
@@ -188,6 +191,13 @@ namespace Content.Client.Lobby.UI
             _requirements = requirements;
             _controller = UserInterfaceManager.GetUIController<LobbyUIController>();
             _sprite = _entManager.System<SpriteSystem>();
+            _donorCapeTab = new DonorCapeTab(_prototypeManager, IoCManager.Resolve<LinkAccountManager>());
+            _donorCapeTab.OnCapeSelected += cape =>
+            {
+                Profile = Profile?.WithSelectedDonorCape(cape);
+                _donorCapeTab.SetProfile(Profile);
+                SetDirty();
+            };
 
             _maxNameLength = _cfgManager.GetCVar(CCVars.MaxNameLength);
             _allowFlavorText = _cfgManager.GetCVar(CCVars.FlavorText);
@@ -791,6 +801,9 @@ namespace Content.Client.Lobby.UI
             NamedItems.Helmet.OnTextChanged += args => SetItemName(RMCNamedItemType.Helmet, args.Text);
             NamedItems.Armor.OnTextChanged += args => SetItemName(RMCNamedItemType.Armor, args.Text);
             NamedItems.Sentry.OnTextChanged += args => SetItemName(RMCNamedItemType.Sentry, args.Text);
+
+            TabContainer.AddChild(_donorCapeTab);
+            TabContainer.SetTabTitle(TabContainer.ChildCount - 1, Loc.GetString("rmc-donor-capes-tab"));
 
             _requirements.Updated += RefreshYautjaTab;
             RefreshYautjaTab();
@@ -1434,6 +1447,7 @@ namespace Content.Client.Lobby.UI
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
             UpdateNamedItems();
+            _donorCapeTab.SetProfile(Profile);
             UpdatePlaytimePerks();
             UpdateXenoPrefix();
             UpdateXenoPostfix();
