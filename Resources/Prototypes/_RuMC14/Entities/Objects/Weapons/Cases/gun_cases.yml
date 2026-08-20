@@ -339,6 +339,37 @@
       - id: RuMCRocketRPG_Termobaric
         amount: 3
 
+
+- type: entity
+  parent: RMCGunCaseBase
+  id: RuMCShotgunType23Case
+  name: Type23 case
+  description: Case for the Type23
+  components:
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,13,7
+  - type: StorageFill
+    contents:
+    - id: RMCWeaponShotgunType23
+    - id: RuMCUPPNavalInfantryHeavyHelmet2
+    - id: RMCBoxShotgunHeavyDragonbreath
+      amount: 5
+    - id: RMCBoxShotgunHDSG
+      amount: 2
+    - id: RMCBoxShotgunHeavyBuckshot
+      amount: 4
+    - id: RMCBoxShotgunHeavySlugs
+      amount: 4
+    - id: RMCBoxShotgunHeavyFlechette
+      amount: 4
+    - id: RuMCUPPPouchShotgunLarge
+      amount: 2
+    - id: RuMCPacketGrenadeTermobaricUPPFilled
+      amount: 1
+    - id: AU14PacketGrenadeHighExplosiveUPPFilled
+
 #- type: entity
 #  parent: RMCGunCaseBase
 #  id: RuMCRPG_36Case
