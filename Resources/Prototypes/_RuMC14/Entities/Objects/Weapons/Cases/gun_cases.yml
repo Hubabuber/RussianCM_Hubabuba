@@ -169,7 +169,7 @@
   id: RuMCGunAH12Case_alt
   name: AH12 gun case
   description: Case for the AH12 rifle.
-  suffix: (mini)
+  suffix: mini
   components:
   - type: Storage
     grid:
@@ -185,13 +185,9 @@
     - id: RuMCRifleAH12
     - id: RuMCUPPPouchDrum
     - id: RuMCMagazineAH12
-    - id: RuMCMagazineAH12
-    - id: RuMCMagazineAH12
-    - id: RuMCMagazineAH12
-    - id: RuMCMagazineAH12
+      amount: 10
     - id: RuMCMagazineAH12Tracer
-    - id: RuMCMagazineAH12Tracer
-    - id: RuMCMagazineAH12Tracer
+      amount: 5
 
 - type: entity
   parent: RMCGunCaseBase
@@ -210,25 +206,11 @@
     contents:
     - id: RuMCRifleVAL
     - id: RuMCMagazineVAL
-    - id: RuMCMagazineVAL
-    - id: RuMCMagazineVAL
-    - id: RuMCMagazineVAL
-    - id: RuMCMagazineVAL
-    - id: RuMCMagazineVAL
-    - id: RuMCMagazineVAL
+      amount: 7
     - id: RuMCMagazineVALTracer
-    - id: RuMCMagazineVALTracer
-    - id: RuMCMagazineVALTracer
+      amount: 3
     - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
-    - id: RuMCMagazineVALAP
+      amount: 10
 
 - type: entity
   parent: RMCGunCaseBase
@@ -352,7 +334,7 @@
     - 0,0,13,7
   - type: StorageFill
     contents:
-    - id: RMCWeaponShotgunType23
+    - id: CMUWeaponShotgunType23Tactical
     - id: RuMCUPPNavalInfantryHeavyHelmet2
     - id: RMCBoxShotgunHeavyDragonbreath
       amount: 5
@@ -366,8 +348,6 @@
       amount: 4
     - id: RuMCUPPPouchShotgunLarge
       amount: 2
-    - id: RuMCPacketGrenadeTermobaricUPPFilled
-      amount: 1
     - id: AU14PacketGrenadeHighExplosiveUPPFilled
 
 #- type: entity

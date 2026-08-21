@@ -5,16 +5,24 @@
   description: The UPP assault rifle was developed for advanced assault units. Many U.S. Marines dislike it because it is superior to the M41A models.
   components:
   - type: Sprite
-    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/AK13/AK13_inhands.rsi
+    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/AK13.rsi
     layers:
     - state: base
-      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/AK13/AK13.rsi
-    - state: bolt-open
-      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/AK13/AK13.rsi
       map: [ "enum.GunVisualLayers.Base" ]
-    - state: mag-0
-      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/AK13/AK13.rsi
-      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: ItemMapper
+    mapLayers:
+      mag-0:
+        whitelist:
+          tags:
+          - RMCMagazineRifleAK4047
+          - RMCMagazineRifleAK4047AP
+          - RMCMagazineRifleAK4047Incendiary
+          - RMCMagazineRifleAK4047HEAP
+      mag-1:
+        whitelist:
+          tags:
+          - RuMCMagazineRifleAK4047bakelite
+          - RuMCMagazineRifleAK4047APbakelite
   - type: Clothing
     sprite: _RuMC14/Objects/Weapons/Guns/Rifles/AK13/AK13_inhands.rsi
   - type: ContainerContainer
@@ -40,11 +48,11 @@
     modifiers:
       Burst:
         fireDelay: 0.065
-        maxScatterModifier: 13
+        maxScatterModifier: 17
         useBurstScatterMult: true
         shotsToMaxScatter: 3
       FullAuto:
-        maxScatterModifier: 10
+        maxScatterModifier: 15
         useBurstScatterMult: true
         shotsToMaxScatter: 4
   - type: RMCWeaponAccuracy
@@ -64,7 +72,8 @@
           - RMCMagazineRifleAK4047AP
           - RMCMagazineRifleAK4047Incendiary
           - RMCMagazineRifleAK4047HEAP
-          - RuMCMagazineAK13
+          - RuMCMagazineRifleAK4047bakelite
+          - RuMCMagazineRifleAK4047APbakelite
   - type: GunDamageModifier
     multiplier: 1.1
   - type: AttachableHolder
@@ -120,6 +129,8 @@
   - type: WieldDelay
     baseDelay: 0.22
 
+
+#Tactical
 - type: entity
   parent: RuMCWeaponRifleAK13
   id: RuMCWeaponRifleAK13Tactical
@@ -264,8 +275,6 @@
           - RMCAttachmentExtinguisher
           - RMCAttachmentFlamer
 
+#Tags
 - type: Tag
   id: RuMCWeaponRifleAK13
-
-- type: Tag
-  id: RuMCMagazineAK13
