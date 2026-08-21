@@ -139,6 +139,33 @@
   - type: RefillableByBulletBox
     bulletType: RMCBoxBulletsRifleAP
 
+#buben
+- type: entity
+  parent: CMMagazineRifleBase
+  id: RuMCMagazineRifleAK4047buben
+  name: "AK4047 drum (10x24mm)"
+  components:
+  - type: Tag
+    tags:
+    - CMMagazineRifle
+    - RuMCMagazineRifleAK4047buben
+  - type: BallisticAmmoProvider
+    mayTransfer: True
+    whitelist:
+      tags:
+      - CMCartridgeRifle10x24mm
+    proto: CMCartridgeRifle10x24mm
+    capacity: 95
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Ammunition/Magazines/Rifles/ak4047_drum.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Appearance
+  - type: RefillableByBulletBox
+    bulletType: RMCBoxBulletsRifle
 
 #Tags
 - type: Tag
@@ -146,3 +173,6 @@
 
 - type: Tag
   id: RuMCMagazineRifleAK4047APbakelite
+
+- type: Tag
+  id: RuMCMagazineRifleAK4047buben

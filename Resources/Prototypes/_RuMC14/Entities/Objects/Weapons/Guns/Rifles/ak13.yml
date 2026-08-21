@@ -23,8 +23,12 @@
           tags:
           - RuMCMagazineRifleAK4047bakelite
           - RuMCMagazineRifleAK4047APbakelite
+      mag-2:
+        whitelist:
+          tags:
+          - RuMCMagazineRifleAK4047buben
   - type: Clothing
-    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/AK13/AK13_inhands.rsi
+    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/AK13.rsi
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -74,6 +78,7 @@
           - RMCMagazineRifleAK4047HEAP
           - RuMCMagazineRifleAK4047bakelite
           - RuMCMagazineRifleAK4047APbakelite
+          - RuMCMagazineRifleAK4047buben
   - type: GunDamageModifier
     multiplier: 1.1
   - type: AttachableHolder
@@ -127,7 +132,7 @@
     - RMCWeaponRifleAK4047
     - RuMCWeaponRifleAK13
   - type: WieldDelay
-    baseDelay: 0.22
+    baseDelay: 0.35
 
 
 #Tactical
