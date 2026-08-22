@@ -3,6 +3,7 @@ lore-primer-platoon-label = Platoon: {$info}
 lore-primer-platoon-lacn = Latin American Colonial Navy
 lore-primer-platoon-uscm = United States Colonial Marines
 lore-primer-platoon-upp = UPP infantry
+lore-primer-platoon-bear = PMC BEAR
 lore-primer-platoon-weyu = Weyland-Yutani PMC
 lore-primer-platoon-cmbciu = CMB CIU
 lore-primer-platoon-hazops = USCM Hazardous Operations Unit
@@ -27,3 +28,5 @@ lore-primer-platoon-prodigy-sf-info = The Prodigy Corporation Security Forces ar
 lore-primer-platoon-vaipo-info = Vanguard Arrow Inc, 'Primary Operations' (VAIPO). A security detail firm specializing in the protection of high-value targets/assets and rapid response services. They are United States-based Private Military Company comprised of former UA forces and veterans alike.
 
 lore-primer-platoon-rmc-info = The Three World Empire Royal Marine Commandos (TWE RMC) are a specialized and highly disciplined force trained in rapid deployment, boarding actions, reconnaissance, sabotage, and precision strikes way behind enemy lines.
+
+lore-primer-platoon-bear-info = PMC BEAR is a private military company of the UPP, closely cooperating with SOF units. It was formed on the basis of veterans of the Marine Corps and army rangers; the core consists of fighters from the special units of the UPP troops. It has gained fame for operations involving the capture of fortified positions and fighting in dense urban environments. It carries out all the dirty work in situations where metropolitan forces cannot operate for political reasons.
