@@ -20,6 +20,8 @@
       entries:
       - id: AU14ProdigyFatigues
         amount: 40
+      - id: CMU14ProdigyJumpsuitGrey
+        amount: 40
     - name: au14-vendor-section-footwear
       entries:
       - id: RMCBootsSPPBlackFilled
@@ -326,6 +328,10 @@
       choices: { CMUPlatoonMedicalArmor: 1 }
       entries:
       - id: CMUArmorProdigyFlakVestMedical
+    - name: Personal-defence weapon
+      choices: { CMUPlatoonPDW: 1 }
+      entries:
+      - id: CMU14KitWeaponGlock77
     - name: au14-vendor-section-general-medical-supplies
       entries:
       - id: AU14HemostaticGauzePacket
@@ -445,6 +451,12 @@
       choices: { CMUPlatoonAirCrewFatigues: 1 }
       entries:
       - id: AU14ProdigyFatigues
+      - id: CMU14ProdigyJumpsuitGrey
+    - name: au14-vendor-section-body-armor
+    - name: Personal-defence weapon
+      choices: { CMUPlatoonPDW: 1 }
+      entries:
+      - id: CMU14KitWeaponGlock77
     - name: au14-vendor-section-body-armor
       choices: { CMUPlatoonAirCrewVest: 1 }
       entries:
@@ -617,6 +629,16 @@
       entries:
       - id: AU14ProdigyBeret
         amount: 5
+    - name: Fatigues
+      entries:
+      - id: CMU14ProdigySuitGrey
+        amount: 5
+      - id: CMU14ProdigySuitBlack
+        amount: 5
+      - id: CMU14ProdigySuitGreySkirt
+        amount: 5
+      - id: CMU14ProdigySuitBlackSkirt
+        amount: 5
     - name: au14-vendor-section-backpack
       entries:
       - id: RMCBackpackRTO
@@ -633,6 +655,10 @@
       - id: RMCPackFlareCAS
     - name: au14-vendor-section-spare-equipment
       entries:
+      - id: CMU14KitWeaponGlock75Rubber
+        amount: 5
+      - id: CMU14KitWeaponGlock77Rubber
+        amount: 2
       - id: AU14ProdigyBeret
         amount: 3
       - id: RMCExplosiveBreachingCharge
@@ -853,9 +879,12 @@
       choices: { CMUHandgunsWeapon: 1 }
       entries:
       - id: AU14KitWeaponTPR23B
+      - id: CMU14KitWeaponGlock75
     - name: au14-vendor-section-handgun-ammunition
       entries:
       - id: CMMagazinePistolM1984
+        amount: 60
+      - id: CMU14MagazinePistolGlock75
         amount: 60
     - name: au14-vendor-section-attachments
       choices: { CMUAttachmentsVendor: 1 }
@@ -934,6 +963,8 @@
       entries:
       - id: AU14WeaponPistolTPR23BEmpty
         amount: 20
+      - id: CMU14WeaponPistolGlock75Empty
+        amount: 20
     - name: au14-vendor-section-special-firearms
       entries:
       - id: AUWeaponRifleM20A
@@ -948,6 +979,8 @@
         amount: 2
       - id: AU14Mk86Case
         amount: 1
+      - id: CMU14KitWeaponGlock77
+        amount: 4
     - name: au14-vendor-section-primary-ammunition
       entries:
       - id: AU14WeaponRifleprodigyrifleMagazineStandard
@@ -975,7 +1008,7 @@
     - name: au14-vendor-section-secondary-ammunition
       entries:
       - id: CMMagazinePistolM1984
-        amount: 200
+        amount: 150
       - id: RMCMagazinePistolM1984AP
         amount: 15
       - id: RMCMagazinePistolM1984HP
@@ -983,6 +1016,18 @@
       - id: RMCSpeedLoader357
         amount: 20
       - id: RMCSpeedLoader357Hollowpoint
+        amount: 5
+      - id: CMU14MagazinePistolGlock75
+        amount: 150
+      - id: CMU14MagazinePistolGlock75AP
+        amount: 15
+      - id: CMU14MagazinePistolGlock75HP
+        amount: 5
+      - id: CMU14MagazinePistolGlock77
+        amount: 10
+      - id: CMU14MagazinePistolGlock77AP
+        amount: 5
+      - id: CMU14MagazinePistolGlock77HP
         amount: 5
     - name: au14-vendor-section-magazine-boxes
       entries:
@@ -1153,11 +1198,15 @@
       entries:
       - id: AU14ProdigyCap
         amount: 20
+      - id: CMU14ProdigyCapGrey
+        amount: 20
       - id: AU14HeadCommandoBeanie
         amount: 10
     - name: au14-vendor-section-fatigues
       entries:
       - id: AU14ProdigyFatigues
+        amount: 40
+      - id: CMU14ProdigyJumpsuitGrey
         amount: 40
     - name: au14-vendor-section-footwear
       entries:

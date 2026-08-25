@@ -6,6 +6,7 @@ using Content.Shared._CMU14.Medical.Injuries.Wounds;
 using Content.Shared._CMU14.Medical.Treatment.FirstAid;
 using Content.Shared._CMU14.Yautja;
 using Content.Shared._RMC14.Medical.Surgery.Steps;
+using Content.Shared._RMC14.Medical.Surgery.Steps.Parts;
 using Content.Shared._RMC14.Medical.Surgery;
 using Content.Shared._RMC14.Slow;
 using Content.Shared.Body.Components;
@@ -28,6 +29,8 @@ public sealed class YautjaMedicompSurgerySystem : EntitySystem
     [Dependency] private DamageableSystem _damageable = default!;
     [Dependency] private CMUMedicalBodyIndexSystem _medicalIndex = default!;
     [Dependency] private SharedOrganHealthSystem _organHealth = default!;
+    [Dependency] private CMUWoundLedgerSystem _woundLedger = default!;
+    [Dependency] private SharedCMUWoundsSystem _wounds = default!;
     [Dependency] private RMCSlowSystem _slow = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private IPrototypeManager _prototypes = default!;
@@ -151,7 +154,18 @@ public sealed class YautjaMedicompSurgerySystem : EntitySystem
         RemComp<RMCSuperSlowdownComponent>(args.Body);
 
         foreach (var (part, _) in _medicalIndex.GetBodyParts(args.Body))
+        {
+            _wounds.StopSurfaceBleedingOnPart(part);
+            _woundLedger.TryUpdateExternalBleeding(part, ExternalBleedTier.None);
+            // CMSS13's clamp returns the selected defense zone to surface
+            // depth. In CMU that is represented by removing the open-incision
+            // markers and suppressing only the surgical bleed source.
+            _wounds.ClearInternalBleed(part);
+            RemComp<CMIncisionOpenComponent>(part);
+            RemComp<CMBleedersClampedComponent>(part);
+            RemComp<CMSkinRetractedComponent>(part);
             RemComp<CMUEscharComponent>(part);
+        }
 
         RemComp<CMUYautjaMedicompTreatedComponent>(args.Part);
     }

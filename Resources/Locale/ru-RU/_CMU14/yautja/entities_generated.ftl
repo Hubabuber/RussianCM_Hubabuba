@@ -1,5 +1,23 @@
 # Generated from explicit Yautja entity name/description fields.
 
+ent-CMUYautjaStabilisingCrystal = автоинъектор яутжа
+    .desc = Инопланетный автоинъектор с сильнодействующим средством от травм и ожогов.
+
+ent-CMUYautjaHumanStabilisingCrystal = автоинъектор яутжа
+    .desc = Инопланетный автоинъектор с сильнодействующим средством от травм и ожогов, адаптированный для рабов яутжа.
+
+ent-CMUYautjaHealingCapsule = лечебный гель
+    .desc = Плотный инопланетный коагулянт, сращивающий обширные травмы.
+
+ent-CMUYautjaHuntingGroundPreserveShutter = заслонка заповедника
+    .desc = Не имеющая питания усиленная заслонка между охотничьими угодьями и заповедником.
+
+ent-CMUYautjaHuntingGroundEscapeConsole = консоль выхода из охотничьих угодий
+    .desc = Консоль, с помощью которой яутжа открывают заслонки заповедника и покидают охотничьи угодья.
+
+ent-CMUYautjaHuntingGroundPreserveEdge = плотный туман
+    .desc = Кажется, сквозь него можно пройти.
+
 ent-CMUActionYautjaToggleLantern = Переключить свет
     .desc = Включить или выключить свет.
 

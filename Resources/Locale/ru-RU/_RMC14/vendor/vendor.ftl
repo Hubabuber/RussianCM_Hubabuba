@@ -16,7 +16,7 @@ rmc-vendor-section-choose = (ВЫБЕРИТЕ {$amount})
 
 rmc-vending-stock-remaining = x{$count}
 rmc-vending-stock-infinite = x∞
-rmc-vending-stock-personal = (вы: {$count})
+rmc-vending-stock-personal = {$stock} (личный лимит: осталось {$count})
 
 rmc-vendor-entry-mandatory = Обязательно: {$name}
 rmc-vendor-entry-recommended = Рекомендуется: {$name}

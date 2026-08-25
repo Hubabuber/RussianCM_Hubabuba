@@ -3,7 +3,6 @@ using Content.Shared._RMC14.Areas;
 using Content.Shared._RMC14.Dropship.Weapon;
 using Content.Shared.GameTicking;
 using Content.Shared.NameModifier.EntitySystems;
-using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
@@ -14,11 +13,8 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
 {
     [Dependency] private AreaSystem _area = default!;
     [Dependency] private MetaDataSystem _metaData = default!;
-    [Dependency] private INetManager _net = default!;
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private NameModifierSystem _nameModifier = default!;
-
-    private readonly HashSet<EntProtoId> _refresh = new();
 
     private readonly Dictionary<string, int> _cameraNames = new();
 
@@ -43,18 +39,31 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
                 subs.Event<RMCCameraWatchBuiMsg>(OnComputerWatchBuiMsg);
                 subs.Event<RMCCameraPreviousBuiMsg>(OnComputerPreviousBuiMsg);
                 subs.Event<RMCCameraNextBuiMsg>(OnComputerNextBuiMsg);
+                subs.Event<RMCCameraRefreshSubnetsBuiMsg>(OnComputerRefreshSubnetsBuiMsg);
+                subs.Event<RMCCameraNetworkBuiMsg>(OnComputerNetworkBuiMsg);
+                subs.Event<RMCCameraDisconnectBuiMsg>(OnComputerDisconnectBuiMsg);
+                subs.Event<RMCCameraNetworkEditorCreateBuiMsg>(OnEditorCreateBuiMsg);
+                subs.Event<RMCCameraNetworkEditorRenameBuiMsg>(OnEditorRenameBuiMsg);
+                subs.Event<RMCCameraNetworkEditorDeleteBuiMsg>(OnEditorDeleteBuiMsg);
+                subs.Event<RMCCameraNetworkEditorSetHiddenBuiMsg>(OnEditorSetHiddenBuiMsg);
+                subs.Event<RMCCameraNetworkEditorSaveCameraBuiMsg>(OnEditorSaveCameraBuiMsg);
             });
     }
 
     private void OnRoundRestartCleanup(RoundRestartCleanupEvent ev)
     {
         _cameraNames.Clear();
+        OnCameraEditorRoundRestartCleanup();
+    }
+
+    protected virtual void OnCameraEditorRoundRestartCleanup()
+    {
     }
 
     private void OnCameraMapInit(Entity<RMCCameraComponent> ent, ref MapInitEvent args)
     {
-        if (ent.Comp.Id is { } id)
-            _refresh.Add(id);
+        var ev = new RMCLegacyCameraMapInitEvent(ent.Owner);
+        RaiseLocalEvent(ent, ref ev);
 
         if (ent.Comp.Rename)
         {
@@ -75,6 +84,7 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
             var count = _cameraNames.GetValueOrDefault(name);
             _cameraNames[name] = count;
         }
+
     }
 
     private void OnCameraRemove(Entity<RMCCameraComponent> ent, ref ComponentRemove args)
@@ -89,6 +99,8 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
 
     private void OnComputerMapInit(Entity<RMCCameraComputerComponent> ent, ref MapInitEvent args)
     {
+        var ev = new RMCLegacyCameraComputerMapInitEvent(ent.Owner);
+        RaiseLocalEvent(ent, ref ev);
         RebuildComputerCameras(ent.Owner, ent.Comp);
     }
 
@@ -127,7 +139,13 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
         ent.Comp.Watchers.Remove(actor);
         Dirty(ent);
 
+        OnComputerUiClosed(ent, actor);
+
         RemCompDeferred<RMCCameraWatcherComponent>(actor);
+    }
+
+    protected virtual void OnComputerUiClosed(Entity<RMCCameraComputerComponent> computer, EntityUid actor)
+    {
     }
 
     private void OnComputerWatchBuiMsg(Entity<RMCCameraComputerComponent> ent, ref RMCCameraWatchBuiMsg args)
@@ -135,22 +153,20 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
         if (_timing.ApplyingState)
             return;
 
-        if (!TryGetEntity(args.Camera, out var camera))
+        if (!TryGetEntity(args.Camera, out var camera) || camera is not { } cameraUid)
+        {
+            RefreshRejectedSelection(ent);
             return;
+        }
 
-        if (!ent.Comp.CameraIds.Contains(args.Camera))
-            return;
-
-        var old = ent.Comp.CurrentCamera;
-        ent.Comp.CurrentCamera = camera;
-        Refresh(ent, old);
+        if (!TrySelectCamera(ent, cameraUid))
+            RefreshRejectedSelection(ent);
     }
 
     private void OnComputerPreviousBuiMsg(Entity<RMCCameraComputerComponent> ent, ref RMCCameraPreviousBuiMsg args)
     {
-        var old = ent.Comp.CurrentCamera;
         var index = 0;
-        if (old != null &&
+        if (ent.Comp.CurrentCamera is { } old &&
             TryGetNetEntity(old, out var netCamera))
         {
             index = ent.Comp.CameraIds.IndexOf(netCamera.Value) - 1;
@@ -160,19 +176,14 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
 
         if (index >= 0 &&
             index < ent.Comp.CameraIds.Count &&
-            TryGetEntity(ent.Comp.CameraIds[index], out var camera))
-        {
-            ent.Comp.CurrentCamera = camera;
-        }
-
-        Refresh(ent, old);
+            TryGetEntity(ent.Comp.CameraIds[index], out var camera) && camera is { } cameraUid)
+            TrySelectCamera(ent, cameraUid);
     }
 
     private void OnComputerNextBuiMsg(Entity<RMCCameraComputerComponent> ent, ref RMCCameraNextBuiMsg args)
     {
-        var old = ent.Comp.CurrentCamera;
         var index = 0;
-        if (old != null &&
+        if (ent.Comp.CurrentCamera is { } old &&
             TryGetNetEntity(old, out var netCamera))
         {
             index = ent.Comp.CameraIds.IndexOf(netCamera.Value) + 1;
@@ -182,17 +193,133 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
 
         if (index >= 0 &&
             index < ent.Comp.CameraIds.Count &&
-            TryGetEntity(ent.Comp.CameraIds[index], out var camera))
-        {
-            ent.Comp.CurrentCamera = camera;
-        }
+            TryGetEntity(ent.Comp.CameraIds[index], out var camera) && camera is { } cameraUid)
+            TrySelectCamera(ent, cameraUid);
+    }
+
+    private void OnComputerRefreshSubnetsBuiMsg(Entity<RMCCameraComputerComponent> ent, ref RMCCameraRefreshSubnetsBuiMsg args)
+    {
+        if (_timing.ApplyingState)
+            return;
+
+        var old = ent.Comp.CurrentCamera;
+        RebuildComputerCameras(ent.Owner, ent.Comp);
+        if (old is { } current && !ent.Comp.CameraIds.Contains(GetNetEntity(current)))
+            ent.Comp.CurrentCamera = null;
 
         Refresh(ent, old);
+    }
+
+    private void OnComputerNetworkBuiMsg(Entity<RMCCameraComputerComponent> ent, ref RMCCameraNetworkBuiMsg args)
+    {
+        if (_timing.ApplyingState)
+            return;
+
+        OnNetworkBuiMsg(ent, args);
+    }
+
+    protected virtual void OnNetworkBuiMsg(Entity<RMCCameraComputerComponent> computer, RMCCameraNetworkBuiMsg args)
+    {
+    }
+
+    private void OnComputerDisconnectBuiMsg(Entity<RMCCameraComputerComponent> ent, ref RMCCameraDisconnectBuiMsg args)
+    {
+        if (_timing.ApplyingState)
+            return;
+
+        var old = ent.Comp.CurrentCamera;
+        ent.Comp.CurrentCamera = null;
+        Refresh(ent, old);
+    }
+
+    private void OnEditorCreateBuiMsg(
+        Entity<RMCCameraComputerComponent> computer,
+        ref RMCCameraNetworkEditorCreateBuiMsg args)
+    {
+        if (!_timing.ApplyingState)
+            OnEditorCreate(computer, args);
+    }
+
+    private void OnEditorRenameBuiMsg(
+        Entity<RMCCameraComputerComponent> computer,
+        ref RMCCameraNetworkEditorRenameBuiMsg args)
+    {
+        if (!_timing.ApplyingState)
+            OnEditorRename(computer, args);
+    }
+
+    private void OnEditorDeleteBuiMsg(
+        Entity<RMCCameraComputerComponent> computer,
+        ref RMCCameraNetworkEditorDeleteBuiMsg args)
+    {
+        if (!_timing.ApplyingState)
+            OnEditorDelete(computer, args);
+    }
+
+    private void OnEditorSetHiddenBuiMsg(
+        Entity<RMCCameraComputerComponent> computer,
+        ref RMCCameraNetworkEditorSetHiddenBuiMsg args)
+    {
+        if (!_timing.ApplyingState)
+            OnEditorSetHidden(computer, args);
+    }
+
+    private void OnEditorSaveCameraBuiMsg(
+        Entity<RMCCameraComputerComponent> computer,
+        ref RMCCameraNetworkEditorSaveCameraBuiMsg args)
+    {
+        if (!_timing.ApplyingState)
+            OnEditorSaveCamera(computer, args);
+    }
+
+    protected virtual void OnEditorCreate(
+        Entity<RMCCameraComputerComponent> computer,
+        RMCCameraNetworkEditorCreateBuiMsg args)
+    {
+    }
+
+    protected virtual void OnEditorRename(
+        Entity<RMCCameraComputerComponent> computer,
+        RMCCameraNetworkEditorRenameBuiMsg args)
+    {
+    }
+
+    protected virtual void OnEditorDelete(
+        Entity<RMCCameraComputerComponent> computer,
+        RMCCameraNetworkEditorDeleteBuiMsg args)
+    {
+    }
+
+    protected virtual void OnEditorSetHidden(
+        Entity<RMCCameraComputerComponent> computer,
+        RMCCameraNetworkEditorSetHiddenBuiMsg args)
+    {
+    }
+
+    protected virtual void OnEditorSaveCamera(
+        Entity<RMCCameraComputerComponent> computer,
+        RMCCameraNetworkEditorSaveCameraBuiMsg args)
+    {
     }
 
     protected virtual void Refresh(Entity<RMCCameraComputerComponent> ent, EntityUid? old)
     {
         Dirty(ent);
+    }
+
+    protected virtual void RefreshRejectedSelection(Entity<RMCCameraComputerComponent> computer)
+    {
+    }
+
+    public virtual bool TrySelectCamera(Entity<RMCCameraComputerComponent> computer, EntityUid camera)
+    {
+        if (!computer.Comp.CameraIds.Contains(GetNetEntity(camera)))
+            return false;
+
+        var old = computer.Comp.CurrentCamera;
+        computer.Comp.CurrentCamera = camera;
+        Refresh(computer, old);
+        return true;
     }
 
     protected virtual void OnWatcherRemoved(Entity<RMCCameraWatcherComponent> watcher)
@@ -223,35 +350,8 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
         return true;
     }
 
-    private void OnCameraRemoved(Entity<RMCCameraComponent> camera)
+    protected virtual void OnCameraRemoved(Entity<RMCCameraComponent> camera)
     {
-        var netCamera = GetNetEntity(camera);
-        var computers = EntityQueryEnumerator<RMCCameraComputerComponent>();
-        while (computers.MoveNext(out var uid, out var comp))
-        {
-            foreach (var protoId in comp.ProtoIds)
-            {
-                if (protoId != camera.Comp.Id || TerminatingOrDeleted(uid))
-                    continue;
-
-                var index = comp.CameraIds.IndexOf(netCamera);
-                if (index >= 0)
-                {
-                    comp.CameraIds.RemoveAt(index);
-                    if (index < comp.CameraNames.Count)
-                        comp.CameraNames.RemoveAt(index);
-                }
-
-                var old = comp.CurrentCamera;
-                if (old == camera)
-                    comp.CurrentCamera = null;
-
-                if (old == camera)
-                    Refresh((uid, comp), old);
-                else
-                    Dirty(uid, comp);
-            }
-        }
     }
 
     public void AddProtoId(RMCCameraComputerComponent computer, EntProtoId protoId)
@@ -262,66 +362,27 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
     public void RemoveProtoId(RMCCameraComputerComponent computer, EntProtoId protoId)
     {
         computer.ProtoIds.Remove(protoId);
-
-        var cameraQuery = EntityQueryEnumerator<RMCCameraComponent>();
-        while (cameraQuery.MoveNext(out var uid, out var camera))
-        {
-            if (camera.Id != protoId)
-                continue;
-
-            computer.CameraIds.Remove(GetNetEntity(uid));
-
-            var name = Name(uid);
-            if (camera.NameOverride != null)
-                name = camera.NameOverride;
-
-            computer.CameraNames.Remove(name);
-        }
     }
 
     public void RefreshCameras(EntProtoId protoId)
     {
-        _refresh.Add(protoId);
     }
 
-    public void RebuildComputerCameras(EntityUid computerUid, RMCCameraComputerComponent? computer = null)
+    public virtual void RebuildComputerCameras(EntityUid computerUid, RMCCameraComputerComponent? computer = null)
     {
-        if (!Resolve(computerUid, ref computer, false))
-            return;
-
-        computer.CameraIds.Clear();
-        computer.CameraNames.Clear();
-
-        var query = EntityQueryEnumerator<RMCCameraComponent>();
-        while (query.MoveNext(out var uid, out var camera))
-        {
-            foreach (var protoId in computer.ProtoIds)
-            {
-                if (camera.Id != protoId)
-                    continue;
-
-                computer.CameraIds.Add(GetNetEntity(uid));
-                computer.CameraNames.Add(GetCameraName(uid, camera));
-                break;
-            }
-        }
-
-        if (computer.CurrentCamera is { } current &&
-            !computer.CameraIds.Contains(GetNetEntity(current)))
-        {
-            computer.CurrentCamera = null;
-        }
-
-        Dirty(computerUid, computer);
     }
 
-    public void SetCameraId(EntityUid camera,  EntProtoId protoId, RMCCameraComponent? cameraComponent)
+    public void SetCameraId(EntityUid camera, EntProtoId? protoId, RMCCameraComponent? cameraComponent)
     {
         if (!Resolve(camera, ref cameraComponent, false))
             return;
 
+        var oldId = cameraComponent.Id;
         cameraComponent.Id = protoId;
         Dirty(camera, cameraComponent);
+
+        var ev = new RMCLegacyCameraIdChangedEvent(camera, oldId, protoId);
+        RaiseLocalEvent(camera, ref ev);
     }
 
     public void SetCameraName(EntityUid camera,  string name, RMCCameraComponent? cameraComponent)
@@ -342,42 +403,7 @@ public abstract partial class SharedRMCCameraSystem : EntitySystem
         Dirty(camera, cameraComponent);
     }
 
-    public override void Update(float frameTime)
-    {
-        if (_refresh.Count == 0)
-            return;
-
-        if (_net.IsClient)
-        {
-            _refresh.Clear();
-            return;
-        }
-
-        var monitors = new HashSet<Entity<RMCCameraComputerComponent>>();
-        foreach (var refresh in _refresh)
-        {
-            monitors.Clear();
-            var monitorQuery = EntityQueryEnumerator<RMCCameraComputerComponent>();
-            while (monitorQuery.MoveNext(out var uid, out var computer))
-            {
-                foreach (var protoId in computer.ProtoIds)
-                {
-                    if (protoId == refresh)
-                        monitors.Add((uid, computer));
-                }
-            }
-
-            if (monitors.Count == 0)
-                continue;
-
-            foreach (var monitor in monitors)
-                RebuildComputerCameras(monitor.Owner, monitor.Comp);
-        }
-
-        _refresh.Clear();
-    }
-
-    private string GetCameraName(EntityUid uid, RMCCameraComponent camera)
+    protected string GetCameraName(EntityUid uid, RMCCameraComponent camera)
     {
         return camera.NameOverride ?? _nameModifier.GetBaseName(uid);
     }

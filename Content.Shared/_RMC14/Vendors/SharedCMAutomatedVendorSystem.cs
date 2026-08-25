@@ -230,6 +230,13 @@ public abstract partial class SharedCMAutomatedVendorSystem : EntitySystem
         if (vendor.Comp.Hacked)
             return;
 
+        if (!_skills.HasAllSkills(args.User, vendor.Comp.RequiredSkills))
+        {
+            _popup.PopupClient(Loc.GetString("rmc-skills-no-training", ("target", vendor)), vendor, args.User);
+            args.Cancel();
+            return;
+        }
+
         if (TryComp(vendor, out AccessReaderComponent? reader) &&
             reader.Enabled &&
             reader.AccessLists.Count > 0)
@@ -438,6 +445,16 @@ public abstract partial class SharedCMAutomatedVendorSystem : EntitySystem
         }
 
         var user = CompOrNull<CMVendorUserComponent>(actor);
+        if (entry.MaxPerUser is { } maxPerUser)
+        {
+            user ??= EnsureComp<CMVendorUserComponent>(actor);
+            var purchased = user.PurchaseCounts.GetValueOrDefault(entry.Id.Id);
+            if (purchased + entry.Spawn > maxPerUser)
+            {
+                _popup.PopupEntity(Loc.GetString("cm-vending-machine-cannot-buy-category"), vendor, actor);
+                return;
+            }
+        }
         if (section.TakeAll is { } takeAll)
         {
             user = EnsureComp<CMVendorUserComponent>(actor);
@@ -700,6 +717,14 @@ public abstract partial class SharedCMAutomatedVendorSystem : EntitySystem
                 Dirty(vendor);
                 AmountUpdated(vendor, entry);
             }
+        }
+
+        if (entry.MaxPerUser is { })
+        {
+            user ??= EnsureComp<CMVendorUserComponent>(actor);
+            var key = entry.Id.Id;
+            user.PurchaseCounts[key] = user.PurchaseCounts.GetValueOrDefault(key) + entry.Spawn;
+            Dirty(actor, user);
         }
 
         if (entry.GiveSquadRoleName != null || entry.GiveIcon != null)

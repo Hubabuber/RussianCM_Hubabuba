@@ -89,6 +89,11 @@ public sealed partial class YautjaProfileApplySystem : EntitySystem
             .WithCharacterAppearance(profile.Appearance);
 
         _humanoid.LoadProfile(uid, humanoidProfile, humanoid);
+        // The profile is authoritative for player-controlled Yautja appearance.
+        // Mark the deferred randomizer complete so the next stats tick cannot
+        // replace the selected skin color.
+        yautja.RandomizeSkinColor = false;
+        yautja.SkinColorRandomized = true;
         _meta.SetEntityName(uid, profile.Name);
 
         EntityUid? mask = null;
@@ -102,9 +107,14 @@ public sealed partial class YautjaProfileApplySystem : EntitySystem
             bracer = ReplaceEquipped(uid, "gloves", profile.BracerPrototype);
             cape = ReplaceEquipped(uid, "back", profile.CapePrototype);
         }
-        else if (_inventory.TryGetSlotEntity(uid, "gloves", out var equippedBracer))
+        else if (_inventory.TryGetSlotEntity(uid, "gloves", out var equippedBracer)
+                 && MetaData(equippedBracer.Value).EntityPrototype?.ID == "CMUYautjaBracer")
         {
-            bracer = equippedBracer;
+            // Player spawns already have the generic spawn bracer equipped. Replace
+            // it with the material selected in the profile before applying settings.
+            // Fixed-role Yautja (notably military-caste jobs) already have a
+            // role-specific bracer and must keep that item and its worn visuals.
+            bracer = ReplaceEquipped(uid, "gloves", profile.BracerPrototype);
         }
 
         if (mask != null)

@@ -226,6 +226,39 @@ public sealed class YautjaPredatorRoleTest
     }
 
     [Test]
+    public async Task YautjaRolesDoNotHaveServiceMedals()
+    {
+        var (server, _) = await PoolManager.GenerateServer(new PoolSettings(), TestContext.Out);
+
+        try
+        {
+            await server.WaitAssertion(() =>
+            {
+                var prototypes = server.ResolveDependency<IPrototypeManager>();
+                var yautjaJobs = new[]
+                {
+                    "CMUYautjaHunter",
+                    "CMUYautjaHellhound",
+                    "CMUYautjaYoungblood",
+                    "CMUYautjaBadBlood",
+                    "CMUYautjaMilitaryCasteSoldier",
+                    "CMUYautjaMilitaryCasteEnforcer",
+                };
+
+                foreach (var jobId in yautjaJobs)
+                {
+                    var job = prototypes.Index<JobPrototype>(jobId);
+                    Assert.That(job.Medals?.Count ?? 0, Is.Zero, jobId);
+                }
+            });
+        }
+        finally
+        {
+            server.Dispose();
+        }
+    }
+
+    [Test]
     public async Task F7HunterSpawnUsesDirectCmumobYautjaPrototype()
     {
         var (server, _) = await PoolManager.GenerateServer(new PoolSettings(), TestContext.Out);
