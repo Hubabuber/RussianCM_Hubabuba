@@ -254,6 +254,7 @@
       - RuMCMagazineAK13
       - RMCMagazineRifleAK4047
       - RMCMagazineRifleAK4047AP
+      - RuMCMagazineRifleAK4047bakelite
   - type: StorageFill
     contents:
     - id: RuMCWeaponRifleAK13
@@ -261,10 +262,37 @@
     - id: RMCMagazineRifleAK4047
     - id: RMCMagazineRifleAK4047
     - id: RMCMagazineRifleAK4047
+    - id: RuMCMagazineRifleAK4047bakelite
+    - id: RuMCMagazineRifleAK4047bakelite
+    - id: RuMCMagazineRifleAK4047bakeliteLarge
+    - id: RuMCMagazineRifleAK4047APbakelite
+
+- type: entity
+  parent: RMCGunCaseBase
+  id: RuMCGunAK4047Case
+  name: AK4047 gun case
+  description: Case for the AK4047 rifle.
+  components:
+  - type: Storage
+    grid:
+    - 0,0,13,1
+    whitelist:
+      tags:
+      - RMCWeaponRifleAK4047
+      - RMCMagazineRifleAK4047
+      - RMCMagazineRifleAK4047AP
+      - RuMCMagazineRifleAK4047bakelite
+  - type: StorageFill
+    contents:
+    - id: RMCWeaponRifleAK4047
     - id: RMCMagazineRifleAK4047
     - id: RMCMagazineRifleAK4047
-    - id: RMCMagazineRifleAK4047
-    - id: RMCMagazineRifleAK4047AP
+    - id: RuMCMagazineRifleAK4047bakelite
+    - id: RuMCMagazineRifleAK4047bakelite
+    - id: RuMCMagazineRifleAK4047bakelite
+    - id: RuMCMagazineRifleAK4047bakelite
+    - id: RuMCMagazineRifleAK4047bakeliteLarge
+    - id: RuMCMagazineRifleAK4047APbakelite
 
 - type: entity
   parent: RMCGunCaseBase
