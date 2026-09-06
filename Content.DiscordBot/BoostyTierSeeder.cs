@@ -62,15 +62,7 @@ public static class BoostyTierSeeder
         if (tier == null)
             throw new ArgumentException($"Sponsor tier '{tierName}' was not found.");
 
-        var patron = await db.RMCPatrons.FirstOrDefaultAsync(p => p.PlayerId == player.UserId);
-        if (patron == null)
-        {
-            patron = new RMCPatron { PlayerId = player.UserId };
-            db.RMCPatrons.Add(patron);
-        }
-
-        patron.TierId = tier.Id;
-        await db.SaveChangesAsync();
+        await RMCPatronPersistence.SetTierAsync(db, player.UserId, tier.Id);
     }
 
     public static async Task PrintTiers(ServerDbContext db)

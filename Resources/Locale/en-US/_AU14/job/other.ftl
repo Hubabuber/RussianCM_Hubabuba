@@ -13,6 +13,9 @@ au14-department-isolation-description = Roles limited to use on the Isolation ga
 au14-job-name-securityandroid = Security Android
 au14-job-description-securityandroid = You are a modified, illegal combat synthetic created by the Sigson conglomerate to guard corporate facilities. Perform your security duties and, in extreme cases, use firearms. (Requires advanced role-playing skills.)
 
+au14-job-name-timesharessalesman = Timeshares Salesperson
+au14-job-description-timesharessalesman = You are a timeshares salesperson sent to the frontier to sell vacation packages. You travel from colony to colony trying to convince people to buy into shared properties.
+
 au14-department-weyu = We-Yu
 au14-department-wyu-description = Jobs part of Weyland Yutani
 
@@ -22,6 +25,10 @@ au14-job-prefix-mobboss = MOB
 
 au14-job-name-mobgoon= Mob Goon
 au14-job-description-mobgoon = You're a soldier in local crime syndicate, listen to the boss
+
+au14-job-name-drugsmuggler = Drug Smuggler
+au14-job-description-drugsmuggler = You barely made it out as the CMB raided your old drug lab, luckily you managed to escape with some of the product and they didnt catch your name. Time to try again.
+au14-ghostrole-name-drugdealer-criminal = Drug Dealer (Criminal)
 
 au14-job-name-wyguard = Security Officer
 au14-job-description-wyguard= You're corporate security hired by Weyland-Yutani. Listen to and protect the employees and company assets
@@ -267,6 +274,11 @@ au14-pmcparty-greeting = You are a part of Weyland-Yutani PMC party!
     Weyland-Yutani - building better worlds.
 au14-job-name-wypmc = Private Military Contractor
 au14-job-name-wypmc-engineer = PMC Combat Engineer
+au14-job-name-wypmc-leader = PMC Leader
+au14-job-name-wypmc-medic = PMC Combat Lifesaver
+au14-job-name-wypmc-contractor = PMC Contractor
+au14-job-name-wypmc-sniper = PMC Sniper
+au14-job-name-wypmc-smartgunner = PMC Smartgun Operator
 
 au14-ipie-lawyer-description = You are Intelectual Property Infringement Enforcement Lawyer of Weyland-Yutani Corporation. Defend Corporation's rights!
 au14-ipie-lawyer-greeting = You are Intelectual Property Infringement Enforcement Lawyer of Weyland-Yutani Corporation.

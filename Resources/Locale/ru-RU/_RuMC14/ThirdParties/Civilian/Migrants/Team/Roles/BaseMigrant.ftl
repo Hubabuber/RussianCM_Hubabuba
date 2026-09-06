@@ -1,0 +1,1 @@
+ent-RuMCJobMigrant = Новый колонист

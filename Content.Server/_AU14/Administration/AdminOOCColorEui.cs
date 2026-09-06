@@ -80,7 +80,7 @@ public sealed class AdminOOCColorEui : BaseEui
         string? normalizedColor = null;
         if (!string.IsNullOrWhiteSpace(update.Color))
         {
-            if (Color.TryFromHex(update.Color.Trim()) is not { } color)
+            if (Color.TryFromHex(update.Color.Trim(), out var color) == false)
             {
                 _sawmill.Warning("{Player} tried to set invalid OOC color {Color} for admin rank {RankId}.", Player, update.Color, update.RankId);
                 return;

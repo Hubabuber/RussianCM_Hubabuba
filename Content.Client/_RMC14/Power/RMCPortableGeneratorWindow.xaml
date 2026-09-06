@@ -2,18 +2,18 @@
     xmlns="https://spacestation14.io"
     xmlns:controls="clr-namespace:Content.Client._RMC14.Power"
     xmlns:ui="clr-namespace:Content.Client._RMC14.UserInterface"
-    Title="Portable Generator" MinSize="380 350">
+    Title="{Loc rmc-portable-generator-window-title}" MinSize="380 350">
     <BoxContainer Orientation="Vertical">
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[bold]Generator Status[/bold]" />
+            <RichTextLabel Text="{Loc rmc-portable-generator-window-status-header}" />
             <Control HorizontalExpand="True" />
             <RichTextLabel Name="StatusLabel" Access="Public" />
         </BoxContainer>
         <ui:BlueHorizontalSeparator />
         <BoxContainer Orientation="Horizontal" Margin="0 5">
-            <Button Name="ToggleButton" Access="Public" Text="Start" StyleClasses="OpenBoth" MinWidth="80" />
+            <Button Name="ToggleButton" Access="Public" Text="{Loc rmc-portable-generator-window-start}" StyleClasses="OpenBoth" MinWidth="80" />
             <Control HorizontalExpand="True" />
-            <Button Name="EjectButton" Access="Public" Text="Eject Fuel" StyleClasses="OpenBoth" MinWidth="80" />
+            <Button Name="EjectButton" Access="Public" Text="{Loc rmc-portable-generator-window-eject}" StyleClasses="OpenBoth" MinWidth="80" />
         </BoxContainer>
         <ui:BlueHorizontalSeparator />
         <RichTextLabel Name="FuelLabel" Access="Public" Margin="0 5 0 0" />
@@ -23,9 +23,9 @@
         <ui:BlueHorizontalSeparator />
         <RichTextLabel Name="PowerOutputLabel" Access="Public" Margin="0 5 0 0" />
         <BoxContainer Orientation="Horizontal" Margin="0 5">
-            <Button Name="LowerPowerButton" Access="Public" Text="- Power" StyleClasses="OpenBoth" MinWidth="80" />
+            <Button Name="LowerPowerButton" Access="Public" Text="{Loc rmc-portable-generator-window-lower-power}" StyleClasses="OpenBoth" MinWidth="80" />
             <Control HorizontalExpand="True" />
-            <Button Name="RaisePowerButton" Access="Public" Text="+ Power" StyleClasses="OpenBoth" MinWidth="80" />
+            <Button Name="RaisePowerButton" Access="Public" Text="{Loc rmc-portable-generator-window-raise-power}" StyleClasses="OpenBoth" MinWidth="80" />
         </BoxContainer>
         <ui:BlueHorizontalSeparator />
         <RichTextLabel Name="HeatStatusLabel" Access="Public" Margin="0 5 0 0" />

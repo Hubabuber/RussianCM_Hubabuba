@@ -83,7 +83,7 @@ public sealed class AnnouncementPlayback
 
     private static void ResetBaseLabelColor(AnnouncementStyle style, ActiveAnnouncement state, IReadOnlyList<RichTextLabel> labels)
     {
-        var titleText = !string.IsNullOrEmpty(state.Data.Title) ? state.Data.Title : style.TitleConfig.Title;
+        var titleText = !string.IsNullOrEmpty(state.Data.Title) ? state.Data.Title : Loc.GetString(style.TitleConfig.Title); // RuMC edit
         var hasTitle = style.TitleConfig.ShowTitle && !string.IsNullOrEmpty(titleText);
 
         for (var i = 0; i < labels.Count; i++)
@@ -108,7 +108,7 @@ public sealed class AnnouncementPlayback
         if (_effects.Count == 0)
             return;
 
-        var titleText = !string.IsNullOrEmpty(state.Data.Title) ? state.Data.Title : style.TitleConfig.Title;
+        var titleText = !string.IsNullOrEmpty(state.Data.Title) ? state.Data.Title : Loc.GetString(style.TitleConfig.Title); // RuMC edit
         var hasTitle = style.TitleConfig.ShowTitle && !string.IsNullOrEmpty(titleText);
         var effectContext = new AnnouncementEffectContext(style, state, labels, hasTitle);
         foreach (var effect in _effects)

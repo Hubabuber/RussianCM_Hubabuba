@@ -53,3 +53,31 @@
 
 - type: Tag
   id: RuMCSquadBEAR
+
+- type: entity
+  parent: SquadBase
+  id: RuMCSquadBD
+  name: Black Dragoons
+  components:
+  - type: SquadTeam
+    color: "#3D6F43"
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: TWESOF
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_twe
+    leaderIcon:
+      sprite: _RMC14/Interface/cm_job_icons.rsi
+      state: rmc_lieutenant
+    canSupplyDrop: false
+    group: BD
+  - type: Tag
+    tags:
+    - RuMC14SquadBD
+
+- type: Tag
+  id: RuMC14SquadBD

@@ -28,18 +28,19 @@ ent-RMCMaskNeckerchiefAlpha = шейный платок
 ent-RMCMaskSmockBlack = чёрная тактическая накидка
   .desc = Тактическая накидка, используемая для согрева в холод и обеспечения улучшенного камуфляжа.
 
-ent-RMCMaskTornScarfSnow = зимнийтактический шарф
-    .desc = Тактический шарф, используемый для согрева в холод.
-ent-RMCMaskTornScarfUrban = городской тактический шарф
-    .desc = Тактический шарф, используемый для согрева в холод.
-ent-RMCMaskTornScarfGrey = серый тактический шарф
-    .desc = Тактический шарф, используемый для согрева в холод.
-ent-RMCMaskTornScarfGreen = зелёный тактический шарф
-    .desc = Тактический шарф, используемый для согрева в холод.
-ent-RMCMaskTornScarfDesert = тактический шарф для пустыни
-    .desc = Тактический шарф, используемый для согрева в холод.
 ent-RMCMaskTornScarfBlack = тактический шарф
-  .desc = Тактический шарф, используемый для согрева в холод.
+    .desc = Тактический шарф, используемый для согревания в холоде.
+ent-RMCMaskTornScarfSnow = зимний тактический шарф
+    .desc = {ent-RMCMaskTornScarfBlack.desc}
+ent-RMCMaskTornScarfUrban = городской тактический шарф
+    .desc = {ent-RMCMaskTornScarfBlack.desc}
+ent-RMCMaskTornScarfGrey = серый тактический шарф
+    .desc = {ent-RMCMaskTornScarfBlack.desc}
+ent-RMCMaskTornScarfGreen = зелёный тактический шарф
+    .desc = {ent-RMCMaskTornScarfBlack.desc}
+ent-RMCMaskTornScarfDesert = тактический шарф для пустыни
+    .desc = {ent-RMCMaskTornScarfBlack.desc}
+
 
 ent-RMCMaskScarfTanDown = бежевая тактическая повязка
     .desc = Тактическая повязка, используемая солдатами для сокрытия лица.

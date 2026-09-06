@@ -173,8 +173,8 @@ au14-job-prefix-govforsquadcombattechRMC = БТ
 au14-job-name-govforspecialist-marksmanRMC = Снайпер
 au14-job-prefix-govforspecialist-marksmanRMC = СНП
 
-au14-job-name-govforspecialist-pointmanRMC = Стрелок
-au14-job-prefix-govforspecialist-pointmanRMC = СТР
+au14-job-name-govforspecialist-pointmanRMC = Штурмовик
+au14-job-prefix-govforspecialist-pointmanRMC = ШТР
 
 au14-job-name-govforspecialist-grenadierRMC = Гренадёр
 au14-job-prefix-govforspecialist-grenadierRMC = ГРН
@@ -190,8 +190,8 @@ au14-job-prefix-govforspecialist-heavyantitankUPP = АНТ
 au14-job-name-govforspecialist-marksmanUPP = Снайпер
 au14-job-prefix-govforspecialist-marksmanUPP = СНП
 
-au14-job-name-govforspecialist-pointmanUPP = Стрелок
-au14-job-prefix-govforspecialist-pointmanUPP = СТР
+au14-job-name-govforspecialist-pointmanUPP = Штурмовик
+au14-job-prefix-govforspecialist-pointmanUPP = ШТР
 
 au-14-job-name-uppgrom-squadleader = Командир отряда
 au-14-job-prefix-uppgrom-squadleader = КО

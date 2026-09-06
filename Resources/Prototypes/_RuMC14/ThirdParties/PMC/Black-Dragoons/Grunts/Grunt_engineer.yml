@@ -1,0 +1,87 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsGruntEngi
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsGruntEngi
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillFireman: 2
+      RMCSkillVehicles: 1
+      RMCSkillDomestics: 1
+      RMCSkillEngineer: 4
+      RMCSkillFirearms: 2
+      RMCSkillPolice: 2
+      RMCSkillConstruction: 4
+      RMCSkillPowerLoader: 2
+  - type: JobPrefix
+    prefix: Enginner
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Grunt Enginner
+  description: Black Dragoons Grunt Enginner
+  playTimeTracker: RuMCJobBlackDragoonsGruntEngi
+  ranks:
+    RuMCRankContractor: []
+  spawnMenuRoleName: Black Dragoons Grunt Enginner
+  startingGear: RuMCGearBlackDragoonsGruntEngi
+  greeting: You are a lower-tier contractor of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsGruntEngi
+  name: Black Dragoons Grunt Enginner
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Grunt Enginner
+    description: You are a enginner for the "Black Dragoons" PMC. You are a low-level contractor for the company. Your duties mainly involve guarding VIPs and facilities.
+    job: RuMCBlackDragoonsGruntEngi
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBDGruntsbase
+  id: RuMCGearBlackDragoonsGruntEngi
+  equipment:
+    id: RuCMIDCardBlackDragoonsGruntEngi
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilled
+    belt: AU14BeltUtilityFilled
+    gloves: RMCHandsVeteranInsulated
+    eyes: RMCWeldingGoggles
+  storage:
+    back:
+    - AU14MRETWERMC
+    - RMCFlashlight
+    - RMCPowerCellHigh
+    - CMSheetMetal50
+    - CMSheetPlasteel50
+    - RMCSentryLaptop
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsGruntEngi

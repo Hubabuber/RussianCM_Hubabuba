@@ -1,5 +1,8 @@
 rmc-xeno-words-of-the-queen-header = The words of the Queen reverberate in our head...
 
+rmc-xeno-word-queen-window-title = Word of the Queen
+rmc-xeno-word-queen-window-send = Send to the hive
+
 xeno-ui-reserve-parasites-title = Reserve Children
 xeno-ui-reserve-parasites-apply-button-text = Apply
 xeno-reserve-parasites-verb = Reserve Children

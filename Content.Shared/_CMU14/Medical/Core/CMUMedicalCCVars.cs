@@ -79,6 +79,18 @@ public sealed partial class CMUMedicalCCVars : CVars
     public static readonly CVarDef<float> BodyPartDamagePropagation =
         CVarDef.Create("cmu.medical.body_part.damage_propagation", 1.0f, CVar.REPLICATED | CVar.SERVER);
 
+    /// <summary>
+    ///     Ranged called-shot accuracy multiplier for the hand zone.
+    /// </summary>
+    public static readonly CVarDef<float> HitLocationHandAccuracyMultiplier =
+        CVarDef.Create("cmu.medical.hit_location.hand_accuracy_multiplier", 0.1667f, CVar.REPLICATED | CVar.SERVER); // RuMC edit
+
+    /// <summary>
+    ///     Ranged called-shot accuracy multiplier for the foot zone.
+    /// </summary>
+    public static readonly CVarDef<float> HitLocationFootAccuracyMultiplier =
+        CVarDef.Create("cmu.medical.hit_location.foot_accuracy_multiplier", 0.1667f, CVar.REPLICATED | CVar.SERVER); // RuMC edit
+
     public static readonly CVarDef<bool> SeveranceHeadDisabled =
         CVarDef.Create("cmu.medical.severance.head_disabled", true, CVar.REPLICATED | CVar.SERVER); // RuMC edit
 

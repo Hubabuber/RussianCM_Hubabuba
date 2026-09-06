@@ -3006,15 +3006,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
             if (!await db.DbContext.Player.AnyAsync(p => p.UserId == player))
                 return SetPatronTierResult.PlayerNotFound;
 
-            var patron = await db.DbContext.RMCPatrons.FirstOrDefaultAsync(p => p.PlayerId == player);
-            if (patron == null)
-            {
-                patron = new RMCPatron { PlayerId = player };
-                db.DbContext.RMCPatrons.Add(patron);
-            }
-
-            patron.TierId = tier.Id;
-            await db.DbContext.SaveChangesAsync();
+            await RMCPatronPersistence.SetTierAsync(db.DbContext, player, tier.Id);
             return SetPatronTierResult.Success;
         }
 

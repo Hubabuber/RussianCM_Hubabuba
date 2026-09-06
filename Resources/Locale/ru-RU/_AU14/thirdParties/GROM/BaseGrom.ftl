@@ -39,8 +39,9 @@ ent-AU14PouchPistolAltFull = подсумок-кобура
 ent-AU14BeltSmartGunOperatorPistolUPPFull = разгрузка пулемётчика Тип 92
   .desc = Тип 92 — экспериментальная разгрузка для переноски боеприпасов, выдаваемая пулемётчикам СПН, сочетающая кобуру для пистолета с коробчатыми подсумками для ограниченного хранения.
 
-ent-RMCPouchMagazineUPPFull = подсумок для магазинов
-  .desc = Может вмещать магазины.
+ent-RMCPouchMagazineUPPFull = {ent-RMCPouchMagazine}
+    .desc = {ent-RMCPouchMagazine.desc}
+    .suffix = Полный, ГРОМ, АГ80
 
 ent-RMCHeadsetGROM = гарнитура ССО СПН
   .desc = Выдаётся исключительно силам специального назначения СПН, таким как Kommando Spezialkrafte и ГРОМ.

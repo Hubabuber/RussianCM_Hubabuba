@@ -101,11 +101,8 @@ if (guild == 0)
 await client.LoginAsync(TokenType.Bot, token);
 await client.StartAsync();
 
-await using var db = CreateConfiguredDatabase();
-// await db.Database.MigrateAsync();
-
 var interaction = new InteractionService(client);
-var handler = new CommandHandler(client, new CommandService(), interaction, db, guild);
+var handler = new CommandHandler(client, new CommandService(), interaction, CreateConfiguredDatabase, guild);
 
 AppDomain.CurrentDomain.ProcessExit += (_, _) => Interlocked.Decrement(ref handler.Running);
 

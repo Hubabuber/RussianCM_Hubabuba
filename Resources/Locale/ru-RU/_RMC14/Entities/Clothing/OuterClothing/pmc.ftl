@@ -43,7 +43,22 @@ ent-CMArmorM4PMCLight = лёгкая броня ЧВК M4
 ent-RMCArmorM4PMCNoLight = броня ЧВК M4
     .desc = Модификация стандартной брони M3. Разработана для корпоративных наёмников.
     .suffix = Без фонаря
+ent-CMArmorM4PMC = {ent-RMCArmorM4PMCNoLight}
+    .desc = {ent-RMCArmorM4PMCNoLight.desc}
+    .suffix = Фонарь
+
+ent-CMArmorM4PMHeavy = тяжёлая броня ЧВК M4
+    .desc = Модификация стандартной брони M3. Оснащена дополнительными бронепластинами и ремнями для повышенной защиты.
+    .suffix = Без фонаря
 
 ent-CMArmorM4PMCCommandoSurvivor = повреждённая броня коммандос MY7
     .desc = Модификация бронекостюма ЧВК Ве-Ю. На ней множество царапин и следов кислотного повреждения.
     .suffix = Фонарь
+
+ent-RMCArmorM4PMCBulletProof = пуленепробиваемая броня ЧВК M4
+    .desc = Модификация стандартной брони M3. Этот комплект предназначен исключительно для защиты от пуль.
+    .suffix = Фонарь
+
+ent-RMCArmorM4PMCSynthFilled = {ent-CMArmorM4PMCSynth}
+    .desc = {ent-CMArmorM4PMCSynth.desc}
+    .suffix = Заполнена

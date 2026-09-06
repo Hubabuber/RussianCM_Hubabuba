@@ -12,7 +12,6 @@ public sealed partial class CMUTopDownOrdnanceSystem : EntitySystem
 {
     [Dependency] private AreaSystem _area = default!;
     [Dependency] private SharedMapSystem _map = default!;
-    [Dependency] private IMapManager _mapManager = default!; // RuMC edit
     [Dependency] private ITileDefinitionManager _tile = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private CMUSharedZLevelsSystem _zLevels = default!;
@@ -176,7 +175,7 @@ public sealed partial class CMUTopDownOrdnanceSystem : EntitySystem
 
     public bool IsOpening(MapCoordinates coordinates)
     {
-        if (!_mapManager.TryFindGridAt(coordinates, out var gridUid, out var grid)) // RuMC edit
+        if (!_map.TryFindGridAt(coordinates, out var gridUid, out var grid))
             return true;
 
         var tile = _map.WorldToTile(gridUid, grid, coordinates.Position);

@@ -674,7 +674,7 @@ public abstract partial class SharedRMCPowerSystem : EntitySystem
 
         var addMsg = Loc.GetString("rmc-portable-generator-fuel-add",
             ("amount", amount),
-            ("fuel", ent.Comp.FuelName),
+            ("fuel", Loc.GetString(ent.Comp.FuelName)), // RuMC edit
             ("generator", ent));
         _popup.PopupClient(addMsg, ent, user);
 
@@ -744,7 +744,7 @@ public abstract partial class SharedRMCPowerSystem : EntitySystem
 
             args.PushMarkup(Loc.GetString("rmc-portable-generator-examine-fuel",
                 ("sheets", ent.Comp.Sheets),
-                ("fuel", ent.Comp.FuelName),
+                ("fuel", Loc.GetString(ent.Comp.FuelName)), // RuMC edit
                 ("watts", ent.Comp.Watts)));
 
             if (ent.Comp.CritFail)

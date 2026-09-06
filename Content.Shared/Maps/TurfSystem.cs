@@ -19,7 +19,6 @@ public sealed partial class TurfSystem : EntitySystem
     [Dependency] private EntityLookupSystem _entityLookup = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private SharedMapSystem _mapSystem = default!;
-    [Dependency] private IMapManager _mapManager = default!; // RuMC edit
     [Dependency] private ITileDefinitionManager _tileDefinitions = default!;
 
 
@@ -34,7 +33,7 @@ public sealed partial class TurfSystem : EntitySystem
             return null;
 
         var pos = _transform.ToMapCoordinates(coordinates);
-        if (!_mapManager.TryFindGridAt(pos, out var gridUid, out var gridComp)) // RuMC edit
+        if (!_mapSystem.TryFindGridAt(pos, out var gridUid, out var gridComp))
             return null;
 
         if (!_mapSystem.TryGetTileRef(gridUid, gridComp, coordinates, out var tile))

@@ -163,7 +163,8 @@ public abstract partial class SharedXenoHiveSystem : EntitySystem
             // RuMC edit start
             if (xeno.UnlockAt == TimeSpan.Zero ||
                 prototype.HasComponent<XenoHiddenComponent>(_compFactory) ||
-                prototype.HasComponent<HivelessComponent>(_compFactory))
+                prototype.HasComponent<HivelessComponent>(_compFactory) ||
+                prototype.HideSpawnMenu)
             {
                 continue;
             }

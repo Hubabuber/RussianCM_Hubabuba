@@ -85,6 +85,60 @@
     - RMCAttachmentStock
     - RuMCAttachmentPP13MStockCollapsible
 
+- type: entity
+  parent: RMCAttachmentM54CStockSolid
+  id: RuMCAttachmentFALSniperStock
+  name: R81M1B stock
+  description: A rare stock distributed in small numbers to UNMC forces. Compatible with the M54C, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Stock/rumc_fal_sniper_stock.rsi
+    state: fal_sniper_stock
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - RMCAttachmentStock
+    - RuMCAttachmentFALSniperStock
+  - type: ItemCamouflage
+    camouflageVariations: null
+
+- type: entity
+  parent: RMCAttachmentM54CStockSolid
+  id: RuMCAttachmentFALSAWStock
+  name: R81M1D stock
+  description: A rare stock distributed in small numbers to UNMC forces. Compatible with the M54C, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Stock/rumc_fal_saw_stock.rsi
+    state: fal_saw_stock
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - RMCAttachmentStock
+    - RuMCAttachmentFALSAWStock
+  - type: ItemCamouflage
+    camouflageVariations: null
+
+- type: entity
+  parent: RMCAttachmentM54CStockSolid
+  id: RuMCAttachmentP79Stock
+  name: P79S stock
+  description: A rare stock distributed in small numbers to UNMC forces. Compatible with the M54C, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Stock/rumc_p79_stock.rsi
+    state: p79_stock
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - RMCAttachmentStock
+    - RuMCAttachmentP79Stock
+  - type: ItemCamouflage
+    camouflageVariations: null
+
 - type: Tag
   id: RuMCAttachmentPP13MStockCollapsible
 
@@ -93,3 +147,12 @@
 
 - type: Tag
   id: RuMCAttachmentAK13StockCollapsible
+
+- type: Tag
+  id: RuMCAttachmentFALSniperStock
+
+- type: Tag
+  id: RuMCAttachmentFALSAWStock
+
+- type: Tag
+  id: RuMCAttachmentP79Stock

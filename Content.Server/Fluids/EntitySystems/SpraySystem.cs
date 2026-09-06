@@ -180,6 +180,7 @@ public sealed partial class SpraySystem : EntitySystem
                     // push back the grid the player is standing on
                     var userTransform = Transform(user);
                     if (userTransform.GridUid == userTransform.ParentUid &&
+                        userTransform.GridUid != userTransform.MapUid && // RuMC edit
                         TryComp<PhysicsComponent>(userTransform.GridUid.Value, out var gridBody))
                     {
                         // apply both linear and angular momentum depending on the player position

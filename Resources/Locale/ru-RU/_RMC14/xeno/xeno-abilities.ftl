@@ -392,3 +392,17 @@ rmc-xeno-psychic-message-alien = [color=#921992][font size=14][bold]Вы слы�
 rmc-xeno-psychic-message-order = [color=#921992][font size=14][bold]{$queen} приказывает вам:[/bold] "{$message}"[/font][/color]
 
 rmc-xeno-psychic-message-xeno = [color=#921992][font size=14][bold]Голос {$queen} резонирует в вашей голове:[/bold] "{$message}"[/font][/color]
+
+rmc-xeno-psychic-whisper-message = Прошептать {$target}.
+rmc-xeno-psychic-whisper-sent = Мы шепчем {$target}.
+rmc-xeno-psychic-target-unknown = тому разуму
+rmc-xeno-psychic-radiance-message = Излучить мысленное сообщение.
+rmc-xeno-psychic-radiance-no-targets = Поблизости нет разумов, которым можно излучить сообщение.
+rmc-xeno-psychic-radiance-sent = Мы излучаем свои мысли {$count} ближайшим разумам.
+rmc-xeno-psychic-give-order-message = Отдать приказ {$target}.
+rmc-xeno-psychic-give-order-must-watch = Мы должны наблюдать за сестрой, чтобы отдать приказ.
+rmc-xeno-psychic-give-order-sent = Мы отдаём приказ {$target}.
+rmc-xeno-psychic-target-invalid = Тот разум больше вне нашей досягаемости.
+rmc-xeno-psychic-ghost-whisper = [color=#921992][font size=14][bold]Мысленный шёпот ({$queen} -> {$target}):[/bold] "{$message}"[/font][/color]
+rmc-xeno-psychic-ghost-radiance = [color=#921992][font size=14][bold]Мысленное излучение ({$queen}, получателей: {$count}):[/bold] "{$message}"[/font][/color]
+rmc-xeno-psychic-ghost-order = [color=#921992][font size=14][bold]Мысленный приказ ({$queen} -> {$target}):[/bold] "{$message}"[/font][/color]

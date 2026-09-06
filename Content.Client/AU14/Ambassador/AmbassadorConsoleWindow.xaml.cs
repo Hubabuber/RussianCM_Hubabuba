@@ -17,34 +17,42 @@ public sealed partial class AmbassadorConsoleWindow : DefaultWindow
 
     public void UpdateState(AmbassadorConsoleBuiState s)
     {
-        BudgetLabel.Text = $"Budget: ${s.Budget:F0}";
-        FactionLabel.Text = $"Faction: {s.FactionName}";
+        // RuMC edit start
+        BudgetLabel.Text = Loc.GetString("au14-ambassador-console-budget", ("amount", s.Budget.ToString("F0")));
+        FactionLabel.Text = Loc.GetString("au14-ambassador-console-faction", ("faction", GetLocalizedFactionName(s.FactionName)));
+        // RuMC edit end
 
         // Economy with prices
         EmbargoStatus.Text = s.EmbargoActive
-            ? $"[ACTIVE] Embargo: -20% submission payouts (${s.EmbargoCostPerMinute:F0}/min)"
-            : $"Embargo: Inactive (${s.EmbargoCostPerMinute:F0}/min)";
+            // RuMC edit start
+            ? Loc.GetString("au14-ambassador-console-embargo-active", ("cost", s.EmbargoCostPerMinute.ToString("F0")))
+            : Loc.GetString("au14-ambassador-console-embargo-inactive", ("cost", s.EmbargoCostPerMinute.ToString("F0")));
         TradePactStatus.Text = s.TradePactActive
-            ? $"[ACTIVE] Trade Pact: +20% submission payouts (${s.TradePactCostPerMinute:F0}/min)"
-            : $"Trade Pact: Inactive (${s.TradePactCostPerMinute:F0}/min)";
+            ? Loc.GetString("au14-ambassador-console-trade-pact-active", ("cost", s.TradePactCostPerMinute.ToString("F0")))
+            : Loc.GetString("au14-ambassador-console-trade-pact-inactive", ("cost", s.TradePactCostPerMinute.ToString("F0")));
+            // RuMC edit end
 
         // Comms jam with price
         CommsJamStatus.Text = s.CommsJamActive
-            ? $"[ACTIVE] Comms Jammed - All radio blocked (${s.CommsJamCostPerMinute:F0}/min)"
-            : $"Comms: Normal (${s.CommsJamCostPerMinute:F0}/min)";
+            // RuMC edit start
+            ? Loc.GetString("au14-ambassador-console-comms-jam-active", ("cost", s.CommsJamCostPerMinute.ToString("F0")))
+            : Loc.GetString("au14-ambassador-console-comms-normal", ("cost", s.CommsJamCostPerMinute.ToString("F0")));
+            // RuMC edit end
 
         // Broadcast cost
-        BroadcastCostLabel.Text = $"Broadcast cost: ${s.BroadcastCost:F0} per message";
+        BroadcastCostLabel.Text = Loc.GetString("au14-ambassador-console-broadcast-cost", ("cost", s.BroadcastCost.ToString("F0"))); // RuMC edit
 
         // Signal with prices
-        var signalText = $"Signal: Normal";
-        if (s.SignalBoostActive) signalText = $"[ACTIVE] Signal Boost - Third parties arrive faster (${s.SignalBoostCostPerMinute:F0}/min)";
-        else if (s.SignalJamActive) signalText = $"[ACTIVE] Signal Jam - Third parties arrive slower (${s.SignalJamCostPerMinute:F0}/min)";
-        else signalText = $"Signal: Normal (Boost: ${s.SignalBoostCostPerMinute:F0}/min | Jam: ${s.SignalJamCostPerMinute:F0}/min)";
+        // RuMC edit start
+        string signalText;
+        if (s.SignalBoostActive) signalText = Loc.GetString("au14-ambassador-console-signal-boost-active", ("cost", s.SignalBoostCostPerMinute.ToString("F0")));
+        else if (s.SignalJamActive) signalText = Loc.GetString("au14-ambassador-console-signal-jam-active", ("cost", s.SignalJamCostPerMinute.ToString("F0")));
+        else signalText = Loc.GetString("au14-ambassador-console-signal-normal", ("boost", s.SignalBoostCostPerMinute.ToString("F0")), ("jam", s.SignalJamCostPerMinute.ToString("F0")));
+        // RuMC edit end
         SignalStatus.Text = signalText;
 
         // Radar scan button with price
-        ScanRadarBtn.Text = $"Scan Radar (${s.RadarScanCost:F0})";
+        ScanRadarBtn.Text = Loc.GetString("au14-ambassador-console-scan-radar", ("cost", s.RadarScanCost.ToString("F0"))); // RuMC edit
 
         // Economy status
         UpdateEconomyStatus(s.EconomyStatus);
@@ -53,13 +61,13 @@ public sealed partial class AmbassadorConsoleWindow : DefaultWindow
         RadarList.RemoveAllChildren();
         if (s.RadarList.Count == 0)
         {
-            RadarList.AddChild(new Label { Text = "No scan data. Press 'Scan Radar' to detect incoming shuttles." });
+            RadarList.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-no-scan-data") }); // RuMC edit
         }
         else
         {
             foreach (var name in s.RadarList)
             {
-                RadarList.AddChild(new Label { Text = $"• {name}" });
+                RadarList.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-radar-entry", ("name", name)) }); // RuMC edit
             }
         }
     }
@@ -67,18 +75,28 @@ public sealed partial class AmbassadorConsoleWindow : DefaultWindow
     private void UpdateEconomyStatus(EconomyStatusState econ)
     {
         EconomyStatusPanel.RemoveAllChildren();
-        EconomyStatusPanel.AddChild(new Label { Text = $"Sales Tax: {econ.SalesTaxPercent:F0}%" });
-        EconomyStatusPanel.AddChild(new Label { Text = $"Income Tax: {econ.IncomeTaxPercent:F0}%" });
-        EconomyStatusPanel.AddChild(new Label { Text = $"Transit Tariff: {econ.TransitTariffPercent:F0}%" });
+        // RuMC edit start
+        EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-sales-tax", ("percent", econ.SalesTaxPercent.ToString("F0"))) });
+        EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-income-tax", ("percent", econ.IncomeTaxPercent.ToString("F0"))) });
+        EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-transit-tariff", ("percent", econ.TransitTariffPercent.ToString("F0"))) });
+        // RuMC edit end
 
         if (econ.ActiveEmbargoes.Count > 0)
-            EconomyStatusPanel.AddChild(new Label { Text = $"Active Embargoes: {string.Join(", ", econ.ActiveEmbargoes)}", StyleClasses = { "Caution" } });
+            EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-active-embargoes", ("list", string.Join(", ", econ.ActiveEmbargoes))), StyleClasses = { "Caution" } }); // RuMC edit
         else
-            EconomyStatusPanel.AddChild(new Label { Text = "Embargoes: None", StyleClasses = { "LabelSubText" } });
+            EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-embargoes-none"), StyleClasses = { "LabelSubText" } }); // RuMC edit
 
         if (econ.ActiveTradePacts.Count > 0)
-            EconomyStatusPanel.AddChild(new Label { Text = $"Active Trade Pacts: {string.Join(", ", econ.ActiveTradePacts)}" });
+            EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-active-trade-pacts", ("list", string.Join(", ", econ.ActiveTradePacts))) }); // RuMC edit
         else
-            EconomyStatusPanel.AddChild(new Label { Text = "Trade Pacts: None", StyleClasses = { "LabelSubText" } });
+            EconomyStatusPanel.AddChild(new Label { Text = Loc.GetString("au14-ambassador-console-trade-pacts-none"), StyleClasses = { "LabelSubText" } }); // RuMC edit
     }
+
+    // RuMC edit start
+    private static string GetLocalizedFactionName(string factionName)
+    {
+        var key = $"au14-ambassador-console-faction-name-{factionName.ToLower().Replace(" ", "-")}";
+        return Loc.TryGetString(key, out var localized) ? localized : factionName;
+    }
+    // RuMC edit end
 }

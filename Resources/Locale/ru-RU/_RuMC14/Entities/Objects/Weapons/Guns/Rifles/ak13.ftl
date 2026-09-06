@@ -1,0 +1,12 @@
+ent-RuMCWeaponRifleAK13 = штурмовая винтовка АК-13
+    .desc = Винтовка СПН, разработанная для передовых штурмовых подразделений. Использует патроны 10x24мм.
+    .suffix = РуМС
+ent-RuMCWeaponRifleAK13Tactical = {ent-RuMCWeaponRifleAK13}
+    .desc = {ent-RuMCWeaponRifleAK13.desc}
+    .suffix = Тактикульная, РуМС
+ent-RuMCWeaponRifleAK13Tactical_alt1 = {ent-RuMCWeaponRifleAK13}
+    .desc = {ent-RuMCWeaponRifleAK13.desc}
+    .suffix = Тактикульная, РуМС
+ent-RuMCWeaponRifleAK13Tactical_alt2 = {ent-RuMCWeaponRifleAK13}
+    .desc = {ent-RuMCWeaponRifleAK13.desc}
+    .suffix = Тактикульная, РуМС

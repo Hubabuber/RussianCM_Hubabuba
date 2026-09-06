@@ -1,0 +1,324 @@
+- type: entity
+  parent: CMMobHuman
+  id: RuMCBaseMobSpeciesOrganicBlackDragoons
+  suffix: RuMC, BD
+  abstract: true
+  components:
+  - type: GhostTakeoverAvailable
+  - type: RandomHumanoidAppearance
+  - type: RandomHumanoidAppearanceWhitelisted
+    allowedMaleHairStyles:
+    - RMCHumanHairCrew
+    - RMCHumanHairAviator
+    - RMCHumanHairJensen
+    - RMCHumanHairAverageJoe
+    - AU14HumanHairCIA5
+    - RMCHumanHairCombover
+    - RMCHumanHairCombover2
+    - RMCHumanHairCplDietrich
+    - RMCHumanHairCut
+    - RMCHumanHairHeadStubble
+    - RMCHumanHairHighAndTight
+    - RMCHumanHairHighfade
+    - RMCHumanHairHighlight
+    - AU14HumanHairIRS
+    - RMCHumanHairLtRasczak
+    - RMCHumanHairMarineFade
+    - RMCHumanHairMarineFlatTop
+    - RMCHumanHairMedfade
+    - RMCHumanHairNofade
+    - RMCHumanHairShavedpart
+    - RMCHumanHairShavedHead
+    - RMCHumanHairShort
+    - RMCHumanHairSideUndercutHang
+    - RMCHumanHairSkinhead
+    - RMCHumanHairTaper
+    - RMCHumanHairWardaddy
+    - RMCHumanHairUndercut
+    - RMCHumanHairUndercutTop
+    allowedFemaleHairStyles:
+    - RMCHumanHairShortbangs
+    - RMCHumanHairBobcurl
+    - RMCHumanHairMarineBun
+    - RMCHumanHairBun
+    - RMCHumanHairFringetail
+    - AU14HumanHairLowBun
+    - AU14HumanHairLowPonyTail
+    - AU14HumanHairLowPonyTailAlt
+    - RMCHumanHairPonytail1
+    - RMCHumanHairPonytail7
+    - RMCHumanHairPvtRedding
+    - RMCHumanHairPvtVasquez
+    - RMCHumanHairLong
+    - RMCHumanHairPixieCutLeft
+    - RMCHumanHairPixieCutRight
+    allowedHairColorsHex:
+    - "#0B0B0B"
+    - "#1A1A1A"
+    - "#222222"
+    - "#2B1B0F"
+    - "#3B2314"
+    - "#4A2E1A"
+    - "#5A3A22"
+    - "#6B4A2F"
+    - "#9C8651"
+    - "#B79A5A"
+    - "#4A1F12"
+    - "#7A5E42"
+    allowedEyeColorsHex: [ "#000000" ]
+    beardChance: 0.1
+
+# Equipment
+
+- type: entity
+  parent: RMCPouchGeneralMedium
+  id: RuMCPouchPistolB92
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCWeaponPistolB92FS
+
+- type: entity
+  parent: RMCPouchMagazineLarge
+  id: RuMCPouchMagazineLargeFN
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineSMGFP9000
+      amount: 4
+
+- type: entity
+  parent: RMCPouchMagazinePistol
+  id: RuMCPouchMagazinePistolB92
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazinePistolB92FS
+      amount: 4
+
+- type: entity
+  parent: RuMCBlackDragoonsHelmet
+  id: RuMCBlackDragoonsHelmetBulwark
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCVisorSWAT
+
+- type: entity
+  parent: RMCHeadsetMarine
+  id: RuMCHeadsetBD
+  name: mercenary headset
+  description: A civilian commercial headset, modified to work as a military one.
+  suffix: RuMC, BlackDragoons
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/headsets.rsi
+    state: soc_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyColony
+  - type: RMCHeadset
+    channels:
+    - TWESOF
+  - type: GrantSquadLeaderTracker
+    defaultMode: SquadLeader
+    trackerModes:
+    - SquadLeader
+    - BattleBuddy
+    - PrimaryLandingZone
+
+- type: startingGear
+  id: RuMCGearBDGruntsbase
+  equipment:
+    ears: RuMCHeadsetBD
+    head: RuMCBlackDragoonsCap
+    pocket1: RuMCPouchPistolB92
+    pocket2: RuMCPouchMagazinePistolB92
+    back: RMCSatchelLightpackBlack5Slot
+    shoes: CMBootsBlackFilled
+    ears2: RMCM5CameraGear
+
+- type: entity
+  parent: AU14WebbingDropPouch
+  id: RuMCWebbingDropPouchFill
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMTricordrazineAutoInjector
+    - id: AU14TramadolAutoInjector
+    - id: CMOintment10
+    - id: AU14HemostaticGauze
+
+- type: entity
+  parent: AU14CivilianBoilerSuitDarkBlue
+  id: RuMCCivilianBoilerSuitDarkBlueFilled
+  components:
+  - type: WebbingClothing
+    startingWebbing: RuMCWebbingDropPouchFill
+
+- type: entity
+  parent: RuMCCivilianBoilerSuitDarkBlueFilled
+  id: RuMCCivilianBoilerSuitDarkBlueFilledLeader
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCRedArmband
+
+- type: entity
+  parent: RuMCCivilianBoilerSuitDarkBlueFilled
+  id: RuMCCivilianBoilerSuitDarkBlueFilledEngi
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCEngiArmband
+
+- type: entity
+  parent: AU14CivilianBoilerSuitDarkBlue
+  id: RuMCCivilianBoilerSuitDarkBlueSurgFilled
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingSurgicalRCMFilled
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCMedArmband
+
+- type: entity
+  parent: AU14CivilianBoilerSuitDarkBlue
+  id: RuMCCivilianBoilerSuitDarkBlueSurgSentFilled
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingSurgicalRCMFilled
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCMedEMTArmband
+
+- type: startingGear
+  id: RuMCGearBlackDragoonsSentinelBase
+  equipment:
+    ears: RuMCHeadsetBD
+    mask: RMCMaskBalaclava
+    pocket1: RuMCPouchPistolB92
+    pocket2: RuMCPouchMagazinePistolB92
+    back: RMCSatchelLightpackBlack5Slot
+    shoes: CMBootsBlackFilled
+    ears2: RMCM5CameraGear
+
+- type: startingGear
+  id: RuMCGearBulwarkBase
+  equipment:
+    outerClothing: RuMCArmorBDHeavy
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilled
+    mask: RMCMaskBalaclavaSkullBlue
+    pocket1: RMCPouchExplosiveFilledPlasticExplosives
+    pocket2: AU14PouchIFAKFill
+    back: RMCSatchelLightpackBlack
+    gloves: RMCHandsVeteran
+    ears2: RMCM5CameraGear
+    ears: RuMCHeadsetBD
+    shoes: CMBootsBlackFilled
+    head: RuMCBlackDragoonsHelmetBulwark
+
+- type: entity
+  parent: RMCBeltRCM
+  id: RuMCBeltMagazineFALBDFull
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: RuMCMagazineFAL
+      amount: 4
+    - id: RuMCMagazineFALAP
+
+- type: entity
+  parent: RMCBeltRCM
+  id: RuMCBeltMagazineFALAPFull
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: RuMCMagazineFALAP
+      amount: 5
+
+- type: entity
+  parent: RMCBeltRCM
+  id: RuMCBeltMagazineFNBDFull
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineSMGFP9000
+      amount: 5
+
+- type: entity
+  parent: AU14ShotgunShellLoadingRigRMC
+  id: RuMCBeltShotgunBDFull
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCShellShotgunHeavySlugs
+      amount: 7
+    - id: RMCShellShotgunHeavyBuckshot
+      amount: 7
+
+- type: entity
+  parent: AU14BeltMedicBagRMC
+  id: RuMCBeltMedicBDFull
+  suffix: RuMC, FULL, BD
+  components:
+  - type: StorageFill
+    contents:
+    - id: AU14PillCanisterDermaline
+    - id: AU14PillCanisterMeralyne
+    - id: RMCPillCanisterIron
+    - id: CMPillCanisterDylovene
+    - id: AU14PillCanisterOxycodone
+    - id: AU14PillCanisterImidazoline
+    - id: AU14PillCanisterOsteoCalc
+    - id: AU14PillCanisterTramadol
+    - id: CMDexalinPlusAutoInjector
+      amount: 2
+    - id: CMEpinephrineAutoInjector
+      amount: 2
+    - id: AU14NaloxoneAutoInjector
+    - id: CMUSplintItem
+      amount: 2
+    - id: CMHealthAnalyzer
+    - id: CMPortableSurgicalBedSpawnFolded
+    - id: CMBloodPackFull
+      amount: 2
+
+#reandom preset
+
+- type: entity
+  id: RuMCBDSentinelPreset
+  name: PMC Black Dragoons Sentinel preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomGearOther:
+    -
+      - [ RuMCBlackDragoonsHelmet ]
+      - [ RuMCBlackDragoonsCap ]
+    randomWeapon:
+    - [ RuMCRifleFALShort, RuMCBeltMagazineFALBDFull, ]
+    - [ RuMCRifleFAL, RuMCBeltMagazineFALBDFull, ]
+    - [ RuMCWeaponSMGFP9000Tac, RuMCBeltMagazineFNBDFull, ]
+    tryEquipRandomWeapon: true
+
+- type: entity
+  id: RuMCBDPreset
+  name: PMC Black Dragoons preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomGearOther:
+    -
+      - [ RuMCBlackDragoonsHelmet ]
+      - [ RuMCBlackDragoonsCap ]

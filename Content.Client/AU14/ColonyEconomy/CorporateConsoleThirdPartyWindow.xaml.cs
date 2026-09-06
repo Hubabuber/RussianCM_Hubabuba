@@ -82,9 +82,12 @@ public sealed partial class CorporateConsoleThirdPartyWindow : DefaultWindow
             {
                 var id = _thirdPartyIds[i];
                 var info = s.CallableParties[id];
+                var name = Loc.GetString(info.DisplayName); // RuMC edit
                 var label = _calledParties.Contains(id)
-                    ? Loc.GetString("corporate-console-third-party-item-called", ("name", info.DisplayName), ("cost", info.Cost))
-                    : Loc.GetString("corporate-console-third-party-item", ("name", info.DisplayName), ("cost", info.Cost));
+                // RuMC edit start
+                    ? Loc.GetString("corporate-console-third-party-item-called", ("name", name), ("cost", info.Cost))
+                    : Loc.GetString("corporate-console-third-party-item", ("name", name), ("cost", info.Cost));
+                // RuMC edit end
 
                 ThirdPartyList.Add(new ItemList.Item(ThirdPartyList)
                 {

@@ -40,14 +40,14 @@ public sealed partial class AdminConsoleThirdPartyWindow : DefaultWindow
                 !_calledParties.Contains(id))
             {
                 OnCallThirdParty?.Invoke(id);
-                StatusLabel.Text = "Requesting support...";
+                StatusLabel.Text = Loc.GetString("admin-console-third-party-requesting"); // RuMC edit
             }
         };
     }
 
     public void UpdateState(AdminConsoleThirdPartyBuiState s)
     {
-        BudgetLabel.Text = $"Colony Budget: ${s.Budget:F0}";
+        BudgetLabel.Text = Loc.GetString("admin-console-third-party-budget", ("amount", s.Budget.ToString("F0"))); // RuMC edit
 
         var newIds = s.CallableParties.Keys.ToList();
         var changed = !_thirdPartyIds.SequenceEqual(newIds) || !_calledParties.SetEquals(s.CalledParties);
@@ -64,9 +64,9 @@ public sealed partial class AdminConsoleThirdPartyWindow : DefaultWindow
 
             if (_thirdPartyIds.Count == 0)
             {
-                StatusLabel.Text = "No third parties available.";
+                StatusLabel.Text = Loc.GetString("admin-console-third-party-none"); // RuMC edit
                 SelectThirdParty(null);
-                CostLabel.Text = "Cost: N/A";
+                CostLabel.Text = Loc.GetString("admin-console-third-party-cost-na"); // RuMC edit
                 return;
             }
 
@@ -76,9 +76,12 @@ public sealed partial class AdminConsoleThirdPartyWindow : DefaultWindow
             {
                 var id = _thirdPartyIds[i];
                 var info = s.CallableParties[id];
+                var name = Loc.GetString(info.DisplayName); // RuMC edit
                 var label = _calledParties.Contains(id)
-                    ? $"{info.DisplayName} - ${info.Cost:F0} [CALLED]"
-                    : $"{info.DisplayName} - ${info.Cost:F0}";
+                // RuMC edit start
+                    ? Loc.GetString("admin-console-third-party-item-called", ("name", name), ("cost", info.Cost.ToString("F0")))
+                    : Loc.GetString("admin-console-third-party-item", ("name", name), ("cost", info.Cost.ToString("F0")));
+                // RuMC edit end
 
                 ThirdPartyList.Add(new ItemList.Item(ThirdPartyList)
                 {
@@ -107,12 +110,16 @@ public sealed partial class AdminConsoleThirdPartyWindow : DefaultWindow
 
         if (id == null || !_thirdParties.TryGetValue(id, out var info))
         {
-            CostLabel.Text = _thirdPartyIds.Count == 0 ? "Cost: N/A" : "Cost: $0";
+            // RuMC edit start
+            CostLabel.Text = _thirdPartyIds.Count == 0
+                ? Loc.GetString("admin-console-third-party-cost-na")
+                : Loc.GetString("admin-console-third-party-cost", ("cost", "0"));
+            // RuMC edit end
             CallBtn.Disabled = true;
             return;
         }
 
-        CostLabel.Text = $"Cost: ${info.Cost:F0}";
+        CostLabel.Text = Loc.GetString("admin-console-third-party-cost", ("cost", info.Cost.ToString("F0"))); // RuMC edit
         CallBtn.Disabled = _calledParties.Contains(id);
     }
 }

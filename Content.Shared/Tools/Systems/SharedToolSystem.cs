@@ -27,7 +27,6 @@ public abstract partial class SharedToolSystem : EntitySystem
     [Dependency] protected SharedInteractionSystem InteractionSystem = default!;
     [Dependency] protected ItemToggleSystem ItemToggle = default!;
     [Dependency] private   SharedMapSystem _maps = default!;
-    [Dependency] private   IMapManager _mapManager = default!; // RuMC edit
     [Dependency] private   SharedPopupSystem _popup = default!;
     [Dependency] protected SharedSolutionContainerSystem SolutionContainerSystem = default!;
     [Dependency] private   SharedTransformSystem _transformSystem = default!;

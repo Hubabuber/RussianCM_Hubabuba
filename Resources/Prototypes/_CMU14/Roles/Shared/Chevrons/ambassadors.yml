@@ -1,0 +1,719 @@
+### Base
+- type: entity
+  parent: RMCArmbandBase
+  id: RUMC14ChevronAmbassadorsBase
+  abstract: true
+  suffix: Consolate Rank Chevron
+  description: Diplomatic mission rank chevron. Peace through words.
+
+### UPP
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPAmbassador
+  name: UPP ambassador chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPAmbassador
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPEnvoy1
+  name: UPP envoy 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPEnvoy1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPEnvoy2
+  name: UPP envoy 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPEnvoy2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPCounselor1
+  name: UPP counselor 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPCounselor1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPCounselor2
+  name: UPP counselor 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPCounselor2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPFirstSecretary1
+  name: UPP first secretary 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_officer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_officer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPFirstSecretary1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPFirstSecretary2
+  name: UPP first secretary 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_officer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_officer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPFirstSecretary2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPSecondSecretary1
+  name: UPP second secretary 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPSecondSecretary1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPSecondSecretary2
+  name: UPP second secretary 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPSecondSecretary2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPThirdSecretary
+  name: UPP third secretary chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPThirdSecretary
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUPPAttache
+  name: UPP attache chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_nco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_nco
+  - type: RankChanger
+    rank: RUMC14RankCounselateUPPAttache
+    override: true
+
+## UA
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUAAmbassador
+  name: UA ambassador chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUAAmbassador
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUAEnvoy1
+  name: UA envoy 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUAEnvoy1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUAEnvoy2
+  name: UA envoy 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUAEnvoy2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUACounselor1
+  name: UA counselor 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUACounselor1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUACounselor2
+  name: UA counselor 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUACounselor2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUAFirstSecretary1
+  name: UA first secretary 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_officer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_officer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUAFirstSecretary1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUAFirstSecretary2
+  name: UA first secretary 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_officer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_officer
+  - type: RankChanger
+    rank: RUMC14RankCounselateUAFirstSecretary2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUASecondSecretary1
+  name: UA second secretary 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateUASecondSecretary1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUASecondSecretary2
+  name: UA second secretary 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateUASecondSecretary2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUAThirdSecretary
+  name: UA third secretary chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateUAThirdSecretary
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateUAAttache
+  name: UA attache chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_nco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_nco
+  - type: RankChanger
+    rank: RUMC14RankCounselateUAAttache
+    override: true
+
+## TWE
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWEAmbassador
+  name: TWE ambassador chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWEAmbassador
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWEEnvoy1
+  name: TWE envoy 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWEEnvoy1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWEEnvoy2
+  name: TWE envoy 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWEEnvoy2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWECounselor1
+  name: TWE counselor 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWECounselor1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWECounselor2
+  name: TWE counselor 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWECounselor2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWEFirstSecretary1
+  name: TWE first secretary 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_officer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_officer
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWEFirstSecretary1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWEFirstSecretary2
+  name: TWE first secretary 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_officer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_officer
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWEFirstSecretary2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWESecondSecretary1
+  name: TWE second secretary 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWESecondSecretary1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWESecondSecretary2
+  name: TWE second secretary 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWESecondSecretary2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWEThirdSecretary
+  name: TWE third secretary chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWEThirdSecretary
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateTWEAttache
+  name: TWE attache chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_nco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_nco
+  - type: RankChanger
+    rank: RUMC14RankCounselateTWEAttache
+    override: true
+
+### Common
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonAmbassador
+  name: Common ambassador chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonAmbassador
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonEnvoy1
+  name: Common envoy 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonEnvoy1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonEnvoy2
+  name: Common envoy 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonEnvoy2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonCounselor1
+  name: Common counselor 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonCounselor1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonCounselor2
+  name: Common counselor 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_pvstofficer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_pvstofficer
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonCounselor2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonFirstSecretary1
+  name: Common first secretary 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_officer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_officer
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonFirstSecretary1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonFirstSecretary2
+  name: Common first secretary 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_officer
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_officer
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonFirstSecretary2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonSecondSecretary1
+  name: Common second secretary 1st class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonSecondSecretary1
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonSecondSecretary2
+  name: Common second secretary 2nd class chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonSecondSecretary2
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonThirdSecretary
+  name: Common third secretary chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_snco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_snco
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonThirdSecretary
+    override: true
+
+- type: entity
+  parent: RUMC14ChevronAmbassadorsBase
+  id: RUMC14RankChevronCounselateCommonAttache
+  name: Common attache chevron
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+    state: ranks_nco
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
+      state: equipped-ranks_nco
+  - type: RankChanger
+    rank: RUMC14RankCounselateCommonAttache
+    override: true

@@ -61,3 +61,11 @@ ent-RMCMatebaCustomizationCaseLuxury = роскошный кейс для кас
 
 ent-RMCMatebaCustomizationCase = кейс для кастомизации Матебы
     .desc = Кейс, который хранит необходимые вещи для модификации авторевольвера Матеба.
+
+ent-RMCMatebaCustomizationCaseWeapon = {ent-RMCMatebaCustomizationCase}
+    .desc = Деревянный кейс для хранения инструментов и деталей, необходимых для кастомизации револьвера Матеба. Включает три ствола разной длины, необходимый ключ для их замены и сам револьвер.
+    .suffix = Заполнен, Матеба
+
+ent-RMCMatebaCustomizationCaseLuxuryWeapon = {ent-RMCMatebaCustomizationCase}
+    .desc = Чёрный кейс для хранения инструментов и деталей, необходимых для кастомизации револьвера Матеба. Этот вариант создан для золотой версии револьвера.
+    .suffix = Заполнен, Матеба

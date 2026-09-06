@@ -1,0 +1,89 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsBulwarkRifleman
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsBulwarkRifleman
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 3
+      RMCSkillEngineer: 2
+      RMCSkillConstruction: 2
+      RMCSkillFirearms: 2
+      RMCSkillPolice: 2
+      RMCSkillFireman: 3
+      RMCSkillEndurance: 3
+      RMCSkillJtac: 1
+      RMCSkillMedical: 1
+  - type: JobPrefix
+    prefix: Rifleman
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Bulwark Rifleman
+  description: Black Dragoons Bulwark Rifleman
+  playTimeTracker: RuMCJobBlackDragoonsBulwarkRifleman
+  ranks:
+    RuMCRankSeniorContractor: []
+  spawnMenuRoleName: Black Dragoons Bulwark Rifleman
+  startingGear: RuMCGearBlackDragoonsBulwarkRifleman
+  greeting: You are a senior contractor of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsBulwarkRifleman
+  name: Black Dragoons Bulwark Rifleman
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Bulwark Rifleman
+    description: You are a rifleman with the "Black Dragoons" PMC. You are a senior contractor for the company's heavy assault and counter-insurgency force.
+    job: RuMCBlackDragoonsBulwarkRifleman
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBulwarkBase
+  id: RuMCGearBlackDragoonsBulwarkRifleman
+  equipment:
+    id: RuCMIDCardBlackDragoonsBulwarkRifleman
+    belt: RuMCBeltMagazineFALAPFull
+    suitstorage: RuMCRifleFALTactical
+  storage:
+    back:
+    - AU14MRETWERMC
+    - CMCanteen
+    - AU14PacketGrenadeFragM12Filled
+    - AU14PacketGrenadeTearGasFilled
+    - CMEntrenchingTool
+    - CMStunbaton
+    - RMCBoxZiptie
+    outerClothing:
+    - RMCRangefinder
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsBulwarkRifleman

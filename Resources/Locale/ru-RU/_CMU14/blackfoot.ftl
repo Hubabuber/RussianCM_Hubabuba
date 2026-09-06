@@ -212,8 +212,14 @@ ent-CMUBlackfootFuelPump = топливный насос Чёрноступа
 ent-CMUBlackfootLandingPadFoldedProp = сложенная посадочная площадка Чёрноступа
     .desc = Компактная площадка, готовая к операциям поддержки Чёрноступа.
 
-ent-CMUBlackfootLandingPadLight = посадочный огонь Чёрноступ
+ent-CMUBlackfootLandingPadLight = посадочный огонь Чёрноступа
     .desc = Низкопрофильный направляющий огонь посадочной площадки.
+ent-CMUBlackfootLandingPadLightOn = {ent-CMUBlackfootLandingPadLight}
+    .desc = {ent-CMUBlackfootLandingPadLight.desc}
+    .suffix = Включён
+
+ent-VehicleBlackfootSensorArray = сенсорный массив Чёрноступа
+    .desc = Комплект сенсоров для разведывательного варианта Чёрноступа.
 
 ent-CMUBlackfootFuelPumpCrate = кейс топливного насоса Чёрноступа
     .desc = Упакованный топливный насос Чёрноступ.

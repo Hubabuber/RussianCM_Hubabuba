@@ -386,33 +386,29 @@ public abstract partial class SharedFishingSystem : EntitySystem
 
         _popup.PopupPredicted(Loc.GetString("fishing-rod-remove-lure", ("ent", Name(uid))), uid, uid);
 
-        if (!TryGetFishingLure(component.FishingLure, out var lure))
-        {
-            StopFishing(ent, player);
-            args.Handled = true;
-            return;
-        }
-
-        if (lure.Comp.AttachedEntity is { } attachedEnt &&
-            attachedEnt.IsValid() &&
-            Exists(attachedEnt) &&
-            !IsVehicleTarget(attachedEnt))
-        {
-            // TODO: so this kinda just lets you pull anything right up to you, it should instead just apply an impulse in your direction modfiied by the weight of the player vs the object
-            // Also we need to autoreel/snap the line if the player gets too far away
-            // Also we should probably PVS override the lure if the rod is in PVS, and vice versa to stop the joint visuals from popping in/out
-            var targetCoords = Xform.GetMapCoordinates(Transform(attachedEnt));
-            var playerCoords = Xform.GetMapCoordinates(Transform(player));
-            var rand = new RobustRandom(); // evil random prediction hack
-            rand.SetSeed((int) Timing.CurTick.Value);
-
-            // Calculate throw direction
-            var multiplier = 0.2f + rand.NextFloat() * (0.85f - 0.2f);
-            var direction = (playerCoords.Position - targetCoords.Position) * multiplier;
-
-            // Yeet
-            Throwing.TryThrow(attachedEnt, direction, 4f, player);
-        }
+        // RuMC comm start
+        // if (TryGetFishingLure(component.FishingLure, out var lure) &&
+        //     lure.Comp.AttachedEntity is { } attachedEnt &&
+        //     attachedEnt.IsValid() &&
+        //     Exists(attachedEnt) &&
+        //     !IsVehicleTarget(attachedEnt))
+        // {
+        //     // TODO: so this kinda just lets you pull anything right up to you, it should instead just apply an impulse in your direction modfiied by the weight of the player vs the object
+        //     // Also we need to autoreel/snap the line if the player gets too far away
+        //     // Also we should probably PVS override the lure if the rod is in PVS, and vice versa to stop the joint visuals from popping in/out
+        //     var targetCoords = Xform.GetMapCoordinates(Transform(attachedEnt));
+        //     var playerCoords = Xform.GetMapCoordinates(Transform(player));
+        //     var rand = new RobustRandom(); // evil random prediction hack
+        //     rand.SetSeed((int) Timing.CurTick.Value);
+        //
+        //     // Calculate throw direction
+        //     var multiplier = 0.2f + rand.NextFloat() * (0.85f - 0.2f);
+        //     var direction = (playerCoords.Position - targetCoords.Position) * multiplier;
+        //
+        //     // Yeet
+        //     Throwing.TryThrow(attachedEnt, direction, 4f, player);
+        // }
+        // RuMC comm end
 
         StopFishing(ent, player);
         args.Handled = true;

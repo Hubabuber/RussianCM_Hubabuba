@@ -10,4 +10,7 @@ cmu14-walker-death-reviving = Your mycelial bonds hold. You will rise again...
 cmu14-walker-permanent-death = The mycelial bonds snap. You are truly dead.
 cmu14-walker-rise = You rise again, bound to the mycelium!
 
-cmu14-walker-examine-fungal-growth = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-HAVE($user) } a thick fungal growth pulsing on { POSS-ADJ($user) } head.
+cmu14-walker-examine-fungal-growth = {CAPITALIZE(SUBJECT($user))} {CONJUGATE-HAVE($user)} a thick fungal growth pulsing on {POSS-ADJ($user)} head.
+
+cmu14-walker-revive-warning-title = Revival Imminent
+cmu14-walker-revive-warning-body = Your mycelial bonds tighten... You will rise again in {$seconds} seconds.

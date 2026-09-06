@@ -7,8 +7,8 @@ public static class AdminOOCColorResolver
 {
     public static Color? Resolve(AdminData? admin, PlayerPreferences? preferences)
     {
-        if (admin?.OOCColor is { } groupColor && Color.TryFromHex(groupColor) is { } parsedGroupColor)
-            return parsedGroupColor;
+        if (admin?.OOCColor is { } groupColor && Color.TryFromHex(groupColor, out var t))
+            return t;
 
         if (admin?.HasFlag(AdminFlags.NameColor) == true)
             return preferences?.AdminOOCColor;

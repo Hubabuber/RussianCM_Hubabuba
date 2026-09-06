@@ -1,0 +1,19 @@
+ent-RMCPropTyrargoVehicleVTOL = {ent-VehicleBlackfootBase}
+    .desc = {ent-VehicleBlackfootBase.desc}
+    .suffix = Проп
+ent-RMCPropTyrargoVehicleVTOLCrashed = {ent-VehicleBlackfootBase}
+    .desc = {ent-VehicleBlackfootBase.desc}
+    .suffix = Проп, Разбит
+
+ent-RMCPropTyrargoVehicleATV = автоматизированное транспортное средство «Бизон»
+    .desc = Дистанционно управляемый логистический транспорт для КМП.
+    .suffix = Проп
+ent-RMCPropTyrargoVehicleATVDestroyed = {ent-RMCPropTyrargoVehicleATV}
+    .desc = {ent-RMCPropTyrargoVehicleATV.desc}
+    .suffix = Проп, Уничтожен
+ent-RMCPropTyrargoVehicleATVOpen = {ent-RMCPropTyrargoVehicleATV}
+    .desc = {ent-RMCPropTyrargoVehicleATV.desc}
+    .suffix = Проп, Открыт
+ent-RMCPropTyrargoVehicleATVOpenDestroyed = {ent-RMCPropTyrargoVehicleATV}
+    .desc = {ent-RMCPropTyrargoVehicleATV.desc}
+    .suffix = Проп, Открыт, Уничтожен

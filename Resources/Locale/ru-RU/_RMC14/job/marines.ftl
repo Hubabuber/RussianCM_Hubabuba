@@ -97,8 +97,8 @@ rmc-job-prefix-pve-forecon-squad-lead = КОФР
 rmc-job-name-weapons-specialist-shotgunner = Оператор тяжёлого дробовика
 rmc-job-prefix-weapons-specialist-shotgunner = ДРБ
 
-rmc-job-name-weapons-specialist-sharp = Оператор ШАРП
-rmc-job-prefix-weapons-specialist-sharp = ШРП
+rmc-job-name-weapons-specialist-sharp = Оператор SHARP
+rmc-job-prefix-weapons-specialist-sharp = Оп. SP
 
 rmc-job-name-weapons-specialist-plasmagunner = Оператор плазменной винтовки
 rmc-job-prefix-weapons-specialist-plasmagunner = ПЛЗ

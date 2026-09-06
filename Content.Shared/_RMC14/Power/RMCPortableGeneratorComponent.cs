@@ -46,7 +46,7 @@ public sealed partial class RMCPortableGeneratorComponent : Component
     public string FuelEntity = "CMSheetPhoron1";
 
     [DataField, AutoNetworkedField]
-    public string FuelName = "phoron";
+    public string FuelName = "rmc-portable-generator-fuel-phoron"; // RuMC edit
 
     [DataField, AutoNetworkedField]
     public float Heat;

@@ -33,7 +33,7 @@
   - type: EquipEntityPreset
     preset: RuMCBEARPreset
   - type: JobPrefix
-    prefix: Commander
+    prefix: au-14-job-prefix-bear-commander
   - type: MarineOrders
   - type: RMCTrackable
   - type: RMCPointing
@@ -57,8 +57,8 @@
     currentLanguage: Russian
     defaultLanguage: Russian
 
-  name: Squad Leader
-  description: SKALA Squad Leader
+  name: rumc-job-name-bear-commander
+  description: rumc-job-callsign-bear-commander-skala
   playTimeTracker: RuMCJobUPPBEARCommander
   ranks:
     RMCRankCivilian: []
@@ -92,7 +92,7 @@
         time: 10800 # 3 hours
   spawnMenuRoleName: SKALA Squad Leader
   startingGear: RuMCGearUPPBEARCommanderSKALA
-  greeting: Вы член секретного спецподразделения ЧВК «Медведи» (BEAR) при СПН! Существование связи между BEAR и СПН строжайше секретно. Никто не должен знать, кто вы и что вы здесь делаете. Вы дружественны к СПН. Враждебны к ЧВК VAI и ЧВК We-Y. Работайте скрытно. Выполняйте задачи. Не оставляйте следов.
+  greeting: rumc-job-greeting-bear
   icon: "RuMCJobIconUPPBEARCommander"
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
@@ -115,8 +115,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: SKALA Squad Leader
-    description:  The squad leader of the BEAR PMC. Responsible for mission execution, team coordination, and on-ground decision-making. Carries secret communication with the UPP. First in battle, last to retreat.
+    name: rumc-job-callsign-bear-commander-skala
+    description: rumc-ghostrole-description-bear-commander
     job: RuMCUPPBEARCommanderSKALA
     raffle:
       settings: short

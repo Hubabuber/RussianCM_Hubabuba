@@ -1,3 +1,6 @@
-ent-AU14JobUPPGROMSupportTech-name = Урист Ц.М. МакХэндс
-ent-AU14IDCardUPPGROMSupportTech-name = ID-карта техника ГРОМ СПН
-ent-AU14IDCardUPPGROMSupportTech-desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.
+ent-AU14JobUPPGROMSupportTech-name = Техник ГРОМ СПН
+
+ent-AU14JobUPPGROMSupportTech = техник ГРОМ СПН
+
+ent-AU14IDCardUPPGROMSupportTech = ID-карта техника ГРОМ СПН
+    .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}

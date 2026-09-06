@@ -34,7 +34,7 @@
       - RMCCartridgeRevolverMatebaHIAP
       - RMCCartridgeRevolverMatebaHighImpact
       - RMCCartridgeRevolverMateba
-    proto: RMCCartridgeRevolverMatebaHighImpact
+    proto: RMCCartridgeRevolverMateba # RuMC edit
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
@@ -181,17 +181,11 @@
   parent: RMCWeaponRevolverMateba
   id: RMCWeaponRevolverMatebaNoStun
   suffix: No Stun
-  components:
-  - type: RevolverAmmoProvider
-    proto: RMCCartridgeRevolverMateba
 
 - type: entity
   parent: RMCWeaponRevolverMatebaSpecial
   id: RMCWeaponRevolverMatebaSpecialNoStun
   suffix: No Stun
-  components:
-  - type: RevolverAmmoProvider
-    proto: RMCCartridgeRevolverMateba
 
 - type: entity
   id: RMCBaseSpeedLoaderMateba

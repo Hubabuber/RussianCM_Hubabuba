@@ -1,3 +1,6 @@
-ent-AU14JobUPPGROMPointman-name = Урист Ц.М. МакХэндс
-ent-AU14IDCardUPPGROMPointman-name = ID-карта щитовика ГРОМ СПН
-ent-AU14IDCardUPPGROMPointman-desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.
+ent-AU14JobUPPGROMPointman-name = Снайпер ГРОМ СПН
+
+ent-AU14JobUPPGROMPointman = штурмовик ГРОМ СПН
+
+ent-AU14IDCardUPPGROMPointman = ID-карта штурмовика ГРОМ СПН
+    .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}

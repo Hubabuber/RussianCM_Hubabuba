@@ -53,3 +53,22 @@
 
 - type: Tag
   id: RuMCSVAROGIntegratedScope
+
+- type: entity
+  parent: RMCAttachmentS84xTelescopicScope
+  id: RuMCFalScope
+  name: ODS R94 telescopic variable scope
+  description: The rifle's about as useful as you are now, you wanker. Put it back on.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Rail/rumc_FAL_rail.rsi
+    state: fal_scope
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - RMCAttachmentRail
+    - RuMCFalScope
+
+- type: Tag
+  id: RuMCFalScope

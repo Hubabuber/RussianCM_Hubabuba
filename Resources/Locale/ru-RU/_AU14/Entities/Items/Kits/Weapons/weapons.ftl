@@ -43,7 +43,7 @@ ent-AU14KitWeaponM20a = кейс для винтовки M20A
 ent-AU14KitWeaponM39 = кейс для пистолета-пулемёта M39
     .desc = Оружейный кейс.
 
-ent-AU14KitWeaponL23 = кейс для винтовки L23
+ent-AU14KitWeaponL23 = кейс для винтовки L24
     .desc = Оружейный кейс.
 
 ent-AU14KitWeaponL54 = кейс для пистолета L54A2

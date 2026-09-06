@@ -1,0 +1,115 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsSynth
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsSynth
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 5
+      RMCSkillEngineer: 4
+      RMCSkillConstruction: 3
+      RMCSkillFirearms: 2
+      RMCSkillOverwatch: 1
+      RMCSkillMedical: 4
+      RMCSkillSurgery: 3
+      RMCSkillResearch: 1
+      RMCSkillMeleeWeapons: 2
+      RMCSkillPilot: 2
+      RMCSkillPolice: 2
+      RMCSkillFireman: 5
+      RMCSkillPowerLoader: 2
+      RMCSkillVehicles: 2
+      RMCSkillJtac: 3
+      RMCSkillIntel: 2
+      RMCSkillDomestics: 2
+      RMCSkillNavigations: 1
+  - type: DemoSpecWhitelist
+  - type: GrenadeSpecWhitelist
+  - type: ScoutWhitelist
+  - type: SniperWhitelist
+  - type: PyroWhitelist
+  - type: JobPrefix
+    prefix: rmc-job-prefix-synth
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_RMC14/Weapons/synthpunch1.ogg
+      params:
+        variation: 0.15
+        volume: -1
+    angle: 30
+    animation: WeaponArcFist
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 35
+  - type: Synth
+
+  name: Synth
+  description: Black Dragoons Synth
+  playTimeTracker: RuMCJobBlackDragoonsSynth
+  whitelisted: true
+  whitelistParent: RMCWhitelistMedium
+  ranks:
+    RMCRankSyntheticColonist: []
+  spawnMenuRoleName: Black Dragoons Synth
+  startingGear: RuMCGearBlackDragoonsSynth
+  greeting: You are a member of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsSynth
+  name: Black Dragoons Synth
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Synth
+    description: You are a "Black Dragoons" PMC synthetic. As a synthetic operative for the PMC, assist your squad in achieving its objective.
+    job: RuMCBlackDragoonsSynth
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBlackDragoonsSentinelBase
+  id: RuMCGearBlackDragoonsSynth
+  equipment:
+    id: RuCMIDCardBlackDragoonsSynth
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueSurgSentFilled
+    gloves: RMCHandsVeteran
+    head: RuMCHeadBeretSSO
+    outerClothing: RMCHazardVestBlue
+    back: RMCSatchelMedicpack
+    belt: RuMCBeltMedicBDFull
+    pocket1: AU14PouchToolsFilledSupportSynthetic
+    pocket2: RMCPouchMedkitFillAdvanced
+  storage:
+    back:
+    - CMAdvFirstAidKitFilled
+    - AU14CMDefibrillator
+    - RMCSynthResetKey
+    - CMScalpelManager
+    - RMCPortableDialysis
+    - CMSheetMetal50
+    - CMSheetMetal50
+    - CMSheetPlasteel50
+    - AU14IVFoldableFolded
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsSynth

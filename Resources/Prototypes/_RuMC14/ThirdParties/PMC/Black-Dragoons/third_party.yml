@@ -1,0 +1,78 @@
+- type: partySpawn
+  id: BulwarkSpawn
+  leadersToSpawn:
+    RuMCJobBlackDragoonsSupervisor: 1
+  gruntsToSpawn:
+    RuMCJobBlackDragoonsBulwarkBreacher: 1
+    RuMCJobBlackDragoonsBulwarkRifleman: 2
+    RuMCJobBlackDragoonsSynth: 1
+    RuMCJobBlackDragoonsBulwarkGuardian: 1
+  scalewithpop: false
+  spawnTogether: true
+
+- type: thirdParty
+  id: Bulwark_Black_Dragoons
+  announceAsSurvivors: true
+  partyspawn: BulwarkSpawn
+  whitelistedgamemodes:
+    - insurgency
+    - forceonforce
+  entrymethod: shuttle
+  weight: 20
+  minplayers: 0
+  maxplayers: 400
+  GhostsNeeded: 6
+  roundstart: false
+
+- type: partySpawn
+  id: SentinelsSpawn
+  leadersToSpawn:
+    RuMCJobBlackDragoonsSentinelLeader: 1
+  gruntsToSpawn:
+    RuMCJobBlackDragoonsSentinelAT: 1
+    RuMCJobBlackDragoonsSentinelMachinegunner: 1
+    RuMCJobBlackDragoonsSentinel: 3
+    RuMCJobBlackDragoonsSentinelMedic: 1
+    RuMCJobBlackDragoonsSentinelEngi: 1
+    RuMCJobBlackDragoonsSentinelMarksman: 1
+  scalewithpop: false
+  spawnTogether: true
+
+- type: thirdParty
+  id:  Sentinels_Black_Dragoons
+  announceAsSurvivors: true
+  partyspawn: SentinelsSpawn
+  whitelistedgamemodes:
+    - insurgency
+    - forceonforce
+    - colonyfall
+  entrymethod: shuttle
+  weight: 20
+  minplayers: 0
+  maxplayers: 400
+  GhostsNeeded: 9
+  roundstart: false
+
+- type: partySpawn
+  id: GruntsSpawn
+  leadersToSpawn:
+    RuMCJobBlackDragoonsGrunt: 1
+  gruntsToSpawn:
+    RuMCJobBlackDragoonsGruntMedic: 1
+    RuMCJobBlackDragoonsGruntEngi: 1
+  scalewithpop: false
+  spawnTogether: true
+
+- type: thirdParty
+  id: Grunts_Black_Dragoons
+  announceAsSurvivors: true
+  partyspawn: GruntsSpawn
+  whitelistedgamemodes:
+    - insurgency
+    - colonyfall
+  entrymethod: shuttle
+  weight: 20
+  minplayers: 0
+  maxplayers: 400
+  GhostsNeeded: 3
+  roundstart: false

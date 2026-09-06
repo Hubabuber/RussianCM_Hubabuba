@@ -1,0 +1,52 @@
+- type: entity
+  parent: CMArmorM3Medium
+  id: RuMCArmorBDHeavy
+  name: DP TAC-PACK Gen IV-H custom armored suit
+  description: A custom piece of armor tailored for high durability in the field, rarely commissioned due to it's weight and cost, alongside limited conventional use, the Gen IV-H is one of the only open market heavy armored suits available. Made by Davis Proprietary.
+  components:
+  - type: CMArmor
+    melee: 30
+    bullet: 30
+    bio: 20
+    explosionArmor: 30
+  - type: Sprite
+    sprite: _RuMC14/Clothing/Black_Dragoons/armor/heavy_armor.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }
+
+- type: entity
+  parent: CMArmorM3Medium
+  id: RuMCArmorBDMedium
+  name: DP TAC-PACK Gen II armored vest
+  description: A decent armored vest used by better funded insurgencies and mercenary groups, able to take some small arm hits before going down. Made by Davis Proprietary.
+  components:
+  - type: CMArmor
+    melee: 30
+    bullet: 20
+    bio: 15
+    explosionArmor: 20
+  - type: Sprite
+    sprite: _RuMC14/Clothing/Black_Dragoons/armor/standard_armor.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }
+
+- type: entity
+  parent: CMArmorM3Medium
+  id: RuMCArmorBDLight
+  name: DP TAC-PACK Gen I-L armored vest
+  description: A slightly less armored vest which prioritises freedom of movement and mobility over actual armour. Made by Davis Proprietary.
+  components:
+  - type: CMArmor
+    melee: 20
+    bullet: 15
+    bio: 20
+    explosionArmor: 10
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: ClothingSpeedModifier # light armor speed
+    walkModifier: 0.725
+    sprintModifier: 0.725
+  - type: Sprite
+    sprite: _RuMC14/Clothing/Black_Dragoons/armor/light_armor.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }

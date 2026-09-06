@@ -17,3 +17,6 @@ ent-VehicleSPPVanMedical = {ent-VehicleSPPVan}
 ent-VehicleSPPVanPrisoner = {ent-VehicleSPPVan}
     .desc = {ent-VehicleSPPVan.desc}
     .suffix = Техника СПН, ТМП, Тюремный
+
+ent-VehicleCLFVan = фургон КОФ
+    .desc = Потрёпанный транспортный фургон, окрашенный в цвета КОФ.

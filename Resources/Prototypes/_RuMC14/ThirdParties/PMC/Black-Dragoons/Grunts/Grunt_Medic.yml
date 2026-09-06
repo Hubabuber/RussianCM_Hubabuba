@@ -1,0 +1,85 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsGruntMedic
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsGruntMeic
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillFireman: 1
+      RMCSkillVehicles: 1
+      RMCSkillDomestics: 1
+      RMCSkillMedical: 3
+      RMCSkillResearch: 1
+      RMCSkillPolice: 2
+      RMCSkillSurgery: 2
+      RMCSkillFirearms: 2
+  - type: JobPrefix
+    prefix: Medic
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Grunt Medic
+  description: Black Dragoons Grunt Medic
+  playTimeTracker: RuMCJobBlackDragoonsGruntMedic
+  ranks:
+    RuMCRankContractor: []
+  spawnMenuRoleName: Black Dragoons Grunt Medic
+  startingGear: RuMCGearBlackDragoonsGruntMedic
+  greeting: You are a lower-tier contractor of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsGruntMedic
+  name: Black Dragoons Grunt Medic
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Grunt Medic
+    description: You are a doctor for the "Black Dragoons" PMC. You are a low-level contractor for the company. Your duties mainly involve guarding VIPs and facilities.
+    job: RuMCBlackDragoonsGruntMedic
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBDGruntsbase
+  id: RuMCGearBlackDragoonsGruntMedic
+  equipment:
+    id: RuCMIDCardBlackDragoonsGruntMedic
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueSurgFilled
+    belt: RuMCBeltMedicBDFull
+    gloves: CMHandsLatex
+    eyes: RMCGlassesMedicalHUDGlasses
+  storage:
+    back:
+    - AU14MRETWERMC
+    - RMCFlashlight
+    - AU14CMDefibrillator
+    - CMAdvFirstAidKitFilled
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsGruntMedic

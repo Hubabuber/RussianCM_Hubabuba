@@ -1,0 +1,87 @@
+ent-RuMCFoodTinIRPMeat = мясные консервы (стандарт)
+    .desc = Стандартные мясные консервы. Не очень вкусно, но сытно.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPMeat2 = мясные консервы (премиум)
+    .desc = Лучшая версия мясных консервов. Гораздо вкуснее.
+    .suffix = РуМС
+
+ent-RuMCFoodLightTinIRPStew = тушёнка (мясная)
+    .desc = Стандартная банка мясной тушёнки. Плотная, солёная и сытная.
+    .suffix = РуМС
+
+ent-RuMCFoodLightTinIRPStew2 = тушёнка (овощная)
+    .desc = Банка сытной овощной тушёнки с солью.
+    .suffix = РуМС
+
+ent-RuMCFoodLightTinIRPBuckwheat = консервы (гречка с беконом)
+    .desc = Банка гречневой каши с кусочками бекона.
+    .suffix = РуМС
+
+ent-RuMCFoodLightTinIRPRise = консервы (рис с рыбой)
+    .desc = Банка риса с солёной рыбой.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPPorridge = банка каши (А)
+    .desc = Стандартная зерновая каша.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPPorridge2 = банка каши (Б)
+    .desc = Зерновая каша с небольшими добавками.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPPorridge3 = банка каши (В)
+    .desc = Улучшенная полевая каша.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPMilk = сгущённое молоко
+    .desc = Сладкое сгущённое молоко в тяжёлой банке. Густое, липкое и почти приторное. Роскошь в полевых условиях.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPMilk2 = варёная сгущёнка
+    .desc = Варёное сгущённое молоко. Темнее, гуще и насыщеннее обычного.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPTrashMeat = пустая банка из-под мясных консервов (стандарт)
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPTrashMeat2 = пустая банка из-под мясных консервов (премиум)
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPTrashMilk = пустая банка из-под сгущённого молока
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPTrashMilk2 = пустая банка из-под варёной сгущёнки
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPTrashPorridge = пустая банка из-под каши (А)
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPTrashPorridge2 = пустая банка из-под каши (Б)
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodTinIRPTrashPorridge3 = пустая банка из-под каши (В)
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodLightTinIRPTrashStew = пустая банка из-под тушёнки (мясная)
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodLightTinIRPTrashStew2 = пустая банка из-под тушёнки (овощная)
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodLightTinIRPTrashBuckwheat = пустая банка из-под гречки с беконом
+    .desc = Пустая консервная банка.
+    .suffix = РуМС
+
+ent-RuMCFoodLightTinIRPTrashRise = пустая банка из-под риса с рыбой
+    .desc = Пустая консервная банка.
+    .suffix = РуМС

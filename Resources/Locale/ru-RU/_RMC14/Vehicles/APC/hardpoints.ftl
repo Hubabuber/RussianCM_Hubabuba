@@ -15,7 +15,7 @@ ent-RMCAPCDualCannon = двойная пушка БТРа
     .suffix = Модуль, БТР
 
 ent-RMCAPCFlareLauncher = модуль сигнальных ракет БТРа
-    .desc = .desc = Модуль для запуска сигнальных ракет для БТРов.
+    .desc = Модуль для запуска сигнальных ракет для БТРов.
     .suffix = Модуль, БТР
 
 ent-RMCAPCFreightStorage = грузовой отсек БТРа

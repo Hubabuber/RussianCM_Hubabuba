@@ -2,6 +2,26 @@ ent-RuMCCrateRPG_36 = {ent-RMCCrateWeapons}
     .desc = Содержит РПГ-36.
     .suffix = РуМС
 
+ent-RuMCCrateAH12 = {ent-RMCCrateWeapons}
+    .desc = Содержит АШ-12.
+    .suffix = РуМС
+
+ent-RuMCCrateVAL = {ent-RMCCrateWeapons}
+    .desc = Содержит ВАЛ-С.
+    .suffix = РуМС
+
+ent-RuMCCrateRPG_36_T = {ent-RMCCrateWeapons}
+    .desc = Содержит РПГ-36-Т.
+    .suffix = РуМС
+
+ent-RuMCCrateRPG_32 = {ent-RMCCrateWeapons}
+    .desc = Содержит термобарическую ракету для РПГ-32.
+    .suffix = РуМС
+
+ent-RuMCCrateRG35F = {ent-RMCCrateWeapons}
+    .desc = Содержит термобарическую гранату РГ35Ф.
+    .suffix = РуМС
+
 ent-RuMCCrateRPO_Pchela = {ent-RMCCrateWeapons}
     .desc = Содержит РПО "Пчела".
     .suffix = РуМС
@@ -84,4 +104,8 @@ ent-RuMCCrateMagazineRifleType71 = {ent-RMCCrateWeapons}
 
 ent-RuMCCrateMagazineRifleType71AP = {ent-RMCCrateWeapons}
     .desc = Содержит ящик, в котором магазины Тип 71 с бронебойными патронами.
+    .suffix = РуМС
+
+ent-RuMCCrateAU14FrameBackpackRMC = ящик с каркасными рюкзаками ИТМ (x2)
+    .desc = Содержит ящик каркасных рюкзаков ИТМ
     .suffix = РуМС

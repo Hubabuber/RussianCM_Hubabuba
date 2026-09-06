@@ -1,0 +1,151 @@
+- type: entity
+  parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
+  name: R81M1D pulse squad automatic weapon
+  id: RuMCMachineGunFAL
+  description: A SAW variant of the M81M series of pulse rifles, the M81M1D sacrifices some accuracy for a higher rate of fire and larger magazine capacity, though at the cost of increased recoil. Favored by private military contractors and security details operating in high-threat environments. Produced by Orion Defence Systems.
+  components:
+  - type: Item
+    size: Huge
+  - type: Appearance
+  - type: Corrodible
+    isCorrodible: false
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/LMGs/FAL_SAW/fal_saw_inhands.rsi
+    layers:
+    - state: base
+      sprite: _RuMC14/Objects/Weapons/Guns/LMGs/FAL_SAW/fal_saw.rsi
+    - state: bolt-open
+      sprite: _RuMC14/Objects/Weapons/Guns/LMGs/FAL_SAW/fal_saw.rsi
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      sprite: _RuMC14/Objects/Weapons/Guns/LMGs/FAL_SAW/fal_saw.rsi
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _RuMC14/Objects/Weapons/Guns/LMGs/FAL_SAW/fal_saw_inhands.rsi
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: Gun
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot:
+      collection: AU14SLRFireSound
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+  - type: RMCSelectiveFire
+    baseFireModes:
+    - FullAuto
+    recoilWielded: 0.1
+    recoilUnwielded: 5
+    scatterWielded: 8
+    scatterUnwielded: 11
+    baseFireRate: 5
+    modifiers:
+      FullAuto:
+        fireDelay: 0.018
+        maxScatterModifier: 8
+        shotsToMaxScatter: 6
+  - type: RMCWeaponAccuracy
+    accuracyMultiplier: 1
+    accuracyMultiplierUnwielded: 0.55
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: RuMCMagazineFALSAW
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m41_reload.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m41_reload.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - RuMCMagazineFALSAW
+  - type: GunDamageModifier
+    multiplier: 1.1
+  - type: AttachableHolder
+    slots:
+      rmc-aslot-barrel:
+        locked: true
+        startingAttachable: RuMCAttachmentFALSawBarrel
+        whitelist:
+          tags:
+          - RuMCAttachmentFALSawBarrel
+          - RMCAttachmentBarrelCharger
+          - RMCAttachmentExtendedBarrel
+          - RMCAttachmentExtendedCompensator
+          - RMCAttachmentSuppressor
+          - RMCM5Bayonet
+      rmc-aslot-rail:
+        startingAttachable: RMCAttachmentS42xTelescopicMiniscope
+        whitelist:
+          tags:
+          - RMCAttachmentRailFlashlight
+          - RMCAttachmentMagneticHarness
+          - RMCAttachmentS5RedDotSight
+          - RMCAttachmentS6ReflexSight
+          - RMCAttachmentS84xTelescopicScope
+          - RMCAttachmentS42xTelescopicMiniscope
+      rmc-aslot-stock:
+        locked: true
+        startingAttachable: RuMCAttachmentFALSAWStock
+        whitelist:
+          tags:
+          - RuMCAttachmentFALSAWStock
+      rmc-aslot-underbarrel:
+        startingAttachable: RMCAttachmentBipod
+        whitelist:
+          tags:
+          - RMCAttachmentAngledGrip
+          - RMCAttachmentBipod
+          - RMCAttachmentFlashlightGrip
+          - RMCAttachmentGyroscopicStabilizer
+          - RMCAttachmentLaserSight
+          - RMCAttachmentU1GrenadeLauncher
+          - RMCAttachmentU7UnderbarrelShotgun
+          - RMCAttachmentVerticalGrip
+          - RMCAttachmentExtinguisher
+          - RMCAttachmentFlamer
+  - type: AttachableHolderVisuals
+    offsets:
+      rmc-aslot-barrel: 0.55, 0
+      rmc-aslot-rail: -0.1, 0.12
+      rmc-aslot-stock: -0.25, 0.026
+      rmc-aslot-underbarrel: 0.4, -0.29
+  - type: Tag
+    tags:
+    - RuMCMachineGunFAL
+  - type: WieldDelay
+    baseDelay: 0.65
+
+- type: entity
+  parent: RMCMagazineLMGBase
+  id: RuMCMagazineFALSAW
+  name: R81M1D drum magazine (9x32mm)
+  description: A 80-round linked belt.
+  components:
+  - type: Tag
+    tags:
+    - RMCMagazineLMG
+    - RuMCMagazineFALSAW
+  - type: BallisticAmmoProvider
+    mayTransfer: True
+    whitelist:
+      tags:
+      - RuMCCartridgeFAL
+    proto: RuMCCartridgeFAL
+    capacity: 80
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Ammunition/Magazines/LMGs/fal_saw.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Appearance
+
+- type: Tag
+  id: RuMCMachineGunFAL
+
+- type: Tag
+  id: RuMCMagazineFALSAW

@@ -1,107 +1,121 @@
-ent-FoodBakedMuffin-name = кекс
-ent-FoodBakedMuffin-desc = Вкусный и нежный тортик.
+ent-FoodBakedBase = базовая выпечка
 
-ent-FoodBakedMuffinBerry-name = ягодный маффин
-ent-FoodBakedMuffinBerry-desc = Вкусный и нежный пирог с ягодами.
+# Маффины
 
-ent-FoodBakedMuffinCherry-name = вишневый кекс
-ent-FoodBakedMuffinCherry-desc = Сладкий маффин с кусочками вишни.
+ent-FoodBakedMuffin = маффин
+    .desc = Вкусный и нежный бисквитный кекс.
 
-ent-FoodBakedMuffinBluecherry-name = маффин с черникой
-ent-FoodBakedMuffinBluecherry-desc = Голубая вишня внутри вкусной булочки.
+ent-FoodBakedMuffinBerry = ягодный маффин
+    .desc = Вкусный и нежный пирог с ягодами.
 
-ent-FoodBakedMuffinChocolate-name = шоколадный маффин
-ent-FoodBakedMuffinChocolate-desc = Вкусный и нежный шоколадный маффин.
+ent-FoodBakedMuffinCherry = вишнёвый маффин
+    .desc = Сладкий маффин с кусочками вишни.
 
-ent-FoodBakedMuffinBanana-name = банановый маффин
-ent-FoodBakedMuffinBanana-desc = Вкусный и нежный банановый маффин.
+ent-FoodBakedMuffinBluecherry = маффин с голубой вишней
+    .desc = Голубая вишня внутри вкусной булочки.
 
-ent-FoodBakedBunHoney-name = медовая булочка
-ent-FoodBakedBunHoney-desc = Булочка из липкого теста, глазированная медом.
+ent-FoodBakedMuffinChocolate = шоколадный маффин
+    .desc = Вкусный и нежный шоколадный маффин.
 
-ent-FoodBakedBunHotX-name = булочка с горячим кроссом
-ent-FoodBakedBunHotX-desc = Булочка из липкого теста, покрытая отчетливым белым крестом.
+ent-FoodBakedMuffinBanana = банановый маффин
+    .desc = Вкусный и нежный банановый маффин.
 
-ent-FoodBakedBunMeat-name = мясная булочка
-ent-FoodBakedBunMeat-desc = Имеет потенциал не быть собакой.
+# Булочки
 
-ent-FoodBakedCookie-name = печенье
-ent-FoodBakedCookie-desc = КУКИ!!!
+ent-FoodBakedBunHoney = медовая булочка
+    .desc = Булочка из липкого теста, глазированная мёдом.
 
-ent-FoodBakedCookieOatmeal-name = овсяное печенье
-ent-FoodBakedCookieOatmeal-desc = Лучшее из печенья и овсянки.
+ent-FoodBakedBunHotX = булочка с крестом
+    .desc = Булочка из липкого теста, покрытая отчётливым белым крестом.
 
-ent-FoodBakedCookieRaisin-name = печенье с изюмом
-ent-FoodBakedCookieRaisin-desc = Зачем ты положил изюм в печенье?
+ent-FoodBakedBunMeat = мясная булочка
+    .desc = Имеет потенциал не быть собакой.
 
-ent-FoodBakedCookieSugar-name = сахарное печенье
-ent-FoodBakedCookieSugar-desc = Точно так же, как готовила твоя мама.
+# Печенье
 
-ent-FoodBakedNugget-name = куриный наггетс
-ent-FoodBakedNugget-desc = «Куриный» наггетс, неопределенно принявший форму предмета.
+ent-FoodBakedCookie = печенье
+    .desc = КУКИ!!!
 
-ent-FoodBakedPancake-name = блин
-ent-FoodBakedPancake-desc = Пушистый блин. Более мягкий и превосходный родственник вафель.
+ent-FoodBakedCookieOatmeal = овсяное печенье
+    .desc = Лучшее из печенья и овсянки.
 
-ent-FoodBakedPancakeBb-name = черничный блин
-ent-FoodBakedPancakeBb-desc = Пышный и вкусный черничный блинчик.
+ent-FoodBakedCookieRaisin = печенье с изюмом
+    .desc = Зачем ты положил изюм в печенье?
 
-ent-FoodBakedPancakeCc-name = блинчик с шоколадной крошкой
-ent-FoodBakedPancakeCc-desc = Пышный и вкусный блинчик с шоколадной крошкой.
+ent-FoodBakedCookieSugar = сахарное печенье
+    .desc = Точно такое же, как готовила твоя мама.
 
-ent-FoodBakedWaffle-name = вафли
-ent-FoodBakedWaffle-desc = Ммм, вафли.
+# Наггетсы
 
-ent-FoodBakedWaffleSoy-name = соевые вафли
-ent-FoodBakedWaffleSoy-desc = Вы чувствуете себя здоровее и женственнее?
+ent-FoodBakedNugget = куриный наггетс
+    .desc = Возможно, что внутри не курица.
 
-ent-FoodBakedWaffleSoylent-name = сойлентовые вафли
-ent-FoodBakedWaffleSoylent-desc = Не сделан из людей. Честный.
+# Вафли и блины
 
-ent-FoodBakedWaffleRoffle-name = вафли
-ent-FoodBakedWaffleRoffle-desc = Вафли от Roffle. Ко.
+ent-FoodBakedPancake = блин
+    .desc = Пушистый блин. Более мягкий и превосходный родственник вафель.
 
-ent-FoodBakedPretzel-name = маковый крендель
-ent-FoodBakedPretzel-desc = Всё перепутано!
+ent-FoodBakedPancakeBb = черничный блин
+    .desc = Пышный и вкусный черничный блинчик.
 
-ent-FoodBakedCannoli-name = канноли
-ent-FoodBakedCannoli-desc = Сицилийское лакомство, которое сделает вас мудрецом.
+ent-FoodBakedPancakeCc = блинчик с шоколадной крошкой
+    .desc = Пышный и вкусный блинчик с шоколадной крошкой.
 
-ent-FoodBakedDumplings-name = пельмени
-ent-FoodBakedDumplings-desc = Средний рецепт мяса в тесте.
+ent-FoodBakedWaffle = вафли
+    .desc = Ммм, вафли.
 
-ent-FoodBakedChevreChaud-name = шевр шо
-ent-FoodBakedChevreChaud-desc = Диск слегка подтаявшего шевра плюхнулся на кростини и поджарился со всех сторон.
+ent-FoodBakedWaffleSoy = соевые вафли
+    .desc = Вы чувствуете себя здоровее и... женственнее?
 
-ent-FoodBakedChevreChaudCotton-name = хлопок шевр шод
-ent-FoodBakedChevreChaudCotton-desc = Диск слегка подтаявшего шевра шлепнулся на... хлопковый кростини и поджарился со всех сторон.
+ent-FoodBakedWaffleSoylent = сойлентовые вафли
+    .desc = Не сделаны из людей. Честно.
 
-ent-FoodBakedBrownieBatch-name = пирожные
-ent-FoodBakedBrownieBatch-desc = Кастрюля с пирожными.
+ent-FoodBakedWaffleRoffle = вафли Roffle
+    .desc = Вафли от Roffle. Co.
 
-ent-FoodBakedBrownie-name = пирожное
-ent-FoodBakedBrownie-desc = Свежеиспеченный брауни.
+# Разное
 
-ent-FoodBakedCannabisBrownieBatch-name = специальные пирожные
-ent-FoodBakedCannabisBrownieBatch-desc = Кастрюля «особых» пирожных.
+ent-FoodBakedPretzel = маковый крендель
+    .desc = Всё перепутано!
 
-ent-FoodBakedCannabisBrownie-name = специальное пирожное
-ent-FoodBakedCannabisBrownie-desc = «Особенный» брауни.
+ent-FoodBakedCannoli = канноли
+    .desc = Сицилийское лакомство, которое сделает вас мудрецом.
 
-ent-FoodOnionRings-name = луковые кольца
-ent-FoodOnionRings-desc = Вы можете съесть его или сделать предложение своим близким.
+ent-FoodBakedDumplings = пельмени
+    .desc = Средний рецепт мяса в тесте.
 
-ent-FoodBakedCroissant-name = круассан
-ent-FoodBakedCroissant-desc = Маслянистое, слоеное совершенство.
+ent-FoodBakedChevreChaud = шевр шо
+    .desc = Диск слегка подтаявшего шевра плюхнулся на кростини и поджарился со всех сторон.
 
-ent-FoodBakedCroissantCotton-name = хлопковый круассан
-ent-FoodBakedCroissantCotton-desc = Маслянистое, слоеное, волокнистое совершенство.
+ent-FoodBakedChevreChaudCotton = хлопковый шевр шо
+    .desc = Диск слегка подтаявшего шевра шлёпнулся на... хлопковый кростини и поджарился со всех сторон.
 
-ent-FoodBakedGrilledCheeseSandwich-name = сэндвич с сыром на гриле
-ent-FoodBakedGrilledCheeseSandwich-desc = Хлеб и сыр, поджаренные на сливочном масле, идеально подходят для прохладного дня в космосе.
+ent-FoodBakedBrownieBatch = брауни
+    .desc = Противень с брауни.
 
-ent-FoodBakedGrilledCheeseSandwichCotton-name = сэндвич с сыром и хлопком на гриле
-ent-FoodBakedGrilledCheeseSandwichCotton-desc = Хлопковый хлеб, слегка подгоревший на сливочном масле, с плавленым сыром. Мотылькам сложно устоять перед таким сочетанием.
+ent-FoodBakedBrownie = брауни
+    .desc = Свежеиспечённый брауни.
+    .suffix = Свежий
 
-ent-FoodBakedBase-name = элемент
+ent-FoodBakedCannabisBrownieBatch = особые брауни
+    .desc = Противень «особых» брауни.
+
+ent-FoodBakedCannabisBrownie = особый брауни
+    .desc = «Особенный» брауни.
+
+ent-FoodOnionRings = луковые кольца
+    .desc = Вы можете съесть их или сделать предложение своим близким.
+
+ent-FoodBakedCroissant = круассан
+    .desc = Маслянистое, слоёное совершенство.
+
+ent-FoodBakedCroissantCotton = хлопковый круассан
+    .desc = Маслянистое, слоёное, волокнистое совершенство.
+
+ent-FoodBakedGrilledCheeseSandwich = сэндвич с сыром на гриле
+    .desc = Хлеб и сыр, поджаренные на сливочном масле, идеально подходят для прохладного дня в космосе.
+
+ent-FoodBakedGrilledCheeseSandwichCotton = сэндвич с сыром и хлопком на гриле
+    .desc = Хлопковый хлеб, слегка подгоревший на сливочном масле, с плавленым сыром. Мотылькам сложно устоять перед таким сочетанием.
+
 

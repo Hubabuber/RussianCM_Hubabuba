@@ -12,7 +12,7 @@
       RMCSkillDomestics: 1
       RMCSkillMedical: 4
       RMCSkillResearch: 2
-      RMCSkillSurgery: 3
+      RMCSkillSurgery: 4 # RuMC edit
       RMCSkillFirearms: 2
   - type: JobPrefix
     prefix: au14-job-prefix-headphysician
@@ -40,7 +40,7 @@
     - NonResuscitable
     - NoEnglish
   ranks:
-    RMCRankCivilianDoctor: []
+    RuMCRankCivilianHeadPhysician: [] # RuMC edit
   startingGear: AU14GearCivilianHeadPhysician
   icon: "AU14JobIconColonyHeadPhysician"
   hasIcon: false
@@ -62,6 +62,7 @@
   id: AU14GearCivilianHeadPhysician
   equipment:
     ears: CMHeadsetColony
+    outerClothing: RMCLabcoatCMO # RuMC edit
   storage:
     back:
     - AU14StampHPHY

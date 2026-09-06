@@ -7,29 +7,23 @@ rank-UPP_Gefreiter = Ефрейтор
 rank-UPP_SeniorGefreiter = Старший ефрейтор
   .prefix = Ст. Ефр.
 
-rank-UPP_Corporal = Капрал
-  .prefix = Капр.
+rank-UPP_Corporal = Младший сержант
+  .prefix = Мл. Серж.
 
-rank-UPP_Plutonowy = Взводный
-  .prefix = Взвод.
-
-rank-UPP_Sergeant = Сержант
+rank-UPP_Plutonowy = Сержант
   .prefix = Серж.
 
-rank-UPP_SeniorSergeant = Старший сержант
+rank-UPP_Sergeant = Старший сержант
   .prefix = Ст. Серж.
 
-rank-UPP_SergeantMajor = Сержант-майор
-  .prefix = Серж.-май.
-
-rank-UPP_StaffSergeant = Штаб-сержант
-  .prefix = Штаб-серж.
-
-rank-UPP_Chotar = Чотар
-  .prefix = Чот.
+rank-UPP_SeniorSergeant = Старшина
+  .prefix = Стар.
 
 rank-UPP_FirstSergeant = Первый сержант
   .prefix = 1-й Серж.
+
+rank-UPP_SergeantMajor = Cержант-майор
+  .prefix = Серж.-майор
 
 rank-UPP_WarrantOfficer = Прапорщик
   .prefix = Прап.
@@ -61,14 +55,14 @@ rank-UPP_LieutenantColonel = Подполковник
 rank-UPP_Colonel = Полковник
   .prefix = Полк.
 
-rank-UPP_BrigadierGeneral = Бригадный генерал
-  .prefix = Бриг. Ген.
+rank-UPP_BrigadierGeneral = Генерал-майор
+  .prefix = Ген.-майор
 
-rank-UPP_DivisionalGeneral = Дивизионный генерал
-  .prefix = Див. Ген.
+rank-UPP_DivisionalGeneral = Генерал-лейтенант
+  .prefix = Ген.-лейт.
 
-rank-UPP_GeneralOfTheBranch = Генерал рода войск
-  .prefix = Ген. рода войск
+rank-UPP_GeneralOfTheBranch = Генерал-полковник
+  .prefix = Ген.-полк.
 
 rank-UPP_Marshal = Маршал СПН
   .prefix = Маршал

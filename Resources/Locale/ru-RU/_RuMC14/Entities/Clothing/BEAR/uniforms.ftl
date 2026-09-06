@@ -2,10 +2,10 @@ ent-RuMCUniformBEAR = форма ЧВК «Медведь»
     .desc = Стандартная форма для бойцов ЧВК "Медведь".
     .suffix = РуМС, Коричневая
 
-ent-RuMCJumpsuitBEAR_Black = форма ЧВК «Медведь»
+ent-RuMCUniformBEAR_Black = форма ЧВК «Медведь»
     .desc = Стандартная форма для бойцов ЧВК "Медведь".
     .suffix = РуМС, Чёрная
 
-ent-RuMCJumpsuitBEAR_Gray = форма ЧВК «Медведь»
+ent-RuMCUniformBEAR_Gray = форма ЧВК «Медведь»
     .desc = Стандартная форма для бойцов ЧВК "Медведь".
     .suffix = РуМС, Серая

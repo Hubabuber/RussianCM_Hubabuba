@@ -4,3 +4,7 @@ ent-CMXenoWarrior = Воин
 ent-CMXenoWarriorBulwark = {ent-CMXenoWarrior}
     .desc = {ent-CMXenoWarrior.desc}
     .suffix = Бастион
+
+ent-CMXenoWarriorBoxer = {ent-CMXenoWarrior}
+    .desc = {ent-CMXenoWarrior.desc}
+    .suffix = Боксёр

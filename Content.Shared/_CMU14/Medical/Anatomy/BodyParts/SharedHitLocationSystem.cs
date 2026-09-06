@@ -44,6 +44,10 @@ public abstract partial class SharedHitLocationSystem : EntitySystem
     private float _chestWeight;
     private float _armWeight;
     private float _legWeight;
+    // RuMC edit start
+    private float _handAccuracyMultiplier;
+    private float _footAccuracyMultiplier;
+    // RuMC edit end
 
     public bool TryConsumePendingHit(EntityUid target, out HitLocationResolveEvent hit)
         => _pendingHits.Remove(target, out hit);
@@ -88,6 +92,10 @@ public abstract partial class SharedHitLocationSystem : EntitySystem
         Cfg.OnValueChanged(CMUMedicalCCVars.HitLocationChestWeight, v => _chestWeight = v, true);
         Cfg.OnValueChanged(CMUMedicalCCVars.HitLocationArmWeight, v => _armWeight = v, true);
         Cfg.OnValueChanged(CMUMedicalCCVars.HitLocationLegWeight, v => _legWeight = v, true);
+        // RuMC edit start
+        Cfg.OnValueChanged(CMUMedicalCCVars.HitLocationHandAccuracyMultiplier, v => _handAccuracyMultiplier = v, true);
+        Cfg.OnValueChanged(CMUMedicalCCVars.HitLocationFootAccuracyMultiplier, v => _footAccuracyMultiplier = v, true);
+        // RuMC edit end
     }
 
     private void OnBeforeDamageChanged(Entity<HitLocationComponent> ent, ref BeforeDamageChangedEvent args)
@@ -212,6 +220,7 @@ public abstract partial class SharedHitLocationSystem : EntitySystem
             return true;
 
         var accuracy = aim.MeleeAccuracy;
+        var isRanged = false; // RuMC edit
 
         var atkXform = Transform(a);
         var tgtXform = Transform(target);
@@ -222,6 +231,7 @@ public abstract partial class SharedHitLocationSystem : EntitySystem
             {
                 var skill = Skills.GetSkill(a, aim.RangedSkill);
                 accuracy = aim.RangedBaseAccuracy + skill * aim.RangedSkillBonus;
+                isRanged = true; // RuMC edit
             }
         }
 
@@ -229,6 +239,10 @@ public abstract partial class SharedHitLocationSystem : EntitySystem
         {
             BodyPartType.Head => aim.HeadAccuracyMultiplier,
             BodyPartType.Torso => aim.TorsoAccuracyMultiplier,
+            // RuMC edit start
+            BodyPartType.Hand when isRanged => _handAccuracyMultiplier,
+            BodyPartType.Foot when isRanged => _footAccuracyMultiplier,
+            // RuMC edit end
             _ => 1f,
         };
         accuracy = Math.Clamp(accuracy, 0f, 0.95f);

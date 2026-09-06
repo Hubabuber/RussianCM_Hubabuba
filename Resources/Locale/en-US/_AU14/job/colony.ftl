@@ -45,6 +45,11 @@ au14-id-job-title-colony-civilian = Colony Civilian
 au14-job-description-civiliancolonist = A resident of the colony.
 au14-job-prefix-civiliancolonist = CIV
 
+au14-job-name-new-colonist = New Colonist
+au14-job-description-new-colonist = Wether by choice, necessity or force you have arrived in orbit of this colony to establish your new life on the frontier. Time to get to work.
+au14-ghostrole-name-new-colonist-civilian = New Colonist (civilian)
+au14-ghostrole-rules-new-colonist = You do not know what is going on in the colony.
+
 au14-job-name-civilianfoodserviceworker = Food Service Worker
 au14-job-description-civilianfoodserviceworker = Run the kitchens, stock the bar, and keep the workforce fed.
 au14-job-prefix-civilianfoodserviceworker = FSW

@@ -1,0 +1,389 @@
+- type: entity
+  parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
+  name: R81M1A pulse rifle
+  id: RuMCRifleFAL
+  description: The R81M1A highpower pulse rifle is a very popular weapon within the civilian market, previously rejected by the Royal Marine Commandos due to it's slow rate of fire and mediocre accuracy compared to other rifles in its class. However, it remains a favorite among mercenaries and private military contractors for its high damage output and reliability in harsh conditions. Produced by Orion Defence Systems.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_inhands.rsi
+    layers:
+    - state: base
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL.rsi
+    - state: bolt-open
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL.rsi
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL.rsi
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_inhands.rsi
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: Gun
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    soundGunshot:
+      collection: AU14SLRFireSound
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+  - type: RMCSelectiveFire
+    baseFireModes:
+    - SemiAuto
+    - FullAuto
+    recoilUnwielded: 4
+    scatterWielded: 5
+    scatterUnwielded: 11
+    baseFireRate: 2.5
+    burstScatterMult: 1
+    modifiers:
+      FullAuto:
+        maxScatterModifier: 10
+        unwieldedScatterMultiplier: 2
+        shotsToMaxScatter: 5
+  - type: RMCWeaponAccuracy
+    accuracyMultiplier: 2.35
+    accuracyMultiplierUnwielded: 0.55
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: RuMCMagazineFAL
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m41_reload.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m41_reload.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - RuMCMagazineFAL
+          - RuMCMagazineFALAP
+  - type: GunDamageModifier
+    multiplier: 1.15
+  - type: AttachableHolder
+    slots:
+      rmc-aslot-barrel:
+        locked: true
+        startingAttachable: RuMCAttachmentFALBarrel
+        whitelist:
+          tags:
+          - RuMCAttachmentFALBarrel
+      rmc-aslot-rail:
+        whitelist:
+          tags:
+          - RMCAttachmentRailFlashlight
+          - RMCAttachmentMagneticHarness
+          - RMCAttachmentS5RedDotSight
+          - RMCAttachmentS6ReflexSight
+          - RMCAttachmentS84xTelescopicScope
+          - RMCAttachmentS42xTelescopicMiniscope
+      rmc-aslot-underbarrel:
+        whitelist:
+          tags:
+          - RMCAttachmentAngledGrip
+          - RMCAttachmentGyroscopicStabilizer
+          - RMCAttachmentLaserSight
+          - RMCAttachmentVerticalGrip
+  - type: AttachableHolderVisuals
+    offsets:
+      rmc-aslot-rail: -0.05, 0.13
+      rmc-aslot-underbarrel: 0.42, -0.26
+      rmc-aslot-barrel: 0.5, 0.0045931415
+      rmc-aslot-stock: 0.2, -0.2
+  - type: ItemCamouflage
+    camouflageVariations: { }
+  - type: Tag
+    tags:
+    - RuMCRifleFAL
+  - type: Wieldable
+  - type: WieldableSpeedModifiers
+    base: 0.85
+    light: 0.85
+    medium: 0.8
+    heavy: 0.77
+  - type: WieldDelay
+    baseDelay: 0.12
+
+- type: entity
+  parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
+  name: R81M1C pulse carbine
+  id: RuMCRifleFALShort
+  description: A carbine variant of the M81M series of pulse rifles, the M81M1C sacrifices some range and accuracy for a more compact and maneuverable package. Favored by private military contractors and security details operating in urban environments. Produced by Orion Defence Systems.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_inhands.rsi
+    layers:
+    - state: base
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_short.rsi
+    - state: bolt-open
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_short.rsi
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_short.rsi
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_inhands.rsi
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: Gun
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    soundGunshot:
+      collection: AU14SLRFireSound
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+  - type: RMCSelectiveFire
+    baseFireModes:
+    - SemiAuto
+    - FullAuto
+    recoilUnwielded: 2
+    scatterWielded: 6
+    scatterUnwielded: 11
+    baseFireRate: 2.86
+    burstScatterMult: 1
+    modifiers:
+      FullAuto:
+        maxScatterModifier: 10
+        unwieldedScatterMultiplier: 2
+        shotsToMaxScatter: 5
+  - type: RMCWeaponAccuracy
+    accuracyMultiplier: 2.35
+    accuracyMultiplierUnwielded: 0.55
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: RuMCMagazineFAL
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m41_reload.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m41_reload.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - RuMCMagazineFAL
+          - RuMCMagazineFALAP
+  - type: GunDamageModifier
+    multiplier: 1.1
+  - type: AttachableHolder
+    slots:
+      rmc-aslot-barrel:
+        locked: true
+        startingAttachable: RuMCAttachmentFALShortBarrel
+        whitelist:
+          tags:
+          - RuMCAttachmentFALShortBarrel
+      rmc-aslot-rail:
+        whitelist:
+          tags:
+          - RMCAttachmentRailFlashlight
+          - RMCAttachmentMagneticHarness
+          - RMCAttachmentS5RedDotSight
+          - RMCAttachmentS6ReflexSight
+          - RMCAttachmentS84xTelescopicScope
+          - RMCAttachmentS42xTelescopicMiniscope
+      rmc-aslot-underbarrel:
+        whitelist:
+          tags:
+          - RMCAttachmentAngledGrip
+          - RMCAttachmentGyroscopicStabilizer
+          - RMCAttachmentLaserSight
+          - RMCAttachmentVerticalGrip
+  - type: AttachableHolderVisuals
+    offsets:
+      rmc-aslot-rail: -0.05, 0.12
+      rmc-aslot-underbarrel: 0.42, -0.26
+      rmc-aslot-barrel: 0.5, 0.0015931415
+      rmc-aslot-stock: 0.2, -0.2
+  - type: ItemCamouflage
+    camouflageVariations: { }
+  - type: Tag
+    tags:
+    - RuMCRifleFALShort
+  - type: Wieldable
+  - type: WieldableSpeedModifiers
+    base: 0.85
+    light: 0.85
+    medium: 0.8
+    heavy: 0.77
+  - type: WieldDelay
+    baseDelay: 0.12
+
+- type: entity
+  parent: RuMCRifleFAL
+  id: RuMCRifleFALTactical
+  suffix: Tactical
+  components:
+  - type: AttachableHolder
+    slots:
+      rmc-aslot-barrel:
+        locked: true
+        startingAttachable: RuMCAttachmentFALBarrel
+        whitelist:
+          tags:
+          - RuMCAttachmentSuppressorVAL
+      rmc-aslot-rail:
+        startingAttachable: RMCAttachmentS6ReflexSight
+        whitelist:
+          tags:
+          - RMCAttachmentRailFlashlight
+          - RMCAttachmentMagneticHarness
+          - RMCAttachmentS5RedDotSight
+          - RMCAttachmentS6ReflexSight
+          - RMCAttachmentS84xTelescopicScope
+          - RMCAttachmentS42xTelescopicMiniscope
+      rmc-aslot-underbarrel:
+        startingAttachable: RMCAttachmentVerticalGrip
+        whitelist:
+          tags:
+          - RMCAttachmentAngledGrip
+          - RMCAttachmentGyroscopicStabilizer
+          - RMCAttachmentLaserSight
+          - RMCAttachmentVerticalGrip
+
+- type: entity
+  parent: RMCMagazineRifleAK4047
+  id: RuMCMagazineFAL
+  name: R81M1 magazine (9x32mm)
+  description: A 9x32mm high-velocity battle rifle magazine.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Ammunition/Magazines/Rifles/FAL.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Tag
+    tags:
+    - RuMCMagazineFAL
+    - CMMagazineRifle
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - RuMCCartridgeFAL
+    proto: RuMCCartridgeFAL
+    capacity: 20
+    deleteWhenEmpty: false
+
+- type: entity
+  parent: RMCMagazineRifleAK4047
+  id: RuMCMagazineFALAP
+  name: R81M1 AP magazine (9x32mm)
+  description: A 9x32mm high-velocity battle rifle magazine.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Ammunition/Magazines/Rifles/FAL.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: ammo_band
+      color: "#1F951F"
+  - type: Tag
+    tags:
+    - RuMCMagazineFALAP
+    - CMMagazineRifle
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - RuMCCartridgeFALAP
+    proto: RuMCCartridgeFALAP
+    capacity: 20
+    deleteWhenEmpty: false
+
+- type: entity
+  parent: RMCCartridgeRifleAR10
+  id: RuMCCartridgeFAL
+  name: cartridge (9x32mm)
+  description: A 9x32mm cartridge.
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - RuMCCartridgeFAL
+  - type: CartridgeAmmo
+    proto: RuMCBulletFAL
+
+- type: entity
+  parent: RMCBaseBullet
+  id: RuMCBulletFAL
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 50
+  - type: RMCProjectileDamageFalloff
+    thresholds:
+    - range: 24
+      falloff: 9999
+      ignoreModifiers: true
+  - type: CMArmorPiercing
+    amount: 5
+  - type: RMCProjectileAccuracy
+    accuracy: 95
+    thresholds:
+    - range: 12
+      falloff: 0
+
+- type: entity
+  parent: RMCCartridgeRifleAR10
+  id: RuMCCartridgeFALAP
+  name: AP cartridge (9x32mm)
+  description: A 9x32mm cartridge.
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - RuMCCartridgeFALAP
+  - type: CartridgeAmmo
+    proto: RuMCBulletFALAP
+
+- type: entity
+  parent: RMCBaseBullet
+  id: RuMCBulletFALAP
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 40
+  - type: RMCProjectileDamageFalloff
+    thresholds:
+    - range: 24
+      falloff: 9999
+      ignoreModifiers: true
+  - type: CMArmorPiercing
+    amount: 40
+  - type: RMCProjectileAccuracy
+    accuracy: 95
+    thresholds:
+    - range: 12
+      falloff: 0
+
+- type: Tag
+  id: RuMCCartridgeFAL
+
+- type: Tag
+  id: RuMCCartridgeFALAP
+
+- type: Tag
+  id: RuMCMagazineFAL
+
+- type: Tag
+  id: RuMCMagazineFALAP
+
+- type: Tag
+  id: RuMCRifleFAL
+
+- type: Tag
+  id: RuMCRifleFALShort

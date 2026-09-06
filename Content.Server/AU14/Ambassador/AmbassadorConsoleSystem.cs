@@ -364,7 +364,7 @@ public sealed partial class AmbassadorConsoleSystem : EntitySystem
         {
             if (_proto.TryIndex<ThirdPartyPrototype>(id, out var proto))
             {
-                var displayName = proto.DisplayName ?? proto.ID;
+                var displayName = proto.DisplayName ?? proto.ID; // RuMC edit
                 thirdParties[id] = (displayName, cost);
             }
         }

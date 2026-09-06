@@ -49,6 +49,10 @@ ent-RMCAttachmentM16Stock = бамп-сток M16
 ent-RMCAttachmentM54CStockCollapsible = складной приклад M54C
     .desc = Уменьшает отдачу и улучшает точность, но за счёт ухудшения эргономики.
 
+ent-RMCAttachmentM54C2StockCollapsible = {ent-RMCAttachmentM54CStockCollapsible}
+    .desc = Стандартный приклад для любого оружия серии M41.
+    .suffix = ЧВК
+
 ent-RMCAttachmentM54CStockSolidMarksman = снайперский приклад M54C
     .desc = Уменьшает отдачу и улучшает точность, но за счёт ухудшения эргономики.
 

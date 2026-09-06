@@ -1,0 +1,114 @@
+- type: entity
+  parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
+  name: 81M1B pulse marksman rifle
+  id: RuMCRifleFALSniper
+  description: A marksman variant of the M81M series of pulse rifles, the M81M1B sacrifices some rate of fire and it's automatic firemode for a higher accuracy and longer effective range. Favored by private military contractors and security details operating in high-threat environments. Produced by Orion Defence Systems.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_inhands.rsi
+    layers:
+    - state: base
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_sniper.rsi
+    - state: bolt-open
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_sniper.rsi
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_sniper.rsi
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _RuMC14/Objects/Weapons/Guns/Rifles/FAL/FAL_inhands.rsi
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_l88.ogg
+      params:
+        volume: -2
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+  - type: RMCSelectiveFire
+    baseFireModes:
+    - SemiAuto
+    recoilUnwielded: 2
+    scatterWielded: 6
+    scatterUnwielded: 11
+    baseFireRate: 2
+    burstScatterMult: 1
+  - type: RMCWeaponAccuracy
+    accuracyMultiplier: 1.35
+    accuracyMultiplierUnwielded: 0.55
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: RuMCMagazineFAL
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m41_reload.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m41_reload.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - RuMCMagazineFAL
+          - RuMCMagazineFALAP
+  - type: GunDamageModifier
+    multiplier: 1.25
+  - type: AttachableHolder
+    slots:
+      rmc-aslot-barrel:
+        locked: true
+        startingAttachable: RuMCAttachmentFALSniperBarrel
+        whitelist:
+          tags:
+          - RuMCAttachmentFALSniperBarrel
+      rmc-aslot-rail:
+        startingAttachable: RuMCFalScope
+        whitelist:
+          tags:
+          - RuMCFalScope
+          - RMCAttachmentRailFlashlight
+          - RMCAttachmentMagneticHarness
+          - RMCAttachmentS5RedDotSight
+          - RMCAttachmentS6ReflexSight
+          - RMCAttachmentS84xTelescopicScope
+          - RMCAttachmentS42xTelescopicMiniscope
+      rmc-aslot-stock:
+        locked: true
+        startingAttachable: RuMCAttachmentFALSniperStock
+        whitelist:
+          tags:
+          - RuMCAttachmentFALSniperStock
+      rmc-aslot-underbarrel:
+        whitelist:
+          tags:
+          - RMCAttachmentAngledGrip
+          - RMCAttachmentGyroscopicStabilizer
+          - RMCAttachmentLaserSight
+          - RMCAttachmentVerticalGrip
+  - type: AttachableHolderVisuals
+    offsets:
+      rmc-aslot-rail: 0.17, 0.09
+      rmc-aslot-underbarrel: 0.42, -0.26
+      rmc-aslot-barrel: 0.592, 0.089999915
+      rmc-aslot-stock: -0.28, 0.06
+  - type: ItemCamouflage
+    camouflageVariations: { }
+  - type: Tag
+    tags:
+    - RuMCRifleFALSniper
+  - type: Wieldable
+  - type: WieldableSpeedModifiers
+    base: 0.85
+    light: 0.85
+    medium: 0.8
+    heavy: 0.77
+  - type: WieldDelay
+    baseDelay: 0.12
+
+- type: Tag
+  id: RuMCRifleFALSniper

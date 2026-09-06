@@ -1,17 +1,21 @@
 ent-CMXenoPraetorianBase = Преторианец
-  .desc = Огромный, угрожающий инопланетный зверь.
+    .desc = Огромная и страшная инопланетная тварь.
 
-ent-CMXenoPraetorian = { ent-CMXenoPraetorianBase }
-  .desc = { ent-CMXenoPraetorianBase.desc }
+ent-CMXenoPraetorian = {ent-CMXenoPraetorianBase}
+    .desc = {ent-CMXenoPraetorianBase.desc}
 
-ent-RMCXenoPraetorianOppressor = { ent-CMXenoPraetorianBase }
-  .desc = { ent-CMXenoPraetorianBase.desc }
+ent-RMCXenoPraetorianOppressor = {ent-CMXenoPraetorianBase}
+    .desc = {ent-CMXenoPraetorianBase.desc}
+    .suffix = Угнетатель
 
-ent-RMCXenoPraetorianVanguard = { ent-CMXenoPraetorianBase }
-  .desc = { ent-CMXenoPraetorianBase.desc }
+ent-RMCXenoPraetorianVanguard = {ent-CMXenoPraetorianBase}
+    .desc = {ent-CMXenoPraetorianBase.desc}
+    .suffix = Авангард
 
-ent-RMCXenoPraetorianValkyrie = { ent-CMXenoPraetorianBase }
-  .desc = { ent-CMXenoPraetorianBase.desc }
+ent-RMCXenoPraetorianValkyrie = {ent-CMXenoPraetorianBase}
+    .desc = {ent-CMXenoPraetorianBase.desc}
+    .suffix = Валькирия
 
-ent-RMCXenoPraetorianDancer = { ent-CMXenoPraetorianBase }
-  .desc = { ent-CMXenoPraetorianBase.desc }
+ent-RMCXenoPraetorianDancer = {ent-CMXenoPraetorianBase}
+    .desc = {ent-CMXenoPraetorianBase.desc}
+    .suffix = Танцор

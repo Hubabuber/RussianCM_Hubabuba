@@ -1,15 +1,14 @@
-ent-BlankHandyFlag-name = пустой портативный флаг
-ent-BlankHandyFlag-desc = Какой-то кусок белой ткани, намотанный на палку.
+ent-BlankHandyFlag = белый малый флаг
+    .desc = Какой-то кусок белой ткани, намотанный на палку.
 
-ent-NTHandyFlag-name = Портативный флаг Nanotrasen
-ent-NTHandyFlag-desc = Слава НТ! Подождите, они действительно сделали портативный флаг для корпорации?
+ent-NTHandyFlag = малый флаг Nanotrasen
+    .desc = Слава NT! Подождите, они действительно сделали малый флаг для корпорации?
 
-ent-SyndieHandyFlag-name = портативный флаг синдиката
-ent-SyndieHandyFlag-desc = Для настоящих бунтующих патриотов. Смерть НТ!
+ent-SyndieHandyFlag = малый флаг синдиката
+    .desc = Для настоящих бунтующих патриотов. Смерть NT!
 
-ent-LGBTQHandyFlag-name = Портативный флаг ЛГБТК
-ent-LGBTQHandyFlag-desc = Удобный флаг «Будь геем, совершай преступление».
+ent-LGBTQHandyFlag = малый радужный флаг
+    .desc = Радуйся жизни!
 
-ent-PirateHandyFlag-name = пиратский портативный флаг
-ent-PirateHandyFlag-desc = Держа его в руках, покажите этим карпам, что вы не шутите.
-
+ent-PirateHandyFlag = пиратский малый флаг
+    .desc = Держа его в руках, покажите этим карпам, что вы не шутите.

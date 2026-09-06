@@ -20,7 +20,7 @@ public sealed class BlightCoreAcceptWindow : DefaultWindow
     {
         IoCManager.InjectDependencies(this);
 
-        Title = "Overmind Ascension";
+        Title = Loc.GetString("cmu14-blight-core-accept-title"); // RuMC edit
         Resizable = false;
 
         var root = new BoxContainer
@@ -32,7 +32,7 @@ public sealed class BlightCoreAcceptWindow : DefaultWindow
 
         root.AddChild(new Label
         {
-            Text = "The Blight Core calls to you. Will you become the Overmind?"
+            Text = Loc.GetString("cmu14-blight-core-accept-body") // RuMC edit
         });
 
         _timerLabel = new Label { Text = "" };
@@ -44,8 +44,8 @@ public sealed class BlightCoreAcceptWindow : DefaultWindow
             SeparationOverride = 8
         };
 
-        var accept = new Button { Text = "Accept" };
-        var decline = new Button { Text = "Decline" };
+        var accept = new Button { Text = Loc.GetString("cmu14-blight-core-accept-button") }; // RuMC edit
+        var decline = new Button { Text = Loc.GetString("cmu14-blight-core-decline-button") }; // RuMC edit
 
         accept.OnPressed += _ => OnAccept?.Invoke();
         decline.OnPressed += _ => OnDecline?.Invoke();
@@ -63,6 +63,6 @@ public sealed class BlightCoreAcceptWindow : DefaultWindow
     {
         base.FrameUpdate(args);
         var remaining = (float)(_endsAt - _timing.CurTime).TotalSeconds;
-        _timerLabel.Text = $"{Math.Max(0, remaining):0} seconds remaining...";
+        _timerLabel.Text = Loc.GetString("cmu14-blight-core-seconds-remaining", ("seconds", (int) Math.Max(0, remaining))); // RuMC edit
     }
 }

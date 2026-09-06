@@ -1,0 +1,95 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsSentinelMedic
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsSentinelMedic
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillFireman: 3
+      RMCSkillVehicles: 1
+      RMCSkillDomestics: 1
+      RMCSkillMedical: 3
+      RMCSkillPolice: 2
+      RMCSkillResearch: 1
+      RMCSkillSurgery: 2
+      RMCSkillFirearms: 2
+  - type: JobPrefix
+    prefix: Medic
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Sentinel Medic
+  description: Black Dragoons Sentinel Medic
+  playTimeTracker: RuMCJobBlackDragoonsSentinelMedic
+  ranks:
+    RuMCRankContractor: []
+  spawnMenuRoleName: Black Dragoons Sentinel Medic
+  startingGear: RuMCGearBlackDragoonsSentinelMedic
+  greeting: You are a member of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsSentinelMedic
+  name: Black Dragoons Sentinel Medic
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Sentinel Medic
+    description: You are a medic for the "Black Dragoons" PMC. You are a contractor for the company's main counter-insurgency force.
+    job: RuMCBlackDragoonsSentinelMedic
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBlackDragoonsSentinelBase
+  id: RuMCGearBlackDragoonsSentinelMedic
+  equipment:
+    id: RuCMIDCardBlackDragoonsMedic
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueSurgSentFilled
+    gloves: RMCHandsVeteran
+    outerClothing: RuMCArmorBDLight
+    back: RMCSatchelMedicpack5Slot
+    belt: RuMCBeltMedicBDFull
+    eyes: RMCGlassesMedicalHUDGlasses
+    suitstorage: RuMCWeaponSMGFP9000Tac
+    pocket1: RuMCPouchMagazineLargeFN
+    pocket2: RMCPouchMedkitFillAdvanced
+  storage:
+    back:
+    - AU14MRETWERMC
+    - CMCanteen
+    - RMCGrenadeBlastM12
+    - CMAdvFirstAidKitFilled
+    - AU14CMDefibrillator
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsSentinelMedic

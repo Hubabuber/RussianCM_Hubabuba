@@ -200,7 +200,7 @@ public sealed partial class AdminConsoleSystem : EntitySystem
         {
             if (_proto.TryIndex<ThirdPartyPrototype>(id, out var proto) &&
                 _auRound.IsThirdPartyAllowedForCurrentContext(proto))
-                thirdParties[id] = (proto.DisplayName ?? proto.ID, cost);
+                thirdParties[id] = (proto.DisplayName ?? proto.ID, cost); // RuMC edit
         }
         _ui.SetUiState(uid, AdminConsoleThirdPartyUi.Key,
             new AdminConsoleThirdPartyBuiState(_colonyBudget.GetBudget(), thirdParties, comp.CalledParties));

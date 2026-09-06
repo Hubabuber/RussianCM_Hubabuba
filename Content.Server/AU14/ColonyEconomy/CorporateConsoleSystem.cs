@@ -229,7 +229,7 @@ public sealed partial class CorporateConsoleSystem : EntitySystem
         {
             if (_proto.TryIndex<ThirdPartyPrototype>(id, out var proto) &&
                 _auRound.IsThirdPartyAllowedForCurrentContext(proto))
-                thirdParties[id] = (proto.DisplayName ?? proto.ID, cost);
+                thirdParties[id] = (proto.DisplayName ?? proto.ID, cost); // RuMC edit
         }
         _ui.SetUiState(uid, CorporateConsoleThirdPartyUi.Key,
             new CorporateConsoleThirdPartyBuiState(comp.CorporateBudget, thirdParties, comp.CalledParties));

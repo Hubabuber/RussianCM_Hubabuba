@@ -1,0 +1,91 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsSentinelMarksman
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsSentinelMarksman
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 1
+      RMCSkillEngineer: 1
+      RMCSkillConstruction: 1
+      RMCSkillFirearms: 3
+      RMCSkillPolice: 2
+      RMCSkillFireman: 1
+      RMCSkillEndurance: 2
+  - type: JobPrefix
+    prefix: Marksman
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Sentinel Marksman
+  description: Black Dragoons Sentinel Marksman
+  playTimeTracker: RuMCJobBlackDragoonsSentinelMarksman
+  ranks:
+    RuMCRankContractor: []
+  spawnMenuRoleName: Black Dragoons Sentinel Marksman
+  startingGear: RuMCGearBlackDragoonsSentinelMarksman
+  greeting: You are a member of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsSentinelMarksman
+  name: Black Dragoons Sentinel Marksman
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Sentinel Marksman
+    description: You are a marksman for the "Black Dragoons" PMC. You are a contractor for the company's main counter-insurgency force.
+    job: RuMCBlackDragoonsSentinelMarksman
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBlackDragoonsSentinelBase
+  id: RuMCGearBlackDragoonsSentinelMarksman
+  equipment:
+    id: RuCMIDCardBlackDragoonsMarksman
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilled
+    gloves: RMCHandsVeteran
+    outerClothing: RuMCArmorBDMedium
+    suitstorage: RuMCRifleFALSniper
+    belt: RuMCBeltMagazineFALBDFull
+  storage:
+    back:
+    - AU14MRETWERMC
+    - CMCanteen
+    - RMCGrenadeBlastM12
+    - CMEntrenchingTool
+    - RMCZipties
+    - RMCZipties
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsSentinelMarksman

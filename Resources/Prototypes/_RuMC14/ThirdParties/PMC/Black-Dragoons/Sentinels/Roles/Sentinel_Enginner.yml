@@ -1,0 +1,95 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsSentinelEngi
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsSentinelEngi
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillFireman: 2
+      RMCSkillVehicles: 1
+      RMCSkillDomestics: 1
+      RMCSkillEngineer: 4
+      RMCSkillFirearms: 2
+      RMCSkillPolice: 2
+      RMCSkillConstruction: 4
+      RMCSkillPowerLoader: 2
+  - type: JobPrefix
+    prefix: Enginner
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Sentinel Enginner
+  description: Black Dragoons Sentinel Enginner
+  playTimeTracker: RuMCJobBlackDragoonsSentinelEnginner
+  ranks:
+    RuMCRankContractor: []
+  spawnMenuRoleName: Black Dragoons Sentinel Enginner
+  startingGear: RuMCGearBlackDragoonsSentinelEngi
+  greeting: You are a member of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsSentinelEngi
+  name: Black Dragoons Sentinel Enginner
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Sentinel Enginner
+    description: You are a enginner for the "Black Dragoons" PMC. You are a contractor for the company's main counter-insurgency force.
+    job: RuMCBlackDragoonsSentinelEngi
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBlackDragoonsSentinelBase
+  id: RuMCGearBlackDragoonsSentinelEngi
+  equipment:
+    id: RuCMIDCardBlackDragoonsEngi
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilledEngi
+    gloves: RMCHandsVeteranInsulated
+    outerClothing: RuMCArmorBDLight
+    back: AU14WelderBackpackRMC
+    belt: AU14BeltUtilityFilled
+    eyes: RMCWeldingGoggles
+    suitstorage: RuMCWeaponSMGFP9000Tac
+    pocket1: RuMCPouchMagazineLargeFN
+    pocket2: RMCPouchConstructionFillFull
+  storage:
+    back:
+    - AU14MRETWERMC
+    - CMCanteen
+    - RMCGrenadeBlastM12
+    - RMCExplosiveBreachingCharge
+    - RMCExplosiveBreachingCharge
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsSentinelEnginner

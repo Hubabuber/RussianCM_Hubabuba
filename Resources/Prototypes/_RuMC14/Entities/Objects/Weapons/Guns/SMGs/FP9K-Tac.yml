@@ -1,0 +1,96 @@
+- type: entity
+  parent: CMBaseWeaponSMG
+  name: FN FP9000-X TAC
+  id: RuMCWeaponSMGFP9000Tac
+  description: A variation on the standard FP9000 design, with it's internal mechanisms improved and given a new color scheme to sell at extortionate prices by Highfire Manufacturing. Whilst not as good as the official FP9000/2, it's still able to hold it's own and has a much more managable spread.
+  suffix: Filled
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/SMGs/fp9000-tac.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-0
+      map: [ "enum.GunVisualLayers.Mag" ]
+  - type: Clothing
+    sprite: _RuMC14/Objects/Weapons/Guns/SMGs/fp9000-tac.rsi
+  - type: Gun
+    shotsPerBurst: 3
+    soundGunshot:
+      path: /Audio/_RMC14/Weapons/Guns/Gunshots/pdw90_shot.ogg
+  - type: RMCSelectiveFire
+    baseFireModes:
+    - SemiAuto
+    - Burst
+    - FullAuto
+    recoilWielded: 0.1
+    recoilUnwielded: 0.1
+    scatterWielded: 4
+    scatterUnwielded: 14
+    baseFireRate: 6.67
+    burstScatterMult: 7
+    modifiers:
+      Burst:
+        fireDelay: 0.0999
+        maxScatterModifier: 1.75
+        useBurstScatterMult: true
+        unwieldedScatterMultiplier: 2
+        shotsToMaxScatter: 6
+      FullAuto:
+        maxScatterModifier: 1.85
+        useBurstScatterMult: true
+        unwieldedScatterMultiplier: 2
+        shotsToMaxScatter: 4
+  - type: RMCWeaponAccuracy
+    accuracyMultiplier: 1.25
+    accuracyMultiplierUnwielded: 0.75
+  - type: MagazineAmmoProvider
+    autoEject: false
+    soundAutoEject: null
+  - type: WieldableSpeedModifiers
+    base: 0.725
+    light: 1
+    medium: 1
+    heavy: 1
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: RMCMagazineSMGFP9000
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/smg_reload.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/smg_unload.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - RMCMagazineSMGFP9000
+  - type: AttachableHolder
+    randomAttachmentChance: 0
+    slots:
+      rmc-aslot-barrel:
+        whitelist:
+          tags:
+          - RMCAttachmentBarrelCharger
+          - RMCAttachmentExtendedBarrel
+          - RMCAttachmentExtendedCompensator
+          - RMCAttachmentRecoilCompensator
+          - RMCM5Bayonet
+      rmc-aslot-rail:
+        locked: true
+        startingAttachable: RMCAttachmentFP9000Scope
+        whitelist:
+          tags:
+          - RMCAttachmentFP9000Scope
+      rmc-aslot-underbarrel:
+        whitelist:
+          tags:
+          - RMCAttachmentLaserSight
+  - type: AttachableHolderVisuals
+    offsets:
+      rmc-aslot-rail: 0.06, .15
+      rmc-aslot-barrel: 0.81, 0.04
+      rmc-aslot-underbarrel: 0.58, -0.25
+  - type: GunDamageModifier
+    multiplier: 1
+
+- type: Tag
+  id: RuMCSMGFP9000Tac

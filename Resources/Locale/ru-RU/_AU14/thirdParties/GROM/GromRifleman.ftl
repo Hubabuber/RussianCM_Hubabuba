@@ -1,3 +1,6 @@
-ent-AU14JobUPPGROMRifleman-name = Урист Ц.М. МакХэндс
-ent-AU14IDCardUPPGROMRifleman-name = ID-карта стрелка ГРОМ СПН
-ent-AU14IDCardUPPGROMRifleman-desc = Кусочек закодированного компрессированного стекловолокна. Используется для идентификации и контроля доступа.
+ent-AU14JobUPPGROMRifleman-name = Стрелок ГРОМ СПН
+
+ent-AU14JobUPPGROMRifleman = стрелок ГРОМ СПН
+
+ent-AU14IDCardUPPGROMRifleman = ID-карта стрелка ГРОМ СПН
+    .desc = {ent-AU14IDCardBaseCivilianNoIFF.desc}

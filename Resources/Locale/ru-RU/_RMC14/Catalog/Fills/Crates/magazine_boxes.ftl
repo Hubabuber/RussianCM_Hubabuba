@@ -76,6 +76,15 @@ ent-RMCCrateBoxMagazineRifleM4SPRAP = ящик магазинов (M4SPR, 16x Б
 ent-RMCCrateBoxMagazineRifleM4SPR = ящик магазинов (M4SPR, 16x обычных)
     .desc = Ящик с боеприпасами.
 
+ent-AU14CrateMagazineSpecScoutStandardWeYu = ящик магазинов (M5SPR/2, 6x гиперскоростных)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateMagazineSpecScoutHVHIPWeYu = ящик магазинов (M5SPR/2, 6x высокоскоростных)
+    .desc = Ящик с боеприпасами.
+
+ent-AU14CrateMagazineSpecScoutMixedWeYu = ящик магазинов (M5SPR/2, 3x высокоскоростных, 3x гиперскоростных)
+    .desc = Ящик с боеприпасами.
+
 ent-RMCCrateMagazineRifleM54CE2HT = ящик магазинов M54CE2 (2x коробчатых магазина СБ)
     .desc = Ящик с боеприпасами.
 

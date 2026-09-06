@@ -1,2 +1,5 @@
 ent-CMSurgicalCase = хирургический кейс
-    .desc = Медицинский кейс для хранения базовых хирургических инструментов.
+    .desc = Кейс для хранения базовых хирургических инструментов.
+ent-CMSurgicalCaseFilled = {ent-CMSurgicalCase}
+    .desc = {ent-CMSurgicalCase.desc}
+    .suffix = Заполнен

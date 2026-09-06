@@ -20,8 +20,8 @@
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: synth
 
-  name: Drug Smuggler
-  description: You barely made it out as the CMB raided your old drug lab, luckily you managed to escape with some of the product and they didnt catch your name. Time to try again.
+  name: au14-job-name-drugsmuggler
+  description: au14-job-description-drugsmuggler
   setPreference: false
   startingGear: AU14DrugSmugglerGear
   icon: "CMJobIconEmpty"
@@ -47,13 +47,13 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Drug Dealer (Criminal)
-    description:  You barely made it out as the CMB raided your old drug lab, luckily you managed to escape with some of the product and they didnt catch your name. Time to try again.
+    name: au14-ghostrole-name-drugdealer-criminal
+    description: au14-job-description-drugsmuggler
     reregister: false
     job: AU14DrugSmugglerJob
     raffle:
       settings: short
-    rules: You do not know what is going on in the colony.
+    rules: au14-ghostrole-rules-new-colonist
 
 - type: startingGear
   id: AU14DrugSmugglerGear

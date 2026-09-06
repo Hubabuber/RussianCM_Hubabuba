@@ -1,91 +1,128 @@
-ent-RMCPouchGeneralLargeBureauObserverFill = большой общий подсумок
-  .desc = Универсальная сумка, используемая для переноски предметов разного размера.
+ent-RMCPouchGeneralLargeBureauObserverFill = {ent-RMCPouchGeneralLarge}
+    .desc = {ent-RMCPouchGeneralLarge.desc}
+    .suffix = Полный, Наблюдатель
+ent-RMCPouchGeneralLargeICBLiaison = {ent-RMCPouchGeneralLarge}
+    .desc = {ent-RMCPouchGeneralLarge.desc}
+    .suffix = Полный, Межзвёздный связной
 
-ent-RMCPouchGeneralLargeICBLiaison = большой общий подсумок
-  .desc = Универсальная сумка, используемая для переноски предметов разного размера.
+ent-RMCPouchMagazineFilledMP5 = {ent-RMCPouchMagazine}
+    .desc = {ent-RMCPouchMagazine.desc}
+    .suffix = Полный, MP5
+ent-RMCPouchMagazineFilledM16 = {ent-RMCPouchMagazine}
+    .desc = {ent-RMCPouchMagazine.desc}
+    .suffix = Полный, M16
+ent-RMCPouchMagazineFilledPDW90 = {ent-RMCPouchMagazine}
+    .desc = {ent-RMCPouchMagazine.desc}
+    .suffix = Полный, PDW90
+ent-RMCPouchMagazineFilledKT42 = {ent-RMCPouchMagazine}
+    .desc = {ent-RMCPouchMagazine.desc}
+    .suffix = Полный, KT-42
+ent-RMCPouchMagazineFilledMAR40Ext = {ent-RMCPouchMagazine}
+    .desc = {ent-RMCPouchMagazine.desc}
+    .suffix = Полный, MAR-40
 
-ent-RMCPouchMagazineFilledMP5 = подсумок для магазинов
-  .desc = Он может содержать магазины.
+ent-RMCPouchMagazineLargeMP5 = {ent-RMCPouchMagazineLarge}
+    .desc = {ent-RMCPouchMagazineLarge.desc}
+    .suffix = Полный, MP5
+ent-RMCPouchMagazineType64 = {ent-RMCPouchMagazineLarge}
+    .desc = {ent-RMCPouchMagazineLarge.desc}
+    .suffix = Полный, Тип 64
+ent-RMCPouchMagazineLargeMAR40 = {ent-RMCPouchMagazineLarge}
+    .desc = {ent-RMCPouchMagazineLarge.desc}
+    .suffix = Полный, MAR-40
 
-ent-RMCPouchMagazineFilledM16 = подсумок для магазинов
-  .desc = Он может содержать магазины.
+ent-RMCPouchMagazinePistolFilledMateba = {ent-RMCPouchMagazinePistol}
+    .desc = {ent-RMCPouchMagazinePistol.desc}
+    .suffix = Полный, Матеба, ПВББ
+ent-RMCPouchMagazinePistolFilledM88Rubber = {ent-RMCPouchMagazinePistol}
+    .desc = {ent-RMCPouchMagazinePistol.desc}
+    .suffix = Полный, M88, Резина
 
-ent-RMCPouchMagazineFilledPDW90 = подсумок для магазинов
-  .desc = Он может содержать магазины.
+ent-RMCPouchMagazinePistolLargeFilledHighCommand = {ent-RMCPouchMagazinePistolLarge}
+    .desc = {ent-RMCPouchMagazinePistolLarge.desc}
+    .suffix = Полный, Матеба, ПВ
+ent-RMCPouchMagazinePistolLargeVonBandolier = {ent-RMCPouchMagazinePistolLarge}
+    .desc = {ent-RMCPouchMagazinePistolLarge.desc}
+    .suffix = Полный, M44, СНП
 
-ent-RMCPouchMagazineFilledKT42 = подсумок для магазинов
-  .desc = Он может содержать магазины.
+ent-RMCPouchShotgunFilledBuckshot = {ent-RMCPouchShotgun}
+    .desc = {ent-RMCPouchShotgun.desc}
+    .suffix = Полный, Картечь
+ent-RMCPouchShotgunFilledPolicing = {ent-RMCPouchShotgun}
+    .desc = {ent-RMCPouchShotgun.desc}
+    .suffix = Полный, Полиция
+ent-RMCPouchShotgunFilledBeanbag = {ent-RMCPouchShotgun}
+    .desc = {ent-RMCPouchShotgun.desc}
+    .suffix = Полный, Травматические
 
-ent-RMCPouchMagazineFilledMAR40Ext = подсумок для магазинов
-    .desc = Он может содержать магазины.
-    .suffix = MAR-40
+ent-RMCPouchShotgunLargeBeanbag = {ent-RMCPouchShotgunLarge}
+    .desc = {ent-RMCPouchShotgunLarge.desc}
+    .suffix = Полный, Травматические
+ent-RMCPouchShotgunLargeBuckshot = {ent-RMCPouchShotgunLarge}
+    .desc = {ent-RMCPouchShotgunLarge.desc}
+    .suffix = Полный, Картечь
+ent-RMCPouchShotgunLargeSlugs = {ent-RMCPouchShotgunLarge}
+    .desc = {ent-RMCPouchShotgunLarge.desc}
+    .suffix = Полный, Пули
 
-ent-RMCPouchMagazineLargeMP5 = большой подсумок для магазинов
-  .desc = Он может содержать много магазинов.
+ent-RMCPouchFlareFilled = {ent-RMCPouchFlare}
+    .desc = {ent-RMCPouchFlare.desc}
+    .suffix = Полный
 
-ent-RMCPouchMagazineType64 = большой подсумок для магазинов
-  .desc = Он может содержать много магазинов.
+ent-RMCPouchFlareL96Filled = {ent-RMCPouchFlareL96}
+    .desc = {ent-RMCPouchFlareL96.desc}
+    .suffix = Полный
 
-ent-RMCPouchMagazinePistolFilledMateba = Подсумок для магазинов Матеба
-  .desc = Он может нести магазины Матеба и револьверные спидлоадеры.
+ent-RMCPouchElectronicsFill = {ent-RMCPouchElectronics}
+    .desc = {ent-RMCPouchElectronics.desc}
+    .suffix = Полный
 
-ent-RMCPouchShotgunFilledBuckshot = подсумок для дроби
-  .desc = Он может содержать несколько ракушек.
+ent-RMCPouchToolsFill = {ent-RMCPouchTools}
+    .desc = {ent-RMCPouchTools.desc}
+    .suffix = Полный
+ent-RMCPouchToolsFilledRCM = {ent-RMCPouchTools}
+    .desc = {ent-RMCPouchTools.desc}
+    .suffix = Полный, Огнетушитель
 
-ent-RMCPouchShotgunFilledPolicing = подсумок для дроби
-  .desc = Он может содержать несколько ракушек.
+ent-RMCPouchToolsSocFill = {ent-RMCPouchToolsSoc}
+    .desc = {ent-RMCPouchToolsSoc.desc}
+    .suffix = Полный
+ent-RMCPouchToolsSocMarineRaiderFill = {ent-RMCPouchToolsSoc}
+    .desc = {ent-RMCPouchToolsSoc.desc}
+    .suffix = Полный, Рейдер КМП
+ent-RMCPouchToolsSocRCMPVEAssaultEngi = {ent-RMCPouchToolsSoc}
+    .desc = {ent-RMCPouchToolsSoc.desc}
+    .suffix = Полный, Штурмовой инженер
+ent-RMCPouchToolsSocFilledSynthetic = {ent-RMCPouchToolsSoc}
+    .desc = {ent-RMCPouchToolsSoc.desc}
+    .suffix = Полный, Синтетик
+ent-RMCPouchToolsSocFilledTactical = {ent-RMCPouchToolsSoc}
+    .desc = {ent-RMCPouchToolsSoc.desc}
+    .suffix = Полный, Взрывчатка
 
-ent-RMCPouchShotgunFilledBeanbag = подсумок для дроби
-  .desc = Он может содержать несколько ракушек.
 
-ent-RMCPouchShotgunLargeBeanbag = большой подсумок для дроби
-  .desc = Он может содержать больше горстей ракушек.
+ent-RMCPouchDrumPMCFill = {ent-RMCPouchDrumPMC}
+    .desc = {ent-RMCPouchDrumPMC}
+    .suffix = Полный, ОБД
+ent-RMCPouchDrumPMCFilled = {ent-RMCPouchDrumPMC}
+    .desc = {ent-RMCPouchDrumPMC}
+    .suffix = Полный, ИТМ
 
-ent-RMCPouchShotgunLargeSlugs = большой подсумок для патронов для дробовика
-  .desc = Он может содержать больше горстей ракушек.
+ent-RMCPouchSurvivalFill = {ent-RMCPouchSurvival}
+    .desc = {ent-RMCPouchSurvival.desc}
+    .suffix = Полный
 
-ent-RMCPouchFlareFilled = подсумок сигнальных ракет
-  .desc = Подсумок, предназначенный для хранения сигнальных ракет.
+ent-RMCPouchSurvivalFillRadioOff = {ent-RMCPouchSurvival}
+    .desc = {ent-RMCPouchSurvival.desc}
+    .suffix = Полный, Рация выкл
 
-ent-RMCPouchFlareL96Filled = подсумок L96
-  .desc = Подсумок, предназначенный для хранения сигнальных ракет, используемых королевской морской пехотой.
+ent-RMCPouchSurvivalBlackFilled = {ent-RMCPouchSurvivalBlack}
+    .desc = {ent-RMCPouchSurvivalBlack.desc}
+    .suffix = Полный
 
-ent-RMCPouchElectronicsFill = подсумок для электроники
-  .desc = Он предназначен для хранения большинства электронных устройств, силовых элементов и печатных плат.
+ent-RMCPouchSurvivalSynthFill = {ent-RMCPouchSurvivalSynth}
+    .desc = {ent-RMCPouchSurvivalSynth.desc}
+    .suffix = Полный
 
-ent-RMCPouchToolsFill = подсумок инструментов
-  .desc = Он предназначен для хранения инструментов для обслуживания — отвертки, гаечного ключа, катушки кабеля и т. д. Он также имеет крючок для шанцевого инструмента или легкого заменителя.
 
-ent-RMCPouchToolsSocFill = тактический подсумок для инструментов
-  .desc = Этот конкретный набор инструментов, полный острых и тяжелых предметов, был разработан для того, чтобы взламывать вещи, а не чинить их.
-
-ent-RMCPouchToolsSocMarineRaiderFill = тактический подсумок для инструментов
-  .desc = Этот конкретный набор инструментов, полный острых и тяжелых предметов, был разработан для того, чтобы взламывать вещи, а не чинить их.
-
-ent-RMCPouchDrumPMCFill = подсумок для смартгана
-  .desc = Тяжелая сумка, предназначенная для переноски барабанов для смартгана.
-
-ent-RMCPouchSurvivalFill = подсумок для выживания
-  .desc = Подсумок, выдаваемый колонистам на случай чрезвычайной ситуации.
-
-ent-RMCPouchSurvivalFillRadioOff = подсумок для выживания
-  .desc = Подсумок, выдаваемый колонистам на случай чрезвычайной ситуации.
-
-ent-RMCPouchSurvivalBlackFilled = подсумок для выживания
-  .desc = Подсумок, выдаваемый колонистам на случай чрезвычайной ситуации.
-
-ent-RMCPouchSurvivalSynthFill = подсумок для выживания синтетика
-  .desc = Аварийный мешок для синтетиков на случай чрезвычайной ситуации.
-
-ent-RMCPouchToolsSocRCMPVEAssaultEngi = тактический подсумок для инструментов
-  .desc = Этот конкретный набор, полный острых и тяжёлых предметов, был создан для взлома, а не для починки. Хотя и с последним справляется довольно хорошо.
-
-ent-RMCPouchToolsSocFilledSynthetic = тактический подсумок для инструментов
-  .desc = Этот конкретный набор, полный острых и тяжёлых предметов, был создан для взлома, а не для починки. Хотя и с последним справляется довольно хорошо.
-
-ent-RMCPouchToolsFilledRCM = подсумок для инструментов
-  .desc = Предназначен для переноски ремонтных инструментов — отвёртки, гаечного ключа, кабельной катушки и т.д. Также имеет крюк для сапёрной лопатки или светозаменятеля.
-
-ent-RMCPouchToolsSocFilledTactical = тактический подсумок для инструментов
-  .desc = Этот конкретный набор, полный острых и тяжёлых предметов, был создан для взлома, а не для починки. Хотя и с последним справляется довольно хорошо.
 

@@ -8,7 +8,7 @@ rmc-health-analyzer-clone = Клон
 rmc-health-analyzer-permadead = Смерть необратима
 rmc-health-analyzer-healthy = {$percent} здоровья
 rmc-health-analyzer-unknown-reagents = [color=white][italic]Обнаружены неизвестные реагенты.[/italic][/color]
-rmc-health-analyzer-advice-epinedrine = [color=#6bd43c][font="Emoji"]💉[/font][/color] Ввести одну дозу эпинедрина.
+rmc-health-analyzer-advice-epinedrine = [color=#6bd43c][font="Emoji"]💉[/font][/color] Ввести одну дозу эпинефрина.
 rmc-health-analyzer-advice-defib = [color=yellow][font="Emoji"]⚡[/font][/color] Требуется дефибрилляция!
 rmc-health-analyzer-advice-defib-repeated = [color=yellow][font="Emoji"]⚡[/font][/color] Требуется многократная дефибрилляция.
 rmc-health-analyzer-advice-cpr = [color=skyblue][font="Emoji"]🫀[/font][/color] Регулярно проводите СЛР для предотвращения смерти мозга.

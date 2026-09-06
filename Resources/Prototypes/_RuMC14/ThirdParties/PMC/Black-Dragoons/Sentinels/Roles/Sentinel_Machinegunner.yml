@@ -1,0 +1,100 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsSentinelMachinegunner
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsSentinelMachinegunner
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 1
+      RMCSkillEngineer: 1
+      RMCSkillConstruction: 1
+      RMCSkillFirearms: 2
+      RMCSkillPolice: 2
+      RMCSkillFireman: 1
+      RMCSkillEndurance: 3
+  - type: JobPrefix
+    prefix: MG
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Sentinel Machine Gunner
+  description: Black Dragoons Sentinel Machine Gunner
+  playTimeTracker: RuMCJobBlackDragoonsSentinelMachinegunner
+  ranks:
+    RuMCRankContractor: []
+  spawnMenuRoleName: Black Dragoons Sentinel Machine Gunner
+  startingGear: RuMCGearBlackDragoonsSentinelMachinegunner
+  greeting: You are a member of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsSentinelMachinegunner
+  name: Black Dragoons Sentinel Machine Gunner
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Sentinel Machine Gunner
+    description: You are a machinegunner for the "Black Dragoons" PMC. You are a contractor for the company's main counter-insurgency force.
+    job: RuMCBlackDragoonsSentinelMachinegunner
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBlackDragoonsSentinelBase
+  id: RuMCGearBlackDragoonsSentinelMachinegunner
+  equipment:
+    id: RuCMIDCardBlackDragoonsMachinegunner
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilled
+    gloves: RMCHandsVeteran
+    outerClothing: RuMCArmorBDMedium
+    suitstorage: RuMCMachineGunFAL
+    belt: AU14BeltUtilityGeneralRMC
+    pocket1: RMCPouchGeneralLarge
+    pocket2: AU14PouchIFAKFill
+  storage:
+    back:
+    - AU14MRETWERMC
+    - CMCanteen
+    - RMCGrenadeBlastM12
+    - CMEntrenchingTool
+    - RMCZipties
+    - RMCZipties
+    belt:
+    - RuMCMagazineFALSAW
+    - RuMCMagazineFALSAW
+    - RuMCMagazineFALSAW
+    pocket1:
+    - RuMCMagazineFALSAW
+    - RuMCMagazineFALSAW
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsSentinelMachinegunner

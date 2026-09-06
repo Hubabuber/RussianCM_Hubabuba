@@ -169,3 +169,13 @@ ent-RMCT73BeltFilled = {ent-RMCBeltHolsterPistol}
 ent-RMCMK80BeltFilled = {ent-RMCBeltHolsterPistol}
     .desc = {ent-RMCBeltHolsterPistol.desc}
     .suffix = Заполнен, MK80
+
+ent-RMCM77BeltPMCFilled = {ent-RMCBeltHolsterPistolPMC}
+    .desc = {ent-RMCBeltHolsterPistolPMC.desc}
+    .suffix = Заполнен, M77
+ent-RMCM77BeltPMCFilledNearEmpty = {ent-RMCBeltHolsterPistolPMC}
+    .desc = {ent-RMCBeltHolsterPistolPMC.desc}
+    .suffix = Заполнен, M77, Почти пусто
+ent-RMCMK80BeltPMCFilled = {ent-RMCBeltHolsterPistolPMC}
+    .desc = {ent-RMCBeltHolsterPistolPMC.desc}
+    .suffix = Заполнен, MK80

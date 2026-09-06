@@ -9,7 +9,6 @@ using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.FixedPoint;
 using Content.Shared.Physics;
-using Content.Shared.Throwing;
 using JetBrains.Annotations;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
@@ -28,7 +27,6 @@ namespace Content.Server.Chemistry.EntitySystems
         [Dependency] private SharedMapSystem _map = default!;
         [Dependency] private SharedPhysicsSystem _physics = default!;
         [Dependency] private SharedSolutionContainerSystem _solutionContainerSystem = default!;
-        [Dependency] private ThrowingSystem _throwing = default!;
         [Dependency] private ReactiveSystem _reactive = default!;
         [Dependency] private SharedTransformSystem _transformSystem = default!;
 
@@ -81,7 +79,13 @@ namespace Content.Server.Chemistry.EntitySystems
                 _physics.SetLinearDamping(vapor, physics, 0f);
                 _physics.SetAngularDamping(vapor, physics, 0f);
 
-                _throwing.TryThrow(vapor, dir, speed, user: user, recoil: false);
+                // RuMC edit start
+                if (dir.LengthSquared() > 0f)
+                {
+                    _physics.SetLinearVelocity(vapor, dir.Normalized() * speed, body: physics);
+                    _physics.SetBodyStatus(vapor, physics, BodyStatus.InAir);
+                }
+                // RuMC edit end
 
                 var distance = (target.Position - _transformSystem.GetWorldPosition(vaporXform)).Length();
                 var time = (distance / physics.LinearVelocity.Length());

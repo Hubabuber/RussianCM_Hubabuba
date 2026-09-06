@@ -30,9 +30,6 @@ ent-CMUActionYautjaFoldCombistick = { cmu-yautja-combistick-fold-action-name }
 ent-CMUActionYautjaCallCombi = { cmu-yautja-combistick-call-action-name }
     .desc = { cmu-yautja-combistick-call-action-desc }
 
-ent-CMUActionYautjaCreateHealingCapsule = Create Healing Capsule
-    .desc = Create a healing capsule.
-
 ent-CMUActionYautjaButcher = Butcher
     .desc = Butcher a corpse you're standing next to for its tasty meats.
 

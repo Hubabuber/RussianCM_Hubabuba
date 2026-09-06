@@ -49,3 +49,6 @@ cmu-job-description-pathogen-haze = A supportive strain of the Confluence, tendi
 
 cmu-job-name-pathogen-root = root
 cmu-job-description-pathogen-root = A huge, looming beast of the Confluence, wreathed in writhing tentacles.
+
+cmu-pathogen-ghost-description = You are a Neomorph, work with your hive to thrive!
+cmu-pathogen-ghost-rules = You are a Neomorph, tear, seize and destroy!

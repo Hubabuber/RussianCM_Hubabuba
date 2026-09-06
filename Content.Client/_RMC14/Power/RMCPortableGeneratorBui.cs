@@ -38,18 +38,26 @@ public sealed class RMCPortableGeneratorBui(EntityUid owner, Enum uiKey) : Bound
 
         if (gen.On)
         {
-            _window.StatusLabel.SetMarkupPermissive($"[color={GreenColor.ToHex()}][ Online ][/color]");
-            _window.ToggleButton.Text = "Stop";
+            // RuMC edit start
+            _window.StatusLabel.SetMarkupPermissive($"[color={GreenColor.ToHex()}]{Loc.GetString("rmc-portable-generator-window-status-online")}[/color]");
+            _window.ToggleButton.Text = Loc.GetString("rmc-portable-generator-window-stop");
+            // RuMC edit end
         }
         else
         {
-            _window.StatusLabel.SetMarkupPermissive($"[color={RedColor.ToHex()}][ Offline ][/color]");
-            _window.ToggleButton.Text = "Start";
+            // RuMC edit start
+            _window.StatusLabel.SetMarkupPermissive($"[color={RedColor.ToHex()}]{Loc.GetString("rmc-portable-generator-window-status-offline")}[/color]");
+            _window.ToggleButton.Text = Loc.GetString("rmc-portable-generator-window-start");
+            // RuMC edit end
         }
 
         var fuelPercent = gen.Sheets > 0 ? gen.SheetFraction * 100 : 0;
-        _window.FuelLabel.SetMarkupPermissive(
-            $"[color=#5B88B0]Fuel:[/color] [bold]{gen.Sheets}[/bold] sheets of {gen.FuelName} ({fuelPercent:F0}% of current sheet)");
+        // RuMC edit start
+        _window.FuelLabel.SetMarkupPermissive(Loc.GetString("rmc-portable-generator-window-fuel-line",
+            ("sheets", gen.Sheets),
+            ("fuel", Loc.GetString(gen.FuelName)),
+            ("percent", $"{fuelPercent:F0}")));
+        // RuMC edit end
 
         _window.FuelBar.MinValue = 0;
         _window.FuelBar.MaxValue = gen.MaxSheets;
@@ -59,8 +67,11 @@ public sealed class RMCPortableGeneratorBui(EntityUid owner, Enum uiKey) : Bound
         _window.EjectButton.Disabled = gen.On;
 
         var watts = gen.Watts * gen.PowerGenPercent / 100;
-        _window.PowerOutputLabel.SetMarkupPermissive(
-            $"[color=#5B88B0]Output:[/color] [bold]{watts} W[/bold] ({gen.PowerGenPercent}%)");
+        // RuMC edit start
+        _window.PowerOutputLabel.SetMarkupPermissive(Loc.GetString("rmc-portable-generator-window-power-line",
+            ("watts", watts),
+            ("percent", gen.PowerGenPercent)));
+        // RuMC edit end
 
         _window.LowerPowerButton.Disabled = gen.PowerGenPercent <= gen.MinPowerPercent;
         _window.RaisePowerButton.Disabled = gen.PowerGenPercent >= gen.MaxPowerPercent;
@@ -71,12 +82,12 @@ public sealed class RMCPortableGeneratorBui(EntityUid owner, Enum uiKey) : Bound
 
         string heatStatus;
         if (gen.Heat > 200)
-            heatStatus = $"[color={RedColor.ToHex()}]DANGER[/color]";
+            heatStatus = $"[color={RedColor.ToHex()}]{Loc.GetString("rmc-portable-generator-window-heat-danger")}[/color]"; // RuMC edit
         else if (gen.Heat >= 100)
-            heatStatus = $"[color={OrangeColor.ToHex()}]Caution[/color]";
+            heatStatus = $"[color={OrangeColor.ToHex()}]{Loc.GetString("rmc-portable-generator-window-heat-caution")}[/color]"; // RuMC edit
         else
-            heatStatus = $"[color={GreenColor.ToHex()}]Nominal[/color]";
+            heatStatus = $"[color={GreenColor.ToHex()}]{Loc.GetString("rmc-portable-generator-window-heat-nominal")}[/color]"; // RuMC edit
 
-        _window.HeatStatusLabel.SetMarkupPermissive($"[color=#5B88B0]Heat:[/color] {heatStatus}");
+        _window.HeatStatusLabel.SetMarkupPermissive(Loc.GetString("rmc-portable-generator-window-heat-line", ("status", heatStatus))); // RuMC edit
     }
 }

@@ -28,7 +28,7 @@
   - type: EquipEntityPreset
     preset: RuMCBEARmachinegunPresetGROZA
   - type: JobPrefix
-    prefix: Machinegunner
+    prefix: au-14-job-prefix-bear-machinegunner
   - type: MarineOrders
   - type: RMCTrackable
   - type: RMCPointing
@@ -52,8 +52,8 @@
     currentLanguage: Russian
     defaultLanguage: Russian
 
-  name: Machine Gunner
-  description: GROZA Machine Gunner
+  name: rumc-job-name-bear-machinegunner
+  description: rumc-job-callsign-bear-machinegunner-groza
   playTimeTracker: RuMCJobUPPBEARMachinegunner
   ranks:
     RMCRankCivilian: []
@@ -87,7 +87,7 @@
         time: 10800 # 3 hours
   spawnMenuRoleName: GROZA Machine Gunner
   startingGear: RuMCGearUPPBEARMachinegunnerGROZA
-  greeting: Вы член секретного спецподразделения ЧВК «Медведи» (BEAR) при СПН! Существование связи между BEAR и СПН строжайше секретно. Никто не должен знать, кто вы и что вы здесь делаете. Вы дружественны к СПН. Враждебны к ЧВК VAI и ЧВК We-Y. Работайте скрытно. Выполняйте задачи. Не оставляйте следов.
+  greeting: rumc-job-greeting-bear
   icon: "RuMCJobIconUPPBEARMachinegunner"
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
@@ -110,8 +110,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: GROZA Machine Gunner
-    description: Fire support operator in the PMC “BEAR”. Armed with a UTES-C machine gun. The task is to suppress enemy firing points and hold positions.
+    name: rumc-job-callsign-bear-machinegunner-groza
+    description: rumc-ghostrole-description-bear-machinegunner-groza
     job: RuMCUPPBEARMachinegunnerGROZA
     raffle:
       settings: short

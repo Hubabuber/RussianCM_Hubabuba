@@ -1,38 +1,41 @@
 ent-RMCRollerBedHospital = больничная каталка
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
+    .desc = Мобильная кровать для раненных и больных. Не очень удобна.
+ent-RMCRollerBedHospitalFolded = {ent-RMCRollerBedHospital}
+    .desc = {ent-RMCRollerBedHospital.desc}
+    .suffix = Сложена
+ent-RMCRollerBedHospitalBlood = {ent-RMCRollerBedHospital}
+    .desc = {ent-RMCRollerBedHospital.desc}
+    .suffix = Кровь
+ent-RMCRollerBedHospitalBloodFolded = {ent-RMCRollerBedHospital}
+    .desc = {ent-RMCRollerBedHospital.desc}
+    .suffix = Сложена, Кровь
+ent-RMCRollerBedHospitalSheet = {ent-RMCRollerBedHospital}
+    .desc = {ent-RMCRollerBedHospital.desc}
+    .suffix = Покрывало
+ent-RMCRollerBedHospitalSheetFolded = {ent-RMCRollerBedHospital}
+    .desc = {ent-RMCRollerBedHospital.desc}
+    .suffix = Сложена, Покрывало
+ent-RMCRollerBedHospitalSheet2 = {ent-RMCRollerBedHospital}
+    .desc = {ent-RMCRollerBedHospital.desc}
+    .suffix = Покрывало с крестом
+ent-RMCRollerBedHospitalSheet2Folded = {ent-RMCRollerBedHospital}
+    .desc = {ent-RMCRollerBedHospital.desc}
+    .suffix = Сложена, Покрывало с крестом
 
-ent-RMCRollerBedHospitalFolded = больничная каталка
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
+ent-RMCMedevacStretcher = носилки для эвакуации
+    .desc = Складные носилки, активация которых отправляет пациента на транспортник.
+ent-RMCMedevacStretcherFolded = {ent-RMCMedevacStretcher}
+    .desc = {ent-RMCMedevacStretcher.desc}
+    .suffix = Сложены
 
-ent-RMCRollerBedHospitalBlood = больничная каталка
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
+ent-CMPortableSurgicalBed = хирургическая каталка
+    .desc = Лучший вариант для полевой хирургии.
+ent-CMPortableSurgicalBedSpawnFolded = {ent-CMPortableSurgicalBed}
+    .desc = {ent-CMPortableSurgicalBed.desc}
+    .suffix = Сложена
 
-ent-RMCRollerBedHospitalBloodFolded = больничная каталка
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
-
-ent-RMCRollerBedHospitalSheet = больничная каталка с простынёй
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
-
-ent-RMCRollerBedHospitalSheetFolded = больничная каталка с простынёй
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
-
-ent-RMCRollerBedHospitalSheet2 = больничная каталка с простынёй
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
-
-ent-RMCRollerBedHospitalSheet2Folded = больничная каталка с простынёй
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
-
-ent-RMCMedevacStretcher = носилки для медэвакуации
-  .desc = Складные носилки, активация которых отправляет пациента на дропшип.
-
-ent-RMCMedevacStretcherFolded = носилки для медэвакуации
-  .desc = Складные носилки, активация которых отправляет пациента на дропшип.
-
-ent-CMPortableSurgicalBed = портативный хирургический стол
-  .desc = Складной хирургический стол. Он не идеален, но это лучшее, что можно получить вместо настоящего хирургического стола.
-
-ent-CMPortableSurgicalBedSpawnFolded = портативный хирургический стол
-  .desc = Складной хирургический стол. Он не идеален, но это лучшее, что можно получить вместо настоящего хирургического стола.
-
-ent-CMRollerBedSpawnFolded = каталка
-  .desc = Базовая мягкая кожаная панель на небольшой раме. Не слишком удобна, но позволяет пациенту лежать во время быстрой транспортировки.
+ent-CMRollerBed = каталка
+    .desc = Мобильная кровать. Не очень удобна.
+ent-CMRollerBedSpawnFolded = {ent-CMRollerBed}
+    .desc = {ent-CMRollerBed.desc}
+    .suffix = Сложена

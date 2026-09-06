@@ -35,6 +35,91 @@
     modifiers:
     - size: 0
 
+- type: entity
+  parent: RMCAttachmentExtendedBarrel
+  id: RuMCAttachmentFALBarrel
+  name: R81M1A barrel
+  description: Cor... I don't think you can put that one back on.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Barrel/rumc_FAL_barrel.rsi
+    state: fal_barrel
+  - type: Tag
+    tags:
+    - RMCAttachmentBarrel
+    - RuMCAttachmentFALBarrel
+
+- type: entity
+  parent: RMCAttachmentExtendedBarrel
+  id: RuMCAttachmentFALShortBarrel
+  name: R81M1C barrel
+  description: Cor... I don't think you can put that one back on.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Barrel/rumc_FAL_short_barrel.rsi
+    state: fal_short_barrel
+  - type: Tag
+    tags:
+    - RMCAttachmentBarrel
+    - RuMCAttachmentFALShortBarrel
+
+- type: entity
+  parent: RMCAttachmentExtendedBarrel
+  id: RuMCAttachmentFALSniperBarrel
+  name: R81M1D barrel
+  description: Cor... I don't think you can put that one back on.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Barrel/rumc_FAL_sniper_barrel.rsi
+    state: fal_sniper_barrel
+  - type: Tag
+    tags:
+    - RMCAttachmentBarrel
+    - RuMCAttachmentFALSniperBarrel
+
+- type: entity
+  parent: RMCAttachmentExtendedBarrel
+  id: RuMCAttachmentFALSawBarrel
+  name: R81M1D barrel
+  description: Cor... I don't think you can put that one back on.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Barrel/rumc_FAL_saw_barrel.rsi
+    state: fal_saw_barrel
+  - type: Tag
+    tags:
+    - RMCAttachmentBarrel
+    - RuMCAttachmentFALSawBarrel
+
+- type: entity
+  parent: RMCAttachmentExtendedBarrel
+  id: RuMCAttachmentP79Barrel
+  name: P79 barrel
+  description: Cor... I don't think you can put that one back on.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Attachments/Barrel/rumc_p79_barrel.rsi
+    state: p79_barrel
+  - type: Tag
+    tags:
+    - RMCAttachmentBarrel
+    - RuMCAttachmentP79Barrel
+
+- type: Tag
+  id: RuMCAttachmentP79Barrel
+
+- type: Tag
+  id: RuMCAttachmentFALSawBarrel
+
+- type: Tag
+  id: RuMCAttachmentFALSniperBarrel
+
+- type: Tag
+  id: RuMCAttachmentFALShortBarrel
+
+- type: Tag
+  id: RuMCAttachmentFALBarrel
+
 - type: Tag
   id: RuMCAttachmentSuppressorAH
 

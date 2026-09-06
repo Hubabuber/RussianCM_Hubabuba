@@ -18,7 +18,7 @@ public sealed partial class RMCDelayRoundEndCommand : LocalizedEntityCommands
     [Dependency] private IConfigurationManager _cfg = default!;
 
     public override string Command => "rmcdelayroundend";
-    public override string Description => "Delay the round end.";
+    public override string Description => Loc.GetString("cmd-rmcdelayroundend-desc"); // RuMC edit
     public override void Execute(IConsoleShell shell, string argStr, string[] args)
     {
         var currentValue = _cfg.GetCVar(RMCCVars.RMCDelayRoundEnd);
@@ -56,12 +56,12 @@ public sealed partial class RMCDelayRoundEndCommand : LocalizedEntityCommands
             if (currentValue)
             {
                 shell.WriteLine("Round End delay has been removed; you must manually issue a command/action to conclude the round still.");
-                chatMsg = "[bold][font size=24][color=red]\nThe round end delay has been disabled!\n[/color][/font][/bold]";
+                chatMsg = Loc.GetString("rmc-delay-round-end-disabled"); // RuMC edit
             }
             else
             {
                 shell.WriteLine("Round End has been delayed; you must manually issue a command/action to conclude the round now.");
-                chatMsg = "[bold][font size=24][color=red]\nThe round end has been delayed!\n[/color][/font][/bold]";
+                chatMsg = Loc.GetString("rmc-delay-round-end-enabled"); // RuMC edit
             }
         }
 

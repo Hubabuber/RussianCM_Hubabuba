@@ -60,6 +60,13 @@ rmc-announcement-unidentified-lifesigns = [color=#CECECE][font size=16][bold]Uni
 
 rmc-announcement-shipside-header = Please write a message to announce to the crew
 
+rmc-announcement-title-command = >> COMMAND <<
+rmc-announcement-title-overwatch = >> OVERWATCH <<
+rmc-announcement-title-alert-level = ALERT LEVEL
+rmc-announcement-title-red-alert = RED ALERT
+rmc-announcement-title-unknown-broadcast = >> UNKNOWN BROADCAST <<
+rmc-announcement-title-priority-notice = >> PRIORITY NOTICE <<
+rmc-announcement-title-queen = >> QUEEN <<
 cmu-announcement-queen-mother = [font size=16][bold][color=#7575F3]Queen Mother Psychic Directive[/color][/bold][/font][font size=16][color=red]
 
     {$message}[/font][/color]

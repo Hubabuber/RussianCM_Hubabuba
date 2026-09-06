@@ -1,2 +1,4 @@
-ent-RMCRandomHumanoidPMCWhiteoutGunner = DEATHSQUAD ЧВК в роли призрака, наводчика в темноте
+ent-RMCRandomHumanoidPMCWhiteoutGunner = оператор смартгана Эскадрона Смерти ЧВК «Белая мгла»
+    .desc = Спавнер оператора смартгана ЭС ЧВК.
+    .suffix = Роль призрака
 

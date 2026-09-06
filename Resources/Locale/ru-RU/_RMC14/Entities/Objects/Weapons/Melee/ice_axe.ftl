@@ -1,2 +1,8 @@
 ent-RMCIceAxe = ледоруб
-  .desc = Для скалолазания, в основном. Может служить хорошим импровизированным оружием.
+    .desc = Оружие альпинистов и горнострелков.
+ent-RMCIceAxeRed = {ent-RMCIceAxe}
+    .desc = {ent-RMCIceAxe.desc}
+    .suffix = Красный
+ent-RMCIceAxeGreen = {ent-RMCIceAxe}
+    .desc = {ent-RMCIceAxe.desc}
+    .suffix = Зелёный

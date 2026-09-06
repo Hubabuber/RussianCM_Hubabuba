@@ -1,3 +1,8 @@
+ent-RMCWeaponPistolL54 = пистолет L54
+    .desc = Стандартный служебный пистолет ПДСН. Использует патроны 9мм.
+ent-RMCWeaponPistolL54Empty = {ent-RMCWeaponPistolL54}
+    .desc = {ent-RMCWeaponPistolL54.desc}
+    .suffix = Пустой
+
 ent-RMCMagazinePistolL54 = магазин L54 (9мм)
-ent-RMCWeaponPistolL54 = служебный пистолет L54
-  .desc = Стандартный самозарядный служебный пистолет ТСЕПА. Калибр 9мм, сравним с популярным пистолетом M1984, используемым КМП.
+    .desc = Пистолет для магазина L54 с патронами 9мм.

@@ -4,9 +4,11 @@ using Content.Shared._CMU14.Medical.Core;
 using Content.Shared._CMU14.Medical.Anatomy.BodyParts;
 using Content.Shared._CMU14.Medical.Anatomy.BodyParts.Events;
 using Content.Shared._CMU14.Medical.Presentation.Visuals;
-using Content.Shared._CMU14.Medical.Injuries.Wounds;
-using Content.Shared._RMC14.Damage;
-using Content.Shared._RMC14.Medical.Wounds;
+// RuMC edit start
+// using Content.Shared._CMU14.Medical.Injuries.Wounds;
+// using Content.Shared._RMC14.Damage;
+// using Content.Shared._RMC14.Medical.Wounds;
+// RuMC edit end
 using Content.Shared.Body.Part;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
@@ -35,7 +37,7 @@ public sealed partial class BodyPartSeveranceSystem : EntitySystem
     [Dependency] private IConfigurationManager _cfg = default!;
     [Dependency] private IPrototypeManager _proto = default!;
     [Dependency] private DamageableSystem _damageable = default!;
-    [Dependency] private SharedRMCDamageableSystem _rmcDamageable = default!;
+    // [Dependency] private SharedRMCDamageableSystem _rmcDamageable = default!; // RuMC edit
     [Dependency] private StatusEffectsSystem _status = default!;
     [Dependency] private SharedAudioSystem _audio = default!;
     [Dependency] private SharedContainerSystem _containers = default!;
@@ -43,10 +45,12 @@ public sealed partial class BodyPartSeveranceSystem : EntitySystem
     [Dependency] private SharedHumanoidAppearanceSystem _humanoid = default!;
     [Dependency] private ThrowingSystem _throwing = default!;
     [Dependency] private IRobustRandom _random = default!;
-    [Dependency] private CMUWoundLedgerSystem _woundLedger = default!;
+    // [Dependency] private CMUWoundLedgerSystem _woundLedger = default!; // RuMC edit
     private static readonly ProtoId<DamageTypePrototype> Bloodloss = "Bloodloss";
-    private static readonly ProtoId<DamageGroupPrototype> BruteGroup = "Brute";
-    private static readonly ProtoId<DamageGroupPrototype> BurnGroup = "Burn";
+    // RuMC edit start
+    // private static readonly ProtoId<DamageGroupPrototype> BruteGroup = "Brute";
+    // private static readonly ProtoId<DamageGroupPrototype> BurnGroup = "Burn";
+    // RuMC edit end
     private const float StumpBleedDamage = 30f;
     private static readonly SoundSpecifier SeveranceSound =
         new SoundPathSpecifier("/Audio/_CMU14/Medical/crackandbleed.ogg");
@@ -83,7 +87,7 @@ public sealed partial class BodyPartSeveranceSystem : EntitySystem
             return;
         }
 
-        RemoveSeveredPartWoundDamage(args.Body, args.Part);
+        // RemoveSeveredPartWoundDamage(args.Body, args.Part); // RuMC edit - caused a heal on severance
         FlingPartFromBody(args.Body, args.Part);
         HideHumanoidLimbLayer(args.Body, args.Type, symmetry);
         ApplyStumpBleed(args.Body);
@@ -133,51 +137,55 @@ public sealed partial class BodyPartSeveranceSystem : EntitySystem
         return _containers.Remove(part, container);
     }
 
-    private void RemoveSeveredPartWoundDamage(EntityUid body, EntityUid part)
-    {
-        if (!TryComp<BodyPartWoundComponent>(part, out var wounds))
-            return;
-
-        var brute = FixedPoint2.Zero;
-        var burn = FixedPoint2.Zero;
-        foreach (var entry in _woundLedger.GetEntries(wounds))
-        {
-            var wound = entry.Wound;
-            var remaining = wound.Damage - wound.Healed;
-            if (remaining <= FixedPoint2.Zero)
-                continue;
-
-            switch (wound.Type)
-            {
-                case WoundType.Brute:
-                    brute += remaining;
-                    break;
-                case WoundType.Burn:
-                    burn += remaining;
-                    break;
-            }
-        }
-
-        HealDamageGroup(body, part, BruteGroup, brute);
-        HealDamageGroup(body, part, BurnGroup, burn);
-    }
-
-    private void HealDamageGroup(EntityUid body, EntityUid origin, ProtoId<DamageGroupPrototype> group, FixedPoint2 amount)
-    {
-        if (amount <= FixedPoint2.Zero)
-            return;
-
-        if (!TryComp<DamageableComponent>(body, out var damageable))
-            return;
-
-        var spec = _rmcDamageable.DistributeHealing((body, damageable), group, amount);
-        if (spec.Empty)
-            return;
-
-        var adjusted = damageable.Damage + spec;
-        adjusted.ClampMin(FixedPoint2.Zero);
-        _damageable.SetDamage(body, damageable, adjusted);
-    }
+    // RuMC edit start
+    // Removes remaining wound damage from the severed part and heals the body by that amount.
+    // This produced a heal on severance.
+    // private void RemoveSeveredPartWoundDamage(EntityUid body, EntityUid part)
+    // {
+    //     if (!TryComp<BodyPartWoundComponent>(part, out var wounds))
+    //         return;
+    //
+    //     var brute = FixedPoint2.Zero;
+    //     var burn = FixedPoint2.Zero;
+    //     foreach (var entry in _woundLedger.GetEntries(wounds))
+    //     {
+    //         var wound = entry.Wound;
+    //         var remaining = wound.Damage - wound.Healed;
+    //         if (remaining <= FixedPoint2.Zero)
+    //             continue;
+    //
+    //         switch (wound.Type)
+    //         {
+    //             case WoundType.Brute:
+    //                 brute += remaining;
+    //                 break;
+    //             case WoundType.Burn:
+    //                 burn += remaining;
+    //                 break;
+    //         }
+    //     }
+    //
+    //     HealDamageGroup(body, part, BruteGroup, brute);
+    //     HealDamageGroup(body, part, BurnGroup, burn);
+    // }
+    //
+    // private void HealDamageGroup(EntityUid body, EntityUid origin, ProtoId<DamageGroupPrototype> group, FixedPoint2 amount)
+    // {
+    //     if (amount <= FixedPoint2.Zero)
+    //         return;
+    //
+    //     if (!TryComp<DamageableComponent>(body, out var damageable))
+    //         return;
+    //
+    //     var spec = _rmcDamageable.DistributeHealing((body, damageable), group, amount);
+    //     if (spec.Empty)
+    //         return;
+    //
+    //     var adjusted = damageable.Damage + spec;
+    //     adjusted.ClampMin(FixedPoint2.Zero);
+    //     _damageable.SetDamage(body, damageable, adjusted);
+    // }
+    // RuMC edit end
 
     private void ApplyStumpBleed(EntityUid body)
     {

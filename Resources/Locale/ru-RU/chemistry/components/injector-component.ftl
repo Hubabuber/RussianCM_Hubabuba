@@ -53,17 +53,17 @@ injector-component-feel-prick-message = Вы чувствуете легкий �
 
 # Missing entries synced from en-US
 
-injector-draw-text = Ничья
+injector-draw-text = Набирать
 
 injector-inject-text = Вводить
 
 injector-invalid-injector-toggle-mode = Недействительный
 
-injector-component-drawing-text = Сейчас рисую
+injector-component-drawing-text = Сейчас набираю раствор
 
 injector-component-injecting-text = Сейчас делаю инъекции
 
-injector-component-drawing-user = Вы начинаете рисовать иглу.
+injector-component-drawing-user = Вы начинаете набирать раствор иглой.
 
 injector-component-injecting-user = Вы начинаете вводить иглу.
 

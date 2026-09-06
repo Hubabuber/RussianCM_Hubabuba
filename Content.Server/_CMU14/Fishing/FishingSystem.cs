@@ -56,10 +56,12 @@ public sealed partial class FishingSystem : SharedFishingSystem
 
         if (!FishSpotQuery.TryComp(attachedEnt, out var spotComp))
         {
-            if (args.OtherBody.BodyType == BodyType.Static)
-                return;
-
-            Anchor(ent, attachedEnt);
+            // RuMC comm start
+            // if (args.OtherBody.BodyType == BodyType.Static)
+            //     return;
+            //
+            // Anchor(ent, attachedEnt);
+            // RuMC comm end
             return;
         }
 

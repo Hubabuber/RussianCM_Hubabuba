@@ -25,7 +25,7 @@ public sealed partial class AnnouncementWidget
         var announcement = ActiveAnnouncement.Data;
         var style = announcement.Style;
 
-        var titleText = !string.IsNullOrEmpty(announcement.Title) ? announcement.Title : style.TitleConfig.Title;
+        var titleText = !string.IsNullOrEmpty(announcement.Title) ? announcement.Title : Loc.GetString(style.TitleConfig.Title); // RuMC edit
         _hasTitle = style.TitleConfig.ShowTitle && !string.IsNullOrEmpty(titleText);
         _titleOffset = _hasTitle ? 1 : 0;
 

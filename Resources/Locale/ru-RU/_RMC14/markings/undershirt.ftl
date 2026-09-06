@@ -56,3 +56,5 @@ marking-AU14UndershirtWY-blank = Майка (Вайоминг, стандарт)
 marking-AU14UndershirtUSCM = Майка (USCM, Стандарт)
 
 marking-AU14UndershirtUSCM-blank = Майка (USCM, Стандарт)
+
+marking-RuMCUndershirtSeegSon = Майка (Сигсон, стандарт)

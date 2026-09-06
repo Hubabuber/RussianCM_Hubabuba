@@ -1,0 +1,80 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsGrunt
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsGrunt
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 1
+      RMCSkillEngineer: 1
+      RMCSkillConstruction: 1
+      RMCSkillFirearms: 2
+      RMCSkillPolice: 2
+      RMCSkillFireman: 1
+      RMCSkillEndurance: 2
+  - type: JobPrefix
+    prefix: Grunt
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Grunt
+  description: Black Dragoons Grunt
+  playTimeTracker: RuMCJobBlackDragoonsGrunt
+  ranks:
+    RuMCRankContractor: []
+  spawnMenuRoleName: Black Dragoons Grunt
+  startingGear: RuMCGearBlackDragoonsGrunt
+  greeting: You are a lower-tier contractor of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsGrunt
+  name: Black Dragoons Grunt
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Grunt
+    description: You are a grunt for the "Black Dragoons" PMC. You are a low-level contractor for the company. Your duties mainly involve guarding VIPs and facilities.
+    job: RuMCBlackDragoonsGrunt
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBDGruntsbase
+  id: RuMCGearBlackDragoonsGrunt
+  equipment:
+    id: RuCMIDCardBlackDragoonsGrunt
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilled
+    belt: CMBeltSecurityMarshalFilled
+  storage:
+    back:
+    - AU14MRETWERMC
+    - RMCFlashlight
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsGrunt

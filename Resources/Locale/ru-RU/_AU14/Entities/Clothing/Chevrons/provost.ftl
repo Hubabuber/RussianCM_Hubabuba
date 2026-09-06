@@ -1,16 +1,16 @@
-ent-AU14ChevronProvostBase = лычка морской пехоты СПН
+ent-AU14ChevronProvostBase = лычка провост-маршалов
     .desc = Лычка офиса провост-маршалов - верховной инстанции военного закона. Чтите Закон. Причиняйте Закон.
     .suffix = Провосты
 
 ent-AU14ChevronProvostEnforcer = лычка силовика
-    .desc = { ent-AU14ChevronProvostBase.desc}
+    .desc = {ent-AU14ChevronProvostBase.desc}
     .suffix = Провосты
 
 ent-AU14ChevronProvostTeamLeader = лычка лидера группы силовиков
-    .desc = { ent-AU14ChevronProvostBase.desc}
+    .desc = {ent-AU14ChevronProvostBase.desc}
     .suffix = Провосты
 
-ent-AU14ChevronProvostAdvisor = лычка советник
+ent-AU14ChevronProvostAdvisor = лычка советника
     .desc = {ent-AU14ChevronProvostBase.desc}
     .suffix = Провосты
 

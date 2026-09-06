@@ -1,5 +1,5 @@
 ent-RMCWeaponPistolNP92 = пистолет НП92
-    .desc = Стандартный пистолет для милицонеров и военных СПН. Очень прост.
+    .desc = Стандартный пистолет для милиционеров и военных СПН. Очень прост.
 ent-RMCWeaponPistolNP92Empty = {ent-RMCWeaponPistolNP92}
     .desc = {ent-RMCWeaponPistolNP92.desc}
     .suffix = Пустой

@@ -104,7 +104,7 @@ public sealed class AdminOOCColorWindow : DefaultWindow
         Color? ParseColor()
         {
             var value = input.Text.Trim();
-            return value.Length == 0 ? null : Color.TryFromHex(value);
+            return value.Length == 0 ? null : Color.TryFromHex(value, out var color) ? color : null;
         }
 
         void RefreshPreview()
@@ -127,7 +127,7 @@ public sealed class AdminOOCColorWindow : DefaultWindow
                 return;
             }
 
-            if (Color.TryFromHex(value) is not { } color)
+            if (!Color.TryFromHex(value, out var color))
                 return;
 
             OnSetColor?.Invoke(rank.Id, color.ToHex());

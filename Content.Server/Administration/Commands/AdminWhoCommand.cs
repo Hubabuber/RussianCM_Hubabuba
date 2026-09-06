@@ -8,7 +8,7 @@ using Robust.Shared.Utility;
 namespace Content.Server.Administration.Commands;
 
 [AnyCommand]
-public sealed partial class AdminWhoCommand : LocalizedCommands
+public sealed partial class AdminWhoCommand : LocalizedEntityCommands // RuMC edit
 {
     [Dependency] private IAfkManager _afkManager = default!;
     [Dependency] private IAdminManager _adminManager = default!;

@@ -1,0 +1,81 @@
+- type: entity
+  parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
+  name: P79S semi-automatic shotgun
+  id: RuMCWeaponShotgunP79
+  description: A somewhat older semi-automatic shotgun design, chambered in 10 gauge shells. Though not as common as more modern automatic ones, the P79S is still in use with various mercenary and police forces due to its reliability and stopping power. Its internal tube magazine can store 6 shells. Produced by Orion Defence Systems.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Objects/Weapons/Guns/Shotgun/P79/inhands.rsi
+    layers:
+    - state: icon
+      sprite: _RuMC14/Objects/Weapons/Guns/Shotgun/P79/icon.rsi
+      map: [ "enum.GunVisualLayers.Base" ]
+  - type: Clothing
+    sprite: _RuMC14/Objects/Weapons/Guns/Shotgun/P79/inhands.rsi
+  - type: Gun
+    shotsPerBurst: 1
+  - type: RMCSelectiveFire
+    baseFireModes:
+    - SemiAuto
+    recoilWielded: 2
+    recoilUnwielded: 4
+    scatterWielded: 5
+    scatterUnwielded: 9
+    baseFireRate: 1.5
+    burstScatterMult: 4
+  - type: BallisticAmmoProvider
+    capacity: 7
+    proto: RMCShellShotgunHeavySlugs
+    whitelist:
+      tags:
+      - RMCShellShotgunHeavyBuckshot
+      - RMCShellShotgunHeavySlugs
+      - RMCShellShotgunHeavyFlechette
+      - RMCShellShotgunIncendiaryHeavyBuckshot
+      - RMCShellShotgunHeavyBeanbag
+  - type: RMCWeaponAccuracy
+    accuracyMultiplier: 1.15
+    accuracyMultiplierUnwielded: 0.5
+  - type: AttachableHolder
+    slots:
+      rmc-aslot-barrel:
+        locked: true
+        startingAttachable: RuMCAttachmentP79Barrel
+        whitelist:
+          tags:
+          - RuMCAttachmentP79Barrel
+      #rmc-aslot-rail:
+        #whitelist:
+          #tags:
+          #- RMCAttachmentRailFlashlight
+          #- RMCAttachmentMagneticHarness
+          #- RMCAttachmentS5RedDotSight
+          #- RMCAttachmentS6ReflexSight
+      rmc-aslot-stock:
+        locked: true
+        startingAttachable: RuMCAttachmentP79Stock
+        whitelist:
+          tags:
+          - RuMCAttachmentP79Stock
+      #rmc-aslot-underbarrel:
+      #  whitelist:
+        #  tags:
+          #- RMCAttachmentAngledGrip
+          #- RMCAttachmentFlashlightGrip
+          #- RMCAttachmentGyroscopicStabilizer
+          #- RMCAttachmentVerticalGrip
+          #- RMCAttachmentExtinguisher
+  - type: AttachableHolderVisuals
+    offsets:
+      rmc-aslot-barrel: 0, 0
+      rmc-aslot-rail: -0.025, 0.065
+      rmc-aslot-stock: -0.31, 0
+      rmc-aslot-underbarrel: 0.20, -0.31
+  - type: Tag
+    tags:
+    - RuMCWeaponShotgunP79
+    - RMCWeaponShotgun
+  - type: GunRequiresWield
+
+- type: Tag
+  id: RuMCWeaponShotgunP79

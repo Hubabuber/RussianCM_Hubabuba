@@ -14,7 +14,7 @@ ent-AU14ChevronUPPNISeniorGefreiter = погоны старшего ефрейт
     .desc = {ent-AU14ChevronUPPNIBase.desc}
     .suffix = Морская пехота
 
-ent-AU14ChevronUPPNICorporal = погоны младший сержант
+ent-AU14ChevronUPPNICorporal = погоны младшего сержанта
     .desc = {ent-AU14ChevronUPPNIBase.desc}
     .suffix = Морская пехота
 

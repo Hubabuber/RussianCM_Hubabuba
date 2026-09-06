@@ -24,7 +24,7 @@ public sealed class BlightCoreVoteWindow : DefaultWindow
     {
         IoCManager.InjectDependencies(this);
 
-        Title = "Overmind Ascension Vote";
+        Title = Loc.GetString("cmu14-blight-core-vote-title"); // RuMC edit
         Resizable = false;
 
         var root = new BoxContainer
@@ -36,12 +36,12 @@ public sealed class BlightCoreVoteWindow : DefaultWindow
 
         root.AddChild(new Label
         {
-            Text = "Vote for who should become the Overmind:"
+            Text = Loc.GetString("cmu14-blight-core-vote-body") // RuMC edit
         });
 
         _timerLabel = new Label
         {
-            Text = "35 seconds remaining..."
+            Text = Loc.GetString("cmu14-blight-core-seconds-remaining", ("seconds", 35)) // RuMC edit
         };
         root.AddChild(_timerLabel);
 
@@ -65,7 +65,7 @@ public sealed class BlightCoreVoteWindow : DefaultWindow
         base.FrameUpdate(args);
 
         var remaining = (float)(_endsAt - _timing.CurTime).TotalSeconds;
-        _timerLabel.Text = $"{Math.Max(0, remaining):0} seconds remaining...";
+        _timerLabel.Text = Loc.GetString("cmu14-blight-core-seconds-remaining", ("seconds", (int) Math.Max(0, remaining))); // RuMC edit
     }
 
     public void UpdateCandidates(List<BlightCoreVoteCandidate> candidates)
@@ -78,8 +78,10 @@ public sealed class BlightCoreVoteWindow : DefaultWindow
 
             var button = new Button
             {
-                Text = $"{candidate.Name} — {candidate.Votes} vote(s)" +
-                       (isMine ? " (your vote)" : ""),
+                // RuMC edit start
+                Text = Loc.GetString("cmu14-blight-core-vote-candidate", ("name", candidate.Name), ("votes", candidate.Votes)) +
+                       (isMine ? " " + Loc.GetString("cmu14-blight-core-vote-your-vote") : ""),
+                // RuMC edit end
                 ToggleMode = true,
                 Pressed = isMine
             };

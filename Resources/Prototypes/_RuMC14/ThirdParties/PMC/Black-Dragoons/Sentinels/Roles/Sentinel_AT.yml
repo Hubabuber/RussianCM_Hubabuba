@@ -1,0 +1,94 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsSentinelAT
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsSentinelAT
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 1
+      RMCSkillEngineer: 1
+      RMCSkillConstruction: 1
+      RMCSkillFirearms: 2
+      RMCSkillPolice: 2
+      RMCSkillFireman: 1
+      RMCSkillEndurance: 2
+  - type: JobPrefix
+    prefix: AT
+  - type: EquipEntityPreset
+    preset: RuMCBDSentinelPreset
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Sentinel AT
+  description: Black Dragoons Sentinel AT
+  playTimeTracker: RuMCJobBlackDragoonsSentinelAT
+  ranks:
+    RuMCRankContractor: []
+  spawnMenuRoleName: Black Dragoons Sentinel AT
+  startingGear: RuMCGearBlackDragoonsSentinelAT
+  greeting: You are a member of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsSentinelAT
+  name: Black Dragoons Sentinel AT
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: EquipEntityPreset
+    preset: RuMCBDSentinelPreset
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Sentinel AT
+    description: You are a Anti-Tank for the "Black Dragoons" PMC. You are a contractor for the company's main counter-insurgency force.
+    job: RuMCBlackDragoonsSentinelAT
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBlackDragoonsSentinelBase
+  id: RuMCGearBlackDragoonsSentinelAT
+  equipment:
+    id: RuCMIDCardBlackDragoonsAT
+    back: RMCSatchelLightpackBlack
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilled
+    gloves: RMCHandsVeteran
+    outerClothing: RuMCArmorBDMedium
+  storage:
+    back:
+    - AU14MRETWERMC
+    - CMCanteen
+    - RMCGrenadeBlastM12
+    - CMEntrenchingTool
+    - RMCZipties
+    - RMCZipties
+    - RMCWeaponLauncherDisposableFolded
+    - RMCWeaponLauncherDisposableFolded
+  inhand:
+    - RMCWeaponLauncherDisposable
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsSentinelAT

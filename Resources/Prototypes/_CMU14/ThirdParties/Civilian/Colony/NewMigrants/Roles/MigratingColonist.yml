@@ -22,8 +22,8 @@
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: synth
 
-  name: New Colonist
-  description: Wether by choice, necessity or force you have arrived in orbit of this colony to establish your new life on the frontier. Time to get to work.
+  name: au14-job-name-new-colonist
+  description: au14-job-description-new-colonist
   setPreference: true
   playTimeTracker: AU14JobReturningColonistPlaytime
   ranks:
@@ -50,13 +50,13 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: New Colonist (civilian)
-    description: Wether by choice, necessity or force you have arrived in orbit of this colony to establish your new life on the frontier. Time to get to work.
+    name: au14-ghostrole-name-new-colonist-civilian
+    description: au14-job-description-new-colonist
     reregister: false
     job: AU14JobMigratingColonistJob
     raffle:
       settings: short
-    rules: You do not know what is going on in the colony.
+    rules: au14-ghostrole-rules-new-colonist
 
 - type: entity
   id: AU14JobMigratingColonistPreset

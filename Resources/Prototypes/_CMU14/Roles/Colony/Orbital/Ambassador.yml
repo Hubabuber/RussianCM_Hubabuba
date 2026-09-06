@@ -34,8 +34,30 @@
   description: au14-job-description-civilianambassadorcca
   playTimeTracker: AU14JobCivilianAmbassadorCCA
   setPreference: true
-  ranks:
-    AU14RankAmbassador: []
+  ranks: # RuMC edit start
+    RMCRankCivilian: []
+  chevrons:
+    RUMC14RankCounselateCommonAmbassador:
+      entity: RUMC14RankChevronCounselateCommonAmbassador
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorCCA
+        time: 252000
+    RUMC14RankCounselateCommonEnvoy1:
+      entity: RUMC14RankChevronCounselateCommonEnvoy1
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorCCA
+        time: 144000
+    RUMC14RankCounselateCommonEnvoy2:
+      entity: RUMC14RankChevronCounselateCommonEnvoy2
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorCCA
+        time: 36000
+    RUMC14RankCounselateCommonCounselor1:
+      entity: RUMC14RankChevronCounselateCommonCounselor1
+      requirements: [] # RuMC edit end
   startingGear: AU14GearCivilianAmbassadorCCA
   icon: "AU14JobIconCCAAmbassador"
   requireAdminNotify: false
@@ -128,8 +150,30 @@
   description: au14-job-description-civilianambassadoricsc
   playTimeTracker: AU14JobCivilianAmbassadorICSC
   setPreference: true
-  ranks:
-    AU14RankAmbassador: []
+  ranks: # RuMC edit start
+    RMCRankCivilian: []
+  chevrons:
+    RUMC14RankCounselateCommonAmbassador:
+      entity: RUMC14RankChevronCounselateCommonAmbassador
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorICSC
+        time: 252000
+    RUMC14RankCounselateCommonEnvoy1:
+      entity: RUMC14RankChevronCounselateCommonEnvoy1
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorICSC
+        time: 144000
+    RUMC14RankCounselateCommonEnvoy2:
+      entity: RUMC14RankChevronCounselateCommonEnvoy2
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorICSC
+        time: 36000
+    RUMC14RankCounselateCommonCounselor1:
+      entity: RUMC14RankChevronCounselateCommonCounselor1
+      requirements: [] # RuMC edit end
   startingGear: AU14GearCivilianAmbassadorICSC
   icon: "AU14JobIconICSCAmbassador"
   requireAdminNotify: false
@@ -206,6 +250,21 @@
   - type: CMVendorUser
     id: AU14JobCivilianAmbassadorTWE
     points: 70
+  - type: Language # RuMC edit start
+    spokenLanguages:
+    - Japanese
+    - English
+    - Irish
+    - Hindi
+    - Indonesian
+    - Dutch
+    understoodLanguages:
+    - Japanese
+    - English
+    - Irish
+    - Hindi
+    - Indonesian
+    - Dutch # RuMC edit end
   - type: JobPrefix
     prefix: au14-job-prefix-civilianambassadortwe
   - type: TacticalMapIcon
@@ -222,8 +281,30 @@
   description: au14-job-description-civilianambassadortwe
   playTimeTracker: AU14JobCivilianAmbassadorTWE
   setPreference: true
-  ranks:
-    AU14RankTWEAmbassador: []
+  ranks: # RuMC edit start
+    RMCRankCivilian: []
+  chevrons:
+    RUMC14RankCounselateTWEAmbassador:
+      entity: RUMC14RankChevronCounselateTWEAmbassador
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorTWE
+        time: 252000
+    RUMC14RankCounselateTWEEnvoy1:
+      entity: RUMC14RankChevronCounselateTWEEnvoy1
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorTWE
+        time: 144000
+    RUMC14RankCounselateTWEEnvoy2:
+      entity: RUMC14RankChevronCounselateTWEEnvoy2
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorTWE
+        time: 36000
+    RUMC14RankCounselateTWECounselor1:
+      entity: RUMC14RankChevronCounselateTWECounselor1
+      requirements: [] # RuMC edit end
   startingGear: AU14GearCivilianAmbassadorTWE
   icon: "AU14JobIconTWEAmbassador"
   requireAdminNotify: false
@@ -298,6 +379,13 @@
   - type: CMVendorUser
     id: AU14JobCivilianAmbassadorUA
     points: 70
+  - type: Language # RuMC edit start
+    spokenLanguages:
+    - Brazilian
+    - English
+    understoodLanguages:
+    - Brazilian
+    - English # RuMC edit end
   - type: JobPrefix
     prefix: au14-job-prefix-civilianambassadorua
   - type: TacticalMapIcon
@@ -315,8 +403,30 @@
   description: au14-job-description-civilianambassadorua
   playTimeTracker: AU14JobCivilianAmbassadorUA
   setPreference: true
-  ranks:
-    AU14RankAmbassador: []
+  ranks: # RuMC edit start
+    RMCRankCivilian: []
+  chevrons:
+    RUMC14RankCounselateUAAmbassador:
+      entity: RUMC14RankChevronCounselateUAAmbassador
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorUA
+        time: 252000
+    RUMC14RankCounselateUAEnvoy1:
+      entity: RUMC14RankChevronCounselateUAEnvoy1
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorUA
+        time: 144000
+    RUMC14RankCounselateUAEnvoy2:
+      entity: RUMC14RankChevronCounselateUAEnvoy2
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorUA
+        time: 36000
+    RUMC14RankCounselateUACounselor1:
+      entity: RUMC14RankChevronCounselateUACounselor1
+      requirements: [] # RuMC edit end
   startingGear: AU14GearCivilianAmbassadorUA
   icon: "AU14JobIconUAAmbassador"
   requireAdminNotify: false
@@ -391,6 +501,23 @@
   - type: CMVendorUser
     id: AU14JobCivilianAmbassadorUPP
     points: 70
+  - type: Language # RuMC edit start
+    spokenLanguages:
+    - Polish
+    - English
+    - Russian
+    - Spanish
+    - Mandarin
+    - German
+    - Hungarian
+    understoodLanguages:
+    - Polish
+    - English
+    - Russian
+    - Spanish
+    - Mandarin
+    - German
+    - Hungarian # RuMC edit end
   - type: JobPrefix
     prefix: au14-job-prefix-civilianambassadorupp
   - type: TacticalMapIcon
@@ -407,8 +534,30 @@
   description: au14-job-description-civilianambassadorupp
   playTimeTracker: AU14JobCivilianAmbassadorUPP
   setPreference: true
-  ranks:
-    AU14RankAmbassador: []
+  ranks: # RuMC edit start
+    RMCRankCivilian: []
+  chevrons:
+    RUMC14RankCounselateUPPAmbassador:
+      entity: RUMC14RankChevronCounselateUPPAmbassador
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorUPP
+        time: 252000
+    RUMC14RankCounselateUPPEnvoy1:
+      entity: RUMC14RankChevronCounselateUPPEnvoy1
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorUPP
+        time: 144000
+    RUMC14RankCounselateUPPEnvoy2:
+      entity: RUMC14RankChevronCounselateUPPEnvoy2
+      requirements:
+      - !type:RoleTimeRequirement
+        role: AU14JobCivilianAmbassadorUPP
+        time: 36000
+    RUMC14RankCounselateUPPCounselor1:
+      entity: RUMC14RankChevronCounselateUPPCounselor1
+      requirements: [] # RuMC edit end
   startingGear: AU14GearCivilianAmbassadorUPP
   icon: "AU14JobIconUPPAmbassador"
   requireAdminNotify: false

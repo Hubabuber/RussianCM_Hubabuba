@@ -1,0 +1,82 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsBulwarkGuardian
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsBulwarkGuardian
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 3
+      RMCSkillEngineer: 2
+      RMCSkillConstruction: 2
+      RMCSkillFirearms: 2
+      RMCSkillPolice: 2
+      RMCSkillFireman: 3
+      RMCSkillEndurance: 3
+      RMCSkillJtac: 1
+      RMCSkillMedical: 1
+  - type: JobPrefix
+    prefix: Guardian
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Bulwark Guardian
+  description: Black Dragoons Bulwark Guardian
+  playTimeTracker: RuMCJobBlackDragoonsBulwarkGuardian
+  ranks:
+    RuMCRankSeniorContractor: []
+  spawnMenuRoleName: Black Dragoons Bulwark Guardian
+  startingGear: RuMCGearBlackDragoonsBulwarkGuardian
+  greeting: You are a senior contractor of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsBulwarkGuardian
+  name: Black Dragoons Bulwark Guardian
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Bulwark Guardian
+    description: You are a guardian with the "Black Dragoons" PMC. You are a senior contractor for the company's heavy assault and counter-insurgency force.
+    job: RuMCBlackDragoonsBulwarkGuardian
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBulwarkBase
+  id: RuMCGearBlackDragoonsBulwarkGuardian
+  equipment:
+    id: RuCMIDCardBlackDragoonsBulwarkGuardian
+    belt: CMBeltMarineMP5
+    back: AU14BallisticShieldRMC
+    suitstorage: RMCWeaponSMGMP5Alt
+  storage:
+    outerClothing:
+    - RMCRangefinder
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsBulwarkGuardian

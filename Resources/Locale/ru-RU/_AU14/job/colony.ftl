@@ -40,6 +40,11 @@ au14-job-description-civiliancolonist = Житель колонии.
 au14-job-prefix-civiliancolonist = ЦИВ
 AU14JobCivilianColonist = Колонист
 
+au14-job-name-new-colonist = Новый колонист
+au14-job-description-new-colonist = Вы прибыли на орбиту этой планеты, чтобы начать новую жизнь на фронтире. Пора приниматься за работу.
+au14-ghostrole-name-new-colonist-civilian = Новый колонист
+au14-ghostrole-rules-new-colonist = Вы не знаете, что происходит в колонии.
+
 au14-job-name-civilianfoodserviceworker = Работник общепита
 au14-job-description-civilianfoodserviceworker = Управляй кухней, пополняй бар и корми рабочую силу.
 au14-job-prefix-civilianfoodserviceworker = РОБП
@@ -224,9 +229,9 @@ au14-job-name-civilianambassadorupp = Посол СПН
 au14-job-description-civilianambassadorupp = Руководи дипломатической миссией СПН в колонии.
 au14-job-prefix-civilianambassadorupp = Пос. СПН
 
-au14-job-name-civilianambassadorua = Посол США
-au14-job-description-civilianambassadorua = Руководи дипломатической миссией США в колонии.
-au14-job-prefix-civilianambassadorua = Пос. США
+au14-job-name-civilianambassadorua = Посол ОА
+au14-job-description-civilianambassadorua = Руководи дипломатической миссией ОА в колонии.
+au14-job-prefix-civilianambassadorua = Пос. ОА
 
 au14-job-name-civilianambassadortwe = Посол ИТМ
 au14-job-description-civilianambassadortwe = Руководи дипломатической миссией ИТМ в колонии.

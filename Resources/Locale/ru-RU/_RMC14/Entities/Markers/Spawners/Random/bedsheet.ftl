@@ -1,2 +1,2 @@
-ent-CMBedsheetSpawner = Случайный генератор листов
+ent-CMBedsheetSpawner = спавнер случайных одеял
 

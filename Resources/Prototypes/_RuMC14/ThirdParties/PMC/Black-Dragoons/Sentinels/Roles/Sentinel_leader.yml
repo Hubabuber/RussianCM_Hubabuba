@@ -1,0 +1,102 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsSentinelLeader
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsSentinelLeader
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 2
+      RMCSkillEngineer: 2
+      RMCSkillConstruction: 2
+      RMCSkillFirearms: 2
+      RMCSkillPolice: 2
+      RMCSkillFireman: 3
+      RMCSkillEndurance: 3
+      RMCSkillJtac: 3
+      RMCSkillLeadership: 3
+      RMCSkillPilot: 1
+      RMCSkillMedical: 1
+      RMCSkillMeleeWeapons: 1
+  - type: JobPrefix
+    prefix: SL
+  - type: MarineOrders
+  - type: RMCTrackable
+  - type: RMCPointing
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Sentinel Leader
+  description: Black Dragoons Sentinel Leader
+  playTimeTracker: RuMCJobBlackDragoonsSentinelLeader
+  ranks:
+    RuMCRankSeniorContractor: []
+  spawnMenuRoleName: Black Dragoons Sentinel Leader
+  startingGear: RuMCGearBlackDragoonsSentinelLeader
+  greeting: You are a member of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsSentinelLeader
+  name: Black Dragoons Sentinel Leader
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: EquipEntityPreset
+    preset: RuMCBDPreset
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Sentinel Leader
+    description: You are a squad leader for the "Black Dragoons" PMC. You are a senior contractor for the company's main counter-insurgency force.
+    job: RuMCBlackDragoonsSentinelLeader
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBlackDragoonsSentinelBase
+  id: RuMCGearBlackDragoonsSentinelLeader
+  equipment:
+    id: RuCMIDCardBDLeader
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilledLeader
+    gloves: RMCHandsVeteran
+    outerClothing: RuMCArmorBDMedium
+    suitstorage: RuMCRifleFAL
+    belt: RuMCBeltMagazineFALBDFull
+    pocket1: AU14PouchSlingBinocs
+    pocket2: AU14PouchIFAKFill
+  storage:
+    back:
+    - AU14MRETWERMC
+    - CMCanteen
+    - RMCGrenadeBlastM12
+    - RMCGrenadeBlastM12
+    - CMEntrenchingTool
+    - RMCZipties
+    - RMCZipties
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsSentinelLeader

@@ -271,7 +271,10 @@ public sealed partial class HiveBoonSystem : EntitySystem
     {
         using (args.PushGroup(nameof(HivePylonComponent)))
         {
-            var msg = $"[color=cyan]If placed {(int) CommunicationTowerXenoTakeoverTime.TotalMinutes} minutes into the round, this can turn into a hive pylon when its weeds take over a telecommunications tower![/color]";
+            // RuMC edit start
+            var msg = Loc.GetString("rmc-hive-cluster-examine-hive-pylon",
+                ("minutes", (int) CommunicationTowerXenoTakeoverTime.TotalMinutes));
+            // RuMC edit end
             args.PushMarkup(msg);
         }
     }

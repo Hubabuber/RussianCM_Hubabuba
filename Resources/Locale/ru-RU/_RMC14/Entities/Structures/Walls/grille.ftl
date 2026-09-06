@@ -1,10 +1,20 @@
-ent-RMCGrilleElectrifiedBroken = сломанная электрифицированная решетка
-  .desc = Темная решетка из армированной сетки с предупреждающими полосами, оснащенная катушками типа Теслы для регулирования тока высокого напряжения. 
+ent-RMCGrille = решётка
+    .desc = Хлипкая решётка из металлических прутьев.
 
-ent-RMCGrilleElectrified = электрифицированная решетка
+ent-RMCGrilleBroken = сломанная решётка
+    .desc = {ent-RMCGrille.desc} Эта сломана.
 
-ent-RMCGrilleBroken = решетка
-  .desc = Хлипкая решетка из металлических прутьев. 
 
-ent-RMCGrille = решетка
+ent-RMCGrilleElectrified = электрифицированная решёетка
+    .desc = Хлипкая решётка из металлических прутьев с подведённым током.
+
+ent-RMCGrilleElectrifiedBroken = сломанная электрифицированная решётка
+    .desc = {ent-RMCGrilleElectrified.desc} Эта сломана.
+
+
+
+
+
+
+
 

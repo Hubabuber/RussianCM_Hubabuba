@@ -33,3 +33,15 @@ ent-RMCCrateMagazineM96SStandard = ящик стандартных магази�
 
 ent-RMCCrateMagazineM96SMixed = ящик смешанных магазинов для M96S (2x снайперских, 2x флак, 2x зажигательных)
     .desc = Ящик с боеприпасами.
+
+ent-CMUCrateEMBLRAP = ящик ББ боеприпасов Fliegerfaust (x4 ББ)
+    .desc = Ящик с боеприпасами.
+
+ent-CMUCrateEMBLRHE = ящик ОФ боеприпасов Fliegerfaust (x4 ОФ)
+    .desc = Ящик с боеприпасами.
+
+ent-CMUCrateEMBLRWP = ящик фосфорных боеприпасов Fliegerfaust (x4 БВ)
+    .desc = Ящик с боеприпасами.
+
+ent-CMUCrateEMBLRMixed = ящик смешанных боеприпасов Fliegerfaust (2x ОФ, 1x ББ, 1x БВ)
+    .desc = Ящик с боеприпасами.

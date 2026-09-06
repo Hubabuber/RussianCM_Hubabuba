@@ -1,2 +1,9 @@
-ent-CMLinenBin = бельевой ящик
-  .desc = Бельевой ящик. 
+ent-CMLinenBin = ящик для белья
+    .desc = Ящик в котором хранится бельё.
+    .suffix = Пустой
+ent-CMLinenBinFilledUnanchored = {ent-CMLinenBin}
+    .desc = {ent-CMLinenBin.desc}
+    .suffix = Полный, Не закреплён
+ent-CMLinenBinFilled = {ent-CMLinenBin}
+    .desc = {ent-CMLinenBin.desc}
+    .suffix = Полный

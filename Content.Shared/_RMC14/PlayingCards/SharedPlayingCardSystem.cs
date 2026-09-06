@@ -656,7 +656,10 @@ public abstract partial class SharedPlayingCardSystem : EntitySystem
         deck.Comp.CardOrder.Add(EncodeCard(card.Comp.Suit, card.Comp.Rank));
         deck.Comp.CardsRemaining = deck.Comp.CardOrder.Count;
         Dirty(deck);
-        QueueDel(card);
+        // RuMC edit start
+        if (_net.IsServer)
+            QueueDel(card);
+        // RuMC edit end
 
         Popup.PopupPredicted(Loc.GetString("rmc-playing-card-added-to-deck"), null, deck, user);
         Audio.PlayPredicted(deck.Comp.DrawSound, deck, user);
@@ -685,7 +688,12 @@ public abstract partial class SharedPlayingCardSystem : EntitySystem
         Dirty(deck);
 
         if (hand.Comp.Cards.Count == 0)
-            QueueDel(hand);
+        // RuMC edit start
+        {
+            if (_net.IsServer)
+                QueueDel(hand);
+        }
+        // RuMC edit end
         else
             Dirty(hand);
 

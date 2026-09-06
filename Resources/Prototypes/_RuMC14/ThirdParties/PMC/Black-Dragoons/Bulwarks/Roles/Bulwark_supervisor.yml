@@ -1,0 +1,99 @@
+- type: job
+  parent: CMJobBase
+  id: RuMCBlackDragoonsSupervisor
+  roundSide: ThirdParty
+  roundForce: BlackDragoons
+  roundRole: RuMCBlackDragoonsSupervisor
+  roundComponents:
+  - type: AssignSquad
+    whitelist:
+      tags:
+      - RuMCSquadBD
+  - type: Skills
+    skills:
+      RMCSkillCqc: 3
+      RMCSkillEngineer: 3
+      RMCSkillConstruction: 2
+      RMCSkillFirearms: 3
+      RMCSkillPolice: 2
+      RMCSkillFireman: 3
+      RMCSkillEndurance: 3
+      RMCSkillJtac: 3
+      RMCSkillLeadership: 4
+      RMCSkillPilot: 1
+      RMCSkillMedical: 2
+      RMCSkillMeleeWeapons: 2
+  - type: JobPrefix
+    prefix: SL
+  - type: MarineOrders
+  - type: RMCTrackable
+  - type: RMCPointing
+  - type: Language
+    spokenLanguages:
+    - Japanese
+    - English
+    understoodLanguages:
+    - Japanese
+    - English
+    currentLanguage: Japanese
+    defaultLanguage: Japanese
+
+  name: Supervisor
+  description: Black Dragoons Supervisor
+  playTimeTracker: RuMCJobBlackDragoonsSupervisor
+  ranks:
+    RuMCRankSupervisor: []
+  spawnMenuRoleName: Black Dragoons Supervisor
+  startingGear: RuMCGearBlackDragoonsSupervisor
+  greeting: You are a member of the "Black Dragoons" PMC. You have been summoned by the TWE ambassador to provide personal security. You have been informed of rebel activity in the sector. Your primary objective is the safety of the TWE ambassador; however, with the ambassador's permission, you may also assist law enforcement agencies in suppressing the uprising. Manage all contractors in the sector to lead the Empire to greatness. You are [color=green]friendly[/color] toward TWE forces and [color=red]hostile[/color] toward the CLF.
+  icon: "CMJobIconEmpty"
+  joinNotifyCrew: false
+  supervisors: au14-job-name-civilianambassadortwe
+  accessGroups:
+  - AU14GovforCommand
+  - AU14GovforSquad
+  hidden: false
+
+- type: entity
+  parent: RuMCBaseMobSpeciesOrganicBlackDragoons
+  id: RuMCJobBlackDragoonsSupervisor
+  name: Black Dragoons Supervisor
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: RuMCSquadBD
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Black Dragoons Supervisor
+    description: You are a supervisor for the "Black Dragoons" PMC. You oversee the PMC's forces, manage contractors, and make the Empire great again.
+    job: RuMCBlackDragoonsSupervisor
+    raffle:
+      settings: short
+
+- type: startingGear
+  parent: RuMCGearBlackDragoonsSentinelBase
+  id: RuMCGearBlackDragoonsSupervisor
+  equipment:
+    id: RuCMIDCardBDSupervisor
+    jumpsuit: RuMCCivilianBoilerSuitDarkBlueFilledLeader
+    gloves: RMCHandsVeteran
+    outerClothing: RuMCArmorBDMedium
+    back: RMCSatchelLightpackBlack
+    suitstorage: RuMCRifleFALTactical
+    head: RuMCHeadBeretSSO
+    belt: RuMCBeltMagazineFALAPFull
+    pocket1: AU14PouchSlingBinocs
+    pocket2: AU14PouchIFAKFill
+  storage:
+    back:
+    - AU14MRETWERMC
+    - CMCanteen
+    - AU14PacketGrenadeFragM12Filled
+    - CMEntrenchingTool
+    - CMStunbaton
+    - RMCBoxZiptie
+
+- type: playTimeTracker
+  id: RuMCJobBlackDragoonsSupervisor
