@@ -14,3 +14,117 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.62
     sprintModifier: 0.62
+
+- type: entity
+  parent: AU14UPPArmor
+  id: RuMCUPPArmorVDV
+  name:
+  description:
+  components:
+  - type: Sprite
+    sprite: _RuMC14\Clothing\UPP\armor\armor.rsi
+  - type: CMArmor
+    melee: 25
+    bullet: 25
+    bio: 15
+    explosionArmor: 15
+
+- type: entity
+  parent: AU14UPPArmorMinimalistic
+  id: RuMCUPPArmorVDV_Light
+  name:
+  description:
+  components:
+  - type: Sprite
+    sprite: _RuMC14\Clothing\UPP\armor\armor_light.rsi
+  - type: CMArmor
+    melee: 15
+    bullet: 20
+    bio: 15
+    explosionArmor: 15
+
+- type: entity
+  parent: AU14UPPArmorMinimalistic
+  id: RuMCUPPArmorVDV_Pilot
+  name:
+  description:
+  components:
+  - type: Sprite
+    sprite: _RuMC14\Clothing\UPP\armor\armor_pilot.rsi
+  - type: CMArmor
+    melee: 15
+    bullet: 15
+    bio: 15
+    explosionArmor: 25
+
+- type: entity
+  parent: AU14UPPArmorMinimalistic
+  id: RuMCUPPArmorVDV_Crew
+  name:
+  description:
+  components:
+  - type: Sprite
+    sprite: _RuMC14\Clothing\UPP\armor\armor_crew.rsi
+  - type: CMArmor
+    melee: 15
+    bullet: 15
+    bio: 15
+    explosionArmor: 25
+
+##SOF
+
+- type: entity
+  parent: AU14UPPArmor
+  id: RuMCUPPArmorSOF
+  name:
+  description:
+  components:
+  - type: Sprite
+    sprite: _RuMC14\Clothing\UPP\armor\SOF_armor.rsi
+  - type: CMArmor
+    melee: 30
+    bullet: 25
+    bio: 20
+    explosionArmor: 20
+
+- type: entity
+  parent: AU14UPPArmor
+  id: RuMCUPPArmorSOF_Alt
+  name:
+  description:
+  components:
+  - type: Sprite
+    sprite: _RuMC14\Clothing\UPP\armor\SOF_armor_alt.rsi
+  - type: CMArmor
+    melee: 30
+    bullet: 25
+    bio: 20
+    explosionArmor: 20
+
+- type: entity
+  parent: AU14UPPArmorBulky
+  id: RuMCUPPArmorSOF_Heavy
+  name:
+  description:
+  components:
+  - type: Sprite
+    sprite: _RuMC14\Clothing\UPP\armor\SOF_armor_large.rsi
+  - type: CMArmor
+    melee: 30
+    bullet: 40
+    bio: 25
+    explosionArmor: 30
+
+- type: entity
+  parent: AU14UPPArmorMinimalistic
+  id: RuMCUPPArmorSOF_Command
+  name:
+  description:
+  components:
+  - type: Sprite
+    sprite: _RuMC14\Clothing\UPP\armor\SOF_armor_command.rsi
+  - type: CMArmor
+    melee: 30
+    bullet: 25
+    bio: 20
+    explosionArmor: 20
