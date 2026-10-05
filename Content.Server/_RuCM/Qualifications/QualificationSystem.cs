@@ -284,16 +284,15 @@ public sealed partial class QualificationSystem : EntitySystem
             _jobs.MindTryGetJobId(mind, out var job) && job is { } id && ProtoMan.TryIndex(id, out var prototype) && prototype.IsSynthetic;
     }
 
+    // CMU14 method: permission checks read the current cache without cloning player history.
     public QualificationAuthority Authority(ICommonSession player, Guid? verified = null)
     {
-        var snapshot = Service.Snapshot();
         var job = "";
         if (_minds.TryGetMind(player.UserId, out var mind, out var mindComp) && _jobs.MindTryGetJobId(mind, out var prototype)) job = prototype?.Id ?? "";
         var participant = _ticker.RunLevel == GameRunLevel.InRound && player.AttachedEntity != null && mindComp?.OwnedEntity == player.AttachedEntity && !IsSynthetic(player.UserId);
-        return new(new(player.UserId, _minds.GetCharacterName(player.UserId) ?? "", job, GameTicker.GetRoundId(EntityManager.EntitySysManager),
+        return Service.GetAuthority(new(player.UserId, _minds.GetCharacterName(player.UserId) ?? "", job, GameTicker.GetRoundId(EntityManager.EntitySysManager),
             _cfg.GetCVar(QualificationCVars.ServerId), DateTimeOffset.UtcNow), _admins.HasAdminFlag(player, AdminFlags.Host),
-            snapshot.Management.Contains(player.UserId), participant && snapshot.OfficerJobs.Contains(job),
-            participant && snapshot.CommandingOfficerJobs.Contains(job), participant, verified);
+            participant, verified);
     }
 
     /// <summary>Server-side repository injection for isolated hosts and integration fixtures. No client route.</summary>
