@@ -98,3 +98,37 @@
   id: RuMCUPPHeavyHelmet
   name: 6B83 heavy helmet
   description: EVA-capable enclosed helmet of the UPP's Naval Infantry. Despite offering a higher armor rating, this helmet's cumbersome design kept it from retaining a larger role in the equipment of the Naval Infantry, and instead is largely reserved for heavy weapons operators and other specialist roles. Usually carried alongside with 6B99-2 heavy assault armor.
+
+- type: entity
+  parent: RMCMarineHelmetBase
+  id: RuMCUPPInfantryHelmetVDV
+  name: 6B-VDV helmet
+  description: A lightweight universal helmet for UPP Airborne Troops. Based on the standard SPN helmet, but lighter and with improved field of vision for airborne operations. Solid protection without sacrificing mobility.
+  components:
+  - type: IdentityBlocker
+  - type: Sprite
+    sprite: _RuMC14/Clothing/BEAR/helmets/helmet.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/BEAR/helmets/helmet.rsi
+  - type: CMArmor
+    melee: 25
+    bullet: 20
+    bio: 20
+    explosionArmor: 15
+
+- type: entity
+  parent: RMCMarineHelmetBase
+  id: RuMCUPPInfantryHelmetSOF
+  name: 7B-Zvezda helmet
+  description: A sealed vacuum-rated helmet for UPP Space Operating Forces. Built for zero-G and orbital operations. Integrated life support, reinforced visor, and comms. Excellent in the void, bulky on the ground.
+  components:
+  - type: IdentityBlocker
+  - type: Sprite
+    sprite: _RuMC14/Clothing/BEAR/helmets/helmet.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/BEAR/helmets/helmet.rsi
+  - type: CMArmor
+    melee: 25
+    bullet: 25
+    bio: 20
+    explosionArmor: 15
