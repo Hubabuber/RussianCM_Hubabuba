@@ -25,11 +25,12 @@ public sealed partial class QualificationSystem
         ? _round.SelectedPreset?.ID ?? _ticker.Preset?.ID
         : _ticker.CurrentPreset?.ID ?? _ticker.Preset?.ID ?? _round.SelectedPreset?.ID, "Insurgency", StringComparison.OrdinalIgnoreCase);
     private static bool IsDrillInstructor(QualificationAuthority actor) => actor.CurrentParticipant && QualificationRules.IsDrillInstructor(actor.Context.Job);
+    // CMU14 method: policy polling must not copy the qualification store for each player.
     public bool CanBrowseRecords(ICommonSession player)
     {
         var actor = Authority(player);
         return Service.IsManagement(actor) || actor.CurrentOfficer || actor.CurrentCo || IsDrillInstructor(actor) ||
-            Service.Snapshot().Instructors.GetValueOrDefault(player.UserId) is { Active: true };
+            Service.IsActiveInstructor(player.UserId);
     }
     private HashSet<string> PolicyJobs()
     {
