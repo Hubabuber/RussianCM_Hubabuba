@@ -33,3 +33,41 @@
     rsi:
       sprite: _RuMC14/Clothing/Patches/BEAR_hammer.rsi
       state: helmet
+
+##VDV
+
+- type: entity
+  parent: RMCPatchBase
+  id: RuMCPatchVDV
+  name: VDV patch
+  description: Standard insignia of the UPP Airborne Troops. Worn on uniforms and helmets as a mark of airborne service.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/Patches/VDV.rsi
+    state: icon
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RuMC14/Clothing/Patches/VDV.rsi
+      state: patch
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RuMC14/Clothing/Patches/VDV.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCPatchBase
+  id: RuMCPatchVDValt
+  name: VDV patch
+  description: Alternative insignia of the UPP Airborne Troops. Same airborne service, different cut. Used by specialized VDV units.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/Patches/VDV_alt.rsi
+    state: icon
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RuMC14/Clothing/Patches/VDV_alt.rsi
+      state: patch
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RuMC14/Clothing/Patches/VDV_alt.rsi
+      state: helmet
