@@ -175,32 +175,32 @@
       amount: 2
 
 # ARMOR
-
-- type: entity
-  parent: RuMCUPPArmorSOF_Light
-  id: RuMCArmorLightSOFFull
-  suffix: RuMC, FULL, SOF
-  components:
-  - type: StorageFill
-    contents:
-    - id: AU14ArmorGarbShinGuardsUPP
-    - id: AU14ArmorGarbCrotchPadUPP
-    - id: AU14ArmorGarbShoulderPadsUPP
-    - id: AU14ArmorGarbMagazineWebbingUPP
-    - id: AU14ArmorGarbLargeWebbingUPP
-
-- type: entity
-  parent: RuMCUPPArmorSOF
-  id: RuMCArmorSOFFull
-  suffix: RuMC, FULL, SOF
-  components:
-  - type: StorageFill
-    contents:
-    - id: AU14ArmorGarbShinGuardsUPP
-    - id: AU14ArmorGarbCrotchPadUPP
-    - id: AU14ArmorGarbShoulderPadsUPP
-    - id: AU14ArmorGarbMagazineWebbingUPP
-    - id: AU14ArmorGarbLargeWebbingUPP
+#
+#- type: entity
+#  parent: RuMCUPPArmorSOF_Light
+#  id: RuMCArmorLightSOFFull
+#  suffix: RuMC, FULL, SOF
+#  components:
+#  - type: StorageFill
+#    contents:
+#    - id: AU14ArmorGarbShinGuardsUPP
+#    - id: AU14ArmorGarbCrotchPadUPP
+#    - id: AU14ArmorGarbShoulderPadsUPP
+#    - id: AU14ArmorGarbMagazineWebbingUPP
+#    - id: AU14ArmorGarbLargeWebbingUPP
+#
+#- type: entity
+#  parent: RuMCUPPArmorSOF
+#  id: RuMCArmorSOFFull
+#  suffix: RuMC, FULL, SOF
+#  components:
+#  - type: StorageFill
+#    contents:
+#    - id: AU14ArmorGarbShinGuardsUPP
+#    - id: AU14ArmorGarbCrotchPadUPP
+#    - id: AU14ArmorGarbShoulderPadsUPP
+#    - id: AU14ArmorGarbMagazineWebbingUPP
+#    - id: AU14ArmorGarbLargeWebbingUPP
 
 # HELMET
 
@@ -279,14 +279,13 @@
       - [ RuMCUPPInfantryHelmetSOF, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
       - [ RuMCUPPInfantryHelmetSOF, RuMCMaskBalaklava, RMCBootsSPP, AU14PVEHandsFingerlessBrownGloves ]
       - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPP, AU14PVEHandsFingerlessBlackGloves ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPP, AU14PVEHandsFingerlessBrownGloves ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsFingerlessBlackGloves ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsFingerlessBrownGloves ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
     randomWeapon:
     - [ RMCWeaponRifleAK4047, RuMCFatiguesSOFFull, RuMCBeltMagazineSOFFull, RuMCPouchMagazineSOFFull ]
-    - [ RuMCWeaponRifleAK7074, RuMCFatiguesSOFFull, RuMCBeltMagazineSOFFull, RuMCPouchMagazineSOFFull ]
     tryEquipRandomWeapon: true
 
 - type: entity
@@ -301,11 +300,10 @@
       - [ RuMCUPPInfantryHelmetSOF, RuMCMaskBalaklava, RMCBootsSPP, AU14PVEHandsFingerlessBrownGloves ]
       - [ RuMCUPPInfantryHelmetSOF, CMMaskCoif,RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
       - [ RuMCUPPInfantryHelmetSOF, RuMCMaskBalaklava,RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
     randomWeapon:
     - [ RMCWeaponRifleAK4047, RuMCFatiguesSOFFull, RuMCBeltMagazineSOFFull, RuMCPouchMagazineSOFFull ]
-    - [ RuMCWeaponRifleAK7074, RuMCFatiguesSOFFull, RuMCBeltMagazineSOFFull, RuMCPouchMagazineSOFFull ]
     tryEquipRandomWeapon: true
 
 - type: entity
@@ -324,8 +322,8 @@
       - [ RuMCUPPInfantryHelmetSOF, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
       - [ RuMCUPPInfantryHelmetSOF, CMMaskCoif,RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
       - [ RuMCUPPInfantryHelmetSOF, RuMCMaskBalaklava,RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
     randomWeapon:
     - [ RuMCMachineGunPKM_MS, RuMCFatiguesSOFFull, RuMCUPPBeltMachinegunnerSOFFull, RuMCUPPPouchDrumSOFFull ]
     - [ RuMCMachineGunPKM_MS, RuMCFatiguesSOFFull, RuMCUPPBeltMachinegunnerSOFFull, RuMCUPPPouchDrumSOFFull ]
@@ -333,8 +331,8 @@
     tryEquipRandomWeapon: true
 
 - type: entity
-  id: RuMCSOFMedicPreset
-  name: SOF Medic preset
+  id: RuMCSOFEngineerPreset
+  name: SOF Engineer preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -348,10 +346,10 @@
       - [ RuMCUPPInfantryHelmetSOF, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCGlassesMedicalHUDGlasses ]
       - [ RuMCUPPInfantryHelmetSOF, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCGlassesMedicalHUDGlasses ]
       - [ RuMCUPPInfantryHelmetSOF, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCHeadBeretSSO, CMMaskCoif, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCHeadBeretSSO, RuMCMaskBalaklava, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
+      - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
     randomWeapon:
     - [ RMCWeaponRifleAK4047, RuMCFatiguesSOFFull, AU14BeltMedicalUPPFull, RuMCPouchMagazineSOFFull ]
     tryEquipRandomWeapon: true
