@@ -9,4 +9,9 @@ public sealed partial class GunRequireEquippedComponent : Component
 {
     [DataField(required: true), AutoNetworkedField]
     public EntityWhitelist Whitelist = new();
+
+    // RuMC edit start - allows variants to skip the harness requirement
+    [DataField, AutoNetworkedField]
+    public bool Enabled = true;
+    // RuMC edit end
 }

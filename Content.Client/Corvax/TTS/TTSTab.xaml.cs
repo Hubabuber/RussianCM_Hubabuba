@@ -66,11 +66,16 @@ public sealed partial class TTSTab : Control
 
     protected override void ExitedTree()
     {
-        var tts = _entityManager.System<TTSSystem>();
-        tts.ReferenceVoiceResultReceived -= OnReferenceVoiceResult;
-        tts.ReferenceVoiceCatalogUpdated -= OnReferenceVoiceCatalogUpdated;
-        tts.ReferenceVoiceAccessUpdated -= OnReferenceVoiceAccessUpdated;
-        tts.ReferenceVoiceDeleteResultReceived -= OnReferenceVoiceDeleteResult;
+        // RuMC edit start
+        if (_entityManager.EntitySysManager.TryGetEntitySystem(out TTSSystem? tts))
+        {
+            tts.ReferenceVoiceResultReceived -= OnReferenceVoiceResult;
+            tts.ReferenceVoiceCatalogUpdated -= OnReferenceVoiceCatalogUpdated;
+            tts.ReferenceVoiceAccessUpdated -= OnReferenceVoiceAccessUpdated;
+            tts.ReferenceVoiceDeleteResultReceived -= OnReferenceVoiceDeleteResult;
+        }
+        // RuMC edit end
+
         _adminManager.AdminStatusUpdated -= OnReferenceVoiceAccessUpdated;
         _referenceUploadPending = false;
         _referenceAudio = null;
