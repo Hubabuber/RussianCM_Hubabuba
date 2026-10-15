@@ -20,7 +20,7 @@ public sealed partial class TattooGunComponent : Component
     [DataField]
     public List<ProtoId<DepartmentPrototype>> BlockedDepartments = new()
     {
-        "AU14DepartmentColonyCommand",
+        // "AU14DepartmentColonyCommand", // RuMC edit
         "AU14DepartmentGovernmentForces"
     };
 

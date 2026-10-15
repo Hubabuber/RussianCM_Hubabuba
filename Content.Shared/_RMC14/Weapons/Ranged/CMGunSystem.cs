@@ -641,6 +641,11 @@ public sealed partial class CMGunSystem : EntitySystem
         if (!Resolve(gun, ref gun.Comp, false))
             return true;
 
+        // RuMC edit start
+        if (!gun.Comp.Enabled)
+            return true;
+        // RuMC edit end
+
         var slots = _inventory.GetSlotEnumerator(user, SlotFlags.OUTERCLOTHING | SlotFlags.BACK);
         while (slots.MoveNext(out var slot))
         {
