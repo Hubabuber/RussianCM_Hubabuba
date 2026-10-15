@@ -1,6 +1,6 @@
 # Ебаный ад
 - type: partySpawn
-  id: VDVSpawn
+  id: ZvezdaSpawn
   leadersToSpawn:
     RuMCJobUPPVDVCommander: 1
   gruntsToSpawn:
@@ -14,9 +14,41 @@
   spawnTogether: true
 
 - type: thirdParty
-  id: VDV
+  id: Zvezda
   announceAsSurvivors: true
-  partyspawn: VDVSpawn
+  partyspawn: ZvezdaSpawn
+  whitelistedGamemodes:
+    - insurgency
+    - forceonforce
+    - colonyfall
+  entrymethod: shuttle
+  dropshippath: /Maps/CMU14/Vehicles/Dropships/rmc_ert_spp_shuttle.yml
+  weight: 20
+  minplayers: 0
+  maxplayers: 400
+  ghostsNeeded: 0
+  roundstart: false
+
+
+# Ебаный ад 2
+- type: partySpawn
+  id: VimpelSpawn
+  leadersToSpawn:
+    RuMCJobUPPVDVCommander: 1
+  gruntsToSpawn:
+    RuMCJobUPPVDVDeputyCommander: 1
+    RuMCJobUPPVDVEngineer: 1
+    #RuMCJobUPPVDVMachinegunner:
+    RuMCJobUPPVDVMedic: 1
+    RuMCJobUPPVDVRifleman: 1
+    #RuMCJobUPPVDVSniper: 1
+  scalewithpop: false
+  spawnTogether: true
+
+- type: thirdParty
+  id: Vimpel
+  announceAsSurvivors: true
+  partyspawn: VimpelSpawn
   whitelistedGamemodes:
     - insurgency
     - forceonforce
