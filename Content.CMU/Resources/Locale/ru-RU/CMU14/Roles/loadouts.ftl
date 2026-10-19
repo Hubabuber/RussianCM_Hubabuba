@@ -46,3 +46,5 @@ au14-vending-machine-jo-max = Этот офицерский комплект у�
 
 cmu-loadout-group-aegis-stamp = Печать AEGIS Armaments
 cmu-loadout-group-provost-stamp = Печать Провоста
+
+cmu-loadout-group-surgical-webbing = Хирургическая разгрузка

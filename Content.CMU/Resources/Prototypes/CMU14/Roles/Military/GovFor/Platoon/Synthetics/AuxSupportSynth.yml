@@ -120,6 +120,7 @@
     - SlowRunner
     - Anemic
     - CMUProstheticRightLeg
+    - CMUBadLeg
   ranks:
     RMCRankSyntheticColonist: []
   chevrons:
@@ -136,6 +137,7 @@
   equipment:
     ears: AU14HeadsetGovforCommand
     ears2: RMCM5CameraGear
+    shoes: CMBootsBlackFilled # RuMC edit
 
 - type: startingGear
   id: AU14GearGOVFORAuxSupportSynthDummy
@@ -166,6 +168,8 @@
   - GOVFORSynthSpecializationAU14
   - SynthBackpackAU14
   - SynthEquipmentAU14
+  - SynthUniformAU14 # RuMC edit
+  - SynthHeadwearAU14 # RuMC edit
   - SynthAccesoriesSpecialAU14
   - SynthSuitSpecialAU14
   - SynthBeltAU14
@@ -248,6 +252,7 @@
     - FrontalLisp
     - NonResuscitable
     - Epilepsy
+    - CMUBadLeg
   ranks:
     RMC_WarrantOfficer1:
     - !type:RoleTimeRequirement
@@ -278,6 +283,7 @@
     - FrontalLisp
     - NonResuscitable
     - Epilepsy
+    - CMUBadLeg
   ranks:
     UPP_SeniorWarrantOfficer:
     - !type:RoleTimeRequirement

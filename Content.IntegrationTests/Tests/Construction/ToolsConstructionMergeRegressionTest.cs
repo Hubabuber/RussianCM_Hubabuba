@@ -23,15 +23,19 @@ public sealed class ToolsConstructionMergeRegressionTest : GameTest
     [
         "Anchoring",
         "Brushing",
+        "Chiseling", // RUMC: the smithing
         "Cutting",
+        "Hammering", // RUMC: the hammers of the smithing and of the crafts
         "Honking",
         "Prying",
         "Pulsing",
         "Rolling",
+        "RUMCLogSawing", // RUMC: the saw of the logs
         "Sawing",
         "Screwing",
         "Shearing",
         "Slicing",
+        "Tonging", // RUMC: the tongs of the smithing
         "VehicleServicing",
         "Welding",
     ];

@@ -58,7 +58,7 @@ namespace Content.Client.Input
             human.AddFunction(EngineKeyFunctions.MoveLeft);
             human.AddFunction(EngineKeyFunctions.MoveRight);
             human.AddFunction(EngineKeyFunctions.Walk);
-            human.AddFunction(ContentKeyFunctions.ToggleKnockdown);
+            // human.AddFunction(ContentKeyFunctions.ToggleKnockdown); // CMU14: vanilla prone removed
             human.AddFunction(ContentKeyFunctions.SwapHands);
             human.AddFunction(ContentKeyFunctions.SwapHandsReverse);
             human.AddFunction(ContentKeyFunctions.Drop);
@@ -99,6 +99,7 @@ namespace Content.Client.Input
 
             // actions should be common (for ghosts, mobs, etc)
             common.AddFunction(ContentKeyFunctions.OpenActionsMenu);
+            common.AddFunction(CMUKeyFunctions.CMUOpenPhraseWheel); // CMU14: quick phrase wheel
 
             foreach (var boundKey in ContentKeyFunctions.GetHotbarBoundKeys())
             {

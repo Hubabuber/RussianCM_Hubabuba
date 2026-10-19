@@ -31,6 +31,7 @@ public sealed partial class AdminConsoleSystem : EntitySystem
         SubscribeLocalEvent<AdminConsoleComponent, BoundUIOpenedEvent>(OnUiOpened);
         SubscribeLocalEvent<AdminConsoleComponent, AdminConsoleSetTaxBuiMsg>(OnSetTax);
         SubscribeLocalEvent<AdminConsoleComponent, AdminConsoleSetIncomeTaxBuiMsg>(OnSetIncomeTax);
+        SubscribeLocalEvent<AdminConsoleComponent, AdminConsoleSetTradeTaxBuiMsg>(OnSetTradeTax); // RUMC: the tax on the parcels sold through the trade platforms
         SubscribeLocalEvent<AdminConsoleComponent, AdminConsoleCallThirdPartyBuiMsg>(OnCallThirdParty);
         SubscribeLocalEvent<AdminConsoleComponent, AdminConsoleOpenThirdPartyBuiMsg>(OnOpenThirdParty);
     }
@@ -49,6 +50,7 @@ public sealed partial class AdminConsoleSystem : EntitySystem
 
             comp.SalesTaxPercent = other.SalesTaxPercent;
             comp.IncomeTaxPercent = other.IncomeTaxPercent;
+            comp.TradeTaxPercent = other.TradeTaxPercent; // RUMC: a new console takes the trade tax of the one that is already there
             return;
         }
     }
@@ -58,6 +60,13 @@ public sealed partial class AdminConsoleSystem : EntitySystem
     {
         var query = EntityQueryEnumerator<AdminConsoleComponent>();
         return query.MoveNext(out _, out var comp) ? comp.SalesTaxPercent / 100f : 0f;
+    }
+
+    // RUMC: the trade tax as a share (0 to 0.5), for the platforms that take it from a sale
+    public float GetTradeTax()
+    {
+        var query = EntityQueryEnumerator<AdminConsoleComponent>();
+        return query.MoveNext(out _, out var comp) ? comp.TradeTaxPercent / 100f : 0f;
     }
 
     public float GetIncomeTax()
@@ -135,6 +144,31 @@ public sealed partial class AdminConsoleSystem : EntitySystem
         UpdateAllUi();
     }
 
+    // RUMC: sets the trade tax on every console, so that all show one value, and announces a change to the colony
+    private void OnSetTradeTax(EntityUid uid, AdminConsoleComponent comp, AdminConsoleSetTradeTaxBuiMsg msg)
+    {
+        var clamped = Math.Clamp(msg.TaxPercent, 0f, 50f);
+        var oldTax = comp.TradeTaxPercent;
+
+        // Sync to ALL admin consoles so every terminal shows the same value
+        var query = EntityQueryEnumerator<AdminConsoleComponent>();
+        while (query.MoveNext(out _, out var c))
+            c.TradeTaxPercent = clamped;
+
+        if (Math.Abs(oldTax - clamped) > 0.01f)
+        {
+            var sound = new Robust.Shared.Audio.SoundPathSpecifier("/Audio/Announcements/announce.ogg");
+            _chat.DispatchFilteredAnnouncement(
+                ColonyAnnouncements.Recipients(EntityManager),
+                Loc.GetString("admin-console-trade-tax-announcement", ("percent", $"{clamped:F0}")),
+                sender: Loc.GetString("admin-console-announcement-sender"),
+                playSound: true,
+                announcementSound: sound);
+        }
+
+        UpdateAllUi();
+    }
+
     private void OnSetIncomeTax(EntityUid uid, AdminConsoleComponent comp, AdminConsoleSetIncomeTaxBuiMsg msg)
     {
         var clamped = Math.Clamp(msg.TaxPercent, 0f, 50f);
@@ -192,7 +226,8 @@ public sealed partial class AdminConsoleSystem : EntitySystem
     {
         var econ = BuildEconomyStatus();
         _ui.SetUiState(uid, AdminConsoleUi.Key,
-            new AdminConsoleBuiState(comp.SalesTaxPercent, comp.IncomeTaxPercent, _colonyBudget.GetBudget(), econ));
+            // RUMC: the trade tax is given to the window too; the call that was here: new AdminConsoleBuiState(comp.SalesTaxPercent, comp.IncomeTaxPercent, _colonyBudget.GetBudget(), econ));
+            new AdminConsoleBuiState(comp.SalesTaxPercent, comp.IncomeTaxPercent, _colonyBudget.GetBudget(), econ, comp.TradeTaxPercent));
 
         var thirdParties = new Dictionary<string, (string DisplayName, float Cost)>();
         foreach (var (id, cost) in comp.CallableParties)

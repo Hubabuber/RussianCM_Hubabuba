@@ -53,6 +53,7 @@ cmu-callsign-preset-command-post = CHAOS 02
 cmu-callsign-preset-sabre = SABRE 01
 cmu-callsign-preset-dagger = DAGGER 01
 cmu-callsign-preset-pike = PIKE 01
+cmu-callsign-preset-halberd = HALBERD ACTUAL
 cmu-callsign-preset-sunray = RAY 21
 cmu-callsign-preset-overlord = SUMMIT 31
 cmu-callsign-preset-dustoff = ANGEL 21

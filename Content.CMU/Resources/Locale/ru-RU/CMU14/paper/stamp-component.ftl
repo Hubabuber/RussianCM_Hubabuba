@@ -26,6 +26,7 @@ stamp-component-stamped-name-au14-sea = Старший советник серж
 
 stamp-component-stamped-name-au14-cl = Корпоративный связной
 stamp-component-stamped-name-au14-cs = Корпоративный учёный
+stamp-component-stamped-name-au14-ass-weyu = Корпоративный помощник
 
 stamp-component-stamped-name-cmu14-prodigy-liaison = Связной Prodigy
 stamp-component-stamped-name-cmu14-prodigy-supervisor = Руководитель Prodigy
