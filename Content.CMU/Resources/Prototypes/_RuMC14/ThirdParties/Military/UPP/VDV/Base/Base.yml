@@ -332,7 +332,6 @@
       - [ RuMCHeadBoonieVDV, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
     randomWeapon:
     - [ RuMCMachineGunPKM_MS, RuMCFatiguesVDVFull, RuMCUPPBeltMachinegunnerVDVFull, RuMCUPPPouchDrumVDVFull ]
-    - [ RuMCMachineGunPKM_MS, RuMCFatiguesVDVFull, RuMCUPPBeltMachinegunnerVDVFull, RuMCUPPPouchDrumVDVFull ]
     tryEquipRandomWeapon: true
 
 - type: entity
@@ -356,7 +355,6 @@
       - [ RuMCHeadBoonieVDV, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
       - [ RuMCHeadBoonieVDV, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
     randomWeapon:
-    - [ RMCWeaponRifleAK4047, RuMCFatiguesVDV_medicFull, AU14BeltMedicalUPPFull, RuMCPouchMagazineVDVFull ]
     - [ RuMCWeaponRifleAK7074, RuMCFatiguesVDV_medicFull, AU14BeltMedicalUPPFull, RuMCPouchMagazineVDVFull ]
     tryEquipRandomWeapon: true
 
@@ -368,13 +366,31 @@
   - type: EntityPreset
     randomGearOther:
     -
-      - [ RuMCUPPInfantryHelmetVDVFull, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCUPPInfantryHelmetVDVFull, RuMCMaskBalaklava,RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCHeadCapVDV, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCHeadCapVDV, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCHeadBoonieVDV, RuMCMaskBalaklava, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
-      - [ RuMCHeadBoonieVDV, RuMCMaskBalaklava, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
+      - [ RuMCUPPInfantryHelmetVDVFull, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCWeldingGogglesSuperior ]
+      - [ RuMCUPPInfantryHelmetVDVFull, RuMCMaskBalaklava,RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCWeldingGogglesSuperior ]
+      - [ RuMCHeadCapVDV, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCWeldingGogglesSuperior ]
+      - [ RuMCHeadCapVDV, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves, RMCWeldingGogglesSuperior ]
+      - [ RuMCHeadBoonieVDV, RuMCMaskBalaklava, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCWeldingGogglesSuperior ]
+      - [ RuMCHeadBoonieVDV, RuMCMaskBalaklava, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCWeldingGogglesSuperior ]
     randomWeapon:
     - [ RMCWeaponRifleAK4047, RuMCFatiguesVDV_engFull, AU14BeltUtilityFilled, RuMCPouchMagazineVDVFull ]
-    - [ RuMCWeaponRifleAK7074, RuMCFatiguesVDV_engFull, AU14BeltUtilityFilled, RuMCPouchMagazineVDVFull ]
+    tryEquipRandomWeapon: true
+
+- type: entity
+  id: RuMCVDVPresetSniper
+  name: VDV Sniper preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomGearOther:
+    -
+      - [ RuMCUPPInfantryHelmetVDV, CMMaskCoif, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
+      - [ RuMCUPPInfantryHelmetVDV, RuMCMaskBalaklava, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
+      - [ RuMCUPPInfantryHelmetVDV, CMMaskCoif,RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
+      - [ RuMCUPPInfantryHelmetVDV, RuMCMaskBalaklava,RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
+      - [ RuMCHeadCapVDV, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
+      - [ RuMCHeadBoonieVDV, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
+    randomWeapon:
+    - [ RuMCSniperRifleSVAROG, RuMCFatiguesVDVFull, RuMCUPPNavalInfantryBeltPistolFull, RuMCPouchMagazineSVAROGFull ]
+    #- [ RuMCSniperRifleSVAROG, RuMCUniformBEARFull, RuMCUPPNavalInfantryBeltPistolFull, RuMCPouchMagazineSVAROGFull, ]
     tryEquipRandomWeapon: true
