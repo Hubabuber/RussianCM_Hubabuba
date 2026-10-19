@@ -157,9 +157,9 @@
   components:
   - type: StorageFill
     contents:
-    - id: RuMCMagazinePKP_MS
+    - id: AU14MagazineSmartGunUPP
       amount: 2
-    - id: RuMCMagazinePKP_MSTracer
+    - id: AU14MagazineSmartGunUPP
       amount: 1
 
 - type: entity
@@ -169,9 +169,9 @@
   components:
   - type: StorageFill
     contents:
-    - id: RuMCMagazinePKP_MS
+    - id: AU14MagazineSmartGunUPP
       amount: 5
-    - id: RuMCMagazinePKP_MSTracer
+    - id: AU14MagazineSmartGunUPP
       amount: 2
 
 # ARMOR
@@ -285,7 +285,7 @@
       - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsFingerlessBrownGloves ]
       - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
     randomWeapon:
-    - [ RMCWeaponRifleAK4047, RuMCFatiguesSOFFull, RuMCBeltMagazineSOFFull, RuMCPouchMagazineSOFFull ]
+    - [ RMCWeaponRifleAK4047Tactical, RuMCFatiguesSOFFull, RuMCBeltMagazineSOFFull, RuMCPouchMagazineSOFFull ]
     tryEquipRandomWeapon: true
 
 - type: entity
@@ -303,7 +303,7 @@
       - [ RuMCHeadBeretSSO, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
       - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine ]
     randomWeapon:
-    - [ RMCWeaponRifleAK4047, RuMCFatiguesSOFFull, RuMCBeltMagazineSOFFull, RuMCPouchMagazineSOFFull ]
+    - [ RMCWeaponRifleAK4047Tactical, RuMCFatiguesSOFFull, RuMCBeltMagazineSOFFull, RuMCPouchMagazineSOFFull ]
     tryEquipRandomWeapon: true
 
 - type: entity
@@ -325,8 +325,8 @@
       - [ RuMCHeadBeretSSO, RMCBootsSPPBlack, AU14PVEHandsFingerlessBlackGloves ]
       - [ RuMCHeadBeretSSO, RMCBootsSPPBlack, AU14PVEHandsFingerlessBrownGloves ]
     randomWeapon:
-    - [ RuMCMachineGunPKM_MS, RuMCFatiguesSOFFull, RuMCUPPBeltMachinegunnerSOFFull, RuMCUPPPouchDrumSOFFull ]
-    - [ RuMCMachineGunPKM_MS, RuMCFatiguesSOFFull, RuMCUPPBeltMachinegunnerSOFFull, RuMCUPPPouchDrumSOFFull ]
+    - [ AU14SmartGunUPP, RuMCFatiguesSOFFull, RuMCUPPBeltMachinegunnerSOFFull, RuMCUPPPouchDrumSOFFull ]
+    - [ AU14SmartGunUPP, RuMCFatiguesSOFFull, RuMCUPPBeltMachinegunnerSOFFull, RuMCUPPPouchDrumSOFFull ]
     #временно, до тех пор пока не будет сделан смартган АК103 (лорно-обоснованно)
     tryEquipRandomWeapon: true
 
@@ -351,5 +351,5 @@
       - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
       - [ RuMCHeadBeretSSO, RMCBootsSPP, AU14PVEHandsInsulatedBlackMarine, RMCGlassesMedicalHUDGlasses ]
     randomWeapon:
-    - [ RMCWeaponRifleAK4047, RuMCFatiguesSOFFull, AU14BeltMedicalUPPFull, RuMCPouchMagazineSOFFull ]
+    - [ RMCWeaponRifleAK4047Tactical, RuMCFatiguesSOFFull, AU14BeltMedicalUPPFull, RuMCPouchMagazineSOFFull ]
     tryEquipRandomWeapon: true
