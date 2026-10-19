@@ -32,6 +32,7 @@ public sealed class VehicleSupplyBui : BoundUserInterface
     {
         base.Open();
         _window = this.CreateWindow<VehicleSupplyWindow>();
+        _window.SetSize = new Vector2(700, 450);
 
         if (_window == null)
             return;

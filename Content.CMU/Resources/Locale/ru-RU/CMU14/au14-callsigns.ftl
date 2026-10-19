@@ -53,6 +53,7 @@ cmu-callsign-preset-command-post = ХАОС 02
 cmu-callsign-preset-sabre = САБЛЯ 01
 cmu-callsign-preset-dagger = КИНЖАЛ 01
 cmu-callsign-preset-pike = ПИКА 01
+cmu-callsign-preset-halberd = АЛЕБАРДА 01
 cmu-callsign-preset-sunray = ЛУЧ 21
 cmu-callsign-preset-overlord = ВЕРШИНА 31
 cmu-callsign-preset-dustoff = АНГЕЛ 21

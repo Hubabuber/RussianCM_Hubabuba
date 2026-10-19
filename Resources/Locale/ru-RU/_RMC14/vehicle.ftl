@@ -383,3 +383,10 @@ cmu-vehicle-supply-lift-raising = Поднимается
 cmu-vehicle-supply-lift-preparing = Подготовка
 cmu-vehicle-supply-copies-expanded = Копии v
 cmu-vehicle-supply-copies-collapsed = Копии >
+
+# CMU14: vehicle storage notices.
+cmu-vehicle-supply-yes-refund = ВНИМАНИЕ: выданную технику можно вернуть на хранение.
+
+cmu-vehicle-supply-yes-refund2 = ВНИМАНИЕ: для хранения поставьте выданную технику на площадку.
+
+cmu-vehicle-supply-yes-refund3 = ПРЕДУПРЕЖДЕНИЕ: установленные модули и содержимое салона будут безвозвратно утрачены.

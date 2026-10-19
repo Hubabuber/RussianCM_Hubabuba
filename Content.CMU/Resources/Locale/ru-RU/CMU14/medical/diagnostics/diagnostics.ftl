@@ -142,3 +142,25 @@ cmu-medical-scanner-bleed-tier-severe = Сильное
 cmu-medical-scanner-bleed-tier-arterial = Артериальное
 cmu-medical-scanner-chip-stump-bleeding = Культя: {$tier} кровотечение
 cmu-medical-scanner-chip-stump-clamped = Культя: жгут
+
+cmu-medical-scanner-label-health = Здоровье:
+
+cmu-medical-scanner-label-damage = Повреждения:
+
+cmu-medical-scanner-label-holocard = Голокарта:
+
+cmu-medical-scanner-label-temperature = Температура тела:
+
+cmu-medical-scanner-label-pulse = Пульс:
+
+cmu-medical-scanner-label-shock-risk = Риск шока:
+
+cmu-medical-scanner-section-limbs-damaged = Повреждения конечностей
+
+cmu-medical-scanner-section-organs-damaged = Повреждения органов
+
+cmu-medical-scanner-section-chemicals = Химические вещества
+
+cmu-medical-scanner-section-advice = Рекомендации по лечению
+
+cmu-medical-scanner-organ-damage = {$stage} [урон: {$damage}]

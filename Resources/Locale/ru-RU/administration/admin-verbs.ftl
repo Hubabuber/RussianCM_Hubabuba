@@ -65,4 +65,5 @@ admin-verbs-dialog-set-bullet-amount-title = Установить кол-во п
 admin-verbs-dialog-set-bullet-amount-amount = Количество (стандарт { $cap })
 
 
-admin-verbs-admin-logs-player = Player Logs
+# CMU14: player log verb localization.
+admin-verbs-admin-logs-player = Просмотреть журнал

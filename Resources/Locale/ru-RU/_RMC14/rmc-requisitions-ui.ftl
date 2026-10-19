@@ -70,3 +70,14 @@ rmc-requisitions-category-weysec-ammo = Боеприпасы Ве-Ю
 rmc-requisitions-category-weysec-gear = Снаряжение Ве-Ю
 rmc-requisitions-category-weysec-weapons = Оружие Ве-Ю
 rmc-requisitions-category-weyland-yutani-research = Исследования Ве-Ю
+
+# CMU14: vehicle module requisitions categories.
+rmc-requisitions-category-vehicle-armaments-m = Вооружение техники M
+
+rmc-requisitions-category-vehicle-armaments-a = Вооружение техники A
+
+rmc-requisitions-category-vehicle-main = Основные модули техники
+
+rmc-requisitions-category-vehicle-aux = Вспомогательные модули техники
+
+rmc-requisitions-category-vehicle-avionics = Компоненты авионики

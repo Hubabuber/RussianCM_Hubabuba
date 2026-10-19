@@ -1,0 +1,1 @@
+ent-RUMCOreDepositBase = рудное месторождение

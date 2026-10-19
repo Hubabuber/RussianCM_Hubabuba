@@ -39,6 +39,7 @@ public sealed class HealthScannerBuiState(
     public CMUPainShockRisk? CMUPainShockRisk;
     public bool CMUPainShockSuppressed;
     public string? CMURiderReading;
+    public string? CMUWendigoReading; // CMU14: lab Wendigo procedure progress
     public bool CMUExternalBleeding;
     // cmu edit start
     public ExternalBleedTier CMUExternalBleedTier;
@@ -58,6 +59,8 @@ public sealed class HealthScannerBuiState(
     public bool HolocardXeno;
     // cmu edit start
     public TimeSpan? CMUTimeUntilUnrevivable;
+    public string? CMUBloodType;
+    public float CMUSalinePercent;
     // cmu edit end
 }
 
@@ -105,6 +108,9 @@ public sealed class HealthScannerAdviceReadout
     public bool ShowBicaridine;
     public bool ShowKelotane;
     public bool ShowDylovene;
+    // cmu edit start
+    public bool CMUShowInternals;
+    // cmu edit end
 }
 
 [Serializable, NetSerializable]
@@ -123,7 +129,11 @@ public readonly record struct CMUBodyPartReadout(
     bool Cast,
     bool Tourniquet,
     // cmu edit start
-    ExternalBleedTier ExternalBleeding = ExternalBleedTier.None);
+    ExternalBleedTier ExternalBleeding = ExternalBleedTier.None,
+    FixedPoint2 Brute = default,
+    FixedPoint2 Burn = default,
+    bool UntreatedBrute = false,
+    bool UntreatedBurn = false);
     // cmu edit end
 
 // cmu edit start
