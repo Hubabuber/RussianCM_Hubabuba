@@ -1,5 +1,45 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: RuMCUPPFatiguesCrew
+  name: Crew fatigues
+  description: Standard fatigues for UPP Crew.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/uniform/crew.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - AU14PatchUPP
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: RuMCUPPFatiguesPilot
+  name: Pilot fatigues
+  description: Standard fatigues for UPP Pilot.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/uniform/pilot.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - AU14PatchUPP
+
+#Pioner
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: RuMCFatiguesPioner
+  name: Pioner fatigues
+  description: Standard fatigues for UPP Pioner.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/uniform/PIONER_uniform.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - AU14PatchUPP
+
+#VDV
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: RuMCFatiguesVDV
   name: VDV airborne fatigues
   description: Standard fatigues for UPP Airborne Troops. Light Kevlar lining offers basic shrapnel protection without limiting mobility during deployment.
@@ -50,7 +90,7 @@
     - AU14PatchUPP
     - RMCPatchSPPVDV
 
-##SOF
+#SOF
 
 - type: entity
   parent: RMCMarineUniformBase

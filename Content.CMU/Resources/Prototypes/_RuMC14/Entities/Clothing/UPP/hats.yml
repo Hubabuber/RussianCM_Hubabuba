@@ -1,41 +1,5 @@
 - type: entity
   parent: CMHeadCap
-  id: RuMCHeadBeretVDV
-  name: blue VDV beret
-  description: No one but us! The beret, created for the Airborne Forces, has become a symbol of strength and willpower.
-  components:
-  - type: Sprite
-    sprite: _RuMC14/Clothing/UPP/beret/blueBeret.rsi
-  - type: Clothing
-    sprite: _RuMC14/Clothing/UPP/beret/blueBeret.rsi
-  - type: Appearance
-
-- type: entity
-  parent: CMHeadCap
-  id: RuMCHeadCapVDV
-  name: desert cap
-  description: An ordinary desert cap for UPP troops. Comfortable and so beautiful!
-  components:
-  - type: Sprite
-    sprite: _RuMC14/Clothing/UPP/cap/desertCap.rsi
-  - type: Clothing
-    sprite: _RuMC14/Clothing/UPP/cap/desertCap.rsi
-  - type: Appearance
-
-- type: entity
-  parent: CMHeadCap
-  id: RuMCHeadBoonieVDV
-  name: desert boonie
-  description: Something you wouldn't want to go into the desert without.
-  components:
-  - type: Sprite
-    sprite: _RuMC14/Clothing/UPP/cap/desertBoonie.rsi
-  - type: Clothing
-    sprite: _RuMC14/Clothing/UPP/cap/desertBoonie.rsi
-  - type: Appearance
-
-- type: entity
-  parent: CMHeadCap
   id: RuMCHeadBeretMarien
   name: black Marien beret
   description: The beret, created for the Marine, has become a symbol of unbending character and endurance.
@@ -44,18 +8,6 @@
     sprite: _RuMC14/Clothing/UPP/beret/blackBeret.rsi
   - type: Clothing
     sprite: _RuMC14/Clothing/UPP/beret/blackBeret.rsi
-  - type: Appearance
-
-- type: entity
-  parent: CMHeadCap
-  id: RuMCHeadBeretSSO
-  name: red SSO beret
-  description: Special forces take it. If you see it, it means the situation has reached its peak.
-  components:
-  - type: Sprite
-    sprite: _RuMC14/Clothing/UPP/beret/redBeret.rsi
-  - type: Clothing
-    sprite: _RuMC14/Clothing/UPP/beret/redBeret.rsi
   - type: Appearance
 
 - type: entity
@@ -120,4 +72,94 @@
     sprite: _RuMC14/Clothing/UPP/cap/uppushankaMVD.rsi
   - type: Clothing
     sprite: _RuMC14/Clothing/UPP/cap/uppushankaMVD.rsi
+  - type: Appearance
+
+#VDV
+
+- type: entity
+  parent: CMHeadCap
+  id: RuMCHeadBeretVDV
+  name: blue VDV beret
+  description: No one but us! The beret, created for the Airborne Forces, has become a symbol of strength and willpower.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/beret/blueBeret.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/UPP/beret/blueBeret.rsi
+  - type: Appearance
+
+- type: entity
+  parent: CMHeadCap
+  id: RuMCHeadCapVDV
+  name: desert cap
+  description: An ordinary desert cap for UPP troops. Comfortable and so beautiful!
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/cap/desertCap.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/UPP/cap/desertCap.rsi
+  - type: Appearance
+
+- type: entity
+  parent: CMHeadCap
+  id: RuMCHeadBoonieVDV
+  name: desert boonie
+  description: Something you wouldn't want to go into the desert without.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/cap/desertBoonie.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/UPP/cap/desertBoonie.rsi
+  - type: Appearance
+
+#SOF
+
+- type: entity
+  parent: CMHeadCap
+  id: RuMCHeadBeretSSO
+  name: red SOF beret
+  description: Special forces take it. If you see it, it means the situation has reached its peak.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/beret/redBeret.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/UPP/beret/redBeret.rsi
+  - type: Appearance
+
+#Pioner
+
+- type: entity
+  parent: CMHeadCap
+  id: RuMCHeadBooniePioner
+  name: Pioner boonie
+  description: Pioner boonie
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/cap/Pioner/PIONER_Boonie.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/UPP/cap/Pioner/PIONER_Boonie.rsi
+  - type: Appearance
+
+- type: entity
+  parent: CMHeadCap
+  id: RuMCHeadUshankaPioner
+  name: Pioner Ushanka
+  description: Pioner Ushanka
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/cap/Pioner/PIONER_ushanka.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/UPP/cap/Pioner/PIONER_ushanka.rsi
+  - type: Appearance
+
+- type: entity
+  parent: CMHeadCap
+  id: RuMCHeadCapPioner
+  name: Pioner cap
+  description: Pioner cap
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/cap/Pioner/PIONER_cap.rsi
+  - type: Clothing
+    sprite: _RuMC14/Clothing/UPP/cap/Pioner/PIONER_cap.rsi
   - type: Appearance
