@@ -5,67 +5,71 @@
   name: au14-craft-recipe-buildgrinder
   output: RUMCGrinder
   time: 20
+  minigames: [Rhythm, Center, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCMotor
+  - stack: RUMCKitDrive
     amount: 2
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 1
-  - stack: RUMCInsulatedCable
-    amount: 2
+  - stack: RUMCKitWiring
+    amount: 1
 
 - type: craftRecipe
   id: RUMCCraftBuildElectricDrill
   name: au14-craft-recipe-buildelectricdrill
   output: RUMCElectricDrill
   time: 20
+  minigames: [Center, Hold, Drill]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCMotor
+  - stack: RUMCKitDrive
     amount: 2
-  - stack: RUMCPiston
+  - stack: RUMCKitHydraulics
     amount: 1
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 1
-  - stack: RUMCInsulatedCable
-    amount: 2
+  - stack: RUMCKitWiring
+    amount: 1
 
 - type: craftRecipe
   id: RUMCCraftBuildElectricSmelter
   name: au14-craft-recipe-buildelectricsmelter
   output: RUMCElectricSmelter
   time: 20
+  minigames: [Rhythm, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCHeatingCoil
+  - stack: RUMCKitHeating
     amount: 4
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 2
-  - stack: RUMCInsulatedCable
-    amount: 4
+  - stack: RUMCKitWiring
+    amount: 1
 
 - type: craftRecipe
   id: RUMCCraftBuildCondenser
   name: au14-craft-recipe-buildcondenser
   output: RUMCCondenser
   time: 20
+  minigames: [Rhythm, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCPump
+  - stack: RUMCKitHydraulics
     amount: 2
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 1
-  - stack: RUMCInsulatedCable
-    amount: 2
+  - stack: RUMCKitWiring
+    amount: 1
