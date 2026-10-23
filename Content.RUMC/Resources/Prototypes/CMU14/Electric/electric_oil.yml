@@ -518,25 +518,27 @@
   name: au14-craft-recipe-buildoilpump
   output: RUMCOilPump
   time: 25
+  minigames: [Center, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCMotor
+  - stack: RUMCKitDrive
     amount: 2
-  - stack: RUMCPump
+  - stack: RUMCKitHydraulics
     amount: 2
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 1
-  - stack: RUMCInsulatedCable
-    amount: 2
+  - stack: RUMCKitWiring
+    amount: 1
 
 - type: craftRecipe
   id: RUMCCraftBuildOilTank
   name: au14-craft-recipe-buildoiltank
   output: RUMCOilTank
   time: 20
+  minigames: [Rhythm, Trace]
   tools:
   - Hammering
   consumables:
@@ -550,6 +552,7 @@
   name: au14-craft-recipe-buildoilbarrel
   output: RUMCOilBarrel
   time: 10
+  minigames: [Rhythm]
   tools:
   - Hammering
   consumables:
@@ -576,19 +579,20 @@
   name: au14-craft-recipe-builddieselgenerator
   output: RUMCDieselGenerator
   time: 25
+  minigames: [Center, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCMotor
+  - stack: RUMCKitDrive
     amount: 2
-  - stack: RUMCPiston
+  - stack: RUMCKitHydraulics
     amount: 2
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 1
-  - stack: RUMCInsulatedCable
-    amount: 4
+  - stack: RUMCKitWiring
+    amount: 1
   - stack: RUMCGalvanizedSheet
     amount: 2
 
@@ -597,19 +601,20 @@
   name: au14-craft-recipe-builddistillationtower
   output: RUMCDistillationTower
   time: 30
+  minigames: [Rhythm, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCHeatingCoil
+  - stack: RUMCKitHeating
     amount: 4
-  - stack: RUMCPump
+  - stack: RUMCKitHydraulics
     amount: 2
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 2
-  - stack: RUMCInsulatedCable
-    amount: 2
+  - stack: RUMCKitWiring
+    amount: 1
   - stack: RUMCChromedSheet
     amount: 4
 
@@ -618,38 +623,40 @@
   name: au14-craft-recipe-buildfuelblender
   output: RUMCFuelBlender
   time: 20
+  minigames: [Center, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCMotor
+  - stack: RUMCKitDrive
     amount: 2
-  - stack: RUMCPump
+  - stack: RUMCKitHydraulics
     amount: 2
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 1
-  - stack: RUMCInsulatedCable
-    amount: 2
+  - stack: RUMCKitWiring
+    amount: 1
 
 - type: craftRecipe
   id: RUMCCraftBuildSteamCracker
   name: au14-craft-recipe-buildsteamcracker
   output: RUMCSteamCracker
   time: 25
+  minigames: [Rhythm, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCHeatingCoil
+  - stack: RUMCKitHeating
     amount: 2
-  - stack: RUMCPump
+  - stack: RUMCKitHydraulics
     amount: 2
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 2
-  - stack: RUMCInsulatedCable
-    amount: 2
+  - stack: RUMCKitWiring
+    amount: 1
   - stack: RUMCChromedSheet
     amount: 2
 
@@ -658,41 +665,41 @@
   name: au14-craft-recipe-buildpolymerizer
   output: RUMCPolymerizer
   time: 25
+  minigames: [Rhythm, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCHeatingCoil
+  - stack: RUMCKitHeating
     amount: 1
-  - stack: RUMCPiston
+  - stack: RUMCKitHydraulics
+    amount: 3
+  - stack: RUMCKitSimpleCircuits
     amount: 2
-  - stack: RUMCPump
+  - stack: RUMCKitWiring
     amount: 1
-  - stack: RUMCBasicCircuit
-    amount: 2
-  - stack: RUMCInsulatedCable
-    amount: 2
 
 - type: craftRecipe
   id: RUMCCraftBuildGasTurbine
   name: au14-craft-recipe-buildgasturbine
   output: RUMCGasTurbine
   time: 25
+  minigames: [Center, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCMotor
+  - stack: RUMCKitDrive
     amount: 2
-  - stack: RUMCPump
+  - stack: RUMCKitHydraulics
     amount: 1
-  - stack: RUMCHeatingCoil
+  - stack: RUMCKitHeating
     amount: 1
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 1
-  - stack: RUMCInsulatedCable
-    amount: 4
+  - stack: RUMCKitWiring
+    amount: 1
   - stack: RUMCChromedSheet
     amount: 2
