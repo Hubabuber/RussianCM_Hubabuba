@@ -652,10 +652,11 @@
   name: au14-craft-recipe-cooking-pot
   output: RUMCCookingPot
   time: 8
+  minigames: [Rhythm]
   tools:
   - Hammering
   consumables:
-  - stack: RUMCIronSheet
+  - stack: CMSteel
     amount: 3
   - stack: RUMCIronRod
     amount: 1
@@ -665,10 +666,11 @@
   name: au14-craft-recipe-frying-pan
   output: RUMCFryingPan
   time: 8
+  minigames: [Rhythm, Polish]
   tools:
   - Hammering
   consumables:
-  - stack: RUMCIronSheet
+  - stack: CMSteel
     amount: 2
   - stack: RMCWood
     amount: 1
@@ -681,7 +683,7 @@
   tools:
   - Hammering
   consumables:
-  - stack: RUMCIronSheet
+  - stack: CMSteel
     amount: 2
 
 - type: craftRecipe
@@ -703,7 +705,7 @@
   tools:
   - Hammering
   consumables:
-  - stack: RUMCIronSheet
+  - stack: CMSteel
     amount: 1
 
 - type: craftRecipe
@@ -725,7 +727,7 @@
   tools:
   - Hammering
   consumables:
-  - stack: RUMCIronSheet
+  - stack: CMSteel
     amount: 1
 
 - type: craftRecipe
@@ -733,12 +735,13 @@
   name: au14-craft-recipe-stove-barrel
   output: RUMCStoveBarrel
   time: 14
+  minigames: [Rhythm, Hold]
   tools:
   - Hammering
   consumables:
   - stack: RMCWood
     amount: 6
-  - stack: RUMCIronSheet
+  - stack: CMSteel
     amount: 2
   - stack: RUMCIronRod
     amount: 2
@@ -748,14 +751,15 @@
   name: au14-craft-recipe-stove-wood
   output: RUMCStoveWood
   time: 20
+  minigames: [Rhythm, Hold]
   tools:
   - Hammering
   consumables:
-  - stack: RUMCIronSheet
+  - stack: CMSteel
     amount: 8
   - stack: RUMCIronRod
     amount: 4
-  - stack: RUMCIronBolt
+  - stack: RUMCKitFasteners
     amount: 4
 
 - type: craftRecipe
@@ -763,14 +767,15 @@
   name: au14-craft-recipe-stove-oven
   output: RUMCStoveOven
   time: 25
+  minigames: [Rhythm, Hold, Trace]
   tools:
   - Hammering
   consumables:
   - stack: RUMCMachineHull
     amount: 1
-  - stack: RUMCHeatingCoil
+  - stack: RUMCKitHeating
     amount: 2
-  - stack: RUMCBasicCircuit
+  - stack: RUMCKitSimpleCircuits
     amount: 1
-  - stack: RUMCInsulatedCable
-    amount: 3
+  - stack: RUMCKitWiring
+    amount: 1

@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // Copyright (c) 2026 wray-git
+using Content.Shared.Maps;
 using Content.Shared.Stacks;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -45,24 +46,11 @@ public sealed partial class OreDepositTablePrototype : IPrototype
     public Dictionary<ProtoId<StackPrototype>, float> Ores = new();
 }
 
-// The head of a drill: it wears out with every piece of ore the drill takes and breaks when it is gone.
-[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-public sealed partial class DrillHeadComponent : Component
-{
-    // How many turns of drilling the head lasts, new.
-    [DataField]
-    public int MaxDurability = 100;
-
-    [DataField, AutoNetworkedField]
-    public int Durability = 100;
-}
-
-// A drill: set on a deposit of ore, with a head in its head slot, it takes ore out of the deposit and puts it in its output
+// A drill: set on a deposit of ore, it takes ore out of the deposit and puts it in its output
 // slots. The steam drill runs on steam like the other steam machines, the electric one on power like the electric smelter.
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 public sealed partial class OreDrillComponent : Component
 {
-    public const string HeadSlotId = "head";
     public static readonly string[] OutputSlotIds = { "output1", "output2", "output3", "output4", "output5", "output6" };
 
     // Seconds of drilling for one turn, and the most ore one turn gives.
@@ -74,6 +62,11 @@ public sealed partial class OreDrillComponent : Component
 
     [DataField]
     public int MaxPerCycle = 10;
+
+    // The floor of a cave that the drill can bore even where there is no deposit: the tile of the floor and the fragments it gives. The
+    // rock of the floor does not run out, so the drill goes on until its head is worn out.
+    [DataField]
+    public Dictionary<ProtoId<ContentTileDefinition>, ProtoId<StackPrototype>> RockTiles = new();
 
     // Moles of water vapor used every second of work; zero for the drill that runs on the grid.
     [DataField]
