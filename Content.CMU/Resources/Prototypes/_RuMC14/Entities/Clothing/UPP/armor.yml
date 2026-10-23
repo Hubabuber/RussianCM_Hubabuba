@@ -16,34 +16,6 @@
     sprintModifier: 0.62
 
 - type: entity
-  parent: AU14UPPArmor
-  id: RuMCUPPArmorVDV
-  name: VDV standard armor vest
-  description: Standard-issue body armor for UPP Airborne Troops. Lightweight composite plates offer balanced protection without restricting movement. Designed for rapid deployment and urban combat.
-  components:
-  - type: Sprite
-    sprite: _RuMC14/Clothing/UPP/armor/VDV/armor.rsi
-  - type: CMArmor
-    melee: 25
-    bullet: 25
-    bio: 15
-    explosionArmor: 15
-
-- type: entity
-  parent: AU14UPPArmorMinimalistic
-  id: RuMCUPPArmorVDV_Light
-  name: VDV light armor vest
-  description: Lightweight armor vest for airborne scouts and forward observers. Prioritizes mobility over heavy protection. For those who jump first and ask questions later.
-  components:
-  - type: Sprite
-    sprite: _RuMC14/Clothing/UPP/armor/VDV/armor_light.rsi
-  - type: CMArmor
-    melee: 15
-    bullet: 20
-    bio: 15
-    explosionArmor: 15
-
-- type: entity
   parent: AU14UPPArmorMinimalistic
   id: RuMCUPPArmorPilot
   name: pilot armor vest
@@ -71,7 +43,76 @@
     bio: 15
     explosionArmor: 15
 
-# ------------------------------------------
+#Norcomm Liu
+
+- type: entity
+  parent: AU14UPPArmorBulky
+  id: RuMCUPPArmorNoLu_Heavy
+  name: Norcomm Liu heavy utility armor
+  description: Heavy-duty armored webbing for Norcomm Liu personnel. Reinforced plates protect against industrial hazards, shrapnel, and heavy machinery accidents. Built for workers in high-risk environments.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/NorcommLiu/armor/Pioner_Armor_Webbing.rsi
+  - type: CMArmor
+    melee: 10
+    bullet: 5
+    bio: 10
+    explosionArmor: 5
+
+- type: entity
+  parent: AU14UPPArmor
+  id: RuMCUPPArmorNoLu_Standard
+  name: Norcomm Liu utility armor
+  description: Standard protective armor for Norcomm Liu engineers and technicians. Lightweight plates offer basic protection without restricting movement, allowing workers to perform repairs and maintenance in the field.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/NorcommLiu/armor/Pioner_Armor.rsi
+  - type: CMArmor
+    melee: 10
+    bullet: 5
+    bio: 10
+    explosionArmor: 5
+
+#VDV
+
+- type: entity
+  parent: AU14UPPArmorBulky
+  id: RuMCUPPArmorVDV_Heavy
+  name: VDV heavy armor vest
+  description: Heavy assault armor for UPP Airborne Troops. Thick composite plates provide superior protection against shrapnel and heavy fire. Designed for breaching operations where survival is the only priority.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/armor/VDV/armor_heavy.rsi
+
+- type: entity
+  parent: AU14UPPArmor
+  id: RuMCUPPArmorVDV
+  name: VDV standard armor vest
+  description: Standard-issue body armor for UPP Airborne Troops. Lightweight composite plates offer balanced protection without restricting movement. Designed for rapid deployment and urban combat.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/armor/VDV/armor.rsi
+  - type: CMArmor
+    melee: 25
+    bullet: 25
+    bio: 15
+    explosionArmor: 15
+
+- type: entity
+  parent: AU14UPPArmorMinimalistic
+  id: RuMCUPPArmorVDV_Light
+  name: VDV light armor vest
+  description: Lightweight armor vest for airborne scouts and forward observers. Prioritizes mobility over heavy protection. For those who jump first and ask questions later.
+  components:
+  - type: Sprite
+    sprite: _RuMC14/Clothing/UPP/armor/VDV/armor_light.rsi
+  - type: CMArmor
+    melee: 15
+    bullet: 20
+    bio: 15
+    explosionArmor: 15
+
+#SOF
 
 - type: entity
   parent: AU14UPPArmor
