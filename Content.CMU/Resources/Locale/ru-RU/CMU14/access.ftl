@@ -22,3 +22,5 @@ cmu-access-opfor-pilot = Пилот Противоборствующих сил
 cmu-access-opfor-requisitions = Снабжение Противоборствующих сил
 cmu-access-opfor-vehicle-crew = Экипаж техники Противоборствующих сил
 cmu-access-staff-officer = Штабной офицер
+
+cmu-access-kitchen = Кухня

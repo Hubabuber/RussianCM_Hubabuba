@@ -43,9 +43,6 @@
     - cmu-callsign-preset-sunray
     - cmu-callsign-preset-overlord
     - cmu-callsign-preset-dustoff
-    dfReportFactions:
-    - OPFOR
-    - CLF
     # loaded by the panel's quick setup alongside the wearer's own squad net
     standardNets:
     - label: CMD
@@ -149,8 +146,6 @@
     - cmu-callsign-preset-anvil
     - cmu-callsign-preset-hammer
     - cmu-callsign-preset-relay
-    dfReportFactions:
-    - GOVFOR
     standardNets:
     - label: CMD
       channel: radioOpforCommand
@@ -178,8 +173,6 @@
     - cmu-callsign-preset-magpie
     - cmu-callsign-preset-longshot
     - cmu-callsign-preset-courier
-    dfReportFactions:
-    - GOVFOR
     standardNets:
     - label: CELL
       channel: radioCLF
@@ -288,8 +281,6 @@
     - cmu-callsign-preset-base
     - cmu-callsign-preset-firebrand
     - cmu-callsign-preset-magpie
-    dfReportFactions:
-    - GOVFOR
     # a fixed station on a long watch, not a manpack working the net: the old flat 1 charge a second
     # while relaying, so a high-capacity cell holds the safehouse for well over two hours
     idleChargePerSecond: 0.5
@@ -344,8 +335,6 @@
     operatorFaction: clf
     requiredSlot: none
     relayOnly: true
-    dfReportFactions:
-    - GOVFOR
     # a cache relay is left alone for hours and has no POWER SAVE to reach for. keep it on the
     # old flat rate, so a high-capacity cell lasts well over two hours
     idleChargePerSecond: 0.5

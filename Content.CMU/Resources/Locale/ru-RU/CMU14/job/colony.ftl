@@ -267,3 +267,12 @@ cmu14-job-prefix-lawyer = LAWR
 cmu14-job-name-ppo = ОЛО
 cmu14-job-description-ppo = Офицер личной охраны. Ваша задача — защищать VIP-персону.
 cmu14-job-prefix-ppo = PPO
+
+au14-job-name-civiliancmbdetective = Детектив Бюро колониальных маршалов
+
+au14-job-description-civiliancmbdetective = Вы — детектив Бюро колониальных маршалов. Изучайте места преступлений сканером и камерой, сверяйте улики с досье колонии и реестром оружия и собирайте доказательства для маршала и его помощников.
+
+au14-job-prefix-cmbdetective = ДЕТБКМ
+
+ent-AU14IDCardColonyCMBDetective = ID-карта детектива БКМ
+    .desc = Пластинка из кодированного прессованного стекловолокна. Используется для удостоверения личности и контроля доступа.

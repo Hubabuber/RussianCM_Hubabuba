@@ -54,3 +54,45 @@ cmu-situps-stop = Вы прекращаете делать подъёмы кор
     [many] повторов
    *[other] повторов
 }.
+
+cmu-pushups-dialog-title = Отжимания
+
+cmu-pushups-dialog-style = Как будете отжиматься?
+
+cmu-pushups-dialog-regular = Обычные отжимания
+
+cmu-pushups-dialog-knees = С колен
+
+cmu-pushups-dialog-keep-going = Руки отказывают. Продолжить с колен или закончить?
+
+cmu-pushups-dialog-keep-going-knees = Продолжить с колен
+
+cmu-pushups-dialog-finish = Закончить
+
+cmu-pushups-start = опускается на пол и начинает отжиматься.
+
+cmu-pushups-start-knees = встаёт на четвереньки и начинает отжиматься с колен.
+
+cmu-pushups-carry-on-knees = опускается на {POSS-ADJ($entity)} колени и продолжает отжиматься, больше не в силах выполнять обычные отжимания.
+
+cmu-kneepushups-count = выполняет {$count} {$count ->
+    [one] отжимание
+    [few] отжимания
+   *[other] отжиманий
+} с опорой на {POSS-ADJ($entity)} колени.
+
+cmu-kneepushups-fail-emote = падает, больше не в силах отжиматься с опорой на {POSS-ADJ($entity)} колени после {$count} {$count ->
+    [one] повторения
+   *[other] повторений
+}!
+
+cmu-kneepushups-fail = Сил больше нет! Вы выполнили {$count} {$count ->
+    [one] отжимание
+    [few] отжимания
+   *[other] отжиманий
+} с колен.
+
+cmu-kneepushups-stop = Вы прекращаете отжимания с колен после {$count} {$count ->
+    [one] повторения
+   *[other] повторений
+}.

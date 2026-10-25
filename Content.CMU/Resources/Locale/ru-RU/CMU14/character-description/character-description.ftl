@@ -55,3 +55,33 @@ faction-roster-console-colonist-job = Колонист
 faction-roster-console-count-tooltip = Количество личного состава, числящегося в базе данных.
 faction-roster-console-refresh-tooltip = Повторно запросить список, чтобы учесть прибывший или выбывший личный состав.
 faction-roster-console-entry-tooltip = Нажмите, чтобы открыть полное досье { $name }.
+
+faction-roster-dossier-print = ПЕЧАТЬ ЛИЧНОГО ДЕЛА
+
+faction-roster-print-name = личное дело ({$name})
+
+faction-roster-print-content = [head=2]ЛИЧНОЕ ДЕЛО[/head]
+    {"["}bold]{$name}[/bold], {$job}
+
+    Возраст: {$age}
+    Рост: {$height}
+    Вес: {$weight}
+    Телосложение: {$build}
+    Цвет кожи: {$skin}
+    Волосы: {$hair}
+    Глаза: {$eyes}
+    Лояльность: {$allegiance}
+    Происхождение: {$origin}
+    Религия: {$religion}
+
+    {"["}bold]Описание[/bold]
+    {$description}
+
+    {"["}bold]Медицинская карта[/bold]
+    {$medical}
+
+    {"["}bold]Уголовное досье[/bold]
+    {$criminal}
+
+    {"["}bold]Общие сведения[/bold]
+    {$general}

@@ -1,158 +1,158 @@
 <Document>
-  # Expert faceplate
+  # Расширенная панель
 
-  Press [bold]VIEW[/bold] at the top of the radio panel until it reads [bold]117G PANEL[/bold].
+  Нажимайте [bold]VIEW[/bold] вверху панели радиостанции, пока не появится [bold]117G PANEL[/bold].
 
-  The expert faceplate controls the same radio as the [textlink="guided panel" link="AU14CommsANPRCGuided"], but exposes settings and functions that the guided interface normally leaves on AUTO.
+  Расширенная панель управляет той же радиостанцией, что и [textlink="упрощённая панель" link="AU14CommsANPRCGuided"], но открывает настройки и функции, которые упрощённый интерфейс обычно оставляет в режиме AUTO.
 
-  Most functions are controlled through the display, keypad, soft keys, and function switch.
+  Большинство функций управляются через дисплей, клавиатуру, экранные клавиши и переключатель режимов.
 
-  ## Working the display
+  ## Работа с дисплеем
 
-  Each screen contains a list of settings, actions, and information.
+  Каждый экран содержит список настроек, действий и сведений.
 
-  Move the cursor to a usable line, then activate it.
+  Переместите курсор на доступную строку и активируйте её.
 
   <Table Columns="2" MinForcedColumnWidth="90">
-    <ColorBox Color="#263238"><Box Margin="4">[bold]Control[/bold]</Box></ColorBox>
-    <ColorBox Color="#263238"><Box Margin="4">[bold]Function[/bold]</Box></ColorBox>
+    <ColorBox Color="#263238"><Box Margin="4">[bold]Элемент управления[/bold]</Box></ColorBox>
+    <ColorBox Color="#263238"><Box Margin="4">[bold]Действие[/bold]</Box></ColorBox>
 
     <ColorBox><Box Margin="4">[bold]+ PRE / - PRE[/bold]</Box></ColorBox>
-    <ColorBox><Box Margin="4">Move the cursor up or down.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Переместить курсор вверх или вниз.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">[bold]ENT[/bold]</Box></ColorBox>
-    <ColorBox><Box Margin="4">Use the selected setting, action, or page.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Использовать выбранную настройку, действие или страницу.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">[bold]CLR[/bold]</Box></ColorBox>
-    <ColorBox><Box Margin="4">Return to the previous screen. While typing, delete one character.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Вернуться на предыдущий экран. При вводе — удалить один символ.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">[bold]+ PG / - PG[/bold]</Box></ColorBox>
-    <ColorBox><Box Margin="4">Move between main pages.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Переключить основную страницу.</Box></ColorBox>
 
-    <ColorBox><Box Margin="4">Soft keys</Box></ColorBox>
-    <ColorBox><Box Margin="4">Open PGM, SEC, SRCH, LOG, OPT, or the ? key card.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Экранные клавиши</Box></ColorBox>
+    <ColorBox><Box Margin="4">Открыть PGM, SEC, SRCH, LOG, OPT или памятку клавиш ?.</Box></ColorBox>
   </Table>
 
-  Bright lines can be selected.
+  Яркие строки можно выбирать.
 
-  Dim lines provide information and are skipped by the cursor.
+  Тусклые строки содержат сведения; курсор их пропускает.
 
-  A lit setting is currently enabled.
+  Подсвеченная настройка сейчас включена.
 
-  ### Confirming destructive actions
+  ### Подтверждение опасных действий
 
-  Some actions require confirmation, including:
+  Некоторые действия требуют подтверждения, в том числе:
 
   - ZEROIZE
   - DESTROY
   - RECRYPTO
   - SEND KEY OTA
 
-  Press [bold]ENT[/bold] once to arm the action, then press it again to confirm.
+  Нажмите [bold]ENT[/bold] один раз, чтобы подготовить действие, и ещё раз для подтверждения.
 
-  Armed actions cancel automatically after a short delay.
+  Подготовленные действия автоматически отменяются через короткое время.
 
-  ## Keypad
+  ## Клавиатура
 
-  When the radio is not accepting text or numbers, the number keys act as shortcuts.
+  Когда радиостанция не принимает текст или числа, цифровые клавиши служат быстрыми командами.
 
   <Table Columns="2" MinForcedColumnWidth="90">
-    <ColorBox Color="#263238"><Box Margin="4">[bold]Key[/bold]</Box></ColorBox>
-    <ColorBox Color="#263238"><Box Margin="4">[bold]Function[/bold]</Box></ColorBox>
+    <ColorBox Color="#263238"><Box Margin="4">[bold]Клавиша[/bold]</Box></ColorBox>
+    <ColorBox Color="#263238"><Box Margin="4">[bold]Действие[/bold]</Box></ColorBox>
 
     <ColorBox><Box Margin="4">1 CALL</Box></ColorBox>
-    <ColorBox><Box Margin="4">Send a radio check on the working net.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Отправить проверку связи в рабочую сеть.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">2 LT</Box></ColorBox>
-    <ColorBox><Box Margin="4">Cycle the display backlight.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Переключить подсветку дисплея.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">3 MODE</Box></ColorBox>
-    <ColorBox><Box Margin="4">Cycle the waveform.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Переключить форму сигнала.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">4 SQL</Box></ColorBox>
-    <ColorBox><Box Margin="4">Cycle squelch.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Переключить шумоподавление.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">5 ZERO</Box></ColorBox>
-    <ColorBox><Box Margin="4">Open SEC with ZEROIZE armed.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Открыть SEC с подготовленной командой ZEROIZE.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">6 PWR</Box></ColorBox>
-    <ColorBox><Box Margin="4">Switch the radio on or off.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Включить или выключить радиостанцию.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">7</Box></ColorBox>
-    <ColorBox><Box Margin="4">Open OPT.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Открыть OPT.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">8</Box></ColorBox>
-    <ColorBox><Box Margin="4">Open PGM.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Открыть PGM.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">9</Box></ColorBox>
-    <ColorBox><Box Margin="4">Open SEC.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Открыть SEC.</Box></ColorBox>
 
     <ColorBox><Box Margin="4">0</Box></ColorBox>
-    <ColorBox><Box Margin="4">Open LOG.</Box></ColorBox>
+    <ColorBox><Box Margin="4">Открыть LOG.</Box></ColorBox>
   </Table>
 
-  ### Entering values
+  ### Ввод значений
 
-  Some settings require direct input, including:
+  Некоторые настройки требуют прямого ввода, в том числе:
 
-  - frequencies
-  - memory labels
-  - station callsigns
-  - trial keys
+  - частоты
+  - названия ячеек памяти
+  - позывные станций
+  - пробные ключи
 
-  While entering a value:
+  При вводе значения:
 
-  - [bold]ENT[/bold] confirms the input
-  - [bold]CLR[/bold] deletes the previous character
-  - pressing [bold]CLR[/bold] on an empty field cancels the input
+  - [bold]ENT[/bold] подтверждает ввод
+  - [bold]CLR[/bold] удаляет предыдущий символ
+  - нажатие [bold]CLR[/bold] в пустом поле отменяет ввод
 
-  [bold]Frequencies[/bold] use the [bold]___.___[/bold] format.
+  [bold]Частоты[/bold] вводятся в формате [bold]___.___[/bold].
 
-  Enter the megahertz digits first. Untouched digits are treated as zero. At least three digits must be entered.
+  Сначала введите цифры мегагерц. Нетронутые цифры считаются нулями. Необходимо ввести не менее трёх цифр.
 
-  [bold]Text[/bold] uses the letters assigned to each number key like a telephone keypad.
+  [bold]Текст[/bold] вводится буквами на цифровых клавишах, как на телефонной клавиатуре.
 
-  Press a key repeatedly to cycle through its letters.
+  Повторно нажимайте клавишу, чтобы перебрать назначенные ей буквы.
 
-  [bold]0[/bold] enters a space, then a dash.
+  [bold]0[/bold] вводит пробел, затем дефис.
 
-  ## Function switch
+  ## Переключатель режимов
 
-  The rotary switch controls the radio's basic operating state.
+  Поворотный переключатель задаёт основное рабочее состояние радиостанции.
 
-  - [bold]OFF[/bold] - switches the radio off
-  - [bold]CT[/bold] - switches the radio on securely; selecting CT again cycles FH, SC, and CT
-  - [bold]PT[/bold] - switches to unencrypted plain-text transmission
-  - [bold]LD[/bold] - opens the fill page
-  - [bold]Z[/bold] - arms ZEROIZE
+  - [bold]OFF[/bold] — выключает радиостанцию
+  - [bold]CT[/bold] — включает радиостанцию в защищённом режиме; повторный выбор CT переключает FH, SC и CT
+  - [bold]PT[/bold] — включает незашифрованную передачу открытым текстом
+  - [bold]LD[/bold] — открывает страницу карты ключей
+  - [bold]Z[/bold] — подготавливает ZEROIZE
 
-  [bold]LD[/bold] and [bold]Z[/bold] are sprung positions and return to the previous switch position after use.
+  Положения [bold]LD[/bold] и [bold]Z[/bold] подпружинены: после использования переключатель возвращается в предыдущее положение.
 
-  They do not change the active waveform.
+  Они не меняют активную форму сигнала.
 
-  ## Display readout
+  ## Показания дисплея
 
-  The top of the display remains visible across all faceplate pages.
+  Верхняя часть дисплея видна на всех страницах расширенной панели.
 
-  It shows:
+  На ней отображаются:
 
-  - [bold]RX / TX[/bold] - whether the radio is receiving or transmitting
-  - [bold]SEC / UNSEC / CLEAR[/bold] - current encryption state
-  - [bold]SIG[/bold] - working-net link quality
-  - [bold]--DIR--[/bold] - shown instead of SIG when using a direct frequency
-  - [bold]BAT[/bold] - remaining battery in four bars
-  - current memory
-  - frequency
-  - net name
-  - operating band
-  - waveform
-  - squelch
-  - output power
-  - active feature flags
-  - [bold]STN[/bold] - transmitting callsign
-  - [bold]BIT[/bold] - self-test status
+  - [bold]RX / TX[/bold] — приём или передача
+  - [bold]SEC / UNSEC / CLEAR[/bold] — текущее состояние шифрования
+  - [bold]SIG[/bold] — качество связи с рабочей сетью
+  - [bold]--DIR--[/bold] — отображается вместо SIG на прямой частоте
+  - [bold]BAT[/bold] — заряд аккумулятора в четырёх делениях
+  - текущая ячейка памяти
+  - частота
+  - название сети
+  - рабочий диапазон
+  - форма сигнала
+  - шумоподавление
+  - мощность передатчика
+  - отметки активных функций
+  - [bold]STN[/bold] — позывной передатчика
+  - [bold]BIT[/bold] — состояние самопроверки
 
-  Active feature flags can include:
+  Среди отметок активных функций могут быть:
 
   - MON
   - SCAN
@@ -162,9 +162,9 @@
   - EMCON
   - RXMT
 
-  [bold]BIT[/bold] normally shows [bold]PASS[/bold].
+  Обычно [bold]BIT[/bold] показывает [bold]PASS[/bold].
 
-  If the radio cannot operate normally, it displays the first detected problem, such as:
+  Если радиостанция не может работать нормально, отображается первая обнаруженная проблема, например:
 
   - NO CELL
   - OFF
@@ -172,224 +172,224 @@
   - SRCH
   - NO NET
 
-  ## PGM - net memory
+  ## PGM — память сетей
 
-  PGM manages the radio's memories.
+  PGM управляет ячейками памяти радиостанции.
 
-  [bold]LOAD STD NETS[/bold] loads missing standard nets without replacing manually configured memories.
+  [bold]LOAD STD NETS[/bold] загружает недостающие стандартные сети, не заменяя настроенные вручную ячейки.
 
-  Each memory appears as a separate line.
+  Каждая ячейка отображается отдельной строкой.
 
-  A [bold]*[/bold] marks the current working memory.
+  Знаком [bold]*[/bold] отмечена текущая рабочая ячейка.
 
-  Select a memory and press [bold]ENT[/bold] to open its options.
+  Выберите ячейку и нажмите [bold]ENT[/bold], чтобы открыть её параметры.
 
-  Available actions include:
+  Доступные действия:
 
-  - [bold]WORK THIS NET[/bold] - make the memory the working net
-  - [bold]TUNE TO A NET[/bold] - select a known friendly net or resolved intercepted net
-  - [bold]KEY A FREQUENCY[/bold] - enter a frequency manually
-  - [bold]EMPTY THE MEMORY[/bold] - remove the memory's current contents
-  - [bold]DELETE THE MEMORY[/bold] - remove the memory slot
-  - [bold]RENAME[/bold] - change the memory label
+  - [bold]WORK THIS NET[/bold] — сделать ячейку рабочей сетью
+  - [bold]TUNE TO A NET[/bold] — выбрать известную дружественную сеть или определённую перехваченную сеть
+  - [bold]KEY A FREQUENCY[/bold] — ввести частоту вручную
+  - [bold]EMPTY THE MEMORY[/bold] — очистить содержимое ячейки
+  - [bold]DELETE THE MEMORY[/bold] — удалить ячейку
+  - [bold]RENAME[/bold] — переименовать ячейку
 
-  [bold]ADD NET[/bold] creates another memory and prompts for a label.
+  [bold]ADD NET[/bold] создаёт ещё одну ячейку и запрашивает её название.
 
-  ### Direct frequencies
+  ### Прямые частоты
 
-  If a manually entered frequency matches a known net, that net is loaded normally.
+  Если введённая вручную частота совпадает с известной сетью, загружается эта сеть.
 
-  Otherwise, it becomes a [bold]direct frequency[/bold].
+  Иначе она становится [bold]прямой частотой[/bold].
 
-  Direct frequencies are:
+  Прямые частоты:
 
-  - unrelayed
-  - unencrypted
-  - usable only by radios or tuned headsets on the same frequency
+  - не ретранслируются
+  - не шифруются
+  - доступны только радиостанциям и настраиваемым гарнитурам на той же частоте
 
-  Valid direct frequencies must fall within:
+  Допустимые прямые частоты находятся в пределах:
 
-  - 1.000-2.999 MHz military band
-  - 30.000+ MHz colony softwave band
+  - военного диапазона 1.000–2.999 МГц
+  - колониального диапазона мягких волн от 30.000 МГц
 
-  ## SEC - COMSEC
+  ## SEC — COMSEC
 
-  SEC manages encryption and fill cards.
+  SEC управляет шифрованием и картами ключей.
 
-  It displays:
+  На странице отображаются:
 
-  - [bold]SWITCH[/bold] - current function-switch position
-  - [bold]FILL[/bold] - installed fill card
-  - [bold]ISSUED TO[/bold] - faction associated with the fill
-  - [bold]TRAFFIC[/bold] - whether transmissions are currently encrypted
+  - [bold]SWITCH[/bold] — текущее положение переключателя режимов
+  - [bold]FILL[/bold] — установленная карта ключей
+  - [bold]ISSUED TO[/bold] — фракция, связанная с картой
+  - [bold]TRAFFIC[/bold] — шифруются ли передачи
 
-  Available actions include:
+  Доступные действия:
 
-  - [bold]ZEROIZE[/bold] - eject the fill card
-  - [bold]DESTROY[/bold] - destroy the installed fill card
-  - [bold]RECRYPTO[/bold] - replace your faction's current encryption key
-  - [bold]SEND KEY OTA[/bold] - distribute the current key over the air
+  - [bold]ZEROIZE[/bold] — извлечь карту ключей
+  - [bold]DESTROY[/bold] — уничтожить установленную карту ключей
+  - [bold]RECRYPTO[/bold] — заменить текущий ключ шифрования вашей фракции
+  - [bold]SEND KEY OTA[/bold] — распространить текущий ключ по радио
 
-  [bold]RECRYPTO[/bold] requires command authority.
+  Для [bold]RECRYPTO[/bold] нужны командные полномочия.
 
-  ZEROIZE, DESTROY, RECRYPTO, and SEND KEY OTA require confirmation.
+  ZEROIZE, DESTROY, RECRYPTO и SEND KEY OTA требуют подтверждения.
 
-  ## SRCH - search receiver
+  ## SRCH — поисковый приёмник
 
-  The search receiver scans for hostile radio traffic.
+  Поисковый приёмник сканирует вражеские радиопереговоры.
 
-  [bold]START SEARCH[/bold] begins sweeping the band.
+  [bold]START SEARCH[/bold] запускает сканирование диапазона.
 
-  While searching, the radio:
+  Во время поиска радиостанция:
 
-  - leaves all loaded nets
-  - cannot transmit
-  - consumes additional power
+  - покидает все загруженные сети
+  - не может передавать
+  - расходует дополнительную энергию
 
-  The SRCH page includes:
+  Страница SRCH содержит:
 
-  - [bold]HEAD[/bold] - current search frequency
-  - [bold]CONTACTS[/bold] - detected signals
-  - [bold]KEY ANALYSIS[/bold] - cryptographic analysis for factions with fixed nets
-  - [bold]JAMMER DF[/bold] - jammer direction-finding tools
+  - [bold]HEAD[/bold] — текущая частота поиска
+  - [bold]CONTACTS[/bold] — обнаруженные сигналы
+  - [bold]KEY ANALYSIS[/bold] — криптоанализ для фракций с постоянными сетями
+  - [bold]JAMMER DF[/bold] — средства пеленгации подавителей
 
-  ### Resolving contacts
+  ### Определение контактов
 
-  Contacts become more precise as the radio observes additional transmissions.
+  По мере наблюдения новых передач сведения о контакте становятся точнее.
 
-  A signal may appear as:
+  Сигнал может отображаться как:
 
   [bold]2XX.XXX[/bold]
 
-  then:
+  затем:
 
   [bold]25X.XXX[/bold]
 
-  then:
+  затем:
 
   [bold]259.XXX[/bold]
 
-  before resolving to its exact frequency and net.
+  пока не определятся его точная частота и сеть.
 
-  Each new transmission contributes once toward identifying the contact.
+  Каждая новая передача один раз продвигает определение контакта.
 
-  A net transmitting approximately once per minute requires around three transmissions to resolve.
+  Для определения сети с передачей примерно раз в минуту нужно около трёх передач.
 
-  A busy net transmitting less than 20 seconds apart can resolve in roughly one minute.
+  Оживлённая сеть с интервалами менее 20 секунд определяется примерно за минуту.
 
-  Partial contacts retain their progress while transmissions continue.
+  Прогресс частично определённых контактов сохраняется, пока идут передачи.
 
-  Progress begins to decay after approximately two minutes without traffic.
+  Примерно через две минуты без переговоров прогресс начинает снижаться.
 
-  ### Search range
+  ### Дальность поиска
 
-  At MED output, transmitters can be detected within approximately 120 tiles.
+  При мощности MED передатчики обнаруживаются примерно в пределах 120 тайлов.
 
-  HI increases this range by approximately 50%.
+  HI увеличивает эту дальность примерно на 50%.
 
-  LO reduces the range to approximately 70 tiles.
+  LO сокращает дальность примерно до 70 тайлов.
 
-  Once a net is resolved, detectable transmissions on it can provide:
+  После определения сети обнаруживаемые передачи в ней могут дать:
 
-  - a bearing toward the transmitter
-  - approximate distance
-  - a temporary tactical-map marker
-  - one trial toward key analysis
+  - направление на передатчик по восьми румбам и приблизительную дальность, не чаще раза в 30 секунд на сеть
+  - одну попытку анализа ключа
 
-  Secured SC and CT transmissions do not provide bearings.
+  Пеленг дают только носимые радиостанции. Зашифрованные SC и CT, BURST и обычные гарнитуры его не дают.
 
-  Select a [bold]resolved[/bold] contact and press ENT to tune it into the working memory.
+  Пеленги появляются только в чате. Найдите пересечение двух пеленгов, снятых с разных точек, чтобы определить позицию говорящего.
 
-  Select a [bold]partial[/bold] contact and press ENT to begin [bold]Dwell[/bold].
+  Выберите [bold]определённый[/bold] контакт и нажмите ENT, чтобы загрузить его в рабочую ячейку.
 
-  ## LOG
+  Выберите [bold]частично определённый[/bold] контакт и нажмите ENT, чтобы начать [bold]фиксацию приёмника[/bold].
 
-  LOG displays recorded radio traffic.
+  ## LOG — журнал
 
-  [bold]NET FILTER[/bold] cycles between nets represented in the log.
+  LOG показывает записанные радиопереговоры.
 
-  [bold]INTERCEPTS ONLY[/bold] hides friendly traffic.
+  [bold]NET FILTER[/bold] переключает сети, представленные в журнале.
 
-  Available print functions are:
+  [bold]INTERCEPTS ONLY[/bold] скрывает дружественные переговоры.
 
-  - [bold]PRINT LOG[/bold] - prints all recorded traffic
-  - [bold]PRINT INTERCEPTS[/bold] - prints only intercepted traffic
+  Доступные функции печати:
 
-  Each traffic entry shows:
+  - [bold]PRINT LOG[/bold] — печать всех записанных переговоров
+  - [bold]PRINT INTERCEPTS[/bold] — печать только перехваченных переговоров
 
-  - time
-  - sender
-  - net
-  - message
+  Каждая запись содержит:
 
-  ## OPT - configuration
+  - время
+  - отправителя
+  - сеть
+  - сообщение
 
-  OPT contains the radio's operating settings.
+  ## OPT — настройки
 
-  Press [bold]ENT[/bold] on most lines to cycle through available values.
+  OPT содержит рабочие настройки радиостанции.
 
-  ### MODE
+  На большинстве строк нажатие [bold]ENT[/bold] перебирает доступные значения.
 
-  [bold]MODE[/bold] selects:
+  ### MODE — форма сигнала
+
+  [bold]MODE[/bold] выбирает:
 
   - FREQ HOP
   - SINGLE CH
   - CIPHER
   - PLAIN
 
-  See [textlink="the AN/PRC-117G" link="AU14CommsANPRC"] for waveform details.
+  Подробности о формах сигнала см. в [textlink="руководстве AN/PRC-117G" link="AU14CommsANPRC"].
 
-  ### MONITOR and SCAN
+  ### MONITOR и SCAN
 
-  [bold]MONITOR[/bold] and [bold]SCAN[/bold] provide the same functions available through the guided interface.
+  [bold]MONITOR[/bold] и [bold]SCAN[/bold] выполняют те же функции, что и в упрощённом интерфейсе.
 
-  ### SQUELCH
+  ### SQUELCH — шумоподавление
 
-  [bold]SQUELCH[/bold] ranges from 0 to 4.
+  [bold]SQUELCH[/bold] задаётся от 0 до 4.
 
-  Higher values suppress more static and degraded traffic.
+  Более высокие значения подавляют больше шума и искажённых переговоров.
 
-  Setting 4 can also suppress weak relay traffic.
+  Значение 4 также может подавлять слабые ретранслируемые передачи.
 
-  The standard setting is 3.
+  Стандартное значение — 3.
 
-  ### OUTPUT
+  ### OUTPUT — мощность
 
-  [bold]OUTPUT[/bold] selects LO, MED, or HI power.
+  [bold]OUTPUT[/bold] выбирает мощность LO, MED или HI.
 
   <Table Columns="4" MinForcedColumnWidth="75">
-    <ColorBox Color="#263238"><Box Margin="4">[bold]Power[/bold]</Box></ColorBox>
-    <ColorBox Color="#263238"><Box Margin="4">[bold]Relay range[/bold]</Box></ColorBox>
-    <ColorBox Color="#263238"><Box Margin="4">[bold]Battery use[/bold]</Box></ColorBox>
-    <ColorBox Color="#263238"><Box Margin="4">[bold]DF chance[/bold]</Box></ColorBox>
+    <ColorBox Color="#263238"><Box Margin="4">[bold]Мощность[/bold]</Box></ColorBox>
+    <ColorBox Color="#263238"><Box Margin="4">[bold]Дальность ретрансляции[/bold]</Box></ColorBox>
+    <ColorBox Color="#263238"><Box Margin="4">[bold]Расход аккумулятора[/bold]</Box></ColorBox>
+    <ColorBox Color="#263238"><Box Margin="4">[bold]Слышимость для вражеского поиска[/bold]</Box></ColorBox>
 
     <ColorBox><Box Margin="4">LO</Box></ColorBox>
     <ColorBox><Box Margin="4">60%</Box></ColorBox>
-    <ColorBox><Box Margin="4">Half</Box></ColorBox>
-    <ColorBox><Box Margin="4">Half</Box></ColorBox>
+    <ColorBox><Box Margin="4">Половинный</Box></ColorBox>
+    <ColorBox><Box Margin="4">60%</Box></ColorBox>
 
     <ColorBox><Box Margin="4">MED</Box></ColorBox>
     <ColorBox><Box Margin="4">100%</Box></ColorBox>
-    <ColorBox><Box Margin="4">Standard</Box></ColorBox>
-    <ColorBox><Box Margin="4">Standard</Box></ColorBox>
+    <ColorBox><Box Margin="4">Обычный</Box></ColorBox>
+    <ColorBox><Box Margin="4">100%</Box></ColorBox>
 
     <ColorBox><Box Margin="4">HI</Box></ColorBox>
     <ColorBox><Box Margin="4">150%</Box></ColorBox>
-    <ColorBox><Box Margin="4">Double</Box></ColorBox>
-    <ColorBox><Box Margin="4">Double</Box></ColorBox>
+    <ColorBox><Box Margin="4">Двойной</Box></ColorBox>
+    <ColorBox><Box Margin="4">150%</Box></ColorBox>
   </Table>
 
-  ### BACKLIGHT
+  ### BACKLIGHT — подсветка
 
-  [bold]BACKLIGHT[/bold] cycles between:
+  [bold]BACKLIGHT[/bold] переключает:
 
-  - night
-  - day
-  - off
+  - ночную подсветку
+  - дневную подсветку
+  - выключенную подсветку
 
-  ### TECHNIQUES
+  ### TECHNIQUES — приёмы работы
 
-  [bold]TECHNIQUES[/bold] opens advanced operator functions:
+  [bold]TECHNIQUES[/bold] открывает дополнительные функции оператора:
 
   - BURST TX
   - POWER SAVE
@@ -397,303 +397,302 @@
   - EMCON
   - STAKED SET
 
-  These functions are explained below.
+  Эти функции описаны ниже.
 
-  ### STATION
+  ### STATION — станция
 
-  [bold]STATION[/bold] controls the identity used by the radio and provides several utility functions.
+  [bold]STATION[/bold] задаёт обозначение радиостанции и предоставляет несколько вспомогательных функций.
 
-  - [bold]CALLSIGN[/bold] - assign a fixed station callsign of up to 16 characters
-  - [bold]CLEAR OVERRIDE[/bold] - return to the current wearer's callsign
-  - [bold]ROSTER[/bold] - select a standard station name
-  - [bold]NET DIRECTORY[/bold] - open the communications directory
-  - [bold]PHONE[/bold] - open the field telephone
-  - [bold]RADIO CHECK[/bold] - transmit a radio check
+  - [bold]CALLSIGN[/bold] — назначить постоянный позывной станции до 16 символов
+  - [bold]CLEAR OVERRIDE[/bold] — вернуться к позывному текущего владельца
+  - [bold]ROSTER[/bold] — выбрать стандартное название станции
+  - [bold]NET DIRECTORY[/bold] — открыть справочник связи
+  - [bold]PHONE[/bold] — открыть полевой телефон
+  - [bold]RADIO CHECK[/bold] — передать проверку связи
 
-  Fixed callsigns are useful for command posts and staked radios.
+  Постоянные позывные полезны для командных пунктов и развёрнутых радиостанций.
 
-  ### SET STATUS
+  ### SET STATUS — состояние станции
 
-  [bold]SET STATUS[/bold] displays:
+  [bold]SET STATUS[/bold] показывает:
 
-  - whether the radio is worn or staked
-  - installed antenna
-  - relayed nets
-  - relay coverage
-  - whether audio is using the headset or handset
+  - надета радиостанция или развёрнута
+  - установленную антенну
+  - ретранслируемые сети
+  - покрытие ретрансляции
+  - используется гарнитура или трубка
 
-  ### LINK
+  ### LINK — соединение
 
-  [bold]LINK[/bold] provides detailed connection information.
+  [bold]LINK[/bold] предоставляет подробные сведения о соединении.
 
-  - [bold]QUALITY[/bold] - link quality percentage
-  - [bold]VIA[/bold] - relay carrying the signal, including bearing and distance
-  - [bold]DRAW[/bold] - current battery drain per second
-  - [bold]ENDURANCE[/bold] - estimated remaining operating time
+  - [bold]QUALITY[/bold] — качество связи в процентах
+  - [bold]VIA[/bold] — ретранслятор сигнала, включая направление и расстояние
+  - [bold]DRAW[/bold] — текущий расход аккумулятора в секунду
+  - [bold]ENDURANCE[/bold] — оставшееся расчётное время работы
 
-  ## Advanced operator functions
+  ## Дополнительные функции оператора
 
-  These functions are not required for normal radio operation.
+  Эти функции не обязательны для обычной работы с радиостанцией.
 
-  They modify range, battery use, emissions, or radio behavior for specific situations.
+  Они изменяют дальность, расход аккумулятора, излучение или поведение радиостанции в отдельных ситуациях.
 
-  ### Burst transmission
+  ### Пакетная передача
 
   [bold]OPT > TECHNIQUES > BURST TX[/bold]
 
-  Burst transmission compresses each message before sending it.
+  Пакетная передача сжимает каждое сообщение перед отправкой.
 
-  While enabled:
+  Пока она включена:
 
-  - transmission battery cost is reduced by 30%
-  - direction-finding chance is reduced by 50%
-  - message contents are unchanged
+  - расход аккумулятора на передачу ниже на 30%
+  - вражеская радиопеленгация не получает пеленга
+  - содержимое сообщения не меняется
 
-  Burst can be combined with other radio settings.
+  Пакетную передачу можно сочетать с другими настройками.
 
-  ### Power save
+  ### Энергосбережение
 
   [bold]OPT > TECHNIQUES > POWER SAVE[/bold]
 
-  Power save allows the receiver to sleep between messages.
+  Энергосбережение позволяет приёмнику спать между сообщениями.
 
-  Idle battery consumption is reduced by 40%.
+  Расход аккумулятора в ожидании ниже на 40%.
 
-  While active:
+  Пока режим активен:
 
-  - SCAN is disabled
-  - PRIORITY WATCH is disabled
+  - SCAN отключён
+  - PRIORITY WATCH отключён
 
-  Enabling SCAN or PRIORITY WATCH disables power save.
+  Включение SCAN или PRIORITY WATCH отключает энергосбережение.
 
-  ### Priority watch
+  ### Приоритетное прослушивание
 
   [bold]OPT > TECHNIQUES > PRIORITY WATCH[/bold]
 
-  Priority watch monitors one additional loaded memory while keeping the current working memory unchanged.
+  Приоритетное прослушивание наблюдает за ещё одной загруженной ячейкой, не меняя текущую рабочую.
 
-  Incoming traffic from the watched memory can be heard, but transmissions continue through the ON AIR memory.
+  Переговоры из наблюдаемой ячейки слышны, но передачи продолжаются через ячейку В ЭФИРЕ.
 
-  Unlike SCAN, priority watch does not automatically change the working memory.
+  В отличие от SCAN, приоритетное прослушивание не переключает рабочую ячейку автоматически.
 
-  ### EMCON
+  ### EMCON — радиомолчание
 
   [bold]OPT > TECHNIQUES > EMCON[/bold]
 
-  EMCON places the radio into a receive-only emissions-control state.
+  EMCON переводит радиостанцию в режим контроля излучения, только на приём.
 
-  While active, the radio performs no:
+  Пока он активен, радиостанция не выполняет:
 
-  - transmissions
-  - relay traffic
-  - telephone traffic
+  - передачу
+  - ретрансляцию
+  - телефонные переговоры
 
-  Because the radio does not transmit, it produces no direction-finding signature.
+  Поскольку радиостанция не передаёт, пеленговать нечего.
 
-  The radio continues to:
+  Радиостанция продолжает:
 
-  - receive traffic on its working net
-  - record received traffic
+  - принимать переговоры в рабочей сети
+  - записывать принятые переговоры
 
-  Idle battery draw is reduced to one quarter of normal.
+  Расход аккумулятора в ожидании снижен до четверти обычного.
 
-  [bold]An AN/PRC in EMCON provides no relay coverage.[/bold]
+  [bold]AN/PRC в режиме EMCON не обеспечивает ретрансляционное покрытие.[/bold]
 
-  Headsets relying on that radio for relay access will lose their combat nets.
+  Гарнитуры, использующие эту радиостанцию для ретрансляции, потеряют доступ к боевым сетям.
 
-  ### Retransmission bridge
+  ### Мост ретрансляции
 
   [bold]OPT > TECHNIQUES > STAKED SET[/bold]
 
-  This function is available while the radio is staked down.
+  Эта функция доступна, когда радиостанция развёрнута.
 
-  Select:
+  Выберите:
 
   - [bold]SIDE A[/bold]
   - [bold]SIDE B[/bold]
 
-  Each side must contain a named net loaded into one of the radio's memories.
+  Для каждой стороны нужна именованная сеть, загруженная в одну из ячеек памяти радиостанции.
 
-  Select [bold]BRIDGE[/bold] to connect them.
+  Выберите [bold]BRIDGE[/bold], чтобы соединить их.
 
-  Traffic received on either net is retransmitted onto the other.
+  Передачи, принятые в любой из сетей, ретранслируются в другую.
 
-  Retransmitted messages preserve the original speaker and are marked [bold][RXMT][/bold].
+  Ретранслируемые сообщения сохраняют исходного говорящего и отмечаются [bold][RXMT][/bold].
 
-  For example:
+  Например:
 
-  [bold][RXMT] SABRE 1-1: contact north[/bold]
+  [bold][RXMT] SABRE 1-1: контакт на севере[/bold]
 
-  Retransmissions:
+  Ретранслируемые сообщения:
 
-  - consume battery
-  - can produce a direction-finding signature
-  - cannot be retransmitted again
+  - расходуют аккумулятор
+  - могут дать пеленг противнику, определившему сеть
+  - не могут ретранслироваться повторно
 
-  This prevents bridged radios from creating retransmission loops.
+  Это предотвращает образование циклов ретрансляции между соединёнными радиостанциями.
 
-  Packing up the radio immediately ends the bridge.
+  Сворачивание радиостанции немедленно разрывает мост.
 
-  ### Peak the antenna
+  ### Точная настройка антенны
 
   [bold]OPT > TECHNIQUES > STAKED SET > PEAK THE ANTENNA[/bold]
 
-  Peaking the antenna takes approximately 15 seconds.
+  Точная настройка антенны занимает примерно 15 секунд.
 
-  The radio must remain stationary while the antenna is tuned.
+  Во время настройки радиостанция должна оставаться неподвижной.
 
-  Once complete, relay range increases by 25%.
+  После завершения дальность ретрансляции увеличивается на 25%.
 
-  The bonus remains until the radio is packed up.
+  Бонус сохраняется до сворачивания радиостанции.
 
-  ### Over-the-air rekey
+  ### Обновление ключа по радио
 
   [bold]SEC > SEND KEY OTA[/bold]
 
-  After a recrypto, radios containing old fill cards have an outdated key.
+  После смены шифрования радиостанции со старыми картами содержат устаревший ключ.
 
-  An operator with the current key can distribute it over the air.
+  Оператор с текущим ключом может распространить его по радио.
 
-  The display shows how many outdated friendly radios are currently reachable.
+  Дисплей показывает число доступных дружественных радиостанций с устаревшим ключом.
 
-  Press [bold]ENT[/bold] once to arm the transmission, then again to send it.
+  Нажмите [bold]ENT[/bold] один раз для подготовки передачи и ещё раз для отправки.
 
-  The new key reaches friendly radios that are:
+  Новый ключ получают дружественные радиостанции, которые:
 
-  - switched on
-  - worn or staked
-  - within approximately 45 tiles
+  - включены
+  - надеты или развёрнуты
+  - находятся примерно в пределах 45 тайлов
 
-  Radios can also receive the key at greater distances if both sets are connected through the faction's command-net relay network.
+  Радиостанции могут получить ключ и с большего расстояния, если обе подключены через ретрансляционную сеть командного канала фракции.
 
-  Sending a key:
+  Отправка ключа:
 
-  - consumes a large amount of battery
-  - can produce a direction-finding signature
-  - has a 30-second cooldown
+  - расходует много энергии
+  - имеет перезарядку 30 секунд
 
-  [bold]Captured radios containing one of your faction's fill cards are still treated as friendly sets.[/bold]
+  [bold]Захваченные радиостанции с картой ключей вашей фракции по-прежнему считаются дружественными.[/bold]
 
-  If one is reachable, it also receives the new key.
+  Если такая станция доступна, она тоже получит новый ключ.
 
-  Invalidate compromised keys before distributing a replacement whenever possible.
+  По возможности аннулируйте скомпрометированные ключи до распространения замены.
 
-  ### Dwell
+  ### Фиксация приёмника
 
-  Dwell operates while the search receiver is active.
+  Фиксация работает при активном поисковом приёмнике.
 
-  On the [bold]SRCH[/bold] page, select a partial contact and press [bold]ENT[/bold].
+  На странице [bold]SRCH[/bold] выберите частично определённый контакт и нажмите [bold]ENT[/bold].
 
-  The search head stops sweeping and remains on that contact.
+  Поисковый приёмник прекращает сканирование и остаётся на этом контакте.
 
-  While dwelling:
+  Во время фиксации:
 
-  - each new transmission counts twice toward resolving the contact
-  - all other frequencies are ignored
+  - каждая новая передача вдвое сильнее продвигает определение контакта
+  - все остальные частоты игнорируются
 
-  Select [bold]RELEASE THE HEAD[/bold] to resume normal searching.
+  Выберите [bold]RELEASE THE HEAD[/bold], чтобы возобновить обычный поиск.
 
-  The search automatically resumes when the contact fully resolves.
+  Когда контакт полностью определён, поиск возобновляется автоматически.
 
-  ### Key analysis
+  ### Анализ ключа
 
-  Key analysis can recover the encryption key of a resolved hostile faction net.
+  Анализ позволяет восстановить ключ шифрования определённой вражеской сети фракции.
 
-  Enemy keys contain six different symbols from [bold]A[/bold] through [bold]H[/bold].
+  Вражеские ключи состоят из шести различных символов от [bold]A[/bold] до [bold]H[/bold].
 
-  Each encrypted transmission received from a resolved enemy net provides one [bold]trial[/bold].
+  Каждая зашифрованная передача из определённой вражеской сети даёт одну [bold]попытку[/bold].
 
-  A radio can store up to 12 trials.
+  Радиостанция хранит до 12 попыток.
 
-  To test a key:
+  Для проверки ключа:
 
-  - open [bold]SRCH > KEY ANALYSIS[/bold]
-  - select the enemy faction
-  - select [bold]TEST A TRIAL KEY[/bold]
-  - enter six letters
+  - откройте [bold]SRCH > KEY ANALYSIS[/bold]
+  - выберите вражескую фракцию
+  - выберите [bold]TEST A TRIAL KEY[/bold]
+  - введите шесть букв
 
-  Letters use the keypad's text-entry system.
+  Буквы вводятся по правилам текстового ввода с клавиатуры.
 
-  After testing, the radio reports how many symbols are in the correct position.
+  После проверки радиостанция сообщает, сколько символов стоят на правильных местах.
 
-  For example:
+  Например:
 
   [bold]2/6[/bold]
 
-  The radio does not identify which symbols are correct.
+  Радиостанция не указывает, какие именно символы верны.
 
-  Trial results remain available and can be compared when testing later combinations.
+  Результаты попыток сохраняются, их можно сравнивать при проверке следующих комбинаций.
 
-  At [bold]6/6[/bold], the key is broken.
+  При результате [bold]6/6[/bold] ключ взломан.
 
-  That radio can then read the faction's encrypted traffic:
+  После этого радиостанция может читать зашифрованные переговоры фракции:
 
-  - live
-  - in its radio log
+  - в прямом эфире
+  - в своём журнале
 
-  A broken key does [bold]not[/bold]:
+  Взломанный ключ [bold]не[/bold]:
 
-  - allow transmission on enemy nets
-  - transfer to another radio
+  - разрешает передавать во вражеские сети
+  - передаётся другой радиостанции
 
-  A recrypto removes:
+  Смена шифрования удаляет:
 
-  - the broken key
-  - stored trials
-  - previous trial results
+  - взломанный ключ
+  - накопленные попытки
+  - результаты предыдущих проверок
 
-  Key-analysis progress belongs to the radio itself and remains with the set if it is captured.
+  Прогресс анализа хранится в самой радиостанции и остаётся с ней при захвате.
 
-  Key analysis requires a trained operator.
+  Для анализа ключа нужен обученный оператор.
 
-  ### Jammer direction finding
+  ### Пеленгация подавителя
 
-  The search receiver can locate an active jammer.
+  Поисковый приёмник может определить местоположение активного подавителя.
 
-  While affected by a jammer, open:
+  Находясь под действием подавителя, откройте:
 
   [bold]SRCH > JAMMER DF[/bold]
 
-  To establish a fix:
+  Для определения позиции:
 
-  - select [bold]TAKE A BEARING[/bold]
-  - move at least 12 tiles
-  - check [bold]BASELINE[/bold] to confirm sufficient movement
-  - select [bold]TAKE SECOND BEARING[/bold]
+  - выберите [bold]TAKE A BEARING[/bold]
+  - переместитесь не менее чем на 12 тайлов
+  - проверьте [bold]BASELINE[/bold], чтобы убедиться в достаточном перемещении
+  - выберите [bold]TAKE SECOND BEARING[/bold]
 
-  The radio compares both bearings and places the estimated jammer position on your faction's tactical map.
+  Радиостанция сравнивает оба пеленга и отмечает предполагаемую позицию подавителя на тактической карте вашей фракции.
 
-  The marker remains for approximately two minutes.
+  Метка сохраняется примерно две минуты.
 
-  The radio also reports the jammer's distance.
+  Радиостанция также сообщает расстояние до подавителя.
 
-  The first bearing expires after three minutes.
+  Первый пеленг устаревает через три минуты.
 
-  ## Returning to automatic settings
+  ## Возврат к автоматическим настройкам
 
-  Settings changed from the faceplate remain active when returning to the guided interface.
+  Настройки расширенной панели сохраняются при возвращении в упрощённый интерфейс.
 
-  The guided panel displays any manually changed settings.
+  Упрощённая панель показывает настройки, изменённые вручную.
 
-  Select [bold]RETURN TO AUTO[/bold] to restore the guided panel's normal configuration.
+  Выберите [bold]RETURN TO AUTO[/bold], чтобы восстановить обычную конфигурацию упрощённой панели.
 
-  This resets manually configured operating settings back to their automatic values.
+  Это сбрасывает вручную изменённые рабочие настройки к автоматическим значениям.
 
-  ## Practice drill
+  ## Практическое упражнение
 
-  The following drill demonstrates the main faceplate controls on a powered, worn radio with no nets loaded.
+  Следующее упражнение знакомит с основными органами управления включённой и надетой радиостанции без загруженных сетей.
 
-  - Press [bold]8[/bold] to open PGM.
-  - Select [bold]LOAD STD NETS[/bold] and press ENT.
-  - Press [bold]7[/bold] to open OPT.
-  - Set [bold]OUTPUT[/bold] to LO.
-  - Enable [bold]BURST TX[/bold].
-  - Enable [bold]PRIORITY WATCH[/bold] and select the command memory.
-  - Press [bold]1[/bold] to send a radio check.
-  - Open [bold]LINK[/bold] and check the current relay and estimated endurance.
-  - Return to the guided interface.
-  - Open SETTINGS and confirm that the manual settings are shown.
-  - Press [bold]RETURN TO AUTO[/bold].
+  - Нажмите [bold]8[/bold], чтобы открыть PGM.
+  - Выберите [bold]LOAD STD NETS[/bold] и нажмите ENT.
+  - Нажмите [bold]7[/bold], чтобы открыть OPT.
+  - Установите [bold]OUTPUT[/bold] в LO.
+  - Включите [bold]BURST TX[/bold].
+  - Включите [bold]PRIORITY WATCH[/bold] и выберите командную ячейку.
+  - Нажмите [bold]1[/bold], чтобы отправить проверку связи.
+  - Откройте [bold]LINK[/bold] и проверьте текущий ретранслятор и расчётное время работы.
+  - Вернитесь в упрощённый интерфейс.
+  - Откройте НАСТРОЙКИ и убедитесь, что ручные настройки отображаются.
+  - Нажмите [bold]RETURN TO AUTO[/bold].
 
-  The [bold]?[/bold] soft key opens the faceplate key card at any time.
+  Экранная клавиша [bold]?[/bold] открывает памятку клавиш расширенной панели в любой момент.
 </Document>

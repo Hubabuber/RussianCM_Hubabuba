@@ -112,7 +112,7 @@ anprc-sweep-aborted = Поиск прекращается из-за отключ
 anprc-sweep-aborted-power = Батарея разряжается, и поиск прекращается.
 anprc-sweep-tx-blocked = Радиостанция сканирует диапазон. Остановите поиск перед передачей.
 anprc-sweep-contact = Поиск сужается. Что-то передаёт на частоте { $freq } МГц.
-anprc-sweep-resolved = ОБНАРУЖЕНО: { $freq } МГц - { $net }.
+anprc-sweep-resolved = ОБНАРУЖЕНО: { $freq } МГц — { $net }. Передачи носимых станций в этой сети теперь дают приблизительный пеленг, а каждое сообщение добавляет попытку подбора ключа на панели.
 anprc-sweep-unknown-net = НЕОПОЗНАННАЯ РАДИОСЕТЬ
 
 # Журнал радиосети на бумаге
@@ -125,3 +125,9 @@ anprc-log-frequency-unknown = ЧАСТОТА НЕИЗВ.
 anprc-language-no-radio = { $language } невозможно передать по радиосети.
 
 anprc-chat-intercept-line = [color={ $color }]\[INT\] "{ $message }"[/color]
+
+anprc-fixed-net-bearing = ПЕЛЕНГ { $net }: направление на говорящего — { $bearing }, { $band ->
+    [near] близко.
+    [mid] на некотором расстоянии.
+   *[far] далеко.
+}

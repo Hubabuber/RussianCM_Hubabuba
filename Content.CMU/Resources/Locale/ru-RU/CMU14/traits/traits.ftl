@@ -142,3 +142,7 @@ trait-cmu-prosthetic-right-leg-desc = Ваша правая нога замен�
 
 trait-cmu-tile-movement-name = Передвижение по тайлам
 trait-cmu-tile-movement-desc = Вы перемещаетесь от тайла к тайлу вместо свободной ходьбы — прямо как ваши предшественники из былых времён.
+
+cmu-trait-category-addictions = Зависимости
+
+cmu-trait-category-phobias = Страхи и фобии

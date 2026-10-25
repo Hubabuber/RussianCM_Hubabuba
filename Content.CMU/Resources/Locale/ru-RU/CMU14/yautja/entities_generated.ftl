@@ -430,8 +430,8 @@ ent-CMUYautjaHumanShipRelayDestination = человеческий корабль
 ent-CMUYautjaHuntPreySpawn = яутжа hunt добыча место появления
     .desc = Invisible место появления маркер для добыча called для яутжа охотничьи угодья.
 
-ent-CMUYautjaYoungbloodSpawn = яутжа молодой яутжа место появления
-    .desc = Invisible место появления маркер для молодой яутжа кровавое посвящение calls.
+ent-CMUYautjaYoungbloodSpawn = точка высадки молодого яутжа
+    .desc = Старый маркер высадки для вызовов молодых охотников на кровавое посвящение. Сохранён для совместимости карт.
 
 ent-CMUYautjaHealthShard = здоровье осколок
     .desc = crystalline осколок pulsing с restorative энергия. Split он с оба hands free для активировать, then plunge оба halves в yourself для burst лечебный и sustained химический treatment.

@@ -869,6 +869,7 @@
 
     For immediate combat readiness: select a primary weapon kit and a sidearm.
   components:
+  - type: CMUVendGunsOnSafety
   - type: AccessReader
     access: [ [ "AU14AccessGovforSquad" ], [ "AU14AccessOpforSquad" ] ]
   - type: Sprite
@@ -943,6 +944,7 @@
 
     Special weapons protocol: one weapon system of choice with a full ammunition loadout and explosives.
   components:
+  - type: CMUVendGunsOnSafety
   - type: CMAutomatedVendor
     sections:
     - name: au14-vendor-section-weapons-specialist-sets
@@ -987,6 +989,7 @@
   name: BEAR aircrew weapons rack
   description: An automated rack hooked up to a small storage of aircrew weapons.
   components:
+  - type: CMUVendGunsOnSafety
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
   - type: Sprite
@@ -1202,6 +1205,7 @@
   name: BEAR automated requisitions vendor
   description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
   components:
+  - type: CMUVendGunsOnSafety
   - type: CMURequisitionsVendor
   - type: AccessReader
     access: [["AU14AccessGovforReq"], ["AU14AccessOpforReq"]]
