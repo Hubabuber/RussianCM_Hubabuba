@@ -56,8 +56,8 @@ au14-job-name-govforsquadrifleman = Стрелок
 au14-job-description-govforsquadrifleman = Основа подразделения. Выполняйте приказы, обеспечивайте охранение и стреляйте метко.
 au14-job-prefix-govforsquadrifleman = RFN
 
-au14-job-name-govforcombatcorrespondent = Военный корреспондент
-au14-job-description-govforcombatcorrespondent = Следуйте вместе с подразделением и освещайте ход операции. Выполняйте приказы, обеспечивайте собственную безопасность и добудьте материал.
+au14-job-name-govforcombatcorrespondent = Вспомогательный персонал
+au14-job-description-govforcombatcorrespondent = Поддерживайте подразделение в роли капеллана, техника столовой или военного корреспондента. Выберите специализацию в снаряжении.
 au14-job-prefix-govforcombatcorrespondent = CC
 
 au14-job-name-govforsquadautomaticrifleman = Пулемётчик
@@ -190,3 +190,44 @@ au-14-job-prefix-uppgrom-squadleader = SL
 
 au14-job-name-specialist-pyro = Пиротехник
 au14-job-prefix-specialist-pyro = PYRO
+
+cmu-auxiliary-staff-prefix-chaplain = Кап
+
+cmu-auxiliary-staff-prefix-mess-technician = ТС
+
+cmu-auxiliary-staff-combat-correspondent = Военный корреспондент
+
+cmu-auxiliary-staff-chaplain = Капеллан
+
+cmu-auxiliary-staff-mess-technician = Техник столовой
+
+cmu-loadout-group-auxiliary-staff = Роль вспомогательного персонала
+
+cmu-auxiliary-staff-needs-religion = Капеллан должен исповедовать религию, отличную от атеизма.
+
+ent-CMUKitAuxiliaryStaffCombatCorrespondent = комплект военного корреспондента
+    .desc = Ящик с вещательной камерой, микрофоном, микрофоном на штанге и фотоаппаратом военного корреспондента.
+
+ent-CMUKitAuxiliaryStaffChaplain = комплект капеллана
+    .desc = Ящик с нашивкой капеллана для шлема и священной книгой его веры.
+
+ent-CMUKitAuxiliaryStaffMessTechnician = комплект техника столовой
+    .desc = Ящик с поварским фартуком и колпаком техника столовой.
+
+ent-CMUAuxiliaryStaffDummyCombatCorrespondent = Военный корреспондент
+    .desc = Следуйте с подразделением и снимайте репортаж с помощью вещательной камеры и микрофона.
+
+ent-CMUAuxiliaryStaffDummyChaplain = Капеллан
+    .desc = Поддерживайте боевой дух подразделения. Требуется религия, отличная от атеизма.
+
+ent-CMUAuxiliaryStaffDummyMessTechnician = Техник столовой
+    .desc = Заведуйте столовой. Открывайте кухонные ставни для посетителей.
+
+ent-AddGovforAuxiliaryStaff = Добавить вспомогательный персонал GOVFOR
+    .desc = { "" }
+
+ent-AddGovforAuxiliaryStaffDistress = Добавить вспомогательный персонал GOVFOR (сигнал бедствия)
+    .desc = { "" }
+
+ent-AddOpforAuxiliaryStaff = Добавить вспомогательный персонал OPFOR
+    .desc = { "" }

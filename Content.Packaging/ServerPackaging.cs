@@ -227,6 +227,10 @@ public static class ServerPackaging
             ServerContentIgnoresResources.Concat(SharedPackaging.AdditionalIgnoredResources).ToHashSet(),
             cancel);
 
+        // CMU14: the Discord rules publisher needs the rules landing page in packaged servers.
+        const string rulesOverview = "ServerInfo/Guidebook/_RMC14/Rules/RMCOverview.xml";
+        inputPassResources.InjectFileFromDisk(rulesOverview, Path.Combine(contentDir, "Resources", rulesOverview));
+
         await RobustSharedPackaging.DoResourceCopy(
             Path.Combine(contentDir, "Content.CMU", "Resources"),
             inputPassResources,

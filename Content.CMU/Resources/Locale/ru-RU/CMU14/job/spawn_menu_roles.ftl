@@ -34,7 +34,7 @@ cmu-spawn-role-weapons-specialist-govfor = Специалист по воору�
 cmu-spawn-role-medical-officer-govfor = Медицинский офицер
 cmu-spawn-role-nurse-govfor = Медбрат
 cmu-spawn-role-hospital-corpsman-govfor = Госпитальный санитар
-cmu-spawn-role-combat-correspondent-govfor = Военный корреспондент
+cmu-spawn-role-combat-correspondent-govfor = Вспомогательный персонал (GOVFOR)
 cmu-spawn-role-fireteam-leader-govfor = Командир огневой группы
 cmu-spawn-role-military-policeman-govfor = Военный полицейский
 cmu-spawn-role-radio-traffic-operator-govfor = Радист
@@ -100,3 +100,5 @@ au14-spawn-role-name-wy-corporate-goon = Корпоративный охранн
 au14-spawn-role-name-wy-liaison = Связной Ве-Ю
 au14-spawn-role-name-wy-scientist = Учёный Ве-Ю
 cmu-colony-name-atmosian = Атмосферный техник колонии
+
+cmu-spawn-role-auxiliary-staff-opfor = Вспомогательный персонал (OPFOR)

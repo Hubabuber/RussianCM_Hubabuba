@@ -48,3 +48,15 @@ cmu-loadout-group-aegis-stamp = Печать AEGIS Armaments
 cmu-loadout-group-provost-stamp = Печать Провоста
 
 cmu-loadout-group-surgical-webbing = Хирургическая разгрузка
+
+cmu-loadout-group-detective-uniform = Гражданская одежда
+
+cmu-loadout-group-detective-tie = Галстуки
+
+cmu-loadout-group-detective-coat = Пальто и куртки
+
+cmu-loadout-group-detective-hat = Головные уборы
+
+cmu-loadout-group-detective-glasses = Очки
+
+cmu-loadout-group-detective-satchel = Сумки

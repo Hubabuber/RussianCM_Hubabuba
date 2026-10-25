@@ -631,3 +631,13 @@ cmu-yautja-hunt-call-elite-mixed-larger = Элитные смешанные фр
 cmu-yautja-power-examine-charge = Текущий заряд: [bold]{$charge}/{$max}[/bold].
 cmu-yautja-spike-launcher-examine-spikes = Текущий боезапас: [bold]{$count}/{$capacity}[/bold] шипов.
 cmu-yautja-plasma-weapon-examine-charge = Текущий заряд: [bold]{$charge}/{$max}[/bold].
+
+cmu-yautja-blooding-call-three-inexperienced = Группа неопытных молодых охотников (от двух до трёх участников)
+
+cmu-yautja-blooding-call-three-intermediate = Группа молодых охотников среднего опыта (от двух до трёх участников)
+
+cmu-yautja-blooding-call-three-experienced = Группа опытных молодых охотников (от двух до трёх участников)
+
+cmu-yautja-blooding-call-three-mixed = Группа молодых охотников разного опыта (от двух до трёх участников)
+
+cmu-yautja-blooding-call-pack = Охотничья стая молодых охотников (от четырёх до шести участников)

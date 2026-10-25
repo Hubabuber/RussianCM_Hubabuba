@@ -9,12 +9,12 @@ emplacement-mount-broken-examine = [color=red]Пистолет нельзя ис
 emplacement-mount-need-hands-free = Чтобы взяться за ручки, обе руки должны быть свободны!
 mountable-weapon-no-free-hands = Для управления оружием вам нужны обе руки свободные.
 
-emplacement-mount-RMCSmartGunMounted-name = Крепление ML66D
-emplacement-mount-RMCSmartGunMounted-description = Складное крепление для ML66D обеспечивает устойчивость ML66D.
+emplacement-mount-RMCSmartGunMounted-name = Крепление M56D
+emplacement-mount-RMCSmartGunMounted-description = Складное крепление для M56D, обеспечивающее устойчивость оружия.
 emplacement-mount-RMCSmartGunMounted-description-mounted = Развертываемый крупнокалиберный пулемет. Он стреляет специальными вольфрамовыми снарядами для повышенной бронепробиваемости.
 
-emplacement-mount-RMCSmartGunMountedLoaded-name = Крепление ML66D
-emplacement-mount-RMCSmartGunMountedLoaded-description = Складное крепление для ML66D обеспечивает устойчивость ML66D.
+emplacement-mount-RMCSmartGunMountedLoaded-name = Крепление M56D
+emplacement-mount-RMCSmartGunMountedLoaded-description = Складное крепление для M56D, обеспечивающее устойчивость оружия.
 
 emplacement-mount-RMCSmartGunMountedLoaded-description-mounted = Развёртываемый крупнокалиберный пулемет. Он стреляет специальными вольфрамовыми снарядами для повышенной бронепробиваемости.
 emplacement-mount-RMCMachineGunM2C-description = Разобранный пулемет M2C со сложенными телескопическими треногими и неспособный вести огонь.
