@@ -12,7 +12,7 @@
   - type: AssignSquad
     whitelist:
       tags:
-      - RuMCSquadLiquidator
+      - RuMCSquadNorcommLiu
   - type: Skills
     skills:
       RMCSkillEngineer: 3
@@ -46,8 +46,8 @@
     currentLanguage: Russian
     defaultLanguage: Russian
 
-  name: Burner
-  description: Liquidator
+  name: Technician
+  description: Technician
   playTimeTracker: RuMCJobUPPNorcommTech
   ranks:
     RMCRankCivilian: []
@@ -67,9 +67,9 @@
       - !type:RoleTimeRequirement
         role: RuMCJobUPPNorcommTech
         time: 5400 # 1.5 hours
-  spawnMenuRoleName: Liquidator
+  spawnMenuRoleName: Technician
   startingGear: RuMCGearUPPNorcommTech
-  greeting: rumc-liquidator-greeting
+  greeting: rumc-Technician-greeting
   icon: "RuMCJobIconUPPNorcommTech"
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
@@ -80,50 +80,48 @@
 - type: entity
   parent: RuMCBaseMobSpeciesOrganicUPPBEAR
   id: RuMCJobUPPNorcommTech
-  name: Liquidator
+  name: Technician
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
-    squad: RuMCSquadLiquidator
+    squad: RuMCSquadNorcommLiu
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Liquidator
-    description: You are part of a UPP liquidator team! Your job is to burn every biological threat on the colony to the ground. Not one step back!
+    name: Technician
+    description: You are part of a UPP Technician team! Your job is to burn every biological threat on the colony to the ground. Not one step back!
     job: RuMCUPPNorcommTech
     raffle:
       settings: short
 
 - type: startingGear
-  parent: RuMCGearUPPBEARbase
+  #parent: RuMCGearUPPBEARbase
   id: RuMCGearUPPNorcommTech
   equipment:
     id: RuCMIDCardUPPNorcommTech
     outerClothing: RMCOuterClothingExternalWebbingBrownFull
-    jumpsuit: CMJumpsuitSPPEngi
+    jumpsuit: RuMCFatiguesNoLu
     shoes: RMCBootsSPPFilled
-    head: RMCHardhatOrange
+    head: RuMCHeadCapNoLu
     belt: AU14BeltUtilityFilled
     pocket1: AU14PouchIFAKFill
     pocket2: AU14PouchIFAKFill
-    back: RMCBackpackFlamer
+    back: RuMCUPPNavalInfantrySatchel
     ears: RuMCHeadsetNorcommLiu
-    suitstorage: RMCWeaponFlamerSPP
+    suitstorage: AU14BeltHolsterPistolUPPFull
   storage:
     back:
-    - RuMCTankFlamerUPP
-    - RuMCTankFlamerUPP
-    - RuMCTankFlamerUPP
+    - RuMCirpUPP
+    - RuMCirpUPP
   inhand:
-    - AU14CBRNKitUPP
-    - RuMCTankFlamerUPP
+    - AU14GlovesCBRNUPP
 
 - type: jobIcon
   parent: CMJobIconBase
   id: RuMCJobIconUPPNorcommTech
   icon:
-    sprite: _RMC14/Interface/cm_job_icons.rsi
+    sprite: _RuMC14/Interface/upp_icons.rsi
     state: UPP-Norcomm_Technician
 
 - type: playTimeTracker
