@@ -19,6 +19,9 @@ https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild
     <ProjectGuid>{C899FCA4-7037-4E49-ABC2-44DE72487110}</ProjectGuid>
     <TargetFramework>net4.7.2</TargetFramework>
     <RestorePackages>false</RestorePackages>
+    <!-- CMU14: this utility owns neither C# sources nor resources from nested checkouts. -->
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
   </PropertyGroup>
   <PropertyGroup>
     <OutputType>Library</OutputType>

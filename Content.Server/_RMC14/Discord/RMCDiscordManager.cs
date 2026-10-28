@@ -9,7 +9,7 @@ using LogMessage = Discord.LogMessage;
 
 namespace Content.Server._RMC14.Discord;
 
-public sealed partial class RMCDiscordManager : IPostInjectInit
+public sealed partial class RMCDiscordManager
 {
     [Dependency] private IConfigurationManager _config = default!;
     [Dependency] private ILogManager _logManager = default!;
@@ -42,7 +42,12 @@ public sealed partial class RMCDiscordManager : IPostInjectInit
                 return;
             }
 
-            _discordThread = Task.Run(async () => await DiscordThreadMain());
+            InitializeAccountLinking(); // CMU14: account linking lives in the game bot.
+            _discordThread = Task.Run(async () =>
+            {
+                try { await DiscordThreadMain(); }
+                catch (Exception e) { _sawmill.Error($"Discord bot stopped: {e.Message}"); }
+            });
         }
         catch (Exception e)
         {
@@ -72,17 +77,22 @@ public sealed partial class RMCDiscordManager : IPostInjectInit
     public void Shutdown()
     {
         _running = false;
+        StopAccountLinking(); // CMU14
     }
 
     private async Task DiscordThreadMain()
     {
         _client = new DiscordSocketClient(new DiscordSocketConfig
         {
-            GatewayIntents = GatewayIntents.All,
+            // CMU14: linking and role delivery need no privileged gateway intents.
+            GatewayIntents = GameBotIntents(_config.GetCVar(RMCCVars.RMCDiscordAdminChatChannel) != 0
+                || _config.GetCVar(RMCCVars.RMCDiscordMentorChatChannel) != 0),
         });
         _client.Log += Log;
         _client.MessageReceived += OnDiscordMessageReceived;
         _client.Ready += OnDiscordReady;
+        _client.ButtonExecuted += OnAccountLinkButton; // CMU14
+        _client.ModalSubmitted += OnAccountLinkModal; // CMU14
 
         await _client.LoginAsync(TokenType.Bot, _config.GetCVar(RMCCVars.RMCDiscordToken));
         await _client.StartAsync();
@@ -101,6 +111,7 @@ public sealed partial class RMCDiscordManager : IPostInjectInit
             {
                 if (Interlocked.CompareExchange(ref _ready, 1, 1) == 1)
                 {
+                    RetryAccountLinkPanel(); // CMU14: retry a temporarily unavailable linking channel.
                     while (_chatMessages.TryDequeue(out var msg))
                     {
                         switch (msg.Type)
@@ -153,6 +164,7 @@ public sealed partial class RMCDiscordManager : IPostInjectInit
     private async Task OnDiscordReady()
     {
         Interlocked.Exchange(ref _ready, 1);
+        AccountLinkBotReady(); // CMU14: publish or reuse the configured channel's button.
     }
 
     public ConcurrentQueue<RMCDiscordMessage> GetDiscordMessages()
@@ -177,15 +189,26 @@ public sealed partial class RMCDiscordManager : IPostInjectInit
 
     public async Task Restart()
     {
+        _running = false; // CMU14: finish the old worker before starting another bot session.
+        StopAccountLinking(); // CMU14
+        if (_discordThread != null)
+            await _discordThread;
+        await _linkPublish.WaitAsync(); // CMU14: let the cancelled publisher release its old session.
+        _linkPublish.Release();
+        if (_client == null)
+        {
+            _running = true;
+            Initialize();
+            return;
+        }
         await _client.StopAsync();
         await _client.DisposeAsync();
         _ready = 0;
         _running = true;
-        await _discordThread;
         Initialize();
     }
 
-    public void PostInject()
+    public void Start() // CMU14: start after localization and database initialization.
     {
         Initialize();
     }

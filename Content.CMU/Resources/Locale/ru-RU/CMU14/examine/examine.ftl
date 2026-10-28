@@ -55,4 +55,4 @@ hand-middle-examine-selfaware = - В одной из ваших рук нахо�
 comp-hands-examine-empty-selfaware = Вы ничего не держите в руках.
 comp-hands-examine-selfaware = Вы держите: { $items }.
 
-humanoid-appearance-component-examine-selfaware = Вы — { $age }-летний { $species }.
+humanoid-appearance-component-examine-selfaware = Вы — { $species } { $age }.

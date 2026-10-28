@@ -7,6 +7,11 @@
     <BoxContainer Orientation="Vertical">
         <ScrollContainer VerticalExpand="True" HorizontalExpand="True">
             <BoxContainer Orientation="Vertical" Margin="10 8 10 8" SeparationOverride="2" VerticalExpand="True">
+                <!-- CMU14: Discord account linking is an account setting, not a lobby round action. -->
+                <cmu:CmuOptionSection Title="{Loc 'rucm-discord-link-settings-title'}" Expanded="True">
+                    <Button Name="DiscordLinkButton" Access="Public" Text="{Loc 'rmc-ui-link-discord-account'}" HorizontalExpand="True" MinHeight="34" />
+                    <Label Name="DiscordLinkOffline" Text="{Loc 'rucm-discord-link-connect-first'}" Visible="False" />
+                </cmu:CmuOptionSection>
                 <cmu:CmuOptionSection Title="{Loc 'cm-ui-rmc14'}">
                     <CheckBox Name="RMCAutoPunctuate" Text="{Loc 'rmc-ui-auto-punctuate'}" />
                     <CheckBox Name="RMCAutoEjectMagazines" Text="{Loc 'rmc-ui-auto-eject-magazines'}" />

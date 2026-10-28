@@ -22,8 +22,8 @@ namespace Content.Server.CMU14.Round.Commands
             if (args.Length == 2 && args[0].Equals("ship", StringComparison.OrdinalIgnoreCase))
             {
                 var roundSystem = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<AuRoundSystem>();
-                roundSystem.SetOpforShip(args[1]);
                 roundSystem.StopVoteSequence();
+                roundSystem.SetOpforShip(args[1]);
                 shell.WriteLine($"Opfor ship set to: {args[1]}");
                 return;
             }
@@ -41,8 +41,8 @@ namespace Content.Server.CMU14.Round.Commands
                 shell.WriteError($"Platoon prototype not found: {args[0]}");
                 return;
             }
-            platoonSys.SelectedOpforPlatoon = platoon;
             sysMan.GetEntitySystem<AuRoundSystem>().StopVoteSequence();
+            platoonSys.SelectedOpforPlatoon = platoon;
             sysMan.GetEntitySystem<GameTicker>().UpdateInfoText();
             shell.WriteLine($"Opfor platoon set to: {Loc.GetString(platoon.Name)} ({platoon.ID})");
         }
@@ -63,8 +63,8 @@ namespace Content.Server.CMU14.Round.Commands
             if (args.Length == 2 && args[0].Equals("ship", StringComparison.OrdinalIgnoreCase))
             {
                 var roundSystem = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<AuRoundSystem>();
-                roundSystem.SetGovforShip(args[1]);
                 roundSystem.StopVoteSequence();
+                roundSystem.SetGovforShip(args[1]);
                 shell.WriteLine($"Govfor ship set to: {args[1]}");
                 return;
             }
@@ -82,8 +82,8 @@ namespace Content.Server.CMU14.Round.Commands
                 shell.WriteError($"Platoon prototype not found: {args[0]}");
                 return;
             }
-            platoonSys.SelectedGovforPlatoon = platoon;
             sysMan.GetEntitySystem<AuRoundSystem>().StopVoteSequence();
+            platoonSys.SelectedGovforPlatoon = platoon;
             sysMan.GetEntitySystem<GameTicker>().UpdateInfoText();
             shell.WriteLine($"Govfor platoon set to: {Loc.GetString(platoon.Name)} ({platoon.ID})");
         }
@@ -107,8 +107,8 @@ namespace Content.Server.CMU14.Round.Commands
                 return;
             }
             var roundSystem = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<AuRoundSystem>();
-            roundSystem.SetOpforShip(args[0]);
             roundSystem.StopVoteSequence();
+            roundSystem.SetOpforShip(args[0]);
             shell.WriteLine($"Opfor ship set to: {args[0]}");
         }
 
@@ -131,8 +131,8 @@ namespace Content.Server.CMU14.Round.Commands
                 return;
             }
             var roundSystem = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<AuRoundSystem>();
-            roundSystem.SetGovforShip(args[0]);
             roundSystem.StopVoteSequence();
+            roundSystem.SetGovforShip(args[0]);
             shell.WriteLine($"Govfor ship set to: {args[0]}");
         }
 
@@ -155,9 +155,12 @@ namespace Content.Server.CMU14.Round.Commands
                 return;
             }
             var roundSystem = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<AuRoundSystem>();
-            if (roundSystem.SetPlanet(args[0]))
+            var prototypes = IoCManager.Resolve<IPrototypeManager>();
+            if (prototypes.TryIndex<EntityPrototype>(args[0], out var planet)
+                && planet.TryComp(out RMCPlanetMapPrototypeComponent? _, IoCManager.Resolve<IComponentFactory>()))
             {
                 roundSystem.StopVoteSequence();
+                roundSystem.SetPlanet(args[0]);
                 shell.WriteLine($"Planet set to: {args[0]}");
             }
             else

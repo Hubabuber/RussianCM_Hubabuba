@@ -28,11 +28,9 @@ public sealed class QualificationEntryPreviewCommand : LocalizedCommands
     {
         if (args.Length != 0) { shell.WriteError(Help); return; }
         if (_players.LocalSession != null) { shell.WriteError(Robust.Shared.Localization.Loc.GetString("rucm-qualifications-preview-disconnected-only")); return; }
-        // The complete disconnected LobbyGui requires live entity systems (lineup/character previews).
-        // Render its actual action column instead, with the same parent/layout/style and no network actions.
-        using var lobby = new LobbyGui();
-        var record = QualificationEntrySystem.AttachLobby(lobby, () => { });
-        var actions = record.Parent!; actions.Orphan();
+        // CMU14: preview the personalization action using the same composition helper, without network actions.
+        var actions = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Vertical, MinWidth = 325 };
+        var record = QualificationEntrySystem.AttachPersonalization(actions, () => { });
         foreach (var button in QualificationEntrySystem.Descendants(actions).OfType<BaseButton>()) button.Disabled = button != record;
         var stage = new Robust.Client.UserInterface.CustomControls.DefaultWindow
         { Title = Robust.Shared.Localization.Loc.GetString("rucm-qualifications-entry-preview-title"), SetSize = new(480, 360) };
@@ -60,7 +58,7 @@ public sealed class QualificationEntryPreviewCommand : LocalizedCommands
             if (_frames < 60) return;
             if (_phase > 1) { _shell.ExecuteCommand("quit"); return; }
             _saving = true;
-            var name = _phase == 0 ? "entry-lobby" : "entry-escape";
+            var name = _phase == 0 ? "entry-personalization" : "entry-escape";
             _clyde.Screenshot(ScreenshotType.Final, screenshot =>
             {
                 var directory = new ResPath("/QualificationPreview"); _resources.UserData.CreateDir(directory);

@@ -33,6 +33,7 @@ public sealed partial class LinkAccountUIController : UIController, IOnSystemCha
     {
         _linkAccount.CodeReceived += OnCode;
         _linkAccount.Updated += OnUpdated;
+        InitializeRuCMDiscordLink(); // CMU14: react to the game bot publishing its channel link.
     }
 
     private void OnCode(Guid code)
@@ -47,6 +48,7 @@ public sealed partial class LinkAccountUIController : UIController, IOnSystemCha
 
     private void OnUpdated()
     {
+        RefreshRuCMDiscordLinkWindow(); // CMU14
         if (UIManager.ActiveScreen is not LobbyGui gui)
             return;
 
@@ -67,6 +69,8 @@ public sealed partial class LinkAccountUIController : UIController, IOnSystemCha
     {
         if (_window == null)
         {
+            _code = default; // CMU14: wait for a fresh persisted code on every opening.
+            _disableUntil = default;
             _window = new LinkAccountWindow();
             _window.OnClose += () => _window = null;
             _window.Label.SetMarkupPermissive($"{Loc.GetString("rmc-ui-link-discord-account-text")}");
@@ -81,18 +85,7 @@ public sealed partial class LinkAccountUIController : UIController, IOnSystemCha
                 _disableUntil = _timing.RealTime.Add(TimeSpan.FromSeconds(3));
             };
 
-            var messageLink = _config.GetCVar(RMCCVars.RMCDiscordAccountLinkingMessageLink);
-            if (string.IsNullOrEmpty(messageLink))
-            {
-                _window.LinkButton.Visible = false;
-                _window.CopyButton.RemoveStyleClass("OpenRight");
-            }
-            else
-            {
-                _window.LinkButton.Visible = true;
-                _window.LinkButton.OnPressed += _ => _uriOpener.OpenUri(messageLink);
-                _window.CopyButton.AddStyleClass("OpenRight");
-            }
+            ConfigureRuCMDiscordLinkWindow(); // CMU14: visible setup status and live channel URL.
 
             _window.OpenCentered();
 
@@ -258,6 +251,7 @@ public sealed partial class LinkAccountUIController : UIController, IOnSystemCha
 
     public void OnSystemUnloaded(LinkAccountSystem system)
     {
+        CloseRuCMDiscordLinkWindow(); // CMU14: discard the previous connection's cached code.
         system.LobbyMessageReceived -= OnLobbyMessageReceived;
     }
 

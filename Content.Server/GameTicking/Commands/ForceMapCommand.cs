@@ -37,6 +37,8 @@ namespace Content.Server.GameTicking.Commands
             }
 
             _configurationManager.SetCVar(CCVars.GameMap, name);
+            IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<Content.Server.CMU14.Round.AuRoundSystem>()
+                .KabanAdminMapOverride(); // CMU14: a manual map must take precedence over the paid planet.
 
             if (string.IsNullOrEmpty(name))
                 shell.WriteLine(Loc.GetString("cmd-forcemap-cleared"));

@@ -111,6 +111,8 @@ namespace Content.Server.GameTicking
             if (_map.MapExists(DefaultMap))
                 return;
 
+            _auRoundSystem.ValidateKabanBeforeLoad(); // CMU14: revalidate paid choices before loading any resources.
+
             AddGamePresetRules();
 
             var maps = new List<GameMapPrototype>();
@@ -447,8 +449,10 @@ namespace Content.Server.GameTicking
                 if (LobbyEnabled && status == PlayerGameStatus.NotReadyToPlay)
                     continue;
 
-                if (!_playerManager.TryGetSessionById(userId, out _))
+                if (!_playerManager.TryGetSessionById(userId, out var session))
                     continue;
+
+                if (!DiscordGate.CanPlay(session)) continue; // CMU14
 
                 total++;
             }
@@ -489,6 +493,7 @@ namespace Content.Server.GameTicking
             {
                 if (LobbyEnabled && status != PlayerGameStatus.ReadyToPlay) continue;
                 if (!_playerManager.TryGetSessionById(userId, out var session)) continue;
+                if (!DiscordGate.EnsureCanPlay(session)) continue; // CMU14: recheck even forced/admin readiness.
                 if (autoDeAdmin && _adminManager.IsAdmin(session))
                     _adminManager.DeAdmin(session);
 #if DEBUG

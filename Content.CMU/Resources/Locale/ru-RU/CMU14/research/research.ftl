@@ -104,6 +104,10 @@ research-data-ui-print = [color=#ffbf00][bold]Распечатать[/bold][/col
 
 ui-chem-simulator-window-name = Химический симулятор
 
+research-sim-already-inserted = Отчёт уже вставлен.
+research-sim-refused = Симулятор отклоняет отчёт: в нём нет химических данных.
+research-sim-refuses = {CAPITALIZE(THE($SCANNER))} отказывается принимать {THE($PAPER)}.
+
 research-sim-ui-credits = [bold]ИССЛЕДОВАТЕЛЬСКИЕ КРЕДИТЫ: {$NUM}[/bold]
 research-sim-ui-cost-null = РАСЧЁТНАЯ СТОИМОСТЬ СИМУЛЯЦИИ: NULL
 research-sim-ui-cost = РАСЧЁТНАЯ СТОИМОСТЬ СИМУЛЯЦИИ: {$NUM}

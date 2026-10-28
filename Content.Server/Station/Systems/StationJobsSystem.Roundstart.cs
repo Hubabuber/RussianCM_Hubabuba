@@ -23,6 +23,7 @@ public sealed partial class StationJobsSystem
     [Dependency] private AuJobSelectionSystem _auJobSelectionSystem = default!;
     [Dependency] private StationSystem _stationSystem = default!;
     [Dependency] private AntagSelectionSystem _antag = default!;
+    [Dependency] private Content.Server._RuCM.Kaban.KabanSystem _kaban = default!; // CMU14: preloaded reward priorities.
 
     // Toggle used for ForceOnForce overflow assignment to alternate GOVFOR/OPFOR rifleman
     private bool _forceOnForceNextGovfor = true;
@@ -89,6 +90,27 @@ public sealed partial class StationJobsSystem
         Dictionary<NetUserId, HumanoidCharacterProfile> profiles,
         IReadOnlyList<EntityUid> stations,
         bool useRoundStartJobs = true)
+    // CMU14 Begin: a failed allocation returns every reserved token; no database I/O here.
+    {
+        if (useRoundStartJobs)
+            _kaban.BeginLottery();
+        try
+        {
+            return AssignJobsCore(profiles, stations, useRoundStartJobs);
+        }
+        catch
+        {
+            if (useRoundStartJobs)
+                _kaban.AbortLottery();
+            throw;
+        }
+    }
+
+    private Dictionary<NetUserId, (ProtoId<JobPrototype>?, EntityUid)> AssignJobsCore(
+        Dictionary<NetUserId, HumanoidCharacterProfile> profiles,
+        IReadOnlyList<EntityUid> stations,
+        bool useRoundStartJobs)
+    // CMU14 End
     {
         DebugTools.Assert(stations.Count > 0);
 
@@ -206,6 +228,7 @@ public sealed partial class StationJobsSystem
         // The minimum phase selects players for a job, and the maximum phase selects jobs for a player.
         var jobCandidates = GetJobCandidates(profiles);
         var playerCandidates = GetPlayerCandidates(jobCandidates);
+        var kabanPriorities = useRoundStartJobs && _kaban.HasArmedPriorities; // CMU14: no additional job pass without an armed token.
 
         var stationRequiredJobs = stationMinimumJobs.ToDictionary(
             pair => pair.Key,
@@ -227,7 +250,7 @@ public sealed partial class StationJobsSystem
                     while (stationMinimumJobs[station][job] is > 0 && profiles.Count > 0)
                     {
                         if (stationJobs[station][job] is <= 0 ||
-                            !TryPickCandidate(job, priority, jobCandidates, out var player))
+                            !TryPickCandidate(job, priority, jobCandidates, out var player, kabanPriorities ? KabanSeats(job, stationJobs) : int.MaxValue)) // CMU14
                         {
                             break;
                         }
@@ -241,6 +264,27 @@ public sealed partial class StationJobsSystem
             // Optional slots compete at the same preference level as minimum slots.
             foreach (var station in stations)
             {
+                // CMU14 Begin: optional jobs with armed tokens use the same filtered candidate pool.
+                // Uncontested jobs and every job without a token keep the upstream player-first pass.
+                if (kabanPriorities)
+                {
+                    foreach (var job in stationJobs[station].Keys.OrderBy(j => j.Id).ToArray())
+                    {
+                        if (!jobCandidates.TryGetValue(job, out var priorities)
+                            || !priorities.TryGetValue(priority, out var candidates)
+                            || candidates.Count <= KabanSeats(job, stationJobs)
+                            || !_kaban.HasPriority(candidates, job.Id))
+                            continue;
+                        while (stationJobs[station][job] is null or > 0 && candidates.Count > 0)
+                        {
+                            if (!TryPickCandidate(job, priority, jobCandidates, out var selected, KabanSeats(job, stationJobs)))
+                                break;
+                            AssignPlayer(selected, job, station, stationJobs, stationMinimumJobs,
+                                jobCandidates, playerCandidates, profiles, assigned);
+                        }
+                    }
+                }
+                // CMU14 End
                 var players = profiles.Keys.ToList();
                 _random.Shuffle(players);
 
@@ -278,7 +322,7 @@ public sealed partial class StationJobsSystem
         ProtoId<JobPrototype> job,
         JobPriority priority,
         Dictionary<ProtoId<JobPrototype>, Dictionary<JobPriority, HashSet<NetUserId>>> jobCandidates,
-        out NetUserId player)
+        out NetUserId player, int kabanSeats = int.MaxValue) // CMU14
     {
         if (!jobCandidates.TryGetValue(job, out var candidates) ||
             !candidates.TryGetValue(priority, out var players) || players.Count == 0)
@@ -287,8 +331,25 @@ public sealed partial class StationJobsSystem
             return false;
         }
 
-        player = _random.Pick(players);
+        // player = _random.Pick(players); // CMU14: exact weights after all admission filters.
+        player = _kaban.Pick(players, job.Id, kabanSeats, _random); // CMU14
         return true;
+    }
+
+    // CMU14 method: count all station slots, so a minimum slot is not mistaken for real scarcity.
+    private static int KabanSeats(ProtoId<JobPrototype> job,
+        Dictionary<EntityUid, Dictionary<ProtoId<JobPrototype>, int?>> stationJobs)
+    {
+        long total = 0;
+        foreach (var jobs in stationJobs.Values)
+        {
+            if (!jobs.TryGetValue(job, out var slots))
+                continue;
+            if (slots == null)
+                return int.MaxValue;
+            total += Math.Max(0, slots.Value);
+        }
+        return (int) Math.Min(int.MaxValue, total);
     }
 
     private bool TryPickJob(

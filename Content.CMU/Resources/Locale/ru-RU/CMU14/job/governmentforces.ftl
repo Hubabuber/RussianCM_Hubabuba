@@ -40,7 +40,23 @@ au14-job-name-govfordspilot = Пилот десантного челнока
 au14-job-description-govfordspilot = Управляйте десантным челноком. Высаживайте бойцов, эвакуируйте раненых и оказывайте огневую поддержку.
 au14-job-prefix-govfordspilot = DP
 
-au14-job-name-govfordcc = Старший член экипажа десантного челнока
+au14-job-name-govfortransportpilot = Пилот транспортника
+au14-job-description-govfortransportpilot = Управляйте десантным челноком. Высаживайте бойцов, эвакуируйте раненых и перевозите снабжение между кораблём и передовой.
+au14-job-prefix-govfortransportpilot = TP
+
+au14-job-name-govforgunshippilot = Пилот штурмовика
+au14-job-description-govforgunshippilot = Управляйте ганшипом. Оказывайте непосредственную огневую поддержку с воздуха и подавляйте позиции противника.
+au14-job-prefix-govforgunshippilot = GP
+
+au14-job-name-govforfighterpilot = Пилот истребителя
+au14-job-description-govforfighterpilot = Управляйте истребителем. Завоёвывайте превосходство в воздухе, перехватывайте вражеские летательные аппараты и указывайте цели.
+au14-job-prefix-govforfighterpilot = FP
+
+au14-job-name-govforfightersystemsofficer = Оператор вооружения истребителя
+au14-job-description-govforfightersystemsofficer = Занимайте заднее место в кабине истребителя. Управляйте системами вооружения и поражайте цели.
+au14-job-prefix-govforfightersystemsofficer = FSO
+
+au14-job-name-govfordcc = Старший пилот транспортника
 au14-job-description-govfordcc = Обслуживайте десантные челноки. Координируйте размещение грузов и пассажиров и помогайте пилотам.
 au14-job-prefix-govfordcc = DCC
 
@@ -107,8 +123,8 @@ au14-job-name-vehiclecrewman = Член экипажа бронетехники
 au14-job-description-vehiclecrewman = Управляйте, обслуживайте и защищайте бронетехнику своей фракции.
 au14-job-prefix-vehiclecrewman = VC
 
-au14-job-name-vehiclecommander = Командир бронемашины
-au14-job-description-vehiclecommander = Командуйте бронетехникой своей фракции. Руководите экипажем, координируйте действия с пехотой и поддерживайте машину в бою.
+au14-job-name-vehiclecommander = Командир бронетехники
+au14-job-description-vehiclecommander = Командуйте бронетехникой своей фракции. Руководите экипажем и координируйте действия с пехотой в бою.
 au14-job-prefix-vehiclecommander = VCO
 
 au14-job-name-govforweaponsspecialist = Специалист по вооружению
@@ -157,8 +173,8 @@ au14-job-name-govforsquadautomaticriflemanRMC = Пулемётчик
 au14-job-prefix-govforsquadautomaticriflemanRMC = MG
 au14-job-name-govforauxsupportsynthRMC = Синтетик поддержки
 au14-job-name-govforplatcoRMC = Командир
-au14-job-name-govforplatooncorpsmanRMC = Госпитальный санитар
-au14-job-name-govfordccRMC = Старший член экипажа десантного челнока
+au14-job-name-govforplatooncorpsmanRMC = Санитар госпиталя
+au14-job-name-govfordccRMC = Старший пилот транспортника
 au14-job-name-govforplatopRMC = Штабной офицер
 au14-job-name-govfordspilotRMC = Офицер-пилот
 au14-job-prefix-govfordspilotRMC = PO
@@ -168,9 +184,9 @@ au14-job-name-radiotelephoneoperatorRMC = Оператор связи
 au14-job-name-govforsquadriflemanRMC = Стрелок
 au14-job-name-govforsquadcombattechRMC = Сапёр
 au14-job-prefix-govforsquadcombattechRMC = SPR
-au14-job-name-govforspecialist-marksmanRMC = Меткий стрелок
+au14-job-name-govforspecialist-marksmanRMC = Пехотный снайпер
 au14-job-prefix-govforspecialist-marksmanRMC = MRN
-au14-job-name-govforspecialist-pointmanRMC = Передовой стрелок
+au14-job-name-govforspecialist-pointmanRMC = Штурмовик
 au14-job-prefix-govforspecialist-pointmanRMC = PNM
 au14-job-name-govforspecialist-grenadierRMC = Гренадёр
 au14-job-prefix-govforspecialist-grenadierRMC = GNR
@@ -180,9 +196,9 @@ au-14-job-prefix-rmcrrt-commander = CMD
 
 au14-job-name-govforspecialist-heavyantitankUPP = Тяжёлый противотанковый специалист
 au14-job-prefix-govforspecialist-heavyantitankUPP = HAT
-au14-job-name-govforspecialist-marksmanUPP = Меткий стрелок
+au14-job-name-govforspecialist-marksmanUPP = Пехотный снайпер
 au14-job-prefix-govforspecialist-marksmanUPP = MRN
-au14-job-name-govforspecialist-pointmanUPP = Передовой стрелок
+au14-job-name-govforspecialist-pointmanUPP = Штурмовик
 au14-job-prefix-govforspecialist-pointmanUPP = PNM
 
 au-14-job-name-uppgrom-squadleader = Командир отряда
