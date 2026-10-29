@@ -14,6 +14,11 @@
   - type: TTS
     voice: BOYZ_ORKS
     faction: Xeno
+  - type: FiremanCarriable # CMU14: Yautja can aggressively grab, carry and throw this caste
+    canThrow: true
+    carrierWhitelist:
+      components:
+      - Yautja
   - type: GuideHelp
     guides:
     - RMCGuideRoleCrusher

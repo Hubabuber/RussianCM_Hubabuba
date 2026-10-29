@@ -1,11 +1,10 @@
 
-<!-- CMU14: compact character rail with account actions. -->
+<!-- RuCMU: upstream character setup with account actions. -->
 <Control xmlns="https://spacestation14.io"
          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
          xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
          xmlns:style="clr-namespace:Content.Client.Stylesheets"
          xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls"
-         xmlns:cmu="clr-namespace:Content.Client.CMU14.Lobby"
          VerticalExpand="True">
     <Control>
         <PanelContainer Name="BackgroundPanel"/>
@@ -66,34 +65,28 @@
                           VerticalExpand="True"
                           SeparationOverride="0">
 
-                <!-- CMU14: compact character sidebar -->
-                <BoxContainer Orientation="Vertical"
-                              MinWidth="210"
-                              MaxWidth="210"
-                              Margin="5 5 0 0"
-                              SeparationOverride="6">
+                <!-- RuCMU: upstream sidebar with account actions -->
+                <ScrollContainer MinWidth="325"
+                                 MaxWidth="325"
+                                 Margin="5 5 0 0">
 
-                    <!-- Account actions -->
-                    <BoxContainer Name="AccountActions"
-                                  Access="Public"
-                                  Orientation="Vertical"
-                                  SeparationOverride="4"
-                                  HorizontalExpand="True"/>
+                    <BoxContainer Orientation="Vertical"
+                                  SeparationOverride="6">
 
-                    <!-- Divider -->
-                    <PanelContainer StyleClasses="LowDivider"/>
+                        <!-- RuCMU: account actions -->
+                        <BoxContainer Name="AccountActions"
+                                      Access="Public"
+                                      Orientation="Vertical"
+                                      SeparationOverride="4"/>
 
-                    <!-- Scrollable character grid -->
-                    <ScrollContainer HScrollEnabled="False"
-                                     VerticalExpand="True"
-                                     HorizontalExpand="True">
+                        <PanelContainer StyleClasses="LowDivider"/>
 
-                        <cmu:CmuAdaptiveGrid Name="Characters"
-                                             HorizontalExpand="True"/>
+                        <!-- Upstream character list -->
+                        <BoxContainer Name="Characters"
+                                      Orientation="Vertical"/>
 
-                    </ScrollContainer>
-
-                </BoxContainer>
+                    </BoxContainer>
+                </ScrollContainer>
 
                 <!-- Body divider -->
                 <PanelContainer Name="BodyDividerPanel"
