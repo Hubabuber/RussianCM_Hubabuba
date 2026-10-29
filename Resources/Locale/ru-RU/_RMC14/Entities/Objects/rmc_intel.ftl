@@ -30,12 +30,3 @@ ent-RMCComputerIntelOpfor = консоль разведки ОПФОР
 
 ent-RMCTechTreeConsole = консоль технологий
     .desc = Консоль для приобретения технологий.
-
-ent-RMCTechTreeConsoleCLF = консоль технологий КОФ
-    .desc = {ent-RMCTechTreeConsole.desc}
-
-ent-RMCTechTreeConsoleGovfor = консоль технологий ГОВФОР
-    .desc = {ent-RMCTechTreeConsole.desc}
-
-ent-RMCTechTreeConsoleOpfor = консоль технологий ОПФОР
-    .desc = {ent-RMCTechTreeConsole.desc}

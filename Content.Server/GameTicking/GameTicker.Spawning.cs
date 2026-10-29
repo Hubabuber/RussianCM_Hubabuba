@@ -569,6 +569,7 @@ namespace Content.Server.GameTicking
             bool lateJoin = true,
             bool silent = false)
         {
+            if (!DiscordGate.EnsureCanPlay(player)) return; // CMU14
             if (IsThreatVoteRoundJoinBlocked(player))
                 return;
 
@@ -618,6 +619,7 @@ namespace Content.Server.GameTicking
             bool lateJoin = true,
             bool silent = false)
         {
+            if (!DiscordGate.EnsureCanPlay(player)) return; // CMU14
             // Can't spawn players with a dummy ticker!
             if (DummyTicker)
                 return;
@@ -928,6 +930,7 @@ namespace Content.Server.GameTicking
         /// <param name="silent" >Whether the player should be greeted upon joining</param>
         public void MakeJoinGame(ICommonSession player, EntityUid station, string? jobId = null, bool silent = false)
         {
+            if (!DiscordGate.EnsureCanPlay(player)) return; // CMU14
             if (!_playerGameStatuses.ContainsKey(player.UserId))
                 return;
 
@@ -942,6 +945,7 @@ namespace Content.Server.GameTicking
         /// </summary>
         public void JoinAsObserver(ICommonSession player)
         {
+            if (!DiscordGate.EnsureCanPlay(player)) return; // CMU14
             // Can't spawn players with a dummy ticker!
             if (DummyTicker)
                 return;
@@ -956,6 +960,7 @@ namespace Content.Server.GameTicking
         /// </summary>
         public void SpawnObserver(ICommonSession player)
         {
+            if (!DiscordGate.EnsureCanPlay(player)) return; // CMU14
             if (DummyTicker)
                 return;
 

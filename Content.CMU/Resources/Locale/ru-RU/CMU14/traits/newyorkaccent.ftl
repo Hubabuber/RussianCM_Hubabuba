@@ -1,5 +1,5 @@
-trait-newyork-name = New York accent
-trait-newyork-desc = You speak with a thick New York accent. I'm fuckin' walkin' 'ere!
+trait-newyork-name = Нью-йоркский акцент
+trait-newyork-desc = Вы говорите с нью-йоркским акцентом. Я, бл*ть, иду тут, понял!
 
 accent-newyork-words-1 = girl
 accent-newyork-words-replace-1 = broad

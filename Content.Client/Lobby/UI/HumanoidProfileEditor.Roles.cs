@@ -294,7 +294,7 @@ public sealed partial class HumanoidProfileEditor
                 foreach (var (target, gamemode, sectionKey, sectionTitle) in
                          GetJobSections(department, job, departmentName))
                 {
-                    if (!job.IsAvailableInCharacterSetup(gamemode)) // CMU14: hide training roles outside their preset.
+                    if (!Content.Shared._RuCM.Kaban.KabanJobCatalog.Presets(department, job).Contains(gamemode)) // CMU14: share the visible role catalogue with priorities.
                         continue;
                     AddJobSelector(
                         target,

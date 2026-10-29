@@ -145,7 +145,7 @@ public sealed partial class TTSSystem : EntitySystem
         if (!_isEnabled || roundGeneration != _roundGeneration || TerminatingOrDeleted(uid))
             return;
 
-        if (!TryResolveSpeaker(voiceId, out var speaker, GetSpeakerSex(args.VoiceSource ?? uid)))
+        if (!TryResolveSpeaker(voiceId, out var speaker, GetSpeakerSex(args.VoiceSource ?? uid), KabanOwner(uid))) // CMU14
         {
             Logger.Warning(
                 $"TTS voice prototype '{voiceId}' was not found.");
@@ -231,7 +231,7 @@ public sealed partial class TTSSystem : EntitySystem
                 return;
             if (!_isEnabled || generation != _roundGeneration)
                 return;
-            if (!TryResolveSpeaker(ev.VoiceId, out var speaker))
+            if (!TryResolveSpeaker(ev.VoiceId, out var speaker, owner: args.SenderSession.UserId)) // CMU14
                 return;
             var data = await GenerateSpeech(speaker,
                 Loc.GetString("tts-preview-text"));

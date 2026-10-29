@@ -2,18 +2,18 @@ ent-AU14CivilianClothingVendor = гардероб гражданской оде�
     .desc = Гардероб, содержащий всю одежду, которая может понадобиться гражданскому.
     .suffix = Гражданский
 
-ent-AU14CivilianEngineerVendor = гражданский инженерно-логистический торгомат
+ent-AU14CivilianEngineerVendor = гражданский ИнжеМат
     .desc = Торгомат, содержащий всё снаряжение, которое может понадобиться инженеру или логисту.
     .suffix = Гражданский
 
-ent-AU14CivilianMedicalClothingVendor = гражданский медицинский торгомат
+ent-AU14CivilianMedicalClothingVendor = гражданский МедиМат
     .desc = Торгомат, содержащий всю одежду и снаряжение, которое может потребоваться медицинскому персоналу.
     .suffix = Гражданский
 
-ent-AU14CivilianEmergencyResponderOfficerVendor = гражданский торгомат парамедика
+ent-AU14CivilianEmergencyResponderOfficerVendor = гражданский ПарамедоМат
     .desc = Торгомат, содержащий всю одежду и снаряжение, которое может потребоваться парамедику.
     .suffix = Гражданский
 
-ent-AU14CivilianColonyOperationsSyntheticVendor = гражданский торгомат синтетиков колониальных операций
+ent-AU14CivilianColonyOperationsSyntheticVendor = гражданский СинтКолМат
     .desc = Торгомат, содержащий всю одежду и снаряжение, которое может понадобиться синтетику колониальных операций.
     .suffix = Гражданский

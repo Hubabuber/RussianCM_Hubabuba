@@ -24,6 +24,7 @@ public sealed partial class MiscTab : Control
     {
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
+        InitializeRuCMDiscordSettings(); // CMU14
 
         var themes = _prototypeManager.EnumeratePrototypes<HudThemePrototype>().ToList();
         themes.Sort();

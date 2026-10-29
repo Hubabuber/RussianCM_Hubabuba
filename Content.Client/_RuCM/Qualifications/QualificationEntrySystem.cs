@@ -34,20 +34,15 @@ public sealed partial class QualificationEntrySystem : EntitySystem
     {
         base.Initialize();
         SubscribeNetworkEvent<QualificationPolicyState>(ReceivePolicy);
-        _ui.OnScreenChanged += OnScreenChanged;
         _ui.WindowRoot.OnChildAdded += OnWindowAdded;
         _ui.WindowRoot.OnChildRemoved += OnWindowRemoved;
-        if (_ui.ActiveScreen is LobbyGui lobby) AttachLobby(lobby, OpenRecord);
     }
     public override void Shutdown()
     {
-        _ui.OnScreenChanged -= OnScreenChanged;
         _ui.WindowRoot.OnChildAdded -= OnWindowAdded;
         _ui.WindowRoot.OnChildRemoved -= OnWindowRemoved;
         _escapes.Clear(); base.Shutdown();
     }
-    private void OnScreenChanged((UIScreen? Old, UIScreen? New) screens)
-    { if (screens.New is LobbyGui lobby) AttachLobby(lobby, OpenRecord); }
     private void OnWindowAdded(Control control)
     {
         if (control is not EscapeMenu escape) return;
@@ -94,11 +89,10 @@ public sealed partial class QualificationEntrySystem : EntitySystem
         foreach (var child in root.Children.ToArray())
         { yield return child; foreach (var descendant in Descendants(child)) yield return descendant; }
     }
-    public static Button AttachLobby(LobbyGui lobby, Action open)
-    {
-        var parent = lobby.ObserveButton.Parent!;
-        return AddButton(parent, "RuCMQualificationLobby", "lobby-record", open);
-    }
+    // CMU14: personal records belong to character personalization, not the round action column.
+    public Button AttachPersonalization(Control parent) => AttachPersonalization(parent, OpenRecord);
+    public static Button AttachPersonalization(Control parent, Action open)
+        => AddButton(parent, "RuCMQualificationPersonalization", "lobby-record", open);
     public static Button AttachEscape(EscapeMenu escape, bool staff, Action open)
     {
         var parent = escape.RulesButton.Parent!;

@@ -49,6 +49,8 @@ namespace Content.Server.Database
         public DbSet<RoleWhitelist> RoleWhitelists { get; set; } = null!;
         public DbSet<YautjaClan> YautjaClans { get; set; } = null!;
         public DbSet<YautjaClanMember> YautjaClanMembers { get; set; } = null!;
+        public DbSet<YautjaClanPetition> YautjaClanPetitions { get; set; } = null!; // CMU14
+        public DbSet<YautjaClanSect> YautjaClanSects { get; set; } = null!; // CMU14
         public DbSet<BanTemplate> BanTemplate { get; set; } = null!;
         public DbSet<IPIntelCache> IPIntelCache { get; set; } = null!;
         public DbSet<CustomVoteLog> CustomVoteLog { get; set; } = null!;
@@ -82,6 +84,7 @@ namespace Content.Server.Database
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            KabanModel.Configure(modelBuilder); // CMU14: RuCM reward economy.
             modelBuilder.Entity<Preference>()
                 .HasIndex(p => p.UserId)
                 .IsUnique();

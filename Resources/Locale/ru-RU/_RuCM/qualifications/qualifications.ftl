@@ -365,7 +365,7 @@ rucm-qualifications-reset-recruit = Вернуть в рекруты
 rucm-qualifications-reset-recruit-help = Отзывает все военные и профессиональные допуски, очищает текущие зачётные листы и отключает аккредитацию инструктора. История сохраняется. Руководство, командир и администратор выполняют сброс сразу; обычному офицеру нужна подпись второго офицера. Игрок сможет пройти обучение заново.
 rucm-qualifications-error-reset_pending = Для этого игрока уже ожидается подтверждение сброса до рекрута.
 
-cmd-qualificationentrypreview-desc = Сохранить локальные снимки кнопок личного дела в лобби и Esc и закрыть клиент.
+cmd-qualificationentrypreview-desc = Сохранить локальные снимки кнопок личного дела в персонализации и Esc и закрыть клиент.
 cmd-qualificationentrypreview-help = qualificationentrypreview
 
 rucm-qualifications-gate-insurgency = Восстание · доступ через подготовку
@@ -375,7 +375,7 @@ rucm-qualifications-gate-timers-help = Сейчас квалификации н�
 
 rucm-qualifications-preview-disconnected-only = Локальная проверка экрана доступна только без подключения к серверу.
 
-rucm-qualifications-entry-preview-title = Локальная проверка · блок действий лобби
+rucm-qualifications-entry-preview-title = Локальная проверка · персонализация
 
 rucm-qualifications-nav-recruit-reset = Вернуть в рекруты
 rucm-qualifications-help-recruit-reset = Сброс выбранного аккаунта до базового уровня. Проверьте имя, укажите причину и подтвердите решение.

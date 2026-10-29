@@ -4,7 +4,7 @@
 # TODO: CMU split these into per file categories, same for the Platoon catalogs
 - type: entity
   abstract: true
-  parent: [ CMUASRSResearchGoodies, CMUASRSBotanyGoodies, CMUASRSAtmosGoodies, CMUASRSRefineryGoodies ]
+  parent: [ CMUASRSResearchGoodies, CMUASRSBotanyGoodies, CMUASRSAtmosGoodies, CMUASRSRefineryGoodies, CMUASRSColonyJeepKits ]
   id: CMCargoCatalog
   components:
   - type: Speech
@@ -15,6 +15,8 @@
       entries:
       - cost: 370
         crate: RMCCrateSandbagsConstructionKit
+      - cost: 1200
+        crate: CMUCrateHESCO
       - cost: 800
         crate: CMUCrateAtmosSupplies
       - cost: 600
@@ -63,16 +65,6 @@
         crate: CMUCrateBiosuitGeneral # Yellow engineering colors
     - name: Materials
       entries:
-      # RUMC Begin: the contracts of the companies, for a trade platform
-      - cost: 120
-        crate: RUMCTradeContractMetals # RUMC: the contracts of the companies, for a trade platform
-      - cost: 150
-        crate: RUMCTradeContractSheets
-      - cost: 100
-        crate: RUMCTradeContractGems
-      - cost: 40
-        crate: RUMCTradeContractFuel
-      # RUMC End
       - cost: 350
         crate: RMCCrateResearchPhoron
       - cost: 350
@@ -416,6 +408,10 @@
         stockReplenishDelay: 300
       - cost: 1900
         crate: CMUCrateVehiclePartAPCFrontCannon
+        maxStock: 2
+        stockReplenishDelay: 300
+      - cost: 1900
+        crate: CMUCrateVehiclePartAPCDualCannon
         maxStock: 2
         stockReplenishDelay: 300
 

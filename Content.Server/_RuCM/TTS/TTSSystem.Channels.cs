@@ -90,7 +90,7 @@ public sealed partial class TTSSystem
             await EnsureReferenceVoiceCatalogLoaded();
         if (!_isEnabled || generation != _roundGeneration)
             return;
-        if (!TryResolveSpeaker(voice, out var speaker, GetSpeakerSex(args.MessageSource)))
+        if (!TryResolveSpeaker(voice, out var speaker, GetSpeakerSex(args.MessageSource), KabanOwner(args.MessageSource))) // CMU14
             return;
         var data = await GenerateSpeech(speaker, args.Message);
         await delivery.Previous;
@@ -133,7 +133,7 @@ public sealed partial class TTSSystem
             await EnsureReferenceVoiceCatalogLoaded();
         if (!_isEnabled || generation != _roundGeneration)
             return;
-        if (!TryResolveSpeaker(voice, out var speaker, GetSpeakerSex(args.Source)))
+        if (!TryResolveSpeaker(voice, out var speaker, GetSpeakerSex(args.Source), KabanOwner(args.Source))) // CMU14
             return;
         var data = await GenerateSpeech(speaker, args.RawMessage);
         await delivery.Previous;
