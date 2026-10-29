@@ -52,21 +52,33 @@
   ranks:
     RMCRankCivilian: []
   chevrons:
-    UPP_Private:
-      entity: AU14ChevronUPPNIPrivate
+    UPP_Plutonowy:
+      entity: AU14ChevronUPPNIPlutonowy
       requirements: []
-    UPP_Gefreiter:
-      entity: AU14ChevronUPPNIGefreiter
+    UPP_Sergeant:
+      entity: AU14ChevronUPPNISergeant
       requirements:
       - !type:RoleTimeRequirement
         role: RuMCJobUPPNorcommChief
         time: 1800 # 0.5 hours
-    UPP_SeniorGefreiter:
-      entity: AU14ChevronUPPNISeniorGefreiter
+    UPP_SeniorSergeant:
+      entity: AU14ChevronUPPNISeniorSergeant
       requirements:
       - !type:RoleTimeRequirement
         role: RuMCJobUPPNorcommChief
         time: 5400 # 1.5 hours
+    UPP_JuniorLieutenant:
+      entity: AU14ChevronUPPNIJuniorLieutenant
+      requirements:
+      - !type:RoleTimeRequirement
+        role: RuMCJobUPPNorcommChief
+        time: 7200 # 2 hours
+    UPP_Lieutenant:
+      entity: AU14ChevronUPPNILieutenant
+      requirements:
+      - !type:RoleTimeRequirement
+        role: RuMCJobUPPNorcommChief
+        time: 10800 # 3 hours
   spawnMenuRoleName: ChiefEngineer
   startingGear: RuMCGearUPPNorcommChief
   greeting: rumc-ChiefEngineer-greeting
@@ -90,7 +102,7 @@
     allowSpeech: true
     allowMovement: true
     name: ChiefEngineer
-    description: You are part of a UPP ChiefEngineer team! Your job is to burn every biological threat on the colony to the ground. Not one step back!
+    description: You are part of a UPP Norcomm Lui team! Your job is to burn every biological threat on the colony to the ground. Not one step back!
     job: RuMCUPPNorcommChief
     raffle:
       settings: short
@@ -106,14 +118,18 @@
     head: RuMCHeadCapNoLu
     belt: AU14BeltUtilityFilled
     pocket1: AU14PouchIFAKFill
-    pocket2: AU14PouchIFAKFill
+    pocket2: RuMCUPPPouchConstructionFill
     back: RuMCUPPNavalInfantrySatchel
     ears: RuMCHeadsetNorcommLiu
     suitstorage: AU14BeltHolsterPistolUPPFull
   storage:
     back:
     - RuMCirpUPP
-    - RuMCirpUPP
+    - CMSheetMetal
+    - CMSheetPlasteel50
+    - AU14GrenadeHighExplosiveUPP
+    - AU14GrenadeHighExplosiveUPP
+    - RMCWeldingGogglesSuperior
   inhand:
     - AU14GlovesCBRNUPP
 
