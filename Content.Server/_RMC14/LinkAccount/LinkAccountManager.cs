@@ -95,7 +95,7 @@ public sealed partial class LinkAccountManager : IPostInjectInit
             SendPatronStatus(session);
     }
 
-    private void OnRequest(LinkAccountRequestMsg message)
+    private async void OnRequest(LinkAccountRequestMsg message) // CMU14: persist before exposing a usable code.
     {
         var user = message.MsgChannel.UserId;
         var time = _timing.RealTime;
@@ -108,10 +108,16 @@ public sealed partial class LinkAccountManager : IPostInjectInit
         _lastRequest[user] = time;
 
         var code = Guid.NewGuid();
-        _db.SetLinkingCode(user, code);
-
-        var response = new LinkAccountCodeMsg { Code = code };
-        _net.ServerSendMessage(response, message.MsgChannel);
+        try
+        {
+            await _db.SetLinkingCode(user, code);
+            if (_player.TryGetSessionById(user, out var session) && session.Channel == message.MsgChannel)
+                _net.ServerSendMessage(new LinkAccountCodeMsg { Code = code }, message.MsgChannel);
+        }
+        catch (Exception)
+        {
+            Robust.Shared.Log.Logger.WarningS("rucm.discord.link", "Could not store account-link code; request a new code.");
+        }
     }
 
     private void OnClearGhostColor(RMCClearGhostColorMsg message)

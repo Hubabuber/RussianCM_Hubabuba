@@ -46,12 +46,15 @@ def update_submodules():
     if 'GITHUB_ACTIONS' in os.environ:
         return
 
-    if os.path.isfile("DISABLE_SUBMODULE_AUTOUPDATE"):
+    if (Path(__file__).resolve().parent / "DISABLE_SUBMODULE_AUTOUPDATE").is_file():  # CMU14: independent of caller cwd.
         return
 
     # If the status doesn't match, force VS to reload the solution.
     # status = run_command(["git", "submodule", "status"], capture=True)
-    run_command(["git", "submodule", "update", "--init", "--recursive"])
+    # CMU14: hooks export GIT_DIR before entering BuildChecker. Anchor the work tree explicitly
+    # so submodule checkouts are created at the repository root, including in linked worktrees.
+    repository = Path(__file__).resolve().parent.parent
+    run_command(["git", "-C", str(repository), f"--work-tree={repository}", "submodule", "update", "--init", "--recursive"])
     # status2 = run_command(["git", "submodule", "status"], capture=True)
 
     # Something changed.

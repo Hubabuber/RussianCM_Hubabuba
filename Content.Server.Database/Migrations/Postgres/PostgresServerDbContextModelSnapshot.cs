@@ -1249,6 +1249,675 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.ToTable("job", (string)null);
                 });
 
+            modelBuilder.Entity("Content.Server.Database.KabanApproval", b =>
+                {
+                    b.Property<Guid>("AwardId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("award_id");
+
+                    b.Property<Guid>("Approver")
+                        .HasColumnType("uuid")
+                        .HasColumnName("approver");
+
+                    b.Property<long>("At")
+                        .HasColumnType("bigint")
+                        .HasColumnName("at");
+
+                    b.Property<bool>("Senior")
+                        .HasColumnType("boolean")
+                        .HasColumnName("senior");
+
+                    b.HasKey("AwardId", "Approver")
+                        .HasName("PK_rucm_kaban_approval");
+
+                    b.ToTable("rucm_kaban_approval", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanAudit", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("kaban_audit_id");
+
+                    b.Property<string>("Action")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("action");
+
+                    b.Property<Guid>("Actor")
+                        .HasColumnType("uuid")
+                        .HasColumnName("actor");
+
+                    b.Property<long>("At")
+                        .HasColumnType("bigint")
+                        .HasColumnName("at");
+
+                    b.Property<string>("Detail")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("detail");
+
+                    b.Property<Guid>("Operation")
+                        .HasColumnType("uuid")
+                        .HasColumnName("operation");
+
+                    b.Property<Guid>("Target")
+                        .HasColumnType("uuid")
+                        .HasColumnName("target");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_audit");
+
+                    b.HasIndex("Target", "At");
+
+                    b.ToTable("rucm_kaban_audit", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanAward", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("kaban_award_id");
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("integer")
+                        .HasColumnName("amount");
+
+                    b.Property<long>("At")
+                        .HasColumnType("bigint")
+                        .HasColumnName("at");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("category");
+
+                    b.Property<bool>("Exceptional")
+                        .HasColumnType("boolean")
+                        .HasColumnName("exceptional");
+
+                    b.Property<Guid>("Initiator")
+                        .HasColumnType("uuid")
+                        .HasColumnName("initiator");
+
+                    b.Property<long>("PaidAt")
+                        .HasColumnType("bigint")
+                        .HasColumnName("paid_at");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("reason");
+
+                    b.Property<Guid>("Recipient")
+                        .HasColumnType("uuid")
+                        .HasColumnName("recipient");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_award");
+
+                    b.HasIndex("Recipient", "PaidAt");
+
+                    b.ToTable("rucm_kaban_award", null, t =>
+                        {
+                            t.HasCheckConstraint("ck_kaban_award", "amount > 0");
+                        });
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanDiscordRole", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.Property<string>("Color")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("color");
+
+                    b.Property<Guid>("Delivery")
+                        .HasColumnType("uuid")
+                        .HasColumnName("delivery");
+
+                    b.Property<string>("DiscordId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("discord_id");
+
+                    b.Property<string>("Lease")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("lease");
+
+                    b.Property<long>("LeaseUntil")
+                        .HasColumnType("bigint")
+                        .HasColumnName("lease_until");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<string>("PreviousColor")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("previous_color");
+
+                    b.Property<string>("PreviousName")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("previous_name");
+
+                    b.Property<Guid>("PurchaseId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("purchase_id");
+
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("role_id");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.HasKey("UserId")
+                        .HasName("PK_rucm_kaban_discord_role");
+
+                    b.HasIndex("PurchaseId");
+
+                    b.HasIndex("Status", "LeaseUntil");
+
+                    b.ToTable("rucm_kaban_discord_role", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanLedger", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("kaban_ledger_id");
+
+                    b.Property<Guid>("Actor")
+                        .HasColumnType("uuid")
+                        .HasColumnName("actor");
+
+                    b.Property<long>("At")
+                        .HasColumnType("bigint")
+                        .HasColumnName("at");
+
+                    b.Property<long>("Balance")
+                        .HasColumnType("bigint")
+                        .HasColumnName("balance");
+
+                    b.Property<long>("Delta")
+                        .HasColumnType("bigint")
+                        .HasColumnName("delta");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("reason");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_ledger");
+
+                    b.HasIndex("UserId", "At");
+
+                    b.ToTable("rucm_kaban_ledger", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanLock", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("kaban_lock_id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<long>("Revision")
+                        .HasColumnType("bigint")
+                        .HasColumnName("revision");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_lock");
+
+                    b.ToTable("rucm_kaban_lock", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Revision = 0L
+                        });
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanOperation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("kaban_operation_id");
+
+                    b.Property<Guid>("Actor")
+                        .HasColumnType("uuid")
+                        .HasColumnName("actor");
+
+                    b.Property<long>("At")
+                        .HasColumnType("bigint")
+                        .HasColumnName("at");
+
+                    b.Property<string>("Fingerprint")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("fingerprint");
+
+                    b.Property<string>("Result")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("result");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_operation");
+
+                    b.ToTable("rucm_kaban_operation", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanProduct", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("text")
+                        .HasColumnName("kaban_product_id");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("boolean")
+                        .HasColumnName("enabled");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("integer")
+                        .HasColumnName("price");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_product");
+
+                    b.ToTable("rucm_kaban_product", null, t =>
+                        {
+                            t.HasCheckConstraint("ck_kaban_price", "price > 0");
+                        });
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "priority3",
+                            Enabled = true,
+                            Price = 60
+                        },
+                        new
+                        {
+                            Id = "priority5",
+                            Enabled = true,
+                            Price = 150
+                        },
+                        new
+                        {
+                            Id = "pack3",
+                            Enabled = true,
+                            Price = 165
+                        },
+                        new
+                        {
+                            Id = "pack5",
+                            Enabled = true,
+                            Price = 420
+                        },
+                        new
+                        {
+                            Id = "flex3",
+                            Enabled = true,
+                            Price = 100
+                        },
+                        new
+                        {
+                            Id = "flex5",
+                            Enabled = true,
+                            Price = 190
+                        },
+                        new
+                        {
+                            Id = "mode",
+                            Enabled = true,
+                            Price = 350
+                        },
+                        new
+                        {
+                            Id = "map",
+                            Enabled = true,
+                            Price = 250
+                        },
+                        new
+                        {
+                            Id = "govfor",
+                            Enabled = true,
+                            Price = 200
+                        },
+                        new
+                        {
+                            Id = "opfor",
+                            Enabled = true,
+                            Price = 200
+                        },
+                        new
+                        {
+                            Id = "full",
+                            Enabled = true,
+                            Price = 800
+                        },
+                        new
+                        {
+                            Id = "voice",
+                            Enabled = true,
+                            Price = 600
+                        },
+                        new
+                        {
+                            Id = "discord",
+                            Enabled = true,
+                            Price = 300
+                        },
+                        new
+                        {
+                            Id = "rename",
+                            Enabled = true,
+                            Price = 50
+                        });
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanPurchase", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("kaban_purchase_id");
+
+                    b.Property<long>("At")
+                        .HasColumnType("bigint")
+                        .HasColumnName("at");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("integer")
+                        .HasColumnName("price");
+
+                    b.Property<string>("ProductId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("product_id");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_purchase");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId", "At");
+
+                    b.ToTable("rucm_kaban_purchase", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanRoundRequest", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("kaban_round_request_id");
+
+                    b.Property<long>("At")
+                        .HasColumnType("bigint")
+                        .HasColumnName("at");
+
+                    b.Property<long>("CompletedAt")
+                        .HasColumnType("bigint")
+                        .HasColumnName("completed_at");
+
+                    b.Property<string>("Parameters")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("parameters");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("integer")
+                        .HasColumnName("price");
+
+                    b.Property<string>("ProductId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("product_id");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_round_request");
+
+                    b.HasIndex("Status", "At");
+
+                    b.ToTable("rucm_kaban_round_request", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanToken", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("kaban_token_id");
+
+                    b.Property<long>("Expires")
+                        .HasColumnType("bigint")
+                        .HasColumnName("expires");
+
+                    b.Property<bool>("Flexible")
+                        .HasColumnType("boolean")
+                        .HasColumnName("flexible");
+
+                    b.Property<string>("Jobs")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("jobs");
+
+                    b.Property<int>("Multiplier")
+                        .HasColumnType("integer")
+                        .HasColumnName("multiplier");
+
+                    b.Property<Guid>("PurchaseId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("purchase_id");
+
+                    b.Property<Guid>("Reservation")
+                        .HasColumnType("uuid")
+                        .HasColumnName("reservation");
+
+                    b.Property<string>("Server")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("server");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_token");
+
+                    b.HasIndex("PurchaseId");
+
+                    b.HasIndex("UserId", "Status");
+
+                    b.ToTable("rucm_kaban_token", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanTokenUse", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("kaban_token_use_id");
+
+                    b.Property<long>("At")
+                        .HasColumnType("bigint")
+                        .HasColumnName("at");
+
+                    b.Property<bool>("Command")
+                        .HasColumnType("boolean")
+                        .HasColumnName("command");
+
+                    b.Property<string>("Job")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("job");
+
+                    b.Property<int>("Multiplier")
+                        .HasColumnType("integer")
+                        .HasColumnName("multiplier");
+
+                    b.Property<string>("Round")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("round");
+
+                    b.Property<string>("Server")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("server");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.Property<Guid>("TokenId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("token_id");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id")
+                        .HasName("PK_rucm_kaban_token_use");
+
+                    b.HasIndex("TokenId");
+
+                    b.HasIndex("UserId", "At");
+
+                    b.ToTable("rucm_kaban_token_use", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanVoice", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.Property<string>("Consent")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("consent");
+
+                    b.Property<Guid>("PurchaseId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("purchase_id");
+
+                    b.Property<string>("Speaker")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("speaker");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.HasKey("UserId")
+                        .HasName("PK_rucm_kaban_voice");
+
+                    b.HasIndex("PurchaseId");
+
+                    b.HasIndex("Speaker")
+                        .IsUnique();
+
+                    b.ToTable("rucm_kaban_voice", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanVoiceClaim", b =>
+                {
+                    b.Property<string>("Speaker")
+                        .HasColumnType("text")
+                        .HasColumnName("speaker");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Speaker")
+                        .HasName("PK_rucm_kaban_voice_claim");
+
+                    b.ToTable("rucm_kaban_voice_claim", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanWallet", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.Property<long>("Balance")
+                        .HasColumnType("bigint")
+                        .HasColumnName("balance");
+
+                    b.Property<long>("Earned")
+                        .HasColumnType("bigint")
+                        .HasColumnName("earned");
+
+                    b.HasKey("UserId")
+                        .HasName("PK_rucm_kaban_wallet");
+
+                    b.ToTable("rucm_kaban_wallet", null, t =>
+                        {
+                            t.HasCheckConstraint("ck_kaban_balance", "balance >= 0");
+
+                            t.HasCheckConstraint("ck_kaban_earned", "earned >= 0");
+                        });
+                });
+
             modelBuilder.Entity("Content.Server.Database.PlayTime", b =>
                 {
                     b.Property<int>("Id")
@@ -1393,6 +2062,13 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("allegiance");
 
+                    b.Property<string>("ArmorFlavorText")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("text")
+                        .HasDefaultValue("")
+                        .HasColumnName("armor_flavor_text");
+
                     b.Property<string>("ArmorPreference")
                         .IsRequired()
                         .HasColumnType("text")
@@ -1444,6 +2120,18 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("flavor_text");
 
+                    b.Property<int>("FoFFallback")
+                        .HasColumnType("integer")
+                        .HasColumnName("fo_f_fallback");
+
+                    b.Property<int>("FoFSide")
+                        .HasColumnType("integer")
+                        .HasColumnName("fo_f_side");
+
+                    b.Property<bool>("FoxtrotSquadOptIn")
+                        .HasColumnType("boolean")
+                        .HasColumnName("foxtrot_squad_opt_in");
+
                     b.Property<string>("FullDescription")
                         .IsRequired()
                         .ValueGeneratedOnAdd()
@@ -1454,14 +2142,6 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Property<string>("GamemodeAntagPreferences")
                         .HasColumnType("text")
                         .HasColumnName("gamemode_antag_preferences");
-
-                    b.Property<int>("FoFSide")
-                        .HasColumnType("integer")
-                        .HasColumnName("fo_f_side");
-
-                    b.Property<int>("FoFFallback")
-                        .HasColumnType("integer")
-                        .HasColumnName("fo_f_fallback");
 
                     b.Property<string>("GamemodeJobPriorities")
                         .HasColumnType("text")
@@ -1500,6 +2180,13 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasDefaultValue("")
                         .HasColumnName("height");
 
+                    b.Property<string>("HelmetFlavorText")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("text")
+                        .HasDefaultValue("")
+                        .HasColumnName("helmet_flavor_text");
+
                     b.Property<bool>("HideMetaInformation")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("boolean")
@@ -1517,6 +2204,10 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasDefaultValue("")
                         .HasColumnName("medical_record");
 
+                    b.Property<JsonDocument>("OrganMarkings")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("organ_markings");
+
                     b.Property<string>("Origin")
                         .HasColumnType("text")
                         .HasColumnName("origin");
@@ -1530,9 +2221,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("boolean")
                         .HasDefaultValue(true)
                         .HasColumnName("playtime_perks");
-                    b.Property<JsonDocument>("OrganMarkings")
-                        .HasColumnType("jsonb")
-                        .HasColumnName("organ_markings");
 
                     b.Property<int>("PreferenceId")
                         .HasColumnType("integer")
@@ -1562,32 +2250,12 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("regulation_hair_name");
 
-                    // cmu edit start
-                    b.Property<bool>("FoxtrotSquadOptIn")
-                        .HasColumnType("boolean")
-                        .HasColumnName("foxtrot_squad_opt_in");
-
                     b.Property<string>("Religion")
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("text")
                         .HasDefaultValue("")
                         .HasColumnName("religion");
-
-                    b.Property<string>("ArmorFlavorText")
-                        .IsRequired()
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("text")
-                        .HasDefaultValue("")
-                        .HasColumnName("armor_flavor_text");
-
-                    b.Property<string>("HelmetFlavorText")
-                        .IsRequired()
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("text")
-                        .HasDefaultValue("")
-                        .HasColumnName("helmet_flavor_text");
-                    // cmu edit end
 
                     b.Property<string>("Sex")
                         .IsRequired()
@@ -1623,9 +2291,17 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("boolean")
                         .HasColumnName("synthetic");
 
+                    b.Property<string>("TTSVoice")
+                        .HasColumnType("text")
+                        .HasColumnName("tts_voice");
+
                     b.Property<string>("ThreatPreference")
                         .HasColumnType("text")
                         .HasColumnName("threat_preference");
+
+                    b.Property<string>("Voice")
+                        .HasColumnType("text")
+                        .HasColumnName("voice");
 
                     b.Property<int>("Weight")
                         .ValueGeneratedOnAdd()
@@ -1646,13 +2322,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasDefaultValue("")
                         .HasColumnName("xeno_prefix");
-                    b.Property<string>("TTSVoice")
-                        .HasColumnType("text")
-                        .HasColumnName("tts_voice");
-
-                    b.Property<string>("Voice")
-                        .HasColumnType("text")
-                        .HasColumnName("voice");
 
                     b.Property<string>("YautjaProfile")
                         .HasColumnType("text")
@@ -2484,6 +3153,13 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("description");
 
+                    // cmu edit start
+                    b.Property<string>("EliteNotes")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("elite_notes");
+                    // cmu edit end
+
                     b.Property<int>("Honor")
                         .HasColumnType("integer")
                         .HasColumnName("honor");
@@ -2493,11 +3169,83 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("name");
 
+                    // cmu edit start
+                    b.Property<string>("Notice")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("notice");
+
+                    b.Property<string>("Sigil")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("sigil");
+                    // cmu edit end
+
                     b.HasKey("Id")
                         .HasName("PK_yautja_clan");
 
                     b.ToTable("yautja_clan", (string)null);
                 });
+
+            // cmu edit start
+            modelBuilder.Entity("Content.Server.Database.YautjaClanPetition", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("yautja_clan_petition_id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClanId")
+                        .HasColumnType("integer")
+                        .HasColumnName("clan_id");
+
+                    b.Property<Guid>("PlayerUserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("player_user_id");
+
+                    b.HasKey("Id")
+                        .HasName("PK_yautja_clan_petition");
+
+                    b.HasIndex("PlayerUserId")
+                        .IsUnique()
+                        .HasDatabaseName("IX_yautja_clan_petition_player_user_id");
+
+                    b.ToTable("yautja_clan_petition", (string)null);
+                });
+            modelBuilder.Entity("Content.Server.Database.YautjaClanSect", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("yautja_clan_sect_id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClanId")
+                        .HasColumnType("integer")
+                        .HasColumnName("clan_id");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("description");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.HasKey("Id")
+                        .HasName("PK_yautja_clan_sect");
+
+                    b.HasIndex("ClanId")
+                        .HasDatabaseName("IX_yautja_clan_sect_clan_id");
+
+                    b.ToTable("yautja_clan_sect", (string)null);
+                });
+            // cmu edit end
 
             modelBuilder.Entity("Content.Server.Database.YautjaClanMember", b =>
                 {
@@ -2531,6 +3279,10 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Property<int>("Rank")
                         .HasColumnType("integer")
                         .HasColumnName("rank");
+
+                    b.Property<int?>("SectId")
+                        .HasColumnType("integer")
+                        .HasColumnName("sect_id");
 
                     b.HasKey("Id")
                         .HasName("PK_yautja_clan_member");
@@ -2782,61 +3534,6 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Navigation("Profile");
                 });
 
-            modelBuilder.Entity("Content.Server.Database.CMUBalanceRatingPoll", b =>
-                {
-                    b.HasOne("Content.Server.Database.Player", "CreatedBy")
-                        .WithMany()
-                        .HasForeignKey("CreatedById")
-                        .HasPrincipalKey("UserId")
-                        .OnDelete(DeleteBehavior.SetNull)
-                        .HasConstraintName("FK_cmu_balance_rating_polls_player_created_by_id");
-
-                    b.HasOne("Content.Server.Database.Round", "Round")
-                        .WithMany()
-                        .HasForeignKey("RoundId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_cmu_balance_rating_polls_round_round_id");
-
-                    b.Navigation("CreatedBy");
-
-                    b.Navigation("Round");
-                });
-
-            modelBuilder.Entity("Content.Server.Database.CMUBalanceRatingResponse", b =>
-                {
-                    b.HasOne("Content.Server.Database.Player", "Player")
-                        .WithMany()
-                        .HasForeignKey("PlayerId")
-                        .HasPrincipalKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_cmu_balance_rating_responses_player_player_id");
-
-                    b.HasOne("Content.Server.Database.CMUBalanceRatingPoll", "Poll")
-                        .WithMany("Responses")
-                        .HasForeignKey("PollId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_cmu_balance_rating_responses_cmu_balance_rating_polls_poll_~");
-
-                    b.Navigation("Player");
-
-                    b.Navigation("Poll");
-                });
-
-            modelBuilder.Entity("Content.Server.Database.CMURoundOutcome", b =>
-                {
-                    b.HasOne("Content.Server.Database.Round", "Round")
-                        .WithOne()
-                        .HasForeignKey("Content.Server.Database.CMURoundOutcome", "RoundId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_cmu_round_outcomes_round_round_id");
-
-                    b.Navigation("Round");
-                });
-
             modelBuilder.Entity("Content.Server.Database.Ban", b =>
                 {
                     b.HasOne("Content.Server.Database.Player", "CreatedBy")
@@ -2954,6 +3651,61 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Navigation("Round");
                 });
 
+            modelBuilder.Entity("Content.Server.Database.CMUBalanceRatingPoll", b =>
+                {
+                    b.HasOne("Content.Server.Database.Player", "CreatedBy")
+                        .WithMany()
+                        .HasForeignKey("CreatedById")
+                        .HasPrincipalKey("UserId")
+                        .OnDelete(DeleteBehavior.SetNull)
+                        .HasConstraintName("FK_cmu_balance_rating_polls_player_created_by_id");
+
+                    b.HasOne("Content.Server.Database.Round", "Round")
+                        .WithMany()
+                        .HasForeignKey("RoundId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_cmu_balance_rating_polls_round_round_id");
+
+                    b.Navigation("CreatedBy");
+
+                    b.Navigation("Round");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.CMUBalanceRatingResponse", b =>
+                {
+                    b.HasOne("Content.Server.Database.Player", "Player")
+                        .WithMany()
+                        .HasForeignKey("PlayerId")
+                        .HasPrincipalKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_cmu_balance_rating_responses_player_player_id");
+
+                    b.HasOne("Content.Server.Database.CMUBalanceRatingPoll", "Poll")
+                        .WithMany("Responses")
+                        .HasForeignKey("PollId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_cmu_balance_rating_responses_cmu_balance_rating_polls_poll_~");
+
+                    b.Navigation("Player");
+
+                    b.Navigation("Poll");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.CMURoundOutcome", b =>
+                {
+                    b.HasOne("Content.Server.Database.Round", "Round")
+                        .WithOne()
+                        .HasForeignKey("Content.Server.Database.CMURoundOutcome", "RoundId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_cmu_round_outcomes_round_round_id");
+
+                    b.Navigation("Round");
+                });
+
             modelBuilder.Entity("Content.Server.Database.ConnectionLog", b =>
                 {
                     b.HasOne("Content.Server.Database.Server", "Server")
@@ -3037,6 +3789,83 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasConstraintName("FK_job_profile_profile_id");
 
                     b.Navigation("Profile");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanApproval", b =>
+                {
+                    b.HasOne("Content.Server.Database.KabanAward", null)
+                        .WithMany()
+                        .HasForeignKey("AwardId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_rucm_kaban_approval_rucm_kaban_award_kaban_award_id");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanDiscordRole", b =>
+                {
+                    b.HasOne("Content.Server.Database.KabanPurchase", null)
+                        .WithMany()
+                        .HasForeignKey("PurchaseId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_rucm_kaban_discord_role_rucm_kaban_purchase_kaban_purchase_~");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanLedger", b =>
+                {
+                    b.HasOne("Content.Server.Database.KabanWallet", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_rucm_kaban_ledger_rucm_kaban_wallet_kaban_wallet_user_id");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanPurchase", b =>
+                {
+                    b.HasOne("Content.Server.Database.KabanProduct", null)
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_rucm_kaban_purchase_rucm_kaban_product_kaban_product_id");
+
+                    b.HasOne("Content.Server.Database.KabanWallet", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_rucm_kaban_purchase_rucm_kaban_wallet_kaban_wallet_user_id");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanToken", b =>
+                {
+                    b.HasOne("Content.Server.Database.KabanPurchase", null)
+                        .WithMany()
+                        .HasForeignKey("PurchaseId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_rucm_kaban_token_rucm_kaban_purchase_kaban_purchase_id");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanTokenUse", b =>
+                {
+                    b.HasOne("Content.Server.Database.KabanToken", null)
+                        .WithMany()
+                        .HasForeignKey("TokenId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_rucm_kaban_token_use_rucm_kaban_token_kaban_token_id");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.KabanVoice", b =>
+                {
+                    b.HasOne("Content.Server.Database.KabanPurchase", null)
+                        .WithMany()
+                        .HasForeignKey("PurchaseId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("FK_rucm_kaban_voice_rucm_kaban_purchase_kaban_purchase_id");
                 });
 
             modelBuilder.Entity("Content.Server.Database.Player", b =>
@@ -3537,11 +4366,6 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Navigation("Flags");
                 });
 
-            modelBuilder.Entity("Content.Server.Database.CMUBalanceRatingPoll", b =>
-                {
-                    b.Navigation("Responses");
-                });
-
             modelBuilder.Entity("Content.Server.Database.Ban", b =>
                 {
                     b.Navigation("Addresses");
@@ -3557,6 +4381,11 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Navigation("Rounds");
 
                     b.Navigation("Unban");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.CMUBalanceRatingPoll", b =>
+                {
+                    b.Navigation("Responses");
                 });
 
             modelBuilder.Entity("Content.Server.Database.ConnectionLog", b =>
@@ -3702,6 +4531,7 @@ namespace Content.Server.Database.Migrations.Postgres
 
                     b.Navigation("Rounds");
                 });
+
             modelBuilder.Entity("Content.Server.Database.YautjaClan", b =>
                 {
                     b.Navigation("Members");

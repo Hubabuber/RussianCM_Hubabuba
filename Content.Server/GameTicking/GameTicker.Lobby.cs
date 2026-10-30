@@ -314,6 +314,9 @@ namespace Content.Server.GameTicking
                 _playerGameStatuses[playerUserId] = status;
                 if (!_playerManager.TryGetSessionById(playerUserId, out var playerSession))
                     continue;
+                // CMU14: administrative readiness also respects the server's admission setting.
+                if (ready && !DiscordGate.CanPlay(playerSession))
+                    _playerGameStatuses[playerUserId] = PlayerGameStatus.NotReadyToPlay;
                 RaiseNetworkEvent(GetStatusMsg(playerSession), playerSession.Channel);
             }
             UpdateInfoText();
@@ -321,6 +324,7 @@ namespace Content.Server.GameTicking
 
         public void ToggleReady(ICommonSession player, bool ready)
         {
+            if (ready && !DiscordGate.EnsureCanPlay(player)) return; // CMU14
             if (!_playerGameStatuses.ContainsKey(player.UserId))
                 return;
 

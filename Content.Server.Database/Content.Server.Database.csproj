@@ -8,6 +8,11 @@
 
   <Import Project="../MSBuild/Content.props" />
 
+  <!-- CMU14: RuCM-owned database models and migrations live with the rest of RuCM content. -->
+  <ItemGroup>
+    <Compile Include="..\Content.RUMC\Database\**\*.cs" Link="RUMC\%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

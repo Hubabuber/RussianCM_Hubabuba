@@ -1,0 +1,21 @@
+rucm-discord-link-message = Привяжите игровой аккаунт RuCMU к Discord. Откройте «Настройки → Основное → Привязать Discord-аккаунт» в игре, скопируйте код и введите его после нажатия кнопки ниже. Код сообщайте только этой форме.
+rucm-discord-link-button = Привязать игровой аккаунт
+rucm-discord-link-title = Привязка игрового аккаунта
+rucm-discord-link-code = Код из настроек игры
+rucm-discord-link-wrong-channel = Привязка доступна только через кнопку в настроенном канале сервера.
+rucm-discord-link-invalid-code = Код не найден или уже использован. Получите новый код в настройках игры.
+rucm-discord-link-expired = Код устарел. Получите новый код в настройках игры.
+rucm-discord-link-conflict = Игровой аккаунт или Discord уже связан с другим аккаунтом. Существующая привязка сохранена. Для смены обратитесь к администрации.
+rucm-discord-link-success = Игровой аккаунт успешно привязан к Discord. Можно вернуться в игру.
+rucm-discord-link-already-linked = Этот игровой аккаунт уже привязан к вашему Discord. Всё готово.
+rucm-discord-link-busy = Слишком много запросов. Подождите несколько секунд и повторите попытку.
+rucm-discord-link-unavailable = Сейчас не удалось завершить привязку. Попробуйте ещё раз позднее.
+rucm-discord-link-instructions = Скопируйте код и нажмите «Открыть канал».
+    В Discord нажмите кнопку привязки и вставьте код в форму.
+rucm-discord-link-waiting-channel = Канал привязки пока не настроен или бот ещё подключается. Это окно обновится автоматически, когда ссылка появится.
+rucm-discord-link-connect-first = Сначала подключитесь к игровому серверу.
+cmd-discordlink-desc = Открыть привязку игрового аккаунта к Discord.
+cmd-discordlink-help = Использование: discordlink
+rucm-discord-link-settings-title = Привязка аккаунта Discord
+rucm-discord-link-required = На этом сервере для игры обязательна привязка Discord. Привяжите аккаунт в этом окне или через «Настройки → Основное → Привязать Discord-аккаунт». После привязки доступ откроется автоматически.
+rucm-discord-link-checking = Проверяем привязку Discord. Дождитесь загрузки данных аккаунта.

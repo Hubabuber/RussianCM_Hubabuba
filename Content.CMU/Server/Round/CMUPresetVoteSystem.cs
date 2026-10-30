@@ -52,6 +52,8 @@ public sealed partial class CMUPresetVoteSystem : EntitySystem
     {
         LockedPreset = preset;
         LockedRounds = rounds is { } count ? Math.Max(1, count) : null;
+        if (EntityManager.System<Content.Server._RuCM.Kaban.KabanSystem>().HasPendingForcing)
+            EntityManager.System<AuRoundSystem>().StartVoteSequence(); // CMU14: restart ordinary voting under the admin's lock.
     }
 
     public void ClearLock()
@@ -73,6 +75,7 @@ public sealed partial class CMUPresetVoteSystem : EntitySystem
             return;
         }
 
+        EntityManager.System<AuRoundSystem>().FilterKabanPresets(presets); // CMU14
         RemoveLastPlayedPreset(presets);
     }
 

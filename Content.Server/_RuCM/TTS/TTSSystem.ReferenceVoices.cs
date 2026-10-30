@@ -66,6 +66,13 @@ public sealed partial class TTSSystem
             return;
         }
 
+        // CMU14: only leadership may upload the consented model of a pending personal-voice application.
+        if (!_kaban.CanUploadVoice(session.UserId, ev.SpeakerName))
+        {
+            SendReferenceVoiceResult(session, ev.SpeakerName, AddReferenceVoiceResult.NotDonor);
+            return;
+        }
+
         var userId = session.UserId;
         if (_referenceVoiceUploads.Contains(userId) ||
             _referenceVoiceCooldowns.TryGetValue(userId, out var cooldown) && cooldown > _timing.CurTime)
@@ -151,7 +158,9 @@ public sealed partial class TTSSystem
 
     private bool CanCreateReferenceVoice(ICommonSession session)
     {
-        return _isEnabled && (!_referenceVoiceDonorOnly || _linkAccount.GetConnectedPatron(session)?.Tier != null);
+        // CMU14: new uploads require a reviewed application; disabling the economy never grants free uploads.
+        return _isEnabled && _kaban.Enabled && _kaban.IsManager(session.UserId);
+        // return _isEnabled && (!_referenceVoiceDonorOnly || _linkAccount.GetConnectedPatron(session)?.Tier != null);
     }
 
     private void OnReferenceVoiceDonorOnlyChanged(bool donorOnly)
@@ -245,6 +254,13 @@ public sealed partial class TTSSystem
                 return false;
             }
 
+            // CMU14: freeze legacy access once, before new models can be sold. A storage outage cannot throw into round startup.
+            if (!await _kaban.ImportLegacyVoices(voices.ToArray()))
+            {
+                _nextCatalogLoadAttempt = _timing.CurTime + TimeSpan.FromSeconds(30);
+                return false;
+            }
+
             _customVoices.Clear();
             _customVoices.UnionWith(voices);
             _catalogLoaded = true;
@@ -261,17 +277,19 @@ public sealed partial class TTSSystem
     {
         if (session.Status != SessionStatus.InGame)
             return;
-        RaiseNetworkEvent(new ReferenceVoiceCatalogResponse(GetReferenceVoiceCatalog()), session);
+        RaiseNetworkEvent(new ReferenceVoiceCatalogResponse(GetReferenceVoiceCatalog(session)), session); // CMU14
     }
 
     private void BroadcastReferenceVoiceCatalog()
     {
-        RaiseNetworkEvent(new ReferenceVoiceCatalogResponse(GetReferenceVoiceCatalog()));
+        // RaiseNetworkEvent(new ReferenceVoiceCatalogResponse(GetReferenceVoiceCatalog())); // CMU14: per-account access.
+        foreach (var session in _playerManager.Sessions) // CMU14
+            SendReferenceVoiceCatalog(session);
     }
 
-    private string[] GetReferenceVoiceCatalog()
+    private string[] GetReferenceVoiceCatalog(ICommonSession session) // CMU14
     {
-        return _customVoices.Order(StringComparer.OrdinalIgnoreCase).ToArray();
+        return _customVoices.Where(s => _kaban.CanUseVoice(session.UserId, s)).Order(StringComparer.OrdinalIgnoreCase).ToArray(); // CMU14
     }
 
     private void SendDeleteReferenceVoiceResult(
@@ -294,7 +312,7 @@ public sealed partial class TTSSystem
         RaiseNetworkEvent(new AddReferenceVoiceResponse(speakerName, result), session);
     }
 
-    private bool TryResolveSpeaker(string voiceId, out string speaker, Content.Shared.Humanoid.Sex sex = Content.Shared.Humanoid.Sex.Unsexed)
+    private bool TryResolveSpeaker(string voiceId, out string speaker, Content.Shared.Humanoid.Sex sex = Content.Shared.Humanoid.Sex.Unsexed, Guid? owner = null) // CMU14
     {
         if (_prototypeManager.TryIndex<TTSVoicePrototype>(voiceId, out var prototype))
         {
@@ -302,7 +320,7 @@ public sealed partial class TTSSystem
             return true;
         }
 
-        if (CustomTTSVoice.TryGetSpeaker(voiceId, out speaker) && _customVoices.Contains(speaker))
+        if (CustomTTSVoice.TryGetSpeaker(voiceId, out speaker) && _customVoices.Contains(speaker) && _kaban.CanUseVoice(owner, speaker)) // CMU14
             return true;
         // A deleted custom voice must not leave an existing character permanently silent.
         if (CustomTTSVoice.TryGetSpeaker(voiceId, out _) && _catalogLoaded)

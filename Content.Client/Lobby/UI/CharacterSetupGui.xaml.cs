@@ -56,6 +56,7 @@ namespace Content.Client.Lobby.UI
             };
 
             CharEditor.AddChild(profileEditor);
+            InitializeRuCMAccountEntries(); // CMU14: personal record and Kaban store live in personalization.
             CrtLobbyTheme.Apply(this);
             RulesButton.OnPressed += _ => new RulesAndInfoWindow().Open();
 

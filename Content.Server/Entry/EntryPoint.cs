@@ -162,6 +162,7 @@ namespace Content.Server.Entry
             }
 
             _admin.Initialize();
+            Dependencies.Resolve<Content.Server._RMC14.Discord.RMCDiscordManager>().Start(); // CMU14: one game-owned bot.
             _afk.Initialize();
             _rules.Initialize();
             _discordLink.Initialize();

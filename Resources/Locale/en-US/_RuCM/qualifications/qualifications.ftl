@@ -365,7 +365,7 @@ rucm-qualifications-reset-recruit = Return to Recruit
 rucm-qualifications-reset-recruit-help = Revokes all military and professional certifications, clears current checklists and disables instructor accreditation. History is retained. Management, CO and administrators reset immediately; an officer needs a second officer signature. The player can train again.
 rucm-qualifications-error-reset_pending = A return-to-Recruit request already awaits confirmation for this player.
 
-cmd-qualificationentrypreview-desc = Capture local lobby and Escape record buttons, then close the client.
+cmd-qualificationentrypreview-desc = Capture local personalization and Escape record buttons, then close the client.
 cmd-qualificationentrypreview-help = qualificationentrypreview
 
 rucm-qualifications-gate-insurgency = Insurgency · training admission
@@ -375,7 +375,7 @@ rucm-qualifications-gate-timers-help = Qualifications currently do not gate role
 
 rucm-qualifications-preview-disconnected-only = Local screen capture is available only while disconnected.
 
-rucm-qualifications-entry-preview-title = Local preview · lobby action column
+rucm-qualifications-entry-preview-title = Local preview · personalization
 
 rucm-qualifications-nav-recruit-reset = Return to Recruit
 rucm-qualifications-help-recruit-reset = Reset the selected account to basic training. Verify the name, enter a reason and confirm your decision.

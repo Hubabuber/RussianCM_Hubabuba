@@ -21,6 +21,7 @@ public sealed partial class AuVoteRuleSystem : GameRuleSystem<AuVoteRuleComponen
     private bool _waitingForMinimumPlayers;
     private bool _voteStartDelayed;
     private int _voteDelayGen;
+    private bool _startedForLobby; // CMU14: simultaneous connection callbacks must not restart a claimed sequence.
 
     // Only keep the persistent system trigger and dependency injection
     public override void Initialize()
@@ -39,6 +40,7 @@ public sealed partial class AuVoteRuleSystem : GameRuleSystem<AuVoteRuleComponen
 
     private void OnRoundRestartCleanup(RoundRestartCleanupEvent ev)
     {
+        _startedForLobby = false;
         // Delay only covers the post-boot connect window; restarts with enough players re-run at once.
         _voteDelayGen++;
         var gen = _voteDelayGen;
@@ -59,7 +61,11 @@ public sealed partial class AuVoteRuleSystem : GameRuleSystem<AuVoteRuleComponen
             PauseForMinimumPlayers();
         }
         else
-            TryStartVoteSequence();
+            Timer.Spawn(0, () =>
+            {
+                if (gen == _voteDelayGen)
+                    TryStartVoteSequence(); // CMU14: all cleanup subscribers must finish before a new paid reservation starts.
+            });
     }
 
     private void PlayerStatusChanged(object? sender, SessionStatusEventArgs args)
@@ -73,7 +79,7 @@ public sealed partial class AuVoteRuleSystem : GameRuleSystem<AuVoteRuleComponen
 
     private void TryStartVoteSequence()
     {
-        if (_voteStartDelayed)
+        if (_voteStartDelayed || _startedForLobby)
             return;
 
         if (!AuLobbyVoteGate.ShouldStartVoteSequence(
@@ -90,9 +96,10 @@ public sealed partial class AuVoteRuleSystem : GameRuleSystem<AuVoteRuleComponen
         }
 
         _waitingForMinimumPlayers = false;
+        _startedForLobby = true;
         var voteManagerSystem = _entityManager.System<AuRoundSystem>();
-        voteManagerSystem.StartVoteSequence(() => { });
         RestartCountdownAfterMinimumPlayers();
+        voteManagerSystem.StartVoteSequence(() => { }); // CMU14: restore the selection window before claiming a queued round.
     }
 
     private void PauseForMinimumPlayers()

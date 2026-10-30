@@ -1,0 +1,18 @@
+# CMU14: start disabled; configure and validate on a disposable database first.
+[rmc]
+discord_token = "" # Existing game bot token, stored locally. No separate account-link bot.
+discord_account_linking_channel = "" # Text channel ID; publishes/reuses the link button automatically.
+discord_account_linking_required = false # Enable only in the live server's local configuration.
+
+[rucm.kaban]
+enabled = false
+shop = false
+priorities = false
+forcing = false # Enable after validating the future-round queue and starts on a test server.
+tts = false
+discord = false
+managers = "" # Comma-separated authenticated game account UUIDs.
+senior_managers = ""
+server_id = "rucmu-main" # Unique and stable for every server sharing this database.
+discord_guild = ""
+discord_boundary_role = ""

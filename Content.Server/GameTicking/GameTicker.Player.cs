@@ -99,6 +99,13 @@ namespace Content.Server.GameTicking
                     var inGameAt = DateTime.UtcNow;
                     LogSlowJoinTransition(session, "GameTicker received InGame");
 
+                    if (DiscordGate.Required) // CMU14: load the verified link before restoring control of an existing character.
+                    {
+                        DiscordGate.WaitForLink(session);
+                        StartUserDataLoad(session);
+                        break;
+                    }
+
                     if (mind == null)
                     {
                         if (LobbyEnabled)
@@ -279,6 +286,7 @@ namespace Content.Server.GameTicking
 
         public void PlayerJoinGame(ICommonSession session, bool silent = false)
         {
+            if (!DiscordGate.EnsureCanPlay(session)) return; // CMU14
             LogSlowJoinTransition(session, "GameTicker sending game join");
 
             if (!silent)
@@ -314,7 +322,8 @@ namespace Content.Server.GameTicking
                     "InGame status was set");
             }
 
-            _playerGameStatuses[session.UserId] = LobbyEnabled ? PlayerGameStatus.NotReadyToPlay : PlayerGameStatus.ReadyToPlay;
+            _playerGameStatuses[session.UserId] = LobbyEnabled || !DiscordGate.CanPlay(session)
+                ? PlayerGameStatus.NotReadyToPlay : PlayerGameStatus.ReadyToPlay; // CMU14
 
             var client = session.Channel;
             RaiseNetworkEvent(new TickerJoinLobbyEvent(), client);

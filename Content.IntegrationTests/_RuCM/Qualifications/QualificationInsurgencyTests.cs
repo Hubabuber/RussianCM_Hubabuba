@@ -70,13 +70,13 @@ public sealed class QualificationInsurgencyTests : GameTest
         });
     }
     [Test]
-    public async Task LobbyAndEscapeButtonsComposePublicPanelsWithoutDuplicatesOrPrivilegeLeak()
+    public async Task PersonalizationAndEscapeButtonsComposePublicPanelsWithoutDuplicatesOrPrivilegeLeak()
     {
         await Client.WaitAssertion(() =>
         {
-            using var lobby = new Content.Client.Lobby.UI.LobbyGui();
-            var first = Content.Client._RuCM.Qualifications.QualificationEntrySystem.AttachLobby(lobby, () => { });
-            var again = Content.Client._RuCM.Qualifications.QualificationEntrySystem.AttachLobby(lobby, () => { });
+            using var personalization = new Robust.Client.UserInterface.Controls.BoxContainer();
+            var first = Content.Client._RuCM.Qualifications.QualificationEntrySystem.AttachPersonalization(personalization, () => { });
+            var again = Content.Client._RuCM.Qualifications.QualificationEntrySystem.AttachPersonalization(personalization, () => { });
             Assert.That(again, Is.SameAs(first)); Assert.That(first.Visible, Is.True);
             Assert.That(first.ToolTip, Is.Not.Empty);
             using var escape = new Content.Client.Options.UI.EscapeMenu();
@@ -125,7 +125,7 @@ public sealed class QualificationInsurgencyTests : GameTest
     }
 
     [Test]
-    public async Task ActualScreenEventsAddButtonsAndLobbyButtonOpensRecordOverNetwork()
+    public async Task PersonalizationButtonOpensRecordOverNetworkAndStaffEscapeEntryRemainsAvailable()
     {
         await Server.WaitPost(() =>
         {
@@ -136,10 +136,9 @@ public sealed class QualificationInsurgencyTests : GameTest
         await Client.WaitAssertion(() =>
         {
             var ui = Client.ResolveDependency<Robust.Client.UserInterface.IUserInterfaceManager>();
-            ui.LoadScreen<Content.Client.Lobby.UI.LobbyGui>();
-            var lobby = (Content.Client.Lobby.UI.LobbyGui) ui.ActiveScreen;
-            var button = Content.Client._RuCM.Qualifications.QualificationEntrySystem.Descendants(lobby)
-                .OfType<Robust.Client.UserInterface.Controls.Button>().Single(b => b.Name == "RuCMQualificationLobby");
+            var personalization = new Robust.Client.UserInterface.Controls.BoxContainer();
+            ui.StateRoot.AddChild(personalization);
+            var button = Client.System<Content.Client._RuCM.Qualifications.QualificationEntrySystem>().AttachPersonalization(personalization);
             var size = new System.Numerics.Vector2(1280, 900);
             foreach (var control in Content.Client._RuCM.Qualifications.QualificationEntrySystem.Descendants(ui.RootControl).Prepend(ui.RootControl))
             { control.InvalidateMeasure(); control.InvalidateArrange(); }

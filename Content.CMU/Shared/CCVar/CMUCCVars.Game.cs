@@ -38,7 +38,7 @@ public sealed partial class CCVars
     /// Excludes the last played gamemode from new preset votes, unless it is the sole eligible option.
     /// </summary>
     public static readonly CVarDef<bool> VoteExcludeLastPlayed =
-        CVarDef.Create("cmu.game.vote_exclude_last_played", false, CVar.SERVERONLY | CVar.ARCHIVE); // RuMC edit
+        CVarDef.Create("cmu.game.vote_exclude_last_played", true, CVar.SERVERONLY | CVar.ARCHIVE);
 
     public static readonly CVarDef<bool> MuteScriptedSounds =
         CVarDef.Create("cmu.game.mute_scripted_sfx", false, CVar.CLIENTONLY | CVar.ARCHIVE);
