@@ -1,3 +1,4 @@
+using Content.Client.RUMC.Marines.Squads.Specialization;
 using Content.Shared._RMC14.Marines.Squads.Specialization;
 using JetBrains.Annotations;
 using Robust.Client.GameObjects;
