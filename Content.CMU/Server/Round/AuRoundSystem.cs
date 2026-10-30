@@ -1,4 +1,3 @@
-using Content.Shared.GameTicking;
 using Content.Server.Chat.Managers;
 using Content.Server.GameTicking;
 using Content.Server.Preferences.Managers;
@@ -145,60 +144,6 @@ namespace Content.Server.CMU14.Round
             if (_kabanChoice != null && _selectedPreset != null && _selectedPreset.ID != preset?.ID)
                 StopVoteSequence(false); // CMU14: retain the new ticker preset while discarding the old paid plan.
             _selectedPreset = preset;
-            EnsureDefaultSelectionForPreset();
-        }
-
-        public void EnsureDefaultSelectionForPreset()
-        {
-            if (_selectedPreset == null)
-                return;
-
-            if (_selectedPlanet == null)
-            {
-                var planetIds = GamePlanetPoolPrototype.ExpandPlanetIds(
-                    _prototypeManager,
-                    _selectedPreset.PlanetPool,
-                    _selectedPreset.SupportedPlanets);
-
-                foreach (var pid in planetIds)
-                {
-                    if (_prototypeManager.TryIndex<EntityPrototype>(pid, out var proto) &&
-                        proto.TryComp(out RMCPlanetMapPrototypeComponent? planetComp, IoCManager.Resolve<IComponentFactory>()))
-                    {
-                        _state.SetPlanet(pid, planetComp);
-                        SetCamoType(planetComp.Camouflage);
-                        break;
-                    }
-                }
-            }
-
-            if (_selectedPlanet != null)
-            {
-                var platoonSpawnRuleSystem = _entityManager.EntitySysManager.GetEntitySystem<PlatoonSpawnRuleSystem>();
-                if (platoonSpawnRuleSystem.SelectedGovforPlatoon == null && !string.IsNullOrEmpty(_selectedPlanet.DefaultGovforPlatoon))
-                {
-                    if (_prototypeManager.TryIndex<PlatoonPrototype>(_selectedPlanet.DefaultGovforPlatoon, out var govPlatoon))
-                    {
-                        platoonSpawnRuleSystem.SelectedGovforPlatoon = govPlatoon;
-                        var intelSys = _entityManager.EntitySysManager.GetEntitySystem<IntelSystem>();
-                        if (!string.IsNullOrEmpty(govPlatoon.TechTree))
-                            intelSys?.SetTeamTechTreeOverride(Team.GovFor, govPlatoon.TechTree);
-                    }
-                }
-
-                if (platoonSpawnRuleSystem.SelectedOpforPlatoon == null && !string.IsNullOrEmpty(_selectedPlanet.DefaultOpforPlatoon))
-                {
-                    if (_prototypeManager.TryIndex<PlatoonPrototype>(_selectedPlanet.DefaultOpforPlatoon, out var opPlatoon))
-                    {
-                        platoonSpawnRuleSystem.SelectedOpforPlatoon = opPlatoon;
-                        var intelSys = _entityManager.EntitySysManager.GetEntitySystem<IntelSystem>();
-                        if (!string.IsNullOrEmpty(opPlatoon.TechTree))
-                            intelSys?.SetTeamTechTreeOverride(Team.OpFor, opPlatoon.TechTree);
-                    }
-                }
-            }
-
-            _gameTicker.UpdateInfoText();
         }
         public void SetSelectedThreat(ThreatPrototype? threat)
         {
@@ -234,16 +179,10 @@ namespace Content.Server.CMU14.Round
 
             base.Initialize();
             SubscribeLocalEvent<LoadingMapsEvent>(OnLoadingMaps);
-            SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestartCleanup);
             _voteSequence.Reset();
             _state.Reset();
             SelectedPlanetMap = null;
 
-        }
-
-        private void OnRoundRestartCleanup(RoundRestartCleanupEvent ev)
-        {
-            Timer.Spawn(100, EnsureDefaultSelectionForPreset);
         }
 
         /// <summary>
